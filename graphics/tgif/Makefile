@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	tgif-3.0-p17
-PKGNAME=	tgif-3.0p17
+DISTNAME=	tgif-3.0.18
+PKGNAME=	tgif-3.0p18
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		ftp://ftp.cs.ucla.edu/pub/tgif/
