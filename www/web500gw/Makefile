@@ -15,9 +15,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	bjn@visi.com
 
 BUILD_DEPENDS=	${PREFIX}/lib/libldap.a:${PORTSDIR}/net/ldap
-RUN_DEPENDS=	${INSTDIR}:${PORTSDIR}/www/apache12
 
-INSTDIR=	${PREFIX}/www/cgi-bin
+INSTDIR=	${PREFIX}/bin
 
 MAKE_ENV=	PLATFORMCFLAGS="${CFLAGS} -DUSE_SYSCONF" \
 		INSTDIR=${INSTDIR} \
@@ -32,5 +31,6 @@ WEB500GWDIR=	${PREFIX}/etc/web500gw
 
 post-install:
 	strip ${INSTDIR}/web500gw
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
