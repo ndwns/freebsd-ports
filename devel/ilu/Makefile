@@ -70,11 +70,11 @@ SHLIBPATCH=files/shlib-elf.patch
 # The FreeBSD Java Development Kit is still in aout object format.
 # You might want to enable it if you have an ELF JDK and/or build
 # a seperate aout ILU runtime to use with Java.
-CONFIGURE_ARGS+=	--disable-java-support 
+CONFIGURE_ARGS+=	--disable-java-support
 .else
 SHLIBPATCH=files/shlib-aout.patch
 # Java support on -stable does not work (ILU runtime dumps core).
 # You might want to enable it if you know what you are doing.
 # Maybe taking -O out of patches/patch-1-cra-cflags help.
-CONFIGURE_ARGS+=	--disable-java-support 
+CONFIGURE_ARGS+=	--disable-java-support
 .endif
