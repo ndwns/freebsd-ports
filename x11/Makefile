@@ -91,6 +91,7 @@
     SUBDIR += xloadimage
     SUBDIR += xlockmore
     SUBDIR += xlogout
+    SUBDIR += xlupe
     SUBDIR += xmangekyou
     SUBDIR += xmascot
     SUBDIR += xmold
