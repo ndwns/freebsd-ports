@@ -15,8 +15,6 @@ MAINTAINER=	davidn@blaze.net.au
 
 BUILD_DEPENDS=	${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf:${PORTSDIR}/x11-toolkits/iv
 
-BROKEN_ELF=	depends on broken iv port
-
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
 MAKE_ENV=	CPU=FREEBSD
