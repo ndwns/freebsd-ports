@@ -9,7 +9,9 @@
 DISTNAME=	Sharity-Light.1.0.s
 PKGNAME=	sharity-light-1.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.obdev.at/pub/Products/SharityLight
+MASTER_SITES=	ftp://ftp.obdev.at/pub/Products/Sharity-Light/	\
+		ftp://ftp.rhrz.uni-bonn.de/pub-koeln/net/samba/	\
+		ftp://ftp.warpnet.ro/mirrors/ftp.obdev.at/pub/Products/Sharity-Light/
 
 MAINTAINER=	dt@FreeBSD.ORG
 
