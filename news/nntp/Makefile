@@ -16,7 +16,6 @@ MAINTAINER=	adam@veda.is
 
 BUILD_DEPENDS=	${PREFIX}/lib/libcnews.a:${PORTSDIR}/news/cnews
 
-BROKEN=		depends on cnews, which is broken
 MAN1=		nntpxmit.1
 MAN8=		nntpd.8c mkgrdates.8c
 
