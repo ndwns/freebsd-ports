@@ -234,7 +234,8 @@ while [ "$1" ]; do
 			fi	
 			;;
 		\"PostgreSQL\")
-			echo "LIB_DEPENDS+=	pq.2:\${PORTSDIR}/databases/postgresql7"
+			echo "POSTGRESQL_PORT?=	databases/postgresql7"
+			echo "LIB_DEPENDS+=	pq.3:\${PORTSDIR}/\${POSTGRESQL_PORT}"
 			WITH_PGSQL="--with-authpgsql"
 			WITH_PGSQL="${WITH_PGSQL} --with-pgsql-libs=${PGSQLBASE}/lib"
 			WITH_PGSQL="${WITH_PGSQL} --with-pgsql-includes=${PGSQLINCLUDES}"
