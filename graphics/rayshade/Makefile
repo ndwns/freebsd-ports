@@ -17,6 +17,8 @@ MAINTAINER=     ports@FreeBSD.ORG
 
 BUILD_DEPENDS=	$(LOCALBASE)/lib/librle.a:${PORTSDIR}/graphics/urt
 
+BROKEN_ELF=	yes
+
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS+=	< ${WRKDIR}/config.ans
