@@ -28,6 +28,7 @@
     SUBDIR += qcc
     SUBDIR += quakeserver
     SUBDIR += spider
+    SUBDIR += starlanes
     SUBDIR += tksol
     SUBDIR += xasteroids
     SUBDIR += xbat
