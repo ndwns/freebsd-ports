@@ -11,7 +11,7 @@ PKGNAME=	slrn-0.9.4.3
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.clara.net/pub/unix/Usenet/
 
-MAINTAINER=	mcj@acquiesce.org
+MAINTAINER=	ports@freebsd.org
 
 LIB_DEPENDS=	slang\\.0\\.99[0-9][0-9]:${PORTSDIR}/devel/libslang
 
