@@ -7,6 +7,7 @@
     SUBDIR += catdoc
     SUBDIR += dict
     SUBDIR += docbook
+    SUBDIR += docbook-xml
     SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
     SUBDIR += dtd-catalogs
