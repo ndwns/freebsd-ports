@@ -10,6 +10,7 @@
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
+    SUBDIR += kakasi
     SUBDIR += kinput2-canna
     SUBDIR += kinput2-canna+wnn
     SUBDIR += kinput2-wnn
