@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.cert.dfn.de/pub/tools/net/yale-tftpd/
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN_ELF=	classes/libclasses.a
+
 NO_WRKSUBDIR=
 
 .include <bsd.port.mk>
