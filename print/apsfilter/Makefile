@@ -1,4 +1,4 @@
-# FreeBSD ports collection makefile for: apsfilter
+# New ports collection makefile for:	apsfilter
 # Version required: 	4.9.3
 # Date created: 	Tue Nov 14 18:29:48 MET 1995
 # Whom: 		Andreas Klemm <andreas@klemm.gtn.com>

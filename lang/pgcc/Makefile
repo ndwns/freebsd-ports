@@ -11,16 +11,16 @@ PKGNAME=	pgcc-2.7.2c
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-PATCH_SITES=    ftp://ftp.goof.com/pub/pcg/source/ \
-                ftp://ftp.maisel.int-evry.fr/pub/linux/pentium/source/ \
-                ftp://ftp.pmi.saitama-med.ac.jp/pub/pcg/
+MAINTAINER=	andreas@FreeBSD.ORG
+
+PATCH_SITES=	ftp://ftp.goof.com/pub/pcg/source/ \
+		ftp://ftp.maisel.int-evry.fr/pub/linux/pentium/source/ \
+		ftp://ftp.pmi.saitama-med.ac.jp/pub/pcg/
 
 PATCHFILES=	gcc-2.7.2-970628.diff.gz \
 		pgcc-970628-970706.diff.gz \
 		pgcc-970706-970713.diff.gz \
 		pgcc-970713-970721.diff.gz
-
-MAINTAINER=	andreas@FreeBSD.ORG
 
 FETCH_DEPENDS=	${PREFIX}/bin/autoconf:${PORTSDIR}/devel/autoconf
 

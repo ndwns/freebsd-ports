@@ -18,8 +18,8 @@ NO_CDROM=	"have to ask the company, if we are allowed to put it on CDROM"
 RESTRICTED=	"only free for non-profit organis. like schools + universities"
 NO_PACKAGE=	"we are not allowed, sorry"
 
-# dnewsweb is a cgi program that allows you to read and post news through 
-# your WWW Navigator of your choice, so that you don't need a special 
+# dnewsweb is a cgi program that allows you to read and post news through
+# your WWW Navigator of your choice, so that you don't need a special
 # news reader. Default is, not to install dnewsweb.
 
 pre-fetch:

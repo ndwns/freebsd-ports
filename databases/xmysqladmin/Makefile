@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://mysql.staufen.de/pub/mysql/Contrib/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql    
+BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.:${PORTSDIR}/x11/xforms
 

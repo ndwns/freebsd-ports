@@ -34,7 +34,7 @@ do-install:
 	@${MKDIR} ${PREFIX}/${DISTNAME}/www/logs
 	@${MKDIR} ${PREFIX}/${DISTNAME}/www/notes
 	@${MKDIR} ${PREFIX}/${DISTNAME}/tmp
-	@/usr/bin/touch ${PREFIX}/${DISTNAME}/tmp/.keep_me
+	@${TOUCH} ${PREFIX}/${DISTNAME}/tmp/.keep_me
 	${INSTALL_DATA} ${WRKSRC}/README \
 				${PREFIX}/${DISTNAME}/README
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/bb \

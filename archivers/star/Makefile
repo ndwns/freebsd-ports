@@ -10,9 +10,6 @@ DISTNAME=	star-1.1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/star/
 
-#PATCH_SITES=	${MASTER_SITES}
-#PATCHFILES=	star-1.0.patch-1 star-1.0.patch-2
-
 MAINTAINER=	andreas@FreeBSD.org
 
 USE_GMAKE=	yes

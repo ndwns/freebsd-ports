@@ -16,7 +16,7 @@ BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX \
 		ispell:${PORTSDIR}/textproc/ispell
 LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
-		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
+		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
