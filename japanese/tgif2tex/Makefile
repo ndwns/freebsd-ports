@@ -1,7 +1,7 @@
 # New ports collection makefile for:	tgif2tex for Japanese
 # Version required:	1.46
 # Date created:		12 Mar 1998
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #

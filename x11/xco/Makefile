@@ -11,7 +11,7 @@ PKGNAME=	xco-1.3
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.cs.purdue.edu:/pub/bingle/
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 USE_IMAKE=	yes
 MAN1=		xco.1

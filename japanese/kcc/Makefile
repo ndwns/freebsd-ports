@@ -1,7 +1,7 @@
 # New ports collection makefile for: kcc
 # Version required:	2.0
 # Date created:		26 May 1997
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ PKGNAME=	ja-kcc-1.0
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 INSTALL_TARGET=	install install.man
 MANLANG=	ja

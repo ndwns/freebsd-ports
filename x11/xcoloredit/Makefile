@@ -12,7 +12,7 @@ CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 USE_IMAKE=	yes
 MAN1=		xcoloredit.1

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	jvim
 # Version required:	jvim2.0r+onew2.2.10
 # Date created:		5 Sep 1997
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	japanese editors
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Japan/onew/ \
 		ftp://ftp.leo.chubu.ac.jp/pub/editor/jvim/
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 PATCHDIR=	${.CURDIR}/../jvim/patches
 FILESDIR=	${.CURDIR}/../jvim/files

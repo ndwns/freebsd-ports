@@ -1,7 +1,7 @@
 # New ports collection makefile for:	jvim3 for Wnn4
 # Version required:	3.0-j1.3j
 # Date created:		98/11/17
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #

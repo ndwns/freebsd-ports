@@ -1,7 +1,7 @@
 # New ports collection makefile for:	prn
 # Version required:	2.0
 # Date created:		19 Jun 1997
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ PKGNAME=	ja-prn-1.0
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 RUN_DEPENDS=	kcc:${PORTSDIR}/japanese/kcc
 

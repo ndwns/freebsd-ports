@@ -1,7 +1,7 @@
 # New ports collection makefile for:	mule 2.3@19.34
 # Version required:	2.3@19.34
 # Date created:		6 July 1997
-# Whom:			Satoshi Taoka <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -19,7 +19,7 @@ PATCH_SITES=	ftp://etlport.etl.go.jp/pub/mule/
 PATCHFILES=	mule-23-1934-alpha01.diff.gz
 PATCH_DIST_STRIP= -p1
 
-MAINTAINER?=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER?=	taoka@FreeBSD.org
 
 RUN_DEPENDS=	${PREFIX}/share/${EMACS_PREFIX}/19.34/lisp/mule.el:${PORTSDIR}/editors/mule-common
 LIB_DEPENDS=	${LIB_INPUT_METHOD}

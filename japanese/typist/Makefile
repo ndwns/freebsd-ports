@@ -12,7 +12,7 @@ CATEGORIES=	japanese
 MASTER_SITES=	ftp://tuba.csedu.kobe-u.ac.jp/pub/UNIX/
 EXTRACT_SUFX=	.src.tar.gz
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAN1=		typist.1

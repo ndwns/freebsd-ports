@@ -1,7 +1,7 @@
 # New ports collection makefile for:	Wnn for Japanese
 # Version required:	4.2
 # Date created:		20 July 1997
-# Whom:			Satoshi Taoka <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.u-tokyo.ac.jp/pub/Japanese/Wnn/ \
 		http://www.infonets.hiroshima-u.ac.jp/~taoka/FreeBSD/Wnn/
 DISTFILES=	Wnn4.2.tar.gz ${WNN_EXTRA_PATCH}
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 BUILD_DEPENDS=	imake:${PORTSDIR}/x11/XFree86
 

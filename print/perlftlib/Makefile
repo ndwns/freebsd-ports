@@ -1,7 +1,7 @@
 # New ports collection makefile for:	perlftlib
 # Version required:	1.2
 # Date created:		98/12/22
-# Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
+# Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.big.or.jp/pub/usr2/jam/ft/ \
 		${MASTER_SITE_PORTS_JP} \
 		http://WWW.FreeBSD.ORG/~sada/distfiles/
 
-MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
+MAINTAINER=	taoka@FreeBSD.org
 
 LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
 RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/jcode.pl:${PORTSDIR}/japanese/p5-jcode.pl
