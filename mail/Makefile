@@ -4,6 +4,7 @@
     SUBDIR += elm
     SUBDIR += elm+mime
     SUBDIR += elm+pgp
+    SUBDIR += elm+pgp+mime
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
