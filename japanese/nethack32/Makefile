@@ -7,13 +7,12 @@
 #
 
 DISTNAME=	nethack-3.2.1
-PKGNAME=	jp-nethack-1.0.5.2.2
+PKGNAME=	jp-nethack-1.0.5.2
 CATEGORIES+=	japanese games
 MASTER_SITES=	ftp://ftp.uu.net/usenet/comp.sources.games/
 
 PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/jnethack/
-PATCHFILES=	jnethack-1.0.5.1.gz jn-1.0.5.2-beta-960821.gz \
-		jn-1.0.5.2-beta-960822.gz
+PATCHFILES=	jnethack-1.0.5.2.gz
 
 MAINTAINER=	max@sfc.wide.ad.jp
 
