@@ -1,16 +1,16 @@
 # New ports collection makefile for:    p5-Parallel-UA
 # http://www.cs.washington.edu/homes/marclang/ParallelUA/
-# Version required:                     2.36
+# Version required:                     2.*
 # Date created:                         Sep 8 1998
 # Whom:                                 ache@freebsd.org
 #
 # $Id$
 #
 
-DISTNAME=       ParallelUserAgent-2.36
-PKGNAME=        p5-ParallelUA-2.36
+DISTNAME=       ParallelUserAgent-2.38
+PKGNAME=        p5-ParallelUA-2.38
 CATEGORIES=     www perl5 devel
-MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITES=   ${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     LWP
 
 MAINTAINER=     ache@FreeBSD.ORG
