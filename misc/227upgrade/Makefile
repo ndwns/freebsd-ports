@@ -15,7 +15,7 @@ MAINTAINER=	asami@Freebsd.ORG
 .include <bsd.port.pre.mk>
 
 .if !defined(PACKAGE_BUILDING)
-BROKEN=		this \"port\" is for building packages for distribution only
+BROKEN=		this \"port\" is for building packages for distribution only, please get the package from http://www.freebsd.org/ports/ if you need an upgrade
 .elif ${OSVERSION} >= 300000
 IGNORE=		this needs to be built on a 2.2-stable system
 .endif
