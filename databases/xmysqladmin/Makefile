@@ -10,7 +10,7 @@ DISTNAME=	xmysqladmin-0.4.4
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
-		http://web.tryc.on.ca/mysql/Contrib/ \
+		http://web.tryc.on.ca/mysql/Downloads/Contrib/ \
 		http://mysql.acer.net/Contrib/
 
 MAINTAINER=	andreas@FreeBSD.ORG
