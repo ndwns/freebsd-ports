@@ -6,15 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	iNES07-FreeBSD-80x86-bin
-PKGNAME=	ines-0.7
+DISTNAME=	iNES10-FreeBSD-80x86-bin
+PKGNAME=	ines-1.0
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.komkon.org/fms/iNES/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	nacai@iname.com
 
-WRKSRC=		${WRKDIR}/NES
+NO_WRKSUBDIR=	yes
 USE_X_PREFIX=	yes
 NO_BUILD=	yes
 
@@ -28,7 +28,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ines ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/ines-debug ${PREFIX}/bin
 	@${MKDIR} ${PREFIX}/share/ines
-	@${INSTALL_DATA} ${WRKSRC}/iNES.doc ${PREFIX}/share/ines
+	@${INSTALL_DATA} ${WRKSRC}/iNES.html ${PREFIX}/share/ines
 	@${INSTALL_DATA} ${WRKSRC}/headers.tgz ${PREFIX}/share/ines
 	@${INSTALL_DATA} ${WRKSRC}/CART.* ${PREFIX}/share/ines
 
