@@ -3,7 +3,7 @@
 # Date created:		14 February 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xphoon

@@ -3,7 +3,7 @@
 # Date created:		16 April 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	wmSpaceWeather-1.04
 PKGNAME=	wmspaceweather-1.04

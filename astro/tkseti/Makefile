@@ -3,7 +3,7 @@
 # Date created:		30 Jun 1999
 # Whom:			Brett Taylor <brett@peloton.physics.montana.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkseti-1.42

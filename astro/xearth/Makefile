@@ -3,7 +3,7 @@
 # Date created:         29 October 1995
 # Whom:                 piero
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xearth-1.0

@@ -3,7 +3,7 @@
 # Date created:		21 Feb 1998
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       saoimage-1.22

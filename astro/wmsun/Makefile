@@ -3,7 +3,7 @@
 # Date created:		16 April 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	wmSun-1.03
 PKGNAME=	wmsun-1.03

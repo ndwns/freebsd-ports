@@ -3,7 +3,7 @@
 # Date created:        14 March 1999
 # Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmMoonClock-1.26

@@ -3,7 +3,7 @@
 # Date created:		03 July 1996
 # Whom:			ABURAYER Rewsirow <rewsirow@ff.iij4u.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	luna19

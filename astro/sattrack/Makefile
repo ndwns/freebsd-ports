@@ -3,7 +3,7 @@
 # Date created:                      6 Apr 1996
 # Whom:                              Brent J. Nordquist <bjn@visi.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=          sattrack-3.1.6

@@ -3,7 +3,7 @@
 # Date created:		10 Jul 1996
 # Whom:			searle
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	stars-1.0-ss-10.20

@@ -3,7 +3,7 @@
 # Date created:        20 January 1998
 # Whom:                Kris Kennaway <kris@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xglobe-0.2

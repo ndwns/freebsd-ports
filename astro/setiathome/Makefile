@@ -3,7 +3,7 @@
 # Date created:         22 Apr 1999
 # Whom:                 stb@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	setiathome-1.2

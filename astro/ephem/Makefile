@@ -3,7 +3,7 @@
 # Date created:		3 April 1997
 # Whom:			eserte
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ephem_4.28_unix

@@ -3,7 +3,7 @@
 # Date created:		15 September 1996
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sunclock-1.4

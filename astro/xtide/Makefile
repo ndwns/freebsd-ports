@@ -3,7 +3,7 @@
 # Date created:        30 August 1997
 # Whom:                Brion Moss <brion@queeg.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xtide-1.6.2

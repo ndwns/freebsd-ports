@@ -3,7 +3,7 @@
 # Date created:		15 April 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	x3arth-1.1
