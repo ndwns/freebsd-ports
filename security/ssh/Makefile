@@ -48,7 +48,8 @@ CONFIGURE_ARGS+= --with-etcdir=${PREFIX}/etc
 #CONFIGURE_ARGS+= --with-none
 
 .if defined(KRB5_HOME) && exists(${KRB5_HOME})
-CONFIGURE_ARGS+=--with-kerberos5=${KRB5_HOME} --enable-kerberos-tgt-passing
+CONFIGURE_ARGS+=--with-kerberos5=${KRB5_HOME} --enable-kerberos-tgt-passing \
+	--disable-suid-ssh
 .endif
 
 # Include support for the SecureID card
