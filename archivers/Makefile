@@ -9,9 +9,11 @@
     SUBDIR += ha
     SUBDIR += hpack.non-usa.only
     SUBDIR += lha
+    SUBDIR += linux_rar
     SUBDIR += lzo
     SUBDIR += nulib
     SUBDIR += p5-Compress-Zlib
+    SUBDIR += pkzip
     SUBDIR += rar
     SUBDIR += unace
     SUBDIR += unarj
