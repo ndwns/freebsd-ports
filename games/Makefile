@@ -89,6 +89,7 @@
     SUBDIR += xroach
     SUBDIR += xrobots
     SUBDIR += xrubik
+    SUBDIR += xscavenger
     SUBDIR += xscrabble
     SUBDIR += xshisen
     SUBDIR += xshogi
