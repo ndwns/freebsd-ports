@@ -24,6 +24,8 @@ MAINTAINER=	brianfeldman@hotmail.com
 LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
+BROKEN=		package
+
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
 MAN1=		olvwm.1 olvwmrc.1
