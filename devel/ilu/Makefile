@@ -26,13 +26,13 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}/ilu
 
 INSTALL_TARGET=	Install
 PLIST=		${WRKSRC}/PLIST
-TMPPLIST=	${PLIST}
 
 # Startup script, run at boot time
 startup_dir=	${PREFIX}/etc/rc.d
 startup_script=	${startup_dir}/50.ilu.sh
 
-post-install:
+do-install:
+	@(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
 	# Empty dir, but we really need it
 	${ECHO} @exec ${MKDIR} %D/ilu/lib/binding > ${PLIST}
 	${ECHO} @unexec ${RM} -r %D/ilu/lib/binding >> ${PLIST}
