@@ -12,4 +12,7 @@ MASTER_SITES=  http://www.freebsd.org/~wosch/src/
 
 MAINTAINER=    wosch@FreeBSD.ORG
 
+MAN1=		movemail.1
+MANCOMPRESSED=	maybe
+
 .include <bsd.port.mk>
