@@ -9,7 +9,7 @@
 DISTNAME=	xa+cv-0.6
 PKGNAME=	zh-xa+cv-0.6
 CATEGORIES=	chinese
-MASTER_SITES=	ftp://linux.tmtc.edu.tw/pub/CLE/devel/source/tarball/
+MASTER_SITES=	ftp://freebsd.sinica.edu.tw/pub/clive/
 
 MAINTAINER=	clive@CirX.ORG
 
