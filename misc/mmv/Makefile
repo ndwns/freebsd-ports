@@ -15,6 +15,7 @@ DISTFILES=	part01.Z part02.Z mmv.pch.Z
 
 MAINTAINER=	me@FreeBSD.org
 
+RESTRICTED=	"Restrictive copyright."
 DIST_SUBDIR=	${DISTNAME}
 SITE_DISTFILES= volume21/mmv/part01.Z volume21/mmv/part02.Z volume22/mmv.pch.Z
 NO_WRKSUBDIR=	yes
