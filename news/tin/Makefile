@@ -12,10 +12,10 @@ PKGNAME=        tin-1.3.961020
 CATEGORIES+=	news
 MASTER_SITES=	ftp://ftp.akk.uni-karlsruhe.de/pub/tin/  \
 		ftp://nuxi.cs.ucdavis.edu/pub/tin/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ache@FreeBSD.org
 
-EXTRACT_SUFX=	.tgz
 WRKSRC=		${WRKDIR}/${DISTNAME:S/tin1.3-unoff-BETA-//}
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=  cf_cv_corefile=yes
@@ -32,7 +32,6 @@ ALL_TARGET=     build
 .if defined(NNTP_ONLY)
 CONFIGURE_ARGS+=	--enable-nntp-only
 .endif
-
 
 post-configure:
 	echo '#define NNTP_SERVER_FILE "${PREFIX}/etc/nntpserver"' >>${WRKSRC}/include/autoconf.h
