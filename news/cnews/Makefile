@@ -21,9 +21,8 @@ NEWSLIB=	${PREFIX}/lib/news
 MANDIR=		${PREFIX}/man
 
 do-install:
-	mkdir -p ${PREFIX}/include ${PREFIX}/lib
-	cp {WRKSRC}/libdbz/dbz.h ${PREFIX}/include
-	cp {WRKSRC}/libcnews.a ${PREFIX}/lib
+	cp ${WRKSRC}/libdbz/dbz.h ${PREFIX}/include
+	cp ${WRKSRC}/libcnews.a ${PREFIX}/lib
 	mkdir -p ${NEWSSPOOL}
 	ln -s ${NEWSSPOOL} /var/news
 	mkdir -p ${NEWSBIN} ${NEWSLIB}
