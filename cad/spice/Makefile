@@ -18,7 +18,6 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	kaveman@magna.com.au
 
-RESTRICTED=	"export restrictions"
 NO_WRKSUBDIR=	yes
 MAN1=		sconvert.1 nutmeg.1 spice.1
 MAN3=		mfb.3
