@@ -18,6 +18,7 @@ MAINTAINER=	freebsd@scotty.masternet.it
 USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 MAKEFILE=	makefile
+ALL_TARGET=	pmars
 MAN6=		pmars.6
 
 do-install:
