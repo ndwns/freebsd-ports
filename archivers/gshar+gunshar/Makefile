@@ -9,5 +9,6 @@ DISTNAME=       sharutils-4.1.3
 MASTER_SITES=   ftp://ftp.iro.umontreal.ca/pub/contrib/pinard/
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --program-prefix=g --disable-uucode --prefix=${PREFIX}
+INSTALL_TARGET= install install-man
 
 .include <bsd.port.mk>
