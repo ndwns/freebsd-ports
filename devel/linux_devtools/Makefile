@@ -14,6 +14,8 @@ MAINTAINER=	erich@FreeBSD.org
 
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+BROKEN_ELF=	library names
+
 PREFIX=		/compat/linux
 NO_MTREE=	yes
 NO_BUILD=	yes
