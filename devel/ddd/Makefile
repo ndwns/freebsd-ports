@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	ddd-2.1.1
+DISTNAME=	ddd-2.2.3
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/  \
 		ftp://richb-pc.acc.qc.edu/pub/ddd/  \
@@ -28,12 +28,16 @@ post-configure:
 post-install:
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/ddd
-	${INSTALL_DATA} ${WRKSRC}/FAQ ${PREFIX}/share/doc/ddd
 	${INSTALL_DATA} ${WRKSRC}/PROBLEMS ${PREFIX}/share/doc/ddd
+	${INSTALL_DATA} ${WRKSRC}/doc/README ${PREFIX}/share/doc/ddd
 	${INSTALL_DATA} ${WRKSRC}/doc/ddd-paper.ps ${PREFIX}/share/doc/ddd
 	${INSTALL_DATA} ${WRKSRC}/doc/ddd.man.ps ${PREFIX}/share/doc/ddd
+	${INSTALL_DATA} ${WRKSRC}/doc/sample.dddinit ${PREFIX}/share/doc/ddd
 	${GZIP_CMD} ${PREFIX}/share/doc/ddd/ddd-paper.ps
 	${GZIP_CMD} ${PREFIX}/share/doc/ddd/ddd.man.ps
 .endif
+
+check:
+	(cd ${WRKSRC} ; ${GMAKE} check)
 
 .include <bsd.port.mk>
