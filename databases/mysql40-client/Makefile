@@ -17,6 +17,8 @@ MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/My
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
+BROKEN='fetch -- 3.22.13-beta is the current distfile'
+
 MANUAL_PACKAGE_BUILD=	incompatible with mysql321
 NO_LATEST_LINK=	yes
 MAN1=		mysql.1
