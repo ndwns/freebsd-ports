@@ -15,6 +15,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} nfb7502.zip
 
 MAINTAINER=	max@FreeBSD.ORG
 
+BROKEN="fetch, nfb7507 is the latest"
+
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 RESTRICTED=	"Unclear copyright status"
