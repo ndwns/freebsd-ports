@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       gnats-3.2
-CATEGORIES+=	development
+CATEGORIES+=	databases devel
 MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ \
 		ftp://ftp.uu.net/systems/gnu/
 
