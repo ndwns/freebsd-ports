@@ -33,6 +33,7 @@
     SUBDIR += ijb
     SUBDIR += libpics
     SUBDIR += libwww
+    SUBDIR += linbot
     SUBDIR += linemode
     SUBDIR += linux-netscape4
     SUBDIR += lynx
