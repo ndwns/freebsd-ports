@@ -30,6 +30,7 @@
     SUBDIR += x48
     SUBDIR += xcopilot
     SUBDIR += xgs
+    SUBDIR += xmame
     SUBDIR += xzx
 
 .include <bsd.port.subdir.mk>
