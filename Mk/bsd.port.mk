@@ -505,7 +505,6 @@ fetch: pre-fetch
 makesum: fetch
 	@if [ ! -d ${FILESDIR} ]; then mkdir -p ${FILESDIR}; fi
 	@if [ -f ${MD5_FILE} ]; then rm -f ${MD5_FILE}; fi
-	
 	@(cd ${DISTDIR}; \
 	for file in ${DISTFILES}; do \
 		${MD5} $$file >> ${MD5_FILE}; \
