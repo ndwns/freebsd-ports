@@ -1,20 +1,20 @@
 # New ports collection makefile for:	expect
 # Date created:		20 November 1994
 # Whom:			pst
-# Version required:	5.28
+# Version required:	5.30
 #
 # $Id$
-#
-# Note this file is included from japanese/expect/Makefile
 
-DISTNAME=	expect-5.28
+DISTNAME=	expect
+PKGNAME=	expect-5.30
 CATEGORIES=	lang tcl80 tk80
-MASTER_SITES=	ftp://peloton.physics.montana.edu/pub/distfiles/
+MASTER_SITES=	http://expect.nist.gov/
 
 MAINTAINER=	ports@freebsd.org
 
 LIB_DEPENDS?=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
+WRKSRC=		${WRKDIR}/${PKGNAME}
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS?= --enable-shared \
 		--with-tclconfig=${PREFIX}/lib/tcl8.0 \
@@ -31,13 +31,13 @@ MAN3=		libexpect.3
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
-SOLIB=	libexpect528.so.1
+SOLIB=	libexpect530.so.1
 .else
-SOLIB=	libexpect528.so.1.2
+SOLIB=	libexpect530.so.1.2
 .endif
 
 post-install:
-	${LN} -sf ${SOLIB} ${PREFIX}/lib/libexpect528.so
+	${LN} -sf ${SOLIB} ${PREFIX}/lib/libexpect530.so
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.post.mk>
