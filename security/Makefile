@@ -3,6 +3,7 @@
 
     SUBDIR += SSLeay
     SUBDIR += bro
+    SUBDIR += bugs
     SUBDIR += cfs
     SUBDIR += cops
     SUBDIR += crack
