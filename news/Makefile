@@ -9,6 +9,7 @@
     SUBDIR += nn-current
     SUBDIR += nntp
     SUBDIR += nntpbtr
+    SUBDIR += nntpcache
     SUBDIR += rkive
     SUBDIR += slnr
     SUBDIR += slurp
