@@ -8,8 +8,8 @@
 
 DISTNAME=		perl5.001
 PKGNAME=		perl-5.001
-CATEGORIES+=		languages
-MASTER_SITES=		ftp://ftp.sun.ac.za/pub/gnu/
+CATEGORIES+=            languages development programming
+MASTER_SITES=           ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.sun.ac.za/pub/gnu/
 EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=	markm@FreeBSD.ORG
