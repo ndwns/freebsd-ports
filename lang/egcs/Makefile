@@ -29,6 +29,7 @@ EGCS_REV=	egcs-2.91.60
 LIBSTDCPP_REV=	2.9.0
 
 .if ${PORTOBJFORMAT} == "elf"
+PLIST=		${WRKDIR}/PLIST
 #GNUHOST=	${ARCH}-unknown-freebsdelf${OSREL}
 GNUHOST=	${ARCH}-unknown-freebsdelf
 .else
@@ -51,6 +52,9 @@ pre-configure:
 	${SED} -e "s:__FreeBSD__:__FreeBSD__=$${MAJ}:" freebsd.h.in >freebsd.h ; \
 	${MV} freebsd-elf.h freebsd-elf.h.in ; \
 	${SED} -e "s:__FreeBSD__:__FreeBSD__=$${MAJ}:" freebsd-elf.h.in >freebsd-elf.h)
+.if ${PORTOBJFORMAT} == "elf"
+	@${SED} -e 's/^@comment ELF-only://' ${PKGDIR}/PLIST >${PLIST}
+.endif
 
 pre-install:
 	${MKDIR} ${PREFIX}/info
