@@ -8,6 +8,7 @@
     SUBDIR += coolmail
     SUBDIR += cucipop
     SUBDIR += cyrus
+    SUBDIR += distribute
     SUBDIR += elm
     SUBDIR += emil
     SUBDIR += exim
