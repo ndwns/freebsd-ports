@@ -12,14 +12,8 @@ MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/
 
 MAINTAINER=	A.C.P.M.Kalker@student.utwente.nl
 
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} >= 300000
-BROKEN=         tcp_subr.c
-.endif
-
 WRKSRC=		${WRKDIR}/slirp-1.0c/src
-HAS_CONFIGURE=	yes
+GNU_CONFIGURE=	yes
 MAN1=		slirp.1
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
