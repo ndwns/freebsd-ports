@@ -18,6 +18,7 @@
     SUBDIR += uzap
     SUBDIR += vile
     SUBDIR += vim
+    SUBDIR += vim5beta
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
