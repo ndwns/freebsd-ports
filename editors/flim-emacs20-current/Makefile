@@ -37,13 +37,21 @@ EMACS_VER=	20.3
 EMACS_LIBDIR=	share/${EMACS_NAME}
 EMACS_CMD=	${PREFIX}/bin/${EMACS_NAME}-${EMACS_VER}
 
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} >= 300006
+MAKEINFO=	makeinfo --no-split --force
+.else
+MAKEINFO=	makeinfo --no-split
+.endif
+
 post-build:
 	@(cd ${WRKSRC} ; \
 	for i in mime-en.texi mime-ja.texi; do \
 		${MV} $${i} $${i}.jis ; \
 		${CAT} $${i}.jis | nkf -e > $${i} ; \
 		${ECHO} "===>   Please ignore the following errors." ; \
-		makeinfo --no-split $${i} || ${TRUE} ; \
+		${MAKEINFO} $${i} || ${TRUE} ; \
 	done)
 
 post-install:
@@ -59,4 +67,4 @@ post-install:
 	done
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
