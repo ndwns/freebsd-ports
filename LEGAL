@@ -80,6 +80,8 @@ prodosemu.*		ports/emulators/prodosemu	Restrictive copyright on the ROM image
 qvplay-*		ports/graphics/qvplay	No redistribution due to
 						beta status
 quake101.zip		ports/games/quakeserver	Shareware
+radius*			ports/net/radius	Binary redistribution only,
+						no fee allowed
 rkive3.1.tar.gz		ports/news/rkive	Restrictive copyright
 rman-2.4.tar.Z		ports/misc/rman		Restrictive copyright
 rman-3.*		ports/textproc/rman	Don't sell for profit

@@ -14,6 +14,10 @@ DISTFILES=	radius.23c.basic.tar.gz
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+# restrictive copyright in several files, e.g., "src/sendserver.c"
+RESTRICTED=	redistribution in binary only
+NO_CDROM=	not allowed to charge fee for redistribution
+
 NO_WRKSUBDIR=	yes
 INSTALL_TARGET=	install-all
 MAKE-FLAGS+=	-DPREFIX=${PREFIX}
