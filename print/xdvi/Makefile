@@ -15,6 +15,7 @@ DISTFILES=	xdvi.tar.Z
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
+USE_GMAKE=	yes
 IS_INTERACTIVE=	yes
 
 .if !defined(BATCH)
