@@ -103,6 +103,7 @@
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += portscanner
+    SUBDIR += ppp-nt
     SUBDIR += pppload
     SUBDIR += proftpd
     SUBDIR += queso
