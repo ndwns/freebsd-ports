@@ -36,6 +36,7 @@
     SUBDIR += screen
     SUBDIR += splitvt
     SUBDIR += team
+    SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
     SUBDIR += trans
