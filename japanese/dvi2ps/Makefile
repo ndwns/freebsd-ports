@@ -14,7 +14,7 @@ DISTFILES=	dvi2ps-2.0j-beta4.tar.gz
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-BUILD_DEPENDS=	${PREFIX}/lib/VFlib.a:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
 
 post-patch:
 	@(cd ${WRKSRC}; make newlib)

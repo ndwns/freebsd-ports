@@ -20,8 +20,7 @@ DISTFILES=	xdvi-17.tar.gz xdvi-17miyu.patch-beta6.gz \
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-BUILD_DEPENDS=	${LOCALBASE}/lib/VFlib.a:${PORTSDIR}/japanese/vflib
-RUN_DEPENDS= 	${LOCALBASE}/lib/VFlib/vfontcap:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	xdvi
