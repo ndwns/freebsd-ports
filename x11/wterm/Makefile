@@ -8,9 +8,8 @@
 
 DISTNAME=	wterm-6.2.6
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.dct.com/pub/WindowMaker/WTerm/ \
-		http://wm.current.nu/files/ \
-		ftp://pong.csh.rit.edu/pub/mirrors/wterm/
+MASTER_SITES=	ftp://beer.dct.com/pub/Applications/ \
+		http://wm.current.nu/files/
 
 MAINTAINER=	cpiazza@home.net
 
