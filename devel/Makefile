@@ -67,12 +67,10 @@
     SUBDIR += ncurses
     SUBDIR += noweb
     SUBDIR += omniORB
-    SUBDIR += p5-B
     SUBDIR += p5-BSD-Resource
     SUBDIR += p5-C-Scan
     SUBDIR += p5-ConfigReader
     SUBDIR += p5-Curses
-    SUBDIR += p5-Data-Dumper
     SUBDIR += p5-Data-Flow
     SUBDIR += p5-Data-ShowTable
     SUBDIR += p5-Date-Manip
