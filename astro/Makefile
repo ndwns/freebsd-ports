@@ -5,6 +5,7 @@
     SUBDIR += luna
     SUBDIR += saoimage
     SUBDIR += sattrack
+    SUBDIR += ssystem
     SUBDIR += stars
     SUBDIR += sunclock
     SUBDIR += xearth
