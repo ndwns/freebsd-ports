@@ -18,6 +18,8 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
 
+BROKEN=		upgrade
+
 MAJ=		1
 MIN=		40
 USE_GMAKE=	yes
