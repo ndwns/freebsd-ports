@@ -13,5 +13,6 @@
     SUBDIR += lunar
     SUBDIR += nvi-big5
     SUBDIR += nvi-euc-cn
+    SUBDIR += nvi-euc-tw
 
 .include <bsd.port.subdir.mk>
