@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME?=	ja-yatex-1.65.6
+PKGNAME=	ja-yatex-1.65.6
 CATEGORIES=	japanese print
 
 MULE=		yes

@@ -7,6 +7,7 @@
 #
 
 PKGNAME=	ja-yatex-xemacs-1.65.6
+CATEGORIES=	japanese print
 
 XEMACS-MULE=	yes
 
