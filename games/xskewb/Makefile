@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xskewb
-# Version required:			5.4.3
+# Version required:			5.4.4
 # Date created:				25 March 1998
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=		xskewb-5.4.3
+DISTNAME=		xskewb-5.4.4
 CATEGORIES=		games x11
 MASTER_SITES=		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/xpuzzles
