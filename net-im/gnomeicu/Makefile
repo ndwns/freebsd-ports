@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=		gnomeicu-0.62a
+DISTNAME=		gnomeicu-0.64
 CATEGORIES=		net gnome
 MASTER_SITES=		ftp://gnomeicu.gdev.net/pub/gnomeicu/          \
 			http://www.nectar.com/distfiles/
