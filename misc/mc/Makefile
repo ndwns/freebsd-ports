@@ -11,11 +11,13 @@ CATEGORIES=	misc
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--prefix=${PREFIX} --with-ncurses
+CONFIGURE_ARGS=	--with-ncurses
 
 STRIP=
 
 post-install:
+.if !defined(NOMANCOMPRESS)
 	@gzip -9nf ${PREFIX}/man/man1/mc.1 ${PREFIX}/man/man8/mcserv.8
+.endif
 
 .include <bsd.port.mk>
