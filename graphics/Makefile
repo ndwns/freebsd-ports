@@ -41,7 +41,7 @@
     SUBDIR += netpbm
     SUBDIR += p5-GD
     SUBDIR += p5-Image-Size
-    SUBDIR += p5-ImageMagick
+    SUBDIR += p5-PerlMagick
     SUBDIR += p5-chart
     SUBDIR += pgperl
     SUBDIR += pgplot
