@@ -14,6 +14,8 @@ EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 BUILD_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS += pgp:${PORTSDIR}/security/pgp
 
