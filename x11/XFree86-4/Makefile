@@ -46,7 +46,7 @@ do-build:
 	@(cd ${WRKSRC}; echo Good night...; make World)
 	@touch ${WRKDIR}/.build_done
 
-install:
+do-install:
 	@(cd ${WRKSRC}; make install; make install.man)
 	@touch ${WRKDIR}/.install_done
 .if defined(X11_ON_CDROM) 
@@ -77,16 +77,18 @@ do-extract:
 .elif defined(X11_VIA_FTP)
 .include "Makefile.ftp"
 .else
-all:
-	@echo -n
 do-fetch:
-	@echo -n
+	@echo Please set one of the 3 variables X11_ON_X_CDROM, X11_ON_OR_CDROM, or X11_VIA_FTP 
+	@echo before building ${PKGNAME}
+	@false
 do-extract:
 	@echo -n
 do-configure:
 	@echo -n
 do-build:
-	@echo -n
+	@echo Please set one of the 3 variables X11_ON_X_CDROM, X11_ON_OR_CDROM, or X11_VIA_FTP 
+	@echo before building ${PKGNAME}
+	@false
 do-install:
 	@echo -n
 .endif
