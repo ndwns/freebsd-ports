@@ -1,11 +1,11 @@
 # New ports collection makefile for:    viewfax
-# Version required:     2.2
+# Version required:     2.3
 # Date created:         16 sept 1995
 # Whom:                 jmz
 #
 # $Id$
 #
-DISTNAME=        viewfax-2.2
+DISTNAME=        viewfax-2.3
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.leo.org/pub/comp/networking/communication/modem/mgetty/
 
