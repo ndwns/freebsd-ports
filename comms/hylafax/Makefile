@@ -48,6 +48,7 @@ SUID_EXES= 	${PREFIX}/sbin/faxgetty ${PREFIX}/sbin/faxq \
 pre-configure:
 	@${RM} -f ${WRKSRC}/tiff.h 
 	@${RM} -f ${WRKSRC}/tiffio.h 
+	@ln -s ${PREFIX}/include/tiff34.h ${WRKSRC}/tiff34.h
 	@ln -s ${PREFIX}/include/tiff34.h ${WRKSRC}/tiff.h
 	@ln -s ${PREFIX}/include/tiffio34.h ${WRKSRC}/tiffio.h
 
