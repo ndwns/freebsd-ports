@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       pysol-2.11
+DISTNAME=       pysol-2.12
 CATEGORIES=	games
 MASTER_SITES=	http://wildsau.idv.uni-linz.ac.at/mfx/download/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${CARDSETS}${EXTRACT_SUFX}
