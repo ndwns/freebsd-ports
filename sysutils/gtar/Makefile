@@ -13,6 +13,6 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	andreas@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--program-prefix=g
+CONFIGURE_ARGS=--program-prefix=g
 
 .include <bsd.port.mk>
