@@ -8,13 +8,12 @@
 
 DISTNAME=       yaps-0.96
 CATEGORIES=	comms
-MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/comm/
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/comm/ \
+		ftp://ftp.cdrom.com/pub/linux/sunsite/apps/serialcomm/machines/
 
 MAINTAINER=     se@FreeBSD.ORG
 
 USE_GMAKE=	true
-
-BROKEN=		fetch
 
 MAN1=		yaps.1
 
