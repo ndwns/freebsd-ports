@@ -192,9 +192,9 @@ pre-install:
 .endif
 
 .if !target(install)
-install: ${INSTALL_COOKIE}
+install: pre-install ${INSTALL_COOKIE}
 
-${INSTALL_COOKIE}: pre-install
+${INSTALL_COOKIE}:
 	@echo "===>  Installing for ${DISTNAME}"
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} install)
