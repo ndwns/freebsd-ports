@@ -1,5 +1,5 @@
 # New ports collection makefile for:	dgd-net
-# Version required:	1.0.84
+# Version required:	1.0.86
 # Date created:		17 June 1996
 # Whom:			adam
 #
@@ -47,7 +47,11 @@ PATCHFILES=	1.0.37-1.0.39.gz \
 		1.0.83-1.0.84.gz \
 		1.0.84-1.0.85.gz \
 		1.0.85-1.0.86.gz \
-		net-10.dgd-86.gz
+		net-10.dgd-86.gz \
+		1.0.86-1.0.87.gz \
+		1.0.87-1.0.88.gz \
+		1.0.88-1.0.89.gz \
+		1.0.89-1.0.90.gz
 
 MAINTAINER=	adam@veda.is
 
