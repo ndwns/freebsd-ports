@@ -10,7 +10,7 @@ DISTNAME=	apsfilter-4.9.3
 CATEGORIES+=	print
 MASTER_SITES=	ftp://freefall.FreeBSD.org/pub/FreeBSD/LOCAL_PORTS/
 
-MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=	andreas@klemm.gtn.com
 
 RUN_DEPENDS=	gs4:${PORTSDIR}/print/ghostscript4 \
 		transfig:${PORTSDIR}/print/transfig \
