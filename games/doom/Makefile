@@ -14,6 +14,7 @@ DISTFILES=	linux-doom-1.8.tar.gz musserver.tgz smooth-joystick4doom.tgz
 
 MANINAINER=	erich@FreeBSD.org
 
+BUILD_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
 NO_WRKSUBDIR=	yes
