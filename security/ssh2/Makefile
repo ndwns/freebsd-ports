@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ssh-1.2.10
-CATEGORIES=	security
+CATEGORIES=	security networking
 MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/security/ \
 		ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
 
