@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
 
 MAINTAINER=	ac199@freenet.hamilton.on.ca
 
-BUILD_DEPENDS=	${PREFIX}/lib/libuu.a:${PORTSDIR}/devel/uulib
+LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/devel/uulib
 
 FILESDIR=	${.CURDIR}/../../devel/uulib/files
 GNU_CONFIGURE=	Yes
