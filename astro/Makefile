@@ -9,6 +9,7 @@
     SUBDIR += ssystem
     SUBDIR += stars
     SUBDIR += sunclock
+    SUBDIR += wmglobe
     SUBDIR += wmmoonclock
     SUBDIR += wmspaceweather
     SUBDIR += wmsun
