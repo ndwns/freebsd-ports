@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.iwd.uni-bremen.de/pub/tex/xtem/
 
 MAINTAINER=     ports@FreeBSD.ORG
 
-BROKEN_ELF=	patch
-
 RUN_DEPENDS=	wishx:${PORTSDIR}/lang/tclX80
 .if defined(BUILD_IT_ALL)
 RUN_DEPENDS+=	gv:${PORTSDIR}/print/gv \
@@ -30,9 +28,9 @@ post-extract:
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 post-patch:
-	@/usr/bin/perl -pi.bak -e "s|@WISHX@|${PREFIX}/bin/wishx|; \
-		s|@TCLSH@|${PREFIX}/bin/tclsh8.0|; \
-		s|@XTEMPATH@|${PREFIX}/share/xtem|" \
+	@/usr/bin/perl -pi.bak -e "s|\@WISHX\@|${PREFIX}/bin/wishx|; \
+		s|\@TCLSH\@|${PREFIX}/bin/tclsh8.0|; \
+		s|\@XTEMPATH\@|${PREFIX}/share/xtem|" \
 		${WRKSRC}/xtem
 
 post-install:
