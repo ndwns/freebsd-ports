@@ -92,7 +92,6 @@
     SUBDIR += portlint
     SUBDIR += prc-tools
     SUBDIR += prcs
-    SUBDIR += qgl
     SUBDIR += sawt
     SUBDIR += scogdb
     SUBDIR += sfio
