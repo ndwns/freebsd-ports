@@ -29,7 +29,7 @@
 #
 #	afterinstall, all, beforeinstall, build, checksum, clean,
 #	clean-for-cdrom, clean-restricted, configure, deinstall,
-#	depend, depends, describe, extract, fetch, fetch-list,
+#	depend, depends, describe, extract, fetch, fetch-list, ignorelist,
 #	install, package, package-loop, readmes, realinstall, reinstall, tags
 #
 
@@ -82,7 +82,8 @@ ${SUBDIR}::
 .for __target in all fetch fetch-list package package-loop extract configure \
 		 build clean clean-for-cdrom clean-restricted \
 		 deinstall depend depends describe distclean \
-		 reinstall tags checksum
+		 reinstall tags checksum \
+		 ignorelist
 .if !target(${__target})
 ${__target}: _SUBDIRUSE
 .endif
