@@ -36,7 +36,7 @@ do-install:
 	-${PREFIX}/bin/pgp > /dev/null  2>&1  # update .idx file
 
 .if !defined(USA_RESIDENT) || ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
-exec_depends:
+fetch-depends:
 	@echo
 	@echo You must set variable USA_RESIDENT to YES, if you are USA resident
 	@echo or to NO, if you aren\'t USA resident to build this package
