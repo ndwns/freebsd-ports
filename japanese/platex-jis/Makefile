@@ -34,5 +34,6 @@ do-install:
 	${MKDIR} ${TEXMF}/tex/platex/base
 	@${CP} ${WRKSRC}/* ${TEXMF}/tex/platex/base
 	${MV} -f ${TEXMF}/tex/platex/base/platex.fmt ${TEXMF}/web2c
+	/bin/ln -fs ptex ${PREFIX}/bin/platex
 
 .include <bsd.port.mk>
