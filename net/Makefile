@@ -57,6 +57,7 @@
     SUBDIR += telnetx
     SUBDIR += tintin++
     SUBDIR += tinyfugue
+    SUBDIR += traceroute
     SUBDIR += trafshow
     SUBDIR += ucd-snmp
     SUBDIR += wais
