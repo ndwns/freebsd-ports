@@ -9,7 +9,7 @@
     SUBDIR += fwtk
     SUBDIR += john
     SUBDIR += libident
-    SUBDIR += nat
+    SUBDIR += nbaudit
     SUBDIR += p5-Authen-Radius
     SUBDIR += p5-Crypt-DES
     SUBDIR += p5-Crypt-IDEA
