@@ -16,5 +16,6 @@ GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 ALL_TARGET = 	enough
 NO_WRKSUBDIR=	yes
+STRIP=
 
 .include <bsd.port.mk>
