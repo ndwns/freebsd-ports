@@ -12,6 +12,8 @@ MASTER_SITES=		ftp://ftp.ta.jcu.cz/pub/aa/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+BROKEN=			build
+
 GNU_CONFIGURE=		yes
 
 pre-configure:
