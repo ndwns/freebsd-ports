@@ -7,7 +7,7 @@
 
 usage()
 {
-	echo "$0: usage: $0 [ start | stop ]"
+	echo "$0: usage: $0 [ start | stop | restart ]"
 	exit 1
 }
 
