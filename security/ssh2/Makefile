@@ -9,7 +9,7 @@
 # USE_PERL, USE_TCPWRAP
 #
 
-DISTNAME=       ssh-1.2.25
+DISTNAME=       ssh-1.2.26
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.funet.fi/pub/unix/security/login/ssh/
 
