@@ -58,6 +58,7 @@
     SUBDIR += oonsoo
     SUBDIR += pente
     SUBDIR += pp
+    SUBDIR += pysol
     SUBDIR += qcc
     SUBDIR += qstat
     SUBDIR += quakeserver
