@@ -9,6 +9,7 @@
     SUBDIR += agm
     SUBDIR += an
     SUBDIR += angband
+    SUBDIR += antipolix
     SUBDIR += awele
     SUBDIR += battalion
     SUBDIR += blackjack
