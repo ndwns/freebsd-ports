@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.mandrake.net/pub/Eterm/ \
 
 MAINTAINER=	murray@cdrom.com
 
-LIB_DEPENDS=	Imlib\\.1\\.:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	Imlib.1:${PORTSDIR}/graphics/imlib
 
 WRKSRC=		$(WRKDIR)/Eterm-DR-0.7
 USE_GMAKE=	yes
