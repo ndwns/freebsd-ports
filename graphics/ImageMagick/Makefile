@@ -21,6 +21,8 @@ LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		png\\.0\\.:${PORTSDIR}/graphics/png \
 		jbig\\.0\\.:${PORTSDIR}/graphics/jbigkit
 
+# Checksum changes often. Bad port, no cookie.
+IGNOREFILES=	${DISTFILES}
 WRKSRC=		${WRKDIR}/ImageMagick
 USE_IMAKE=	YES
 
