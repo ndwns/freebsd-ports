@@ -23,6 +23,7 @@ RESTRICTED += ivs            # crypto, export controlled
     SUBDIR += moxftp
     SUBDIR += ncftp2
     SUBDIR += netscape
+    SUBDIR += netscape2
     SUBDIR += nv
     SUBDIR += pcnfsd
     SUBDIR += pmf
