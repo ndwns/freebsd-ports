@@ -54,7 +54,7 @@ do-install:
 .endif
 
 .for i in ${LIBFILES}
-	${INSTALL_PROGRAM} ${WRKSRC}/${i} ${PREFIX}/lib/rvplayer5.0/
+	${INSTALL_DATA} ${WRKSRC}/${i} ${PREFIX}/lib/rvplayer5.0/
 .endfor
 
 	${INSTALL_PROGRAM} ${WRKSRC}/rvplayer ${PREFIX}/bin/
