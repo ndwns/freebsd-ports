@@ -8,7 +8,9 @@
 
 DISTNAME=       xcdplayer-2.2
 CATEGORIES=	audio
-MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Sun/
+MASTER_SITES=	ftp://ftp.x.org/R5contrib/ \
+		ftp://ftp.cdrom.com/pub/X11/R5contrib/
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
