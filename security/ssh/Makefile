@@ -56,7 +56,7 @@ CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 CONFIGURE_ARGS+= --with-rsaref
-LIB_DEPENDS+=	rsaref.2:${PORTSDIR}/security/rsaref
+BUILD_DEPENDS+= ${PORTSDIR}/security/rsaref/work/.extract_done:${PORTSDIR}/security/rsaref
 .endif
 
 .if defined(KRB5_HOME) && exists(${KRB5_HOME})
