@@ -24,6 +24,7 @@
     SUBDIR += xgrasp
     SUBDIR += xli
     SUBDIR += xpaint
+    SUBDIR += xpdf
     SUBDIR += xpm
     SUBDIR += xv
 
