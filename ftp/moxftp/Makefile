@@ -20,7 +20,7 @@ STRIP=
 #	athena - for athena version,
 #	athena3d - for athena 3 d version, (you should have installed Xaw3d!!!)
 #	openlook - for open look version - (not tested!!!)
-# If you use athena3d uncomment DEPENDS !!!
+# If you use athena3d uncomment LIB_DEPENDS !!!
 .if defined(HAVE_MOTIF)
 CONFIGURE_ARGS=	motif
 PROGRAM_NAME=mftp
@@ -30,6 +30,8 @@ CONFIGURE_ARGS=	athena
 PROGRAM_NAME=xftp
 RESOURCE_NAME=Xftp
 .endif
+
+#LIB_DEPENDS=	Xaw3d\\.6:${PORTSDIR}/x11/Xaw3d
 
 .if !defined (NOMANCOMPRESS)
   GZIP_EXT=.gz
