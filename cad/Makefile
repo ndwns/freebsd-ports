@@ -12,6 +12,7 @@
     SUBDIR += pcb
     SUBDIR += sis
     SUBDIR += spice
+    SUBDIR += tkgate
     SUBDIR += xcircuit
 
 .include <bsd.port.subdir.mk>
