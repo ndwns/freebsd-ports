@@ -16,6 +16,9 @@ DISTFILES=	${DISTNAME}.tgz kaffe-0.9.1-package-biss-net.com.tgz \
 
 MAINTAINER=	xaa@stack.nl
 
+RESTRICTED=	"No redistribution of the Java(tm) Development Kit"
+NO_PACKAGE=	${RESTRICTED}
+
 GNU_CONFIGURE=	yes
 MAN1=		kaffe.1
 
