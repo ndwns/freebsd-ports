@@ -7,18 +7,17 @@
 #
 
 DISTNAME=	nethack-3.2.2
-PKGNAME=	nethack-3.2.2-qt
+PKGNAME=	nethack-qt-3.2.2
 CATEGORIES=	games x11
 MASTER_SITES=	ftp://ftp.uu.net/pub/games/nethack/sources/ \
 		http://www.uq.edu.au/~cswallis/nhqt/ \
 		http://student.uq.edu.au/~s002434/ \
 		${MASTER_SITE_GNU}
-
-MAINTAINER=	andreas@FreeBSD.ORG
-
 QT_PATCH=	nhqt0.9.tar.gz
 QT_SOUND=	nhs.tar.gz
-PATCHFILES=	${QT_PATCH} ${QT_SOUND}
+DISTFILES=	nethack-3.2.2.tar.gz ${QT_PATCH} ${QT_SOUND}
+
+MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	auplay:${PORTSDIR}/audio/nas \
 		xpmtoppm:${PORTSDIR}/graphics/netpbm
