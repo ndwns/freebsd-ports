@@ -6,17 +6,22 @@
 # $Id$
 #
 
-DISTNAME=      radiusclient-0.3
-CATEGORIES=    net
-MASTER_SITES=  ftp://ftp.cityline.net/pub/radiusclient/
+DISTNAME=	radiusclient-0.3
+CATEGORIES=	net
+MASTER_SITES=	ftp://ftp.cityline.net/pub/radiusclient/
 
-MAINTAINER=    maurice@serc.rmit.edu.au
+MAINTAINER=	maurice@serc.rmit.edu.au
 
-USE_GMAKE=     yes
-GNU_CONFIGURE= yes
-CONFIGURE_ARGS=	--enable-shared=NO
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/devel/libtool:patch
 
-post-configure:
-	(cd ${WRKSRC}; ./ltconfig --disable-shared ltmain.sh)
+USE_GMAKE=	yes
+GNU_CONFIGURE=	yes
+
+pre-configure:
+	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.2/ltconfig ${WRKSRC}
+	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.2/ltmain.sh ${WRKSRC}
+
+post-install:
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
