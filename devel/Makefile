@@ -39,6 +39,7 @@
     SUBDIR += gindent
     SUBDIR += glade
     SUBDIR += glib
+    SUBDIR += glib11-devel
     SUBDIR += gmake
     SUBDIR += id-utils
     SUBDIR += ilu
