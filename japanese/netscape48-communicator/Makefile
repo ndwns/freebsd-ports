@@ -15,8 +15,8 @@ DISTFILES=	${JAPANIZE_KIT} ${PORTKIT}
 MAINTAINER=	sada@FreeBSD.ORG
 
 # ?= for ports that include this Makefile
-RUN_DEPENDS?=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape4-${BROWSER} \
-		${FONT_DEPEND}
+RUN_DEPENDS?=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape4-${BROWSER}
+RUN_DEPENDS+=	${PKG_DBDIR}/ja-netscape-fonts-1.0:${PORTSDIR}/japanese/netscape-fonts
 
 MAN1=		ja-netscape.1
 MANLANG=	ja
@@ -30,7 +30,6 @@ BROWSER?=	communicator
 BROWSER_BIN?=	${BROWSER}-${BROWSER_VERSION}.bin
 BROWSER_CMD?=	ja-${BROWSER}-4
 BROWSER_VERSION?= 4.08
-FONT_DEPEND=	${PKG_DBDIR}/ja-netscape-fonts-1.0:${PORTSDIR}/japanese/netscape-fonts
 JAPANIZE_KIT?=	communicator-ja-euc-v407-export.generic-generic-generic.tar.gz
 LANG=		ja_JP.EUC
 MAKESCRIPT=	${SED} -e "s;@X11BASE@;${X11BASE};g" \
