@@ -14,8 +14,9 @@ EXTRACT_SUFX=	.tar.Z
 
 WRKSRC=		${WRKDIR}/archie-1.4.1-FIX
 
-pre-install:
-	mkdir -p ${PREFIX}/bin
-	mkdir -p ${PREFIX}/man/man1
+MAINTAINER=	torstenb@FreeBSD.ORG
+
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/archie.1
 
 .include <bsd.port.mk>
