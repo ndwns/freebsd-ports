@@ -22,7 +22,6 @@ MAINTAINER=	jfitz@freebsd.org
 WRKSRC=		${WRKDIR}/analog
 
 do-install:
-	@mkdir -p ${PREFIX}/bin
 	@mkdir -p ${PREFIX}/share/analog
 	@(cd ${WRKSRC}; cp -r Readme.html domains.tab primes.tab images ${PREFIX}/share/analog; cp analog ${PREFIX}/bin)
 	@(cd ${PREFIX}/share/analog; chmod +r *)
