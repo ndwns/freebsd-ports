@@ -5,8 +5,8 @@
 
 PKG_PREFIX=${PKG_PREFIX:=/usr/local}
 
-USER=mailnull;	UID=26
-GROUP=mailnull;	GID=26
+USER=courier;	UID=465
+GROUP=courier;	GID=465
 
 ask() {
     local question default answer
