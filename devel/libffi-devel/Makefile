@@ -12,8 +12,6 @@ MASTER_SITES=   ftp://ftp.cygnus.com:/pub/green/
 
 MAINTAINER=     horance@freedom.ie.cycu.edu.tw
 
-BROKEN_ELF=	libffi.so
-
 GNU_CONFIGURE=  yes
 WRKSRC=         ${WRKDIR}/${PKGNAME}
 ALL_TARGET=     test
