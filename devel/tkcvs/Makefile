@@ -8,7 +8,7 @@
 
 DISTNAME=	tkcvs-6.0
 CATEGORIES=	devel tk41
-MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/apps/
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
