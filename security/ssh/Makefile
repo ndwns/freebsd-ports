@@ -11,7 +11,7 @@
 
 DISTNAME=       ssh-1.2.27
 CATEGORIES=	security net
-MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/security/login/ssh/
+MASTER_SITES=	ftp://ftp.cs.hut.fi/pub/ssh/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
