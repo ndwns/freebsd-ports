@@ -21,6 +21,7 @@
     SUBDIR += qt
     SUBDIR += qt133
     SUBDIR += qt140
+    SUBDIR += qt141
     SUBDIR += slingshot
     SUBDIR += tix
     SUBDIR += tk41
