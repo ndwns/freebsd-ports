@@ -15,10 +15,15 @@ DISTFILES=	# empty
 MAINTAINER=	nik@freebsd.org
 
 RUN_DEPENDS=	instant:${PORTSDIR}/textproc/sgmlformat \
-		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular \
+		sgmlnorm:${PORTSDIR}/textproc/sp \
+		jade:${PORTSDIR}/textproc/jade \
 		tidy:${PORTSDIR}/www/tidy \
+		lynx:${PORTSDIR}/www/lynx-current \
+		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular \
 		${PREFIX}/share/sgml/html/catalog:${PORTSDIR}/textproc/html \
-		lynx:${PORTSDIR}/www/lynx-current
+		${PREFIX}/share/sgml/linuxdoc:${PORTSDIR}/textproc/linuxdoc \
+		${PREFIX}/share/sgml/docbook:${PORTSDIR}/textproc/docbook/3.0 \
+		${PREFIX}/share/sgml/iso8879:${PORTSDIR}/textproc/iso8879
 
 IS_INTERACTIVE= "user must set JADETEX variable to 'yes' or 'no'"
 
