@@ -16,6 +16,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 # it depends on HLaTeX-0.95(ps) fonts
 RUN_DEPENDS=    ${PREFIX}/share/fonts/HLaTeX-0.95-pfb:${PORTSDIR}/korean/hlatexpsfonts
 
+MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to Letter A4
 MAKE_FLAGS?=	WIDTH=${WIDTH} HEIGHT=${HEIGHT} A4_PAPERSIZE=${A4_PAPERSIZE} -f
 MAN1=		nh2ps.1
 
