@@ -19,6 +19,7 @@ NOT_FOR_ARCHS=	alpha
 
 NO_LATEST_LINK=	yes
 NO_WRKSUBDIR=	yes
+PKGREQ=		${PORTSDIR}/www/netscape4-communicator/pkg/REQ
 
 .if defined(USE_128BIT)
 MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
