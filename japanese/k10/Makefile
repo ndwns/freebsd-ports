@@ -11,7 +11,7 @@ PKGNAME=	ja-naga10-1.0
 CATEGORIES=	japanese x11
 MASTER_SITES=	http://gondow-www.cs.titech.ac.jp/~snagao/fonts/
 
-MAINTAINER=	usagi@ruby.club.or.jp
+MAINTAINER=	usagi@clave.gr.jp
 
 USE_X11=	yes
 WRKSRC=         ${WRKDIR}/knj10-1.00
