@@ -41,7 +41,7 @@ MAKESCRIPT=	${SED} -e "s;@X11BASE@;${X11BASE};g" \
 MANDIR=		${MANPREFIX}/man/${MANLANG}
 NDIR=		${PREFIX}/${NSUBDIR}
 NSUBDIR?=	lib/netscape
-PORTKIT=	ja-netscape-portkit.1998.1230.tar.gz
+PORTKIT=	ja-netscape-portkit.1999.0320.tar.gz
 PORTKIT_DIR=	${WRKDIR}/portkit
 PORTKIT_SITES=	http://WWW.JP.FreeBSD.ORG/~sada/distfiles/ \
 		http://WWW.FreeBSD.ORG/~sada/distfiles/
