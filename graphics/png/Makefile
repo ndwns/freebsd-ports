@@ -13,8 +13,6 @@ MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 
 MAINTAINER=     ache@FreeBSD.org
 
-LIB_DEPENDS=    z\\.1\\.:${PORTSDIR}/devel/libz
-
 MAKEFILE=       makefile
 
 post-install:
