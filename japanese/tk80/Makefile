@@ -57,9 +57,9 @@ post-install:
 	@${CAT}	${PKGDIR}/MESSAGE
 
 test:
-	cd ${WRKSRC} && ${MAKE} test
+	cd ${WRKSRC} && PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} test
 
 install-man:
-	cd ${WRKSRC} && ${MAKE} install-man
+	cd ${WRKSRC} && ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} install-man
 
 .include <bsd.port.post.mk>
