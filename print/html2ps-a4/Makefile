@@ -28,6 +28,7 @@ IS_INTERACTIVE=	YES
 
 MAN1=		html2ps.1
 MAN5=		html2psrc.5
+SCRIPTS_ENV+=	PERL5=${PERL5}
 
 do-install:
 	@cd ${WRKSRC}; ${PERL5} install
