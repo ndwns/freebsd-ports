@@ -7,6 +7,7 @@
     SUBDIR += dnews
     SUBDIR += inn
     SUBDIR += knews
+    SUBDIR += ifmail
     SUBDIR += leafnode
     SUBDIR += newsfetch
     SUBDIR += nn
