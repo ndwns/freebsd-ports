@@ -32,6 +32,7 @@
     SUBDIR += klondike
     SUBDIR += ktamaga
     SUBDIR += ladder
+    SUBDIR += libshhcards
     SUBDIR += lincity
     SUBDIR += nethack
     SUBDIR += nethack-qt
