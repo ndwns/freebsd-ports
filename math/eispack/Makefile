@@ -11,6 +11,7 @@ PKGNAME=	eispack-1.0
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 
+CATEGORIES+=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/eispack/
 .if defined(MASTER_SITE_OVERRIDE)
 MASTER_SITES:= ${MASTER_SITE_OVERRIDE}/eispack/
@@ -43,4 +44,3 @@ pre-extract:
 	chmod +x scripts/uncomp
 
 .include <bsd.port.mk>
-

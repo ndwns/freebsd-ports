@@ -10,6 +10,7 @@ DISTNAME=	linpack
 PKGNAME=	linpack-1.0
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
+CATEGORIES+=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/linpack/
 .if defined(MASTER_SITE_OVERRIDE)
 MASTER_SITES:= ${MASTER_SITE_OVERRIDE}/linpack/

@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	oleo-1.6
+CATEGORIES+=	math applications
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 EXTRACT_SUFX=	.tar.gz
 

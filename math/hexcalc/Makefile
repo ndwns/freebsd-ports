@@ -8,6 +8,7 @@
 
 DISTNAME=	hexcalc
 PKGNAME=	hexcalc-1.11
+CATEGORIES+=	math
 MASTER_SITES=	ftp://ftp.cs.columbia.edu/archives/X11R5/contrib/
 
 MAINTAINER=	asami@FreeBSD.ORG
