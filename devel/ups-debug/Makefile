@@ -14,6 +14,11 @@ MASTER_SITE_SUBDIR= utilities
 
 MAINTAINER=     obrien@FreeBSD.org
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=	"During build: Libvar_addrs[0] is not constant"
+.endif
+
 ALL_TARGET=	ups ups
 MAN1=		ups.1
 
