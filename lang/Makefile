@@ -13,6 +13,7 @@
     SUBDIR += g77
     SUBDIR += gcl
     SUBDIR += gnat
+    SUBDIR += guavac
     SUBDIR += guile-iii
     SUBDIR += icon
     SUBDIR += idl4
