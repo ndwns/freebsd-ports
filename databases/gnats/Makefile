@@ -6,15 +6,14 @@
 # $Id$
 #
 
-DISTNAME=       gnats-3.97-beta
+DISTNAME=       gnats-3.101-beta
 CATEGORIES=	databases
 MASTER_SITES=   ftp://ftp.cygnus.com/pub/
 
 MAINTAINER=	pst@FreeBSD.org
 
 # we've got some .elc and info files to compile (yuck)
-BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs \
-		gm4:${PORTSDIR}/devel/m4
+BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 NO_PACKAGE=	"Requires gnats UID"
 GNU_CONFIGURE=	yes
