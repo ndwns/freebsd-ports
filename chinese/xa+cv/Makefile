@@ -15,6 +15,8 @@ MAINTAINER=	clive@FreeBSD.org
 RUN_DEPENDS=	${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin \
 		${X11BASE}/lib/X11/fonts/TrueType/moe_sung.ttf:${PORTSDIR}/chinese/moettf
 
+BROKEN=		"Non-I18N-aware old-fashioned application no more supported"
+
 USE_GMAKE=	yes
 
 DOC1=		FAQ NEW README.XA README.+CV README.XA+CV-0.5 USE.Big5 USE.GB
