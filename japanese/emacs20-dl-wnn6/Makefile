@@ -31,7 +31,7 @@ EMACS_VER=	20.3
 EMACSDL_DIR=	${.CURDIR}/../../editors/emacs20-dl
 
 post-install:
-	@${LN} ${PREFIX}/share/emacs/site-lisp/egg/eggrc-wnn \
+	@${LN} -sf ${PREFIX}/share/emacs/site-lisp/egg/eggrc-wnn \
 		${PREFIX}/share/emacs/site-lisp/egg/.eggrc
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/${DOCDIR}
