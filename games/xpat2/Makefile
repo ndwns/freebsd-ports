@@ -9,7 +9,7 @@
 DISTNAME=	xpat2-1.04
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	games/x11/strategy
+MASTER_SITE_SUBDIR=	games/solitaires
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	mph@pobox.com
