@@ -32,5 +32,5 @@ do-install:
 .if ${PORTOBJFORMAT} == "elf"
 SOVERSION=	1
 .else
-SOVERSION=	1.0
+SOVERSION=	1.1
 .endif
