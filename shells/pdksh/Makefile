@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 MAINTAINER=	tg@FreeBSD.ORG
 
 GNU_CONFIGURE=  yes
+CONFIGURE_ENV=	LDSTATIC=-static
 MAN1=		ksh.1
 
 .include <bsd.port.mk>
