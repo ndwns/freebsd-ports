@@ -18,6 +18,7 @@
     SUBDIR += krb5
     SUBDIR += l0pht-watch
     SUBDIR += libident
+    SUBDIR += libparanoia
     SUBDIR += nbaudit
     SUBDIR += nmap
     SUBDIR += openssl
