@@ -27,7 +27,7 @@ pre-fetch:
 	@${ECHO} "GCC 2.8 for ${OSNAME} ${GNUOSREL}"
 
 pre-install:
-	@${SED} -e 's:%GNUOSREL%:${GNUOSREL}:' ${PKGDIR}/PLIST \
+	@${SED} -e 's:%GNUHOST%:${GNUHOST}:' ${PKGDIR}/PLIST \
 		> ${PLIST
 
 post-install:
