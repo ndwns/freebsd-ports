@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/ \
 
 MAINTAINER=	mi@aldan.algebra.com
 
+BROKEN='only siag-3.1.19.tar.gz available'
+
 LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot \
