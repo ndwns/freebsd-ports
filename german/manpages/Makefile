@@ -1,4 +1,4 @@
-# New ports collection makefile for: dict
+# New ports collection makefile for: German manpages
 # Version required:     1.0
 # Date created:         29 September 1997
 # Whom:                 wosch
@@ -8,17 +8,17 @@
 
 DISTNAME=       de-manpages-1.0
 CATEGORIES=	german
-LANG=		de_DE.ISO_8859-1
 MASTER_SITES=   ftp://ftp.Infodrom.North.DE/pub/Linux/Devel/manpages-de/
 DISTFILES=	${manpages}.tgz
+
 MAINTAINER=     wosch@FreeBSD.org
-EXTRACT_ONLY=	${DISTFILES}
+
+LANG=		de_DE.ISO_8859-1
 NO_WRKSUBDIR=	YES
 NO_PACKAGE=	YES
 
 mandir=		${PREFIX}/man/${LANG}
 manpages=	manpages-de
-
 
 do-build:
 	ln -s ${WRKSRC}/${manpages} ${WRKSRC}/de-man
