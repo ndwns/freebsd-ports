@@ -15,8 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
 
-BROKEN_ELF=	cannot open -lc-client
-
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
@@ -30,7 +28,8 @@ install-lib:
 	${INSTALL_DATA} ${WRKSRC}/c-client/c-client.a ${PREFIX}/lib/libc-client.a
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/c-client/libc-client.so.2.1 ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/c-client/${SHLIB} ${PREFIX}/lib
+	${LN} -sf ${SHLIB} ${PREFIX}/lib/libc-client.so
 	${INSTALL_PROGRAM} ${WRKSRC}/imapd/imapd ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop2d ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop3d ${PREFIX}/libexec
@@ -41,6 +40,12 @@ do-install:
 		${WRKSRC}/src/ipopd/ipopd.8c ${PREFIX}/man/man8/ipopd.8
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SHLIB=	libc-client.so.2
+.else
+SHLIB=	libc-client.so.2.1
+.endif
