@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       tinpre-1.4-980618
-PKGNAME=        zh-tin-1.4-980618
+PKGNAME=        zh-tin-1.4.980618
 CATEGORIES=	chinese news
 MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
 		ftp://nuxi.ucdavis.edu/pub/tin/ \
