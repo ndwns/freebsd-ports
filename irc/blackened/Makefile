@@ -25,7 +25,7 @@ do-build:
 	INSTALL_IRCFLUSH="${PREFIX}/bin/blackened-ircflush" \
 	INSTALL_WSERV="${PREFIX}/bin/blackened-wserv" \
 	INSTALL_LINK="${PREFIX}/bin/blackened" \
-	IRCLIB="${PREFIX}/bin/blackened")
+	IRCLIB="${PREFIX}/share/blackened")
 
 do-install:
 	@(cd ${WRKSRC} && make prefix="${PREFIX}" \
@@ -33,7 +33,7 @@ do-install:
 	INSTALL_IRCFLUSH="${PREFIX}/bin/blackened-ircflush" \
 	INSTALL_WSERV="${PREFIX}/bin/blackened-wserv" \
 	INSTALL_LINK="${PREFIX}/bin/blackened" \
-	IRCLIB="${PREFIX}/blackened" \
+	IRCLIB="${PREFIX}/share/blackened" \
 	install)
 
 .include <bsd.port.mk>
