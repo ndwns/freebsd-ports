@@ -16,7 +16,7 @@ DISTFILES=	${DISTNAME}.tgz kaffe-0.9.2-package-javasoft.com.tgz \
 
 MAINTAINER=	xaa@stack.nl
 
-RESTRICTED=	"No redistribution of the Java(tm) Development Kit"
+RESTRICTED=	'No redistribution of the Java(tm) Development Kit'
 NO_PACKAGE=	${RESTRICTED}
 
 GNU_CONFIGURE=	yes
