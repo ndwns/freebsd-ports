@@ -1,13 +1,13 @@
 # New ports collection makefile for:	TrickyIRC
-# Version required:			0.99
+# Version required:		 	1.0
 # Date created:				Jun 20th 1999
-# Whom:					Trolld
+# Whom:					troll
 #
 # $Id$
 #
 
-DISTNAME=	TrickyIRC-0.99
-PKGNAME=	trickyirc-0.99
+DISTNAME=	TrickyIRC-1.00
+PKGNAME=	trickyirc-1.00
 CATEGORIES=	irc
 MASTER_SITES=	http://www.leb.net/~troll/
 
@@ -19,11 +19,12 @@ USE_GMAKE=	YES
 
 post-install:
 	@ ${MKDIR} ${PREFIX}/share/doc/TrickyIRC
-	@ ${MKDIR} ${PREFIX}/share/examples/TrickyIRC
-	${INSTALL_DATA} ${WRKSRC}/config.sample \
-	    ${PREFIX}/share/examples/TrickyIRC
+#	@ ${MKDIR} ${PREFIX}/share/examples/TrickyIRC
+#	${INSTALL_DATA} ${WRKSRC}/config.sample \
+#	    ${PREFIX}/share/examples/TrickyIRC
 	${INSTALL_DATA} ${WRKSRC}/README \
 	    ${PREFIX}/share/doc/TrickyIRC
+	@strip ${PREFIX}/bin/trickyirc
 	@${CAT} ${PKGDIR}/MESSAGE | ${SED} -e s:/usr/local:${PREFIX}:
 
 .include <bsd.port.mk>
