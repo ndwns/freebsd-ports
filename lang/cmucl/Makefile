@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp2.cons.org/pub/languages/lisp/cmucl/binaries/
 
 MAINTAINER= 	cracauer@cons.org
 
+NO_WRKSUBDIR=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 MAN1=		lisp.1 cmucl.1
