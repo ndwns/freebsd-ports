@@ -16,6 +16,7 @@
     SUBDIR += boa
     SUBDIR += cgihtml
     SUBDIR += cgiparse
+    SUBDIR += cgiwrap
     SUBDIR += checkbot
     SUBDIR += chimera
     SUBDIR += chimera2
