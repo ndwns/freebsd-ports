@@ -29,8 +29,7 @@ WRKSRC=		${WRKDIR}/ImageMagick
 USE_IMAKE=	YES
 
 post-patch:
-	@mv ${WRKSRC}/Magick.tmpl ${WRKSRC}/Magick.tmpl.tmp
-	@sed -e "s|!!LOCALBASE!!|${LOCALBASE}|g" <${WRKSRC}/Magick.tmpl.tmp >${WRKSRC}/Magick.tmpl
+	@perl -pi -e "s|!!LOCALBASE!!|${LOCALBASE}|g;" ${WRKSRC}/Magick.tmpl
 
 pre-build:
 	@(cd ${WRKSRC}/magick; make)
