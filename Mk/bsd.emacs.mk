@@ -31,13 +31,13 @@ Emacs_Include_MAINTAINER=	ports@FreeBSD.org
 #		ex.) "share/emacs" when emacsen is a emacs-20.6.
 #
 # EMACS_LIBDIR_WITH_VER:
-#		emacsen's version specific library directory name 
+#		emacsen's version specific library directory name
 #		without ${PREFIX}.
 #		ex.) "share/emacs/20.6" when emacsen is a emacs-20.6.
 #
 # EMACS_CMD:
 #		emacsen's command-line filename. (full path)
-#		ex.) "/usr/local/bin/emacs-20.6" when emacsen is a 
+#		ex.) "/usr/local/bin/emacs-20.6" when emacsen is a
 #		     emacs-20.6 and ${PREFIX} is "/usr/local".
 #
 # EMACS_SITE_LISPDIR:
@@ -51,11 +51,11 @@ Emacs_Include_MAINTAINER=	ports@FreeBSD.org
 #		emacs-20.6.
 #
 # EMACS_NO_BUILD_DEPENDS:
-#		If set "YES" to this variable, port does not 
+#		If set "YES" to this variable, port does not
 #		build-depend on EMACS_PORT_NAME's emacsen.
 #
 # EMACS_NO_RUN_DEPENDS:
-#		If set "YES" to this variable, port does not 
+#		If set "YES" to this variable, port does not
 #		run-depend on EMACS_PORT_NAME's emacsen.
 #
 
