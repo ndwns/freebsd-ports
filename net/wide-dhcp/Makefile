@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://sh.wide.ad.jp/WIDE/free-ware/dhcp/
 
 MAINTAINER=     hideyuki@sat.t.u-tokyo.ac.jp
 
-MAKE_ENV=	OSTYPE=`uname`
+MAKE_ENV=	OSTYPE=${OPSYS}
 
 MAN5=	dhcpdb.server.5 dhcpdb.pool.5 dhcpdb.relay.5
 MAN8=	dhcpc.8 dhcps.8 relay.8 dhcpm.8
