@@ -18,6 +18,8 @@ MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 LIB_DEPENDS=	${LIB_INPUT_METHOD}
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
 
+BROKEN=		fetch
+
 PATCHDIR=	${.CURDIR}/../jvim3/patches
 FILESDIR=	${.CURDIR}/../jvim3/files
 .if !defined(WNN6)
