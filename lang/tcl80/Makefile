@@ -32,8 +32,13 @@ pre-build:
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+.if exists(${PKGDIR}/INSTALL.tclsh)
+	${SH} ${PKGDIR}/INSTALL.tclsh
+.endif
 
 test:
 	cd ${WRKSRC} && ${MAKE} test
 
 .include <bsd.port.mk>
+
+PKG_ARGS+=	-i ${PKGDIR}/INSTALL.tclsh

@@ -21,8 +21,13 @@ CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+.if exists(${PORTSDIR}/lang/tcl80/pkg/INSTALL.tclsh)
+	${SH} ${PORTSDIR}/lang/tcl80/pkg/INSTALL.tclsh
+.endif
 
 test:
 	cd ${WRKSRC} && ${MAKE} test
 
 .include <bsd.port.mk>
+
+PKG_ARGS+=      -i ${PORTSDIR}/lang/tcl80/pkg/INSTALL.tclsh
