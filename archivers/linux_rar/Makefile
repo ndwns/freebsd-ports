@@ -1,7 +1,7 @@
 # New ports collection makefile for:    linux_rar
 # http://www.rarsoft.com/rar_archiver.htm
 # Version required:	2.50
-# Date created:
+# Date created:		30 April 1999
 # Whom:			FUJISHIMA Satsuki <k5@respo.or.jp>
 #
 # $Id$
@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://rarsoft.ti.sk/pub/rar/ \
 EXTRACT_SUFX=   .sfx
 
 MAINTAINER=     k5@respo.or.jp
+
+RUN_DEPENDS=	/compat/linux/lib/ld-linux.so.2:${PORTSDIR}/emulators/linux_lib
 
 ONLY_FOR_ARCHS=	i386
 NO_PACKAGE=     Only unmodified original package can be distributed
