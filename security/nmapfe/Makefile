@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	nmap-1.51
-CATEGORIES=	security
+CATEGORIES=	security net
 MASTER_SITES=	http://www.insecure.org/nmap/
 
 MAINTAINER=     obrien@FreeBSD.org
