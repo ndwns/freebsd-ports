@@ -26,6 +26,7 @@
     SUBDIR += stonx
     SUBDIR += tkhfs
     SUBDIR += vgb
+    SUBDIR += vice
     SUBDIR += vmsbackup
     SUBDIR += wine
     SUBDIR += x48
