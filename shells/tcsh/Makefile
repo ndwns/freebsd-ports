@@ -10,4 +10,6 @@ DISTNAME=	tcsh-6.05
 CATEGORIES+=	shells
 MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh/
 
+MAINTAINER=     ache@FreeBSD.ORG
+
 .include <bsd.port.mk>
