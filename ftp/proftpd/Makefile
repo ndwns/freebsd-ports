@@ -18,7 +18,6 @@ MAN8=	proftpd.8 ftpshut.8
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CFLAGS="${CFLAGS}"
 
 #
 # - "configure --prefix=..." doesn't seem to work :(
