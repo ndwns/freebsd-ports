@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       asmodem-0.6
-CATEGORIES=     comms x11
+CATEGORIES=     comms
 MASTER_SITES=   ftp://afterstep.foo.net/pub/AfterStep/apps/asmodem/ \
 		ftp://ftp.cs.tu-berlin.de/pub/X/afterstep/apps/asmodem/
 
