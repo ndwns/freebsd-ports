@@ -14,6 +14,8 @@ DISTFILES=	malloc-2.6.4.c
 
 MAINTAINER=	roberto@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 NO_WRKSUBDIR=   yes
 
 do-extract:
