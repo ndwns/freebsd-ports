@@ -10,17 +10,9 @@ DISTNAME=	giflib-3.0
 CATEGORIES=	graphics
 MASTER_SITES=	http://earthspace.net/~esr/giflib/
 
-MAINTAINER=	tg@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_XLIB=	yes
-
-.include <bsd.port.pre.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-GIFLIB=	libgif.so.3
-.else
-GIFLIB=	libgif.so.3.0
-.endif
 
 post-install:
 .if !defined(NOPORTDOCS)
@@ -29,4 +21,4 @@ post-install:
 .endif
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
