@@ -9,7 +9,8 @@
 DISTNAME=		copytape
 PKGNAME=		copytape-1.0
 CATEGORIES=		sysutils
-MASTER_SITES=		ftp://ftp.uu.net/usenet/comp.sources.unix/volume10/
+MASTER_SITE=		${MASTER_SITE_COMP_SOURCES}
+MASTER_SITE_SUBDIR=	unix/volume8
 EXTRACT_SUFX=		.Z
 
 MAINTAINER=		ports@FreeBSD.ORG

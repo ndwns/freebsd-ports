@@ -9,7 +9,8 @@
 DISTNAME=		display
 PKGNAME=		display-1.0
 CATEGORIES=		misc
-MASTER_SITES=		ftp://ftp.uu.net/usenet/comp.sources.unix/volume8/
+MASTER_SITES=		${MASTER_SITE_COMP_SOURCES}
+MASTER_SITE_SUBDIR=	unix/volume8
 EXTRACT_SUFX=		.Z
 
 PATCH_SITES=		${MASTER_SITES}
