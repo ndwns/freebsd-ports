@@ -21,11 +21,11 @@ NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
 
 pre-configure:
-	${ECHO} "OPENWINHOME=${PREFIX}"  \
+	@${ECHO} "OPENWINHOME=${PREFIX}"  \
 		>> ${WRKSRC}/Imakefile
-	${ECHO} "EXTRA_DEFINES= -DHAVE_STRCASECMP -DHAVE_STRSTR"  \
+	@${ECHO} "EXTRA_DEFINES= -DHAVE_STRCASECMP -DHAVE_STRSTR"  \
 		>> ${WRKSRC}/Imakefile
-	/bin/ln -f ${WRKSRC}/bibcard.1 ${WRKSRC}/bibcard.man
+	@/bin/ln -f ${WRKSRC}/bibcard.1 ${WRKSRC}/bibcard.man
 
 .include <bsd.port.mk>
 
