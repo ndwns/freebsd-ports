@@ -26,6 +26,7 @@
     SUBDIR += tr2latex
     SUBDIR += transfig
     SUBDIR += unroff
+    SUBDIR += virtualpaper
     SUBDIR += xdvi
     SUBDIR += xtexshell
 
