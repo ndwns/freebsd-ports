@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	ircii-pana-74p4
-PKGNAME=	bitchx-74p4
+DISTNAME=	ircii-pana-75p1
+PKGNAME=	bitchx-75p1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.bitchx.com/pub/BitchX/source/
 
