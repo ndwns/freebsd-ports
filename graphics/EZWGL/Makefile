@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	EZWGL-1.39
-CATEGORIES=	graphics devel x11
+CATEGORIES=	graphics devel
 MASTER_SITES=	ftp://ftp.ma.utexas.edu/pub/mzou/
 DISTFILES=	${DISTNAME}-src.tgz ${DISTNAME}-doc.tgz
 

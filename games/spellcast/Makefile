@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		spellcast-1.1
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		http://www.redestb.es/personal/ragnar/ \
 			${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/multiplayer

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xv-3.10a
-CATEGORIES?=	graphics x11
+CATEGORIES?=	graphics
 MASTER_SITES=	ftp://ftp.cis.upenn.edu/pub/xv/ \
 		ftp://ftp.airlab.cs.ritsumei.ac.jp/pub/X/xv-jp-extension/working/ \
 		http://www.yuasa.kuis.kyoto-u.ac.jp/~shige/FreeBSD/ports/xv/

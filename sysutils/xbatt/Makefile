@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xbatt-1.2.1
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	http://www.clave.gr.jp/~eto/xbatt/
 
 MAINTAINER=	nobu@psrc.isac.co.jp

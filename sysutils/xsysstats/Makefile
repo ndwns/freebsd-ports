@@ -8,7 +8,7 @@
 
 DISTNAME=	xsysstats1.34
 PKGNAME=	xsysstats-1.34
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
 

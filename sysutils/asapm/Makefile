@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	asapm-2.2
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	http://bewoner.dma.be/Albert/linux/software/
 
 MAINTAINER=	handy@physics.montana.edu

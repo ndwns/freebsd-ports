@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kmpg-0.3.3
-CATEGORIES=	audio x11 kde
+CATEGORIES=	audio kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= unstable/apps/multimedia/sound
 EXTRACT_SUFX=	.tgz

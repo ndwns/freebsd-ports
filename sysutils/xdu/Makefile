@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xdu-3.0
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.arl.mil/pub/
 EXTRACT_SUFX=	.tar.Z
 

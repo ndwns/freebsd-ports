@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmmail-0.59
-CATEGORIES=	mail x11
+CATEGORIES=	mail
 MASTER_SITES=	http://earth.gaianet.net/~scorpio/
 
 MAINTAINER=	rom_glsa@ein-hashofet.co.il

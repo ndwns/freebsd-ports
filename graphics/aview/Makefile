@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       aview-1.2
-CATEGORIES=     graphics x11
+CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.ta.jcu.cz/pub/aa/
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw

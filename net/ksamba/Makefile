@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ksamba-0.3.3
-CATEGORIES=	x11 kde net
+CATEGORIES=	kde net
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= unstable/apps/network
 

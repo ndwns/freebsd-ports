@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xpaint-2.5.4
-CATEGORIES=	graphics x11
+CATEGORIES=	graphics
 MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/
 
 MAINTAINER=	jseger@FreeBSD.org

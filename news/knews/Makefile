@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	knews-1.0b.0
-CATEGORIES=	x11 news
+CATEGORIES=	news
 MASTER_SITES=	http://www.matematik.su.se/~kjj/
 
 MAINTAINER=	andreas@FreeBSD.ORG

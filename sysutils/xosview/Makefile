@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xosview-1.6.1.a
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	http://lore.ece.utexas.edu/~bgrayson/xosview/ \
 		http://lambic.physics.montana.edu/xosview/
 

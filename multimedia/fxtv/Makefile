@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	fxtv-0.47
-CATEGORIES=	graphics x11
+CATEGORIES=	graphics
 MASTER_SITES=	http://multiverse.com/~rhh/fxtv/
 EXTRACT_SUFX=	.tgz
 

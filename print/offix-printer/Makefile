@@ -8,7 +8,7 @@
 
 DISTNAME=	Printer-2.4
 PKGNAME=	offix-printer-2.4
-CATEGORIES=	print x11 offix
+CATEGORIES=	print offix
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	desktop_managers/OffiX
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	xperfmon++
 PKGNAME=	xperfmon++-2.0
-CATEGORIES=     sysutils x11
+CATEGORIES=     sysutils
 # In Germany try this
 MASTER_SITES=	ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller/ \
 		ftp://ftp.u-aizu.ac.jp/pub/misc/tools/xperfmon/ \

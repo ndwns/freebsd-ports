@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xfsm-1.97
-CATEGORIES=	sysutils x11
+CATEGORIES=	sysutils
 MASTER_SITES=	http://www.peoplesoft.com/peoplepages/g/robert_gasch/src/
 EXTRACT_SUFX=	.tgz
 

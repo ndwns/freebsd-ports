@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kwatch-0.3
-CATEGORIES=	misc x11 kde
+CATEGORIES=	misc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= stable/1.0/apps/utils
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	xfig.3.2.2
 PKGNAME=	xfig-3.2.2
-CATEGORIES=	graphics x11
+CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/drawing_tools/xfig
 

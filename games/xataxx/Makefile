@@ -8,7 +8,7 @@
 
 DISTNAME=	xataxx
 PKGNAME=	xataxx-1.0
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	Editor-2.4
 PKGNAME=	offix-editor-2.4
-CATEGORIES=	editors x11 offix
+CATEGORIES=	editors offix
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	desktop_managers/OffiX
 
