@@ -8,7 +8,7 @@
 
 DISTNAME=	greed-0.801
 CATEGORIES=	net
-MASTER_SITES=	http://www.public.asu.edu/~arturner/
+MASTER_SITES=	http://www.public.asu.edu/~arturner/greed/
 
 MAINTAINER=	cpiazza@home.net
 
