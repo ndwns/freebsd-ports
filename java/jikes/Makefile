@@ -9,7 +9,6 @@
 DISTNAME=	jikes-0.41
 CATEGORIES=	lang
 MASTER_SITES=	http://www.backplane.com/FreeBSDPorts/
-#DISTFILES=	${DISTNAME}.tar.gz
 
 MAINTAINER=	dillon@backplane.com
 
