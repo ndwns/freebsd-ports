@@ -54,7 +54,7 @@ pre-fetch:
 		${ECHO} "It seems you are running FreeBSD `uname -r`, which is not currently";	\
 		${ECHO} "supported.  SETI@home currently supports only FreeBSD 2.2.5 and above,";	\
 		${ECHO} "and FreeBSD 3.1."; \
-		${ECHO}
+		${ECHO} \
 		exit 72; \
 	fi;
 
