@@ -15,9 +15,9 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	tg@FreeBSD.ORG
 
-NO_FILTER_SHLIBS=	yes
-
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
+
+NO_FILTER_SHLIBS=	yes
 
 WRKSRC=		${WRKDIR}/ILINXR.install
 
@@ -29,7 +29,10 @@ do-install:
 	@ReadInstallDir=${PREFIX}/Acrobat3 ${WRKSRC}/INSTALL
 
 post-install:
-	@sed -e 's/Linux)/FreeBSD\|Linux)/' <${PREFIX}/Acrobat3/bin/acroread >${PREFIX}/bin/acroread
+	@cd ${PREFIX}/Acrobat3/bin && \
+	  ${PATCH} --quiet < ${FILESDIR}/acroread.diff && \
+	  ${INSTALL_SCRIPT} ${PREFIX}/Acrobat3/bin/acroread ${PREFIX}/bin && \
+	  ${RM} acroread.orig
 	@chmod +x ${PREFIX}/bin/acroread
 	@${ECHO_MSG} "Be sure to read the license agreement in"
 	@${ECHO_MSG} "${PREFIX}/Acrobat3/Reader/License.pdf"
