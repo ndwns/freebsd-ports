@@ -32,6 +32,7 @@ do-configure:
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/Lib/* ${NUMPYDIR}
 	@${PREFIX}/bin/python -O ${PYTHONSCRIPTDIR}/compileall.py ${NUMPYDIR}
+	${INSTALL_DATA} ${WRKSRC}/Include/*object.h ${PREFIX}/include/python1.5
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/Doc/*.html ${DOCDIR}
