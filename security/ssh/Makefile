@@ -75,6 +75,10 @@ CONFIGURE_ARGS+= --with-secureid
 CONFIGURE_ARGS+= --without-idea
 .endif
 
+.if !exists(${X11BASE}/bin/xauth)
+CONFIGURE_ARGS+= --without-x
+.endif
+
 MAN1=		scp1.1 ssh-add1.1 ssh-agent1.1 ssh-keygen1.1 ssh1.1 \
 		make-ssh-known-hosts1.1
 MAN8=		sshd1.8
