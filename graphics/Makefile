@@ -10,6 +10,7 @@
     SUBDIR += cqcam
     SUBDIR += dc3play
     SUBDIR += dore
+    SUBDIR += fbm
     SUBDIR += fli2gif
     SUBDIR += fxtv
     SUBDIR += gd
