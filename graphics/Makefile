@@ -2,7 +2,7 @@
 #
 
     SUBDIR += ImageMagick
-    BROKEN += Mesa              # doesn't install
+    SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += dore
     SUBDIR += hpscan
