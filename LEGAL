@@ -16,10 +16,11 @@ Such ports are listed below:
 Dist			Port			Why
 ------------------------------------------------------------------------------
 cku190.tar.gz		ports/comms/kermit	Restrictive copyright
-rzsz3_36.zip		ports/comms/rzsz	Restrictive copyright
-xtetris-2.5.2.tar.gz	ports/games/xtetris	Possible trademark violation
 pgp262s.zip		ports/utils/pgp*	Various locality restrictions
+maxima-5.0-beta		ports/math/maxima	License required
+rzsz3_36.zip		ports/comms/rzsz	Restrictive copyright
 tkman-1.6.tar.Z		ports/x11/tkman		Restrictive copyright
 xrisk-2.13.tar.Z	ports/games/xrisk	Copyright/trademark violation?
+xtetris-2.5.2.tar.gz	ports/games/xtetris	Possible trademark violation
 
 [please add more to this list]
