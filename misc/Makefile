@@ -5,6 +5,7 @@
     SUBDIR += astrolog
     SUBDIR += btoa
     SUBDIR += buffer
+    SUBDIR += cal
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
