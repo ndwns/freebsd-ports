@@ -1,12 +1,12 @@
-# New ports collection makefile for:   ascd
-# Version required:    0.9.2
-# Date created:                29 November 1998
-# Whom:                        Jim Mock <jim@phrantic.phear.net>
+# New ports collection makefile for:	ascd
+# Version required:		0.9.3
+# Date created:			29 November 1998
+# Whom:				Jim Mock <jim@phrantic.phear.net>
 #
 # $Id$
 #
 
-DISTNAME=	ascd-0.9.2
+DISTNAME=	ascd-0.9.3
 CATEGORIES=	audio afterstep windowmaker
 MASTER_SITES=	http://worldserver.oleane.com/rsn/Archives/
 
