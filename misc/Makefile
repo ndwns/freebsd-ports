@@ -5,6 +5,7 @@
 # RESTRICTED: mmv (restrictive copyright)
 #
 # BROKEN: wine (doesn't install)
+# BROKEN: vmsbackup (can't connect to ftp site)
 #
 
 SUBDIR= amanda chord colorls cpm hfs iozone ispell kp less lmbench \
