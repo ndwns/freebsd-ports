@@ -10,9 +10,10 @@ DISTNAME=       elm-2.4ME+11
 CATEGORIES+=	mail
 MASTER_SITES=   ftp://dionysos.fmi.fi/KEH/ \
 		ftp://ftp.kiae.su/unix/mail/
-WRKSRC=         ${WRKDIR}/elm2.4.ME+.11
 
 MAINTAINER=	ache@FreeBSD.ORG
+
+WRKSRC=         ${WRKDIR}/elm2.4.ME+.11
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install
