@@ -22,6 +22,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	maurice@serc.rmit.edu.au
 
+BROKEN=		package
+
 GNU_CONFIGURE=	yes
 USE_PERL5=	yes
 
