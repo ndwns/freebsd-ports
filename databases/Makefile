@@ -14,5 +14,7 @@
     SUBDIR += postgresql
     SUBDIR += typhoon
     SUBDIR += xmbase-grok
+    SUBDIR += xmysql
+    SUBDIR += xmysqladmin
 
 .include <bsd.port.subdir.mk>
