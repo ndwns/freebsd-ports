@@ -96,6 +96,7 @@
     SUBDIR += viz
     SUBDIR += wmcp
     SUBDIR += wmmand
+    SUBDIR += wmstock
     SUBDIR += wmweather
     SUBDIR += xd
     SUBDIR += xdelta
