@@ -7,17 +7,17 @@
 #
 
 DISTNAME=	ical-2.1b2
-CATEGORIES=	misc tk41
+CATEGORIES=	misc
 MASTER_SITES=	http://www.research.digital.com/SRC/personal/Sanjay_Ghemawat/ical/icalbins/
 
 MAINTAINER=	erich@FreeBSD.org
 
-LIB_DEPENDS=    tk41\\.1:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=    tk42\\.1:${PORTSDIR}/x11/tk42
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-tclsh=${PREFIX}/bin/tclsh7.5 \
-		--with-tclconfig=${PREFIX}/lib/tcl7.5 \
-		--with-tkconfig=${PREFIX}/lib/tk4.1
+CONFIGURE_ARGS=	--with-tclsh=${PREFIX}/bin/tclsh7.6 \
+		--with-tclconfig=${PREFIX}/lib/tcl7.6 \
+		--with-tkconfig=${PREFIX}/lib/tk4.2
 MAN1=		ical.1
 
 post-install:
