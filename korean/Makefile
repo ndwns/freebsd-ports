@@ -12,6 +12,7 @@
     SUBDIR += johabfonts
     SUBDIR += nvi-euc-kr
     SUBDIR += nvi-iso-2022-kr
+    SUBDIR += pine
     SUBDIR += pinetreefonts
 
 .include <bsd.port.subdir.mk>
