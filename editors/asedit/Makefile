@@ -6,15 +6,15 @@
 #
 # $Id$
 #
+
 DISTNAME=	asedit-1.3.2
-CATEGORIES=	editors x11
+CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.x.org/contrib/editors/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
-#REQUIRES_MOTIF=	yes
-USE_X11=	yes
+REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 
