@@ -21,6 +21,8 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		png.2:${PORTSDIR}/graphics/png \
 		tiff.1:${PORTSDIR}/graphics/tiff34
 
+BROKEN=		upgrade
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	X11BASE=${X11BASE}
