@@ -1,4 +1,6 @@
 @comment $Id$
 bin/nmap
+bin/nmapfe
+bin/xnmap
 share/misc/nmap-os-fingerprints
 share/misc/nmap-services
