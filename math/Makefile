@@ -19,6 +19,7 @@
     SUBDIR += wingz
     SUBDIR += xgraph
     SUBDIR += xlispstat
+    SUBDIR += xplot
     SUBDIR += xspread
     SUBDIR += xvgr
 
