@@ -55,7 +55,7 @@ startup_dir=	${PREFIX}/etc/rc.d
 startup_script=	${startup_dir}/50.ilu.sh
 
 post-extract:
-	chmod -R u+w work
+	chmod -R u+w ${WRKDIR}
 
 post-patch:
 	${PATCH} ${PATCH_DIST_ARGS} < ${SHLIBPATCH}
