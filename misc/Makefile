@@ -1,6 +1,8 @@
 # $Id$
 #
+# restricted: pgp
+#
 SUBDIR= Wnn calc hfs iozone ispell less mshell mtools netpbm \
-	pgp top unzip xsysstats zoo screen
+	top unzip xsysstats zoo screen
 
 .include <bsd.port.subdir.mk>
