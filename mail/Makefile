@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += bulk_mailer
     SUBDIR += elm
     SUBDIR += exim
     SUBDIR += exmh

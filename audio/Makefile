@@ -14,6 +14,7 @@
     SUBDIR += rsynth
     SUBDIR += s3mod
     SUBDIR += sox
+    SUBDIR += splay
     SUBDIR += timidity
     SUBDIR += tracker
     SUBDIR += workman
