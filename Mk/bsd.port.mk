@@ -427,14 +427,8 @@ is_depended:	${IS_DEPENDED_TARGET}
 # override from an individual Makefile.
 ################################################################
 
-.if defined(NO_FETCH) && !target(fetch)
-fetch:
-	@${DO_NADA}
-.endif
 .if defined(NO_EXTRACT) && !target(extract)
 extract: checksum
-	@/bin/rm -rf ${WRKDIR}
-	@/bin/mkdir -p ${WRKDIR}
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
 checksum: fetch
 	@${DO_NADA}
