@@ -18,7 +18,7 @@ MASTER_SITES=	ftp://ftp.zsh.org/zsh/ \
 		ftp://ftp.ips.oz.au/pub/packages/zsh/ \
 		ftp://ftp.uit.no/pub/unix/shells/zsh/
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-zsh-mem --enable-zsh-secure-free --enable-dynamic

@@ -6,7 +6,7 @@
 # $Id$
 #
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 # This is a slave port.
 PORTCLASS=	slave

@@ -10,7 +10,7 @@ DISTNAME=	semi-${SEMI_VER}
 CATEGORIES=	editors elisp
 MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/semi/semi-current/
 
-MAINTAINER?=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER?=	shige@FreeBSD.ORG
 
 # distfile version
 FLIM_VER=	1.12.1

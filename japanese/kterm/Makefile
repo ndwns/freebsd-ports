@@ -12,7 +12,7 @@ CATEGORIES=	japanese x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm

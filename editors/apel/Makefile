@@ -10,7 +10,7 @@ DISTNAME=	apel-${APEL_VER}
 CATEGORIES=	editors elisp
 MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/apel/
 
-MAINTAINER?=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER?=	shige@FreeBSD.ORG
 
 # distfile version
 APEL_VER=	9.12

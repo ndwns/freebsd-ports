@@ -35,7 +35,7 @@ PATCH_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/authors/id/WATANABE/ \
 PATCHFILES=	jperl5.005_02-981225.pat.gz
 PATCH_DIST_STRIP= -p1
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 .include <bsd.port.pre.mk>
 

@@ -11,7 +11,7 @@ PKGNAME=	${PROGRAM_NAME}-1.0b5
 CATEGORIES=	sysutils
 MASTER_SITES=	http://club.pep.ne.jp/~ishioka/Software/Linux/libapm/
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 ONLY_FOR_ARCHS=	i386
 
