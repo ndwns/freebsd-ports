@@ -81,6 +81,7 @@
     SUBDIR += xmj
     SUBDIR += xmris
     SUBDIR += xneko
+    SUBDIR += xnibbles
     SUBDIR += xonix
     SUBDIR += xpacman
     SUBDIR += xpat2
