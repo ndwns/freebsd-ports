@@ -43,7 +43,6 @@ MAN3=	curs_addch.3x curs_addchstr.3x curs_addstr.3x curs_attr.3x \
 	ncurses.3x panel.3x resizeterm.3x wresize.3x
 MAN5=	terminfo.5 term.5
 MAN7=	term.7
-#MANCOMPRESSED=	yes
 
 MANUAL_PACKAGE_BUILD=	conflicts with system ncurses
 GNU_CONFIGURE=		yes
@@ -53,6 +52,10 @@ CONFIGURE_ARGS=	--datadir=${PREFIX}/share/misc --disable-overwrite \
 CONFIGURE_ENV=		gnat_exists="no" ac_cv_path_LDCONFIG="/usr/bin/env OBJFORMAT=${PORTOBJFORMAT} /sbin/ldconfig -m ${PREFIX}/lib"
 
 .include <bsd.port.pre.mk>
+
+post-configure:
+	@ ${CAT} ${FILESDIR}/patch-ac \
+	 | ${PATCH} ${PATCH_DIST_ARGS}
 
 post-install:
 .if ${PORTOBJFORMAT} == "aout"
