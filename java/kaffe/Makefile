@@ -1,5 +1,5 @@
 # New ports collection makefile for:    kaffe
-# Version required:     0.9.1
+# Version required:     0.9.2
 # Date created:         20 February 1995
 # Whom:                 Tim Wilkinson <tim@sarc.city.ac.uk>
 #
@@ -8,8 +8,8 @@
 
 DISTNAME=	kaffe-0.9.2
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/ \
-		ftp://ftp.cs.columbia.edu/pub/kaffe/ \
+MASTER_SITES=	ftp://ftp.cs.columbia.edu/pub/kaffe/ \
+		ftp://ftp.kaffe.org/pub/kaffe/ \
 		http://www.webcity.co.jp/info/andoh/java/kaffe/
 EXTRACT_SUFX=	.tgz
 DISTFILES=	${DISTNAME}.tgz kaffe-0.9.2-package-javasoft.com.tgz \
