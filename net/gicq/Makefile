@@ -12,11 +12,12 @@ MASTER_SITES=	http://www.montana.com/gabriel/gicq/files/
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
-BUILD_DEPENDS=	${LOCALBASE}/lib/libicq.a:${PORTSDIR}/devel/libicq
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
+		icq.0:${PORTSDIR}/devel/libicq
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--without-gnome --disable-nls
+CONFIGURE_ENV=	CFLAGS="${CFLAGS} -I${LOCALBASE}/include -L${LOCALBASE}/lib"
 
 .include <bsd.port.mk>
