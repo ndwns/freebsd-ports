@@ -3,7 +3,7 @@
 # Date created:				11 February 1999
 # Whom:                			Dima Sivachenko <dima@Chg.RU>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fltk-1.0.3-source

@@ -3,7 +3,7 @@
 # Date created:				03/14/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnome-python-1.0.3

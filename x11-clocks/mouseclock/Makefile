@@ -3,7 +3,7 @@
 # Date created:		26 August 1997
 # Whom:			FURUSAWA, Kazuhisa <kazu@jp.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mouseclock-1.0

@@ -3,7 +3,7 @@
 # Date created:		13 May 1997
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bclock-1.0

@@ -3,7 +3,7 @@
 # Date created:         30 Jul 1996
 # Whom:                 shanee@rabbit.augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkdesk-1.1

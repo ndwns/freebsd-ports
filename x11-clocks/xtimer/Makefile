@@ -3,7 +3,7 @@
 # Date created:		05 Apr 1997
 # Whom:			candy@fct.kgc.co.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xtimer-8087

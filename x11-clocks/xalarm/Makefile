@@ -3,7 +3,7 @@
 # Date created:		4 December 1996
 # Whom:			desmo@bandwidth.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xalarm-3.06

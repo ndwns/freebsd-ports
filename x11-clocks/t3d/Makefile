@@ -3,7 +3,7 @@
 # Date created:        20 Apr 1998
 # Whom:                J Han <hjh@best.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME= 	t3d

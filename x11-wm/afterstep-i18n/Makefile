@@ -3,7 +3,7 @@
 # Date created:		23 October 1998
 # Whom:			issei@jp.FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	AfterStep-1.0

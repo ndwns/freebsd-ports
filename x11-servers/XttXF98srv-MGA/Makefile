@@ -3,7 +3,7 @@
 # Date created:		25 October 1998
 # Whom:			NAKAJI Hiroyuki <nakaji@tutrp.tut.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xc

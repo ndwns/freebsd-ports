@@ -3,7 +3,7 @@
 # Date created:				June 15th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $FreeBSD$
 
 DISTNAME=	TclTk-b2
 PKGNAME=	p5-Tcl-Tk-b2

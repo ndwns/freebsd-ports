@@ -3,7 +3,7 @@
 # Date created:		5th December 1994
 # Whom:			gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tvtwm.pl11

@@ -3,7 +3,7 @@
 # Date Created:			28 Sep 1997
 # Whom:				Vanilla I. Shu <vanilla@MinJe.com.TW>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtk+-1.2.3

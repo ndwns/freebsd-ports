@@ -3,7 +3,7 @@
 # Date created:				10th February 1995
 # Whom:					gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdaliclock-2.13

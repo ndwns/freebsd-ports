@@ -3,7 +3,7 @@
 # Date created:		May 3 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bbdate-0.2.1

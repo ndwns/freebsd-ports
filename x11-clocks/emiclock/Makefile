@@ -3,7 +3,7 @@
 # Date created:		15 March 1995
 # Whom:			Nobuhiro Yasutomi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	emiclock-1.0.4

@@ -3,7 +3,7 @@
 # Date created:		August 13, 1997
 # Whom:			handy@physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	WindowMaker-0.60.0
 PKGNAME=	windowmaker-0.60.0

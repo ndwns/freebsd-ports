@@ -3,7 +3,7 @@
 # Date created:				27 July 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	EZFM-0.4-src

@@ -3,7 +3,7 @@
 # Date created:         30 August 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       getbdf

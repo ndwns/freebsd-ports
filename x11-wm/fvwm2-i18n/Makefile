@@ -3,7 +3,7 @@
 # Date created:		20 Jan 1996
 # Whom:			peter
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fvwm-${FVWM_DISTVER}

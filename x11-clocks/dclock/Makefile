@@ -3,7 +3,7 @@
 # Date created:		15 Aug 1996
 # Whom:			David Leonard <leonard@dstc.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dclock

@@ -3,7 +3,7 @@
 # Date created:        4 September 1998
 # Whom:                KIRIYAMA Kazuhiko <kiri@pis.toba-cmt.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	eyeclock-1.03

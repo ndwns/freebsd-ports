@@ -3,7 +3,7 @@
 # Date Created:				7 nov 98
 # Whom:				 	Gilad Rom
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtkstep-1.6

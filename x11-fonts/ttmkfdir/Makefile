@@ -3,7 +3,7 @@
 # Date created:		September 08, 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	ttmkfdir
 PKGNAME=	ttmkfdir-0.0

@@ -3,7 +3,7 @@
 # Date created:				7 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	workplace-1.0.a3

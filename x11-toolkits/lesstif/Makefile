@@ -3,7 +3,7 @@
 # Date created:		December 10, 1996
 # Whom:			1wardd@airmail.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lesstif-0.88.9

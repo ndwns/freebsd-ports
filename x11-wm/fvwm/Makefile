@@ -3,7 +3,7 @@
 # Date created:		12 May 1995
 # Whom:			me
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fvwm-1.24r

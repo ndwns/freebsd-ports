@@ -3,7 +3,7 @@
 # Date created:			24 Apr 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmtz-0.4

@@ -3,7 +3,7 @@
 # Date created:		3 August 1996
 # Whom:			lukin
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	FileRunner-2.5

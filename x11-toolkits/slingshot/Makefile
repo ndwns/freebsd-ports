@@ -3,7 +3,7 @@
 # Date created:        5 March 1997
 # Whom:                Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	SlingShot2.1

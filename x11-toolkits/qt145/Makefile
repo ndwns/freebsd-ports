@@ -3,7 +3,7 @@
 # Date created:		30 Jul 1996
 # Whom:			searle@longacre.demon.co.uk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qt-1.42

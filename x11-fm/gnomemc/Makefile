@@ -3,7 +3,7 @@
 # Date created:		26 January 1999
 # Whom:			Jeremy Lea <reg@shale.csir.co.za>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mc-4.5.37

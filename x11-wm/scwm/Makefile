@@ -3,7 +3,7 @@
 # Date created:        26 December 1997
 # Whom:                Yukihiro Nakai <nacai@iname.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scwm-0.9

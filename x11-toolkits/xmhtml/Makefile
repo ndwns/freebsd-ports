@@ -3,7 +3,7 @@
 # Date created:		18 Feb 1999
 # Whom:			Peter Hawkins <thepish@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	XmHTML-1.1.0

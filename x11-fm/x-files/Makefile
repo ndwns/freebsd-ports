@@ -3,7 +3,7 @@
 # Date created:		14 April 1998
 # Whom:			Donald J. Maddox <dmaddox@conterra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       X-Files-1.43

@@ -3,7 +3,7 @@
 # Date created: 13 November 1997
 # Whom: Douglas Carmichael <dcarmich@mcs.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	amiwm0.20pl48

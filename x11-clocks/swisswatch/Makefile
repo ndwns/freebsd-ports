@@ -3,7 +3,7 @@
 # Date created:         16 December 1995
 # Whom:                 Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	swisswatch-0.06

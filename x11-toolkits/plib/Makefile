@@ -3,7 +3,7 @@
 # Date created:		26 June 1999
 # Whom:			Brian Buchanan <brian@CSUA.Berkeley.EDU>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		plib-1.0.12a

@@ -3,7 +3,7 @@
 # Date created:         Thu Mar 26 04:50:00 PST 1998
 # Whom:                 dburr@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sharefonts-0.10

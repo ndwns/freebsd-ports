@@ -3,7 +3,7 @@
 # Date created:         Thu Aug  1 21:32:14 CDT 1996
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	freefonts-0.10

@@ -3,7 +3,7 @@
 # Date created:		11 May 1998
 # Whom:			Brett Taylor
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkfont-1.1

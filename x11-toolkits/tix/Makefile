@@ -3,7 +3,7 @@
 # Date created:		22 December 1996
 # Whom:			Thomas Gellekum <tg@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Tix4.1.0.006

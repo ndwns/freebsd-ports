@@ -3,7 +3,7 @@
 # Date created:		18 may 1999
 # Whom:			imura@cs.titech.ac.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kdetoys-1.1.1

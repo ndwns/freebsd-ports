@@ -3,7 +3,7 @@
 # Date created:                17 August 1997
 # Whom:                        lukin@okbmei.msk.su
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ASFiles-1.0

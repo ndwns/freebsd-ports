@@ -3,7 +3,7 @@
 # Date created:		13 Dec 1998
 # Whom:			Taguchi Takeshi <taguchi@tohoku.iij.ad.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xc

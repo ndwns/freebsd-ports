@@ -3,7 +3,7 @@
 # Date created:		13 November 1994
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ctwm-3.5

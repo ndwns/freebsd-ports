@@ -3,7 +3,7 @@
 # Date created:		1 May 1998
 # Whom:			Brett Taylor
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	AfterStep-${AS_VERSION}

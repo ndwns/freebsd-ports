@@ -3,7 +3,7 @@
 # Date created:		23.sept.1994
 # Whom:			adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	3.1

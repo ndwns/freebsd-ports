@@ -3,7 +3,7 @@
 # Date created:		June 15, 1998
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	blackbox-0.51.1

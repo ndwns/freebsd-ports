@@ -3,7 +3,7 @@
 # Date created:        1 July 1998
 # Whom:                Rich Neswold <rneswold@mcs.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmtime-1.0b2

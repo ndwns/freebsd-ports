@@ -3,7 +3,7 @@
 # Date created:		14 November 1996
 # Whom:			markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gwm-1.8c

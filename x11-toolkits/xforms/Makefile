@@ -3,7 +3,7 @@
 # Date created:		28 March 1997
 # Whom:			gena
 #
-# $Id$
+# $FreeBSD$
 #
 
 USE_X_PREFIX=	yes

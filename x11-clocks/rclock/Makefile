@@ -4,7 +4,7 @@
 # Date created:			  24th Feburary 1997
 # Whom:				  obrien@NUXI.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	rclock-2.6.1

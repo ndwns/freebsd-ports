@@ -3,7 +3,7 @@
 # Date created:		17 March 1998
 # Whom:			J Han <hjh@photino.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lwm

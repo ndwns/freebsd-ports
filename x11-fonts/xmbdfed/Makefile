@@ -3,7 +3,7 @@
 # Date created:		June 20, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmbdfed-3.9
