@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xpm
-# Version required:	3.4e
+# Version required:	3.4f
 # Date created:		14 September 1994
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=	xpm-3.4e
+DISTNAME=	xpm-3.4f
 CATEGORIES+=	graphics x11
 MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
 
