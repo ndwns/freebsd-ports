@@ -23,4 +23,4 @@ PATCHDIR=	${PORTSDIR}/editors/nvi/patches
 PKGDIR=		${PORTSDIR}/editors/nvi/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-CONFIGURE_ARGS=	--enable-multibyte=eucu-cn --program-prefix=n
+CONFIGURE_ARGS=	--enable-multibyte=euc-cn --program-prefix=n
