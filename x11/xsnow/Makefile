@@ -1,15 +1,15 @@
 # New ports collection makefile for:    xsnow
-# Version required:     1.39
+# Version required:     1.40
 # Date created:         12 November 1994
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=	xsnow-1.39
+DISTNAME=	xsnow-1.40
 CATEGORIES+=	x11
 MASTER_SITES=	ftp://ftp.x.org/contrib/games/
-DISTFILES=	xsnow-1.39.tar.Z
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
