@@ -27,6 +27,7 @@
     SUBDIR += pygist
     SUBDIR += r
     SUBDIR += rng
+    SUBDIR += sc
     SUBDIR += siag
     SUBDIR += simpack
     SUBDIR += ss
