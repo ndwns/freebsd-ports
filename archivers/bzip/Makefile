@@ -8,7 +8,7 @@
 
 DISTNAME=       bzip-0.21
 CATEGORIES=	archivers
-MASTER_SITES=   http://www.cs.man.ac.uk/arch/people/j-seward/
+MASTER_SITES=   ftp://ftp.connectnet.com/pub/bzip/
 
 MAINTAINER=     andreas@FreeBSD.ORG
 
