@@ -25,7 +25,6 @@ MAKE_FLAGS=	'OPT=${CFLAGS}'
 INSTALL_TARGET=	install
 PLIST=		${WRKDIR}/PLIST
 MAN1=		python.1
-NO_LATEST_LINK=	yes
 
 #
 # The standard setup file
