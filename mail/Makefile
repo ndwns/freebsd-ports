@@ -2,7 +2,6 @@
 #
 
     SUBDIR += elm
-    SUBDIR += elm+mime
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
