@@ -1,13 +1,13 @@
 # New ports collection makefile for:	zsh
-# Version required:     	3.0 pre2
+# Version required:     	3.0.0
 # Date created:			11 Feb. 1995
 # Whom:				torstenb
 #
 # $Id$
 #
 
-DISTNAME=       zsh-3.0-pre2
-PKGNAME=	zsh-3.0a2
+DISTNAME=       zsh-3.0.0
+PKGNAME=	zsh-3.0.0
 CATEGORIES+=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
 		ftp://ftp.sterling.com/zsh/ \
