@@ -21,7 +21,7 @@ DIST_SUBDIR=	python
 WRKSRC=		${WRKDIR}/Python-1.5.2
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-fpectl
-MAKE_FLAGS=	'OPT=${CFLAGS}'
+CONFIGURE_ENV=	OPT="${CFLAGS}"
 INSTALL_TARGET=	install
 PLIST=		${WRKDIR}/PLIST
 MAN1=		python.1
@@ -52,7 +52,7 @@ LIBC_R!=	/sbin/ldconfig -r | grep c_r || true
 .if ${LIBC_R} != "" && defined(WITH_THREADS) && ${WITH_THREADS} == yes
 CONFIGURE_ARGS+=	--with-thread
 CFLAGS+=		-D_THREAD_SAFE
-CONFIGURE_ENV=		LDFLAGS="-pthread ${LDFLAGS}"
+CONFIGURE_ENV+=		LDFLAGS="-pthread ${LDFLAGS}"
 .endif
 
 #
