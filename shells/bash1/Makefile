@@ -10,6 +10,8 @@ DISTNAME=       bash-1.14.7
 CATEGORIES=	shells
 MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
 
+MAINTAINER=	obrien@NUXI.com.
+
 WRKSRC=         ${WRKDIR}/${DISTNAME}
 # Don't compress manpages or .so not works.
 
