@@ -14,18 +14,21 @@ EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=	markm@FreeBSD.ORG
 
-#
-# This isn't really interactive, but the Configure script checks for
-# file descriptor 0, so it won't run if you </dev/null to run a
-# nightly batch build....
-#
-IS_INTERACTIVE=		yes
-
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=		-sde
 
+PERLMAN= "" api book bot call data debug diag embed form func guts ipc mod \
+	   obj op ovl pod re ref run sec style sub syn trap var
+
 test:
 	@(cd ${WRKSRC}; make test)
+
+
+post-install:
+	@for m in ${PERLMAN}; do gzip -9nf ${PREFIX}/man/man1/perl$$m.1; done
+	@gzip -9nf ${PREFIX}/man/man1/a2p.1
+	@gzip -9nf ${PREFIX}/man/man1/s2p.1
+	@strip ${PREFIX}/bin/perl ${PREFIX}/bin/suidperl
 
 .include <bsd.port.mk>
