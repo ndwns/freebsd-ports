@@ -36,6 +36,7 @@
     SUBDIR += escpf
     SUBDIR += eterm
     SUBDIR += ewipe
+    SUBDIR += exmh2
     SUBDIR += expect
     SUBDIR += gawk
     SUBDIR += gd
