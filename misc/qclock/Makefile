@@ -9,7 +9,7 @@
 DISTNAME=	qclock
 PKGNAME=	qclock-1.0
 CATEGORIES=	misc
-MASTER_SITES=	http://snowball.cypcopic.com.au/qclock/
+MASTER_SITES=	ftp://peloton.physics.montana.edu/pub/distfiles/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
