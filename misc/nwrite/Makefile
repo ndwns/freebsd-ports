@@ -21,7 +21,6 @@ BINGRP=		tty
 BINMODE=	2755
 
 do-install:
-
 		${INSTALL_PROGRAM} ${WRKSRC}/nwrite ${PREFIX}/bin
 		${INSTALL_MAN} ${WRKSRC}/nwrite.1.in ${PREFIX}/man/man1/nwrite.1
 
