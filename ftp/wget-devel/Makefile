@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wget-1.5.3
-CATEGORIES=	net
+CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.dl.ac.uk/ccp14/ftp-mirror/wget/pub/unix/util/wget/ \
 		ftp://ftp.informatik.hu-berlin.de/gnu/wget/ \
@@ -15,7 +15,7 @@ MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.max.irk.ru/pub/unix/net/www/wget/
 MASTER_SITE_SUBDIR=	wget
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	obrien@FreeBSD.ORG
 
 LIB_DEPENDS=	intl.1:${PORTSDIR}/devel/gettext
 
