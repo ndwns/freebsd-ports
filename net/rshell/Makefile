@@ -7,7 +7,7 @@
 #
 
 DISTNAME=      rshell-1.0
-CATEGORIES=    misc
+CATEGORIES=    net
 MASTER_SITES=  ${MASTER_SITE_LOCAL}
 
 MAINTAINER=    wosch@FreeBSD.ORG
