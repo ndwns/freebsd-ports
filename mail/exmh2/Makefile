@@ -12,6 +12,15 @@ CATEGORIES=	mail tk41
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
 
+PATCH_SITES=	http://www.sunlabs.com/~bwelch/exmh/patches/2.0zeta/
+PATCHFILES=	ispell.patch koir.patch mime.patch seditMime.patch scan.patch
+
+.if defined(PATCH_DEBUG)
+PATCH_DIST_ARGS= -d ${WRKSRC}/lib -E ${PATCH_DIST_STRIP}
+.else
+PATCH_DIST_ARGS= -d ${WRKSRC}/lib --forward --quiet -E ${PATCH_DIST_STRIP}
+.endif
+
 MAINTAINER=	peter@FreeBSD.org
 
 DIST_SUBDIR=	${PKGNAME}
