@@ -78,7 +78,7 @@
     SUBDIR += vflib
     SUBDIR += vfxdvi
     SUBDIR += w3
-    SUBDIR += xbakuzan
+    SUBDIR += xshodo
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
