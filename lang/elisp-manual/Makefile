@@ -9,6 +9,7 @@
 DISTNAME=	elisp-manual-20-2.5
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	emacs
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
