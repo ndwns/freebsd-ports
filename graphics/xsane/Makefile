@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xsane-0.30
+DISTNAME=	xsane-0.31
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.wolfsburg.de/~rauch/sane/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
