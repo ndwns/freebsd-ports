@@ -355,8 +355,8 @@ RUN_DEPENDS+=	${EXEC_DEPENDS}
 BUILD_DEPENDS+=		gmake:${PORTSDIR}/devel/gmake
 .endif
 .if defined(USE_PERL5)
-BUILD_DEPENDS+=		perl5.004:${PORTSDIR}/lang/perl5
-RUN_DEPENDS+=		perl5.004:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS+=		perl5.00401:${PORTSDIR}/lang/perl5
+RUN_DEPENDS+=		perl5.00401:${PORTSDIR}/lang/perl5
 .endif
 
 .if exists(${PORTSDIR}/../Makefile.inc)
