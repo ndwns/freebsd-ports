@@ -16,6 +16,9 @@ MAINTAINER=	billf@chc-chimes.com
 WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_AUTOCONF=	yes
 ALL_TARGET=
+INSTALL_TARGET=	install install-man
+
+MAN8=		ntop.8
 
 post-install:
 	strip ${PREFIX}/sbin/ntop
