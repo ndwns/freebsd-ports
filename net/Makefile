@@ -123,6 +123,7 @@
     SUBDIR += p5-Net-Whois
     SUBDIR += p5-SNMP
     SUBDIR += p5-Socks
+    SUBDIR += p5-URI
     SUBDIR += p5-pRPC
     SUBDIR += pathchar
     SUBDIR += pavuk
