@@ -17,7 +17,7 @@ MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 		ftp://gd.tuwien.ac.at/pub/graphics/ImageMagick/ \
 		ftp://ftp.ms.mff.cuni.cz/MIRRORS/ftp.wizards.dupont.com/pub/ImageMagick/ \
 		ftp://ftp.oce.nl/pub/Internet/audio+video/ImageMagick/ \
-		http://hpux.csc.liv.ac.uk/hppd/hpux/X11/Viewers/ImageMagick-3.9.2/
+		http://hpux.csc.liv.ac.uk/hppd/hpux/X11/Viewers/ImageMagick-4.0/
 
 MAINTAINER=	jseger@FreeBSD.org
 
