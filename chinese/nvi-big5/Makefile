@@ -7,9 +7,9 @@
 #
 
 # can't use PORTSDIR here, since we haven't included bsd.port.mk
-FILESDIR=	${.CURDIR}/../../editors/nvi/files
-PATCHDIR=	${.CURDIR}/../../editors/nvi/patches
-PKGDIR=		${.CURDIR}/../../editors/nvi/pkg
+FILESDIR=	${.CURDIR}/../../editors/nvi-m17n/files
+PATCHDIR=	${.CURDIR}/../../editors/nvi-m17n/patches
+PKGDIR=		${.CURDIR}/../../editors/nvi-m17n/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
 PKGNAME=	zh-nvi-big5-1.79.19970820
