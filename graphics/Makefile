@@ -5,6 +5,7 @@
     SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += dore
+    SUBDIR += gimp
     SUBDIR += hpscan
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
