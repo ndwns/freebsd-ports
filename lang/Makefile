@@ -16,6 +16,7 @@
     SUBDIR += guile-iii
     SUBDIR += icon
     SUBDIR += itcl
+    SUBDIR += lcc
     SUBDIR += logo
     SUBDIR += mit-scheme
     SUBDIR += mixal
