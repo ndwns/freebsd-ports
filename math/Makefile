@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Scilab
+    SUBDIR += add
     SUBDIR += apc
     SUBDIR += blas
     SUBDIR += calc
