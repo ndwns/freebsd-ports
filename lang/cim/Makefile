@@ -15,6 +15,9 @@ MASTER_SITE_SUBDIR=	devel/lang/simula
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+
+BROKEN_ELF=	bad library version number
+
 GNU_CONFIGURE= 	yes
 MAN1=		cim.1
 
