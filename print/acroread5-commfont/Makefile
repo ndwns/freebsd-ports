@@ -29,7 +29,7 @@ WRKSRC=		${WRKDIR}/JPNKIT
 DISTFILES=	chsfont.tar.gz
 WRKSRC=		${WRKDIR}/CHSKIT
 .elif exists(${DISTDIR}/chtfont.tar.gz)
-DISTFILES=	chsfont.tar.gz
+DISTFILES=	chtfont.tar.gz
 WRKSRC=		${WRKDIR}/CHTKIT
 .elif exists(${DISTDIR}/korfont.tar.gz)
 DISTFILES=	korfont.tar.gz
