@@ -20,7 +20,7 @@ LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
 		tiff.4:${PORTSDIR}/graphics/tiff34
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CPPFLAGS=-I${PREFIX}/include \
+CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${PREFIX}/include" \
 		LDFLAGS=-L${PREFIX}/lib
 
 .include <bsd.port.mk>
