@@ -12,6 +12,8 @@ MASTER_SITES=	http://freefall.freebsd.org/~andreas/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+RUN_DEPENDS=	kermit:${PORTSDIR}/comms/kermit
+
 # The FreeBSD Ports Team has permission to include this in our CDROM
 # from the author, but others who wish to do likewise will have to
 # contact Sean MacGuire <sean@iti.qc.ca>.
