@@ -12,7 +12,8 @@ MASTER_SITES=	ftp://ftp.ae.keio.ac.jp/pub/msdos/archivers/uu/
 
 MAINTAINER=	pcs51674@asciinet.or.jp
 
-BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha
+BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
+		nkf:${PORTSDIR}/japanese/nkf
 
 EXTRACT_CMD=	lha
 EXTRACT_SUFX=	.lzh
