@@ -1,5 +1,5 @@
 # New ports collection makefile for:	p5-libwww
-# http://www.sn.no/libwww-perl/
+# http://www.linpro.no/lwp/
 # Version required:                     5.36
 # Date created:				September 30th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
