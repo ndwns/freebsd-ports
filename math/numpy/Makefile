@@ -19,6 +19,8 @@ RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 LIB_DEPENDS=	lapack\\.2\\.:${PORTSDIR}/math/lapack \
 		ranlib\\.1\\.:${PORTSDIR}/math/libranlib
 
+BROKEN=		python upgrade
+
 ALL_TARGET=	sharedmods
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
