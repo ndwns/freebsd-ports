@@ -7,13 +7,14 @@
 #
 
 DISTNAME=	xscavenger-1.3
-DISTFILES=	xscavenger-13.tgz
 CATEGORIES=	games
 MASTER_SITES=	http://www.epyx.com/dash/
+DISTFILES=	xscavenger-13.tgz
+
+MAINTAINER=	eivindFreeBSD.org
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=yes
-
-MAINTAINER=	eivindFreeBSD.org
 
 .include <bsd.port.mk>
