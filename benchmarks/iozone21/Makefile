@@ -12,6 +12,9 @@ CATEGORIES+=	benchmarks
 MASTER_SITES=   ftp://ftp.cs.uni-sb.de/pub/others/
 DISTFILES=      iozone-2.01.shar.gz
 
+# This site not allows root@<hostname> password
+FETCH_CMD=      FTP_PASSWORD=president@whitehouse.gov /usr/bin/fetch
+
 MAINTAINER=	jmz@FreeBSD.org
 
 EXTRACT_CMD=    ( gzcat | awk '{if (/^\#!/) x++} {if(x) print $$0'}| /bin/sh )
