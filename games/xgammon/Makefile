@@ -15,6 +15,8 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+BROKEN_ELF=	depends on rpm
+
 BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
 
 NO_WRKSUBDIR=	yes
