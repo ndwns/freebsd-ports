@@ -52,6 +52,7 @@
     SUBDIR += urlview
     SUBDIR += wdiff
     SUBDIR += word2x
+    SUBDIR += xml4j
     SUBDIR += yodl
 
 .include <bsd.port.subdir.mk>
