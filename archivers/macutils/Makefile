@@ -6,7 +6,7 @@
 #
 # $Id$
 #
-      
+
 DISTNAME=	macutils_2.0b3.orig
 PKGNAME=	macutils-2.0b3
 CATEGORIES=	emulators
@@ -56,4 +56,3 @@ do-install:
 .endif
 
 .include <bsd.port.mk>
-
