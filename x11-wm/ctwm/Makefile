@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	ctwm-3.5beta1
-PKGNAME=	ctwm-3.5b1
+DISTNAME=	ctwm-3.5beta3
+PKGNAME=	ctwm-3.5b3
 CATEGORIES=	x11
 MASTER_SITES=	ftp://slhp1.epfl.ch/pub/ \
 
