@@ -8,10 +8,10 @@
 
 DISTNAME=	swisswatch-0.06
 CATEGORIES=	x11-clocks
-MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/X/R5contrib/
+MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	sanpei@yy.cs.keio.ac.jp
+MAINTAINER=	sanpei@jp.FreeBSD.org
 
 USE_IMAKE=	yes
 MAN1=		swisswatch.1
