@@ -71,5 +71,6 @@
     SUBDIR += wn
     SUBDIR += wwwcount
     SUBDIR += wwwstat
+    SUBDIR += xitami
 
 .include <bsd.port.subdir.mk>
