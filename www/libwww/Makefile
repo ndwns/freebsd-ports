@@ -13,7 +13,6 @@ MASTER_SITES=	http://www.w3.org/Library/Distribution/
 
 MAINTAINER=	jseger@FreeBSD.org
 
-FETCH_BEFORE_ARGS=	-b
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--enable-shared --enable-static
