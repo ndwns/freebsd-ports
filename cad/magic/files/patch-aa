@@ -387,7 +387,7 @@
   LIB=	${MAGICDIR}/lib
   SYSLIB=	${CADDIR}/lib/magic/sys
   BIN=	${CADDIR}/bin
-! IFLAGS=	-I. -I${H} -I/usr/X11R6/include
+! IFLAGS=	-I. -I${H} -I${X11BASE}/include
   #
   # Configuration for flags and libraries
   #
