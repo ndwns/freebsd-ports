@@ -35,7 +35,7 @@ RUN_DEPENDS=	expect:${PORTSDIR}/lang/expect \
 
 NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
-NO_CDROM=	YES
+NO_CDROM=	"This software is shareware"
 
 do-extract:
 		@ ${MKDIR} -p work/quake
