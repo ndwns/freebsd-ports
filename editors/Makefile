@@ -41,6 +41,7 @@
     SUBDIR += psgml-emacs
     SUBDIR += psgml-emacs20
     SUBDIR += psgml-mule
+    SUBDIR += psgml-xemacs-mule
     SUBDIR += sam
     SUBDIR += semi-emacs
     SUBDIR += semi-emacs-current
