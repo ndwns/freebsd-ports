@@ -12,7 +12,7 @@ MASTER_SITES=	http://rplay.doit.org/dist/
 
 MAINTAINER=	rmallory@csusb.edu
 
-LIB_DEPENDS=    gsm\\.1\\.0:${PORTSDIR}/audio/gsm
+LIB_DEPENDS=    gsm.1:${PORTSDIR}/audio/gsm
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=   http://www.fourmilab.ch/speakfree/unix/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-LIB_DEPENDS=    gsm\\.1\\.0:${PORTSDIR}/audio/gsm
+LIB_DEPENDS=    gsm.1:${PORTSDIR}/audio/gsm
 
 UTILS=   sfspeaker sfmike sflwl
 DEMNS=   sfecho sflwld
