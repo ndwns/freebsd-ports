@@ -8,11 +8,12 @@
 
 DISTNAME=	freetype-1.2
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.physiol.med.tu-muenchen.de/pub/freetype/ \
+MASTER_SITES=	ftp://ftp.tux.org/pub/devel/freetype/ \
 		ftp://ftp.lerc.nasa.gov/ImageMagick/delegates/ \
-		ftp://ftp.tux.org/pub/devel/freetype/ \
+		ftp://ftp.wizards.dupont.com/pub/ImageMagick/delegates/ \
 		ftp://ftp.kddlabs.co.jp/.6/graphics/freetype/ \
-		ftp://ring.aist.go.jp/pub/graphics/freetype/
+		ftp://ring.aist.go.jp/pub/graphics/freetype/ \
+		ftp://ftp.unina.it/pub/Unix/pkgs/font/freetype/
 
 MAINTAINER=	jseger@FreeBSD.org
 
