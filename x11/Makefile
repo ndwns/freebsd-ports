@@ -75,6 +75,7 @@
     SUBDIR += tk80
     SUBDIR += tk81
     SUBDIR += tkdesk
+    SUBDIR += tkfont
     SUBDIR += tkgoodstuff
     SUBDIR += tkstep80
     SUBDIR += tvtwm
