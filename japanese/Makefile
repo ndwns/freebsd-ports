@@ -76,6 +76,10 @@
     SUBDIR += plain2
     SUBDIR += platex
     SUBDIR += prn
+    SUBDIR += ptex-common
+    SUBDIR += ptex-euc
+    SUBDIR += ptex-jis
+    SUBDIR += ptex-sjis
     SUBDIR += qkc
     SUBDIR += recjis
     SUBDIR += sed
