@@ -11,6 +11,8 @@ MASTER_SITES=	ftp://ftp.lexa.ru/pub/domestic/snar/
 
 MAINTAINER=	snar@paranoia.ru
 
+ONLY_FOR_ARCHS=	i386
+
 # this library depends on system-defined headers "SYS.h" and "DEFS.h"
 # which may differ from release to release.
 
