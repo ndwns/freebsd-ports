@@ -10,10 +10,11 @@
 
 DISTNAME=	queso-980922
 CATEGORIES=	net security
-MASTER_SITES=	ftp://apostols.org/AposTools/snapshots/  \
-		ftp://ftp.ee.lbl.gov/  \
+MASTER_SITES=	ftp://ftp.ee.lbl.gov/  \
+		${MASTER_SITE_SUNSITE} \
 		ftp://freebsd.ntu.edu.tw/freebsd/_distfiles/
 DISTFILES=	queso-980922.tar.gz
+MASTER_SITE_SUBDIR=	distributions/trinux/src/netmap
 
 MAINTAINER=	obrien@FreeBSD.org
 
