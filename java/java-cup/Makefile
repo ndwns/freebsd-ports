@@ -18,7 +18,7 @@ JAVADIR=	${PREFIX}/${JAVASUBDIR}
 JAVALIBDIR=	${JAVADIR}/lib
 
 BUILD_DEPENDS=	${JAVADIR}/bin/javac:${PORTSDIR}/lang/jdk
-RUN_DEPENDS=	${JAVADIR}//bin/java:${PORTSDIR}/lang/jdk
+RUN_DEPENDS=	${JAVADIR}/bin/java:${PORTSDIR}/lang/jdk
 
 NO_WRKSUBDIR=	yes
 
