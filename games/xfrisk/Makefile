@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	games/multiplayer/
 
 MAINTAINER=	mph@pobox.com
 
+BROKEN=		package
+
 NO_CDROM=	Possible trademark infringement
 
 USE_IMAKE=	yes
