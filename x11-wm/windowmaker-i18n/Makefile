@@ -22,7 +22,11 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 
 USE_X11=	yes
 USE_GMAKE=	yes
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS=	--prefix=${PREFIX} --with-nlsdir=${LOCALBASE}/lib/locale
+GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	X11BASE=${X11BASE}
+CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
+	--with-nlsdir=${LOCALBASE}/lib/locale \
+	--with-gfx-libs=-L${LOCALBASE}/lib \
+	--with-gfx-incs="-I${LOCALBASE}/include/tiff34 -I${LOCALBASE}/include"
 
 .include <bsd.port.mk>
