@@ -8,12 +8,11 @@
 
 DISTNAME=	qpage-3.2
 CATEGORIES=	comms
-MASTER_SITES=	http://www.qpage.org/download/
+#MASTER_SITES=	http://www.qpage.org/download/
+MASTER_SITES=	http://www.freebsd.org/~fenner/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	joes@seaport.net
-
-BROKEN=		corrupted distfile
 
 MAN1=		qpage.1
 
