@@ -10,7 +10,7 @@
 DISTNAME=	latest_xftp
 PKGNAME=	llnlxftp-2.1
 CATEGORIES=	net
-MASTER_SITES=	ftp://k2.llnl.gov/pub/ia/llnlxftp/
+MASTER_SITES=	ftp://ftp-lc.llnl.gov/pub/ia/llnlxftp/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dima@FreeBSD.ORG
