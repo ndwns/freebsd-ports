@@ -12,11 +12,11 @@ MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	ports@FreeBSD.org
 
-IS_INTERACTIVE=	yes
-NO_BUILD=	yes
-
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+
+IS_INTERACTIVE=	yes
+NO_BUILD=	yes
 
 do-install:
 	(cd ${WRKSRC} && ./installZircon)
