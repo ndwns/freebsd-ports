@@ -13,9 +13,11 @@ MASTER_SITES=	ftp://ftp.korsoft.com/pub/gicq/                        \
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
-LIB_DEPENDS=	glib12.1:${PORTSDIR}/devel/glib12
+LIB_DEPENDS=	glib12.2:${PORTSDIR}/devel/glib12
 
-GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GLIB_CONFIG="${PREFIX}/bin/glib12-config"
+GLIB_CONFIG?=	${LOCALBASE}/bin/glib12-config
+
+USE_LIBTOOL=	yes
+CONFIGURE_ENV=	GLIB_CONFIG="${GLIB_CONFIG}"
 
 .include <bsd.port.mk>
