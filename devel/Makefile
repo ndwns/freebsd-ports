@@ -83,6 +83,7 @@
     SUBDIR += scogdb
     SUBDIR += tclcheck
     SUBDIR += tkcvs
+    SUBDIR += tkref
     SUBDIR += tvision
     SUBDIR += vtcl
     SUBDIR += xmake
