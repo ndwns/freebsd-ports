@@ -17,8 +17,12 @@ CATEGORIES+=	www
 #NCFTPFLAGS=     -to multipart/x-zip -timeout 120 -o ${DISTFILES}
 #FETCH_DEPENDS=  ${NCFTP}:${PORTSDIR}/www/comline
 
-MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/nidr/www/
+# Beware ugly VMS names
+NCFTPFLAGS=     -c
+MASTER_SITES=   ftp://ftp.hhs.dk//fote_mirror/
 DISTFILES=      lynx2-4-fm.zip
+NCFTPTAIL=      > ${DISTFILES}
+
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
 
