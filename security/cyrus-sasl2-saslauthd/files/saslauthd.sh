@@ -23,7 +23,7 @@ prefix=%%PREFIX%%
 #
 saslauthd_enable=${saslauthd_enable:-"NO"}	# Enable saslauthd
 saslauthd_flags=${saslauthd_flags:-"-a pam"}	# Flags to saslauthd program
-#saslauthd_runpath="/var/state/saslauthd"	# Working directory
+#saslauthd_runpath="%%SASLAUTHD_RUNPATH%%"	# Working directory
 #saslauthd_program="${prefix}/sbin/saslauthd"	# Location of saslauthd
 
 . %%RC_SUBR%%
@@ -35,7 +35,7 @@ command="${prefix}/sbin/${name}"
 load_rc_config $name
 
 if [ -z "$saslauthd_runpath" ]; then
-	pidfile="/var/state/${name}/${name}.pid"
+	pidfile="%%SASLAUTHD_RUNPATH%%/${name}.pid"
 	flags="${saslauthd_flags}"
 else
 	pidfile="${saslauthd_runpath}/${name}.pid"
