@@ -8,7 +8,7 @@
 
 DISTNAME=	egcs-980205
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.cygnus.com/pub/egcs/snapshots/1998-02-05/ \
+MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-02-05/ \
 		ftp://cambridge.cygnus.com/pub/egcs/snapshots/1998-02-05/ \
 		ftp://ftp.fu-berlin.de/unix/languages/egcs/snapshots/1998-02-05/
 
