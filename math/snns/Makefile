@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.informatik.uni-stuttgart.de/pub/SNNS/
 
 MAINTAINER=	reg@shale.csir.co.za
 
+USE_XLIB=	yes
+
 post-configure:
 	@(cd ${WRKSRC} && ./configure < options.FreeBSD)
 	@(sed -e "s#%prefix%#${PREFIX}#g" < ${FILESDIR}/snns > ${WRKSRC}/snns)
