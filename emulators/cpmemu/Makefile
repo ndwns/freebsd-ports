@@ -8,8 +8,9 @@
 DISTNAME=	cpm-0.2
 PKGNAME=	cpmemu-0.2
 CATEGORIES=	emulators
-MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	distributions/slackware/source/extra-stuff/CPM-80-emulator
+MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/slackware/source/extra-stuff/CPM-80-emulator/
+# ${MASTER_SITE_SUNSITE} isn't appropriate because distributions/ isn't
+# mirrored.
 
 MAINTAINER=	ports@FreeBSD.org
 
