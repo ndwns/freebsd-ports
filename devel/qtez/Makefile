@@ -9,7 +9,8 @@
 DISTNAME=	QTEZ-v0.62a
 PKGNAME=	qtez-0.62a
 CATEGORIES=	devel x11
-MASTER_SITES=	ftp://qtez.commkey.net/pub/QtEZ/
+MASTER_SITES=	ftp://qtez.commkey.net/pub/QtEZ/ \
+		ftp://qtez.commkey.net/pub/QtEZ/old/
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andy@icc.surw.chel.su
