@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	libnet-0.99a
-PKGNAME=	libnet-0.9.2
+DISTNAME=	libnet-0.99b
+PKGNAME=	libnet-0.9.3
 CATEGORIES=     net
 MASTER_SITES=	http://www.packetfactory.net/libnet/dist/
 EXTRACT_SUFX=	.tgz
@@ -25,7 +25,7 @@ GNU_CONFIGURE=	yes
 BROKEN=         does not build
 .endif
 
-WRKSRC=         ${WRKDIR}/Libnet-0.99a
+WRKSRC=         ${WRKDIR}/Libnet-0.99b
 
 post-install:
 .if !defined(NOPORTDOCS)
