@@ -1,10 +1,10 @@
 # $Id$
 #
-SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
-	jpeg kterm magic mpeg-lib mpeg_play olvwm \
-	pcb piewm rxvt tiff tk tkhfs tvtwm xanim xarchie xcd \
-	xcdplayer xdvi xearth xfed xfig xfm xgraph xli xlockmore xpm xsnow \
-	xpaint xtexshell xv \
+SUBDIR= ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview \
+	irsim iv ivs jpeg kterm magic mpeg-lib mpeg_play olvwm pcb \
+	piewm povray rxvt tiff tk tkhfs tkman tvtwm x3270 xanim \
+	xarchie xcd xcdplayer xdvi xearth xfed xfig xfm xgraph xli \
+	xlockmore xminesweep xpaint xpm xsnow xtexshell xv \
 	xview-config xview-lib xview-clients
 
 #
