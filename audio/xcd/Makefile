@@ -10,6 +10,8 @@ DISTNAME=	xcd-1.0
 CATEGORIES+=	audio
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
+WRKSRC=		${WRKDIR}/xcd
+
 MAINTAINER=	jmz@FreeBSD.org
 
 .include <bsd.port.mk>
