@@ -11,6 +11,8 @@ MASTER_SITES=		ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/
 
 MAINTAINER=		issei@jp.FreeBSD.ORG
 
+BROKEN=			does not work with openssl-0.9.2b at the moment
+
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
 pre-fetch:
 	@echo
@@ -27,8 +29,8 @@ pre-configure:
 .endif
 .endif
 
-BUILD_DEPENDS=		ssleay:${PORTSDIR}/security/openssl
-RUN_DEPENDS=		ssleay:${PORTSDIR}/security/openssl
+BUILD_DEPENDS=		openssl:${PORTSDIR}/security/openssl
+RUN_DEPENDS=		openssl:${PORTSDIR}/security/openssl
 
 RESTRICTED=		"Cryptography"
 
