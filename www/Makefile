@@ -33,6 +33,7 @@
     SUBDIR += http-analyze
     SUBDIR += hypermail
     SUBDIR += ijb
+    SUBDIR += libghttp
     SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linbot
