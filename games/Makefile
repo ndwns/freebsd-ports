@@ -18,6 +18,7 @@
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xchomp
+    SUBDIR += xdino
     SUBDIR += xemeraldia
     SUBDIR += xevil
     SUBDIR += xgalaga
@@ -36,6 +37,7 @@
     SUBDIR += xpacman
     SUBDIR += xpilot
     SUBDIR += xpipeman
+    SUBDIR += xpuyo
     SUBDIR += xrisk
     SUBDIR += xripple
     SUBDIR += xroach
@@ -46,6 +48,7 @@
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
+    SUBDIR += xtriangles
     SUBDIR += yamsweeper
 
 .include <bsd.port.subdir.mk>
