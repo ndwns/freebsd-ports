@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	quakeserver-1.01
-CATEGORIES=	games
+CATEGORIES=	games tk41
 MASTER_SITES=	ftp://ftp.gamesdomain.com/pub/idsoftware/quake/ \
 		ftp://ftp.cssweb.com/pub/games/idstuff/quake/ \
 		ftp://ftp.feist.com/pub/pc/games/quake/

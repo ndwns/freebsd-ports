@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	imm-3.5a1
-CATEGORIES=	mbone
+CATEGORIES=	mbone tk41
 MASTER_SITES=	ftp://ftp.hawaii.edu/paccom/imm-3.5a1/
 DISTFILES=	imm.source.tar.Z
 WRKSRC=		${WRKDIR}/mnm

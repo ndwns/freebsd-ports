@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bsvc-2.0
-CATEGORIES=	emulators
+CATEGORIES=	emulators tk41
 MASTER_SITES=	ftp://ftp.ncsu.edu/pub/eos/pub/bsvc/distribution/
 EXTRACT_SUFX=	-src.tar.z
 

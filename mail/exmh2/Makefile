@@ -8,7 +8,7 @@
 
 DISTNAME=	exmh-2.0gamma
 PKGNAME=	exmh-2.0g
-CATEGORIES=	mail
+CATEGORIES=	mail tk41
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
 

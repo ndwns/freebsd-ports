@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ical-2.1b2
-CATEGORIES=	misc
+CATEGORIES=	misc tk41
 MASTER_SITES=	http://www.research.digital.com/SRC/personal/Sanjay_Ghemawat/ical/icalbins/
 
 MAINTAINER=	erich@FreeBSD.org

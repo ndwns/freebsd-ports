@@ -8,7 +8,7 @@
 
 DISTNAME=       python1.4
 PKGNAME=        python-1.4
-CATEGORIES=	lang
+CATEGORIES=	lang tk41
 MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/ \
 		ftp://www.python.org/pub/python/contrib/Graphics/Tkinter/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	blt-2.1
-CATEGORIES=	x11
+CATEGORIES=	x11 tk41
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/devel/
 DISTFILES=	BLT2.1.tar.gz
 

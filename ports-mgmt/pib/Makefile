@@ -8,7 +8,7 @@
 
 DISTNAME=	pib-1.0
 MASTER_SITES=	ftp://gsoft.com.au/pub/pib/
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils tk41
 
 MAINTAINER=	msmith@freebsd.org
 

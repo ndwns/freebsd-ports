@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkinfo-1.2
-CATEGORIES=	misc
+CATEGORIES=	misc tk41
 MASTER_SITES=	http://www.math.ucsb.edu/~boldt/tkinfo/ \
 		http://math-www.uni-paderborn.de/~axel/tkinfo/
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	Tix4.1.0
 PKGNAME=	tix-4.1.0
-CATEGORIES=	x11
+CATEGORIES=	x11 tk41
 MASTER_SITES=	ftp://ftp.xpi.com/pub/
 
 MAINTAINER=	ports@FreeBSD.ORG

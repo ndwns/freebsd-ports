@@ -8,7 +8,7 @@
 
 DISTNAME=	sdr.V2.3a1
 PKGNAME=	sdr-2.3a1
-CATEGORIES=	mbone
+CATEGORIES=	mbone tk41
 MASTER_SITES=	ftp://cs.ucl.ac.uk/mice/sdr/
 
 MAINTAINER=	fenner@FreeBSD.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	vat-4.0b2
-CATEGORIES=	mbone
+CATEGORIES=	mbone tk41
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vat/alpha-test/
 DISTFILES=	vatsrc-4.0b2.tar.gz
 

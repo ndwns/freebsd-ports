@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       tksol-1.0
-CATEGORIES=	games
+CATEGORIES=	games tk41
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/misc_software/tksol/
 EXTRACT_SUFX=	.tar.Z
 

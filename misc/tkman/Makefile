@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkman-1.8
-CATEGORIES=	misc
+CATEGORIES=	misc tk41
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
 

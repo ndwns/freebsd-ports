@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	zircon-1.18b8
-CATEGORIES=	net
+CATEGORIES=	net tk41
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	ports@FreeBSD.org

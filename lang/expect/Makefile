@@ -8,7 +8,7 @@
 
 DISTNAME=	expect-5.22
 PKGNAME=	expect-5.22.0
-CATEGORIES=	lang
+CATEGORIES=	lang tk41
 MASTER_SITES=	http://expect.nist.gov/ \
 		ftp://expect.nist.gov/mel/div826/subject/expect/
 DISTFILES=	expect.tar.gz

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xcd-1.5
-CATEGORIES=	audio
+CATEGORIES=	audio tk41
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org

@@ -8,7 +8,7 @@
 
 DISTNAME=	tkdesk-1.0b3
 PKGNAME=	tkdesk-1.0b3
-CATEGORIES=	misc x11
+CATEGORIES=	misc x11 tk41
 MASTER_SITES=	http://sun1.rrzn-user.uni-hannover.de/~zzhibol/tkdesk/
 
 MAINTAINER=	nox@jelal.hb.north.de

@@ -8,7 +8,7 @@
 
 DISTNAME=	tkcron-2.12
 DISTFILES=	tkcron-2.12.tcl.gz
-CATEGORIES=	misc
+CATEGORIES=	misc tk41
 MASTER_SITES=	ftp://ftp.neosoft.com/languages/tcl/alcatel/code/
 EXTRACT_SUFX=	.tcl.gz
 

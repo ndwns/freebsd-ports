@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	scotty-2.1.5
-CATEGORIES=	net
+CATEGORIES=	net tk41
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
 MAINTAINER=	phk@freebsd.org

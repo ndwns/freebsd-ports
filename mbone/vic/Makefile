@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	vic-2.8
-CATEGORIES=	mbone
+CATEGORIES=	mbone tk41
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vic/
 DISTFILES=	vicsrc-2.8.tar.gz
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	dotfile-2.0
-CATEGORIES=	misc
+CATEGORIES=	misc tk41
 MASTER_SITES=	ftp://ftp.imada.ou.dk/pub/dotfile/
 
 MAINTAINER=	oly@world.std.com

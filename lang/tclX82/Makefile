@@ -8,7 +8,7 @@
 
 DISTNAME=	tclX7.5.2
 PKGNAME=	tclX-7.5.2
-CATEGORIES=	lang
+CATEGORIES=	lang tk41
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
 
 DEPENDS=	${TK_DIR}
