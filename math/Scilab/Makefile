@@ -3,7 +3,7 @@
 # Date created:        13 June 1997
 # Whom:                paulo@isr.uc.pt
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scilab-2.3.1

@@ -3,7 +3,7 @@
 # Date created:		08 February 1999
 # Whom:			Anton Berezin <tobez@plab.ku.dk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	PDL-2.0

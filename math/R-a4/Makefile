@@ -3,7 +3,7 @@
 # Date created:                Tue Jun 23 07:36:55 EST 1998
 # Whom:                        Maurice Castro <maurice@serc.rmit.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PAPERSIZE=	a4
