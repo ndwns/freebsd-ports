@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=       rftp-1.2
+DISTNAME=	rftp-1.2
 CATEGORIES=	mail
-MASTER_SITES=   http://www.freebsd.org/~steve/
+MASTER_SITES=	ftp://toxic.magnesium.net/pub/FreeBSD/rftp/
 
 MAINTAINER=	kline@thought.org
 
