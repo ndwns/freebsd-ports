@@ -22,6 +22,7 @@
     SUBDIR += suck
     SUBDIR += tin
     SUBDIR += trn
+    SUBDIR += unpost
     SUBDIR += xvnews
 
 .include <bsd.port.subdir.mk>
