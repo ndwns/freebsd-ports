@@ -22,7 +22,7 @@
     SUBDIR += p5-Tcl-Tk
     SUBDIR += p5-Tk
     SUBDIR += pmw
-    SUBDIR += py-gtk
+    SUBDIR += py-gnome
     SUBDIR += qt142
     SUBDIR += slingshot
     SUBDIR += tix
