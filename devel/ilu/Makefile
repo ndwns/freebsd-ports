@@ -16,7 +16,10 @@ MAINTAINER=	cracauer@cons.org
 NO_WRKSUBDIR=   yes
 HAS_CONFIGURE=	yes
 # ILU 2.0alpha11 doesn't compile with FreeBSD jdk-1.1 port
-CONFIGURE_ARGS= --disable-java-support --enable-http-protocol
+# The guile port is outdated. If you have 1.2 installed, remove
+# --disable-guile-support
+CONFIGURE_ARGS= --disable-java-support --enable-http-protocol \
+		--disable-guile-support
 
 INSTALL_TARGET=	Install
 NOMANCOMPRESS=
