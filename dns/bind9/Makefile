@@ -13,6 +13,8 @@ DISTFILES=	bind-8.1.2-src.tar.gz bind-8.1.2-doc.tar.gz
 
 MAINTAINER=	jseger@FreeBSD.org
 
+Y2K=		http://www.isc.org/y2k.html
+
 WRKSRC=		${WRKDIR}/src
 
 MAN1=		dig.1 dnsquery.1 host.1

@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+Y2K=		http://www.isc.org/y2k.html
+
 HAS_CONFIGURE=	yes
 
 CAT5=		dhclient.conf.5 dhclient.leases.5 dhcp-options.5 dhcpd.conf.5 \

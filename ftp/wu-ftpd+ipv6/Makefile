@@ -20,6 +20,8 @@ do-build:
 
 MAINTAINER=     ache@FreeBSD.org
 
+Y2K=		http://www.cetis.hvu.nl/~koos/wu-ftpd-faq.html#QA31
+
 MAN1=		ftpcount.1 ftpwho.1
 MAN5=		ftpaccess.5 ftphosts.5 ftpconversions.5 xferlog.5
 MAN8=		ftpd.8 ftpshut.8
