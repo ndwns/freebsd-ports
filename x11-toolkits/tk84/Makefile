@@ -1,21 +1,21 @@
 # New ports collection makefile for:	tk8.0
-# Version required:	tk8.0
+# Version required:	8.1a1
 # Date created:		19 August 1997
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=	tk8.0p2
-PKGNAME=	tk-8.0.2
-CATEGORIES=	x11 tk80
+DISTNAME=	tk8.1a1
+PKGNAME=	tk-8.1.a1
+CATEGORIES=	x11 tk81
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
 
-MAINTAINER=	jkh@Freebsd.ORG
+MAINTAINER=	jseger@FreeBSD.ORG
 
-LIB_DEPENDS=	tcl80\\.1\\.2:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=	tcl81\\.1\\.0:${PORTSDIR}/lang/tcl81
 
-WRKSRC=		${WRKDIR}/tk8.0/unix
+WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
