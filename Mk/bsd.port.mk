@@ -1,4 +1,4 @@
-# -*- mode: Fundamental; tab-width: 4; -*-
+ -*- mode: Fundamental; tab-width: 4; -*-
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
 #	This file is in the public domain.
@@ -341,7 +341,7 @@ describe:
 	else \
 		echo -n "|/dev/null"; \
 	fi
-	echo -n "|${MAINTAINER}"
+	@echo -n "|${MAINTAINER}"
 	@echo ""
 .endif
 
