@@ -35,6 +35,7 @@
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
+    SUBDIR += dopewars
     SUBDIR += drm
     SUBDIR += empire
     SUBDIR += fkiss
@@ -79,6 +80,7 @@
     SUBDIR += oneko
     SUBDIR += oneko-sakura
     SUBDIR += oonsoo
+    SUBDIR += phalanx
     SUBDIR += pmars
     SUBDIR += pp
     SUBDIR += pysol
