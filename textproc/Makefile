@@ -24,6 +24,7 @@
     SUBDIR += sgrep
     SUBDIR += sp
     SUBDIR += texi2html
+    SUBDIR += textutils
     SUBDIR += tth
     SUBDIR += unroff
     SUBDIR += urlview
