@@ -23,6 +23,7 @@
     SUBDIR += s3mod
     SUBDIR += sox
     SUBDIR += splay
+    SUBDIR += splaytk
     SUBDIR += timidity
     SUBDIR += tosha
     SUBDIR += tracker
