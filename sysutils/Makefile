@@ -56,6 +56,7 @@
     SUBDIR += upsd
     SUBDIR += upsmon
     SUBDIR += webmin
+    SUBDIR += wmapm
     SUBDIR += wmavgload
     SUBDIR += wminet
     SUBDIR += wmmon
