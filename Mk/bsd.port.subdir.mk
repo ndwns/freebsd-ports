@@ -7,9 +7,6 @@
 STRIP?=	-s
 .endif
 
-BINGRP?=	bin
-BINOWN?=	bin
-BINMODE?=	555
 
 ECHO_MSG?=	echo
 
