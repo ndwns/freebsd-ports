@@ -26,6 +26,7 @@
     SUBDIR += iso8879
     SUBDIR += ispell
     SUBDIR += jade
+    SUBDIR += java2html
     SUBDIR += latex2html
     SUBDIR += libxml
     SUBDIR += linuxdoc
@@ -33,6 +34,7 @@
     SUBDIR += mgdiff
     SUBDIR += mswordview
     SUBDIR += nfbtrans
+    SUBDIR += nicetext
     SUBDIR += p5-XML-Parser
     SUBDIR += par
     SUBDIR += prag
