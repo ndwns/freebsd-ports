@@ -14,6 +14,8 @@ MAINTAINER=	chuckr@FreeBSD.ORG
 
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
+MANUAL_PACKAGE_BUILD=	"installs libreadline shared library"
+
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	${SETENV} "INSTALL_DATA=$(INSTALL_DATA)" "INSTALL_PROGRAM=$(INSTALL_SCRIPT)"
 CONFIGURE_ARGS=	--prefix=${PREFIX} --exec-prefix=${PREFIX} --with-f2c --enable-info --enable-shared --host=i386-unknown-freebsd
