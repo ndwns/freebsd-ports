@@ -26,6 +26,7 @@
     SUBDIR += pmw
     SUBDIR += py-gnome
     SUBDIR += qt142
+    SUBDIR += rubytk
     SUBDIR += slingshot
     SUBDIR += tix
     SUBDIR += tk41
