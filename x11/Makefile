@@ -24,8 +24,6 @@
     SUBDIR += qt
     SUBDIR += rxvt
     SUBDIR += specJava
-    SUBDIR += stars
-    SUBDIR += sunclock
     SUBDIR += swisswatch
     SUBDIR += sxpc
     SUBDIR += tk
@@ -41,7 +39,6 @@
     SUBDIR += xcolors
     SUBDIR += xdaliclock
     SUBDIR += xdtm
-    SUBDIR += xearth
     SUBDIR += xfed
     SUBDIR += xfedor
     SUBDIR += xfm
@@ -50,7 +47,6 @@
     SUBDIR += xkeycaps
     SUBDIR += xloadimage
     SUBDIR += xlockmore
-    SUBDIR += xphoon
     SUBDIR += xpostit
     SUBDIR += xscreensaver
     SUBDIR += xsnow
