@@ -38,6 +38,7 @@
     SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += rblcheck
+    SUBDIR += sigrot
     SUBDIR += smail
     SUBDIR += smtpd
     SUBDIR += smtpfeed
