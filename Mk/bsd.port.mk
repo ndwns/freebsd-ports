@@ -425,7 +425,7 @@ ${CONFIGURE_COOKIE}:
 		sh ${SCRIPTDIR}/configure; \
 	fi
 .if defined(HAS_CONFIGURE)
-	@(cd ${WRKSRC}; ./configure ${CONFIGURE_ARGS})
+	@(cd ${WRKSRC}; CC=${CC} ./configure ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
 .if defined(USE_GMAKE)
