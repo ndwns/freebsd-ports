@@ -46,6 +46,8 @@
     SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
+    SUBDIR += uk-phone
+    SUBDIR += uk-postcodes
     SUBDIR += unclutter
     SUBDIR += viz
     SUBDIR += xcalendar
