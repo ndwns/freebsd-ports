@@ -41,7 +41,6 @@
     SUBDIR += glade
     SUBDIR += glib
     SUBDIR += gmake
-    SUBDIR += guileobjc
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
@@ -49,7 +48,6 @@
     SUBDIR += libdlmalloc
     SUBDIR += libffi
     SUBDIR += libmalloc
-    SUBDIR += libobjects
     SUBDIR += libslang
     SUBDIR += libtool
     SUBDIR += linux_devel
