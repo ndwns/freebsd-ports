@@ -59,6 +59,10 @@ post-install:
 	@${CP} -r ${WRKDIR}/crossfire-0.93.0-doc/* ${CFDIR}/doc
 	@touch ${PREFIX}/crossfire/lib/bookarch
 	@chmod 664 ${PREFIX}/crossfire/lib/bookarch
+	@touch ${PREFIX}/crossfire/lib/shutdown
+	@chmod 664 ${PREFIX}/crossfire/lib/shutdown
+	@touch ${PREFIX}/crossfire/lib/forbid
+	@chmod 664 ${PREFIX}/crossfire/lib/forbid
 	@touch ${PREFIX}/crossfire/lib/players/.keep_me  
 	@touch ${PREFIX}/crossfire/lib/unique-items/.keep_me  
 	@/usr/sbin/chown -R games.games ${CFDIR}
