@@ -58,6 +58,10 @@ CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc
 CONFIGURE_ARGS+= --with-rsaref
 .endif
 
+.if defined(KRB5_HOME) && exists(${KRB5_HOME})
+CONFIGURE_ARGS+=--with-kerberos5=${KRB5_HOME} --enable-kerberos-tgt-passing
+.endif
+
 # Include support for the SecureID card
 # Warning: untested !
 .if defined(USE_SECUREID) && ${USE_SECUREID} == YES
