@@ -21,10 +21,14 @@ LIB_DEPENDS=	intl.1:${PORTSDIR}/devel/gettext
 
 GNU_CONFIGURE=	yes
 
+INFOFILES=	wget.info
+
 post-install:
 	if [ ! -f ${PREFIX}/info/dir ]; then \
 		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
-	-install-info ${PREFIX}/info/wget.info ${PREFIX}/info/dir
+.for i in ${INFOFILES}
+	install-info ${PREFIX}/info/${i} ${PREFIX}/info/dir
+.endfor
 
 .include <bsd.port.mk>
