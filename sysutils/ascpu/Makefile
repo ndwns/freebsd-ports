@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ascpu
-# Version required:	1.4
+# Version required:	1.5
 # Date created:         18 February 1999
 # Whom:                 Dima Sivachenko <dima@chg.ru>
 #
 # $Id$
 #
 
-DISTNAME=	ascpu-1.4
+DISTNAME=	ascpu-1.5
 CATEGORIES=	sysutils afterstep
 MASTER_SITES=	http://bewoner.dma.be/Albert/software/ \
 		http://www.tigr.net/afterstep/as-apps/download/ascpu/	\
@@ -23,7 +23,6 @@ CONFIGURE_ARGS+=	--with-xpm
 MAN1=		ascpu.1
 
 do-install:
-
 	@ ${INSTALL_MAN} ${WRKSRC}/ascpu.man ${PREFIX}/man/man1/ascpu.1
 	@ ${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g kmem -m 2755 ${WRKSRC}/ascpu ${PREFIX}/bin
 
