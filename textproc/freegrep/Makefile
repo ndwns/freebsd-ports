@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	grep-0.8
-PKGNAME=	freegrep-0.8
+DISTNAME=	grep-0.9
+PKGNAME=	freegrep-0.9
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.freebsd.org/~des/software/
 
