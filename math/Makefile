@@ -7,6 +7,7 @@
     SUBDIR += calc
     SUBDIR += calctool
     SUBDIR += eispack
+    SUBDIR += femlab
     SUBDIR += fftpack
     SUBDIR += freefem
     SUBDIR += fudgit
