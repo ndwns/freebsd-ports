@@ -4,6 +4,7 @@
     SUBDIR += atp
     SUBDIR += aub
     SUBDIR += cnews
+    SUBDIR += dejasearch
     SUBDIR += diablo
     SUBDIR += dnews
     SUBDIR += fidogate
