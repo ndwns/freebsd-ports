@@ -8,7 +8,7 @@
 
 DISTNAME=	guavac-0.2.5
 CATEGORIES=	lang
-MASTER_SITES=	ftp://summit.stanford.edu/pub/guavac/
+MASTER_SITES=	ftp://summit.stanford.edu/pub/guavac/ \
 		ftp://ftp.Germany.EU.net/pub/programming/languages/java/guavac/\
 		ftp://sunsite.mff.cuni.cz/Languages/Java/guavac/  \
 		ftp://sunsite.auc.dk/pub/languages/java/guavac/
