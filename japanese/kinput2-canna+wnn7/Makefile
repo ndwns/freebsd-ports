@@ -1,12 +1,11 @@
 # New ports collection makefile for:	kinput2-canna+wnn6
-# Version required:	2.0p4
+# Version required:	3.0
 # Date created:		19 Dec 1997
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
 # $Id$
 #
 
-PKGNAME=	ja-kinput2-canna+wnn6-2.0.4
 CANNA=		yes
 WNN6=		yes
 
