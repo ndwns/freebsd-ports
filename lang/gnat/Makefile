@@ -23,8 +23,6 @@ DISTFILES=      gnat-3.10p-src.tar.gz gcc-2.7.2.1.tar.gz
 
 MAINTAINER=	maurice@serc.rmit.edu.au
 
-BROKEN=		patch
-
 .if !exists(/usr/local/bin/gnatf)
 BROKEN=		"requires existing gnat compiler"
 .endif
