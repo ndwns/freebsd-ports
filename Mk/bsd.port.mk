@@ -423,7 +423,7 @@ HAS_CONFIGURE=		yes
 # Don't attempt to build ports that require Motif if you don't
 # have Motif.
 #
-# Ignore ports that can't be reselled if building for a CDROM.
+# Ignore ports that can't be resold if building for a CDROM.
 #
 # Don't build a port if it's restricted and we don't want to get
 # into that.
