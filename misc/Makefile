@@ -43,6 +43,7 @@
     SUBDIR += unclutter
     SUBDIR += xcalendar
     SUBDIR += xgas
+    SUBDIR += xless
     SUBDIR += xmaddressbook
     SUBDIR += xtar
     SUBDIR += zorro
