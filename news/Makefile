@@ -7,6 +7,7 @@
     SUBDIR += nn
     SUBDIR += nn-current
     SUBDIR += nntp
+    SUBDIR += nntpbtr
     SUBDIR += rkive
     SUBDIR += suck
     SUBDIR += tin
