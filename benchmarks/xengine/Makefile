@@ -20,12 +20,12 @@ NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
 
 EXTRACT_CMD=		zcat
-EXTRACT_SUFX=		.z
 EXTRACT_BEFORE_ARGS= 
 EXTRACT_AFTER_ARGS=	| gunshar -d $(WRKDIR)
+PATCH_DIST_STRIP=	-p1	# no ${PATCHFILES} but used below
 
 pre-patch:
-	@cd $(WRKSRC) ; patch < xengine.patch1
+	@cd $(WRKSRC) ; ${PATCH} ${PATCH_DIST_ARGS} < xengine.patch1
 
 post-install:
 .if !defined(NOPORTDOCS)
