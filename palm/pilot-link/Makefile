@@ -5,12 +5,12 @@
 #
 # $Id$
 
-DISTNAME=	pilot-link.0.8.11
-PKGNAME=	pilot-link-0.8.11
+DISTNAME=	pilot-link.0.8.12
+PKGNAME=	pilot-link-0.8.12
 CATEGORIES=	comms pilot tk80
 MASTER_SITES=	ftp://ryeham.ee.ryerson.ca/pub/PalmOS/
 
-MAINTAINER=	jkh@freebsd.org
+MAINTAINER=	dima@freebsd.org
 
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
