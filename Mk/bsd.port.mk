@@ -272,7 +272,7 @@ ARCH!=	uname -m
 OPSYS!=	uname -s
 
 # Get the operating system revision
-OSREL!=	uname -s | sed -e 's/[-(].*//'
+OSREL!=	uname -r | sed -e 's/[-(].*//'
 
 .if exists(${.CURDIR}/../Makefile.inc)
 .include "${.CURDIR}/../Makefile.inc"
