@@ -27,5 +27,5 @@
 + # free to customize it.
 + #pop		on
 + #popdir		/usr/local/libexec
-+ #options	APOP='"/etc/pop.auth"' MPOP RPOP
++ #options	MPOP RPOP
 + #ldoptlibs	-lcrypt
