@@ -10,8 +10,9 @@ DISTNAME=       STk-2.1.6
 CATEGORIES+=	languages
 MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 
+MAINTAINER=	jmacd@FreeBSD.ORG
+
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=  	"prefix = ${PREFIX}"
-
 
 .include <bsd.port.mk>
