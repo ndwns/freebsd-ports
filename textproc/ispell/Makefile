@@ -15,8 +15,8 @@ DISTFILES=	ispell-3.1.20.tar.gz
 MAINTAINER=	jmz@FreeBSD.org
 
 # French
-#EXTRA_DICT=	   francais-IREQ-1.3.tar.gz
-#MASTER_SITES+=    ftp://ftp.ireq-robot.hydro.qc.ca/pub/ispell/
+#EXTRA_DICT=	   francais-IREQ-1.4.tar.gz
+#MASTER_SITES+=    ftp://ftp.robot.ireq.ca/pub/ispell/
 
 DISTFILES+=	   ${EXTRA_DICT}
 
