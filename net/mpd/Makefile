@@ -8,7 +8,7 @@
 
 DISTNAME=		mpd-1.0b4
 CATEGORIES=		net
-MASTER_SITES=		ftp://ftp.whistle.com/pub/archie/mpd
+MASTER_SITES=		ftp://ftp.whistle.com/pub/archie/mpd/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
