@@ -1,7 +1,7 @@
 # New ports collection makefile for:    elk
 # Version required:     3.0pl2
 # Date created:         08 March 1995
-# Whom:                 thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
@@ -9,9 +9,7 @@
 DISTNAME=	elk-3.0
 PKGNAME=	elk-3.0.2
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.uni-bremen.de/pub/programming/languages/scheme/elk/ \
-		${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	devel_tools
+MASTER_SITES=	ftp://ftp.uni-bremen.de/pub/programming/languages/scheme/elk/
 
 MAINTAINER=	tg@freebsd.org
 
