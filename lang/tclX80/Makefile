@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tclX7.5.0-b3
-PKGNAME=	tclX7.5.0-b3
+PKGNAME=	tclX-7.5b3
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/distrib/
 
