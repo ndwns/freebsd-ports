@@ -1,12 +1,12 @@
 # New ports collection makefile for:	lftp
-# Version required:			0.14.3
+# Version required:			1.0
 # Date created:				11 September 1997
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=	lftp-0.14.3
+DISTNAME=	lftp-1.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.yars.free.net/pub/software/unix/net/ftp/client/ \
 		${MASTER_SITE_SUNSITE}
@@ -17,15 +17,13 @@ MAINTAINER=	andy@icc.surw.chel.su
 GNU_CONFIGURE=	yes
 MAN1=		lftp.1 ftpget.1
 
-do-install:
-.for file in lftp ftpget
-	@ ${INSTALL_PROGRAM} ${WRKSRC}/src/${file} ${PREFIX}/bin
-	@ ${INSTALL_MAN} ${WRKSRC}/doc/${file}.1 ${PREFIX}/man/man1
-.endfor
-	@ ${INSTALL_DATA} ${WRKSRC}/lftp.conf ${PREFIX}/etc/lftp.conf
+post-install:
+	@ ${INSTALL_DATA} ${WRKSRC}/lftp.conf ${PREFIX}/etc/lftp.conf.sample
+.if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/lftp
-.for file in COPYING NEWS README THANKS TODO
+.for file in COPYING FAQ NEWS README THANKS TODO
 	@ ${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/share/doc/lftp
 .endfor
+.endif
 
 .include <bsd.port.mk>
