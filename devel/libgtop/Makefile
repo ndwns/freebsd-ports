@@ -1,15 +1,14 @@
 # New ports collection makefile for:	libgtop
-# Version required:		0.99.2
+# Version required:		0.99.8
 # Date Created:			26 Sep 1998
 # Whom:				Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	libgtop-0.99.2
+DISTNAME=	libgtop-0.99.8
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME} \
-		ftp://ftp.home-of-linux.org/pub/libgtop/0.99.2/
 MASTER_SITE_SUBDIR=	libgtop
 
 MAINTAINER=	nacai@iname.com
