@@ -19,4 +19,7 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.de
 REQUIRES_MOTIF= YES
 USE_IMAKE=	YES
 
+post-install:
+	@${LDCONFIG} -m ${PREFIX}/lib
+
 .include <bsd.port.mk>
