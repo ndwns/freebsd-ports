@@ -10,6 +10,7 @@
     SUBDIR += donkey
     SUBDIR += fwtk
     SUBDIR += john
+    SUBDIR += krb5
     SUBDIR += libident
     SUBDIR += nbaudit
     SUBDIR += p5-Authen-Radius
