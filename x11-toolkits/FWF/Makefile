@@ -17,7 +17,4 @@ WRKSRC=		${WRKDIR}/FWF
 PATCH_STRIP=	-p1
 XMKMF=		env X11BASE=${X11BASE} WRKSRC=${WRKSRC} ${FILESDIR}/xmkmf
 
-post-install:
-	ldconfig -m ${PREFIX}/lib
-
 .include <bsd.port.mk>
