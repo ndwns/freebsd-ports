@@ -36,6 +36,8 @@ SML_BINDIR=   ${SML_BASE}/bin
 SML_SRCDIR=   ${SML_BASE}/src
 SML_EXES=     ml-burg ml-lex ml-yacc sml sml-cm
 
+BROKEN=       Need to install documentation and library sources.
+
 # The build target needs to run $WRKDIR/config/install.sh
 do-build:
 	cd ${WRKDIR} && ./config/install.sh
