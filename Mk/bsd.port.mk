@@ -148,7 +148,7 @@
 # FETCH_BEFORE_ARGS -
 #				  Arguments to ${FETCH_CMD} before filename (default: none).
 # FETCH_AFTER_ARGS -
-#				  Arguments to ${FETCH_CMD} followingfilename (default: none).
+#				  Arguments to ${FETCH_CMD} following filename (default: none).
 #
 # Motif support:
 #
