@@ -38,7 +38,7 @@ USE_GMAKE=	yes
 WRKSRC=		${WRKDIR}/mico
 
 CONFIGURE_ARGS=	--with-qt --with-gtk --with-tcl \
-		--disable-optimize --disable-shared --disable-mini-stl
+		--disable-optimize --disable-mini-stl
 
 MAN1=		idl.1 imr.1 nsadmin.1
 MAN5=		micorc.5
@@ -48,6 +48,6 @@ pre-configure:
 	cd ${WRKSRC}; autoconf
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m 
 
 .include <bsd.port.post.mk>
