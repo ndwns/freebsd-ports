@@ -1,5 +1,5 @@
 # New ports collection makefile for:	expect
-# Version required:	5.21
+# Version required:	5.21.6
 # Date created:		20 November 1994
 # Whom:			pst
 #
