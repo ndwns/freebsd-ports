@@ -66,6 +66,7 @@
     SUBDIR += xjig
     SUBDIR += xkobo
     SUBDIR += xlife
+    SUBDIR += xlines
     SUBDIR += xmahjongg
     SUBDIR += xmemory
     SUBDIR += xmille
