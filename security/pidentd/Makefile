@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       pidentd-2.8.2
+DISTNAME=       pidentd-2.8.5
 CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ \
 		ftp://ftp.fu-berlin.de/unix/security/ident/servers/
