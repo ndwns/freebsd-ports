@@ -20,12 +20,8 @@ RUN_DEPENDS=	mf:${PORTSDIR}/print/teTeX \
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300003
-BROKEN=		perl5
-.endif
-
 USE_PERL5=	yes
-HAS_CONFIGURE=	yes
+GNU_CONFIGURE=	yes
 
 MAN1=		gfont.1
 
