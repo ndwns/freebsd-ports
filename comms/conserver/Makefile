@@ -29,18 +29,18 @@ MAKE_ENV+=	DEFAULTHOST="${DEFAULTHOST}"
 
 # XXX we also have to work around ``new'' uudecode behavior, thanks guys!
 post-extract:
-	cp ${FILESDIR}/Makefile ${WRKSRC}
+	${CP} ${FILESDIR}/Makefile ${WRKSRC}
 	if [ -f ${WRKSRC}/group.c ]; then \
-		mv ${WRKSRC}/group.c ${WRKSRC}/conserver/group.c ; \
+		${MV} ${WRKSRC}/group.c ${WRKSRC}/conserver/group.c ; \
 	fi
 
 post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/conserver.sh ]; then \
-		echo "Installing ${PREFIX}/etc/rc.d/conserver.sh startup file."; \
-		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/conserver.sh; \
-		echo "if [ -x ${PREFIX}/sbin/conserver -a -f ${PREFiX}/etc/conserver.cf ]; then" >> ${PREFIX}/etc/rc.d/conserver.sh; \
-		echo "	${PREFIX}/sbin/conserver -d -n ; echo -n ' conserver'" >> ${PREFIX}/etc/rc.d/conserver.sh; \
-		echo "fi" >> ${PREFIX}/etc/rc.d/conserver.sh; \
+		${ECHO} "Installing ${PREFIX}/etc/rc.d/conserver.sh startup file."; \
+		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/conserver.sh; \
+		${ECHO} "if [ -x ${PREFIX}/sbin/conserver -a -f ${PREFiX}/etc/conserver.cf ]; then" >> ${PREFIX}/etc/rc.d/conserver.sh; \
+		${ECHO} "	${PREFIX}/sbin/conserver -d -n ; ${ECHO} -n ' conserver'" >> ${PREFIX}/etc/rc.d/conserver.sh; \
+		${ECHO} "fi" >> ${PREFIX}/etc/rc.d/conserver.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/conserver.sh; \
 	fi
 
