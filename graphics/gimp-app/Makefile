@@ -6,7 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       gimp-0.99.7
+VERSION=			0.99.8
+DISTNAME=       gimp-${VERSION}
+DISTFILES=	${DISTNAME}.tar.gz gimp-data-0.99.8.tar.gz
+
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.xcf.berkeley.edu/pub/gimp/developers/
 
@@ -21,6 +24,14 @@ USE_X11=	yes
 GNU_CONFIGURE=	yes
 
 USE_GMAKE=	yes
+
+DATASTUFF=  brushes palettes gradients patterns
+
+post-install:
+	cd ${WRKDIR}/gimp-data-${VERSION}; \
+	tar -cf - --exclude '*Makefile*' ${DATASTUFF} |\
+	(cd ${PREFIX}/share/gimp/${VERSION}; tar -xvf -)
+
 
 .include <bsd.port.mk>
 
