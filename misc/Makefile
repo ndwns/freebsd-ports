@@ -45,6 +45,7 @@
     SUBDIR += xgas
     SUBDIR += xless
     SUBDIR += xmaddressbook
+    SUBDIR += xopps
     SUBDIR += xpns
     SUBDIR += xtar
     SUBDIR += xtimer
