@@ -8,7 +8,7 @@
 #
 
 DISTNAME=       speak_freely-6.1b
-CATEGORIES+=    net audio security
+CATEGORIES=     mbone audio security
 MASTER_SITES=   http://www.fourmilab.ch/speakfree/unix/
 
 MAINTAINER=     ache@FreeBSD.ORG
