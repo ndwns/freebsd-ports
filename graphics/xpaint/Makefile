@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       xpaint-2.4.8
+DISTNAME=       xpaint-2.5
 CATEGORIES=	graphics x11
 MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/
 
