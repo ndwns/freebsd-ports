@@ -17,8 +17,6 @@ MASTER_SITES=	ftp://ftp.inria.fr/lang/caml-light/ \
 
 MAINTAINER=	jkoshy@freebsd.org
 
-BROKEN_ELF=	cp: bignum/libbignum.a: No such file or directory
-
 USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/cl74
 ALL_TARGET=	configure world bootstrap
@@ -28,12 +26,10 @@ do-build:
 	cd ${WRKSRC}/src; ${MAKE} ${ALL_TARGET} PREFIX=${PREFIX} \
 	X11BASE=${X11BASE}
 
+# build some contrib stuff too
 do-install:
 	cd ${WRKSRC}/src; ${MAKE} ${INSTALL_TARGET} PREFIX=${PREFIX} \
 	X11BASE=${X11BASE}
-
-# build some contrib stuff too
-post-install:
 	cd ${WRKSRC}/contrib; ${MAKE} all ${INSTALL_TARGET} PREFIX=${PREFIX} \
 	X11BASE=${X11BASE}
 
