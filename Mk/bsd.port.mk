@@ -698,7 +698,7 @@ TMPPLIST?=	${WRKDIR}/.PLIST.mktmp
 PKG_CMD?=		/usr/sbin/pkg_create
 PKG_DELETE?=	/usr/sbin/pkg_delete
 .if !defined(PKG_ARGS)
-PKG_ARGS=		-v -c ${COMMENT} -d ${DESCR} -f ${TMPPLIST} -p ${PREFIX} -P "`${MAKE} package-depends|sort -u`"
+PKG_ARGS=		-v -c ${COMMENT} -d ${DESCR} -f ${TMPPLIST} -p ${PREFIX} -P "`${MAKE} package-depends|sort -u`" ${EXTRA_PKG_ARGS}
 .if exists(${PKGDIR}/INSTALL)
 PKG_ARGS+=		-i ${PKGDIR}/INSTALL
 .endif
