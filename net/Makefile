@@ -3,6 +3,7 @@
 
     SUBDIR += archie
     SUBDIR += ascend-radius
+    SUBDIR += bb
     SUBDIR += cvsup
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
@@ -34,6 +35,7 @@
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += slirp
+    SUBDIR += socks5
     SUBDIR += sup
     SUBDIR += telnetx
     SUBDIR += tintin++
