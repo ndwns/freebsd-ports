@@ -10,6 +10,8 @@ DISTNAME=	xearth-1.0
 CATEGORIES=	astro x11
 MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 USE_IMAKE=	yes
 
 # Copy the list of FreeBSD sites
