@@ -99,6 +99,7 @@
     SUBDIR += portlint
     SUBDIR += prc-tools
     SUBDIR += prcs
+    SUBDIR += py-PyGreSQL
     SUBDIR += qtez
     SUBDIR += re2c
     SUBDIR += sawt
