@@ -9,7 +9,6 @@
 DISTNAME=	pbasic-2.0-950813
 PKGNAME=	pbasic-2.0
 CATEGORIES+=	lang
-KEYWORDS+=	basic interpreter
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	asami@FreeBSD.ORG

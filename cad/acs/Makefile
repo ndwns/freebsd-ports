@@ -9,7 +9,6 @@
 DISTNAME=	acs020
 PKGNAME=	acs-0.20
 CATEGORIES+=	cad
-KEYWORDS+=	cad "circuit simulation" spice
 MASTER_SITES=	ftp://mammoth.lle.rochester.edu/pub/local/acs/ \
 		ftp://cs.rit.edu/pub/acs/ \
 		ftp://ee.rochester.edu/pub/acs/

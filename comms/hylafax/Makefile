@@ -10,7 +10,6 @@
 DISTNAME=	hylafax-v3.0pl0
 PKGNAME=	hylafax-3.0.1
 CATEGORIES+=	comms
-KEYWORDS+=	fax
 MASTER_SITES=	ftp://ftp.sgi.com/sgi/fax/source/
 EXTRACT_SUFX=	-tar.gz
 HAS_CONFIGURE=	yes

@@ -8,7 +8,6 @@
 
 DISTNAME=       xpdf-0.3
 CATEGORIES+=	graphics
-KEYWORDS=	pdf "Portable Document Format" adobe acrobat
 MASTER_SITES=   ftp://ftp.andrew.cmu.edu/pub/xpdf/
 EXTRACT_SUFX=	.tar.gz
 

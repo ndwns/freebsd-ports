@@ -8,7 +8,6 @@
 
 DISTNAME=	noweb-2.7a
 CATEGORIES+=	devel
-KEYWORDS+=	devel "literate programming"
 MASTER_SITES=	ftp://bellcore.com/pub/norman/
 EXTRACT_SUFX=	.tgz
 

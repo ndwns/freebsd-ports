@@ -8,7 +8,6 @@
 
 DISTNAME=	octave-1.1.1
 CATEGORIES+=	math 
-KEYWORDS+=	math "numeric computation" matlab
 MASTER_SITES=	ftp://ftp.che.utexas.edu/pub/octave/
 
 MAINTAINER=	ports@FreeBSD.ORG

@@ -9,7 +9,6 @@
 DISTNAME=	rtf2LaTeX.1.5
 PKGNAME=	rtf2latex-1.5
 CATEGORIES+=	print
-KEYWORDS+=	RTF "Rich Text Format" LaTeX TeX
 MASTER_SITES=	ftp://ftp.dante.de/pub/tex/support/rtf2latex/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de

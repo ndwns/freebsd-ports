@@ -8,7 +8,6 @@
 
 DISTNAME=       tksol-1.0
 CATEGORIES+=	games
-KEYWORDS+=	games x11 tk solitaire
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/misc_software/tksol/
 EXTRACT_SUFX=	.tar.Z
 
