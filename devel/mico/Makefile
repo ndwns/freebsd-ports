@@ -14,7 +14,7 @@ MAINTAINER=	scrappy@freebsd.org
 
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
 		tcl80.1:${PORTSDIR}/lang/tcl80
-#BUILD_DEPENDS=	eg++:${PORTSDIR}/devel/egcs
+#BUILD_DEPENDS=	eg++:${PORTSDIR}/lang/egcs
 
 #CC=		egcc
 #CXX=		eg++
