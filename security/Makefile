@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SSLeay
+    SUBDIR += bjorb
     SUBDIR += bro
     SUBDIR += bugs
     SUBDIR += cfs
