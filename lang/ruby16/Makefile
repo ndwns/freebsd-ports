@@ -11,7 +11,7 @@ PKGNAME=	ruby-1.0
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.netlab.co.jp/pub/lang/ruby/
 
-MAINTAINER=	usagi@ruby.club.or.jp
+MAINTAINER=	usagi@clave.gr.jp
 
 GNU_CONFIGURE=	yes
 MAN1=		ruby.1
