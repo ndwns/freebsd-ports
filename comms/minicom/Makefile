@@ -1,12 +1,14 @@
+# ex:ts=8
 # New ports collection makefile for:    minicom
-# Version required:     1.75
+# Version required:     1.74
 # Date created:         Fri Dec 01, 1995
 # Whom:                 obrien@cs.ucdavis.edu
 #
 # $Id$
 #
 
-DISTNAME=	minicom-1.75
+DISTNAME=	${PKGNAME}.src
+PKGNAME=	minicom-1.78
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/
 
