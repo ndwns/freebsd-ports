@@ -18,9 +18,6 @@
    SUBDIR += sxpc
    SUBDIR += tk
    SUBDIR += tk4
-   SUBDIR += tkhfs
-   SUBDIR += tkinfo
-   BROKEN += tkman
    SUBDIR += tvtwm
    SUBDIR += x3270
    SUBDIR += xbuffy
