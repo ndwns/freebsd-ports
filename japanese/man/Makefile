@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	jp-man-1.1c
+PKGNAME=	ja-man-1.1c
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
