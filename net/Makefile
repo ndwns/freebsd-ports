@@ -100,6 +100,7 @@
     SUBDIR += mrtg
     SUBDIR += mtr
     SUBDIR += muh
+    SUBDIR += naim
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += ncftp3
