@@ -9,6 +9,7 @@
     SUBDIR += cdrecord
     SUBDIR += cfengine
     SUBDIR += contool
+    SUBDIR += daemontools
     SUBDIR += gtar
     SUBDIR += idled
     SUBDIR += lsof
