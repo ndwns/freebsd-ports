@@ -3,6 +3,7 @@
 
     SUBDIR += bonnie
     SUBDIR += bytebench
+    SUBDIR += dbs
     SUBDIR += hint
     SUBDIR += iozone
     SUBDIR += lmbench
