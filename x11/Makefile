@@ -1,7 +1,7 @@
 # $Id$
 #
 SUBDIR= Xaw3d color_xterm ctwm emu fvwm kterm olvwm piewm rxvt tk \
-	tkhfs tkman tvtwm x3270 xearth xdaliclock xfed xkeycaps \
+	tkhfs tkman tvtwm x3270 xdaliclock xearth xfed xfm xkeycaps \
 	xlockmore xphoon xsnow xview-config xview-lib xview-clients
 
 #
