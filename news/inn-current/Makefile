@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 # to many compile-time options
 NO_PACKAGE=	yes
 
-PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/
+PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/OLD/
 PATCHFILES=	select-loop-bug.patch innxmit-long-lines
 
 MAINTAINER=	torstenb@FreeBSD.ORG
