@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.dhp.com/pub/crypto/pgp/PGPsendmail/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-EXEC_DEPENDS += pgp:${PORTSDIR}/security/pgp
+BUILD_DEPENDS += pgp:${PORTSDIR}/security/pgp
 
 WRKSRC=         ${WRKDIR}/pgpsendmail
 INSTALL_TARGET= all_install
