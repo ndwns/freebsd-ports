@@ -18,4 +18,7 @@ USE_IMAKE=		yes
 REQUIRES_MOTIF=		yes
 NO_INSTALL_MANPAGES=	yes
 
+post-install:		
+	@( cd ${X11BASE}/bin; ln -sf xmgr grbatch )
+
 .include <bsd.port.mk>
