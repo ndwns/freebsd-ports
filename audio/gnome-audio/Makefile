@@ -1,5 +1,5 @@
 # New ports collection makefile for:	gnomeaudio
-# Version required:			0.1	
+# Version required:			0.1
 # Date created:				29 Dec 1998
 # Whom:					Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
+
+RUN_DEPEND=	gnome-config:${PORTSDIR}/x11/gnomelibs
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
