@@ -14,6 +14,4 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-NO_CDROM=       yes # if distributed without network, author must be informed, see DESCR
-
 .include <bsd.port.mk>
