@@ -9,7 +9,7 @@
 DISTNAME=	flim-${FLIM_VER}
 PKGNAME=	flim-${EMACS_PORT}-${FLIM_VER}
 CATEGORIES=	editors elisp
-MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/flim/flim-stable/
+MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/flim/flim-1.09/
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
