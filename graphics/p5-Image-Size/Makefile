@@ -17,17 +17,11 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
+MAN1=		imgsize.1
+MAN3=		Image::Size.3
+MAN3PREFIX=	${PREFIX}/lib/perl5
+
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-		@ for file in Image::Size; do \
-			gzip -9nf ${PREFIX}/lib/perl5/man/man3/$$file.3; \
-		done
-		@ for file in imgsize; do \
-			gzip -9nf ${PREFIX}/man/man1/$$file.1; \
-		done
-.endif
 
 .include <bsd.port.mk>

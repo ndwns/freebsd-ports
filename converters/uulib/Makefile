@@ -15,6 +15,7 @@ MAINTAINER=	ac199@freenet.hamilton.on.ca
 
 GNU_CONFIGURE=	yes
 ALL_TARGET=	libuu.a
+MAN3=		uulib.3
 
 EXTRAFILES+=	uulib.3
 EXTRAFILES+=	porting.notes
@@ -46,9 +47,6 @@ do-install:
 .endif
 	cp ${WRKSRC}/uulib.3 ${PREFIX}/man/man3/uulib.3
 	perl -pi -e '$$a = '\''${PREFIX}/'\''; $$a =~ s/([^\w\/])/\\$$1/g; s/FUNKYTOKENHERE/$$a/' ${PREFIX}/man/man3/uulib.3
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man3/uulib.3
-.endif
 	cp ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib/libuu.a
 	cp ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h
 
