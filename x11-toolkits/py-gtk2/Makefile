@@ -8,7 +8,10 @@
 
 DISTNAME=	pygtk-0.4.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/python/
+MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/python/ \
+		ftp://infosoc.uni-koeln.de/pub/ftp.gimp.org/pub/gtk/python/ \
+		ftp://ftp.cs.umn.edu/pub/gimp/gtk/python/ \
+		ftp://stef.u-picardie.fr/mirror/ftp.gimp.org/gtk/python/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
