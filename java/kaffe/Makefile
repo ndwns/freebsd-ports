@@ -13,16 +13,18 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	tim@sarc.city.ac.uk
 
+RUN_DEPENDS=	${PREFIX}/share/java/classes.zip:${PORTSDIR}/www/jdk
+
 GNU_CONFIGURE=	yes
 
-pre-extract:
+do-configure:
+		@(cd ${WRKSRC}; ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
+
+pre-install:
 	@( if test "`${MD5} ${PREFIX}/share/java/classes.zip | ${AWK} '{print $$4}'`" != "`cat ${FILESDIR}/classes.zip.1.02.md5`" ; then \
 	echo "kaffe REQUIRES the classes.zip file from ports/www/jdk, version 1.02"; \
 	exit 1 ; \
 	fi)
-
-do-configure:
-		@(cd ${WRKSRC}; ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
 
 post-install:
 	test -d ${PREFIX}/share/kaffe || mkdir -p ${PREFIX}/share/kaffe
