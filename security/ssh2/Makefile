@@ -67,7 +67,7 @@ MAN8=		sshd.8
 
 
 pre-patch:
-	@mv -f ${WRKSRC}/make-ssh-known-hosts.pl \
+	@${MV} -f ${WRKSRC}/make-ssh-known-hosts.pl \
 	    ${WRKSRC}/make-ssh-known-hosts.pl.in
 
 fetch-depends:
