@@ -76,7 +76,7 @@ FILESDIR=       ${.CURDIR}/files.non_usa
 PATCHDIR=       ${.CURDIR}/patches.non_usa
 
 post-extract:
-	cd ${WRKDIR}; $(EXTRACT_CMD) -xf pgp263ii.tar; \
+	cd ${WRKDIR}; $(TAR) -xf pgp263ii.tar; \
 		rm -f pgp263ii.tar
 
 .endif
