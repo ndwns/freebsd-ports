@@ -39,13 +39,13 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/eperl.1 ${PREFIX}/man/man1/eperl.1
 .if !defined(NOPORTDOCS)
 	@if [ ! -d ${PREFIX}/share/examples/eperl ]; then \
-		${MKDIR} -p ${PREFIX}/share/examples/eperl; \
+		${MKDIR} ${PREFIX}/share/examples/eperl; \
 	fi
 	${CP} ${WRKSRC}/eg/* ${PREFIX}/share/examples/eperl/
 .endif
 .if defined(INSTALL_ALSO_AS_SSSL)
 	@if [ ! -d ${PREFIX}/www/cgi-bin ]; then \
-		${MKDIR} -p ${PREFIX}/www/cgi-bin; \
+		${MKDIR} ${PREFIX}/www/cgi-bin; \
 	fi
 	${INSTALL_PROGRAM} ${WRKSRC}/eperl ${PREFIX}/www/cgi-bin/nph-eperl
 	@if [ ".`grep x-httpd-eperl ${PREFIX}/etc/apache/srm.conf`" = . ]; then \
