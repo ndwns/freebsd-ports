@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

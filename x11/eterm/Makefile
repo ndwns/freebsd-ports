@@ -18,7 +18,7 @@ MASTER_SITES=	ftp://ftp.eterm.org/pub/Eterm/ \
 MAINTAINER=	murray@cdrom.com
 
 BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
-LIB_DEPENDS=	Imlib.2:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	Imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes

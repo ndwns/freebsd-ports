@@ -16,7 +16,7 @@ MASTER_SITE_SUBDIR=	enlightenment
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	Imlib.2:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	Imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes

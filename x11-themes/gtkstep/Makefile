@@ -13,7 +13,7 @@ MASTER_SITES=	http://www-info2.informatik.uni-wuerzburg.de/mitarbeiter/ulli/gtks
 
 MAINTAINER=     rom_glsa@ein-hashofet.co.il
 
-LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

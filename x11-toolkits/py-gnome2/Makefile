@@ -18,7 +18,7 @@ MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 MAINTAINER=	nectar@FreeBSD.ORG
 
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
-LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.3:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
 GNU_CONFIGURE=	yes

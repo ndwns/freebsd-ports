@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib \
+LIB_DEPENDS=	gdk_imlib.3:${PORTSDIR}/graphics/imlib \
 		Xpm.4:${PORTSDIR}/graphics/xpm \
 		ORBit.1:${PORTSDIR}/devel/ORBit \
 		esd.1:${PORTSDIR}/audio/esound
