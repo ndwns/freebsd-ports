@@ -79,7 +79,6 @@
     SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xautolock
-    SUBDIR += xbloody
     SUBDIR += xbuffy
     SUBDIR += xcb
     SUBDIR += xco
