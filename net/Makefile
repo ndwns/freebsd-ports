@@ -69,7 +69,7 @@
     SUBDIR += ipw
     SUBDIR += irc
     SUBDIR += ircII
-    SUBDIR += ircd-hybrid-5
+    SUBDIR += ircd-hybrid
     SUBDIR += ircii-epic
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
