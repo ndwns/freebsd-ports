@@ -12,8 +12,8 @@ MASTER_SITES=	ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
 MAINTAINER=	gljohns@bellsouth.net
 
-BUILD_DEPENDS=	wmaker:${PORTSDIR}/x11-wm/windowmaker
-BUILD_DEPENDS=	wmsound:${PORTSDIR}/audio/wmsound
+BUILD_DEPENDS=	wmaker:${PORTSDIR}/x11-wm/windowmaker \
+		wmsound:${PORTSDIR}/audio/wmsound
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
