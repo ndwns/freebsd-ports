@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xfsm-1.97
+DISTNAME=	xfsm-1.99
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.peoplesoft.com/peoplepages/g/robert_gasch/src/
 EXTRACT_SUFX=	.tgz
