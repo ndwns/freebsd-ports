@@ -14,6 +14,8 @@ MAINTAINER=	handy@physics.montana.edu
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		fetch
+
 USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
 GNU_CONFIGURE=	yes
