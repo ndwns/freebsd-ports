@@ -24,7 +24,7 @@ RUN_DEPENDS=	nsgmls:${PORTSDIR}/textproc/jade
 
 RUN_DEPENDS+=	${PREFIX}/share/sgml/linuxdoc:${PORTSDIR}/textproc/linuxdoc \
 		${PREFIX}/share/sgml/docbook:${PORTSDIR}/textproc/docbook \
-		perl:${PORTSDIR}/lang/perl5
+		perl5.00401:${PORTSDIR}/lang/perl5
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
