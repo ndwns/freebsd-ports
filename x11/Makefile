@@ -65,6 +65,7 @@
     SUBDIR += xdtm
     SUBDIR += xfed
     SUBDIR += xfedor
+    SUBDIR += xfishtank
     SUBDIR += xfm
     SUBDIR += xforms
     SUBDIR += xgrab
