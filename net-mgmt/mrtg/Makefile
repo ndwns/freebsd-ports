@@ -13,7 +13,7 @@ MASTER_SITES=	http://ee-staff.ethz.ch/~oetiker/webtools/mrtg/pub/
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
-RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/PV.pm:${PORTSDIR}/devel/p5-PV
+RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/PV.pm:${PORTSDIR}/devel/p5-PV
 
 USE_PERL5=	YES
 
@@ -21,7 +21,7 @@ ALL_TARGET=	rateup substitute
 
 do-install:
 		${MKDIR} -p -m 755 ${PREFIX}/etc/mrtg
-		${MKDIR} -p -m 755 ${PREFIX}/lib/perl5/site_perl
+		${MKDIR} -p -m 755 ${PREFIX}/lib/perl5/site_perl/${PERL_VER}
 		${MKDIR} -p -m 755 ${PREFIX}/share/mrtg
 		${MKDIR} -p -m 755 ${PREFIX}/share/doc/mrtg
 		for file in readme.html readme.txt mibhelp.txt INSTALL COPYING COPYRIGHT Changes Contributors Todo; do \
@@ -31,7 +31,7 @@ do-install:
 			${INSTALL_DATA} $$file ${PREFIX}/share/mrtg/; \
 		done
 		for file in SNMP_Session.pm BER.pm; do \
-			${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/lib/perl5/site_perl/; \
+			${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/lib/perl5/site_perl/${PERL_VER}; \
 		done
 		${INSTALL_PROGRAM} ${WRKSRC}/rateup ${PREFIX}/bin/
 		for file in mrtg cfgmaker convert indexmaker; do \
