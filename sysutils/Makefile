@@ -17,6 +17,7 @@
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mei
+    SUBDIR += mergemaster
     SUBDIR += mkhybrid11
     SUBDIR += mkhybrid12
     SUBDIR += mkisofs
