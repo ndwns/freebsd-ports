@@ -11,14 +11,14 @@ CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	tg@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+= --without-gl --without-motif --without-sx --without-mesagl \
 		--without-editres --without-dtsaver --without-rplay \
-		--without-nas
+		--without-nas --enable-mouse-motion
 USE_X11=	yes
 MAN1=		xlock.1
 
