@@ -16,10 +16,14 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 MAKEFILE=	makefile
 USE_X11=	yes
+
+.if !defined(PACKAGE_BUILDING)
 IS_INTERACTIVE=	yes	# asks "ok?" about license
 
 pre-install:
-	@/usr/bin/env PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
+	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
+.endif
+
 do-install:
 	${MKDIR} ${PREFIX}/lib/e93 ${PREFIX}/share/doc/e93
 	(cd ${WRKSRC}; \
