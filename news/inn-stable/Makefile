@@ -9,7 +9,8 @@
 DISTNAME=	inn-STABLE_2_2-1999-07-24_03-02
 PKGNAME=	inn-stable-v22
 CATEGORIES=	news
-MASTER_SITES=	ftp://ftp.isc.org/isc/inn/snapshots/
+MASTER_SITES=	http://www.FreeBSD.org/~andreas/download/ \
+		ftp://ftp.isc.org/isc/inn/snapshots/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
