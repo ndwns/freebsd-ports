@@ -20,4 +20,3 @@ MASTERDIR=	${.CURDIR}/../XttXF86srv-common
 PKGDIR=		${.CURDIR}/pkg
 
 .include	"${MASTERDIR}/Makefile"
-
