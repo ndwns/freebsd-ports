@@ -9,6 +9,8 @@
     SUBDIR += boehm-gc
     SUBDIR += cflow
     SUBDIR += crossgo32
+    SUBDIR += crossgo32-djgpp2
+    SUBDIR += crossgo32-djgpp2-pdcurses
     SUBDIR += crosssco
     SUBDIR += cs
     SUBDIR += cutils
