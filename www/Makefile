@@ -41,6 +41,7 @@
     SUBDIR += p5-libwww
     SUBDIR += squid11
     SUBDIR += squid11-novm
+    SUBDIR += vrweb
     SUBDIR += w3
     SUBDIR += w3c-httpd
     SUBDIR += webcopy
