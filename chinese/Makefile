@@ -22,7 +22,6 @@
     SUBDIR += nvi-euc-tw
     SUBDIR += pine
     SUBDIR += rxvt
-    SUBDIR += samba
     SUBDIR += ted
     SUBDIR += tin
     SUBDIR += xcin
