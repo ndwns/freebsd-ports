@@ -37,6 +37,7 @@
     SUBDIR += mp
     SUBDIR += mpage
     SUBDIR += musixtex
+    SUBDIR += offix-printer
     SUBDIR += pkfonts
     SUBDIR += psutils
     SUBDIR += rtf2latex
