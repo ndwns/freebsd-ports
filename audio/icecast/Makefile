@@ -13,8 +13,6 @@ MASTER_SITES=	http://icecast.linuxpower.org/releases/	\
 
 MAINTAINER=	chip@eboai.org
 
-WWW_SITE=	http://icecast.linuxpower.org
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-crypt --with-libwrap
 
