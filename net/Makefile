@@ -122,7 +122,6 @@
     SUBDIR += ttt
     SUBDIR += ucd-snmp
     SUBDIR += vnc
-    SUBDIR += vncjava
     SUBDIR += wais
     SUBDIR += wget
     SUBDIR += wide-dhcp
