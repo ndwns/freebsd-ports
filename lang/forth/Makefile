@@ -15,6 +15,7 @@ MASTER_SITES=	ftp://sunsite.unc.edu/pub/multimedia/.languages/forth/ \
 MAINTAINER=	ports@FreeBSD.org
 
 MAN1=		pfe.1
+WRKSRC=		${WRKDIR}/pfe099
 
 pre-install:
 	@${CP} ${WRKSRC}/pfe.1 ${PREFIX}/man/man1/pfe.1
