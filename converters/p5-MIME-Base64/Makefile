@@ -16,8 +16,9 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 USE_PERL5=	YES
 
-MAN3=           MIME::Base64.3 MIME::QuotedPrint.3
-MAN3PREFIX=	${PREFIX}/lib/perl5/5.00501
+MAN3=           MIME::Base64.3 \
+		MIME::QuotedPrint.3
+MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
