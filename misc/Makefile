@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= calc mshell iozone
+SUBDIR= calc iozone mshell mtools netpbm top
 
 .include <bsd.port.subdir.mk>
