@@ -71,7 +71,6 @@
     SUBDIR += rumba
     SUBDIR += rwhois
     SUBDIR += samba
-    SUBDIR += samba-des
     SUBDIR += scotty
     SUBDIR += slirp
     SUBDIR += socks5
