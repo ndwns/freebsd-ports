@@ -22,7 +22,7 @@ pre-extract:
 	@$(ECHO_MSG) "Xinside Motif ? Then put this into /etc/make.conf:"
 	@$(ECHO_MSG) "    MOTIFLIB=-L\${X11BASE}/lib -lXm -lXintl"
 
-post-install:		
+post-install:
 	@( cd ${X11BASE}/bin; ln -sf xmgr grbatch )
 
 .include <bsd.port.mk>
