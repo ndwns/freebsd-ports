@@ -20,6 +20,7 @@
     SUBDIR += kcfonts
     SUBDIR += lunar
     SUBDIR += mule-wnn4
+    SUBDIR += muni
     SUBDIR += nvi-big5
     SUBDIR += nvi-euc-cn
     SUBDIR += nvi-euc-tw
