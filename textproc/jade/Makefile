@@ -20,12 +20,6 @@ EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -U -qq
 NO_WRKSUBDIR=	yes
 
-# Unfortunately, jade needs a more modern C++ compiler than
-# comes with FreeBSD 2.1.x.
-.if !exists(/usr/lib/libstdc++.a)
-BROKEN=		Requires FreeBSD 2.2 or later.
-.endif
-
 # Shared libraries are currently broken for this port.
 # post-install:
 # 	${LDCONFIG} -m ${PREFIX}/lib
