@@ -71,6 +71,7 @@
     SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xautolock
+    SUBDIR += xbanner
     SUBDIR += xcb
     SUBDIR += xco
     SUBDIR += xcoloredit
