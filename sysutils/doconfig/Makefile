@@ -21,7 +21,7 @@ do-build:
 	@ ${SED} 's#%%PREFIX%%#${PREFIX}#g' <${WRKSRC}/_doconfig \
 		>${WRKSRC}/doconfig
 	@ ${RM} ${WRKSRC}/_doconfig
-	
+
 do-install:
 .for f in autokernconf doconfig
 	${INSTALL_SCRIPT} ${WRKSRC}/${f} ${PREFIX}/sbin/${f}
