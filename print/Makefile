@@ -5,6 +5,7 @@
     SUBDIR += acroread
     SUBDIR += afm
     SUBDIR += apsfilter
+    SUBDIR += bibcard
     SUBDIR += c2ps
     SUBDIR += detex
     SUBDIR += dvi2tty
