@@ -22,5 +22,6 @@
     SUBDIR += xalarm
     SUBDIR += xdaliclock
     SUBDIR += xtimer
+    SUBDIR += xtu
 
 .include <bsd.port.subdir.mk>
