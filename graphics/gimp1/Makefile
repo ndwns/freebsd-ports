@@ -15,12 +15,11 @@ DISTFILES=	gimp961001.tgz
 MAINTAINER=     erich@FreeBSD.org
 
 LIB_DEPENDS+=	png\\.0\\.[7-9]:${PORTSDIR}/graphics/png
-LIB_DEPENDS+=	jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=	jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
 LIB_DEPENDS+=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_X11=	yes
-
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
