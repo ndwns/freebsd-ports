@@ -39,7 +39,7 @@ AWK_SCRIPT=		''
 
 USE_GMAKE=		yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS?=	--enable-shared
+CONFIGURE_ARGS?=	--enable-shared --with-ccopts="${CFLAGS}"
 KRB5_KRB4_COMPAT?=	YES
 
 .if !defined(KRB5_KRB4_COMPAT) || ${KRB5_KRB4_COMPAT} == "NO"
