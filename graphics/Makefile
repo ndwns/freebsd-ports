@@ -77,6 +77,7 @@
     SUBDIR += rayshade
     SUBDIR += sane
     SUBDIR += sced
+    SUBDIR += sketch
     SUBDIR += spigot
     SUBDIR += splitmpg
     SUBDIR += stamp
