@@ -20,6 +20,12 @@ MAN1=		dotfile.1
 
 NO_BUILD=	yes
 
+post-configure:
+	@(cd ${WRKSRC}/Modules/procmail && CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
+	INSTALL="${INSTALL} -c -o ${BINOWN} -g ${BINGRP}" \
+	INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
+	${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
+
 post-install:
 	@${MKDIR} ${PREFIX}/share/doc/${DISTNAME}
 	@${MKDIR} ${PREFIX}/share/doc/${DISTNAME}/dotfile
