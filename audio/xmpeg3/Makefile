@@ -9,7 +9,7 @@
 DISTNAME=	xmp3_1.0.0
 PKGNAME=	xmpeg3-1.0
 CATEGORIES=	audio tk80
-MASTER_SITES=	ftp://ftp.rasip.fer.hr/pub/mpeg/
+MASTER_SITES=	ftp://ftp.rasip.fer.hr/pub/sci/audio/mpeg/amp/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
