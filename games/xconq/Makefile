@@ -8,7 +8,7 @@
 
 DISTNAME=	xconq-7.2.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.cygnus.com/pub/xconq/
+MASTER_SITES=	ftp://sourceware.cygnus.com/pub/xconq/
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
