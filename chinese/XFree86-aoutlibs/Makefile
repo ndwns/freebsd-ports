@@ -10,7 +10,7 @@
 # Renamed to avoid distfiles conflict with x11/XFree86-aoutlibs.
 
 PORTNAME=	XFree86-aoutlibs
-PORTVERSION= 	3.3.6
+PORTVERSION=	3.3.6
 CATEGORIES=	x11
 MASTER_SITES=	ftp://freebsd.sinica.edu.tw/pub/keith/
 DISTNAME=	Xbin336aout
