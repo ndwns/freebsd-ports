@@ -27,6 +27,10 @@ WRKSRC=		${WRKDIR}/Xsi
 WNN_EXTRA_PATCH= Wnn4.2.patch-981201.tar.gz
 MAKE_ENV+=	 PATH=/usr/bin:$${PATH} PORT_IMAKE_DEFINES='${WNN_DEF}'
 
+.if defined(BATCH)
+BATCH=	yes	# make sure it's not empty
+.endif
+
 .if (${PKGNAME} == ja-Wnn-4.2)
 DISTFILES+=	pubdic+.tar.gz pubdic+-fix01.gz pubdic+.diff pubdic+.special.diff
 PORT_DOCDIR=	${PREFIX}/share/doc/ja-Wnn
@@ -134,7 +138,8 @@ post-build:
 .endif
 
 pre-install:
-	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} PRE-INSTALL
+	@${SETENV} BATCH=${BATCH} \
+		${SH} ${PKGDIR}/INSTALL ${PKGNAME} PRE-INSTALL
 
 post-install:
 #### gerodic
