@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xperfmon++
-PKGNAME=	xperfmon++v1.40
+PKGNAME=	xperfmon++-1.40
 CATEGORIES=     sysutils x11
 # In Germany try this
 #MASTER_SITES=	ftp://odie.physik2.uni-rostock.de/pub/
