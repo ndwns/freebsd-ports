@@ -35,6 +35,7 @@
     SUBDIR += golddig
     SUBDIR += icbm3d
     SUBDIR += imaze
+    SUBDIR += ishido
     SUBDIR += jetpack
     SUBDIR += jzip
     SUBDIR += kdegames
