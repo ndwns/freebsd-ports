@@ -25,6 +25,7 @@ LIB_DEPENDS+=	Xpm.4:${PORTSDIR}/graphics/xpm
 LIB_DEPENDS+=	ORBit.0:${PORTSDIR}/devel/ORBit
 
 USE_X_PREFIX=	yes
+USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
 		--datadir=${PREFIX}/share/gnome
