@@ -45,6 +45,7 @@
     SUBDIR += psutils
     SUBDIR += rtf2latex
     SUBDIR += teTeX
+    SUBDIR += teTeX-beta
     SUBDIR += tex
     SUBDIR += texinfo
     SUBDIR += tr2latex
