@@ -14,4 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/sox.1
+
 .include <bsd.port.mk>
