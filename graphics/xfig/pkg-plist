@@ -2,8 +2,9 @@
 @owner bin
 @group bin
 @mode 755
-/bin/xfig
+bin/xfig
 @mode 644
 lib/X11/xfig/CompKeyDB
 lib/X11/app-defaults/Fig
 lib/X11/app-defaults/Fig-color
+man/man1/xfig.1.gz
