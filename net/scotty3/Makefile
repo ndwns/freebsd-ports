@@ -24,19 +24,20 @@ MAN8=		ntping.8 straps.8
 MANN=		Tnm.n cmip.n dns.n gdmo.n http.n icmp.n ined.n job.n \
 		mib.n msqltcl.n netdb.n ntp.n rpc.n snmp.n sunrpc.n \
 		syslog.n udp.n
+PLIST=		${PKGDIR}/PLIST.tmp
 
 pre-install:
 	@cd ${WRKSRC};make sinstall
 	@${CP} ${WRKSRC}/../tnm/ntping/ntping.8 ${WRKSRC}/../doc
-	@sed "s,@FREEBSD_VERSION@,$$(uname -m)-$$(uname)-$$(uname -r)," pkg/PLIST.in >/tmp/PLIST
+	@sed "s,@FREEBSD_VERSION@,$$(uname -m)-$$(uname)-$$(uname -r)," pkg/PLIST >/tmp/PLIST
 .if defined(NOMANCOMPRESS)
-	@sed "s,@GZIP@,," /tmp/PLIST >pkg/PLIST
+	@sed "s,@GZIP@,," /tmp/PLIST >pkg/PLIST.tmp
 .else
-	@sed "s,@GZIP@,.gz," /tmp/PLIST >pkg/PLIST
+	@sed "s,@GZIP@,.gz," /tmp/PLIST >pkg/PLIST.tmp
 .endif
 	@${RM} /tmp/PLIST
 
 pre-clean:
-	@${RM} -f pkg/PLIST
+	@${RM} -f pkg/PLIST.tmp
 
 .include <bsd.port.mk>
