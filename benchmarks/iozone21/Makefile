@@ -14,9 +14,7 @@ DISTFILES=      iozone-2.01.shar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
-EXEC_DEPENDS=   gunshar:${PORTSDIR}/archivers/gshar+gunshar
-
-EXTRACT_CMD=    ( gzcat | /usr/local/bin/gunshar )
+EXTRACT_CMD=    ( gzcat | awk '{if (/^\#!/) x++} {if(x) print $$0'}| /bin/sh )
 EXTRACT_ARGS=   <
 NO_WRKSUBDIR=   YES
 
