@@ -1,17 +1,17 @@
 # New ports collection makefile for:	bash
-# Version required:     2.01
+# Version required:     2.01.1
 # Date created:		21 August 1994
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=       bash-2.01
+DISTNAME=       bash-2.01.1
 CATEGORIES=	shells
 MASTER_SITES=	ftp://slc2.ins.cwru.edu/pub/dist/  \
 		${MASTER_SITE_GNU}
 .if !defined(NOPORTDOCS)
-DISTFILES=      bash-2.01.tar.gz bash-doc-2.01.tar.gz
+DISTFILES=      bash-2.01.1.tar.gz bash-doc-2.01.tar.gz
 .endif
 
 MAINTAINER=	ache@FreeBSD.ORG
