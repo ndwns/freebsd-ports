@@ -9,7 +9,7 @@
 DISTNAME=	qcc
 PKGNAME=	qcc-1.01
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.stomped.com/pub/idgames2/quakec/
+MASTER_SITES=	ftp://ftp.idsoftware.com/idstuff/source/
 
 MAINTAINER=	jfitz@freebsd.org
 
