@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	dima@chg.ru
 
-LIB_DEPENDS=	fltk.1:${PORTSDIR}/x11-toolkits
+LIB_DEPENDS=	fltk.1:${PORTSDIR}/x11-toolkits/fltk
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
