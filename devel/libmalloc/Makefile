@@ -11,6 +11,8 @@ PKGNAME=	libmalloc-1.18
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/moraes/
 
+MAINTAINER=	obrien@FreeBSD.org
+
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
 	@(cd ${PREFIX}/include ; ln -sf malloc.h libmalloc.h)
