@@ -12,6 +12,7 @@ CATEGORIES+=	net devel games
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
 DISTFILES=	2.4.5-for-1.0.37.tgz
 #DISTFILES=	sim-2.4.5.tar.gz
+DIST_SUBDIR=	dgd
 
 MAINTAINER=	adam@veda.is
 
