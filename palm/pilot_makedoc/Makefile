@@ -14,11 +14,10 @@ DISTFILES=	makedoc7.cpp
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 NO_WRKSUBDIR=	YES
-
 ALL_TARGET=	pilot_makedoc
 
 do-extract:
-		@${MKDIR} -p ${WRKDIR}
+		@${MKDIR} ${WRKDIR}
 		@${CP} ${DISTDIR}/${DISTFILES} ${WRKDIR}
 		@${CP} ${FILESDIR}/Makefile ${WRKDIR}
 
