@@ -16,8 +16,6 @@ PATCHFILES=	diclookup-mule-2.3.3-wave-patch.gz
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-BROKEN=		tries to install in /usr/local/lib/mule/site-lisp
-
 RUN_DEPENDS=	${X11BASE}/lib/X11/fonts/non-cjk/fonts.dir:${PORTSDIR}/x11-fonts/etlfonts
 BUILD_DEPENDS=	mule:${PORTSDIR}/japanese/mule-wnn4
 
