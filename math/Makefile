@@ -22,6 +22,7 @@
     SUBDIR += p5-MatrixReal
     SUBDIR += pari
     SUBDIR += plplot
+    SUBDIR += siag
     SUBDIR += simpack
     SUBDIR += ss
     SUBDIR += umatrix
