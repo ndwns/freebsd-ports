@@ -20,8 +20,9 @@ MAN1=		lisp.1 cmucl.1
 
 do-install:
 	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} work/bin/lisp ${PREFIX}/bin
-	-$(MKDIR) ${PREFIX}/lib/cmucl
+	-${MKDIR} ${PREFIX}/lib/cmucl
 	(cd work && tar fc - lib) | (cd ${PREFIX}/lib/cmucl && tar fx -)
+	-${RMDIR} ${PREFIX}/lib/cmucl/lib/subsystems
 	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} work/README.1st \
 		${PREFIX}/lib/cmucl
 	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} work/man/man1/cmucl.1 \
