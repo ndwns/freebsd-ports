@@ -35,5 +35,9 @@ post-install:
 .for i in msfree.gif sample.conf
 	@${INSTALL_DATA} ${WRKSRC}/${i} ${PREFIX}/share/examples/webalizer/${i}
 .endfor
+	@if [ ! -f ${PREFIX}/etc/webalizer.conf-dist ]; then \
+		${INSTALL_DATA} ${WRKSRC}/sample.conf \
+			${PREFIX}/etc/webalizer.conf-dist ; \
+	fi
 
 .include <bsd.port.mk>
