@@ -14,7 +14,7 @@ MASTER_SITES=	http://replay.linuxpower.org/files/
 MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		esd.0:${PORTSDIR}/audio/esound
+		esd.1:${PORTSDIR}/audio/esound
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
