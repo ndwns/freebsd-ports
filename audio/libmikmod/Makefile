@@ -1,15 +1,15 @@
 # ports collection makefile for:   libmikmod
-# Version required:    3.1.6
+# Version required:    3.1.7
 # Date created:        Sun Apr 11 13:06:01 PDT 1999
 # Whom:                Michael Haro <mharo@area51.fremont.ca.us>
 #
 # $Id$
 #
 
-DISTNAME=	libmikmod-3.1.6
+DISTNAME=	libmikmod-3.1.7
 CATEGORIES=	audio
-MASTER_SITES=	http://www.multimania.com/miodrag/mikmod/libmikmod/ \
-		http://mikmod.darkorb.net/libmikmod/
+# The files at multimania.com seem to be corrupted
+MASTER_SITES=	http://mikmod.darkorb.net/libmikmod/
 
 MAINTAINER=	mharo@FreeBSD.ORG
 
