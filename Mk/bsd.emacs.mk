@@ -103,6 +103,8 @@ EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
 EMACS_PORTSDIR=		${PORTSDIR}/editors/xemacs
 EMACS_COMMON_PORT=	NO
 EMACS_HAS_MULE=		NO
+# subdirectory of emacs core elisp files
+EMACS_CORE_SUBDIR=	prim
 
 # XEmacs-20.x
 .elif (${EMACS_PORT_NAME} == "xemacs20")
@@ -114,6 +116,8 @@ EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
 EMACS_PORTSDIR=		${PORTSDIR}/editors/xemacs20
 EMACS_COMMON_PORT=	NO
 EMACS_HAS_MULE=		NO
+# subdirectory of emacs core elisp files
+EMACS_CORE_SUBDIR=	prim
 
 # XEmacs-21.x
 .elif (${EMACS_PORT_NAME} == "xemacs21")
@@ -153,6 +157,9 @@ EMACS_HAS_MULE=		YES
 
 # emacsen command-line filename
 EMACS_CMD?=			${LOCALBASE}/bin/${EMACS_NAME}-${EMACS_VER}
+# emacsen core elisp filename
+EMACS_CORE_DIR=			${EMACS_LIBDIR_WITH_VER}/lisp/${EMACS_CORE_SUBDIR}
+EMACS_COREEL=			${LOCALBASE}/${EMACS_CORE_DIR}/startup.el
 
 # emacsen libdir without ${LOCALBASE}
 EMACS_SITE_LISPDIR?=		${EMACS_LIBDIR}/site-lisp
@@ -166,7 +173,7 @@ BUILD_DEPENDS+=		${EMACS_CMD}:${EMACS_PORTSDIR}
 .endif
 .if (${EMACS_NO_RUN_DEPENDS} == "NO")
 .if defined(EMACS_COMMON_PORT) && (${EMACS_COMMON_PORT} == "YES")
-RUN_DEPENDS+=	${EMACS_CMD}:${EMACS_PORTSDIR}-common
+RUN_DEPENDS+=	${EMACS_COREEL}:${EMACS_PORTSDIR}-common
 .else
 RUN_DEPENDS+=	${EMACS_CMD}:${EMACS_PORTSDIR}
 .endif
