@@ -19,6 +19,8 @@ DISTFILES=	kon2-0.3.tar.gz \
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
+LOOP_VAR=	KONFONT
+LOOP_OPTIONS=	14dot 16dot
 MAN1=		kon.1
 MANLANG=	ja
 EXTRACT_ONLY=	kon2-0.3.tar.gz
