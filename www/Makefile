@@ -27,6 +27,7 @@
     SUBDIR += evg
     SUBDIR += fcgi
     SUBDIR += fxhtml
+    SUBDIR += g-gcl
     SUBDIR += gn
     SUBDIR += grail
     SUBDIR += gwstat
