@@ -21,7 +21,8 @@ CONFIGURE_ARGS=	--prefix=${PREFIX} \
 CAT1=	wml_aux_linklint.1 wml_aux_txt2html.1 \
 	wml_aux_wwwtable.1 wml_p2_mhc.1 wml_p4_gm4.1
 
-MAN1=	wmd.1 wmk.1 wml.1 wml_aux_htmlinfo.1 wml_aux_iselect.1 \
+MAN1=	wmd.1 wmk.1 wml.1 wmb.1 \
+	wml_aux_htmlinfo.1 wml_aux_iselect.1 \
 	wml_aux_map2html.1 wml_aux_weblint.1 wml_p1_ipp.1 \
 	wml_p3_eperl.1 wml_p5_divert.1 wml_p6_asubst.1 \
 	wml_p7_htmlfix.1 wml_p8_htmlstrip.1 wml_p9_slice.1
