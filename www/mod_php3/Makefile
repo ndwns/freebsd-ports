@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
 		http://www.php.net/distributions/
 DISTFILES=	apache_${APACHE_VER}.tar.gz php-${PHP3_VER}.tar.gz
 
-MAINTAINER=	ibex@physik.TU-Berlin.DE
+MAINTAINER=	Dirk Froemberg <ibex@physik.TU-Berlin.DE>
 
 APACHE_VER=	1.3.1
 PHP3_VER=	3.0.3
