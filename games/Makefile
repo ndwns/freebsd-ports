@@ -25,12 +25,14 @@
     SUBDIR += xminesweep
     SUBDIR += xmj
     SUBDIR += xmris
+    SUBDIR += xneko
     SUBDIR += xonix
     SUBDIR += xpacman
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xrisk
     SUBDIR += xrobots
+    SUBDIR += xroach
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
