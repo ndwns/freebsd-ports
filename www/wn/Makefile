@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       wn-1.18.5
+DISTNAME=       wn-1.18.6
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
