@@ -1,12 +1,12 @@
 # New ports collection makefile for:	crosspad
-# Version required:	981015a
+# Version required:	981112
 # Date created:		23 September 1998
 # Whom:			itojun@itojun.org
 #
 # $Id$
 #
 
-DISTNAME=	crosspad-981015a
+DISTNAME=	crosspad-981112
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.itojun.org/pub/misc/
 
