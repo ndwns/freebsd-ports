@@ -9,6 +9,7 @@
 DISTNAME=      rshell-1.0
 CATEGORIES=    misc
 MASTER_SITES=  ${MASTER_SITE_LOCAL}
+
 MAINTAINER=    wosch@FreeBSD.ORG
 
 .include <bsd.port.mk>
