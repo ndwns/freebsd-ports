@@ -50,8 +50,8 @@ post-install:
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \
-	  awk '$$1 == "#gopher" { exit 1 }' ${INETD_CONF} || { \
-		echo '#'gopher${CONF} >>${INETD_CONF}
+	  awk '$$1 ~ /#*gopher/ && $$6 == "/usr/local/libexec/gn" { exit 1 }' \
+		${INETD_CONF} || { \ echo '#'gopher${CONF} >>${INETD_CONF}
 	  }
 .endif
 
