@@ -10,8 +10,6 @@ MAINTAINER=	phk@freebsd.org
 
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-BROKEN_ELF=	'Error in startup script: couldnt load file "/usr/local/lib/tkined1.4.9.so": /usr/local/lib/tkined1.4.9.so: Undefined symbol "Tk_CanvasTagsParseProc"'
-
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --with-tcl-config=/usr/local/lib/tcl8.0 \
 		--with-tk-config=/usr/local/lib/tk8.0
