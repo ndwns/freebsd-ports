@@ -27,9 +27,10 @@ post-install:
 		echo "Installing ${PREFIX}/etc/rc.d/canna.sh startup file."; \
 		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/canna.sh; \
 		echo "canna=/usr/local/canna/bin/cannaserver" >> ${PREFIX}/etc/rc.d/canna.sh ;\
-		echo "if [ -f $$canna ]; then" >> ${PREFIX}/etc/rc.d/canna.sh ;\
+		echo 'if [ -f $$canna ]; then' >> ${PREFIX}/etc/rc.d/canna.sh ;\
 		echo "    rm -f /var/spool/canna/lock/.CANNALOCK*" >> ${PREFIX}/etc/rc.d/canna.sh ;\
-		echo "    echo -n ' Canna'; $$canna" >> ${PREFIX}/etc/rc.d/canna.sh ;\
+		echo "    echo -n ' Canna'" >> ${PREFIX}/etc/rc.d/canna.sh ;\
+		echo '$$canna' >> ${PREFIX}/etc/rc.d/canna.sh ;\
 		echo "fi" >> ${PREFIX}/etc/rc.d/canna.sh ;\
 		chmod 755 ${PREFIX}/etc/rc.d/canna.sh ;\
 	fi
