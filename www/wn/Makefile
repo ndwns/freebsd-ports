@@ -36,6 +36,6 @@ post-install:
 	else \
 	    install -c -o bin -g bin -m 644 ${WRKDIR}/index ${PREFIX}/wn; \
 	fi
-	@cd ${PREFIX}/wn; ../sbin/wndex -r
+	@cd ${PREFIX}/wn; ../bin/wndex -r
 
 .include <bsd.port.mk>
