@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	doom-1.8
+PKGNAME=	linuxdoom-1.8
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/doom

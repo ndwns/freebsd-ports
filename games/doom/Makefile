@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	doomsrc-1.8
+PKGNAME=	doom-1.8
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.idsoftware.com/idstuff/source/ \
 		ftp://ftp.stomped.com/pub/idmirror/idstuff/source/ \
