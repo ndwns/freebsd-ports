@@ -36,7 +36,7 @@ WEBALIZER_LANG=english
 CONFIGURE_ARGS+=	--with-language=${WEBALIZER_LANG}
 .endif
 
-pre-fetch:
+pre-configure:
 .if !defined(WEBALIZER_LANG)
 	@${ECHO_MSG} "You can customize the language by typing"
 .for i in ${SUPP_LANG}
