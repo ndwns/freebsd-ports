@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.xnet.com/%7Eemarshal/rblcheck/
 
 MAINTAINER=	itojun@itojun.org
 
+BROKEN=		yes
+
 DOCS=		BUGS CHANGES CREDITS INSTALL PLATFORMS TODO
 
 do-install:
