@@ -14,6 +14,7 @@
     SUBDIR += dgd-net
     SUBDIR += dip
     SUBDIR += fspclient
+    SUBDIR += ftpsearch
     SUBDIR += ftptool
     SUBDIR += gated
     SUBDIR += gnu-finger
