@@ -82,6 +82,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/clients/Motif-1.2/mwm/Mwm \
 		${PREFIX}/lib/X11/app-defaults/Mwm
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	@${CAT} ${PKGMESSAGE}
 
 .include <bsd.port.mk>
 
