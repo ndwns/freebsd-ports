@@ -1,12 +1,12 @@
 # New ports collection makefile for: dotfile
-# Version required:  2.0b2
+# Version required:  2.0
 # Date created:      11/12/96
 # Whom:              oly@world.std.com
 #
 # $Id$
 #
 
-DISTNAME=	dotfile-2.0b5
+DISTNAME=	dotfile-2.0
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.imada.ou.dk/pub/dotfile/
 
