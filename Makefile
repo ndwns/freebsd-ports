@@ -53,7 +53,8 @@ index:
 
 ${.CURDIR}/INDEX:
 	@echo -n "Generating INDEX - please wait.."
-	@make describe ECHO_MSG="echo > /dev/null" > ${.CURDIR}/INDEX
+	@make describe ECHO_MSG="echo > /dev/null" | \
+		perl ${.CURDIR}/templates/make_index > ${.CURDIR}/INDEX
 	@echo " Done."
 
 print-index:	${.CURDIR}/INDEX
