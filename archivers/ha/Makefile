@@ -9,7 +9,7 @@
 DISTNAME=       ha0999
 PKGNAME=        ha-0.999b
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+MASTER_SITES=   ftp://ftp.kiae.su/pub/unix/arcers/
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG

@@ -8,7 +8,7 @@
 
 DISTNAME=       unrar-2.01
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://ftp.relcom.ru/unix/arcers/
+MASTER_SITES=   ftp://ftp.relcom.ru/pub/unix/arcers/
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
