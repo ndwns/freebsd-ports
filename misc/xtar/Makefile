@@ -15,5 +15,6 @@ MAINTAINER=	shanee@augusta.de
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
+MAN1=		xtar.1
 
 .include <bsd.port.mk>

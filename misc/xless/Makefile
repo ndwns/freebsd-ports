@@ -15,5 +15,6 @@ MASTER_SITE_SUBDIR=     applications
 MAINTAINER=	conrads@neosoft.com
       
 USE_IMAKE=	yes
+MAN1=		xless.1
       
 .include <bsd.port.mk>

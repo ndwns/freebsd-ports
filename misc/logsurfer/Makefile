@@ -15,5 +15,8 @@ MASTER_SITES=	ftp://ftp.fh-rosenheim.de/pub/mirror/cert.dfn/tools/audit/logsurfe
 MAINTAINER=	shanee@augusta.de
 
 GNU_CONFIGURE=	YES
+MAN1=		logsurfer.1
+MAN4=		logsurfer.conf.4
+MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>

@@ -13,4 +13,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+MAN1=		a2crd.1 chord.1
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

@@ -14,6 +14,7 @@ MASTER_SITES=   ftp://ftp.tut.ac.jp/.h3/X11/X11R6/contrib/programs/
 MAINTAINER=     nakai@mlab.t.u-tokyo.ac.jp
 
 USE_IMAKE=      yes
+MAN1=		xgas.1
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xgas

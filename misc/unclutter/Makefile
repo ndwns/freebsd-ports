@@ -16,5 +16,6 @@ MAINTAINER=	shanee@augusta.de
 
 WRKSRC=		$(WRKDIR)/unclutter
 USE_IMAKE=	yes
+MAN1=		unclutter.1
 
 .include <bsd.port.mk>
