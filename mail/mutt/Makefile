@@ -6,8 +6,8 @@
 #
 # $Id$
 
-DISTNAME=	mutt-0.93.1i
-PKGNAME=	mutt-0.93.1
+DISTNAME=	mutt-0.93.2i
+PKGNAME=	mutt-0.93.2
 CATEGORIES=	mail
 MASTER_SITES=	ftp://riemann.iam.uni-bonn.de/pub/mutt/  \
 		ftp://ftp.gbnet.net/pub/mutt-international/  \
