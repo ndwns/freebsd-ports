@@ -15,7 +15,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 ALL_TARGET=		mmr
 
-BROKEN_ELF=	md5/libmd5.a
+USE_GMAKE=	yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/mmr ${PREFIX}/bin
