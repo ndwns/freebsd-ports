@@ -35,6 +35,20 @@ IS_INTERACTIVE=		yes
 
 MAINTAINER=		jmz@FreeBSD.ORG
 
+.if defined(DISTDIR)
+.if exists (${DISTDIR}/xc-1.tar.gz)
+X11_VIA_FTP = yes
+.endif
+.elif defined(PORTSDIR)
+.if exists (${PORTSDIR}/distfiles/xc/xc-1.tar.gz)
+X11_VIA_FTP = yes
+.endif
+.else
+.if exists (/usr/ports/distfiles/xc/xc-1.tar.gz)
+X11_VIA_FTP = yes
+.endif
+.endif
+
 .if defined(X11_ON_CDROM) || defined(X11_VIA_FTP)
 
 DISTFILES=		# to prevent checksum
