@@ -1,13 +1,13 @@
 # New ports collection makefile for:	XML for Java
-# Version required:	2.0.13
+# Version required:	2.0.14
 # Date created:		16 May 1999
 # Whom:			Jun Kuriyama <kuriyama@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	xml4j_2_0_13
-PKGNAME=	xml4j-2.0.13
+DISTNAME=	xml4j_2_0_14
+PKGNAME=	xml4j-2.0.14
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.alphaworks.ibm.com/tech/xml4j/
 
