@@ -60,6 +60,7 @@
     SUBDIR += sox
     SUBDIR += splay
     SUBDIR += splaytk
+    SUBDIR += tclmidi
     SUBDIR += timidity
     SUBDIR += tosha
     SUBDIR += tracker
