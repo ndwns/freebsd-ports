@@ -8,7 +8,7 @@
 
 DISTNAME=       xfpovray-1.3.1
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.batse.msfc.nasa.gov/~mallozzi/software/xfpovray/v1.3.1/ \
+MASTER_SITES=	http://www.batse.msfc.nasa.gov/~mallozzi/home/software/xforms/src/ \
 		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/graphics/rays/pov
 EXTRACT_SUFX=	.tgz
@@ -26,6 +26,6 @@ USE_GMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-patch:
-	@/usr/bin/perl -pi -e "s|\@LOCALBASE\@|${LOCALBASE}|g;" ${WRKSRC}/src/xfpovray.h
+	@${PERL} -pi -e "s|\@LOCALBASE\@|${LOCALBASE}|g;" ${WRKSRC}/src/xfpovray.h
 
 .include <bsd.port.mk>
