@@ -13,6 +13,7 @@
     SUBDIR += dgd-lpmud
     SUBDIR += dgd-net
     SUBDIR += dip
+    SUBDIR += fping
     SUBDIR += freewais-sf
     SUBDIR += fspclient
     SUBDIR += ftpsearch
