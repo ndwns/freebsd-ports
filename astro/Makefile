@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += ephem
     SUBDIR += luna
     SUBDIR += sattrack
     SUBDIR += stars
