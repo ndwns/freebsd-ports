@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	spegla-1.03
+DISTNAME=	spegla-1.04
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.luth.se/pub/unix/mirror/ \
 		ftp://subzero.campus.luth.se/pub/spegla/
