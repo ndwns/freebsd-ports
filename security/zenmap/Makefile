@@ -19,7 +19,6 @@ MAINTAINER=     obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --libdir=${PREFIX}/share/misc
-OSVERSION!=	sysctl -n kern.osreldate
 .if ${OSVERSION} < 300004
 CFLAGS+=	-DDLT_RAW=12 # for obsoleted <net/bpf.h>
 .endif
