@@ -13,8 +13,6 @@ MASTER_SITE_SUBDIR=	textutils
 
 MAINTAINER=	aw1@stade.co.uk
 
-BROKEN=		makeinfo
-
 GNU_CONFIGURE= yes
 
 CONFIGURE_ARGS= --program-prefix=g
