@@ -17,7 +17,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 # ENABLE_NOTE=yes
 
 # Restrictive copyright in irc2.8.21/ircd/res.c
-NO_PACKAGE=	yes
+RESTRICTED=	"No redistribution allowed."
 
 pre-install:
 	mkdir -p ${PREFIX}/lib/ircd
