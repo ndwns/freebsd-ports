@@ -15,7 +15,8 @@ EXTRACT_SUFX=   .tar.Z
 MAINTAINER=     ache@FreeBSD.ORG
 
 WRKSRC=         ${WRKDIR}/mpack
-MAKEFLAGS=      -DDESTDIR=${PREFIX} -f
+MAKEFLAGS=      -f
+MAKE_ENV+=      DESTDIR=${PREFIX}
 MAN1=		mpack.1 munpack.1
 
 .include <bsd.port.mk>
