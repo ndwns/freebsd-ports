@@ -9,11 +9,9 @@
 DISTNAME=	dvi2tty5.0
 PKGNAME=	ja-dvi2tty-ascii-5.0
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.ipc.chiba-u.ac.jp/misc/tex/dviwares/dvi2tty/ \
-		ftp://ftp.web.ad.jp/pub/TeX/akiu/dviwares/dvi2tty/
+MASTER_SITES=	ftp://ftp.web.ad.jp/pub/TeX/akiu/dviwares/dvi2tty/
 
-PATCH_SITES=	ftp://ftp.ipc.chiba-u.ac.jp/misc/tex/dviwares/dvi2tty/ \
-		ftp://ftp.web.ad.jp/pub/TeX/akiu/dviwares/dvi2tty/
+PATCH_SITES=	ftp://ftp.web.ad.jp/pub/TeX/akiu/dviwares/dvi2tty/
 PATCHFILES=	dvi2tty-ascii-jtex-patch dvi2tty.c-patch
 
 MAINTAINER=	max@FreeBSD.ORG
