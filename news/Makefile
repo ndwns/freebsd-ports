@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += atp
     SUBDIR += aub
     SUBDIR += cnews
     SUBDIR += diablo
