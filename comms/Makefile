@@ -10,5 +10,6 @@
     SUBDIR += minicom
     SUBDIR += rzsz
     SUBDIR += seyon
+    SUBDIR += xcept
 
 .include <bsd.port.subdir.mk>
