@@ -16,4 +16,12 @@ USE_IMAKE=	yes
 MANCOMPRESSED=	yes
 MAN1=		xsysinfo.1
 
+pre-configure:
+	if [ -e /usr/lib/libdevstat.a ]; then \
+		cd ${WRKSRC} ; \
+		${MV} Imakefile Imakefile.in ; \
+		${SED} -e "s:DEFINES =:DEFINES = -DHAVE_DEVSTAT:" Imakefile.in > Imakefile.i1 ; \
+		${SED} -e "s:-lkvm:-lkvm -ldevstat:" Imakefile.i1 > Imakefile ; \
+	fi
+
 .include <bsd.port.mk>
