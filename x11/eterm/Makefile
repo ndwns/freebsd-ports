@@ -15,6 +15,7 @@ MAINTAINER=	murray@cdrom.com
 
 LIB_DEPENDS=	Im\\.3\\.:${PORTSDIR}/graphics/imlib
 
+BROKEN=		R_OK undefined
 WRKSRC=		$(WRKDIR)/Eterm-DR-0.6a
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
