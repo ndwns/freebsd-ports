@@ -24,6 +24,7 @@
     SUBDIR += chimera
     SUBDIR += chimera2
     SUBDIR += comline
+    SUBDIR += demoroniser
     SUBDIR += evg
     SUBDIR += fcgi
     SUBDIR += fxhtml
