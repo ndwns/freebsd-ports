@@ -64,6 +64,7 @@
     SUBDIR += mpich
     SUBDIR += mrt
     SUBDIR += mrtg
+    SUBDIR += mtr
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += ncftp3
