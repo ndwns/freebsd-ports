@@ -7,6 +7,7 @@
     SUBDIR += Sather
     SUBDIR += TenDRA
     SUBDIR += atlast
+    SUBDIR += bc-gcc
     SUBDIR += bwbasic
     SUBDIR += caml-light
     SUBDIR += cim
