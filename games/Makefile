@@ -87,6 +87,7 @@
     SUBDIR += xpipeman
     SUBDIR += xpuyo
     SUBDIR += xpuzzletama
+    SUBDIR += xquarto
     SUBDIR += xripple
     SUBDIR += xrisk
     SUBDIR += xroach
