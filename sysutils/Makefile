@@ -6,7 +6,6 @@
     SUBDIR += manck
     SUBDIR += rtty
     SUBDIR += socket
-    SUBDIR += sudo
     SUBDIR += top
     SUBDIR += tua
     SUBDIR += xbatt

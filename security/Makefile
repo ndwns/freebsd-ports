@@ -12,6 +12,7 @@
     SUBDIR += pgp
     SUBDIR += pidentd
     SUBDIR += ssh
+    SUBDIR += sudo
     SUBDIR += tcp_wrapper
     SUBDIR += vscan
     SUBDIR += xinetd
