@@ -13,7 +13,6 @@
     SUBDIR += dejagnu
     SUBDIR += display
     SUBDIR += dotfile
-    SUBDIR += ecc
     SUBDIR += estic
     SUBDIR += ewipe
     SUBDIR += fd
