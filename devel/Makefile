@@ -49,7 +49,6 @@
     SUBDIR += scogdb
     SUBDIR += tkcvs
     SUBDIR += tvision
-    SUBDIR += uulib
     SUBDIR += xwpe
     SUBDIR += xxgdb
 
