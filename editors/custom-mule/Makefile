@@ -9,7 +9,7 @@
 MAINTAINER=	shige@FreeBSD.ORG
 
 PATCHFILES=	custom-1.9962.patch
-PATCH_SITES=	http://www.jpl.org/elips/semi-gnus-mule23@1934/
+PATCH_SITES=	ftp://ftp.jpl.org/pub/elisp/semi-gnus-mule23@1934/
 PATCH_DIST_STRIP= -p1
 
 # This is a slave port.
