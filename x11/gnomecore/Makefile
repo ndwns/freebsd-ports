@@ -22,6 +22,8 @@ LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 		esd.1:${PORTSDIR}/audio/esound \
 		ghttp.0:${PORTSDIR}/www/libghttp
 
+BROKEN=		"can't work with gtk 1.1.13, but 0.99.4 will release soon"
+
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
