@@ -16,15 +16,15 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
 		panel_applet.0:${PORTSDIR}/x11/gnomecore \
 		gdkcardimage.0:${PORTSDIR}/games/gnomegames \
-		gxsnmp.o:${PORTSDIR}/sysutils/gnomeadmin
+		gxsnmp.1:${PORTSDIR}/sysutils/gnomeadmin
 RUN_DEPENDS=	gcalc:${PORTSDIR}/misc/gnomeutils \
 		ElectricEyes:${PORTSDIR}/graphics/electriceyes \
-		ggc:${PORTSDIR}/print/ggv \
+		ggv:${PORTSDIR}/print/ggv \
 		gnumeric:${PORTSDIR}/math/gnumeric
 
 EXTRACT_ONLY=	# empty
 NO_BUILD=	yes
 
-do-install=	# empty
+do-install:	# empty
 
 .include <bsd.port.mk>
