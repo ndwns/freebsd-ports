@@ -6,16 +6,17 @@
 # $Id$
 #
 
-DISTNAME=	kdemultimedia-Beta3-1
-PKGNAME=	kdemultimedia-3.1b
+DISTNAME=	kdemultimedia-1.0pre2-1
+PKGNAME=	kdemultimedia-1.0pre2-1
 CATEGORIES=	x11
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/Beta3/distribution/tgz/source
-EXTRACT_SUFX=	.src.tar.gz
+MASTER_SITE_SUBDIR= stable/latest/distribution/tar/source
+EXTRACT_SUFX=	.src.tar.bz2
 
 MAINTAINER=	se@freebsd.org
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
+BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2 \
+		moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
