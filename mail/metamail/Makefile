@@ -15,12 +15,12 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
-MAN1= 		gcaudiocompose.1 gcaudiosend.1 gcextcompose.1 \
-		gcgetfilename.1 gcmailto-hebrew.1 gcmailto.1 gcmetamail.1 \
-		gcmetasend.1 gcmime.1 gcmimencode.1 gcmmencode.1 \
-		gcpatch-metamail.1 gcrichtext.1 gcshowaudio.1 \
-		gcshowexternal.1 gcshownonascii.1 gcshowpartial.1 \
-		gcshowpicture.1 gcsplitmail.1 \
+MAN1= 		audiocompose.1 audiosend.1 extcompose.1 \
+		getfilename.1 mailto-hebrew.1 mailto.1 metamail.1 \
+		metasend.1 mime.1 mimencode.1 mmencode.1 \
+		patch-metamail.1 richtext.1 showaudio.1 \
+		showexternal.1 shownonascii.1 showpartial.1 \
+		showpicture.1 splitmail.1
 MAN4=		mailcap.4
 
 .include <bsd.port.mk>
