@@ -1,13 +1,13 @@
-# New ports collection makefile for:   electriceyes
-# Version required:    0.3.5
-# Date created:        21 August 1998
-# Whom:                Yukihiro Nakai <Nakai@technologist.com>
+# New ports collection makefile for:	electriceyes
+# Version required:			0.3.8
+# Date created:				21 August 1998
+# Whom:					Yukihiro Nakai <Nakai@technologist.com>
 #
 # $Id$
 #
 
-DISTNAME=	ee-0.3.5
-PKGNAME=	electriceyes-0.3.5
+DISTNAME=	ee-0.3.8
+PKGNAME=	electriceyes-0.3.8
 CATEGORIES=	graphics gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	ee
