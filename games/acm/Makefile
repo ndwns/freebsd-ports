@@ -12,6 +12,7 @@ MASTER_SITES=	http://www.websimulations.com/download/
 
 MAINTAINER=	se@FreeBSD.org
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 MAN6=		acm.6
 
