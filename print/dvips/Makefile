@@ -22,5 +22,7 @@ EXTRACT_ARGS=	<
 pre-install:
 	@mkdir -p ${PREFIX}/lib/texmf
 
+pre-clean:
+	@rm -f ${SCRIPTDIR}/post-install
 
 .include <bsd.port.mk>
