@@ -10,8 +10,7 @@ DISTNAME=	ascd-0.13.1-src
 PKGNAME=	ascd-0.13.1
 CATEGORIES=	audio afterstep windowmaker
 MASTER_SITES=	http://worldserver.oleane.com/rsn/Archives/
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${DATAFILES}
-EXTRACT_SUFX=	.tgz
+DISTFILES=	${DISTNAME}.tgz ${DATAFILES}
 
 MAINTAINER=	jim@FreeBSD.org
 
@@ -33,5 +32,5 @@ post-patch:
 post-install:
 	@${CP} ${FILESDIR}/install ${WRKDIR}/${THEMESDIR}
 	@(cd ${WRKDIR}/${THEMESDIR} && ./install)
-	
+
 .include <bsd.port.mk>
