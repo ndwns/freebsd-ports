@@ -8,7 +8,7 @@
 
 DISTNAME=       dict-1.0
 CATEGORIES=	german
-MASTER_SITES=   http://www.apfel.de/~wosch/src/
+MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${dict}.gz
 
 MAINTAINER=     wosch@FreeBSD.org
