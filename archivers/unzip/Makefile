@@ -15,11 +15,6 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/unzip-5.32
 MAKEFILE=       unix/Makefile
-.if ${ARCH} == alpha
-ALL_TARGET=	bsd
-.else
-ALL_TARGET=     freebsd
-.endif
 MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS} -DUSE_UNSHRINK" -f
 MAN1=           funzip.1 unzip.1 unzipsfx.1 zipgrep.1 zipinfo.1
 
@@ -36,3 +31,9 @@ do-install:
 		${INSTALL_DATA} README COPYING WHERE ${PREFIX}/share/doc/unzip
 
 .include <bsd.port.mk>
+
+.if ${ARCH} == "alpha"
+ALL_TARGET=	bsd
+.else
+ALL_TARGET=     freebsd
+.endif
