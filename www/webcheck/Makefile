@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	linbot-0.9
-CATEGORIES=	www
+CATEGORIES=	www python
 MASTER_SITES=	http://starship.skyport.net/crew/marduk/linbot/
 
 MAINTAINER=	billf@chc-chimes.com
