@@ -13,6 +13,7 @@
     SUBDIR += cqcam
     SUBDIR += dc3play
     SUBDIR += dore
+    SUBDIR += electriceyes
     SUBDIR += fbm
     SUBDIR += fli2gif
     SUBDIR += fnlib
