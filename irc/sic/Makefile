@@ -8,7 +8,8 @@
 
 DISTNAME=	sic-0.10a
 CATEGORIES=	net
-MASTER_SITES=	http://www.stealth.net/~kalt/sic/
+MASTER_SITES=	http://www.freebsd.org/~mph/distfiles/ \
+		http://www.stealth.net/~kalt/sic/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	sec@42.org
