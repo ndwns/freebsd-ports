@@ -15,9 +15,6 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		http://www.concerto.demon.co.uk/UPS/
 MASTER_SITE_SUBDIR= utilities
 
-#PATCHFILES=	ide-333-patch-16nov98.txt
-#PATCH_SITES=	http://www.concerto.demon.co.uk/UPS/
-
 MAINTAINER=     obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
