@@ -29,6 +29,7 @@
     SUBDIR += libranlib
     SUBDIR += linpack
     SUBDIR += metis
+    SUBDIR += netcdf
     SUBDIR += numpy
     SUBDIR += octave
     SUBDIR += oleo
@@ -37,6 +38,7 @@
     SUBDIR += pari
     SUBDIR += parmetis
     SUBDIR += plplot
+    SUBDIR += py-scientific
     SUBDIR += pygist
     SUBDIR += rng
     SUBDIR += sc
