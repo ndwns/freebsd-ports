@@ -16,8 +16,8 @@ RUN_DEPENDS=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscap
 FILESDIR?=	${.CURDIR}/files
 
 BROWSER_CMD=	ja-${BROWSER}-45
-BROWSER_VERSION= 4.5
+BROWSER_VERSION= 4.51
 JAPANIZE_KIT=	communicator-ja-euc-v45-export.generic-generic-generic.tar.gz
-NSUBDIR?=	netscape-4.5
+NSUBDIR?=	netscape-4.51
 
 .include "${MASTERDIR}/Makefile"
