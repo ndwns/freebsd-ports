@@ -8,8 +8,8 @@
 
 DISTNAME=	fvwm-1.24r
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	X11/window-managers
+MASTER_SITES=	ftp://ftp.hpc.uh.edu/pub/fvwm/version-1/ \
+		ftp://ftp.ics.es.osaka-u.ac.jp/pub/CFAN/sources/1.x/
 
 MAINTAINER=	me@FreeBSD.org
 
@@ -22,6 +22,6 @@ ALL_TARGET=	Makefiles all
 post-install:
 	@mkdir -p ${PREFIX}/include/X11/pixmaps
 	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} -m 444 \
-		${WRKSRC}/fvwm_icons/*.xpm ${PREFIX}/include/X11/pixmaps
+	${WRKSRC}/fvwm_icons/*.xpm ${PREFIX}/include/X11/pixmaps
 
 .include <bsd.port.mk>
