@@ -8,6 +8,8 @@
 
 PKGNAME=	ja-xemacs-canna+wnn6-20.4
 
+BROKEN_ELF=	Wnn6 has not yet corresponded to ELF
+
 CANNA=		yes
 WNN6=		yes
 
