@@ -38,6 +38,9 @@ DATAFILES=	WindowMaker-data.tar.gz
 post-extract:
 	cd ${WRKSRC}; ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} libPropList.tar.gz
 
+post-patch:
+	@perl -pi -e "s|%%PREFIX%%|${PREFIX}|g" ${WRKSRC}/WPrefs.app/Paths.c
+
 pre-configure:
 	@(cd ${WRKSRC}/libPropList && CC="${CC}" CXX="${CXX}" \
 	    ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS} -fPIC" \
