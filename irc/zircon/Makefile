@@ -9,10 +9,11 @@
 DISTNAME=	zircon-1.18.31
 CATEGORIES=	net tk41
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
-IS_INTERACTIVE=	yes
-NO_BUILD=	yes
 
 MAINTAINER=	ports@FreeBSD.org
+
+IS_INTERACTIVE=	yes
+NO_BUILD=	yes
 
 # You can define USE_DPWISH if you want to run under the older
 # tcl7.3/tk3.6/tclDP code.  The author strongly reccomends using
