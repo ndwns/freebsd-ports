@@ -43,6 +43,7 @@
     SUBDIR += screen
     SUBDIR += splitvt
     SUBDIR += team
+    SUBDIR += teapot
     SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
