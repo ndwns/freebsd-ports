@@ -1,13 +1,13 @@
 # New ports collection makefile for:	pavuk
-# Version required:			0.9pl3
+# Version required:			0.9pl11
 # Date created:				19 March 1998
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=		pavuk-0.9pl9
-PKGNAME=		pavuk-0.9.9
+DISTNAME=		pavuk-0.9pl11
+PKGNAME=		pavuk-0.9.11
 CATEGORIES=		net www
 MASTER_SITES=		${MASTER_SITE_SUNSITE} \
 			ftp://ftp.idata.sk/pub/unix/www/
@@ -16,8 +16,7 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm \
-			gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
