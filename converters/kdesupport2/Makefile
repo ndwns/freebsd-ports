@@ -6,24 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	kdesupport-beta4-1
-PKGNAME=	kdesupport-4.1b
+DISTNAME=	kdesupport-1.0
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/Beta4/distribution/tgz/source 
-EXTRACT_SUFX=	.src.tar.bz2
+MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source 
 
 MAINTAINER=	se@freebsd.org
 
-BROKEN=		upgrade to 1.0 will be committed within the next few days
-
-BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2 \
-		moc:${PORTSDIR}/x11/qt
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt
-
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS= -cd
-EXTRACT_AFTER_ARGS= | tar -xf -
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt133
+LIB_DEPENDS=	qt\\.1\\.3[3-9]:${PORTSDIR}/x11/qt133
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
@@ -34,7 +25,5 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 #		"--with-extra-includes=$(PREFIX)/include/giflib"
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
-
-WRKSRC=		${WRKDIR}/kdesupport
 
 .include <bsd.port.mk>
