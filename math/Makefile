@@ -27,6 +27,7 @@
     SUBDIR += octave
     SUBDIR += oleo
     SUBDIR += p5-MatrixReal
+    SUBDIR += p5-Set-IntSpan
     SUBDIR += pari
     SUBDIR += plplot
     SUBDIR += pygist
