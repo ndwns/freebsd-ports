@@ -136,5 +136,6 @@
     SUBDIR += xmake
     SUBDIR += xwpe
     SUBDIR += xxgdb
+    SUBDIR += yacl
 
 .include <bsd.port.subdir.mk>
