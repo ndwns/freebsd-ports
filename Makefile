@@ -14,6 +14,7 @@ SUBDIR += devel
 SUBDIR += editors
 SUBDIR += emulators
 SUBDIR += games
+SUBDIR += german
 SUBDIR += graphics
 SUBDIR += japanese
 SUBDIR += korean
