@@ -484,7 +484,7 @@ fetch: pre-fetch
 	@if [ ! -d ${DISTDIR} ]; then mkdir -p ${DISTDIR}; fi
 	@(cd ${DISTDIR}; \
 	 for file in ${DISTFILES}; do \
-		if [ ! -f $$file ]; then \
+		if [ ! -f $$file -a ! -f `basename $$file` ]; then \
 			echo ">> $$file doesn't seem to exist on this system."; \
 			echo ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
@@ -492,7 +492,7 @@ fetch: pre-fetch
 					break; \
 				fi \
 			done; \
-			if [ ! -f $$file ]; then \
+			if [ ! -f $$file -a ! -f `basename $$file` ]; then \
 				echo ">> Couldn't fetch it - please try to retreive this";\
 				echo ">> port manually into ${DISTDIR} and try again."; \
 				exit 1; \
