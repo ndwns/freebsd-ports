@@ -185,6 +185,7 @@
     SUBDIR += xspacewarp
     SUBDIR += xspringies
     SUBDIR += xteddy
+    SUBDIR += xtet42
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += xtris
