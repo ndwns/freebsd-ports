@@ -9,7 +9,8 @@
 DISTNAME=	psutils-1.13
 PKGNAME=	psutils-${PAPERSIZE}-1.13
 CATEGORIES+=	print
-MASTER_SITES=	ftp://ftp.sunet.se/pub/text-processing/postscript/utilities/psutils/
+MASTER_SITES=	ftp://nic.switch.ch/software/sources/psutils-1.8/ \
+		ftp://ftp.imag.fr/pub1/postscript/
 
 MAINTAINER=	jmz@FreeBSD.org
 
