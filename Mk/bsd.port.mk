@@ -96,12 +96,11 @@ package:
 # PKG_ARGS if your package is anything but run-of-the-mill.
 	@if [ -d ${PKGDIR} ]; then \
 	   echo "===>  Building package for ${DISTNAME}"; \
-	   if [ -d ${PACKAGES} ]; then \
-		_TARGET=${PACKAGES}/${DISTNAME}${PKG_SUFX}; \
+	   @if [ -d ${PACKAGES} ]; then \
+		${PKG_CMD} ${PKG_ARGS} ${PACKAGES}/${DISTNAME}${PKG_SUFX}; \
 	   else \
-		_TARGET=${DISTNAME}${PKG_SUFX}; \
-	   fi \
-	   ${PKG_CMD} ${PKG_ARGS} ${_TARGET}; \
+	   	${PKG_CMD} ${PKG_ARGS} ${DISTNAME}${PKG_SUFX}; \
+	   fi; \
 	fi
 .endif
 
