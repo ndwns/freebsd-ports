@@ -10,7 +10,7 @@ DISTNAME=	trn-3.6
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/readers/trn/
 
-RUN_DEPENDS=  munpack:${PORTSDIR}/mail/mpack
+RUN_DEPENDS=  munpack:${PORTSDIR}/converters/mpack
 
 NO_PACKAGE=	"Too many questions"
 IS_INTERACTIVE=	yes
