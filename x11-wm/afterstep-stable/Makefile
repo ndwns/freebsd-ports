@@ -16,6 +16,8 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		png.2:${PORTSDIR}/graphics/png \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
+BROKEN=		upgrade
+
 INSTALL_TARGET=	install install.man
 MAN1=	Animate.1x Audio.1x Auto.1x Banner.1x Cascade.1x Clean.1x \
 	Form.1x Ident.1x Pager.1x Save.1x Script.1x Scroll.1x Tile.1x \
