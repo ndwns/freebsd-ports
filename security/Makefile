@@ -33,6 +33,7 @@
     SUBDIR += pgp
     SUBDIR += pgp5
     SUBDIR += pidentd
+    SUBDIR += pktsuckers
     SUBDIR += portscanner
     SUBDIR += portsentry
     SUBDIR += raproxy
