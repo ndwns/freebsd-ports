@@ -13,12 +13,12 @@ MASTER_SITES=	http://www2.osk.3web.ne.jp/~hideki70/src/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10
 
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
 CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include/gtk10" \
-		LIBS="-L${LOCALBASE}/lib"
+		LIBS="-L${LOCALBASE}/lib" 
 
 pre-configure:
 	@ ${RM} ${WRKSRC}/config.cache
