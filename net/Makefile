@@ -5,6 +5,7 @@
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
     SUBDIR += bb
+    SUBDIR += bind8
     SUBDIR += bing
     SUBDIR += cap
     SUBDIR += choparp
