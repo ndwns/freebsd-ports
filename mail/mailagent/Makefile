@@ -36,11 +36,8 @@ MANPAGES=			edusers.1 mailagent.1 maildist.1  \
 # from several other man pages with .so macro.
 
 post-install:
-.if !defined(NOMANCOMPRESS)
-	@echo "Compressing man pages."
-	@for manpage in ${MANPAGES}; do \
-		 gzip -9nf ${PREFIX}/man/man1/$$manpage ;\
-	done 
-.endif
+.for manpage in ${MANPAGES}
+	${COMPRESS_MAN} ${PREFIX}/man/man1/${manpage}
+.endfor
 
 .include <bsd.port.mk>

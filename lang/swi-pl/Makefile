@@ -24,10 +24,8 @@ post-install:
 .for f in pl pl-bite chpl
 	@strip ${PREFIX}/lib/${DISTNAME}/bin/i386-freebsd/$f
 .endfor
-.if !defined(NOMANCOMPRESS)
 .for f in pl.1 chpl.1 plld.1
-	gzip -9nf ${PREFIX}/man/man1/$f
+	${COMPRESS_MAN} ${PREFIX}/man/man1/$f
 .endfor
-.endif
 
 .include <bsd.port.mk>

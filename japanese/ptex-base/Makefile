@@ -142,10 +142,8 @@ post-install:
 .for bin in ${BINARIES}
 	strip ${PREFIX}/bin/${bin}
 .endfor
-.if !defined(NOMANCOMPRESS)
 .for man in ${MANPAGES}
-	gzip -9nf ${PREFIX}/man/man1/${man}
+	${COMPRESS_MAN} ${PREFIX}/man/man1/${man}
 .endfor
-.endif
 
 .include <bsd.port.mk>
