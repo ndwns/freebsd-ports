@@ -61,6 +61,20 @@ STRIP=		build-prc \
 		pilrc \
 		txt2bitm
 
+# check for "-m486" and bomb out if the user has it
+pre-build:
+		@if ${ECHO} ${CFLAGS} | ${GREP} -- "-m486" > /dev/null ; then \
+			${ECHO} "ERROR: You have \"-m486\" defined some-" ; \
+			${ECHO} "       where, either in /etc/make.conf" ; \
+			${ECHO} "       or in the CFLAGS environment" ; \
+			${ECHO} "       variable.  This will cause this" ; \
+			${ECHO} "       port to not build properly.  Please" ; \
+			${ECHO} "       fix this and re-run make." ; \
+			exit 1 ; \
+		else \
+			${ECHO} "Your environment looks OK." ; \
+		fi
+
 # after we apply freebsd patches, apply prc-tool's patches to gcc/gdb/...
 post-patch:
 		(cd ${WRKSRC} ; make patch)
