@@ -1,15 +1,14 @@
 # New ports collection makefile for:    cdrecord
-# Version required:     1.6a12
+# Version required:     1.6
 # Date created:         2 November 1997
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=	cdrecord-1.6a12
-PKGNAME=	cdrecord-1.6
+DISTNAME=	cdrecord-1.6
 CATEGORIES=	sysutils
-MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
+MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/
 
 MAINTAINER=	jmz@FreeBSD.org
 
