@@ -1,12 +1,12 @@
 # New ports collection makefile for:	freeciv
-# Version required:	1.7.2
+# Version required:	1.8.0
 # Date created:		Jun 20 1997
 # Whom:			ada@bsd.org
 #
 # $Id$
 #
 
-DISTNAME=	freeciv-1.7.2
+DISTNAME=	freeciv-1.8.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/ \
 		ftp://ftp.pvv.ntnu.no/pub/freeciv/ \
