@@ -8,8 +8,7 @@
 
 DISTNAME=	wmCalClock-1.22
 CATEGORIES=	x11-clocks windowmaker
-MASTER_SITES=	ftp://leadbelly.lanl.gov/pub/mgh/ \
-		ftp://ftp.ukrnet.net/pub/Unix/WindowMaker/src/
+MASTER_SITES=	ftp://ftp.ukrnet.net/pub/Unix/WindowMaker/src/
 
 MAINTAINER=	kris@FreeBSD.ORG
 
