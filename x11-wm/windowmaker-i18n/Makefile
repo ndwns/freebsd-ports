@@ -17,7 +17,7 @@ MAINTAINER=	handy@physics.montana.edu
 BUILD_DEPENDS=	${PREFIX}/lib/libPropList.a:${PORTSDIR}/devel/libproplist
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
-		png\\.0\\.:${PORTSDIR}/graphics/png \
+		png\\.2\\.:${PORTSDIR}/graphics/png \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34
 
 USE_X11=	yes
