@@ -13,9 +13,6 @@ PKGNAME=        wu-ftpd-2.4.2b18vr13
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.vr.net/pub/wu-ftpd/
 
-do-build:
-	cd ${WRKSRC} && ./build fbs
-
 MAINTAINER=     ache@FreeBSD.org
 
 Y2K=		http://www.cetis.hvu.nl/~koos/wu-ftpd-faq.html#QA31
@@ -23,5 +20,8 @@ Y2K=		http://www.cetis.hvu.nl/~koos/wu-ftpd-faq.html#QA31
 MAN1=		ftpcount.1 ftpwho.1
 MAN5=		ftpaccess.5 ftphosts.5 ftpconversions.5 xferlog.5
 MAN8=		ftpd.8 ftpshut.8
+
+do-build:
+	cd ${WRKSRC} && ./build fbs
 
 .include <bsd.port.mk>
