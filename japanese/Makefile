@@ -107,9 +107,11 @@
     SUBDIR += skk
     SUBDIR += skkinput
     SUBDIR += tcl76
+    SUBDIR += tcl80
     SUBDIR += tcsh
     SUBDIR += tgif
     SUBDIR += tk42
+    SUBDIR += tk80
     SUBDIR += today
     SUBDIR += typist
     SUBDIR += vfghostscript
