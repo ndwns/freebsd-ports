@@ -41,7 +41,7 @@ MAN3=	Tk::Adjuster.3 Tk::After.3 Tk::Animation.3 Tk::Balloon.3 \
 	Tk::options.3 Tk::overview.3 Tk::pTk.3 Tk::pack.3 Tk::palette.3 \
 	Tk::place.3 Tk::selection.3 Tk::send.3 Tk::tixWm.3 Tk::tkvars.3 \
 	Tk::widgets.3
-MAN3PREFIX=	${PREFIX}/lib/perl5/5.00501
+MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
