@@ -6,6 +6,7 @@
     SUBDIR += KnightCap
     SUBDIR += acm
     SUBDIR += actx
+    SUBDIR += adom
     SUBDIR += affenspiel
     SUBDIR += agm
     SUBDIR += an
