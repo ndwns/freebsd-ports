@@ -11,10 +11,10 @@ PKGNAME=	imap-uw-4.1b
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
 EXTRACT_SUFX=	.tar.Z
-NO_CHECKSUM=	yes
 
 MAINTAINER=	pst@freebsd.org
 
+IGNOREFILES=	${DISTFILES}
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
@@ -24,7 +24,7 @@ pre-build:
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/c-client/libc-client.so.2.0 ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/c-client/c-client.a ${PREFIX}/lib/libc-client.a
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 	${INSTALL_PROGRAM} ${WRKSRC}/imapd/imapd ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop2d ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop3d ${PREFIX}/libexec
