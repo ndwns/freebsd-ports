@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	Nakai@technologist.com
 
+BROKEN=	gnome
+
 LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs
 
 USE_X_PREFIX=	yes
