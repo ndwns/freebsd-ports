@@ -12,6 +12,7 @@ MASTER_SITES=   ${MASTER_SITE_LOCAL}
 
 MAINTAINER=     joerg@FreeBSD.ORG
 
+USE_XLIB=	yes
 MAN1=		xcept.1
 MAN8=		ceptd.8
 MANCOMPRESSED=	maybe

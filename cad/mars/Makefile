@@ -24,6 +24,7 @@ MAKEFILE=       Makefile.XMotif
 .elif defined(WITH_X) && (${WITH_X} == NO || ${WITH_X} == no)
 MAKEFILE=	Makefile.NoX
 .else
+USE_XLIB=	yes
 MAKEFILE=	Makefile.SimpleX
 .endif
 ALL_TARGET=	depend mars

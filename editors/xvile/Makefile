@@ -16,6 +16,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gj@freebsd.org
 
+USE_XLIB=	yes
 MAKEFILE=	makefile
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-screen=${SCREEN_TYPE} ${WITH_PERL}

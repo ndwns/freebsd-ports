@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/misc/ \
 
 MAINTAINER=     samorodi@NUXI.com
 
+USE_XLIB=	yes
 MAN6=		ishido.6
 
 do-install:

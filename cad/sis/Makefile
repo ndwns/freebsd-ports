@@ -18,6 +18,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=		volf@oasis.IAEhv.nl
 
+USE_XLIB=		yes
 MAKEFILE=		Makefile.FreeBSD
 MAN1=			espresso.1 jedi.1 nova.1 sis.1 sred.1 stamina.1 \
 			vst2blif.1 xsis.1

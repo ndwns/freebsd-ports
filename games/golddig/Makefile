@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
+USE_XLIB=	yes
 MAN6=		golddig.6
 
 pre-patch:

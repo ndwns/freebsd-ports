@@ -14,6 +14,7 @@ DISTFILES=	xevil1.5.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
+USE_XLIB=	yes
 MAN6=		xevil.6
 MANCOMPRESSED=	yes
 

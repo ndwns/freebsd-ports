@@ -16,6 +16,8 @@ PATCHFILES=	${DISTNAME}-patches.html.gz
 
 MAINTAINER=	cracauer@cons.org
 
+BUILD_DEPENDS=	imake:${PORTSDIR}/x11/XFree86
+
 CONFIGURE_ARGS=	--enable-http-protocol --enable-os-threads=posix
 
 NO_WRKSUBDIR=	yes

@@ -13,6 +13,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
+USE_XLIB=	yes
 MAN1=		irsim.1
 MAN3=		irsim-analyzer.3
 MAN5=		netchange.5

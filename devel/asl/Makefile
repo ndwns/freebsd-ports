@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	devel/lang/assemblers
 
 MAINTAINER=	ports@FreeBSD.org
 
+BUILD_DEPENDS=	mkdirhier:${PORTSDIR}/x11/XFree86
+
 MAN1=	asl.1 p2bin.1 p2hex.1 pbind.1 plist.1
 
 post-extract:

@@ -33,4 +33,6 @@ MASTER_SITES+=	ftp://ftp.cs.bris.ac.uk/pub/users/hedley/
 
 MAINTAINER=	joerg@FreeBSD.org
 
+USE_XLIB=	yes
+
 .include <bsd.port.mk>
