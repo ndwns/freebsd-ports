@@ -14,6 +14,8 @@ DISTFILES=	ircii2.8.2-EPIC3.004.tar.gz ircii2.8.2-EPIC3.help.tar.gz
 
 MAINTAINER=	mph@freebsd.org
 
+BROKEN=		Awaiting upgrade to epic4
+
 EXTRACT_ONLY=	ircii2.8.2-EPIC3.004.tar.gz
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/ircii-EPIC3.004
