@@ -9,16 +9,13 @@
 DISTNAME=	tcpblast
 PKGNAME=	tcpblast-1.0
 CATEGORIES=	net benchmarks
+DISTFILES=	# empty
 
-NO_EXTRACT=	yes
-NO_WRKDIR=	yes
+WRKSRC=		${WRKDIR}/src
 
-fetch:
-	@${DO_NADA}
-
-pre-clean:
-	@echo "===>  Pre-clean for ${DISTNAME}"
-	@(${RM} -f ${.CURDIR}/tcpblast)
-	@(cd ${.CURDIR}/src; make clean)
+do-extract:
+	@${RM} -rf ${WRKDIR}
+	@${MKDIR} ${WRKDIR}
+	${CP} -RP ${.CURDIR}/src ${WRKDIR}
 
 .include <bsd.port.mk>
