@@ -16,6 +16,8 @@ MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
 
 MAINTAINER=     obrien@FreeBSD.org
 
+Y2K=		http://rsync.samba.org/rsync/y2k.html
+
 GNU_CONFIGURE=	yes
 MAN1=		rsync.1
 MAN5=		rsyncd.conf.5

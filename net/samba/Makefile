@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
 
 MAINTAINER=	hosokawa@jp.FreeBSD.ORG
 
+Y2K=		http://us1.samba.org/samba/docs/sambay2k.html
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 MAN1=		smbstatus.1 smbclient.1 smbrun.1 smbtar.1 testparm.1 testprns.1 make_smbcodepage.1
 MAN5=		smb.conf.5
