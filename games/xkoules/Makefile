@@ -14,6 +14,10 @@ MASTER_SITES=	http://www.paru.cas.cz/~hubicka/koules/packages/ \
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+.if ${MACHINE_ARCH} == "alpha"
+PLIST=		${PKGDIR}/PLIST.alpha
+.endif
+
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/koules1.4
 MAN6=		xkoules.6
@@ -22,7 +26,9 @@ MANCOMPRESSED=	no
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xkoules ${PREFIX}/bin
 	@ ${MKDIR} ${PREFIX}/share/xkoules
+.if ${MACHINE_ARCH} == "i386"
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/koules.sndsrv.freebsd ${PREFIX}/share/xkoules
+.endif
 	@ ${INSTALL_DATA} ${WRKSRC}/sounds/*.raw ${PREFIX}/share/xkoules
 	@ ${INSTALL_MAN} ${WRKSRC}/xkoules.6 ${PREFIX}/man/man6
 
