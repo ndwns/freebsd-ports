@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	xacc-1.0.17
-PKGNAME=	gnucash-1.0.17
+DISTNAME=	xacc-1.0.18
+PKGNAME=	gnucash-1.0.18
 CATEGORIES=	deskutils
 MASTER_SITES=	http://www.gnucash.org/xacc/download/  \
 		ftp://ftp.gnucash.org/pub/xacc/
@@ -18,6 +18,9 @@ MAINTAINER=     obrien@FreeBSD.org
 REQUIRES_MOTIF=	yes
 GNU_CONFIGURE=	yes
 ALL_TARGET=	depend default
+
+pre-build:
+	@${LN} -sf ${WRKSRC}/lib/Xbae-4.6.2-linas/src ${WRKSRC}/lib/Xbae-4.6.2-linas/Xbae
 
 post-install:
 	@strip ${PREFIX}/bin/xacc.bin
