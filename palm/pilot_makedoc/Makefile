@@ -11,6 +11,8 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://www.concentric.net/~rbram/
 DISTFILES=	makedoc7.cpp
 
+MAINTAINER=	jfitz@FreeBSD.ORG
+
 NO_WRKSUBDIR=	YES
 
 ALL_TARGET=	pilot_makedoc
