@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.cs.uni-magdeburg.de/pub/www/xanime/ \
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
+BROKEN=		build
+
 WRKSRC=		${WRKDIR}/txtmerge
 ALL_TARGET=	txtmerge
 
