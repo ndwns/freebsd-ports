@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	apps/graphics/capture
 
 MAINTAINER=	gary@hotlava.com
 
+BROKEN=	"X front end doesn't build right agaist our gtk port"
+
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
