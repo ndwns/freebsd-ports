@@ -8,7 +8,7 @@
 
 DISTNAME=	xskat-1.6
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.germany.eu.net/pub/X11/misc/
+MASTER_SITES=	ftp://ftp.germany.eu.net/pub/x11/misc/
 
 MAINTAINER=	tg@FreeBSD.org
 
