@@ -19,6 +19,10 @@ GNU_CONFIGURE=	YES
 
 MAN1=		tkdesk.1 cd-tkdesk.1 ed-tkdesk.1 od-tkdesk.1
 
+.ifndef DISPLAY
+BROKEN=		Requires an X Display to install
+.endif
+
 post-install:
 	strip ${PREFIX}/bin/tkdesksh
 	strip ${PREFIX}/bin/tkdeskclient
