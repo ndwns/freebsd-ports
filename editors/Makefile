@@ -1,8 +1,8 @@
 # $Id$
 #
 
-    SUBDIR += axe
     SUBDIR += asedit
+    SUBDIR += axe
     SUBDIR += beav
     SUBDIR += bpatch
     SUBDIR += e93
@@ -12,6 +12,7 @@
     SUBDIR += jove
     SUBDIR += mule
     SUBDIR += nedit
+    SUBDIR += scitext
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
