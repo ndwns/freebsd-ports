@@ -39,9 +39,9 @@
     SUBDIR += mpage
     SUBDIR += musixtex
     SUBDIR += offix-printer
-    SUNDIR += pbm2ppa
     SUBDIR += p5-FreeType
     SUBDIR += p5-FreeTypeWrapper
+    SUBDIR += pbm2ppa
     SUBDIR += pkfonts118
     SUBDIR += pkfonts240
     SUBDIR += pkfonts300
