@@ -18,5 +18,6 @@
     SUBDIR += sgmlformat
     SUBDIR += sp
     SUBDIR += unroff
+    SUBDIR += wdiff
 
 .include <bsd.port.subdir.mk>
