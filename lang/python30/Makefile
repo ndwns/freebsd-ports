@@ -14,8 +14,7 @@ MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 
 MAINTAINER=	jkh@FreeBSD.org
 
-LIB_DEPENDS=	tcl75\\.1\\.:${PORTSDIR}/lang/tcl75 \
-		tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
 WRKSRC=		${WRKDIR}/Python-1.3
 HAS_CONFIGURE=	yes
