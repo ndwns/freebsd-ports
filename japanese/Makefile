@@ -80,6 +80,7 @@
     SUBDIR += vflib
     SUBDIR += vfxdvi
     SUBDIR += w3
+    SUBDIR += weblint97
     SUBDIR += xshodo
     SUBDIR += xdvi
 
