@@ -26,7 +26,7 @@ CTAN?=		ftp.tex.ac.uk
 BASES=		mf.base cmmf.base 
 FORMATS=	tex.fmt 
 
-CFLAGS=		-O2 -L${X11BASE}/lib
+CFLAGS+=	-L${X11BASE}/lib
 
 
 web2c.tar.gz: 
