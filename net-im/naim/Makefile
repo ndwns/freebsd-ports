@@ -8,7 +8,7 @@
 
 DISTNAME=	naim-0.9.4
 CATEGORIES=	net
-MASTER_SITES=	http://naim.n.ml.org/release/ \
+MASTER_SITES=	http://naim.n.ml.org/release.phtml/ \
 		ftp://ftp.netmug.org/pub/FreeBSD/distfiles/
 EXTRACT_SUFX=	.tgz
 
