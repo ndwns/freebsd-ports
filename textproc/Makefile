@@ -55,6 +55,7 @@
     SUBDIR += wdiff
     SUBDIR += word2x
     SUBDIR += xml4j
+    SUBDIR += xt
     SUBDIR += yodl
 
 .include <bsd.port.subdir.mk>
