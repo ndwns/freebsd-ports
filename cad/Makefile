@@ -5,6 +5,7 @@
     SUBDIR += chipmunk
     SUBDIR += felt
     SUBDIR += irsim
+    SUBDIR += kaskade
     SUBDIR += magic
     SUBDIR += mars
     SUBDIR += pcb
