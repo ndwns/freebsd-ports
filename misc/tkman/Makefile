@@ -20,6 +20,8 @@ RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman
 NO_PACKAGE=	yes
 
 post-install:
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/tkman.1
+.endif
 
 .include <bsd.port.mk>
