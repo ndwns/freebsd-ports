@@ -10,13 +10,13 @@
 DISTNAME=	tcplist-2.2
 CATEGORIES=	sysutils net
 MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/jdd/tcplist/
-EXTRACT_SUFX=	.shar.gz
+EXTRACT_SUFX=	.shar
 
 MAINTAINER=     obrien@NUXI.com
 
 RUN_DEPENDS=	lsof:${PORTSDIR}/sysutils/lsof
 
-EXTRACT_CMD=	zcat
+EXTRACT_CMD=	cat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
 NO_WRKSUBDIR=	yes
