@@ -26,6 +26,7 @@
     SUBDIR += iselect
     SUBDIR += jive
     SUBDIR += kdeutils
+    SUBDIR += korganizer
     SUBDIR += kp
     SUBDIR += less
     SUBDIR += lile
