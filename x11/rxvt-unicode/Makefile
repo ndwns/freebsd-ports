@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.rxvt.org/pub/rxvt/ \
 		http://wm.current.nu/files/ \
 		ftp://ftp.nstu.ru/pub/sources/x/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	andrews@technologist.com
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=  yes
