@@ -21,6 +21,7 @@
     SUBDIR += octave
     SUBDIR += oleo
     SUBDIR += pari
+    SUBDIR += plplot
     SUBDIR += simpack
     SUBDIR += ss
     SUBDIR += umatrix
