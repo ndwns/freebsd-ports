@@ -12,7 +12,7 @@ DISTNAME=	pgp50i
 PKGNAME=	pgp-5.0i
 CATEGORIES=	security
 MASTER_SITES=   ftp://ftp.ifi.uio.no/pub/pgp/5.0/unix/ \
-		ftp.doc.ic.ac.uk/pub/Mirrors/ftp.ifi.uio.no/pub/pgp/5.0/unix/
+		ftp://ftp.doc.ic.ac.uk/pub/Mirrors/ftp.ifi.uio.no/pub/pgp/5.0/unix/
 EXTRACT_SUFX=   -unix-src.tar.gz
 
 MAINTAINER=	markm@FreeBSD.ORG
