@@ -63,6 +63,7 @@
     SUBDIR += gicq
     SUBDIR += gtkicq
     SUBDIR += gtksamba
+    SUBDIR += gwget
     SUBDIR += h2n
     SUBDIR += hesiod
     SUBDIR += icb
