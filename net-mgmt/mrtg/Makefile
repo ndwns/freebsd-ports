@@ -1,12 +1,12 @@
 # New ports collection makefile for:	MRTG
-# Version required:			2.5.1
+# Version required:			2.5.3
 # Date created:				April 18th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 #   $Id$
 #
 
-DISTNAME=	mrtg-2.5.1
+DISTNAME=	mrtg-2.5.3
 CATEGORIES=	net
 MASTER_SITES=	http://ee-staff.ethz.ch/~oetiker/webtools/mrtg/pub/
 
@@ -37,6 +37,14 @@ do-install:
 		for file in mrtg cfgmaker convert indexmaker; do \
 			${INSTALL_SCRIPT} ${WRKSRC}/$$file ${PREFIX}/bin/; \
 		done
-		${INSTALL_DATA} ${WRKSRC}/mrtg.cfg-dist ${PREFIX}/etc/mrtg
+
+post-install:
+.if !defined(BATCH)
+	@${ECHO} ""
+	@${ECHO} "############################################################################"
+	@${ECHO} "# Please create a MRTG config file in ${PREFIX}/etc/mrtg                   #"
+	@${ECHO} "# A configuration file can be automatically generated with cfgmaker        #"
+	@${ECHO} "############################################################################"
+.endif
 
 .include <bsd.port.mk>
