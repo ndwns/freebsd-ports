@@ -14,6 +14,8 @@ MAINTAINER=     itojun@itojun.org
 
 LIB_DEPENDS=	BLT:${PORTSDIR}/x11/blt
 
+BROKEN=		tk.h
+
 INSTALL_TARGET=	install install-man
 MAN1=		ttt.1 tttprobe.1 tttview.1
 
