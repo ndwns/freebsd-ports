@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://alpha.gnu.org/gnu/pth/ \
 
 MAINTAINER=	rse@engelschall.com
 
+NO_LATEST_LINK=	yes
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--enable-pthread \
