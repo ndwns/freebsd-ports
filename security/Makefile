@@ -14,6 +14,7 @@
     SUBDIR += gnupg
     SUBDIR += john
     SUBDIR += krb5
+    SUBDIR += l0pht-watch
     SUBDIR += libident
     SUBDIR += nbaudit
     SUBDIR += nmap
