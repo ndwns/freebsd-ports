@@ -10,6 +10,7 @@
     SUBDIR += emacs
     SUBDIR += emacs20
     SUBDIR += gxedit
+    SUBDIR += hexedit
     SUBDIR += jed
     SUBDIR += joe
     SUBDIR += jove
