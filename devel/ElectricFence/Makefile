@@ -16,11 +16,6 @@ MAINTAINER=	jraynard@freebsd.org
 
 MAN3=		libefence.3
 
-OSVERSION!=	sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=	"During build: ElectricFence Exiting: mmap() failed: Invalid argument"
-.endif
-
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libefence.a ${PREFIX}/lib
 	${INSTALL_MAN} ${WRKSRC}/libefence.3 ${PREFIX}/man/man3
