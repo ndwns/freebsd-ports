@@ -7,9 +7,9 @@
 #
 
 DISTNAME=	xmaddressbook-1.5.3
-CATEGORIES=	misc x11
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	office/
+MASTER_SITE_SUBDIR=	office
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	shanee@rabbit.augusta.de
