@@ -54,6 +54,7 @@
     SUBDIR += ftpsearch
     SUBDIR += ftptool
     SUBDIR += gated
+    SUBDIR += ggsd
     SUBDIR += gnu-finger
     SUBDIR += gopher
     SUBDIR += gicq
