@@ -33,6 +33,11 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 
 MAKE_ENV=	KDEDIR="${KDEDIR}"
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN= "Fails build"
+.endif
+
 pre-configure:
 		${CP} ${FILESDIR}/libtool ${FILESDIR}/ltmain.sh $(WRKSRC)/kpilot/libpilot
 
