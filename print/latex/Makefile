@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	latex
+PKGNAME=	latex2e-94.12
 CATEGORIES+=	printing
 DISTFILES=	latex_mf.tar.gz latex_tfm.tar.gz latex_base.tar.gz \
 		latex_tools.tar.gz
@@ -66,6 +67,7 @@ install: build
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/lib/texmf/documentation; fi; done)
 	@(cd ${WRKSRC}/packages/tools; for f in *.dtx; do \
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/lib/texmf/documentation; fi; done)
+	@touch ${WRKDIR}/.install_done
 
 .include "Makefile.inc"
 
