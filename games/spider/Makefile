@@ -1,7 +1,7 @@
-# New ports collection makefile for:    spidel
+# New ports collection makefile for:    spider
 # Version required:     1.1
 # Date created:         2 Oct 1995
-# Whom:                 ?
+# Whom:                 se
 #
 # $Id$
 #
