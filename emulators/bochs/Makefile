@@ -1,5 +1,5 @@
 # New ports collection makefile for:   bochs
-# Version required:    980124c
+# Version required:    980224a
 # Date created:        16 December 1997
 # Whom:                alex
 #
@@ -8,16 +8,16 @@
 
 VGABIOS=	VGABIOS-elpin-2.00A
 BIOS=		BIOS-bochs-980124a
-DATE= 		980124
+DATE= 		980224
 
-DISTNAME=	bochs-${DATE}c
+DISTNAME=	bochs-${DATE}a
 CATEGORIES= 	emulators
 MASTER_SITES= 	ftp://ftp.std.com/pub/bochs/
 
 MAINTAINER=	alex@FreeBSD.ORG
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--enable-80386 --enable-debugger --enable-memory=16 \
+CONFIGURE_ARGS=	--enable-80386 --enable-memory=16 \
 	--enable-v8086-mode --enable-paging --enable-vga \
 	--enable-bochs-bios-hooks --enable-dma-floppy-io \
 	--enable-processor-ips=200000
