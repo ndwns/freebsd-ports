@@ -14,10 +14,7 @@ MAINTAINER=	dlowe@saturn5.com
 
 MAN1=		bulk_mailer.1
 
-BROKEN_ELF=	-s: not found
-
 WRKSRC=	${WRKDIR}/bulk_mailer
-#EXTRACT_BEFORE_ARGS=	-C ${WRKDIR} -xf
 
 HAS_CONFIGURE=	YES
 
@@ -28,8 +25,5 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/bulk_mailer.README \
  		${PREFIX}/share/doc/bulk_mailer.README
 	@ ${INSTALL_MAN} ${WRKSRC}/bulk_mailer.1 ${PREFIX}/man/man1/bulk_mailer.1
-
-post-install:
-	@ ${STRIP} ${PREFIX}/bin/bulk_mailer
 
 .include <bsd.port.mk>
