@@ -15,6 +15,7 @@
     SUBDIR += html2latex
     SUBDIR += latex
     SUBDIR += latex209
+    SUBDIR += lyx
     SUBDIR += makeindex
     SUBDIR += mltex
     SUBDIR += mp
