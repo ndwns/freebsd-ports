@@ -14,7 +14,6 @@ MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 MAINTAINER=	jseger@FreeBSD.ORG
 
 USE_BZIP2=      YES
-NO_LATEST_LINK=	YES
 WRKSRC=         ${WRKDIR}/lynx2-8-2
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${L_LIB}" \
