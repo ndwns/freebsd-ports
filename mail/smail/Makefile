@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/ \
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-BUILD_DEPENDS=	${PREFIX}/lib/libident.a:${PORTSDIR}/security/libident \			${REPFIX}/lib/libwrap.a:${PORTSDIR}/security/tcp_wrapper
+BUILD_DEPENDS=	${PREFIX}/lib/libident.a:${PORTSDIR}/security/libident \			${PREFIX}/lib/libwrap.a:${PORTSDIR}/security/tcp_wrapper
 
 INSTALL_TARGET=	install installman
 
