@@ -1,12 +1,12 @@
 # New ports collection makefile for:	WindowMaker
-# Version required:	0.15.1
+# Version required:	0.16.0
 # Date created:		August 13, 1997
 # Whom:			handy@physics.montana.edu
 #
 # $Id$
 
-DISTNAME=	WindowMaker-0.15.1
-PKGNAME=	windowmaker-0.15.1
+DISTNAME=	WindowMaker-0.16.0
+PKGNAME=	windowmaker-0.16.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/beta/srcs/ \
 		ftp://ftp.io.com/pub/mirror/windowmaker/beta/srcs/ \
@@ -21,7 +21,6 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34
 
 USE_X11=	yes
-USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	X11BASE=${X11BASE}
 CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
