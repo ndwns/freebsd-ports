@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       zsh-2.6-beta4
-PKGNAME=	zsh-2.6.4
+PKGNAME=	zsh-2.6b4
 CATEGORIES+=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/
 
