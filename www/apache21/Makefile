@@ -15,6 +15,8 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
 MAINTAINER=     ache@freebsd.org
 
+BROKEN=		package
+
 NO_LATEST_LINK=	yes
 
 GNU_CONFIGURE=  yes
