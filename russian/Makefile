@@ -2,6 +2,7 @@
 #
 
     SUBDIR += X.language
+    SUBDIR += apache13
     SUBDIR += cyrproxy
     SUBDIR += d1489
     SUBDIR += elm.language
