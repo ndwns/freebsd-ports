@@ -30,6 +30,5 @@ do-install:
 	tar -xzf ${DISTDIR}/${GS_FONTS_OTHER} -C ${GSDIR}/fonts
 	tar -xzf ${DISTDIR}/${GS_FONTS_STD} -C ${GSDIR}/fonts
 	(cd ${PREFIX}/share/ghostscript/fonts; $(LOCALBASE)/bin/type1inst -nogs -nolog -q)
-	mkfontdir ${GSDIR}/fonts
 
 .include <bsd.port.mk>
