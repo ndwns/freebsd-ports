@@ -11,6 +11,7 @@ PKGNAME=	zircon-1.15.11
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
-EXEC_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
+BUILD_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
+RUN_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
 
 .include <bsd.port.mk>
