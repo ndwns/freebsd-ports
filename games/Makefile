@@ -4,6 +4,7 @@
     SUBDIR += acm
     SUBDIR += crossfire
     SUBDIR += gnuchess
+    SUBDIR += gnushogi
     SUBDIR += golddig
     SUBDIR += jetpack
     SUBDIR += nethack
@@ -18,6 +19,7 @@
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xchomp
+    SUBDIR += xcubes
     SUBDIR += xdino
     SUBDIR += xemeraldia
     SUBDIR += xevil
@@ -44,6 +46,7 @@
     SUBDIR += xrobots
     SUBDIR += xrubik
     SUBDIR += xshisen
+    SUBDIR += xshogi
     SUBDIR += xskat
     SUBDIR += xsol
     SUBDIR += xtetris
