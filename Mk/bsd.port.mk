@@ -244,6 +244,12 @@ MTREE_LOCAL=	/etc/mtree/BSD.local.dist
 MTREE_CMD?=	mtree
 MTREE_ARGS?=	-U -f ${MTREE_LOCAL} -d -e -p
 
+# The user can override the NO_PACKAGE by specifying this from
+# the make command line
+.if defined(FORCE_PACKAGE)
+.undef NO_PACKAGE
+.endif
+
 PKG_CMD?=		pkg_create
 .if !defined(PKG_ARGS)
 PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX} -P "`${MAKE} package-depends|sort|uniq`"
