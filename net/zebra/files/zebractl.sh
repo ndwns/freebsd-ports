@@ -20,16 +20,16 @@ fi
 case $1 in
 	start)
 		[ -f !!PREFIX!!/etc/zebra/zebra.conf ] && ( \
-			!!PREFIX!!/sbin/zebra > /dev/null 2>&1 & \
+			!!PREFIX!!/sbin/zebra -d > /dev/null 2>&1 & \
 			echo -n ' zebra' )
 		[ -f !!PREFIX!!/etc/zebra/ripd.conf ] && ( \
-			!!PREFIX!!/sbin/ripd > /dev/null 2>&1 & \
+			!!PREFIX!!/sbin/ripd -d > /dev/null 2>&1 & \
 			echo -n ' ripd' )
 		[ -f !!PREFIX!!/etc/zebra/ospfd.conf ] && ( \
-			!!PREFIX!!/sbin/ospfd > /dev/null 2>&1 & \
+			!!PREFIX!!/sbin/ospfd -d > /dev/null 2>&1 & \
 			echo -n ' ospfd' )
 		[ -f !!PREFIX!!/etc/zebra/bgpd.conf ] && ( \
-			!!PREFIX!!/sbin/bgpd > /dev/null 2>&1 & \
+			!!PREFIX!!/sbin/bgpd -d > /dev/null 2>&1 & \
 			echo -n ' bgpd' )
 		;;
 
