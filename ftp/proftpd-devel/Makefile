@@ -11,7 +11,7 @@ PKGNAME=	proftpd-1.2.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.proftpd.org/distrib/
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	mharo@area51.fremont.ca.us
 
 MAN1=	ftpcount.1
 MAN8=	proftpd.8 ftpshut.8
