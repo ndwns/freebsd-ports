@@ -41,12 +41,10 @@ STARTUP_FILE=	${PREFIX}/etc/rc.d/snmpd.sh.sample
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "aout"
-SHLIB_VERSION=3.5
-PATCHDIR=patches.aout
-.else
-SHLIB_VERSION=3
+BROKEN=		"aout build breaks: ld: internal error: RRS relocs exceed allocation 343"
 .endif
-MAKE_ENV+= SHLIB_VERSION=${SHLIB_VERSION}
+
+MAKE_ENV+= SHLIB_VERSION=3
 
 post-patch:
 	${CP} ${FILESDIR}/freebsd4.h ${WRKSRC}/s
@@ -67,5 +65,3 @@ post-install:
 	${SETENV} OBJFORMAT="${PORTOBJFORMAT}" ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.post.mk>
-
-CFLAGS=		-g
