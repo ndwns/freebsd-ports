@@ -8,7 +8,7 @@
 
 DISTNAME=	qt-${MAJ}.${MIN}
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	ftp://ftp.troll.no/qt/source/
+MASTER_SITES=	ftp://ftp.troll.no/qt/old/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
