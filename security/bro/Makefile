@@ -16,6 +16,7 @@ MAINTAINER=     obrien@FreeBSD.org
 
 RESTRICTED=	"Author wishes Alpha releases not to be distrubted."
 
+IS_INTERACTIVE=	"manual fetch"
 WRKSRC=		${WRKDIR}/bro-0.4
 CONFIGURE_ARGS= --libdir=${PREFIX}/share
 GNU_CONFIGURE=	yes
