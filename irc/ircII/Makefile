@@ -15,10 +15,9 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
-pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/lib/irc/script
-	@mkdir -p ${PREFIX}/lib/irc/translation
-	@cp -R ${WRKDIR}/help ${PREFIX}/lib/irc/
+post-install:
+	cp -R ${WRKDIR}/help ${PREFIX}/lib/irc/
+	install -c ${WRKDIR}/${DISTNAME}/doc/ircII.1 ${PREFIX}/man/man1/irc.1
+	gzip -9nf ${PREFIX}/man/man1/irc.1
 
 .include <bsd.port.mk>
