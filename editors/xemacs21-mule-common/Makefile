@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://unipro.jsys.co.jp/pub/editor/xemacs/20.4/ \
 		ftp://ftp.lab.kdd.co.jp/xemacs/xemacs-20.4/ \
 		ftp://ftp.xemacs.org/pub/xemacs-20.4/ \
 		ftp://ftp2.xemacs.org/pub/xemacs/xemacs-20.4/ \
-		ftp://ftp.jpl.org/pub/elisp/alpha/
+		ftp://ftp.jpl.org/pub/elisp/
 DISTFILES=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
 		xemacs-20.4-info.tar.gz xemacs-20.4-mule.tar.gz \
 		ps-print-jp.el.gz
@@ -28,7 +28,10 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 USE_AUTOCONF=	yes
 
 EXTRACT_ONLY=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
-		xemacs-20.4-info.tar.gz xemacs-20.4-mule.tar.gz 
+		xemacs-20.4-info.tar.gz xemacs-20.4-mule.tar.gz
+
+.include <bsd.port.pre.mk>
+
 .for dir in \
 	editors/xemacs-mule \
 	japanese/xemacs \
@@ -37,10 +40,13 @@ EXTRACT_ONLY=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
 	japanese/xemacs-canna+wnn6 \
 	japanese/xemacs-wnn4 \
 	japanese/xemacs-wnn6
-.if exists(${.CURDIR}/../../${dir}/work/.install_done)
-WRKDIR=		${.CURDIR}/../../${dir}/work
-.elif exists(${.CURDIR}/../../${dir}/work/.build_done)
-WRKDIR?=	${.CURDIR}/../../${dir}/work
+.if exists(${WRKDIRPREFIX}${PORTSDIR}/${dir}/work/.install_done)
+WRKDIR=		${WRKDIRPREFIX}${PORTSDIR}/${dir}/work
+.if !exists(${WRKDIR}/.install_done-${PKGNAME})
+rvalue_touch!=	${TOUCH} ${WRKDIR}/.install_done-${PKGNAME}
+.endif
+.elif exists(${WRKDIRPREFIX}${PORTSDIR}/${dir}/work/.build_done)
+WRKDIR?=	${WRKDIRPREFIX}${PORTSDIR}/${dir}/work
 .endif
 .endfor
 WRKSRC= ${WRKDIR}/xemacs-20.4
@@ -95,4 +101,4 @@ post-install:
 post-package:
 	@${TOUCH} ${TOUCH_FLAGS} ${PACKAGE_COOKIE}
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
