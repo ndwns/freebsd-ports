@@ -19,6 +19,7 @@
     SUBDIR += numpy
     SUBDIR += octave
     SUBDIR += oleo
+    SUBDIR += pari
     SUBDIR += simpack
     SUBDIR += ss
     SUBDIR += umatrix
