@@ -9,10 +9,10 @@
 DISTNAME=	hpscat-jshin
 PKGNAME=	ko-hpscat-1.3jshin
 CATEGORIES=	korean print
-MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/print/ \
+MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/print/hpscat/ \
 		ftp://ftp.kaist.ac.kr/pub/hangul/editor/ked/ \
-		ftp://sunsite.kren.nm.kr/pub/packages/hangul/print/ \
-		ftp://sunsite.kren.nm.kr/pub/packages/hangul/editor/ked/
+		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/print/hpscat/ \
+		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/editor/ked/
 DISTFILES=	hpscat-jshin.tar.gz ked.tar.gz
 
 MAINTAINER=	junker@jazz.snu.ac.kr
