@@ -12,6 +12,10 @@ MASTER_SITES=	ftp://ftp.jclark.com/pub/jade/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		nsgmls coredumps in static constructors
+.endif
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 
