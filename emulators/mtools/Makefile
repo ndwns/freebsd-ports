@@ -1,14 +1,15 @@
 # New ports collection makefile for:    mtools
-# Version required:     3.6
+# Version required:     3.8
 # Date created:         5 October 1994
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=	mtools-3.6
+DISTNAME=	mtools-3.8
 CATEGORIES=	emulators
-MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITES=   ftp://linux.wauug.org/pub/knaff/mtools/ \
+                ftp://sunsite.unc.edu/pub/Linux/utils/disk-management/
 
 MAINTAINER=	jmz@FreeBSD.org
 
