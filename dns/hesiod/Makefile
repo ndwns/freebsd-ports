@@ -21,7 +21,6 @@ MAN3=			hesiod.3 hesiod_end.3 hesiod_free_list.3 	\
 			hesiod_resolve.3 hesiod_to_bind.3
 MAN5=			hesiod.conf.5
 
-HAS_CONFIGURE=		YES
 GNU_CONFIGURE=		YES
 
 .include <bsd.port.mk>
