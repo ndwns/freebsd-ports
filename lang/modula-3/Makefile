@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	modula-3-3.5.3
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Modula-3/release-3.5.3/
 DISTFILES=	boot-FreeBSD2.tar.gz m3cc.tar.gz m3.tar.gz
 
