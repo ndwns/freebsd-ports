@@ -16,11 +16,11 @@ DISTFILES=	NLS.tar.gz \
 
 MAINTAINER=	sada@e-mail.ne.jp
 
-RUN_DEPENDS+=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
-		${X11BASE}/lib/X11/k12:${PORTSDIR}/japanese/k12 \
-		${X11BASE}/lib/X11/fonts/misc/elisau10.pcf.Z:${PORTSDIR}/japanese/elisa10x8
+RUN_DEPENDS=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
+		${X11BASE}/share/doc/k12:${PORTSDIR}/japanese/k12 \
+		${X11BASE}/lib/X11/fonts/local/elisau10.pcf.gz:${PORTSDIR}/japanese/elisa10x8
 
-RESTRICTED=	"Includes a copyrighted file from Netscape"
+DIST_SUBDIR=	netscape3
 NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
 
@@ -40,9 +40,9 @@ STARTFILE_SRC=	${FILESDIR}/netscape.sh
 
 do-extract:
 	@${MKDIR} ${WRKDIR}
-	@${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/NLS.tar.gz -C ${WRKDIR}
-	@${CP} ${DISTDIR}/Netscape-JPfont ${WRKDIR}
-	@${CAT} ${DISTDIR}/Netscape-v301-ja_euc.ad.gz \
+	@${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${DIST_SUBDIR}/NLS.tar.gz -C ${WRKDIR}
+	@${CP} ${DISTDIR}/${DIST_SUBDIR}/Netscape-JPfont ${WRKDIR}
+	@${CAT} ${DISTDIR}/${DIST_SUBDIR}/Netscape-v301-ja_euc.ad.gz \
 		| ${GUNZIP_CMD} > ${WRKDIR}/Netscape.jp.ad
 
 do-configure:
