@@ -38,7 +38,7 @@ do-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib
 	@/usr/bin/ranlib ${PREFIX}/lib/libuu.a
-	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h
+	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include
 	${INSTALL_MAN} ${FILESDIR}/uulib.3 ${PREFIX}/man/man3
 	perl -pi -e '$$a = '\''${PREFIX}/'\''; $$a =~ s/([^\w\/])/\\$$1/g; s/FUNKYTOKENHERE/$$a/' ${PREFIX}/man/man3/uulib.3
 .if !defined(NOPORTDOCS)
