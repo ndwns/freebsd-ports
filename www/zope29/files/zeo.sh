@@ -3,9 +3,9 @@
 # Start or stop zope
 # $FreeBSD$
 
-# PROVIDE: zope
+# PROVIDE: zeo
 # REQUIRE: DAEMON
-# BEFORE: LOGIN
+# BEFORE: zope
 # KEYWORD: FreeBSD shutdown
 #
 prefix=%%PREFIX%%
@@ -13,41 +13,41 @@ prefix=%%PREFIX%%
 # Define these zope_* variables in one of these files:
 #       /etc/rc.conf
 #       /etc/rc.conf.local
-#       /etc/rc.conf.d/zope
+#       /etc/rc.conf.d/zeo
 #
 # DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
-zope_enable=${zope_enable:-"NO"}        # Enable gkrellmd
-zope_instances=${zope_instances:-""}    # List of instancehome dirs
+zeo_enable=${zeo_enable:-"NO"}        # Enable gkrellmd
+zeo_instances=${zeo_instances:-""}    # List of instancehome dirs
 
 . %%RC_SUBR%%
 
-name="zope"
+name="zeo"
 rcvar=`set_rcvar`
 load_rc_config $name
 
-if checkyesno zope_enable; then
+if checkyesno zeo_enable; then
 
 	case "$1" in
 		start)
-			echo "Starting Zope"
+			echo "Starting Zeo"
 		;;
 		stop)
-			echo "Stopping Zope"
+			echo "Stopping Zeo"
 		;;
 		restart)
-			echo "Restarting Zope"
+			echo "Restarting Zeo"
 		;;
 		*)
 			echo "Unknown action \"$1\""
 		;;
 	esac
 
-	for instance in $zope_instances
+	for instance in $zeo_instances
 	do
-		if [ -r ${instance}/etc/${name}.conf -a -x ${instance}/bin/zopectl ]; then
+		if [ -r ${instance}/etc/${name}.conf -a -x ${instance}/bin/zeoctl ]; then
 			echo -n "       Instance ${instance} -> "
-			${instance}/bin/zopectl $1
+			${instance}/bin/zeoctl $1
 		fi
 	done
 fi

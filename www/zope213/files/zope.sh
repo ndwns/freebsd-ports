@@ -13,7 +13,7 @@ prefix=%%PREFIX%%
 # Define these zope_* variables in one of these files:
 #       /etc/rc.conf
 #       /etc/rc.conf.local
-#       /etc/rc.conf.d/gkrellmd
+#       /etc/rc.conf.d/zope
 #
 # DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
