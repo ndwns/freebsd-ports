@@ -17,8 +17,7 @@ LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4
 RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman \
 		glimpse:${PORTSDIR}/misc/glimpse
 
-# Restrictive copyright
-NO_PACKAGE=	yes
+NO_CDROM=	yes	# Don't sell for profit
 
 post-install:
 .if !defined(NOMANCOMPRESS)

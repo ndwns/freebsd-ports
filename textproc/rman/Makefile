@@ -13,8 +13,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
-# Restrictive copyright
-NO_PACKAGE=	yes
+NO_CDROM=	yes	# don't sell for profit
 
 post-install:
 .if !defined(NOMANCOMPRESS)
