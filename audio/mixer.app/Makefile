@@ -13,6 +13,8 @@ MASTER_SITES=	http://www.student.hk-r.se/~pt96pli/mixer/
 
 MAINTAINER=	cpiazza@home.net
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 
 do-install:
