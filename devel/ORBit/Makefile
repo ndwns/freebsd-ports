@@ -1,12 +1,12 @@
 # New ports collection makefile for:   orbit
-# Version required:		0.3.90
+# Version required:		0.3.91
 # Date Created:			16 Aug 1998
 # Whom:				Chia-liang Kao <clkao@CirX.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	ORBit-0.3.90
+DISTNAME=	ORBit-0.3.91
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
