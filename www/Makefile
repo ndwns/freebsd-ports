@@ -12,6 +12,7 @@
     SUBDIR += aswedit
     SUBDIR += cgiparse
     SUBDIR += chimera
+    SUBDIR += chimera2
     SUBDIR += comline
     SUBDIR += fxhtml
     SUBDIR += gn
