@@ -7,11 +7,10 @@
 # $Id$
 #
 
-DISTNAME=       adcomplain.pl.uu
-PKGNAME=        adcomplain-2.78
+DISTNAME=       adcomplain-2.78
 CATEGORIES=     mail news
 MASTER_SITES=   http://www.rdrop.com/users/billmc/
-EXTRACT_SUFX=	# none
+DISTFILES=      adcomplain.pl.uu
 
 MAINTAINER=     ache@FreeBSD.org
 
