@@ -8,7 +8,7 @@
 
 DISTNAME=       rplay-3.2.0b6
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.sdsu.edu/pub/rplay/
+MASTER_SITES=	http://rplay.doit.org/dist/
 
 MAINTAINER=	rmallory@csusb.edu
 
