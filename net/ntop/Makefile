@@ -10,7 +10,6 @@ DISTNAME=	ntop-1.1-src
 PKGNAME=	ntop-1.1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.unipi.it/pub/local/ntop/source/ \
-		ftp://ftp.ee.lbl.gov/ \
 		http://www.freenix.no/~anders/ \
 		ftp://totem.fix.no/pub/mirrors/misc/
 
