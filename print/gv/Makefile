@@ -1,14 +1,14 @@
 # New ports collection makefile for:	gv
-# Version required:	gv_2_7_b5
+# Version required:	gv_2_7_6
 # Date created:		16 Apr 1996
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	gv_2_7_b5
-PKGNAME=	gv-2.7b5
-CATEGORIES+=	print
+DISTNAME=	gv_2_7_6
+PKGNAME=	gv-2.7.6
+CATEGORIES=	print
 MASTER_SITES=	ftp://iphthf.physik.uni-mainz.de/pub/gv/unix/
 
 MAINTAINER=	tg@freebsd.org
