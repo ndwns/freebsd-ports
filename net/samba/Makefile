@@ -1,12 +1,12 @@
 # New ports collection makefile for:	samba
-# Version required:			1.9.14
+# Version required:			1.9.15p8
 # Date created:				11th Feb 1995
 # Whom:					gpalmer
 #
 # $Id$
 #
 
-DISTNAME=	samba-1.9.15p6
+DISTNAME=	samba-1.9.15p8
 CATEGORIES+=	net
 MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
