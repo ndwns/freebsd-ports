@@ -19,6 +19,8 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS=	pgp:${PORTSDIR}/security/pgp
 
+RESTRICTED=	"Crypto"
+
 EXTRACT_CMD=	unzip
 EXTRACT_ARGS=	-q
 NO_BUILD=	YES
