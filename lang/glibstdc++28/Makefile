@@ -34,10 +34,12 @@ pre-install:
 post-install:
 	${RM} -rf ${PREFIX}/${GCC28DIR}/include/g++
 	${MV} ${PREFIX}/include/g++  \
-		${PREFIX}/${GCC28DIR}//include
+		${PREFIX}/${GCC28DIR}/include
 	${MV} ${PREFIX}/lib/libiberty.a  \
 		${PREFIX}/${GCC28DIR}
 	${MV} ${PREFIX}/lib/libstdc++.a  \
 		${PREFIX}/${GCC28DIR}
+	${INSTALL_DATA} ${FILESDIR}/osfnc.h  \
+		${GCC28SUBDIR}/include/g++
 
 .include <bsd.port.mk>
