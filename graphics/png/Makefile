@@ -8,7 +8,7 @@
 
 DISTNAME=       libpng-0.81
 PKGNAME=        png-0.81
-CATEGORIES+=	devel
+CATEGORIES+=    graphics
 MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 LIB_DEPENDS=    z\\.0\\.95:${PORTSDIR}/devel/libz
 MAKEFILE=       makefile
