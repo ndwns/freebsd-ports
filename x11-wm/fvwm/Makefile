@@ -16,6 +16,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 XMKMF=		xmkmf
+ALL_TARGET=	Makefiles all
 
 post-install:
 	@mkdir -p ${PREFIX}/include/X11/pixmaps
