@@ -6,20 +6,20 @@
 # $Id$
 #
 
-DISTNAME=       slang0.99-38
-PKGNAME=        libslang-0.99.38
+DISTNAME=	slang1.2.2
+PKGNAME=	libslang-1.2.2
 CATEGORIES=	devel
-MASTER_SITES=   ftp://ftp.clara.net/pub/unix/Usenet/
+MASTER_SITES=	ftp://space.mit.edu/pub/davis/slang/
 
-MAINTAINER=     ports@FreeBSD.org
+MAINTAINER=	xaa@xaa.iae.nl
 
-GNU_CONFIGURE=  yes
-ALL_TARGET=     all elf
-INSTALL_TARGET= install install-elf
-WRKSRC=         ${WRKDIR}/slang
+GNU_CONFIGURE=	yes
+WRKSRC=		${WRKDIR}/slang
+
+ALL_TARGET=	all elf
+INSTALL_TARGET=	install install-elf
 
 post-install:
-	@rm -f ${PREFIX}/lib/libslang.so.99.3[348]
 	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
