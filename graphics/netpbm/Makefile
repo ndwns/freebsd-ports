@@ -7,12 +7,15 @@
 #
 
 DISTNAME=	netpbm
-DISTFILES=	netpbm-1mar1994.tar.gz
-MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+PKGNAME=	netpbm-94.3.1
 CATEGORIES+=	graphics
+MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+DISTFILES=	netpbm-1mar1994.tar.gz
+
 MAINTAINER=	asami@FreeBSD.ORG
-USE_IMAKE=	yes
 
 LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

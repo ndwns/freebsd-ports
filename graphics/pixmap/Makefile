@@ -6,11 +6,14 @@
 # $Id$
 #
 
-USE_IMAKE=	yes
 DISTNAME=	pixmap2.6
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/pixmap/
+PKGNAME=	pixmap-2.6
 CATEGORIES+=	graphics
+MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/pixmap/
+
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 WRKSRC=		${WRKDIR}/pixmap
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

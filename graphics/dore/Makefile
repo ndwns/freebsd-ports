@@ -7,15 +7,16 @@
 #
 
 DISTNAME=	pdore-6.0
-MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 CATEGORIES+=	graphics
-USE_GMAKE=	yes
-PREFIX=		${X11BASE}
+MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 EXTRACT_SUFX=	.tar.Z
+
+USE_GMAKE=	yes
+USE_X11=	yes
 WRKDIR=		${.CURDIR}/work/dore
+NO_WRKSUBDIR=	yes
 MAKEFILE=	mk.stdx
 MAKE_FLAGS=	DORE_LOC=${WRKDIR}/.. CFLAGS=-O2 MAKEFLAGS=m -f
 ALL_TARGET=
-NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

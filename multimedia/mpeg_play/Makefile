@@ -7,12 +7,14 @@
 #
 
 DISTNAME=	mpeg_play-2.0
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/
 CATEGORIES+=	graphics
-MAINTAINER=	asami@FreeBSD.ORG
+MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/
 EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	asami@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
+USE_IMAKE=	yes
 
 pre-patch:
 	cp ${WRKSRC}/Imakefile.proto ${WRKSRC}/Imakefile

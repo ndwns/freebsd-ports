@@ -7,9 +7,10 @@
 #
 
 DISTNAME=	xpm-3.4e
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
 CATEGORIES+=	graphics x11
+MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
+
+USE_IMAKE=	yes
 XMKMF=		xmkmf
 
 .include <bsd.port.mk>

@@ -7,11 +7,11 @@
 #
 
 DISTNAME=       POV-Ray-2.2
-MASTER_SITES=	ftp://povray.cdrom.com/pub/povray/Official/Generic-Unix/
+PKGNAME=	povray-2.2
 CATEGORIES+=	graphics
+MASTER_SITES=	ftp://povray.cdrom.com/pub/povray/Official/Generic-Unix/
 DISTFILES=      povdoc.tar.Z povscn.tar.Z povsrc.tar.Z
-EXTRACT_SUFX=	tar.Z
-NO_WRKSUBDIR=
 
+NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
