@@ -19,6 +19,9 @@ DISTFILES=	${DISTNAME}-src${EXTRACT_SUFX} ${DISTNAME}-rt${EXTRACT_SUFX}
 
 MAINTAINER=     obrien@FreeBSD.org
 
+Y2K=		http://www.vim.org/y2k.html
+WWW_SITE=	http://www.vim.org
+
 .if defined(PACKAGE_BUILDING)
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80 \
 		python:${PORTSDIR}/lang/python

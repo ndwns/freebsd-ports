@@ -15,6 +15,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} MesaDemos-3.0.tar.gz
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
+WWW_SITE=	http://www.ssec.wisc.edu/~brianp/Mesa.html
+
 WRKSRC=		${WRKDIR}/Mesa-3.0
 
 USE_X_PREFIX=	yes

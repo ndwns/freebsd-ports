@@ -13,6 +13,10 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 
 MAINTAINER=	ejc@FreeBSD.ORG
 
+Y2K=            http://www.scriptics.com/Y2K.html
+WWW_SITE=       http://www.scriptics.com  
+
+
 FILE_DEPENDS=	${PORTSDIR}/lang/tcl80
 
 NO_LATEST_LINK=	yes

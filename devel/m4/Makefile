@@ -13,6 +13,8 @@ MASTER_SITE_SUBDIR=	m4
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+Y2K=		http://www.gnu.org/software/year2000.html
+
 GNU_CONFIGURE=yes
 CONFIGURE_ARGS= --program-prefix=g
 

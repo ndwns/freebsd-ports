@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	ncurses
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+Y2K=            http://www.gnu.org/software/year2000.html
+
 MAN1=	captoinfo.1m clear.1 infocmp.1m tic.1m toe.1m tput.1 tset.1
 MAN3=	curs_addch.3x curs_addchstr.3x curs_addstr.3x curs_attr.3x \
 	curs_beep.3x curs_bkgd.3x curs_border.3x curs_clear.3x \

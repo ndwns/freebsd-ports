@@ -13,6 +13,8 @@ MASTER_SITE_SUBDIR=	id
 
 MAINTAINER=	pst@FreeBSD.ORG
 
+Y2K=		http://www.gnu.org/software/year2000.html
+
 # need to byte-compile a .el file
 BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs20
 

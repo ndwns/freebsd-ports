@@ -15,6 +15,8 @@ MASTER_SITE_SUBDIR=	libstdc++
 
 MAINTAINER=	obrien@FreeBSD.org
 
+Y2K=		http://www.gnu.org/software/year2000.html
+
 BUILD_DEPENDS=	gcc28:${PORTSDIR}/lang/gcc28 \
 		g++28:${PORTSDIR}/lang/gcc28
 RUN_DEPENDS=	gcc28:${PORTSDIR}/lang/gcc28 \

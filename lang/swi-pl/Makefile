@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://swi.psy.uva.nl/pub/SWI-Prolog/
 
 MAINTAINER=	max@FreeBSD.ORG
 
+Y2K=		http://www.hio.hen.nl/faq/SWI-Prolog.html#7.__warranty
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 GNU_CONFIGURE=	yes
 CONFIGURE_TARGET=	${MACHINE_ARCH}-freebsd

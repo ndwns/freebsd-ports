@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	make
 
 MAINTAINER=	jseger@freebsd.org
 
+Y2K=		http://www.gnu.org/software/year2000.html
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--program-prefix=g
 MAN1=		gmake.1

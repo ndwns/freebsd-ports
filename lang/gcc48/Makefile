@@ -22,6 +22,8 @@ MASTER_SITES=	ftp://go.cygnus.com/pub/ftp.cygnus.com/egcs/snapshots/egcs-1.1.2-p
 
 MAINTAINER=	obrien@FreeBSD.org
 
+WWW_SITE=	http://egcs.cygnus.com
+
 #USE_BZIP2=	yes
 
 .include <bsd.port.pre.mk>
