@@ -5,10 +5,15 @@
 #
 # $Id$
 #
+
 DISTNAME=       lha101u
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+PKGNAME=        lha-1.01u
 CATEGORIES+=	archivers
+MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+EXTRACT_SUFX=   .tar.Z
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

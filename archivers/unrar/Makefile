@@ -5,10 +5,15 @@
 #
 # $Id$
 #
+
 DISTNAME=       unrar100
-EXTRACT_SUFX=   .tgz
-MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+PKGNAME=        unrar-1.00e
 CATEGORIES+=	archivers
+MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+EXTRACT_SUFX=   .tgz
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 WRKSRC=         ${WRKDIR}/unrar.100
 
 .include <bsd.port.mk>

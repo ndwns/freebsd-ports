@@ -6,10 +6,15 @@
 #
 # $Id$
 #
+
 DISTNAME=       hpack79src
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=   ftp://src.doc.ic.ac.uk/packages/hpack/
+PKGNAME=        hpack-0.79a
 CATEGORIES+=	archivers
+MASTER_SITES=   ftp://src.doc.ic.ac.uk/packages/hpack/
+EXTRACT_SUFX=   .tar.Z
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd

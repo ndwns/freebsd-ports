@@ -12,4 +12,6 @@ CATEGORIES+=	audio
 MASTER_SITES=   ftp://sunsite.unc.edu/pub/Linux/apps/sound/players/
 DISTFILES=      playmidi-1.1.tar.gz
 
+MAINTAINER=     ache@FreeBSD.ORG
+
 .include <bsd.port.mk>

@@ -12,7 +12,9 @@ CATEGORIES+=	audio
 MASTER_SITES=   ftp://ftp.ens.fr/pub/dmi/users/espie/beta/
 DISTFILES=      tracker-4.27.tar.Z
 
-USE_GMAKE=      YES
+MAINTAINER=     ache@FreeBSD.ORG
+
+USE_GMAKE=      yes
 MAKE_FLAGS=     MACHINE=freebsd CC=cc -f
 INSTALL_TARGET= install install.man
 

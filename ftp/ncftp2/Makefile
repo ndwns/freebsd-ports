@@ -7,9 +7,12 @@
 #
 
 DISTNAME=       ncftp-2.0.3
-EXTRACT_SUFX=   .tgz
-MASTER_SITES=   ftp://ftp.cs.unl.edu/pub/ncftp/
 CATEGORIES+=	networking
-GNU_CONFIGURE=  YES
+MASTER_SITES=   ftp://ftp.cs.unl.edu/pub/ncftp/
+EXTRACT_SUFX=   .tgz
+
+MAINTAINER=	ache@FreeBSD.ORG
+
+GNU_CONFIGURE=  yes
 
 .include <bsd.port.mk>

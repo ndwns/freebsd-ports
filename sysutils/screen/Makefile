@@ -7,9 +7,12 @@
 #
 
 DISTNAME=       screen-3.6.1
-NCFTPFLAGS=     -PN
-MASTER_SITES=   ftp://ftp.uni-erlangen.de/pub/utilities/screen/
 CATEGORIES+=	utilities
-GNU_CONFIGURE=	YES
+MASTER_SITES=   ftp://ftp.uni-erlangen.de/pub/utilities/screen/
+
+MAINTAINER=	ache@FreeBSD.ORG
+
+GNU_CONFIGURE=	yes
+NCFTPFLAGS=     -PN
 
 .include <bsd.port.mk>

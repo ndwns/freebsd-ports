@@ -1,19 +1,24 @@
 # New ports collection makefile for:    ha
-# Version required:     0999
+# Version required:     0.999beta
 # Date created:         24 Jan 1995
 # Whom:                 ache
 #
 # $Id$
 #
+
 DISTNAME=       ha0999
-EXTRACT_SUFX=   .tgz
-MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+PKGNAME=        ha-0.999b
 CATEGORIES+=	archivers
-NO_WRKSUBDIR=   YES
+MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+EXTRACT_SUFX=   .tgz
+
+MAINTAINER=     ache@FreeBSD.ORG
+
+NO_WRKSUBDIR=   yes
 MAKEFILE=       makefile.nix
 MAKE_FLAGS=     CC=cc -f
 ALL_TARGET=     ha
-USE_GMAKE=      YES
+USE_GMAKE=      yes
 
 install:
 	cd ${WRKSRC}; ${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} ha ${PREFIX}/bin

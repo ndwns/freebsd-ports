@@ -7,9 +7,13 @@
 #
 
 DISTNAME=       less-290
-MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
 CATEGORIES+=	utilities
-GNU_CONFIGURE=	YES
+MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
+
+MAINTAINER=	ache@FreeBSD.ORG
+
+GNU_CONFIGURE=	yes
+
 EXTRA_PATCH=	patch-ab
 
 color:

@@ -5,10 +5,15 @@
 #
 # $Id$
 #
+
 DISTNAME=       zip201
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+PKGNAME=        zip-2.0.1
 CATEGORIES+=	archivers
+MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+EXTRACT_SUFX=   .tar.Z
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 ALL_TARGET=     freebsd
 
 pre-install:

@@ -7,10 +7,13 @@
 #
 
 DISTNAME=       fspclient.0.0-h+
-EXTRACT_SUFX=   .tar.z
-MASTER_SITES=   ftp://ftp.robots.ox.ac.uk/pub/ox.src/fspclient/
 CATEGORIES+=	networking
+MASTER_SITES=   ftp://ftp.robots.ox.ac.uk/pub/ox.src/fspclient/
+EXTRACT_SUFX=   .tar.z
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 WRKSRC=		${WRKDIR}/fspclient
-GNU_CONFIGURE=	YES
+GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>

@@ -5,10 +5,14 @@
 #
 # $Id$
 #
-DISTFILES=      unarj241.tar.Z
+
 DISTNAME=       unarj
-MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+PKGNAME=	unarj-2.41
 CATEGORIES+=	archivers
+MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+DISTFILES=      unarj241.tar.Z
+
+MAINTAINER=     ache@FreeBSD.ORG
 
 install:
 	cd ${WRKSRC}; install -cs -o bin -g bin -m755 ${DISTNAME} ${PREFIX}/bin
