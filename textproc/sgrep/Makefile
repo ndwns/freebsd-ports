@@ -10,7 +10,7 @@ DISTNAME=	sgrep-0.99
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.cs.helsinki.fi/pub/Software/Local/Sgrep/
 
-MAINTAINER=	koshy@india.hp.com
+MAINTAINER=	jkoshy@freebsd.org
 
 MAN1=		sgrep.1
 
