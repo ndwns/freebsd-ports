@@ -20,4 +20,14 @@ MAINTAINER=     obrien@FreeBSD.org
 
 MAN6=		figlet.6
 
+do-install:
+	@ ${MKDIR} ${PREFIX}/share/figlet
+	@ ${INSTALL_PROGRAM} ${WRKSRC}/figlet ${PREFIX}/bin
+	@ ${INSTALL_PROGRAM} ${WRKSRC}/chkfont ${PREFIX}/bin
+	@ ${INSTALL_SCRIPT} ${WRKSRC}/figlist ${PREFIX}/bin
+	@ ${INSTALL_SCRIPT} ${WRKSRC}/showfigfonts ${PREFIX}/bin
+	@ ${INSTALL_DATA} ${WRKSRC}/fonts/*.flf ${PREFIX}/share/figlet
+	@ ${INSTALL_DATA} ${WRKSRC}/fonts/*.flc ${PREFIX}/share/figlet
+	@ ${INSTALL_MAN} ${WRKSRC}/figlet.6 ${PREFIX}/man/man6
+
 .include <bsd.port.mk>
