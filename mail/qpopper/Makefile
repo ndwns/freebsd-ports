@@ -1,13 +1,13 @@
 # New ports collection makefile for:	popper
-# Version required:     2.5
+# Version required:     2.5*
 # Date created:		1 April 1995
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=       qpopper2.5
-PKGNAME=        qpopper-2.5
+DISTNAME=       qpopper2.52
+PKGNAME=        qpopper-2.52
 CATEGORIES=	mail
 MASTER_SITES=   ftp://ftp.qualcomm.com/eudora/servers/unix/popper/
 EXTRACT_SUFX=	.tar.Z
