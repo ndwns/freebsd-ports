@@ -16,7 +16,6 @@ MAINTAINER=	keith@FreeBSD.org
 # ?= is for ports that include this Makefile.
 # We need Arphic because there's no font with all sizes to deal with Java.
 RUN_DEPENDS?=	\
-		${X11BASE}/lib/aout/zh-XFree86-aoutlibs-3.3.6:${.CURDIR}/../XFree86-aoutlibs \
 		${LOCALBASE}/bin/${BROWSER_ARC}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape${BROWSER_VER}-${BROWSER} \
 		${LOCALBASE}/lib/aout/libxpg4-ns.so.2.0:${PORTSDIR}/www/libxpg4-ns \
 		${X11BASE}/lib/X11/fonts/TrueType/bsmi00lp.ttf:${PORTSDIR}/chinese/arphicttf
