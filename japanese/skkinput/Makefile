@@ -16,6 +16,8 @@ MAINTAINER=	mrt@mickey.ai.kyutech.ac.jp
 RUN_DEPENDS=	${LOCALBASE}/libexec/skkserv:${PORTSDIR}/japanese/skk \
 		jman:${PORTSDIR}/japanese/man
 
+BROKEN=		fetch
+
 USE_IMAKE=	yes
 MANLANG=	ja_JP.EUC
 MAN1=		skkinput.1
