@@ -15,11 +15,13 @@
     SUBDIR += eval
     SUBDIR += femlab
     SUBDIR += fftpack
+    SUBDIR += fftw
     SUBDIR += freefem
     SUBDIR += fudgit
     SUBDIR += geg
     SUBDIR += gnumeric
     SUBDIR += gnuplot
+    SUBDIR += grace
     SUBDIR += hexcalc
     SUBDIR += lapack
     SUBDIR += libranlib
