@@ -18,13 +18,13 @@ BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 		nkf:${PORTSDIR}/japanese/nkf
 
 EXTRACT_CMD=	lha
-EXTRACT_BEFORE_ARGS=	xw=${WRKDIR}
+EXTRACT_BEFORE_ARGS=	xqw=${WRKDIR}
 NO_WRKSUBDIR=	yes
 MANLANG=	ja_JP.EUC
 MAN1=		uudx.1
 
 pre-patch:
-	@echo "===>  Installing custom Makefile for ${DISTNAME}"
+	@${ECHO_MSG} "===>  Installing custom Makefile for ${DISTNAME}"
 	@(${CP} ${FILESDIR}/Makefile ${WRKSRC})
 
 .include <bsd.port.mk>
