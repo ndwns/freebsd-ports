@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	Storable-0.6_402
+DISTNAME=	Storable-0.6@2
 PKGNAME=	p5-Storable-0.6.2
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
@@ -14,11 +14,8 @@ MASTER_SITE_SUBDIR=	Storable
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BROKEN=		fetch
-
 USE_PERL5=	YES
 
-WRKSRC=		${WRKDIR}/Storable-0.6@2
 MANPREFIX=	${PREFIX}/lib/perl5
 MAN3=		Storable.3
 
