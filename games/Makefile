@@ -48,6 +48,7 @@
     SUBDIR += xshisen
     SUBDIR += xshogi
     SUBDIR += xskat
+    SUBDIR += xsokoban
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
