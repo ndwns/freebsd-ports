@@ -25,6 +25,7 @@
     SUBDIR += mapedit
     SUBDIR += mhonarc
     SUBDIR += mmm
+    SUBDIR += momspider
     SUBDIR += netscape3
     SUBDIR += netscape4
     SUBDIR += p5-Apache
