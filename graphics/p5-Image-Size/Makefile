@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=	Image
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	${PREFIX}/lib/perl5/IO.pm:${PORTSDIR}/net/p5-IO \
-		perl5.004:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN1=		imgsize.1

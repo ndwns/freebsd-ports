@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=	Net
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/perl5/IO/Socket.pm:${PORTSDIR}/net/p5-IO/
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN3=		Net::DNS.3 Net::DNS::Header.3 Net::DNS::Packet.3 \
