@@ -18,7 +18,7 @@ PATCHDIR=	${.CURDIR}/../../print/gp/patches
 FILESDIR=	${.CURDIR}/../../print/gp/files
 SCRIPTDIR=	${.CURDIR}/../../print/gp/scripts
 
-RUN_DEPENDS=	${PREFIX}/bin/psbook:${PORTSDIR}/print/psutils \
+RUN_DEPENDS=	${PREFIX}/bin/psbook:${PORTSDIR}/print/psutils-${PAPERSIZE} \
 		${X11BASE}/bin/gv:${PORTSDIR}/print/gv \
 		${PREFIX}/bin/convert:${PORTSDIR}/graphics/ImageMagick
 
@@ -31,6 +31,7 @@ RUN_DEPENDS+=	${PREFIX}/bin/wish4.2:${PORTSDIR}/x11-toolkits/tk42
 LANGEXT=	en
 DOCDIRNAME=	Doc
 DOCEXT=
+PAPERSIZE=	letter
 .elif (${LANGUAGE} == "Japanese")
 ALL_TARGET=	ja filters
 LIB_DEPENDS=	tcl76jp.1:${PORTSDIR}/japanese/tcl76
@@ -38,6 +39,9 @@ RUN_DEPENDS+=	${PREFIX}/bin/wish4.2jp:${PORTSDIR}/japanese/tk42
 LANGEXT=	ja
 DOCDIRNAME=	Doc.ja
 DOCEXT=		.euc
+PAPERSIZE=	a4
+.else
+PAPERSIZE=	a4
 .endif
 MAKE_ENV=	LANGUAGE=${LANGUAGE} LANGEXT=${LANGEXT}
 SCRIPTS_ENV=	MV=${MV} RM=${RM} SED=${SED} LANGUAGE=${LANGUAGE} LANGEXT=${LANGEXT}
