@@ -22,4 +22,10 @@ USE_X_PREFIX=	yes
 MAN1=	files.1
 MAN3=	regexp.3
 
+post-install:
+	${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-aa
+	${INSTALL_DATA} ${WRKSRC}/src/Files.ad ${PREFIX}/lib/X11/app-defaults/
+	${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
+	${MV} ${WRKSRC}/src/Files.ad.orig ${WRKSRC}/src/Files.ad
+
 .include <bsd.port.mk>
