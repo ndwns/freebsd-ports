@@ -9,7 +9,9 @@
 DISTNAME=	wmx-4
 PKGNAME=        wmx-4.0
 CATEGORIES=	x11-wm
-MASTER_SITES=   http://www.netcomuk.co.uk/~cannam/
+MASTER_SITES=	http://www.all-day-breakfast.com/wmx/ \
+		ftp://ftp.tu-clausthal.de/pub/unix.new/x11-wm/ \
+		ftp://ftp.maths.tcd.ie/src/eoin-tmp/window_managers/
 
 MAINTAINER=	sec@42.org
 
