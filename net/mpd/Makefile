@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/mpd/
 
 MAINTAINER=	archie@freebsd.org
 
-MTREE_FILE=	files/mpd.mtree
+MTREE_FILE=	${FILESDIR}/mpd.mtree
 MAN8=		mpd.8
 MANCOMPRESSED=	yes
 
