@@ -1,15 +1,15 @@
 # New ports collection makefile for:	platex2e-common
-# Version required:		<1997/07/02>+2
+# Version required:		<1998/02/17>+0
 # Date created:			05 Oct 1997
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	base-9706
-PKGNAME=	ja-platex2e-common-97.07.02.2
+DISTNAME=	base-9712
+PKGNAME=	ja-platex2e-common-1998.02.17.0
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/platex/1997-07-02/ \
+MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/platex/1998-02-17/ \
 		ftp://ftp.ams.org/pub/tex/ \
 		${MASTER_SITE_LOCAL}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ecfonts-1.0.tar.gz tfm.tar \
