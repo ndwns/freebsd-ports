@@ -63,6 +63,7 @@
     SUBDIR += pine
     SUBDIR += pkfonts
     SUBDIR += platex
+    SUBDIR += prn
     SUBDIR += ptex2
     SUBDIR += qkc
     SUBDIR += recjis
