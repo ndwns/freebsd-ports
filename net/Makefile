@@ -12,6 +12,7 @@
     SUBDIR += beroftpd
     SUBDIR += bind8
     SUBDIR += bing
+    SUBDIR += binkd
     SUBDIR += bitchx
     SUBDIR += bnc
     SUBDIR += boclient
