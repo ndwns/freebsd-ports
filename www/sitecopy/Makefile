@@ -9,7 +9,6 @@
 DISTNAME=	sitecopy-0.4.0
 CATEGORIES=	www
 MASTER_SITES=   http://www.lyra.org/sitecopy/
-DISTFILES=	sitecopy-0.4.0.tar.gz
 
 MAINTAINER=     nik@FreeBSD.ORG
 
