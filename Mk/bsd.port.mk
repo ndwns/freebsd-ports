@@ -115,6 +115,10 @@ MAKEFILE?=		Makefile
 NCFTP?=			ncftp
 NCFTPFLAGS?=	-N
 
+PATCH?=			patch
+PATCH_STRIP?=	-p0
+PATCH_ARGS?=	 -d ${WRKSRC} --quiet -E ${PATCH_STRIP}
+
 EXTRACT_CMD?=	tar
 EXTRACT_SUFX?=	.tar.gz
 EXTRACT_ARGS?=	-C ${WRKDIR} -xzf
@@ -245,7 +249,7 @@ ${CONFIGURE_COOKIE}:
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; do \
-			patch -d ${WRKSRC} --quiet -E -p0 < $$i; \
+			${PATCH} ${PATCH_ARGS} < $$i; \
 	done; \
 	fi
 # We have a small convention for our local configure scripts, which
