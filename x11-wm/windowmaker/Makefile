@@ -1,12 +1,12 @@
 # New ports collection makefile for:	WindowMaker
-# Version required:	0.16.0
+# Version required:	0.16.1
 # Date created:		August 13, 1997
 # Whom:			handy@physics.montana.edu
 #
 # $Id$
 
-DISTNAME=	WindowMaker-0.16.0
-PKGNAME=	windowmaker-0.16.0
+DISTNAME=	WindowMaker-0.16.1
+PKGNAME=	windowmaker-0.16.1
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/beta/srcs/ \
 		ftp://ftp.io.com/pub/mirror/windowmaker/beta/srcs/ \
