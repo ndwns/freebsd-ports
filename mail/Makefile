@@ -80,6 +80,8 @@
     SUBDIR += wanderlust-emacs
     SUBDIR += wanderlust-emacs20
     SUBDIR += wanderlust-mule
+    SUBDIR += wanderlust-xemacs-mule
+    SUBDIR += wanderlust-xemacs20
     SUBDIR += wmmail
     SUBDIR += wmpop3
     SUBDIR += xbuffy
