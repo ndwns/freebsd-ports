@@ -14,6 +14,7 @@
     SUBDIR += crossgo32
     SUBDIR += crossgo32-djgpp2
     SUBDIR += crossgo32-djgpp2-pdcurses
+    SUBDIR += crossm68k
     SUBDIR += crosssco
     SUBDIR += cs
     SUBDIR += cutils
