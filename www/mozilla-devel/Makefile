@@ -17,7 +17,7 @@ LIB_DEPENDS=	glib12.2:${PORTSDIR}/devel/glib12 \
 		IDL.2:${PORTSDIR}/devel/ORBit \
 		gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400004
 BUILD_DEPENDS+=	eg++:${PORTSDIR}/lang/egcs
