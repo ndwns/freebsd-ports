@@ -17,6 +17,8 @@ MAINTAINER= 	housel@acm.org
 
 WRKSRC=		$(WRKDIR)/src
 
+BROKEN_ELF=	yes
+
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=$(PREFIX) --srcdir=$(WRKSRC)
 CONFIGURE_ENV=	D2C="$(WRKDIR)/d2c -p$(WRKSRC)/d2c/compiler/platforms.descr"
