@@ -8,13 +8,13 @@
 
 DISTNAME=	pcb-1.2.patch_02
 MASTER_SITES=	ftp://pluto.medizin.uni-ulm.de/pub/pcb-1.2/
-EXTRACT_SUFX=.tar.gz
-DEPENDS=        ${PORTSDIR}/devel/m4
+EXTRACT_SUFX=	.tar.gz
+EXEC_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 MAKE_FLAGS=	-f
 MAKEFILE=	makefile
 USE_IMAKE=
 NO_INSTALL_MANPAGES=	yes
-PREFIX=/usr/X11R6
+PREFIX=		/usr/X11R6
 PKG_CMD=	pkg_create
 
 .include <bsd.port.mk>
