@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/
 MAINTAINER=	mita@jp.FreeBSD.org
 
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
-LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2\\.23\\.:${PORTSDIR}/japanese/vflib
 
 MAN1=		dvi2ps.1 ../ja/man1/dvi2ps.1
 
@@ -30,7 +30,7 @@ post-install:
 	@(cd  ${WRKSRC}; \
 	make install-lib; \
 	${CP} -R doc ${PREFIX}/lib/dvi2ps/ ;\
-	mv ${PREFIX}/lib/dvi2ps/doc/dvi2ps.man ${PREFIX}/man/man1/dvi2ps.1 ;\
+	${MV} ${PREFIX}/lib/dvi2ps/doc/dvi2ps.man ${PREFIX}/man/man1/dvi2ps.1 ;\
 	nkf -e ${PREFIX}/lib/dvi2ps/doc/dvi2ps.jman > \
 			${PREFIX}/man/ja/man1/dvi2ps.1 ;\
 	${RM} -f ${PREFIX}/lib/dvi2ps/doc/dvi2ps.jman ;\
