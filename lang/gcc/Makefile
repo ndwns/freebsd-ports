@@ -24,6 +24,8 @@ MAINTAINER=	obrien@FreeBSD.org
 
 WWW_SITE=	http://egcs.cygnus.com/
 
+FORBIDDEN=	repository copy of lang/egcs, awaiting upgrade
+
 USE_BZIP2=	yes
 
 .include <bsd.port.pre.mk>
