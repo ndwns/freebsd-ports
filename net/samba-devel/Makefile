@@ -1,12 +1,12 @@
 # New ports collection makefile for:	samba
-# Version required:			1.9.11
+# Version required:			1.9.13
 # Date created:				11th Feb 1995
 # Whom:					gpalmer
 #
 # $Id$
 #
 
-DISTNAME=	samba-1.9.11
+DISTNAME=	samba-1.9.13
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 
