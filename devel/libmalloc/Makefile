@@ -11,6 +11,8 @@ PKGNAME=	malloc-1.17a
 CATEGORIES+=	devel
 MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
 
+BROKEN=		yes
+
 post-install:
 	ldconfig -m ${PREFIX}/lib
 
