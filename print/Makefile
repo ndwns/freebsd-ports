@@ -72,7 +72,6 @@
     SUBDIR += rtf2latex
     SUBDIR += t1utils
     SUBDIR += teTeX
-    SUBDIR += teTeX-beta
     SUBDIR += tex
     SUBDIR += texinfo
     SUBDIR += tgif2tex
