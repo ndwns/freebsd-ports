@@ -16,6 +16,7 @@
     SUBDIR += prodosemu
     SUBDIR += sim6811
     SUBDIR += spim
+    SUBDIR += stella
     SUBDIR += tkhfs
     SUBDIR += vgb
     SUBDIR += vmsbackup
