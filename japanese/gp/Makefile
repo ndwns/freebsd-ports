@@ -44,5 +44,6 @@ post-install:
 
 pre-clean:
 	@${RM} -f ${FILESDIR}/filetype ${FILESDIR}/printer ${PATCHDIR}/patch-aa
+	-@${RMDIR} ${PATCHDIR}
 
 .include <bsd.port.mk>
