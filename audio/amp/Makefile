@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.clara.net/pub/unix/Audio/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
