@@ -32,6 +32,7 @@
     SUBDIR += tvtwm
     SUBDIR += viewfax
     SUBDIR += x3270
+    SUBDIR += xautolock
     SUBDIR += xbuffy
     SUBDIR += xcb
     SUBDIR += xcolors
