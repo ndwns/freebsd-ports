@@ -25,6 +25,10 @@ WRKSRC=		${WRKDIR}/wmmon.app/wmmon
 
 .include <bsd.port.pre.mk>
 
+.if ${OSVERSION} >= 400000
+BROKEN=	"kvm_nlist: Symbol '_swaplist' not found"
+.endif
+
 pre-patch:
 	@cd ${WRKDIR}/wmmon.app && ${PATCH} -p < ${WRKDIR}/wmmon-freebsd.patch
 
