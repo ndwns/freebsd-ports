@@ -7,11 +7,13 @@
 #
 
 DISTNAME=	xv-3.10a
-CATEGORIES+=	graphics x11
+CATEGORIES=     graphics x11
 MASTER_SITES=	ftp://ftp.cis.upenn.edu/pub/xv/
+PATCH_SITES=    ${MASTER_SITES}
+PATCHFILES=     xv-3.10a.JPEG-patch # xv-3.10a.TIFF-patch (for tiff3.4)
 
-LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \
-		tiff\\.3\\.:${PORTSDIR}/graphics/tiff
+LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
+		tiff\\.3\\.3:${PORTSDIR}/graphics/tiff
 
 USE_IMAKE=	yes
 
@@ -21,9 +23,5 @@ post-install:
 .if !defined(NOPORTDOCS)
 	cp ${WRKSRC}/docs/xvdocs.ps ${PREFIX}/share/doc/xv
 .endif
-
-pre-clean:
-	@(cd ${PORTSDIR}/graphics/jpeg ; ${MAKE} clean)
-	@(cd ${PORTSDIR}/graphics/tiff ; ${MAKE} clean)
 
 .include <bsd.port.mk>
