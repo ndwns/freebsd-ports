@@ -6,19 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	soxgamma
-PKGNAME=	sox-12.12
+DISTNAME=	sox-12.16
 CATEGORIES=	audio
-MASTER_SITES=	http://www.spies.com/Sox/Archive/
+MASTER_SITES=	http://home.sprynet.com/~cbagwell/
 
-MAINTAINER=	torstenb@FreeBSD.ORG
+MAINTAINER=	dnelson@emsphone.com
 
-NO_WRKSUBDIR=		yes
-MAKEFILE=	Makefile.unx
-MAN1=		sox.1
-
-do-install:
-	@${INSTALL_PROGRAM} ${WRKSRC}/sox ${PREFIX}/bin
-	@${INSTALL_MAN} ${WRKSRC}/sox.man ${PREFIX}/man/man1/sox.1
+MAN1=		sox.1 play.1
+MLINKS=		play.1 rec.1
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--enable-fast-ulaw --enable-fast-alaw
 
 .include <bsd.port.mk>
