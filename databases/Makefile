@@ -1,7 +1,7 @@
 # $Id$
 #
+    SUBDIR += exodus
     SUBDIR += gnats
     SUBDIR += msql
-    SUBDIR += exodus
 
 .include <bsd.port.subdir.mk>
