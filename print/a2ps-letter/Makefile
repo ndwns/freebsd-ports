@@ -17,12 +17,12 @@ MAINTAINER=	chuckr@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
-MAN1=		a2ps.1 ogonkify.1 card.1 psmandup.1 fixps.1 pdiff.1
+MAN1=		a2ps.1 ogonkify.1 card.1 psmandup.1 fixps.1 pdiff.1 psset.1
 
 PAPERSIZE?=	letter
 PAPERSIZECNF=	${PAPERSIZE:S/l/L/:S/a/A/}
 STRIP=
-CONFIGURE_ARGS=	--with-medium=${PAPERSIZECNF} --sharedstatedir=$(PREFIX)/share/a2ps --sysconfdir=$(PREFIX)/share/a2ps --datadir=$(PREFIX)/share/a2ps --localstatedir=$(PREFIX)/share/a2ps
+CONFIGURE_ARGS=	--with-medium=${PAPERSIZECNF} --sharedstatedir=$(PREFIX)/share --sysconfdir=$(PREFIX)/etc --datadir=$(PREFIX)/share --localstatedir=$(PREFIX)/share
 
 .if ${PAPERSIZE} != a4 && ${PAPERSIZE} != letter && ${PAPERSIZE} != letterdj
 .BEGIN:
