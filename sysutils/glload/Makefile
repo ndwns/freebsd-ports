@@ -8,7 +8,7 @@
 
 DISTNAME=	glload-0.4.0
 CATEGORIES=	sysutils
-MASTER_SITES=	http://glload.netpedia.net/source/
+MASTER_SITES=	http://glload.netpedia.net/source/ \
 		http://www.freebsd.org/~vanilla/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
