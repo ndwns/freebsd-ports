@@ -41,6 +41,12 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/zozzital ${PREFIX}/share/games/fortune
 .endif
 
+pre-install:
+.if exists(${STRCMD})
+	@ ${ECHO_MSG}	"Please install the games distribution"
+	@ exit 1
+.endif
+
 post-install:
 	@${STRCMD} ${PREFIX}/share/games/fortune/italia
 .if defined(INSTALL_OFFENSIVE)
