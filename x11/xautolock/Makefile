@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tz
 
 MAINTAINER=	eblood@cs.unr.edu
 
+BROKEN=		fetch
+
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xautolock-pl13
 
