@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DATE=		970804
+DATE=		970824
 DISTNAME=	Wine-${DATE}
-PKGNAME=	wine-97.08.04
+PKGNAME=	wine-97.08.24
 CATEGORIES=	emulators x11
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	ALPHA/wine/development
@@ -29,11 +29,11 @@ post-configure:
 		cd ${WRKSRC} && make depend
 
 do-install:
-	install -c ${WRKSRC}/wine ${PREFIX}/bin
+	${INSTALL} -c ${WRKSRC}/wine ${PREFIX}/bin
 	-@${MKDIR} ${PREFIX}/etc 2>/dev/null
 	[ -f ${PREFIX}/etc/wine.conf ] \
 		|| ${CP} ${WRKSRC}/wine.ini ${PREFIX}/etc/wine.conf
-	cp ${WRKSRC}/wine.sym ${PREFIX}/etc
-	cp ${WRKSRC}/documentation/wine.man ${PREFIX}/man/man1/wine.1
+	${CP} ${WRKSRC}/wine.sym ${PREFIX}/etc
+	${CP} ${WRKSRC}/documentation/wine.man ${PREFIX}/man/man1/wine.1
 
 .include <bsd.port.mk>
