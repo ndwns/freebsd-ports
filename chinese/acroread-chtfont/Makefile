@@ -11,4 +11,6 @@ CATEGORIES=	chinese
 
 MASTERDIR=	${.CURDIR}/../../print/acroread-commfont
 
+BROKEN='cannot fetch'
+
 .include "${MASTERDIR}/Makefile"
