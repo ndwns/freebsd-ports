@@ -14,6 +14,8 @@ MASTER_SITES=   ftp://megrez.math.u-bordeaux.fr/pub/pari/unix/ \
 
 MAINTAINER=     yoshiaki@kt.rim.or.jp
 
+ONLY_FOR_ARCHS=	i386
+
 HAS_CONFIGURE = Yes
 CONFIGURE_SCRIPT = Configure
 CONFIGURE_ARGS = --prefix=${PREFIX}
