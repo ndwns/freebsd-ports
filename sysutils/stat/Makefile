@@ -7,7 +7,7 @@
 
 DISTNAME=       stat-1.3
 CATEGORIES=	sysutils
-MASTER_SITES=   http://www.apfel.de/~wosch/src/
+MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 
 MAINTAINER=     wosch@FreeBSD.org
 
