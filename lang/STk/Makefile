@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       STk-2.1.6
+DISTNAME=       STk-2.1.7
 CATEGORIES+=	languages
 MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 
