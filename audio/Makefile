@@ -62,6 +62,7 @@
     SUBDIR += xmix
     SUBDIR += xmmix
     SUBDIR += xmpeg3
+    SUBDIR += xmradio
     SUBDIR += xtuner
 
 .include <bsd.port.subdir.mk>
