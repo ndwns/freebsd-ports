@@ -6,8 +6,9 @@
 # $Id$
 #
 
-DISTNAME=      gtk+-0.99.5
-PKGNAME=       gtk-0.99.5
+DISTNAME=      gtk+-0.99.7
+PKGNAME=       gtk-0.99.7
+
 CATEGORIES=    x11
 MASTER_SITES=  ftp://ftp.gimp.org/pub/gtk/v0.99/
 
@@ -16,6 +17,8 @@ MAINTAINER=    vanilla@FreeBSD.ORG
 GNU_CONFIGURE= yes
 USE_GMAKE=     yes
 USE_X11=       yes
+
+CONFIGURE_ENV= INSTALL='/usr/bin/install -c'
 
 pre-install:
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
