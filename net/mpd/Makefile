@@ -11,7 +11,7 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/mpd/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	andy@icc.surw.chel.su
+MAINTAINER=	archie@freebsd.org
 
 WRKSRC=		${WRKDIR}/mpd-1.0b5/src
 ALL_TARGET=	depend all
