@@ -20,6 +20,8 @@ MAINTAINER=	mita@jp.FreeBSD.org
 
 LIB_DEPENDS=	ttf\\.1\\.0:${PORTSDIR}/print/freetype
 
+BROKEN=		left behind by freetype upgrade
+
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 WRKSRC=		${WRKDIR}/VFlib-2.22pl8
 MAKE_ENV=	PREFIX=${PREFIX} FREETYPEINCDIR=${FREETYPEINCDIR} \
