@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xsystem35-1.0.5
-PKGNAME=	xsystem-3.5-1.0.5
+DISTNAME=	xsystem35-1.0.6
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.aist-nara.ac.jp/~masaki-c/private/unitbase/xsys35/down/
 
