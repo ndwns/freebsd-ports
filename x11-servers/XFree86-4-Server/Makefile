@@ -24,8 +24,14 @@ ALL_TARGET=	World
 INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
+pre-install:
+	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/INSTALL \
+		${PKGNAME} PRE-INSTALL
+
 post-install:
-	chmod u-s ${PREFIX}/bin/SuperProbe
+	if [ -e ${PREFIX}/bin/SuperProbe ]; then \
+		chmod u-s ${PREFIX}/bin/SuperProbe; \
+	fi
 	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
