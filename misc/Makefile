@@ -40,6 +40,7 @@
     SUBDIR += tkinfo
     SUBDIR += tkman
     SUBDIR += unclutter
+    SUBDIR += viz
     SUBDIR += xcalendar
     SUBDIR += xgas
     SUBDIR += xless
