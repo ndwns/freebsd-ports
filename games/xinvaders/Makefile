@@ -10,7 +10,7 @@ DISTNAME=       xinvaders
 PKGNAME=	xinvaders-1.1
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	games/x11/video
+MASTER_SITE_SUBDIR=	games/arcade/invaders
 
 MAINTAINER=	swallace@FreeBSD.org
 
