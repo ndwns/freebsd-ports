@@ -22,7 +22,7 @@ MAINTAINER=	rse@engelschall.com
 INSTALL_ALSO_AS_SSSL=	no
 
 .if defined(INSTALL_ALSO_AS_SSSL)
-RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache-stable
+RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
 .endif
 
 USE_PERL5=	yes
