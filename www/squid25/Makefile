@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	squid-2.2.STABLE3
+DISTNAME=	squid-2.2.STABLE4
 PKGNAME=	squid-2.2
 CATEGORIES=	www
 MASTER_SITES=  \
