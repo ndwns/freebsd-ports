@@ -10,6 +10,9 @@ DISTNAME=       apache_1.3b3
 PKGNAME=        apache-1.3b3
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
+PATCH_SITES=    ftp://www.apache.org/apache/dist/patches/apply_to_1.3b3/
+PATCHFILES=     no2slash-loop-fix.patch
+PATCH_DIST_ARGS= -d ${WRKSRC}/src/main -E -p0
 
 MAINTAINER=     ache@freebsd.org
 
