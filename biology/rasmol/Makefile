@@ -16,4 +16,6 @@ MAINTAINER=     frankch@waru.life.nthu.edu.tw
 WRKSRC=		$(WRKDIR)/RasMol2.6x1
 USE_IMAKE=	yes
 
+MAN1=		rasmol.1
+
 .include <bsd.port.mk>

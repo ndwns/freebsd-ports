@@ -14,6 +14,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 
+MAN1=		xearth.1
+
 # Copy the list of FreeBSD sites
 post-install:
 	${MKDIR} ${PREFIX}/lib/X11/xearth

@@ -16,4 +16,6 @@ MAINTAINER=	torstenb@FreeBSD.org
 
 USE_IMAKE=	YES
 
+MAN1=		sunclock.1
+
 .include <bsd.port.mk>

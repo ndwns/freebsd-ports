@@ -24,6 +24,8 @@ EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	| gunshar -d $(WRKDIR)
 PATCH_DIST_STRIP=	-p1	# no ${PATCHFILES} but used below
 
+MAN1=		xengine.1
+
 pre-patch:
 	@cd $(WRKSRC) ; ${PATCH} ${PATCH_DIST_ARGS} < xengine.patch1
 

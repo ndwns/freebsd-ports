@@ -16,4 +16,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 
+MAN1=		xphoon.1
+
 .include <bsd.port.mk>

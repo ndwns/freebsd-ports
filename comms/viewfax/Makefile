@@ -14,4 +14,6 @@ USE_IMAKE=	yes
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MAN1=		viewfax.1
+
 .include <bsd.port.mk>

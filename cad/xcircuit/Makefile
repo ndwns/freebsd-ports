@@ -19,6 +19,8 @@ XMKMF=		xmkmf
 ALL_TARGET=
 INSTALL_TARGET=	install install.man
 
+MAN1=		xcircuit.1
+
 post-install:
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/examples/xcircuit
