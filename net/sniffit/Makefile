@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	sniffit.0.3.5
-PKGNAME=	sniffit-0.3.5
+DISTNAME=	sniffit.0.3.7.beta
+PKGNAME=	sniffit-0.3.7b
 CATEGORIES=	net security
 MASTER_SITES=	http://reptile.rug.ac.be/~coder/sniffit/files/
 
