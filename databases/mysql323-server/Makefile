@@ -17,6 +17,8 @@ MASTER_SITES=	http://www.buoy.com/mysql/Downloads/ \
 
 MAINTAINER=	josh@ican.net
 
+BROKEN=		build
+
 MAN1=		mysql.1
 
 USE_GMAKE=	YES
