@@ -21,6 +21,7 @@
     SUBDIR += figlet
     SUBDIR += git
     SUBDIR += gnuls
+    SUBDIR += gone
     SUBDIR += ical
     SUBDIR += iselect
     SUBDIR += jive
