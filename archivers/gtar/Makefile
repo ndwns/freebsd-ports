@@ -15,4 +15,9 @@ MAINTAINER=	andreas@FreeBSD.ORG
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=--program-prefix=g
 
+pre-install:
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+
 .include <bsd.port.mk>
