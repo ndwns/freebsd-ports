@@ -62,6 +62,7 @@
 
 GMAKE?=		gmake
 NCFTP?=		/usr/local/bin/ncftp
+NCFTPFLAGS?=	-N
 
 # These need to be absolute since we don't know how deep in the ports
 # tree we are and thus can't go relative.  They can, of course, be overridden
@@ -289,7 +290,7 @@ ${EXTRACT_COOKIE}:
 			mkdir -p `dirname ${DISTFILE}`; \
 		fi; \
 		if cd `dirname ${DISTFILE}`; then \
-			if ${NCFTP} ${HOME_LOCATION}; then \
+			if ${NCFTP} ${NCFTPFLAGS} ${HOME_LOCATION}; then \
 				${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTFILE}; \
 			else \
 				echo ">> Couldn't fetch it - please retreive ${DISTFILE} manually and try again."; \
