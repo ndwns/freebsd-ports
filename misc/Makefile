@@ -29,6 +29,7 @@
     SUBDIR += less
     SUBDIR += lile
     SUBDIR += logsurfer
+    SUBDIR += magicpoint
     SUBDIR += mc
     SUBDIR += mmv
     SUBDIR += most

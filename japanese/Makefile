@@ -46,6 +46,7 @@
     SUBDIR += kterm
     SUBDIR += less
     SUBDIR += lipsf
+    SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
     SUBDIR += mew
