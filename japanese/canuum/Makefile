@@ -9,7 +9,8 @@
 DISTNAME=	canuum-1.0
 PKGNAME=	ja-canuum-1.0
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://ftp.nec.co.jp/pub/Canna/Canna22/
+MASTER_SITES=	ftp://ftp.nec.co.jp/pub/Canna/Canna22/ \
+		ftp://ftp.nec.co.jp/pub/Canna/Canna32/
 DISTFILES=	Uum4.109.tar.gz  Canna32p2.tar.gz
 EXTRACT_ONLY=	Uum4.109.tar.gz
 
