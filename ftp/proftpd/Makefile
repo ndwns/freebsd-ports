@@ -19,7 +19,7 @@ MAN8=	proftpd.8 ftpshut.8
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
-CONFIGURE_ARGS+=	--localstatedir=/var/run \
+CONFIGURE_ARGS=	--localstatedir=/var/run \
 			--with-modules=mod_ratio
 
 post-configure:
