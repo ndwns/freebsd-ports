@@ -21,6 +21,8 @@ WRKSRC=		${PORTTOP}/src/build
 MAKEFILE=	makefile
 ALL_TARGET=	freebsd-x
 
+USE_XLIB=	yes
+
 ROMSDIR=	${PREFIX}/share/stella/roms
 ROMS=		ELK.BIN OKIEDOKE.BIN OYSTR29.BIN TEST.BIN TPS.BIN
 DOCSDIR=	${PREFIX}/share/doc/stella
