@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	seahaven-1.04
-PKGNAME=	seahaven-1.04
 CATEGORIES=	games
 MASTER_SITES=	http://www.cinenet.net/users/spitzak/seahaven/
 EXTRACT_SUFX=	.tgz
