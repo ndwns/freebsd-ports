@@ -18,6 +18,7 @@ SUBDIR += mail
 SUBDIR += math
 SUBDIR += net
 SUBDIR += news
+SUBDIR += plan9
 SUBDIR += print
 SUBDIR += russian
 SUBDIR += shells
