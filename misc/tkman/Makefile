@@ -18,10 +18,6 @@ RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman \
 		glimpse:${PORTSDIR}/misc/glimpse
 
 NO_CDROM=	yes	# Don't sell for profit
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/tkman.1
-.endif
+MAN1=		tkman.1
 
 .include <bsd.port.mk>

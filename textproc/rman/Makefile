@@ -14,10 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
 NO_CDROM=	yes	# don't sell for profit
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/rman.1
-.endif
+MAN1=		rman.1
 
 .include <bsd.port.mk>

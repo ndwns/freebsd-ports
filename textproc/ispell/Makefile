@@ -45,13 +45,9 @@ british:
 	@${MAKE} ${.MAKEFLAGS} LANG=british all 
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/lib
-	@mkdir -p ${PREFIX}/man/man1
-	@mkdir -p ${PREFIX}/man/man4
+	@${MKDIR} ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/lib
+	@${MKDIR} ${PREFIX}/man/man1
+	@${MKDIR} ${PREFIX}/man/man4
 
 .include <bsd.port.mk>
-
-
-
-

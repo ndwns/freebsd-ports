@@ -15,10 +15,6 @@ MAINTAINER=	asami@FreeBSD.org
 RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 
 USE_X11=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/kp.1
-.endif
+MAN1=		kp.1
 
 .include <bsd.port.mk>

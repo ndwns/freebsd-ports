@@ -18,10 +18,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tclsh=/usr/bin/tclsh \
 		--with-tclconfig=/usr/libdata/tcl \
 		--with-tkconfig=${PREFIX}/lib
-
-.if !defined(NOMANCOMPRESS)
-post-install:
-	@gzip -9nf ${PREFIX}/man/man1/ical.1
-.endif
+MAN1=		ical.1
 
 .include <bsd.port.mk>

@@ -20,11 +20,6 @@ MAINTAINER=	bmc@WillsCreek.COM
 
 PATCH_DIST_STRIP=	-p1
 GNU_CONFIGURE=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/linuxls.1
-	gzip -9nf ${PREFIX}/man/man1/dircolors.1
-.endif
+MAN1=		linuxls.1 dircolors.1
 
 .include <bsd.port.mk>

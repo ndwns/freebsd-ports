@@ -13,10 +13,6 @@ MASTER_SITES=   ftp://ftp.sun.ac.za/pub/unix/misc/
 MAINTAINER=	markm@FreeBSD.ORG
 
 NO_WRKSUBDIR=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/manl/buffer.l
-.endif
+MANL=		buffer.l
 
 .include <bsd.port.mk>

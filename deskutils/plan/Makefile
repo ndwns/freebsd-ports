@@ -13,11 +13,7 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 MAINTAINER=	deischen@iworks.InterWorks.org
 
 REQUIRES_MOTIF=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/plan.1
-	gzip -9nf ${PREFIX}/man/man4/plan.4
-.endif
+MAN1=		plan.1
+MAN4=		plan.4
 
 .include <bsd.port.mk>

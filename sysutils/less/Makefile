@@ -22,7 +22,7 @@ pre-clean:
 .if defined(COLOUR_LESS) || defined(COLOR_LESS)
 pre-patch:
 	@echo "Making a colour version of less."
-	@cp ${FILESDIR}/${EXTRA_PATCH} ${PATCHDIR}
+	@${CP} ${FILESDIR}/${EXTRA_PATCH} ${PATCHDIR}
 .endif
 
 .include <bsd.port.mk>

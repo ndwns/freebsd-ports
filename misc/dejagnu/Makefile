@@ -18,10 +18,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/dejagnu
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386-freebsd
 STRIP=
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/runtest.1
-.endif
+MAN1=		runtest.1
 
 .include <bsd.port.mk>

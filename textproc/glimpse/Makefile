@@ -16,18 +16,14 @@ MAINTAINER=	chuckr@freebsd.org
 
 NO_CDROM=	yes	# Restrictive copyright (don't sell for profit)
 GNU_CONFIGURE=	yes
+MAN1=		glimpse.1 glimpseindex.1 glimpseserver.1 agrep.1
 
 pre-configure:
 	chmod ugo+x ${WRKSRC}/configure
 
 post-install:
-	mkdir -p ${PREFIX}/share/doc/glimpse
+	${MKDIR} ${PREFIX}/share/doc/glimpse
 	${INSTALL_DATA} ${WRKSRC}/COPYRIGHT ${PREFIX}/share/doc/glimpse
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/glimpse
-.if !defined(NOMANCOMPRESS)
-	for file in glimpse glimpseindex glimpseserver agrep; do \
-	gzip -9nf ${PREFIX}/man/man1/$$file.1; \
-	done
-.endif
 
 .include <bsd.port.mk>
