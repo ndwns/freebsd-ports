@@ -8,7 +8,8 @@
 
 DISTNAME=	dc3play-970716
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://ftp.csl.sony.co.jp/pub/DC-3/unix/
+MASTER_SITES=   ftp://ftp.itojun.org/pub/digi-cam/DC-3/unix/ \
+		ftp://ftp.digipri.co.jp/pub/free-software/Ricoh/DC-3/unix/
 
 MAINTAINER=	itojun@itojun.org
 

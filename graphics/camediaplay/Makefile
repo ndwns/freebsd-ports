@@ -8,7 +8,8 @@
 
 DISTNAME=	camediaplay-970803
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://ftp.csl.sony.co.jp/pub/C-400L/unix/
+MASTER_SITES=   ftp://ftp.itojun.org/pub/digi-cam/C-400L/unix/ \
+		ftp://ftp.digipri.co.jp/pub/free-software/Olympus/C-400L/unix/ 
 
 MAINTAINER=	itojun@itojun.org
 
