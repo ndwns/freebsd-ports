@@ -14,15 +14,16 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
-		Imlib.3:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \
+		Imlib.4:${PORTSDIR}/graphics/imlib
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 ALL_TARGET=	gqview
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
-
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 pre-install:
 .if !defined(NOPORTDOCS)

@@ -13,11 +13,13 @@ MASTER_SITE_SUBDIR=	sources/gtk-engines
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	gdk_imlib.3:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.4:${PORTSDIR}/graphics/imlib
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
-GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
+USE_LIBTOOL=	yes
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 THEMES=		metal notif pixmap redmond95
 
@@ -27,8 +29,5 @@ post-patch:
 		${MV} gtkrc gtkrc.tmp; \
 		${SED} -e s^%%PREFIX%%^${PREFIX}^g < gtkrc.tmp > gtkrc; \
 	done
-
-post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

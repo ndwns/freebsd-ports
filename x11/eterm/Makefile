@@ -17,13 +17,12 @@ MASTER_SITES=	ftp://ftp.eterm.org/pub/Eterm/ \
 
 MAINTAINER=	murray@cdrom.com
 
-BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
-LIB_DEPENDS=	Imlib.3:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	Imlib.4:${PORTSDIR}/graphics/imlib
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
-GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib" LOCALBASE=${LOCALBASE}
+USE_LIBTOOL=	yes
+CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib"
 
 MAN1=		Eterm.1
 
@@ -31,9 +30,6 @@ pre-patch:
 .if ( defined(KANJI) )
 	${CP} ${FILESDIR}/patch-kanji ${PATCHDIR}
 .endif
-
-post-patch:
-	@find ${WRKSRC} -name '*.orig' | xargs ${RM} -f
 
 post-install:
 	chown root.wheel ${PREFIX}/bin/Eterm

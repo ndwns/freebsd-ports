@@ -15,20 +15,17 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	billf@FreeBSD.org
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
-BUILD_DEPENDS=	imlib-config:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.4:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 MAN1=		qiv.1
 
 post-patch:
-
 	@ ${MV} ${WRKSRC}/qiv.1 ${WRKSRC}/qiv.1.pre_sed
 	@ ${SED} -e 's#\/usr\/bin#${PREFIX}/bin#g' \
 	${WRKSRC}/qiv.1.pre_sed > ${WRKSRC}/qiv.1
 
 do-install:
-
 	${INSTALL_PROGRAM} ${WRKSRC}/qiv ${PREFIX}/bin/
 	${INSTALL_MAN} ${WRKSRC}/qiv.1 ${PREFIX}/man/man1/
 
