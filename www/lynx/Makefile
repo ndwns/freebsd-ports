@@ -14,6 +14,7 @@ CATEGORIES+=	www
 MASTER_SITES=   http://www.wfbr.edu/lynx/ \
 		ftp://ftp.more.net/pub/mirrors/lynx/
 EXTRACT_SUFX=   .zip
+
 PATCH_SITES=    http://www.nyu.edu/pages/wsn/subir/lynx/patches/
 PATCHFILES=     2-6-patch1.txt 2-6-patch2.txt 2-6-patch3.txt 2-6-patch4.txt \
 		2-6-patch5.txt
@@ -22,6 +23,7 @@ PATCH_DIST_STRIP= -p1 -l
 MAINTAINER=	ache@FreeBSD.ORG
 
 BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
+
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
 
