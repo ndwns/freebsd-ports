@@ -11,10 +11,10 @@ CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.inria.fr/lang/caml-light/ \
 		ftp://ftp.kurims.kyoto-u.ac.jp/pub/lang/caml-light/
 DISTFILES=	${DISTNAME}.tar.gz ${DOCFILES}
-EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX} ${DISTNAME}-refman.html${EXTRACT_SUFX}
 
 MAINTAINER=	ortmann@isl.net
 
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX} ${DISTNAME}-refman.html${EXTRACT_SUFX}
 USE_XLIB=	yes
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

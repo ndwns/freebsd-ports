@@ -11,13 +11,13 @@ CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
 
 MAINTAINER=	jmz@FreeBSD.org
-WRKSRC=         ${WRKDIR}/cdrecord-1.8
 
+WRKSRC=         ${WRKDIR}/cdrecord-1.8
 MAN1=		cdrecord.1 cdda2wav.1
 USE_GMAKE=	yes
 
 do-build:
-	@cd ${WRKSRC} && gmake COPTX=-DBSD_SCSI_SENSE_BUG
+	@cd ${WRKSRC} && ${GMAKE} COPTX=-DBSD_SCSI_SENSE_BUG
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/cdrecord/OBJ/i386-freebsd-cc/cdrecord \
