@@ -372,7 +372,7 @@ patch:
 #
 .if !target(describe)
 describe:
-	@echo -n "${DISTNAME}|${.CURDIR}/${DISTNAME}|"
+	@echo -n "${PKGNAME}|${.CURDIR}/${PKGNAME}|"
 	@echo -n "${PREFIX}|"
 	@if [ -f ${PKGDIR}/COMMENT ]; then \
 		echo -n "`cat ${PKGDIR}/COMMENT`"; \
