@@ -18,13 +18,16 @@ MAINTAINER=     yssu@CCCA.NCTU.edu.tw
 
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
 GNU_CONFIGURE=	yes
+
+# Curses sypport too buggy to activate
+#		 --enable-curses \
+#		 --with-ncurses \
+#
 CONFIGURE_ARGS=  --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/news/lib \
 		 --with-mime-default-charset=ISO-8859-1 \
 		 --enable-forgery \
-		 --enable-curses \
-		 --with-ncurses \
 		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
