@@ -89,6 +89,7 @@
     SUBDIR += tvp
     SUBDIR += uox3
     SUBDIR += wmtimebomb
+    SUBDIR += wmeyes
     SUBDIR += xabacus
     SUBDIR += xasteroids
     SUBDIR += xataxx
