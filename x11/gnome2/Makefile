@@ -20,7 +20,6 @@ LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 #		gxsnmp.1:${PORTSDIR}/sysutils/gnomeadmin
 RUN_DEPENDS=	gcalc:${PORTSDIR}/misc/gnomeutils \
 		ElectricEyes:${PORTSDIR}/graphics/electriceyes \
-#		ggv:${PORTSDIR}/print/ggv \
 		gtop:${PORTSDIR}/sysutils/gtop \
 		gnomecc:${PORTSDIR}/sysutils/gnomecontrolcenter \
 		gnomecard:${PORTSDIR}/deskutils/gnomepim \
