@@ -72,6 +72,7 @@
     SUBDIR += netris
     SUBDIR += oneko
     SUBDIR += oonsoo
+    SUBDIR += pmars
     SUBDIR += pp
     SUBDIR += pysol
     SUBDIR += qcc
