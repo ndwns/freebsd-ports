@@ -23,5 +23,6 @@
     SUBDIR += samba
     SUBDIR += samba-des
     SUBDIR += ted
+    SUBDIR += tin
 
 .include <bsd.port.subdir.mk>
