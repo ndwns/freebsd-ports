@@ -34,7 +34,7 @@ post-install:
 	${INSTALL_DATA} ${WRKDIR}/CXterm.ad  \
 			${PREFIX}/lib/X11/cxterm.dic/
 .if !defined(NOPORTDOCS)
-	mkdir -p ${PREFIX}/share/doc/cxterm
+	${MKDIR} ${PREFIX}/share/doc/cxterm
 	${INSTALL_DATA} ${WRKSRC}/Doc/CXTERM.FAQ ${PREFIX}/share/doc/cxterm
 	${INSTALL_DATA} ${WRKSRC}/Doc/input.doc ${PREFIX}/share/doc/cxterm
 .endif
