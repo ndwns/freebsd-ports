@@ -1,5 +1,5 @@
 # New ports collection makefile for:	mpg123
-# Version required:		0.59o
+# Version required:		0.59r
 # Date created:			25 June 1997
 # Whom:				Carey Jones <mcj@acquiesce.org>
 #
