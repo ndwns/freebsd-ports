@@ -34,6 +34,8 @@
     SUBDIR += kdenetwork
     SUBDIR += ldap
     SUBDIR += libsocket++
+    SUBDIR += llnlxdir
+    SUBDIR += llnlxftp
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += mpd
