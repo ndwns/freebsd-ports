@@ -23,4 +23,7 @@ pre-build:
 	@cd ${WRKSRC}/c++tk; mv Makefile Makefile~; \
 		sed -e s:/usr/local:${PREFIX}:g <Makefile~ >Makefile
 
+post-install:
+	@PREFIX=${PREFIX} ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+
 .include <bsd.port.mk>
