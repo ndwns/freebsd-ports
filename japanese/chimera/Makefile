@@ -8,7 +8,7 @@
 
 DISTNAME=	chimera-1.65
 PKGNAME=	jp-chimera-1.65
-CATEGORIES+=	japanese networking
+CATEGORIES+=	japanese www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
 
 PATCH_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/www/chimera/
