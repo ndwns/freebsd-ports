@@ -1,12 +1,12 @@
 # New ports collection makefile for:   t1utils
-# Version required:    1.10.1
+# Version required:    1.11
 # Date created:        6 January 1999
 # Whom:                mwm
 #
 # $Id$
 #
 
-DISTNAME=	t1utils-1.10.1
+DISTNAME=	t1utils-1.11
 CATEGORIES=	print
 MASTER_SITES=	http://www.lcdf.org/~eddietwo/type/
 
