@@ -8,7 +8,8 @@
 
 DISTNAME=	chipmunk-5.10
 CATEGORIES+=	cad
-MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/chipmunk/
+MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/chipmunk/ \
+		ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/chipmunk/
 DISTFILES=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 		mosisbeta.tar.Z wolbeta.tar.Z wolcompbeta.tar.Z \
 		untilbeta.tar.Z viewbeta.tar.Z Makefile
@@ -19,6 +20,11 @@ EXTRACT_ONLY=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
 DISTDIR=	${PORTSDIR}/distfiles/chipmunk
+.if defined(MASTER_SITE_OVERRIDE)
+MASTER_SITES:=	${MASTER_SITE_OVERRIDE}/chipmunk/
+.undef MASTER_SITE_OVERRIDE
+.endif
+
 
 post-extract:
 	cp ${DISTDIR}/Makefile ${WRKSRC}/Makefile
