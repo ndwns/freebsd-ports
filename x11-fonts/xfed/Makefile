@@ -15,6 +15,7 @@ USE_IMAKE=	yes
 #MASTER_SITES=	ftp://me10.lbl.gov/pub/hp_X11R3_tape/source/app/
 SOURCESITE=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/clients/xfed/
 #EXTRACT_SUFX=	.tar.Z
+MAKE_FLAGS=	MANDIR=${PREFIX}/man/man1 BINDIR=${PREFIX}/bin -f
 
 fetch:	pre-fetch
 	@if [ ! -d ${DISTDIR} ]; then mkdir -p ${DISTDIR}; fi
