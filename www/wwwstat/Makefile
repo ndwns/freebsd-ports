@@ -16,6 +16,8 @@ PATCHFILES=	patch-2.01.txt
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN=		perl5 upgrade
+
 RUN_DEPENDS=    ${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache13
 
 USE_PERL5=	yes
