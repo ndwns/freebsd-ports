@@ -164,7 +164,6 @@
     SUBDIR += xspacewarp
     SUBDIR += xspringies
     SUBDIR += xteddy
-    SUBDIR += xtetris
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += xtris
