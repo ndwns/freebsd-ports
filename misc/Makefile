@@ -19,6 +19,7 @@
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += figlet
+    SUBDIR += gettext
     SUBDIR += git
     SUBDIR += gnucash
     SUBDIR += gnuls
