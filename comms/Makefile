@@ -18,6 +18,7 @@
     SUBDIR += tkhylafax
     SUBDIR += viewfax
     SUBDIR += xcept
+    SUBDIR += yaps
     SUBDIR += zmtx-zmrx
 
 .include <bsd.port.subdir.mk>
