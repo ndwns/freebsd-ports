@@ -87,6 +87,7 @@
     SUBDIR += netcat
     SUBDIR += netpipes
     SUBDIR += nettest
+    SUBDIR += nocol
     SUBDIR += nslint
     SUBDIR += ntimelord
     SUBDIR += ntop
