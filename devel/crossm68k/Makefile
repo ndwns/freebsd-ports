@@ -17,10 +17,8 @@ MAINTAINER=	Jerry.Hicks@Glenayre.com
 BUILD_DEPENDS=	${PREFIX}/m68k-coff/lib/crt0.o:${PORTSDIR}/devel/m68knewlib
 RUN_DEPENDS=	m68k-coff-gdb:${PORTSDIR}/devel/m68kgdb
 
-NO_PACKAGE=	limited audience
 EXTRACT_ONLY=	# empty
 NO_BUILD=	yes
-NO_CHECKSUM=	yes
 
 do-install:	# empty
 
