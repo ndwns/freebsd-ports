@@ -18,7 +18,7 @@ MAINTAINER=	obrien@FreeBSD.org
 MANUAL_PACKAGE_BUILD=	installs malloc.h
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	@(cd ${PREFIX}/include ; ln -sf malloc.h libmalloc.h)
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/libmalloc
