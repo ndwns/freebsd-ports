@@ -1,15 +1,17 @@
 # New ports collection makefile for:	lesstif
-# Version required:	0.87.0
+# Version required:	0.87.1
 # Date created:		December 10, 1996
 # Whom:			1wardd@airmail.net
 #
 # $Id$
 #
 
-DISTNAME=	lesstif-0.87.0
+DISTNAME=	lesstif-0.87.1
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.lesstif.org/pub/hungry/lesstif/srcdist/  \
-		ftp://ftp.hungry.com/pub/hungry/lesstif/srcdist/
+		ftp://ftp.hungry.com/pub/hungry/lesstif/srcdist/ \
+		ftp://ftp.fu-berlin.de/unix/X11/gui/lesstif/srcdist/ \
+		ftp://ftp.win.or.jp/pub/X11/misc/lesstif/srcdist/
 
 MAINTAINER=	ports@FreeBSD.org
 
