@@ -16,6 +16,7 @@
     SUBDIR += fli2gif
     SUBDIR += fnlib
     SUBDIR += fxtv
+    SUBDIR += g2
     SUBDIR += gd
     SUBDIR += geomview
     SUBDIR += gfont
