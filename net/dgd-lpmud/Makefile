@@ -16,6 +16,9 @@ DIST_SUBDIR=	dgd
 
 MAINTAINER=	adam@veda.is
 
+NO_CDROM=	depends on DGD, which is NO_CDROM
+RESTRICTED=	no monetary gain
+
 RUN_DEPENDS=	${PREFIX}/dgd/bin/driver:${PORTSDIR}/net/dgd
 
 NO_WRKSUBDIR=
