@@ -11,6 +11,7 @@
     SUBDIR += emiclock
     SUBDIR += emu
     SUBDIR += fvwm
+    SUBDIR += fvwm2
     SUBDIR += iv
     SUBDIR += olvwm
     SUBDIR += piewm
