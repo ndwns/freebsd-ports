@@ -21,6 +21,7 @@
     SUBDIR += mtools
     SUBDIR += pcemu
     SUBDIR += prodosemu
+    SUBDIR += quasi88
     SUBDIR += sim
     SUBDIR += sim6811
     SUBDIR += snes9x
