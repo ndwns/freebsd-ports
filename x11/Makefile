@@ -4,8 +4,7 @@
    SUBDIR += XFree86
    SUBDIR += Xaw3d
    SUBDIR += blt
-   SUBDIR += color
-   SUBDIR += _xterm
+   SUBDIR += color_xterm
    SUBDIR += ctwm
    SUBDIR += emiclock
    SUBDIR += emu
