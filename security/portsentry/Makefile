@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	sentry-0.61
+DISTNAME=	portsentry-0.61
 CATEGORIES=	security
-MASTER_SITES=	http://www.psionic.com/tools/sentry/
+MASTER_SITES=	http://www.psionic.com/tools/
 
 MAINTAINER=	chris@still.whet.org
 
