@@ -5,6 +5,8 @@
 #
 # $Id$
 #
+# REMINDER: to use ftpaccess(5) you need to specify -a in command line,
+# it is changed from previous versions
 
 DISTNAME=       wu-ftpd-2.4.2-beta-12
 CATEGORIES=	net
