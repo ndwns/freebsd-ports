@@ -427,6 +427,10 @@ is_depended:	${IS_DEPENDED_TARGET}
 # override from an individual Makefile.
 ################################################################
 
+.if defined(NO_FETCH) && !target(fetch)
+fetch:
+	@${DO_NADA}
+.endif
 .if defined(NO_EXTRACT) && !target(extract)
 extract: checksum
 	@/bin/rm -rf ${WRKDIR}
