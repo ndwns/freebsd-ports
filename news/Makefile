@@ -6,6 +6,7 @@
     SUBDIR += dnews
     SUBDIR += inn
     SUBDIR += knews
+    SUBDIR += leafnode
     SUBDIR += nn
     SUBDIR += nn-current
     SUBDIR += nntp
