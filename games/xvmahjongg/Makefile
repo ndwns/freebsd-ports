@@ -8,7 +8,7 @@
 
 DISTNAME=	xvmahjongg2.1
 PKGNAME=	xvmahjongg-2.1
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/ \
 		ftp://ftp.tu-darmstadt.de/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z

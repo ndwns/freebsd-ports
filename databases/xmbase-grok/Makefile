@@ -8,7 +8,7 @@
 
 DISTNAME=	xmbase-grok-1.3.2.sbin
 PKGNAME=	xmbase-grok-1.3.2
-CATEGORIES=	databases x11
+CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/database/flatfile
 

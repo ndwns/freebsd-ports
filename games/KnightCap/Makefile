@@ -8,7 +8,7 @@
 
 DISTNAME=	KnightCap-3.5
 PKGNAME=	knightcap-3.5
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/KnightCap/
 
 MAINTAINER=	andy@icc.surw.chel.su

@@ -8,7 +8,7 @@
 
 DISTNAME=	xothello
 PKGNAME=	xothello-0.01
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://makosteszta.sote.hu/linux/othello/
 EXTRACT_SUFX=	.tgz
 

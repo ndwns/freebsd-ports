@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		affenspiel-1.0
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/strategy
 EXTRACT_SUFX=		.tgz

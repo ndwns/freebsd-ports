@@ -8,7 +8,7 @@
 
 DISTNAME=	gemdropx
 PKGNAME=	gemdropx-1.0b3
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://zippy.sonoma.edu/kendrick/nbs/unix/x/gemdropx/
 
 MAINTAINER=	andy@icc.surw.chel.su

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xskewb-5.4.4
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/xpuzzles
 

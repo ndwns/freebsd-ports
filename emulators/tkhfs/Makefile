@@ -8,7 +8,7 @@
 
 DISTNAME=	tkhfs
 PKGNAME=	tkhfs-1.27
-CATEGORIES=	emulators x11 tk41
+CATEGORIES=	emulators tk41
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org

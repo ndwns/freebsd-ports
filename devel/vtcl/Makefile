@@ -8,7 +8,7 @@
 
 DISTNAME=	vt-1.11
 PKGNAME=	vtcl-1.11
-CATEGORIES=	devel x11 tk80
+CATEGORIES=	devel tk80
 MASTER_SITES=	http://www.neuron.com/stewart/vtcl/dload/ \
 		ftp://ftp.neuron.com/pub/
 

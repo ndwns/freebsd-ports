@@ -8,7 +8,7 @@
 
 DISTNAME=	icbm3d.0.3
 PKGNAME=	icbm3d-0.3
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://zippy.sonoma.edu/kendrick/nbs/unix/x/icbm3d/
 
 MAINTAINER=	andy@icc.surw.chel.su

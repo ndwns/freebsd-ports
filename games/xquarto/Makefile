@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xquarto-1.0
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.math.kth.se/~mjo/games/xquarto/
 
 MAINTAINER=	andy@icc.surw.chel.su

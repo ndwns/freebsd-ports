@@ -8,7 +8,7 @@
 
 DISTNAME=       RasMol26b2x1
 PKGNAME=        rasmol-2.6b2.1
-CATEGORIES=     biology x11
+CATEGORIES=     biology
 MASTER_SITES=   ftp://nexus.roko.goe.net/pub/rasmol/
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw

@@ -8,7 +8,7 @@
 
 DISTNAME=	koules1.4-src
 PKGNAME=	xkoules-1.4
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.paru.cas.cz/~hubicka/koules/packages/
 
 MAINTAINER=	andy@icc.surw.chel.su

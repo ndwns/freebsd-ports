@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xlaby-2.0.1
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		http://www.eleves.ens.fr:8080/home/madore/ \
 			${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/strategy

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xabacus-5.4.4
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		ftp://ftp.tux.org/pub/people/david-bagley/xabacus/ \
 			${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications

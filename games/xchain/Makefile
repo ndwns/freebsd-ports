@@ -8,7 +8,7 @@
 
 DISTNAME=	xchain_1.0-2
 PKGNAME=	xchain-1.0.2
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://thor.cam.ac.uk/~ac212/xchain/
 
 MAINTAINER=	andy@icc.surw.chel.su

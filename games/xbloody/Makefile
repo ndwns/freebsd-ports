@@ -8,7 +8,7 @@
 
 DISTNAME=	xbloody
 PKGNAME=	xbloody-1.00
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Usenet/fj.sources/1994/oct/
 
 MAINTAINER=	kazu@jp.freebsd.org

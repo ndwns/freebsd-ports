@@ -8,7 +8,7 @@
 
 DISTNAME=	xnibbles-1.0BETA3
 PKGNAME=	xnibbles-1.0b3
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.tjhsst.edu/xnibbles/
 
 MAINTAINER=	andy@icc.surw.chel.su

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	battalion-1.4
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.evl.uic.edu/aej/
 DISTFILES=	battalionSource1.4.tar.Z battalionSUN4.tar.gz
 

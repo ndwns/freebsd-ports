@@ -8,7 +8,7 @@
 
 DISTNAME=	nethack-3.2.2
 PKGNAME=	qt-nethack-1.0.1
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.troll.no/warwick/nethack/ \
 		http://trolls.troll.no/warwick/nethack/ \
 		ftp://ftp.troll.no/contrib/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xmastermind-0.1
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/strategy
 

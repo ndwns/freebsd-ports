@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xsoldier-0.96
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.surfline.ne.jp/hachi/xsoldier/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp

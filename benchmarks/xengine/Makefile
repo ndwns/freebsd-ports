@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	xengine-1.0.1
-CATEGORIES=	benchmarks x11
+CATEGORIES=	benchmarks
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Usenet/comp.sources.x/volume09/xengine/
 DISTFILES=	part01.z patch1.z
 

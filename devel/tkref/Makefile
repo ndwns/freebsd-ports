@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkref-1.01
-CATEGORIES=	devel x11 tk80
+CATEGORIES=	devel tk80
 MASTER_SITES=	http://gtcs.com/softdist/ \
 		${MASTER_SITE_LOCAL}
 

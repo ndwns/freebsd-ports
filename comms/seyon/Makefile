@@ -8,7 +8,7 @@
 
 DISTNAME=	Seyon-2.14b
 PKGNAME=	seyon-2.14b
-CATEGORIES=	comms x11
+CATEGORIES=	comms
 MASTER_SITES=	ftp://sipb.mit.edu/pub/seyon/
 DISTFILES=	Seyon-2.14b-tar.Z
 

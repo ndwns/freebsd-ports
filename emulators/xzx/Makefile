@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xzx-2.4.4
-CATEGORIES=	emulators x11
+CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.gns.getronics.nl/pub/os/sinclair/emulators/unix/
 DISTFILES=	xzx-2.4.4-src.tar.gz \
 		xzx-2.4.4-roms.tar.gz \

@@ -8,7 +8,7 @@
 
 DISTNAME=       seaview
 PKGNAME=        seaview-1.0
-CATEGORIES=     biology x11
+CATEGORIES=     biology
 MASTER_SITES=   ftp://biom3.univ-lyon1.fr/pub/mol_phylogeny/seaview/
 EXTRACT_SUFX=	.tar
 

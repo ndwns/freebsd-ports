@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	nedit-5.0.2
-CATEGORIES=	editors x11
+CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.fnal.gov/KITS/pub/nedit/v5_0_2/ \
 		ftp://ftp.fnal.gov/KITS/pub/nedit/v5_0_2/contrib/
 DISTFILES=	nedit_source.tar.gz nedit.app-defaults

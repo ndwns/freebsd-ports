@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	chimera-2.0a11
-CATEGORIES=	www x11
+CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera-alpha/
 
 MAINTAINER=	bgingery@gtcs.com
