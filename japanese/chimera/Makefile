@@ -16,6 +16,8 @@ PATCHFILES=	chimera-1.65-kanji.patch
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 USE_IMAKE=		yes
 PATCH_DIST_STRIP=	-p1
 MAN1=			chimera.1
