@@ -14,5 +14,6 @@
     SUBDIR += procmail
     SUBDIR += smail
     SUBDIR += xfmail
+    SUBDIR += youbin
 
 .include <bsd.port.subdir.mk>
