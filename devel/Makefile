@@ -24,6 +24,7 @@
     SUBDIR += dmake
     SUBDIR += f77flow
     SUBDIR += fpp
+    SUBDIR += ftnchek
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gdbtk
