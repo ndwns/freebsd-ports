@@ -11,9 +11,9 @@ CATEGORIES+=	games
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/misc_software/tksol/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@freebsd.org
 
-RUN_DEPENDS=	wish4.0:${PORTSDIR}/x11/tk4
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 
 PATCH_STRIP=	-p1
 WRKSRC=		${WRKDIR}/release
