@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Xserver for P9000 with X True Type
-# Version required:	1.0
+# Version required:	1.1
 # Date created:		15 April 1998
 # Whom:			Taguchi Takeshi <taguchi@tohoku.iij.ad.jp>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xc
-PKGNAME=	xtt-P9000-1.0
+PKGNAME=	xtt-P9000-1.1
 CATEGORIES=	x11
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
