@@ -9,7 +9,7 @@
 DISTNAME=	xmountains-2.4
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	X11/toys
+MASTER_SITE_SUBDIR=	apps/math/fractals
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	proff@iq.org
