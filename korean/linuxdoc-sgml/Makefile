@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/tools/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5:${PORTSDIR}/lang/perl5
 
 MAN1=		sgml2html.1 sgml2latex.1 sgml2rtf.1 sgmls.1 \
 		sgml2info.1 sgml2lyx.1   sgml2txt.1 sgmlsasp.1
