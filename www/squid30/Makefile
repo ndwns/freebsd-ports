@@ -16,8 +16,8 @@ MASTER_SITES=  \
 	ftp://ftp.net.lut.ac.uk/squid/squid-1.2.beta/
 EXTRACT_SUFX=	-src.tar.gz
 
-#PATCH_SITES+=   http://squid.nlanr.net/Squid/1.2.beta/
-#PATCHFILES+=    1.2.beta14.patches
+PATCH_SITES+=   http://squid.nlanr.net/Squid/1.2.beta/
+PATCHFILES+=    1.2.beta14.patches
 
 MAINTAINER=	peter@freebsd.org
 
