@@ -30,7 +30,7 @@ PATCHFILES=	03.typo.PATCH  \
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
-DIST_SUBDIR=	Mutt_${PKGNAME:S/^mutt-//}
+DIST_SUBDIR=	Mutt
 WRKSRC=		${WRKDIR}/${PKGNAME}
 PATCH_DIST_STRIP=	
 GNU_CONFIGURE=	yes
