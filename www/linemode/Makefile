@@ -1,5 +1,5 @@
 # New ports collection makefile for:	cern_linemode
-# Version required:	3.0 / 3.0
+# Version required:     4.0p7
 # Date created:		17 April 1995
 # Whom:			NIIMI Satoshi <sa2c@and.or.jp>
 #
@@ -7,17 +7,20 @@
 #
 
 DISTNAME=	WWW
-PKGNAME=	cern_linemode-3.0
+PKGNAME=        cern_linemode-4.0p7
 CATEGORIES+=	www
-MASTER_SITES=	ftp://ftp.w3.org/pub/www/src/
-DISTFILES=	WWWLineMode_3.0.tar.Z WWWLibrary_3.0.tar.Z
+MASTER_SITES=   ftp://ftp.w3.org/pub/linemode/ \
+		ftp://ftp.w3.org/pub/libwww/
+DISTFILES=      www_4.0pre7_src.tar.gz \
+		libwww_4.0pre7_src.tar.gz
 
 MAINTAINER=	sa2c@and.or.jp
 
-PATCH_STRIP=	-p1
+do-build:
+	cd ${WRKSRC}; ./BUILD linemode
 
 do-install:
-	install -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
-		${WRKSRC}/LineMode/unix/www ${PREFIX}/bin
+	${INSTALL} -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
+		${WRKSRC}/LineMode/freebsd/www ${PREFIX}/bin
 
 .include <bsd.port.mk>
