@@ -34,6 +34,7 @@
     SUBDIR += libsx
     SUBDIR += lupe
     SUBDIR += mlvwm
+    SUBDIR += mouseclock
     SUBDIR += neXtaw
     SUBDIR += olvwm
     SUBDIR += p5-Tcl-Tk
