@@ -9,7 +9,7 @@
 DISTNAME=       X-Files-1.43
 PKGNAME=	x-files-1.43
 CATEGORIES=	x11-fm tk80
-MASTER_SITES=   http://java.inf.tu-dresden.de/X-Files/data/
+MASTER_SITES=   http://www.hut.fi/~mkivinie/X-Files/data/
 
 MAINTAINER=     dmaddox@conterra.com
 
