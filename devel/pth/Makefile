@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	nps-0.9.18
+DISTNAME=	nps-0.9.19
 CATEGORIES=	devel
 MASTER_SITES=	http://www.engelschall.com/sw/nps/ \
 		ftp://ftp.engelschall.com/sw/nps/
