@@ -1,13 +1,13 @@
 # New ports collection makefile for:   gnomecore
-# Version required:    0.99.3.1
+# Version required:    0.99.3.2
 # Date created:        17 March 1998
 # Whom:                Yukihiro Nakai <Nakai@technologist.com>
 #
 # $Id$
 #
 
-DISTNAME=	gnome-core-0.99.3.1
-PKGNAME=	gnomecore-0.99.3.1
+DISTNAME=	gnome-core-0.99.3.2
+PKGNAME=	gnomecore-0.99.3.2
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/latest/ \
 		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
