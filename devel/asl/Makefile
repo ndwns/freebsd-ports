@@ -14,8 +14,6 @@ MASTER_SITE_SUBDIR=	devel/lang/assemblers
 
 MAINTAINER=	ports@FreeBSD.org
 
-BROKEN=		manpages
-
 MAN1=	asl.1 p2bin.1 p2hex.1 pbind.1 plist.1
 
 post-extract:
