@@ -80,7 +80,7 @@ ${SUBDIR}::
 
 .for __target in all fetch fetch-list package extract configure \
 		 build clean depend describe distclean reinstall tags checksum
-.if !target(__target)
+.if !target(${__target})
 ${__target}: _SUBDIRUSE
 .endif
 .endfor
