@@ -24,6 +24,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 
 BROKEN_ELF=	yes
 
+MAKE_ENV=	FILESDIR=${FILESDIR}
 MAN1= 		pine.1 pico.1 pilot.1
 
 post-patch:
