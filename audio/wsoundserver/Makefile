@@ -6,13 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	wmsound-0.9.2
+DISTNAME=	wmsound-0.9.3
 CATEGORIES=	audio windowmaker
 MASTER_SITES=	ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
 MAINTAINER=	gljohns@bellsouth.net
 
 BUILD_DEPENDS=	wmaker:${PORTSDIR}/x11-wm/windowmaker
+LIB_DEPENDS=	PropList.1:${PORTSDIR}/devel/libPropList
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
