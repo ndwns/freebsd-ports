@@ -34,7 +34,7 @@
     SUBDIR += squid11
     SUBDIR += w3
     SUBDIR += w3-msql
-    SUBDIR += w3c_httpd
+    SUBDIR += w3c-httpd
     SUBDIR += webcopy
     SUBDIR += weblint
     SUBDIR += wn
