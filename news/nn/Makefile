@@ -17,16 +17,17 @@ MAN1=		nn.1 nncheck.1 nngoback.1 nngrab.1  nngrep.1 nnpost.1 \
 MAN8=		nnmaster.8 nnspew.8
 
 pre-patch:
-	@cp ${WRKSRC}/config.h-dist ${WRKSRC}/config.h
+	@${CP} ${WRKSRC}/config.h-dist ${WRKSRC}/config.h
 
 pre-build:
-	@cp ${.CURDIR}/files/s-freebsd.h ${WRKSRC}/conf
+	@${CP} ${FILESDIR}/s-freebsd.h ${WRKSRC}/conf
 
 pre-install:
-	[ -r /usr/local/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
-	[ -r /usr/local/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
+	${MKDIR} ${PREFIX}/news
+	[ -r ${PREFIX}/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
+	[ -r ${PREFIX}/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
 
 post-install:
-	@echo Put your NNTP host into ${PREFIX}/etc/nntpserver file
+	@${ECHO} Put your NNTP host into ${PREFIX}/etc/nntpserver file
 
 .include <bsd.port.mk>
