@@ -140,6 +140,7 @@
     SUBDIR += p5-jcode.pl
     SUBDIR += p5-manual
     SUBDIR += p5-mkres
+    SUBDIR += paledit
     SUBDIR += perl5
     SUBDIR += pgp.language
     SUBDIR += pine
