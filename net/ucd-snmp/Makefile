@@ -12,6 +12,11 @@ MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         "does not work for 3.0 now"
+.endif
+
 GNU_CONFIGURE=	yes
 .if defined(PACKAGE_BUILDING)
 CONFIGURE_ARGS=	--with-distdefaults
