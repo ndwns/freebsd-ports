@@ -10,5 +10,7 @@ DISTNAME=	ucblogo
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
 MAKEFILE=	makefile
+WRKSRC=	${WRKDIR}
+HAS_CONFIGURE=	yes
 
 .include <bsd.port.mk>
