@@ -15,6 +15,7 @@ DISTFILES=	vim-3.0.tar.gz ${JPATCH}
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
+USE_XLIB=	yes
 LIB_DEPENDS=	${LIB_INPUT_METHOD}
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
 

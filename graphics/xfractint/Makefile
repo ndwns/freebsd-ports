@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 MAN1=		xfractint.1
 

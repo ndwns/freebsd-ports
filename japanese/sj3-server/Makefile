@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.sony.co.jp/pub/unsupported/src/ \
 
 MAINTAINER=	hidekazu@cs.titech.ac.jp
 
+BUILD_DPENDS=	xmkmf:${PORTSDIR}/x11/XFree86
+
 MAN1=		sj3.1 sj3dic.1 sj3mkdic.1 sj3serv.1
 MANLANG=	ja
 
