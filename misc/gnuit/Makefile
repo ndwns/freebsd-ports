@@ -11,8 +11,8 @@ CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 GNU_CONFIGURE=	YES
-MAN1=		git.1 gitmount.1 gitcmp.1 gitkeys.1 gitredir.1 gitrgrep.1 \
-		gitps.1 gitview.1
+MAN1=		git.1 gitaction.1 gitmount.1 gitcmp.1 gitkeys.1 \
+		gitredir.1 gitrgrep.1 gitps.1 gitview.1
 
 pre-install:
 	${CP} ${WRKSRC}/term/.gitrc.ansi \
