@@ -47,6 +47,7 @@
     SUBDIR += plan
     SUBDIR += rpm
     SUBDIR += screen
+    SUBDIR += sls
     SUBDIR += sma
     SUBDIR += splitvt
     SUBDIR += team
