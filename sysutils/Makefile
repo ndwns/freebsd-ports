@@ -13,6 +13,7 @@
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += gtar
+    SUBDIR += gtop
     SUBDIR += idled
     SUBDIR += lsof
     SUBDIR += manck
