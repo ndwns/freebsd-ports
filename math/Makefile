@@ -9,6 +9,7 @@
     SUBDIR += blas
     SUBDIR += calc
     SUBDIR += calctool
+    SUBDIR += dcdflib
     SUBDIR += eispack
     SUBDIR += eval
     SUBDIR += femlab
