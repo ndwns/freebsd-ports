@@ -14,7 +14,7 @@ CATEGORIES=    deskutils
 # servers only have the comp.sources.x version, with its distfile named
 # `part01.gz'.
 #
-MASTER_SITES=  ftp://ftp.hrz.th-darmstadt.de/pub/X11/R5contrib/
+MASTER_SITES=  ftp://ftp.hrz.tu-darmstadt.de/pub/X11/R5contrib/
 EXTRACT_SUFX=  .tar.Z
 
 MAINTAINER=    joerg@FreeBSD.ORG
