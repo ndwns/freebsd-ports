@@ -4,7 +4,7 @@
     SUBDIR += arc
     SUBDIR += gshar+gunshar
     SUBDIR += ha
-    SUBDIR += hpack.non-usa_only
+    SUBDIR += hpack.non-usa.only
     SUBDIR += lha
     SUBDIR += unarj
     SUBDIR += unrar
