@@ -21,7 +21,7 @@ MAN5=		faxqueue.5
 MAN8=		sendfax.8 mgetty.8 callback.8
 
 pre-install:
-	@(cd ${WRKSRC}/doc; ${GMAKE} manpages)
+	@(cd ${WRKSRC}/doc; ${MAKE} manpages)
 
 .if !defined(BATCH)
 post-install:
