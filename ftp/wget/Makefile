@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.dl.ac.uk/ccp14/ftp-mirror/wget/pub/unix/util/wget/ \
 		ftp://ftp.informatik.hu-berlin.de/gnu/wget/ \
 		ftp://ftp.uni-mainz.de/pub/gnu/wget/ \
-		ftp://ftp.max.irk.ru/pub/unix/net/www/wget/
+		ftp://ftp.max.irk.ru/unix/net/www/wget/
 MASTER_SITE_SUBDIR=	wget
 
 MAINTAINER=	obrien@FreeBSD.ORG
