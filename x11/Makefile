@@ -31,7 +31,7 @@
     SUBDIR += mlvwm
     SUBDIR += neXtaw
     SUBDIR += olvwm
-    SUBDIR += p5-Tk400
+    SUBDIR += p5-Tk
     SUBDIR += piewm
     SUBDIR += qt
     SUBDIR += qvwm

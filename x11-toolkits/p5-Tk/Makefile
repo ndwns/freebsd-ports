@@ -1,5 +1,5 @@
-# New ports collection makefile for:	p5-Tk400
-# Version required:			2.02
+# New ports collection makefile for:	p5-Tk
+# Version required:			400-2.02
 # Date created:				October 21st 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	Tk400.202
-PKGNAME=	p5-Tk400-2.02
+PKGNAME=	p5-Tk-2.02
 CATEGORIES=	x11 tk41 perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Tk
