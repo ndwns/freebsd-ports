@@ -42,6 +42,7 @@
     SUBDIR += libdnd
     SUBDIR += libsx
     SUBDIR += lupe
+    SUBDIR += mlclock
     SUBDIR += mlvwm
     SUBDIR += mouseclock
     SUBDIR += neXtaw
