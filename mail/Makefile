@@ -11,5 +11,6 @@
     SUBDIR += popper
     SUBDIR += procmail
     SUBDIR += smail
+    SUBDIR += xfmail
 
 .include <bsd.port.subdir.mk>
