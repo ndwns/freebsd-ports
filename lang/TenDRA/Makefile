@@ -51,7 +51,9 @@ pre-install:
 		INSTALL >INSTALL.install && \
 	chmod a+x INSTALL.install)
 
-do-install: ${TMPPLIST}
+do-install:
+
+post-install:
 	@${MKDIR} ${PREFIX}/lib/TenDRA
 	@(PATH=${WRKSRC}/bin:$$PATH && \
 	cd ${WRKSRC} && \
