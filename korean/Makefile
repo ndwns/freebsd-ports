@@ -15,7 +15,6 @@
     SUBDIR += hanyangfonts
     SUBDIR += hcode
     SUBDIR += helvis
-    SUBDIR += hfvwm2
     SUBDIR += hlatexpsfonts
     SUBDIR += hmconv
     SUBDIR += hpscat
