@@ -8,6 +8,6 @@
 
 DISTNAME=       bash-1.14.4
 CATEGORIES+=	shells
-MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/hidden/
+MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 
 .include <bsd.port.mk>
