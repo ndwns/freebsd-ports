@@ -13,6 +13,7 @@
     SUBDIR += ctk
     SUBDIR += deco
     SUBDIR += dejagnu
+    SUBDIR += diction
     SUBDIR += display
     SUBDIR += dotfile
     SUBDIR += estic
