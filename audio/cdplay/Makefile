@@ -12,4 +12,10 @@ MASTER_SITES=	ftp://ftp.one.sci.fi/pub/cdplay/
 
 MAINTAINER=    anttik@iki.fi
 
+pre-patch:
+	@${GUNZIP_CMD} ${WRKSRC}/cdplay.1.gz
+
+post-patch:
+	@${GZIP_CMD} ${WRKSRC}/cdplay.1
+
 .include <bsd.port.mk>
