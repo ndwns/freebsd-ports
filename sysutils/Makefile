@@ -2,6 +2,7 @@
 #
 
     SUBDIR += afio
+    SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += rtty
     SUBDIR += socket

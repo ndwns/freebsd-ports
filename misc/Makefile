@@ -22,7 +22,6 @@
     SUBDIR += less
     SUBDIR += linuxls
     SUBDIR += logsurfer
-    SUBDIR += lsof
     SUBDIR += mc
     SUBDIR += mmv
     SUBDIR += mshell
