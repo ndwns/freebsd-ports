@@ -8,7 +8,8 @@
 
 DISTNAME=	emacs-19.25
 USE_GMAKE=	yes
-GNU_CONFIGURE=	yes
+HAS_CONFIGURE=	yes
+CONFIGURE_ARGS=	i386--freebsd
 HOME_LOCATION=	prep.ai.mit.edu:~ftp/pub/gnu
 
 .include <bsd.port.mk>
