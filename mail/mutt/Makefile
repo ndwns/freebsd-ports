@@ -33,7 +33,7 @@ LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 BUILD_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell
 .if ${MACHINE_ARCH} != "alpha"
 #  coredump in sgmls
-BUILD_DEPEND+=	sgmlfmt:${PORTSDIR}/textproc/sgmlformat
+BUILD_DEPENDS+=	sgmlfmt:${PORTSDIR}/textproc/sgmlformat
 .endif
 RUN_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell
 .elif defined(USE_NCURSES_PORT)
