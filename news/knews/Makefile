@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.nada.kth.se/home/su95-kjo/knews/ \
 	ftp://ftp.germany.eu.net/pub/os/Linux/Mirror.SunSITE/X11/xapps/networked/ \
 	ftp://ftp.funet.fi/pub/mirrors/sunsite.unc.edu/pub/Linux/X11/xapps/networked/
 
-MAINTAINER=	andreas@klemm.gtn.com
+MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
