@@ -49,6 +49,7 @@
     SUBDIR += lclint
     SUBDIR += libPropListgnome
     SUBDIR += libU77
+    SUBDIR += libcii
     SUBDIR += libdlmalloc
     SUBDIR += libffi
     SUBDIR += libgtop
