@@ -14,9 +14,7 @@ MASTER_SITE_SUBDIR=	../../authors/id/RAM/
 
 MAINTAINER=	max@FreeBSD.ORG
 
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
-BUILD_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
-
+USE_PERL5=	yes
 NO_PACKAGE=	"Correct FQDN needs to be hardcoded"
 IS_INTERACTIVE=		yes
 HAS_CONFIGURE=		yes
