@@ -12,7 +12,6 @@ MASTER_SITES=	ftp://koobera.math.uic.edu/www/software/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-NO_PACKAGE=	"Very unclear copyright information"
 ALL_TARGET=	it
 
 .include <bsd.port.mk>
