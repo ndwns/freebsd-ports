@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ucd-snmp
-# Version required:			3.1
+# Version required:			3.1.3
 # Date created:				26 June 1996
 # Whom:					gpalmer
 #
