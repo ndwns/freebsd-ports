@@ -46,6 +46,7 @@
     SUBDIR += ucd-snmp
     SUBDIR += wais
     SUBDIR += wide-dhcp
+    SUBDIR += wget
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
     SUBDIR += xgopher
