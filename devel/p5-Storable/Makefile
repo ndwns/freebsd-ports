@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	Storable
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN=		fetch
+
 USE_PERL5=	YES
 
 WRKSRC=		${WRKDIR}/Storable-0.6@2
