@@ -1,5 +1,5 @@
 # New ports collection makefile for:	plan
-# Version required:			1.7.1
+# Version required:			1.7.2
 # Date created:				14 April 1996
 # Whom:	Daniel Eischen <deischen@iworks.InterWorks.org>
 #
@@ -8,7 +8,7 @@
 
 #	Also update	ports/japanese/plan/ (ja-plan) when this port is updated
 
-DISTNAME=	plan-1.7.1
+DISTNAME=	plan-1.7.2
 CATEGORIES=	deskutils
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		ftp://ftp.fu-berlin.de/pub/unix/graphics/plan/
@@ -17,7 +17,7 @@ MASTER_SITE_SUBDIR=	applications
 MAINTAINER=	deischen@iworks.InterWorks.org
 
 REQUIRES_MOTIF=	yes
-WRKSRC=		${WRKDIR}/${DISTNAME}/src
+WRKSRC=		${WRKDIR}/src
 ALL_TARGET=	freebsd
 MAN1=		netplan.1 plan.1
 MAN4=		plan.4
