@@ -19,6 +19,5 @@ IS_INTERACTIVE=	yes
 pre-install:
 	@mkdir -p ${PREFIX}/lib/texmf
 	@mkdir -p ${PREFIX}/man/man1
-	@if -f ${SCRIPTDIR}/install.tmp; then sh ${SCRIPTDIR}/install.tmp; fi
 
 .include <bsd.port.mk>
