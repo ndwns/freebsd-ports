@@ -15,7 +15,8 @@ MASTER_SITES=	ftp://ftp.md.chalmers.se/pub/tkrat/ \
 
 MAINTAINER=	bgingery@gtcs.com
 
-BUILD_DEPENDS=	tclsh:${PORTSDIR}/lang/tcl80
+BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80 \
+		${PORTSDIR}/mail/imap-uw/work/imap-4.1.BETA/c-client:${PORTSDIR}/mail/imap-uw
 LIB_DEPENDS=	c-client\\.2\\.1:${PORTSDIR}/mail/imap-uw \
 		tk80\\.1:${PORTSDIR}/x11/tk80
 
