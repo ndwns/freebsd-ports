@@ -55,7 +55,6 @@
     SUBDIR += kdebase11
     SUBDIR += kdelibs
     SUBDIR += kdelibs11
-    SUBDIR += ktranslator
     SUBDIR += kvidtune
     SUBDIR += kworldwatch
     SUBDIR += libdnd
