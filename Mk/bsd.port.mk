@@ -207,34 +207,6 @@
 .include "${.CURDIR}/../Makefile.inc"
 .endif
 
-# Support for an encapsulation in /usr/src - these are essentially simplied ports
-# and have a number of defaults we can presume right off the bat.
-.if defined(SRC_ENCAPSULATION)
-.if exists (${BSDOBJDIR}/${.CURDIR})
-WRKDIR=${BSDOBJDIR}/${.CURDIR}
-.else
-NO_WRKDIR=			yes
-.endif
-
-# Disable things that should be disabled for encapsulations.
-NO_PACKAGE=			yes
-NO_MTREE=			yes
-NO_FETCH=			yes
-NO_PKG_REGISTER=	yes
-describe:
-	@${DO_NADA}
-
-# Finally, give us working obj and cleandir targets to make us more compatible
-# with "traditional" /usr/src ports.
-.include <bsd.obj.mk>
-
-.if !target(distribute)
-distribute:
-	@cd ${.CURDIR} && ${MAKE} install DESTDIR=${DISTDIR}/${DISTRIBUTION}
-.endif
-.endif
-# end of SRC_ENCAPSULATION defines
-
 
 # These need to be absolute since we don't know how deep in the ports
 # tree we are and thus can't go relative.  They can, of course, be overridden
