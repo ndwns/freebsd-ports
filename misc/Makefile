@@ -36,6 +36,7 @@
     SUBDIR += most
     SUBDIR += mshell
     SUBDIR += nwrite
+    SUBDIR += offix-trash
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
     SUBDIR += p5-Locale-Codes
