@@ -6,6 +6,7 @@
     SUBDIR += aero
     SUBDIR += dore
     SUBDIR += geomview
+    SUBDIR += gd
     SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
