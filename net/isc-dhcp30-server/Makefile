@@ -12,13 +12,9 @@ CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.vix.com/pub/dhcp/
 
 MAINTAINER=	se@FreeBSD.ORG
+HAS_CONFIGURE=	yes
 
 MAN5=		dhcpd.conf.5${ZEXTENSION}
 MAN8=		dhcpd.8${ZEXTENSION}
-
-do-install:
-	cd ${WRKSRC}; $(INSTALL_PROGRAM) dhcpd dhclient $(PREFIX)/sbin
-	cd ${WRKSRC}; $(INSTALL_MAN) dhcpd.conf.5${ZEXTENSION} $(PREFIX)/man/man5
-	cd ${WRKSRC}; $(INSTALL_MAN) dhcpd.8${ZEXTENSION} $(PREFIX)/man/man8
 
 .include <bsd.port.mk>
