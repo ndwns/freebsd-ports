@@ -172,11 +172,7 @@ rcmd_af(ahost, rport, locuser, remuser, cmd, fd2p, af)
 			continue;
 		}
 		if (refused && timo <= 16) {
-			struct timespec time_to_sleep, time_remaining;
-
-			time_to_sleep.tv_sec = timo;
-			time_to_sleep.tv_nsec = 0;
-			(void)_nanosleep(&time_to_sleep, &time_remaining);
+			sleep(timo);
 			
 			timo *= 2;
 			ai = res;
