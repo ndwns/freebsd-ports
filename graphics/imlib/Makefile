@@ -18,9 +18,6 @@ LIB_DEPENDS=	png\\.0\\.:${PORTSDIR}/graphics/png \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib
-RUN_DEPENDS=	djpeg:${PORTSDIR}/graphics/jpeg \
-		tgatoppm:${PORTSDIR}/graphics/netpbm \
-		convert:${PORTSDIR}/graphics/ImageMagick
 
 USE_GMAKE=	yes
 USE_X11=	ues
