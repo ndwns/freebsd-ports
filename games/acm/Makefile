@@ -15,7 +15,7 @@ MAINTAINER=	joerg@FreeBSD.org
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 STRIP=
-MAN1=		acm.1
+MAN6=		acm.6
 
 .include <bsd.port.mk>
 

@@ -17,6 +17,6 @@ RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 
 PATCH_STRIP=	-p1
 WRKSRC=		${WRKDIR}/release
-MAN1=		tksol.1
+MAN6=		tksol.6
 
 .include <bsd.port.mk>

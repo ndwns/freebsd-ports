@@ -16,6 +16,6 @@ MAINTAINER=	joerg@FreeBSD.org
 LIB_DEPENDS=    Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
 
 USE_IMAKE=      yes
-MAN1=		xmine.1
+MAN6=		xmine.6
 
 .include <bsd.port.mk>
