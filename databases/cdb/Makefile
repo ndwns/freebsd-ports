@@ -13,5 +13,7 @@ MASTER_SITES=	ftp://koobera.math.uic.edu/www/software/
 MAINTAINER=	ports@FreeBSD.ORG
 
 ALL_TARGET=	it
+MAN1=		cdbget.1 cdbmake.1 cdbdump.1 cdbstats.1 cdbtest.1
+MAN3=		cdb.3
 
 .include <bsd.port.mk>
