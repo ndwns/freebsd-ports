@@ -16,8 +16,8 @@ MAINTAINER=	chuckr@freebsd.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
-
-RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
+		ppmtogif:${PORTSDIR}/graphics/netpbm
 
 USE_IMAKE=	yes
 
