@@ -89,6 +89,7 @@
     SUBDIR += oonsoo
     SUBDIR += phalanx
     SUBDIR += pmars
+    SUBDIR += powerpak
     SUBDIR += pp
     SUBDIR += pysol
     SUBDIR += qcc
