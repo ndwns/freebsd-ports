@@ -5,8 +5,8 @@
 #
 # $Id$
 
-DISTNAME=	postgresql-v6.1
-PKGNAME=	postgresql-6.1
+DISTNAME=	postgresql-v6.1.1
+PKGNAME=	postgresql-6.1.1
 CATEGORIES=	databases
 MASTER_SITES=	ftp://ftp.PostgreSQL.org/pub/ \
 		ftp://ftp.luga.or.at/pub/postgres95/ \
