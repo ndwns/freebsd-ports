@@ -27,5 +27,6 @@
     SUBDIR += wine
     SUBDIR += x48
     SUBDIR += xgs
+    SUBDIR += xzx
 
 .include <bsd.port.subdir.mk>
