@@ -8,12 +8,13 @@
 
 DISTNAME=	exim-2.053
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/Testing/
+MASTER_SITES=	ftp://ftp.quite.net/pub/exim/Testing/ \
+		http://www.exim.org/ftp/Testing/ \
+		ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/Testing/ \
+		ftp://ftp.is.co.za/networking/mail/transport/exim/Testing/
 DISTFILES=	exim-testing-2.053.tar.gz exim-texinfo-2.00.tar.gz
 
 MAINTAINER=	axl@iafrica.com
-
-BROKEN=		fetch
 
 USE_PERL5=	YES
 
