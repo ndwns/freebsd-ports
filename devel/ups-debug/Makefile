@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR= utilities
 
 MAINTAINER=     obrien@FreeBSD.org
 
-ALL_TARGET=	ups
+ALL_TARGET=	ups ups
 MAN1=		ups.1
 
 .include <bsd.port.mk>
