@@ -77,7 +77,7 @@ fetch-depends:
 	@echo resident or NO otherwise.
 	@echo If you are a USA resident you have to get the RSAREF2
 	@echo library \(RSA Inc. holds a patent on RSA and public key
-	@echo cypto in general - using RSA implementations other thann
+	@echo cypto in general - using RSA implementations other than
 	@echo RSAREF will violate the US patent law\)
 	@echo and extract it to ${WRKSRC}.
 	@false
