@@ -9,7 +9,8 @@
 DISTNAME=       scm
 PKGNAME=	scm-4e1
 CATEGORIES=	lang
-MASTER_SITES=   ftp://swiss-ftp.ai.mit.edu/pub/scm/
+MASTER_SITES=   ftp://swiss-ftp.ai.mit.edu/pub/scm/ \
+		ftp://swiss-ftp.ai.mit.edu/pub/scm/OLD/
 DISTFILES=      scm4e1.tar.gz \
 		slib.info.tar.gz slib2a2.tar.gz slib-psd1-3.tar.gz \
 		scmconfig4e1.tar.gz
