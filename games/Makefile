@@ -46,6 +46,7 @@
     SUBDIR += garith
     SUBDIR += gemdropx
     SUBDIR += gleyes
+    SUBDIR += gma
     SUBDIR += gnomegames
     SUBDIR += gnuchess
     SUBDIR += gnugo
