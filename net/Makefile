@@ -2,7 +2,6 @@
 #
 
     SUBDIR += SSLtelnet
-    SUBDIR += am-utils
     SUBDIR += archie
     SUBDIR += argus
     SUBDIR += arla
