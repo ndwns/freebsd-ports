@@ -23,6 +23,7 @@
     SUBDIR += netscape.language
     SUBDIR += nkf
     SUBDIR += okphone
+    SUBDIR += pkfonts
     SUBDIR += platex
     SUBDIR += ptex
     SUBDIR += ptex2
