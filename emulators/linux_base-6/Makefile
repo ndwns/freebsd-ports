@@ -13,7 +13,7 @@ MAINTAINER=	erich@FreeBSD.org
 PREFIX=		/compat/linux/
 WRKSRC=		${WRKDIR}
 
-pre-build:
-	@mkdir -p ${PREFIX}
+pre-install:
+	@[ -d ${PREFIX} ] || mkdir -p ${PREFIX}
 
 .include <bsd.port.mk>
