@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	pst@FreeBSD.ORG
 
 # need to byte-compile a .el file
-BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
+BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs20
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
