@@ -8,7 +8,7 @@
 
 DISTNAME=	wmmon-1.0b2
 CATEGORIES=	sysutils windowmaker
-MASTER_SITES=	ftp://ftp.mezaway.org/pub/ \
+MASTER_SITES=	ftp://ftp.mezaway.org/pub/DockApps/ \
 		http://www.physics.adelaide.edu.au/~kkennawa/ \
 		ftp://ftp.tecnogi.com/pub/linux/WindowMaker/ \
 		ftp://ftp.deva.net/pub/sources/X11/WindowMaker/dockapps/ \
