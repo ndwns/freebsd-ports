@@ -3,7 +3,7 @@
 # Date created:				October 20th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $Id$
 #
 
 DISTNAME=	Crypt-IDEA-1.0
@@ -14,12 +14,12 @@ MASTER_SITE_SUBDIR=	Crypt
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BROKEN=		perl5 upgrade
+RESTRICTED=	"Crypto; export-controlled"
 
 USE_PERL5=	YES
 
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Crypt::IDEA.3
-MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
