@@ -1,18 +1,17 @@
 # New ports collection makefile for:	freetype
-# Version required:	JAN-21-1998 snapshot
+# Version required:	1.0
 # Date created:		January 24, 1998
 # Whom:			jseger@FreeBSD.org
 #
 # $Id$
 #
 
-DISTNAME=	freetype-980121
+DISTNAME=	freetype-1.0
 CATEGORIES=	print
-MASTER_SITES=	http://www.freebsd.org/~jseger/
+MASTER_SITES=	ftp://ftp.physiol.med.tu-muenchen.de/pub/freetype/
 
 MAINTAINER=	jseger@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/freetype-current
 USE_GMAKE=	YES
 GNU_CONFIGURE=	YES
 
