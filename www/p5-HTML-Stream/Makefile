@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-HTML-Stream
-# Version required:			1.40
+# Version required:			1.44
 # Date created:				October 20th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $Id$
 #
 
-DISTNAME=	HTML-Stream-1.40
-PKGNAME=	p5-HTML-Stream-1.40
+DISTNAME=	HTML-Stream-1.44
+PKGNAME=	p5-HTML-Stream-1.44
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	HTML
