@@ -15,6 +15,7 @@
     SUBDIR += doom
     SUBDIR += empire
     SUBDIR += flying
+    SUBDIR += freeciv
     SUBDIR += galaxis
     SUBDIR += gnuchess
     SUBDIR += gnugo
