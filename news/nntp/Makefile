@@ -11,7 +11,7 @@ MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 #DO_NADA=	echo ${.TARGET}:
 #DEPENDS=	news/cnews
 
-pre-configure:
+pre-patch:
 	@cp ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h
 
 .include <bsd.port.mk>
