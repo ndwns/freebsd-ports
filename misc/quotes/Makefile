@@ -20,7 +20,6 @@ NO_BUILD=	yes
 USE_PERL5=	yes
 
 post-patch:
-
 	@ ${MV} ${WRKSRC}/quotes ${WRKSRC}/quotes.pre_sed
 	@ ${SED} -e 's#/usr/bin/perl#${PERL5}#' ${WRKSRC}/quotes.pre_sed \
 	> ${WRKSRC}/quotes
@@ -32,7 +31,6 @@ post-patch:
 	> ${WRKSRC}/QuExample.pm
 
 do-install:
-
 	@ ${INSTALL_SCRIPT} ${WRKSRC}/quotes ${PREFIX}/bin
 	@ ${INSTALL_SCRIPT} ${WRKSRC}/quotesmailer ${PREFIX}/bin
 	@ ${INSTALL_DATA} ${WRKSRC}/sample.quotesrc ${PREFIX}/etc/quotesrc.sample
