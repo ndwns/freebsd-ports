@@ -32,6 +32,7 @@ pre-install:
 
 post-install:
 		@ ln -sf ${PREFIX}/majordomo/Tools/digest ${PREFIX}/majordomo
+		@ ln -sf ${PREFIX}/majordomo/Tools/archive2.pl ${PREFIX}/majordomo/archive
 		@ for dir in tmp lists/test-l.archive lists/test-l-digest.archive digests/test-l-digest doc; do \
 			${MKDIR} -p ${PREFIX}/majordomo/$$dir; \
 		done
