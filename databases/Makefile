@@ -13,6 +13,7 @@
     SUBDIR += p5-Pg
     SUBDIR += pgaccess
     SUBDIR += postgresql
+    SUBDIR += tkgnats
     SUBDIR += typhoon
     SUBDIR += xmbase-grok
     SUBDIR += xmysql
