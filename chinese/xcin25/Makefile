@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.freebsd.org/~vanilla/ \
 
 MAINTAINER=     yssu@CCCA.NCTU.edu.tw
 
-RUN_DEPENDS=	${X11BASE}/lib/X11/fonts/chinese/kc15f.pcf.gz:${PORTSDIR}/chinese/kcfonts
+RUN_DEPENDS=	${X11BASE}/lib/X11/fonts/local/kc15f.pcf.gz:${PORTSDIR}/chinese/kcfonts
 
 USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
