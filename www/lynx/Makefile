@@ -25,5 +25,6 @@ WRKSRC=		${WRKDIR}/lynx2-8-1
 post-install:
 	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/lib/lynx_help
 	chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/etc/lynx.cfg
+	${INSTALL_DATA} ${WRKSRC}/lynx.cfg ${PREFIX}/etc/lynx.cfg.default
 
 .include <bsd.port.mk>
