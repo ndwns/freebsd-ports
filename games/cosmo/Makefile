@@ -8,7 +8,7 @@
 
 DISTNAME=	cosmo-2.0.4
 CATEGORIES=	games
-MASTER_SITES=	http://cheer.u-aizu.ac.jp:10080/~eiju/cosmo/
+MASTER_SITES=	ftp://ftp.jinr.ru/pub/PD/cosmo/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}  moon.tif.gz
 
 MAINTAINER=	nacai@iname.com
