@@ -14,16 +14,7 @@ MASTER_SITE_SUBDIR=	Tk
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-#BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/HTML/Parse.pm:${PORTSDIR}/www/p5-libwww
-LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
-
 USE_PERL5=	YES
-
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=         perl
-.endif
-
 
 MAN1=	ptked.1 ptksh.1 widget.1
 
