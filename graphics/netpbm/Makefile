@@ -5,12 +5,12 @@
 #
 # $Id$
 #
- 
+
 DISTNAME=	netpbm
 DISTFILES=	netpbm-1mar1994.tar.gz
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 USE_IMAKE=	yes
 INSTALL_MANPAGES=	yes
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
 
 .include <bsd.port.mk>
