@@ -18,4 +18,7 @@ GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 MAN8=		rpm.8 rpm2cpio.8
 
+pre-install:
+	${MKDIR} ${PREFIX}/include/rpm
+
 .include <bsd.port.mk>
