@@ -44,6 +44,7 @@
     SUBDIR += xpostit
     SUBDIR += xscreensaver
     SUBDIR += xsnow
+    SUBDIR += xtacy
     SUBDIR += xview-config
     SUBDIR += xview-lib
     SUBDIR += xview-clients
