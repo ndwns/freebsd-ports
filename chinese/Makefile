@@ -26,6 +26,7 @@
     SUBDIR += pine4
     SUBDIR += rxvt
     SUBDIR += ted
+    SUBDIR += telnet
     SUBDIR += tin
     SUBDIR += xcin
 
