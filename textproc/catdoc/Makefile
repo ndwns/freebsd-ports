@@ -6,19 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	catdoc-0.3
+DISTNAME=	catdoc-0.35
 CATEGORIES=	textproc
-MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
-MASTER_SITE_SUBDIR=	support/catdoc
-DISTFILES=	catdoc.c catdoc.1 wordview
+MASTER_SITES=	http://www.ice.ru/~vitus/works/
 
 MAINTAINER=	brion@queeg.com
-
-DIST_SUBDIR=	catdoc
-NO_WRKSUBDIR=	yes
-EXTRACT_CMD=	${CP}
-EXTRACT_BEFORE_ARGS=
-EXTRACT_AFTER_ARGS=	.
 
 MAN1=		catdoc.1
 
@@ -26,7 +18,7 @@ MAN1=		catdoc.1
 CFLAGS+=	-DLATIN1=1
 
 # The wordview tcl/tk script is small and not required.  If the user
-# has tk, it will work.  It comes preset for tk-8.0, but works with less.
+# has tk, it will work.  It comes preset for tcl/tk-8.0, but works with tcl-76.
 
 do-build:
 	(cd ${WRKSRC} && ${CC} ${CFLAGS} -o catdoc catdoc.c)
