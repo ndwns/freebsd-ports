@@ -92,6 +92,7 @@
     SUBDIR += ksamba
     SUBDIR += ldap
     SUBDIR += lftp
+    SUBDIR += libicq
     SUBDIR += libsocket++
     SUBDIR += licq
     SUBDIR += llnlxdir
