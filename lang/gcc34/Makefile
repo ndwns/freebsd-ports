@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.cygnus.com/pub/egcs/releases/egcs-1.0.1/ \
 
 MAINTAINER=	jdp@polstra.com
 
+MANUAL_PACKAGE_BUILD=	installs libstdc++.a which conflicts with system version
+
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld i386-unknown-freebsd
