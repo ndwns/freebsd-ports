@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ja-slrn
-# Version required:	0.9.5.2
+# Version required:	0.9.5.4
 # Date created:		26 Jun 1998
 # Whom:			Takashi Mega <mega@minz.org>
 #
@@ -18,7 +18,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	mega@minz.org
 
-LIB_DEPENDS=	slang.1:${PORTSDIR}/japanese/libslang
+LIB_DEPENDS=	slang.2:${PORTSDIR}/japanese/libslang
 
 WRKSRC=         ${WRKDIR}/slrn
 JDOCSRC=	${WRKDIR}/slrn-doc-j0.9.5.3-0
