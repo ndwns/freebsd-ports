@@ -15,7 +15,11 @@
     SUBDIR += ircII
     SUBDIR += kakasi
     SUBDIR += kinput2-canna
+    SUBDIR += kinput2-canna+sj3
+    SUBDIR += kinput2-canna+sj3+wnn
     SUBDIR += kinput2-canna+wnn
+    SUBDIR += kinput2-sj3
+    SUBDIR += kinput2-sj3+wnn
     SUBDIR += kinput2-wnn
     SUBDIR += kon
     SUBDIR += kterm
