@@ -7,14 +7,14 @@
 #
 
 DISTNAME=	a2ps
-PKGNAME=	a2ps-${PAPERSIZE}-4.9.7
+PKGNAME=	a2ps-${PAPERSIZE}-4.9.8
 CATEGORIES=	print
 MASTER_SITES=	http://www-inf.enst.fr/~demaille/ftp/a2ps/
-DISTFILES=	a2ps-4.9.7.tar.gz
+DISTFILES=	a2ps-4.9.8.tar.gz
 
 MAINTAINER=	chuckr@FreeBSD.org
 
-WRKSRC=		$(WRKDIR)/$(DISTNAME)-4.9.7
+WRKSRC=		$(WRKDIR)/$(DISTNAME)-4.9.8
 GNU_CONFIGURE=	yes
 MAN1=		a2ps.1 ogonkify.1
 
@@ -40,6 +40,10 @@ A4::
 
 a4::
 	$(MAKE) PAPERSIZE=A4
+
+pre-build:
+	/usr/bin/touch $(WRKSRC)/doc/*.info
+	/usr/bin/touch $(WRKSRC)/doc/*.dvi
 
 pre-configure:
 .if empty(PAPERSIZE)
