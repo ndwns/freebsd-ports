@@ -30,6 +30,7 @@
     SUBDIR += mkhybrid
     SUBDIR += mkhybrid12
     SUBDIR += mkisofs
+    SUBDIR += mkisofs112
     SUBDIR += no-login
     SUBDIR += npadmin
     SUBDIR += pib
