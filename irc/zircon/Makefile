@@ -1,16 +1,16 @@
 # New ports collection makefile for:	zircon
-# Version required:	1.18.31
+# Version required:	1.18.85
 # Date created:		19 Aug 1995
 # Whom:			jkh / pst
 #
 # $Id$
 #
 
-DISTNAME=	zircon-1.18.79
+DISTNAME=	zircon-1.18.85
 CATEGORIES=	net tk80
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	jseger@FreeBSD.org
 
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
