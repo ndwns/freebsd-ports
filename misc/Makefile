@@ -84,6 +84,7 @@
     SUBDIR += tkinfo
     SUBDIR += tkman
     SUBDIR += tkrunit
+    SUBDIR += toolbox
     SUBDIR += uk-phone
     SUBDIR += uk-postcodes
     SUBDIR += unclutter
