@@ -16,6 +16,7 @@ CONFIGURE_ARGS=	--with-ncurses
 STRIP=
 
 post-install:
+	@/usr/bin/strip ${PREFIX}/bin/mc ${PREFIX}/sbin/mcserv
 .if !defined(NOMANCOMPRESS)
 	@gzip -9nf ${PREFIX}/man/man1/mc.1 ${PREFIX}/man/man8/mcserv.8
 .endif
