@@ -39,6 +39,7 @@
     SUBDIR += psmisc
     SUBDIR += rdate
     SUBDIR += rtty
+    SUBDIR += sdd
     SUBDIR += setquota
     SUBDIR += skill
     SUBDIR += socket
