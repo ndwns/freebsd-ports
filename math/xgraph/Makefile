@@ -13,5 +13,6 @@ MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/misc/
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xgraph.1
 
 .include <bsd.port.mk>
