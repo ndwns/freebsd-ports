@@ -9,13 +9,13 @@
 DISTNAME=	xminehunter-0.3
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	games/
+MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	tg@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-PREFIX=		${X11BASE}
+USE_X11=	yes
 WRKSRC=		${WRKDIR}/xminehunter
 REQUIRES_MOTIF=	yes
 ALL_TARGET=	xminehunter
