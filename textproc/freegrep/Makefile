@@ -3,7 +3,7 @@
 # Date created:		8 June 1999
 # Whom:			Sheldon Hearn <sheldonh@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	grep-0.11

@@ -3,7 +3,7 @@
 # Date created:		18 Feb 1996
 # Whom:			Thomas Gellekum <tg@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	unroff-1.0

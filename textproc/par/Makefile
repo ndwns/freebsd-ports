@@ -3,7 +3,7 @@
 # Date created:         6 Aug 1997
 # Whom:                 mark@grondar.za
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Par150

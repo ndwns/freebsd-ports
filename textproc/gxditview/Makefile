@@ -3,7 +3,7 @@
 # Date created:                24 June 1998
 # Whom:                        Dom Mitchell <dom@myrddin.demon.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 # Same version as the contrib groff sources...

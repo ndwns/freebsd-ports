@@ -3,7 +3,7 @@
 # Date created:				28 September 1998
 # Whom:					Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libxml-1.4.0

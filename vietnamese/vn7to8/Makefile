@@ -3,7 +3,7 @@
 # Date created:         Tue Dec 3, 1996
 # Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
 #
-# $Id$
+# $FreeBSD$
 #
 #	version # is VISCII version supported + .<edit_revision>
 

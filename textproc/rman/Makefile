@@ -3,7 +3,7 @@
 # Date created:         27 Dec 1994
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rman-3.0.7

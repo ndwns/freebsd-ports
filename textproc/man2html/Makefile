@@ -3,7 +3,7 @@
 # Date created:				29 August 1998
 # Whom:                			Dima Sivachenko <demon@gpad.ac.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	man2html3.0.1

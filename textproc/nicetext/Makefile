@@ -3,7 +3,7 @@
 # Date created:		20 February 1998
 # Whom:			Mark Chapman <markc@ctgi.net>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	nicetext-0.9
 CATEGORIES=	textproc

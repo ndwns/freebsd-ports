@@ -4,7 +4,7 @@
 # Date created:         5 February 1999
 # Whom:                 Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	br.ispell-2.2

@@ -3,7 +3,7 @@
 # Date created:        11 November 1997
 # Whom:                Brion Moss <brion@queeg.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	catdoc-0.90.3

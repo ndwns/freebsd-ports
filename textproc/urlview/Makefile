@@ -3,7 +3,7 @@
 # Date created:		21 April 1998
 # Whom:			Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	urlview-0.7

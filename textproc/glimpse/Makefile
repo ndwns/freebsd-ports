@@ -3,7 +3,7 @@
 # Date created:		25 August 1996
 # Whom:			chuckr@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       glimpse-4.1.src

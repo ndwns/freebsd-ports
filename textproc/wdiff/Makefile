@@ -3,7 +3,7 @@
 # Date created:		Sep 15, 1997
 # Whom:			Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wdiff-0.5

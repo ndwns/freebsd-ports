@@ -3,7 +3,7 @@
 # Date created:    			Apr 29 1998
 # Whom: 				<koshy@india.hp.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sgrep-0.99

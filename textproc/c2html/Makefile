@@ -3,7 +3,7 @@
 # Date created:				28 October 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		c2html-0.6.1

@@ -3,7 +3,7 @@
 # Date created:		July 16, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sgmlformat-1.7

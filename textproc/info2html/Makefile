@@ -3,7 +3,7 @@
 # Date created:         9 October 1997
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       info2html-1.1

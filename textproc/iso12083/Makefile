@@ -3,7 +3,7 @@
 # Date created:		July 9, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	iso12083-1993

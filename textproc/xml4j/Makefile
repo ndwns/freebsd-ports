@@ -3,7 +3,7 @@
 # Date created:		16 May 1999
 # Whom:			Jun Kuriyama <kuriyama@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xml4j_2_0_14

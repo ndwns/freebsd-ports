@@ -3,7 +3,7 @@
 # Date created:         22 Oct 1997
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	yodl-1.22

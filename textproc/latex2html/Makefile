@@ -3,7 +3,7 @@
 # Date created:		3 May 1998
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	latex2html-98.1p1

@@ -3,7 +3,7 @@
 # Date created:				21 March 1999
 # Whom:					Martin Kammerhofer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		java2html-0.6.1

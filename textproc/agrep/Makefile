@@ -4,7 +4,7 @@
 # Date created:			  Fri May 23, 1997
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	agrep-2.04

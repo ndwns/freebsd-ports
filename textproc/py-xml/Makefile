@@ -3,7 +3,7 @@
 # Date created:				04/17/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xml-0.5.1

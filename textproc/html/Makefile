@@ -3,7 +3,7 @@
 # Date created:		Sept 19, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	html-4.0b

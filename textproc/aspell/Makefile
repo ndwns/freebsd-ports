@@ -3,7 +3,7 @@
 # Date created:		7 December 1998
 # Whom:			Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	aspell-.28.2.1

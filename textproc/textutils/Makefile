@@ -3,7 +3,7 @@
 # Date created:		14 May 1998
 # Whom:			Adrian Wontroba <aw1@stade.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	textutils-1.22

@@ -3,7 +3,7 @@
 # Date created:		16 March 1998
 # Whom:			Jun Kuriyama <kuriyama@opt.phys.waseda.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	db144

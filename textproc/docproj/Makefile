@@ -3,7 +3,7 @@
 # Date created:        27 June 1998
 # Whom:                Nik Clayton <nik@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	docproj

@@ -4,7 +4,7 @@
 # Date created:         6 November 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ispell-3.1

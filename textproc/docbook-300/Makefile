@@ -5,7 +5,7 @@
 #
 # Based heavily on work by jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	docbook-3.0

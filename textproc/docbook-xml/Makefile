@@ -3,7 +3,7 @@
 # Date created:		28 March 1999
 # Whom:			kuriyama
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	db3x314

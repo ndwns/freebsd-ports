@@ -3,7 +3,7 @@
 # Date created:        14 Jan 1999
 # Whom:                faber@lunabase.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	grap-0.95b

@@ -3,7 +3,7 @@
 # Date created:			Sun Jul 18 1999
 # Whom:				domi@saargate.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gdict-0.7

@@ -4,7 +4,7 @@
 # Date created:                   Feb 18, 1999
 # Whom:                           ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       sar

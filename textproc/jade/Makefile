@@ -3,7 +3,7 @@
 # Date created:		June 19, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jade-1.2.1

@@ -3,7 +3,7 @@
 # Date created:			30 Aug 1998
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nfbtr750

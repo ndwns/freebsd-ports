@@ -3,7 +3,7 @@
 # Date created:		April 26, 1997
 # Whom:			jfieber
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sp-1.3

@@ -3,7 +3,7 @@
 # Date created:			21 Sept 1996
 # Whom:				Pedro
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Isearch-1.14

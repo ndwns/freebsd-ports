@@ -3,7 +3,7 @@
 # Date created:		10 June 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	word2x
 PKGNAME=	word2x-0.003
