@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	weblint-1.011
-CATEGORIES+=	www
+CATEGORIES+=	networking
 MASTER_SITES=	ftp://ftp.khoral.com/pub/perl/www/
 
 MAINTAINER=	pst@FreeBSD.ORG
