@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/CVSup/ \
 MAINTAINER=	jdp@FreeBSD.org
 
 BUILD_DEPENDS=	m3build-6:${PORTSDIR}/lang/modula-3
-LIB_DEPENDS=	m3\\.6\\.:${PORTSDIR}/lang/modula-3-lib
+LIB_DEPENDS=	m3.6:${PORTSDIR}/lang/modula-3-lib
 
 MAN1=		cvsup.1
 MAN8=		cvsupd.8
