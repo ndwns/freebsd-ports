@@ -5,6 +5,7 @@
     SUBDIR += amanda
     SUBDIR += amanda24
     SUBDIR += astrolog
+    SUBDIR += bb
     SUBDIR += cal
     SUBDIR += cbb
     SUBDIR += chord
