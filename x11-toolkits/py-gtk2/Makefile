@@ -17,6 +17,8 @@ MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 
 MAINTAINER=	nectar@FreeBSD.ORG
 
+BROKEN= 'sites either have much older than 0.5.10, or 0.5.11'
+
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 LIB_DEPENDS=	Imlib.2:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
