@@ -12,6 +12,11 @@ MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/
 
 MAINTAINER=	A.C.P.M.Kalker@student.utwente.nl
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         tcp_subr.c
+.endif
+
 WRKSRC=		${WRKDIR}/slirp-1.0c/src
 HAS_CONFIGURE=	yes
 MAN1=		slirp.1
