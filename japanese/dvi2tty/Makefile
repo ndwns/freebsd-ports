@@ -24,7 +24,7 @@ PATCH_DIST_STRIP=	-p1
 do-install:
 	(for f in jdvi2tty disdvi ; do \
 	${INSTALL_PROGRAM} ${WRKSRC}/$$f ${PREFIX}/bin ; done)
-	${INSTALL_DATA} ${WRKSRC}/dvi2tty.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/dvi2tty.1 ${PREFIX}/man/man1
 	-ln -sf ${PREFIX}/bin/jdvi2tty ${PREFIX}/bin/dvi2tty
 .if !defined(NOMANCOMPRESS)
 	@gzip -9f ${PREFIX}/man/man1/dvi2tty.1
