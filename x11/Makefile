@@ -18,6 +18,7 @@
     SUBDIR += camltk41
     SUBDIR += ctwm
     SUBDIR += dclock
+    SUBDIR += dfm
     SUBDIR += dxpc
     SUBDIR += emiclock
     SUBDIR += emu
