@@ -14,13 +14,13 @@ MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.2/source/ \
 		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.2/source/ \
 		ftp://ftp.uni-stuttgart.de/pub/X11/Xfree86/3.2/source/ \
 		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.2/source/
+DISTFILES=	X32src-1.tgz X32src-2.tgz
+
 PATCH_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.2/fixes/ \
 		ftp://xfree86.cdrom.com/pub/XFree86/3.2/fixes/ \
 		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.2/fixes/ \
 		ftp://ftp.uni-stuttgart.de/pub/X11/Xfree86/3.2/fixes/ \
 		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.2/fixes/
-
-DISTFILES=	X32src-1.tgz X32src-2.tgz
 PATCHFILES=	3.2-fix-01
 PATCH_DIST_STRIP=	-p1
 
