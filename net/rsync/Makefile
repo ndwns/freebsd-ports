@@ -16,6 +16,11 @@ MAINTAINER=     obrien@cs.ucdavis.edu
 GNU_CONFIGURE=	yes
 MAN1=		rsync.1
 
+post-patch:
+	cp ${FILESDIR}/clientserver.c ${WRKSRC}
+	cp ${FILESDIR}/README.daemon ${WRKSRC}
+	cp ${FILESDIR}/rsyncd_trees.eg ${WRKSRC}
+
 post-install:
 	@strip ${PREFIX}/bin/rsync
 .if !defined(NOPORTDOCS)
