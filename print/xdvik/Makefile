@@ -15,8 +15,6 @@ MAINTAINER=	JBD01226@niftyserve.ne.jp
 
 RUN_DEPENDS=    mf:${PORTSDIR}/print/tex
 
-BROKEN_ELF=	yes
-
 GNU_CONFIGURE=YES
 #CONFIGURE_ARGS=--enable-shared=yes
 USE_GMAKE=YES
