@@ -7,18 +7,17 @@
 #
 
 DISTNAME=	pib-1.0
-MASTER_SITES=	ftp://gsoft.com.au/pib/pib
+MASTER_SITES=	ftp://gsoft.com.au/pub/pib/
 CATEGORIES=	sysutils
 
 MAINTAINER=	msmith@freebsd.org
 
-RUN_DEPENDS=	tk-4.1
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 
-.include <bsd.port.mk>
-
-install:
+do-install:
 	${MKDIR} ${PREFIX}/lib/pib
 	${INSTALL_SCRIPT} ${WRKSRC}/*.tcl ${PREFIX}/lib/pib
 	${INSTALL_DATA} ${WRKSRC}/libTkSteal.so* ${PREFIX}/lib/pib
 	ln -fs ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
 
+.include <bsd.port.mk>
