@@ -18,6 +18,8 @@ USE_IMAKE=	yes
 USE_GMAKE=	yes
 IS_INTERACTIVE=	yes
 
+XMKMF=		xmkmf
+
 .if !defined(BATCH)
 install:
 	@echo "===>  Installing for ${DISTNAME}"
