@@ -15,6 +15,7 @@
     SUBDIR += dotfile
     SUBDIR += ecc
     SUBDIR += estic
+    SUBDIR += ewipe
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += figlet

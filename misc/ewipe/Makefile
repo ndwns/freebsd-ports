@@ -8,7 +8,7 @@
 
 DISTNAME=	ewipe0.6.0
 PKGNAME=	ja-ewipe-0.6.0
-CATEGORIES=	japanese x11
+CATEGORIES=	japanese misc
 MASTER_SITES=	http://al.ei.tuat.ac.jp/~sekisita/ewipe/
 
 MAINTAINER=	itojun@itojun.org
