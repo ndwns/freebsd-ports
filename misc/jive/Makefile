@@ -9,7 +9,8 @@
 
 DISTNAME=	jive-1.1
 CATEGORIES=	misc
-MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITES=	${MASTER_SITE_SUNSITE} \
+		ftp://ftp.nuxi.com/pub/misc/
 MASTER_SITE_SUBDIR= games/amusements
 
 MAINTAINER=     obrien@FreeBSD.org
