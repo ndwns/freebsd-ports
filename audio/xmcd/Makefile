@@ -1,5 +1,5 @@
 # New ports collection makefile for:	xmcd
-# Version required:	2.3
+# Version required:	2.4
 # Date created:		16 Februar 1995
 # Whom:			Gennady Sorokopud <gena@NetVision.net.il>
 #
