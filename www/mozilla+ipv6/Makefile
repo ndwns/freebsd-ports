@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://mirror.neosoft.com/pub/mozilla/mozilla/source/ \
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN_ELF=	library numbers
+
 WRKSRC=		${WRKDIR}/`${ECHO} ${DISTNAME} | ${SED} 's/unix-//'`/mozilla
 USE_GMAKE=	yes
 DIST_SUBDIR=	mozilla
