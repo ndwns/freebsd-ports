@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.isc.org/isc/inn/snapshots/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+Y2K=		http://www.isc.org/inn-y2k.html
+
 .if defined(BATCH)
 # in BATCH mode we use the default
 NEWSSPOOL=/var/spool/news
