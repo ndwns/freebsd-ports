@@ -191,6 +191,7 @@
     SUBDIR += xklock
     SUBDIR += xnetmaj
     SUBDIR += xshodo
+    SUBDIR += xv
     SUBDIR += yatex
     SUBDIR += yatex-xemacs
     SUBDIR += zipcodes
