@@ -8,6 +8,7 @@
     SUBDIR += TenDRA
     SUBDIR += atlast
     SUBDIR += bwbasic
+    SUBDIR += caml-light
     SUBDIR += cim
     SUBDIR += cmucl
     SUBDIR += dylan
