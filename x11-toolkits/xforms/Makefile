@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	bxform-081
-PKGNAME=	xforms-0.81
+DISTNAME=	bxform084-freebsd
+PKGNAME=	xforms-0.84
 CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://laue.phys.uwm.edu/pub/xforms/freeBSD/
 EXTRACT_SUFX=	.tgz
