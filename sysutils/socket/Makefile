@@ -8,7 +8,7 @@
 
 DISTNAME=       socket-1.1
 CATEGORIES=	sysutils net
-MASTER_SITES=   ${MASTER_SITE_LOCAL}
+MASTER_SITES=   http://www.apfel.de/~wosch/src/
 
 MAINTAINER=     wosch@FreeBSD.org
 
