@@ -7,12 +7,12 @@
 # $Id$
 #
 
-DISTNAME=	ddd-3.0.92
+DISTNAME=	ddd-3.1
 CATEGORIES=	devel
-MASTER_SITES=	ftp://Xftp.ips.cs.tu-bs.de/pub/local/softech/ddd/src/  \
-		ftp://richb-pc.acc.qc.edu/pub/ddd/src/  \
-		ftp://ftp.gre.ac.uk/pub/tools/debuggers/ddd/src/  \
+MASTER_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/src/  \
 		ftp://uiarchive.cso.uiuc.edu/pub/packages/ddd/src/  \
+		ftp://ftp.gre.ac.uk/pub/tools/debuggers/ddd/src/  \
+		ftp://richb-pc.acc.qc.edu/pub/ddd/src/  \
 		ftp://ftp.th-darmstadt.de/pub/programming/tools/ddd/src/
 
 MAINTAINER=     obrien@FreeBSD.org
