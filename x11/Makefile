@@ -102,7 +102,6 @@
     SUBDIR += xantfarm
     SUBDIR += xautolock
     SUBDIR += xbae
-    SUBDIR += xbuffy
     SUBDIR += xcb
     SUBDIR += xco
     SUBDIR += xcoloredit

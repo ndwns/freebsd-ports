@@ -53,6 +53,7 @@
     SUBDIR += smtpfeed
     SUBDIR += tkrat
     SUBDIR += wmmail
+    SUBDIR += xbuffy
     SUBDIR += xfaces
     SUBDIR += xfmail
     SUBDIR += xlbiff
