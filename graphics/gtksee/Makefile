@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34
@@ -23,7 +23,7 @@ RUN_DEPENDS=	bzip:${PORTSDIR}/archivers/bzip \
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${PREFIX}/include" \
-		GTK_CONFIG="${X11BASE}/bin/gtk11-config" \
+		GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
 		LDFLAGS=-L${PREFIX}/lib
 
 .include <bsd.port.mk>

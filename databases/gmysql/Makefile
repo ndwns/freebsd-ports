@@ -13,12 +13,12 @@ MASTER_SITES=	http://www.loth.demon.co.uk/gmysql/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
 		mysqlclient.6:${PORTSDIR}/databases/mysql322
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-mysql=${PREFIX}
-CONFIGURE_ENV=	GTK_CONFIG=${X11BASE}/bin/gtk11-config
+CONFIGURE_ENV=	GTK_CONFIG=${X11BASE}/bin/gtk12-config
 FETCH_BEFORE_ARGS=	-b
 
 .include <bsd.port.mk>
