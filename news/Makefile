@@ -3,6 +3,7 @@
 
     SUBDIR += atp
     SUBDIR += aub
+    SUBDIR += bgrab
     SUBDIR += cnews
     SUBDIR += dejasearch
     SUBDIR += diablo
