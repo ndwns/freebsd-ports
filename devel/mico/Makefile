@@ -20,7 +20,7 @@ LIBSTDC=	${PREFIX}/lib/gcc-lib/i386-unknown-freebsdelf${OSREL}/2.8.1/libstdc++.a
 LIBSTDC=	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${OSREL}/2.8.1/libstdc++.a
 .endif
 
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
+LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10 \
 		tcl80.1:${PORTSDIR}/lang/tcl80
 BUILD_DEPENDS=	g++28:${PORTSDIR}/lang/gcc28 \
 		${LIBSTDC}:${PORTSDIR}/lang/glibstdc++28
