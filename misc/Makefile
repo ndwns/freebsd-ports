@@ -4,6 +4,6 @@
 #             unzip.with_encryption
 #
 SUBDIR= Wnn calc cpm gshar+gunshar hfs iozone ispell less lha mshell mtools \
-	netpbm rman screen top unarj unzip xsysstats zip zoo
+	netpbm rman screen top unarj unrar unzip xsysstats zip zoo
 
 .include <bsd.port.subdir.mk>
