@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.x.org/R5contrib/  \
 MAINTAINER=     obrien@cs.ucdavis.edu
 
 # I can't get the same tarball from any two fetches -- weird.
-NO_CHECKSUM=	yes
+IGNOREFILES=	${DISTFILES}
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

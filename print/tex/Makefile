@@ -14,6 +14,7 @@ DISTFILES=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 
 MAINTAINER=	jmz@FreeBSD.org
 
+IGNOREFILES=	${DISTFILES}
 EXTRACT_ONLY=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz
 MAN1=		bibtex.1 dvitype.1 gftodvi.1 gftopk.1 gftype.1 \

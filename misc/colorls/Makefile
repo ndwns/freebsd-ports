@@ -15,6 +15,7 @@ DISTFILES=	ls.tar.gz
 MAINTAINER=	asami@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/ls
+IGNOREFILES=	${DISTFILES}
 
 pre-patch:
 	${CP} ${WRKSRC}/ls.1 ${WRKSRC}/colorls.1

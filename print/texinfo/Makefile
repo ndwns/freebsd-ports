@@ -19,11 +19,8 @@ MAINTAINER=     jmz@FreeBSD.org
 BUILD_DEPENDS=   tex:${PORTSDIR}/print/tex
 RUN_DEPENDS=   tex:${PORTSDIR}/print/tex
 
-
 EXTRACT_ONLY=
 NO_WRKSUBDIR=	yes
-
-
 
 pre-fetch:
 	@if [ ! -x ${PREFIX}/bin/tex ]; then \

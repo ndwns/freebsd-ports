@@ -11,12 +11,10 @@ PKGNAME=	xcolors-1.3
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.x.org/pub/R6untarred/contrib/programs/
 
-# Note: do NOT create an md5 checksum for xcolors.tar.gz, it may
-# change because of compression options on the ftp server.
-
 MAINTAINER=	asami@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/xcolors
 USE_IMAKE=	yes
+IGNOREFILES=	${DISTFILES}
 
 .include <bsd.port.mk>
