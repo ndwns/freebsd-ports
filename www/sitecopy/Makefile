@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       sitecopy-0.5.0
+DISTNAME=       sitecopy-0.5.1
 CATEGORIES=	www
 MASTER_SITES=   http://www.lyra.org/sitecopy/
 
