@@ -26,7 +26,7 @@ BATCH_TEX?=	BOTH
 post-extract:
 	@(\
 	  cd ${WRKSRC} ; \
-	  if [ ! -d jtex1.7 ] ; then mkdir jtex1.7 ; fi ; \
+	  ${MKDIR} jtex1.7 ; \
 	  cd jtex1.7 ; \
 	  tar xzf ${DISTDIR}/jtex1.7.tar.gz ; \
 	  cd ptex/ptex ; \

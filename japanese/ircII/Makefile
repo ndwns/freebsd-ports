@@ -23,7 +23,7 @@ GNU_CONFIGURE=	yes
 MAN1=		irc.1
 
 post-install:
-	cp -R ${WRKDIR}/help ${PREFIX}/lib/irc/
+	${CP} -R ${WRKDIR}/help ${PREFIX}/lib/irc/
 	${INSTALL_MAN} ${WRKSRC}/doc/ircII.1 ${PREFIX}/man/man1/irc.1
 
 .include <bsd.port.mk>

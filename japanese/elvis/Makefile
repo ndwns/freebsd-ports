@@ -23,13 +23,12 @@ LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 NO_WRKSUBDIR=	yes
 
 STARTUP_SCRIPT= ${PREFIX}/etc/rc.d/jp-elvis.sh
+
 do-configure:
-	@cp ${WRKSRC}/Makefile.mix ${WRKSRC}/Makefile
+	@${CP} ${WRKSRC}/Makefile.mix ${WRKSRC}/Makefile
 
 post-install:
-	if [ ! -d ${PREFIX}/share/doc/jp-elvis ]; then \
-		mkdir -p ${PREFIX}/share/doc/jp-elvis; \
-	fi
+	@${MKDIR} ${PREFIX}/share/doc/jp-elvis
 	${INSTALL_DATA} ${WRKSRC}/README.j18 ${PREFIX}/share/doc/jp-elvis
 	@/bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then				\

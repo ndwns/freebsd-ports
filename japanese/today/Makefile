@@ -44,6 +44,6 @@ post-extract:
 
 pre-patch:
 	@echo "===>  Installing custom Makefile for ${DISTNAME}"
-	@(cp ${FILESDIR}/Makefile ${WRKSRC})
+	@(${CP} ${FILESDIR}/Makefile ${WRKSRC})
 
 .include <bsd.port.mk>

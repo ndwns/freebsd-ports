@@ -61,7 +61,7 @@ pre-patch:
 	  ${PATCH} < ${FILESDIR}/xdvi18.vflib.patch.of.patch >/dev/null 2>&1; \
 	  gzip -d xdvi-17+ptex.fixed.patch.gz ; \
 	  ${PATCH} < ${FILESDIR}/xdvi-17+ptex.fixed.patch.of.patch >/dev/null 2>&1; \
-	  mkdir tmp; \
+	  ${MKDIR} tmp; \
 	  cd tmp; \
 	  ${PATCH} -f < ../xdvi18.vflib.patch >/dev/null 2>&1; \
 	  cd .. ; \
