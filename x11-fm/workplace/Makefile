@@ -15,6 +15,8 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 USE_X11=	yes
 

@@ -20,8 +20,6 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		png\\.2\\.:${PORTSDIR}/graphics/png \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34
 
-BROKEN=		build
-
 USE_X11=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
