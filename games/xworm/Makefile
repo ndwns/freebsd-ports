@@ -8,7 +8,7 @@
 
 DISTNAME=	xworm102
 PKGNAME=	xworm-1.02
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.ekran.no/archive/x/
 
 MAINTAINER=	andy@icc.surw.chel.su
