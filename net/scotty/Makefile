@@ -10,9 +10,9 @@ DISTNAME=	scotty-2.0.2
 CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
-LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk \
-		tcl74\\.1\\.:${PORTSDIR}/lang/tcl
-EXEC_DEPENDS=	wishx:${PORTSDIR}/lang/tclX
+LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4 \
+		tcl74\\.1\\.:${PORTSDIR}/lang/tcl74
+EXEC_DEPENDS=	wishx:${PORTSDIR}/lang/tclX74
 
 HAS_CONFIGURE=  yes
 GNU_CONFIGURE=  yes
