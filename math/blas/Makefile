@@ -23,5 +23,8 @@ pre-build:
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libblas.so.1.0 ${PREFIX}/lib/libblas.so; \
+	fi
 
 .include <bsd.port.mk>
