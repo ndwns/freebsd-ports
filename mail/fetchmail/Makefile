@@ -21,6 +21,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-opie --enable-RPA --enable-POP2
 CONFIGURE_ENV=  LDFLAGS="${CFLAGS}"
 MAN1=		fetchmail.1
+MLINKS=		fetchmail.1 fetchmailconf.1
 
 .if exists(/usr/lib/libkrb.a) && defined(MAKE_KERBEROS4)
 CONFIGURE_ARGS += --with-kerberos=/usr/include
@@ -39,7 +40,6 @@ post-patch:
 
 post-install:
 	${INSTALL} -d -m 555 -o ${DOCOWN} -g ${DOCGRP} ${FDOC}
-	${LN} -sf fetchmail.1.gz ${PREFIX}/man/man1/fetchmailconf.1.gz
 	cd ${WRKSRC} && ${INSTALL_DATA} \
 	   sample.rcfile FAQ NOTES FEATURES README COPYING \
 	   fetchmail-FAQ.html fetchmail-features.html \
