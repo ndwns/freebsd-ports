@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	socks5-v1.0r8
-PKGNAME=	socks5-1.0.8
+DISTNAME=	socks5-v1.0r9
+PKGNAME=	socks5-1.0.9
 CATEGORIES=	net security
 EXTRACT_SUFX=	.tar.gz
 
