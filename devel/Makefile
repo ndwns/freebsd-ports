@@ -6,6 +6,7 @@
     SUBDIR += cflow
     SUBDIR += dmake
     SUBDIR += gmake
+    SUBDIR += gperf
     SUBDIR += libdlmalloc
     BROKEN += libmalloc
     SUBDIR += m4
