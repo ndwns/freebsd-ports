@@ -6,21 +6,21 @@
 # $Id$
 #
 
-DISTNAME=	micq
-PKGNAME=	ja-micq-0.3.3
+DISTNAME=	micq-0.4.0
+PKGNAME=	ja-micq-0.4.0
 CATEGORIES=	japanese net
-MASTER_SITES=	ftp://micq.chatzone.org/pub/micq/V0.3.3/ \
+MASTER_SITES=	ftp://micq.chatzone.org/pub/micq/V0.4.0/ \
 		http://www.freebsd.org/~flathill/distfiles/
 EXTRACT_SUFX=	.tgz
 
-PATCH_SITES=	http://flos.kuee.kyoto-u.ac.jp/soft/ \
+PATCH_SITES=	http://www.tahoo.org/~taku/soft/micq-0.4.0-jp.patch \
 		http://www.freebsd.org/~flathill/distfiles/
-PATCHFILES=	micq981218ja.patch
+PATCHFILES=	micq-0.4.0-jp.patch
 PATCH_DIST_STRIP= -p1
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/micq981218
+WRKSRC=		${WRKDIR}/micq-0.4.0
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/micq ${PREFIX}/bin
