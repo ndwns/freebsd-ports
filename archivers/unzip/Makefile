@@ -1,15 +1,15 @@
 # New ports collection makefile for:    unzip
-# Version required:     5.3
+# Version required:     5.3.1
 # Date created:         17 October 1994
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=       unzip-5.3
+DISTNAME=       unzip-5.3.1
 CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
-DISTFILES=      unzip53.tar.gz
+DISTFILES=      unzip531.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
