@@ -14,6 +14,9 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ports@FreeBSD.org
 
+MAN8=		pcnfsd.8
+MANCOMPRESSED=	maybe
+
 NO_WRKSUBDIR=
 
 .include <bsd.port.mk>
