@@ -16,8 +16,11 @@ MAINTAINER=	jmz@FreeBSD.org
 
 IS_INTERACTIVE=	yes
 
+EXTRACT_CMD=	(zcat | dd 2>/dev/null | tar xf -)
+EXTRACT_ARGS=	<
+
 pre-install:
 	@mkdir -p ${PREFIX}/lib/texmf
-	@mkdir -p ${PREFIX}/man/man1
+
 
 .include <bsd.port.mk>
