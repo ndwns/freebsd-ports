@@ -82,6 +82,7 @@
     SUBDIR += prcs
     SUBDIR += sawt
     SUBDIR += scogdb
+    SUBDIR += sfio
     SUBDIR += tclcheck
     SUBDIR += tkcvs
     SUBDIR += tkref
