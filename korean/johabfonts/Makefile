@@ -17,4 +17,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
 
+pre-install:
+	-mkdir -p ${PREFIX}/lib/X11/fonts/local
+
 .include <bsd.port.mk>
