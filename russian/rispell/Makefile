@@ -1,4 +1,5 @@
 # New ports collection makefile for:    rispell
+# Version required:	N/A
 # Date created:         16 Dec 1997
 # Whom:                 ache
 #
