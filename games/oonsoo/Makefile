@@ -15,6 +15,8 @@ MAINTAINER=	sutton@aardvark.apana.org.au
 
 BROKEN_ELF=	build
 
+USE_XLIB=	yes
+
 pre-patch:
 	@${CP} ${WRKSRC}/Makefile.Linux ${WRKSRC}/Makefile
 

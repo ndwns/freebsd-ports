@@ -13,6 +13,7 @@ MASTER_SITES=   ftp://astro.caltech.edu/pub/pgplot/
 
 MAINTAINER=	jmz@FreeBSD.org
 
+USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/pgplot
 
 .include <bsd.port.pre.mk>
