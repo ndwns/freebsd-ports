@@ -37,7 +37,7 @@ do-install:
 
 post-install:
 .if !defined(NOPORTDOCS)
-	@${MKDIR} -p ${DOCDIR}
+	@${MKDIR} ${DOCDIR}
 	@${INSTALL_DATA} ${WRKSRC}/Doc/README ${WRKSRC}/Doc/Variables \
 		 ${DOCDIR}
 .endif
