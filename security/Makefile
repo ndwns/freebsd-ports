@@ -33,8 +33,8 @@
     SUBDIR += pgp5
     SUBDIR += pidentd
     SUBDIR += portscanner
+    SUBDIR += portsentry
     SUBDIR += rsaref
-    SUBDIR += sentry
     SUBDIR += skip
     SUBDIR += smurflog
     SUBDIR += sniff
