@@ -24,7 +24,7 @@ do-install:
 	cp ${WRKSRC}/libdbz/dbz.h ${PREFIX}/include
 	cp ${WRKSRC}/libcnews.a ${PREFIX}/lib
 	mkdir -p ${NEWSSPOOL}
-	ln -s ${NEWSSPOOL} /var/news
+	-ln -s ${NEWSSPOOL} /var/news
 	mkdir -p ${NEWSBIN} ${NEWSLIB}
 	chown news.news ${NEWSSPOOL} ${NEWSLIB}
 	chown bin.bin ${NEWSBIN}
