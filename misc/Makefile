@@ -6,7 +6,7 @@
 #	  lmbench (not done yet)
 #
 
-SUBDIR= amanda chord colorls cpm hfs iozone ispell less mmv mshell mtools \
+SUBDIR= amanda chord colorls cpm hfs iozone ispell kp less mmv mshell mtools \
 	pcemu rman screen top tua xbatt xdu xsysstats 
 
 .include <bsd.port.subdir.mk>
