@@ -14,13 +14,13 @@ MASTER_SITES=	http://www.muraroa.demon.co.uk/
 MAINTAINER=	ports@FreeBSD.org
 
 FETCH_BEFORE_ARGS=	-b
-MAN1=		bzip2.1 bunzip2.1
+MAN1=		bzip2.1
+MLINKS=		bzip2.1 bunzip2.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip2 ${PREFIX}/bin
 	${LN} -sf ${PREFIX}/bin/bzip2 ${PREFIX}/bin/bunzip2
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip2recover ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/bzip2.1 ${PREFIX}/man/man1
-	${LN} -fs ${PREFIX}/man/man1/bzip2.1 ${PREFIX}/man/man1/bunzip2.1
 
 .include <bsd.port.mk>
