@@ -16,6 +16,8 @@ Such ports are listed below:
 Dist			Port			Why
 ------------------------------------------------------------------------------
 aswedit-*		ports/www/aswedit	Commercial software.
+bro-*			ports/security/bro	No distribution due to
+						alpha status
 bochs-*			ports/emulators/bochs	Commercial software.
 bzip-*			ports/archivers/bzip	Some algorithms used may
 						infringe certain US patents.
