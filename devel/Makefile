@@ -33,6 +33,7 @@
     SUBDIR += gdbtk
     SUBDIR += gindent
     SUBDIR += glade
+    SUBDIR += glib
     SUBDIR += gmake
     SUBDIR += guileobjc
     SUBDIR += id-utils
