@@ -1,25 +1,23 @@
 # New ports collection makefile for:	chimera
-# Version required:     2.0a11
+# Version required:     2.0a15
 # Date created:         24 Nov 1997
 # Whom:                 Bruce Gingery <bgingery@gtcs.com>
 #
 # $Id$
 #
 
-DISTNAME=	chimera-2.0a11
+DISTNAME=	chimera-2.0a15
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera-alpha/
+MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera-alpha/ \
+		ftp://ftp.netlab.is.tsukuba.ac.jp/pub/network/WWW/chimera/ \
+		ftp://ftp.uni-koeln.de/net/inet/WWW/
 
 MAINTAINER=	bgingery@gtcs.com
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png
 
+MAN1=		chimera.1
 USE_IMAKE=	yes
-
-post-patch:
-		${MV} ${WRKSRC}/Common.tmpl.dist ${WRKSRC}/Common.tmpl
-		${CP} ${FILESDIR}/protopng.h ${WRKSRC}/image/
-		ln -s ${WRKSRC}/chimera ${WRKSRC}/main
 
 .include <bsd.port.mk>
