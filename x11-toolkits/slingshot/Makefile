@@ -16,6 +16,8 @@ MAINTAINER=	giffunip@asme.org
 
 LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
+BROKEN_ELF=	yes
+
 WRKSRC=		$(WRKDIR)/sspkg2.1
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
