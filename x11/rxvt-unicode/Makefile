@@ -18,4 +18,8 @@ USE_X11=	yes
 GNU_CONFIGURE=  yes
 MAN1=		rxvt.1
 
+post-install:
+	/usr/sbin/chown root ${PREFIX}/bin/rxvt
+	/bin/chmod 4755 ${PREFIX}/bin/rxvt
+
 .include <bsd.port.mk>
