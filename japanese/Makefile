@@ -25,6 +25,7 @@
     SUBDIR += dvipsk
     SUBDIR += dvipsk-vflib
     SUBDIR += eb
+    SUBDIR += eblook
     SUBDIR += ebw3
     SUBDIR += edict
     SUBDIR += ee
