@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	gtksee-0.2.1
+DISTNAME=	gtksee-0.2.2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
 		http://www.zg169.net/~hotaru/gtksee/ \
@@ -18,6 +18,8 @@ LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34
+RUN_DEPENDS=	bzip:${PORTSDIR}/archivers/bzip \
+		bzip2:${PORTSDIR}/archivers/bzip2
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${PREFIX}/include" \
