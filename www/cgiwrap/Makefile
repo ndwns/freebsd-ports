@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	cgiwrap-3.6.2
+DISTNAME=	cgiwrap-3.6.3
 CATEGORIES=	www
-MASTER_SITES=	http://www.umr.edu/~cgiwrap/dist/ \
+MASTER_SITES=	http://www.unixtools.org/cgiwrap/dist/ \
 		ftp://ftp.umr.edu/pub/cgi/cgiwrap/ \
 		ftp://concert.cert.dfn.de/pub/tools/net/cgiwrap/
 
