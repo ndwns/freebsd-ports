@@ -43,6 +43,7 @@
     SUBDIR += jdk
     SUBDIR += jdk-doc
     SUBDIR += jdk-tutorial
+    SUBDIR += jfc
     SUBDIR += jikes
     SUBDIR += kaffe
     SUBDIR += lcc
