@@ -8,7 +8,7 @@
 
 DISTNAME=	Data-ShowTable-3.3
 PKGNAME=	p5-Data-ShowTable-3.3
-CATEGORIES=	misc perl5
+CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Data
 
