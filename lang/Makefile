@@ -30,6 +30,7 @@
     SUBDIR += schemetoc
     SUBDIR += scm
     SUBDIR += smalltalk
+    SUBDIR += swi-pl
     SUBDIR += tcl
     SUBDIR += tcl74
     SUBDIR += tcl75
