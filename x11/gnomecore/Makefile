@@ -10,7 +10,7 @@ DISTNAME=	gnome-core-1.0.3
 PKGNAME=	gnomecore-1.0.3
 CATEGORIES=	x11 gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	gnome-core
 
 MAINTAINER=	nacai@iname.com
 

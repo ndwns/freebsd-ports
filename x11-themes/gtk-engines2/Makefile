@@ -9,7 +9,7 @@
 DISTNAME=	gtk-engines-0.5
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	gtk-engines
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 

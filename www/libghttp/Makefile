@@ -9,7 +9,7 @@
 DISTNAME=	libghttp-1.0.2
 CATEGORIES=	www gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	libghttp
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 

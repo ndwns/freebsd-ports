@@ -10,7 +10,7 @@ DISTNAME=	gnome-pim-1.0.1
 PKGNAME=	gnomepim-1.0.1
 CATEGORIES=	deskutils gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	gnome-pim
 
 MAINTAINER=	nacai@iname.com
 

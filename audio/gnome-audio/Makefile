@@ -10,7 +10,7 @@ DISTNAME=	gnome-audio-1.0.0
 PKGNAME=	gnomeaudio-1.0.0
 CATEGORIES=	audio gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	gnome-audio
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
