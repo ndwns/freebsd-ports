@@ -11,7 +11,7 @@ PKGNAME=	jp-perl-5.003
 CATEGORIES=	japanese perl5
 MASTER_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0/ \
 		ftp://ftp.is.co.za/pub/perl/CPAN/src/5.0/ \
-		ftp://dong.math.ncu.edu.tw/perl/CPAN/src/5.0/ \
+		ftp://ftp.math.ncu.edu.tw/perl/CPAN/src/5.0/ \
 		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/src/5.0/ \
 		ftp://ftp.pasteur.fr/pub/computing/unix/perl/CPAN/src/5.0/ \
 		ftp://ftp.sunet.se/pub/lang/perl/CPAN/src/5.0/ \
