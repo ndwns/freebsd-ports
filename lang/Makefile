@@ -71,6 +71,11 @@
     SUBDIR += pike
     SUBDIR += ptoc
     SUBDIR += python
+    SUBDIR += python-doc-html
+    SUBDIR += python-doc-pdf-a4
+    SUBDIR += python-doc-pdf-letter
+    SUBDIR += python-doc-postscript-a4
+    SUBDIR += python-doc-postscript-letter
     SUBDIR += rexx-imc
     SUBDIR += ruby
     SUBDIR += scheme48
