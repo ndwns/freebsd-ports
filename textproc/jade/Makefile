@@ -16,6 +16,9 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 
 post-install:
+.for i in jade nsgmls sgmlnorm spam spent sx
+	strip ${PREFIX}/bin/$i
+.endfor
 	${MKDIR} ${PREFIX}/include/sp
 	${INSTALL_DATA} ${WRKSRC}/include/* ${PREFIX}/include/sp
 	${MKDIR} ${PREFIX}/share/doc/jade
