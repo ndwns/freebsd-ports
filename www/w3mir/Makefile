@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       w3mir-1.0.4pre2
-PKGNAME=        w3mir-1.0.4p2
+DISTNAME=       w3mir-1.0.5
 CATEGORIES=     www perl5
 MASTER_SITES=   http://www.math.uio.no/~janl/w3mir/
 
