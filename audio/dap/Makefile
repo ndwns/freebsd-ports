@@ -13,8 +13,6 @@ MASTER_SITES=	http://www.cee.hw.ac.uk/~richardk/
 
 MAINTAINER=	yoshiaki@kt.rim.or.jp
 
-BROKEN_ELF=	xforms is a.out only
-
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
 WRKSRC=		${WRKDIR}/dap
