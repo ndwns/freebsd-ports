@@ -7,17 +7,17 @@
 #
 
 DISTNAME=	xfmail
-PKGNAME=	xfmail-0.3-beta
+PKGNAME=	xfmail-0.3b
 CATEGORIES+=	mail x11
 MASTER_SITES=	ftp://burka.netvision.net.il/pub/xfmail/work/
-WRKSRC=		${WRKDIR}/xfmail/ui
+
+MAINTAINER=	gena@NetVision.net.il
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		forms\\.0\\.:${PORTSDIR}/x11/xforms
 
-PREFIX=		/usr/X11R6
-
-MAINTAINER=	gena@NetVision.net.il
+USE_X11=	yes
+WRKSRC=		${WRKDIR}/xfmail/ui
 
 pre-configure:
 	@(cd ${WRKSRC} ; cp Makefile.FreeBSD Makefile)
