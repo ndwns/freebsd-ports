@@ -10,7 +10,6 @@
     SUBDIR += cgiparse
     SUBDIR += chimera
     SUBDIR += comline
-    SUBDIR += eperl
     SUBDIR += gn
     SUBDIR += gwstat
     SUBDIR += harvest
