@@ -9,7 +9,6 @@
     SUBDIR += knews
     SUBDIR += leafnode
     SUBDIR += nn
-    SUBDIR += nn-current
     SUBDIR += nntp
     SUBDIR += nntpbtr
     SUBDIR += nntpcache
