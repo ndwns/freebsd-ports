@@ -9,12 +9,14 @@
 DISTNAME=	zebra-980604
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
-# you might need debugging, it's a developer release !
-#CFLAGS+=	-g
 
 MAINTAINER=	andreas@FreeBSD.org
 
+BROKEN=		package
+
+# you might need debugging, it's a developer release !
+#CFLAGS+=	-g
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc/zebra
+CONFIGURE_ARGS=--sysconfdir=${PREFIX}/etc/zebra
 
 .include <bsd.port.mk>
