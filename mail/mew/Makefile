@@ -16,7 +16,7 @@ BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
 RUN_DEPENDS=	emacs:${PORTSDIR}/editors/emacs \
 		mhmail:${PORTSDIR}/mail/mh
 
-RESTRICTED=	"Includes non destrubuted encrypted codes(PGP)."
+RESTRICTED=	"USA ITAR export restrictions (has PGP hooks)"
 
 DOCDIR=		${PREFIX}/share/doc/mew
 SAMPLEDIR=	${PREFIX}/share/examples/mew
