@@ -33,6 +33,7 @@
     SUBDIR += vilearn
     SUBDIR += vim4
     SUBDIR += vim5
+    SUBDIR += wordperfect
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
