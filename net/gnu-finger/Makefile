@@ -12,7 +12,7 @@ CATEGORIES=     net
 MASTER_SITES=   ftp://gatekeeper.dec.com/pub/GNU/ \
 		ftp://ftp.cc.keio.ac.jp/pub/mirror/GNU/
 
-MAINTAINE=      sanpei@yy.cs.keio.ac.jp
+MAINTAINER=     sanpei@yy.cs.keio.ac.jp
 
 HAS_CONFIGURE=	yes
 INSTALL_TARGET= server
