@@ -12,6 +12,8 @@ CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.std.com/src/editors/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	andrews@technologist.com
+
 WRKSRC=		${WRKDIR}/joe
 ALL_TARGET=	joe
 MAN1=		joe.1
