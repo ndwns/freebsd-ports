@@ -9,7 +9,7 @@ DISTNAME=       apache_1.2.6
 PKGNAME=        apacheSSL-1.2.6
 CATEGORIES=	www security
 MASTER_SITES=   ftp://www.apache.org/apache/dist/ \
-		ftp://ftp.ox.ac.uk/pub/crypto/SSL/
+		ftp://ftp.ox.ac.uk/pub/crypto/SSL/Apache-SSL/
 DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} apache_1.2.6+ssl_1.15.tar.gz
 
 MAINTAINER=     markm@freebsd.org
