@@ -11,7 +11,9 @@
     SUBDIR += cmucl
     SUBDIR += egcs
     SUBDIR += eiffel
+    SUBDIR += elisp-manual
     SUBDIR += elk
+    SUBDIR += emacs-lisp-intro
     SUBDIR += eperl
     SUBDIR += expect
     SUBDIR += forth
