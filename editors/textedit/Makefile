@@ -12,10 +12,9 @@ MASTER_SITES=	http://www.freebsd.org/~jraynard/ports/distfiles/
 
 MAINTAINER=	jraynard@@freebsd.org
 
-WRKSRC=		${WRKDIR}/textedit
-
 LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
 
+WRKSRC=		${WRKDIR}/textedit
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -12,10 +12,9 @@ MASTER_SITES=	http://www.freebsd.org/~jraynard/ports/distfiles/
 
 MAINTAINER=	jraynard@@freebsd.org
 
-WRKSRC=		${WRKDIR}/props
-
 LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
 
+WRKSRC=		${WRKDIR}/props
 USE_IMAKE=	yes
 
 post-install:
