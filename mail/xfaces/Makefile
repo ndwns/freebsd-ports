@@ -10,9 +10,11 @@
 
 DISTNAME=	xfaces-3.3
 CATEGORIES=	mail
+# xfaces-sounds.tar.gz only in LOCAL_PORTS
 MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/xfaces/ \
-		ftp://odie.physik2.uni-rostock.de/pub/
-EXTRACT_SUFX=	.tar.Z
+		ftp://odie.physik2.uni-rostock.de/pub/ \
+		ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+DISTFILES=	${DISTNAME}.tar.Z xfaces-sounds.tar.gz
 		
 MAINTAINER=	Lars_Koeller@odie.physik2.uni-rostock.de
 
@@ -22,7 +24,7 @@ LIB_DEPENDS=	compface\\.1\\.:${PORTSDIR}/mail/faces
 USE_IMAKE=	YES
 
 pre-configure:
-	@(cd ${WRKSRC}; tar xzf ${FILESDIR}/sounds.tar.gz)
+	@ln -sf ../sounds ${WRKSRC}
 
 pre-install:
 	@${MKDIR} ${LOCALBASE}/share/sounds
