@@ -13,7 +13,7 @@ MASTER_SITES=	http://pseudo.snu.ac.kr/~hwang/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
+RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/local/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
 USE_X_PREFIX=		yes
 GNU_CONFIGURE=		yes
