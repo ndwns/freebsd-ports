@@ -16,6 +16,11 @@ Such ports are listed below:
 Dist			Port			Why
 ------------------------------------------------------------------------------
 JDK-*			ports/www/jdk		Put copyright on packaging!
+bzip-*			ports/archivers/bzip	Some algorithms used may
+						infringe certain US patents.
+						Opinions differ. Commercial 
+						use could render you liable 
+						to unfriendly legal action.
 cku190.tar.gz		ports/comms/kermit	Restrictive copyright
 fwtk-*			ports/security/fwtk	No redistribution allowed
 glimpse-*		ports/misc/glimpse	Don't sell for profit
