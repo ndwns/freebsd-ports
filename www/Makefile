@@ -25,6 +25,7 @@
     SUBDIR += squid
     SUBDIR += tkHTML
     SUBDIR += tkWWW
+    SUBDIR += w3-msql
     SUBDIR += w3c_httpd
     SUBDIR += weblint
     SUBDIR += wn
