@@ -11,6 +11,7 @@
     SUBDIR += amanda24
     SUBDIR += astrolog
     SUBDIR += bb
+    SUBDIR += bbjd
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += crosspad
