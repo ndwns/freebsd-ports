@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	ElectricFence-2.0.5
+PKGNAME=	electricfence-2.0.5
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	devel/lang/c
