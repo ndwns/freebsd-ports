@@ -9,6 +9,7 @@
     SUBDIR += cddbd
     SUBDIR += cdplay
     SUBDIR += dap
+    SUBDIR += dagrab
     SUBDIR += esound
     SUBDIR += gmod
     SUBDIR += gnomeaudio
