@@ -12,7 +12,7 @@ CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	pst@freebsd.org
+MAINTAINER=	ports@freebsd.org
 
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
