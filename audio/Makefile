@@ -7,6 +7,7 @@
     SUBDIR += cdplay
     SUBDIR += gmod
     SUBDIR += gsm
+    SUBDIR += kdemultimedia
     SUBDIR += maplay
     SUBDIR += mikmod
     SUBDIR += mpegaudio
