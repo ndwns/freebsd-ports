@@ -22,8 +22,6 @@ EMACS_LIBDIR_WITH_VER=	lib/${EMACS_NAME}-${EMACS_VER}
 
 # RUN_DEPENDS port name's suffix is '-common'.
 HAVE_COMMON_PORT=	YES
-# emacs requires *-setupel.el
-REQUIRE_SETUPEL=	YES
 
 # use pkg/* files in ${.CURDIR}
 PKGDIR=		${.CURDIR}/pkg
