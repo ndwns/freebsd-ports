@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	tracker sox
+SUBDIR=	nas tracker sox
 
 .include <bsd.port.subdir.mk>
