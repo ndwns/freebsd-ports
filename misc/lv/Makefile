@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	lv448
-PKGNAME=	lv-4.48
+DISTNAME=	lv4491
+PKGNAME=	lv-4.49.1
 CATEGORIES=	misc
 MASTER_SITES=	http://www.ff.iij4u.or.jp/~nrt/freeware/
 
