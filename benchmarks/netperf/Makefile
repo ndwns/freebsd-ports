@@ -12,6 +12,7 @@ CATEGORIES+=	benchmarks
 MASTER_SITES=	ftp://ftp.cup.hp.com/dist/networking/benchmarks/netperf/
 
 MAINTAINER=	pst@freebsd.org
+
 MAKEFILE=	makefile
 
 post-install:
