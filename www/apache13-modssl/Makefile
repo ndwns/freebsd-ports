@@ -52,11 +52,12 @@ VERSION_MODSSL=	2.2.7
 Y2K=		http://www.engelschall.com/sw/mod_ssl/docs/2.2/ssl_faq.html#y2k
 RESTRICTED=	"Contains cryptography"
 
+USE_PERL5=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--target=apache \
 		--with-layout=GNU \
-		--with-perl=${PERL5} \
+		--with-perl=${PERL} \
 		--bindir=${PREFIX}/bin \
 		--sbindir=${PREFIX}/sbin \
 		--libexecdir=${PREFIX}/libexec/apache \
@@ -78,9 +79,11 @@ CONFIGURE_ARGS=	--prefix=${PREFIX} \
 
 OPTIM=		-DHARD_SERVER_LIMIT=512 \
 		-DDEFAULT_PATH=\\"${PREFIX}/bin:/bin:/usr/bin\\"
+
 .if defined(APACHE_PERF_TUNING) && ${APACHE_PERF_TUNING} == YES
 OPTIM+=		-DBUFFERED_LOGS -DFD_SETSIZE=1024
-CFLAGS+=	-O6 -funroll-loops -fstrength-reduce -fomit-frame-pointer -fexpensive-optimizations -ffast-math
+CFLAGS+=	-O6 -funroll-loops -fstrength-reduce -fomit-frame-pointer \
+		-fexpensive-optimizations -ffast-math
 .endif
 
 CONFIGURE_ENV=	CFLAGS='${CFLAGS}' \
