@@ -14,10 +14,10 @@
     SUBDIR += camltk41
     SUBDIR += ctwm
     SUBDIR += dclock
-    SUBDIR += enlightenment
-    SUBDIR += etlfonts
     SUBDIR += emiclock
     SUBDIR += emu
+    SUBDIR += enlightenment
+    SUBDIR += etlfonts
     SUBDIR += fbsd-icons
     SUBDIR += filerunner
     SUBDIR += freefonts
