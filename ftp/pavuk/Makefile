@@ -18,7 +18,7 @@ EXTRACT_SUFX=		.tgz
 MAINTAINER=		andy@icc.surw.chel.su
 
 LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm \
-			gtk.1:${PORTSDIR}/x11-toolkits/gtk11
+			gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
 USE_XLIB=		yes
 GNU_CONFIGURE=		yes
