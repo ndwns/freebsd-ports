@@ -1,12 +1,12 @@
 # New ports collection makefile for:	nmh
-# Version required:     0.23
+# Version required:     0.24
 # Date created:		26 July 1997
 # Whom:			Scott Blachowicz <Scott.Blachowicz@seaslug.org>
 #
 # $Id$
 #
 
-DISTNAME=	nmh-0.23
+DISTNAME=	nmh-0.24
 CATEGORIES=	mail
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/nmh/
 
@@ -33,7 +33,7 @@ post-patch:
 	@${TOUCH} ${WRKSRC}/stamp-h.in
 
 post-install:
-	@PKG_PREFIX='${PREFIX}' ${PKGDIR}/INSTALL
+	@PKG_PREFIX='${PREFIX}' sh ${PKGDIR}/INSTALL
 	chgrp mail ${PREFIX}/bin/inc
 	chmod g+s ${PREFIX}/bin/inc
 
