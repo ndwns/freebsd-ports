@@ -12,7 +12,9 @@ CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 PATCH_SITES=	ftp://ftp.aist-nara.ac.jp/pub/misc/less/
-PATCHFILES=	less-332-iso221.patch.gz
+PATCHFILES=	less-332-iso221.patch.gz \
+		less-332-iso221-222.patch.gz \
+		less-332-iso222-224.patch.gz
 PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	nobu@psrc.isac.co.jp
