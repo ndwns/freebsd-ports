@@ -14,4 +14,6 @@ DISTFILES=	scheme-microcode+dist-7.3-freebsd.tgz
 
 MAINTAINER= 	jmacd@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 .include <bsd.port.mk>
