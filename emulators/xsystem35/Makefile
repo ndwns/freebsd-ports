@@ -1,5 +1,5 @@
 # ports collection makefile for:	AliceSoft System 3.5 on X
-# Version required:	BETA
+# Version required:	1.0.1
 # Date created:		24 Oct 1998
 # Whom:			Seiichirou Hiraoka
 #
