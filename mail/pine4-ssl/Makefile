@@ -1,6 +1,6 @@
 # New ports collection makefile for:	pine4-ssl
-# Version required:     1.0
-# Date created:		2 July 1999
+# Version required:     1.2
+# Date created:		29 Jul 1999
 # Whom:			Nick Sayer <nsayer@freebsd.org>
 #
 # $Id$
@@ -9,9 +9,9 @@
 # on this one and could never get it to fewer than 8 frigging warnings.
 # Good luck to you. :-P
 
-PKGNAME=        pine4-ssl-4.10.1.1
+PKGNAME=        pine4-ssl-4.10.1.2
 
-DISTNAME=	pine4+ssl-1.1
+DISTNAME=	pine4+ssl-1.2
 
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		pine4.10${EXTRACT_SUFX}
