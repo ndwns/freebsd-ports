@@ -53,7 +53,8 @@ post-install:
 		echo 'if [ -f $$canna ]; then' >> ${STARTUP_SCRIPT} ;	\
 		echo '    rm -f /var/run/canna/Canna.pid' >> ${STARTUP_SCRIPT};\
 		echo '    mkdir -p /var/run/canna' >> ${STARTUP_SCRIPT};\
-		echo '    chown bin:bin /var/run/canna' >> ${STARTUP_SCRIPT};\
+		echo '    touch /var/log/CANNA0msgs' >> ${STARTUP_SCRIPT};\
+		echo '    chown bin:bin /var/run/canna /var/log/CANNA0msgs' >> ${STARTUP_SCRIPT};\
 		echo "    echo -n ' Canna'" >> ${STARTUP_SCRIPT};	\
 		echo '     $$canna' >> ${STARTUP_SCRIPT} ;		\
 		echo "fi" >> ${STARTUP_SCRIPT} ;			\
