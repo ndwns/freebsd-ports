@@ -6,25 +6,13 @@
 # $Id$
 #
 
-.if !defined(prefix)
-prefix=		/usr/local
-.endif
-
-DISTNAME=	irc2.8.20
+DISTNAME=	irc2.8.21
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 pre-install:
-	@if [ ! -d $(prefix)/bin ]; then \
-	   mkdir -p $(prefix)/bin; \
-	fi
-	@if [ ! -d $(prefix)/lib/ircd ]; then \
-	   mkdir -p $(prefix)/lib/ircd; \
-	fi
-	@if [ ! -d $(prefix)/man/man1 ]; then \
-	   mkdir -p $(prefix)/man/man1; \
-	fi
-	@if [ ! -d $(prefix)/man/man8 ]; then \
-	   mkdir -p $(prefix)/man/man8; \
-	fi
+	mkdir -p ${PREFIX}/bin
+	mkdir -p ${PREFIX}/lib/ircd
+	mkdir -p ${PREFIX}/man/man1
+	mkdir -p ${PREFIX}/man/man8
 
 .include <bsd.port.mk>
