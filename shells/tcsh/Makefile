@@ -1,17 +1,19 @@
 # New ports collection makefile for:	tcsh
-# Version required:     6.08
+# Version required:	6.09
 # Date created:		22 August 1994
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=       tcsh-6.08
-PKGNAME=        tcsh-6.08.00
+DISTNAME=       tcsh-6.09
+PKGNAME=        tcsh-6.09.00
 CATEGORIES=	shells
 MASTER_SITES=   ftp://ftp.astron.com/pub/tcsh/
 
 MAINTAINER=     ache@FreeBSD.ORG
+
+Y2K=		ftp://ftp.astron.com/pub/tcsh/Y2K
 
 GNU_CONFIGURE=  yes
 WRKSRC=         ${WRKDIR}/${PKGNAME}
