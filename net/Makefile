@@ -83,6 +83,7 @@
     SUBDIR += ntop
     SUBDIR += ntp
     SUBDIR += omi
+    SUBDIR += openldap
     SUBDIR += p5-Archie
     SUBDIR += p5-Net
     SUBDIR += p5-Net-DNS
