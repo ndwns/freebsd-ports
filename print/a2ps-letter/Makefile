@@ -44,7 +44,7 @@ pre-configure:
 	${ECHO} ${PAPERSIZE} > ${WRKDIR}/.media
 
 post-install:
-	${LDCONFIG} -R ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	strip ${PREFIX}/bin/a2ps
 	(cd ${WRKSRC}/doc; ${MAKE} install)
 
