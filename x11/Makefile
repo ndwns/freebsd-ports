@@ -13,6 +13,7 @@
     SUBDIR += emu
     SUBDIR += fvwm
     SUBDIR += fvwm2
+    SUBDIR += fvwm95
     SUBDIR += iv
     SUBDIR += olvwm
     SUBDIR += piewm
