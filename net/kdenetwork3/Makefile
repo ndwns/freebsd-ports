@@ -33,4 +33,11 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 USE_GMAKE=	yes
 CFLAGS+=	"-I${PREFIX}/include"
 
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
+
+# ksirc needs egcs
+.if ${OSVERSION} < 400004
+PLIST=	${PKGDIR}/PLIST.noksirc
+.endif
+
+.include <bsd.port.post.mk>
