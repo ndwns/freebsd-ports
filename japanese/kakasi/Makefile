@@ -26,8 +26,7 @@ post-extract:
 	@gzip -cd ${DISTDIR}/kakasidict.940620.gz > ${WRKSRC}/kakasidict
 
 post-install:
-	@[ -d ${PREFIX}/share/doc/kakasi ] || 				\
-	 ${MKDIR} -p ${PREFIX}/share/doc/kakasi
+	${MKDIR} ${PREFIX}/share/doc/kakasi
 .for f in README README.jpn src/kakasi.1
 	${INSTALL_DATA} ${WRKSRC}/../$f ${PREFIX}/share/doc/kakasi
 .endfor
