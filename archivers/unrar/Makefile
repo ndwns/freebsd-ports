@@ -1,4 +1,5 @@
 # New ports collection makefile for:    unrar
+# http://www.rarsoft.com/
 # Version required:     2.*
 # Date created:         28 Dec 1994
 # Whom:                 ache
