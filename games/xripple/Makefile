@@ -11,7 +11,6 @@ PKGNAME=	xripple-1.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://crydee.sai.msu.ru/zeus/X11/contrib/ \
 		ftp://ftp.cin.nihon-u.ac.jp/pub/X11/enlightenment/misc/ \
-		ftp://ftp.compnet.ru/pub/incoming/Faiy/Linux/ \
 		ftp://ftp.dataplus.se/pub/linux/enlightenment/misc/ \
 		ftp://ftp.devolution.com/pub/enlightenment/ \
 		ftp://ftp.dti.ad.jp/.1/X/e/ \
