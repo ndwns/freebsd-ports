@@ -20,4 +20,7 @@ USE_X_PREFIX=	yes
 post-install:
 	strip ${PREFIX}/bin/gftp
 
+pre-install:
+	find ${WRKSRC} -name \*.orig -exec ${RM} -f \{} \;
+
 .include <bsd.port.mk>
