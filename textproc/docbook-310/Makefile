@@ -1,7 +1,7 @@
 # New ports collection makefile for:	docbook-310
 # Version required:	3.0
 # Date created:		7 April 1999
-# Whom:			nclayton
+# Whom:			nik
 #
 # Based heavily on work by jfieber
 #
