@@ -115,6 +115,7 @@
     SUBDIR += pathchar
     SUBDIR += pcnfsd
     SUBDIR += perldap
+    SUBDIR += pipsecd
     SUBDIR += pmf
     SUBDIR += ppp-nt
     SUBDIR += pppload
