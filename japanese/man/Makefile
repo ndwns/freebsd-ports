@@ -16,7 +16,6 @@ RUN_DEPENDS=	${PREFIX}/bin/groff:${PORTSDIR}/japanese/groff \
 		jless:${PORTSDIR}/japanese/less
 
 post-install:
-	@mv ${PREFIX}/etc/manpath.config.sample ${PREFIX}/etc/manpath.config
 	@${INSTALL_DATA} /usr/share/tmac/tmac.an ${PREFIX}/share/groff/tmac
 	@${INSTALL_DATA} /usr/share/tmac/tmac.groff_an ${PREFIX}/share/groff/tmac
 
