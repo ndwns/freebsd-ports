@@ -15,7 +15,7 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/unzip-5.32
 MAKEFILE=       unix/Makefile
-.if ${MACHINE_ARCH} == alpha
+.if ${ARCH} == alpha
 ALL_TARGET=	bsd
 .else
 ALL_TARGET=     freebsd
