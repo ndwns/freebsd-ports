@@ -17,7 +17,7 @@ BUILD_DEPENDS=  /nonexistent:${PORTSDIR}/lang/tcl80:build \
 		/nonexistent:${PORTSDIR}/x11/tk80:build
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4
 
-IS_INTERACTIVE=	yes
+NO_PACKAGE=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tcl=${PORTSDIR}/lang/tcl80/work/tcl8.0/unix \
