@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ssh-1.2.10
+DISTNAME=	ssh-1.2.12
 CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/security/ \
 		ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
