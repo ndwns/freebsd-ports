@@ -172,7 +172,7 @@ OpenBSD_MAINTAINER=	imp@OpenBSD.ORG
 # EXTRACT_SUFX	- Suffix for archive names (default: .tar.gz).
 # EXTRACT_BEFORE_ARGS -
 #				  Arguments to ${EXTRACT_CMD} before filename
-#				  (default: -C ${WRKDIR} -xzf).
+#				  (default: -xzf).
 # EXTRACT_AFTER_ARGS -
 #				  Arguments to ${EXTRACT_CMD} following filename
 #				  (default: none).
