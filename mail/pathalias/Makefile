@@ -8,7 +8,8 @@
 DISTNAME=	pathalias11
 PKGNAME=	pathalias-9.11
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.dinoex.sub.de/pub/approved/
+MASTER_SITES=	ftp://ftp.lan-ks.de/pub/approved/ \
+		ftp://ftp.dinoex.sub.de/pub/approved/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dirk.meyer@dinoex.sub.org
