@@ -58,6 +58,7 @@
     SUBDIR += schemetoc
     SUBDIR += scm
     SUBDIR += smalltalk
+    SUBDIR += sml-nj
     SUBDIR += squeak
     SUBDIR += sr
     SUBDIR += swi-pl
