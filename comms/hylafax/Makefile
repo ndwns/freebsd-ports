@@ -16,6 +16,9 @@ EXTRACT_SUFX=	-tar.gz
 
 MAINTAINER=	ports@freebsd.org
 
+Y2K=		http://www.hylafax.org/HylaFAQ/Q189.html
+WWW_SITE=	http://www.hylafax.org
+
 BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash2 \
 		${PREFIX}/lib/afm/Courier:${PORTSDIR}/print/afm
 # no dependency on ghostscript because we don't know which
