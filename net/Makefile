@@ -58,6 +58,7 @@
     SUBDIR += gnu-finger
     SUBDIR += gopher
     SUBDIR += gtksamba
+    SUBDIR += gtkyahoo
     SUBDIR += h2n
     SUBDIR += hesiod
     SUBDIR += icb
