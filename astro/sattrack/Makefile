@@ -8,7 +8,7 @@
 
 DISTNAME=          sattrack-3.1.6
 CATEGORIES=        astro
-MASTER_SITES=      http://ssl.berkeley.edu/isi_www/
+MASTER_SITES=      ${MASTER_SITE_LOCAL}
 
 MAINTAINER=        bjn@visi.com
 
