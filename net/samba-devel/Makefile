@@ -33,7 +33,7 @@ SAMPLE_CONFIG=	${SAMBA_CONFDIR}/smb.conf.default
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} --libdir=${SAMBA_CONFDIR} \
 		--localstatedir=${VARDIR} --with-swatdir=${PREFIX}/share/swat \
-		--with-lockdir=${VARDIR}/spool/lock
+		--with-lockdir=${VARDIR}/spool/lock --with-privatedir=${SAMBA_PRIVATE}
 
 .if defined(KRB5_HOME) && exists(${KRB5_HOME})
 CONFIGURE_ARGS+=--with-krb5=${KRB5_HOME}
