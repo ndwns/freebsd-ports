@@ -27,7 +27,7 @@ pre-fetch:
 	@${ECHO} "You must also have installed RSAREF if you are USA resident."
 	@${FALSE}
 .elif defined(USA_RESIDENT)
-.if ${USA_RESIDENT} == YES
+.if ${USA_RESIDENT} == YES && !defined(I_HAVE_AN_RSA_LICENSE)
 LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref
 
 post-configure:
