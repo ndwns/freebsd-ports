@@ -36,6 +36,7 @@
     SUBDIR += frotz
     SUBDIR += galaxis
     SUBDIR += gemdropx
+    SUBDIR += gleyes
     SUBDIR += gnomegames
     SUBDIR += gnuchess
     SUBDIR += gnugo
