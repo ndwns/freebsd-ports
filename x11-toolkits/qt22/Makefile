@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.troll.no/qt/source/
 
 MAINTAINER=	searle@longacre.demon.co.uk
 
+BROKEN=		repository copied, awaiting upgrade to 1.33
+
 USE_GMAKE=	yes
 USE_X11=	yes
 
