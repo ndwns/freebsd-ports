@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	knews-1.0b.0
+DISTNAME=	knews-1.0b.1
 CATEGORIES=	news
 MASTER_SITES=	http://www.matematik.su.se/~kjj/
 
@@ -17,7 +17,6 @@ LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm \
 		png.2:${PORTSDIR}/graphics/png
 RUN_DEPENDS=    newsp:${PORTSDIR}/print/mp-letter
 
-WRKSRC=		${WRKDIR}/knews
 USE_IMAKE=	yes
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \
 		XAPPLOADDIR=${PREFIX}/lib/X11/app-defaults  -f
