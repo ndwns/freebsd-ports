@@ -4,6 +4,7 @@
     SUBDIR += Gofer
     SUBDIR += STk
     SUBDIR += Sather
+    SUBDIR += TenDRA
     SUBDIR += atlast
     SUBDIR += bwbasic
     SUBDIR += cim
