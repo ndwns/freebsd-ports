@@ -119,6 +119,7 @@
     SUBDIR += netscape3.language
     SUBDIR += netscape4-communicator
     SUBDIR += netscape4-navigator
+    SUBDIR += netscape45-communicator
     SUBDIR += newosaka
     SUBDIR += ng
     SUBDIR += nkf
