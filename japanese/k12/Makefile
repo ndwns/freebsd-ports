@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	k12font-1.0
+DISTNAME=	jp-k12font-1.0
 CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/FreeBSD/etc/
 DISTFILES=	kaname_k12_bdf.tar.gz
