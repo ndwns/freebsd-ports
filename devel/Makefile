@@ -31,6 +31,7 @@
     SUBDIR += mprof
     SUBDIR += noweb
     SUBDIR += omniBroker
+    SUBDIR += omniORB
     SUBDIR += p5-BSD-Resource
     SUBDIR += p5-C-Scan
     SUBDIR += p5-ConfigReader
