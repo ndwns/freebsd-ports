@@ -43,6 +43,7 @@
     SUBDIR += p5-CGI
     SUBDIR += p5-CGI_Lite
     SUBDIR += p5-HTML
+    SUBDIR += p5-HTML-Parser
     SUBDIR += p5-HTML-QuickCheck
     SUBDIR += p5-HTML-Stream
     SUBDIR += p5-HTTPD-Tools
