@@ -67,6 +67,7 @@
     SUBDIR += p5-Storable
     SUBDIR += p5-Term-ReadKey
     SUBDIR += p5-Time
+    SUBDIR += p5-TimeDate
     SUBDIR += p5-TraceFuncs
     SUBDIR += pccts
     SUBDIR += portlint
