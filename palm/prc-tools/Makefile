@@ -15,6 +15,7 @@ PKGNAME=	prc-tools-0.5.0
 CATEGORIES=     palm devel
 MASTER_SITES=   ftp://ryeham.ee.ryerson.ca/pub/PalmOS/ \
 		${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR= binutils
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		binutils-2.7.tar.gz gdb-4.16.tar.gz gcc-2.7.2.2.tar.gz
 
