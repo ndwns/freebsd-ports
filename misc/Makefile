@@ -34,6 +34,7 @@
     SUBDIR += tkman
     SUBDIR += trans
     SUBDIR += xcalendar
+    SUBDIR += xephem
     SUBDIR += zorro
 
 .include <bsd.port.subdir.mk>
