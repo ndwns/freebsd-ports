@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.tigr.net/afterstep/as-apps/download/aterm/
 
 MAINTAINER=	jim@phrantic.phear.net
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-transparency --enable-background-image \
 		--disable-delete-key --disable-backspace-key
