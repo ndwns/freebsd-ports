@@ -8,7 +8,7 @@
 
 DISTNAME=	tgif-3.0.18
 PKGNAME=	ja-tgif-3.0.18
-CATEGORIES=	japanese
+CATEGORIES=	japanese graphics
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		${MASTER_SITE_XCONTRIB} \
 		${MASTER_SITE_PORTS_JP} \

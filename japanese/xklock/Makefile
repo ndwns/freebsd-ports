@@ -8,7 +8,7 @@
 
 DISTNAME=	xklock-2.7
 PKGNAME=	ja-xklock-2.7.1
-CATEGORIES=	x11 japanese
+CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.tk.mesh.ad.jp/pub/Linux/JE-sources/X/  \
 		ftp://ftp.biol.tsukuba.ac.jp/pub/X/clients/  \
 		ftp://ftp.kagoshima-u.ac.jp/pub1/PC/linux-j/JE-sources/X/  \

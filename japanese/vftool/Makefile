@@ -8,7 +8,7 @@
 
 DISTNAME=	vftool-1.2
 PKGNAME=	ja-vftool-1.2
-CATEGORIES=	print japanese
+CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/ \
 		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/ptex215/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/TeX/NTT-JTeX/:old/ \

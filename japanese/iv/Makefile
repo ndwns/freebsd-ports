@@ -8,7 +8,7 @@
 
 DISTNAME=	iv-3.1
 PKGNAME=	ja-iv-3.1
-CATEGORIES=	japanese
+CATEGORIES=	japanese graphics
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 DISTFILES=	3.1.tar.Z iv3_1j_gamma.tar.gz
