@@ -1,4 +1,5 @@
 # New ports collection makefile for:	qvplay
+# Version required:	0.92
 # Date created:		2 May 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
@@ -6,7 +7,6 @@
 #
 
 DISTNAME=	qvplay-0.92
-PKGNAME=	qvplay
 CATEGORIES=	graphics
 MASTER_SITES=   http://www.asahi-net.or.jp/~xg2k-hys/
 
