@@ -1,12 +1,12 @@
 # New ports collection makefile for:    openldap
-# Version required:     1.0.1
+# Version required:     1.0.2
 # Date created:         20 Sep 1998
 # Whom:                 Lachlan O'Dea
 #
 # $Id$
 #
 
-DISTNAME=       openldap-1.0.1
+DISTNAME=       openldap-1.0.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.OpenLDAP.org/pub/OpenLDAP/
 EXTRACT_SUFX=	.tgz
