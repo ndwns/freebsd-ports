@@ -6,10 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	xmysqladmin-0.2.0
+DISTNAME=	xmysqladmin-0.4.4
 CATEGORIES=	databases
-MASTER_SITES=	ftp://mysql.staufen.de/pub/mysql/Contrib/ \
-		http://www.tcx.se/Contrib/ \
+MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
 		http://web.tryc.on.ca/mysql/Contrib/ \
 		http://mysql.acer.net/Contrib/
