@@ -1,5 +1,5 @@
 # New ports collection makefile for:    w3mir
-# http://www.sn.no/libwww-perl/
+# http://www.math.uio.no/~janl/w3mir/
 # Version required:                     1.0.2
 # Date created:                         9 May 1998
 # Whom:                                 ache
