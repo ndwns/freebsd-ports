@@ -57,6 +57,7 @@
     SUBDIR += netscape45-communicator
     SUBDIR += netscape45-communicator.us
     SUBDIR += netscape45-navigator
+    SUBDIR += npc
     SUBDIR += p5-Apache
     SUBDIR += p5-CGI
     SUBDIR += p5-CGI_Lite
