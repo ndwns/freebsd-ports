@@ -6,17 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	acm-4.7
+DISTNAME=	acm-4.8
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.warwick.ac.uk/pub/x11/
+MASTER_SITES=	http://www.websimulations.com/download/
 
-MAINTAINER=	joerg@FreeBSD.org
-
-BROKEN_ELF=	build
+MAINTAINER=	se@FreeBSD.org
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	${SH} -x	# don't ask me why, will fail otherwise
-STRIP=
 MAN6=		acm.6
 
 .include <bsd.port.mk>
