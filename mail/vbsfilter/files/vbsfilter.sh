@@ -17,7 +17,7 @@ stop)
 	rm -f /var/run/vbsfilter
 	;;
 *)
-	echo "Usage: ${0##*/}: { start | stop }" 2>&1
-	exit 65
+	echo "Usage: ${0##*/}: { start | stop }" >&2
+	exit 64
 	;;
 esac
