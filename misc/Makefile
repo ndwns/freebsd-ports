@@ -8,6 +8,7 @@
     SUBDIR += 30upgrade
     SUBDIR += 31upgrade
     SUBDIR += 32upgrade
+    SUBDIR += Generic-NQS
     SUBDIR += Howto
     SUBDIR += acron
     SUBDIR += amanda
