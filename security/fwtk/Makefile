@@ -45,7 +45,7 @@ post-install:
 	( cd ${PREFIX}/man/man8; gzip -9nfv ${MAN8} )
 .endif
 .if !defined(NOPORTDOCS)
-	( cd ${WRKSRC}/doc ; cp ${DOCS} ${PREFIX}/share/doc/fwtk
+	( cd ${WRKSRC}/doc ; cp ${DOCS} ${PREFIX}/share/doc/fwtk )
 .endif
 
 .include <bsd.port.mk>
