@@ -56,4 +56,6 @@ post-patch:
 	  mv $$FILE.new $$FILE; \
 	done
 
+BROKEN=		Needs to be updated wrt. new device registration
+
 .include <bsd.port.mk>
