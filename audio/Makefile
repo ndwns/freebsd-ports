@@ -15,6 +15,7 @@
     SUBDIR += kdemultimedia
     SUBDIR += kmpg
     SUBDIR += lamer
+    SUBDIR += libaudiofile
     SUBDIR += maplay
     SUBDIR += mikmod
     SUBDIR += mp3info
