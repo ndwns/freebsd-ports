@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=		tet3.2c-unsup
-PKGNAME=		tet-3.2c
+DISTNAME=		tet3.2d-unsup
+PKGNAME=		tet-3.2d
 CATEGORIES=		misc
-MASTER_SITES=		ftp://ftp.rdg.opengroup.org/pub/TET/TET3/
+MASTER_SITES=		ftp://ftp.rdg.opengroup.org/pub/TET/TET3/ \
+			http://freefall.freebsd.org/~jkoshy/PORTS/
 EXTRACT_SUFX=		.src.tgz
 
 MAINTAINER=		jkoshy@freebsd.org
