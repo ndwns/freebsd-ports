@@ -19,7 +19,6 @@
     SUBDIR += lprps
     SUBDIR += lyx
     SUBDIR += makeindex
-    SUBDIR += mltex
     SUBDIR += mp
     SUBDIR += musixtex
     SUBDIR += pkfonts
