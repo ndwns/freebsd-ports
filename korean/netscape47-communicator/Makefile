@@ -14,6 +14,8 @@ DISTFILES=	${KOREAN_KIT}.tar.gz
 
 MAINTAINER?=	junker@jazz.snu.ac.kr
 
+BROKEN=		"Just repo.copied"
+
 RUN_DEPENDS= \
 	${PREFIX}/bin/${BROWSER}:${PORTSDIR}/www/netscape4-${BROWSER_NAME} \
 	${X11BASE}/lib/X11/fonts/local/hgm12.pcf.gz:${PORTSDIR}/korean/hanyangfonts \

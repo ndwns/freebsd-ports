@@ -9,6 +9,8 @@
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+BROKEN=		"Just repo.copied"
+
 FILESDIR=	${MASTER_DIR}/files
 PATCHDIR=	${MASTER_DIR}/patches
 
