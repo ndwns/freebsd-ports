@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	kermit mgetty+sendfax seyon
+SUBDIR= kermit mgetty+sendfax rzsz seyon
 
 .include <bsd.port.subdir.mk>
