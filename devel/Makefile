@@ -72,6 +72,7 @@
     SUBDIR += p5-Include
     SUBDIR += p5-IniConf
     SUBDIR += p5-Ioctl
+    SUBDIR += p5-IO-stringy
     SUBDIR += p5-PV
     SUBDIR += p5-Penguin
     SUBDIR += p5-Penguin-Easy
