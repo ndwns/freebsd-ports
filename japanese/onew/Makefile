@@ -14,34 +14,31 @@ MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Japan/onew/ \
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
-BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
-LIB_DEPENDS=	${LIB_INPUT_METHOD}
-
 WRKSRC=		${WRKDIR}/onew
 # A value 'all' must not be set to TARGET.
 ALL_TARGET=	
 
 .if !defined(CANNA) && !defined(WNN4) && !defined(WNN6)
 # For this port
-WNN4=			yes
+WNN4=		yes
 .endif
 # Specifying a velue INPUT_METHOD, and seting values BUILD_DEPENDS,
 # LIB_DEPENDS, etc.
 .if defined(CANNA)
-INPUT_METHOD+=		canna
-LIB_INPUT_METHOD+=	canna.1:${PORTSDIR}/japanese/Canna
-JPLIB+=			-lcanna
+INPUT_METHOD+=	canna
+LIB_DEPENDS+=	canna.1:${PORTSDIR}/japanese/Canna
+JPLIB+=		-lcanna
 .endif
 .if defined(WNN4)
-INPUT_METHOD+=		wnn4
-BUILD_INPUT_METHOD+=	${LOCALBASE}/bin/Wnn4/jserver:${PORTSDIR}/japanese/Wnn
-JPDEF+=			-DWNN_ISDIR
-JPLIB+=			-ljd -lcrypt
+INPUT_METHOD+=	wnn4
+BUILD_DEPENDS+=	${X11BASE}/lib/libjd.a:${PORTSDIR}/japanese/Wnn
+JPLIB+=		-ljd -lcrypt
+JPDEF+=		-DWNN_ISDIR
 .elif defined(WNN6)
-INPUT_METHOD+=		wnn6
-BUILD_INPUT_METHOD+=	${LOCALBASE}/bin/Wnn4/jserver:${PORTSDIR}/japanese/Wnn
-JPDEF+=			-DWNN_ISDIR
-JPLIB+=			-ljd -lcrypt
+INPUT_METHOD+=	wnn6
+BUILD_DEPENDS+=	${X11BASE}/lib/libjd.a:${PORTSDIR}/japanese/Wnn
+JPLIB+=		-ljd -lcrypt
+JPDEF+=		-DWNN_ISDIR
 .endif
 #
 # Make a value of INPUT_METHOD
