@@ -9,7 +9,8 @@
 DISTNAME=		ted4.0g
 PKGNAME=		zh-ted-4.0g
 CATEGORIES=		chinese editors
-MASTER_SITES=		ftp://moon.csie.ntu.edu.tw/pub/X/ted/
+MASTER_SITES=		ftp://moon.csie.ntu.edu.tw/pub/X/ted/ \
+			ftp://freebsd.ntu.edu.tw/freebsd/ntu/moon/X/ted/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		vanilla@MinJe.com.TW
