@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cgoban-1.8.0
+DISTNAME=	cgoban-1.8.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://igs.nuri.net/Go/clients/
 
