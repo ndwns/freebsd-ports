@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	sendfile-19980228
+DISTNAME=	sendfile-19980316
 PKGNAME=	sendfile-2.1
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.uni-stuttgart.de/pub/unix/comm/sendfile/current/
