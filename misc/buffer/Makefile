@@ -9,6 +9,9 @@
 DISTNAME=       buffer-1.17
 CATEGORIES+=	utilities
 MASTER_SITES=   ftp://ftp.sun.ac.za/pub/unix/misc/
+
+MAINTAINER=	markm@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
 
 post-install:
