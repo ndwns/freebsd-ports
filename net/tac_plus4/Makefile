@@ -9,7 +9,7 @@
 DISTNAME=	tac_plus.2.1
 PKGNAME=	tac_plus-2.1
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftpeng.cisco.com/pub/tacacs/
+MASTER_SITES=	ftp://ftpeng.cisco.com/pub/tacacs/old/
 EXTRACT_SUFX=	.tar
 
 MAINTAINER=	igor@zynaps.ru
