@@ -34,6 +34,7 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 MAKE_ENV=	KDEDIR="${KDEDIR}"
 
 pre-configure:
-		${CP} ${FILESDIR}/libtool ${FILESDIR}/ltmain.sh $(WRKSRC)/kpilot/libpilot
+		${CP} ${FILESDIR}/libtool.${PORTOBJFORMAT} ${WRKSRC}/kpilot/libpilot/libtool
+		${CP} ${FILESDIR}/ltmain.sh ${WRKSRC}/kpilot/libpilot/ltmain.sh
 
 .include <bsd.port.mk>
