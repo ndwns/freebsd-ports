@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       ParallelUserAgent-2.42
-PKGNAME=        p5-ParallelUA-2.42
+DISTNAME=       ParallelUserAgent-2.43
+PKGNAME=        p5-ParallelUA-2.43
 CATEGORIES=     www perl5 devel
 MASTER_SITES=   ${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     LWP
