@@ -13,6 +13,10 @@ MASTER_SITES=	ftp://ftp.ntua.gr/pub/X11/v/old/ \
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		compiler error in function fixup_memory_subreg
+.endif
+
 WRKSRC=		${WRKDIR}/v
 
 USE_X_PREFIX=	YES
