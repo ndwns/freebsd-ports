@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.uni-kl.de/pub/informatik/software/ \
 
 MAINTAINER=	ob@seicom.NET
 
+BROKEN=		attempts to install file to home directory
+
 MAKE_ENV= 	MAKEOBJDIR=.
 
 MAN1=	o2b.1 o2c.1 o2ef.1 o2whereis.1
