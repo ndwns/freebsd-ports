@@ -58,8 +58,12 @@
     SUBDIR += vile
     SUBDIR += vilearn
     SUBDIR += vim5
+    SUBDIR += wemi-emacs
+    SUBDIR += wemi-emacs-current
     SUBDIR += wemi-emacs20
     SUBDIR += wemi-emacs20-current
+    SUBDIR += wemi-mule
+    SUBDIR += wemi-mule-current
     SUBDIR += wily
     SUBDIR += wordperfect
     SUBDIR += xcoral
