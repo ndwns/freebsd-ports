@@ -1,17 +1,14 @@
 # New ports collection Makefile for: rxvt
-# Version required:	2.45
+# Version required:	2.4.11
 # Date created:         5th December 1994
 # Whom:                 gpalmer@FreeBSD.org
 #
 # $Id$
 #
 
-DISTNAME=	rxvt-2.4.7
+DISTNAME=	rxvt-2.4.11
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/  \
-		${MASTER_SITE_SUNSITE}  \
-		ftp://ftp.math.fu-berlin.de/pub/rxvt/devel/
-MASTER_SITE_SUBDIR= X11/terms
+MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
