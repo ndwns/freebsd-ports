@@ -3,6 +3,7 @@
 
     SUBDIR += adcomplain
     SUBDIR += asmail
+    SUBDIR += balsa
     SUBDIR += bulk_mailer
     SUBDIR += coolmail
     SUBDIR += cucipop
