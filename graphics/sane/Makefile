@@ -45,7 +45,7 @@ pre-configure:
 	@${ECHO} "*** the GIMP and GTK packages/ports."
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
