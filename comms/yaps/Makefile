@@ -14,6 +14,8 @@ MAINTAINER=     se@FreeBSD.ORG
 
 USE_GMAKE=	true
 
+BROKEN=		fetch
+
 MAN1=		yaps.1
 
 post-install:
