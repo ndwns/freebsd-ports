@@ -18,10 +18,8 @@ MAINTAINER=	hoek@FreeBSD.ORG
 LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--enable-tcl-dir=${PREFIX}/lib
-# carddir defaults to ${PREFIX}/libdata/xprez, as hier(9) dictates.
-# You may prefer ${PREFIX}/lib/tk80/xprez.  Beware PLIST differences.
-# CONFIGURE_ARGS+=	--enable-carddir=${PREFIX}/lib/tk80/xprez
+CONFIGURE_ARGS+=	--enable-tcl-dir=${PREFIX}/lib \
+			--enable-carddir=${PREFIX}/share/games/tvp
 
 MAN6=	tvp.6
 
