@@ -24,7 +24,7 @@ USE_GMAKE=	yes
 KDEDIR=		${PREFIX}
 
 CONFIGURE_ARGS=	--x-includes=$(X11BASE)/include --x-libraries=$(X11BASE)/lib \
-		--datadir=$(PREFIX)/share/kde --includedir=$(PREFIX)/include \
-		--libdir=$(PREFIX)/lib
+		--datadir=$(PREFIX)/share/kde
+CONFIGURE_ENV=	MOC=${X11BASE}/bin/moc
 
 .include <bsd.port.mk>
