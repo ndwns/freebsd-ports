@@ -35,6 +35,7 @@
     SUBDIR += gated
     SUBDIR += gnu-finger
     SUBDIR += gopher
+    SUBDIR += icb
     SUBDIR += icmpinfo
     SUBDIR += irc
     SUBDIR += ircII
