@@ -1,5 +1,6 @@
 @comment $FreeBSD$
 libexec/fidogate/areafix.help
+libexec/fidogate/areasbbssync
 libexec/fidogate/charset.bin
 libexec/fidogate/charset.map
 libexec/fidogate/ffx
