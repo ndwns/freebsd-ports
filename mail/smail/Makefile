@@ -6,13 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	smail-3.2
+DISTNAME=	smail-3.2.0.97
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
+MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/ \
+		ftp://ftp.fu-berlin.de/unix/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-BUILD_DEPENDS=	${PREFIX}/lib/libident.a:${PORTSDIR}/security/libident
+BUILD_DEPENDS=	${PREFIX}/lib/libident.a:${PORTSDIR}/security/libident \			${REPFIX}/lib/libwrap.a:${PORTSDIR}/security/tcp_wrapper
 
 INSTALL_TARGET=	install installman
 
