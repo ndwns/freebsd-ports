@@ -12,7 +12,7 @@ MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-WRKSRC=         ${WRKDIR}/${DISTNAME}
-# Don't compress manpages or .so not works.
+NOMANCOMPRESS=	"Don't compress manpages or .so does not work."
+MAN1=		bash.1 bash_builtins.1
 
 .include <bsd.port.mk>
