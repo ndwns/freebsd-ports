@@ -9,9 +9,8 @@
 DISTNAME=	kdesupport-Beta3-1
 PKGNAME=	kdesupport-3.1b
 CATEGORIES=	x11 kde
-MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/stable/Beta3/distribution/tgz/source/ \
- 		ftp://ftp.uni-erlangen.de/pub/Linux/MIRROR.KDE/stable/Beta3/distribution/tgz/source/ \
- 		ftp://ftp.caldera.com/pub/mirrors/kde/stable/Beta3/distribution/tgz/source/
+MASTER_SITES=	$(MASTER_SITE_KDE)
+MASTER_SITE_SUBDIR= stable/Beta3/distribution/tgz/source 
 EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	se@freebsd.org
