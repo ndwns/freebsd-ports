@@ -20,8 +20,7 @@ NEWSBIN=	${PREFIX}/libexec/news
 NEWSLIB=	${PREFIX}/lib/news
 MANDIR=		${PREFIX}/man
 
-install: all
-	@echo "===>  installing for ${DISTNAME}"
+do-install:
 	mkdir -p ${PREFIX}/include ${PREFIX}/lib
 	cp {WRKSRC}/libdbz/dbz.h ${PREFIX}/include
 	cp {WRKSRC}/libcnews.a ${PREFIX}/lib
@@ -53,5 +52,6 @@ install: all
 	@echo "	to suit your local system and news topology."
 	@echo "!!!!!!!!"
 	@echo ""
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>
