@@ -16,11 +16,6 @@ MAINTAINER=	d_burr@ix.netcom.com
 
 LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=		scsi.h
-.endif
-
 WRKSRC=		${WRKDIR}/workman
 USE_IMAKE=	yes
 MAN1=		workman.1
