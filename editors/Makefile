@@ -5,6 +5,7 @@
     SUBDIR += axe
     SUBDIR += beav
     SUBDIR += bpatch
+    SUBDIR += cooledit
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += emacs20
