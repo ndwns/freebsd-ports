@@ -17,6 +17,7 @@
     SUBDIR += sox
     SUBDIR += splay
     SUBDIR += timidity
+    SUBDIR += tosha
     SUBDIR += tracker
     SUBDIR += workman
     SUBDIR += xcd
