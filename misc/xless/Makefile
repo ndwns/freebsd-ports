@@ -5,16 +5,16 @@
 #
 # $Id$
 #
-      
+
 DISTNAME=	xless-1.7
-CATEGORIES=	misc	
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
 		ftp://ftp.cs.berkeley.edu/ucb/people/dglo/xless/
 MASTER_SITE_SUBDIR=     applications
 
 MAINTAINER=	conrads@neosoft.com
-      
+
 USE_IMAKE=	yes
 MAN1=		xless.1
-      
+
 .include <bsd.port.mk>
