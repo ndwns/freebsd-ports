@@ -32,8 +32,9 @@ do-fetch:
 # If ${.CURDIR}/work/.build_done (which will be ${BUILD_COOKIE}) exists,
 # we do nothing in a 'do-fetch' stage.
 .if !exists(${.CURDIR}/work/.build_done)
-pre-extract:
-	@${ECHO} -n "Please set the CD-ROM of 'Wnn6' into your cdrom-drive. (Press Return)"; \
+pre-extract::
+	@${ECHO} "Please set the CD-ROM 'Wnn6 for Linux/FreeBSD' (which is an old version !!)";
+	@${ECHO} -n "into your cdrom-drive. (Press Return)"; \
 	read dummy; \
 	${ECHO} "By default, a mount point and a device file"; \
 	${ECHO} "    are '${MOUNT_PT}' and '${MOUNT_DEV}' respectively."; \
@@ -64,10 +65,12 @@ pre-extract:
 	@/sbin/mount_cd9660 ${MOUNT_DEV} ${MOUNT_PT}
 .endif
 
-pre-extract:
+pre-extract::
 	@if [ ! -e ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ]; then \
+		${ECHO} ""; \
 		${ECHO} "${DISTDIR}/${DISTNAME}${EXTRACT_SUFX}: No such file"; \
-		${ECHO} "Perhaps the CD-ROM is not one of Wnn6"; \
+		${ECHO} "Perhaps the CD-ROM is not 'Wnn6 for Linux/FreeBSD'"; \
+		${ECHO} "!! Note that 'Wnn6 for Linux/FreeBSD' is an old version !!"; \
 		/sbin/umount ${MOUNT_PT}; \
 		${ECHO} "Umounting is done ..."; \
 		/usr/bin/false; \
