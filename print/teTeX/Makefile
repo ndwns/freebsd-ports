@@ -22,6 +22,7 @@ PATCHFILES=	teTeX-src-0.3.3-patch-001.gz teTeX-src-0.3.3-patch-002.gz \
 
 MAINTAINER=	tetex-freebsd@informatik.uni-hannover.de
 
+DISTDIR=	${PORTSDIR}/distfiles/teTeX
 EXTRACT_ONLY=	teTeX-src-0.3.3.tar.gz
 PATCH_DIST_STRIP=	-p1
 NO_CONFIGURE=	yes
