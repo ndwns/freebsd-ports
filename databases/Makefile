@@ -2,6 +2,7 @@
 #
     SUBDIR += cdb
     SUBDIR += db
+    SUBDIR += gadfly
     SUBDIR += gdbm
     SUBDIR += gnats
     SUBDIR += msql
