@@ -110,6 +110,7 @@
     SUBDIR += netcat
     SUBDIR += netpipes
     SUBDIR += nettest
+    SUBDIR += ninja
     SUBDIR += nocol
     SUBDIR += nslint
     SUBDIR += ntimelord
