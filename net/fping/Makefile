@@ -1,7 +1,7 @@
 # ex:ts=8
-# Ports collection makefile for:  foo
-# Version required:     	  2.1
-# Date created:			  Mon Feb 03, 1997
+# Ports collection makefile for:  fping
+# Version required:     	  1.20
+# Date created:			  Tue Mar 25, 1997
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
 # $Id$
