@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	povray3
-PKGNAME=	povray-3.1d
+PKGNAME=	povray-3.1e
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.povray.org/pub/povray/Official/MS-Dos/ \
 		ftp://ftp.povray.org/pub/povray/Old-Versions/Official-3.0/Unix/ \
