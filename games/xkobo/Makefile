@@ -12,6 +12,8 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		ftp://ftp.uoknor.edu/mirrors/X/contrib/games/
 MASTER_SITE_SUBDIR=	games
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 USE_IMAKE=	yes
 ALL_TARGET=	xkobo
 
