@@ -15,8 +15,6 @@ MAINTAINER=	brett@peloton.physics.montana.edu
 
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
-BROKEN_ELF=	library names
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-mail-author --disable-static
 USE_GMAKE= 	yes
