@@ -7,8 +7,11 @@
 
 PKGNAME=        ru-elm
 CATEGORIES+=    russian mail
+
 RUN_DEPENDS+=   elm:${PORTSDIR}/mail/elm
+
 MAINTAINER=     ache@FreeBSD.org
+
 NO_EXTRACT=     YES
 NO_WRKDIR=      YES
 NO_CONFIGURE=   YES
