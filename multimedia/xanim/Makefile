@@ -6,12 +6,14 @@
 # $Id$
 #
 
-DISTNAME=       xanim27064
-PKGNAME=        xanim-2.70.6.4
+DISTNAME=       xanim27070
+PKGNAME=        xanim-2.70.7.0
 CATEGORIES=	graphics x11
-MASTER_SITES=	ftp://xanim.va.pubnix.com/\
+MASTER_SITES=	ftp://xanim.va.pubnix.com/ \
 		ftp://xanim.va.pubnix.com/modules/
 DISTFILES=	${EXTRACT_ONLY} ${EXTRA_FILES}
+
+MAINTAINER=	ports@FreeBSD.ORG
 
 EXTRACT_ONLY=   ${DISTNAME}.tar.gz
 EXTRA_FILES=    xa2.0_cvid_netbsd386.o.Z xa2.0_iv32_netbsd386.o.Z \
@@ -22,8 +24,9 @@ MANCOMPRESSED=	yes
 
 post-extract:
 	@for file in ${EXTRA_FILES}; do \
-	  cp ${DISTDIR}/$$file ${WRKSRC}; \
+	  ${CP} ${DISTDIR}/$$file ${WRKSRC}; \
 	  uncompress ${WRKSRC}/$$file; \
 	done
+	${CP} ${WRKSRC}/docs/xanim.man ${WRKSRC}
 
 .include <bsd.port.mk>
