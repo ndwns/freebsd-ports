@@ -25,8 +25,8 @@ PATCH_DIST_ARGS=	-d ${WRKDIR}/${DISTNAME} --forward --quiet -E -p1
 # postgresql with tcl support by typing: make USE_TCL=yes
 .if defined(USE_TCL)
 MAKE_ENV=	USE_TCL=true TCL_INCDIR=${PREFIX}/include/tcl7.6
-LIB_DEPENDS=	tcl76jp\\.1\\.:${PORTSDIR}/japanese/tcl76 \
-		tk42jp\\.1\\.:${PORTSDIR}/japanese/tk42
+LIB_DEPENDS=	tcl76jp.1:${PORTSDIR}/japanese/tcl76 \
+		tk42jp.1:${PORTSDIR}/japanese/tk42
 WITH_TCL=	--with-tcl
 PLIST=		${PKGDIR}/PLIST.tcl
 .endif
