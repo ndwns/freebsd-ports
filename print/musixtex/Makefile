@@ -21,5 +21,7 @@ NO_WRKSUBDIR=	yes
 pre-install:
 	${MKDIR} ${PREFIX}/share/texmf/fonts/tfm
 	${MKDIR} ${PREFIX}/share/texmf/documentation
+	${MKDIR} ${PREFIX}/share/texmf/mf
+	${MKDIR} ${PREFIX}/share/texmf/ini
 
 .include <bsd.port.mk>
