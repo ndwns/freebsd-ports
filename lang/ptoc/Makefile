@@ -17,7 +17,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 MAKEFILE=		makefile
 
-BROKEN_ELF=	libXbgi.a
+USE_GMAKE=		yes
 
 pre-build:
 	@ ${RM} ${WRKSRC}/libXbgi.a
