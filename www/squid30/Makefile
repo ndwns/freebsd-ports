@@ -96,8 +96,8 @@ post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/squid.sh ]; then \
 		echo "Installing ${PREFIX}/etc/rc.d/squid.sh startup file."; \
 		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/squid.sh; \
-		echo "if [ -x /usr/local/sbin/RunCache -a -f /usr/local/etc/squid/squid.conf ]; then" >> ${PREFIX}/etc/rc.d/squid.sh; \
-		echo "	(cd /tmp; /usr/local/sbin/RunCache >/dev/null 2>&1 &) ; echo -n ' squid'" >> ${PREFIX}/etc/rc.d/squid.sh; \
+		echo "if [ -x ${PREFIX}/sbin/RunCache -a -f ${PREFIX}/etc/squid/squid.conf ]; then" >> ${PREFIX}/etc/rc.d/squid.sh; \
+		echo "	(cd /tmp; ${PREFIX}/sbin/RunCache >/dev/null 2>&1 &) ; echo -n ' squid'" >> ${PREFIX}/etc/rc.d/squid.sh; \
 		echo "fi" >> ${PREFIX}/etc/rc.d/squid.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/squid.sh; \
 	fi

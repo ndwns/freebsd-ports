@@ -12,7 +12,7 @@ PKGNAME=        webglimpse-1.6
 CATEGORIES=     www textproc
 MASTER_SITES=   ftp://ftp.cs.arizona.edu/glimpse/
 
-RUN_DEPENDS+=   /usr/local/etc/apache/httpd.conf:${PORTSDIR}/www/apache13
+RUN_DEPENDS+=   ${PREFIX}/etc/apache/httpd.conf:${PORTSDIR}/www/apache13
 RUN_DEPENDS+=   glimpse:${PORTSDIR}/textproc/glimpse
 WRKSRC=         ${WRKDIR}/webglimpse-1.6.edu
 
