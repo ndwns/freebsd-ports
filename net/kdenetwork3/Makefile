@@ -8,7 +8,7 @@
 
 DISTNAME=	kdenetwork-Beta3-1
 PKGNAME=	kdenetwork-3.1b
-CATEGORIES=	net kde
+CATEGORIES=	net news kde
 MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/stable/Beta3/distribution/tgz/source/ \
 		ftp://ftp.uni-erlangen.de/pub/Linux/MIRROR.KDE/stable/Beta3/distribution/tgz/source/ \
 		ftp://ftp.caldera.com/pub/mirrors/kde/stable/Beta3/distribution/tgz/source/
