@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ucspi-tcp-0.80
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils net
 MASTER_SITES=   ftp://koobera.math.uic.edu/www/software/
 
 MAINTAINER=     dom@myrddin.demon.co.uk
