@@ -16,6 +16,7 @@ SUBDIR += japanese
 SUBDIR += lang
 SUBDIR += mail
 SUBDIR += math
+SUBDIR += misc
 SUBDIR += net
 SUBDIR += news
 SUBDIR += plan9
@@ -24,7 +25,7 @@ SUBDIR += russian
 SUBDIR += shells
 SUBDIR += security
 SUBDIR += sysutils
-SUBDIR += utils
+SUBDIR += www
 SUBDIR += x11
 
 .include <bsd.port.subdir.mk>
