@@ -14,6 +14,7 @@
     SUBDIR += gbscript
     SUBDIR += hc
     SUBDIR += hztty
+    SUBDIR += kcfonts
     SUBDIR += lunar
     SUBDIR += mule-wnn4
     SUBDIR += nvi-big5
