@@ -9,6 +9,7 @@ DATE="`sed -ne 's/^set date \(.*\)/\1/p' ${WRKSRC}/exmh.install`"
 SEDFILE=sed.$$
 
 EXPECT="{}"
+EXPECTK="{}"
 FACES="{}"
 DOMAIN="{}"
 PGP="{}"
