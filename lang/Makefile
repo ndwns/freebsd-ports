@@ -1,7 +1,7 @@
 # $Id$
 
-#Broken - expect, tclX
+#Broken - expect
 
-SUBDIR=	Gofer STk Sather forth gcl logo p2c schemetoc scm smalltalk tcl
+SUBDIR=	Gofer STk Sather forth gcl logo p2c schemetoc scm smalltalk tcl tclX
 
 .include <bsd.port.subdir.mk>
