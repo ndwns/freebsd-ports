@@ -265,10 +265,11 @@ pre-configure:
 # This is done with a .configure because configures are often expensive,
 # and you don't want it done again gratuitously when you're trying to get
 # a make of the whole tree to work.
-configure: extract pre-configure ${CONFIGURE_COOKIE}
+configure: extract ${CONFIGURE_COOKIE}
 
 ${CONFIGURE_COOKIE}:
 	@echo "===>  Configuring for ${DISTNAME}"
+	${MAKE} ${MAKE_FLAGS} ${MAKEFILE} pre-configure
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; do \
