@@ -184,7 +184,10 @@
     SUBDIR += tcsh-nls-ayanami
     SUBDIR += tcsh-nls-generic
     SUBDIR += tcsh-nls-koshiki
+    SUBDIR += tcsh-nls-merril
+    SUBDIR += tcsh-nls-miyakonjo
     SUBDIR += tcsh-nls-multi
+    SUBDIR += tcsh-nls-rishu
     SUBDIR += tcsh-nls-roomi
     SUBDIR += tcsh-nls-ruri2
     SUBDIR += tgif
