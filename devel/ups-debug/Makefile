@@ -17,6 +17,8 @@ MAINTAINER=     obrien@FreeBSD.org
 OSVERSION!=	sysctl -n kern.osreldate
 .if ${OSVERSION} >= 300000
 BROKEN=	"During build: Libvar_addrs[0] is not constant"
+.else
+BROKEN=	"xc_builtins.c cannot find X11/Xlib.h"
 .endif
 
 ALL_TARGET=	ups ups
