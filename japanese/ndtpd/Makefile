@@ -36,6 +36,8 @@ APPENDIXFILES=	chujiten-2.3.tar.gz \
 
 MAINTAINER=	m-kasahr@sra.co.jp
 
+BROKEN_ELF=	yes
+
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 DIST_SUBDIR=	ndtpd
