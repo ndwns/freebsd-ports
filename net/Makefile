@@ -90,11 +90,11 @@
     SUBDIR += rmsg
     SUBDIR += rshell
     SUBDIR += rsync
-    SUBDIR += rumba
     SUBDIR += rwhois
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += sendfile
+    SUBDIR += sharity-light
     SUBDIR += sic
     SUBDIR += sirc
     SUBDIR += slirp
