@@ -1,6 +1,4 @@
 # New ports collection makefile for:    zip (without encryption)
-# http://infozip.cdrom.com/pub/infozip/
-#
 # Version required:     2.2
 # Date created:         22 Dec 1994
 # Whom:                 ache
