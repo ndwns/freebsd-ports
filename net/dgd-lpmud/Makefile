@@ -30,7 +30,7 @@ do-build:
 	@cd ${WRKDIR}/mud/bin; make
 
 do-install:
-	@tar -C ${WRKDIR} -cf - `grep '^[a-z]' ${PKGDIR}/PLIST` \
+	@tar -C ${WRKSRC} -cf - `grep '^[a-z]' ${PKGDIR}/PLIST` \
 		| tar -C ${PREFIX}/dgd -xpf -
 
 .include <bsd.port.mk>
