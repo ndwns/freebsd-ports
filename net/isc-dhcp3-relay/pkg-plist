@@ -1,9 +1,5 @@
 @comment $FreeBSD$
-@unexec if cmp -s %D/etc/rc.isc-dhcrelay.conf %D/etc/rc.isc-dhcrelay.conf.sample; then rm -f %D/etc/rc.isc-dhcrelay.conf; fi
-etc/rc.isc-dhcrelay.conf.sample
-@exec [ -f %D/etc/rc.isc-dhcrelay.conf ] || cp %D/etc/rc.isc-dhcrelay.conf.sample %D/etc/rc.isc-dhcrelay.conf
-etc/rc.d/isc-dhcrelay.sh.sample
-@unexec rm -f etc/rc.d/isc-dhcrelay.sh
+etc/rc.d/isc-dhcrelay.sh
 sbin/dhcrelay
 %%PORTDOCS%%%%DOCSDIR%%/ANONCVS
 %%PORTDOCS%%%%DOCSDIR%%/CHANGES
