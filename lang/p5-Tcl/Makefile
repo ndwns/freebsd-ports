@@ -18,6 +18,8 @@ LIB_DEPENDS=	tcl76.1:${PORTSDIR}/lang/tcl76
 
 USE_PERL5=	YES
 
+BROKEN_ELF=	cannot open -ltcl76: No such file or directory
+
 WRKSRC=		${WRKDIR}/Tcl
 
 MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
