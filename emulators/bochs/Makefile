@@ -1,5 +1,5 @@
 # New ports collection makefile for:   bochs
-# Version required:    980331a
+# Version required:    980513a
 # Date created:        16 December 1997
 # Whom:                alex
 #
