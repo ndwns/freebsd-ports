@@ -1,7 +1,7 @@
 # ports collection makefile for:	AliceSoft System 3.5 on X
 # Version required:	BETA
 # Date created:		24 Oct 1998
-# Whom:			Seiichirou Hiraoka
+# Whom:			FUJISHIMA Satsuki
 #
 # $Id$
 #
@@ -14,7 +14,7 @@ MASTER_SITES=	http://ryo1207.aist-nara.ac.jp/unitbase/xsys35/down/
 PATCH_SITES=	http://ryo1207.aist-nara.ac.jp/unitbase/xsys35/down/
 PATCHFILES=	patch-19981123.diff.gz
 
-MAINTAINER=	flathill@FreeBSD.ORG
+MAINTAINER=	k5@respo.or.jp
 
 LIB_DEPENDS+=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
