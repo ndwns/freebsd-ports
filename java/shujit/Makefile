@@ -36,7 +36,7 @@ JAVALIBDIR=	${JAVADIR}/lib/i386/green_threads
 JAVABINDIR=	${JAVADIR}/bin/i386/green_threads
 JAVAOBJFORMAT=	`file ${JAVABINDIR}/java | ${AWK} '{print $$2}'`
 
-pre-fetch:
+pre-build:
 	@( if [ ${JAVAOBJFORMAT} != ELF ]; then	\
 		${CAT} ${PKGDIR}/MESSAGE;	\
 		exit 1;				\
