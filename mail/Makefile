@@ -14,6 +14,8 @@
     SUBDIR += exim
     SUBDIR += exmh
     SUBDIR += exmh2
+    SUBDIR += ezmlm
+    SUBDIR += ezmlm-idx
     SUBDIR += faces
     SUBDIR += fetchmail
     SUBDIR += glbiff
