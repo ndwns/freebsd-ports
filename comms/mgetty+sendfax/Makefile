@@ -13,8 +13,6 @@ DISTFILES=	mgetty099-Aug07.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
-NO_PACKAGE=	yes	# too many questions
-IS_INTERACTIVE= yes
 MAKE_FLAGS=	prefix=${PREFIX} -f 
 MAN1=		coverpg.1 fax.1 faxq.1 faxrm.1 faxrunq.1 faxspool.1 \
 		g3cat.1 g3topbm.1 pbmtog3.1
@@ -25,7 +23,9 @@ MAN8=		sendfax.8 mgetty.8 callback.8
 pre-install:
 	@(cd ${WRKSRC}/doc; ${GMAKE} manpages)
 
+.if !defined(BATCH)
 post-install:
 	@(cd ${PKGDIR}; export PKG_PREFIX=${PREFIX}; /usr/bin/perl INSTALL _ POST-INSTALL)
+.endif
 
 .include <bsd.port.mk>
