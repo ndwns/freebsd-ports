@@ -12,9 +12,10 @@ PATCHDIR=	${.CURDIR}/../../editors/nvi/patches
 PKGDIR=		${.CURDIR}/../../editors/nvi/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
+PKGNAME=	ko-nvi-euckr-1.79.19970820
+
 .include <${.CURDIR}/../../editors/nvi/Makefile>
 
-PKGNAME=	ko-nvi-euckr-1.79-970820
 CATEGORIES=	korean editors
 
 MAINTAINER=	itojun@itojun.org

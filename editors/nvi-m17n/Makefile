@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	nvi-1.79
-PKGNAME=	nvi-m17n-1.79-970820
-CATEGORIES=	japanese editors
+PKGNAME?=	nvi-m17n-1.79.19970820
+CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.bostic.com/pub/\
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
