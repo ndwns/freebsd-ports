@@ -7,6 +7,7 @@
     SUBDIR += aero
     SUBDIR += aview
     SUBDIR += camediaplay
+    SUBDIR += cqcam
     SUBDIR += dc3play
     SUBDIR += dore
     SUBDIR += fli2gif

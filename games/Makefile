@@ -90,6 +90,7 @@
     SUBDIR += xshisen
     SUBDIR += xshogi
     SUBDIR += xskat
+    SUBDIR += xsok
     SUBDIR += xsokoban
     SUBDIR += xsol
     SUBDIR += xsoldier
