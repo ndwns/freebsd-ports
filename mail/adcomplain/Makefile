@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=       adcomplain-3.33
+DISTNAME=       adcomplain-3.35
 CATEGORIES=     mail news
 MASTER_SITES=   http://www.rdrop.com/users/billmc/
 DISTFILES=      adcomplain.pl.uu
