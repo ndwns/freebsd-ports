@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dima@FreeBSD.ORG
 
+MAN1=	xdir.1
+
 WRKSRC=		${WRKDIR}/llnlxdir2_1/sources
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
