@@ -17,11 +17,20 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	glib11\\.0\\.:${PORTSDIR}/devel/glib
 
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11
 
+MAN1=		gtk11-config.1
+
+pre-install:
+	@if [ ! -f ${PREFIX}/info/dir ]; then \
+	${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+	${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
