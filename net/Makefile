@@ -49,6 +49,7 @@
     SUBDIR += dnswalk
     SUBDIR += dnsutl
     SUBDIR += domtools
+    SUBDIR += downloader
     SUBDIR += echoping
     SUBDIR += epic4
     SUBDIR += etherboot
