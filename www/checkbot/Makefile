@@ -18,7 +18,6 @@ BUILD_DEPENDS=  \
 		${site_perl}/LWP.pm:${PORTSDIR}/www/p5-libwww \
 		${site_perl}/Mail/Send.pm:${PORTSDIR}/mail/p5-Mail-Tools
 
-BROKEN=		BUILD_DEPENDS list not right
 MAN1=		checkbot.1
 USE_PERL5=	YES
 
