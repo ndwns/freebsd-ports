@@ -15,6 +15,7 @@ EXTRACT_SUFX=   .exe
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
 NO_PACKAGE=     Only unmodified original package can be distributed
 
 NO_WRKSUBDIR=   yes
