@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/ \
 
 MAINTAINER=	nate@FreeBSD.org
 
+LIB_DEPENDS+=  jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+
 NO_WRKSUBDIR=		yes
 USE_X11=		yes
 USE_IMAKE=		yes
