@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	cpm-1.1
-WRKSRC=		${WRKDIR}/cpm
 
 MAINTAINER=	joerg@FreeBSD.org
+
+WRKSRC=		${WRKDIR}/cpm
+
 #
 # need our own build target to pass PREFIX down to the make command
 #

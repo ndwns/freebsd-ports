@@ -7,9 +7,12 @@
 #
 
 DISTNAME=	xsysstats1.34
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/utilities/
+PKGNAME=	xsysstats-1.34
 CATEGORIES+=	utilities x11
+MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/utilities/
+
 MAINTAINER=	asami@FreeBSD.ORG
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

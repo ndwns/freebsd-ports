@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	amanda-2.2.6
-MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/amanda/
 CATEGORIES+=	utilities
+MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/amanda/
+
 MAINTAINER=	gpalmer@FreeBSD.ORG
+
 PATCH_STRIP=	
 
 .include <bsd.port.mk>
