@@ -11,6 +11,7 @@ PKGNAME=	vim-lite-5.3
 
 LITE=		yes
 
+.include <bsd.port.pre.mk>
 .if exists(${.CURDIR}/../vim5)
 MASTERDIR=	${.CURDIR}/../vim5
 .else
