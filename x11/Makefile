@@ -40,6 +40,7 @@
     SUBDIR += xloadimage
     SUBDIR += xlockmore
     SUBDIR += xphoon
+    SUBDIR += xpostit
     SUBDIR += xscreensaver
     SUBDIR += xsnow
     SUBDIR += xview-config
