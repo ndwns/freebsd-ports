@@ -8,13 +8,9 @@
 
 DISTNAME=	File-Lock-0.9
 PKGNAME=	p5-File-Lock-0.9
-CATEGORIES+=	devel
-MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/File/ \
-		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/File/ \
-		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/File/ \
-		ftp://ftp.leo.org/pub/comp/programming/languages/perl/CPAN/modules/by-module/File/ \
-		ftp://ftp.demon.co.uk/pub/mirrors/perl/CPAN/modules/by-module/File/ \
-		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/modules/by-module/File/
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	File
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 

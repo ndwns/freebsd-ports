@@ -17,14 +17,10 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
+MAN3=		Compress::Zlib.3
+MANPREFIX=	${PREFIX}/lib/perl5
+
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-		@ for file in Compress::Zlib; do \
-			gzip -9nf ${PREFIX}/lib/perl5/man/man3/$$file.3; \
-		done
-.endif
 
 .include <bsd.port.mk>

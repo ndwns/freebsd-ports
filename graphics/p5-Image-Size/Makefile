@@ -8,13 +8,9 @@
 
 DISTNAME=	Image-Size-1.2
 PKGNAME=	p5-Image-Size-1.2
-CATEGORIES+=	graphics www
-MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Image/ \
-		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Image/ \
-		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Image/ \
-		ftp://ftp.leo.org/pub/comp/programming/languages/perl/CPAN/modules/by-module/Image/ \
-		ftp://ftp.demon.co.uk/pub/mirrors/perl/CPAN/modules/by-module/Image/ \
-		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/modules/by-module/Image/
+CATEGORIES=	graphics www
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	Image
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 

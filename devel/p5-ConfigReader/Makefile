@@ -8,13 +8,9 @@
 
 DISTNAME=	ConfigReader-0.5
 PKGNAME=	p5-ConfigReader-0.5
-CATEGORIES+=	devel
-MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/ConfigReader/ \
-		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/ConfigReader/ \
-		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/ConfigReader/ \
-		ftp://ftp.leo.org/pub/comp/programming/languages/perl/CPAN/modules/by-module/ConfigReader/ \
-		ftp://ftp.demon.co.uk/pub/mirrors/perl/CPAN/modules/by-module/ConfigReader/ \
-		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/modules/by-module/ConfigReader/
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	ConfigReader
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
