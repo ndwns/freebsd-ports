@@ -47,3 +47,7 @@ do-install:
 			${PREFIX}/share/rar/dos.sfx
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
