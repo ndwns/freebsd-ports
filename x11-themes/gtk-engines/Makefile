@@ -8,7 +8,8 @@
 
 DISTNAME=	gtk-engines-0.1
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
+MASTER_SITES=	ftp://freebsd.csie.nctu.edu.tw/Upload/  \
+		ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
