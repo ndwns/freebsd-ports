@@ -425,7 +425,10 @@ ${CONFIGURE_COOKIE}:
 		sh ${SCRIPTDIR}/configure; \
 	fi
 .if defined(HAS_CONFIGURE)
-	@(cd ${WRKSRC}; CC=${CC} CFLAGS=${CFLAGS} ./configure ${CONFIGURE_ARGS})
+	@(cd ${WRKSRC}; CC=${CC} CFLAGS=${CFLAGS} \
+	    INSTALL="${INSTALL} ${COPY} -o ${BINOWN} -g ${BINGRP}" \
+	    INSTALL_PROGRAM="${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE}" \
+	    ./configure ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
 .if defined(USE_GMAKE)
