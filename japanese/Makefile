@@ -30,6 +30,7 @@
     SUBDIR += jtex209-both
     SUBDIR += jtex209-ntt
     SUBDIR += k12
+    SUBDIR += k8
     SUBDIR += kakasi
     SUBDIR += kcc
     SUBDIR += kinput2-canna
