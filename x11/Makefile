@@ -31,6 +31,8 @@
     SUBDIR += gtk
     SUBDIR += gwm
     SUBDIR += iv
+    SUBDIR += kdebase
+    SUBDIR += kdelibs
     SUBDIR += lesstif
     SUBDIR += libdnd
     SUBDIR += libsx
