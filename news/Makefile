@@ -1,5 +1,6 @@
 # $Id$
 #
-SUBDIR=	cnews nn nntp trn inn
+# BROKEN = cnews
+SUBDIR=	nn nntp trn inn
 
 .include <bsd.port.subdir.mk>
