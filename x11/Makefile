@@ -31,6 +31,7 @@
     SUBDIR += specJava
     SUBDIR += swisswatch
     SUBDIR += sxpc
+    SUBDIR += tix
     SUBDIR += tk
     SUBDIR += tk4
     SUBDIR += tk41
