@@ -8,7 +8,7 @@
 
 DISTNAME=       fspclient.0.0-h+
 PKGNAME=        fspclient.0.0.h
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=   ftp://ftp.germany.eu.net/pub/networking/tcpip/fsp/
 EXTRACT_SUFX=   .tar.z
 

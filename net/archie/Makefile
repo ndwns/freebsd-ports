@@ -8,7 +8,7 @@
 
 DISTNAME=	c-archie-1.4.1-FIXED
 PKGNAME=	archie-1.4.1
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://nic.sura.net/pub/archie/clients/
 EXTRACT_SUFX=	.tar.Z
 

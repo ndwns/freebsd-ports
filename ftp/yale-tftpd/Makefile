@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	yale-tftpd-3.0
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.cisco.com/pub/
 
 NO_WRKSUBDIR=

@@ -8,7 +8,7 @@
 
 DISTNAME=	zircon-1.15p11
 PKGNAME=	zircon-1.15.11
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 BUILD_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP

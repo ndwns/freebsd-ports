@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ircii-2.8.2
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 DISTFILES=	ircii-2.8.2.tar.gz ircii-2.8help.tar.gz
 

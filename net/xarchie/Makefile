@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xarchie-2.0.10
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/ \
 		ftp://ftp.funet.fi/pub/X11/contrib/applications/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	samba-1.9.14
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	scotty-1.2.0
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
 PATCHFILES=	scotty-1.2.0-1.2.1.diff.gz scotty-1.2.1-1.2.2.diff.gz

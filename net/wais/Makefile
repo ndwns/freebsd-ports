@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       freeWAIS-0.3
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
 GMAKE=		yes

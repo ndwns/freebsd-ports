@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rmsg-1.64
-CATEGORIES=	networking
+CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/tcpip/ \
 		ftp://proton.elka.pw.edu.pl/pub/unix/network/
 

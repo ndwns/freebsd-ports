@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	slirp-0.95f
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/ \
 		ftp://freedom.wit.com/misc4/danjo/SLiRP/
 

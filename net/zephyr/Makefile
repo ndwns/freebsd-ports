@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	zephyr-2.0.2
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://athena-dist.mit.edu/pub/ATHENA/zephyr/dist/
 HAS_CONFIGURE=	yes
 

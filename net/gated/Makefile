@@ -8,7 +8,7 @@
 
 DISTNAME=       gated-r3_5alpha_11
 PKGNAME=        gated-3.5a11
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=   ftp://ftp.gated.merit.edu/net-research/gated/
 
 WRKSRC=		${WRKDIR}/gated

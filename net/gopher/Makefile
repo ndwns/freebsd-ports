@@ -8,7 +8,7 @@
 
 DISTNAME=	gopher2_1_3
 PKGNAME=	gopher-2.1.3
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/
 EXTRACT_SUFX=	.tar.Z
 

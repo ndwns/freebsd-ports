@@ -7,9 +7,10 @@
 #
 
 DISTNAME=	sup
-MAINTAINER=	gibbs@FreeBSD.org
 PKGNAME=	sup-2.0
+CATEGORIES+=	net
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
-CATEGORIES+=	networking
+
+MAINTAINER=	gibbs@FreeBSD.org
 
 .include <bsd.port.mk>

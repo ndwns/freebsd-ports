@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       ncftp-2.2.2
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=   ftp://ftp.cs.unl.edu/pub/ncftp/
 EXTRACT_SUFX=   .tgz
 

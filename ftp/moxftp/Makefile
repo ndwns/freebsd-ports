@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	moxftp-2.2
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
 

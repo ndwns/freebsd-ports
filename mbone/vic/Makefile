@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	vic-2.6
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vic/
 DISTFILES=	vicsrc-2.6.tar.Z
 

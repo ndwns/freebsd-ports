@@ -8,7 +8,7 @@
 
 DISTNAME=	irc2.8.21
 PKGNAME=	irc-2.8.21
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
