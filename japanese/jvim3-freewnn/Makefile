@@ -1,12 +1,12 @@
 # New ports collection makefile for:	jvim3 for Wnn4
-# Version required:	3.0-j1.3i
+# Version required:	3.0-j1.3j
 # Date created:		98/11/17
 # Whom:			Satoshi TAOKA <taoka@infonets.hiroshima-u.ac.jp>
 #
 # $Id$
 #
 
-PKGNAME=	ja-jvim-wnn4-3.0.1.3i
+PKGNAME=	ja-jvim-wnn4-3.0.1.3j
 
 WNN4=		yes
 
