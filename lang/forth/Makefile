@@ -15,8 +15,6 @@ CATEGORIES+=	languages
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/languages/forth/
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/lib
 	@mkdir -p ${PREFIX}/man/man1
 	@cp ${WRKSRC}/pfe.1 ${PREFIX}/man/man1/pfe.1
 
