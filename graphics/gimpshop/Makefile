@@ -6,9 +6,9 @@
 # $Id$
 #
 
-VERSION=			0.99.8
+VERSION=	0.99.9
 DISTNAME=       gimp-${VERSION}
-DISTFILES=	${DISTNAME}.tar.gz gimp-data-0.99.8.tar.gz
+DISTFILES=	${DISTNAME}.tar.gz gimp-data-${VERSION}.tar.gz
 
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.xcf.berkeley.edu/pub/gimp/developers/
