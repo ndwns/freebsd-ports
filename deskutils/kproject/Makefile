@@ -18,6 +18,8 @@ BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
 LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 WRKSRC=		${WRKDIR}/kproject
 

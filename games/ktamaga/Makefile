@@ -17,6 +17,8 @@ LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 BROKEN=		upgrade
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 WRKSRC=		${WRKDIR}/tamaga-0.2
 

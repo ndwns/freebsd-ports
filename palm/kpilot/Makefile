@@ -21,6 +21,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		kfm\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		mediatool\\.1\\.:${PORTSDIR}/x11/kdelibs
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 KDEDIR?=	$(PREFIX)
 GNU_CONFIGURE=	yes

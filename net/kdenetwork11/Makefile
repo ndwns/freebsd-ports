@@ -25,6 +25,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		mediatool\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
 		mimelib\\.1\\.[0-9]:${PORTSDIR}/converters/kdesupport
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \

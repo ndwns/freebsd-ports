@@ -21,6 +21,8 @@ RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 		kmail:${PORTSDIR}/net/kdenetwork \
 		kmedia:${PORTSDIR}/audio/kdemultimedia
 
+BROKEN_ELF=	depends on kdelibs
+
 EXTRACT_ONLY=	# empty
 NO_BUILD=	yes
 

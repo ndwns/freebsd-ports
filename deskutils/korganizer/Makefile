@@ -20,6 +20,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 
 BROKEN=		build
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

@@ -18,6 +18,8 @@ LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		kfm\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		kfile\\.1\\.:${PORTSDIR}/x11/kdelibs
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes

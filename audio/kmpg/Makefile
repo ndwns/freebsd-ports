@@ -17,6 +17,8 @@ MAINTAINER=	hanspb@persbraten.vgs.no
 LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
 
+BROKEN_ELF=	depends on kdelibs
+
 USE_QT=		yes
 USE_GMAKE=	yes
 MAKE_ENV=	KDEDIR=${PREFIX}
