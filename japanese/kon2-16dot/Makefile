@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kon2-0.3
-PKGNAME=	ja-kon2-0.3
+PKGNAME=	ja-kon2-${KONFONT}-0.3
 CATEGORIES=	japanese
 # note kon is only in first directory and fonts are only in second directory
 MASTER_SITES=	ftp://ftp.tut.ac.jp/Linux/Packages/Utils/ \
@@ -39,6 +39,7 @@ pre-fetch:
 	@${ECHO_MSG} "by adding \"KONFONT=<Font Size>\" to argument of make."
 	@${ECHO_MSG} "<Font Size> must be \"16dot\" or \"14dot\"."
 	@${ECHO_MSG} "KONFONT defalut value is \"16dot\"."
+KONFONT=16dot
 KON16FONT=Startup
 .endif
 
