@@ -1,25 +1,22 @@
-# New ports collection makefile for: geg
-# Version required:    0.15.0
-# Date created:        8 Aug 1998
-# Whom:                rom
+# New ports collection makefile for:		geg
+# Version required:				0.99.0
+# Date created:					8 Aug 1998
+# Whom:						rom
 #
 # $Id$
 #
 
-DISTNAME=	geg-0.15.0
+DISTNAME=	geg-0.99.0
 CATEGORIES=	math
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Park/2030/
 
 MAINTAINER=	rom_glsa@ein-hashofet.co.il
 
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
 
-BROKEN=		build
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include" \
-		GTK_CONFIG="${X11BASE}/bin/gtk11-config" \
-		LIBS="-L${X11BASE}/lib -lgtk11"
+CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include"
 
 .include <bsd.port.mk>
