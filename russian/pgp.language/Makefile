@@ -22,6 +22,9 @@ NO_CONFIGURE=   YES
 NO_PATCH=       YES
 NO_BUILD=       YES
 
+# Need to define USA_RESIDENT to YES or NO
+IS_INTERACTIVE=	YES
+
 PGPLIB=         ${PREFIX}/lib/pgp
 OBJS=           language.txt ru.hlp
 
