@@ -5,6 +5,7 @@
     SUBDIR += acroread
     SUBDIR += afm
     SUBDIR += apsfilter
+    SUBDIR += c2ps
     SUBDIR += dvi2tty
     SUBDIR += dvi2xx
     SUBDIR += dvips
