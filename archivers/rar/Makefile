@@ -16,7 +16,7 @@ EXTRACT_SUFX=   .exe
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-NO_PACKAGE=     yes # only unmodified original package can be distributed
+NO_PACKAGE=     Only unmodified original package can be distributed
 
 NO_WRKSUBDIR=   yes
 EXTRACT_CMD=
