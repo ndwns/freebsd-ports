@@ -19,7 +19,6 @@
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += figlet
-    SUBDIR += gettext
     SUBDIR += git
     SUBDIR += gnuls
     SUBDIR += gone
