@@ -29,14 +29,14 @@ OBJDIR=	${WRKSRC}/dist/${OSNAME}${OSVER}_DBG.OBJ
 
 do-install:
 	@${MKDIR} ${PREFIX}/lib/mozilla/bin
-	@tar -cf - --dereference -C ${OBJDIR}/bin bsdecho mozilla-export \
+	@cd ${OBJDIR}/bin && tar -chf - bsdecho lib* moz-export \
 		nsinstall vreg | tar -xf - -C ${PREFIX}/lib/mozilla/bin
 	@chmod 755 ${PREFIX}/lib/mozilla/bin
 	@${INSTALL_SCRIPT} ${WRKSRC}/mozilla ${PREFIX}/bin
 	@if [ ! -f ${PREFIX}/lib/mozilla/mailcap ] ; then \
 		${INSTALL_DATA} ${FILESDIR}/mailcap ${PREFIX}/lib/mozilla ; \
 	fi
-	@strip ${PREFIX}/lib/mozilla/bin/mozilla-export
+	@strip ${PREFIX}/lib/mozilla/bin/moz-export
 	@chown -R bin.bin ${PREFIX}/lib/mozilla
 
 .include <bsd.port.mk>
