@@ -1254,7 +1254,7 @@ depends-list:
 #
 .if !target(describe)
 describe:
-	@${ECHO} -n "${PKGNAME}|${.CURDIR}/${PKGNAME}|"
+	@${ECHO} -n "${PKGNAME}|${.CURDIR}|"
 	@${ECHO} -n "${PREFIX}|"
 	@if [ -f ${PKGDIR}/COMMENT ]; then \
 		${ECHO} -n "`${CAT} ${PKGDIR}/COMMENT`"; \
