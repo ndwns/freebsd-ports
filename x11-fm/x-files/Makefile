@@ -8,14 +8,12 @@
 
 DISTNAME=       X-Files-1.43
 PKGNAME=	x-files-1.43
-CATEGORIES=	misc tk80
+CATEGORIES=	x11-fm tk80
 MASTER_SITES=   http://java.inf.tu-dresden.de/X-Files/data/
 
 MAINTAINER=     dmaddox@scsn.net
 
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
-
-BROKEN=		repository copy
 
 .if !defined(DISPLAY)
 BROKEN=		requires DISPLAY to install

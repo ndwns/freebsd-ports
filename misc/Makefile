@@ -66,7 +66,6 @@
     SUBDIR += unclutter
     SUBDIR += us-zipcodes
     SUBDIR += viz
-    SUBDIR += x-files
     SUBDIR += xd
     SUBDIR += xdelta
     SUBDIR += xenmenu

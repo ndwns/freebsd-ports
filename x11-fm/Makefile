@@ -11,6 +11,7 @@
     SUBDIR += q3dmenu
     SUBDIR += tkdesk
     SUBDIR += workplace
+    SUBDIR += x-files
     SUBDIR += xfm
 
 .include <bsd.port.subdir.mk>
