@@ -8,19 +8,23 @@
 
 DISTNAME=	uudeview-0.5.13
 PKGNAME=	xdeview-0.5.13
-CATEGORIES=	converters
+CATEGORIES=	converters tk80
 MASTER_SITES=	ftp://ftp.uni-frankfurt.de/pub/dist/frank/ \
 		http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/ \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/
 
-MAINTAINER=	ac199@freenet.hamilton.on.ca
+MAINTAINER=	hoek@FreeBSD.ORG
 
-LIB_DEPENDS=    tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=    tk80\\.1\\.:${PORTSDIR}/x11/tk80
 LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 
 FILESDIR=	${.CURDIR}/../../converters/uulib/files
-USE_X11=	yes
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--enable-tcl="${PREFIX}" --enable-tk="${PREFIX}"
+# Season to taste --- anything over tcl7.5
+CONFIGURE_ENV=	CPPFLAGS="-I${PREFIX}/include/tcl8.0 -I${PREFIX}/include/tk8.0"
+FETCH_BEFORE_ARGS=	-t
+
 ALL_TARGET=	xdeview
 INSTALL_TARGET=	install-tcl
 MAN1=		xdeview.1
