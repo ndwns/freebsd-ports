@@ -9,6 +9,7 @@
 #
 
 DISTNAME=	xjman-0.2
+PKGNAME=	ja-xjman-0.2
 CATEGORIES=	japanese
 MASTER_SITES=	http://WWW.jp.FreeBSD.ORG/~sada/distfiles/ \
 		http://www.dsl.gr.jp/~go/xjman/ \
