@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	Canna32p2
-PKGNAME=	Canna-3.2.2
+PKGNAME=	jp-Canna-3.2.2
 CATEGORIES+=	japanese
 MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/Canna32/ \
 		ftp://ftp.cdrom.com/pub/japanese/titech/Canna32/
@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/Canna32/ \
 MAINTAINER=	max@FreeBSD.ORG
 
 USE_IMAKE=	yes
-PREFIX?=	/usr/local
+PREFIX?=	${LOCALBASE}
 ALL_TARGET=	canna
 
 MAN3PAGES= 	RkRgnBun.3 RkDefineDic.3 RkDeleteDic.3 RkEndBun.3 \
