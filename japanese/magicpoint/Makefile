@@ -9,7 +9,7 @@
 MASTERDIR=	${.CURDIR}/../../misc/magicpoint
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.24:${PORTSDIR}/japanese/vflib
 
 PKGNAME=	ja-magicpoint-1.04a
 
