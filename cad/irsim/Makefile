@@ -6,14 +6,13 @@
 # $Id$
 #
 
-DISTNAME=       irsim-9.2
+DISTNAME=       irsim-9.4.1
 CATEGORIES=	cad
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/WRL/projects/magic/6.4/
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/WRL/projects/magic/6.5/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
-WRKSRC=		${.CURDIR}/work/irsim
 MAN1=		irsim.1
 MAN3=		irsim-analyzer.3
 MAN5=		netchange.5
