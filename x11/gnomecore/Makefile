@@ -27,7 +27,6 @@ CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include \
 		CXXFLAGS="${CFLAGS}" \
 		GTK_CONFIG="${X11BASE}/bin/gtk11-config" \
 		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib -lxpg4"
-MAKE_ENV=	GNOMELOCALEDIR="${PREFIX}/share/locale"
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
