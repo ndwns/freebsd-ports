@@ -12,7 +12,7 @@ DATE= 		980513
 
 DISTNAME=	bochs-${DATE}a
 CATEGORIES= 	emulators
-MASTER_SITES= 	ftp://ftp.std.com/pub/bochs/
+MASTER_SITES= 	ftp://ftp.bochs.com/pub/
 
 MAINTAINER=	alex@FreeBSD.ORG
 
