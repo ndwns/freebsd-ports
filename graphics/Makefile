@@ -42,6 +42,7 @@
     SUBDIR += vcg
     SUBDIR += whirlgif
     SUBDIR += xanim
+    SUBDIR += xaos
     SUBDIR += xbmbrowser
     SUBDIR += xdl
     SUBDIR += xfig
