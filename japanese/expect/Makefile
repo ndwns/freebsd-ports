@@ -8,13 +8,11 @@
 
 DISTNAME=	expect-5.26
 PKGNAME=	ja-expect-5.26
-CATEGORIES=	japanese lang tk42
+CATEGORIES=	japanese lang tk80
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	tk80jp\\.1\\.:${PORTSDIR}/japanese/tk80
-
-BROKEN=		patch
 
 FILESDIR=	${.CURDIR}/../../lang/expect/files
 GNU_CONFIGURE=	yes
