@@ -25,7 +25,7 @@ INSTALL_TARGET= install-full
 MAN1=		lynx.1
 
 L_LIB=          ${PREFIX}/etc
-L_DOC=          ${PREFIX}/share/lynx_doc
+L_DOC=          ${PREFIX}/share/doc/lynx
 L_HELP=         ${PREFIX}/share/lynx_help
 
 post-install:
