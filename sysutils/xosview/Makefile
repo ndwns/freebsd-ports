@@ -18,10 +18,6 @@ USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 MAN1=		xosview.1
 
-.include <bsd.port.pre.mk>
+# BROKEN=	DiskMeter broken for 3.0+
 
-.if ${OSVERSION} >= 300006
-BROKEN=	"DK_NDRIVE undefined"
-.endif
-
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
