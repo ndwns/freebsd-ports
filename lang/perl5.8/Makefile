@@ -14,6 +14,13 @@ EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=	markm@FreeBSD.ORG
 
+#
+# This isn't really interactive, but the Configure script checks for
+# file descriptor 0, so it won't run if you </dev/null to run a
+# nightly batch build....
+#
+IS_INTERACTIVE=		yes
+
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=		-sde
