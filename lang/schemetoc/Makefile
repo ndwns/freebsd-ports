@@ -14,6 +14,8 @@ DISTFILES=      15mar93.tar.Z
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 NO_WRKSUBDIR=	yes
 
 post-install:
