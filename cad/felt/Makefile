@@ -14,6 +14,11 @@ EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	giffunip@asme.org
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		too few arguments to function error
+.endif
+
 WRKSRC=         ${WRKDIR}/FElt-3.02
 GNU_CONFIGURE=	yes
 MAN1=		burlap.1 corduroy.1 felt.1 patchwork.1 velvet.1 yardstick.1
