@@ -1,7 +1,7 @@
 # New ports collection makefile for:    kaffe
 # Version required:     0.8.4
-# Date created:         12 June 1997
-# Whom:                 Mark Huizer <xaa@stack.nl>
+# Date created:         20 February 1995
+# Whom:                 Tim Wilkinson <tim@sarc.city.ac.uk>
 #
 # $Id$
 #
