@@ -16,6 +16,7 @@ MAINTAINER=	jdp@polstra.com
 
 MANUAL_PACKAGE_BUILD=	installs libstdc++.a which conflicts with system version
 
+BROKEN=		package
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld i386-unknown-freebsd
