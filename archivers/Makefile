@@ -11,6 +11,7 @@
     SUBDIR += unrar
     SUBDIR += unzip
     SUBDIR += unzip.with_encryption
+    SUBDIR += uudx
     SUBDIR += zip
     SUBDIR += zip.with_encryption
     SUBDIR += zoo
