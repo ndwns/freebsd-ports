@@ -125,7 +125,6 @@ clean:
 	@${MAKE} clean-depends
 .endif
 	@${ECHO_MSG} "===>  Cleaning for ${PKGNAME}"
-.if !defined(NO_WRKDIR)
 	@if [ -d ${WRKDIR} ]; then \
 		if [ -w ${WRKDIR} ]; then \
 			${RM} -rf ${WRKDIR}; \
@@ -133,9 +132,6 @@ clean:
 			${ECHO_MSG} "===>   ${WRKDIR} not writable, skipping"; \
 		fi; \
 	fi
-.else
-	@${RM} -f ${WRKDIR}/.*_done ${TMPPLIST}
-.endif
 	@${RM} -f Makefile.inc
 
 .if exists(Makefile.inc)

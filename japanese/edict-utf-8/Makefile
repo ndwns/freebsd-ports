@@ -86,13 +86,11 @@ DATADIR=	${PREFIX}/share/dict/edict
 DOCDIR=		${PREFIX}/share/doc/xjdic
 MAN1=		xjdic.1
 
-NO_WRKSUBDIR=
+NO_WRKSUBDIR=	yes
 
 do-extract:
-.if !defined(NO_WRKDIR)
 	@${RM} -rf ${WRKDIR}
 	@${MKDIR} ${WRKDIR}
-.endif
 	@for file in ${SRCFILES}; do \
 		if ! (cd ${WRKDIR} && ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/$$file ${EXTRACT_AFTER_ARGS});\
 		then \

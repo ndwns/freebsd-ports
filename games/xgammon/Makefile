@@ -25,10 +25,8 @@ MAN6=		xgammon.6
 PATCH_FILES=	${DISTNAME}-dirent.patch
 
 do-extract:
-.if !defined(NO_WRKDIR)
 	@${RM} -rf ${WRKDIR}
 	@${MKDIR} ${WRKDIR}
-.endif
 	@rpm2cpio ${_DISTDIR}${DISTFILES} | (cd ${WRKDIR}; cpio -i)
 	@tar -xzf ${WRKDIR}/${DISTNAME}.tar.gz -C ${WRKDIR}
 
