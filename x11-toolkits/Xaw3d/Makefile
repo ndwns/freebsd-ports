@@ -22,5 +22,7 @@ post-extract:
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+	${MKDIR} ${PREFIX}/share/doc/Xaw3d
+	${CP} ${WRKSRC}/README.XAW3D ${PREFIX}/share/doc/Xaw3d
 
 .include <bsd.port.mk>
