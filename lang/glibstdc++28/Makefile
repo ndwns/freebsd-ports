@@ -26,6 +26,8 @@ GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 PLIST_SUB=	GCC28SUBDIR=${GCC28DIR}
 
+BROKEN_ELF=	depends on gcc28
+
 pre-install:
 	@# allow a boched ``make install'' to be re-tried
 	@${RM} -rf ${PREFIX}/include/g++
