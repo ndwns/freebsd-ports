@@ -3,11 +3,14 @@
 
     SUBDIR += Wnn
     SUBDIR += big5con
+    SUBDIR += big5font
     SUBDIR += c2t
     SUBDIR += celvis
     SUBDIR += cless
+    SUBDIR += cnsfont
     SUBDIR += cxterm
     SUBDIR += gb2ps
+    SUBDIR += gbfont
     SUBDIR += gbscript
     SUBDIR += hc
     SUBDIR += hztty
