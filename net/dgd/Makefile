@@ -20,8 +20,8 @@ PATCHFILES=	1.0.91-1.0.92.gz \
 
 MAINTAINER=	adam@veda.is
 
-NO_CDROM=	no distribution to corporate environment
-RESTRICTED=	license required for commercial use
+NO_CDROM=	"no distribution to corporate environment"
+RESTRICTED=	"license required for commercial use"
 
 DIST_SUBDIR=	dgd
 WRKSRC=		${WRKDIR}/dgd/src

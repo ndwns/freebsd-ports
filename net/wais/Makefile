@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
 MAINTAINER=	ports@FreeBSD.org
 
-NO_PACKAGE=	not yet
+NO_PACKAGE=	"not yet"
 NO_INSTALL=	almost
 ALL_TARGET=	freebsd
 MAKE_ENV:=	TOP=${WRKSRC}
