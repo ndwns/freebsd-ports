@@ -9,11 +9,10 @@
 DISTNAME=	erlang-47.4.0.base
 PKGNAME=	erlang-47.4.0
 CATEGORIES=	lang
-MASTER_SITES=	http://www.erlang.org/download/
+MASTER_SITES=	http://www.erlang.org/download/ \
+		http://www.freebsd.org/~flathill/distfiles/
 
 MAINTAINER=	ruslan@shevchenko.kiev.ua
-
-BROKEN='single fetch site, which is currently behind a routing loop'
 
 WRKSRC=		${WRKDIR}/erlang-47.4.0
 
