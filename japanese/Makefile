@@ -31,6 +31,7 @@
     SUBDIR += gd
     SUBDIR += ghostscript
     SUBDIR += gicq
+    SUBDIR += gimp
     SUBDIR += gn-gnspool
     SUBDIR += gn-mnews
     SUBDIR += gp
