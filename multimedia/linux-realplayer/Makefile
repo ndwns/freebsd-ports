@@ -9,7 +9,7 @@
 DISTNAME=	rv50_linux20
 PKGNAME=	linux-realplayer-5.0
 CATEGORIES=	audio
-MASTER_SITES=	"Fetch must be performed manually"
+MASTER_SITES=	
 
 MAINTAINER=	kris@FreeBSD.ORG
 

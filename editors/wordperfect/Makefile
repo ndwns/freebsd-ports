@@ -10,7 +10,7 @@
 DISTNAME=	GUILG00
 PKGNAME=	wordperfect-8.0
 CATEGORIES=     editors
-MASTER_SITES=	"Fetch must be performed manually"
+MASTER_SITES=	
 EXTRACT_SUFX=	.GZ
 
 MAINTAINER=	msmith@freebsd.org

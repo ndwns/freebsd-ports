@@ -9,7 +9,7 @@
 DISTNAME=       linux
 PKGNAME=	citrix_ica-3.0.15
 CATEGORIES=	comms
-MASTER_SITES=   "Distfile must be fetched manually"
+MASTER_SITES=   
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     msmith@FreeBSD.ORG
