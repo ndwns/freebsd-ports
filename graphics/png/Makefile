@@ -1,13 +1,13 @@
 # New ports collection makefile for:    PNG images library
-# Version required:     1.0.1
+# Version required:     1*
 # Date created:         5 Dec 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       libpng-1.0.1
-PKGNAME=        png-1.0.1
+DISTNAME=       libpng-1.0.2
+PKGNAME=        png-1.0.2
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 
