@@ -42,6 +42,8 @@
     SUBDIR += unclutter
     SUBDIR += xcalendar
     SUBDIR += xgas
+    SUBDIR += xmaddressbook
+    SUBDIR += xtar
     SUBDIR += zorro
 
 .include <bsd.port.subdir.mk>
