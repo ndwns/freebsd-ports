@@ -15,9 +15,11 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	yu@pastel.club.or.jp
 
 USE_IMAKE=	yes
-
 PREFIX?=	${LOCALBASE}
-
+MTREE_FILE?=	/etc/mtree/BSD.local.dist
+ALL_TARGET=	hex
+MAN1=		hex.1
+MANCOMPRESSED=	yes
 MANLANG=	ja_JP.EUC
 
 .include <bsd.port.mk>
