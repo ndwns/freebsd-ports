@@ -8,6 +8,7 @@
 #
 
 DISTNAME=       tinpre-1.4-971102
+PKGNAME=        tinpre-1.4.971102
 CATEGORIES=	news
 MASTER_SITES=   ftp://nuxi.ucdavis.edu/pub/tin/ \
 		ftp://ftp.akk.uni-karlsruhe.de/pub/tin/ \
