@@ -4,7 +4,7 @@
     SUBDIR += Gofer
     SUBDIR += STk
     SUBDIR += Sather
-    SUBIDR += atlast
+    SUBDIR += atlast
     SUBDIR += bwbasic
     SUBDIR += cim
     SUBDIR += cmucl
