@@ -11,6 +11,7 @@
     SUBDIR += bookview
     SUBDIR += camltk41
     SUBDIR += cdrom2
+    SUBDIR += chasen
     SUBDIR += chimera
     SUBDIR += diclookup-mule
     SUBDIR += dserver
