@@ -6,6 +6,7 @@
     SUBDIR += cbb
     SUBDIR += gnomepim
     SUBDIR += gnucash
+    SUBDIR += gtimer
     SUBDIR += ical
     SUBDIR += korganizer
     SUBDIR += kproject
