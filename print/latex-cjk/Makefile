@@ -20,9 +20,9 @@ DISTFILES=	CJK.tar.gz
 
 MAINTAINER=	jtjang@gcn.net.tw
 
-BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX-beta
+BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
-RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX-beta
+RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 
 IGNOREFILES=	CJK.tar.gz
 NO_PACKAGE=	Interactive

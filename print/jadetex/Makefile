@@ -22,8 +22,8 @@ DISTFILES=		Makefile.jadetex jadetex.dtx jadetex.ini jadetex.ins \
 			pdfjadetex.ini
 DIST_SUBDIR=		jadetex
 NO_WRKSUBDIR=   	yes
-BUILD_DEPENDS=		tex:${PORTSDIR}/print/teTeX-beta
-RUN_DEPENDS=		tex:${PORTSDIR}/print/teTeX-beta
+BUILD_DEPENDS=		tex:${PORTSDIR}/print/teTeX
+RUN_DEPENDS=		tex:${PORTSDIR}/print/teTeX
 EXTRACT_CMD=		${CP}
 EXTRACT_BEFORE_ARGS=	-fp
 EXTRACT_AFTER_ARGS=	.
