@@ -9,10 +9,11 @@
 DISTNAME=       xpipeman
 PKGNAME=        xpipeman-1.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	games/strategy
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	swallace@FreeBSD.org
+MAINTAINER=	jseger@FreeBSD.org
 
 USE_IMAKE=	yes
 
