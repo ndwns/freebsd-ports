@@ -1,8 +1,8 @@
 # $Id$
 #
 SUBDIR= Xaw3d color_xterm ctwm emiclock emu fvwm g3view olvwm piewm \
-	rxvt tk tkhfs tkman tvtwm x3270 xdaliclock xearth xfed xfm xkeycaps \
-	xlockmore xphoon xsnow xview-config xview-lib xview-clients
+	rxvt sxpc tk tkhfs tkman tvtwm x3270 xdaliclock xearth xfed xfm \
+	xkeycaps xlockmore xphoon xsnow xview-config xview-lib xview-clients
 
 #
 # These depend on tk, so might as well build tk first...
