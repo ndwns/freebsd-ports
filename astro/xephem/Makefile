@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://iraf.noao.edu/contrib/xephem/xephem-3.1/ \
 
 MAINTAINER=	erich@FreeBSD.org
 
-LIB_DEPENDS=	Xpm.5.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
