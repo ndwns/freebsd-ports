@@ -17,7 +17,7 @@ MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/gs510/ \
 		ftp://ftp.mei.co.jp/free/gnu/util/ghostscript/drivers/ \
 		${MASTER_SITE_LOCAL} \
 		http://www.jp.FreeBSD.org/~mita/LOCAL_PORTS/ \
-		http://ldl-www.jaist.ac.jp:8080/~akr/nonresearch/free-software/ghostscript/ \
+		http://www.ldl.jaist.ac.jp/~akr/nonresearch/free-software/ghostscript/ \
 		http://www.jaist.ac.jp/~daisuke/Linux/gs/gs5/Original-sources/OLD/ \
 		http://www.rd.nacsis.ac.jp/~katayama/homepage/ghostscript/jpdf/ \
 		http://itohws03.ee.noda.sut.ac.jp/~matsuda/VFlib-FT/ \
