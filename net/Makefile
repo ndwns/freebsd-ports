@@ -84,6 +84,7 @@
     SUBDIR += ncftp2
     SUBDIR += ncftp3
     SUBDIR += netatalk
+    SUBDIR += netatalk-asun
     SUBDIR += netcat
     SUBDIR += netpipes
     SUBDIR += nettest
