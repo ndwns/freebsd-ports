@@ -14,8 +14,10 @@ MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/stable/ \
 MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
-RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX \
-		ispell:${PORTSDIR}/textproc/ispell
+RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX
+.if defined(WITH_ISPELL)
+RUN_DEPENDS+=	ispell:${PORTSDIR}/textproc/ispell
+.endif
 LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
@@ -24,6 +26,12 @@ CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 STRIP=
 CONFIGURE_ARGS= --with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
 MAN1=		lyx.1
+
+pre-fetch:
+.if !defined(WITH_ISPELL)
+	@${ECHO_MSG} "if you want this port build with spell checker type"
+	@${ECHO_MSG} "make WITH_ISPELL=yes"
+.endif
 
 post-install:
 	@strip ${PREFIX}/bin/lyx
