@@ -6,6 +6,7 @@
     SUBDIR += afterstep
     SUBDIR += ami
     SUBDIR += bitchx
+    SUBDIR += byeoroo
     SUBDIR += elm
     SUBDIR += engdic
     SUBDIR += eterm
