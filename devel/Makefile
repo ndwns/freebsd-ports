@@ -118,6 +118,7 @@
     SUBDIR += prcs
     SUBDIR += qtez
     SUBDIR += re2c
+    SUBDIR += rinfo
     SUBDIR += sawt
     SUBDIR += scogdb
     SUBDIR += sfio
