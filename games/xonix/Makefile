@@ -14,7 +14,7 @@ CATEGORIES+=	games
 
 MAINTAINER=	joerg@FreeBSD.org
 
-LIB_DEPENDS=	Xpm\\.:${PORTSDIR}/x11/xpm
+LIB_DEPENDS=	Xpm\\.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=      yes
 
