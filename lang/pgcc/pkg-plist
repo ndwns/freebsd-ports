@@ -1,4 +1,4 @@
-@comment $Id$
+@comment $FreeBSD$
 bin/pg++filt
 bin/pg++
 bin/pg77

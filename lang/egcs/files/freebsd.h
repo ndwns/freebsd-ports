@@ -1,4 +1,4 @@
-/* $Id$ */
+/* $FreeBSD$ */
 /* Base configuration file for all FreeBSD targets.
    Copyright (C) 1999 Free Software Foundation, Inc.
 
