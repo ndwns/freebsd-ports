@@ -40,7 +40,7 @@ STRIP=
 INSTALL_TARGET=	install-arch-dep
 
 .if defined(CANNA)
-LIB_INPUT_METHOD+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_INPUT_METHOD+=	canna.1:${PORTSDIR}/japanese/Canna
 WITH_INPUT_METHOD+=	--canna --canna-libraries=${PREFIX}/lib \
 		--canna-includes=${PREFIX}/include
 .endif

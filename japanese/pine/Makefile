@@ -18,7 +18,7 @@ PATCH_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/pine3.95/
 
 MAINTAINER=	max@FreeBSD.ORG
 
-LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 BUILD_DEPENDS=	${PREFIX}/lib/libcanna.a:${PORTSDIR}/japanese/Canna
 
 EXTRACT_ONLY=	pine3.95.tar.gz

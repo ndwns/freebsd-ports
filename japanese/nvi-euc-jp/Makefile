@@ -12,7 +12,7 @@ PATCHDIR=	${.CURDIR}/../../editors/nvi-m17n/patches
 PKGDIR=		${.CURDIR}/../../editors/nvi-m17n/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 
 PKGNAME=	ja-nvi-eucjp-1.79.19970820
 

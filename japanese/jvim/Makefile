@@ -28,7 +28,7 @@ WRKSRC=		${WRKDIR}/jvim2.0r
 # LIB_DEPENDS, etc.
 .if defined(CANNA)
 INPUT_METHOD+=		canna
-LIB_INPUT_METHOD+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_INPUT_METHOD+=	canna.1:${PORTSDIR}/japanese/Canna
 JPLIB+=			-lcanna
 .endif
 .if defined(WNN4)

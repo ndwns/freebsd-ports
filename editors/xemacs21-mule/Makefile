@@ -66,7 +66,7 @@ SITE_LIBRARIES=		${X11BASE}/lib
 SITE_INCLUDES+=		${PREFIX}/include
 SITE_LIBRARIES+=	${PREFIX}/lib
 .if defined(CANNA)
-LIB_INPUT_METHOD+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_INPUT_METHOD+=	canna.1:${PORTSDIR}/japanese/Canna
 WITH_INPUT_METHOD+=	--with-canna
 .endif
 .if defined(WNN4)

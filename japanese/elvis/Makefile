@@ -17,7 +17,7 @@ PATCHFILES=     jelvis1.8p4-j1.1.tar.Z
 
 MAINTAINER=     sanpei@yy.cs.keio.ac.jp
 
-LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 
 NO_WRKSUBDIR=	yes
 PATCH_DIST_STRIP=       -p1

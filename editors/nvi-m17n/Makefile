@@ -17,7 +17,7 @@ PATCHFILES=	nvi-1.79.m17n-970820-1600.diff.gz
 
 MAINTAINER=	itojun@itojun.org
 
-#LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+#LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes

@@ -30,7 +30,7 @@ WNN4=			yes
 # LIB_DEPENDS, etc.
 .if defined(CANNA)
 INPUT_METHOD+=		canna
-LIB_INPUT_METHOD+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_INPUT_METHOD+=	canna.1:${PORTSDIR}/japanese/Canna
 KINPUT2_DEF+=		-DUseCanna
 .endif
 .if defined(SJ3)
