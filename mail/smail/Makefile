@@ -12,9 +12,9 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-BUILD_DEPENDS=	bash:${PREFIX}/shells/bash
+BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash
 
-MAKE_FLAGS=	"SHELL=/usr/local/bin/bash"
+MAKE_FLAGS=	"SHELL=${PREFIX}/bin/bash"
 
 pre-install:
 	mkdir -p ${PREFIX}/lib/smail
