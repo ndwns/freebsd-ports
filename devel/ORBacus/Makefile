@@ -19,5 +19,7 @@ CONFIGURE_ENV=	CXX=c++ CXXFLAGS="--no-implicit-templates -fhandle-exceptions -Wa
 
 post-install:
 	${LDCONFIG} -m $(PREFIX)/lib
+	${MKDIR} ${PREFIX}/share/doc/omniBroker
+	${INSTALL_DATA} ${WRKSRC}/LICENSE ${PREFIX}/share/doc/omniBroker
 
 .include <bsd.port.mk>
