@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	andreas@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--program-prefix=g --enable-bitops --enable-non-decimal-data
+CONFIGURE_ARGS=	--program-prefix=g --enable-bitops --enable-non-decimal-data
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gawk ${PREFIX}/bin
