@@ -15,6 +15,8 @@ MAINTAINER=	ejc@bazzle.com
 
 MAN1=		omniidl2.1 nameclt.1 omniNames.1 catior.1 genior.1
 
+BROKEN_ELF=	yes
+
 pre-patch:
 	${TOUCH} ${WRKSRC}/mk/freebsd_3.0.mk
 	ln -s ${WRKSRC}/mk/freebsd_3.0.mk ${WRKDIR}/${DISTNAME}/mk/config.mk
