@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/sysadmin/sudo/
 
 MAINTAINER=	erich@FreeBSD.ORG
 
+BROKEN= '1.5.8p2 is out'
+
 WRKSRC=		${WRKDIR}/sudo.v1.5.8p1
 GNU_CONFIGURE=	yes
 
