@@ -14,6 +14,7 @@
     SUBDIR += krb5
     SUBDIR += libident
     SUBDIR += nbaudit
+    SUBDIR += nmap
     SUBDIR += p5-Authen-Radius
     SUBDIR += p5-Crypt-DES
     SUBDIR += p5-Crypt-IDEA
