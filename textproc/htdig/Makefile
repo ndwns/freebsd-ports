@@ -17,6 +17,8 @@ MAINTAINER=	billf@FreeBSD.org
 GNU_CONFIGURE=	yes
 BUILD_TARGET=	depends all
 
+BROKEN=		package
+
 post-patch:
 
 	${MV} ${WRKSRC}/CONFIG.in ${WRKSRC}/CONFIG.in.old
