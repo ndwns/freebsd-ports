@@ -1,5 +1,5 @@
 # New ports collection makefile for:	bb
-# Version required:     1.0
+# Version required:     1.04H
 # Date created:         So  17 Nov 1996 16:59:23 MET
 # Whom:                 Andreas Klemm <andreas@klemm.gtn.com>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bb
-PKGNAME=	bb-1.04
+PKGNAME=	bb-1.04h
 CATEGORIES=	net
 MASTER_SITES=	http://www.iti.qc.ca/iti/users/sean/bb-dnld/
 EXTRACT_SUFX=   -src.tgz
