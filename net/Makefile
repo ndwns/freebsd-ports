@@ -35,6 +35,7 @@
     SUBDIR += kdenetwork
     SUBDIR += kirc
     SUBDIR += ldap
+    SUBDIR += lftp
     SUBDIR += libsocket++
     SUBDIR += llnlxdir
     SUBDIR += llnlxftp
