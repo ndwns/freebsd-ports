@@ -21,8 +21,6 @@ BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 LIB_DEPENDS=	Imlib.1:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
-BROKEN=		repository copy
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	GTK_CONFIG=${X11BASE}/bin/gtk11d-config
 MAKE_FLAGS=	OPT="${CFLAGS}"
