@@ -36,7 +36,7 @@ do-install:
 	@(cd ${WRKSRC}; ${GMAKE} -f Makefile install BINDIR=${PREFIX}/bin)
 	@(cd ${WRKSRC}; ${INSTALL_SCRIPT} MakeTeXPK ${PREFIX}/bin)
 
-pre-clean:
-	@rm -f ${SCRIPTDIR}/post-install
+post-install:
+	@if [ -f ${WRKDIR}/post-install ]; then sh ${WRKDIR}/post-install; fi
 
 .include <bsd.port.mk>
