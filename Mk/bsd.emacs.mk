@@ -5,7 +5,7 @@
 #
 
 Emacs_Include=			bsd.emacs.mk
-Emacs_Include_MAINTAINER=	shige@FreeBSD.org
+Emacs_Include_MAINTAINER=	ports@FreeBSD.org
 
 #
 # This file for ports which depend on emacs family.
