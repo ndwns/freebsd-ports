@@ -15,8 +15,6 @@ MAINTAINER=	jseger@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
-BROKEN=		libkrb
-
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
 MAN1=		attraction.1 blitspin.1 bouboule.1 braid.1 bubbles.1 \
