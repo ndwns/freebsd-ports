@@ -8,13 +8,11 @@
 
 DISTNAME=       Mesa-2.1
 CATEGORIES=	graphics
-
 MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/
+
+MAINTAINER=	ports@freebsd.org
 
 ALL_TARGET=	freebsd
 USE_X11=	yes
-
-pre-install:
-	$(FILESDIR)/INSTALL $(DISTNAME) PRE-INSTALL
 
 .include <bsd.port.mk>
