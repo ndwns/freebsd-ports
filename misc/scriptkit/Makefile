@@ -15,6 +15,8 @@ MAINTAINER=	Nakai@technologist.com
 
 BUILD_DEPENDS=	goconfig:${PORTSDIR}/lang/guileobjc
 
+BROKEN=		Depends on guileobjc
+
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
