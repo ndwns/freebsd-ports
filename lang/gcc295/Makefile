@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://go.cygnus.com/pub/sourceware.cygnus.com/pub/egcs/releases/gc
 		ftp://egcs.cygnus.com/pub/egcs/releases/gcc-2.95/ \
 		ftp://ftp.nluug.nl/pub/languages/egcs/releases/gcc-2.95/ \
 		ftp://ftp.iij.ad.jp/pub/egcs/releases/gcc-2.95/ \
-		ftp://ftp.fu-berlin.de/unix/languages/egcs/snapshots/ \
+		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/gcc-2.95/ \
 		ftp://cambridge.cygnus.com/pub/egcs/releases/gcc-2.95/
 DISTFILES=	gcc-chill-2.95${EXTRACT_SUFX} \
 		gcc-core-2.95${EXTRACT_SUFX} \
