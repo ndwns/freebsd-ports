@@ -20,6 +20,7 @@
     SUBDIR += jive
     SUBDIR += kp
     SUBDIR += less
+    SUBDIR += lile
     SUBDIR += linuxls
     SUBDIR += logsurfer
     SUBDIR += mc
