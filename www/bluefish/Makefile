@@ -1,7 +1,7 @@
 # New ports collection makefile for:   bluefish
-# Version required:            0.3.2
-# Date created:                        25 July 1999
-# Whom:                                Jim Mock <jim@blues.ghis.net>
+# Version required:		0.3.2
+# Date created:			25 July 1999
+# Whom:				Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ MASTER_SITES=	http://bluefish.linuxbox.com/download/ \
 		http://student.wau.nl/~olivier/bluefish/download/ \
 		http://ha-pc.cheque.uq.edu.au/download/
 
-MAINTAINER=	jim@blues.ghis.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	DockApp Library
 # Version required:	0.2
 # Date created:		17 July 1999
-# Whom:			Jim Mock <jim@phrantic.phear.net>
+# Whom:			Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	x11-wm
 MASTER_SITES=	http://wit401310.student.utwente.nl/apps/apps/ \
 		ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
