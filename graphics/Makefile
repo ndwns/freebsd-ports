@@ -43,6 +43,7 @@
     SUBDIR += mpegedit
     SUBDIR += mplex
     SUBDIR += netpbm
+    SUBDIR += netshow
     SUBDIR += p5-GD
     SUBDIR += p5-Image-Size
     SUBDIR += p5-PerlMagick
