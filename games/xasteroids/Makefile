@@ -9,7 +9,7 @@
 DISTNAME=       xasteroids
 PKGNAME=	xasteroids-5.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://calypso-2.oit.unc.edu/pub/X11/contrib/
+MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/
 EXTRACT_SUFX=	.sh.Z
 
 MAINTAINER=	swallace@FreeBSD.org
