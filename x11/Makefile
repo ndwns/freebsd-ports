@@ -69,6 +69,7 @@
     SUBDIR += q3dmenu
     SUBDIR += qt
     SUBDIR += qt133
+    SUBDIR += qt140
     SUBDIR += qvwm
     SUBDIR += rclock
     SUBDIR += rxvt
