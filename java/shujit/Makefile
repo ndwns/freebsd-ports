@@ -1,14 +1,14 @@
 # New ports collection makefile for:	shujit
-# Version required:	0.2.10
+# Version required:	0.3.1b
 # Date created:		30 April 1999
 # Whom:			jake@checker.org
 #
 # $Id$
 #
 
-DISTNAME=	shujit-0.2.10
+DISTNAME=	shujit-0.3.1b
 CATEGORIES=	java
-MASTER_SITES=	http://www.shudo.net/jit/dist/
+MASTER_SITES=	http://www.shudo.net/jit/dist/old/
 
 MAINTAINER=	jake@checker.org
 
@@ -25,6 +25,7 @@ BUILD_DEPENDS+=	${PREFIX}/bin/egcc:${PORTSDIR}/lang/egcs
 WRKSRC=		${WRKDIR}/shujit
 ONLY_FOR_ARCHS=	i386
 
+HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
 MAKE_FLAGS=
 MAKEFILE=
