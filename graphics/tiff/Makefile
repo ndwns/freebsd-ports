@@ -16,7 +16,7 @@ EXTRACT_SUFX=	-tar.gz
 
 MAINTAINER=	itojun@itojun.org
 
-LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=    jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-ZIP --with-JPEG --with-DIR_BIN=${PREFIX}/bin \
