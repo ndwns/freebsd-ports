@@ -146,6 +146,7 @@ PKGFILE?=		${DISTNAME}${PKG_SUFX}
 
 .if defined(GNU_CONFIGURE)
 CONFIGURE_ARGS?=	--prefix=${PREFIX}
+HAS_CONFIGURE=		yes
 .endif
 
 .MAIN: all
