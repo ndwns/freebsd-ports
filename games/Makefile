@@ -5,6 +5,7 @@
     SUBDIR += an
     SUBDIR += angband
     SUBDIR += block
+    SUBDIR += bs
     SUBDIR += cgoban
     SUBDIR += connect4
     SUBDIR += cosmo
