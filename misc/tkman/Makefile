@@ -11,8 +11,8 @@ CATEGORIES+=	misc
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=thomas@ghpc8.ihf.rwth-aachen.de
-10,16l
+MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+
 LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4
 RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman
 
