@@ -19,6 +19,4 @@ USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 MAN1=		xosview.1
 
-# BROKEN=	SwapMeter broken for 4.0+
-
 .include <bsd.port.mk>
