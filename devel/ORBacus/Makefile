@@ -19,6 +19,7 @@ BUILD_DEPENDS=  gcc28:${PORTSDIR}/lang/gcc28 \
 
 BROKEN_ELF=	depends on gcc28 and glibstdc++28
 
+USE_XLIB=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	CXX=g++28 CXXFLAGS="-O -pipe"
 MAN1=		idl.1
