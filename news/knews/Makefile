@@ -8,11 +8,9 @@
 
 DISTNAME=	knews-0.9.8
 CATEGORIES=	x11 news
-MASTER_SITES=	ftp://ftp.nada.kth.se/home/su95-kjo/knews/ \
-		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	X11/xapps/networked
+MASTER_SITES=	ftp://ftp.nada.kth.se/home/su95-kjo/knews/
 
-MAINTAINER=	andreas@klemm.gtn.com
+MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
