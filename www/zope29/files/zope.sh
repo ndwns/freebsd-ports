@@ -18,7 +18,7 @@ prefix=%%PREFIX%%
 # DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
 zope_enable=${zope_enable:-"NO"}        # Enable gkrellmd
-zope_instances=${zope_instances:-""}    # List of instancehome dirs 
+zope_instances=${zope_instances:-""}    # List of instancehome dirs
 
 . %%RC_SUBR%%
 
@@ -47,7 +47,7 @@ if checkyesno zope_enable; then
 	do
 		if [ -r ${instance}/etc/${name}.conf -a -x ${instance}/bin/zopectl ]; then
 			echo -n "       Instance ${instance} -> "
-			${instance}/bin/zopectl $1                           
+			${instance}/bin/zopectl $1
 		fi
 	done
 fi
