@@ -26,7 +26,7 @@ PATCHSITE=	ftp.cs.buffalo.edu:/pub/mule/
 PATCHSITE=	${MASTER_SITE_OVERRIDE}
 .endif
 .if !exists(/usr/X11R6/lib/libwnn.a)
-DEPENDS=	${PORTSDIR}/utils/Wnn
+DEPENDS=	${PORTSDIR}/japanese/Wnn
 .endif
 PREPATCH_COOKIE=	${.CURDIR}/work/.prepatch_done
 PREBUILD_COOKIE=	${.CURDIR}/work/.prebuild_done
