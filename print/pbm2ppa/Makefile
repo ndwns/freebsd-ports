@@ -9,7 +9,7 @@
 DISTNAME=	ppa-0.8.6
 PKGNAME=	pbm2ppa-0.8.6
 CATEGORIES=	print
-MASTER_SITES=	http://www.rpi.edu/~normat/technical/ppa/files/
+MASTER_SITES=	http://www.httptech.com/ppa/files/
 
 MAINTAINER=	smace@freebsd.org
 
