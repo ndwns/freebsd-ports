@@ -28,7 +28,6 @@
     SUBDIR += freefonts
     SUBDIR += fvwm
     SUBDIR += fvwm2
-    SUBDIR += fvwm2-english
     SUBDIR += fvwm95
     SUBDIR += getbdf
     SUBDIR += gtk
