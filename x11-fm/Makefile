@@ -4,6 +4,7 @@
     SUBDIR += asfiles
     SUBDIR += dfm
     SUBDIR += explorer
+    SUBDIR += ezfm
     SUBDIR += filerunner
     SUBDIR += jafm
     SUBDIR += offix-files
