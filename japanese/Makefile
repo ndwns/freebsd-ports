@@ -75,6 +75,7 @@
     SUBDIR += tgif
     SUBDIR += tk42
     SUBDIR += today
+    SUBDIR += typist
     SUBDIR += vfghostscript
     SUBDIR += vfghostscript4
     SUBDIR += vflib
