@@ -30,6 +30,7 @@
     SUBDIR += latex2html
     SUBDIR += libxml
     SUBDIR += linuxdoc
+    SUBDIR += lotusxsl
     SUBDIR += man2html
     SUBDIR += mgdiff
     SUBDIR += mswordview
