@@ -1,13 +1,13 @@
 # New ports collection makefile for:	xcin
-# Version required:	xcin-2.3.01
+# Version required:	xcin-2.3.02
 # Date created:		Nov 28 ,1997
 # Whom:			Yen-Shuo Su <yssu@CCCA.NCTU.edu.tw>
 #
 # $Id$
 #
 
-DISTNAME=       xcin-2.3.01
-PKGNAME=        zh-xcin-2.3.01
+DISTNAME=       xcin-2.3.02
+PKGNAME=        zh-xcin-2.3.02
 CATEGORIES=	chinese x11
 MASTER_SITES=   ftp://ftp.ncu.edu.tw/OS/linux/chinese/xcin/ \
 		ftp://linux.cis.nctu.edu.tw/packages/chinese/xcin/
