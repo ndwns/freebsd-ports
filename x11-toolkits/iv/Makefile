@@ -13,7 +13,6 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 WRKSRC=		${WRKDIR}/iv
 MAKEFILE=	makefile
-NCFTPFLAGS=	-NP
 
 .if ${DISTNAME} != ${VERSION}
 pre-fetch:
