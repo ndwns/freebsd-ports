@@ -8,7 +8,8 @@
 
 DISTNAME=	mew-1.54
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/elisp/Mew/
+MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/elisp/Mew/ \
+		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
