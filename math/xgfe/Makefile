@@ -8,8 +8,7 @@
 
 DISTNAME=		xgfe-2.0
 CATEGORIES=		math
-MASTER_SITES=		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	apps/graphics/visualization
+MASTER_SITES=		http://www.freebsd.org/~mph/distfiles/
 
 MAINTAINER=	mph@freebsd.org
 
