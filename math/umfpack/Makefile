@@ -24,7 +24,8 @@ do-install:
 	$(INSTALL_DATA) ${WRKSRC}/libumfpack.a ${PREFIX}/lib
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/umfpack
-	${GZIP_CMD} ${WRKSRC}/README
-	${INSTALL_DATA} ${WRKSRC}/README.gz ${PREFIX}/share/doc/umfpack
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/umfpack
+	${GZIP_CMD} ${PREFIX}/share/doc/umfpack/README
 .endif
+
 .include <bsd.port.mk>
