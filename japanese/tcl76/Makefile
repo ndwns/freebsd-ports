@@ -45,6 +45,9 @@ pre-install:
 
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libtcl76jp.so.1.0 ${PREFIX}/lib/libtcl76jp.so; \
+	fi
 
 test:
 	cd ${WRKSRC} && ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} test
