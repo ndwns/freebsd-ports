@@ -21,6 +21,7 @@ LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80 \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
 
+BROKEN=		"Needs my private tiff34 patches currently"
 FETCH_BEFORE_ARGS=	-b
 PATCH_DIST_ARGS=	-p -d ${WRKDIR} -E --quiet
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
