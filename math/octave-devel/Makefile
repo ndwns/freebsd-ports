@@ -20,6 +20,8 @@ CONFIGURE_ARGS=	--prefix=${PREFIX} --exec-prefix=${PREFIX} --with-f2c --enable-s
 USE_GMAKE=	yes
 MAN1=		octave.1
 
+BROKEN=		"core dump problem on startup, working on it."
+
 LIBOCTAVE-INFO= liboctave.info liboctave.info-1 liboctave.info-2 liboctave.info-3
 
 post-install:
