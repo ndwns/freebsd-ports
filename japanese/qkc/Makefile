@@ -24,7 +24,7 @@ ALL_TARGET=
 MAN1=		qkc.1
 
 do-install:
-	install -cs -o bin -g bin -m 755 ${WRKSRC}/qkc ${PREFIX}/bin
-	install -c -m 644 -o bin -g bin ${WRKSRC}/qkc.1 ${PREFIX}/man/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/qkc ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/qkc.1 ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
