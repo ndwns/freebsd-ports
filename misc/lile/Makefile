@@ -17,8 +17,8 @@ MAINTAINER=	jmz@FreeBSD.org
 MAN1=		ile.1
 
 do-configure:
-	@(cd ${WRKSRC}; mv Makefile Makefile.old; \
-	sed -e s:/usr/local:${PREFIX}: <Makefile.old > Makefile; \
-	echo all: ile >> Makefile; echo CC=cc ${CFLAGS} >> Makefile)
+	@(cd ${WRKSRC}; ${MV} Makefile Makefile.old; \
+	${SED} -e s:/usr/local:${PREFIX}: <Makefile.old > Makefile; \
+	${ECHO} all: ile >> Makefile; ${ECHO} CC=cc ${CFLAGS} >> Makefile)
 
 .include <bsd.port.mk>
