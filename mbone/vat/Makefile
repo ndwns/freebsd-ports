@@ -24,7 +24,7 @@ LIB_DEPENDS=	tk80:${PORTSDIR}/x11/tk80 \
 		gsm:${GSM_DIR}
 
 USE_X11=	yes
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
 CONFIGURE_ARGS=	--with-gsm=${GSM_WORK}
 INSTALL_TARGET=	install install-man
 MAN1=		vat.1
