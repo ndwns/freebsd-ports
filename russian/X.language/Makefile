@@ -14,7 +14,7 @@ MAINTAINER=	ache@FreeBSD.ORG
 RUN_DEPENDS += ${X11BASE}/bin/xinit:${PORTSDIR}/x11/XFree86
 
 NO_EXTRACT=     YES
-NO_WRKSUBDIR=   YES
+NO_WRKDIR=      YES
 NO_CONFIGURE=   YES
 NO_PATCH=       YES
 NO_BUILD=       YES
@@ -22,6 +22,8 @@ USE_X11=        YES
 
 XLIB = ${X11BASE}/lib/X11
 INSTALL_DATA = ${INSTALL} -c -m 644 -o ${BINOWN} -g ${BINGRP}
+
+do-fetch:
 
 do-install:
 	${INSTALL_DATA} ${FILESDIR}/xmodmap ${XLIB}/xinit/.Xmodmap
