@@ -8,7 +8,7 @@
 
 DISTNAME=	qpage-3.2
 CATEGORIES=	comms
-MASTER_SITES=	ftp://ftp.it.mtu.edu/pub/QuickPage/
+MASTER_SITES=	http://www.qpage.org/download/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	joes@seaport.net
