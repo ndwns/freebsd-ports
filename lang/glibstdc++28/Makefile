@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	libstdc++-2.8.0
-PKGNAME=	glibstdc++-2.8.0
+DISTNAME=	libstdc++-2.8.1
+PKGNAME=	glibstdc++-2.8.1
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
@@ -30,12 +30,12 @@ pre-install:
 		> ${PLIST}
 
 post-install:
-	${RM} -rf ${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.0/include/g++
+	${RM} -rf ${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.1/include/g++
 	${MV} ${PREFIX}/include/g++  \
-		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.0/include
+		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.1/include
 	${MV} ${PREFIX}/lib/libiberty.a  \
-		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.0
+		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.1
 	${MV} ${PREFIX}/lib/libstdc++.a  \
-		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.0
+		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.1
 
 .include <bsd.port.mk>
