@@ -19,7 +19,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
-		wraster.2:${PORTSDIR}/x11-wm/windowmaker \
+		wraster.3:${PORTSDIR}/x11-wm/windowmaker \
 		PropList.1:${PORTSDIR}/devel/libPropList
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
