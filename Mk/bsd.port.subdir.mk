@@ -29,7 +29,7 @@
 #
 #	afterinstall, all, beforeinstall, build, checksum, clean,
 #	configure, deinstall, depend, describe, extract, fetch, fetch-list,
-#	install, package, readmes, realinstall, reinstall, tags
+#	install, package, package-loop, readmes, realinstall, reinstall, tags
 #
 
 
@@ -78,7 +78,7 @@ ${SUBDIR}::
 	fi; \
 	${MAKE} all
 
-.for __target in all fetch fetch-list package extract configure \
+.for __target in all fetch fetch-list package package-loop extract configure \
 		 build clean deinstall depend describe distclean \
 		 reinstall tags checksum
 .if !target(${__target})
