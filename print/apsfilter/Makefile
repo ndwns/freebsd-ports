@@ -6,13 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	apsfilter-4.9.4
+DISTNAME=	apsfilter-4.9.5
 CATEGORIES=	print
 MASTER_SITES=	http://www.FreeBSD.ORG/~andreas/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
+		html2ps:${PORTSDIR}/print/html2ps \
 		transfig:${PORTSDIR}/print/transfig \
 		cjpeg:${PORTSDIR}/graphics/jpeg \
 		anytopnm:${PORTSDIR}/graphics/netpbm
