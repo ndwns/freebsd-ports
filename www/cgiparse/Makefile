@@ -6,7 +6,7 @@
 #	$Id$
 #
 
-DISTNAME=	cgiparse-0.8c
+DISTNAME=	cgiparse-0.8d
 CATEGORIES=	devel
 MASTER_SITES=	http://resnet.uoregon.edu/~gurney_j/
 
