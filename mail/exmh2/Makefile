@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	peter@FreeBSD.org
 
+BROKEN=		updated
+
 # There are likely to be distributed patches again.
 DIST_SUBDIR=	${PKGNAME}
 
