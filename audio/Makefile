@@ -14,6 +14,7 @@
     SUBDIR += esound
     SUBDIR += gmod
     SUBDIR += gnomeaudio
+    SUBDIR += gnomemedia
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += kdemultimedia
