@@ -9,7 +9,7 @@
 DISTNAME=       MesaLib-2.6
 PKGNAME=	linux_mesa-2.6
 CATEGORIES=	emulators
-MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/
+MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/old-versions/
 
 MAINTAINER=	cracauer@cons.org
 
