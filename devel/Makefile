@@ -10,6 +10,7 @@
     SUBDIR += gperf
     SUBDIR += libdlmalloc
     BROKEN += libmalloc
+    SUBDIR += libz
     SUBDIR += m4
     SUBDIR += mprof
     SUBDIR += noweb
