@@ -13,7 +13,7 @@ MASTER_SITES=	http://sasweb.de/mhash/data/
 MAINTAINER=	nsayer@freebsd.org
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=${PREFIX}
+CONFIGURE_ARGS= --prefix=${PREFIX} --disable-pthreads
 
 MAN3=		mhash.3
 
