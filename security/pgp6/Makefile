@@ -1,6 +1,7 @@
 # New ports collection makefile for: pgp
-# Version required:     MIT 2.6.2 / International 2.6.3i
-# PGP 2.6.3i homepage is http://www.ifi.uio.no/pgp/
+# Version required:     MIT 2.6.2 / International 2.6.3ia
+# International PGP homepage is http://www.ifi.uio.no/pgp/
+#
 # Date created:         8 Jul 1995
 # Whom:                 ache
 #
@@ -65,7 +66,7 @@ pre-build:
 	cd ${WRKDIR}/rsaref/install/unix; ${GMAKE}
 .else
 DISTNAME=       pgp263is
-PKGNAME=        pgp-2.6.3i
+PKGNAME=        pgp-2.6.3ia
 MASTER_SITES=   ftp://ftp.ifi.uio.no/pub/pgp/src/ \
 		ftp://ftp.kiae.su/unix/crypto/pgp/
 WRKSRC=         ${WRKDIR}/src
