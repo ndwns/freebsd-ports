@@ -16,6 +16,7 @@
     SUBDIR += glbiff
     SUBDIR += im
     SUBDIR += imap-uw
+    SUBDIR += kbiff
     SUBDIR += mailagent
     SUBDIR += majorcool
     SUBDIR += majordomo
