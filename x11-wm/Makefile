@@ -1,8 +1,8 @@
 # $Id$
 #
 
-    SUBDIR += afterstep-devel
     SUBDIR += afterstep
+    SUBDIR += afterstep-devel
     SUBDIR += amiwm
     SUBDIR += blackbox
     SUBDIR += ctwm
