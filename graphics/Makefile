@@ -97,6 +97,7 @@
     SUBDIR += xpdf
     SUBDIR += xpm
     SUBDIR += xv
+    SUBDIR += xv-m17n
     SUBDIR += xwpick
 
 .include <bsd.port.subdir.mk>
