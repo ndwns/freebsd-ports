@@ -57,6 +57,7 @@
     SUBDIR += pente
     SUBDIR += pp
     SUBDIR += qcc
+    SUBDIR += qstat
     SUBDIR += quakeserver
     SUBDIR += seabattle
     SUBDIR += sokoban
