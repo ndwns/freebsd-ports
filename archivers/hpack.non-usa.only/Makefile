@@ -1,5 +1,5 @@
 # New ports collection makefile for:    hpack.with_encryption
-# This program can't be imported/re-exported from USA
+# Using this code inside USA you violate RSA copyright
 # Version required:     0.79a0
 # Date created:         7 Jan 1995
 # Whom:                 ache
