@@ -21,9 +21,8 @@ EXTRACT_CMD=	${CP}
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	.
 
-STRIP=
 do-install:
-		@ ${INSTALL_PROGRAM} ${WRKDIR}/${DISTNAME} ${PREFIX}/bin/squidclients
+		@ ${INSTALL_SCRIPT} ${WRKDIR}/${DISTNAME} ${PREFIX}/bin/squidclients
 
 post-install:
 		@ ${CAT} ${PKGDIR}/MESSAGE
