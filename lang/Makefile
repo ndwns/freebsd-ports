@@ -31,7 +31,6 @@
     SUBDIR += glibstdc++28
     SUBDIR += gnat
     SUBDIR += gnomeobjc
-    SUBDIR += guavac
     SUBDIR += guile
     SUBDIR += guileobjc
     SUBDIR += hugs
@@ -40,14 +39,6 @@
     SUBDIR += intel2gas
     SUBDIR += intercal
     SUBDIR += itcl
-    SUBDIR += javac_netscape
-    SUBDIR += jdk
-    SUBDIR += jdk-doc
-    SUBDIR += jdk-tutorial
-    SUBDIR += jfc
-    SUBDIR += jikes
-    SUBDIR += jsdk
-    SUBDIR += kaffe
     SUBDIR += lcc
     SUBDIR += libobjects
     SUBDIR += logo
@@ -84,7 +75,6 @@
     SUBDIR += scheme48
     SUBDIR += schemetoc
     SUBDIR += scm
-    SUBDIR += shujit
     SUBDIR += siod
     SUBDIR += slib
     SUBDIR += smalltalk
@@ -101,7 +91,6 @@
     SUBDIR += tclX75
     SUBDIR += tclX80
     SUBDIR += tclplugin
-    SUBDIR += tya
     SUBDIR += xpl
     SUBDIR += yorick
 

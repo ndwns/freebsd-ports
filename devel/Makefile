@@ -60,7 +60,6 @@
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
-    SUBDIR += java-cup
     SUBDIR += ktranslator
     SUBDIR += lclint
     SUBDIR += libPropList
