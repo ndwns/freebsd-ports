@@ -29,6 +29,7 @@
     SUBDIR += p5-HTML-Stream
     SUBDIR += p5-HTTPD-Tools
     SUBDIR += p5-libwww
+    SUBDIR += sawt
     SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += squid11
