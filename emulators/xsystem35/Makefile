@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xsystem35-1.0.6
+DISTNAME=	xsystem35-1.0.7
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.aist-nara.ac.jp/~masaki-c/private/unitbase/xsys35/down/
 
