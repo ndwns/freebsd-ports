@@ -6,21 +6,28 @@
 # $Id$
 #
 
-DISTNAME=	licq-0.44
+DISTNAME=	licq-0.61
 CATEGORIES=	net
-MASTER_SITES=	http://pages.infinit.net/fairoff/licq/
+MASTER_SITES=	ftp://ftp.wibble.net/pub/licq/srcs/ \
+		ftp://licq.darkorb.net/srcs/ \
+		ftp://ftp.fanfic.org/pub/licq/srcs/ \
+		ftp://ftp.inter-i.uni-mainz.de/pub/licq/srcs/
 
 MAINTAINER=	green@unixhelp.org
-
-FETCH_BEFORE_ARGS=	-b
 
 USE_QT=		yes
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-qt-includes=${X11BASE}/include/X11/qt --with-qt-libs=${X11BASE}/lib
 
 MAN1=		licq.1
+
+post-install:
+	@${MKDIR} ${PREFIX}/share/licq
+	@${CP} ${WRKSRC}/contrib/licq.* ${WRKSRC}/contrib/viewurl* \
+	 ${PREFIX}/share/licq
+	@chmod 555 ${PREFIX}/share/licq/*
+	@chown bin.bin ${PREFIX}/share/licq/*
 
 .include <bsd.port.mk>
