@@ -11,6 +11,7 @@
     SUBDIR += lrzsz
     SUBDIR += mgetty+sendfax
     SUBDIR += minicom
+    SUBDIR += mserver
     SUBDIR += qpage
     SUBDIR += rzsz
     SUBDIR += seyon
