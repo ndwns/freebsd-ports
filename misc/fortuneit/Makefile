@@ -42,7 +42,7 @@ do-install:
 .endif
 
 pre-install:
-.if exists(${STRCMD})
+.if !exists(${STRCMD})
 	@ ${ECHO_MSG}	"Please install the games distribution"
 	@ exit 1
 .endif
