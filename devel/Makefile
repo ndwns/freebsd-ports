@@ -146,6 +146,7 @@
     SUBDIR += py-mxTools
     SUBDIR += qtarch
     SUBDIR += qtez
+    SUBDIR += qtk
     SUBDIR += re2c
     SUBDIR += rinfo
     SUBDIR += sawt
