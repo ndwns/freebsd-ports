@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	a2ps-4.9.9
-PKGNAME=	a2ps-${PAPERSIZE}-4.9.9
+DISTNAME=	a2ps-4.10
+PKGNAME=	a2ps-${PAPERSIZE}-4.10
 CATEGORIES=	print
 MASTER_SITES=	http://www-inf.enst.fr/~demaille/ftp/a2ps/
 
