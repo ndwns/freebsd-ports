@@ -7,9 +7,11 @@
 #
 
 DISTNAME=       unrar101
-PKGNAME=        unrar-1.01
+PKGNAME=        unrar-1.01a
 CATEGORIES+=	archivers
-MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+MASTER_SITES=   ftp://ftp.relcom.ru/unix/arcers/
+PATCH_SITES=    $(MASTER_SITES)
+PATCHFILES=     unrar101a.patch
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
