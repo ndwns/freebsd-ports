@@ -7,14 +7,14 @@
 #
 
 DISTNAME=       linux
-PKGNAME=	citrix_ica-2.80
+PKGNAME=	citrix_ica-2.8.1
 CATEGORIES=	comms
 MASTER_SITES=   http://citrix.com/bin/client/ICA/
 EXTRACT_SUFX=	.tar.z
 
 MAINTAINER=     msmith@FreeBSD.ORG
 
-RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=    /compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_lib
 
 DIST_SUBDIR=	citrix_ica
 NO_WRKSUBDIR=	Yes
