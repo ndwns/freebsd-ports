@@ -13,6 +13,9 @@ MASTER_SITES=	http://www.openssl.org/source/ \
 		ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/ \
 		ftp://ftp.cert.dfn.de/pub/tools/net/openssl/source/
 
+PATCH_SITES=	${MASTER_SITES}
+PATCHFILES=	openssl-0.9.2b-rsaoaep.patch
+
 MAINTAINER=	dirk@FreeBSD.ORG
 
 WWW_SITE=	http://www.openssl.org/
