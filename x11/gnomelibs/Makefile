@@ -14,17 +14,13 @@ MASTER_SITE_SUBDIR=	gnome-libs
 
 MAINTAINER=	nacai@iname.com
 
-BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-RUN_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib \
-		gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \
-		tiff.4:${PORTSDIR}/graphics/tiff34 \
-		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		gif.3:${PORTSDIR}/graphics/giflib \
-		png.3:${PORTSDIR}/graphics/png \
 		Xpm.4:${PORTSDIR}/graphics/xpm \
 		ORBit.1:${PORTSDIR}/devel/ORBit \
 		esd.1:${PORTSDIR}/audio/esound
+
+# implicit dependencies:
+# gettext, gtk11-devel, tiff34, jpeg, giflib, png
 
 USE_X_PREFIX=	yes
 USE_PERL5=	yes
