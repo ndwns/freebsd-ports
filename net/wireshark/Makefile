@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ethereal-0.6.3
+DISTNAME=	ethereal-0.7.1
 CATEGORIES=	net
 MASTER_SITES=	http://alpha1.linuxberg.com/files/x11/network/ \
 		http://www.linuxberg.com/files/x11/network/ \
@@ -19,7 +19,6 @@ MAINTAINER=	billf@FreeBSD.ORG
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
-
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
