@@ -2,6 +2,6 @@
 #
 # forth's master site is unavailable to sites outside Germany.
 
-SUBDIR=	Sather expect itcl logo p2c scm tcl tclX
+SUBDIR=	STk Sather expect itcl logo p2c schemetoc scm tcl tclX
 
 .include <bsd.port.subdir.mk>
