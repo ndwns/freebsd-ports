@@ -17,7 +17,7 @@ GNU_CONFIGURE=	yes
 NO_CDROM=	"Wait for next release by the author's request"
 ALL_TARGET=	enough
 MAN1=		scsh.1
-STRIP=		
+STRIP=
 
 post-install:
 	@strip ${PREFIX}/bin/scsh
