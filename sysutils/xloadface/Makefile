@@ -1,7 +1,7 @@
 # New ports collection makefile for:	xloadface
 # Version required:	1.6.1
-# Date created:		28 November 1996
-# Whom:			FURUSAWA,Kazuhisa <furusawa@com.cs.osakafu-u.ac.jp>
+# Date created:		4 February 1998
+# Whom:			FURUSAWA,Kazuhisa <kazu@jp.freebsd.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	xloadface-1.6.1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.waseda.ac.jp/pub/X11others/
 
-MAINTAINER=	furusawa@com.cs.osakafu-u.ac.jp
+MAINTAINER=	kazu@jp.freebsd.org
 
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 
