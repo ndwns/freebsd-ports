@@ -17,6 +17,7 @@
     SUBDIR += cpbk
     SUBDIR += daemontools
     SUBDIR += doconfig
+    SUBDIR += ffsrecov
     SUBDIR += gnomeadmin
     SUBDIR += gnomecontrolcenter
     SUBDIR += glload
