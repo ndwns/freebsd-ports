@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	hanterm-xf-p14
-PKGNAME=	ko-hanterm-xf14
+DISTNAME=	hanterm-xf-p15
+PKGNAME=	ko-hanterm-xf15
 CATEGORIES=	korean x11
 MASTER_SITES=	http://pseudo.snu.ac.kr/~hwang/
 
@@ -19,7 +19,8 @@ RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/joh
 
 USE_X_PREFIX=		yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS=		--with-x --build=i386--freebsd --prefix=${PREFIX}
+CONFIGURE_ARGS=		--with-x --build=i386--freebsd --prefix=${PREFIX} \
+			--enable-16-color
 NO_INSTALL_MANPAGES=	yes
 
 post-install:
