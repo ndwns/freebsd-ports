@@ -28,7 +28,7 @@ STRIP=
 .endif
 
 post-fetch:
-	chmod a+x ${DISTDIR}/${DISTFILES}
+	@chmod a+x ${DISTDIR}/${DISTFILES}
 
 do-build:
 	cd ${WRKSRC} && \
