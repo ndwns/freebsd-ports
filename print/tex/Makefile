@@ -9,7 +9,7 @@
 DISTNAME=	web2c-6.1
 PKGNAME=	tex-3.1415
 CATEGORIES+=	print
-DISTFILES=	web2c.tar.gz web.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
+DISTFILES=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz      modes.mf 
 
 MAINTAINER=	jmz@FreeBSD.org
@@ -29,10 +29,10 @@ FORMATS=	tex.fmt
 CFLAGS+=	-L${X11BASE}/lib
 
 
-web2c.tar.gz: 
-	@${FTPGET} ${CTAN} /tex-archive/systems/web2c web2c.tar.gz ${DISTDIR}/$@
-web.tar.gz: 
-	@${FTPGET} ${CTAN} /tex-archive/systems/web2c web.tar.gz ${DISTDIR}/$@
+web2c-6.1.tar.gz: 
+	@${FTPGET} ${CTAN} /tex-archive/systems/web2c web2c-6.1.tar.gz ${DISTDIR}/$@
+web-6.1.tar.gz: 
+	@${FTPGET} ${CTAN} /tex-archive/systems/web2c web-6.1.tar.gz ${DISTDIR}/$@
 cm_mf.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/fonts cm/mf.tar.gz ${DISTDIR}/$@
 cm_tfm.tar.gz:
