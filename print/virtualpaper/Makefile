@@ -47,7 +47,12 @@ do-install:
 		lectern/FreeBSD2/Lectern.1.html \
 		buildlectern/FreeBSD2/BuildLectern.1.html \
 		editlectern/FreeBSD2/EditLectern.1.html \
-		${PREFIX}/lib/m3/www
+		${PREFIX}/lib/m3/www; \
+	    if [ ! -d ${PREFIX}/share/virtualpaper ]; then \
+		${MKDIR} ${PREFIX}/share/virtualpaper; \
+		chmod 755 ${PREFIX}/share/virtualpaper; \
+	    fi; \
+	    ${INSTALL_DATA} COPYRIGHT ${PREFIX}/share/virtualpaper
 	@echo "Stripping programs"
 	@cd ${PREFIX}/bin; \
 	    strip LecternClient Lectern BuildLectern EditLectern
