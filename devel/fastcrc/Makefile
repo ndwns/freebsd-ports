@@ -14,6 +14,8 @@ MAINTAINER=	adam@whizkidtech.net
 
 BUILD_DEPENDS=	nasm:${PORTSDIR}/devel/nasm:install
 
+ONLY_FOR_ARCHS=	i386
+
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libfcrc.so.1 ${PREFIX}/lib
 	ln -fs ${PREFIX}/lib/libfcrc.so.1 ${PREFIX}/lib/libfcrc.so
