@@ -1,23 +1,27 @@
 # New ports collection makefile for:	glade
-# Version required:     0.3.7
+# Version required:     0.4.1
 # Date created:		29 June 1998
 # Whom:			Dom Mitchell <dom@myrddin.demon.co.uk>
 #
 # $Id$
 #
 
-DISTNAME=	glade-0.3.7
+DISTNAME=	glade-0.4.1
 CATEGORIES=	devel
 MASTER_SITES=   http://glade.pn.org/
 
 MAINTAINER=     dom@myrddin.demon.co.uk
 
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		intl.1:${PORTSDIR}/devel/gettext
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
-GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk11-config"
+USE_LIBTOOL=	yes
+CONFIGURE_ARGS=	--disable-gnome
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
+		GTK_CONFIG="${GTK_CONFIG}" \
+		LIBS="-L${LOCALBASE}/libs"
 
 post-install:
 .if !defined(NOPORTDOCS)
