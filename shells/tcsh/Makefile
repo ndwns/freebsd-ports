@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tcsh-6.05
-MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh/
 CATEGORIES+=	shells
+MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh/
 
 .include <bsd.port.mk>

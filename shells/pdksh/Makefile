@@ -6,10 +6,10 @@
 # $Id$
 #
 
-
 DISTNAME=	pdksh-5.1.3
-MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 CATEGORIES+=	shells
-GNU_CONFIGURE=  YES
+MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
+
+GNU_CONFIGURE=  yes
 
 .include <bsd.port.mk>
