@@ -90,6 +90,7 @@
     SUBDIR += xmris
     SUBDIR += xneko
     SUBDIR += xnibbles
+    SUBDIR += xoids
     SUBDIR += xonix
     SUBDIR += xothello
     SUBDIR += xpacman
