@@ -46,6 +46,7 @@
     SUBDIR += png
     SUBDIR += pnmtopng
     SUBDIR += povray
+    SUBDIR += ppm2fli
     SUBDIR += qvplay
     SUBDIR += sced
     SUBDIR += spigot
