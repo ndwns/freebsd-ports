@@ -20,7 +20,7 @@ BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 #GNU_CONFIGURE=	yes
 USE_AUTOCONF=	yes
 # for the future GNOME support
-#CONFIGURE_ARGS+=	--with-gnome=${X11BASE}
+#CONFIGURE_ARGS=	--with-gnome=${X11BASE}
 USE_GMAKE=	yes
 
 post-install:
