@@ -26,6 +26,7 @@
     SUBDIR += pgp5
     SUBDIR += pidentd
     SUBDIR += rsaref
+    SUBDIR += sentry
     SUBDIR += skip
     SUBDIR += smurflog
     SUBDIR += ssh
