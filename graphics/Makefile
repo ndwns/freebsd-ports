@@ -4,6 +4,7 @@
     SUBDIR += 4va
     SUBDIR += Cgraph
     SUBDIR += EZWGL
+    SUBDIR += GIFgraph
     SUBDIR += ImageMagick
     SUBDIR += Mesa3
     SUBDIR += aalib
