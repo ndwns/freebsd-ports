@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       w3mir-1.0.7
+DISTNAME=       w3mir-1.0.8
 CATEGORIES=     www perl5
 MASTER_SITES=   http://www.math.uio.no/~janl/w3mir/
 
