@@ -86,7 +86,7 @@ PHP3_CONF_ARGS=	--prefix=${PREFIX} \
 		${CONFIGURE_TARGET} \
 		--with-system-regex \
 		--with-apache=${WRKSRC} \
-		--with-config-file-path=${PREFIX}/lib \
+		--with-config-file-path=${PREFIX}/etc \
 		--disable-debug \
 		--enable-track-vars
 
@@ -120,7 +120,7 @@ post-install:
 		${ECHO} "[ -x ${PREFIX}/sbin/apachectl ] && ${PREFIX}/sbin/apachectl start${SSL} > /dev/null && ${ECHO} -n ' apache'" >> ${PREFIX}/etc/rc.d/apache.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/apache.sh; \
 	fi
-	${INSTALL_DATA} ${WRKDIR}/php-${VERSION_PHP3}/php3.ini-dist ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKDIR}/php-${VERSION_PHP3}/php3.ini-dist ${PREFIX}/etc
 .for i in php2 php3 phpi phps
 	${INSTALL_DATA} ${WRKDIR}/php-${VERSION_PHP3}/extra/icons/$i.gif ${PREFIX}/share/apache/icons
 .endfor
