@@ -5,6 +5,7 @@
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mkisofs
+    SUBDIR += pib
     SUBDIR += rtty
     SUBDIR += socket
     SUBDIR += su2
