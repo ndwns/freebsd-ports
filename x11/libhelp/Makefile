@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.informatik.uni-stuttgart.de/pub/libhelp/
 
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.de
 
+BROKEN=		build
+
 REQUIRES_MOTIF= YES
 USE_IMAKE=	YES
 NO_INSTALL_MANPAGES= YES
