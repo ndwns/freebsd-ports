@@ -10,18 +10,17 @@
 # $Id$
 #
 
-PKGNAME=        astrolog-5.30
 DISTNAME=       ast53src
-EXTRACT_SUFX=   .zip
+PKGNAME=        astrolog-5.30
 CATEGORIES=     misc
 MASTER_SITES=   http://rpkalf2.mach.uni-karlsruhe.de/~ferber/astrolog/
 DISTFILES=      ${EXTRACT_ONLY} ast53dos.zip
-EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=     ache@FreeBSD.ORG
 
 BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
+EXTRACT_ONLY=   ${DISTNAME}.zip
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -oqLaa
 DIST_SUBDIR=    astrolog
