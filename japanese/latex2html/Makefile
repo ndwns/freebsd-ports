@@ -30,8 +30,15 @@ RUN_DEPENDS +=	${X11BASE}/bin/pnmtopng:${PORTSDIR}/graphics/pnmtopng
 WRKSRC=	${WRKDIR}/latex2html
 USE_PERL5=	yes
 NO_BUILD=	yes
+PATCHDIR=	${WRKDIR}/patches
 
 L2HDIR=	${PREFIX}/share/jlatex2html
+
+pre-patch:
+	@${MKDIR} ${PATCHDIR}
+	@for p in ${MASTERDIR}/patches/patch-*; do \
+		${SED} -e "s:@Id@:Id:" $$p > ${PATCHDIR}/$${p##*/}; \
+	done
 
 post-patch:
 	@${PATCH} ${PATCH_ARGS} -o ${WRKDIR}/jlatex2html < ${WRKDIR}/jlatex2html.dif
