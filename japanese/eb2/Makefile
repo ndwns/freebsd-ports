@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	eb-2.2
-PKGNAME=	ja-eb-2.2
+DISTNAME=	eb-2.2.2
+PKGNAME=	ja-eb-2.2.2
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/misc/eb/appendix/ \
 		ftp://ftp.sra.co.jp/pub/misc/eb/appendix/old/ \
@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.sra.co.jp/pub/misc/eb/appendix/ \
 		ftp://ftp.sra.co.jp/pub/misc/eb/old/
 DISTFILES=	${EBFILES} ${APPENDIXFILES}
 
-MAINTAINER=	m-kasahr@sra.co.jp
+MAINTAINER=	takamune@avrl.mei.co.jp
 
 EBFILES=	${DISTNAME}.tar.gz
 APPENDIXFILES=	chujiten-2.3.tar.gz \
