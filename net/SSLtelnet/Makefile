@@ -20,7 +20,7 @@ pre-fetch:
 	@false
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES
-LIB_DEPENDS=		rsaref\\.2\\.:${PORTSDIR}/security/rsaref
+LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref
 
 pre-configure:
 	${PATCH} ${PATCH_DIST_ARGS} < ${FILESDIR}/Makefile.patch

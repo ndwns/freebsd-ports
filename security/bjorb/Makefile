@@ -21,7 +21,7 @@ pre-fetch:
 	@${FALSE}
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES
-LIB_DEPENDS=		rsaref\\.2\\.:${PORTSDIR}/security/rsaref
+LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref
 .endif
 .endif
 BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
