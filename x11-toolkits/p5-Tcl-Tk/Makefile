@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	Tcl
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/Tcl.pm:${PORTSDIR}/lang/p5-Tcl
-LIB_DEPENDS=	tk42\\.1:${PORTSDIR}/x11-toolkits/tk42
+LIB_DEPENDS=	tk42.1:${PORTSDIR}/x11-toolkits/tk42
 
 USE_PERL5=	YES
 

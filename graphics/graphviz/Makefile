@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.src.unix.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	tk42\\.1:${PORTSDIR}/x11-toolkits/tk42
+LIB_DEPENDS=	tk42.1:${PORTSDIR}/x11-toolkits/tk42
 
 RESTRICTED=	"Can't be fetched without license"
 NO_PACKAGE=	${RESTRICTED}
