@@ -11,6 +11,7 @@
     SUBDIR += comline
     SUBDIR += eperl
     SUBDIR += gn
+    SUBDIR += gwstat
     SUBDIR += harvest
     SUBDIR += libwww
     SUBDIR += linemode
