@@ -19,7 +19,18 @@ USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386-unknown-freebsd
 MAN1=		cccp.1 g++.1 g77.1 gcc.1
 
+FME=${PREFIX}
+
 post-install:
+	@(for prog in ${PREFIX}/bin/gcc ${PREFIX}/bin/g++ ${PREFIX}/bin/c++ \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/cc1 \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/cc1obj \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/cc1plus \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/cpp \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/f771 \
+	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd/egcs-2.90.23/ld ; \
+		do strip $$prog ; \
+		done)
 	if [ ! -f ${PREFIX}/info/dir ]; then \
 	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
