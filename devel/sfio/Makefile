@@ -9,7 +9,8 @@
 DISTNAME=	sfio97
 PKGNAME=	sfio-97
 CATEGORIES=	devel
-MASTER_SITES=	http://www.research.att.com/sw/tools/sfio/
+#Users must register with AT&T before downloading tarball.
+#MASTER_SITES=	http://www.research.att.com/sw/tools/sfio/
 EXTRACT_SUFX=	.src.unix.tar.Z
 
 MAINTAINER=	jraynard@freebsd.org
