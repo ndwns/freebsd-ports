@@ -20,7 +20,7 @@ GNU_CONFIGURE=	Yes
 MAN1=		bash.1 bashbug.1
 
 pre-install:
-	if [ ! -s ${PREFIX}/info/dir ]; then \
+	if [ ! -s ${PREFIX}/info/dir -a -f /usr/share/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
 
