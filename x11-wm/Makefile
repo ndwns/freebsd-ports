@@ -22,6 +22,7 @@
     SUBDIR += qvwm
     SUBDIR += tvtwm
     SUBDIR += windowmaker
+    SUBDIR += windowmaker-i18n
     SUBDIR += wm2
     SUBDIR += wmx
     SUBDIR += xfce
