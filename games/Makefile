@@ -17,6 +17,7 @@
     SUBDIR += biorythm
     SUBDIR += blackjack
     SUBDIR += block
+    SUBDIR += blockade
     SUBDIR += blue
     SUBDIR += bnetd
     SUBDIR += bogged
