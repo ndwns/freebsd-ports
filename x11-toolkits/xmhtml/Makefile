@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	XmHTML-1.1.0
-CATEGORIES=	x11 www
+CATEGORIES=	x11-toolkits www
 MASTER_SITES=	ftp://crl.nmsu.edu/pub/XmHTML/ \
 		ftp://ftp.ist.co.uk/pub/motif/XmHTML/ \
 		ftp://ftp.nerdnet.nl/pub/X11/Widgets/XmHTML/
