@@ -29,7 +29,7 @@ SBIN_BINS=	authdump authload authmgr
 LIBEXEC_BINS=	authsrv ftp-gw http-gw netacl plug-gw rlogin-gw smap smapd \
 		tn-gw x-gw
 
-fetch:
+do-fetch:
 	@if [ ! -f ${DISTDIR}/fwtk-v1.3${EXTRACT_SUFX} ]; then \
 	  echo ""; \
 	  echo "Please read ftp://ftp.tis.com/pub/firewalls/toolkit/README"; \
