@@ -3,6 +3,8 @@
 
     SUBDIR += Canna
     SUBDIR += Wnn
+    SUBDIR += Wnn6
+    SUBDIR += Wnn6-lib
     SUBDIR += a2ps
     SUBDIR += camltk41
     SUBDIR += cdrom2
