@@ -85,8 +85,10 @@
     SUBDIR += uk-postcodes
     SUBDIR += unclutter
     SUBDIR += us-zipcodes
+    SUBDIR += vera
     SUBDIR += viz
     SUBDIR += wmcp
+    SUBDIR += wmmand
     SUBDIR += wmweather
     SUBDIR += xd
     SUBDIR += xdelta
