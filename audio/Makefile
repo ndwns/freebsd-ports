@@ -30,6 +30,7 @@
     SUBDIR += timidity
     SUBDIR += tosha
     SUBDIR += tracker
+    SUBDIR += wmmixer
     SUBDIR += workman
     SUBDIR += x11amp
     SUBDIR += xcd
