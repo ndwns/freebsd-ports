@@ -6,16 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	tidy17dec98
-PKGNAME=	tidy-0.1.98.12
+DISTNAME=	tidy22jan99
+PKGNAME=	tidy-0.1.99.1
 CATEGORIES=	www
 MASTER_SITES=	http://www.w3.org/People/Raggett/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	saken@budoir.net
+MAINTAINER=	saken@hotel.rmta.org
 
 ALL_TARGET=	tidy
-WRKSRC=		${WRKDIR}/tidy17dec98
 
 DOCFILES=	Overview.html tidy.gif
 
