@@ -15,6 +15,7 @@
     SUBDIR += makeindex
     SUBDIR += mltex
     SUBDIR += musixtex
+    SUBDIR += pkfonts
     SUBDIR += psutils
     SUBDIR += rtf2latex
     SUBDIR += teTeX
