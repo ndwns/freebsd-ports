@@ -8,11 +8,10 @@
 
 DISTNAME=	pine3.95
 PKGNAME=	jp-pine-3.95
-CATEGORIES+=	japanese mail
+CATEGORIES=	japanese mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/ \
 		ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/pine3.95/
 DISTFILES=	pine3.95.tar.gz pine3.95lj1.1b2.tar.gz
-EXTRACT_ONLY=	pine3.95.tar.gz
 
 PATCHFILES=	pine3.95lj1.1b2-b3.diff.gz
 PATCH_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/pine3.95/
@@ -21,6 +20,8 @@ MAINTAINER=	max@FreeBSD.ORG
 
 LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 BUILD_DEPENDS=	${PREFIX}/lib/libcanna.a:${PORTSDIR}/japanese/Canna
+
+EXTRACT_ONLY=	pine3.95.tar.gz
 
 pre-patch:
 	@(cd ${WRKSRC}; \
