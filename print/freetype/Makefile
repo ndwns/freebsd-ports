@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.physiol.med.tu-muenchen.de/pub/freetype/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN=	'fetch from *SINGLE* down site'
+
 USE_XLIB=	YES
 USE_GMAKE=	YES
 GNU_CONFIGURE=	YES
