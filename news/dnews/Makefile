@@ -14,6 +14,8 @@ DISTFILES=	dnews46n_freebsd.tar.Z
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN='fetch, distfile not avail. (version 4.7k is the latest)'
+
 NO_CDROM=	"no answer yet, if we are allowed to put it onto CDROM"
 RESTRICTED=	"only free for non-profit organisations"
 NO_PACKAGE=	"${RESTRICTED}"
