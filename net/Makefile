@@ -7,6 +7,7 @@
     SUBDIR += arla
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
+    SUBDIR += etherboot
     SUBDIR += bb
     SUBDIR += beroftpd
     SUBDIR += bind8
