@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-HTML-Parser
-# Version required:			2.17
+# Version required:			2.18
 # Date Created:				28 April 1998
 # Whom:					Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	HTML-Parser-2.17
-PKGNAME=	p5-HTML-Parser-2.17
+DISTNAME=	HTML-Parser-2.18
+PKGNAME=	p5-HTML-Parser-2.18
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	HTML
