@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR= 	system/network/file-transfer
 
 MAINTAINER=	anttik@iki.fi
 
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10
 
 WRKSRC=		${WRKDIR}/${PKGNAME}/src
 USE_GMAKE=	yes

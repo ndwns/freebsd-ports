@@ -12,10 +12,11 @@ MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/
 
 MAINTAINER=	billf@FreeBSD.org
 
-LIB_DEPENDS=    gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=    gtk10.1:${PORTSDIR}/x11-toolkits/gtk10
 
 USE_AUTOCONF=	yes
 USE_XLIB=	yes
+CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk10-config"
 
 MAN8=	mtr.8
 

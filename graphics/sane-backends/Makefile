@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.mostang.com/pub/sane/ \
 
 MAINTAINER=	gary@hotlava.com
 
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
+LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
 VERSION!=	sysctl -n kern.osreldate
@@ -23,10 +23,12 @@ USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 .if ${VERSION} < 300000
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include" \
-		LIBS="-L${LOCALBASE}/lib"
+		LIBS="-L${LOCALBASE}/lib" \
+		GTK_CONFIG="${X11BASE}/bin/gtk10-config"
 .else
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include" \
-		LIBS="-L${LOCALBASE}/lib -lcam"
+		LIBS="-L${LOCALBASE}/lib -lcam" \
+		GTK_CONFIG="${X11BASE}/bin/gtk10-config"
 .endif
 
 MAN1=		scanimage.1 \
