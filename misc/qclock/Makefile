@@ -13,6 +13,8 @@ MASTER_SITES=	http://snowball.cypcopic.com.au/qclock/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
+BROKEN=		fetch
+
 NO_WRKSUBDIR=	yes
 
 ALL_TARGET=	qclock
