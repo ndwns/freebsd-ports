@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=     	greed
-PKGNAME=	greed-0.666
+DISTNAME=	greed-0.7
 CATEGORIES=	net
 MASTER_SITES=	http://www.public.asu.edu/~arturner/
 
@@ -16,6 +15,7 @@ MAINTAINER=	cpiazza@home.net
 MAN1=	greed.1
 
 ALL_TARGET=	freebsd
+WRKSRC=		${WRKDIR}/greed
 
 post-extract:
 	@${GUNZIP_CMD} ${WRKSRC}/greed.1.gz
