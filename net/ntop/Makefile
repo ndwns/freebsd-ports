@@ -21,6 +21,11 @@ CFLAGS+=	-D__dead=
 
 MAN8=		ntop.8
 
+post-extract:
+
+	${CP} ${FILESDIR}/ethertype.h ${WRKSRC}
+	${CP} ${FILESDIR}/gnuc.h ${WRKSRC}
+
 post-install:
 	strip ${PREFIX}/sbin/ntop
 
