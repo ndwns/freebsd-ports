@@ -19,6 +19,7 @@ MAINTAINER=     ports@FreeBSD.ORG
 
 GNU_CONFIGURE=  yes
 IS_INTERACTIVE= yes
+USE_GMAKE=      yes
 MAN1=		mkstrip.1
 
 pre-configure:
