@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	xdaliclock-2.11
+DISTNAME=	xdaliclock-2.13
 CATEGORIES=	x11-clocks
-MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITES=	http://www.jwz.org/xdaliclock/ \
+		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
