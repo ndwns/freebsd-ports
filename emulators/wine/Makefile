@@ -6,16 +6,16 @@
 # $Id$
 #
 
-DATE=		970720
+DATE=		970804
 DISTNAME=	Wine-${DATE}
-PKGNAME=	wine-97.07.20
+PKGNAME=	wine-97.08.04
 CATEGORIES=	emulators x11
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	ALPHA/wine/development
 
 MAINTAINER=	se@FreeBSD.ORG
 
-#LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/wine${DATE}
 GNU_CONFIGURE=	yes
@@ -34,6 +34,6 @@ do-install:
 	[ -f ${PREFIX}/etc/wine.conf ] \
 		|| ${CP} ${WRKSRC}/wine.ini ${PREFIX}/etc/wine.conf
 	cp ${WRKSRC}/wine.sym ${PREFIX}/etc
-	cp ${WRKSRC}/wine.man ${PREFIX}/man/man1/wine.1
+	cp ${WRKSRC}/documentation/wine.man ${PREFIX}/man/man1/wine.1
 
 .include <bsd.port.mk>
