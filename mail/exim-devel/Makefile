@@ -12,6 +12,10 @@ MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/
 DISTFILES=	exim-0.53.tar.gz exim-texinfo-0.52.gz
 EXTRACT_ONLY=	exim-0.53.tar.gz
 
+PATCH_SITES=	${MASTER_SITES}
+PATCHFILES=	exim-0.53.patch
+PATCH_DIST_STRIP=	-p2
+
 MAINTAINER=	markm@FreeBSD.ORG
 
 post-extract:
