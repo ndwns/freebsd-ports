@@ -9,7 +9,7 @@
 DISTNAME=      Squeak-1.18
 PKGNAME=       squeak-1.18
 CATEGORIES=    lang
-MASTER_SITES=  ftp://ftp.cs.uni-magdeburg.de/pub/fbsd/
+MASTER_SITES=  ftp://ftp.create.ucsb.edu/pub/Smalltalk/Squeak/unix/
 
 MAINTAINER=    jesse@cs.uni-magdeburg.de
 
