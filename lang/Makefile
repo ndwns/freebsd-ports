@@ -27,6 +27,7 @@
     SUBDIR += pbasic
     SUBDIR += perl5
     SUBDIR += pgcc
+    SUBDIR += pgcc-current
     SUBDIR += python
     SUBDIR += rexx-imc
     SUBDIR += scheme48
