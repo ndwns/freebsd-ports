@@ -24,6 +24,7 @@
     SUBDIR += texi2html
     SUBDIR += tth
     SUBDIR += unroff
+    SUBDIR += urlview
     SUBDIR += wdiff
 
 .include <bsd.port.subdir.mk>
