@@ -19,7 +19,7 @@ LIB_DEPENDS=	esd.0:${PORTSDIR}/audio/esound \
 		Fnlib.0:${PORTSDIR}/graphics/fnlib \
 		gif.3:${PORTSDIR}/graphics/giflib \
 		Imlib.1:${PORTSDIR}/graphics/imlib \
-		tiff.4${PORTSDIR}/graphics/tiff34	
+		tiff.4:${PORTSDIR}/graphics/tiff34	
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
