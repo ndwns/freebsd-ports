@@ -19,6 +19,7 @@
     SUBDIR += mule-wnn
     SUBDIR += nethack
     SUBDIR += nkf
+    SUBDIR += ptex
     SUBDIR += sed
     SUBDIR += tcl
     SUBDIR += tk
