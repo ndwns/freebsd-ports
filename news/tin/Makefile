@@ -12,16 +12,14 @@ CATEGORIES=	news
 MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
 		ftp://nuxi.ucdavis.edu/pub/tin/pre-v1.4/ \
 		ftp://ftp.nuxi.com/pub/tin/pre-v1.4/
+EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.org
 
 LIB_DEPENDS=    uu.1:${PORTSDIR}/converters/uulib
 
-USE_BZIP2=	yes
-
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
 GNU_CONFIGURE=	yes
-USE_GMAKE=	yes
 
 # Curses support too buggy to activate
 #                 --enable-curses \
