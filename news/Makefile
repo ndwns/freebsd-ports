@@ -8,6 +8,7 @@
     SUBDIR += inn
     SUBDIR += knews
     SUBDIR += leafnode
+    SUBDIR += newsfetch
     SUBDIR += nn
     SUBDIR += nntp
     SUBDIR += nntpbtr
