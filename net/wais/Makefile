@@ -7,6 +7,6 @@
 #
 
 DISTNAME=       freeWAIS-0.3
-MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais
+MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
 .include <bsd.port.mk>
