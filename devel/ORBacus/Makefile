@@ -13,9 +13,9 @@ MASTER_SITES=	ftp://ftp.ooc.com/pub/OmniBroker/
 
 MAINTAINER=	ejc@bazzle.com
 
-MAN1=		idl.1
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	CXX=c++ CXXFLAGS="--no-implicit-templates -fhandle-exceptions -Wall"
+MAN1=		idl.1
 
 post-install:
 	${LDCONFIG} -m $(PREFIX)/lib
