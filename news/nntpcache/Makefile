@@ -7,11 +7,12 @@
 #
 
 DISTNAME=	nntpcache-1.0.1
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=	ftp://nntpcache.org/pub/nntpcache/
 
-GNU_CONFIGURE=	TRUE
-
 MAINTAINER=	nntpcache@nntpcache.org
+
+GNU_CONFIGURE=	TRUE
+MAN8=		nntpcache.8
 
 .include <bsd.port.mk>
