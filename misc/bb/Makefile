@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		aa\\.1\\.:${PORTSDIR}/graphics/aalib
+LIB_DEPENDS=		aa.1:${PORTSDIR}/graphics/aalib
 
 MAKEFILE=		makefile
 GNU_CONFIGURE=		yes
