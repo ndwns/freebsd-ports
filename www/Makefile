@@ -33,6 +33,7 @@
     SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += squid11
+    SUBDIR += squid11-novm
     SUBDIR += w3
     SUBDIR += w3-msql
     SUBDIR += w3c-httpd
