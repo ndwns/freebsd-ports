@@ -31,9 +31,6 @@ post-install:
 		echo "fi" >> ${STARTUP_SCRIPT} ;			\
 		chmod 755 ${STARTUP_SCRIPT} ;				\
 	fi
-	@-(grep -v ^# /etc/inetd.conf | grep comsat > /dev/null) &&	\
-	 (echo "Now you need to edit /etc/inetd.conf and comment out the" ;\
-	  echo "entry for comsat.  Then, do:" ;				\
-	  echo "kill -HUP `cat /var/run/inetd.pid`")
+	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
