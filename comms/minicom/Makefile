@@ -11,7 +11,7 @@ DISTNAME=	minicom-1.75
 CATEGORIES=	comms
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 		ftp://ftp.cistron.nl/pub/people/miquels/software/
-MASTER_SITE_SUBDIR=	apps/comm
+MASTER_SITE_SUBDIR= apps/serialcomm/dialout
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
