@@ -21,8 +21,8 @@ do-build:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ines ${PREFIX}/bin/ines
 	${INSTALL_PROGRAM} ${WRKSRC}/dasm ${PREFIX}/bin/dasm
-	@mkdir ${PREFIX}/share/ines
-	@cp ${WRKSRC}/iNES.doc ${PREFIX}/share/ines
+	@${MKDIR} ${PREFIX}/share/ines
+	@${INSTALL_DATA} ${WRKSRC}/iNES.doc ${PREFIX}/share/ines
 
 .include <bsd.port.mk>
 
