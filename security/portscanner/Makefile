@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.ameth.org/~veilleux/ \
 
 MAINTAINER=	billf@FreeBSD.org
 
-WRKSRC=		${WRKDIR}
+NO_WRKSUBDIR=	yes
 
 do-build:
 
