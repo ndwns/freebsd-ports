@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0u
+DISTNAME=	vim-5.0v
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
@@ -15,9 +15,6 @@ MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.prz.tu-berlin.de/pub/unix/editors/vim/beta-test/unix/  \
 		ftp://ftp.is.co.za/applications/editors/beta-test/vim/  \
 		ftp://ftp.progsoc.uts.edu.au/pub/beta-test/vim/
-
-PATCH_SITES=	${MASTER_SITES}
-PATCHFILES=	vim-50u-50u+.diff.gz
 
 MAINTAINER=     obrien@FreeBSD.org
 
