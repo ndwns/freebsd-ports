@@ -15,7 +15,7 @@ MAIN_SRC=	${DISTNAME}${EXTRACT_SUFX}
 SSL_EXTRAS=	apache_1.2.0+ssl_1.8.tar.gz
 DISTFILES=	${MAIN_SRC} ${SSL_EXTRAS}
 EXTRACT_ONLY=	${MAIN_SRC}
-BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay-0.8.1
+BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 RESTRICTED=     "Contains cryptography"
 
 MAINTAINER=	markm@freebsd.org
