@@ -6,6 +6,7 @@
     SUBDIR += afm
     SUBDIR += apsfilter
     SUBDIR += c2ps
+    SUBDIR += detex
     SUBDIR += dvi2tty
     SUBDIR += dvi2xx
     SUBDIR += dvips
