@@ -17,7 +17,6 @@ MASTER_SITES=	http://www2.cons.org:8000/freebsd-distfiles/ \
 MAINTAINER= 	cracauer@cons.org
 
 NO_WRKSUBDIR=	yes
-NO_CONFIGURE=	yes
 NO_BUILD=	yes
 MAN1=		lisp.1 cmucl.1
 

@@ -15,7 +15,6 @@ DISTFILES=	malloc-2.6.4.c
 MAINTAINER=	roberto@FreeBSD.ORG
 
 NO_WRKSUBDIR=   yes
-NO_CONFIGURE=	yes
 
 do-extract:
 	@rm -rf ${WRKDIR}

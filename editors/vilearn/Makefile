@@ -17,7 +17,6 @@ EXTRACT_SUFX=	.Z
 MAINTAINER=	i.vaudrey@bigfoot.com
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
-NO_CONFIGURE=	yes
 EXTRACT_CMD=	uncompress
 EXTRACT_BEFORE_ARGS=	-c
 EXTRACT_AFTER_ARGS=	| tail -n 1759 | sh

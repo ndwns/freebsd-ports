@@ -15,8 +15,6 @@ MAINTAINER=	tg@FreeBSD.ORG
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
-NO_CONFIGURE=	true
-
 PYTHONSCRIPTDIR=${PREFIX}/lib/python1.5
 SITEPYDIR=	${PYTHONSCRIPTDIR}/site-packages
 DOCDIR=		${PREFIX}/share/doc/Pmw

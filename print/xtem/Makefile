@@ -19,7 +19,6 @@ RUN_DEPENDS+=	gv:${PORTSDIR}/print/gv \
 .endif
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
-NO_CONFIGURE=	yes
 MAN1=		xtem.1
 
 pre-extract:

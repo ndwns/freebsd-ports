@@ -17,7 +17,6 @@ EXTRACT_CMD=	${CAT}
 EXTRACT_BEFORE_ARGS=			# yes, it is blank
 EXTRACT_AFTER_ARGS=	|sh
 NO_WRKSUBDIR=	yes
-NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 MAN1=		portlint.1

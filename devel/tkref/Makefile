@@ -16,7 +16,6 @@ MAINTAINER=	bgingery@gtcs.com
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
 NO_BUILD=	yes
-NO_CONFIGURE=	yes
 
 do-patch:
 	perl -pi -e "s|/usr/local/bin/wish4.1|${PREFIX}/bin/wish8.0|;" \

@@ -22,7 +22,6 @@ RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 #		kmedia:${PORTSDIR}/audio/kdemultimedia
 
 EXTRACT_ONLY=	# empty
-NO_PATCH=	yes
 NO_BUILD=	yes
 
 do-install:	# empty

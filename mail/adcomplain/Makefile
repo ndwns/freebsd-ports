@@ -17,7 +17,6 @@ MAINTAINER=     ache@FreeBSD.org
 EXTRACT_CMD=    /usr/bin/uudecode
 EXTRACT_BEFORE_ARGS=    <
 NO_WRKSUBDIR=	YES
-NO_CONFIGURE=   YES
 NO_BUILD=       YES
 
 do-install:

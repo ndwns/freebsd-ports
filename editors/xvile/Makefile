@@ -20,7 +20,6 @@ MAKEFILE=	makefile
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-screen=${SCREEN_TYPE} ${WITH_PERL}
 MAN1=		xvile.1
-NO_PATCH=	yes
 
 pre-configure:
 .if ! defined(USE_MENUS)

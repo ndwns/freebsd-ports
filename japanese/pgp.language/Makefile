@@ -20,8 +20,6 @@ RUN_DEPENDS=	pgp:${PORTSDIR}/security/pgp
 
 EXTRACT_CMD=	unzip
 EXTRACT_ARGS=	-q
-NO_CONFIGURE=	YES
-NO_PATCH=	YES
 NO_BUILD=	YES
 
 # version and language specifications

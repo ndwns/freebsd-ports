@@ -14,7 +14,6 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 MAINTAINER=	eserte@cs.tu-berlin.de
 
 NO_WRKSUBDIR=	yes
-NO_CONFIGURE=	yes
 ALL_TARGET=
 
 CFLAGS+=	-Wno-implicit

@@ -17,7 +17,6 @@ MAINTAINER=	br@schiele-ct.de
 
 DIST_SUBDIR=	teTeX
 PATCH_DIST_STRIP=	-p1
-NO_CONFIGURE=	yes
 USE_GMAKE=	yes
 ALL_TARGET=	config clean texhash all
 INSTALL_TARGET=	install ini

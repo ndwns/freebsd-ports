@@ -15,7 +15,6 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 USE_X11=	yes
 NO_BUILD=	yes
-NO_CONFIGURE=	yes
 NO_WRKSUBDIR=	yes
 
 do-install:

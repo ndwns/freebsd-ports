@@ -14,8 +14,6 @@ MAINTAINER=	itojun@itojun.org
 
 #RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11/tk42
 
-NO_CONFIGURE=	yes
-
 TCLLIBS=	definefont.tcl edittable.tcl setpointer.tcl viewer.tcl tclIndex
 DOCS=		README Changes dot.ewipe
 SAMPLES=	a1.gif a2.gif a3.gif a4.gif blue1.gif sample.ewp test.ewp \

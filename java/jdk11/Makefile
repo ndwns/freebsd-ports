@@ -16,7 +16,6 @@ MAINTAINER=	cracauer@freebsd.org
 
 NO_CDROM=	"License doesn't allow distribution with fee"
 
-NO_CONFIGURE=   yes
 NO_BUILD=       yes
 
 do-install:

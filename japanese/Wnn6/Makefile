@@ -24,8 +24,6 @@ RESTRICTED=	"You should buy from Omron Software Co., Ltd."
 NO_CDROM=	"You should buy from Omron Software Co., Ltd."
 NO_PACKAGE=	"You should buy from Omron Software Co., Ltd."
 NO_BUILD=	yes
-NO_CONFIGURE=	yes
-NO_PATCH=	yes
 IS_INTERACTIVE=	yes
 
 # If ${.CURDIR}/work/.build_done (which will be ${BUILD_COOKIE}) exists,

@@ -22,8 +22,6 @@ EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -q -L
 NO_MTREE=	yes
 NO_BUILD=	yes
-NO_PATCH=	yes
-NO_CONFIGURE=	yes
 
 INSTDIR=	${PREFIX}/share/sgml/docbook/dsssl/modular
 

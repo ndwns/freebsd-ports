@@ -17,8 +17,6 @@ DIST_SUBDIR=	iso12083
 
 NO_MTREE=	yes
 NO_BUILD=	yes
-NO_PATCH=	yes
-NO_CONFIGURE=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	# empty
 

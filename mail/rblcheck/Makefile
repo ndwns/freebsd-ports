@@ -12,8 +12,6 @@ MASTER_SITES=	http://www.xnet.com/%7Eemarshal/rblcheck/
 
 MAINTAINER=	itojun@itojun.org
 
-NO_PATCH=	yes
-NO_CONFIGURE=	yes
 DOCS=		BUGS CHANGES CREDITS INSTALL PLATFORMS TODO
 
 do-install:

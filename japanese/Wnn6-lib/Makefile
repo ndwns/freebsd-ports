@@ -19,8 +19,6 @@ DIST_SUBDIR=	Wnn6-lib
 DOCDIR=		${PREFIX}/share/doc/Wnn6-lib
 
 NO_BUILD=	yes
-NO_CONFIGURE=	yes
-NO_PATCH=	yes
 
 do-install:
 	@${MKDIR} ${PREFIX}/include/wnn

@@ -14,8 +14,6 @@ MAINTAINER=     ache@FreeBSD.org
 
 NO_EXTRACT=     YES
 NO_WRKDIR=      YES
-NO_CONFIGURE=   YES
-NO_PATCH=       YES
 NO_BUILD=       YES
 
 do-fetch:

@@ -15,8 +15,6 @@ MAINTAINER=	jfieber@FreeBSD.ORG
 NO_MTREE=       yes
 EXTRACT_ONLY=	# empty
 NO_BUILD=       yes
-NO_PATCH=	yes
-NO_CONFIGURE=	yes
 NO_WRKSUBDIR=	yes
 
 INSTDIR=	${PREFIX}/share/sgml/html

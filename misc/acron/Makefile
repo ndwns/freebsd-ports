@@ -14,7 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 post-patch:

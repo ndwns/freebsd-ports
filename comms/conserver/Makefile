@@ -19,7 +19,6 @@ EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
 NO_WRKSUBDIR=	yes
-NO_CONFIGURE=	yes
 MAN5=		conserver.cf.5
 MAN8=		console.8 conserver.8
 

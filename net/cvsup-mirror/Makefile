@@ -16,7 +16,6 @@ RUN_DEPENDS=	${PREFIX}/sbin/cvsupd:${PORTSDIR}/net/cvsup
 
 NO_WRKSUBDIR=	true
 NO_CHECKSUM=	true
-NO_PATCH=	true
 NO_BUILD=	true
 IS_INTERACTIVE=	true
 NO_PACKAGE=	too interactive

@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.eekim.com/users/eekim/cgihtml/
 
 MAINTAINER=	i.vaudrey@bigfoot.com
 
-NO_CONFIGURE=	yes
-
 post-extract:
 	@${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.dist
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}

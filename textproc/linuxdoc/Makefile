@@ -17,8 +17,6 @@ RUN_DEPENDS=    ${ISOCAT}:${PORTSDIR}/textproc/iso8879
 NO_MTREE=       yes
 EXTRACT_ONLY=	# empty
 NO_BUILD=       yes
-NO_PATCH=	yes
-NO_CONFIGURE=	yes
 NO_WRKSUBDIR=	yes
 
 INSTDIR=	${PREFIX}/share/sgml/linuxdoc
