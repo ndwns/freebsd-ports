@@ -33,6 +33,7 @@
     SUBDIR += jtex209-ascii
     SUBDIR += jtex209-both
     SUBDIR += jtex209-ntt
+    SUBDIR += k10
     SUBDIR += k12
     SUBDIR += k8
     SUBDIR += kakasi
