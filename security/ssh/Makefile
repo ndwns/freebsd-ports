@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       ssh-1.2.12a
+DISTNAME=       ssh-1.2.12.92
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
 LIB_DEPENDS=    z\\.0\\.:${PORTSDIR}/devel/libz
