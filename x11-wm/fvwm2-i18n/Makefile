@@ -20,10 +20,10 @@ MAINTAINER=	matusita@jp.freebsd.org
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
-MAN1= 		FvwmAudio.1 FvwmAuto.1 FvwmBacker.1 FvwmBanner.1 
-		FvwmButtons.1 FvwmCascade.1 FvwmCpp.1 FvwmForm.1 
-		FvwmIconBox.1 FvwmIconMan.1 FvwmIdent.1 FvwmM4.1 FvwmPager.1
-		FvwmSave.1 FvwmSaveDesk.1 FvwmScroll.1 FvwmTalk.1 FvwmTile.1
+MAN1= 		FvwmAudio.1 FvwmAuto.1 FvwmBacker.1 FvwmBanner.1 \
+		FvwmButtons.1 FvwmCascade.1 FvwmCpp.1 FvwmForm.1 \
+		FvwmIconBox.1 FvwmIconMan.1 FvwmIdent.1 FvwmM4.1 FvwmPager.1 \
+		FvwmSave.1 FvwmSaveDesk.1 FvwmScroll.1 FvwmTalk.1 FvwmTile.1 \
 		FvwmWinList.1 fvwm2.1 xpmroot.1
 MANCOMPRESSED=	yes
 
