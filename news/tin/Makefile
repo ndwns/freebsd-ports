@@ -26,7 +26,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=  --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/news/lib \
-		 --with-mime-default-charset=US-ASCII \
+		 --with-mime-default-charset=ISO-8859-1 \
 		 --enable-forgery \
 		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
