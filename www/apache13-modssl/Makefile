@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Apache + mod_ssl
-# Version required:	1.3.4 + 2.2.1
+# Version required:	1.3.4 + 2.2.2
 # Date created:		Sat Aug 22 12:00:00 CDT 1998
 # Whom:			rse@engelschall.com
 #
@@ -32,7 +32,7 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl \
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
 
 VERSION_APACHE=	1.3.4
-VERSION_MODSSL=	2.2.1
+VERSION_MODSSL=	2.2.2
 
 Y2K=		http://www.engelschall.com/sw/mod_ssl/docs/2.2/ssl_faq.html#y2k
 RESTRICTED=	"Contains cryptography"
