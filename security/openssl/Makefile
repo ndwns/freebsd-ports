@@ -11,4 +11,7 @@ PKGNAME=	SSLeay-0.5.1b
 CATEGORIES+=	devel security
 MASTER_SITES=	psych.psy.uq.oz.au:/pub/Crypto/SSL/
 
+# Crypto stuff - therefore...
+NO_PACKAGE=	YES
+
 .include <bsd.port.mk>
