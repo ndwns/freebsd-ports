@@ -365,15 +365,17 @@ pre-patch:
 patch: pre-patch ${PATCH_COOKIE}
 
 ${PATCH_COOKIE}:
-	@if [ -d ${PATCHDIR} ]; then \
 .if defined(PATCH_DEBUG)
+	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
-		for i in ${PATCHDIR}/patch-*; \
+		for i in ${PATCHDIR}/patch-*; do \
 			echo "===>   Applying patch $$i" ; \
-			do ${PATCH} ${PATCH_ARGS} < $$i; \
+			${PATCH} ${PATCH_ARGS} < $$i; \
 		done; \
 	fi
+	@${TOUCH} ${TOUCH_FLAGS} ${PATCH_COOKIE}
 .else
+	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; \
 			do ${PATCH} {$PATCH_ARGS} < $$i; \
