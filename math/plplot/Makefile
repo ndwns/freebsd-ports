@@ -20,4 +20,11 @@ post-patch:
 	@perl -pi.bak -e "s|/usr/local/plplot/lib|${PREFIX}/lib/plplot|g;" \
 		${WRKSRC}/src/plctrl.c
 
+post-install:
+	if [ "${PORTOBJFORMAT}" = "elf" ]; then \
+		${LN} -sf libplplotdX.so.4 ${PREFIX}/lib/libplplotdX.so; \
+	else \
+		${LN} -sf libplplotdX.so.4.99 ${PREFIX}/lib/libplplotdX.so; \
+	fi
+
 .include <bsd.port.mk>
