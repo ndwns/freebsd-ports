@@ -236,6 +236,9 @@ ${INSTALL_COOKIE}:
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} install)
 .else defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install)
+.if defined(USE_IMAKE)
+	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
+.endif
 .endif
 	@touch -f ${INSTALL_COOKIE}
 .endif
