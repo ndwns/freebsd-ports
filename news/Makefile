@@ -9,7 +9,7 @@
     SUBDIR += fidogate
     SUBDIR += ifmail
     SUBDIR += inn
-    SUBDIR += inn2
+    SUBDIR += inn-stable
     SUBDIR += knews
     SUBDIR += leafnode
     SUBDIR += leafnode+
