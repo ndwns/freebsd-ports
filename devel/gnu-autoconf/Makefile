@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       autoconf-2.6
-CATEGORIES=	development programming
+CATEGORIES=	devel
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 EXEC_DEPENDS=	gm4:${PORTSDIR}/devel/m4

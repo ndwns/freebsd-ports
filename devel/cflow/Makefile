@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cflow-2.0
-CATEGORIES+=	development
+CATEGORIES+=	devel
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/devel/lang/c/ \\
 		ftp://info2.rus.uni-stuttgart.de/pub/systems/linux/MIRROR.sunsite/devel/lang/c/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xxgdb-1.12
-CATEGORIES+=	development programming
+CATEGORIES+=	devel
 MASTER_SITES=   ftp://ftp.x.org/contrib/utilities/ \
 		ftp://crl.dec.com/pub/X11/contrib/utilities/
 

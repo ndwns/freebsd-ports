@@ -8,7 +8,7 @@
 
 DISTNAME=	dlmalloc
 PKGNAME=	dlmalloc-2.5.3b
-CATEGORIES+=	development programming libraries
+CATEGORIES+=	devel
 MASTER_SITES=	ftp://gee.cs.oswego.edu/pub/misc/
 DISTFILES=	malloc-2.5.3b.c
 

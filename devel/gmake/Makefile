@@ -8,7 +8,7 @@
 
 DISTNAME=       make-3.74
 PKGNAME=        gmake-3.74
-CATEGORIES+=	development programming
+CATEGORIES+=	devel
 MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ \
 		ftp://ftp.uu.net/systems/gnu/
 

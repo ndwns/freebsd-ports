@@ -8,7 +8,7 @@
 
 DISTNAME=	bcc
 PKGNAME=	bcc-95.3.12
-CATEGORIES+=	development programming languages
+CATEGORIES+=	devel lang
 
 MAINTAINER=	joerg@FreeBSD.org
 

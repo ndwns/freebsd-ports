@@ -8,7 +8,7 @@
 
 DISTNAME=       dmake40
 PKGNAME=	dmake-4.0
-CATEGORIES=     development programming
+CATEGORIES=     devel
 MASTER_SITES=   ftp://plg.uwaterloo.ca/pub/dmake/
 
 MAINTAINER=	nils@guru.ims.uni-stuttgart.de

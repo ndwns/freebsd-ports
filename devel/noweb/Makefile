@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	noweb-2.7a
-CATEGORIES+=	development documentation
-KEYWORDS+=	development documentation "literate programming"
+CATEGORIES+=	devel
+KEYWORDS+=	devel "literate programming"
 MASTER_SITES=	ftp://bellcore.com/pub/norman/
 EXTRACT_SUFX=	.tgz
 

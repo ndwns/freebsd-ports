@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       m4-1.4
-CATEGORIES+=	development programming
+CATEGORIES+=	devel
 MASTER_SITES=   ftp://gatekeeper.dec.com/pub/GNU/ \
 		ftp://prep.ai.mit.edu/pub/gnu/
 

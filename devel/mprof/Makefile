@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       mprof-3.0
-CATEGORIES+=	development programming
+CATEGORIES+=	devel
 MASTER_SITES=   ftp://cs.colorado.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 

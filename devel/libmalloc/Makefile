@@ -8,7 +8,7 @@
 
 DISTNAME=	malloc
 PKGNAME=	malloc-1.17a
-CATEGORIES+=	development programming libraries
+CATEGORIES+=	devel
 MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
 
 post-install:
