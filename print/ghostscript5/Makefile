@@ -39,8 +39,8 @@ PCL3_DRV=	hpdj-2.5.tar.gz
 DECRYPT_PDF=	pdf_sec.ps
 
 post-extract:
-	${LN} -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/jpeg/work/jpeg-6b ${WRKSRC}/jpeg
-	${LN} -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/png/work/libpng-1.0.3 ${WRKSRC}/libpng
+	${LN} -s ${WRKDIRPREFIX}${.CURDIR}/../../graphics/jpeg/work/jpeg-6b ${WRKSRC}/jpeg
+	${LN} -s ${WRKDIRPREFIX}${.CURDIR}/../../graphics/png/work/libpng-1.0.3 ${WRKSRC}/libpng
 	# additional PCL3  driver
 	$(TAR) -xvf ${WRKDIR}/hpdj-2.5/hpdj.tar -C $(WRKSRC)
 	${PATCH} --directory=${WRKSRC} <${WRKSRC}/devs.mak-5.10.diff
