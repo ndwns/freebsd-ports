@@ -488,6 +488,12 @@ do-fetch:
 	@(cd ${DISTDIR}; \
 	 for file in ${DISTFILES}; do \
 		if [ ! -f $$file -a ! -f `/usr/bin/basename $$file` ]; then \
+			if [ -h $$file -o -h `/usr/bin/basename $$file` ]; then \
+				${ECHO_MSG} ">> ${DISTDIR}/$$file is a broken symlink."; \
+				${ECHO_MSG} ">> Perhaps a filesystem (most likely a CD) isn't mounted?"; \
+				${ECHO_MSG} ">> Please correct this problem and try again."; \
+				exit 1; \
+			fi ; \
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${MASTER_SITES}; do \
 			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
@@ -506,6 +512,12 @@ do-fetch:
 	@(cd ${PATCHDIST}; \
 	 for file in ${PATCHFILES}; do \
 		if [ ! -f $$file -a ! -f `/usr/bin/basename $$file` ]; then \
+			if [ -h $$file -o -h `/usr/bin/basename $$file` ]; then \
+				${ECHO_MSG} ">> ${PATCHDIST}/$$file is a broken symlink."; \
+				${ECHO_MSG} ">> Perhaps a filesystem (most likely a CD) isn't mounted?"; \
+				${ECHO_MSG} ">> Please correct this problem and try again."; \
+				exit 1; \
+			fi ; \
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${PATCH_SITES}; do \
 			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
