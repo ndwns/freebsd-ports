@@ -12,7 +12,7 @@ APACHE= 	1.3.6
 APACHE-SSL=	1.35
 
 DISTNAME=       apache_${APACHE}
-PKGNAME=        apache-${APACHE}+ssl_${APACHE-SSL}
+PKGNAME=        apache+ssl-${APACHE}+${APACHE-SSL}
 CATEGORIES=	www security
 MASTER_SITES=   ftp://www.apache.org/dist/ \
 		ftp://ftp.ox.ac.uk/pub/crypto/SSL/Apache-SSL/ \

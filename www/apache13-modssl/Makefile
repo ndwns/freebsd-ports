@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	apache_${VERSION_APACHE}
-PKGNAME=	apache-${VERSION_APACHE}+mod_ssl-${VERSION_MODSSL}
+PKGNAME=	apache+mod_ssl-${VERSION_APACHE}+${VERSION_MODSSL}
 CATEGORIES=	www security
 MASTER_SITES=	http://www.apache.org/dist/ \
 		http://www.modssl.org/source/ \
