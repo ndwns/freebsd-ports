@@ -18,7 +18,7 @@ DEPENDS=	${PORTSDIR}/x11-toolkits/xview:install
 
 USE_X_PREFIX=	yes
 EXTRACT_ONLY=	# empty
-WRKSRC=		${PORTSDIR}/x11-toolkits/xview/work/${DISTNAME}
+WRKSRC=		${WRKDIRPREFIX}${PORTSDIR}/x11-toolkits/xview/work/${DISTNAME}
 ALL_TARGET=	Clients
 INSTALL_TARGET=	'SUBDIRS=clients' install install.man
 
