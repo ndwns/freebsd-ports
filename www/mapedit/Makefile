@@ -23,7 +23,7 @@ pre-install:
 	@echo ""
 
 do-install:
-	${MKDIR} -p ${DOCDIR}
+	${MKDIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/README.TXT ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/help.html ${DOCDIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/mapedit ${PREFIX}/bin
