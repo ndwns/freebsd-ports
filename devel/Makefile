@@ -10,7 +10,7 @@
     SUBDIR += gmake
     SUBDIR += gperf
     SUBDIR += libdlmalloc
-    BROKEN += libmalloc
+    SUBDIR += libmalloc
     SUBDIR += libz
     SUBDIR += m4
     SUBDIR += mprof
