@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/news/readers/trn/
 
 RUN_DEPENDS=  munpack:${PORTSDIR}/converters/mpack
 
+BROKEN=		awaiting upgrade to trn4 after repository copy
 NO_PACKAGE=	"Too many questions"
 IS_INTERACTIVE=	yes
 MAN1=		trn.1 Pnews.1 Rnmail.1 newsetup.1 newsgroups.1
