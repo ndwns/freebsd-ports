@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	glib-1.1.13
+DISTNAME=	glib-1.1.14
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.1/ \
@@ -16,7 +16,6 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
-CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/glib11d
 
 MAN1=		glib-config.1
