@@ -1,12 +1,12 @@
 # New ports collection makefile for:    Mesa
-# Version required:     1.0beta
+# Version required:     1.1beta
 # Date created:         Tue Feb  7 12:02:49  1995
 # Whom:                 hsu
 #
 # $Id$
 #
 
-DISTNAME=       Mesa-1.0beta
+DISTNAME=       Mesa-1.1beta
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/misc/
 WRKSRC=		${WRKDIR}/Mesa
