@@ -18,6 +18,7 @@
     SUBDIR += ssh
     SUBDIR += sudo
     SUBDIR += super
+    SUBDIR += swatch
     SUBDIR += tcp_wrapper
     SUBDIR += tripwire
     SUBDIR += vscan
