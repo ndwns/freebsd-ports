@@ -45,9 +45,13 @@ CONFIGURE_ARGS+= --with-secureid
 .if defined(USE_TIS) && ${USE_TIS} == YES
 CONFIGURE_ARGS+= --with-tis
 .endif
+.if exists(/usr/include/tcpd.h)
+CONFIGURE_ARGS+= --with-libwrap
+.else
 .if defined(USE_TCPWRAP) && ${USE_TCPWRAP} == YES
 CONFIGURE_ARGS+= --with-libwrap="-L ${PREFIX}/lib -lwrap"
 LIB_DEPENDS+=   wrap.7:${PORTSDIR}/security/tcp_wrapper
+.endif
 .endif
 
 MAN1=	ssh2.1 ssh-keygen2.1 ssh-add2.1 ssh-agent2.1 \
