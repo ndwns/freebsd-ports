@@ -28,6 +28,6 @@ post-install:
 .if ${PORTOBJFORMAT} == "aout"
 	${LN} -sf libranlib.so.1.0 ${PREFIX}/lib/libranlib.so
 .endif
-	@${LDCONFIG} -m ${PREFIX}/lib
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.post.mk>
