@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkman-1.6
-CATEGORIES+=	x11
+CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
 
