@@ -1060,6 +1060,9 @@ fake-pkg:
 		${PKG_CMD} ${PKG_ARGS} -O ${PKGFILE} > ${PKG_DBDIR}/${PKGNAME}/+CONTENTS; \
 		cp ${PKGDIR}/DESCR ${PKG_DBDIR}/${PKGNAME}/+DESC; \
 		cp ${PKGDIR}/COMMENT ${PKG_DBDIR}/${PKGNAME}/+COMMENT; \
+		if [ -f ${PKGDIR}/INSTALL ]; then cp ${PKGDIR}/INSTALL ${PKG_DBDIR}/${PKGNAME}/+INSTALL; fi; \
+		if [ -f ${PKGDIR}/DEINSTALL ]; then cp ${PKGDIR}/DEINSTALL ${PKG_DBDIR}/${PKGNAME}/+DEINSTALL; fi; \
+		if [ -f ${PKGDIR}/REQ ]; then cp ${PKGDIR}/REQ ${PKG_DBDIR}/${PKGNAME}/+REQ; fi; \
 	else \
 		${ECHO_MSG} "===> ${PKGNAME} is already installed - perhaps an older version?"; \
 		${ECHO_MSG} "     If so, you may wish to \`\`pkg_delete ${PKGNAME}'' and install"; \
