@@ -9,7 +9,7 @@
 DISTNAME=	mp-3.0.1
 PKGNAME=	mp-${PAPERSIZE}-3.0.1
 CATEGORIES=	print
-MASTER_SITES=	ftp://nuxi.cs.ucdavis.edu/pub/misc/ \
+MASTER_SITES=	ftp://ftp.NUXI.com/pub/misc/ \
 		ftp://ftp.win.tue.nl/pub/mail/
 
 MAINTAINER=	obrien@cs.ucdavis.edu
