@@ -464,7 +464,6 @@ all:
 	  DEPENDS="${DEPENDS}" BUILD_DEPENDS="${BUILD_DEPENDS}" \
 	  RUN_DEPENDS="${RUN_DEPENDS}" X11BASE=${X11BASE} \
 	${ALL_HOOK}
-
 .endif
 
 .if !target(all)
@@ -488,6 +487,7 @@ is_depended:	${IS_DEPENDED_TARGET}
 # override from an individual Makefile.
 ################################################################
 
+# Disable extract
 .if defined(NO_EXTRACT) && !target(extract)
 extract: checksum
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
@@ -496,26 +496,32 @@ checksum: fetch
 makesum:
 	@${DO_NADA}
 .endif
+
+# Disable configure
 .if defined(NO_CONFIGURE) && !target(configure)
 configure: patch
 	@${TOUCH} ${TOUCH_FLAGS} ${CONFIGURE_COOKIE}
 .endif
+
+# Disable build
 .if defined(NO_BUILD) && !target(build)
 build: configure
 	@${TOUCH} ${TOUCH_FLAGS} ${BUILD_COOKIE}
 .endif
+
+# Disable package
 .if defined(NO_PACKAGE) && !target(package)
 package:
 	@${DO_NADA}
 .endif
-.if defined(NO_PACKAGE) && !target(repackage)
-repackage:
-	@${DO_NADA}
-.endif
+
+# Disable install
 .if defined(NO_INSTALL) && !target(install)
 install: build
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 .endif
+
+# Disable patch
 .if defined(NO_PATCH) && !target(patch)
 patch: extract
 	@${TOUCH} ${TOUCH_FLAGS} ${PATCH_COOKIE}
