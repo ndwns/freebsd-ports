@@ -20,5 +20,5 @@ install:
 	${MKDIR} ${PREFIX}/lib/pib
 	${INSTALL_SCRIPT} ${WRKSRC}/*.tcl ${PREFIX}/lib/pib
 	${INSTALL_DATA} ${WRKSRC}/libTkSteal.so* ${PREFIX}/lib/pib
-	ln -s ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
+	ln -fs ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
 
