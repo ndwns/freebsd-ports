@@ -13,7 +13,6 @@
     SUBDIR += m4
     SUBDIR += mprof
     SUBDIR += noweb
-    SUBDIR += weblint
     SUBDIR += xxgdb
 
 .include <bsd.port.subdir.mk>
