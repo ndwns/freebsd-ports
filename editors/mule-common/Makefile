@@ -24,7 +24,8 @@ MAINTAINER=	asami@FreeBSD.ORG
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
-		  --terminal-face
+		--terminal-face \
+		--locallisppath=${PREFIX}/share/emacs/site-lisp:${PREFIX}/lib/mule/site-lisp
 
 STRIP=
 

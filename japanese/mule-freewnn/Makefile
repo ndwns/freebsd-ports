@@ -29,7 +29,8 @@ HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
 		--wnn --wnn-libraries=/usr/X11R6/lib \
-		--wnn-includes=/usr/X11R6/include/wnn --terminal-face
+		--wnn-includes=/usr/X11R6/include/wnn --terminal-face \
+		--locallisppath=${PREFIX}/share/emacs/site-lisp:${PREFIX}/lib/mule/site-lisp
 STRIP=
 
 pre-build:
