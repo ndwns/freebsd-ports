@@ -453,8 +453,8 @@ ${CONFIGURE_COOKIE}:
 	fi
 .if defined(HAS_CONFIGURE)
 	@(cd ${WRKSRC}; CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
-	    INSTALL="${INSTALL} ${COPY} -o ${BINOWN} -g ${BINGRP}" \
-	    INSTALL_PROGRAM="${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE}" \
+	    INSTALL="/usr/bin/install -c -o ${BINOWN} -g ${BINGRP}" \
+	    INSTALL_PROGRAM="/usr/bin/install ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE}" \
 	    ./configure ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
