@@ -11,6 +11,7 @@
     SUBDIR += kmpg
     SUBDIR += maplay
     SUBDIR += mikmod
+    SUBDIR += mp3info
     SUBDIR += mpegaudio
     SUBDIR += mpg123
     SUBDIR += mxv
