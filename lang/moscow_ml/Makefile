@@ -27,7 +27,7 @@ post-install:
 	(cd ${WRKDIR}/mosml/examples; \
 	${INSTALL_DATA} README ${PREFIX}/moscow_ml/examples; \
 	for sdirs in manual mls helpsigs calc pretty lexyacc;do \
-	${MKDRI} ${PREFIX}/moscow_ml/examples/$${sdirs}; \
+	${MKDIR} ${PREFIX}/moscow_ml/examples/$${sdirs}; \
 	for file in $${sdirs}/*;do \
 	${INSTALL_DATA} $${file} ${PREFIX}/moscow_ml/examples/$${sdirs}; \
 	done; done;)
