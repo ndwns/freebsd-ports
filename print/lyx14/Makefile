@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	lyx-0.10.7
+DISTNAME=	lyx-0.11.45
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/beta_stable/
+MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/devel/0.11/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
@@ -19,6 +19,7 @@ LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
+STRIP=
 CONFIGURE_ARGS+=--with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
 MAN1=		lyx.1
 
