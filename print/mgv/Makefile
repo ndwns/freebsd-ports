@@ -22,6 +22,8 @@ CONFIGURE_ARGS=	--enable-optimize \
 		--disable-debug
 PLIST_SUB=	MGV_VERSION=3.1.5
 
+MAN1=		mgv.1
+
 post-install:
 		@ ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
