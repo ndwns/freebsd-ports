@@ -59,6 +59,7 @@
     SUBDIR += libgtop
     SUBDIR += libicq
     SUBDIR += libmalloc
+    SUBDIR += libshhopt
     SUBDIR += libslang
     SUBDIR += libtool
     SUBDIR += linux_devel
