@@ -16,11 +16,11 @@ MAINTAINER=	elwood@mc5sys.in-berlin.de
 LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kdelibs11 \
 		kdeui.2:${PORTSDIR}/x11/kdelibs11
 
+FETCH_BEFORE_ARGS=	-b
 USE_QT=		yes
 USE_GMAKE=	yes
 USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/qtarch-1.4
-
 MAKE_ENV=	BUILD_RELEASE=yes
 
 .include <bsd.port.mk>
