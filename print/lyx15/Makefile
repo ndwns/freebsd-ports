@@ -20,6 +20,7 @@ LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 STRIP=
 CONFIGURE_ARGS= --with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
 MAN1=		lyx.1
