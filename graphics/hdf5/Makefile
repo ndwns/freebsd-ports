@@ -61,7 +61,6 @@ pre-build:
 
 post-install:
 	@for binary in `grep ^bin/ ${PLIST}` ; do strip ${PREFIX}/$$binary; done
-	${LDCONFIG} -m ${PREFIX}/lib
 
 test:
 	cd ${WRKSRC}; make ${MAKE_FLAGS} ${MAKEFILE} test
