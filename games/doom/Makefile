@@ -22,6 +22,8 @@ MASTER_SITES2=	ftp://sunsite.unc.edu/pub/Linux/games/doom/ \
 		ftp://ftp.funet.fi/pub/mirrors/sunsite.unc.edu/pub/Linux/games/doom/
 DISTFILES2=	doom1v18.wad.gz
 
+ONLY_FOR_ARCHS=	i386
+
 USE_XLIB=	yes
 USE_ZIP=	yes
 NO_WRKSUBDIR=	yes
