@@ -4,7 +4,6 @@
     SUBDIR += imm
     SUBDIR += mbone_vcr
     SUBDIR += nte
-    SUBDIR += nv
     SUBDIR += rtpmon
     SUBDIR += sdr
     SUBDIR += speak_freely
