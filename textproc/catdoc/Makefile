@@ -14,8 +14,10 @@ MAINTAINER=	brion@queeg.com
 
 MAN1=		catdoc.1
 
+.if !defined(LANG) || ${LANG} != ru_RU.KOI8-R
 # Remove the below line to get Cyrillic code page support instead
 CFLAGS+=	-DLATIN1=1
+.endif
 
 # The wordview tcl/tk script is small and not required.  If the user
 # has tk, it will work.  It comes preset for tcl/tk-8.0, but works with tcl-76.
