@@ -15,8 +15,6 @@ DISTFILES=	xzx-2.4.4-src.tar.gz \
 
 MAINTAINER=	axl@iafrica.com
 
-BROKEN=		endian.h
-
 USE_IMAKE=	yes
 MAN1=		xzx.1
 MANCOMPRESSED=	yes
