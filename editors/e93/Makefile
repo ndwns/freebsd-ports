@@ -14,8 +14,6 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/editors/ \
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-LIB_DEPENDS=	tcl75\\.1\\.:${PORTSDIR}/lang/tcl75
-
 MAKEFILE=	makefile
 USE_X11=	yes
 IS_INTERACTIVE=	yes	# asks "ok?" about license
