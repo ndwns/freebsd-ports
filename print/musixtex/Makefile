@@ -13,6 +13,7 @@ NO_WRKSUBDIR=	yes
 
 MAINTAINER=	jmz@FreeBSD.org
 
-EXEC_DEPENDS=	tex:${PORTSDIR}/print/tex
+BUILD_DEPENDS=	tex:${PORTSDIR}/print/tex
+RUN_DEPENDS=	tex:${PORTSDIR}/print/tex
 
 .include <bsd.port.mk>

@@ -14,7 +14,8 @@ DISTFILES=	latex_mf-${VERSION}.tar.gz latex_tfm-${VERSION}.tar.gz \
 
 MAINTAINER=	jmz@FreeBSD.org
 
-EXEC_DEPENDS=	tex:${PORTSDIR}/print/tex
+BUILD_DEPENDS=	tex:${PORTSDIR}/print/tex
+RUN_DEPENDS=	tex:${PORTSDIR}/print/tex
 
 FTPGET=		${FILESDIR}/ftpget
 

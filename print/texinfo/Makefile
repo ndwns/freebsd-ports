@@ -16,7 +16,8 @@ MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/macros/eplain/doc/ \
 
 MAINTAINER=     jmz@FreeBSD.org
 
-EXEC_DEPENDS=   tex:${PORTSDIR}/print/tex
+BUILD_DEPENDS=   tex:${PORTSDIR}/print/tex
+RUN_DEPENDS=   tex:${PORTSDIR}/print/tex
 
 
 EXTRACT_ONLY=
