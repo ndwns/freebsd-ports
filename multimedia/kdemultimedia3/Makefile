@@ -31,8 +31,7 @@ EXTRACT_CMD=    bzip2
 EXTRACT_BEFORE_ARGS= -cd
 EXTRACT_AFTER_ARGS= | tar -xf -
 
-BROKEN=		upgrade
-
+USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"
