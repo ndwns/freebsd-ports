@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+# the NOTE command is disabled by default
+# ENABLE_NOTE=yes
+
 # Restrictive copyright in irc2.8.21/ircd/res.c
 NO_PACKAGE=	yes
 
