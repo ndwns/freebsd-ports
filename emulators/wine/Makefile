@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DATE=		960131
+DATE=		960218
 DISTNAME=	Wine-${DATE}
-PKGNAME=	wine-96.01.31
+PKGNAME=	wine-96.02.18
 CATEGORIES+=	emulators x11
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/ALPHA/wine/ \
 		ftp://aris.com/pub/linux/ALPHA/Wine/development/ \
@@ -28,7 +28,7 @@ pre-configure:
 		>> ${WRKSRC}/autoconf.h
 
 do-install:
-	install -cs ${WRKSRC}/wine ${PREFIX}/bin
+	install -c ${WRKSRC}/wine ${PREFIX}/bin
 	-@mkdir ${PREFIX}/etc 2>/dev/null
 	[ -f ${PREFIX}/etc/wine.conf ] \
 		|| cp ${WRKSRC}/wine.ini ${PREFIX}/etc/wine.conf
