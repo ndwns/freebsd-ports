@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cooledit-3.8.3
+DISTNAME=	cooledit-3.9.0
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/editors/X
@@ -16,7 +16,7 @@ MAINTAINER=	brett@peloton.physics.montana.edu
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-mail-author --disable-static
+CONFIGURE_ARGS=	--disable-mail-author --disable-static  --with-libs='-lcrypt -lreadline'
 USE_GMAKE= 	yes
 
 post-extract:
