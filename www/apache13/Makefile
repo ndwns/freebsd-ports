@@ -6,27 +6,27 @@
 # $Id$
 #
 
-DISTNAME=       apache_1.3.3
-PKGNAME=        apache-1.3.3
+DISTNAME=       apache_1.3.4
+PKGNAME=        apache-1.3.4
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
-
-#PATCH_SITES=    ftp://www.apache.org/apache/dist/patches/apply_to_1.3.3/
 
 MAINTAINER=     ache@freebsd.org
 
 Y2K=		http://www.apache.org/docs/misc/FAQ.html#year2000
+
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
 #
 
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= \
+		 --with-layout=GNU \
 		 --sysconfdir=${PREFIX}/etc/apache \
 		 --includedir=${PREFIX}/include/apache \
-		 --logfiledir=/var/log \
-		 --runtimedir=/var/run \
+		 --localstatedir=/var \
 		 --datadir=${PREFIX}/www \
+		 --suexec-docroot=${PREFIX}/www/data \
 		 --proxycachedir=${PREFIX}/www/proxy \
 		 --libexecdir=${PREFIX}/libexec/apache \
 		 --without-confadjust \
