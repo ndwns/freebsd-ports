@@ -48,6 +48,7 @@
 # USE_GMAKE		- Says that the port uses gmake.
 # USE_IMAKE		- Says that the port uses imake.
 # HAS_CONFIGURE	- Says that the port has its own configure script.
+# GNU_CONFIGURE	- Set if you are using GNU configure (optional).
 # CONFIGURE_ARGS - Pass these args to configure, if $HAS_CONFIGURE.
 # DEPENDS		- A list of other ports this package depends on being
 #				  made first, relative to ${PORTSDIR} (e.g. x11/tk, lang/tcl,
@@ -141,6 +142,10 @@ DISTFILES?=		${DISTNAME}${EXTRACT_SUFX}
 PKGFILE?=		${PACKAGES}/${DISTNAME}${PKG_SUFX}
 .else
 PKGFILE?=		${DISTNAME}${PKG_SUFX}
+.endif
+
+.if defined(GNU_CONFIGURE)
+CONFIGURE_ARGS?=	--prefix=${PREFIX}
 .endif
 
 .MAIN: all
