@@ -34,6 +34,7 @@
     SUBDIR += graphviz
     SUBDIR += gtkdps
     SUBDIR += gtkfig
+    SUBDIR += gtksee
     SUBDIR += gyvefigs
     SUBDIR += gyvegui
     SUBDIR += gyvekernel
