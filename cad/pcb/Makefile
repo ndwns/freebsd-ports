@@ -13,8 +13,7 @@ EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	janek@gaja.ipan.lublin.pl
 
-BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4 \
-		${LOCALBASE}/bin/flex:${PORTSDIR}/devel/flex
+BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 USE_IMAKE=	yes
 
