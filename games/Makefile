@@ -15,6 +15,7 @@
    SUBDIR += xevil
    SUBDIR += xinvaders
    SUBDIR += xjewel
+   SUBDIR += xkobo
    SUBDIR += xlife
    SUBDIR += xmille
    SUBDIR += xmine
