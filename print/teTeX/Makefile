@@ -23,8 +23,8 @@ USE_GMAKE=	yes
 ALL_TARGET=	config clean texhash all
 INSTALL_TARGET=	install ini
 
-TETEX_SRC=	teTeX-src-0.4pl3.tar.gz
-TETEX_LIB=	teTeX-lib-0.4pl3.tar.gz
+TETEX_SRC=	teTeX-src-0.4pl6.tar.gz
+TETEX_LIB=	teTeX-lib-0.4pl6.tar.gz
 WRKLIB=		${WRKDIR}/teTeX
 
 post-extract:
