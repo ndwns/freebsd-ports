@@ -25,7 +25,7 @@ RESTRICTED=     "Author treats it as ITAR subject"
 post-patch:
 	cd ${WRKSRC}; \
 	cp premail premail.old; \
-	sed 's=%PERL5%=${PERL}=' < premail.old > premail
+	sed 's=#!/usr/local/bin/perl=#!${PERL} -w=' < premail.old > premail
 
 do-install:
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} premail ${PREFIX}/bin
