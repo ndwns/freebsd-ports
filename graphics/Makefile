@@ -23,6 +23,7 @@
     SUBDIR += gfont
     SUBDIR += giflib
     SUBDIR += gifmerge
+    SUBDIR += gifsicle
     SUBDIR += giftool
     SUBDIR += giftrans
     SUBDIR += gimp-manual-html
