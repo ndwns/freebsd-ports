@@ -16,6 +16,8 @@ MAINTAINER=	max@FreeBSD.ORG
 
 BUILD_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-jis \
 		platex-common:${PORTSDIR}/japanese/platex-common
+RUN_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-jis \
+		platex-common:${PORTSDIR}/japanese/platex-common
 
 WRKSRC=		${WRKDIR}/970702
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
