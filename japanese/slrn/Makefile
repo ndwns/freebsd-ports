@@ -17,6 +17,8 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	mega@minz.org
 
+BROKEN= 'fetch -- this needs more than one MASTER_STIE'
+
 BROKEN_ELF=	yes
 
 LIB_DEPENDS=	slang.1:${PORTSDIR}/japanese/libslang
