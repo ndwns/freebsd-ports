@@ -36,6 +36,7 @@ MAINTAINER=		jmz@FreeBSD.ORG
 
 .if defined(X11_ON_CDROM) || defined(X11_VIA_FTP)
 
+DISTFILES=		# to prevent checksum
 do-build:
 .if defined(REMOVE_NOT_ESSENTIAL)
 	@rm -rf ${WRKSRC}/test ${WRKSRC}/doc/hardcopy ${WRKSRC}/doc/specs
