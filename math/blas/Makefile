@@ -10,14 +10,10 @@ DISTNAME=	blas
 PKGNAME=	blas-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/blas/
-EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=	ports@FreeBSD.org
 
-EXTRACT_CMD=	${GUNZIP_CMD} <
-EXTRACT_ARGS=
-EXTRACT_AFTER_ARGS= | /bin/sh
-NO_WRKSUBDIR=	yes
+WRKSRC=		${WRKDIR}
 
 pre-build:
 	${CP} ${FILESDIR}/makefile.lib ${WRKDIR}/Makefile
