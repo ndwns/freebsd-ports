@@ -14,10 +14,9 @@ MASTER_SITE_SUBDIR=	Apache
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN=		fetch
 USE_PERL5=	YES
-
 CONFIGURE_ENV=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
-
 MAN3=		Apache.3 Apache::Constants.3  Apache::Options.3 \
 		Apache::Registry.3  Apache::Status.3  Bundle::Apache.3 \
 		Apache::Debug.3 mod_perl.3
