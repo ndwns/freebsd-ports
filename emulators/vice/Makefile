@@ -16,6 +16,7 @@ LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
 WRKSRC=		${WRKDIR}/vice-0.14.1/src
 
 RESTRICTED=	ROMs are copyrighted by Commodore Business Machines
+NO_CDROM=	${RESTRICTED}
 NO_PACKAGE=	${RESTRICTED}
 
 GNU_CONFIGURE=	YES
