@@ -17,8 +17,8 @@ USE_IMAKE=	yes
 MAN1=		cxpm.1 sxpm.1
 
 post-install:
-	if [ "${PORTOBJFORMAT}" = "elf" ]; then \
-		${LN} -sf libXpm.so.4.11 ${PREFIX}/lib/libXpm.so.4; \
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libXpm.so.4.11 ${PREFIX}/lib/libXpm.so; \
 	fi
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
