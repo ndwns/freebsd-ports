@@ -35,6 +35,5 @@
     SUBDIR += wm2
     SUBDIR += wmx
     SUBDIR += xfce
-    SUBDIR += xfce-common
 
 .include <bsd.port.subdir.mk>
