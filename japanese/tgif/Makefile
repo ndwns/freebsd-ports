@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/tgif
 
-PATCH_SITES=	http://www.venus.dtinet.or.jp/~iisaka/
+PATCH_SITES=	http://www.venus.dti.ne.jp/~iisaka/
 PATCHFILES=	tgif-3.0J0.12-p18-patch.gz
 PATCH_DIST_STRIP=	-p1
 
