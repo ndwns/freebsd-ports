@@ -9,7 +9,7 @@
 DISTNAME=	cmp3-2.0pre3
 PKGNAME=	cmp3-2.0p3
 CATEGORIES=	audio
-MASTER_SITES=	http://nkk104.rh.psu.edu/cmp3/
+MASTER_SITES=	http://www.personal.psu.edu/users/n/k/nkk104/cmp3/	
 
 MAINTAINER=	cpiazza@home.net
 
