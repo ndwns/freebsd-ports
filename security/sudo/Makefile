@@ -6,17 +6,25 @@
 # $Id$
 #
 
-DISTNAME=	cu-sudo.v1.5.7p4
-PKGNAME=	sudo-1.5.7.4
+DISTNAME=	cu-sudo.v1.5.8p1
+PKGNAME=	sudo-1.5.8.1
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/sysadmin/sudo/
-EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@FreeBSD.ORG
 
+WRKSRC=		${WRKDIR}/sudo.v1.5.8p1
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-C2 --with-skey --with-fbsdops
-WRKSRC=		${WRKDIR}/sudo.v1.5.7p4
+
+CONFIGURE_ARGS=	--with-skey \
+		--with-opie \
+		--with-logfac=LOG_AUTH \
+		--disable-log-wrap \
+		--with-ignore-dot \
+		--with-tty-tickets \
+		--with-env-editor \
+		--disable-root-sudo
+
 MAN5=		sudoers.5
 MAN8=		sudo.8 visudo.8
 
