@@ -72,6 +72,7 @@
     SUBDIR += nettest
     SUBDIR += nslint
     SUBDIR += ntimelord
+    SUBDIR += ntop
     SUBDIR += ntp
     SUBDIR += omi
     SUBDIR += p5-Archie
