@@ -10,6 +10,9 @@ DISTNAME=	tcpblast
 NO_EXTRACT=	yes
 NO_WRKDIR=	yes
 
+fetch:
+	@${DO_NADA}
+
 pre-clean:
 	@echo "===>  Pre-clean for ${DISTNAME}"
 	@(rm -f ${.CURDIR}/tcpblast)
