@@ -38,6 +38,7 @@ Y2K=		http://www.php.net/y2k.php3
 VERSION_APACHE=	1.3.6
 VERSION_PHP=	4.0b2
 
+NO_LATEST_LINK=	yes
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
