@@ -43,6 +43,7 @@
     SUBDIR += tiff
     SUBDIR += tiff34
     SUBDIR += txtmerge
+    SUBDIR += urt
     SUBDIR += vcg
     SUBDIR += whirlgif
     SUBDIR += xanim
