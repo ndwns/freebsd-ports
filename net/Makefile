@@ -10,6 +10,7 @@
     SUBDIR += choparp
     SUBDIR += clog
     SUBDIR += cvsup
+    SUBDIR += cvsup-bin
     SUBDIR += cvsup-mirror
     SUBDIR += delegate
     SUBDIR += dgd
