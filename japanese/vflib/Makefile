@@ -1,5 +1,5 @@
 # New ports collection makefile for:	vflib
-# Version required:	2.22 Patchlevel 9
+# Version required:	2.22 Patchlevel 10
 # Date created:		10 May 1996
 # Whom:			Mita Yoshio <mita@jp.FreeBSD.org>
 #
@@ -7,10 +7,11 @@
 #
 
 DISTNAME=	VFlib-2.22-PL8
-PKGNAME=	ja-vflib-2.22.9
+PKGNAME=	ja-vflib-2.22.10
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://gull.se.hiroshima-u.ac.jp/pub/VFlib/
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} VFlib-2.22-Patch9 watanabe-vf.tar.Z
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} VFlib-2.22-Patch9 VFlib-2.22-Patch10\
+		watanabe-vf.tar.Z
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
@@ -19,8 +20,9 @@ WRKSRC=		${WRKDIR}/VFlib-2.22pl8
 
 pre-patch:
 	@(cd ${WRKSRC}/src; \
-	  ${PATCH} --forward --quiet -p0 -E < ${DISTDIR}/VFlib-2.22-Patch9 )
-
+	  ${PATCH} --forward --quiet -p0 -E < ${DISTDIR}/VFlib-2.22-Patch9 ;\
+	  ${PATCH} --forward --quiet -p0 -E < ${DISTDIR}/VFlib-2.22-Patch10 ;\
+	  )
 
 do-build:
 	@(cd ${WRKSRC}/src; make)
