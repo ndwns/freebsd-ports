@@ -1,12 +1,12 @@
 # New ports collection makefile for:   wmnet
-# Version required:    1.1
+# Version required:    1.2
 # Date created:        24 November 1998
 # Whom:                Rich Neswold <rneswold@mcs.net>
 #
 # $Id$
 #
 
-DISTNAME=	wmnet-1.1
+DISTNAME=	wmnet-1.2
 CATEGORIES=	net windowmaker
 MASTER_SITES=	ftp://ftp.mcs.net/mcsnet.users/rneswold/
 
