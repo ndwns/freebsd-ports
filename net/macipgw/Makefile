@@ -8,8 +8,7 @@
 
 DISTNAME=       macipgw-1.0
 CATEGORIES=	net
-MASTER_SITES=   ftp://ftp.promo.de/pub/people/stefan/netatalk/	\
-		ftp://ftp.hanse.de/pub/people/stefan.bethke/netatalk/ \
+MASTER_SITES=	ftp://ftp.hanse.de/sites/transit/netatalk/ \
 		http://www.freebsd.org/~stb/netatalk/
 
 MAINTAINER=	stb@freebsd.org
