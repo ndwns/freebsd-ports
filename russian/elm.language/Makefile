@@ -5,7 +5,7 @@
 # $Id$
 #
 
-PKGNAME=        ru-elm
+PKGNAME=        ru-elm-2.4ME+13
 CATEGORIES+=    russian mail
 
 RUN_DEPENDS+=   elm:${PORTSDIR}/mail/elm

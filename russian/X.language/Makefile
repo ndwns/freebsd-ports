@@ -6,17 +6,17 @@
 # $Id$
 #
 
-PKGNAME=        ru-X11
-CATEGORIES+=    russian x11
 DISTNAME=       xrus_bin
+PKGNAME=        ru-X11-3.1.2
+CATEGORIES+=    russian x11
 MASTER_SITES=   ftp://ftp.kiae.su/misc/fonts/cyrillic/xwindows/
 EXTRACT_SUFX=   .tgz
-WRKSRC=         ${WRKDIR}/cyrillic
 
 MAINTAINER=	ache@FreeBSD.ORG
 
 RUN_DEPENDS += ${X11BASE}/bin/xinit:${PORTSDIR}/x11/XFree86
 
+WRKSRC=         ${WRKDIR}/cyrillic
 NO_CONFIGURE=   YES
 NO_PATCH=       YES
 NO_BUILD=       YES
