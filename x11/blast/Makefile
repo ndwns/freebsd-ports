@@ -6,20 +6,18 @@
 # $Id$
 #
 
-DISTNAME=	blast-1.0-ss-9.03
+DISTNAME=	blast-1.0-ss-10.10
 PKGNAME=	blast-1.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/blast-1.0/ \
 		ftp://ftp.univie.ac.at/systems/hpux/hpux/X11/Demos/blast-1.0/ \
 		ftp://hpftp.cict.fr/hpux/X11/Demos/blast-1.0/
 
-MAINTAINER=	searle@longacre.demon.co.uk
+MAINTAINER=	jseger@FreeBSD.org
 
 USE_X11=	yes
 MAN1=		blast.1
-
-pre-configure:
-	${MV} $(WRKDIR)/blast-1.0 $(WRKSRC)
+WRKSRC=		${WRKDIR}/blast-1.0
 
 do-build:
 	cc $(WRKSRC)/blast.c -I${X11BASE}/include -O2 -L$(PREFIX)/lib -lX11 -lXext -o $(WRKSRC)/blast
