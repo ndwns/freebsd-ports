@@ -1,5 +1,5 @@
 # New ports collection makefile for:	kermit
-# Version required:	6(192)
+# Version required:     6.0.192
 # Date created:		Oct 27, 1994
 # Whom:			pst
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cku192src
-PKGNAME=	kermit-6.192
+PKGNAME=        kermit-6.0.192
 CATEGORIES+=	comms
 
 MASTER_SITES=	ftp://kermit.columbia.edu/kermit/archives/ \
