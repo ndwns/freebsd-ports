@@ -37,7 +37,7 @@ post-install:
 		@echo "      reinstall this port with -DUSE_HICOLOR_ICONS"
 		@echo "      defined"
 .endif
-		@for file in AFstep.xpm penguin.xpm; do \
+		@for file in AFstep.xpm penguin.xpm monitor_bsd.xpm; do \
 			${CP} ${FILESDIR}/$$file ${WRKSRC}/icons/8bit; \
 		done
 		${INSTALL_DATA} ${WRKSRC}/icons/8bit/*.xpm ${PREFIX}/include/X11/pixmaps/
