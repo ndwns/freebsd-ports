@@ -5,12 +5,12 @@
 #
 # $Id$
 #
-
+VERSION=	95.06
 DISTNAME=	latex
-PKGNAME=	latex2e-95.06
+PKGNAME=	latex2e-${VERSION}
 CATEGORIES+=	printing
-DISTFILES=	latex_mf.tar.gz latex_tfm.tar.gz latex_base.tar.gz \
-		latex_tools.tar.gz
+DISTFILES=	latex_mf-${VERSION}.tar.gz latex_tfm-${VERSION}.tar.gz \
+		latex_base-${VERSION}.tar.gz latex_tools-${VERSION}.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
@@ -22,13 +22,13 @@ FTPGET=		${FILESDIR}/ftpget
 CTAN?=		ftp.tex.ac.uk
 
 
-latex_base.tar.gz:
+latex_base-${VERSION}.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros latex/base.tar.gz ${DISTDIR}/$@
-latex_mf.tar.gz:
+latex_mf-${VERSION}.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/fonts latex/mf.tar.gz ${DISTDIR}/$@
-latex_tfm.tar.gz:
+latex_tfm-${VERSION}.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/fonts latex/tfm.tar.gz ${DISTDIR}/$@
-latex_tools.tar.gz:
+latex_tools-${VERSION}.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros latex/packages/tools.tar.gz ${DISTDIR}/$@
 
 do-build:
