@@ -3,7 +3,6 @@
 
     SUBDIR += bpl+
     SUBDIR += ecu
-    SUBDIR += estic
     SUBDIR += hylafax
     SUBDIR += kermit
     SUBDIR += lrzsz

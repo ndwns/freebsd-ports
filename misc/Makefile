@@ -11,6 +11,7 @@
     SUBDIR += ctk
     SUBDIR += dejagnu
     SUBDIR += ecc
+    SUBDIR += estic
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += figlet
