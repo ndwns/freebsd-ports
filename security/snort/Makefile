@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	snort-1.2
+DISTNAME=	snort-1.2.1
 CATEGORIES=	security net
 MASTER_SITES=	http://www.clark.net/~roesch/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
