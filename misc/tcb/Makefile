@@ -24,7 +24,6 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/tcbrc ${PREFIX}/share/tcb
 	@ ${INSTALL_DATA} ${WRKSRC}/doc/HELP ${PREFIX}/share/tcb
 	@ ${INSTALL_MAN} ${WRKSRC}/doc/tcb.1 ${PREFIX}/man/man1
-
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/tcb
 	@ ${INSTALL_DATA} ${WRKSRC}/doc/CHANGES ${PREFIX}/share/doc/tcb
