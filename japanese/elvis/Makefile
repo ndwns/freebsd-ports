@@ -22,7 +22,6 @@ LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 NO_WRKSUBDIR=	yes
 PATCH_DIST_STRIP=       -p1
 MAN1=		elvis.1 ctags.1 ref.1 elvrec.1 elvprsv.1
-MANCOMPRESSED=	yes
 
 STARTUP_SCRIPT= ${PREFIX}/etc/rc.d/ja-elvis.sh
 
