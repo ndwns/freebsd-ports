@@ -95,6 +95,7 @@
     SUBDIR += ntimelord
     SUBDIR += ntop
     SUBDIR += ntp
+    SUBDIR += nttcp
     SUBDIR += omi
     SUBDIR += openldap
     SUBDIR += p5-Archie
