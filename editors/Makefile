@@ -10,6 +10,7 @@
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
+    SUBDIR += vim
     SUBDIR += xcoral
     SUBDIR += xemacs
     SUBDIR += xvile
