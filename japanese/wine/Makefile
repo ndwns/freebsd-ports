@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 MASTER_SITE_SUBDIR=	ALPHA/wine/development
 DISTFILES=	Wine-971130.tar.gz Wine971130-jp.tar.gz
 
-MAINTAINER=	Takashi Uozu <j1594016@ed.kagu.sut.ac.jp>
+MAINTAINER=	j1594016@ed.kagu.sut.ac.jp
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
