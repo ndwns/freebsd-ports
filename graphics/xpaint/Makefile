@@ -1,14 +1,14 @@
 # New ports collection makefile for:    xpaint
-# Version required:     2.4.7
+# Version required:     2.4.8
 # Date created:         2 Jan 1995
 # Whom:                 swallace
 #
 # $Id$
 #
 
-DISTNAME=       xpaint-2.4.7
+DISTNAME=       xpaint-2.4.8
 CATEGORIES=	graphics x11
-MASTER_SITES=	http://www2.dk-online.dk/users/Torsten_Martinsen/xpaint/
+MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/
 
 MAINTAINER=	ports@freebsd.org
 
