@@ -13,6 +13,8 @@ MASTER_SITES=   	http://www.cfug.org/infocom/
 
 MAINTAINER=		mph@freebsd.org
 
+BROKEN=			fetch
+
 WRKSRC=			${WRKDIR}/xzip
 ALL_TARGET=
 
