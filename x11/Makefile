@@ -11,6 +11,7 @@
     SUBDIR += blt
     SUBDIR += bricons
     SUBDIR += camltk41
+    SUBDIR += contool
     SUBDIR += ctwm
     SUBDIR += dclock
     SUBDIR += etlfonts
