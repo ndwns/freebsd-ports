@@ -28,6 +28,7 @@
     SUBDIR += xearth
     SUBDIR += xfed
     SUBDIR += xfm
+    SUBDIR += xforms
     SUBDIR += xgrab
     SUBDIR += xkeycaps
     SUBDIR += xloadimage
