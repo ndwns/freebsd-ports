@@ -8,7 +8,7 @@
 
 DISTNAME=	blt-2.1
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/devel/
 DISTFILES=	BLT2.1.tar.gz
 
 MAINTAINER=	lukin@okbmei.msk.su
