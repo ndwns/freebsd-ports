@@ -10,6 +10,9 @@ DISTNAME=       netatalk-1.4b2
 CATEGORIES=	net print
 MASTER_SITES=   ftp://terminator.rs.itd.umich.edu/unix/netatalk/
 
+PATCH_SITES=	http://www.umich.edu/~rsug/netatalk/patches/1.4b2/
+PATCHFILES=	afpd-macos8.diff
+
 MAINTAINER=	stb@freebsd.org
 
 NOMANCOMPRESS=	true
@@ -17,3 +20,4 @@ NOMANCOMPRESS=	true
 # man pages work.
 
 .include <bsd.port.mk>
+
