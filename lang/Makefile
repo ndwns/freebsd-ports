@@ -25,6 +25,7 @@
     SUBDIR += perl5
     SUBDIR += pgcc
     SUBDIR += python
+    SUBDIR += rexx-imc
     SUBDIR += scheme48
     SUBDIR += schemetoc
     SUBDIR += scm
