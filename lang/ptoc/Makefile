@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	devel/lang/pascal
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+BROKEN= 'ptoc_3.34.tar.gz is all that is on the distsite'
+
 MAKEFILE=		makefile
 
 USE_XLIB=		yes
