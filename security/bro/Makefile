@@ -15,6 +15,7 @@ MASTER_SITES=	ftp://ee.lbl.gov/  \
 
 MAINTAINER=     obrien@NUXI.com
 
+NO_PACKAGE=	libbind.a compiled without optimization
 WRKSRC=		${WRKDIR}/bro-0.3
 CONFIGURE_ARGS= --libdir=${PREFIX}/share
 GNU_CONFIGURE=	yes
