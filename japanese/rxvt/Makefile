@@ -1,13 +1,13 @@
 # New ports collection Makefile for: rxvt
-# Version required:	2.6PRE3
-# Date created:         28 April 1999
+# Version required:	2.6PRE4
+# Date created:         11 May 1999
 # Whom:                 HONDA Yasuhiro <honda@kashio.info.mie-u.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	rxvt-2.6.PRE3
-PKGNAME=	ja-rxvt-2.6p3
+DISTNAME=	rxvt-2.6.PRE4
+PKGNAME=	ja-rxvt-2.6p4
 CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.rxvt.org/pub/rxvt/devel/
 
