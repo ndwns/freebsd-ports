@@ -69,6 +69,8 @@ post-install:
 		chown news.news /var/spool/news/articles; \
 		${MKDIR} -m 0775 /var/spool/news/cycbuffs; \
 		chown news.news /var/spool/news/cycbuffs; \
+		${MKDIR} -m 0775 /var/spool/news/incoming; \
+		chown news.news /var/spool/news/incoming; \
 		${MKDIR} -m 0775 /var/spool/news/innfeed; \
 		chown news.news /var/spool/news/innfeed; \
 		${MKDIR} -m 0775 /var/spool/news/outgoing; \
