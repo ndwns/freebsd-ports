@@ -9,7 +9,7 @@
 DISTNAME=	ss_1.3.3
 PKGNAME=	ss-1.3.3
 CATEGORIES=	math
-MASTER_SITES=	ftp://ftp.cs.ualberta.ca/pub/spreadsheet/
+MASTER_SITES=	http://www.ualberta.ca/~amulder/ss/
 
 MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
 
