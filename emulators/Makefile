@@ -16,5 +16,6 @@
     SUBDIR += vmsbackup
     SUBDIR += wine
     SUBDIR += x48
+    SUBDIR += xgs
 
 .include <bsd.port.subdir.mk>
