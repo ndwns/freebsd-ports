@@ -16,10 +16,6 @@ MAINTAINER=	peter@FreeBSD.org
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
-BROKEN=         MOUNT_NFS undeclared
-.endif
-
 # To avoid confusion with /usr/bin/rdist, you may prefer otherwise.
 RDIST_NAME?=	rdist6
 
