@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=      ruboard-1.2
+DISTNAME=      ruboard-1.2.1
 CATEGORIES=    www russian
 MASTER_SITES=  ftp://ftp.amsoft.ru/software/ruboard/
 
