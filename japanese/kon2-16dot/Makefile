@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kon
-PKGNAME=	kon-0994e
+PKGNAME=	jp-kon-0994e
 CATEGORIES+=	japanese
 # note kon is only in first directory and fonts are only in second directory
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/ \
@@ -26,6 +26,8 @@ post-configure:
 	  files/dotconfig > ${WRKSRC}/.config
 
 post-install:
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/ja_JP.ujis/man1/kon.1
+.endif
 
 .include <bsd.port.mk>

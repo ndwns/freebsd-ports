@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	kterm-6.1.0
+PKGNAME=	jp-kterm-6.1.0
 CATEGORIES+=	japanese x11
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 

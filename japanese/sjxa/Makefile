@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	sjxa-1.5.11
+PKGNAME=	jp-sjxa-1.5.11
 CATEGORIES+=	japanese x11
 MASTER_SITES=	ftp://ftp.sony.co.jp/pub/unsupported/src/ \
 		ftp://ftp.cs.titech.ac.jp/pub/japanese/sj3/
