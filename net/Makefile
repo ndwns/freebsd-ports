@@ -60,7 +60,6 @@
     SUBDIR += gnu-finger
     SUBDIR += gopher
     SUBDIR += gicq
-    SUBDIR += gtkicq
     SUBDIR += gtksamba
     SUBDIR += gwget
     SUBDIR += h2n
