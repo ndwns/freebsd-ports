@@ -5,6 +5,7 @@
     SUBDIR += STk
     SUBDIR += Sather
     SUBDIR += bwbasic
+    SUBDIR += cim
     SUBDIR += eiffel
     SUBDIR += elk
     SUBDIR += expect
