@@ -9,7 +9,7 @@
 DISTNAME=	xwpl-1.3-freebsd
 PKGNAME=	xwpl-1.3
 CATEGORIES=	math
-MASTER_SITES=	ftp://pascal.math.yale.edu/pub/wavelets/software/xwpl/
+MASTER_SITES=	ftp://pascal.math.yale.edu/pub/wavelets/software/xwpl/other-versions/
 
 MAINTAINER=	giffunip@asme.org
 
