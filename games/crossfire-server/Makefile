@@ -20,9 +20,9 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	rplay:${PORTSDIR}/audio/rplay
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5
 
 EXTRACT_ONLY=	${CF_SOURCES} ${CF_DOC}
+USE_PERL5=	yes
 USE_IMAKE=	yes
 PREFIX=		${LOCALBASE}
 
