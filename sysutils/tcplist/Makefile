@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	tcplist-2.1
+DISTNAME=	tcplist-2.2
 CATEGORIES=	sysutils net
 MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/tcplist/  \
 		ftp://ftp.ece.uc.edu/pub/sun-faq/FAQs/mirrors/ftp.cdf.toronto.edu/tcplist/  \
