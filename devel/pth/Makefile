@@ -1,12 +1,12 @@
 # New ports collection makefile for:   pth
-# Version required:		1.0b3
+# Version required:		1.0b4
 # Date Created:			23 May 1999
 # Whom:				Ralf S. Engelschall
 #
 # $Id$
 #
 
-DISTNAME=	pth-1.0b3
+DISTNAME=	pth-1.0b4
 CATEGORIES=	devel
 MASTER_SITES=	ftp://alpha.gnu.org/gnu/pth/
 
