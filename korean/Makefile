@@ -11,6 +11,7 @@
     SUBDIR += hanyangfonts
     SUBDIR += helvis
     SUBDIR += johabfonts
+    SUBDIR += nhpf
     SUBDIR += nvi-euc-kr
     SUBDIR += nvi-iso-2022-kr
     SUBDIR += pine
