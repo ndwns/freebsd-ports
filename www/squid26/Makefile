@@ -71,8 +71,8 @@ post-install:
 	fi
 .endfor
 .for file in cachemgr.cgi dnsserver pinger unlinkd
-	if [ -f ${PREFIX}/sbin/${file} ] ; then \
-		strip ${PREFIX}/sbin/${file} ; \
+	if [ -f ${PREFIX}/libexec/${file} ] ; then \
+		strip ${PREFIX}/libexec/${file} ; \
 	fi
 .endfor
 	${MKDIR} ${PREFIX}/squid/logs
