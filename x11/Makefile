@@ -42,6 +42,7 @@
     SUBDIR += qvwm
     SUBDIR += rclock
     SUBDIR += rxvt
+    SUBDIR += sliderule
     SUBDIR += slingshot
     SUBDIR += swisswatch
     SUBDIR += sxpc
