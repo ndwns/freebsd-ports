@@ -2,7 +2,6 @@
 #
 
     SUBDIR += asedit
-    SUBDIR += aswedit
     SUBDIR += axe
     SUBDIR += beav
     SUBDIR += bpatch
