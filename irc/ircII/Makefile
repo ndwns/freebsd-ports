@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ircii-2.9-base
+DISTNAME=	ircii-2.9-roof
 PKGNAME=	ircii-2.9
 CATEGORIES+=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
+
+CONFIGURE_ARGS= --with-default-server="irc.FreeBSD.ORG"
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
