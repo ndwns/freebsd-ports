@@ -146,6 +146,7 @@
     SUBDIR += xvier
     SUBDIR += xvmahjongg
     SUBDIR += xvmines
+    SUBDIR += xzip
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
     SUBDIR += ztrack
