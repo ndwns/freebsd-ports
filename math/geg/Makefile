@@ -17,8 +17,8 @@ LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
+CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include" \
 		GTK_CONFIG="${X11BASE}/bin/gtk11-config" \
-		LIBS="${LOCALBASE}/lib"
+		LIBS="-L${X11BASE}/lib -lgtk11"
 
 .include <bsd.port.mk>
