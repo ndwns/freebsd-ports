@@ -11,8 +11,7 @@ PKGNAME=	Mesa-1.1.3b
 CATEGORIES+=	graphics
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/misc/
 
-# won't install until I convert the Makefiles to Imakefiles
-NO_INSTALL=	yes
+BROKEN=		yes # won't install until I convert the Makefiles to Imakefiles
 WRKSRC=		${WRKDIR}/Mesa
 USE_GMAKE=	yes
 USE_X11=	yes
