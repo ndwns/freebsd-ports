@@ -59,6 +59,7 @@
     SUBDIR += xamp
     SUBDIR += xcd
     SUBDIR += xcdplayer
+    SUBDIR += xhippo
     SUBDIR += xmcd
     SUBDIR += xmix
     SUBDIR += xmmix
