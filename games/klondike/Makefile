@@ -17,6 +17,7 @@ RUN_DEPENDS=    wish4.1:${PORTSDIR}/x11/tk41
 GNU_CONFIGURE=  Yes
 CONFIGURE_ARGS= --bindir=${PREFIX}/bin --datadir=${PREFIX}/share/games \
 		--mandir=${PREFIX}/man
+CONFIGURE_ENV+= WISHX=${PREFIX}/bin/wish4.1
 MAN6=           klondike.6
 
 .include <bsd.port.mk>
