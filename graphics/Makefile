@@ -125,6 +125,7 @@
     SUBDIR += xpdf
     SUBDIR += xpm
     SUBDIR += xpx
+    SUBDIR += xsane
     SUBDIR += xv
     SUBDIR += xv-m17n
     SUBDIR += xwpick
