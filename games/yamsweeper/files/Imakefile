@@ -32,7 +32,7 @@ INSTALLDIR= $(BINDIR)
 
 #if cppLogUser || cppHighScore
 
-all: yamsweeper
+all:: yamsweeper
 
 #ifdef SetUIDProgramTarget
 	/* X11R[56] */
