@@ -7,6 +7,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += cern_httpd
     SUBDIR += cern_linemode
     SUBDIR += chimera
+    SUBDIR += comline
     SUBDIR += gn
     SUBDIR += lynx
     SUBDIR += netscape
