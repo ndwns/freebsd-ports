@@ -15,9 +15,11 @@ WRKSRC=		${WRKDIR}
 MAKEFILE=	Makefile.i386
 
 do-install:
-	install -c -s -m 555 ${WRKSRC}/mprof ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/mprof ${PREFIX}/bin
 	install -c -m 555 ${WRKSRC}/libc_mp.a ${PREFIX}/lib
-	install -c -m 555 ${WRKSRC}/mprof.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/mprof.1 ${PREFIX}/man/man1
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/mprof.1
+.endif
 
 .include <bsd.port.mk>
