@@ -97,6 +97,7 @@
     SUBDIR += sj3
     SUBDIR += sjxa
     SUBDIR += skk
+    SUBDIR += skkinput
     SUBDIR += tcl76
     SUBDIR += tcsh
     SUBDIR += tgif
