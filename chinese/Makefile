@@ -29,5 +29,6 @@
     SUBDIR += telnet
     SUBDIR += tin
     SUBDIR += xcin
+    SUBDIR += zh-aterm
 
 .include <bsd.port.subdir.mk>
