@@ -17,8 +17,9 @@ PATCH_DIST_STRIP= -p1
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
-BUILD_DEPENDS=	${LOCALBASE}/lib/libicq.a:${PORTSDIR}/japanese/libicq \
-		${X11BASE}/lib/libgtk.a:${PORTSDIR}/japanese/gtk
+LIB_DEPENDS=	icq.0:${PORTSDIR}/japanese/libicq \
+		gtkjp.1:${PORTSDIR}/japanese/gtk
+# sada: Libname 'licq' seems to cause conflict (^^;
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
