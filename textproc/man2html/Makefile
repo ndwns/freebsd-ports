@@ -21,10 +21,10 @@ MAN1=  		man2html.1
 
 post-patch:
 
-	if [ -f ${CGIDIR} ] ; then \
-		${MV} ${WRKSRC}/man.cgi ${WRKSRC}/man.cgi.pre_sed ; \
-		${CAT} ${WRKSRC}/man.cgi.pre_sed | \
-		${GREP} -Ev -e "/opt/|/openwin/" \
+	@ if [ -f ${CGIDIR} ] ; then \
+		@ ${MV} ${WRKSRC}/man.cgi ${WRKSRC}/man.cgi.pre_sed ; \
+		@ ${CAT} ${WRKSRC}/man.cgi.pre_sed | \
+		@ ${GREP} -Ev -e "/opt/|/openwin/" \
 		> ${WRKSRC}/man.cgi ; \
 	fi
 
