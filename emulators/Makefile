@@ -8,6 +8,7 @@
     SUBDIR += cpmtools
     SUBDIR += fmsx
     SUBDIR += hfs
+    SUBDIR += hfsutils
     SUBDIR += ines
     SUBDIR += linux_lib
     SUBDIR += macutils
