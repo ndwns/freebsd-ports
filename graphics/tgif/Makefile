@@ -1,12 +1,12 @@
 # New ports collection makefile for:    tgif
-# Version required:     3.0-p17
-# Date created:         10 Aug 1997
+# Version required:     4.0.18
+# Date created:         30 Jan 1999
 # Whom:                 bmc@WillsCreek.COM
 #
 # $Id$
 #
 
-DISTNAME=	tgif-4.0.12
+DISTNAME=	tgif-4.0.18
 CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		ftp://ftp.cs.ucla.edu/pub/tgif/
@@ -22,6 +22,7 @@ RUN_DEPENDS=	giftopnm:${PORTSDIR}/graphics/netpbm \
 
 USE_IMAKE=	yes
 MAN1=		tgif.1
+INSTALL_TARGET=	install install.man
 
 post-extract:
 		${RM} -f ${WRKDIR}/${DISTNAME}/Tgif.tmpl
