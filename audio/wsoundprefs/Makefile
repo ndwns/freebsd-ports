@@ -1,12 +1,12 @@
 # New ports collection makefile for:   wsoundPrefs
-# Version required:    0.9.1
+# Version required:    1.0.2
 # Date created:        12 December 1998
 # Whom:                gljohns@bellsouth.net
 #
 # $Id$
 #
 
-DISTNAME=	WSoundPrefs-0.9.3
+DISTNAME=	WSoundPrefs-1.0.2
 CATEGORIES=	audio windowmaker
 MASTER_SITES=	ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
