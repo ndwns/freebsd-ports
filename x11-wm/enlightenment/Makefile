@@ -15,7 +15,6 @@ MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
 MAINTAINER=	vanilla@FreeBSD.ORG
 
 BUILD_DEPENDS=  ${LOCALBASE}/lib/perl5/site_perl/5.005/i386-freebsd/Gtk.pm:${PORTSDIR}/x11-toolkits/p5-Gtk
-
 LIB_DEPENDS=	esd\\.0\\.0:${PORTSDIR}/audio/esound \
 		Fnlib\\.0\\.3:${PORTSDIR}/graphics/fnlib \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib \
@@ -28,5 +27,9 @@ CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LIBS=-L${LOCALBASE}/lib
 
 WRKSRC=		${WRKDIR}/e
+
+post-install:
+		strip ${PREFIX}/bin/enlightenment
+		strip ${PREFIX}/bin/dox
 
 .include <bsd.port.mk>
