@@ -16,7 +16,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/zip
+BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS=	i386-go32-gcc:${PORTSDIR}/devel/crossgo32
 
 BROKEN=		install
