@@ -1,5 +1,5 @@
 # New ports collection makefile for:    adcomplain
-# http://www.rdrop.com/users/billmc/
+# http://www.rdrop.com/users/billmc/adcomplain.html
 # Version required:     1.6
 # Date created: 13 Sep 1997
 # Whom:         ache@FreeBSD.org
