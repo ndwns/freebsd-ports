@@ -42,7 +42,7 @@ pre-extract:
 post-install:
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
 	cd ${WRKSRC}/Fortify-1.3.2-unix-x86 && \
-		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${PREFIX}/lib/netscape/netscape.bin
+		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) | ./Fortify.sh ${PREFIX}/lib/netscape/netscape.bin
 .endif
 	@${CAT} ${PKGDIR}/DESCR
 
