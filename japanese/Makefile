@@ -107,5 +107,6 @@
     SUBDIR += x0212fonts
     SUBDIR += xdvi
     SUBDIR += xshodo
+    SUBDIR += zipcodes
 
 .include <bsd.port.subdir.mk>
