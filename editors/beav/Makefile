@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.debian.org/debian/hamm/hamm/source/editors/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+MAN1=		beav.1
 WRKSRC=		${WRKDIR}/beav-1.40
 
 .include <bsd.port.mk>
