@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.taz
 
 MAINTAINER=     obrien@FreeBSD.org
 
+BROKEN=		distfile no longer available
+
 NO_WRKSUBDIR=	yes
 RESTRICTED=	"Commercial software"
 
