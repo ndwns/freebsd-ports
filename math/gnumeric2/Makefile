@@ -16,8 +16,6 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	xml.0:${PORTSDIR}/textproc/libxml
 LIB_DEPENDS+=	gnome.0:${PORTSDIR}/x11/gnomelibs
 
-BROKEN=		build
-
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
