@@ -32,7 +32,7 @@ MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=yes" ${MAKE_FLAGS}
 .endif
 
 pre-build:
-	@(cd ${WRKSRC}; ${GMAKE} distclean)
+	@(cd ${WRKSRC}; ${MAKE} distclean)
 
 post-install:
 	[ -e ${PREFIX}/bin/gvim ] || /bin/ln -s ${PREFIX}/bin/vim ${PREFIX}/bin/gvim
