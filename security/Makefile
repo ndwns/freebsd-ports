@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SSLeay
+    SUBDIR += cops
     SUBDIR += donkey
     SUBDIR += fwtk
     SUBDIR += libident
