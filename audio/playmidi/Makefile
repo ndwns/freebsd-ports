@@ -10,12 +10,13 @@ DISTNAME=       playmidi-2.3
 CATEGORIES=     audio
 MASTER_SITES=   ftp://sunsite.unc.edu/pub/Linux/apps/sound/players/
 
+MAINTAINER=     ache@FreeBSD.ORG
+
 IS_INTERACTIVE= YES
 HAS_CONFIGURE=  YES
 CONFIGURE_SCRIPT=       Configure
 CONFIGURE_ENV=  PREFIX=${PREFIX}
 INSTALL_TARGET= install.lame install.man
-
-MAINTAINER=     ache@FreeBSD.ORG
+MAN1=		playmidi.1
 
 .include <bsd.port.mk>
