@@ -1,4 +1,5 @@
 # New ports collection makefile for:    getbdf
+# Version required:	?
 # Date created:         30 August 1996
 # Whom:                 ache
 #
@@ -6,6 +7,7 @@
 #
 
 DISTNAME=       getbdf
+PKGNAME=        getbdf-1.0
 CATEGORIES+=	x11
 MASTER_SITES=   ftp://ftp.ipa.fhg.de/pub/X/
 EXTRACT_SUFX=   .tar.Z
