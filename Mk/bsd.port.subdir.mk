@@ -89,6 +89,6 @@ realinstall: beforeinstall _SUBDIRUSE
 tags: _SUBDIRUSE
 .endif
 
-.if !target(check-md5)
-check-md5: _SUBDIRUSE
+.if !target(checksum)
+checksum: _SUBDIRUSE
 .endif
