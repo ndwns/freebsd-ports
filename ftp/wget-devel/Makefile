@@ -19,6 +19,5 @@ post-install:
 		sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
 	-install-info ${PREFIX}/info/wget.info ${PREFIX}/info/dir
-	@strip ${PREFIX}/bin/wget
 
 .include <bsd.port.mk>
