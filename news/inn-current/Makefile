@@ -22,6 +22,8 @@ PGPVERIFY?=	DONT
 USE_TCL?=	DO
 USE_PERL5?=	DONT
 
+SCRIPTS_ENV+= PGPVERIFY=${PGPVERIFY} USE_TCL=${USE_TCL} USE_PERL5=${USE_PERL5}
+
 NO_PACKAGE=	"Too many compile-time options"
 MAN1=	convdate.1 getlist.1 grephistory.1 inews.1 innconfval.1 installit.1 \
 	nntpget.1 rnews.1 shlock.1 shrinkfile.1 subst.1
