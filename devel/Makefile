@@ -158,6 +158,7 @@
     SUBDIR += tclcl
     SUBDIR += tclgetopts
     SUBDIR += templ
+    SUBDIR += tkcon
     SUBDIR += tkcvs
     SUBDIR += tkref
     SUBDIR += tvision
