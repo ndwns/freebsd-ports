@@ -36,6 +36,7 @@
     SUBDIR += wmmixer
     SUBDIR += workman
     SUBDIR += x11amp
+    SUBDIR += xamp
     SUBDIR += xcd
     SUBDIR += xcdplayer
     SUBDIR += xmcd
