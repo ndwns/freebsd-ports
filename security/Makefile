@@ -18,6 +18,7 @@
     SUBDIR += ssh
     SUBDIR += sudo
     SUBDIR += tcp_wrapper
+    SUBDIR += tripwire
     SUBDIR += vscan
     SUBDIR += xinetd
 
