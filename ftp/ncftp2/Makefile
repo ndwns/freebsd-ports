@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
 MAINTAINER=	ache@FreeBSD.ORG
 
 GNU_CONFIGURE=  yes
-CONFIGURE_ENV=  ac_cv_func_getmaxyx=yes
+CONFIGURE_ENV=  ac_cv_func_getmaxyx=yes ac_cv_lib_readline=yes
 MAN1=		ncftp2.1
 
 do-install:
