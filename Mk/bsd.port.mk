@@ -49,6 +49,8 @@
 # NO_PACKAGE	- Use a dummy (do-nothing) package target.
 # NO_INSTALL	- Use a dummy (do-nothing) install target.
 # NO_WRKSUBDIR	- Assume port unpacks directly into ${WRKDIR}.
+# NO_WRKDIR		- There's no work directory at all; port does this someplace
+#				  else.
 # NO_DEPENDS	- Don't verify build of dependencies.
 # USE_GMAKE		- Says that the port uses gmake.
 # USE_IMAKE		- Says that the port uses imake.
@@ -97,7 +99,11 @@ PORTSDIR?=		${DESTDIR}/usr/ports
 PREFIX?=		/usr/local
 DISTDIR?=		${PORTSDIR}/distfiles
 PACKAGES?=		${PORTSDIR}/packages
+.if !defined(NO_WRKDIR)
 WRKDIR?=		${.CURDIR}/work
+.else
+WRKDIR?=		${.CURDIR}
+.endif
 .if defined(NO_WRKSUBDIR)
 WRKSRC?=		${WRKDIR}
 .else
