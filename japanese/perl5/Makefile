@@ -72,6 +72,6 @@ test:
 
 post-install:
 	@strip ${PREFIX}/bin/perl ${PREFIX}/bin/suidperl
-	@ln -s ${PREFIX}/bin/perl ${PREFIX}/bin/jperl
+	@ln -fs ${PREFIX}/bin/perl ${PREFIX}/bin/jperl
 
 .include <bsd.port.mk>
