@@ -14,6 +14,7 @@
     SUBDIR += kvirc
     SUBDIR += muh
     SUBDIR += ninja
+    SUBDIR += olirc
     SUBDIR += quirc
     SUBDIR += roxirc
     SUBDIR += sic
