@@ -24,6 +24,7 @@
     SUBDIR += modula-3-lib
     SUBDIR += modula-3-socks
     SUBDIR += moscow_ml
+    SUBDIR += ocaml
     SUBDIR += p2c
     SUBDIR += pTk
     SUBDIR += pbasic
