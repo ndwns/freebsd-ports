@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	libicq-0.20
-PKGNAME=	libicq-0.20
 CATEGORIES=	devel
 MASTER_SITES=	http://www.montana.com/gabriel/gicq/files/
 
