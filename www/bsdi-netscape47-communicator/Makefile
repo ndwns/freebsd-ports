@@ -54,7 +54,7 @@ do-install:
 	${RM} -rf ${NDIR}/movemail-src
 .if defined(USE_128BIT)
 	cd ${WRKDIR}/Fortify-1.3.2-unix-x86 && \
-		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.5.bin
+		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.5.bin
 .endif
 	chown -R ${BINOWN}.${BINGRP} ${NDIR}
 
