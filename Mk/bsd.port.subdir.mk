@@ -65,6 +65,10 @@ clean: _SUBDIRUSE
 depend: _SUBDIRUSE
 .endif
 
+.if !target(reinstall)
+reinstall: _SUBDIRUSE
+.endif
+
 .if !target(install)
 .if !target(beforeinstall)
 beforeinstall:
