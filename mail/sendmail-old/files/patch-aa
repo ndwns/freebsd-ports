@@ -112,8 +112,8 @@ diff -ur mail.local/mail.local.8 src/contrib/sendmail/mail.local/mail.local.8
  getservbyname(3), 
  comsat(8), 
 diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
---- mail.local/mail.local.c	Fri Sep 22 18:30:09 2000
-+++ src/contrib/sendmail/mail.local/mail.local.c	Mon Nov  6 11:23:42 2000
+--- mail.local/mail.local.c	Sun Feb 11 21:08:20 2001
++++ src/contrib/sendmail/mail.local/mail.local.c	Mon Mar  5 21:48:22 2001
 @@ -22,6 +22,8 @@
  static char id[] = "@(#)$Id$";
  #endif /* ! lint */
@@ -123,7 +123,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  /*
  **  This is not intended to work on System V derived systems
  **  such as Solaris or HP-UX, since they use a totally different
-@@ -170,7 +172,7 @@
+@@ -154,7 +156,7 @@
  
  # if defined(BSD4_4) || defined(__GLIBC__)
  #   include <paths.h>
@@ -132,7 +132,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  # endif /* defined(BSD4_4) || defined(__GLIBC__) */
  
  # ifdef BSD4_4
-@@ -229,7 +231,7 @@
+@@ -215,7 +217,7 @@
  # endif /* USE_SETRESUID */
  
  # ifndef _PATH_LOCTMP
@@ -141,16 +141,16 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  # endif /* ! _PATH_LOCTMP */
  #  ifndef _PATH_MAILDIR
  #   define _PATH_MAILDIR	"/var/spool/mail"
-@@ -264,6 +266,8 @@
- int	ExitVal = EX_OK;		/* sysexits.h error value. */
+@@ -252,6 +254,8 @@
+ bool	HoldErrs = FALSE;		/* Hold errors in ErrBuf */
  bool	LMTPMode = FALSE;
- bool	bouncequota = FALSE;		/* permanent error when over quota */
+ bool	BounceQuota = FALSE;		/* permanent error when over quota */
 +bool	nobiff = FALSE;
 +bool	nofsync = FALSE;
  
- void	deliver __P((int, char *, bool));
+ void	deliver __P((int, char *));
  int	e_to_sys __P((int));
-@@ -304,7 +308,7 @@
+@@ -291,7 +295,7 @@
  # endif /* LOG_MAIL */
  
  	from = NULL;
@@ -159,7 +159,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  	{
  		switch(ch)
  		{
-@@ -312,6 +316,10 @@
+@@ -299,6 +303,10 @@
  			EightBitMime = FALSE;
  			break;
  
@@ -168,9 +168,9 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
 +			break;
 +
  		  case 'b':		/* bounce mail when over quota. */
- 			bouncequota = TRUE;
+ 			BounceQuota = TRUE;
  			break;
-@@ -333,6 +341,10 @@
+@@ -320,6 +328,10 @@
  			LMTPMode = TRUE;
  			break;
  
@@ -181,7 +181,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  		  case '?':
  		  default:
  			usage();
-@@ -342,7 +354,8 @@
+@@ -329,7 +341,8 @@
  	argv += optind;
  
  	/* initialize biff structures */
@@ -190,13 +190,13 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
 +		notifybiff(NULL);
  
  	if (LMTPMode)
- 		dolmtp(bouncequota);
-@@ -1127,14 +1140,17 @@
+ 	{
+@@ -1135,14 +1148,17 @@
  		goto err1;
  	}
  
 -	/* Get the starting offset of the new message for biff. */
--	curoff = lseek(mbfd, (off_t)0, SEEK_END);
+-	curoff = lseek(mbfd, (off_t) 0, SEEK_END);
 -	if (sizeof curoff > sizeof(long))
 -		(void) snprintf(biffmsg, sizeof(biffmsg), "%s@%s\n",
 -				name, quad_to_string(curoff));
@@ -206,7 +206,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
 +	if (!nobiff)
 +	{
 +		/* Get the starting offset of the new message for biff. */
-+		curoff = lseek(mbfd, (off_t)0, SEEK_END);
++		curoff = lseek(mbfd, (off_t) 0, SEEK_END);
 +		if (sizeof curoff > sizeof(long))
 +			(void) snprintf(biffmsg, sizeof(biffmsg), "%s@%s\n",
 +					name, quad_to_string(curoff));
@@ -216,8 +216,8 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
 +	}
  
  	/* Copy the message into the file. */
- 	if (lseek(fd, (off_t)0, SEEK_SET) == (off_t)-1)
-@@ -1196,7 +1212,7 @@
+ 	if (lseek(fd, (off_t) 0, SEEK_SET) == (off_t) -1)
+@@ -1203,7 +1219,7 @@
  	}
  
  	/* Flush to disk, don't wait for update. */
@@ -226,8 +226,8 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  	{
  		mailerr("450 4.2.0", "%s: %s", path, errstring(errno));
  err3:
-@@ -1230,7 +1246,7 @@
- 		mailerr("450 4.2.0", "%s: %s", path, errstring(errno));
+@@ -1229,7 +1245,7 @@
+ 		mailerr(errcode, "%s: %s", path, errstring(errno));
  		(void) truncate(path, curoff);
  	}
 -	else
@@ -235,7 +235,7 @@ diff -ur mail.local/mail.local.c src/contrib/sendmail/mail.local/mail.local.c
  		notifybiff(biffmsg);
  
  	if (setreuid(0, 0) < 0)
-@@ -1409,7 +1425,7 @@
+@@ -1408,7 +1424,7 @@
  usage()
  {
  	ExitVal = EX_USAGE;
