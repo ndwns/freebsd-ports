@@ -67,6 +67,7 @@
     SUBDIR += less
     SUBDIR += libslang
     SUBDIR += lipsf
+    SUBDIR += lynx
     SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
