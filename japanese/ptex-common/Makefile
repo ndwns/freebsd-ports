@@ -24,7 +24,7 @@ DISTFILES=	ptex-2.1.4.tar.gz web-6.1.tar.gz web2c-6.1.tar.gz \
 EXTRACT_ONLY=	ptex-2.1.4.tar.gz web-6.1.tar.gz web2c-6.1.tar.gz \
 		xdvik-18f.tar.gz
 
-MAINTAINER=	ohmon@sfc.keio.ac.jp
+MAINTAINER=	masafumi@pobox.com
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=--prefix=${PREFIX}
