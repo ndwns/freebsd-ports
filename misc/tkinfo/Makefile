@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkinfo-0.6
-CATEGORIES+=	x11
+CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ptolemy.eecs.berkeley.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 
