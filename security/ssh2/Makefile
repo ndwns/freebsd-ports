@@ -15,6 +15,8 @@ MASTER_SITES=   ftp://ftp.funet.fi/pub/unix/security/login/ssh/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+BROKEN=		update
+
 # You can set USA_RESIDENT appropriately in /etc/make.conf if this bugs you..
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
