@@ -84,3 +84,7 @@ realinstall: beforeinstall _SUBDIRUSE
 .if !target(tags)
 tags: _SUBDIRUSE
 .endif
+
+.if !target(check-md5)
+check-md5: _SUBDIRUSE
+.endif
