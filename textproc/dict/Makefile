@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	dictd-1.4.8
-PKGNAME=	dict-1.4.8
+DISTNAME=	dictd-1.4.9
+PKGNAME=	dict-1.4.9
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cs.unc.edu/pub/users/faith/dict/ \
 		ftp://ftp.dict.org/pub/dict/
@@ -15,7 +15,6 @@ MASTER_SITES=	ftp://ftp.cs.unc.edu/pub/users/faith/dict/ \
 MAINTAINER=	josh@quick.net
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	PREFIX=${PREFIX}
 USE_GMAKE=	yes
 ALL_TARGET=	dict
 INSTALL_TARGET=	install.dict
