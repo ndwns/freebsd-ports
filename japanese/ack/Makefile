@@ -10,7 +10,7 @@ PKGNAME=	ja-ack-1.39
 CATEGORIES=	japanese converters
 MASTER_SITES=	ftp://ftp.tohoku.ac.jp/pub/unix/ack/
 
-MAINTAINER=	seiken@nbs.co.jp
+MAINTAINER=	seiken@ARGV.AC
 
 ALL_TARGET=     ack
 

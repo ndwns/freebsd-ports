@@ -11,7 +11,7 @@ PKGNAME=	ja-gn-gnspool-1.40
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.omronsoft.co.jp/pub/misc/gn/
 
-MAINTAINER=	seiken@os.rim.or.jp
+MAINTAINER=	seiken@ARGV.AC
 
 # The program ``configur'' sometimes issue questions and
 # batch-mode build would fail.

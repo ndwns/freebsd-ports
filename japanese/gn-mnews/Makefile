@@ -11,7 +11,7 @@ PKGNAME=	ja-gn-mnews-1.20
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.mei.co.jp/free/Network/news/readers/
 
-MAINTAINER=	seiken@os.rim.or.jp
+MAINTAINER=	seiken@ARGV.AC
 
 RUN_DEPENDS=	gninews:${PORTSDIR}/japanese/gn-gnspool \
 		mnews:${PORTSDIR}/japanese/mnews

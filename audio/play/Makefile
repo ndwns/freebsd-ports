@@ -10,7 +10,7 @@ DISTNAME=	play-1.0
 CATEGORIES=	audio
 MASTER_SITES=	ftp://ports.jp.FreeBSD.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
-MAINTAINER=	seiken@nbs.co.jp
+MAINTAINER=	seiken@ARGV.AC
 
 MANLANG=	ja
 MAN1=		play.1
