@@ -16,9 +16,9 @@ MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 WRKSRC=		${WRKDIR}/xeyes
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
-
 MAN1=		xgolgo.1
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/xeyes.man ${PREFIX}/man/man1/xgolgo.1
+
 .include <bsd.port.mk>
