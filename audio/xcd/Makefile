@@ -14,4 +14,6 @@ WRKSRC=		${WRKDIR}/xcd
 
 MAINTAINER=	jmz@FreeBSD.org
 
+RUN_DEPENDS=    wish:${PORTSDIR}/x11/tk
+
 .include <bsd.port.mk>
