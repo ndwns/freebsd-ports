@@ -342,10 +342,11 @@ pre-build:
 .endif
 
 .if !target(build)
-build: configure pre-build depends ${BUILD_COOKIE}
+build: configure depends ${BUILD_COOKIE}
 
 ${BUILD_COOKIE}:
 	@echo "===>  Building for ${DISTNAME}"
+	@${MAKE} ${.MAKEFLAGS} pre-build
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
 .else defined(USE_GMAKE)
