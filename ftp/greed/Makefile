@@ -1,5 +1,5 @@
 # New ports collection makefile for: 	greed
-# Version required:	0.652
+# Version required:	0.666
 # Date created:		13 April 1999
 # Whom:			Chris Piazza <cpiazza@home.net>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=     	greed
-PKGNAME=	greed-0.665
+PKGNAME=	greed-0.666
 CATEGORIES=	net
 MASTER_SITES=	http://www.public.asu.edu/~arturner/
 
