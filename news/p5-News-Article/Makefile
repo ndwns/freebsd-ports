@@ -1,16 +1,16 @@
 # New ports collection makefile for: p5-News-Article
-# Version required: 1.14
+# Version required: 1.21
 # Date created: January 2, 1998
 # Whom: Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
 # $Id$
 #
 
-DISTNAME=	News-Article-1.14
-PKGNAME=	p5-News-Article-1.14
+DISTNAME=	News-Article-1.21
+PKGNAME=	p5-News-Article-1.21
 CATEGORIES=	news perl5
-MASTER_SITES=	http://www.freebsd.org/~mph/distfiles/ \
-		http://www.erlenstar.demon.co.uk/perl/
+MASTER_SITES=	http://www.erlenstar.demon.co.uk/perl/
+#		http://www.freebsd.org/~mph/distfiles/
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
