@@ -21,7 +21,7 @@ ${EXTRACT_COOKIE}:
 	@(cd ${DISTDIR}; zcat ${DISTFILES} | uudecode)
 	@rm -rf ${WRKDIR}
 	@mkdir -p ${WRKDIR}
-	@(cd ${WRKDIR}; ${EXTRACT_CMD} ${EXTRACT_ARGS} \
+	@(cd ${WRKDIR}; ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
 		${DISTDIR}/${DISTNAME}.tar.gz)
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
 
