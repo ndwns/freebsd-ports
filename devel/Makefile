@@ -59,6 +59,7 @@
     SUBDIR += libgtop
     SUBDIR += libicq
     SUBDIR += libmalloc
+    SUBDIR += libshhmsg
     SUBDIR += libshhopt
     SUBDIR += libslang
     SUBDIR += libtool
