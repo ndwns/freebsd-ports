@@ -7,6 +7,7 @@
     SUBDIR += mkisofs
     SUBDIR += rtty
     SUBDIR += socket
+    SUBDIR += su2
     SUBDIR += top
     SUBDIR += tua
     SUBDIR += xbatt
