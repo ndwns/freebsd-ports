@@ -1,5 +1,5 @@
 # New ports collection makefile for:	inform
-# Version required:			6.15 (Library: 6/7)
+# Version required:			6.15 (Library: 6/8)
 # Date created:				28 June 1998
 # Whom:					Matthew Hunt <mph@FreeBSD.org>
 #
@@ -10,7 +10,7 @@ DISTNAME=	inform-6.15
 CATEGORIES=	games
 MASTER_SITES=  	ftp://ftp.gmd.de/if-archive/infocom/compilers/inform6/source/ \
 		ftp://ftp.gmd.de/if-archive/infocom/compilers/inform6/library/
-DISTFILES=	inform615_source.zip inform_library67.tar.gz
+DISTFILES=	inform615_source.zip inform_library68.zip
 
 .if !defined(NOPORTDOCS)
 MASTER_SITES+=	ftp://ftp.gmd.de/if-archive/infocom/compilers/inform6/manuals/
@@ -48,14 +48,16 @@ post-extract:
 post-install:
 	@${MKDIR} ${PREFIX}/share/inform
 	@(cd ${PREFIX}/share/inform && \
-		tar xzf ${DISTDIR}/${DIST_SUBDIR}/inform_library67.tar.gz)
+		unzip -qq ${DISTDIR}/${DIST_SUBDIR}/inform_library68.zip)
 .for file in English Grammar Parser Verblib linklpa linklv parserm verblibm
 	@${MV} ${PREFIX}/share/inform/${file} ${PREFIX}/share/inform/${file}.h
 	@ chmod ${SHAREMODE} ${PREFIX}/share/inform/${file}.h
 	@ chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/inform/${file}.h
 .endfor
 	@${LN} -s Verblib.h ${PREFIX}/share/inform/VerbLib.h
-	@ chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/inform/VerbLib.h
+	@ chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/inform/VerbLib.h \
+		${PREFIX}/share/inform/Relnote
+	@ chmod ${SHAREMODE} ${PREFIX}/share/inform/Relnote
 .if !defined(NOPORTDOCS)
 	@ (umask 222 && unzip -qq -d ${PREFIX}/share/doc \
 		${DISTDIR}/${DIST_SUBDIR}/designers_manual_html.zip)
