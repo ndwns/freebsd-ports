@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	libobjects-0.1.19
-CATEGORIES=	devel
+CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	Nakai@technologist.com
