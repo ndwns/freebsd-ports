@@ -6,14 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	slrn0.9.4.3
-PKGNAME=	slrn-0.9.4.3
+DISTNAME=	slrn0.9.5.2
+PKGNAME=	slrn-0.9.5.2
 CATEGORIES=	news
-MASTER_SITES=	ftp://ftp.clara.net/pub/unix/Usenet/
+MASTER_SITES=	ftp://space.mit.edu/pub/davis/slrn/
 
 MAINTAINER=	xaa@xaa.iae.nl
 
-LIB_DEPENDS=	slang\\.0\\.99[0-9][0-9]:${PORTSDIR}/devel/libslang
+LIB_DEPENDS=	slang\\.1:${PORTSDIR}/devel/libslang
 
 WRKSRC=		${WRKDIR}/slrn
 GNU_CONFIGURE=	yes
