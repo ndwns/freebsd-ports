@@ -13,6 +13,7 @@ MASTER_SITES=	http://java.apache.org/jserv/dist/
 MAINTAINER=	greg@greg.rim.or.jp
 
 BUILD_DEPENDS=	${PREFIX}/jdk1.1.8/bin/javac:${PORTSDIR}/java/jdk\
+		${PREFIX}/sbin/apachectl:${PORTSDIR}/www/apache13\
 		${PREFIX}/share/java/classes/jsdk.jar:${PORTSDIR}/java/jsdk
 RUN_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/java/jdk\
 		${PREFIX}/sbin/apachectl:${PORTSDIR}/www/apache13\
