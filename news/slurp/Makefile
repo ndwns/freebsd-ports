@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jraynard@FreeBSD.ORG
 
+BROKEN=		patch
+
 NO_WRKSUBDIR=	yes
 MAN1=		slurp.1
 
