@@ -68,6 +68,7 @@
     SUBDIR += smtpfeed
     SUBDIR += tkrat
     SUBDIR += wmmail
+    SUBDIR += wmpop3
     SUBDIR += xbuffy
     SUBDIR += xfaces
     SUBDIR += xfmail
