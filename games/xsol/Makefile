@@ -9,7 +9,8 @@
 DISTNAME=       xsol-new
 PKGNAME=	xsol-2.1.1
 CATEGORIES=	games
-MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
+MASTER_SITES=	http://ftp.tu-clausthal.de/pub/unix.new/games/ \
+		ftp://ftp.tu-clausthal.de/pub/unix.new/games/
 
 MAINTAINER=	swallace@FreeBSD.org
 
