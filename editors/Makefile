@@ -13,6 +13,8 @@
     SUBDIR += emacs
     SUBDIR += emacs20
     SUBDIR += emacs20-dl
+    SUBDIR += flim-emacs20
+    SUBDIR += flim-emacs20-current
     SUBDIR += gxedit
     SUBDIR += hexedit
     SUBDIR += jed
