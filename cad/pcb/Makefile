@@ -9,12 +9,19 @@
 DISTNAME=	pcb-1.4.0
 CATEGORIES=	cad
 MASTER_SITES=	ftp://ftp.uni-ulm.de/pub/pcb/1.4/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	janek@gaja.ipan.lublin.pl
 
-BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
+RUN_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 USE_IMAKE=	yes
+MAN1=		pcb.1
+MANCOMPRESSED=	yes
+DOCDIR=		${LOCALBASE}/share/doc/pcb
+
+post-install:
+	@${MKDIR}  ${DOCDIR}
+	@${INSTALL_DATA} ${WRKSRC}/doc/* ${DOCDIR}
+	@${INSTALL_DATA} ${WRKSRC}/README_FILES/* ${DOCDIR}
 
 .include <bsd.port.mk>
