@@ -19,8 +19,7 @@ MAN1=		buildhash.1 findaffix.1 ispell.1 munchlist.1 \
 		sq.1 tryaffix.1 unsq.1
 MAN4=		ispell.4 english.4
 
-pre-fetch:
-pre-install:
+pre-fetch pre-build pre-install:
 .if !defined(ISPELL_FR)
 	@echo '******************************************************' 
 	@echo '* Note that you can build a french/english version   *' 
