@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://phobos.illtel.denver.co.us/pub/qcread/ \
 
 MAINTAINER=	billf@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 post-extract:
 
 	${CP} -r ${WRKSRC}/gnu-getopt/. ${WRKSRC}

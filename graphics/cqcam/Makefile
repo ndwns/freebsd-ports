@@ -16,6 +16,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
+ONLY_FOR_ARCHS=	i386
+
 MAN1=		cqcam.1
 MLINKS=		cqcam.1 webcam.1 \
 		cqcam.1 xcqcam.1
