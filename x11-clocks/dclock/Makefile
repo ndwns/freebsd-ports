@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.shar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+USE_XLIB=	yes
 MAN1=		dclock.1
 MANCOMPRESSED=	yes
 

@@ -13,6 +13,7 @@ EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=	erich@FreeBSD.org
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=

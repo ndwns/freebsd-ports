@@ -15,9 +15,10 @@ DISTFILES=	${TETEX_SRC} ${TETEX_LIB}
 
 MAINTAINER=	br@netland.inka.de
 
+USE_XLIB=	yes
+USE_GMAKE=	yes
 DIST_SUBDIR=	teTeX
 PATCH_DIST_STRIP=	-p1
-USE_GMAKE=	yes
 ALL_TARGET=	config clean texhash all
 INSTALL_TARGET=	install ini
 MAN1=		afm2tfm.1 allcm.1 alldc.1 allneeded.1 amslatex.1 \

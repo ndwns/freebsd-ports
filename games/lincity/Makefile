@@ -14,6 +14,7 @@ EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	proff@iq.org
 
+USE_XLIB=	yes
 USE_GMAKE=	yes
 ALL_TARGET=	freebsd
 MAN6=		lincity.6

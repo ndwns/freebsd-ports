@@ -14,6 +14,7 @@ MASTER_SITE_SUBDIR=	Tk
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+USE_XLIB=	YES
 USE_PERL5=	YES
 
 MAN1=	ptked.1 ptksh.1 widget.1

@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://athena-dist.mit.edu/pub/ATHENA/zephyr/dist/
 
 MAINTAINER=	ports@FreeBSD.org
 
+USE_XLIB=	yes
 .if exists(/usr/lib/libkrb.a) && defined(MAKE_EBONES)
 CONFIGURE_ARGS="--with-krb4"
 .endif

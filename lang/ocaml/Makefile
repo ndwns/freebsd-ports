@@ -14,6 +14,7 @@ DISTFILES=	${DISTNAME}.tar.gz ${DOCFILES}
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
+USE_XLIB=	yes
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
 ALL_TARGET=	world bootstrap opt

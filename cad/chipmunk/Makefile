@@ -16,6 +16,7 @@ EXTRACT_ONLY=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 		mosisbeta.tar.Z wolbeta.tar.Z wolcompbeta.tar.Z \
 		untilbeta.tar.Z viewbeta.tar.Z
 
+USE_XLIB=	yes
 DIST_SUBDIR=	chipmunk
 USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
