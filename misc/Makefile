@@ -32,6 +32,7 @@
     SUBDIR += gone
     SUBDIR += gtkfind
     SUBDIR += gyvescm
+    SUBDIR += Howto
     SUBDIR += iselect
     SUBDIR += jargon
     SUBDIR += jive
