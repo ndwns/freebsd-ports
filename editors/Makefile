@@ -8,6 +8,7 @@
     SUBDIR += emacs
     SUBDIR += jove
     SUBDIR += mule
+RESTRICTED += nedit	# requires motif
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
