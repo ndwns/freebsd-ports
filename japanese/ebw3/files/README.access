@@ -23,7 +23,7 @@ cdsearchを書き換えています．（ただし，これはライセンス数の制限ではありま
 
 #!/bin/sh
 #
-# $Id$
+# $FreeBSD$
 #
 
 YOURDOMAIN='my.domain'
