@@ -8,6 +8,7 @@
 DISTNAME=       ha0999
 EXTRACT_SUFX=   .tgz
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+CATEGORIES+=	archivers
 NO_WRKSUBDIR=   YES
 MAKEFILE=       makefile.nix
 MAKE_FLAGS=     CC=cc -f

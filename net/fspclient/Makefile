@@ -9,6 +9,7 @@
 DISTNAME=       fspclient.0.0-h+
 EXTRACT_SUFX=   .tar.z
 MASTER_SITES=   ftp://ftp.robots.ox.ac.uk/pub/ox.src/fspclient/
+CATEGORIES+=	networking
 WRKSRC=		${WRKDIR}/fspclient
 GNU_CONFIGURE=	YES
 

@@ -8,6 +8,7 @@
 DISTNAME=       arc521e.pl8
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+CATEGORIES+=	archivers
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

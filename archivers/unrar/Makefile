@@ -8,6 +8,7 @@
 DISTNAME=       unrar100
 EXTRACT_SUFX=   .tgz
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+CATEGORIES+=	archivers
 WRKSRC=         ${WRKDIR}/unrar.100
 
 .include <bsd.port.mk>

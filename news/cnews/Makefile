@@ -10,6 +10,7 @@ DISTNAME=	cnews
 EXTRACT_SUFFIX=	.tar.Z
 DISTFILES=	${DISTNAME}${EXTRACT_SUFFIX}
 MASTER_SITES=	ftp://ftp.zoo.toronto.edu/pub/
+CATEGORIES+=	news
 WRKSRC=		${WRKDIR}
 MAKEFILE=	makefile
 NEWSSPOOL=	/usr/local/newsspool

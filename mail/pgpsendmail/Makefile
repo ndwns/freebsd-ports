@@ -8,6 +8,7 @@
 
 DISTNAME=       PGPsendmail-v1.4
 MASTER_SITES=   ftp://ftp.dhp.com/pub/crypto/pgp/PGPsendmail/
+CATEGORIES+=	mail
 WRKSRC=         ${WRKDIR}/pgpsendmail
 INSTALL_TARGET= all_install
 

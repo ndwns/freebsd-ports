@@ -8,6 +8,7 @@
 
 DISTNAME=	zircon-1.15p10
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/tcl/alcatel/code/
+CATEGORIES+=	networking
 EXEC_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
 
 .include <bsd.port.mk>

@@ -8,6 +8,7 @@
 
 DISTNAME=       xpaint-2.1.1
 MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/X/R5contrib/
+CATEGORIES+=	graphics x11
 LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg \
 		tiff\\.3\\.:${PORTSDIR}/graphics/tiff \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

@@ -8,5 +8,6 @@
 
 DISTNAME=	tcsh-6.05
 MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh/
+CATEGORIES+=	shells
 
 .include <bsd.port.mk>

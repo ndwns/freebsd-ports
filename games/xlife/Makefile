@@ -8,6 +8,7 @@
 
 DISTNAME=       xlife
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
+CATEGORIES+=	games
 MAINTAINER=	asami@FreeBSD.ORG
 EXTRACT_SUFX=	.tar.Z
 USE_IMAKE=      yes

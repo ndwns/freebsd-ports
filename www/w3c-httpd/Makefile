@@ -9,6 +9,7 @@
 DISTNAME=	WWW
 DISTFILES=	WWWDaemon_3.0.tar.Z WWWLibrary_2.17.tar.Z
 MASTER_SITES=	ftp://www0.cern.ch/pub/www/src/
+CATEGORIES+=	networking
 
 WWW_ROOT=	${PREFIX}/www
 

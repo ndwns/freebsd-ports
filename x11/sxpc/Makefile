@@ -9,6 +9,7 @@
 DISTNAME=	sxpc-1.4
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+CATEGORIES+=	x11
 MAINTAINER=	jkh@FreeBSD.ORG
 NO_WRKSUBDIR=	yes
 EXTRACT_SUFX=		.shar.Z

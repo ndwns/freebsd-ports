@@ -8,6 +8,7 @@
 
 DISTNAME=	ImageMagick-3.6
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/ImageMagick/
+CATEGORIES+=	graphics
 WRKSRC=		${WRKDIR}/ImageMagick
 USE_IMAKE=	YES
 

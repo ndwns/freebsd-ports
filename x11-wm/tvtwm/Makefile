@@ -10,6 +10,7 @@ DISTNAME=	tvtwm
 DISTFILES=	tvtwm.pl11.tar.gz
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
+CATEGORIES+=	x11
 MAINTAINER=	gpalmer@FreeBSD.ORG
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

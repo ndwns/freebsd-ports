@@ -8,6 +8,7 @@
 
 DISTNAME=       zsh-2.6-beta4
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/
+CATEGORIES+=	shells
 GNU_CONFIGURE=	YES
 
 .include <bsd.port.mk>

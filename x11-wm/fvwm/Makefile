@@ -11,6 +11,7 @@ NO_WRKSUBDIR=	yes
 DISTFILES=	fvwm-core.tar.gz fvwm-modules.tar.gz \
 		fvwm-icons.tar.gz
 MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
+CATEGORIES+=	x11
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

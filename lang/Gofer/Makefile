@@ -8,6 +8,7 @@
 
 DISTNAME =	gofer230a
 MASTER_SITES =	ftp://cs.nott.ac.uk/nott-fp/languages/haskell/gofer/
+CATEGORIES+=	languages
 WRKSRC = ${WRKDIR}/src
 LIBDIR = ${PREFIX}/lib/Gofer
 

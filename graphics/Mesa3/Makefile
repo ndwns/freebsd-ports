@@ -8,6 +8,7 @@
 
 DISTNAME=       Mesa-1.1.2beta
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/misc/
+CATEGORIES+=	graphics
 WRKSRC=		${WRKDIR}/Mesa
 USE_GMAKE=
 ALL_TARGET=	freebsd

@@ -6,6 +6,7 @@
 # Distribution stuff
 DISTNAME=	xearth-0.92
 MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
+CATEGORIES+=	x11
 
 USE_IMAKE=	is_set
 

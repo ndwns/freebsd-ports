@@ -9,6 +9,7 @@
 DISTNAME=       ncftp-2.0.2
 EXTRACT_SUFX=   .tgz
 MASTER_SITES=   ftp://ftp.cs.unl.edu/pub/ncftp/
+CATEGORIES+=	networking
 GNU_CONFIGURE=  YES
 
 .include <bsd.port.mk>

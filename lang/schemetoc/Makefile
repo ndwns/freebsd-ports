@@ -8,6 +8,7 @@
 
 DISTNAME=       Scheme-to-C
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Scheme-to-C/
+CATEGORIES+=	languages
 EXTRACT_SUFX=	tar.Z
 DISTFILES=      15mar93.tar.Z
 NO_WRKSUBDIR=

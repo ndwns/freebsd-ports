@@ -8,6 +8,7 @@
 
 DISTNAME=	amanda-2.2.6
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/amanda/
+CATEGORIES+=	utilities
 MAINTAINER=	gpalmer@FreeBSD.ORG
 PATCH_STRIP=	
 

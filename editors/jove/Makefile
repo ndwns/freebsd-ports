@@ -8,6 +8,7 @@
 
 DISTNAME=	jove-4.16beta
 MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
+CATEGORIES+=	editors
 EXTRACT_SUFX=	.tar.gz
 WRKSRC=		${WRKDIR}/jove-4.16beta
 .include <bsd.port.mk>

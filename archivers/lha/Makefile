@@ -8,6 +8,7 @@
 DISTNAME=       lha101u
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+CATEGORIES+=	archivers
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

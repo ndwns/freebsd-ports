@@ -8,6 +8,7 @@
 
 DISTNAME=       mprof-3.0
 MASTER_SITES=   ftp://cs.colorado.edu/pub/misc/
+CATEGORIES+=	development programming
 EXTRACT_SUFX=	.tar.Z
 WRKSRC=		${WRKDIR}
 MAKEFILE=	Makefile.i386

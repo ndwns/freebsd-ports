@@ -9,6 +9,7 @@
 DISTNAME=	mpeg_play-2.0
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/
+CATEGORIES+=	graphics
 MAINTAINER=	asami@FreeBSD.ORG
 EXTRACT_SUFX=	.tar.Z
 NO_WRKSUBDIR=	yes

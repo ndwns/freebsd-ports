@@ -10,6 +10,7 @@ DISTNAME=	xmcd-1.4
 DISTFILES=	xmcd-1.4.tar.gz
 
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/xmcd/
+CATEGORIES+=	audio
 
 USE_IMAKE=	yes
 IS_INTERACTIVE=	yes

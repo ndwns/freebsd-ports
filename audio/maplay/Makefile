@@ -9,6 +9,8 @@
 DISTNAME=       maplay1_2
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=   ftp://ftp.iuma.com/audio_utils/mpeg_players/Workstations/
+CATEGORIES+=	audio
+
 NO_WRKSUBDIR=	yes
 PATCH_STRIP=	-p2
 

@@ -8,6 +8,7 @@
 
 DISTNAME=       xrisk-2.13
 MASTER_SITES=   ftp://geocub.greco-prog.fr/pub/Games/
+CATEGORIES+=	games
 EXTRACT_SUFX=   .tar.Z
 
 .include <bsd.port.mk>

@@ -8,5 +8,6 @@
 
 DISTNAME=	sup
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
+CATEGORIES+=	networking
 
 .include <bsd.port.mk>

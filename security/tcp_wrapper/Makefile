@@ -8,6 +8,7 @@
 
 DISTNAME=       tcp_wrappers_7.2
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
+CATEGORIES+=	networking
 ALL_TARGET=	freebsd
 
 .include <bsd.port.mk>

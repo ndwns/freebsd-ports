@@ -9,6 +9,7 @@
 DISTNAME=       xemeraldia-0.3
 DISTFILES=	271.gz
 MASTER_SITES=	ftp://ftp.kuis.kyoto-u.ac.jp/News.Archives/fj.sources/1995/
+CATEGORIES+=	games
 MAINTAINER=	asami@FreeBSD.ORG
 USE_IMAKE=      yes
 NO_INSTALL_MANPAGES=	yes

@@ -8,6 +8,7 @@
 
 DISTNAME=       tua-4.0
 MASTER_SITES=   ftp://itnsg1.cineca.it/local/tua/
+CATEGORIES+=	utilities
 GNU_CONFIGURE=	YES
 
 pre-install:

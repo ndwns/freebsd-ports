@@ -8,6 +8,7 @@
 
 DISTNAME=	nntp-t5
 MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
+CATEGORIES+=	news
 #DO_NADA=	echo ${.TARGET}:
 #DEPENDS=	news/cnews
 

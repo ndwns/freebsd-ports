@@ -10,6 +10,7 @@ DISTNAME=	xfm-1.3
 DISTFILES=	xfm-1.3.tar.gz
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+CATEGORIES+=	x11
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 .include <bsd.port.mk>

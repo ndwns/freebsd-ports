@@ -9,6 +9,7 @@
 DISTNAME=       screen-3.6.1
 NCFTPFLAGS=     -PN
 MASTER_SITES=   ftp://ftp.uni-erlangen.de/pub/utilities/screen/
+CATEGORIES+=	utilities
 GNU_CONFIGURE=	YES
 
 .include <bsd.port.mk>

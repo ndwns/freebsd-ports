@@ -8,6 +8,7 @@
 
 DISTNAME=       gn-2.17
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
+CATEGORIES+=	networking
 INETD_CONF=	/etc/inetd.conf
 CONF=	'	stream	tcp	nowait	nobody	/usr/local/etc/gn	gn'
 DEPENDS=	${PORTSDIR}/net/wais

@@ -9,6 +9,7 @@
 
 DISTNAME=	pdksh-5.1.3
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
+CATEGORIES+=	shells
 GNU_CONFIGURE=  YES
 
 .include <bsd.port.mk>

@@ -8,6 +8,7 @@
 #
 
 # MASTER_SITES=	ftp://gatekeeper.dec.com/archive/.b/usenet/comp.sources.unix/volume21/mmv
+CATEGORIES+=	utilities
 #	part01.Z
 #	part02.Z
 # ftp://gatekeeper.dec.com/archive/.b/usenet/comp.sources.unix/volume22/mmv.pch.Z
@@ -16,7 +17,9 @@
 DISTNAME=mmv
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 # MASTER_SITES=ftp://dodo/usr/me/tmp/
+CATEGORIES+=	utilities
 MASTER_SITES=ftp://gatekeeper.dec.com/archive/.b/usenet/comp.sources.unix/
+CATEGORIES+=	utilities
 
 DISTFILES= part01.Z part02.Z mmv.pch.Z
 SITE_DISTFILES= volume21/mmv/part01.Z volume21/mmv/part02.Z volume22/mmv.pch.Z
@@ -33,6 +36,7 @@ fetch: pre-fetch
 			echo ">> `basename $$file` doesn't seem to exist on this system."; \
 			echo ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
+CATEGORIES+=	utilities
 				pwd;\
 				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
 					break; \

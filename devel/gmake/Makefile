@@ -11,6 +11,7 @@ GNU_CONFIGURE=	yes
 # Commented out, often busy
 # MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 # Mirror:
-MASTER_SITES= ftp://ftp.uu.net/systems/gnu/
+MASTER_SITES=	ftp://ftp.uu.net/systems/gnu/
+CATEGORIES+=	development programming
 
 .include <bsd.port.mk>

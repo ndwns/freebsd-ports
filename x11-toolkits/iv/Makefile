@@ -19,6 +19,7 @@ pre-fetch:
 	@if [ ! -f ${DISTDIR}/${DISTFILES} ]; then \
 	    mkdir -p ${DISTDIR}/${DISTNAME} ; \
 	    ${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
+CATEGORIES+=	x11
 		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch ; \
 	    mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFFIX} \
 		${DISTDIR}/${DISTFILES} ; \

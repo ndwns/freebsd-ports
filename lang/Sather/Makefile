@@ -8,6 +8,7 @@
 
 DISTNAME=       Sather-1.0.5
 MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
+CATEGORIES+=	languages
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
 

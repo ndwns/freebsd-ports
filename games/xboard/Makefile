@@ -8,6 +8,7 @@
 
 DISTNAME=       xboard-3.2.pl0
 MASTER_SITES=	ftp://ftp.x.org/contrib/games/
+CATEGORIES+=	games
 HAS_CONFIGURE=  yes
 STRIP=
 CONFIGURE_ARGS= --prefix=${PREFIX}

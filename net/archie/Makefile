@@ -8,6 +8,7 @@
 
 DISTNAME=	c-archie-1.4.1-FIXED
 MASTER_SITES=	ftp://nic.sura.net/pub/archie/clients/
+CATEGORIES+=	networking
 WRKSRC=		${WRKDIR}/archie-1.4.1-FIX
 EXTRACT_SUFX=	.tar.Z
 

@@ -8,6 +8,7 @@
 
 DISTNAME=	pine3.91
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
+CATEGORIES+=	mail
 EXTRACT_SUFX=.tar.Z
 
 .include <bsd.port.mk>

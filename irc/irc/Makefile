@@ -8,6 +8,7 @@
 
 DISTNAME=	irc2.8.21
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
+CATEGORIES+=	networking
 
 pre-install:
 	mkdir -p ${PREFIX}/bin

@@ -7,6 +7,7 @@
 
 DISTNAME=       xrobots
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/games/
+CATEGORIES+=	games
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -9,6 +9,7 @@
 DISTNAME=       hpack79src
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=   ftp://src.doc.ic.ac.uk/packages/hpack/
+CATEGORIES+=	archivers
 NO_WRKSUBDIR=	yes
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd

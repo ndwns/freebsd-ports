@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	malloc
-MASTER_SITES= ftp.cs.toronto.edu:/pub/moraes/
+MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
+CATEGORIES+=	development programming libraries
 
 .include <bsd.port.mk>

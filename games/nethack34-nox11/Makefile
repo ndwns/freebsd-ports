@@ -9,6 +9,7 @@
 DISTNAME=	nethack3.1.3
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=	ftp://ftp.uu.net/usenet/comp.sources.games/
+CATEGORIES+=	games
 MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/nethack313
 USE_GMAKE=	yes

@@ -10,6 +10,7 @@ DISTNAME=	ircii-2.8
 DISTFILES=	ircii-2.8.tar.gz ircii-2.8help.tar.gz
 GNU_CONFIGURE=	YES
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
+CATEGORIES+=	networking
 
 pre-install:
 	@mkdir -p ${PREFIX}/bin

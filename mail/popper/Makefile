@@ -8,6 +8,7 @@
 
 DISTNAME=	qpop2.1.3-r5
 MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/popper/
+CATEGORIES+=	mail
 EXTRACT_SUFX=	.tar.Z
 WRKSRC=		${WRKDIR}/qpopper2.1.3
 

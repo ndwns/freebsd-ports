@@ -8,6 +8,7 @@
 
 DISTNAME=	gopher2.1
 MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/
+CATEGORIES+=	networking
 EXTRACT_SUFX=	.tar.Z
 NCFTPFLAGS?=	-P -N
 USE_GMAKE=	yes

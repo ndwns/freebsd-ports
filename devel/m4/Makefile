@@ -8,6 +8,7 @@
 
 DISTNAME=       m4-1.4
 MASTER_SITES=   ftp://gatekeeper.dec.com/pub/GNU/ ftp://prep.ai.mit.edu/pub/gnu/
+CATEGORIES+=	development programming
 CONFIGURE_ARGS= --program-prefix=g --prefix=${PREFIX}
 GNU_CONFIGURE=yes
 

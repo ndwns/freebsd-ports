@@ -8,6 +8,7 @@
 DISTNAME=       zip201
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+CATEGORIES+=	archivers
 ALL_TARGET=     freebsd
 
 pre-install:

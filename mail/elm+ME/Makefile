@@ -7,6 +7,7 @@
 DISTNAME=	elm2.4
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=	ftp://dsinc.myxa.com/pub/elm/
+CATEGORIES+=	mail
 
 # working directory
 WRKDIR=		work

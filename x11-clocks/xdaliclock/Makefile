@@ -9,6 +9,7 @@
 DISTNAME=	xdaliclock-2.05
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+CATEGORIES+=	x11
 EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	gpalmer@FreeBSD.ORG
 

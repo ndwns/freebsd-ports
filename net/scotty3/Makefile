@@ -12,6 +12,7 @@ DISTFILES=	scotty-1.2.0.tar.gz scotty-1.2.0-1.2.1.diff.gz \
 
 EXTRACT_ONLY=	scotty-1.2.0.tar.gz
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
+CATEGORIES+=	networking
 HAS_CONFIGURE=  yes
 GNU_CONFIGURE=  yes
 USE_GMAKE=	yes

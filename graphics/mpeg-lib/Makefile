@@ -8,6 +8,7 @@
 
 DISTNAME=	mpeg_lib-1.1
 MASTER_SITES=	ftp://ftp.mni.mcgill.ca/pub/mpeg/
+CATEGORIES+=	graphics
 WRKSRC=		${WRKDIR}/mpeg_lib
 
 pre-install:

@@ -9,6 +9,7 @@
 DISTNAME=	vic-2.6
 DISTFILES=	vicsrc-2.6.tar.Z
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vic/
+CATEGORIES+=	networking
 LIB_DEPENDS=	BLT\\.1\\.:${PORTSDIR}/x11/blt
 HAS_CONFIGURE=	yes
 INSTALL_TARGET=	MANDIR=${PREFIX}/man/manl install

@@ -9,5 +9,6 @@
 DISTNAME=       playmidi
 DISTFILES=      playmidi-1.1.tar.gz
 MASTER_SITES=   ftp://sunsite.unc.edu/pub/Linux/apps/sound/players/
+CATEGORIES+=	audio
 
 .include <bsd.port.mk>

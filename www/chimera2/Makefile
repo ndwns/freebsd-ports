@@ -9,6 +9,7 @@
 DISTNAME=	chimera-1.63
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
+CATEGORIES+=	networking
 MAINTAINER=	asami@FreeBSD.ORG
 
 .include <bsd.port.mk>

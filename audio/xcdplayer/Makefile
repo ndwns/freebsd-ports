@@ -8,6 +8,7 @@
 
 DISTNAME=       xcdplayer-2.2
 MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Sun/
+CATEGORIES+=	audio
 USE_IMAKE=      yes
 
 .include <bsd.port.mk>

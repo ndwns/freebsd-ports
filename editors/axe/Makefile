@@ -10,5 +10,6 @@ DISTNAME=	aXe-6.1.2
 DISTFILES=	aXe-6.1.2.tar.Z
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/editors/
+CATEGORIES+=	editors
 
 .include <bsd.port.mk>

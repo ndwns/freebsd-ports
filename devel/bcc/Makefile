@@ -6,5 +6,6 @@
 #
 
 DISTNAME=	bcc
+CATEGORIES+=	development programming languages
 
 .include <bsd.port.mk>

@@ -9,6 +9,7 @@
 DISTNAME=	xphoon
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11//R5-contrib/
+CATEGORIES+=	x11
 MAINTAINER=	asami@FreeBSD.ORG
 EXTRACT_SUFX=	.tar.Z
 

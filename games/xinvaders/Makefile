@@ -8,6 +8,7 @@
 
 DISTNAME=       xinvaders
 MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/Linux/sunsite/games/x11/action/
+CATEGORIES+=	games
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -9,6 +9,7 @@
 DISTNAME=	mm2.7
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MASTER_SITES=	ftp://thumper.bellcore.com/pub/nsb/
+CATEGORIES+=	mail
 EXTRACT_SUFX=	.tar.Z
 
 pre-install:

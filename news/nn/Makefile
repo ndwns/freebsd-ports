@@ -8,6 +8,7 @@
 
 DISTNAME=	nn-6.5.0.b3
 MASTER_SITES=	ftp://uniwa.uwa.edu.au/pub/nn/beta/
+CATEGORIES+=	news
 
 pre-patch:
 	@cp ${WRKSRC}/config.h-dist ${WRKSRC}/config.h

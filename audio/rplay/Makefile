@@ -8,6 +8,8 @@
 
 DISTNAME=	rplay-3.2.0b2
 MASTER_SITES=	ftp://ftp.sdsu.edu/pub/rplay/
+CATEGORIES+=	audio
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
+
 .include <bsd.port.mk>

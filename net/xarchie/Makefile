@@ -8,7 +8,9 @@
 
 DISTNAME=	xarchie-2.0.10
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+CATEGORIES+=	networking
 MASTER_SITES+=	ftp://ftp.funet.fi/pub/X11/contrib/applications/
+CATEGORIES+=	networking
 
 USE_IMAKE=	yes
 DEPENDS=	${PORTSDIR}/net/archie

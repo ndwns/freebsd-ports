@@ -7,6 +7,7 @@
 
 DISTNAME=       xpipeman
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/
+CATEGORIES+=	games
 EXTRACT_SUFX=	.tar.Z
 USE_IMAKE=	yes
 

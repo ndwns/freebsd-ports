@@ -8,6 +8,7 @@
 
 DISTNAME=	Wnn4.2
 MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
+CATEGORIES+=	japanese
 MAINTAINER=	asami@FreeBSD.ORG
 IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/Xsi

@@ -7,6 +7,7 @@
 DISTNAME=	xanim2683
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+CATEGORIES+=	graphics x11
 
 # working directory
 WRKDIR=		work

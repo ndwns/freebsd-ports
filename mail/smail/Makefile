@@ -8,6 +8,7 @@
 
 DISTNAME=	smail-3.1.29.1
 MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
+CATEGORIES+=	mail
 .if !exists(/usr/local/bin/bash)
 DEPENDS=	${PORTSDIR}/shells/bash
 .endif

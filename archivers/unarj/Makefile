@@ -8,6 +8,7 @@
 DISTFILES=      unarj241.tar.Z
 DISTNAME=       unarj
 MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
+CATEGORIES+=	archivers
 
 install:
 	cd ${WRKSRC}; install -cs -o bin -g bin -m755 ${DISTNAME} ${PREFIX}/bin

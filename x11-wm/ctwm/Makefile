@@ -8,6 +8,7 @@
 
 DISTNAME=	ctwm-3.3
 MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
+CATEGORIES+=	x11
 USE_IMAKE=	YES
 EXTRACT_SUFX=	.tar.Z
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

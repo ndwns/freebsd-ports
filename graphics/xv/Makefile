@@ -9,6 +9,7 @@
 DISTNAME=	xv-3.10a
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cis.upenn.edu/pub/xv/
+CATEGORIES+=	graphics x11
 LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg \
 		tiff\\.3\\.:${PORTSDIR}/graphics/tiff
 

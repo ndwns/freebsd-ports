@@ -10,6 +10,7 @@ DISTNAME=	transfig.3.1.1
 PKGNAME=	transfig-3.1.1
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/transfig/ \
 	ftp://crl.dec.com/pub/X11/contrib/applications/drawing_tools/transfig/
+CATEGORIES+=	printing
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/transfig
 

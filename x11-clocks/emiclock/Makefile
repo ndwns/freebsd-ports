@@ -7,6 +7,7 @@
 #
 DISTNAME=	EmiClock-1.0.2
 MASTER_SITES=	ftp://theta.iis.u-tokyo.ac.jp/pub1/X/contrib/applications/
+CATEGORIES+=	x11
 MAINTAINER=	asami@FreeBSD.ORG
 USE_IMAKE=	yes
 PKGNAME=	emiclock-1.0.2

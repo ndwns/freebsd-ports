@@ -9,6 +9,7 @@
 DISTNAME=	inn1.4sec
 NO_WRKSUBDIR=	YES
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
+CATEGORIES+=	news
 EXTRACT_SUFX=	.tar.Z
 
 pre-install:

@@ -11,6 +11,7 @@ USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/rxvt
 PREFIX=		/usr/X11R6
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/misc/
+CATEGORIES+=	x11
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
 # Get rid of the rclock directory until I can figure out how to patch
