@@ -7,6 +7,9 @@
 STRIP?=	-s
 .endif
 
+.if !defined(OPSYS)	# XXX !!
+OPSYS!=	uname -s
+.endif
 
 ECHO_MSG?=	echo
 
@@ -71,7 +74,11 @@ readme:
 	@make README.html
 .endif
 
+.if (${OPSYS} == "NetBSD")
+PORTSDIR ?= /usr/opt
+.else
 PORTSDIR ?= /usr/ports
+.endif
 TEMPLATES ?= ${PORTSDIR}/templates
 .if defined(PORTSTOP)
 README=	${TEMPLATES}/README.top
