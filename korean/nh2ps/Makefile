@@ -6,18 +6,22 @@
 # $Id$
 #
 
-DISTNAME=	nh2ps-2.3
-PKGNAME=	ko-nh2ps-2.3
+DISTNAME=	nh2ps-2.3.1
+PKGNAME=	ko-nh2ps-2.3.1
 CATEGORIES=	korean print
 MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/nh2ps/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-BROKEN_ELF=	yes
-
 RUN_DEPENDS=    ${PREFIX}/share/ghostscript/5.10ft/hangul:${PORTSDIR}/korean/ftghostscript5
 
 MAN1=		nh2ps.1
+
+post-patch:
+	@(cd ${WRKSRC}; \
+	  ${SED} s@/usr/local/bin/perl@${PERL5}@ mkpsfontmap.pl > mk.pl; \
+	  ${MV} -f mk.pl mkpsfontmap.pl; \
+	  chmod +x mkpsfontmap.pl)
 
 pre-install:
 	@(cd ${WRKSRC}; make install.man)
