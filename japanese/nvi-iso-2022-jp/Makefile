@@ -12,13 +12,13 @@ PATCHDIR=	${.CURDIR}/../../editors/nvi/patches
 PKGDIR=		${.CURDIR}/../../editors/nvi/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
+LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+
 .include <${.CURDIR}/../../editors/nvi/Makefile>
 
 PKGNAME=	jp-nvi-iso2022jp-1.79-970408
 CATEGORIES=	japanese editors
 
 MAINTAINER=	itojun@itojun.org
-
-LIB_DEPENDS+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 
 CONFIGURE_ARGS=	--enable-multibyte=iso-2022-jp --program-prefix=n --enable-canna
