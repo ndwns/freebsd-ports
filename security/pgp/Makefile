@@ -15,6 +15,7 @@ NO_PACKAGE=     YES
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd
 PGPLIB=         ${PREFIX}/lib/pgp
+BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 # Need to define USA_RESIDENT to YES or NO
 IS_INTERACTIVE=	YES
 
@@ -46,8 +47,7 @@ DISTNAME=       pgp262s
 PKGNAME=	pgp-2.6.2
 MASTER_SITES=   ftp://sable.ox.ac.uk/pub/crypto/pgp/unix/
 EXTRACT_SUFX=   .zip
-EXEC_DEPENDS=   unzip:${PORTSDIR}/archivers/unzip \
-		gmake:${PORTSDIR}/devel/gmake
+BUILD_DEPENDS+= gmake:${PORTSDIR}/devel/gmake
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
 FILESDIR=       ${.CURDIR}/files.usa
@@ -66,7 +66,6 @@ PKGNAME=        pgp-2.6.3i
 MASTER_SITES=   ftp://ftp.ifi.uio.no/pub/pgp/incoming/ \
 		ftp://ftp.kiae.su/unix/crypto/pgp/
 EXTRACT_SUFX=   .zip
-EXEC_DEPENDS=   unzip:${PORTSDIR}/archivers/unzip
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -qa
 FILESDIR=       ${.CURDIR}/files.non_usa
