@@ -16,6 +16,7 @@
     SUBDIR += asbutton
     SUBDIR += bb
     SUBDIR += bbjd
+    SUBDIR += bottlerocket
     SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += cmatrix
