@@ -159,6 +159,7 @@
     SUBDIR += relay
     SUBDIR += ripetools
     SUBDIR += rmsg
+    SUBDIR += roxirc
     SUBDIR += rshell
     SUBDIR += rsync
     SUBDIR += rwhois
