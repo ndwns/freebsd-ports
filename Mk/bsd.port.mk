@@ -264,7 +264,7 @@ PKGNAME?=		${DISTNAME}
 # Documentation
 MAINTAINER?=	ports@FreeBSD.ORG
 CATEGORIES?=	orphans
-KEYWORDS?=		orphans
+KEYWORDS?=		${CATEGORIES}
 
 .if exists(${PACKAGES})
 PKGFILE?=		${PACKAGES}/${PKGNAME}${PKG_SUFX}
