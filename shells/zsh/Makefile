@@ -9,14 +9,14 @@
 DISTNAME=       zsh-2.6-beta17
 PKGNAME=	zsh-2.6b17
 CATEGORIES+=	shells
-MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/src/ \
-		ftp://ftp.sterling.com/zsh/src/ \
-		ftp://ftp.rge.com/pub/zsh/src/ \
-		ftp://ftp.cenatls.cena.dgac.fr/pub/shells/zsh/src/ \
-		ftp://mrrl.lut.ac.uk/zsh/src/ \
-		ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/src/ \
-		ftp://ftp.ips.oz.au/pub/packages/zsh/src/ \
-		ftp://ftp.uit.no/pub/unix/shells/zsh/src/
+MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
+		ftp://ftp.sterling.com/zsh/ \
+		ftp://ftp.rge.com/pub/zsh/ \
+		ftp://ftp.cenatls.cena.dgac.fr/pub/shells/zsh/ \
+		ftp://mrrl.lut.ac.uk/zsh/ \
+		ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/ \
+		ftp://ftp.ips.oz.au/pub/packages/zsh/ \
+		ftp://ftp.uit.no/pub/unix/shells/zsh/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
