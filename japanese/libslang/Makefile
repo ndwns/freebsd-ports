@@ -16,6 +16,9 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	mega@minz.org
 
+
+BROKEN_ELF=	yes
+
 GNU_CONFIGURE=	yes
 ALL_TARGET=	all elf
 INSTALL_TARGET=	install install-elf
