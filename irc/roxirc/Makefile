@@ -8,7 +8,7 @@
 
 DISTNAME=	roxirc-1.2
 CATEGORIES=	net tk80
-MASTER_SITES=	http://w3.lighter.net/roxirc/download/
+MASTER_SITES=	http://roxirc.lighter.net/download/
 
 MAINTAINER=	rox@fearme.com
 
