@@ -11,7 +11,7 @@ CATEGORIES=	games
 MASTER_SITES=	http://www.epyx.com/dash/
 DISTFILES=	xscavenger-13.tgz
 
-MAINTAINER=	eivindFreeBSD.org
+MAINTAINER=	eivind@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_IMAKE=	yes
