@@ -1,16 +1,18 @@
 # New ports collection makefile for:	tkman
-# Version required:     1.7.3
+# Version required:     1.7.5
 # Date created:         27 Dec 1994
 # Whom:                 thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	tkman-1.7.3
+DISTNAME=	tkman-1.7.5
 CATEGORIES+=	misc
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=thomas@ghpc8.ihf.rwth-aachen.de
+10,16l
 LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4
 RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman
 
@@ -18,8 +20,6 @@ RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman
 NO_PACKAGE=	yes
 
 post-install:
-.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/tkman.1
-.endif
 
 .include <bsd.port.mk>
