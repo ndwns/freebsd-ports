@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	pygtk-0.4.3
+PKGNAME=	py-gtk-0.4.3
 CATEGORIES=	x11 python
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/python/ \
 		ftp://infosoc.uni-koeln.de/pub/ftp.gimp.org/pub/gtk/python/ \

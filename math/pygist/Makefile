@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	LLNLPython4
-PKGNAME=	pygist-1.5
+PKGNAME=	py-gist-1.5
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
 EXTRACT_SUFX=	.tgz
