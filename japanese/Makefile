@@ -16,6 +16,7 @@
     SUBDIR += cdrom2
     SUBDIR += chasen
     SUBDIR += chimera
+    SUBDIR += csrd
     SUBDIR += deepforest
     SUBDIR += diclookup-mule
     SUBDIR += dserver
