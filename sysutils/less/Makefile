@@ -1,12 +1,12 @@
 # New ports collection makefile for:    less
-# Version required:     3.35
+# Version required:     3.*
 # Date created:         8 Nov 1994
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       less-335
+DISTNAME=       less-337
 CATEGORIES=	misc
 MASTER_SITES=   ${MASTER_SITE_GNU}
 MASTER_SITE_SUBDIR=	less
