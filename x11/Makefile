@@ -1,5 +1,8 @@
 # $Id$
 #
+# broken (in pst's queue): iv
+#
+
 SUBDIR= Xaw3d color_xterm ctwm emu fvwm g3view olvwm piewm \
 	rxvt sxpc tk tkhfs tkman tvtwm  xdaliclock xearth xfed xfm \
 	xkeycaps xlockmore xperfmon xphoon xsnow xview-config xview-lib \
