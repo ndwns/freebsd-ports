@@ -12,6 +12,13 @@ MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/tools/
 
 MAINTAINER=	nsayer@quack.kfu.com
 
-BUILD_DEPEND=	${PORTSDIR}/security/libident
+BUILD_DEPENDS=	${PREFIX}/lib/libident.a:${PORTSDIR}/security/libident
+
+do-install: 
+	${INSTALL_PROGRAM} ${WRKSRC}/identify ${PREFIX}/libexec
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/identify
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/identify
+.endif
 
 .include <bsd.port.mk>
