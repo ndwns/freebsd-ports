@@ -40,4 +40,6 @@ do-install:
 	${MV} -f ${TEXMF}/tex/platex/base/platex.fmt ${TEXMF}/web2c
 	/bin/ln -fs ptex ${PREFIX}/bin/platex
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
+
 .include <bsd.port.mk>

@@ -49,4 +49,6 @@ do-install:
 	@/bin/ln -fs tex ${PREFIX}/bin/latex
 	@/bin/ln -s latex ${PREFIX}/bin/platex-common
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
+
 .include <bsd.port.mk>

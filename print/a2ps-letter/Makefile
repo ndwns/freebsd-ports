@@ -14,6 +14,7 @@ DISTFILES=	a2ps-4.9.8.tar.gz
 
 MAINTAINER=	chuckr@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to Letter A4
 WRKSRC=		$(WRKDIR)/$(DISTNAME)-4.9.8
 GNU_CONFIGURE=	yes
 MAN1=		a2ps.1 ogonkify.1

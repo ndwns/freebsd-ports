@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.NUXI.com/pub/misc/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
 WRKSRC=		${WRKDIR}/mp
 USE_GMAKE=	yes
 MAN1=		mp.1

@@ -5,6 +5,7 @@
 #
 # $Id$
 #
+
 VERSION=	97.06
 DISTNAME=	latex
 PKGNAME=	latex2e-${VERSION}
@@ -17,6 +18,7 @@ MAINTAINER=	jmz@FreeBSD.org
 BUILD_DEPENDS=	tex:${PORTSDIR}/print/tex
 RUN_DEPENDS=	tex:${PORTSDIR}/print/tex
 
+MANUAL_PACKAGE_BUILD=	has to be built with tex port
 IGNOREFILES=	${DISTFILES}
 
 #other equivalent sites: ftp.cdrom.com ftp.dante.de

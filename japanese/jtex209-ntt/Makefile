@@ -10,4 +10,7 @@ DISTNAME=	ja-jlatex209-n152
 FILESDIR=	${.CURDIR}/../jtex209-both/files
 PATCHDIR=	${.CURDIR}/../jtex209-both/patches
 BATCH_TEX=	NTT
+
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of jtex-*
+
 .include	<${.CURDIR}/../jtex209-both/Makefile>

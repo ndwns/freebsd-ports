@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
 MAKE_FLAGS?=	PAPERSIZE=${PAPERSIZE} -f
 MAN1=		psrev.1 textps.1
 MAN8=		lprps.8 psif.8 psof.8

@@ -13,6 +13,7 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=	kline@thought.org
 
+MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to Letter A4
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--disable-nls

@@ -14,6 +14,7 @@ DISTFILES=	web2c-7.0.tar.gz web-7.0.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	has to be built with latex port
 IGNOREFILES=	tex_base.tar.gz cm_tfm.tar.gz mf_lib.tar.gz cm_mf.tar.gz
 EXTRACT_ONLY=	web2c-7.0.tar.gz web-7.0.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz

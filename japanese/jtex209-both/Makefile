@@ -64,4 +64,6 @@ pre-reinstall:
 	  ${MAKE} reinstall DISTDIR=${DISTDIR} FILESDIR=${FILESDIR} \
 	)
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of jtex-*
+
 .include <bsd.port.mk>
