@@ -56,6 +56,7 @@
     SUBDIR += moxftp
     SUBDIR += mpd
     SUBDIR += mpich
+    SUBDIR += mrt
     SUBDIR += mrtg
     SUBDIR += ncftp
     SUBDIR += ncftp2
