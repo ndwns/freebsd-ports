@@ -82,5 +82,7 @@ post-install:
 	fi
 	${SED} <${FILESDIR}/innd.sh >${PREFIX}/etc/rc.d/innd.sh \
 		s+!!PREFIX!!+${PREFIX}+g && chmod +x ${PREFIX}/etc/rc.d/innd.sh
+	# make rnews work when using newsfeeds over uucp !
+	chmod 4555 ${PREFIX}/news/bin/rnews
 
 .include <bsd.port.mk>
