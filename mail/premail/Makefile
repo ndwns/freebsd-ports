@@ -10,7 +10,7 @@
 
 DISTNAME=       premail-0.45
 CATEGORIES=     security mail
-MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/remailer/
+MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/remailer/premail/
 
 BUILD_DEPENDS+= pgp:${PORTSDIR}/security/pgp
 
