@@ -18,6 +18,11 @@ LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80 \
 		c-client.2:${PORTSDIR}/mail/imap-uw
 
+VERSION!=	sysctl -n kern.osreldate
+.if ${VERSION} < 300000
+BROKEN=		depends on imap-uw
+.endif
+
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS=	--with-tcl-config=${PREFIX}/lib/tcl8.0 \
