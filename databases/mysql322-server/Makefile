@@ -16,7 +16,7 @@ MASTER_SITES=	http://www.tcx.se/ \
 
 MAINTAINER=	josh@ican.net
 
-RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.00404:${PORTSDIR}/lang/perl5
 
 USE_GMAKE=	YES
 GNU_CONFIGURE=	YES
