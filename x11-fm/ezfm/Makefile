@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+BROKEN_ELF=	yes
+
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		EZ.1:${PORTSDIR}/graphics/EZWGL
 
