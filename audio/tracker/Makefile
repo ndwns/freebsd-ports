@@ -8,7 +8,7 @@
 
 DISTNAME=       tracker-5.3
 CATEGORIES=     audio
-MASTER_SITES=   ftp://ftp.ens.fr/pub/dmi/users/espie/beta/
+MASTER_SITES=   ftp://ftp.planix.com/pub/misc/
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
@@ -28,8 +28,8 @@ post-install:
 	makeinfo --no-split tracker.texinfo -o tracker.info && \
 	gzip -f tracker.info && \
 	$(INSTALL_MAN) tracker.info.gz ${PREFIX}/info && \
-	rm -f tracker.info.gz *.orig
+	${RM} -f tracker.info.gz *.orig
 	-${MKDIR} ${PREFIX}/share/doc/tracker
-	cp -R ${WRKSRC}/Docs/* ${PREFIX}/share/doc/tracker
+	${CP} -R ${WRKSRC}/Docs/* ${PREFIX}/share/doc/tracker
 
 .include <bsd.port.mk>
