@@ -1,16 +1,15 @@
 # New ports collection makefile for:	xdaliclock
-# Version required:			2.08
+# Version required:			2.10
 # Date created:				10th February 1995
 # Whom:					gpalmer
 #
 # $Id$
 #
 
-DISTNAME=	xdaliclock-2.08
+DISTNAME=	xdaliclock-2.10
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
-EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
