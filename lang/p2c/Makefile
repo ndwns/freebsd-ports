@@ -14,7 +14,7 @@ DISTFILES=	p2c-1.21alpha2.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
-pre-install:
+pre-install: build
 	@mkdir -p ${PREFIX}/bin
 	@mkdir -p ${PREFIX}/lib
 	@mkdir -p ${PREFIX}/man/man1

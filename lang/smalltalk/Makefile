@@ -17,7 +17,7 @@ pre-configure:
 	@(cd ${WRKSRC} ; ./config.mst fbsd-2)
 	@${TOUCH} ${TOUCH_FLAGS} ${CONFIGURE_COOKIE}
 
-install:
+install: build
 	@echo ">> The install target for smalltalk-1.1.1 is interactive."
 	@echo ">> Please read the file mst.texinfo for more information."
 	@${DO_NADA}

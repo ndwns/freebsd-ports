@@ -18,7 +18,7 @@ GNU_CONFIGURE=
 USE_GMAKE=
 MAKE_FLAGS=	CFLAGS=-O2 LDFLAGS=-s defines="-DSICP -DHAVE_CONFIG_H -DFLOATS -DIO_EXTENSIONS -DMEMOIZE_LOCALS -DGC_FREE_SEGMENTS" -f
 
-pre-install:
+pre-install: build
 	@if [ ! -e ${PREFIX}/lib ]; then mkdir -p ${PREFIX}/lib; fi
 	cp -rp ${WRKDIR}/slib ${PREFIX}/lib
 	@if [ ! -e /usr/local/info ]; then mkdir -p /usr/local/info; fi
