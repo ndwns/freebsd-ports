@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	eyeclock-1.0
-CATEGORIES=	x11-clock
+CATEGORIES=	x11-clocks
 MASTER_SITES=	http://www.ed.kagu.sut.ac.jp/~j4397617/
 EXTRACT_SUFX=	.tgz
 

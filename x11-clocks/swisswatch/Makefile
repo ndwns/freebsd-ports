@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	swisswatch-0.06
-CATEGORIES=	x11-clock
+CATEGORIES=	x11-clocks
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/X/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xdaliclock-2.11
-CATEGORIES=	x11-clock
+CATEGORIES=	x11-clocks
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	dclock
 PKGNAME=	dclock-pl4
-CATEGORIES=	x11-clock
+CATEGORIES=	x11-clocks
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 EXTRACT_SUFX=	.shar.Z
 

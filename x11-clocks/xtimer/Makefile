@@ -8,7 +8,7 @@
 
 DISTNAME=	xtimer-8087
 PKGNAME=	xtimer-0.8087
-CATEGORIES=	x11-clock
+CATEGORIES=	x11-clocks
 MASTER_SITES=	http://spock.vector.co.jp/authors/VA004959/xtimer/
 
 MAINTAINER=	candy@fct.kgc.co.jp
