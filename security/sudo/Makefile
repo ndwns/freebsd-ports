@@ -8,11 +8,11 @@
 
 DISTNAME=	cu-sudo.v1.4
 PKGNAME=	sudo-1.4
-MAINTAINER=	erich@rrnet.com
 CATEGORIES+=	sysutils
 MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/sysadmin/utilities/
-
 EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	erich@rrnet.com
 
 HAS_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/sudo.v1.4
