@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mysql-3.22.19b
-PKGNAME=	mysql-3.22.19
+DISTNAME=	mysql-3.22.20a
 CATEGORIES=	databases
 MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
 		ftp://ftp.digex.net/pub/database/mysql/Downloads/MySQL-3.22/ \
