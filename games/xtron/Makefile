@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xtron-1.1a
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/arcade
 EXTRACT_SUFX=		.tgz
