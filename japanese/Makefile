@@ -69,6 +69,7 @@
     SUBDIR += mule-wnn4
     SUBDIR += mule-wnn6
     SUBDIR += nethack
+    SUBDIR += netscape4
     SUBDIR += newosaka
     SUBDIR += nkf
     SUBDIR += nvi-euc-jp
