@@ -9,7 +9,7 @@
 DISTNAME=       manck-1.0
 CATEGORIES+=	sysutils
 MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
-MAINTAINER=     joerg@FreeBSD.org
 
+MAINTAINER=     joerg@FreeBSD.org
 
 .include <bsd.port.mk>
