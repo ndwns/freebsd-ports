@@ -14,8 +14,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	tom@eborcom.com
 
 BUILD_DEPENDS=	msgfmt:${PORTSDIR}/devel/gettext
-LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kdelibs \
-		kdeui.1:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kdelibs11 \
+		kdeui.2:${PORTSDIR}/x11/kdelibs11
 
 WRKSRC=		${WRKDIR}/kmikmod
 USE_QT=		yes

@@ -15,9 +15,9 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	scrappy@freebsd.org
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
-		kdecore.1:${PORTSDIR}/x11/kdelibs \
-		kdeui.1:${PORTSDIR}/x11/kdelibs \
-		kfm.1:${PORTSDIR}/x11/kdelibs
+		kdecore.2:${PORTSDIR}/x11/kdelibs11 \
+		kdeui.2:${PORTSDIR}/x11/kdelibs11 \
+		kfm.2:${PORTSDIR}/x11/kdelibs11
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes

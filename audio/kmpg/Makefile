@@ -12,8 +12,8 @@ MASTER_SITES=	http://www.freebsd.org/~tom/distfiles/
 
 MAINTAINER=	tom@FreeBSD.ORG
 
-LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kdelibs \
-		kdeui.1:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kdelibs11 \
+		kdeui.2:${PORTSDIR}/x11/kdelibs11
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes

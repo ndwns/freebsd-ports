@@ -17,9 +17,9 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt142 \
 		msgfmt:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	qt.2:${PORTSDIR}/x11-toolkits/qt142 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore.1:${PORTSDIR}/x11/kdelibs \
-		kdeui.1:${PORTSDIR}/x11/kdelibs \
-		kfm.1:${PORTSDIR}/x11/kdelibs
+		kdecore.2:${PORTSDIR}/x11/kdelibs11 \
+		kdeui.2:${PORTSDIR}/x11/kdelibs11 \
+		kfm.2:${PORTSDIR}/x11/kdelibs11
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
