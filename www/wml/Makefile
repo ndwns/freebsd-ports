@@ -15,6 +15,11 @@ MASTER_SITES=	http://www.engelschall.com/sw/wml/distrib/ \
 
 MAINTAINER=	rse@engelschall.com
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         perl
+.endif
+
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
