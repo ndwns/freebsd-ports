@@ -29,6 +29,7 @@
     SUBDIR += mplex
     SUBDIR += netpbm
     SUBDIR += p5-Image-Size
+    SUBDIR += p5-GD
     SUBDIR += pgperl
     SUBDIR += pgplot
     SUBDIR += pixmap

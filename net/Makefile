@@ -41,6 +41,7 @@
     SUBDIR += p5-Net
     SUBDIR += p5-Net-DNS
     SUBDIR += p5-Net-Whois
+    SUBDIR += p5-SNMP
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += radius

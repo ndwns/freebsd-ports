@@ -27,6 +27,7 @@
     SUBDIR += p5-HTML-QuickCheck
     SUBDIR += p5-HTML-Stream
     SUBDIR += p5-HTTPD-Tools
+    SUBDIR += p5-WWW-Search
     SUBDIR += p5-libwww
     SUBDIR += slang-lynx
     SUBDIR += squid
