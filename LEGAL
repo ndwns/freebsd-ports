@@ -36,3 +36,4 @@ msql-1.0.5.tar.gz	ports/databases/msql	Restrictive copyright
 ssh-*			ports/security/ssh	Crypto; export-controlled
 xinvaders-*		ports/games/xinvaders	Don't sell for profit
 glimpse-*		ports/misc/glimpse	Don't sell for profit
+SSLeay-0.5.1b.tar.gz	ports/security/SSLeay	Crypto; export-controlled
