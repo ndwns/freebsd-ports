@@ -170,6 +170,7 @@
     SUBDIR += xgirc
     SUBDIR += xicq
     SUBDIR += xipmsg
+    SUBDIR += xwhois
     SUBDIR += yagirc
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
