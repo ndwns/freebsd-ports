@@ -1,12 +1,12 @@
 # New ports collection makefile for:    mtools
-# Version required:     3.3
+# Version required:     3.5a
 # Date created:         5 October 1994
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=	mtools-3.3
+DISTNAME=	mtools-3.5a
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_GNU}
 
