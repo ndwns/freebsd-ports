@@ -1,6 +1,7 @@
 # $Id$
 #
-# broken: none
+# BROKEN: none
+#
 
 SUBDIR=	axe emacs jove mule tkHTML uemacs vile xemacs xvile
 

@@ -1,10 +1,11 @@
 # $Id$
 #
-# restricted: pgp.usa_only pgp.non-usa_only (local restrictions)
-#	mmv (restrictive copyright)
+# RESTRICTED: pgp.usa_only (local restrections)
+# RESTRICTED: pgp.non-usa_only (local restrictions)
+# RESTRICTED: mmv (restrictive copyright)
 #
 # BROKEN: wine (doesn't install)
-#	  lmbench (not done yet)
+# BROKEN: lmbench (not done yet)
 #
 
 SUBDIR= amanda chord colorls cpm hfs iozone ispell kp less mshell mtools \

@@ -1,7 +1,4 @@
-#
 # $Id$
-#
-# BROKEN= none
 #
 
 SUBDIR= elm metamail mh mpack pgpsendmail pine popper procmail smail

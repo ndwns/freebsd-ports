@@ -1,9 +1,11 @@
 # $Id$
 #
-# Broken - dgd-lpmud
-# Broken - slirp (upgraded)
-# Broken for XFree3.x - wais
-# Restricted - ivs (crypto, export controlled)
+# RESTRICTED: ivs (crypto, export controlled)
+# 
+# BROKEN: dgd-lpmud
+# BROKEN: slirp (upgraded)
+# BROKEN: wais (for XFree3.x)
+#
 
 SUBDIR= archie cern_httpd cern_linemode chimera dgd fspclient gated \
 	gn gopher imm irc ircII \

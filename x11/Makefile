@@ -1,6 +1,6 @@
 # $Id$
 #
-# broken: iv
+# BROKEN: iv
 #
 
 SUBDIR= XFree86 Xaw3d blt color_xterm ctwm emiclock emu fvwm g3view \
