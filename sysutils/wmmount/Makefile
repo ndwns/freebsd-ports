@@ -8,7 +8,7 @@
 
 DISTNAME=	wmmount
 PKGNAME=	wmmount-1.0b1
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils windowmaker afterstep
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
 EXTRACT_SUFX=	.tgz
 
