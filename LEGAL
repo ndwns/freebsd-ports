@@ -16,6 +16,7 @@ Such ports are listed below:
 Dist			Port			Why
 ------------------------------------------------------------------------------
 aswedit-*		ports/www/aswedit	Commercial software.
+bochs-*			ports/emulators/bochs	Commercial software.
 bzip-*			ports/archivers/bzip	Some algorithms used may
 						infringe certain US patents.
 						Opinions differ. Commercial 
