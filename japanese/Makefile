@@ -6,6 +6,7 @@
     SUBDIR += Wnn6
     SUBDIR += Wnn6-lib
     SUBDIR += a2ps
+    SUBDIR += ack
     SUBDIR += bookview
     SUBDIR += camltk41
     SUBDIR += cdrom2
