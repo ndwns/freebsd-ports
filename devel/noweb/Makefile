@@ -1,12 +1,12 @@
 # New ports collection makefile for:	noweb
-# Version required:	noweb-2.8a
+# Version required:	noweb-2.9a
 # Date created:		29 July 1995
 # Whom:			Thomas Gellekum <tg@freebsd.org>
 #
 # $Id$
 #
 
-DISTNAME=	noweb-2.8a
+DISTNAME=	noweb-2.9a
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.cs.virginia.edu/pub/nr/
 EXTRACT_SUFX=	.tgz
