@@ -9,6 +9,7 @@
     SUBDIR += eyeclock
     SUBDIR += mlclock
     SUBDIR += mouseclock
+    SUBDIR += pclock
     SUBDIR += rclock
     SUBDIR += swisswatch
     SUBDIR += t3d
