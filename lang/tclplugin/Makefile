@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/plugin/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 BUILD_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 
