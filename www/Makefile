@@ -31,7 +31,6 @@
     SUBDIR += squid
     SUBDIR += squid11
     SUBDIR += tkHTML
-    SUBDIR += tkWWW
     SUBDIR += w3-msql
     SUBDIR += w3c_httpd
     SUBDIR += webcopy
