@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	xmcd-2.4
+DISTNAME=	xmcd-2.5
 CATEGORIES=	audio
-MASTER_SITES=	http://mercury.hypersurf.com/~amb/download/xmcd/src/
+MASTER_SITES=	http://metalab.unc.edu/tkan/download/xmcd/src/
 
 MAINTAINER=	eischen@vigrid.com
 
@@ -30,5 +30,6 @@ post-patch:
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
+	@${CP} ${WRKSRC}/xmcd_d/XMcd.ad ${PREFIX}/lib/X11/app-defaults/XMcd
 
 .include <bsd.port.mk>
