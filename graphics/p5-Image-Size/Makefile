@@ -16,6 +16,11 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         perl paths
+.endif
+
 MAN1=		imgsize.1
 MAN3=		Image::Size.3
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
