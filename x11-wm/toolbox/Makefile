@@ -1,12 +1,12 @@
 # New ports collection makefile for:	toolbox
-# Version required:   	0.4.2
+# Version required:   	0.4.3
 # Date created:		05 June 1999
 # Whom:			Chris Piazza <cpiazza@home.net>
 #
 # $Id$
 #
 
-DISTNAME=	toolbox-0.4.2
+DISTNAME=	toolbox-0.4.3
 CATEGORIES=	misc
 MASTER_SITES=	http://cs.bc.edu/~kelleyry/blackbox/utils/
 
