@@ -25,7 +25,7 @@ JADETEX?=
 
 .if empty(JADETEX) && (make(fetch) || make(build) || make(install))
 .BEGIN:
-	@${CAT} pkg/JADETEX
+	@${CAT} files/JADETEX
 	@${FALSE}
 .endif
 
