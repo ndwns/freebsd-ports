@@ -26,7 +26,7 @@ INSTALL_TARGET=	install install.man
 
 .if !defined(NOPORTDOCS)
 post-install:
-	${MKDIR} -p ${PREFIX}/share/doc/mei
+	${MKDIR} ${PREFIX}/share/doc/mei
 	${INSTALL_DATA} ${WRKSRC}/*txt ${PREFIX}/share/doc/mei
 .endif
 
