@@ -43,6 +43,7 @@ post-install:
 	do gzip -9nf $(PREFIX)/share/itcl/itk/man/mann/`$(BASENAME) $$m`;done
 	@for m in $(WRKSRC)/iwidgets2.1.0/doc/*.n ; \
 	do gzip -9nf $(PREFIX)/share/itcl/iwidgets/man/mann/`$(BASENAME) $$m`;done
+.endif
 	@echo "*****************************************************"
 	@echo "There are new man directories to install now:"
 	@echo "Add $(PREFIX)share/itcl/tcl7.5"
@@ -52,7 +53,6 @@ post-install:
 	@echo "                         iwidgets"
 	@echo "To the manpath in /etc/manpath.config"
 	@echo "*****************************************************"
-.endif
 	/sbin/ldconfig -m $(PREFIX)/lib
 
 .include <bsd.port.mk>
