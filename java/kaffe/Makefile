@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	kaffe-0.5p4
-PKGNAME=	kaffe-0.5.4
+DISTNAME=	kaffe-0.5.5
+PKGNAME=	kaffe-0.5.5
 CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.sarc.city.ac.uk/pub/kaffe/
+MASTER_SITES+=	ftp://alterego.stack.urc.tue.nl/pub/kaffe/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	xaa@stack.urc.tue.nl
