@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmstock-0.06
-CATEGORIES=	misc
+CATEGORIES=	misc windowmaker
 MASTER_SITES=	http://mattfischer.com/wmstock/src/ \
 		http://www.psn.net/~andrews/wmstock/
 
