@@ -19,7 +19,6 @@ BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
-BROKEN=		package
 WRKSRC=		${WRKDIR}/xmysqladmin
 USE_X11=	yes
 ALL_TARGET=	xmysqladmin
