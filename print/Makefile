@@ -64,6 +64,7 @@
     SUBDIR += teTeX-beta
     SUBDIR += tex
     SUBDIR += texinfo
+    SUBDIR += tgif2tex
     SUBDIR += tr2latex
     SUBDIR += transfig
     SUBDIR += virtualpaper
