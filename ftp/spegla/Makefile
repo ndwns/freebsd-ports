@@ -7,13 +7,15 @@
 # $Id$
 #
 
-DISTNAME=	spegla-0.93p2
+DISTNAME=	spegla-1.03
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.luth.se/pub/unix/mirror/
+MASTER_SITES=	ftp://ftp.luth.se/pub/unix/mirror/ \
+		ftp://subzero.campus.luth.se/pub/spegla/
 
-MAINTAINER=     jkh@FreeBSD.org
+MAINTAINER=	jkh@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/spegla
+MANCOMPRESSED=	yes
+MAN1=		spegla.1
 
 post-install:
 	@${MKDIR} ${PREFIX}/share/examples/spegla
