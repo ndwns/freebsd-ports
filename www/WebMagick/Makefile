@@ -22,7 +22,7 @@ CONFIGURE_ENV=  webmagick_cv_rootpath=${PREFIX}/www/data \
 		webmagick_cv_maptype=ncsa \
 		PERL=${PREFIX}/bin/perl
 
-RUN_DEPENDS=    ${PREFIX}/lib/perl5/site_perl/i386-freebsd/auto/Image/Magick/Magick.so:${PORTSDIR}/graphics/p5-PerlMagick
+RUN_DEPENDS=    ${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/auto/Image/Magick/Magick.so:${PORTSDIR}/graphics/p5-PerlMagick
 
 post-install:
 		cd ${WRKSRC}; \
