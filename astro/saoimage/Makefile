@@ -8,7 +8,7 @@
 
 DISTNAME=       saoimage-1.22
 CATEGORIES=	astro
-MASTER_SITES=	ftp://cfa-ftp.harvard.edu/pub/gsc/SAOimage/
+MASTER_SITES=	ftp://cfa-ftp.harvard.edu/pub/gsc/SAOimage/Old
 
 MAINTAINER=	giffunip@asme.org
 
