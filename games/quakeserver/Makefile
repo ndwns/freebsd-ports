@@ -7,8 +7,8 @@
 #
 
 PKGNAME=	quakeserver-1.0
-CATEGORIES=	games tk41
-MASTER_SITES=	ftp://ftp.idsoftware.com/idstuff/quakeworld/unix/ \
+CATEGORIES=	games
+MASTER_SITES=	ftp://ftp.cdrom.com/pub/quake/planetquake/threewave/unix/ \
 		ftp://ftp.idsoftware.com/idstuff/quake/
 DISTFILES=	unixded-1.0-i386-unknown-bsdi3.0.tar.gz \
 		quake106.zip
