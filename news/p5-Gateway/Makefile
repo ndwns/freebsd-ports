@@ -14,13 +14,13 @@ MASTER_SITE_SUBDIR=	News
 
 MAINTAINER=		croyle@gelemna.ft-wayne.in.us
 
-BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/News/Article.pm:${PORTSDIR}/news/p5-News-Article
-RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/News/Article.pm:${PORTSDIR}/news/p5-News-Article
+BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/News/Article.pm:${PORTSDIR}/news/p5-News-Article
+RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/News/Article.pm:${PORTSDIR}/news/p5-News-Article
 
 USE_PERL5=		yes
 
 MAN3=			News::Gateway.3
-MANPREFIX=		${PREFIX}/lib/perl5
+MANPREFIX=		${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 	@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
