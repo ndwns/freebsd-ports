@@ -18,6 +18,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	keith@FreeBSD.org
 
+RUN_DEPENDS=	${X11BASE}/lib/aout/libX11.so.6.1:${PORTSDIR}/x11/XFree86-aoutlibs
+
 ONLY_FOR_ARCHS=	i386
 
 WRKSRC=		${WRKDIR}/lib
@@ -25,14 +27,12 @@ NO_BUILD=	yes
 PORTOBJFORMAT=	aout
 
 USE_X_PREFIX=	yes
-PKGINSTALL=	${WRKDIR}/pkg-install
 
 pre-configure:
 	@${SETENV} ${SCRIPTS_ENV} ${SH} ${PKGREQ} ${PKGNAME} INSTALL
-	@${SED} -e "s;@PREFIX@;${PREFIX};g" ${FILESDIR}/INSTALL.in > ${WRKDIR}/pkg-install
 
 pre-install:
-	@${SH} ${PKGINSTALL} ${PKGNAME} PRE-INSTALL
+	@${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} PRE-INSTALL
 
 do-install:
 	@${MKDIR} ${PREFIX}/lib/aout
