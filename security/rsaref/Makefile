@@ -4,7 +4,7 @@
 # Date created:         2 Feb 1997
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rsaref20.1996

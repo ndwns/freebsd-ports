@@ -3,7 +3,7 @@
 # Date created:		30 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 # Maximal ssh package requires YES values for
 # USE_PERL, USE_TCPWRAP

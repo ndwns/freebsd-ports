@@ -3,7 +3,7 @@
 # Date created:         22 July 1999
 # Whom:                 mi@aldan.algebra.com
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	koi8rPS-1.0
 CATEGORIES=	russian print

@@ -3,7 +3,7 @@
 # Date created:		11 April 1999
 # Whom:			Mikhail Teterin
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	rlpr-2.00
 CATEGORIES=	print net

@@ -4,7 +4,7 @@
 # Date created:                         15th June 1996
 # Whom:                                 gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fwtk2.1

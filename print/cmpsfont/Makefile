@@ -3,7 +3,7 @@
 # Date created:		11 September 1998
 # Whom:			giffunip
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cmps

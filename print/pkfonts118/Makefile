@@ -3,7 +3,7 @@
 # Date created:		06 Nov 1998
 # Whom:			Satoshi Asami <asami@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 RESOLUTION=	118

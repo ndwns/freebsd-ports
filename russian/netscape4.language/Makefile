@@ -3,7 +3,7 @@
 # Date created:         8 Apr 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=        ru-netscape-3.01

@@ -3,7 +3,7 @@
 # Date created:		11 February 1999
 # Whom:			Alex Le Heux
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sslproxy.1998_Jun_14

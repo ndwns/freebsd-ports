@@ -3,7 +3,7 @@
 # Date created:		30 Jul 1997
 # Whom:			John Polstra <jdp@polstra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cfs-1.3.3bf

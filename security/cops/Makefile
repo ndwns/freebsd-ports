@@ -3,7 +3,7 @@
 # Date created:				29 August 1996
 # Whom:					oly
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cops.1.04

@@ -3,7 +3,7 @@
 # Date created:		18 November 1998
 # Whom:			smace@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ppa-0.8.6

@@ -3,7 +3,7 @@
 # Date created:			11 Feb. 1995
 # Whom:				torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       zsh-3.0.5

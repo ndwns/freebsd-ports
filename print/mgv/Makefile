@@ -3,7 +3,7 @@
 # Date created:		4 Mar 1998
 # Whom:			handy@physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mgv-3.1.5

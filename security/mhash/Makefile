@@ -3,7 +3,7 @@
 # Date created:		Mon Jun 28 17:59:13 PDT 1999
 # Whom:			nsayer@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mhash-0.5.0

@@ -3,7 +3,7 @@
 # Date created:		5 December 1996
 # Whom:			Bernd Rosauer <br@netland.inka.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	teTeX-1.0.6

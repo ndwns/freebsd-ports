@@ -3,7 +3,7 @@
 # Date created:         16 Dec 1997
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rispell

@@ -3,7 +3,7 @@
 # Date created:		21 October 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ghostview-1.5

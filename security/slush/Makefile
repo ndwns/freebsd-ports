@@ -3,7 +3,7 @@
 # Date created:			  Sun May 3, 1999
 # Whom:                 	shipley@dis.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slush-0.1.1

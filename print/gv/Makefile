@@ -4,7 +4,7 @@
 # Date created:		16 Apr 1996
 # Whom:			tg@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gv-3.5.8

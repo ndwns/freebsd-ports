@@ -3,7 +3,7 @@
 # Date created:		11 December 1998
 # Whom:			giffunip
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ghostscript-5.10

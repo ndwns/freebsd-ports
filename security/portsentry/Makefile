@@ -3,7 +3,7 @@
 # Date created:		3 January 1998
 # Whom:			chris@still.whet.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	portsentry-0.90

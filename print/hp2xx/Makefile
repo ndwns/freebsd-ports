@@ -3,7 +3,7 @@
 # Date created:         17 Jan 1999
 # Whom:                 Lars Koeller
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hp2xx-3.20-png

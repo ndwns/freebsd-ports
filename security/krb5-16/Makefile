@@ -3,7 +3,7 @@
 # Date created:				6/5/1998
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		krb5-1.0.6

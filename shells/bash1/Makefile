@@ -4,7 +4,7 @@
 # Date created:		21 August 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       bash-1.14.7

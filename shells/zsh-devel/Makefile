@@ -3,7 +3,7 @@
 # Date created:			31 October 1998
 # Whom:				shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zsh-3.1.6

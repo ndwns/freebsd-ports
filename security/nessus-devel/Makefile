@@ -3,7 +3,7 @@
 # Date created:		1 May 1999
 # Whom:			Anders Nordby <anders@fix.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nessus-alpha2-fix4

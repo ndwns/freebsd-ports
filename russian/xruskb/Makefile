@@ -3,7 +3,7 @@
 # Date created:		14 Jan 1998
 # Whom:			Igor Vinokurov <igor@zynaps.ru>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xruskb-1.9.3
 CATEGORIES=	russian x11

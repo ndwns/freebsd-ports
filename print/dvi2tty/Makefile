@@ -3,7 +3,7 @@
 # Date created:		17th February 1997
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 #
-# $Id$
+# $FreeBSD$
 #
       
 DISTNAME=	dvi2tty

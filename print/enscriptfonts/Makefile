@@ -3,7 +3,7 @@
 # Date created:			15 June, 1998
 # Whom:				kline
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	enscript_fonts-0.75

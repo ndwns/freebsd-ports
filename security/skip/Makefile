@@ -3,7 +3,7 @@
 # Date created:         		26 November 1997
 # Whom:                 		Archie L. Cobbs <archie@whistle.com>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=		skip-1.0
 CATEGORIES=		security

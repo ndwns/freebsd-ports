@@ -3,7 +3,7 @@
 # Date created:		31 Mar 1997
 # Whom:			Joe Greco <jgreco@ns.sol.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tripwire-1.2

@@ -3,7 +3,7 @@
 # Date created:				7/06/1998
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	smurflog-2.1

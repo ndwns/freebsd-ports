@@ -3,7 +3,7 @@
 # Date created:         Sat Apr 10 22:30:36 EEST 1999
 # Whom:                 vns@delta.odessa.ua
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	apache_1.3.6

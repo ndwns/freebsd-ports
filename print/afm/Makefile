@@ -3,7 +3,7 @@
 # Date created:         23 November 1994
 # Whom:                 ljo
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	afm

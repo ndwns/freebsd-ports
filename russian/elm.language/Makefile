@@ -2,7 +2,7 @@
 # Date created:         2 Dec 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=        ru-elm-2.4ME

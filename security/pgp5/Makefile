@@ -5,7 +5,7 @@
 # Date created:         10 Feb 1998
 # Whom:                 markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pgp50i

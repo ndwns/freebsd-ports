@@ -3,7 +3,7 @@
 # Date created:		13 March 1999
 # Whom:			nsayer@quack.kfu.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	identify-0.7

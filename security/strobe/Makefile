@@ -3,7 +3,7 @@
 # Date created:		23 Sep 1996
 # Whom:			proff
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	strobe-1.06

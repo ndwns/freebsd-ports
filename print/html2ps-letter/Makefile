@@ -3,7 +3,7 @@
 # Date created:		Sat Nov 22 12:54:50 CET 1997
 # Whom:			andreas
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	html2ps-1.0b1

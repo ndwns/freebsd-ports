@@ -3,7 +3,7 @@
 # Date created:				1 Jan 1999
 # Whom:					Alexandre Snarskii <snar@paranoia.ru>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	libparanoia-1.3
 CATEGORIES=	security

@@ -3,7 +3,7 @@
 # Date created:      10/22/96
 # Whom:              oly@world.std.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lout-3.13

@@ -3,7 +3,7 @@
 # Date created:		21 July 1997
 # Whom:			dbader@eece.unm.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bibview-2.2

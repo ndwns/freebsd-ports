@@ -3,7 +3,7 @@
 # Date created:		Sun Aug 13 12:36:14 CDT 1995
 # Whom:			erich@rrnet.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rc-1.6

@@ -3,7 +3,7 @@
 # Date created:		05 August 1998
 # Whom:			sada@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	checkpassword-0.81

@@ -3,7 +3,7 @@
 # Date created:				1999/04/07
 # Whom:					ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Digest-MD5-2.08

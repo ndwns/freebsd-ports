@@ -3,7 +3,7 @@
 # Date created:         17 Aug 1998
 # Whom:                 gsm@infosite.ru
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gd1.3

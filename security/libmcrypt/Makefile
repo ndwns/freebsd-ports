@@ -3,7 +3,7 @@
 # Date created:		Mon Jun 28 18:02:04 PDT 1999
 # Whom:			nsayer@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libmcrypt-2.2

@@ -3,7 +3,7 @@
 # Date created:		Tue Jun 23 00:19:55 MET DST 1999
 # Whom:			Juergen Lock <nox@jelal.kn-bremen.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cdlabelgen-1.5.0

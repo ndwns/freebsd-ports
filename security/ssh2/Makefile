@@ -3,7 +3,7 @@
 # Date created:		5 Oct 1998
 # Whom:			Issei Suzuki <issei@jp.FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 # Maximal ssh2 package requires YES values for
 # USE_SSH1, USE_TCPWRAP

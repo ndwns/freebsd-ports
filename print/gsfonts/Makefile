@@ -3,7 +3,7 @@
 # Date created:		11 September 1997
 # Whom:			giffunip
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gsfonts-5.10

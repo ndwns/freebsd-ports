@@ -3,7 +3,7 @@
 # Date created:		22 August 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tcsh-6.09

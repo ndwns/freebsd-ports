@@ -3,7 +3,7 @@
 # Date created:			  Sat May 8, 1999
 # Whom:				  Nick Sayer (nsayer@freebsd.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	raproxy3.0b1

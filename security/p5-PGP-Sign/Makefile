@@ -3,7 +3,7 @@
 # Date created:		January 2, 1998
 # Whom:			Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	PGP-Sign-0.15

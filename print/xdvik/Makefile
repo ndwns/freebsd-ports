@@ -3,7 +3,7 @@
 # Date created:        26 Feb 1998
 # Whom:                Kentaro Inagaki <JBD01226@niftyserve.ne.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdvik-20a

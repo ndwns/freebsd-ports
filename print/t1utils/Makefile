@@ -3,7 +3,7 @@
 # Date created:        6 January 1999
 # Whom:                mwm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	t1utils-1.11

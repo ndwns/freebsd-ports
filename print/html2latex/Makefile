@@ -3,7 +3,7 @@
 # Date created:         29-March-1996
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	html2latex-0.9c

@@ -3,7 +3,7 @@
 # Date created:		9 August 1996
 # Whom:			chuckr@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	transfig.3.2.1

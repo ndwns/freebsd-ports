@@ -3,7 +3,7 @@
 # Date created:			17 Sep 1996
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	donkey-0.5

@@ -3,7 +3,7 @@
 # Date created:				28 June 1996
 # Whom:					markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xinetd-2.1.8.6b6

@@ -5,7 +5,7 @@
 # Date created:         8 Jul 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 # Pick an initial default, else it doesn't get set in the INDEX.
