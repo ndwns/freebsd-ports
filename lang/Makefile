@@ -39,6 +39,7 @@
     SUBDIR += itcl
     SUBDIR += javac_netscape
     SUBDIR += jdk
+    SUBDIR += jdk-doc
     SUBDIR += jikes
     SUBDIR += kaffe
     SUBDIR += lcc
