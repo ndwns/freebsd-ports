@@ -9,8 +9,8 @@
 DISTNAME=	uudeview-0.5.13
 PKGNAME=	xdeview-0.5.13
 CATEGORIES=	converters tk80
-MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/ \
-		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/
+MASTER_SITES=	ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/ \
+		http://www.informatik.uni-frankfurt.de/~fp/uudeview/Apps/frank/
 
 MAINTAINER=	hoek@FreeBSD.ORG
 
