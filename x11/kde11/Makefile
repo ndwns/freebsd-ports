@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	kde-2.1b
+DISTNAME=	kde-3.1b
 CATEGORIES=	x11 kde
 MASTER_SITES=	# empty
 DISTFILES=	# empty
