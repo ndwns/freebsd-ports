@@ -107,6 +107,7 @@
     SUBDIR += patch
     SUBDIR += pccts
     SUBDIR += pcre
+    SUBDIR += portcheckout
     SUBDIR += portlint
     SUBDIR += prc-tools
     SUBDIR += prcs
