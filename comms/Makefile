@@ -2,6 +2,6 @@
 #
 # restricted: rzsz kermit
 #
-SUBDIR= flexfax mgetty+sendfax seyon
+SUBDIR= ecu flexfax mgetty+sendfax seyon
 
 .include <bsd.port.subdir.mk>
