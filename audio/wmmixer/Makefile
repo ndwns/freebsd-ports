@@ -1,15 +1,15 @@
 # New ports collection makefile for:   wmmixer
-# Version required:    0.8
+# Version required:    1.0b1
 # Date created:        11 July 1998
 # Whom:                Rich Neswold <rneswold@mcs.net>
 #
 # $Id$
 #
 
-DISTNAME=	wmmixer
+DISTNAME=	wmmixer-1.0-beta1
 PKGNAME=	wmmixer-1.0b1
 CATEGORIES=	audio windowmaker
-MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
+MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/files/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rneswold@mcs.net
