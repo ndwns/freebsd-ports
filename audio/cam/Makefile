@@ -12,4 +12,6 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/sound/mixers
 EXTRACT_SUFX=	.tgz
 
+MAINTAINER=	erich@FreeBSD.org
+
 .include <bsd.port.mk>
