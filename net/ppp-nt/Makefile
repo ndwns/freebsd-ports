@@ -12,10 +12,9 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.jp.freebsd.org/~sada/distfiles/ \
 		http://www.freebsd.org/~sada/distfiles/
 
-PATCH_SITES=	http://www2a.meshnet.or.jp/~junichi/freebsd/programs/ \
-		http://www.rr.iij4u.or.jp/~sada/patches/ \
+PATCH_SITES=	http://www.rr.iij4u.or.jp/~sada/patches/ \
 		http://www.freebsd.org/~sada/distfiles/
-PATCHFILES=	nat-980920.patch ppp-2.2.7-telehoudai.diff.gz
+PATCHFILES=	nat-980920.patch.gz ppp-2.2.7-telehoudai.diff.gz
 PATCH_DIST_STRIP= -p1
 
 MAINTAINER=	sada@FreeBSD.ORG
