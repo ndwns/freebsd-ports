@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	sgmlformat-1.2
+DISTNAME=	sgmlformat-1.3
 CATEGORIES=	textproc print
 MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
 
