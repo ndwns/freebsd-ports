@@ -9,7 +9,7 @@
 DISTNAME=       mpack-1.5-src
 PKGNAME=        mpack-1.5
 EXTRACT_SUFX=   .tar.Z
-CATEGORIES+=    mail news utils
+CATEGORIES+=    mail news
 MASTER_SITES=   ftp://ftp.andrew.cmu.edu/pub/mpack/
 WRKSRC=         ${WRKDIR}/mpack
 MAKEFLAGS=      -DDESTDIR=${PREFIX} -f
