@@ -11,6 +11,7 @@
     SUBDIR += bing
     SUBDIR += bitchx
     SUBDIR += bnc
+    SUBDIR += boclient
     SUBDIR += cap
     SUBDIR += cftp
     SUBDIR += choparp
