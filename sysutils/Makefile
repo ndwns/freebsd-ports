@@ -28,6 +28,7 @@
     SUBDIR += no-login
     SUBDIR += pib
     SUBDIR += pkg_version
+    SUBDIR += psmisc
     SUBDIR += rdate
     SUBDIR += rtty
     SUBDIR += setquota
