@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.32_W
-PKGNAME=	lsof-4.32
+DISTNAME=	lsof_4.33_W
+PKGNAME=	lsof-4.33
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
 		ftp://ftp.sunet.se/pub/unix/admin/lsof/
 
-MAINTAINER=     obrien@NUXI.com
+MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${SRCBALL_NAME}
 HAS_CONFIGURE=	yes
