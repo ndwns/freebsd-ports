@@ -316,7 +316,7 @@ package:
 .endif
 
 .if !target(all)
-all: extract configure build
+all: build
 .endif
 
 .if !target(is_depended)
