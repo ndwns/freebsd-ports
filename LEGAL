@@ -17,6 +17,7 @@ Dist			Port			Why
 ------------------------------------------------------------------------------
 timidity-*		ports/audio/timidity	Uses copyrighted patches.
 JDK-*			ports/lang/jdk		Put copyright on packaging!
+Scilab-*		ports/math/Scilab	Don't sell for profit.
 bzip-*			ports/archivers/bzip	Some algorithms used may
 						infringe certain US patents.
 						Opinions differ. Commercial 
