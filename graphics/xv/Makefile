@@ -15,7 +15,8 @@ LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \
 
 USE_IMAKE=	yes
 
-# Restrictive copyright
-NO_PACKAGE=	yes
+post-install:
+	mkdir -p ${PREFIX}/share/doc/xv
+	cp ${WRKSRC}/README ${PREFIX}/share/doc/xv
 
 .include <bsd.port.mk>
