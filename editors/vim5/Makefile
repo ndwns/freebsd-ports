@@ -35,6 +35,8 @@ PATCH_DIST_ARGS=	-d ${WRKDIR}/${DISTNAME} --forward --quiet -E ${PATCH_DIST_STRI
 MAKE_FLAGS=	CONF_ARGS="--prefix=${PREFIX} --enable-max-features --with-tlib=termlib" -f
 ALL_TARGET=	#
 MAN1=		vim.1 xxd.1 ectags.1
+MLINKS=		vim.1 gvim.1   vim.1 gview.1  \
+		vim.1 rgvim.1  vim.1 rgview.1  vim.1 rvim.1  vim.1 rview.1
 
 
 .if defined(HAVE_MOTIF)
