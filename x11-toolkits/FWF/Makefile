@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.let.rug.nl/pub/FWF/
 
 MAINTAINER=	jkh@FreeBSD.ORG
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/FWF
 PATCH_STRIP=	-p1
