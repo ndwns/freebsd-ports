@@ -8,7 +8,7 @@
 
 DISTNAME=	mh-6.8.3
 PKGNAME=	mh-6.8.4
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.ics.uci.edu/pub/mh/tar/
 EXTRACT_SUFX=	.tar.Z
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	POP3Client-1_14
 PKGNAME=	p5-Mail-POP3Client-1.14
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Mail/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Mail/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Mail/ \

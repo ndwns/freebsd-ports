@@ -8,7 +8,7 @@
 
 DISTNAME=	MailFolder-0.03
 PKGNAME=	p5-Mail-Folder-0.03
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Mail/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Mail/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Mail/ \

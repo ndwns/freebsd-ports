@@ -8,7 +8,7 @@
 
 DISTNAME=       PGPsendmail-v1.4
 PKGNAME=	pgpsendmail-1.4
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=   ftp://ftp.dhp.com/pub/crypto/pgp/PGPsendmail/
 
 MAINTAINER=     ache@FreeBSD.ORG

@@ -8,7 +8,7 @@
 #
 
 DISTNAME=       elm-2.4ME+28
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=   ftp://dionysos.fmi.fi/KEH/ \
 		ftp://ftp.funet.fi/pub/unix/mail/elm/elm-2.4ME+/ \
 		ftp://ftp.ibp.fr/pub/unix/mail/elm-me/

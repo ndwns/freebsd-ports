@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	exmh-1.6.9
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
 

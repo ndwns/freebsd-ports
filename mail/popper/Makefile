@@ -8,7 +8,7 @@
 
 DISTNAME=	qpop2.2
 PKGNAME=	qpop-2.2
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/popper/
 EXTRACT_SUFX=	.tar.Z
 

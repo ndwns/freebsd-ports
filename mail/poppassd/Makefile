@@ -8,18 +8,17 @@
 
 DISTNAME=	poppassd
 PKGNAME=	poppassd-4.0
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/password/
 DISTFILES=	pwserve-4
 
 MAINTAINER=	andrew@ugh.net.au
 
-ALL_TARGET=	poppassd
-
 EXTRACT_CMD=	/bin/cat
 EXTRACT_SUFX=	
 EXTRACT_BEFORE_ARGS=	
 EXTRACT_AFTER_ARGS=	| /usr/bin/sed -e '1,16d' | /bin/sh
+ALL_TARGET=	poppassd
 
 post-install:
 	@ strip ${PREFIX}/libexec/poppassd

@@ -6,7 +6,7 @@
 # $Id$
 
 DISTNAME=	xlbiff-3.0
-CATEGORIES+=	mail x11
+CATEGORIES=	mail x11
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/  \
 		ftp://ftp.pacbell.com/mirror/ftp.x.org/X11/R5contrib/  \
 		ftp://ftp.funet.fi//pub/X11/R5contrib/  \

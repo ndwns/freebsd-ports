@@ -8,7 +8,7 @@
 
 DISTNAME=	mailagent-3.0pl44
 PKGNAME=	mailagent-3.0.44
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/ 
 
 MAINTAINER=	max@FreeBSD.ORG

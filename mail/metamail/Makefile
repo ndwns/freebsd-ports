@@ -8,7 +8,7 @@
 
 DISTNAME=	mm2.7
 PKGNAME=	mm-2.7
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://thumper.bellcore.com/pub/nsb/
 EXTRACT_SUFX=	.tar.Z
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	smail-3.1.29.1
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	exim-0.57
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/
 DISTFILES=	exim-0.57.tar.gz exim-texinfo-0.57.tar.gz
 

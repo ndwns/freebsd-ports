@@ -8,7 +8,7 @@
 
 DISTNAME=       procmail-3.11pre4
 PKGNAME=        procmail-3.11p4
-CATEGORIES+=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 INSTALL_TARGET= install-suid install.man
 
