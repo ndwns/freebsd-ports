@@ -173,6 +173,7 @@
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += xtris
+    SUBDIR += xtron
     SUBDIR += xtruco
     SUBDIR += xvier
     SUBDIR += xvmahjongg
