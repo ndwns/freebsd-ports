@@ -8,8 +8,8 @@
 DISTNAME=       xasteroids
 MASTER_SITES=	ftp://calypso-2.oit.unc.edu/pub/X11/contrib/
 EXTRACT_SUFX=	.sh.Z
-EXTRACT_CMD=	cd ${WRKDIR}; zcat ${DISTDIR}/xasteroids.sh.Z | sh -s
-EXTRACT_ARGS=
+EXTRACT_CMD=	( cd ${WRKDIR}; zcat | sh -s )
+EXTRACT_ARGS= <
 USE_IMAKE=	yes
 INSTALL_MANPAGES= yes
 NO_WRKSUBDIR=	yes
