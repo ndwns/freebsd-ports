@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	irsim magic acs pcb
+SUBDIR=	acs irsim magic pcb
 
 .include <bsd.port.subdir.mk>
