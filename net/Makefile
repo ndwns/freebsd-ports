@@ -24,6 +24,8 @@
     SUBDIR += citrix_ica
     SUBDIR += clog
     SUBDIR += cnet
+    SUBDIR += coda5_client
+    SUBDIR += coda5_server
     SUBDIR += coda_client
     SUBDIR += coda_doc
     SUBDIR += coda_intro
