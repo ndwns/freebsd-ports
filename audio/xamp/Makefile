@@ -9,7 +9,7 @@
 DISTNAME=	xamp-0.8-7
 PKGNAME=	xamp-0.8.7
 CATEGORIES=	audio
-MASTER_SITES=	http://elan.rulez.org/~xopy/
+MASTER_SITES=	ftp://ftp.simcb.ru/pub/unix/x11/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jslu@dns.ntu.edu.tw
