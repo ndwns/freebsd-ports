@@ -8,7 +8,6 @@
 
 DISTNAME=	msql-2.0.4.1
 CATEGORIES=	databases
-MASTER_SITES=	http://www.hughes.com.au/software/msql2/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
@@ -53,4 +52,10 @@ post-install:
 		@ /usr/bin/more -e ${FILESDIR}/post-install-notes
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
+
+.if !exists(${DISTDIR}/${DISTNAME}${EXTRACT_SUFX})
+IGNORE="- You must manually obtain ${DISTFILES} from 'http://www.Hughes.com.au' and place it in ${DISTDIR}.  The distribution requires registration prior to use"
+.endif
+
+.include <bsd.port.post.mk>
