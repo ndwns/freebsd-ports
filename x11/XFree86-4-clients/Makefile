@@ -24,10 +24,6 @@ ALL_TARGET=	World
 INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
-pre-install:
-	@${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGDIR}/INSTALL \
-		${PKGNAME} PRE-INSTALL
-
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
 
