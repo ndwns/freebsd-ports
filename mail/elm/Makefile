@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       elm-2.4pl24me8
+DISTNAME=       elm-2.4pl24me8b
 VERSION=        2.4.25m8b          # allows to not edit elm+* Makefiles
 PKGNAME=        elm-${VERSION}
 CATEGORIES+=	mail
@@ -16,9 +16,10 @@ EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-PATCH_SITES=    ftp://cs.hmc.edu/pub/me/
-PATCHFILES=     elm-2.4pl24me8a.diffs.Z elm-2.4pl24me8b.diffs.Z
-PATCH_DIST_STRIP= -p1
+# future hooks
+#PATCH_SITES=    ftp://cs.hmc.edu/pub/me/
+#PATCHFILES=
+#PATCH_DIST_STRIP= -p1
 
 pre-patch:
 	rm -f ${WRKSRC}/src/state.c
