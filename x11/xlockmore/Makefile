@@ -22,7 +22,7 @@ CONFIGURE_ARGS= --without-gl --without-motif --without-sx \
 USE_X11=	yes
 MAN1=		xlock.1
 
-.if exists(${X11BASE}/lib/libMesaGL.a)
+.if exists(${X11BASE}/lib/libMesaGL.a) || defined(PACKAGE_BUILDING)
 CONFIGURE_ARGS+=	--with-mesagl
 LIB_DEPENDS+=		GL\\.13:${PORTSDIR}/graphics/Mesa
 .else
