@@ -32,6 +32,7 @@
     SUBDIR += guile
     SUBDIR += guileobjc
     SUBDIR += hugs
+    SUBDIR += ici
     SUBDIR += icon
     SUBDIR += intercal
     SUBDIR += itcl
