@@ -40,6 +40,7 @@
     SUBDIR += rplay
     SUBDIR += rsynth
     SUBDIR += s3mod
+    SUBDIR += shorten
     SUBDIR += sidplay
     SUBDIR += sox
     SUBDIR += splay
