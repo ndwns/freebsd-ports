@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.xcf.berkeley.edu/pub/prcs/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
+BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
+
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 MAN1=		prcs.1
