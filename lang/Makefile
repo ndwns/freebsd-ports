@@ -37,6 +37,7 @@
     SUBDIR += itcl
     SUBDIR += javac_netscape
     SUBDIR += jdk
+    SUBDIR += jikes
     SUBDIR += kaffe
     SUBDIR += lcc
     SUBDIR += libobjects
