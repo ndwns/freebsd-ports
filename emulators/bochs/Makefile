@@ -8,7 +8,7 @@
 
 VGABIOS=	VGABIOS-elpin-2.00A
 BIOS=		BIOS-bochs-980331a
-DATE= 		980331
+DATE= 		980513
 
 DISTNAME=	bochs-${DATE}a
 CATEGORIES= 	emulators
