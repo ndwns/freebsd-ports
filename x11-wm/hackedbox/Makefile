@@ -19,13 +19,13 @@ GNU_CONFIGURE=	yes
 USE_BZIP2=	yes
 
 .if !defined(USE_KDE)
-pre-fetch:
+pre-configure:
 	@ ${ECHO_MSG}
 	@ ${ECHO_MSG} If you would like build Blackbox with KDE support
 	@ ${ECHO_MSG} you must set the variable USE_KDE
 	@ ${ECHO_MSG}
 .else
-pre-fetch:
+pre-configure:
 	@ ${ECHO_MSG}
 	@ ${ECHO_MSG} Building Blackbox with KDE support
 	@ ${ECHO_MSG}
