@@ -8,9 +8,9 @@
 PKGNAME=        ru-pine-3.95
 CATEGORIES=     russian mail
 
-RUN_DEPENDS+=   pine:${PORTSDIR}/mail/pine
-
 MAINTAINER=     ache@FreeBSD.org
+
+RUN_DEPENDS=    pine:${PORTSDIR}/mail/pine
 
 NO_EXTRACT=     YES
 NO_WRKDIR=      YES
