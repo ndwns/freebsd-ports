@@ -32,6 +32,7 @@ contool-*		ports/sysutils/contool	Don't incorporate the source
 						subsequently sold.
 cosmo/*			ports/games/cosmo	Possible copyright infringement
 crack-5.0		ports/security/crack	Crypto; export-controlled
+crafty/*		ports/games/crafty	Licensing terms unknown
 cs-0.3			ports/devel/cs		License required for
 						redistribution on CDROM.
 dc3play-*		ports/graphics/dc3play	No redistribution due to
