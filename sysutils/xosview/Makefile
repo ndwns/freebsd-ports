@@ -1,21 +1,19 @@
 # New ports collection makefile for:	dclock
-# Version required:	1.5.0
+# Version required:	1.5.1
 # Date created:		19 Nov 1997
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	xosview-1.5.0
+DISTNAME=	xosview-1.5.1
 CATEGORIES=	sysutils x11
 MASTER_SITES=	http://lore.ece.utexas.edu/~bgrayson/xosview/ \
 		http://lambic.space.lockheed.com/xosview/
 
-# lore.ece.utexas.edu is broken
-FETCH_BEFORE_ARGS=	-b
-
 MAINTAINER=	handy@physics.montana.edu
 
+FETCH_BEFORE_ARGS=	-b
 USE_X11=	yes
 HAS_CONFIGURE=	yes
 MAN1=		xosview.1
