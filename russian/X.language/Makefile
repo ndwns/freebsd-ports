@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       xrus-2.0-bin
-PKGNAME=        ru-X11-3.2
+DISTNAME=       x6rus-2.2.0-bin
+PKGNAME=        ru-X11-3.3
 CATEGORIES=     russian x11
 MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/misc/fonts/cyrillic/xwindows/
 EXTRACT_SUFX=   .tgz
