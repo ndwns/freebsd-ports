@@ -25,6 +25,7 @@
    SUBDIR += scm
    SUBDIR += smalltalk
    SUBDIR += tcl
+   SUBDIR += tcl74
    SUBDIR += tclX
 
 .include <bsd.port.subdir.mk>
