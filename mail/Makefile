@@ -57,6 +57,7 @@
     SUBDIR += procmail
     SUBDIR += qmail
     SUBDIR += rblcheck
+    SUBDIR += rblsmtpd
     SUBDIR += rftp
     SUBDIR += rlytest
     SUBDIR += serialmail
