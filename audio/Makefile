@@ -11,7 +11,6 @@
     SUBDIR += dagrab
     SUBDIR += dap
     SUBDIR += esound
-    SUBDIR += gmod
     SUBDIR += gnomeaudio
     SUBDIR += gnomemedia
     SUBDIR += gqmpeg
