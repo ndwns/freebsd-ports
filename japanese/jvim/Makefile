@@ -45,7 +45,7 @@ JPLIB+=			-ljd -lcrypt
 #
 # Make a value of INPUT_METHOD
 .if defined(INPUT_METHOD)
-INPUT_METHOD!=	echo ${INPUT_METHOD} | sed -e 's/^/-/' -e 's/ /+/g'
+INPUT_METHOD!=	${ECHO} ${INPUT_METHOD} | ${SED} -e 's/^/-/' -e 's/ /+/g'
 .endif
 #
 # For ONEW library
