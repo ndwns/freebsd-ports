@@ -766,7 +766,7 @@ EOF
 		$j = $`;
 		$k = $1;
 		if ($j =~ /[0-9]$/) {
-			&perror("WARN: is \"$j\" sane as package name ".
+			&perror("WARN: is \"$j\" same as package name ".
 				"WITHOUT version number? ".
 				"if not, avoid \"-\" in version number ".
 				"part of ".
