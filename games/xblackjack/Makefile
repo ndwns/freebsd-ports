@@ -9,9 +9,10 @@
 DISTNAME=	xblackjack-2.2
 CATEGORIES+=	games
 MASTER_SITES=	ftp://ftp.x.org/contrib/games/
-REQUIRES_MOTIF=	yes
-USE_IMAKE=	yes
 
 MAINTAINER=	erich@FreeBSD.org
+
+REQUIRES_MOTIF=	yes
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>
