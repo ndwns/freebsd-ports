@@ -30,6 +30,8 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 PATCH_DIST_STRIP=	-p1
 #PATCH_DIST_STRIP=	
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS= --enable-dsn --enable-pop --enable-8bitmime --enable-flock \
+		--disable-fcntl
 MAN1=		mutt.1
 
 
