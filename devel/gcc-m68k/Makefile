@@ -18,7 +18,6 @@ BUILD_DEPENDS=	m68k-coff-as:${PORTSDIR}/devel/m68kbinutils \
 RUN_DEPENDS=	m68k-coff-as:${PORTSDIR}/devel/m68kbinutils \
 		m68k-coff-ld:${PORTSDIR}/devel/m68kbinutils
 
-NO_PACKAGE=	limited audience
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 

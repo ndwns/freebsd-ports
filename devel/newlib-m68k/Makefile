@@ -15,7 +15,6 @@ MAINTAINER=	Jerry.Hicks@Glenayre.com
 
 BUILD_DEPENDS=	m68k-coff-gcc:${PORTSDIR}/devel/m68kgcc
 
-NO_PACKAGE=	limited audience
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 

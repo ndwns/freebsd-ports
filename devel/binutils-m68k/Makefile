@@ -13,7 +13,6 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=	Jerry.Hicks@Glenayre.com
 
-NO_PACKAGE=	limited audience
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 

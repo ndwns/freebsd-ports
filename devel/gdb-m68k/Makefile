@@ -13,7 +13,6 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	Jerry.Hicks@Glenayre.com
 
-NO_PACKAGE=	limited audience
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS= --target=m68k-coff
