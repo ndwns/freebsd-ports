@@ -20,7 +20,7 @@ RUN_DEPENDS=   ${PREFIX}/lib/perl/jcode.pl:${PORTSDIR}/japanese/jcode.pl
 WRKSRC=         ${WRKDIR}/weblint-97
 MANLANG=	ja
 MAN1=		jweblint.1
-MAKE_ENV+=      PERLLIBDIR="${PERLLIBDIR}"
+MAKE_ENV=       PERLLIBDIR="${PERLLIBDIR}"
 ALL_TARGET=	euc-jp
 INSTALL_TARGET=	jinstall
 
