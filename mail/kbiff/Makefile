@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	kbiff-0.7.3
+DISTNAME=	kbiff-0.8
 CATEGORIES=	mail kde
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Hills/2651/
 
