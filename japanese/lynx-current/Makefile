@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://sol.slcc.edu/pub/lynx/current/
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
+BROKEN=		fetch
+
 NO_LATEST_LINK=	YES
 WRKSRC=         ${WRKDIR}/lynx2-8-1
 GNU_CONFIGURE=  YES
