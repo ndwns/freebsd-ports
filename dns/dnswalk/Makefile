@@ -9,7 +9,7 @@ DISTNAME=	dnswalk-2.0.2
 CATEGORIES=	net
 MASTER_SITES=	http://www.cis.ohio-state.edu/~barr/dnswalk/
 
-MAINTAINER=	mph@pobox.com
+MAINTAINER=	mph@freebsd.org
 
 RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/Net/DNS.pm:${PORTSDIR}/net/p5-Net-DNS
 

@@ -12,7 +12,7 @@ CATEGORIES=	games
 MASTER_SITES=	ftp://export.andrew.cmu.edu/angband/Source/
 DISTFILES=	angband-283.tar.gz ext-x11-283.tar.gz
 
-MAINTAINER=	mph@pobox.com
+MAINTAINER=	mph@freebsd.org
 
 USE_X11=	yes
 DIST_SUBDIR=	angband

@@ -12,7 +12,7 @@ CATEGORIES=	games
 MASTER_SITES=	$(MASTER_SITE_XCONTRIB)
 MASTER_SITE_SUBDIR=	games/multiplayer
 
-MAINTAINER=	mph@pobox.com
+MAINTAINER=	mph@freebsd.org
 
 NO_CDROM=	Possible trademark infringement
 

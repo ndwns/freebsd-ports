@@ -10,7 +10,7 @@ DISTNAME=	xprompt-1.4
 CATEGORIES=	x11
 MASTER_SITES=   ftp://ftp.nsg.bc.ca/pub/nsg/src/xprompt/
 
-MAINTAINER=	mph@pobox.com
+MAINTAINER=	mph@freebsd.org
 
 USE_IMAKE=	yes
 
