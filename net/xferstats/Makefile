@@ -14,7 +14,7 @@ MASTER_SITES=	http://xferstats.off.net/download/xferstats-2.00/ \
 
 MAINTAINER=	dima@Chg.RU
 
-LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
+LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib11
 
 WRKSRC=		${WRKDIR}/xferstats
 GNU_CONFIGURE=	yes
