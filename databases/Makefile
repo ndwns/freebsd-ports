@@ -4,6 +4,7 @@
     SUBDIR += db
     SUBDIR += gadfly
     SUBDIR += gdbm
+    SUBDIR += gmysql
     SUBDIR += gnats
     SUBDIR += msql
     SUBDIR += mysql321
