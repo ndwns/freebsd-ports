@@ -16,7 +16,7 @@ MAINTAINER=	itojun@itojun.org
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 
 MAN1=	mei.1 moe.1
-MANLANG=	"" ja_JP.EUC
+MANLANG=	"" ja
 
 NO_WRKSUBDIR=	yes
 MAKEFILE=	freebsd.mak
