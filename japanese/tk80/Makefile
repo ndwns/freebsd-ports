@@ -6,13 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	tk8.0.4
-PKGNAME=	ja-tk-8.0.4
+DISTNAME=	tk8.0.5
+PKGNAME=	ja-tk-8.0.5
 CATEGORIES=	japanese x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/lang/tcl/jp/
-PATCHFILES=	tk8.0.4jp1.3.patch.gz
+PATCHFILES=	tk8.0.5jp1.5.patch.gz
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
@@ -52,7 +52,7 @@ post-install:
 .endif
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if ${PORTOBJFORMAT} == "aout"
-	${LN} -sf libtk80jp.so.1.4 ${PREFIX}/lib/libtk80jp.so
+	${LN} -sf libtk80jp.so.1.5 ${PREFIX}/lib/libtk80jp.so
 .endif
 	@${CAT}	${PKGDIR}/MESSAGE
 
