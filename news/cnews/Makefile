@@ -16,7 +16,7 @@ WRKSRC=		${WRKDIR}
 MAKEFILE=	makefile
 MAN1=		checknews.1cn inews.1cn postnews.1cn readnews.1cn
 MAN5=		controlperm.5 news.5 newsctl.5 newsdb.5 newsoverview.5 \
-		newssys.5 \
+		newssys.5
 MAN8=		cnewsdo.8cn expire.8cn explode.8cn mergeactive.8 \
 		mkhistory.8cn newsaux.8cn newsbatch.8cn newsmail.8cn \
 		newsmaint.8cn newsoverview.8 relaynews.8cn report.8cn \
