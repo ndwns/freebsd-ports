@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       DHCPD-BETA-0
-PKGNAME=	isc-dhcp-b0
+DISTNAME=       DHCPD-BETA-5.14
+PKGNAME=	isc-dhcp-b5.14
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.vix.com/pub/dhcp/
 
