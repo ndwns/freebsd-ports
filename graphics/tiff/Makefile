@@ -70,7 +70,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/html/images/* ${DOCDIR}/images
 .endif
 .if ${PORTOBJFORMAT} == "aout"
-	${LN} -sf libtiff.so.1.0 ${PREFIX}/lib/libtiff.so
+	${LN} -sf libtiff.so.4.0 ${PREFIX}/lib/libtiff.so
 .endif
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 

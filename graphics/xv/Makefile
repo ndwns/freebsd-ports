@@ -25,7 +25,7 @@ PATCHFILES=     xv-3.10a.JPEG-patch xv-3.10a.TIFF-patch
 MAINTAINER?=	shige@kuis.kyoto-u.ac.jp
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
-		tiff.1:${PORTSDIR}/graphics/tiff34 \
+		tiff.4:${PORTSDIR}/graphics/tiff34 \
 		png.2:${PORTSDIR}/graphics/png
 
 USE_IMAKE=	yes
