@@ -10,5 +10,6 @@
     SUBDIR += mars
     SUBDIR += pcb
     SUBDIR += spice
+    SUBDIR += xcircuit
 
 .include <bsd.port.subdir.mk>
