@@ -5,11 +5,10 @@
 # RESTRICTED: mmv (restrictive copyright)
 #
 # BROKEN: wine (doesn't install)
-# BROKEN: vmsbackup (can't connect to ftp site)
 #
 
 SUBDIR= amanda chord colorls cpm hfs iozone ispell kp less lmbench \
 	mshell mtools \
-	pcemu rman screen top tua xbatt xdu xsysstats 
+	pcemu rman screen top tua vmsbackup xbatt xdu xsysstats 
 
 .include <bsd.port.subdir.mk>
