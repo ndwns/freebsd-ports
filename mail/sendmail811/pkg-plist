@@ -11,6 +11,7 @@ sbin/mailstats
 sbin/makemap
 sbin/praliases
 sbin/sendmail
+share/sendmail/helpfile
 %%PORTDOCS%%share/doc/sendmail/DEVTOOLS
 %%PORTDOCS%%share/doc/sendmail/SENDMAIL
 %%PORTDOCS%%share/doc/sendmail/MAIL.LOCAL
