@@ -65,6 +65,7 @@
     SUBDIR += pkfonts600
     SUBDIR += psutils-a4
     SUBDIR += psutils-letter
+    SUBDIR += rlpr
     SUBDIR += rtf2latex
     SUBDIR += t1utils
     SUBDIR += teTeX
