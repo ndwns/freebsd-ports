@@ -65,6 +65,7 @@
     SUBDIR += us-zipcodes
     SUBDIR += viz
     SUBDIR += x-files
+    SUBDIR += xacc
     SUBDIR += xcalendar
     SUBDIR += xd
     SUBDIR += xdelta
