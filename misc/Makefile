@@ -63,6 +63,7 @@
     SUBDIR += xpns
     SUBDIR += xtar
     SUBDIR += xtimer
+    SUBDIR += ytree
     SUBDIR += zorro
 
 .include <bsd.port.subdir.mk>
