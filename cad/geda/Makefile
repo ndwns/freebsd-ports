@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.geda.seul.org/dist/  \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
+LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10 \
 		guile.4:${PORTSDIR}/lang/guile
 
 USE_X_PREFIX=	yes
