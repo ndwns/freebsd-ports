@@ -16,11 +16,11 @@ MAINTAINER=	tg@FreeBSD.ORG
 
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python \
 		${PREFIX}/lib/yorick/1.4/lib/libgist.a:${PORTSDIR}/lang/yorick \
-		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
-		${SITEPYDIR}/Ranf.py:${PORTSDIR}/math/rng
+		${NUMPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
+		${RNGDIR}/Ranf.py:${PORTSDIR}/math/rng
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python \
-		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
-		${SITEPYDIR}/Ranf.py:${PORTSDIR}/math/rng
+		${NUMPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
+		${RNGDIR}/Ranf.py:${PORTSDIR}/math/rng
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/Graphics
 CONFIGURE_ENV=	PREFIX=${PREFIX}
@@ -28,15 +28,19 @@ ALL_TARGET=	sharedmods
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
 PYTHONSCRIPTDIR=	${PREFIX}/lib/python1.5
-SITEPYDIR=	${PYTHONSCRIPTDIR}/site-packages
+GISTDIR=	${PYTHONSCRIPTDIR}/site-packages/PyGist
+NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages/NumPy
+RNGDIR=		${PYTHONSCRIPTDIR}/site-packages/RNG
 EXAMPLEDIR=	${PREFIX}/share/examples/PyGist
 
 do-configure:
 	@(cd ${WRKSRC} && ${CONFIGURE_ENV} python makethis.py)
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/*/Lib/* ${SITEPYDIR}
-	@${PREFIX}/bin/python -O ${PYTHONSCRIPTDIR}/compileall.py ${SITEPYDIR}
+	@${MKDIR} ${GISTDIR}
+	${INSTALL_DATA} ${WRKSRC}/*/Lib/* ${GISTDIR}
+	@${PREFIX}/bin/python -O ${PYTHONSCRIPTDIR}/compileall.py ${GISTDIR}
+	@${ECHO} "PyGist" > ${GISTDIR}/../PyGist.pth
 	${MKDIR} ${EXAMPLEDIR}
 	${INSTALL_DATA} ${WRKSRC}/*/Demo/* ${EXAMPLEDIR}
 

@@ -23,7 +23,7 @@ ALL_TARGET=	sharedmods
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
 PYTHONSCRIPTDIR=	${PREFIX}/lib/python1.5
-NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages
+NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages/NumPy
 DOCDIR=		${PREFIX}/share/doc/NumPy
 EXAMPLEDIR=	${PREFIX}/share/examples/NumPy
 
@@ -31,8 +31,10 @@ do-configure:
 	@(cd ${WRKSRC} && ${CONFIGURE_ENV} python makethis.py)
 
 post-install:
+	@${MKDIR} ${NUMPYDIR}
 	${INSTALL_DATA} ${WRKSRC}/Lib/* ${NUMPYDIR}
 	@${PREFIX}/bin/python -O ${PYTHONSCRIPTDIR}/compileall.py ${NUMPYDIR}
+	@${ECHO} "NumPy" > ${NUMPYDIR}/../NumPy.pth
 	${INSTALL_DATA} ${WRKSRC}/Include/*object.h ${PREFIX}/include/python1.5
 	@${MKDIR} ${EXAMPLEDIR}
 	${INSTALL_DATA} ${WRKSRC}/Demo/* ${EXAMPLEDIR}
