@@ -1,15 +1,15 @@
 # New ports collection makefile for:    lynx
-# Version required:     2.4.1
+# Version required:     2.4.2
 # Date created:         15 Dec 1994
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       lynx2-4-1
-PKGNAME=        lynx-2.4.1
+DISTNAME=       lynx2-4-2
+PKGNAME=        lynx-2.4.2
 CATEGORIES+=	networking
-MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-4-1/
+MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-4-2/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	ache@FreeBSD.ORG
