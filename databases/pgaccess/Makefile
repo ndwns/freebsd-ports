@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	pgaccess-0.67
+DISTNAME=	pgaccess-0.70
 CATEGORIES=	databases
 MASTER_SITES=	http://www.flex.ro/pgaccess/
 
