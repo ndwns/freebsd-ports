@@ -31,6 +31,8 @@
     SUBDIR += p5-Include
     SUBDIR += p5-IniConf
     SUBDIR += p5-Ioctl
+    SUBDIR += p5-Religion
+    SUBDIR += p5-Resources
     SUBDIR += p5-Time
     SUBDIR += tkcvs
     SUBDIR += uulib

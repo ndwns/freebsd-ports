@@ -10,6 +10,9 @@
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
+    SUBDIR += p5-Mail-Folder
+    SUBDIR += p5-Mail-POP3Client
+    SUBDIR += p5-Mail-Tools
     SUBDIR += pgpsendmail
     SUBDIR += pine
     SUBDIR += popclient
