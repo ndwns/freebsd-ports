@@ -17,8 +17,6 @@ MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
 LIB_DEPENDS=	${LIB_INPUT_METHOD}
 
-PATCHDIR=	${.CURDIR}/../onew-wnn4/patches
-FILESDIR=	${.CURDIR}/../onew-wnn4/files
 WRKSRC=		${WRKDIR}/onew
 # A value 'all' must not be set to TARGET.
 ALL_TARGET=	

@@ -10,5 +10,6 @@ PKGNAME=	ja-onew-wnn6-2.2.10
 WNN6=		yes
 
 MASTERDIR=	${.CURDIR}/../onew-wnn4
+PKGDIR=		${.CURDIR}/pkg
 
 .include	"${MASTERDIR}/Makefile"

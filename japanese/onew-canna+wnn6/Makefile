@@ -11,5 +11,6 @@ CANNA=		yes
 WNN6=		yes
 
 MASTERDIR=	${.CURDIR}/../onew-wnn4
+PKGDIR=         ${.CURDIR}/pkg
 
 .include	"${MASTERDIR}/Makefile"

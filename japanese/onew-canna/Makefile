@@ -10,5 +10,6 @@ PKGNAME=	ja-onew-canna-2.2.10
 CANNA=		yes
 
 MASTERDIR=	${.CURDIR}/../onew-wnn4
+PKGDIR=         ${.CURDIR}/pkg
 
 .include	"${MASTERDIR}/Makefile"
