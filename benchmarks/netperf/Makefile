@@ -19,11 +19,11 @@ MAN1=		netperf.1 netserver.1
 post-install:
 	strip ${PREFIX}/netperf/netperf
 	strip ${PREFIX}/netperf/netserver
-	cp ${WRKSRC}/netperf.man ${PREFIX}/man/man1/netperf.1
-	cp ${WRKSRC}/netserver.man ${PREFIX}/man/man1/netserver.1
+	${CP} ${WRKSRC}/netperf.man ${PREFIX}/man/man1/netperf.1
+	${CP} ${WRKSRC}/netserver.man ${PREFIX}/man/man1/netserver.1
 .if !defined(NOPORTDOCS)
-	mkdir -p ${PREFIX}/share/doc/netperf
-	cp ${WRKSRC}/netperf.ps ${PREFIX}/share/doc/netperf
+	${MKDIR} ${PREFIX}/share/doc/netperf
+	${CP} ${WRKSRC}/netperf.ps ${PREFIX}/share/doc/netperf
 	gzip -9nf ${PREFIX}/share/doc/netperf/netperf.ps
 .endif
 

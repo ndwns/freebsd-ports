@@ -14,9 +14,9 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	se@FreeBSD.org
 
 do-install:
-		-mkdir -p $(PREFIX)/lib/bytebench
+		-${MKDIR} $(PREFIX)/lib/bytebench
 		for f in Makefile README Run doc pgms results testdir; \
-			do cp -R $(WRKSRC)/$$f $(PREFIX)/lib/bytebench; done
+			do ${CP} -R $(WRKSRC)/$$f $(PREFIX)/lib/bytebench; done
 		echo "#!/bin/sh"		   >  $(PREFIX)/bin/bytebench
 		echo "TMPDIR=\$${TMPDIR-/var/tmp}" >> $(PREFIX)/bin/bytebench
 		echo "RESULTDIR=/tmp"		   >> $(PREFIX)/bin/bytebench

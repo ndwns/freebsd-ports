@@ -18,7 +18,7 @@ fetch:
 
 pre-clean:
 	@echo "===>  Pre-clean for ${DISTNAME}"
-	@(rm -f ${.CURDIR}/tcpblast)
+	@(${RM} -f ${.CURDIR}/tcpblast)
 	@(cd ${.CURDIR}/src; make clean)
 
 .include <bsd.port.mk>
