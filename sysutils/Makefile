@@ -35,6 +35,7 @@
     SUBDIR += xdu
     SUBDIR += xfsm
     SUBDIR += xloadface
+    SUBDIR += xlogmaster
     SUBDIR += xosview
     SUBDIR += xperfmon
     SUBDIR += xsysinfo
