@@ -10,7 +10,7 @@ DISTNAME=	xmgr-4.1.1
 CATEGORIES=	math print
 MASTER_SITES=	ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller/ \
 		ftp://plasma-gate.weizmann.ac.il/pub/xmgr4/src/old/ \
-		ftp://fire.mpi-stuttgart.mpg.de/pub/mirror/xmgr4/src/old/ \
+		ftp://fire.mpi-stuttgart.mpg.de/pub/mirrors/xmgr4/src/old/ \
 		ftp://wauug.erols.com/pub/X-Windows/xmgr4/src/old/
 
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
