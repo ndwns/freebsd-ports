@@ -11,15 +11,15 @@ CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
 IS_INTERACTIVE=
-NO_PACKAGE=	"Hostname compiled in."
+NO_PACKAGE=	"Hostname compiled in"
 
 pre-patch:
-	@cp ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
-	@cp ${WRKSRC}/config.h.dist ${WRKSRC}/config.h
+	@${CP} ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
+	@${CP} ${WRKSRC}/config.h.dist ${WRKSRC}/config.h
 
 post-install:
 	@mkdir -p ${PREFIX}/wn/wnlogs ${PREFIX}/wn/bin
-	@cp -PR ${WRKSRC}/docs ${PREFIX}/wn
+	@${CP} -PR ${WRKSRC}/docs ${PREFIX}/wn
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wn ${PREFIX}/libexec
 	@install -c -o bin -g bin  ${WRKSRC}/bin/swn ${PREFIX}/sbin
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wndex ${PREFIX}/bin
