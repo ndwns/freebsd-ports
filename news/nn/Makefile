@@ -9,7 +9,7 @@
 DISTNAME=	nn-6.5.0.b3
 MASTER_SITES=	ftp://uniwa.uwa.edu.au/pub/nn/beta/
 
-pre-configure:
+pre-patch:
 	@cp ${WRKSRC}/config.h-dist ${WRKSRC}/config.h
 	@cp ${WRKSRC}/conf/s-386bsd.h ${WRKSRC}/conf/s-freebsd.h
 
