@@ -8,8 +8,8 @@
 
 DISTNAME=	eperl-2.1.1
 CATEGORIES=	lang www perl5
-MASTER_SITES=	ftp://ftp.engelschall.com/sw/ \
-		http://www.engelschall.com/sw/eperl/distrib/
+MASTER_SITES=	http://www.engelschall.com/sw/eperl/distrib/ \
+		ftp://ftp.engelschall.com/sw/
 
 MAINTAINER=	rse@engelschall.com
 
@@ -21,7 +21,7 @@ MAINTAINER=	rse@engelschall.com
 #                        owner of the executed script when operating 
 #                        as a SSSL. Implies usage of SetUID bit!
 #
-#INSTALL_ALSO_AS_SSSL=	yes	# apache's SSL port is currently marked BROKEN
+INSTALL_ALSO_AS_SSSL=	yes
 #ENABLE_UID_SWITCHING=	yes
 
 BUILD_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
