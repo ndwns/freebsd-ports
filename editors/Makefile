@@ -8,7 +8,6 @@
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += emacs20
-    SUBDIR += gvim
     SUBDIR += jed
     SUBDIR += joe
     SUBDIR += jove
@@ -25,8 +24,8 @@
     SUBDIR += uzap
     SUBDIR += vile
     SUBDIR += vilearn
-    SUBDIR += vim
-    SUBDIR += vim5beta
+    SUBDIR += vim4
+    SUBDIR += vim5
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
