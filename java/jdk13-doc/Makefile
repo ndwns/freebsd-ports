@@ -40,6 +40,10 @@ do-install:
 		| (cd ${PREFIX}/jdk1.1.7 && ${TAR} -xf -)
 
 post-install:
-	@${SED} s+!!PREFIX!!+${PREFIX}+g < ${PKGDIR}/MESSAGE
+	@${SED} s+!!PREFIX!!+${PREFIX}+g < ${PKGDIR}/MESSAGE.tmpl > ${PKGDIR}/MESSAGE
+	@${CAT} ${PKGDIR}/MESSAGE
+
+pre-clean:
+	@${RM} -f ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
