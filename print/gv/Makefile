@@ -1,22 +1,20 @@
 # New ports collection makefile for:	gv
-# Version required:	gv_2_7_6
+# Version required:	gv-2.9.4
 # Date created:		16 Apr 1996
-# Whom:			thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:			tg@freebsd.org
 #
 # $Id$
 #
 
-DISTNAME=	gv_2_7_6
-PKGNAME=	gv-2.7.6
+DISTNAME=	gv-2.9.4
 CATEGORIES=	print
-MASTER_SITES=	ftp://iphthf.physik.uni-mainz.de/pub/gv/unix/
+MASTER_SITES=	ftp://thep.physik.uni-mainz.de/pub/gv/
 
 MAINTAINER=	tg@freebsd.org
 
 LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
 
 PATCH_STRIP=	-p1
-WRKSRC=		${WRKDIR}/gv
 USE_IMAKE=	yes
 
 post-install:
