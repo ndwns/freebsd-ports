@@ -107,8 +107,12 @@
 # /home
 =/home
 
-# /lkm
+# /lkm and /modules
 /lkm			R-2
+/modules		R-2
+
+# /boot
+/boot			R-2
 
 # /root
 /root			R-2
