@@ -106,6 +106,7 @@ post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
 		${ECHO} "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."; \
 		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/apache.sh; \
+		${ECHO} "[ -d ${PREFIX}/pgsql/lib ] && ${LDCONFIG} -m ${PREFIX}/pgsql/lib" >> ${PREFIX}/etc/rc.d/apache.sh; \
 		${ECHO} "[ -x ${PREFIX}/sbin/apachectl ] && ${PREFIX}/sbin/apachectl start > /dev/null && ${ECHO} -n ' apache'" >> ${PREFIX}/etc/rc.d/apache.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/apache.sh; \
 	fi
