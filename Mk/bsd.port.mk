@@ -429,6 +429,8 @@ is_depended:	${IS_DEPENDED_TARGET}
 
 .if defined(NO_EXTRACT) && !target(extract)
 extract: checksum
+	@/bin/rm -rf ${WRKDIR}
+	@/bin/mkdir -p ${WRKDIR}
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
 checksum: fetch
 	@${DO_NADA}
