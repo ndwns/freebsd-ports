@@ -17,6 +17,16 @@ USE_IMAKE=	yes
 
 MAN1=		cddbcmd.1 wm2xmcd.1 xmcd.1 cda.1
 
+post-extract:
+	@chmod -R u+w ${WRKSRC}
+
+pre-patch:
+	@${CP} ${WRKSRC}/xmcd_d/XMcd.ad ${WRKSRC}/xmcd_d/XMcd.ad.in
+
+post-patch:
+	@${SED} -e "s;@PREFIX@;${PREFIX};g" ${WRKSRC}/xmcd_d/XMcd.ad.in \
+		> ${WRKSRC}/xmcd_d/XMcd.ad
+
 post-install:
 .for man in cddbcmd.1 wm2xmcd.1 xmcd.1 cda.1
 	${GZIP_CMD} ${PREFIX}/man/man1/${man}
