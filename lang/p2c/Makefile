@@ -9,7 +9,9 @@
 DISTNAME=	p2c-1.21alpha-07.Dec.93
 PKGNAME=	p2c-1.21a
 CATEGORIES=	lang
-MASTER_SITES=	ftp://src.doc.ic.ac.uk/gnu/hurd/
+MASTER_SITES=   ftp://ftp.pal.xgw.fi/pub/gnu/alpha/gnu/ \
+		ftp://ftp.clara.net/pub/mirrors/gnu/hurd/ \
+		ftp://ftp.obspm.fr/pub1/computing/gnu/hurd/
 DISTFILES=	p2c-1.21alpha2.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
