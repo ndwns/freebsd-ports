@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += 4va
     SUBDIR += EZWGL
     SUBDIR += ImageMagick
     SUBDIR += Mesa2
