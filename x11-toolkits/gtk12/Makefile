@@ -22,7 +22,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11
 
-MAN1=		gtk11-config.1
+MAN1=		gtk-config.1
 
 pre-install:
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
