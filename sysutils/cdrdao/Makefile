@@ -10,7 +10,7 @@
 
 DISTNAME=		cdrdao-1.1.0.src
 PKGNAME=		cdrdao-1.1.0
-CATEGORIES=		cdrdao
+CATEGORIES=		audio
 MASTER_SITES=		http://www.ping.de/sites/daneb/
 
 MAINTAINER=		futatuki@fureai.or.jp
