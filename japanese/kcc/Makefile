@@ -9,7 +9,7 @@
 DISTNAME=	kcc
 PKGNAME=	ja-kcc-1.0
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
+MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/incoming/distfiles/
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
