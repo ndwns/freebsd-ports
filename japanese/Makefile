@@ -30,6 +30,7 @@
     SUBDIR += less
     SUBDIR += man
     SUBDIR += man-doc
+    SUBDIR += mew
     SUBDIR += mh
     SUBDIR += mimekit
     SUBDIR += mnews
@@ -57,6 +58,7 @@
     SUBDIR += vfghostscript4
     SUBDIR += vflib
     SUBDIR += vfxdvi
+    SUBDIR += w3
     SUBDIR += xbakuzan
     SUBDIR += xdvi
 
