@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	gifsicle-1.9.1
+DISTNAME=	gifsicle-1.11.1
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.lcdf.org/gifsicle/
+MASTER_SITES=	http://www.lcdf.org/gifsicle/ \
+		http://www.freebsd.org/~flathill/distfiles/
 
 MAINTAINER=	bradh@iafrica.com
 
