@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ezbounce
-# Version required: 	0.81
+# Version required: 	0.85
 # Date created:	 	19 February 1999
 # Whom:			Chris Piazza <cpiazza@home.net>
 #
 # $Id$
 #
 
-DISTNAME=	ezbounce-0.81
+DISTNAME=	ezbounce-0.85
 CATEGORIES=	net
 MASTER_SITES=  	http://druglord.freelsd.org/ezbounce/ \
 		http://irc.themes.org/downloads/misc/
