@@ -16,6 +16,7 @@ MAINTAINER=	jmacd@FreeBSD.ORG
 
 BROKEN_ELF=	yes
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 
 post-install:
