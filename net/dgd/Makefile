@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	dgd-1.1p4
+DISTNAME=	dgd-1.1p5
 DISTFILES=	dgd-1.1.tar.gz
 CATEGORIES=	net lang
 MASTER_SITES=	ftp://ftp.imaginary.com/pub/LPC/servers/DGD/ \
@@ -21,7 +21,8 @@ PATCH_SITES=	ftp://ftp.imaginary.com/pub/LPC/servers/DGD/patches/ \
 PATCHFILES=	1.1p1.gz \
 		1.1p2.gz \
 		1.1p3.gz \
-		1.1p4.gz
+		1.1p4.gz \
+		1.1p5.gz
 
 MAINTAINER=	adam@veda.is
 
