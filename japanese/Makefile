@@ -61,6 +61,7 @@
     SUBDIR += mimekit
     SUBDIR += mmm
     SUBDIR += mnews
+    SUBDIR += mtools
     SUBDIR += mule-canna
     SUBDIR += mule-canna+sj3
     SUBDIR += mule-canna+sj3+wnn4
