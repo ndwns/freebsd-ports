@@ -15,7 +15,6 @@
     SUBDIR += ines
     SUBDIR += linux_base
     SUBDIR += linux_glide
-    SUBDIR += linux_lib
     SUBDIR += linux_mesa
     SUBDIR += macutils
     SUBDIR += mastergear
