@@ -1,14 +1,14 @@
 # New ports collection makefile for:	mpd
-# Version required:			1.0b3
-# Date created:				16 May 1997
+# Version required:			1.0b4
+# Date created:				10 September 1997
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=		mpd-1.0b3
+DISTNAME=		mpd-1.0b4
 CATEGORIES=		net
-MASTER_SITES=		${MASTER_SITE_LOCAL}
+MASTER_SITES=		ftp://ftp.whistle.com/pub/archie/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
@@ -18,7 +18,7 @@ OSVERSION!=     sysctl -n kern.osreldate
 BROKEN=			if_tun.h
 .endif
 
-WRKSRC=			${WRKDIR}/mpd-1.0b3/src
+WRKSRC=			${WRKDIR}/mpd-1.0b4/src
 ALL_TARGET=		depend all
 MAN1=			mpd.1
 
