@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	BLT2.4f
-PKGNAME=	blt-2.4f
+DISTNAME=	BLT2.4h
+PKGNAME=	blt-2.4h
 CATEGORIES=	x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.tcltk.com/pub/blt/
 
@@ -15,7 +15,7 @@ MAINTAINER=	kjc@csl.sony.co.jp
 
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-WRKSRC=		${WRKDIR}/blt2.4f
+WRKSRC=		${WRKDIR}/blt2.4h
 GNU_CONFIGURE=	yes
 MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
 		dragdrop.n eps.n graph.n htext.n hierbox.n spline.n \
@@ -31,7 +31,7 @@ SO_VERSION=	2.4
 .endif
 
 post-install:
-	${LN} -sf libBLT.so.${SO_VERSION} ${PREFIX}/lib/libBLT.so
+        ${LN} -sf libBLT24.so.${SO_VERSION} ${PREFIX}/lib/libBLT24.so
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.post.mk>
