@@ -35,6 +35,7 @@
     SUBDIR += doc++
     SUBDIR += elftoaout
     SUBDIR += f77flow
+    SUBDIR += fastcrc
     SUBDIR += flick
     SUBDIR += fpp
     SUBDIR += ftnchek
