@@ -74,7 +74,7 @@ while [ "$1" ]; do
 		if [ "x${WITH_SNMP_4}" != "x" ]; then
 			echo 'LIB_DEPENDS+=snmp.4:${PORTSDIR}/net-mgmt/net-snmp4:install'
 		else
-			echo 'LIB_DEPENDS+=netsnmp.6:${PORTSDIR}/net-mgmt/net-snmp:install'
+			echo 'LIB_DEPENDS+=netsnmp.7:${PORTSDIR}/net-mgmt/net-snmp:install'
 		fi
 		;;
 	TCPMD5)
