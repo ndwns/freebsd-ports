@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://apostols.org/AposTools/snapshots/  \
 		ftp://freebsd.ntu.edu.tw/freebsd/_distfiles/
 DISTFILES=	queso-980922.tar.gz
 
-MAINTAINER=	woju@freebsd.ee.ntu.edu.tw
+MAINTAINER=	obrien@FreeBSD.org
 
 GNU_CONFIGURE=  yes
 
