@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       ecu-3.55
-CATEGORIES+=	comms
+CATEGORIES=	comms
 MASTER_SITES=   ftp://ftp.relcom.ru/unix/comm/
 #MASTER_SITES=   ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/Communications/
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	bpl+
 PKGNAME=	bpl+-1.0
-CATEGORIES+=	comms
+CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/telnet/telnetx/
 
 MAINTAINER=	max@FreeBSD.ORG

@@ -7,15 +7,14 @@
 #
 
 DISTNAME=	mgetty-0.99
-CATEGORIES+=	comms
+CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.leo.org/pub/comp/networking/communication/modem/mgetty/
 DISTFILES=	mgetty099-Aug07.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
-MAKE_FLAGS=	prefix=${PREFIX} -f 
-
 IS_INTERACTIVE= yes
+MAKE_FLAGS=	prefix=${PREFIX} -f 
 
 pre-install:
 	@(cd ${WRKSRC}/doc; ${GMAKE} manpages)

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xcept-2.1.2
-CATEGORIES+=	comms
+CATEGORIES=	comms
 MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     joerg@FreeBSD.ORG

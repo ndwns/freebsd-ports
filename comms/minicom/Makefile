@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	minicom-1.75
-CATEGORIES+=	comms
+CATEGORIES=	comms
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/apps/comm/ \
 		ftp://ftp.yggdrasil.com/mirrors/sunsite/apps/comm/
 
