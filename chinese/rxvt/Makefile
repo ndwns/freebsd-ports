@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.math.fu-berlin.de/pub/rxvt/devel/
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
+RUN_DEPENDS=	${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin
+
 USE_X11=        yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --enable-big5=yes --enable-xcin=yes
