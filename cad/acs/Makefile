@@ -14,6 +14,6 @@ MASTER_SITES=	ftp://mammoth.lle.rochester.edu/pub/local/acs/ \
 		ftp://ee.rochester.edu/pub/acs/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@freebsd.org
 
 .include <bsd.port.mk>
