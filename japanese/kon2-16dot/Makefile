@@ -17,7 +17,7 @@ DISTFILES=	kon2-0.3.tar.gz k14.bdf 7x14rk.bdf
 MAINTAINER=	hideyuki@sat.t.u-tokyo.ac.jp
 
 MAN1=		kon.1
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 EXTRACT_ONLY=	kon2-0.3.tar.gz
 
 DOCDIR=		${PREFIX}/share/doc/kon2
@@ -29,7 +29,7 @@ pre-build:
 	@(cd ${WRKSRC}; ${MAKE} -f Makefile.FreeBSD config)
 
 post-install:
-	@${INSTALL_MAN} ${WRKSRC}/doc/kon.1 ${PREFIX}/man/ja_JP.EUC/man1
+	@${INSTALL_MAN} ${WRKSRC}/doc/kon.1 ${PREFIX}/man/ja/man1
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${DOCDIR}
 	@${INSTALL_DATA} ${WRKSRC}/doc/README ${WRKSRC}/doc/README.FreeBSD \
