@@ -4,6 +4,7 @@
     SUBDIR += acm
     SUBDIR += an
     SUBDIR += angband
+    SUBDIR += block
     SUBDIR += cgoban
     SUBDIR += crossfire
     SUBDIR += dontspace
