@@ -18,6 +18,8 @@ BUILD_DEPENDS=		python:${PORTSDIR}/lang/python
 RUN_DEPENDS=		python:${PORTSDIR}/lang/python
 LIB_DEPENDS=		pq\\.1\\.:${PORTSDIR}/databases/postgresql
 
+BROKEN=			build
+
 WRKSRC=			${WRKDIR}
 HAS_CONFIGURE=		YES
 GNU_CONFIGURE=		YES
