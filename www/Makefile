@@ -20,6 +20,7 @@
     SUBDIR += comline
     SUBDIR += fxhtml
     SUBDIR += gn
+    SUBDIR += grail
     SUBDIR += gwstat
     SUBDIR += harvest
     SUBDIR += http-analyze
