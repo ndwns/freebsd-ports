@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	libwmf-0.1.11
+DISTNAME=	libwmf-0.1.14
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.csn.ul.ie/~caolan/publink/libwmf/
 
