@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SSLtelnet
+    SUBDIR += am-utils
     SUBDIR += archie
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
