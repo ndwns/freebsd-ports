@@ -12,13 +12,18 @@ CATEGORIES+=	japanese
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/
 DISTFILES=	kon-0.99.4e.tgz
 
+.if !defined(MASTER_SITE_OVERRIDE)
 FONT_SITE=	ftp://ftp.iij.ad.jp/pub/X/XFree86/XFree86/3.1.1/untarred/xc/fonts/bdf/misc/
 FONTFILES=	k14.bdf 7x14rk.bdf
+.else
+DISTFILES +=	k14.bdf 7x14rk.bdf
+.endif
 
 MAINTAINER=	asami@FreeBSD.ORG
 
 USE_GMAKE=	yes
 
+.if !defined(MASTER_SITE_OVERRIDE)
 pre-fetch: 
 	@(cd ${DISTDIR}; \
 	for file in ${FONTFILES} ; do \
@@ -28,6 +33,7 @@ pre-fetch:
 			fi \
 		fi \
 	done)
+.endif
 
 post-configure:
 	sed -e 's%%CURDIR%%${.CURDIR}' \
