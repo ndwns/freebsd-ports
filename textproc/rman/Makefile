@@ -1,12 +1,12 @@
 # New ports collection makefile for:	rman
-# Version required:     3.0.4
+# Version required:     3.0.5
 # Date created:         27 Dec 1994
 # Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=       rman-3.0.4
+DISTNAME=       rman-3.0.5
 CATEGORIES=	textproc
 MASTER_SITES=   ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
