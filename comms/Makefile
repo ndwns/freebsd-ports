@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += atp
     SUBDIR += bpl+
     SUBDIR += conserver
     SUBDIR += ecu
