@@ -14,6 +14,8 @@ DISTFILES=	nologin.c nologin.8
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
+BROKEN=		no Makefile
+
 DIST_SUBDIR=	nologin
 NO_WRKSUBDIR=	YES
 ALL_TARGET=	nologin
