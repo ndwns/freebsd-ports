@@ -20,11 +20,12 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 
 MAINTAINER=     ports@freebsd.org
 
-BROKEN=		strip
-
-# install things in ${LOCALBASE}/palm to avoid conflicts
+# install things in ${LOCALBASE}/pilot to avoid conflicts
 PREFIX=		${LOCALBASE}/pilot
 WRKSRC=		${WRKDIR}/${PKGNAME}
+
+# argh... mtree happens before we can mkdir ${PREFIX} ! :-(
+NO_MTREE=	yes
 
 USE_PERL5=	yes
 ALL_TARGET=	gnutools all
@@ -48,7 +49,6 @@ STRIP=		build-prc \
 		m68k-palmos-coff-ar \
 		m68k-palmos-coff-as \
 		m68k-palmos-coff-c++filt \
-		m68k-palmos-coff-exportlist \
 		m68k-palmos-coff-gasp \
 		m68k-palmos-coff-gcc \
 		m68k-palmos-coff-gdb \
@@ -61,14 +61,15 @@ STRIP=		build-prc \
 		m68k-palmos-coff-size \
 		m68k-palmos-coff-strings \
 		m68k-palmos-coff-strip \
-		m68k-palmos-coff-stubgen \
 		pilrc \
 		txt2bitm
-
 
 # after we apply freebsd patches, apply prc-tool's patches to gcc/gdb/...
 post-patch:
 		(cd ${WRKSRC} ; make patch)
+
+pre-install:
+		-test -d ${PREFIX} || mkdir ${PREFIX}
 
 # the info files are redundant
 post-install:
