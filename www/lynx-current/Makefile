@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.7.1ac-0.108
-PKGNAME=        lynx-2.7.1ac-0.108
+DISTNAME=       lynx2.7.1ac-0.110
+PKGNAME=        lynx-2.7.1ac-0.110
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
@@ -18,6 +18,7 @@ WRKSRC=         ${WRKDIR}/lynx2-7-1
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
 MAKEFILE=       makefile
+INSTALL_TARGET= install install-help
 MAN1=		lynx.1
 
 .include <bsd.port.mk>
