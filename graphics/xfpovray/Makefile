@@ -15,7 +15,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	xforms\\.0\\.88:${PORTSDIR}/x11-toolkits/xforms
+BROKEN_ELF=	xforms is a.out only
+
+LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
 
 USE_IMAKE=	yes

@@ -13,7 +13,9 @@ DISTFILES=	geomview-1.6.1-src.tar.gz
 
 MAINTAINER=	fenner@freebsd.org
 
-LIB_DEPENDS=	xforms\\.0:${PORTSDIR}/x11-toolkits/xforms \
+BROKEN_ELF=	xforms is a.out only
+
+LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		MesaGL\\.13:${PORTSDIR}/graphics/Mesa2 \
 		tk42.1:${PORTSDIR}/x11-toolkits/tk42
 

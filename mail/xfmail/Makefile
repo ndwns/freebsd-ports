@@ -13,8 +13,10 @@ MASTER_SITES=	ftp://burka.netvision.net.il/pub/xfmail/
 
 MAINTAINER=	gena@NetVision.net.il
 
+BROKEN_ELF=	xforms is a.out only
+
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
-		xforms\\.0\\.88\\.1:${PORTSDIR}/x11-toolkits/xforms
+		xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

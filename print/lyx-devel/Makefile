@@ -13,12 +13,14 @@ MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/stable/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN_ELF=	xforms is a.out only
+
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 .if defined(WITH_ISPELL)
 RUN_DEPENDS+=	ispell:${PORTSDIR}/textproc/ispell
 .endif
-LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms \
+LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes

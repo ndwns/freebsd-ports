@@ -16,7 +16,9 @@ EXTRACT_SUFX=	-source.tgz
 
 MAINTAINER=	giffunip@asme.org
 
-LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
+BROKEN_ELF=	xforms is a.out only
+
+LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
 WRKSRC=		${WRKDIR}/xldlas
 

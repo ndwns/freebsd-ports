@@ -13,7 +13,9 @@ MASTER_SITE_SUBDIR=	games/strategy
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
+BROKEN_ELF=		xforms is a.out only
+
+LIB_DEPENDS=		xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
 USE_X_PREFIX=		yes
 
