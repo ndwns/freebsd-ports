@@ -9,8 +9,10 @@
 DISTNAME=		ncurses-4.2
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNU} \
-			ftp://ftp.clark.net/pub/dickey/ncurses/
+			ftp://ftp.clark.net/pub/dickey/ncurses/4.2/
 MASTER_SITE_SUBDIR=	ncurses
+DISTFILES=		${DISTNAME}${EXTRACT_SUFX} terminfo.src.gz
+EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=		andy@icc.surw.chel.su
 
@@ -52,6 +54,11 @@ CONFIGURE_ARGS=	--datadir=${PREFIX}/share/misc --disable-overwrite \
 CONFIGURE_ENV=		gnat_exists="no" ac_cv_path_LDCONFIG="${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib"
 
 .include <bsd.port.pre.mk>
+
+post-extract:
+	@ ${RM} ${WRKSRC}/misc/terminfo.src
+	@ ${CP} ${DISTDIR}/terminfo.src.gz ${WRKSRC}/misc
+	@ ${GUNZIP_CMD} ${WRKSRC}/misc/terminfo.src.gz
 
 post-install:
 .if ${PORTOBJFORMAT} == "aout"
