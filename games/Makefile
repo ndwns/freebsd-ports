@@ -43,6 +43,7 @@
     SUBDIR += netris
     SUBDIR += oneko
     SUBDIR += oonsoo
+    SUBDIR += pente
     SUBDIR += qcc
     SUBDIR += quakeserver
     SUBDIR += seabattle
