@@ -16,6 +16,7 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 MAINTAINER=	vanilla@FreeBSD.ORG
 
 BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
+RUN_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	glib11d.1:${PORTSDIR}/devel/glib11-devel
 
 USE_X_PREFIX=	yes
@@ -27,7 +28,8 @@ USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c' \
 		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
-		CPPFLAGS="-I${LOCALBASE}/include"
+		CPPFLAGS="-I${LOCALBASE}/include" \
+		LIBS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11d
 
 post-install:
