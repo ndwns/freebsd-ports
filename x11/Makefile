@@ -18,6 +18,7 @@
     SUBDIR += emu
     SUBDIR += enlightenment
     SUBDIR += etlfonts
+    SUBDIR += explorer
     SUBDIR += fbsd-icons
     SUBDIR += filerunner
     SUBDIR += freefonts
