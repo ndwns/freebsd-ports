@@ -9,8 +9,6 @@
 PKGNAME=	ja-mule-wnn6-2.3
 CATEGORIES=	japanese editors
 
-BROKEN_ELF=	yes
-
 WNN6=		yes
 
 .include "${.CURDIR}/../../editors/mule/Makefile"

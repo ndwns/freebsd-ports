@@ -9,8 +9,6 @@
 PKGNAME=	ja-mule-canna+wnn6-2.3
 CATEGORIES=	japanese editors
 
-BROKEN_ELF=	yes
-
 CANNA=		yes
 WNN6=		yes
 

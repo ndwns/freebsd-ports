@@ -9,8 +9,6 @@
 PKGNAME=	ja-mule-sj3+wnn6-2.3
 CATEGORIES=	japanese editors
 
-BROKEN_ELF=	yes
-
 SJ3=		yes
 WNN6=		yes
 
