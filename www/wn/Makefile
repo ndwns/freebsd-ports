@@ -22,7 +22,7 @@ post-install:
 	@cp -PR ${WRKSRC}/docs ${PREFIX}/wn
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wn ${PREFIX}/libexec
 	@install -c -o bin -g bin  ${WRKSRC}/bin/swn ${PREFIX}/sbin
-	@install -c -o bin -g bin  ${WRKSRC}/bin/wndex ${PREFIX}/sbin
+	@install -c -o bin -g bin  ${WRKSRC}/bin/wndex ${PREFIX}/bin
 	@if [ -s ${PREFIX}/etc/wn_mime.types ]; then \
 	    cmp -s ${PREFIX}/etc/wn_mime.types ${WRKSRC}/lib/mime.types || \
 		echo Warning: new ${PREFIX}/etc/wn_mime.types not installed; \
