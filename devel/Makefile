@@ -40,6 +40,9 @@
     SUBDIR += p5-Data-Dumper
     SUBDIR += p5-Data-Flow
     SUBDIR += p5-Date-Manip
+    SUBDIR += p5-Devel-DProf
+    SUBDIR += p5-Devel-Peek
+    SUBDIR += p5-Devel-Symdump
     SUBDIR += p5-File-BasicFlock
     SUBDIR += p5-File-Lock
     SUBDIR += p5-File-Slurp

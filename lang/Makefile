@@ -31,6 +31,7 @@
     SUBDIR += modula-3-socks
     SUBDIR += moscow_ml
     SUBDIR += ocaml
+    SUBDIR += p5-Tcl
     SUBDIR += p2c
     SUBDIR += pbasic
     SUBDIR += perl5

@@ -34,6 +34,7 @@
     SUBDIR += mlvwm
     SUBDIR += neXtaw
     SUBDIR += olvwm
+    SUBDIR += p5-Tcl-Tk
     SUBDIR += p5-Tk
     SUBDIR += piewm
     SUBDIR += pythonqt
