@@ -12,6 +12,7 @@
     SUBDIR += ecc
     SUBDIR += fd
     SUBDIR += fep
+    SUBDIR += figlet
     SUBDIR += git
     SUBDIR += glimpse
     SUBDIR += ical
