@@ -12,7 +12,7 @@ CATEGORIES=	devel gnome
 MASTER_SITES=	http://gide.gdev.net/ \
 		http://gide.pn.org/
 
-MAINTAINER=	cpiazza@FreeBSD.org
+MAINTAINER=	ports@FreeBSD.org
 
 LIB_DEPENDS=	gnomeui.2:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
