@@ -19,9 +19,10 @@ MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Tk/ \
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/include/tk.h:${PORTSDIR}/x11/tk41 \
 		${PREFIX}/lib/perl5/site_perl/HTML/Parse.pm:${PORTSDIR}/www/p5-libwww \
 		${PREFIX}/lib/perl5/site_perl/IO.pm:${PORTSDIR}/net/p5-IO
+
+LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
