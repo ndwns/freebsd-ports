@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 
 MAINTAINER=	andreas@FreeBSD.org
 
-BROKEN=		package
-
 # you might need debugging, it's a developer release !
 #CFLAGS+=	-g
 GNU_CONFIGURE=	yes
