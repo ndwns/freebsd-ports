@@ -17,7 +17,6 @@ RUN_DEPENDS=	expect:${PORTSDIR}/lang/expect
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/dejagnu
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	i386-freebsd
 STRIP=
 MAN1=		runtest.1
 

@@ -18,6 +18,7 @@ LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	LDFLAGS="-L/usr/local/lib"
+CONFIGURE_TARGET=	# empty
 MAN1=		kaffe.1
 
 post-install:

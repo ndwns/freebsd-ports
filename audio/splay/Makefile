@@ -15,7 +15,7 @@ MASTER_SITES=		http://cain.kaist.ac.kr/~jwj95/
 MAINTAINER=		junker@jazz.snu.ac.kr
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS=		i386--freebsd --without-xsplay --without-pthread
+CONFIGURE_ARGS=		--without-xsplay --without-pthread
 MAN1=			splay.1
 
 .include <bsd.port.mk>

@@ -46,8 +46,9 @@ PATCH_DIST_STRIP?=	-p1
 PLIST_SUB=	EGCS_REV=${EGCS_REV} GNU_HOST=${GNUHOST}
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld ${GNUHOST} \
+CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld \
 		--with-gxx-include-dir=${PREFIX}/lib/gcc-lib/${GNUHOST}/${EGCS_REV}/include/g++
+CONFIGURE_TARGET=	${GNUHOST}
 ALL_TARGET=	bootstrap
 MAN1=		cccp.1 g++.1 g77.1 gcc.1
 

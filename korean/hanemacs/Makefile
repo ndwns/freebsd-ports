@@ -17,8 +17,9 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 WRKSRC=		${WRKDIR}/hanemacs-19.34
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit \
+CONFIGURE_ARGS=	--with-x-toolkit \
 		--sharedstatedir=/var/run
+CONFIGURE_TARGET=	${MACHINE_ARCH}--freebsd
 STRIP=
 MAN1=		emacs.1 etags.1 ctags.1
 

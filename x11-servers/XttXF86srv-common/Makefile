@@ -9,8 +9,8 @@
 DISTNAME=	xc
 PKGNAME?=	xtt-common-1.1
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.3/source/ \
-		ftp://xfree86.cdrom.com/pub/XFree86/3.3.3/source/ \
+MASTER_SITES=	ftp://xfree86.cdrom.com/pub/XFree86/3.3.3/source/ \
+		ftp://ftp.xfree86.org/pub/XFree86/3.3.3/source/ \
 		http://hawk.ise.chuo-u.ac.jp/student/person/tshiozak/x-tt/dists/1.x/
 DISTFILES=	X333src-1.tgz X333src-2.tgz \
 		xtt-1.1.tar.gz xttdoc11-to-pl01.diff.gz

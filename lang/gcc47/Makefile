@@ -44,6 +44,7 @@ CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld ${GNUHOST} \
 .if defined(WANT_SHAREDLIBS)
 CONFIGURE_ARGS+= --enable-shared
 .endif
+CONFIGURE_TARGET=	# empty
 ALL_TARGET=	bootstrap
 MAN1=		cccp.1 g++.1 g77.1 gcc.1
 

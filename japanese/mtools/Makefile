@@ -19,6 +19,7 @@ EXTRACT_ONLY=	mtools-3.6.tar.gz
 
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS=	--enable-xdf
+CONFIGURE_TARGET=	# empty
 
 USE_GMAKE=	yes
 

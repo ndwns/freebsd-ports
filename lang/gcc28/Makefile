@@ -28,6 +28,7 @@ CONFIGURE_ARGS=	--with-gxx-include-dir=${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/in
 CONFIGURE_ARGS+=	--host=${GNUHOST}
 .endif
 GNU_CONFIGURE=	yes
+CONFIGURE_TARGET=	# empty
 USE_GMAKE=	yes
 ALL_TARGET=	bootstrap
 MAN1=		cccp28.1 g++28.1 gcc28.1

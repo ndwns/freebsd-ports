@@ -58,15 +58,15 @@ BROKEN=		You should build install one of the other mule ports first
 INSTALL_COOKIE=	${WRKDIR}/.install_done-${PKGNAME}
 PACKAGE_COOKIE=	${WRKDIR}/.package_done-${PKGNAME}
 TMPPLIST=	${WRKDIR}/.PLIST.mktmp-${PKGNAME}
-EMACS_ARCH=	${MACHINE_ARCH}--freebsd
-PLIST_SUB=	EMACS_VERSION=19.34 EMACS_ARCH=${EMACS_ARCH}
+CONFIGURE_TARGET=	${MACHINE_ARCH}--freebsd
+PLIST_SUB=	EMACS_VERSION=19.34 EMACS_ARCH=${CONFIGURE_TARGET}
 
 USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 EMACS_PREFIX=	mule
 EMACS_EXECUTABLE =	mule
-CONFIGURE_ARGS=	${EMACS_ARCH} --with-executable=${EMACS_EXECUTABLE} \
+CONFIGURE_ARGS=	--with-executable=${EMACS_EXECUTABLE} \
 		--with-emacs-prefix=${EMACS_PREFIX} \
 		--with-terminal-face \
 		--x-includes=${X11BASE}/include --x-libraries=${X11BASE}/lib

@@ -20,6 +20,7 @@ WRKSRC=		${WRKDIR}/erlang-47.4.1
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
+CONFIGURE_TARGET=	# empty
 
 STRIP=
 

@@ -13,6 +13,7 @@ MASTER_SITES=   ftp://ftp.cygnus.com/pub/green/
 MAINTAINER=     horance@freedom.ie.cycu.edu.tw
 
 GNU_CONFIGURE=  yes
+CONFIGURE_TARGET=	# empty
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib

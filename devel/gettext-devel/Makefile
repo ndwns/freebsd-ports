@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://alpha.gnu.ai.mit.edu/gnu/
 MAINTAINER=	nacai@iname.com
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	i386--freebsd --with-gnu-gettext
+CONFIGURE_ARGS=	--with-gnu-gettext
 
 pre-configure:
 	${RM} ${WRKSRC}/doc/gettext.info*
