@@ -16,6 +16,8 @@ DISTFILES=      ${TIINS} ${DISTNAME}.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+NO_CDROM=       "Uses copyrighted patches"
+
 BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
 EXTRACT_ONLY=   ${DISTNAME}.tar.gz
