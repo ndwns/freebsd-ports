@@ -8,7 +8,9 @@
 
 DISTNAME=	checkpassword-0.81
 CATEGORIES=	security
-MASTER_SITES=	ftp://koobera.math.uic.edu/www/software/
+MASTER_SITES=	ftp://koobera.math.uic.edu/www/software/ \
+		http://WWW.FreeBSD.ORG/~sada/distfiles/ \
+		http://WWW.jp.FreeBSD.ORG/~sada/distfiles/
 
 MAINTAINER=	sada@FreeBSD.ORG
 
