@@ -17,8 +17,8 @@ CONFIGURE_ARGS= --enable-opie
 CONFIGURE_ENV=  LDFLAGS="${CFLAGS}"
 MAN1=		fetchmail.1
 
-.if exists(/usr/lib/libkrb.a) && (defined(MAKE_EBONES) || defined(MAKE_KERBEROS4))
-CONFIGURE_ARGS += --with-kerberos=/usr/include/kerberosIV
+.if exists(/usr/lib/libkrb.a) && defined(MAKE_KERBEROS4)
+CONFIGURE_ARGS += --with-kerberos=/usr/include
 .endif
 
 FDOC=   ${PREFIX}/share/doc/fetchmail
