@@ -132,10 +132,10 @@ post-install:
 # Following stuff must be after <bsd.port.mk> to expand exists() properly
 
 .if defined(USE_PERL) && ${USE_PERL} == YES || \
-    exists(${PREFIX}/bin/perl5.00404) && \
+    exists(${PREFIX}/bin/perl5.00502) && \
     (!defined(USE_PERL) || ${USE_PERL} != NO)
-BUILD_DEPENDS+= perl5.00404:${PORTSDIR}/lang/perl5
-CONFIGURE_ENV+= PERL=${PREFIX}/bin/perl5.00404
+BUILD_DEPENDS+= perl5.00502:${PORTSDIR}/lang/perl5
+CONFIGURE_ENV+= PERL=${PREFIX}/bin/perl5.00502
 .else
 CONFIGURE_ENV+= PERL=/replace_it_with_PERL_path
 .endif
