@@ -1,5 +1,5 @@
 # New ports collection makefile for: xdvi-17miyu + patches + vector font library
-# Version required:	1.7
+# Version required:	pl17
 # Date created:		8 Nov 1996
 # Whom:			Mita Yoshio <mita@jp.FreeBSD.org>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xdvi-17
-PKGNAME=	jp-vfxdvi${RESOLUTION}-1.7
+PKGNAME=	jp-vfxdvi${RESOLUTION}-17
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi17/ \
 		ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi18/ \
