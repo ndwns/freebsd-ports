@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	ALPHA/wine/development
 
 MAINTAINER=	se@FreeBSD.ORG
 
-BROKEN_ELF=	bitopts.h
+BROKEN=		treeview.c
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
