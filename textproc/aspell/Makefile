@@ -1,13 +1,13 @@
 # New ports collection makefile for:	aspell
-# Version required:	0.27.2
+# Version required:	0.28.2.1
 # Date created:		7 December 1998
 # Whom:			Josh Gilliam <josh@quick.net>
 #
 # $Id$
 #
 
-DISTNAME=	aspell-.27.2
-PKGNAME=	aspell-0.27.2
+DISTNAME=	aspell-.28.2.1
+PKGNAME=	aspell-0.28.2.1
 CATEGORIES=	textproc
 MASTER_SITES=	http://metalab.unc.edu/kevina/aspell/ \
 		ftp://ftp.kddlabs.co.jp/pub/Tools/aspell/ \
@@ -15,8 +15,14 @@ MASTER_SITES=	http://metalab.unc.edu/kevina/aspell/ \
 
 MAINTAINER=	ade@lovett.com
 
-USE_NEWGCC=	yes
-GNU_CONFIGURE=	yes
+# As and when gcc-2.95.1 becomes the 4.x system compiler, we can
+# remove this and uncomment USE_NEWGCC
+BUILD_DEPENDS=	g++295:${PORTSDIR}/lang/egcs
+
+CC=		gcc295
+CXX=		g++295
+#USE_NEWGCC=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CXXFLAGS} -I${WRKSRC}"
 USE_GMAKE=	yes
 MAKE_ARGS=	NOPORTDOCS=${NOPORTDOCS}
