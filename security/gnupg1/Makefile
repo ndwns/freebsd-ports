@@ -14,9 +14,11 @@ MASTER_SITES=	ftp://ftp.guug.de/pub/gcrypt/ \
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
+BROKEN='{standard input}: Assembler messages: Error: Alignment not a power of 2'
+
 RESTRICTED=	"Crypto; export-controlled"
 
-USE_AUTOCONF=	YES
+GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-included-gettext
 
 MAN1=		gpg.1
