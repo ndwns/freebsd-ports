@@ -48,6 +48,7 @@ pre-install:
 	@${INSTALL_DATA} ${WRKLIB}/texmf.cnf ${PREFIX}/share/texmf/web2c
 
 post-install:
+	${RM} ${PREFIX}/bin/install-info
 	${INSTALL_INFO} ${PREFIX}/info/latex ${PREFIX}/info/dir
 	${INSTALL_INFO} ${PREFIX}/info/kpathsea.info ${PREFIX}/info/dir
 	${INSTALL_INFO} ${PREFIX}/info/dvips.info ${PREFIX}/info/dir
