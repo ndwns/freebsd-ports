@@ -102,7 +102,8 @@ CONFIGURE_ENV+= WISH=/replace_it_with_WISH_path
 .if defined(USE_TCPWRAP) && ${USE_TCPWRAP} == YES || \
     exists(${PREFIX}/lib/libwrap.a) && \
     (!defined(USE_TCPWRAP) || ${USE_TCPWRAP} != NO)
-BUILD_DEPENDS+= ${PREFIX}/lib/libwrap.a:${PORTSDIR}/security/tcp_wrapper
+CONFIGURE_ENV+= LDFLAGS=-L${PREFIX}/lib CFLAGS="${CFLAGS} -I${PREFIX}/include"
 CONFIGURE_ARGS+= --with-libwrap
+LIB_DEPENDS+=   wrap\\.7\\.:${PORTSDIR}/security/tcp_wrapper
 .endif
 
