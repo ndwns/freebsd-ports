@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	bbmail-0.5.0
+DISTNAME=	bbmail-0.5.1
 CATEGORIES=	mail
 MASTER_SITES=	http://bbtools.windsofstorm.net/sources/
 
