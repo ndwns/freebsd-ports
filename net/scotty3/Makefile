@@ -1,7 +1,7 @@
 # New ports collection makefile for:	scotty
 # Version required:	1.2.0
 # Date created:		18 Februar 1995
-# Whom:			gena
+# Whom:			Gennady Sorokopud <gena@netvision.net.il>
 #
 # $Id$
 #
