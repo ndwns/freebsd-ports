@@ -19,6 +19,8 @@ LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
 		esd.0:${PORTSDIR}/audio/esound \
 		ghttp.0:${PORTSDIR}/www/libghttp
 
+BROKEN=	'gnome-core-0.99.2 is the currently available'
+
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
