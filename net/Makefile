@@ -182,6 +182,7 @@
     SUBDIR += trafshow
     SUBDIR += ttcp
     SUBDIR += ttt
+    SUBDIR += tund
     SUBDIR += ucd-snmp
     SUBDIR += vnc
     SUBDIR += wais
