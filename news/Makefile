@@ -3,6 +3,7 @@
 
     SUBDIR += cnews
     SUBDIR += inn
+    SUBDIR += inn-current
     SUBDIR += knews
     SUBDIR += nn
     SUBDIR += nn-current
