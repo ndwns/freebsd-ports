@@ -14,10 +14,6 @@ MAINTAINER=	ports@FreeBSD.org
 
 MAKEFILE=	makefile
 GNU_CONFIGURE=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/vile.1
-.endif
+MAN1=		vile.1
 
 .include <bsd.port.mk>

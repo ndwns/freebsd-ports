@@ -21,11 +21,11 @@ IS_INTERACTIVE=	yes	# asks "ok?" about license
 pre-install:
 	@/usr/bin/env PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
 do-install:
-	mkdir -p ${PREFIX}/lib/e93 ${PREFIX}/share/doc/e93
+	${MKDIR} ${PREFIX}/lib/e93 ${PREFIX}/share/doc/e93
 	(cd ${WRKSRC}; \
-	  install -c -s e93 ${PREFIX}/bin; \
-	  install -c .e93rc ${PREFIX}/lib/e93; \
-	  install -c LICENSE.TXT ${PREFIX}/share/doc/e93/LICENSE.TXT; \
+	  ${INSTALL_PROGRAM} e93 ${PREFIX}/bin; \
+	  ${INSTALL_DATA} .e93rc ${PREFIX}/lib/e93; \
+	  ${INSTALL_DATA} LICENSE.TXT ${PREFIX}/share/doc/e93/LICENSE.TXT; \
 	)
 
 .include <bsd.port.mk>

@@ -14,10 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 
 WRKSRC=		${WRKDIR}/joe
 ALL_TARGET=	joe
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/joe.1
-.endif
+MAN1=		joe.1
 
 .include <bsd.port.mk>
