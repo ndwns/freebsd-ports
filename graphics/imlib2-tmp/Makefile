@@ -23,7 +23,7 @@ USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/imlib
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include"
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
 		LIBS="-L${LOCALBASE}/lib"
 
