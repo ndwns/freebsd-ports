@@ -6,18 +6,15 @@
 # $Id$
 #
 
-DISTNAME=
-PKGNAME=	ntop-1.1a3
+DISTNAME=	ntop-1.1a3
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.unipi.it/pub/local/ntop/snapshots/ \
 		ftp://ftp.ee.lbl.gov/ \
 		http://www.FreeBSD.org/~billf/
-DISTFILES=	libpcap-0.4.tar.Z ${NTOPDISTFILE}.tar.gz
+DISTFILES=	libpcap-0.4.tar.Z ${DISTNAME}.tar.gz
 
 MAINTAINER=	billf@FreeBSD.org
 
-NTOPDISTFILE=	ntop-1.1a3
-WRKSRC=		${WRKDIR}/${NTOPDISTFILE}
 USE_AUTOCONF=	yes
 ALL_TARGET=
 INSTALL_TARGET=	install
