@@ -79,6 +79,7 @@
     SUBDIR += jmirror
     SUBDIR += kdenetwork
     SUBDIR += kdenetwork11
+    SUBDIR += kdetelnet
     SUBDIR += kirc
     SUBDIR += ksamba
     SUBDIR += ldap
