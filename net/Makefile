@@ -98,6 +98,7 @@
     SUBDIR += pathchar
     SUBDIR += pcnfsd
     SUBDIR += pmf
+    SUBDIR += portscanner
     SUBDIR += pppload
     SUBDIR += proftpd
     SUBDIR += queso
