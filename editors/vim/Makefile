@@ -18,6 +18,8 @@ MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 
 MAINTAINER=     obrien@FreeBSD.org
 
+BROKEN=		package
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAKE_FLAGS=	CONF_ARGS=--prefix=${PREFIX} -f
 ALL_TARGET=	#
