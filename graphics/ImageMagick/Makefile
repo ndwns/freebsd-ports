@@ -1,15 +1,17 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:	3.7.7
+# Version required:	3.7.8
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	ImageMagick-3.7.7
+DISTNAME=	ImageMagick-3.7.8
 CATEGORIES=	graphics
-MASTER_SITES=	${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	applications/ImageMagick
+MASTER_SITES=	ftp://ftp.wizards.dupont.com/pub/ImageMagick \
+		ftp://ftp.cci.fr/pub/unix/gfx/ImageMagick \
+		ftp://gd.tuwien.ac.at/pub/graphics/ImageMagick \
+		ftp://ftp.u-aizu.ac.jp/pub/graphics/image/ImageMagick
 
 MAINTAINER=	ports@freebsd.org
 
@@ -28,7 +30,7 @@ post-patch:
 	@sed -e "s|!!LOCALBASE!!|${LOCALBASE}|g" <${WRKSRC}/Magick.tmpl.tmp >${WRKSRC}/Magick.tmpl
 
 pre-build:
-	@(cd ${WRKSRC}/magick;make)
+	@(cd ${WRKSRC}/magick; make)
 
 post-install:
 	ldconfig -m ${PREFIX}/lib
