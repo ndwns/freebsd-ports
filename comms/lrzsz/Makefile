@@ -15,7 +15,6 @@ MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/ \
 MAINTAINER=	obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
-#USE_GMAKE=	yes
 ALL_TARGET=	all # vcheck
 MAN1=		lrz.1 lsz.1
 
