@@ -9,13 +9,14 @@
 DISTNAME=	scheme48-0.46
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER= 	jmacd@FreeBSD.ORG
 
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 ALL_TARGET = 	enough
-NO_WRKSUBDIR=	yes
+#NO_WRKSUBDIR=	yes
 STRIP=
 MAN1=		scheme48.1
 
