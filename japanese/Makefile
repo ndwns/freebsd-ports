@@ -19,6 +19,7 @@
     SUBDIR += gawk
     SUBDIR += ghostscript
     SUBDIR += gn-gnspool
+    SUBDIR += gn-mnews
     SUBDIR += gp
     SUBDIR += grep
     SUBDIR += groff
