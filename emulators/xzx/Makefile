@@ -8,7 +8,8 @@
 
 DISTNAME=	xzx-2.6.1
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://ftp.gns.getronics.nl/pub/os/sinclair/emulators/unix/
+MASTER_SITES=	ftp://ftp.gns.getronics.nl/pub/os/sinclair/emulators/unix/ \
+		ftp://sunsite.unc.edu/pub/Linux/system/emulators/zx/
 
 MAINTAINER=	axl@iafrica.com
 
