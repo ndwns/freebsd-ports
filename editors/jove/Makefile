@@ -6,12 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	jove-4.16beta
-PKGNAME=	jove-4.16b
+DISTNAME=	jove-4.16
 CATEGORIES+=	editors
 MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
 EXTRACT_SUFX=	.tar.gz
 
-WRKSRC=		${WRKDIR}/jove-4.16beta
+WRKSRC=		${WRKDIR}/jove
 
 .include <bsd.port.mk>
