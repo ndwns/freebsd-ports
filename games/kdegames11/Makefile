@@ -15,15 +15,13 @@ MAINTAINER=	se@freebsd.org
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
-		jscript\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		khtmlw\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
-		kfm\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
-		mediatool\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
-		QwSpriteField\\.5\\.[2-9]:${PORTSDIR}/converters/kdesupport
-
-BROKEN_ELF=	depends on kdelibs
+		kdecore.1:${PORTSDIR}/x11/kdelibs \
+		kdeui.1:${PORTSDIR}/x11/kdelibs \
+		jscript.0:${PORTSDIR}/x11/kdelibs \
+		khtmlw.1:${PORTSDIR}/x11/kdelibs \
+		kfm.1:${PORTSDIR}/x11/kdelibs \
+		mediatool.1:${PORTSDIR}/x11/kdelibs \
+		QwSpriteField.5:${PORTSDIR}/converters/kdesupport
 
 USE_QT=		yes
 HAS_CONFIGURE=	yes
