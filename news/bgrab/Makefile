@@ -8,7 +8,7 @@
 
 DISTNAME=	bgrab
 PKGNAME=	bgrab-1.1
-CATEGORIES=	news foo bar
+CATEGORIES=	news
 MASTER_SITES=	http://awwm.linuxberg.com/files/console/network/ \
 		http://powerlinux.linuxberg.com/files/console/network/
 
