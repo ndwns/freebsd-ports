@@ -9,7 +9,8 @@
 DISTNAME=	rad0919
 PKGNAME=	ascend-radius-960919
 CATEGORIES+=	net
-MASTER_SITES=	ftp://ftp.ascend.com/pub/Software-Releases/Radius/Current/
+MASTER_SITES=	ftp://ftp.ascend.com/pub/Software-Releases/Radius/Current/ \
+		ftp://ftp.ascend.com/pub/Software-Releases/Radius/Archive/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
@@ -51,8 +52,5 @@ do-install:
 		@ mkdir -p /var/log/radacct
 		@ chown root.wheel /var/log/radacct
 		@ chmod 700 /var/log/radacct
-
-pre-clean:
-		@ ${RM} -f ${PATCHDIR}/patch-zz
 
 .include <bsd.port.mk>
