@@ -49,6 +49,7 @@
     SUBDIR += wmmixer
     SUBDIR += wmsound
     SUBDIR += workman
+    SUBDIR += wsoundprefs
     SUBDIR += x11amp
     SUBDIR += xamp
     SUBDIR += xcd
