@@ -22,6 +22,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		kfm.1:${PORTSDIR}/x11/kdelibs \
 		mediatool.1:${PORTSDIR}/x11/kdelibs
 
+BROKEN=		upgrade
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \

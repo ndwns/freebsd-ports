@@ -13,6 +13,8 @@ DISTFILES=	# empty
 
 MAINTAINER=	se@freebsd.org
 
+BROKEN=		upgrade
+
 LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kdelibs
 RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 		kcalc:${PORTSDIR}/misc/kdeutils \
