@@ -26,9 +26,7 @@ MAINTAINER=     obrien@FreeBSD.org
 
 DIST_SUBDIR=	mutt
 WRKSRC=		${WRKDIR}/${PKGNAME}
-#PATCH_DIST_STRIP=	-p2
 PATCH_DIST_STRIP=	-p1
-#PATCH_DIST_STRIP=	
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-dsn --enable-pop --enable-8bitmime --enable-flock \
 		--disable-fcntl
@@ -36,8 +34,7 @@ MAN1=		mutt.1
 
 
 post-install:
-	@####   don't strip until out of beta peroid
-	@#strip ${PREFIX}/bin/mutt
+	@strip ${PREFIX}/bin/mutt
 .if !defined(NOPORTDOCS)
 	@${ECHO} "===>   Installing Mutt documentation"
 	@${MKDIR} ${PREFIX}/share/doc/mutt && chmod a+rx ${PREFIX}/share/doc/mutt
