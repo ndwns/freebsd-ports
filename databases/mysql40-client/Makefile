@@ -77,7 +77,7 @@ post-install:
 	@ ${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql.sh
-	@ ${ECHO} "/sbin/ldconfig -m ${PREFIX}/lib/mysql" >> ${PREFIX}/etc/rc.d/mysql.sh
+	@ ${ECHO} "${LDCONFIG} -m ${PREFIX}/lib/mysql" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "if [ -x ${PREFIX}/bin/safe_mysqld ]" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "then" >> ${PREFIX}/etc/rc.d/mysql.sh
