@@ -10,9 +10,7 @@ DISTNAME=	jee-1.0
 PKGNAME=	ja-jee-1.0
 CATEGORIES=	editors japanese
 MASTER_SITES=	ftp://ftp.mogami-wire.co.jp/pub/beta/ \
-		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/ \
-		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/LOCAL_PORTS/ \
-		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/incoming/japanese/
+		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 DISTFILES=	jee.tar.gz \
 		libncurses-3.0.tar.gz \
 		ee-3.0.tar.gz
