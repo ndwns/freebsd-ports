@@ -6,8 +6,6 @@
 # $Id$
 #
 
-BROKEN=		package
-
 DISTNAME=	GP-2.5
 PKGNAME=	gp-2.5
 CATEGORIES=	print
