@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	stars-1.0-ss-10.10
+DISTNAME=	stars-1.0-ss-10.20
 PKGNAME=	stars-1.0
 CATEGORIES=	astro
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/stars-1.0/ \
