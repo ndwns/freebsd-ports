@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += cless
     SUBDIR += celvis
     SUBDIR += cxterm
 
