@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += adcomplain
     SUBDIR += bulk_mailer
     SUBDIR += cucipop
     SUBDIR += cyrus
