@@ -1,12 +1,12 @@
 # New ports collection makefile for:	wml
-# Version required:	1.6.7
+# Version required:	1.6.8
 # Date created:		09-Sep-1997
 # Whom:			Ralf S. Engelschall <rse@engelschall.com>
 #
 # $Id$
 #
 
-DISTNAME=	wml-1.6.7
+DISTNAME=	wml-1.6.8
 CATEGORIES=	www lang
 MASTER_SITES=	http://www.engelschall.com/sw/wml/distrib/ \
 		ftp://ftp.ch.engelschall.com/sw/wml/ \
@@ -16,10 +16,6 @@ MASTER_SITES=	http://www.engelschall.com/sw/wml/distrib/ \
 MAINTAINER=	rse@engelschall.com
 
 .include <bsd.port.pre.mk>
-
-.if ${OSVERSION} >= 300000
-BROKEN=         perl
-.endif
 
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
