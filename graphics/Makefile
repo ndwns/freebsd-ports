@@ -24,6 +24,7 @@
     SUBDIR += netpbm
     SUBDIR += p5-Image-Size
     SUBDIR += pixmap
+    SUBDIR += pgplot
     SUBDIR += png
     SUBDIR += povray
     SUBDIR += spigot
