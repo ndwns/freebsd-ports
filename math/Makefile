@@ -3,6 +3,17 @@
 # RESTRICTED: maxima (license required)
 #
 
-SUBDIR=	blas calc eispack fudgit gmp gnuplot hexcalc linpack octave oleo xgraph
+   SUBDIR += blas
+   SUBDIR += calc
+   SUBDIR += eispack
+   SUBDIR += fudgit
+   SUBDIR += gmp
+   SUBDIR += gnuplot
+   SUBDIR += hexcalc
+   SUBDIR += linpack
+   SUBDIR += octave
+   SUBDIR += oleo
+   SUBDIR += xgraph
+   SUBDIR += xspread
 
 .include <bsd.port.subdir.mk>
