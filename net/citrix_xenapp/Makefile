@@ -28,17 +28,13 @@ BINDIR=		${PREFIX}/bin
 do-fetch:
         @if [ ! -f ${DISTDIR}/${DISTFILES} ]; then \
            ${ECHO} "" ; \
-           ${ECHO} "  The source to this port may not be automatically fetched" 
-; \
-           ${ECHO} "  due to licensing restrictions. You MUST fetch the source" 
-; \
-           ${ECHO} "  manually after reading and agreeing to the license at:" ; 
-\
+           ${ECHO} "  The source to this port may not be automatically fetched" ; \
+           ${ECHO} "  due to licensing restrictions. You MUST fetch the source" ; \
+           ${ECHO} "  manually after reading and agreeing to the license at:" ; \
            ${ECHO} "" ; \
            ${ECHO} "      http://download.citrix.com/download.asp?client=LINUX" ; \
            ${ECHO} "" ; \
-           ${ECHO} "  Once ${DISTFILES} has been downloaded, move it to ${DISTDI
-R}" ; \
+           ${ECHO} "  Once ${DISTFILES} has been downloaded, move it to ${DISTDIR}" ; \
            ${ECHO} "  and then restart this build." ; \
            ${ECHO} "" ; \
            exit 1 ; \
