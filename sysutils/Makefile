@@ -3,6 +3,7 @@
 
     SUBDIR += LPRng
     SUBDIR += afio
+    SUBDIR += asapm
     SUBDIR += asrpages
     SUBDIR += bkpupsd
     SUBDIR += cd-write
