@@ -120,6 +120,7 @@
     SUBDIR += weblint97
     SUBDIR += x0212fonts
     SUBDIR += xdvi
+    SUBDIR += xfig
     SUBDIR += xklock
     SUBDIR += xnetmaj
     SUBDIR += xshodo
