@@ -18,7 +18,7 @@ LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-tk40 --enable-tk41 --enable-tk41-shared \
 		--with-tcl75_src_dir=/usr/include/tcl \
-		--with-tk41_src_dir="${PREFIX}/include/tk" \
+		--with-tk41_src_dir="${PREFIX}/include/tk4.1" \
 		--with-extra_ldflags="-L${PREFIX}/lib"
 # this should probably be added to bsd.port.mk
 CONFIGURE_ENV=	PREFIX=${PREFIX}
