@@ -13,11 +13,20 @@ MASTER_SITES=	ftp://ftp.kyushu-u.ac.jp/pub/utils/
 
 PATCH_SITES=	ftp://ftp.fit.ac.jp/pub/Net/okphone/patch/
 PATCHFILES=	okphone-1.2.FreeBSD-patch.rev2.gz
-PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	max@FreeBSD.ORG
+
+PATCH_DIST_STRIP=	-p1
+MAN1=			phone.1
 
 post-install:
+	${INSTALL_MAN} ${WRKSRC}/phone.1 ${PREFIX}/man/man1
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/okphone
+.for f in NOTE READ_ME Readme.kana
+	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/doc/okphone
+.endfor
+.endif
 	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
