@@ -15,6 +15,6 @@ MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/code/hcode/ \
 MAINTAINER=	junker@jazz.snu.ac.kr
 
 do-install:
-	${INSTALL_PROGRAM} hcode ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/hcode ${PREFIX}/bin
 
 .include <bsd.port.mk>
