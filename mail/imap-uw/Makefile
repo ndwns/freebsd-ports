@@ -17,6 +17,9 @@ MAINTAINER=	pst@freebsd.org
 ALL_TARGET=	fbd
 MAN8=		ipopd.8 imapd.8
 
+pre-build:
+	@chmod 755 ${WRKSRC}/src/osdep/unix/drivers ${WRKSRC}/src/osdep/unix/mkauths
+
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/c-client/libc-client.so.2.0 ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/c-client/c-client.a ${PREFIX}/lib/libc-client.a
