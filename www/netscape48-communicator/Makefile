@@ -14,8 +14,10 @@ AUTOADMIN=      autoadmin-v407.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-NO_FILTER_SHLIBS=	yes
+BROKEN=		"'due to a lack of disk space, Netscape removed\
+		${DISTNAME}'"
 
+NO_FILTER_SHLIBS=	yes
 WRKSRC=         ${WRKDIR}/communicator-v407.x86-unknown-freebsd
 NO_BUILD=       Yes
 
