@@ -17,6 +17,8 @@ BUILD_DEPENDS=  gcc28:${PORTSDIR}/lang/gcc28 \
 		g++28:${PORTSDIR}/lang/gcc28 \
 		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd3.0/2.8.1/libstdc++.a:${PORTSDIR}/lang/glibstdc++28
 
+BROKEN=		build
+
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	CXX=g++28 CXXFLAGS="-O -pipe"
 MAN1=		idl.1
