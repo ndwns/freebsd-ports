@@ -9,7 +9,7 @@
 DISTNAME=	xchada01
 PKGNAME=	xchadance-1.0
 CATEGORIES=	games
-MASTER_SITES=	http://www.jp.FreeBSD.ORG/~issei/LOCAL_PORTS/
+MASTER_SITES=	http://home.jp.FreeBSD.ORG/~issei/LOCAL_PORTS/
 EXTRACT_SUFX=	.lzh
 
 MAINTAINER=	issei@jp.FreeBSD.ORG
