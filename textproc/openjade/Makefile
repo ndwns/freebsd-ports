@@ -24,7 +24,7 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/jade
 	${INSTALL_DATA} ${WRKSRC}/doc/*.htm ${PREFIX}/share/doc/jade
 	${MKDIR} ${PREFIX}/share/sgml/jade
-	${INSTALL_DATA} ${WRKSRC}/doc/*.htm ${PREFIX}/share/sgml/jade
+	${INSTALL_DATA} ${WRKSRC}/dsssl/* ${PREFIX}/share/sgml/jade
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m $(PREFIX)/lib
 
 .include <bsd.port.mk>
