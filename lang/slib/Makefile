@@ -21,7 +21,7 @@ ALL_TARGET=	slib48
 INSTALL_TARGET=	install48
 
 post-install:
-	${MKDIR} ${PREFIX}/share/guile/1.2/slib
-	${INSTALL_DATA} ${WRKSRC}/*.scm ${PREFIX}/share/guile/1.2/slib
+	${MKDIR} ${PREFIX}/share/slib
+	${INSTALL_DATA} ${WRKSRC}/*.scm ${PREFIX}/share/slib
 
 .include <bsd.port.mk>
