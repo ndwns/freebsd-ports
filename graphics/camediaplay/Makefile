@@ -25,6 +25,6 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/../$$i \
 			${PREFIX}/share/doc/camediaplay; \
 	done
-	${CAT} ${PKGDIR}/MESSAGE
+	sed -e 's@\/usr\/local@${PREFIX}@' < ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
