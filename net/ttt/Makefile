@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       ttt-0.4.1
-CATEGORIES=	net
+CATEGORIES=	net tk41
 MASTER_SITES=   ftp://ftp.csl.sony.co.jp/pub/kjc/
 
 MAINTAINER=     itojun@itojun.org

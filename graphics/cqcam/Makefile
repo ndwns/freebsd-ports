@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cqcam-0.45a
-CATEGORIES=	graphics
+CATEGORIES=	graphics tk80
 MASTER_SITES=	http://www.cs.virginia.edu/~patrick/cqcam/
 EXTRACT_SUFX=	.tgz
 

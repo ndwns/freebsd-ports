@@ -8,7 +8,7 @@
 
 DISTNAME=	xmp3_1.0.0
 PKGNAME=	xmpeg3-1.0
-CATEGORIES=	audio
+CATEGORIES=	audio tk80
 MASTER_SITES=	ftp://ftp.rasip.fer.hr/pub/mpeg/
 EXTRACT_SUFX=	.tgz
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       dontspace-1.2
-CATEGORIES=     games
+CATEGORIES=     games tk41
 MASTER_SITES=   http://www.isi.edu/~johnh/SOFTWARE/JACOBY/
 
 MAINTAINER=     johnh@isi.edu

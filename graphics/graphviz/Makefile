@@ -8,7 +8,7 @@
 
 DISTNAME=       graphviz_1_21
 PKGNAME=	graphviz-1.21
-CATEGORIES=	graphics
+CATEGORIES=	graphics tk42
 MASTER_SITES=	# http://www.research.att.com/sw/tools/graphviz/
 EXTRACT_SUFX=	.src.unix.tgz
 

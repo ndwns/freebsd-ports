@@ -18,7 +18,7 @@ DISTFILES=	${DISTNAME}.tar.gz
 DISTFILES+=	gimp-data-min-${MM_VERSION}b.tar.gz \
             gimp-data-extras-${MM_VERSION}a.tar.gz
 
-CATEGORIES=     graphics
+CATEGORIES=     graphics tk80
 MASTER_SITES=   ftp://ftp.gimp.org/pub/gimp/0.99/${VERSION}/ \
                 ftp://ftp.cs.umn.edu/pub/gimp/gimp/0.99/${VERSION}/ \
 

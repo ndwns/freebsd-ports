@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rtpmon-1.0a7
-CATEGORIES=	mbone
+CATEGORIES=	mbone tk42
 MASTER_SITES=	ftp://mm-ftp.cs.berkeley.edu/pub/rtpmon/
 
 MAINTAINER=	fenner@FreeBSD.org

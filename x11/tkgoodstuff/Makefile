@@ -8,7 +8,7 @@
 
 DISTNAME=	tkgoodstuff8.0-final
 PKGNAME=	tkgoodstuff-8.0
-CATEGORIES=	x11
+CATEGORIES=	x11 tk80
 MASTER_SITES=	http://www-personal.umich.edu/~markcrim/tkgoodstuff/dists/
 
 MAINTAINER=	pst@FreeBSD.org

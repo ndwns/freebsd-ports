@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       klondike-1.8
-CATEGORIES=     games
+CATEGORIES=     games tk41
 MASTER_SITES=   http://www.isi.edu/~johnh/SOFTWARE/JACOBY/
 
 MAINTAINER=     johnh@isi.edu

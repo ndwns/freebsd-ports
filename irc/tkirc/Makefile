@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkirc-1.151
-CATEGORIES=	net x11
+CATEGORIES=	net x11 tk80
 MASTER_SITES=	ftp://ftp.informatik.uni-oldenburg.de/pub/tkirc/
 DISTFILES=	tkirc1.151.tar.gz
 
