@@ -24,6 +24,7 @@
     SUBDIR += popclient
     SUBDIR += poppassd
     SUBDIR += popper
+    SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += smail
     SUBDIR += xfaces
