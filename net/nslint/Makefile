@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	nslint-2.0a6
+DISTNAME=	nslint-2.0a7
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/
 EXTRACT_SUFX=	.tar.Z
