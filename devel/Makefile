@@ -12,6 +12,7 @@
     SUBDIR += gperf
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
+    SUBDIR += libslang
     SUBDIR += libz
     SUBDIR += m4
     SUBDIR += mkmf
