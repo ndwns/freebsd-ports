@@ -17,6 +17,7 @@
     SUBDIR += mh
     SUBDIR += mutt
     SUBDIR += mutt.with_pgp
+    SUBDIR += nmh
     SUBDIR += p5-Mail-Folder
     SUBDIR += p5-Mail-POP3Client
     SUBDIR += p5-Mail-Tools
