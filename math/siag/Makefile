@@ -8,11 +8,12 @@
 
 DISTNAME=	siag-2.65
 CATEGORIES=	math
+# Since 2.67 (latest version on 3/7/1998) is seriously broken, I asked
+# asami-san to put 2.65 into ftp.freebsd.org.  Thanks.
 MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/
 
 MAINTAINER=	itojun@itojun.org
 
-BROKEN=		fetch
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/siag
 CONF=	siag/data.scm siag/find.scm siag/keytable.scm siag/menu.scm \
