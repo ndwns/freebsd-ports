@@ -70,6 +70,7 @@
     SUBDIR += tkstep80
     SUBDIR += tvtwm
     SUBDIR += tycoon
+    SUBDIR += v
     SUBDIR += viewfax
     SUBDIR += windowmaker
     SUBDIR += wm2
