@@ -12,7 +12,6 @@ MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
-BROKEN=		struct ifqueue
 GNU_CONFIGURE=	yes
 .if defined(PACKAGE_BUILDING)
 CONFIGURE_ARGS=	--with-defaults --with-sys-contact=nobody@no.where
