@@ -121,6 +121,7 @@
     SUBDIR += sawt
     SUBDIR += scogdb
     SUBDIR += sfio
+    SUBDIR += stlport
     SUBDIR += tclcheck
     SUBDIR += tkcvs
     SUBDIR += tkref
