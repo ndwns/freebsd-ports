@@ -565,7 +565,7 @@ LIB_DEPENDS+=	X11.6:${PORTSDIR}/x11/XFree86
 .endif
 
 .if defined(USE_QT)
-LIB_DEPENDS+=	qt.1:${PORTSDIR}/x11-toolkits/qt140
+LIB_DEPENDS+=	qt.1:${PORTSDIR}/x11-toolkits/qt141
 .endif
 
 .if exists(${PORTSDIR}/../Makefile.inc)
