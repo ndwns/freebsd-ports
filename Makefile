@@ -1,7 +1,7 @@
 # $Id$
 #
 SUBDIR= archivers audio cad comms databases devel editors games graphics \
-	japanese lang mail math net news print shells utils x11
+	japanese lang mail math net news print russian shells utils x11
 
 .include <bsd.port.subdir.mk>
 
