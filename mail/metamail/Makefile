@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	mm2.7
-WRKSRC=		${WRKDIR}/${DISTNAME}/src
-MASTER_SITES=	ftp://thumper.bellcore.com/pub/nsb/
+PKGNAME=	mm-2.7
 CATEGORIES+=	mail
+MASTER_SITES=	ftp://thumper.bellcore.com/pub/nsb/
 EXTRACT_SUFX=	.tar.Z
+
+WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
 pre-install:
 	   mkdir -p ${PREFIX}/bin

@@ -7,11 +7,13 @@
 #
 
 DISTNAME=	qpop2.1.4-R1
+PKGNAME=	qpop-2.1.4
+CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/popper/
 EXTRACT_SUFX=	.tar.Z
-WRKSRC=		${WRKDIR}/qpopper2.1.4
 
-CATEGORIES+=	mail
 MAINTAINER=	pst@freebsd.org
+
+WRKSRC=		${WRKDIR}/qpopper2.1.4
 
 .include <bsd.port.mk>

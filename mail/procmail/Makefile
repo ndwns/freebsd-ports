@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	procmail-3.10
-MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 CATEGORIES+=	mail
+MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
+
 IS_INTERACTIVE=	yes
 
 install:
