@@ -9,7 +9,8 @@
 DISTNAME=	xed1.3
 PKGNAME=	xed-1.3
 CATEGORIES=	editors x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/editors/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	editors
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	shanee@rabbit.augusta.de

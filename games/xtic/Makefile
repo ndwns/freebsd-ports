@@ -8,9 +8,9 @@
 
 DISTNAME=       xtic1.12
 PKGNAME=	xtic-1.12
-CATEGORIES+=	games
-MASTER_SITES=	ftp://ftp.x.org/contrib/games/ \
-		ftp://crl.dec.com/pub/X11/contrib/games/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	asami@FreeBSD.ORG
 

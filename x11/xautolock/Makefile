@@ -8,8 +8,9 @@
 
 DISTNAME=	xautolock-1pl10
 PKGNAME=	xautolock-1.10
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 DISTFILES=	xautolock.pl10.tz
 
 MAINTAINER=	eblood@cs.unr.edu

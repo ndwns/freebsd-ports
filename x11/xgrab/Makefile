@@ -8,8 +8,9 @@
 
 DISTNAME=	xgrabsc.2_41
 PKGNAME=	xgrab-2.41
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.ibp.fr/pub/X11/contrib/applications/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	jmz@FreeBSD.org
 

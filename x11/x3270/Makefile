@@ -7,9 +7,9 @@
 #
 
 DISTNAME=	x3270-3.0.3.7
-CATEGORIES+=	x11 emulators
-MASTER_SITES=	ftp://ftp.icm.edu.pl/pub/X11/contrib/applications/x3270/ \
-		ftp://ftp.x.org/contrib/applications/x3270/
+CATEGORIES=	x11 emulators
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/x3270
 
 USE_IMAKE=	yes
 

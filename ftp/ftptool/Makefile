@@ -7,10 +7,9 @@
 #
 
 DISTNAME=	ftptool-4.6
-CATEGORIES+=	net
-MASTER_SITES=	ftp://ftp.x.org/contrib/utilities \
-		ftp://crl.dec.com/pub/X11/contrib/utilities/ \
-		ftp://ftp.icm.edu.pl/pub/X11/contrib/utilities/
+CATEGORIES=	net
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities
 DISTFILES=	Ftptool4.6.tar.gz
 
 MAINTAINER=	janek@gaja.ipan.lublin.pl

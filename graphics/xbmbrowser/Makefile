@@ -8,9 +8,9 @@
 
 DISTNAME=	xbmbrowser5.1
 PKGNAME=	xbmbrowser-5.1
-CATEGORIES+=	graphics
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/utilities/ \
-		ftp://ftp.th-darmstadt.de/pub/X11/contrib/utilities/
+CATEGORIES=	graphics
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 

@@ -7,8 +7,8 @@
 #
 
 DISTNAME=       xlockmore-3.11
-MASTER_SITES+=  ftp://crl.dec.com/pub/X11/contrib/applications/
-MASTER_SITES+=	ftp://ftp.x.org/contrib/applications/
+MASTER_SITES=  ${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 
 PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	${DISTNAME}.patches

@@ -9,7 +9,8 @@
 DISTNAME=	xcpustate-2.1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/xcpustate/  \
-		ftp://ftp.x.org/contrib/utilities/xcpustate/
+		${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities/xcpustate
 EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=     obrien@cs.ucdavis.edu

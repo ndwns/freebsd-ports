@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ImageMagick-3.7.7
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/ImageMagick
 

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xfm-1.3.2
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xblackjack-2.2
-CATEGORIES+=	games
-MASTER_SITES=	ftp://ftp.x.org/contrib/games/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	erich@FreeBSD.org
 

@@ -9,7 +9,8 @@
 DISTNAME=	xsysstats1.34
 PKGNAME=	xsysstats-1.34
 CATEGORIES=	sysutils x11
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/utilities/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities
 
 MAINTAINER=	asami@FreeBSD.ORG
 

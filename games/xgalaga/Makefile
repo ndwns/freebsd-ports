@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xgalaga-1.6b
-CATEGORIES+=	games
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/games/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	asami@FreeBSD.ORG
 

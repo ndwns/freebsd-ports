@@ -9,8 +9,8 @@
 DISTNAME=	e93-1.2r6X
 PKGNAME=	e93-1.2.6
 CATEGORIES=	editors
-MASTER_SITES=	ftp://ftp.x.org/contrib/editors/ \
-		ftp://crl.dec.com/pub/X11/contrib/editors/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	editors
 
 MAINTAINER=	asami@FreeBSD.ORG
 

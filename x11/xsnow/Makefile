@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xsnow-1.40
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/games/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org

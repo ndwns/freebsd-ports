@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xbill-1.1
-CATEGORIES+=	games
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/games/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	asami@FreeBSD.ORG

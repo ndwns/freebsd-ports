@@ -9,7 +9,8 @@
 DISTNAME=	kterm-6.2.0
 PKGNAME=	jp-kterm-6.2.0
 CATEGORIES=	japanese x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	asami@FreeBSD.ORG
 

@@ -8,7 +8,8 @@
 
 DISTNAME=	xmmix-1.2
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/xmmix/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/xmmix
 
 MAINTAINER=	erich@FreeBSD.org
 

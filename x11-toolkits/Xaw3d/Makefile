@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	Xaw3d-1.3
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/widgets/Xaw3d/R6.1/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	widgets/Xaw3d/R6.1
 
 MAINTAINER=	asami@FreeBSD.ORG
 

@@ -8,8 +8,9 @@
 
 DISTNAME=	tvtwm
 PKGNAME=	tvtwm-pl11
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	window_managers
 DISTFILES=	tvtwm.pl11.tar.gz
 
 MAINTAINER=	gpalmer@FreeBSD.ORG

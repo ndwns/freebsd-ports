@@ -7,8 +7,9 @@
 
 DISTNAME=	xboing2.3
 PKGNAME=	xboing-2.3
-CATEGORIES+=	games
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/games/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 EXTRACT_SUFX=	.tar.gz
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

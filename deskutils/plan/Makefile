@@ -8,7 +8,8 @@
 
 DISTNAME=	plan-1.5.1
 CATEGORIES=	misc
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_XCONTRIB=	applications
 
 MAINTAINER=	deischen@iworks.InterWorks.org
 

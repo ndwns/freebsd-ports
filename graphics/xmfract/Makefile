@@ -8,8 +8,9 @@
 
 DISTNAME=	xmfract_1.4
 PKGNAME=	xmfract-1.4
-CATEGORIES+=	graphics
-MASTER_SITES=	ftp://ftp.x.org/contrib/graphics/
+CATEGORIES=	graphics
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	erich@FreeBSD.org
 

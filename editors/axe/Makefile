@@ -8,7 +8,8 @@
 
 DISTNAME=	aXe-6.1.2
 CATEGORIES=	editors
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/editors/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	editors
 EXTRACT_SUFX=	.tar.Z
 
 USE_IMAKE=	yes

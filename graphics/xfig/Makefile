@@ -8,9 +8,9 @@
 
 DISTNAME=	xfig.3.1.4
 PKGNAME=	xfig-3.1.4
-CATEGORIES+=	graphics x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/xfig/ \
-	ftp://crl.dec.com/pub/X11/contrib/applications/drawing_tools/xfig/
+CATEGORIES=	graphics x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/drawing_tools/xfig
 
 MAINTAINER=	asami@FreeBSD.ORG
 

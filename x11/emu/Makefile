@@ -8,8 +8,9 @@
 
 DISTNAME=	emu-1.31
 PKGNAME=	emu-1.3.1
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
-CATEGORIES+=	x11
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	me@FreeBSD.org
 

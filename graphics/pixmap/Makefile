@@ -8,8 +8,10 @@
 
 DISTNAME=	pixmap2.6
 PKGNAME=	pixmap-2.6
-CATEGORIES+=	graphics
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/pixmap/
+CATEGORIES=	graphics
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/pixmap
+
 MAINTAINER=	jmz@FreeBSD.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

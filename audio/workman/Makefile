@@ -9,7 +9,8 @@
 DISTNAME=       WorkMan-1.3
 PKGNAME=	workman-1.3
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/WorkMan/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/WorkMan
 
 MAINTAINER=	d_burr@ix.netcom.com
 

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	xdaliclock-2.05
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	gpalmer@FreeBSD.ORG

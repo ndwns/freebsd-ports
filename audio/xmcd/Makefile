@@ -8,8 +8,8 @@
 
 DISTNAME=	xmcd-2.0
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/xmcd/ \
-		ftp://crl.dec.com/pub/X11/contrib/applications/xmcd/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/xmcd
 
 MAINTAINER=	deischen@iworks.InterWorks.org
 

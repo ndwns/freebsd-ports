@@ -7,9 +7,9 @@
 #
 
 DISTNAME=	xxgdb-1.12
-CATEGORIES+=	devel
-MASTER_SITES=   ftp://ftp.x.org/contrib/utilities/ \
-		ftp://crl.dec.com/pub/X11/contrib/utilities/
+CATEGORIES=	devel
+MASTER_SITES=   ${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities
 
 MAINTAINER=	asami@FreeBSD.ORG
 

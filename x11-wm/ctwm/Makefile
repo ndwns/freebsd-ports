@@ -8,9 +8,9 @@
 
 DISTNAME=	ctwm-3.4pl2
 PKGNAME=	ctwm-3.4.2
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
-EXTRACT_SUFX=	.tar.gz
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	window_managers
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 

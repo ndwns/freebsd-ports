@@ -8,9 +8,9 @@
 
 DISTNAME=	xbuffy3.2.1
 PKGNAME=	xbuffy-3.2.1
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://sunsite.doc.ic.ac.uk/computing/graphics/systems/X11/contrib/utilities/
-MASTER_SITES+=	ftp://ftp.cyf-kr.edu.pl/etc/lfs/x-contrib/utilities/
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	utilities
 
 MAINTAINER=	dchapes@zeus.leitch.com
 
