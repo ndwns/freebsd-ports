@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ssh
-# Version required:     1.2.19
+# Version required:     1.2.20
 # Date created:		30 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
@@ -9,8 +9,8 @@
 # USE_PERL, USE_TCPWRAP
 #
 
-DISTNAME=       ssh-1.2.19
-CATEGORIES=	security net perl5
+DISTNAME=       ssh-1.2.20
+CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.funet.fi/pub/unix/security/login/ssh/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
@@ -34,6 +34,15 @@ IS_INTERACTIVE=	YES
 GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc
+
+#Uncomment if all your users are in their own group and their homedir
+#is writeable by that group.  Beware the security implications!
+#CONFIGURE_ARGS+= --enable-group-writeability
+
+#Uncomment if you want to allow ssh to emulate an unencrypted rsh connection
+#over a secure medium.  This is normally dangerous since it can lead to the
+#disclosure keys and passwords.
+#CONFIGURE_ARGS+= --with-none
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 CONFIGURE_ARGS+= --with-rsaref
