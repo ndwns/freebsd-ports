@@ -46,6 +46,7 @@
     SUBDIR += ivs
     SUBDIR += kdenetwork
     SUBDIR += kirc
+    SUBDIR += ksamba
     SUBDIR += ldap
     SUBDIR += lftp
     SUBDIR += libsocket++
