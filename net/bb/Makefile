@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	bb-1.08
+DISTNAME=	bb-1.08a
 CATEGORIES=	net
 MASTER_SITES=	http://maclawran.ca/~sean/bb-dnld/ \
 		http://freefall.freebsd.org/~andreas/download/
