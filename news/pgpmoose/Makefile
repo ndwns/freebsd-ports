@@ -8,7 +8,7 @@
 DISTNAME=	PGPMoose
 PKGNAME=	pgpmoose-1
 CATEGORIES=	news security
-MASTER_SITES=	http://www.usenix.org/~ggr/ \
+MASTER_SITES=	http://people.qualcomm.com/ggr/ \
 		ftp://ftp.dinoex.sub.de/pub/approved/
 EXTRACT_SUFX=	.tar.Z
 
