@@ -78,8 +78,8 @@ echo "Done."
 R_MD5_COUNT=`wc -l $FN_RESULTS_SCRIPT | sed "s| $FN_RESULTS_SCRIPT|| ; s| ||g"`
 echo "$R_MD5_COUNT distfile(s) doesn't have corresponding md5 entries in ports directory."
 /bin/sh $FN_RESULTS_SCRIPT
+find ${DISTDIR}/ -type d -empty -delete
 
 echo -n "Finishing..."
 rm -f $FN_RESULTS_SCRIPT $FN_PORTS $FN_DISTFILES
 echo "Done."
-
