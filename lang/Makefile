@@ -8,6 +8,7 @@
     SUBDIR += cim
     SUBDIR += eiffel
     SUBDIR += elk
+    SUBDIR += eperl
     SUBDIR += expect
     SUBDIR += forth
     SUBDIR += g77
