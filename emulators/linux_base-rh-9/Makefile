@@ -7,7 +7,9 @@
 #
 
 DISTNAME=	linux_lib
-CATEGORIES=	emulators
+PKGNAME=	linux_lib-1.0
+CATEGORIES=	emulation
+
 MAINTAINER=	erich@FreeBSD.org
 
 PREFIX=		/compat/linux/
