@@ -127,12 +127,16 @@ CONFIGURE_ENV+= PERL=/replace_it_with_PERL_path
 .endif
 
 # Include tcp-wrapper support (call remote identd)
+.if exists(/usr/include/tcpd.h)
+CONFIGURE_ARGS+= --with-libwrap
+.else
 .if defined(USE_TCPWRAP) && ${USE_TCPWRAP} == YES || \
     exists(${PREFIX}/lib/libwrap.a) && \
     (!defined(USE_TCPWRAP) || ${USE_TCPWRAP} != NO)
 CONFIGURE_ENV+= LDFLAGS=-L${PREFIX}/lib CFLAGS="${CFLAGS} -I${PREFIX}/include"
 CONFIGURE_ARGS+= --with-libwrap
 LIB_DEPENDS+=   wrap.7:${PORTSDIR}/security/tcp_wrapper
+.endif
 .endif
 
 # Include SOCKS firewall support
