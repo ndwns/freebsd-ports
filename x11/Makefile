@@ -48,6 +48,7 @@
     SUBDIR += mouseclock
     SUBDIR += neXtaw
     SUBDIR += olvwm
+    SUBDIR += p5-Gtk
     SUBDIR += p5-Tcl-Tk
     SUBDIR += p5-Tk
     SUBDIR += piewm
