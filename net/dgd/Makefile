@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	dgd-1.0.52
+DISTNAME=	dgd-1.0.56
 DISTFILES=	dgd-1.0.37.tar.gz
 CATEGORIES=	net lang
 MASTER_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/
@@ -26,7 +26,11 @@ PATCHFILES=	1.0.37-1.0.38.gz \
 		1.0.48-1.0.49.gz \
 		1.0.49-1.0.50.gz \
 		1.0.50-1.0.51.gz \
-		1.0.51-1.0.52.gz
+		1.0.51-1.0.52.gz \
+		1.0.52-1.0.53.gz \
+		1.0.53-1.0.54.gz \
+		1.0.54-1.0.55.gz \
+		1.0.55-1.0.56.gz
 
 MAINTAINER=	adam@veda.is
 
