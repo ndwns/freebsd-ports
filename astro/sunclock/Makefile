@@ -6,16 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	sunclock1.3
-PKGNAME=	sunclock-1.3
+DISTNAME=	sunclock-1.4
+PKGNAME=	sunclock-1.4
 CATEGORIES=	astro
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
-EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.org
 
 USE_IMAKE=	YES
-NO_WRKSUBDIR=	YES
 
 .include <bsd.port.mk>
