@@ -1,21 +1,19 @@
 # New ports collection makefile for:	XML for Java
-# Version required:	2.0.9
+# Version required:	2.0.11
 # Date created:		16 May 1999
 # Whom:			Jun Kuriyama <kuriyama@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	xml4j_2_0_9
-PKGNAME=	xml4j-2.0.9
+DISTNAME=	xml4j_2_0_11
+PKGNAME=	xml4j-2.0.11
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.alphaworks.ibm.com/tech/xml4j/
-EXTRACT_SUFX=	_tar.gz
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/lang/jdk \
-		${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/lang/jfc
+RUN_DEPENDS=	${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/lang/jfc
 
 RESTRICTED=	"License prohibites distribute."
 NO_BUILD=	YES
