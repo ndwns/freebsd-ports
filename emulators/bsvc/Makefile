@@ -6,12 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	bsvc-2.0-src
-PKGNAME=	bsvc-2.0
+DISTNAME=	bsvc-2.0
 CATEGORIES=	emulators tk41
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	system/emulators
-EXTRACT_SUFX=	.tar.z
+EXTRACT_SUFX=	-src.tar.z
 
 MAINTAINER=	tenser@spitfire.ecsel.psu.edu
 
