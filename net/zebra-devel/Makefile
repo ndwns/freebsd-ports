@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 # you might need debugging, it's a developer release !
 #CFLAGS+=	-g
 
-MAINTAINER=	andreas@FreeBSD.org
+MAINTAINER=	andreas@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc/zebra
