@@ -101,8 +101,8 @@ post-extract:
 	${TOUCH} ${WRKSRC}/adler32.o
 	${TOUCH} ${WRKSRC}/deflate.o
 	${TOUCH} ${WRKSRC}/trees.o
-	ln -s ${PORTSDIR}/graphics/jpeg/work/jpeg-6* ${WRKSRC}/jpeg-6a
-	ln -s ${PORTSDIR}/graphics/png/work/libpng-1.* ${WRKSRC}/libpng
+	ln -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/jpeg/work/jpeg-6* ${WRKSRC}/jpeg-6a
+	ln -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/png/work/libpng-1.* ${WRKSRC}/libpng
 	cd ${WRKSRC} && unzip -La ${DISTDIR}/${HP850_DRV}
 	cd ${WRKSRC} && tar -xzf ${DISTDIR}/${CID_CMAP_KO}
 
