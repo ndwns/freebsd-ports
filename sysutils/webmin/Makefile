@@ -14,6 +14,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 NO_BUILD=	yes
 IS_INTERACTIVE=	yes
+USE_PERL5=	yes
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/webmin
