@@ -31,6 +31,7 @@
     SUBDIR += tk4
     SUBDIR += tk41
     SUBDIR += tkdesk
+    SUBDIR += tkgoodstuff
     SUBDIR += tvtwm
     SUBDIR += viewfax
     SUBDIR += x3270
