@@ -33,10 +33,10 @@ do-configure:
 	@(cd ${WRKSRC} && ${CONFIGURE_ENV} python makethis.py)
 
 post-install:
+	@${RM} ${WRKSRC}/*/Demo/*.orig ${WRKSRC}/*/Lib/*.orig
 	${INSTALL_DATA} ${WRKSRC}/*/Lib/* ${SITEPYDIR}
 	@${PREFIX}/bin/python -O ${PYTHONSCRIPTDIR}/compileall.py ${SITEPYDIR}
 	${MKDIR} ${EXAMPLEDIR}
-	@${RM} ${WRKSRC}/*/Demo/*.orig
 	${INSTALL_DATA} ${WRKSRC}/*/Demo/* ${EXAMPLEDIR}
 
 .include <bsd.port.mk>
