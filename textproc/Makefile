@@ -16,6 +16,7 @@
     SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
     SUBDIR += dtd-catalogs
+    SUBDIR += expat
     SUBDIR += freegrep
     SUBDIR += gdict
     SUBDIR += glimpse
