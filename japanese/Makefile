@@ -38,6 +38,7 @@
     SUBDIR += k12
     SUBDIR += k8
     SUBDIR += kakasi
+    SUBDIR += kappa20
     SUBDIR += kcc
     SUBDIR += kinput2-canna
     SUBDIR += kinput2-canna+sj3
