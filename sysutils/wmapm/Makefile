@@ -12,6 +12,8 @@ MASTER_SITES=	http://nis-www.lanl.gov/~mgh/WindowMaker/
 
 MAINTAINER=	taoka@FreeBSD.org
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/wmapm
 USE_GMAKE=	yes
 ONLY_FOR_ARCHS=	i386
