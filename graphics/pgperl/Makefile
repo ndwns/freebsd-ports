@@ -7,22 +7,23 @@
 #
 
 DISTNAME=       PGPLOT1.0b_src
-EXTRACT_SUFX=	.tar.Z
 PKGNAME=	pgperl-1.0
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.ast.cam.ac.uk/pgperl/perl5/
+EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	jmz@FreeBSD.org
+
+BUILD_DEPENDS=  perl5.003:${PORTSDIR}/lang/perl5
+LIB_DEPENDS=    pgplot\\.5\\.:${PORTSDIR}/graphics/pgplot
+RUN_DEPENDS=    perl5.003:${PORTSDIR}/lang/perl5
 
 WRKSRC=		${WRKDIR}/PGPLOT
 ALL_TARGET=	dynamic
 
-MAINTAINER=	jmz@FreeBSD.org
-
-BUILD_DEPENDS=  perl5.003
-LIB_DEPENDS=    pgplot\\.5\\.
-RUN_DEPENDS=    perl5.003
-
 post-install:
-	@mkdir -p ${PREFIX}/share/pgperl
-	@(cd ${WRKSRC}; cp LICENSE pgperl.doc testpg* ${PREFIX}/share/pgperl)
+	@${MKDIR} ${PREFIX}/share/doc/pgperl
+	@(cd ${WRKSRC}; ${INSTALL_DATA} LICENSE pgperl.doc testpg* \
+		${PREFIX}/share/doc/pgperl)
 
 .include <bsd.port.mk>
