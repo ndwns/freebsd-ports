@@ -8,7 +8,8 @@
 
 DISTNAME=	gwm-1.8c
 CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/gwm/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	window_managers/gwm
 
 MAINTAINER=	markm@FreeBSD.ORG
 
