@@ -9,7 +9,7 @@
 DISTNAME=	xml4j_2_0_9
 PKGNAME=	xml4j-2.0.9
 CATEGORIES=	textproc
-MASTER_SITES=	http://www.alphaworks.ibm.com/technologies/xml4j/
+MASTER_SITES=	http://www.alphaworks.ibm.com/tech/xml4j/
 EXTRACT_SUFX=	_tar.gz
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
