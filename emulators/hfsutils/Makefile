@@ -14,8 +14,6 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-BROKEN=		install
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tcl --with-tk
 
