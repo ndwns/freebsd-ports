@@ -12,6 +12,7 @@ FILESDIR=	${.CURDIR}/../../lang/expect/files
 
 PKGNAME=	jp-expect-5.22.0
 CATEGORIES=	japanese
+
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	tk42jp\\.1\\.:${PORTSDIR}/japanese/tk42
