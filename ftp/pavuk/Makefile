@@ -31,6 +31,9 @@ do-install:
 	@ ${INSTALL_MAN} ${WRKSRC}/man/pavuk.1 ${PREFIX}/man/man1
 	@ ${INSTALL_DATA} ${WRKSRC}/pavukrc.sample ${PREFIX}/etc
 	@ ${INSTALL_DATA} ${WRKSRC}/pavuk_authinfo.sample ${PREFIX}/etc
+	@ ${MKDIR} share/locale/cs/LC_MESSAGES
+	@ ${MKDIR} share/locale/de/LC_MESSAGES
+	@ ${MKDIR} share/locale/sk/LC_MESSAGES
 	@ ${INSTALL_DATA} ${WRKSRC}/po/cs.mo ${PREFIX}/share/locale/cs/LC_MESSAGES/pavuk.mo
 	@ ${INSTALL_DATA} ${WRKSRC}/po/de.mo ${PREFIX}/share/locale/de/LC_MESSAGES/pavuk.mo
 	@ ${INSTALL_DATA} ${WRKSRC}/po/sk.mo ${PREFIX}/share/locale/sk/LC_MESSAGES/pavuk.mo
