@@ -9,8 +9,8 @@
 DISTNAME=	xmbase-grok-1.3.2.sbin
 PKGNAME=	xmbase-grok-1.3.2
 CATEGORIES=	databases x11
-MASTER_SITES=\
-	ftp://ftp.leo.org/pub/comp/os/linux/sunsite/X11/xapps/databases/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/database/flatfile
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
