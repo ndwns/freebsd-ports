@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xbill
 NO_INSTALL_MANPAGES=	yes
