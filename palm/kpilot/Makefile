@@ -1,12 +1,12 @@
 # New ports collection makefile for:   kpilot
-# Version required:    2.0
+# Version required:    3.0.2
 # Date created:        09 April 1998
 # Whom:                Stefan Eßer <se@freebsd.org>
 #
 # $Id$
 #
 
-DISTNAME=	kpilot-3.0
+DISTNAME=	kpilot-3.0.2
 CATEGORIES=	x11 kde
 MASTER_SITES=	http://www.slac.com/pilone/kpilot_home/download/
 
