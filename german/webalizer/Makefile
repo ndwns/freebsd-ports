@@ -5,8 +5,8 @@
 #
 # $Id$
 
-DISTNAME=	webalizer-1.22-03-src
-PKGNAME=	de-webalizer-1.22.3
+DISTNAME=	webalizer-1.22-06-src
+PKGNAME=	de-webalizer-1.22.6
 CATEGORIES=	german www
 MASTER_SITES=	ftp://ftp.mrunix.net/pub/webalizer/ \
 		ftp://ftp.dinoex.sub.de/pub/approved/
@@ -16,15 +16,14 @@ MAINTAINER=	dirk.meyer@dinoex.sub.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 
+WEBALIZER_LANG= german
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--prefix=${PREFIX} --with-language=${WEBALIZER_LANG}
 BIN1=		de-webalizer
 MAN1=		de-webalizer.1
 DOC1=		CHANGES COPYING Copyright INSTALL \
 		README country-codes.txt webalizer.LSM
-WRKSRC=		${WRKDIR}/webalizer-1.22-03
-
-post-configure:
-	@${ECHO_MSG} "===> customizing for german"
-	@cd ${WRKSRC}; ${LN} -sf lang/webalizer_lang.german webalizer_lang.h
+WRKSRC=		${WRKDIR}/webalizer-1.22-06
 
 do-install:
 .for i in ${BIN1}
