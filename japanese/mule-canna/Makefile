@@ -18,9 +18,9 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 
-HAS_CONFIGURE=	yes
+GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=        i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
+CONFIGURE_ARGS=        i386--freebsd --with-x-toolkit \
 		--canna --canna-libraries=/usr/local/lib \
 		--canna-includes=/usr/local/canna/include --terminal-face \
 		--locallisppath=${PREFIX}/lib/mule/site-lisp:${PREFIX}/share/emacs/site-lisp
@@ -37,10 +37,12 @@ post-install:
 	strip ${PREFIX}/bin/etags
 	strip ${PREFIX}/bin/m2ps
 	strip ${PREFIX}/bin/mule-19.28
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/coco.1
 	gzip -9nf ${PREFIX}/man/man1/ctags.1
 	gzip -9nf ${PREFIX}/man/man1/etags.1
 	gzip -9nf ${PREFIX}/man/man1/m2ps.1
 	gzip -9nf ${PREFIX}/man/man1/mule.1
+.endif
 
 .include <bsd.port.mk>
