@@ -1,22 +1,22 @@
 # New ports collection makefile for:   ntop
-# Version required:    0.2.2
+# Version required:    1.0
 # Date created:        10 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
 # $Id$
 #
 
-DISTNAME=	ntop-0.4-src
-PKGNAME=	ntop-0.4
+DISTNAME=	ntop-1.0.src
+PKGNAME=	ntop-1.0
 CATEGORIES=	net
-MASTER_SITES=	http://jake.unipi.it/~deri/ntop/
+MASTER_SITES=	ftp://ftp.unipi.it/pub/local/ntop/source/
 
 MAINTAINER=	billf@chc-chimes.com
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_AUTOCONF=	yes
 ALL_TARGET=
-INSTALL_TARGET=	install install-man
+INSTALL_TARGET=	install
 CFLAGS+=	-D__dead=
 
 MAN8=		ntop.8
