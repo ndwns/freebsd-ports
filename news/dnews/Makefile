@@ -8,7 +8,7 @@
 
 DISTNAME=	dnews
 CATEGORIES=	news
-MASTER_SITES=	ftp://ftp.netwinsite.com/pub/netwinsite/dnews/
+MASTER_SITES=	ftp://ftp.netwinsite.com/pub/netwinsite/dnews/oldversions/
 DISTFILES=	dnews27q_freebsd.tar.Z
 
 MAINTAINER=	andreas@FreeBSD.ORG
