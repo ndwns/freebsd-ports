@@ -6,20 +6,24 @@
 # $Id$
 #
 
-DISTNAME=	bnc-web
-PKGNAME=	bnc-2.4.3
+DISTNAME=	bnc2.6.2
+PKGNAME=	bnc-2.6.2
 CATEGORIES=	net
-MASTER_SITES=	http://www.bridgenet.net/bnc/
+MASTER_SITES=	http://irc.themes.org/downloads/misc/
 
 MAINTAINER=	billf@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/bnc2.4.3
-HAS_CONFIGURE=	YES
 GNU_CONFIGURE=	YES
 
+post-patch:
+	${SED} 's,@PREFIX@,${PREFIX},g' ${WRKSRC}/bncsetup > ${WRKSRC}/bncsetup.new
+	${MV} ${WRKSRC}/bncsetup.new ${WRKSRC}/bncsetup
+
 do-install:
-	${CP} ${WRKSRC}/bnc ${PREFIX}/bin
-	${CP} ${WRKSRC}/bncchk ${PREFIX}/bin
-	${CP} ${WRKSRC}/example.conf ${PREFIX}/etc/bnc.conf
+	${INSTALL_PROGRAM} ${WRKSRC}/bnc ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/bncchk ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/bncsetup ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/mkpasswd ${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/example.conf ${PREFIX}/etc/bnc.conf.sample
 
 .include <bsd.port.mk>
