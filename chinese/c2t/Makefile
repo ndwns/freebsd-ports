@@ -7,7 +7,7 @@
 # $Id$
 #
 
-PKGNAME=	c2t-1.0
+PKGNAME=	cn-c2t-1.0
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/convert/  \
 		ftp://ftp.ifcss.org/pub/software/x-win/cxterm/dict/gb/  \
