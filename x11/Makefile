@@ -18,6 +18,7 @@
     SUBDIR += emiclock
     SUBDIR += emu
     SUBDIR += enlightenment
+    SUBDIR += eterm
     SUBDIR += etlfonts
     SUBDIR += explorer
     SUBDIR += fbsd-icons
