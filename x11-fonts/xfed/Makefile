@@ -33,7 +33,8 @@ fetch:	pre-fetch
 	      ${NCFTP} ${NCFTPFLAGS} ${SOURCESITE}\{$$file\}); \
 	  done; \
 	  echo ">> Now creating a tarball ${DISTDIR}/${TARFILE}..."; \
-	  tar -C ${.CURDIR}/src -czf ${DISTDIR}/${TARFILE} xfed; \
+	  tar -C ${.CURDIR}/src -cf - xfed | \
+	    gzip --best > ${DISTDIR}/${TARFILE}; \
 	  rm -rf ${.CURDIR}/src; \
 	fi
 .endif
