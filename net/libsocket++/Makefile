@@ -11,7 +11,10 @@
 DISTNAME=	socket++-1.10
 PKGNAME=	libsocket++-1.10
 CATEGORIES=     net
-MASTER_SITES=	ftp://ftp.fh-furtwangen.de/pub/C++-class-libraries/networking/
+MASTER_SITES=	ftp://ftp.umsicht.fhg.de/pub/unix/language/C++/class-libraries/ \
+		ftp://ftp.par.univie.ac.at/pub/unix/c++/  \
+		ftp://jungfrau.ptf.hro.nl/pub/socket/
+
 
 MAINTAINER=	narvi@haldjas.folklore.ee
 
