@@ -16,8 +16,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 CFLAGS+=	-I../../include
 MAN1=		vn7to8.1 vn8to7.1 vn80to81.1
 
