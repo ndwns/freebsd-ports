@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	LLNLPython6
+DISTNAME=	LLNLPython8
 PKGNAME=	py-gist-1.5
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
