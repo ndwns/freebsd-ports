@@ -9,6 +9,7 @@
     SUBDIR += dviselect
     SUBDIR += ghostscript
     SUBDIR += ghostscript3
+    SUBDIR += ghostscript4
     SUBDIR += ghostview
     SUBDIR += gv
     SUBDIR += html2latex
