@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ntp-4.0.90h
+DISTNAME=	ntp-4.0.91
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.udel.edu/pub/ntp/testing/
 
