@@ -16,6 +16,8 @@ MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	deischen@iworks.InterWorks.org
 
+BROKEN_ELF=	yes
+
 REQUIRES_MOTIF=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 ALL_TARGET=	freebsd
