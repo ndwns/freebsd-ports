@@ -3,7 +3,7 @@
 # Date created:		9 February 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdu-3.0

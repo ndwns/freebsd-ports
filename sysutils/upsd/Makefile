@@ -3,7 +3,7 @@
 # Date created:         11 Jul 1996
 # Whom:                 alexis
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	upsd-2.0.1.6

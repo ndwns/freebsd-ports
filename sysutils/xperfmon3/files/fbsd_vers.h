@@ -4,7 +4,7 @@
  *
  * Handel the FreeBSD Versions in a central file!
  *
- *     $Id$
+ * $FreeBSD$
  */
 
 #ifdef HAVE_SYS_PARAM_H

@@ -3,7 +3,7 @@
 # Date created:         1 May 1997
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       cd-write-1.4.1

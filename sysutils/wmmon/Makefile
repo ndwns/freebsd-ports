@@ -3,7 +3,7 @@
 # Date created:        27 November 1998
 # Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmmon-1.0b2

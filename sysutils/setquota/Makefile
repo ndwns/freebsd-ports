@@ -3,7 +3,7 @@
 # Date created:		27 September 1997
 # Whom:			winter@jurai.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	setquota-0.1

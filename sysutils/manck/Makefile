@@ -3,7 +3,7 @@
 # Date created:         10 September 1995
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       manck-1.2

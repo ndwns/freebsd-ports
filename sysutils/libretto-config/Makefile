@@ -3,7 +3,7 @@
 # Date created:		19 Nov 1998
 # Whom:			Shigeyuki FUKUSHIMA <shige@kuis.kyoto-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libapm-linux-1.0beta5

@@ -3,7 +3,7 @@
 # Date created:         2 Dec 1996
 # Whom:                 nsayer@quack.kfu.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	contool-3.3a

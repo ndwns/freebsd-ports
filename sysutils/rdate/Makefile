@@ -3,7 +3,7 @@
 # Date created:         19980128
 # Whom:                 cracauer@cons.org "Martin Cracauer"
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rdate-1.0

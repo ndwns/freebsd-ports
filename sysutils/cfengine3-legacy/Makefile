@@ -3,7 +3,7 @@
 # Date created:		March 16, 1998
 # Whom:			jseger@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       cfengine-1.4.12

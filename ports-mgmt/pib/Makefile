@@ -3,7 +3,7 @@
 # Date created:         30 December 1996
 # Whom:                 Mike Smith <msmith@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pib-1.1

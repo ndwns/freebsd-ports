@@ -3,7 +3,7 @@
 # Date created:		2 Apr 1997
 # Whom:			desmo@bandwidth.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	LPRng-3.5.1

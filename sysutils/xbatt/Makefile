@@ -3,7 +3,7 @@
 # Date created:		2 May 1995
 # Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbatt-1.2.1

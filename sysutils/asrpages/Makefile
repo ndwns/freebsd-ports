@@ -3,7 +3,7 @@
 # Date created:		6 Nov 1997
 # Whom:			Sheldon Hearn <axl@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asrpages

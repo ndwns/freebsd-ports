@@ -3,7 +3,7 @@
 # Date created:	12 March 1997
 # Whom:	Andrew <andrew@ugh.net.au>, Iain Templeton <iain@ugh.net.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	idled-1.16

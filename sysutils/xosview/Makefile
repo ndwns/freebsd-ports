@@ -3,7 +3,7 @@
 # Date created:		19 Nov 1997
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xosview-1.7.1

@@ -3,7 +3,7 @@
 # Date created:		11 Feb. 1995
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tua-4.0

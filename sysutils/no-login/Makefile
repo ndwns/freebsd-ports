@@ -3,7 +3,7 @@
 # Date created:         15 Jul 1998
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nologin

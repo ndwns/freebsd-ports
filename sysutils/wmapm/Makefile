@@ -3,7 +3,7 @@
 # Date created:		99/07/02
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmapm-3.01

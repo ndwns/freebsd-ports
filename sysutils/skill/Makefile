@@ -3,7 +3,7 @@
 # Date created:         20 Oct 1998
 # Whom:                 Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	skill-3.7@P6

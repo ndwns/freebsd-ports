@@ -3,7 +3,7 @@
 # Date created:		6 Aug 1998
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asapm-2.7

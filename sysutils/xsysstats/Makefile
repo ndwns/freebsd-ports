@@ -3,7 +3,7 @@
 # Date created:		12 December 1994
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsysstats1.34

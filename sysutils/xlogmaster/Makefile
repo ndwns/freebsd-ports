@@ -3,7 +3,7 @@
 # Date created:		1 August 1998
 # Whom:			Adrian Wontroba <aw1@stade.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xlogmaster-1.6.0

@@ -3,7 +3,7 @@
 # Date created:         14 August 1996
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       socket-1.1

@@ -3,7 +3,7 @@
 # Date created:		Tue Jun 22 21:17:03 MET DST 1999
 # Whom:			Juergen Lock <nox@jelal.kn-bremen.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gcombust-0.1.20

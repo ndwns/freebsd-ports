@@ -3,7 +3,7 @@
 # Date created:		12 Sep 1996
 # Whom:			gurney_j@efn.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	su2-1.3

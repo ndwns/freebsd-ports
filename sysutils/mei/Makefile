@@ -3,7 +3,7 @@
 # Date created:		19 Sep 1997
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mei-1.53

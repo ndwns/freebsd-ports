@@ -3,7 +3,7 @@
 # Date created:		4 April 1996
 # Whom:			jdli
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsysinfo-1.4a

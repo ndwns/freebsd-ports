@@ -5,7 +5,7 @@
 #
 # Author:		Paul Vixie / Internet Software Consortium
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rtty-3.2

@@ -3,7 +3,7 @@
 # Date created:				7/27/1998
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		doconfig-1.1

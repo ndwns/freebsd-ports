@@ -3,7 +3,7 @@
 # Date created:		5 Oct 1998
 # Whom:			Igor Vinokurov <igor@zynaps.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	upsmon-2.1.3

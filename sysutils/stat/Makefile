@@ -3,7 +3,7 @@
 # Date created:         16 Februar 1996
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=       stat-1.3
 CATEGORIES=	sysutils

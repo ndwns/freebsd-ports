@@ -3,7 +3,7 @@
 # Date created:         18 February 1999
 # Whom:                 Dima Sivachenko <dima@chg.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ascpu-1.6

@@ -4,7 +4,7 @@
 # Date created:		31-Dec-1995
 # Whom:                 David O'Brien <obrien@cs.ucdavis.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcpustate-2.5

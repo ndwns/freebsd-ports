@@ -3,7 +3,7 @@
 # Date created:		12 April 1999
 # Whom:			Sergey Osokin aka oZZ <ozz@FreeBSD.org.ru>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	cpbk-2.0
 CATEGORIES=	sysutils

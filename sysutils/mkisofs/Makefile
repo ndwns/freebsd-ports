@@ -3,7 +3,7 @@
 # Date created:		07 Aug 1996
 # Whom:			jhk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mkisofs-1.12b5

@@ -3,7 +3,7 @@
 # Date created:		4 June 1999
 # Whom:				jack
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	asmem-1.3
 CATEGORIES=	sysutils afterstep

@@ -4,7 +4,7 @@
 # Date created:			  Mon Apr 14, 1997
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcplist-2.2

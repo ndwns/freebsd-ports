@@ -3,7 +3,7 @@
 # Date created:		23 October 1998
 # Whom:			Stephen J. Roznowski <sjr@home.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		copytape

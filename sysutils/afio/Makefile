@@ -3,7 +3,7 @@
 # Date created:         4 October 1995
 # Whom:                 Juergen Lock <nox@jelal.hb.north.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       afio-2.4.5

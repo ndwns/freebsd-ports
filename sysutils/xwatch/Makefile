@@ -3,7 +3,7 @@
 # Date created:				17 July 1998
 # Whom:					mph
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xwatch-0.1.0

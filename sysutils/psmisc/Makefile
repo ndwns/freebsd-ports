@@ -3,7 +3,7 @@
 # Date created:         10 March 1998
 # Whom:                 rantapaa@uswest.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       psmisc-17

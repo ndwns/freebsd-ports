@@ -3,7 +3,7 @@
 # Date created:                	9 Jan 1999
 # Whom:                        	bsdx
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bchunk-1.0.0

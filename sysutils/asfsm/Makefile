@@ -3,7 +3,7 @@
 # Date created:		4 June 1999
 # Whom:				jack
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	asfsm-1.0pre15
 PKGNAME=	asfsm-1.0p15

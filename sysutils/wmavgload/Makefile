@@ -3,7 +3,7 @@
 # Date created:         20 July 1998
 # Whom:                 Vladimir Kushnir <kushn@mail.kar.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmavgload-0.7.0

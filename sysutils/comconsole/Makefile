@@ -3,7 +3,7 @@
 # Date created:		27 Dec 1998
 # Whom:			SADA Kenji <sada@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	comconsole-0.1
