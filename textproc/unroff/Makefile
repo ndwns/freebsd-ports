@@ -26,6 +26,9 @@ UNROFF_SITE=	http://www-rn.informatik.uni-bremen.de/software/unroff
 PATCH1=		me-misc-patch
 PATCH2=		misc-patch-2
 
+MAN1=		unroff.1 unroff-html.1 unroff-html-man.1 unroff-html-ms.1
+MANCOMPRESSED=	yes
+
 pre-patch:
 	@${ECHO_MSG} "===>  Applying distribution patches for ${PKGNAME}"
 	@(cd ${_DISTDIR}; \

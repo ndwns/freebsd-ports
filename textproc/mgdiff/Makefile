@@ -16,6 +16,7 @@ MAINTAINER=	andreas@marvin.robin.de
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=      yes
+MAN1=		mgdiff.1
 
 post-install:
 	@${MKDIR} ${PREFIX}/lib/X11/mgdiff

@@ -27,6 +27,10 @@ RUN_DEPENDS+=	${PREFIX}/share/sgml/linuxdoc:${PORTSDIR}/textproc/linuxdoc \
 
 USE_PERL5=	yes
 
+MAN1=		instant.1 sgmlfmt.1
+MAN5=		transpec.5
+MANCOMPRESSED=	yes
+
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
 
