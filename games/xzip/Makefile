@@ -8,7 +8,7 @@
 
 DISTNAME=		xzip170
 PKGNAME=		xzip-1.7.0
-CATEGORIES=		games x11
+CATEGORIES=		games
 MASTER_SITES=   	http://www.cfug.org/infocom/
 
 MAINTAINER=		mph@freebsd.org
