@@ -22,8 +22,6 @@ DISTFILES=	ghostscript-2.6.2.tar.gz ghostscript-fonts-2.6.2.tar.gz \
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
 
 NO_LATEST_LINK=	yes
