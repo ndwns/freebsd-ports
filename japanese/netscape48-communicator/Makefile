@@ -14,7 +14,8 @@ DISTFILES=	${JAPANIZE_KIT} ${PORTKIT}
 
 MAINTAINER=	sada@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape4-${BROWSER} \
+# ?= for ports that include this Makefile
+RUN_DEPENDS?=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape4-${BROWSER} \
 		${FONT_DEPEND}
 
 MAN1=		ja-netscape.1

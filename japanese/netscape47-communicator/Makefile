@@ -8,7 +8,7 @@
 
 #MAINTAINER=	sada@FreeBSD.ORG
 
-RUN_DEPENDS?= \
+RUN_DEPENDS= \
 	${PREFIX}/bin/communicator-4.5:${PORTSDIR}/www/netscape45-communicator \
 	${FONT_DEPEND}
 
