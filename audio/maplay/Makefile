@@ -20,4 +20,8 @@ PATCH_STRIP=	-p2
 pre-configure:
 	@(cd ${WRKSRC}; make pre-install)
 
+post-install:
+	@${MKDIR} ${PREFIX}/share/doc/maplay
+	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/maplay
+
 .include <bsd.port.mk>
