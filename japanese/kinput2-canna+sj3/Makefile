@@ -8,7 +8,7 @@
 
 DISTNAME=	kinput2-v2-fix1
 PKGNAME=	jp-cskinput2-2.0.1
-CATEGORIES+=	japanese x11
+CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/x11/kinput2/
 
 MAINTAINER=	hidekazu@cs.titech.ac.jp

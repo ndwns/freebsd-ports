@@ -8,7 +8,7 @@
 
 DISTNAME=	less-290
 PKGNAME=	jp-less-290
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/misc/less/
 
 PATCH_SITES=	ftp://ftp.aist-nara.ac.jp/pub/misc/less/

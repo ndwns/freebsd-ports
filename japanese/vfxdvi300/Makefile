@@ -8,7 +8,7 @@
 
 DISTNAME=	xdvi-17
 PKGNAME=	jp-vfxdvi${RESOLUTION}-1.7
-CATEGORIES+=	japanese print
+CATEGORIES=	japanese print
 MASTER_SITES=	ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi17/ \
 		ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi18/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Sep/ \

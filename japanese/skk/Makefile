@@ -8,7 +8,7 @@
 
 DISTNAME=	skk8.6
 PKGNAME=	jp-skk-8.6
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.cs.keio.ac.jp/pub/misc/skk/ \
 		ftp://ftp.tohoku.ac.jp/mirror/skk/8.6/
 

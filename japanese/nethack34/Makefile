@@ -8,7 +8,7 @@
 
 DISTNAME=	nethack-3.2.1
 PKGNAME=	jp-nethack-1.0.5.3.1
-CATEGORIES+=	japanese games
+CATEGORIES=	japanese games
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/jnethack/

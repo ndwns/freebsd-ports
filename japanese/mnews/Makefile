@@ -8,7 +8,7 @@
 
 DISTNAME=	mnews119
 PKGNAME=	jp-mnews-1.19.2
-CATEGORIES+=	japanese news
+CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.mei.co.jp/free/Network/news/readers/
 DISTFILES=	mnews119.tar.gz mnews119_119PL1.tar.gz mnews119PL1_PL2.tar.gz
 

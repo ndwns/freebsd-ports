@@ -8,7 +8,7 @@
 
 DISTNAME=	ghostscript2.6.2
 PKGNAME=	jp-vfghostscript-2.6.2
-CATEGORIES+=	japanese print
+CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/GNU/ \
 		ftp://ftp.ae.keio.ac.jp/pub/msdos/gnu/ghostscript/ \
 		ftp://i1nws2.fukui-u.ac.jp/pub/TeX/dvipr/ \

@@ -8,7 +8,7 @@
 
 DISTNAME=	kon
 PKGNAME=	jp-kon-0994e
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 # note kon is only in first directory and fonts are only in second directory
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/ \
 		ftp://ftp.iij.ad.jp/pub/X/XFree86/XFree86/3.1.1/untarred/xc/fonts/bdf/misc/

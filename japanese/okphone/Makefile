@@ -8,7 +8,7 @@
 
 DISTNAME=	okphone-1.2
 PKGNAME=	jp-okphone-1.2
-CATEGORIES+=	japanese net
+CATEGORIES=	japanese net
 MASTER_SITES=	http://www.iijnet.or.jp/IIJ-MC/odajima/okphone/src/
 
 PATCH_SITES=	${MASTER_SITES}

@@ -8,7 +8,7 @@
 
 DISTNAME=	dvi2ps-2.0j-beta4
 PKGNAME=	jp-dvi2ps-2.0b4
-CATEGORIES+=	japanese print
+CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/
 DISTFILES=	dvi2ps-2.0j-beta4.tar.gz
 

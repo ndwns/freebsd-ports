@@ -8,7 +8,7 @@
 
 DISTNAME=	kakasi-2.2.5
 PKGNAME=	jp-kakasi-2.2.5
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://sunsite.sut.ac.jp/pub/asia-info/japanese-src/packages/ \
 		ftp://etlport.etl.go.jp/pub/mule/contrib/ \
 		ftp://ftp.cs.buffalo.edu/pub/mule/contrib/ \

@@ -8,7 +8,7 @@
 
 DISTNAME=	mimekit1.1
 PKGNAME=	jp-mimekit-1.1
-CATEGORIES+=	japanese mail
+CATEGORIES=	japanese mail
 MASTER_SITES=	ftp://etlport.etl.go.jp/pub/ccipr/DeleGate/ \
 		ftp://ftp.iij.ad.jp/pub/mail/mime/
 

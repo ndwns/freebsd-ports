@@ -8,7 +8,7 @@
 
 DISTNAME=	tgif-2.16-p12
 PKGNAME=	jp-tgif-216-p12
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub1/X/contrib/applications/tgif/
 
 PATCH_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/X/contrib/misc/tgif/

@@ -8,7 +8,7 @@
 
 DISTNAME=	VFlib-2.22
 PKGNAME=	jp-vflib-2.22
-CATEGORIES+=	japanese print
+CATEGORIES=	japanese print
 MASTER_SITES=	ftp://gull.se.hiroshima-u.ac.jp/pub/VFlib/
 DISTFILES=	VFlib-2.22.tar.gz watanabe-vf.tar.Z \
 		VFlib-2.22-PATCH-1 VFlib-2.22-PATCH-2

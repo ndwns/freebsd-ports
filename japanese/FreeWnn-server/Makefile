@@ -8,7 +8,7 @@
 
 DISTNAME=	Wnn4.2
 PKGNAME=	jp-Wnn-4.2
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
 
 MAINTAINER=	asami@FreeBSD.ORG
