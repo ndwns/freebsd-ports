@@ -29,7 +29,7 @@ MAN1=		fluid.1
 VERSION=	1.0.3
 
 .include <bsd.port.pre.mk>
-.if (${OBJFORMAT} == "aout")
+.if (${PORTOBJFORMAT} == "aout")
 BROKEN=	requires ELF library format
 .endif
 
