@@ -10,7 +10,8 @@
 DISTNAME=	sniffit.0.3.7.beta
 PKGNAME=	sniffit-0.3.7b
 CATEGORIES=	net security
-MASTER_SITES=	http://reptile.rug.ac.be/~coder/sniffit/files/
+MASTER_SITES=	http://reptile.rug.ac.be/~coder/sniffit/files/  \
+		http://www.freebsd.org/~obrien/Distfiles/
 
 MAINTAINER=	obrien@FreeBSD.ORG
 
