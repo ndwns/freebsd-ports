@@ -14,4 +14,7 @@ MAINTAINER=	Nakai@technologist.com
 
 GNU_CONFIGURE=	yes
 
+pre-configure:
+	${RM} ${WRKSRC}/doc/gettext.info*
+
 .include <bsd.port.mk>
