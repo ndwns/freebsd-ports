@@ -16,6 +16,11 @@ MAINTAINER=	andy@icc.surw.chel.su
 GNU_CONFIGURE=	yes
 MAN1=		lftp.1 ftpget.1 parallelftp.1
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		"Doesn't build under current"
+.endif
+
 do-install:
 .for file in lftp ftpget parallelftp
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/src/${file} ${PREFIX}/bin
