@@ -16,7 +16,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 RESTRICTED=	"Cannot be fetched without license"
-#NO_PACKAGE=	${RESTRICTED}
+NO_PACKAGE=	${RESTRICTED}
 NO_CDROM=	${RESTRICTED}
 WRKSRC=		${WRKDIR}/gv1.4
 MAKEFILE=	makefile
