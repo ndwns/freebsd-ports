@@ -13,6 +13,7 @@
     SUBDIR += p5-PGP
     SUBDIR += pgp
     SUBDIR += pidentd
+    SUBDIR += rsaref
     SUBDIR += safe-tcl
     SUBDIR += ssh
     SUBDIR += sudo
