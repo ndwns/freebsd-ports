@@ -16,16 +16,6 @@ NO_BUILD=	yes
 IS_INTERACTIVE=	yes
 USE_PERL5=	yes
 
-pre-extract:
-	@if [ -x ${PREFIX}/sbin/httpd -o -x ${PREFIX}/sbin/apache ]; then \
-	${ECHO_MSG} Good ! You seem to have a webserver installed ...; \
-	else \
-	${ECHO_MSG} You need to install one of the avail. apache webservers; \
-	${ECHO_MSG} Best would be apache13-modssl or apache13-php3 that can ; \
-	${ECHO_MSG} be configured to use modssl for better security; \
-	exit 1; \
-	fi
-
 do-install:
 	${MKDIR} ${PREFIX}/lib/webmin
 	${CP} -r ${WRKSRC}/* ${PREFIX}/lib/webmin
