@@ -13,6 +13,7 @@
     SUBDIR += mule
     SUBDIR += nedit
     SUBDIR += nvi
+    SUBDIR += staroffice
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
