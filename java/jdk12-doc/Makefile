@@ -36,11 +36,6 @@ do-fetch:
 	@${FALSE}
 .endif
 
-pre-install:
-	@if [ !`id -u` ]; then \
-	${CHOWN} -R root:wheel ${WRKDIR}/*; \
-	fi
-
 do-install:
 	${MKDIR} ${PREFIX}/jdk${VERSION}
 	(cd ${WRKSRC} && ${TAR} -cf - docs) \
