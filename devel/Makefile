@@ -9,6 +9,7 @@
     SUBDIR += a2dev
     SUBDIR += amulet
     SUBDIR += asl
+    SUBDIR += astyle
     SUBDIR += autoconf
     SUBDIR += automake
     SUBDIR += bcc
