@@ -24,6 +24,7 @@
     SUBDIR += w3c_httpd
     SUBDIR += weblint
     SUBDIR += wn
+    SUBDIR += wwwcount
     SUBDIR += wwwish
 
 .include <bsd.port.subdir.mk>
