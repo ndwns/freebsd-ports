@@ -58,6 +58,7 @@
     SUBDIR += qmail
     SUBDIR += rblcheck
     SUBDIR += rftp
+    SUBDIR += rlytest
     SUBDIR += serialmail
     SUBDIR += sigrot
     SUBDIR += smail
