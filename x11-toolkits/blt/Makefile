@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.tcltk.com/pub/blt/
 
 MAINTAINER=	kjc@csl.sony.co.jp
 
+BROKEN_ELF=	library version numbers
+
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/blt2.4f
