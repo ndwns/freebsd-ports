@@ -150,6 +150,7 @@
     SUBDIR += pmf
     SUBDIR += ppp-nt
     SUBDIR += pppload
+    SUBDIR += pptpclient
     SUBDIR += ppxp
     SUBDIR += proftpd
     SUBDIR += pvm
