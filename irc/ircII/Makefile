@@ -1,5 +1,5 @@
 # New ports collection makefile for:	IrcII Client
-# Version required:	2.8
+# Version required:	2.8.2
 # Date created:		18 Oct 1994
 # Whom:			torstenb
 #
@@ -10,6 +10,7 @@ DISTNAME=	ircii-2.8.2
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 DISTFILES=	ircii-2.8.2.tar.gz ircii-2.8help.tar.gz
+
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
