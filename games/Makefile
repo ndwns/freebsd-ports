@@ -23,6 +23,7 @@
     SUBDIR += gnugo
     SUBDIR += gnushogi
     SUBDIR += golddig
+    SUBDIR += icbm3d
     SUBDIR += imaze
     SUBDIR += jetpack
     SUBDIR += kdegames
