@@ -945,9 +945,12 @@ do-package:
 				fi; \
 			fi; \
 		fi; \
-		${PKG_CMD} ${PKG_ARGS} ${PKGFILE}; \
-		if [ -d ${PACKAGES} ]; then \
-			${MAKE} ${.MAKEFLAGS} package-links; \
+		if ${PKG_CMD} ${PKG_ARGS} ${PKGFILE}; then \
+			if [ -d ${PACKAGES} ]; then \
+				${MAKE} ${.MAKEFLAGS} package-links; \
+			fi; \
+		else \
+			${MAKE} ${.MAKEFLAGS} delete-package; \
 		fi; \
 	fi
 .endif
