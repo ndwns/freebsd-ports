@@ -1,28 +1,27 @@
 # New ports collection makefile for:	BladeEnc
-# Version required:	0.76
+# Version required:	0.82
 # Date created:		Thu Jan 14 23:28:40 CET 1999
-# Whom:			Dirk Froemberg <dirk@FreeBSD.ORG>
+# Whom:			Dirk Froemberg <dirk@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=	BladeEnc-076-bsd-i386
-PKGNAME=	bladeenc-0.76
+DISTNAME=	bladeenc-082-src-stable
+PKGNAME=	bladeenc-082
 CATEGORIES=	audio
 MASTER_SITES=	http://home8.swipnet.se/~w-82625/encoder/binaries/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
-MAINTAINER=	dirk@FreeBSD.ORG
+MAINTAINER=	dirk@FreeBSD.org
 
-ONLY_FOR_ARCHS=	i386
-NO_WRKSUBDIR=	yes
-NO_BUILD=	yes
+pre-build:
+	${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/bladeenc ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/bladeenc ${PREFIX}/bin
 .if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/BladeEnc
-	${INSTALL_DATA} ${WRKSRC}/BladeEnc.html ${PREFIX}/share/doc/BladeEnc
+	${MKDIR} ${PREFIX}/share/doc/bladeenc
+	${INSTALL_DATA} ${WRKSRC}/bladeenc.html ${PREFIX}/share/doc/bladeenc
 .endif
 
 .include <bsd.port.mk>
