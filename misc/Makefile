@@ -39,7 +39,6 @@
     SUBDIR += trans
     SUBDIR += unclutter
     SUBDIR += xcalendar
-    SUBDIR += xephem
     SUBDIR += zorro
 
 .include <bsd.port.subdir.mk>
