@@ -45,7 +45,7 @@ do-install:
 	fi
 	rm -rf ${NDIR}/movemail-src
 	tar zxvf ${DISTDIR}/${AUTOADMIN} -C ${NDIR}
-.if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
+.if defined(USE_128BIT)
 	cd ${WRKDIR}/Fortify-1.3.2-unix-x86 && \
 		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.08.bin
 .endif
