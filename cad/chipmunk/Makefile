@@ -12,6 +12,9 @@ MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/chipmunk/
 DISTFILES=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 		mosisbeta.tar.Z wolbeta.tar.Z wolcompbeta.tar.Z \
 		untilbeta.tar.Z viewbeta.tar.Z Makefile
+
+MAINTAINER=	ports@FreeBSD.org
+
 EXTRACT_ONLY=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 		mosisbeta.tar.Z wolbeta.tar.Z wolcompbeta.tar.Z \
 		untilbeta.tar.Z viewbeta.tar.Z
