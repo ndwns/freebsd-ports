@@ -51,6 +51,9 @@ $/dev		L
 # /usr/share/man
 =/usr/share/man	L
 
+# /usr/share/openssl/man
+=/usr/share/openssl/man	L
+
 # /usr/share/perl/man
 =/usr/share/perl/man	L
 
