@@ -1,12 +1,12 @@
 # New ports collection makefile for:    scheme48
-# Version required:     0.36
-# Date created:         2 Jan 1995
-# Whom:                 jmacd@uclink.berkeley.edu
+# Version required:     0.46
+# Date created:         25 Aug 1997
+# Whom:                 jmacd
 #
 # $Id$
 #
 
-DISTNAME=	scheme48-0.36
+DISTNAME=	scheme48-0.46
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
 
