@@ -1,13 +1,13 @@
 # New ports collection makefile for:	ewipe
-# Version required:	0.4.7
+# Version required:	0.4.8
 # Date created:		17 October 1997
 # Whom:			itojun@itojun.org
 #
 # $Id$
 #
 
-DISTNAME=	ewipe0.4.7
-PKGNAME=	ewipe-0.4.7
+DISTNAME=	ewipe0.4.8
+PKGNAME=	ewipe-0.4.8
 CATEGORIES=	japanese x11
 MASTER_SITES=	http://al.ei.tuat.ac.jp/~sekisita/ewipe/
 
