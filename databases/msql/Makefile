@@ -8,7 +8,7 @@
 
 DISTNAME=	msql-1.0
 EXTRACT_SUFX=	.tar.gz
-MASTER_SITES=		ftp://bond.edu.au:/pub/Minerva/msql
+MASTER_SITES=		ftp://bond.edu.au/pub/Minerva/msql/
 #INSTALL_MANPAGES=	YES
 IS_INTERACTIVE=		YES
 PREFIX=		/usr/local/Minerva
