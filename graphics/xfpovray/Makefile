@@ -8,7 +8,7 @@
 
 DISTNAME=       xfpovray-1.3.1
 CATEGORIES=	graphics
-MASTER_SITES=	http://crazyhorse.msfc.nasa.gov/~mallors/software/xfpovray/v1.3.1/ \
+MASTER_SITES=	http://www.batse.msfc.nasa.gov/~mallozzi/software/xfpovray/v1.3.1/ \
 		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/graphics/rays/pov
 EXTRACT_SUFX=	.tgz
