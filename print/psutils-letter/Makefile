@@ -57,10 +57,10 @@ pre-fetch:
 	@echo "Possible values are:  A3, A4 (default), A5, B5, letter, legal,"
 	@echo "   ledger, tabloid, statement, executive, folio, quarto, and 10x14."
 .elif defined(PAPERSIZE_INVALID)
-	@echo "Error: invalid value for PAPERSIZE: \"${PAPERSIZE}\"" 
+	@echo "Error: invalid value for PAPERSIZE: \"${PAPERSIZE}\""
 	@echo "Possible values are:  A3, A4 (default), A5, B5, letter, legal,"
 	@echo "   ledger, tabloid, statement, executive, folio, quarto, and 10x14."
-	@/usr/bin/false
+	@${FALSE}
 .endif
 
 .include <bsd.port.mk>
