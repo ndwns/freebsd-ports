@@ -125,7 +125,7 @@ PKG_SUFX?=		.tgz
 
 # I guess we're in the master distribution business! :)  As we gain mirror
 # sites for distfiles, add them to this list.
-MASTER_SITES+=	ftp://freebsd.cdrom.com/pub/FreeBSD/FreeBSD-current/ports/distfiles
+MASTER_SITES+=	ftp://freebsd.cdrom.com/pub/FreeBSD/FreeBSD-current/ports/distfiles/
 
 # Derived names so that they're easily overridable.
 DISTFILES?=		${DISTNAME}${EXTRACT_SUFX}
@@ -284,7 +284,7 @@ fetch: pre-fetch
 			echo ">> $$file doesn't seem to exist on this system."; \
 			echo ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
-				if ${NCFTP} ${NCFTPFLAGS} $$site/$$file; then \
+				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
 					echo ">> $$file Fetched!" ; \
 					break; \
 				fi \
