@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	jdk1.1.7.V98-11-5
+DISTNAME=	jdk1.1.7.V98-12-21
 PKGNAME=	jdk-1.1.7
 CATEGORIES=	lang devel
 MASTER_SITES=	ftp://ftp.nuxi.com/pub/FreeBSD/JDK/ \
