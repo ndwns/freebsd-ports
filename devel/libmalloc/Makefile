@@ -13,6 +13,11 @@ MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/moraes/
 
 MAINTAINER=	obrien@FreeBSD.org
 
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} >= 300000
+BROKEN=		mmap prototype mismatch
+.endif
+
 MANUAL_PACKAGE_BUILD=	installs malloc.h
 
 post-install:
@@ -24,4 +29,4 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/NOTE ${PREFIX}/share/doc/libmalloc
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
