@@ -8,9 +8,9 @@
 
 DISTNAME=	rtfm-0.1
 CATEGORIES=	misc
-MASTER_SITES= 	http://www.freebsd.org/~cpiazza/distfiles/
+MASTER_SITES= 	http://www.freebsd.org/~chris/distfiles/
 
-MAINTAINER=    chris@calldei.com
+MAINTAINER=    chris@FreeBSD.org
 
 MAN1=          rtfm.1
 

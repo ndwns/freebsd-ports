@@ -8,9 +8,9 @@
 
 DISTNAME=	fconv-0.1
 CATEGORIES=	converters
-MASTER_SITES=	http://WWW.FreeBSD.ORG/~taoka/distfiles/
+MASTER_SITES=	http://www.FreeBSD.org/~chris/distfiles/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	chris@FreeBSD.org
 
 post-install:
 	strip ${PREFIX}/bin/dos2bsd
