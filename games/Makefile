@@ -2,6 +2,7 @@
 #
 
    SUBDIR += acm
+   SUBDIR += astrolog
    SUBDIR += golddig
    SUBDIR += jetpack
    SUBDIR += nethack
