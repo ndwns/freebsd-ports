@@ -91,6 +91,7 @@
     SUBDIR += xless
     SUBDIR += xpns
     SUBDIR += xquote
+    SUBDIR += xtail
     SUBDIR += xtar
     SUBDIR += ytree
 
