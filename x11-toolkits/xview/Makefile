@@ -6,10 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	xview-config-3.2.1
+DISTNAME=	xview3.2p1-X11R6
+PKGNAME=	xview-config-3.2.1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_LOCAL}
-DISTFILES=	xview3.2p1-X11R6.tar.gz
+
+MAINTAINER=	ports@FreeBSD.ORG
 
 WRKSRC=      	${WRKDIR}/xview3.2p1-X11R6/config
 USE_IMAKE=	yes
