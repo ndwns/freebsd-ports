@@ -61,6 +61,7 @@
     SUBDIR += jetpack
     SUBDIR += jzip
     SUBDIR += kdegames11
+    SUBDIR += kdegames11-i18n
     SUBDIR += klondike
     SUBDIR += ktamaga
     SUBDIR += ladder

@@ -24,6 +24,7 @@
     SUBDIR += id3ren
     SUBDIR += juke
     SUBDIR += kdemultimedia11
+    SUBDIR += kdemultimedia11-i18n
     SUBDIR += kmikmod
     SUBDIR += kmp3
     SUBDIR += kmpg

@@ -58,6 +58,7 @@
     SUBDIR += jgv
     SUBDIR += jpeg
     SUBDIR += kdegraphics11
+    SUBDIR += kdegraphics11-i18n
     SUBDIR += killustrator
     SUBDIR += lfview
     SUBDIR += libimg

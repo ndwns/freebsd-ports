@@ -89,6 +89,7 @@
     SUBDIR += ivs
     SUBDIR += jmirror
     SUBDIR += kdenetwork11
+    SUBDIR += kdenetwork11-i18n
     SUBDIR += kdetelnet
     SUBDIR += kicq
     SUBDIR += kvirc

@@ -10,6 +10,7 @@
     SUBDIR += gtimer
     SUBDIR += ical
     SUBDIR += korganizer
+    SUBDIR += korganizer11-i18n
     SUBDIR += kproject
     SUBDIR += offix-trash
     SUBDIR += plan

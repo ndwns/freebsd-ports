@@ -50,6 +50,7 @@
     SUBDIR += gnomelibs
     SUBDIR += kb2mb2
     SUBDIR += kde11
+    SUBDIR += kde11-i18n
     SUBDIR += kdebase11
     SUBDIR += kdebase11-i18n
     SUBDIR += kdelibs11
