@@ -9,6 +9,8 @@
 # fixes up the build-depends and run-depends list, and writes
 # out the new INDEX file.
 
+require 5.002;
+
 # Helper function to map a directory to a pkgname.
 sub by_path {
     my $name = shift;
