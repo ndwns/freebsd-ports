@@ -1,12 +1,12 @@
 # New ports collection makefile for:	gview
-# Version required:			0.1.6
+# Version required:			0.1.9
 # Date created:				30 April 1999
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=	gview-0.1.6
+DISTNAME=	gview-0.1.9
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.geocities.com/ResearchTriangle/Facility/1468/sg/
 
