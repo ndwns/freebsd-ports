@@ -13,7 +13,7 @@ MASTER_SITES=	http://nwalsh.com/docbook/dsssl/
 EXTRACT_SUFX=	.zip
 
 PATCH_SITES=	http://www.freebsd.org/~kuriyama/distfiles/
-PATCHFILES=	db123jpja-981107.diff.gz
+PATCHFILES=	db123jpja-981109.diff.gz
 #PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
