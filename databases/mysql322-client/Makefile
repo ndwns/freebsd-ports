@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	mysql-3.22.13-beta
-PKGNAME=	mysql-3.22.13b
+DISTNAME=	mysql-3.22.14b-gamma
+PKGNAME=	mysql-3.22.14g
 CATEGORIES=	databases
 MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
 		ftp://ftp.digex.net/pub/database/mysql/Downloads/MySQL-3.22/ \
@@ -17,8 +17,6 @@ MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/My
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-MANUAL_PACKAGE_BUILD=	incompatible with mysql321
-NO_LATEST_LINK=	yes
 MAN1=		mysql.1
 
 USE_PERL5=	YES
