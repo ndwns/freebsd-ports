@@ -12,4 +12,6 @@ MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
 GMAKE=		yes
 
+is_depended: all
+
 .include <bsd.port.mk>
