@@ -62,7 +62,7 @@ Y2K=		http://www.apache.org/docs/misc/FAQ.html#year2000
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
 #
 
-GNU_CONFIGURE=  yes
+HAS_CONFIGURE=  yes
 CONFIGURE_ARGS= \
 		 --prefix=${PREFIX} \
 		 --with-layout=GNU \
