@@ -3,7 +3,7 @@
 # Date created:		5th June 1997
 # Whom:			joe@uk.freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ripe-whois-tools-2.4

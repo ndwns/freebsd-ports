@@ -3,7 +3,7 @@
 # Date created:				Jan 7 1999
 # Whom:					dom@myrddin.demon.co.uk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	icmpquery

@@ -3,7 +3,7 @@
 # Date created:         So  17 Nov 1996 16:59:23 MET
 # Whom:                 Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bb-1.2a

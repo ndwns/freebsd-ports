@@ -3,7 +3,7 @@
 # Date created:		24 February 1998
 # Whom:			msmith
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       	vnc-3.3.2r3_unixsrc

@@ -3,7 +3,7 @@
 # Date created:                21 Nov 1998
 # Whom:                        bradh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nocol-4.2.2beta1

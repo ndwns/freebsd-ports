@@ -3,7 +3,7 @@
 # Date created:         21 November 1995
 # Whom:                 Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       dhcp-1.4.0p5

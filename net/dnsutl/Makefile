@@ -3,7 +3,7 @@
 # Date created:			  Nov 05, 1998
 # Whom:				  Karl Dietz (Karl.Dietz@triplan.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dnsutl-1.5

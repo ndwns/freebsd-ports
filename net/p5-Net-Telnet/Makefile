@@ -3,7 +3,7 @@
 # Date created:			March 3 1998
 # Whom:	      			Jun Kuriyama <kuriyama@opt.phys.waseda.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Net-Telnet-3.01

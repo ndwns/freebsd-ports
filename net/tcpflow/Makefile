@@ -3,7 +3,7 @@
 # Date created:		20 August 1999
 # Whom:			Jose M. Alcaide <jose@we.lc.ehu.es>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcpflow-0.12

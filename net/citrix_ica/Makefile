@@ -3,7 +3,7 @@
 # Date created:         20 Sep 1998
 # Whom:                 msmith
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       linux

@@ -3,7 +3,7 @@
 # Date created:         20 Sep 1998
 # Whom:                 Lachlan O'Dea
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	openldap-1.2.3

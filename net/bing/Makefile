@@ -3,7 +3,7 @@
 # Date created:		28 December 1996
 # Whom:			jseger@scds.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bing-1.0.4

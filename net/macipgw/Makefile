@@ -3,7 +3,7 @@
 # Date created:         25 Nov 1997
 # Whom:                 stb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       macipgw-1.0

@@ -5,7 +5,7 @@
 # Whom:				  Narvi <narvi@haldjas.folklore.ee>
 #				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	socket++-1.10

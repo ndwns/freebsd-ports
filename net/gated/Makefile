@@ -3,7 +3,7 @@
 # Date created:		29 October 1994
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gated-3-5-11

@@ -3,7 +3,7 @@
 # Date created:         19 February 1999
 # Whom:                 Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xferstats-2.14

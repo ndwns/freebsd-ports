@@ -3,7 +3,7 @@
 # Date created:		27 Nov 1997
 # Whom:			SADA Kenji <sada@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dns

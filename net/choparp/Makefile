@@ -3,7 +3,7 @@
 # Date created:		7 October 1997
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	choparp-971007

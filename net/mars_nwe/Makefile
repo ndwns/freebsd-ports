@@ -3,7 +3,7 @@
 # Date created:		29 Dec 1998
 # Whom:			Boris Popov <bp@butya.kz>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       mars_nwe-0.99.pl17

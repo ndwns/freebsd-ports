@@ -3,7 +3,7 @@
 # Date created:        18 May 1998
 # Whom:                Hans Petter Bieker <hanspb@persbraten.vgs.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ksamba-0.3.3

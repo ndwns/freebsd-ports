@@ -3,7 +3,7 @@
 # Date created:        24 November 1998
 # Whom:                Rich Neswold <rneswold@mcs.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmnet-1.2

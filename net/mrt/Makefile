@@ -3,7 +3,7 @@
 # Date created:		Sat Jun  6 00:09:52 JST 1998
 # Whom:			Jun-ichiro itojun Hagino <itojun@itojun.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mrt-${VERBASE}-src

@@ -3,7 +3,7 @@
 # Date created:         March 24 1997
 # Whom:                 Brian Somers <brian@Awfulhak.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	arpwatch-2.1a4

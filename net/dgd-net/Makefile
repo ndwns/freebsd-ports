@@ -3,7 +3,7 @@
 # Date created:		17 June 1996
 # Whom:			adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dgd-net-1.1p6

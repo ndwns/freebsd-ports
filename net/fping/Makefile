@@ -4,7 +4,7 @@
 # Date created:			  Tue Mar 25, 1997
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	part01

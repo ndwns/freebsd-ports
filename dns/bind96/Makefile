@@ -3,7 +3,7 @@
 # Date created:		18 July 1997
 # Whom:			jseger@scds.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bind-8.2.1

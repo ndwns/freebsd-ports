@@ -3,7 +3,7 @@
 # Date created:				24 Apr 1996
 # Whom:					pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	socks5-v1.0r9

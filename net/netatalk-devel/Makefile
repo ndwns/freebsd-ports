@@ -3,7 +3,7 @@
 # Date created:         23 Jul 1997
 # Whom:                 stb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       netatalk-1.4b2

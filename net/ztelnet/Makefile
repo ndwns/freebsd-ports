@@ -3,7 +3,7 @@
 # Date created:         15 Mar 1998
 # Whom:                 CHOI Junho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 # In this ports..
 #   - new compilation diff for FreeBSD(now we can upload!)

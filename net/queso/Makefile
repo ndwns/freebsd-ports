@@ -5,7 +5,7 @@
 # Whom:				  Wu Ching-hong <woju@freebsd.ee.ntu.edu.tw>
 # 				  and David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	queso-980922

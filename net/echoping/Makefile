@@ -3,7 +3,7 @@
 # Date created:		13 April 1997
 # Whom:			peter
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	echoping-2.2.0

@@ -3,7 +3,7 @@
 # Date created:		14 June 1997
 # Whom:			Dmitrij Tejblum <dima@tejblum.dnttm.rssi.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Sharity-Light.1.2

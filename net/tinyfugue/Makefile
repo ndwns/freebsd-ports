@@ -3,7 +3,7 @@
 # Date created:		4 January 1997
 # Whom:			mike@binghamton.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tf-40s1

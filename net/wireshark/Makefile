@@ -3,7 +3,7 @@
 # Date created:        10 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ethereal-0.7.2

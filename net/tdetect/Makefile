@@ -4,7 +4,7 @@
 # Date created:			  Sun Jan 31, 1997
 # Whom:               		  shipley@dis.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tdetect-0.2

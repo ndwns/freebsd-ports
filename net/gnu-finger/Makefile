@@ -3,7 +3,7 @@
 # Date created:         20 June 1996
 # Whom:                 Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       finger-1.37

@@ -3,7 +3,7 @@
 # Date created:        12 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mtr-0.39

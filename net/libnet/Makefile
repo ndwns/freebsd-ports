@@ -3,7 +3,7 @@
 # Date created:			Sun Feb 3, 1999
 # Whom:				shipley@dis.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libnet-0.99b

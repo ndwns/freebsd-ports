@@ -3,7 +3,7 @@
 # Date created:		11 Dec 1994
 # Whom:			ats (original)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gopher2_3

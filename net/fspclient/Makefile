@@ -3,7 +3,7 @@
 # Date created:         7 Nov 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       fspclient.0.0-h+

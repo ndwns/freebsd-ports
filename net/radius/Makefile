@@ -3,7 +3,7 @@
 # Date created:		4. July 1996
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	radius.3.6B.basic

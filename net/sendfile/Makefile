@@ -3,7 +3,7 @@
 # Date created:         30 Oct 1997
 # Whom:                 sec@42.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sendfile-19990215

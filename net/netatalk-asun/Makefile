@@ -3,7 +3,7 @@
 # Date created:         07 Sep 1998
 # Whom:                 stb@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       netatalk-1.4b2+asun2.1.3

@@ -3,7 +3,7 @@
 # Date created: 			11 September 1998
 # Whom: 				jabley@clear.co.nz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ciscoconf-1.0beta1

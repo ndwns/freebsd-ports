@@ -3,7 +3,7 @@
 # Date created:		1-Aug-1995
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zephyr-2.0.4

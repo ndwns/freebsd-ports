@@ -3,7 +3,7 @@
 # Date created:         7 Mar 1996
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       dhcp-2.0

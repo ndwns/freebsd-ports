@@ -3,7 +3,7 @@
 # Date created:				11 Oct 1998
 # Whom:					mph
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       micq-0.4.1

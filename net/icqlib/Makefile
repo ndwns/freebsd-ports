@@ -3,7 +3,7 @@
 # Date created:                         16 March 1999
 # Whom:                                 Pavel Andreev
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	icqlib-0.1.3

@@ -3,7 +3,7 @@
 # Date created:         20 Sep 1994
 # Whom:                 adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       freeWAIS-0.5

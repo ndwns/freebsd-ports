@@ -4,7 +4,7 @@
 # Date created:				2 Jun 1998
 # Whom:					obrien
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcpdump-3.4

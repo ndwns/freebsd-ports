@@ -3,7 +3,7 @@
 # Date created:		10 August 1998
 # Whom:			SADA Kenji <sada@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ppp-2.2.7

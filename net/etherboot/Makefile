@@ -3,7 +3,7 @@
 # Date created:        16 April 1999
 # Whom:                Doug Ambrisko <ambrisko@whistle.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	etherboot-4.1pre9

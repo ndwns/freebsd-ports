@@ -3,7 +3,7 @@
 # Date created:        7 November 1998
 # Whom:                Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pathchar-a1-freebsd-3.0

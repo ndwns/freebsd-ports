@@ -5,7 +5,7 @@
 #			KUNISHIMA Takeo <kunishi@c.oka-pu.ac.jp>
 #			Taguchi Takeshi <taguchi@tohoku.iij.ad.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ppxp-0.99072807

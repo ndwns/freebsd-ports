@@ -3,7 +3,7 @@
 # Date created:		4 Mar 1997
 # Whom:			Igor Vinokurov <igor@zynaps.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tac_plus.2.1

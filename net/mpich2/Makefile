@@ -3,7 +3,7 @@
 # Date created:		2 May 1998
 # Whom:                 dbader@eece.unm.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpich-1.1.2

@@ -3,7 +3,7 @@
 # Date created:				29 June 1998
 # Whom:					scrappy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xicq-071298-snapshot.src

@@ -3,7 +3,7 @@
 # Date created:		Oct 6, 1994
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pcnfsd.93.02.16

@@ -3,7 +3,7 @@
 # Date created:         25 September 1996
 # Whom:                 igor@zynaps.ru
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	trafshow-2.0

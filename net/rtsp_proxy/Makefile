@@ -3,7 +3,7 @@
 # Date created:				8 June 1999
 # Whom:					Richard Kiss <richard@homemail.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	SS1.0.1

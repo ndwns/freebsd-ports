@@ -3,7 +3,7 @@
 # Date created:			02 March 1999
 # Whom:				mharo@area51.fremont.ca.us
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	naim-0.9.4

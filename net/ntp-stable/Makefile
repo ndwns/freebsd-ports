@@ -3,7 +3,7 @@
 # Date created:		Di   5 Mai 1998 21:31:03 CEST
 # Whom:			andreas
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ntp-4.0.93a

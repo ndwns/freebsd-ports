@@ -3,7 +3,7 @@
 # Date created:		3 March 1997
 # Whom:			fenner
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcptrace.5.1.0

@@ -4,7 +4,7 @@
 # Date created:			  Mon Feb 03, 1998
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	telserv

@@ -3,7 +3,7 @@
 # Date created:        Wed Nov  4 08:48:08 EST 1998
 # Whom:                maurice
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	radiusclient-0.3

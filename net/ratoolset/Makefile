@@ -3,7 +3,7 @@
 # Date created:				May 4th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	RAToolSet-3.5.2

@@ -3,7 +3,7 @@
 # Date created:         24 Sep 1994
 # Whom:                 adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pmf-1.13.1

@@ -3,7 +3,7 @@
 # Date created:		10 November 1994
 # Whom:			adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dgd-lpmud

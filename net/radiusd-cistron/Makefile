@@ -3,7 +3,7 @@
 # Date created:		15 Jan 1999
 # Whom:			john@nlc.net.au
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	radiusd-cistron-1.5.4.3

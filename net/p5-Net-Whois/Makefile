@@ -3,7 +3,7 @@
 # Date created:				June 7th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Net-Whois-0.22

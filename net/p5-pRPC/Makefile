@@ -3,7 +3,7 @@
 # Date Created:				Aug 18 1998
 # Whom:					Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pRPC-modules-0.1005

@@ -3,7 +3,7 @@
 # Date created:				October 19th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	perl_archie.1.5

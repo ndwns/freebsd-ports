@@ -3,7 +3,7 @@
 # Date created:				26 June 1996
 # Whom:					gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ucd-snmp-4.0.1

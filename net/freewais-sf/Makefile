@@ -3,7 +3,7 @@
 # Date created:		19 November 1996
 # Whom:			Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	freeWAIS-sf-2.2.11

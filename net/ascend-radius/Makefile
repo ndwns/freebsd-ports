@@ -3,7 +3,7 @@
 # Date created:				August 28th 96
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 #DISTNAME=	radius-980618

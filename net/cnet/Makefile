@@ -3,7 +3,7 @@
 # Date created:         Feb 8th, 1988
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cnet-1.4-4

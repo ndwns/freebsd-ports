@@ -3,7 +3,7 @@
 # Date created:				17 January 1998
 # Whom:					Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	dnswalk-2.0.2
 CATEGORIES=	net

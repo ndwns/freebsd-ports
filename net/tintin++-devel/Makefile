@@ -3,7 +3,7 @@
 # Date created:         15 Nov 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tintin++v1.5pl6

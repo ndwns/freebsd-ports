@@ -3,7 +3,7 @@
 # Date created:		20 Oct 1994
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	c-archie-1.4.1-FIXED

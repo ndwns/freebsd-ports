@@ -3,7 +3,7 @@
 # Date created:				13 January 1999
 # Whom:					Eugene M. Kim <astralblue@usa.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tik-0.59

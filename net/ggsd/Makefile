@@ -3,7 +3,7 @@
 # Date created:				14 February 1999
 # Whom:                			Dima Sivachenko <dima@chg.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ggsd

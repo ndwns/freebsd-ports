@@ -3,7 +3,7 @@
 # Date created:		21 August 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sup

@@ -3,7 +3,7 @@
 # Date created:		29 May 1997
 # Whom:			candy@fct.kgc.co.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xipmsg-8087

@@ -4,7 +4,7 @@
 # Date created:			  Mon June 23, 1997
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	icmpinfo-1.11

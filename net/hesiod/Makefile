@@ -3,7 +3,7 @@
 # Date created:				6/11/1998
 # Whom:					n@nectar.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		hesiod-3.0.2

@@ -3,7 +3,7 @@
 # Date created:        31 December 1998
 # Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xwhois-0.3.6

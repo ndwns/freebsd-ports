@@ -3,7 +3,7 @@
 # Date created:				13 June 1999
 # Whom:					Stephen J. Roznowski <sjr@home.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	SNMP_Session-0.72

@@ -3,7 +3,7 @@
 # Date created:				29 January 1999
 # Whom:					mph
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ipw

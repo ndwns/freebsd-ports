@@ -3,7 +3,7 @@
 # Date created:                         2 July 1998
 # Whom:                                 Brian Feldman
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	licq-0.61

@@ -3,7 +3,7 @@
 # Date created:	17 May 1999
 # Whom:		paul@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	perldap-1_2_2

@@ -3,7 +3,7 @@
 # Date created:				19 June 1998
 # Whom:					Robert V. Baron <rvb@cs.cmu.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	coda-intro-4.6.6

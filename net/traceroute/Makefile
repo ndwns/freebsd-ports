@@ -3,7 +3,7 @@
 # Date created:		20 February 1997
 # Whom:			chris@vader.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	traceroute_${RELEASEDATE}

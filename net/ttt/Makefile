@@ -3,7 +3,7 @@
 # Date created:         22 September 1998
 # Whom:                 Kenjiro Cho <kjc@csl.sony.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ttt-1.4

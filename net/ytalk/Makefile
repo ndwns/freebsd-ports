@@ -3,7 +3,7 @@
 # Date created:		18 March 1995
 # Whom:			dom@myrddin.demon.co.uk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ytalk-3.1.1

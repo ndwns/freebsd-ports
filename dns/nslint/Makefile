@@ -3,7 +3,7 @@
 # Date created:		27 October 1997
 # Whom:			dglo@ssec.wisc.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nslint-2.0

@@ -3,7 +3,7 @@
 # Date created:		25 Aug 1995
 # Whom:			Alain Kalker <A.C.P.M.Kalker@student.utwente.nl>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slirp-1.0c

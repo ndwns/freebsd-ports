@@ -3,7 +3,7 @@
 # Date created:				25 Feb 1999
 # Whom:					Archie Cobbs
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpd-2.0b2

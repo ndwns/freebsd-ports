@@ -3,7 +3,7 @@
 # Date created:		24 September 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xarchie-2.0.10

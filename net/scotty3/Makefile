@@ -3,7 +3,7 @@
 # Date created:		18 February 1995
 # Whom:			Gennady Sorokopud <gena@netvisions.net.il>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scotty-2.1.9

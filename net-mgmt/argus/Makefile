@@ -3,7 +3,7 @@
 # Date created:		26 November 1998
 # Whom:			Jonathan Hanna <jhanna@home.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	argus-1.7.beta.1e

@@ -3,7 +3,7 @@
 # Date created:         01 May 1998
 # Whom:                 tonym
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Generic-NQS-3.50.4

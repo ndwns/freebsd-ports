@@ -3,7 +3,7 @@
 # Date created:				12th April 1997
 # Whom:					doconnor@gsoft.com.au
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	netpipes-4.2-export

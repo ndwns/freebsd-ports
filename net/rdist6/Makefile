@@ -3,7 +3,7 @@
 # Date created:		19 August 1995
 # Whom:			peter
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rdist-6.1.5

@@ -3,7 +3,7 @@
 # Date created:        1997/06/09
 # Whom:                wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rshell-1.0

@@ -3,7 +3,7 @@
 # Date created:				19 June 1998
 # Whom:					hmpierce <hmpierce@cs.cmu.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	coda-4.6.6

@@ -3,7 +3,7 @@
 # Date created:		01 February 1997
 # Whom:			jdp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cvsup-mirror-1.0

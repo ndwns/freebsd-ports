@@ -3,7 +3,7 @@
 # Date created:				4 November 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtksamba-0.3.2pl1

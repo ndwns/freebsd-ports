@@ -3,7 +3,7 @@
 # Date created:			09 Nov 1996
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cap60.pl100

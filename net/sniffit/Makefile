@@ -4,7 +4,7 @@
 # Date created:		28 Mar 1998
 # Whom:			bsdx
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sniffit.0.3.7.beta

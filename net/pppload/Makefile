@@ -3,7 +3,7 @@
 # Date created:        30 January 1998
 # Whom:                Sean Cole <scole@aracnet.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pppload-1.0

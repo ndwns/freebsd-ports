@@ -3,7 +3,7 @@
 # Date created:		7 August 1996
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cvsup-16.0

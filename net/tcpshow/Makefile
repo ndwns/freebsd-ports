@@ -4,7 +4,7 @@
 # Date created:			  Tue Nov 04, 1997
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcpshow-1.74

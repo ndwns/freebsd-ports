@@ -3,7 +3,7 @@
 # Date created:				May 9th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rwhois-1.0B9.2

@@ -3,7 +3,7 @@
 # Date created:		17 August 1998
 # Whom:			Sheldon Hearn <axl@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cvsupd-bin-16.0

@@ -4,7 +4,7 @@
 # Date created:			  Mon Dec 23, 1998
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	relay

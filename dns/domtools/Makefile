@@ -3,7 +3,7 @@
 # Date created:				12 Jun 1999
 # Whom:					alexp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       domtools${VERSION}
