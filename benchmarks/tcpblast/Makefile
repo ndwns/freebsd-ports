@@ -1,7 +1,7 @@
-# New ports collection makefile for:	pkg_install
-# Version required:	<own lineage>
+# New ports collection makefile for:	tcpblast
+# Version required:	<self contained>
 # Date created:		22 August 1994
-# Whom:			jkh
+# Whom:			mr
 #
 # $Id$
 #

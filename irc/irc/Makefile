@@ -11,7 +11,7 @@ prefix=		/usr/local
 .endif
 
 DISTNAME=	irc2.8.20
-HOME_LOCATION=	ftp://cs-ftp.bu.edu/irc/servers/
+MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 pre-install:
 	@if [ ! -d $(prefix)/bin ]; then \

@@ -7,6 +7,6 @@
 #
 
 DISTNAME=	tcsh-6.05
-HOME_LOCATION=  ftp://tesla.ee.cornell.edu/pub/tcsh/tcsh-6.05.tar.gz
+MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh
 
 .include <bsd.port.mk>

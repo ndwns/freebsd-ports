@@ -10,7 +10,7 @@ DISTNAME=	fvwm-1.23b
 NO_WRKSUBDIR=	yes
 DISTFILES=	fvwm-1.23b-core.tar.gz fvwm-1.23b-modules.tar.gz \
 		fvwm-1.23-icons.tar.gz
-HOME_LOCATION=	ftp://spcot.sanders.com/pub/fvwm
+MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

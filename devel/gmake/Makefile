@@ -8,6 +8,6 @@
 
 DISTNAME=	make-3.71
 HAS_CONFIGURE=	yes
-HOME_LOCATION=	ftp://prep.ai.mit.edu/pub/gnu/make-3.71.tar.gz
+MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu
 
 .include <bsd.port.mk>
