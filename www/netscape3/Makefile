@@ -8,7 +8,7 @@
 
 DISTNAME=       netscape-3.0b2
 CATEGORIES+=	www
-MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/atlas/pr1/
+MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/atlas/pr1/unix/standard/
 DISTFILES=      netscape-vAtlas_b2-export.i386-unknown-bsd.tar.gz
 
 MAINTAINER=	jkh@FreeBSD.ORG
