@@ -16,8 +16,6 @@ MAINTAINER=	billf@chc-chimes.com
 BUILD_DEPENDS=	${PREFIX}/bin/tclsh8.0:${PORTSDIR}/lang/tcl80
 RUN_DEPENDS=	${PREFIX}/bin/tclsh8.0:${PORTSDIR}/lang/tcl80
 
-BROKEN=		installs man page in /usr/local/man1
-
 MAN1=		clig.1
 
 NO_BUILD=	yes
@@ -30,7 +28,7 @@ do-patch:
 	${SED} -e 's#prefix =~/tools#prefix =${PREFIX}/share#' \
 	       -e 's#LROOT =~/tools#LROOT =${PREFIX}#' \
 	       -e 's#DOCDIR =$$(prefix)/doc#DOCDIR =${PREFIX}/share/doc/clig#' \
-	       -e 's#MANDIR =$$(prefix)#MANDIR =${MANPREFIX}#' \
+	       -e 's#MANDIR =$$(prefix)#MANDIR =${MANPREFIX}/man/#' \
 		${WRKSRC}/makefile.orig > ${WRKSRC}/makefile
 
 post-install:
