@@ -1,6 +1,6 @@
 # $Id$
 #
 
-#    SUBDIR += fill_here
+    SUBDIR += rasmol
 
 .include <bsd.port.subdir.mk>
