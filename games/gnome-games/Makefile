@@ -9,10 +9,8 @@
 DISTNAME=	gnome-games-0.99.3
 PKGNAME=	gnomegames-0.99.3
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/latest/ \
-		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
-		ftp://gnomeftp.wgn.net/pub/gnome/sources/latest/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/latest/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	gnome-games
 
 MAINTAINER=	nacai@iname.com
 

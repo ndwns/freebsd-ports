@@ -9,10 +9,8 @@
 DISTNAME=	gnome-print-0.0.3
 PKGNAME=	gnomeprint-0.0.3
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/latest/ \
-		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
-		ftp://gnomeftp.wgn.net/pub/gnome/sources/latest/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/latest/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	gnome-print
 
 MAINTAINER=	nacai@iname.com
 

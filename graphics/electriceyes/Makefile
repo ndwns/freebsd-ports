@@ -9,10 +9,8 @@
 DISTNAME=	ee-0.3.5
 PKGNAME=	electriceyes-0.3.5
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
-		ftp://gnomeftp.wgn.net/pub/gnome/sources/latest/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/latest/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	ee
 
 MAINTAINER=	nacai@iname.com
 

@@ -9,8 +9,8 @@
 DISTNAME=	gnome-utils-0.99.1
 PKGNAME=	gnomeutils-0.99.1
 CATEGORIES=	misc
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	gnome-utils
 
 MAINTAINER=	nacai@iname.com
 

@@ -8,8 +8,8 @@
 
 DISTNAME=	fnlib-0.4
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/enlightenment/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/enlightenment/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	enlightenment
 #MASTER_SITES=	ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
 #		ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
 #		ftp://ftp.labs.redhat.com/pub/imlib/TAR/

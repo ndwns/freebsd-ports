@@ -9,8 +9,8 @@
 DISTNAME=	libPropList-0.7.1gnome
 PKGNAME=	libproplistgnome-0.7.1
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	libPropList
 
 MAINTAINER=    gljohns@bellsouth.net
 

@@ -9,8 +9,8 @@
 DISTNAME=	gnome-audio-0.1
 PKGNAME=	gnomeaudio-0.1
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+MASTER_SITES=	${MASTER_SITE_GNOME}
+MASTER_SITE_SUBDIR=	gnome-audio
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
