@@ -1,7 +1,7 @@
 # New ports collection makefile for:	xbmbrowser
 # Version required:	xbmbrowser5.1
 # Date created:		06 September 1995
-# Whom:			thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@FreeBSD.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

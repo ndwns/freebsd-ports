@@ -1,7 +1,7 @@
 # New ports collection makefile for:	xskat
 # Version required:	xskat-1.6
 # Date created:		27 Apr 1996
-# Whom:			thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	xskat-1.6
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.germany.eu.net/pub/X11/misc/
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/xskat
 USE_IMAKE=	yes

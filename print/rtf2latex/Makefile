@@ -1,7 +1,7 @@
 # New ports collection makefile for:	rtf2LaTeX
 # Version required:     1.5
 # Date created:         25 Jan 1995
-# Whom:                 thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ PKGNAME=	rtf2latex-1.5
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.dante.de/pub/tex/support/rtf2latex/
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/rtf2LaTeX
 MAN1=		rtf2LaTeX.1
