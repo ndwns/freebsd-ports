@@ -17,7 +17,7 @@ MAINTAINER=	ruslan@shevchenko.kiev.ua
 RUN_DEPENDS=	execute:${PORTSDIR}/x11/offix-execute \
 		editor:${PORTSDIR}/editors/offix-editor
 
-LIB_DEPENDS=	Dnd\\.1\\.:${PORTSDIR}/x11/libdnd \
+LIB_DEPENDS=	Dnd.1:${PORTSDIR}/x11/libdnd \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	YES

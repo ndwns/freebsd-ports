@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	desktop_managers/OffiX
 
 MAINTAINER=	ruslan@shevchenko.kiev.ua
 
-LIB_DEPENDS=	Dnd\\.1\\.:${PORTSDIR}/x11/libdnd
+LIB_DEPENDS=	Dnd.1:${PORTSDIR}/x11/libdnd
 
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
