@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gnome-libs-1.0.1
-PKGNAME=	gnomelibs-1.0.1
+DISTNAME=	gnome-libs-1.0.3
+PKGNAME=	gnomelibs-1.0.3
 CATEGORIES=	x11 gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	gnome-1.0/sources
