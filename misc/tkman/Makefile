@@ -14,4 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 EXEC_DEPENDS=	wish:${PORTSDIR}/x11/tk \
 		rman:${PORTSDIR}/utils/rman
 
+# Restrictive copyright
+NO_PACKAGE=	yes
+
 .include <bsd.port.mk>
