@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=        russian-X11
-CATEGORIES+=    x11
+PKGNAME=        ru-X11
+CATEGORIES+=    russian x11
 
 MAINTAINER=	ache@FreeBSD.ORG
 

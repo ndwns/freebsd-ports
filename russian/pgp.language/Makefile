@@ -7,8 +7,8 @@
 #
 
 DISTNAME=       pgp26ru
-PKGNAME=	pgp-2.6.ru
-CATEGORIES+=    utilities
+PKGNAME=	ru-pgp-2.6
+CATEGORIES+=    russian utilities
 MASTER_SITES=   ftp://ftp.kiae.su/unix/crypto/pgp/
 EXTRACT_SUFX=   .zip
 

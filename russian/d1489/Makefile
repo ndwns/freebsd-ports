@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       d1489-1.2
-EXTRACT_SUFX=   .tgz
-CATEGORIES+=    utilities
+DISTNAME=       ru-d1489-1.2
+CATEGORIES+=    russian utilities
 MASTER_SITES=   ftp://ftp.kiae.su/unix/convert/char/
+EXTRACT_SUFX=   .tgz
 
 MAINTAINER=	ache@FreeBSD.ORG
 
