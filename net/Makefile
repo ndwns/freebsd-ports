@@ -93,6 +93,7 @@
     SUBDIR += sic
     SUBDIR += sirc
     SUBDIR += slirp
+    SUBDIR += smbtcpdump
     SUBDIR += sniffit
     SUBDIR += socks5
     SUBDIR += spegla
