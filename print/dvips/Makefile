@@ -21,7 +21,7 @@ pre-install:
 	@${MKDIR} ${PREFIX}/share/texmf
 
 post-install:
-	@${MKDIR} ${PREFIX}/share/texmf/fonts/vf  ${PREFIX}/share/texmf/tex/latex
+	@${MKDIR} ${PREFIX}/share/texmf/fonts/vf  ${PREFIX}/share/texmf/fonts/tfm  ${PREFIX}/share/texmf/tex/latex
 	@install -c  -m 644 ${WRKDIR}/dvips574/dvips/*.sty ${PREFIX}/share/texmf/tex/latex
 	@install -c  -m 644 ${WRKDIR}/dvips574/PSlatex/*.sty ${PREFIX}/share/texmf/tex/latex
 	@install -c  -m 644 ${WRKDIR}/dvips574/PStfms/*.tfm ${PREFIX}/share/texmf/fonts/tfm
