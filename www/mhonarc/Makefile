@@ -24,10 +24,6 @@ NO_BUILD=	Yes
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300003
-BROKEN=		installs in /usr/local/local/lib/perl5
-.endif
-
 do-install:
 	cd ${WRKSRC} && ${PERL5} install.me -prefix ${PREFIX} -batch
 
