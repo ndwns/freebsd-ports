@@ -16,6 +16,8 @@ MAINTAINER=     dom@myrddin.demon.co.uk
 
 LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
 
+BROKEN=		fetch
+
 EXTRACT_BEFORE_ARGS= -xf
 USE_X11=	yes
 
