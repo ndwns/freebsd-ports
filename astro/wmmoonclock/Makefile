@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	wmMoonClock-1.25
+DISTNAME=	wmMoonClock-1.26
 CATEGORIES=	astro windowmaker
 MASTER_SITES=	http://nis-www.lanl.gov/~mgh/WindowMaker/
 
