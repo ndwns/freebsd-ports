@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0l
+DISTNAME=	vim-5.0m
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
@@ -19,15 +19,16 @@ MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
+MAKE_FLAGS=	CONF_ARGS=--prefix=${PREFIX} -f
 USE_GMAKE=	yes
 ALL_TARGET=	
 MAN1=		vim.1 xxd.1 ctags.1
 
 .if defined(HAVE_MOTIF)
 REQUIRES_MOTIF=	yes
-MAKE_FLAGS+=	CONF_OPT_GUI="--enable-gui=motif" MOTIFHOME=${X11BASE} -f
+MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=motif" MOTIFHOME=${X11BASE} ${MAKE_FLAGS}
 .else
-MAKE_FLAGS+=	CONF_OPT_GUI="--enable-gui=yes" -f
+MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=yes" ${MAKE_FLAGS}
 .endif
 
 pre-build:
