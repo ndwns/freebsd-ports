@@ -50,6 +50,8 @@
     SUBDIR += tk
     SUBDIR += tk41
     SUBDIR += today
+    SUBDIR += vfghostscript
+    SUBDIR += vflib
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
