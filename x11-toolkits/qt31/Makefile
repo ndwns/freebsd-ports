@@ -117,10 +117,10 @@ post-configure:
 
 do-install:
 	${INSTALL_PROGRAM} $(WRKDIR)/qt-${MAJ}.${MIN}/bin/moc $(PREFIX)/bin
-	${INSTALL_DATA} $(WRKDIR)/qt-${MAJ}.${MIN}/lib/libqt.so.${MAJ}.${MIN} \
+	${INSTALL_DATA} $(WRKDIR)/qt-${MAJ}.${MIN}/lib/libqt.so.${VERSION} \
 		$(PREFIX)/lib
-	${LN} -sf $(PREFIX)/lib/libqt.so.${MAJ}.${MIN} $(PREFIX)/lib/libqt.so
-	${LDCONFIG} -m $(PREFIX)/lib
+	${LN} -sf $(PREFIX)/lib/libqt.so.$(VERSION) $(PREFIX)/lib/libqt.so
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m $(PREFIX)/lib
 	${MKDIR} $(PREFIX)/include/X11/qt
 	${INSTALL_DATA} $(WRKDIR)/qt-${MAJ}.${MIN}/include/* \
 		$(PREFIX)/include/X11/qt
@@ -133,3 +133,9 @@ do-install:
 		${PREFIX}/share/doc/qt
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	${MAJ}
+.else
+VERSION=	${MAJ}.${MIN}
+.endif
