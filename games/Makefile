@@ -96,6 +96,7 @@
     SUBDIR += xspringies
     SUBDIR += xtic
     SUBDIR += xtriangles
+    SUBDRI += xtris
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
     SUBDIR += ztrack
