@@ -1,6 +1,6 @@
 # New ports collection makefile for:	mpd
 # Version required:			1.0b4
-# Date created:				10 September 1997
+# Date created:				16 May 1997
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
