@@ -20,6 +20,8 @@ MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+BROKEN=		upgrade
+
 GNU_CONFIGURE=	yes
 MAN1=		zsh.1 zshbuiltins.1 zshcompctl.1 zshexpn.1 zshmisc.1 \
 		zshoptions.1 zshall.1 zshparam.1 zshzle.1
