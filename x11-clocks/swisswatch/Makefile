@@ -4,6 +4,8 @@
 # Whom:                 Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
 # $Id$
+#
+
 DISTNAME=	swisswatch-0.06
 CATEGORIES+=	x11
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/X/R5contrib/
