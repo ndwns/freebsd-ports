@@ -1,10 +1,8 @@
 # $Id$
 #
-# BROKEN: iv
-#
 
 SUBDIR= XFree86 Xaw3d blt color_xterm ctwm emiclock emu fvwm g3view \
-	olvwm piewm \
+	iv olvwm piewm \
 	rxvt sxpc tk tkhfs tkinfo tkman tvtwm \
 	x3270 xcolors xdaliclock xdtm xearth xfed xfm xgrab \
 	xkeycaps xloadimage xlockmore xperfmon xphoon xsnow \
