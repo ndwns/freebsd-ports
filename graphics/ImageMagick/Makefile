@@ -22,7 +22,7 @@ MAINTAINER=	jseger@FreeBSD.org
 LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		mpeg\\.1\\.[2-9]:${PORTSDIR}/graphics/mpeg-lib \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
-		png\\.0\\.99:${PORTSDIR}/graphics/png \
+		png\\.2\\.:${PORTSDIR}/graphics/png \
 		jbig\\.0\\.9:${PORTSDIR}/graphics/jbigkit \
 		ttf\\.1\\.:${PORTSDIR}/print/freetype
 BUILD_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig \

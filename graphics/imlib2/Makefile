@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.enlightenment.org/pub/imlib/TAR/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	png\\.0\\.:${PORTSDIR}/graphics/png \
+LIB_DEPENDS=    png\\.2\\.:${PORTSDIR}/graphics/png \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib
