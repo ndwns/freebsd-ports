@@ -12,7 +12,7 @@ MASTER_SITES=   http://www.comp.lancs.ac.uk/~damon/builder/
 
 MAINTAINER=     dom@myrddin.demon.co.uk
 
-LIB_DEPENDS+=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
 
 GNU_CONFIGURE=	yes
 USE_X11=	yes
