@@ -141,6 +141,13 @@
     SUBDIR += tcl76
     SUBDIR += tcl80
     SUBDIR += tcsh
+    SUBDIR += tcsh-nls-asuka
+    SUBDIR += tcsh-nls-ayanami
+    SUBDIR += tcsh-nls-generic
+    SUBDIR += tcsh-nls-koshiki
+    SUBDIR += tcsh-nls-multi
+    SUBDIR += tcsh-nls-roomi
+    SUBDIR += tcsh-nls-ruri2
     SUBDIR += tgif
     SUBDIR += tk42
     SUBDIR += tk80
