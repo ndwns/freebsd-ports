@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	rkive3.1
+PKGNAME=	rkive-3.1
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.sterling.com/rkive/
 EXTRACT_SUFX=	.tar.Z
