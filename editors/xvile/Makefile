@@ -16,7 +16,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-screen=x11
 
 post-install:
-	.if !defined(NOMANCOMPRESS)
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/xvile.1
 .endif
 
