@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://cglab.snu.ac.kr/pub/hangul/n3f/applications/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+MANUAL_PACKAGE_BUILD=   PAPERSIZE has to be set to letter a4
 MAKE_FLAGS?=	WIDTH=${WIDTH} HEIGHT=${HEIGHT} A4_PAPERSIZE=${A4_PAPERSIZE} -f
 MAN1=		h2ps.1
 
