@@ -12,8 +12,6 @@ MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     joerg@FreeBSD.ORG
 
-USE_X11=	yes
-PREFIX=		${LOCALBASE}
 WRKSRC=		${WRKDIR}/XCept-2.1.2
 
 .include <bsd.port.mk>
