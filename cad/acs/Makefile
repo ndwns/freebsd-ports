@@ -6,15 +6,13 @@
 # $Id$
 #
 
-# note: there's a new version out (rewrite in C++).
-# i think i'll let that settle for a while;
-# at least as long as 0.16 is still available    --tg
-
-DISTNAME=	acs016
-PKGNAME=	acs-0.16
+DISTNAME=	acs020
+PKGNAME=	acs-0.20
 CATEGORIES+=	cad
 KEYWORDS+=	cad "circuit simulation" spice
-MASTER_SITES=	ftp://cs.rit.edu/pub/acs/
+MASTER_SITES=	ftp://mammoth.lle.rochester.edu/pub/local/acs/ \
+		ftp://cs.rit.edu/pub/acs/ \
+		ftp://ee.rochester.edu/pub/acs/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
