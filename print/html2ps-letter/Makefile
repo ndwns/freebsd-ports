@@ -8,7 +8,7 @@
 
 DISTNAME=	html2ps-1.0b1
 PKGNAME=	html2ps-1.0
-CATEGORIES=	lang www perl5
+CATEGORIES=	print www perl5
 MASTER_SITES=	http://www.tdb.uu.se/~jan/
 
 MAINTAINER=	andreas@FreeBSD.ORG
