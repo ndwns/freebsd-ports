@@ -16,4 +16,7 @@ EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andreas@klemm.gtn.com
 
+pre-install:
+	${MKDIR} ${PREFIX}/harvest
+
 .include <bsd.port.mk>
