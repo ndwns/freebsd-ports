@@ -1,5 +1,5 @@
 # New ports collection makefile for:	logo
-# Version required:	3.1
+# Version required:	3.3
 # Date created:		22 October 1994
 # Whom:			jkh
 #
@@ -8,7 +8,7 @@
 
 DISTNAME=	ucblogo-3.3
 CATEGORIES=	lang
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/GNU/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 

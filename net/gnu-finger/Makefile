@@ -9,8 +9,7 @@
 DISTNAME=       finger-1.37
 PKGNAME=        gnu-finger-1.37
 CATEGORIES=     net
-MASTER_SITES=   ftp://gatekeeper.dec.com/pub/GNU/ \
-		ftp://ftp.cc.keio.ac.jp/pub/mirror/GNU/
+MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=     sanpei@yy.cs.keio.ac.jp
 

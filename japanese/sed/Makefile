@@ -9,7 +9,7 @@
 DISTNAME=	sed-1.18
 PKGNAME=	jp-sed-1.18
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://ftp.uu.net/systems/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	asami@FreeBSD.ORG
 

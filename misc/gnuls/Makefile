@@ -9,8 +9,7 @@
 DISTNAME=	fileutils-3.12
 PKGNAME=	linuxls-3.12.0.2
 CATEGORIES=	misc
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/ \
-		ftp://ftp.cdrom.com/pub/linux/slackware_source/a/bin/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 PATCHFILES=	color-ls-3.12.0.2.patch.gz
 PATCH_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/slackware/source/a/bin/ \

@@ -8,8 +8,9 @@
 
 DISTNAME=	gnuplot
 PKGNAME=	gnuplot-3.5
-CATEGORIES+=	math graphics
-MASTER_SITES=	ftp://ftp.dartmouth.edu/pub/gnuplot/
+CATEGORIES=	math graphics
+MASTER_SITES=	ftp://ftp.dartmouth.edu/pub/gnuplot/ \
+		${MASTER_SITE_GNU}
 DISTFILES=	gnuplot3.5.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org

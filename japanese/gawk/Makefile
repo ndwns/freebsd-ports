@@ -9,7 +9,7 @@
 DISTNAME=	gawk-2.15.6
 PKGNAME=	jp-gawk-2.15.6
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/GNU/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	asami@FreeBSD.ORG
 

@@ -8,8 +8,7 @@
 
 DISTNAME=          gdbm-1.7.3
 CATEGORIES=        databases
-MASTER_SITES=      ftp://gatekeeper.dec.com/pub/GNU/ \
-                   ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=      ${MASTER_SITE_GNU}
 
 MAINTAINER=        nordquist@platinum.com
 

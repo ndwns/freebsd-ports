@@ -8,8 +8,8 @@
 
 DISTNAME=	gnuchess-4.0.pl77
 PKGNAME=	gnuchess-4.0.77
-CATEGORIES+=	games
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	markm@FreeBSD.ORG
 

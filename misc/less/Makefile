@@ -8,7 +8,7 @@
 
 DISTNAME=       less-321
 CATEGORIES=	misc
-MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
+MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=	ache@FreeBSD.ORG
 

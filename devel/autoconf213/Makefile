@@ -8,7 +8,7 @@
 
 DISTNAME=       autoconf-2.10
 CATEGORIES=	devel
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 RUN_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	mtools-3.0
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	jmz@FreeBSD.org
 

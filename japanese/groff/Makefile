@@ -9,8 +9,7 @@
 DISTNAME=	groff-1.10
 PKGNAME=	jp-groff-0.99
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.ae.keio.ac.jp/pub/GNU/ \
-		ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	graphite@taurus.bekkoame.or.jp
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	git-4.3.11
 CATEGORIES=	misc
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 GNU_CONFIGURE=	YES
 MAN1=		git.1 gitmount.1 gitcmp.1 gitkeys.1 gitredir.1 gitrgrep.1 \

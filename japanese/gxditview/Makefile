@@ -9,7 +9,7 @@
 DISTNAME=	groff-1.09
 PKGNAME=	jp-gxditview-0.98
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	asami@FreeBSD.ORG
 

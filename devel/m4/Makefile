@@ -7,11 +7,10 @@
 #
 
 DISTNAME=       m4-1.4
-CATEGORIES+=	devel
-MASTER_SITES=   ftp://gatekeeper.dec.com/pub/GNU/ \
-		ftp://prep.ai.mit.edu/pub/gnu/
+CATEGORIES=	devel
+MASTER_SITES=   ${MASTER_SITE_GNU}
 
 GNU_CONFIGURE=yes
-CONFIGURE_ARGS= --program-prefix=g --prefix=${PREFIX}
+CONFIGURE_ARGS= --program-prefix=g
 
 .include <bsd.port.mk>

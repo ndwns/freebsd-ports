@@ -8,7 +8,7 @@
 
 DISTNAME=	dejagnu-1.3
 CATEGORIES=	misc
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	markm@FreeBSD.ORG
 

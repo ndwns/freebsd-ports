@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	id-utils-3.2
-CATEGORIES+=	devel
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	pst@FreeBSD.ORG
 

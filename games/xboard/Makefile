@@ -8,12 +8,12 @@
 
 DISTNAME=       xboard-3.4.pl1
 PKGNAME=	xboard-3.4.1
-CATEGORIES+=	games
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	markm@FreeBSD.ORG
 
-BUILD_DEPENDS+= autoconf:${PORTSDIR}/devel/autoconf
+BUILD_DEPENDS=  autoconf:${PORTSDIR}/devel/autoconf
 
 HAS_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}

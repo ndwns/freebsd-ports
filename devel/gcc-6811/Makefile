@@ -10,8 +10,7 @@ DISTNAME=	gcc11
 PKGNAME=	gcc11-2.6.3
 CATEGORIES=	devel
 MASTER_SITES=	ftp://nyquist.ee.ualberta.ca/pub/motorola/68hc11/gcc/ \
-		ftp://archive.cis.ohio-state.edu/pub/gnu/mirror/ \
-		ftp://prep.ai.mit.edu/pub/gnu/
+		${MASTER_SITE_GNU}
 DISTFILES=	gcc-6811-fsf.tar.gz gcc-2.6.3.tar.gz
 
 MAINTAINER=	erich@FreeBSD.ORG
