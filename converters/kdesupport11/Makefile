@@ -6,16 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	kdesupport
-PKGNAME=	kdesupport-1.1a1
+DISTNAME=	kdesupport-1.1pre2
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre1/distribution/tar/generic/source
-EXTRACT_SUFX=	-1.1-alpha1.src.tar.bz2
+MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
-USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
@@ -26,7 +23,13 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
 
+.include <bsd.port.mk>
+
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-
-.include <bsd.port.mk>
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libQwSpriteField.so.6.0  ${PREFIX}/lib/libQwSpriteField.so
+	${LN} -sf lib/libjs.so.2.0         ${PREFIX}/lib/libjs.so
+	${LN} -sf lib/libmimelib.so.1.0    ${PREFIX}/lib/libmimelib.so
+	${LN} -sf librdb.so.55.0           ${PREFIX}/lib/librdb.so
+.endif

@@ -6,12 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdegraphics
-PKGNAME=	kdegraphics-1.1a1
+DISTNAME=	kdegraphics-1.1pre2
 CATEGORIES=	graphics kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre1/distribution/tar/generic/source
-EXTRACT_SUFX=	-1.1-alpha1.src.tar.bz2
+MASTER_SITE_SUBDIR= stable/1.2pre1/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
@@ -19,15 +17,13 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		kdecore.2:${PORTSDIR}/x11/kdelibs11
 
-USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"
-
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
-
+CFLAGS+=	"-I${PREFIX}/include"
 USE_GMAKE=	yes
 
 .include <bsd.port.mk>

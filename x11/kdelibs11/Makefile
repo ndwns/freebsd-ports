@@ -6,25 +6,26 @@
 # $Id$
 #
 
-DISTNAME=	kdelibs
-PKGNAME=	kdelibs-1.1a1
+DISTNAME=	kdelibs-1.1pre2
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre1/distribution/tar/generic/source
-EXTRACT_SUFX=	-1.1-alpha1.src.tar.bz2
+MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
-		jpeg.9:${PORTSDIR}/graphics/jpeg
+		jpeg.9:${PORTSDIR}/graphics/jpeg \
+		png.3:${PORTSDIR}/graphics/png \
+		tiff.4:${PORTSDIR}/graphics/tiff34
 
-USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
+		"--with-extra-includes=${PREFIX}/include" \
 		"--x-inc=$(X11BASE)/include" \
 		"--x-lib=$(X11BASE)/lib"
-CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)"
+CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
+USE_GMAKE=	yes
 
 .include <bsd.port.pre.mk>
 

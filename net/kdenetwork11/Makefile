@@ -6,12 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdenetwork
-PKGNAME=	kdenetwork-1.1a1
+DISTNAME=	kdenetwork-1.1pre2
 CATEGORIES=	net news kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre1/distribution/tar/generic/source
-EXTRACT_SUFX=	-1.1-alpha1.src.tar.bz2
+MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
@@ -25,16 +23,18 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		mimelib.1:${PORTSDIR}/converters/kdesupport11 \
 		rdb.55:${PORTSDIR}/converters/kdesupport11
 
-USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"
-
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
+CFLAGS+=	"-I${PREFIX}/include"
 
 pre-configure:
 		${LN} -sf $(PREFIX)/include/uu.h $(WRKSRC)/krn/uudeview.h
+
+post-install:
+		${LN} -sf kppp.html ${PREFIX}/share/doc/HTML/en/kppp/index.html
 
 .include <bsd.port.mk>
