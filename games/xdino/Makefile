@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=        xdino-5.4.1
+DISTNAME=        xdino-5.4.3
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/xpuzzles
