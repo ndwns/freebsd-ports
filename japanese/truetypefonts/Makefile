@@ -16,7 +16,7 @@ MAINTAINER=	candy@kgc.co.jp
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/xtt-fonts-0.19981020
 NO_BUILD=	yes
-FONTDIR=	${PREFIX}/lib/X11/fonts/truetype
+FONTDIR=	${PREFIX}/lib/X11/fonts/TrueType
 
 .include <bsd.port.pre.mk>
 
