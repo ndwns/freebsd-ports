@@ -17,8 +17,4 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
 
-# to show a warning message to add fontpath for these fonts
-post-install:
-	@${CAT} ${PKGDIR}/MESSAGE
-
 .include <bsd.port.mk>
