@@ -96,6 +96,7 @@
     SUBDIR += pmf
     SUBDIR += pppload
     SUBDIR += proftpd
+    SUBDIR += queso
     SUBDIR += radius
     SUBDIR += radiusd-cistron
     SUBDIR += ratoolset
