@@ -12,6 +12,7 @@ MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
+NO_PACKAGES=	yes	# asks too many questions
 GNU_CONFIGURE=	yes
 IS_INTERACTIVE= yes
 
