@@ -8,7 +8,7 @@
 
 DISTNAME=	linux_lib
 PKGNAME=	linux_lib-1.0
-CATEGORIES=	emulation
+CATEGORIES=	emulators
 
 MAINTAINER=	erich@FreeBSD.org
 

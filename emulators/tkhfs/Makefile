@@ -8,7 +8,7 @@
 
 DISTNAME=	tkhfs
 PKGNAME=	tkhfs-2.4
-CATEGORIES+=	x11
+CATEGORIES+=	emulation x11
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org

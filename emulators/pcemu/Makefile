@@ -8,7 +8,7 @@
 
 DISTNAME=	pcemu1.01alpha
 PKGNAME=	pcemu-1.01a
-CATEGORIES+=	emulation
+CATEGORIES+=	emulators
 
 # Warning notice:  by now, you'll have to live with those warnings:
 #
