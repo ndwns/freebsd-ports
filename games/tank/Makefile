@@ -1,7 +1,7 @@
 # New ports collection makefile for:    tank
 # Version required:     0.4a
 # Date created:         4 Mar 1998
-# Whom:                 Donald Burr <dburr@POBoxes.com>
+# Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
 # $Id$
 #

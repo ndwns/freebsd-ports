@@ -1,7 +1,7 @@
 # New ports collection makefile for:    v
 # Version required:     1.17
 # Date created:         8 Feb 1998
-# Whom:                 Donald Burr <dburr@POBoxes.com>
+# Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	v-1.17
 CATEGORIES=	x11 devel graphics
 MASTER_SITES=	ftp://objectcentral.com/
 
-MAINTAINER=	dburr@POBoxes.com
+MAINTAINER=	dburr@FreeBSD.ORG
 
 USE_X11=	YES
 
