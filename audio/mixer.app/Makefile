@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	Mixer.app-1.3.1
-PKGNAME=	mixer.app-1.3.1
+DISTNAME=	Mixer.app-1.3.2
+PKGNAME=	mixer.app-1.3.2
 CATEGORIES=	audio
 MASTER_SITES=	http://www.student.hk-r.se/~pt96pli/mixer/
 
