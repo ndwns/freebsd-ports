@@ -176,7 +176,7 @@ ${CONFIGURE_COOKIE}:
 	@(cd ${WRKSRC}; ./configure ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
-	@(cd ${WRKSRC}; xmkmf)
+	@(cd ${WRKSRC}; xmkmf && make Makefiles)
 .endif
 	@if [ -f ${SCRIPTDIR}/post-configure ]; then \
 	   sh ${SCRIPTDIR}/post-configure ${PORTSDIR} ${.CURDIR} ${WRKSRC}; \
