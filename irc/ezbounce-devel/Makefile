@@ -8,8 +8,7 @@
 
 DISTNAME=	ezbounce-0.99.2
 CATEGORIES=	irc
-MASTER_SITES=  	http://druglord.freelsd.org/ezbounce/ \
-		http://irc.themes.org/downloads/misc/
+MASTER_SITES=  	http://druglord.freelsd.org/ezbounce/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
