@@ -9,6 +9,7 @@
     SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
     SUBDIR += glimpse
+    SUBDIR += grap
     SUBDIR += gxditview
     SUBDIR += htdig
     SUBDIR += html
