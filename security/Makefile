@@ -19,6 +19,7 @@
     SUBDIR += pidentd
     SUBDIR += rsaref
     SUBDIR += ssh
+    SUBDIR += skip
     SUBDIR += sudo
     SUBDIR += super
     SUBDIR += swatch
