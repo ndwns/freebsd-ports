@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN='BROKEN='port installs files into /etc (dhclient.conf) rather than PREFIX/etc'
+
 Y2K=		http://www.isc.org/y2k.html
 
 HAS_CONFIGURE=	yes
