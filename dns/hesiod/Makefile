@@ -8,7 +8,8 @@
 
 DISTNAME=		hesiod-3.0.2
 CATEGORIES=		net
-MASTER_SITES=		ftp://athena-dist.mit.edu/pub/ATHENA/hesiod/
+MASTER_SITES=		ftp://athena-dist.mit.edu/pub/ATHENA/hesiod/   \
+			http://www.nectar.cc/distfiles/
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
