@@ -72,6 +72,7 @@
     SUBDIR += v
     SUBDIR += viewfax
     SUBDIR += windowmaker
+    SUBDIR += workplace
     SUBDIR += wm2
     SUBDIR += x3270
     SUBDIR += xalarm
