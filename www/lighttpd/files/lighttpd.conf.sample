@@ -159,10 +159,10 @@ server.groupname           = "www"
 #### fastcgi module
 ## read fastcgi.txt for more info
 #fastcgi.server              = ( ".php" =>
-#				( "grisu" => 
+#				( "localhost" => 
 #				  ( 
-#				    "host" => "192.168.2.10",
-#				    "port" => 1026
+#				    "socket" => "/tmp/php-fastcgi.socket",
+#				    "bin-path" => "/usr/local/bin/php"
 #				  )
 #				)
 #			      )
