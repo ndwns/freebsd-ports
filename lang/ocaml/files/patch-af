@@ -1,0 +1,10 @@
+--- otherlibs/graph/open.c.orig	Fri Feb 11 18:00:12 2000
++++ otherlibs/graph/open.c	Fri Feb 11 17:59:18 2000
+@@ -13,6 +13,7 @@
+ /* $Id$ */
+ 
+ #include <fcntl.h>
++#include <unistd.h>
+ #include <signal.h>
+ #include "libgraph.h"
+ #include <alloc.h>
