@@ -20,6 +20,7 @@
     SUBDIR += ctwm
     SUBDIR += dclock
     SUBDIR += dfm
+    SUBDIR += dgs
     SUBDIR += dxpc
     SUBDIR += emiclock
     SUBDIR += emu
