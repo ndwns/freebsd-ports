@@ -28,7 +28,7 @@
 #		Creating README.html for package.
 #
 #	afterinstall, all, beforeinstall, build, checksum, clean,
-#	configure, depend, describe, extract, fetch, fetch-list,
+#	configure, deinstall, depend, describe, extract, fetch, fetch-list,
 #	install, package, readmes, realinstall, reinstall, tags
 #
 
@@ -79,7 +79,8 @@ ${SUBDIR}::
 	${MAKE} all
 
 .for __target in all fetch fetch-list package extract configure \
-		 build clean depend describe distclean reinstall tags checksum
+		 build clean deinstall depend describe distclean \
+		 reinstall tags checksum
 .if !target(${__target})
 ${__target}: _SUBDIRUSE
 .endif
