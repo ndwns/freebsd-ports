@@ -25,8 +25,11 @@
     SUBDIR += metamail
     SUBDIR += mew
     SUBDIR += mew-common
+    SUBDIR += mew-emacs20
     SUBDIR += mew-mule
     SUBDIR += mew-xemacs
+    SUBDIR += mew-xemacs20
+    SUBDIR += mew-xemacs-mule
     SUBDIR += mh
     SUBDIR += mmr
     SUBDIR += movemail
