@@ -12,6 +12,8 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	xaa@stack.nl
 
+RUN_DEPENDS=	gnuchessx:${PORTSDIR}/games/gnuchess
+
 GNU_CONFIGURE=  yes
 STRIP=
 MAN6=		xboard.6 cmail.6 zic2xpm.6
