@@ -3,6 +3,7 @@
 
     SUBDIR += d1489
     SUBDIR += X.language
+    SUBDIR += elm+pgp+mime
     SUBDIR += netscape.language
     SUBDIR += netscape2.language
     SUBDIR += pgp.language
