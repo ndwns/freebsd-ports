@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xdaliclock
-# Version required:			2.10
+# Version required:			2.11
 # Date created:				10th February 1995
 # Whom:					gpalmer
 #
 # $Id$
 #
 
-DISTNAME=	xdaliclock-2.10
+DISTNAME=	xdaliclock-2.11
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
