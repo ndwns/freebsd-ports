@@ -10,8 +10,13 @@ USE_X_PREFIX=	yes
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
+.if ${MACHINE_ARCH} == "alpha"
+DISTNAME=	bxform-freebsd-alpha
+.else
 DISTNAME=	bxform-freebsd-elf
-MASTER_SITES=	http://bragg.phys.uwm.edu/~zhao/ftp/
+.endif
+MASTER_SITES=	http://www.freebsd.org/~steve/distfiles/ \
+		http://bragg.phys.uwm.edu/~zhao/ftp/
 PATCHDIR=	${.CURDIR}/patches.elf
 .else
 DISTNAME=	bxform-088
@@ -25,29 +30,13 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gena@NetVision.net.il
 
-ONLY_FOR_ARCHS=	i386
-
 PATCH_STRIP=	-p0 -t
 WRKSRC=		${WRKDIR}/xforms
 MAN1=		fdesign.1 fd2ps.1
 MAN5=		xforms.5
 
-# XXX: ask the author to include the right soname
-.if ${PORTOBJFORMAT} == "elf"
-.if !exists(/usr/bin/perl5)
-pre-fetch:
-	@${ECHO} "Need perl5 to patch soname"
-	@${FALSE}
-.endif
-.endif
-
 post-install:
-# XXX: ask the author to include the right soname
-.if ${PORTOBJFORMAT} == "elf" 
-	/usr/bin/perl5 -pe 's/libforms.so.0.88/libxforms.so.0\000\000/' < ${PREFIX}/lib/libxforms.so.0 > ${PREFIX}/lib/libxforms.so.0.tmp
-	${MV} ${PREFIX}/lib/libxforms.so.0.tmp ${PREFIX}/lib/libxforms.so.0
-.endif
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOMANCOMPRESS)
 	@${RM} ${PREFIX}/man/man5/forms.5
 	@ln -fs xforms.5.gz ${PREFIX}/man/man5/forms.5.gz
