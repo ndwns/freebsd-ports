@@ -76,7 +76,6 @@
     SUBDIR += libslang
     SUBDIR += libtool
     SUBDIR += libxalloc
-    SUBDIR += linux_devel
     SUBDIR += linux_devtools
     SUBDIR += linux_kdump
     SUBDIR += m4
