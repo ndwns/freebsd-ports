@@ -1,6 +1,7 @@
 # $Id$
 #
 
+RESTRICTED += Mosaic         # requires Motif, Mosaic itself isn't
     SUBDIR += apache
     SUBDIR += archie
     SUBDIR += cern_httpd
