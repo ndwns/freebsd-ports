@@ -11,7 +11,7 @@ PKGNAME=	proftpd-1.2.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.proftpd.org/distrib/
 
-MAINTAINER=	stephane@lituus.fr
+MAINTAINER=	ports@FreeBSD.org
 
 MAN1=	ftpcount.1
 MAN8=	proftpd.8 ftpshut.8
