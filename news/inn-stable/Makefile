@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	inn-STABLE_2_2-1999-04-08_03-01
+DISTNAME=	inn-STABLE_2_2-1999-07-24_03-02
 PKGNAME=	inn-stable-v22
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.isc.org/isc/inn/snapshots/
