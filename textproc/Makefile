@@ -27,6 +27,7 @@
     SUBDIR += texi2html
     SUBDIR += textutils
     SUBDIR += tth
+    SUBDIR += txt2html
     SUBDIR += unroff
     SUBDIR += urlview
     SUBDIR += wdiff
