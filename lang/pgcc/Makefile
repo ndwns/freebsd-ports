@@ -29,6 +29,8 @@ PATCHFILES=	egcs-1.1.2-pgcc-1.1.3.diff.gz
 
 MAINTAINER=	obrien@FreeBSD.org
 
+BROKEN='waiting for new patches against gcc-2.95'
+
 USE_BZIP2=	yes
 
 BUILD_DEPENDS=  autoconf:${PORTSDIR}/devel/autoconf
