@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       manck-1.0
+DISTNAME=       manck-1.2
 CATEGORIES+=	sysutils
 MASTER_SITES=   ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 
