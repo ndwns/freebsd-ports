@@ -28,6 +28,7 @@
     SUBDIR += tksol
     SUBDIR += xasteroids
     SUBDIR += xbat
+    SUBDIR += xbattle
     SUBDIR += xbill
     SUBDIR += xblackjack
     SUBDIR += xblast
