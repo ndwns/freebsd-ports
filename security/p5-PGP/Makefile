@@ -20,6 +20,7 @@ RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 NO_WRKSUBDIR=	YES
 MAN3=		PGP.3
+MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

@@ -18,6 +18,7 @@ BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 MAN3=		Crypt::DES.3
+MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
