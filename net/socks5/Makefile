@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=	socks5-0.12
-DISTNAME=	socks5-beta-0.12
+PKGNAME=	socks5-0.15.3
+DISTNAME=	socks5-beta-0.15.3-exportable
 CATEGORIES+=	net security
 MASTER_SITES=	ftp://ftp.nec.com/pub/socks/socks5/
 
