@@ -14,10 +14,4 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
-pre-install:
-	mkdir -p ${PREFIX}/bin
-	mkdir -p ${PREFIX}/man/man1
-	mkdir -p ${PREFIX}/info
-	mkdir -p ${PREFIX}/lib
-
 .include <bsd.port.mk>

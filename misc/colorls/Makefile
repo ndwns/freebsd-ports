@@ -20,7 +20,7 @@ FTP_SITE=	ftp.freebsd.org
 FTP_DIR=	/pub/FreeBSD/FreeBSD-current/src/bin/
 
 .if !defined(MASTER_SITE_OVERRIDE)
-fetch: pre-fetch
+do-fetch:
 	@if [ ! -d ${DISTDIR} ]; then mkdir -p ${DISTDIR}; fi
 	@(cd ${DISTDIR}; \
 	  if [ ! -f ${DISTFILES} ]; then \

@@ -15,8 +15,7 @@ WRKSRC=		${WRKDIR}/cpm
 #
 # need our own build target to pass PREFIX down to the make command
 #
-build: configure
-	@echo "===>  Building for ${DISTNAME}"
+do-build:
 	@(cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} all)
 
 

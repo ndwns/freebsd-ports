@@ -20,6 +20,4 @@ EXTRACT_CMD=    ( gzcat | /usr/local/bin/gunshar )
 EXTRACT_ARGS=   <
 NO_WRKSUBDIR=   YES
 
-pre-extract: depends
-
 .include <bsd.port.mk>
