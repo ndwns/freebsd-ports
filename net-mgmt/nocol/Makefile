@@ -23,6 +23,8 @@ MAN8=		etherload.8 eventselect.8 genmon.8 multiping.8 noclogd.8 \
 GNU_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 
+NO_PACKAGE=	Hostname is needed.
+
 post-install:
 		@cd ${WRKSRC} && make root
 
