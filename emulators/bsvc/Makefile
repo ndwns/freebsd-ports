@@ -43,4 +43,7 @@ pre-patch:
 		} \
 	}' < ${WRKSRC}/Makefile.ULTRIX > ${WRKSRC}/Makefile
 
+pre-clean:
+	${RM} ${PATCHDIR}/patch-aa
+
 .include <bsd.port.mk>
