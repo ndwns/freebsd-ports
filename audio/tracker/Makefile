@@ -13,6 +13,8 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+RESTRICTED=     "Non-redistributable beta"
+
 WRKSRC=         ${WRKDIR}/tracker
 USE_GMAKE=      yes
 MAKE_FLAGS=     MACHINE=freebsd CC=$(CC) INSTALL="$(INSTALL)" \
@@ -22,8 +24,12 @@ MAKE_FLAGS=     MACHINE=freebsd CC=$(CC) INSTALL="$(INSTALL)" \
 		-f
 
 post-install:
-	cd ${WRKSRC}/Docs; makeinfo --no-split tracker.texinfo -o tracker.info; \
-	cd ${WRKSRC}/Docs; gzip -f tracker.info; \
-	$(INSTALL_MAN) tracker.info.gz ${PREFIX}/info
+	cd ${WRKSRC}/Docs && \
+	makeinfo --no-split tracker.texinfo -o tracker.info && \
+	gzip -f tracker.info && \
+	$(INSTALL_MAN) tracker.info.gz ${PREFIX}/info && \
+	rm -f tracker.info.gz *.orig
+	-${MKDIR} ${PREFIX}/share/doc/tracker
+	cp -R ${WRKSRC}/Docs/* ${PREFIX}/share/doc/tracker
 
 .include <bsd.port.mk>
