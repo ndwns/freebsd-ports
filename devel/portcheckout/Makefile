@@ -11,4 +11,6 @@ MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 
 MAINTAINER=     wosch@FreeBSD.org
 
+USE_PERL5=      YES
+
 .include <bsd.port.mk>
