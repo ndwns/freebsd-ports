@@ -9,7 +9,7 @@
 DISTNAME=	SMS
 PKGNAME=        mastergear-0.8
 CATEGORIES=     emulators
-MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	MG.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp

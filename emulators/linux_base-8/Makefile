@@ -8,7 +8,7 @@
 
 DISTNAME=	linux_lib-2.4
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	erich@FreeBSD.org
 

@@ -12,7 +12,7 @@ CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
 
 PATCHFILES=	lipsf113c.patch.gz
-PATCH_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+PATCH_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	mita@jp.FreeBSD.org
 

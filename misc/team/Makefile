@@ -8,7 +8,7 @@
 
 DISTNAME=	team-3.1
 CATEGORIES=	misc
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	joerg@FreeBSD.org
 

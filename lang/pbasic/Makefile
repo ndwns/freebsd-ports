@@ -9,7 +9,7 @@
 DISTNAME=	pbasic-2.0-950813
 PKGNAME=	pbasic-2.0
 CATEGORIES=	lang
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	asami@FreeBSD.ORG
 # Ask jhs@freebsd.org if you want newer sources or author's latest e-mail

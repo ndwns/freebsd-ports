@@ -8,7 +8,7 @@
 
 DISTNAME=       xtestpicture-1.1
 CATEGORIES=	x11
-MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=   ${MASTER_SITE_LOCAL}
 
 MAINTAINER=     joerg@FreeBSD.org
 

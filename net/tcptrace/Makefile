@@ -9,8 +9,8 @@
 DISTNAME=	tcptrace-3.2.5
 CATEGORIES=	net
 # this site uncompresses the file AND sends it with a .gz suffix
-MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+#MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	tcptrace_3.2.5.tar.gz
 
 MAINTAINER=	fenner@FreeBSD.ORG

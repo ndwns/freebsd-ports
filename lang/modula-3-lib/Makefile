@@ -8,7 +8,7 @@
 
 DISTNAME=	modula-3-lib-3.6
 CATEGORIES=	lang
-MASTER_SITES=	ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	m3-fbsd-src-3.6.tar.gz m3-fbsd-m3cc-3.6.tar.gz
 # Note: Depending on what is already installed on the system, the code
 # below may add some more DISTFILES.

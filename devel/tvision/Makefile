@@ -8,7 +8,7 @@
 
 DISTNAME=	tvision-0.4
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.FreeBSD.ORG/pub/FreeBSD/distfiles/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	ssigala@globalnet.it
 

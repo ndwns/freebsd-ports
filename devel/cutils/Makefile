@@ -8,7 +8,7 @@
 
 DISTNAME=	cutils-1.3.2
 CATEGORIES=	devel
-MASTER_SITES=	ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	ssigala@globalnet.it
 

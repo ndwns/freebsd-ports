@@ -9,7 +9,7 @@
 DISTNAME=	colorls
 PKGNAME=	colorls-2.2
 CATEGORIES=	misc
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	ls.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG

@@ -10,7 +10,7 @@ DISTNAME=	platex2e
 PKGNAME=	jp-platex2e-97.02.01
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/platex2e/1997-02-01/ \
-		ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+		${MASTER_SITE_LOCAL}
 DISTFILES=	base-9612.tar.gz ecfonts-1.0.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG

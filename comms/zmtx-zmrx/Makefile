@@ -11,7 +11,7 @@ DISTNAME=	zmtx-zmrx
 PKGNAME=	zmtx-zmrx-1.02
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.inria.fr/network/modem/  \
-		ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/
+		${MASTER_SITE_LOCAL}
 # see also comp.unix.sources for version 1.0
 # ftp://ftp.lth.se/pub/usenet/comp.sources.unix/volume28/zm/part01.gz
 EXTRACT_SUFX=	.shar.gz

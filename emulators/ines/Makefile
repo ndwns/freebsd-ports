@@ -9,7 +9,7 @@
 DISTNAME=	NES
 PKGNAME=        ines-0.5
 CATEGORIES=     emulators
-MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	iNES05-FreeBSD-80x86-bin.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp

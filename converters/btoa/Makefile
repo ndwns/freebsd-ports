@@ -9,7 +9,7 @@
 DISTNAME=          btoa-5.2
 PKGNAME=           btoa-5.2.1
 CATEGORIES=        converters
-MASTER_SITES=      ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=      ${MASTER_SITE_LOCAL}
 
 PATCH_SITES=       ${MASTER_SITES}
 PATCHFILES=        btoa-5.2-patch1.gz

@@ -8,7 +8,7 @@
 
 DISTNAME=	pdore-6.0
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 EXTRACT_SUFX=	.tar.Z
 
 USE_GMAKE=	yes

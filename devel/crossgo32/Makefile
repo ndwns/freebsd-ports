@@ -9,7 +9,7 @@
 DISTNAME=	crosstree-1.3
 PKGNAME=	crossgo32-1.3
 CATEGORIES=	devel
-MASTER_SITES=	ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
