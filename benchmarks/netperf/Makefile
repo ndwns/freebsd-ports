@@ -15,15 +15,16 @@ MAINTAINER=	fenner@freebsd.org
 
 MAKEFILE=	makefile
 MAN1=		netperf.1 netserver.1
+MINSTALL=	${INSTALL} ${COPY} -o ${MANOWN} -g ${MANGRP} -m ${MANMODE}
 
 post-install:
 	strip ${PREFIX}/netperf/netperf
 	strip ${PREFIX}/netperf/netserver
-	${CP} ${WRKSRC}/netperf.man ${PREFIX}/man/man1/netperf.1
-	${CP} ${WRKSRC}/netserver.man ${PREFIX}/man/man1/netserver.1
+	${MINSTALL} ${WRKSRC}/netperf.man ${PREFIX}/man/man1/netperf.1
+	${MINSTALL} ${WRKSRC}/netserver.man ${PREFIX}/man/man1/netserver.1
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/netperf
-	${CP} ${WRKSRC}/netperf.ps ${PREFIX}/share/doc/netperf
+	${MINSTALL} ${WRKSRC}/netperf.ps ${PREFIX}/share/doc/netperf
 	gzip -9nf ${PREFIX}/share/doc/netperf/netperf.ps
 .endif
 
