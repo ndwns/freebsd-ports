@@ -42,6 +42,7 @@
     SUBDIR += prcs
     SUBDIR += tkcvs
     SUBDIR += uulib
+    SUBDIR += xwpe
     SUBDIR += xxgdb
 
 .include <bsd.port.subdir.mk>
