@@ -19,6 +19,7 @@
     SUBDIR += nvi-big5
     SUBDIR += nvi-euc-cn
     SUBDIR += nvi-euc-tw
+    SUBDIR += pine
     SUBDIR += samba
     SUBDIR += samba-des
     SUBDIR += ted
