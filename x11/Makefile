@@ -102,6 +102,7 @@
     SUBDIR += xmascot
     SUBDIR += xmbdfed
     SUBDIR += xmold
+    SUBDIR += xmove
     SUBDIR += xpostit
     SUBDIR += xpostitPlus
     SUBDIR += xprompt
