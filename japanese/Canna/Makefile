@@ -19,7 +19,7 @@ PATCH_STRIP=	-p1
 ALL_TARGET=	canna
 
 pre-configure:
-	@(cd ${WRKSRC}; ${XMKMF})
+	@(cd ${WRKSRC}; xmkmf)
 
 post-install:
 	ldconfig -m ${PREFIX}/lib
