@@ -15,6 +15,8 @@ MAINTAINER=	scrappy@freebsd.org
 
 WRKSRC=		${WRKDIR}/xicq-071298
 
+BROKEN=		build
+
 USE_GMAKE=	yes
 
 do-install:
