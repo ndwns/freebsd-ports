@@ -28,7 +28,7 @@ MAN1=		cdrdao.1
 
 .include <bsd.port.pre.mk>
 
-.if exists(${PREFIX}/include/gtk--.h)
+.if exists(${X11BASE}/include/gtk--.h)
 XCDRDAO=		yes
 .endif
 
