@@ -1,12 +1,12 @@
 # New ports collection makefile for:	jman - japanese man with EUC
-# Version required:	1.0
+# Version required:	1.1
 # Date created:		4 December 1996
 # Whom:			Kiriyama Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	jp-man-1.0
+DISTNAME=	jp-man-1.1
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/in.coming/PORTS/
 
