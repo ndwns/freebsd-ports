@@ -8,7 +8,8 @@
 
 DISTNAME=	fftw-2.1.2
 CATEGORIES=	math
-MASTER_SITES=	ftp://theory.lcs.mit.edu/pub/fftw/	\
+MASTER_SITES=	ftp://ftp.fftw.org/pub/fftw/ \
+		ftp://theory.lcs.mit.edu/pub/fftw/	\
 		ftp://pm.cse.rmit.edu.au/pub/dsp/fftw/
 
 MAINTAINER=	lkoeller@cc.fh-lippe.de
