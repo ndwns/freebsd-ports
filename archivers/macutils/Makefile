@@ -10,13 +10,13 @@
 DISTNAME=	macutils_2.0b3.orig
 PKGNAME=	macutils-2.0b3
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/debian/bo/source/otherosfs/
+MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/debian/main/source/otherosfs/
 # ${MASTER_SITE_SUNSITE} isn't appropriate because distributions/ isn't
 # mirrored.
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
-WRKSRC=		${WRKDIR}/macutils-2.0b3.orig
+WRKSRC=		${WRKDIR}/macutils
 MAKEFILE=	makefile
 
 MANDIR=		${PREFIX}/man/man
