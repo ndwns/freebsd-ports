@@ -37,7 +37,7 @@ CGIDIR=		public_html/cgi-bin
 ###
 # Use these options for Apache:
 ###
-INSTALLDIR=	${PREFIX}/www/cgi-bin
+INSTALLDIR=	${PREFIX}/share/apache/cgi-bin
 HTTPDUSER=	--with-httpd-user=nobody
 
 pre-install:
