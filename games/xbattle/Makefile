@@ -8,8 +8,7 @@
 
 DISTNAME=	xbattle-5.4.1
 CATEGORIES=	games
-MASTER_SITES=	ftp://cns-ftp.bu.edu/pub/xbattle/	\
-		ftp://www.tiac.net/users/lesher/xbattle/
+MASTER_SITES=	ftp://cns-ftp.bu.edu/pub/xbattle/
 
 MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
