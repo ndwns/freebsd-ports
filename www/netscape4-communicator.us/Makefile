@@ -37,7 +37,7 @@ pre-fetch:
 	@${ECHO} Canadian resident, in order to build this package.
 	@${ECHO} There is no version of this port for NON-USA and NON-Canadian users.
 	@${ECHO}
-	@false
+	@${FALSE}
 #
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES || ${USA_RESIDENT} == yes
@@ -51,7 +51,7 @@ pre-fetch:
 	@${ECHO}
 	@${ECHO} There is no version of this port for NON-USA and NON-Canadian users.
 	@${ECHO}
-	@false
+	@${FALSE}
 .endif
 .endif
 

@@ -28,7 +28,7 @@ PATCH_STRIP=	-p2
 #	@echo "then set READ_IBM_LICENSE=YES in /etc/make.conf.local"
 #	@echo ""
 #	@echo "The license is available at http://www.ibm.com/research/jikes"
-#	@false
+#	@${FALSE}
 #.endif
 
 .include <bsd.port.mk>

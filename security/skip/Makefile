@@ -50,7 +50,7 @@ MAN4=			skipd.conf.4 raw_keys.4
 post-patch:
 	@find ${WRKSRC} -name '*.orig' -print | xargs rm
 	@cd ${WRKSRC}; \
-	FILES=`find . -type f -print | xargs grep -l @@PREFIX@@`; \
+	FILES=`find . -type f -print | xargs ${GREP} -l @@PREFIX@@`; \
 	for FILE in $$FILES; do \
 	  sed 's!@@PREFIX@@!${PREFIX}!g' < $$FILE > $$FILE.new ; \
 	  mv $$FILE.new $$FILE; \

@@ -30,7 +30,7 @@ post-patch:
 	# we can ignore warnings
 	@( cd ${WRKSRC}/ztelnet && \
 	${PATCH} -s -p1 < ${WRKSRC}/ztelnet.patch || \
-	true ) > /dev/null 2>&1
+	${TRUE} ) > /dev/null 2>&1
 	# but it is not
 	@cd ${WRKSRC}/ztelnet && \
 	${PATCH} -s -p1 < ${WRKSRC}/rz.patch && \

@@ -77,7 +77,7 @@ do-install:
 			instfile=`${BASENAME} $$file .gz` ; \
 			if ${GZIP_CMD} -cd ${_DISTDIR}/$$file > ${DATADIR}/$$instfile ; \
 			then \
-				true ; \
+				${TRUE} ; \
 			else \
 				exit 1; \
 			fi \
@@ -86,7 +86,7 @@ do-install:
 			instfile=`${BASENAME} $$file .Z` ; \
 			if ${GZIP_CMD} -cd ${_DISTDIR}/$$file > ${DATADIR}/$$instfile ; \
 			then \
-				true ; \
+				${TRUE} ; \
 			else \
 				exit 1; \
 			fi \
@@ -95,7 +95,7 @@ do-install:
 			instfile=`${BASENAME} $$file .zip` ; \
 			if unzip -o ${_DISTDIR}/$$file $$instfile -d ${DATADIR} ; \
 			then \
-				true ; \
+				${TRUE} ; \
 			else \
 				exit 1; \
 			fi \

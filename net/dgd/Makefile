@@ -44,7 +44,7 @@ post-build:
 
 do-install:
 	@-mv ${PREFIX}/dgd/bin/driver ${PREFIX}/dgd/bin/driver.old
-	@tar -C ${WRKDIR} -cf - `grep '^dgd/' ${PKGDIR}/PLIST` \
+	@tar -C ${WRKDIR} -cf - `${GREP} '^dgd/' ${PKGDIR}/PLIST` \
 		| tar -C ${PREFIX} -xpf -
 
 .include <bsd.port.mk>

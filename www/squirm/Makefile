@@ -36,7 +36,7 @@ pre-install:
 	@echo 	'You should set SQUID_UID and SQUID_GID variables to your squid effective'
 	@echo	'user/group. For example: SQUID_UID=squid SQUID_GID=squid.'
 	@echo
-	@false
+	@${FALSE}
 .endif
 
 post-install:

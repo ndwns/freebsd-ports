@@ -32,9 +32,9 @@ pre-extract:
 	@echo "You must set it to the directory where you would like "
 	@echo "this port to reside before attempting extraction."
 	@echo
-	@false
+	@${FALSE}
 .else
-	@true
+	@${TRUE}
 .endif
 
 # remove the TET_ROOT directory if it exists

@@ -29,7 +29,7 @@ pre-configure:
 	@${ECHO} "720 -- HP720 family (HP 722C, etc.)"
 	@${ECHO} "820 -- HP820 family"
 	@${ECHO} "1000 -- HP820 family"
-	@false
+	@${FALSE}
 .endif
 .if !defined(PAPERSIZE)
 	@${ECHO}

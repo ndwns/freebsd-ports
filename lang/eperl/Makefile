@@ -49,7 +49,7 @@ do-install:
 		${MKDIR} ${PREFIX}/www/cgi-bin; \
 	fi
 	${INSTALL_PROGRAM} ${WRKSRC}/eperl ${PREFIX}/www/cgi-bin/nph-eperl
-	@if [ ".`grep x-httpd-eperl ${PREFIX}/etc/apache/srm.conf`" = . ]; then \
+	@if [ ".`${GREP} x-httpd-eperl ${PREFIX}/etc/apache/srm.conf`" = . ]; then \
 		${ECHO} "AddType  application/x-httpd-eperl  .phtml .eperl .epl" \
 			>>${PREFIX}/etc/apache/srm.conf; \
 		${ECHO} "Action   application/x-httpd-eperl  /cgi-bin/nph-eperl" \

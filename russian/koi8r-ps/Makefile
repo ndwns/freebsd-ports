@@ -70,7 +70,7 @@ do-install:
 	###	${PREFIX}/share/ghostscript/5.50/Fontmap
 	### for GhostScript to use cyrillic fonts.
 	#################################################################
-	@test -t 0 && test -t 1 && ${ECHO} -n "Press enter" && read junk || true
+	@test -t 0 && test -t 1 && ${ECHO} -n "Press enter" && read junk || ${TRUE}
 .else
 	@if ${GREP} -q ArialCyrMT-BoldItalic "${FONTMAP}" ; then \
 		${ECHO} Apparently, Fontmap already lists this fonts. Ok. \

@@ -26,7 +26,7 @@ pre-fetch:
 	@${ECHO} "This software has /usr/local hardcoded into it."
 	@${ECHO} "Sorry, but with PREFIX = ${PREFIX}, vscan will not work correctly."
 	@${ECHO} ""
-	@false
+	@${FALSE}
 .endif
 
 post-extract:

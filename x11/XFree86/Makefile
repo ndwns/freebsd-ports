@@ -42,7 +42,7 @@ PLIST=		${PKGDIR}/PLIST.alpha
 pre-fetch:
 	@${ECHO}
 	@${ECHO} You must set variable USA_RESIDENT to YES or NO.
-	@false
+	@${FALSE}
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == NO
 pre-fetch:

@@ -16,6 +16,6 @@ pre-patch:
 	@rm -rf ${WRKSRC}/RCS
 
 do-build:
-	@true
+	@${TRUE}
 
 .include <bsd.port.mk>

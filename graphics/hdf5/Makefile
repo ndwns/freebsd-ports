@@ -60,7 +60,7 @@ pre-build:
 	-ln -s /usr/include/zconf.h /usr/include/zlib.h ${WRKSRC}/hdf/zlib/
 
 post-install:
-	@for binary in `grep ^bin/ ${PLIST}` ; do strip ${PREFIX}/$$binary; done
+	@for binary in `${GREP} ^bin/ ${PLIST}` ; do strip ${PREFIX}/$$binary; done
 
 test:
 	cd ${WRKSRC}; make ${MAKE_FLAGS} ${MAKEFILE} test

@@ -36,7 +36,7 @@ SRCBALL_NAME=	${DISTNAME:S/_W$//}
 
 post-extract:
 	@( cd ${WRKDIR} ; \
-	EXPMD5=`/usr/bin/grep MD5 README.${SRCBALL_NAME} | sed 's/^[ ]*//'` ; \
+	EXPMD5=`${GREP} MD5 README.${SRCBALL_NAME} | sed 's/^[ ]*//'` ; \
 	CALCMD5=`${MD5} ${SRCBALL_NAME}.tar` ; \
 	if [ "$${EXPMD5}"X != "$${CALCMD5}"X ]; then \
 		echo "Expected and calculated MD5 signatures don't agree." ; \

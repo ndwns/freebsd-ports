@@ -17,7 +17,7 @@ pre-fetch:
 	@echo You must set variable USA_RESIDENT to YES, if you are USA resident
 	@echo or to NO, if you aren\'t USA resident to build this package.
 	@echo You must also have installed RSAREF if you are USA resident.
-	@false
+	@${FALSE}
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES
 LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref

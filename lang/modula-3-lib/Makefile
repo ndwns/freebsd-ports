@@ -136,10 +136,10 @@ do-install:
 	@echo "Installing shared libraries"
 	@cd ${temp_prefix}; \
 	    umask 022; \
-	    grep '^lib/m3/' ${PLIST}.real | \
+	    ${GREP} '^lib/m3/' ${PLIST}.real | \
 		cpio -dump -R ${BINOWN}.${BINGRP} ${PREFIX}
 	@cd ${PREFIX}; \
-	    grep '^lib/m3/' ${PLIST}.real | xargs ${CHMOD} go=u-w; \
+	    ${GREP} '^lib/m3/' ${PLIST}.real | xargs ${CHMOD} go=u-w; \
 	    find -X lib/m3 -type d | xargs ${CHOWN} ${BINOWN}.${BINGRP}; \
 	    find -X lib/m3 -type d | xargs ${CHMOD} 755
 	@echo "Installing copyright notice"

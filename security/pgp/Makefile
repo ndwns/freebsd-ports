@@ -42,7 +42,7 @@ pre-fetch:
 	@echo
 	@echo You must set variable USA_RESIDENT to YES, if you are USA resident
 	@echo or to NO, if you aren\'t USA resident to build this package
-	@false
+	@${FALSE}
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES
 DISTNAME=       pgp262s

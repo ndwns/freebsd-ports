@@ -61,7 +61,7 @@ post-install:
 	@test -e ${PREFIX}/lib/X11/app-defaults/Siag && ${ECHO} \
 		"It seems, you have old app-defaults file(s) from Siag.\
 		 Consider removing it(them) if new siag fails to come up" |\
-		fmt || true
+		fmt || ${TRUE}
 
 post-patch:
 	# Fixing makefiles to put docs in ${LOCALBASE}/share/doc/siag

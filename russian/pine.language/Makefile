@@ -19,7 +19,7 @@ NO_BUILD=       YES
 do-fetch:
 
 do-install:
-	grep -q -i koi8 ${PREFIX}/etc/pine.conf || \
+	${GREP} -q -i koi8 ${PREFIX}/etc/pine.conf || \
 		${CAT} ${FILESDIR}/pine.add >> \
 		${PREFIX}/etc/pine.conf
 

@@ -27,13 +27,13 @@ do-fetch:
 
 do-install:
 	if [ -f ${APPDEF}/Netscape ] ; then \
-		grep -q '\.version:.*3\.01$$' ${APPDEF}/Netscape || \
+		${GREP} -q '\.version:.*3\.01$$' ${APPDEF}/Netscape || \
 			${RM} ${APPDEF}/Netscape; \
 	fi
 	if [ ! -f ${APPDEF}/Netscape ] ; then \
 		${CP} /usr/local/lib/netscape/Netscape.ad ${APPDEF}/Netscape; \
 	fi
-	cd ${APPDEF}; grep -q koi8-r=BOLD Netscape || \
+	cd ${APPDEF}; ${GREP} -q koi8-r=BOLD Netscape || \
 		patch < ${FILESDIR}/koi8-r_patch;
 
 .include <bsd.port.mk>
