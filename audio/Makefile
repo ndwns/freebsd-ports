@@ -40,6 +40,7 @@
     SUBDIR += tracker
     SUBDIR += wmcdplay
     SUBDIR += wmmixer
+    SUBDIR += wmsound
     SUBDIR += workman
     SUBDIR += x11amp
     SUBDIR += xamp
