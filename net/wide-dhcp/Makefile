@@ -36,13 +36,21 @@ post-install:
 	@${CP} ${WRKSRC}/db_sample/dhcpdb.relay ${PREFIX}/share/dhcp/dhcpdb.relay.sample
 	@${CP} ${WRKSRC}/db_sample/dhcpdb.server ${PREFIX}/share/dhcp/dhcpdb.server.sample
 	@${CP} ${WRKSRC}/db_sample/intro.dhcp ${PREFIX}/share/dhcp/
+	@${CP} ${WRKSRC}/db_sample/intro.dhcp.jis ${PREFIX}/share/dhcp/
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then				\
 		echo "Installing ${STARTUP_SCRIPT} startup file.";	\
 		echo '#!/bin/sh' > ${STARTUP_SCRIPT};			\
-		echo 'if [ -f /etc/dhcpdb.pool -a -f /etc/dhcpdb.relay \'\
+		echo 'DB_POOL=/etc/dhcpdb.pool' >> ${STARTUP_SCRIPT};	\
+		echo 'DB_RELAY=/etc/dhcpdb.relay' >> ${STARTUP_SCRIPT};	\
+		echo 'DB_BIND=/var/db/dhcpdb.bind' >> ${STARTUP_SCRIPT};\
+		echo 'if [ -f $${DB_POOL} -a -f $${DB_RELAY} \'\
 			>> ${STARTUP_SCRIPT};				\
 		echo '		-a -x /usr/local/sbin/dhcps ]; then'	\
 			>> ${STARTUP_SCRIPT};				\
+		echo '	if [ -f $${DB_BIND} ]; then' >> ${STARTUP_SCRIPT};\
+		echo '		find $${DB_POOL} -newer $${DB_BIND} -exec rm $${DB_BIND} \;'\
+			>> ${STARTUP_SCRIPT};				\
+		echo '	fi' >> ${STARTUP_SCRIPT};			\
 		echo "	${PREFIX}/sbin/dhcps [Intarface Name]"		\
 			>> ${STARTUP_SCRIPT};				\
 		echo "	echo -n ' dhcps'"				\
