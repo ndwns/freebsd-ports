@@ -23,6 +23,7 @@
     SUBDIR += linuxls
     SUBDIR += logsurfer
     SUBDIR += mc
+    SUBDIR += mgdiff
     SUBDIR += mmv
     SUBDIR += mshell
     SUBDIR += p5-Array-PrintCols
