@@ -1,14 +1,15 @@
 # New ports collection makefile for:    xpaint
-# Version required:     2.5.4
+# Version required:     2.5.6
 # Date created:         2 Jan 1995
 # Whom:                 swallace
 #
 # $Id$
 #
 
-DISTNAME=       xpaint-2.5.4
+DISTNAME=       xpaint-2.5.6
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/
+MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/ \
+		ftp://ftp.win.or.jp/pub/graphics/
 
 MAINTAINER=	jseger@FreeBSD.org
 
