@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	vp-bro-0.4-alpha
-PKGNAME=	bro-0.4a
+DISTNAME=	vp-bro-0.5-alpha
+PKGNAME=	bro-0.5a
 CATEGORIES=	security net
 MASTER_SITES=	ftp://ee.lbl.gov/
 
@@ -18,12 +18,12 @@ RESTRICTED=	"Author wishes Alpha releases not to be distrubted."
 
 .include <bsd.port.pre.mk>
 
-.if !exists(${DISTDIR}/vp-bro-0.4-alpha${EXTRACT_SUFX})
-IGNORE='Please contact Vern Paxson <vern@ee.lbl.gov> to obtain the obtain the Bro source.  Put it in ${DISTDIR} as vp-bro-0.4-alpha${EXTRACT_SUFX} and run make again'
+.if !exists(${DISTDIR}/vp-bro-0.5-alpha${EXTRACT_SUFX})
+IGNORE='Please contact Vern Paxson <vern@ee.lbl.gov> to obtain the obtain the Bro source.  Put it in ${DISTDIR} as vp-bro-0.5-alpha${EXTRACT_SUFX} and run make again'
 .endif
 
 IS_INTERACTIVE=	"manual fetch"
-WRKSRC=		${WRKDIR}/bro-0.4
+WRKSRC=		${WRKDIR}/bro-pub-0.5a1
 CONFIGURE_ARGS= --libdir=${PREFIX}/share
 GNU_CONFIGURE=	yes
 
