@@ -21,8 +21,8 @@ NO_BUILD=	yes
 
 # Keep these in sync with the PLIST and with the library version numbers
 # in the modula-3-lib port.
-major=		4
-minor=		3
+major=		5
+minor=		0
 
 # The Modula-3 build process insists on installing each individual
 # component immediately after that component is built.  To avoid having
