@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       procmail-3.11pre1
+PKGNAME=        procmail-3.11.1
 CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
+
 MAINTAINER=     ache@FreeBSD.ORG
 
 IS_INTERACTIVE=	yes
