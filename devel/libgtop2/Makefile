@@ -10,7 +10,7 @@ DISTNAME=	libgtop-0.26.2
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.home-of-linux.org/pub/libgtop/0.26.2/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
 
