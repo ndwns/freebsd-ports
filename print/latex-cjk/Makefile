@@ -11,9 +11,7 @@ PKGNAME=	zh-CJK-4.1.3
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.edu.tw/Chinese/ifcss/software/tex/ \
 		ftp://ntcuccca.edu.tw/Chinese/ifcss/software/tex/ \
-		ftp://ftp.ifcss.org/pub/software/tex/ \
-		${MASTER_SITE_TEX_CTAN}
-MASTER_SITE_SUBDIR=	language/chinese
+		ftp://ftp.ifcss.org/pub/software/tex/
 
 MAINTAINER=	keith@email.gcn.net.tw
 
