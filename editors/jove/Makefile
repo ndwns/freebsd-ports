@@ -7,6 +7,6 @@
 #
 
 DISTNAME=	jove-4.14.6
-HOME_LOCATION=	freebsd.cdrom.com:~ftp/pub/bsd-sources/4.4BSD-Lite/usr/src/contrib
+HOME_LOCATION=	ftp://freebsd.cdrom.com/pub/bsd-sources/4.4BSD-Lite/usr/src/contrib/jove-4.16.6
 
 .include <bsd.port.mk>
