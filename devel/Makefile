@@ -3,6 +3,7 @@
 
     SUBDIR += SWIG
     SUBDIR += autoconf
+    SUBDIR += automake
     SUBDIR += bcc
     SUBDIR += boehm-gc
     SUBDIR += cflow
