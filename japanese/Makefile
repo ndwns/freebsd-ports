@@ -26,6 +26,7 @@
     SUBDIR += less
     SUBDIR += mh
     SUBDIR += mimekit
+    SUBDIR += mnews
     SUBDIR += mule-canna
     SUBDIR += mule-sj3
     SUBDIR += mule-wnn
