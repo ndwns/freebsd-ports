@@ -9,7 +9,8 @@
 DISTNAME=	GimpUserManual-1.0.0
 PKGNAME=	GimpUserManual-${DOCFORMAT}-1.0.0
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://manual.gimp.org/pub/manual/
+MASTER_SITES=	ftp://manual.gimp.org/pub/manual/ \
+		ftp://peloton.physics.montana.edu/pub/distfiles/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
@@ -64,6 +65,8 @@ EXTRACT_SUFX=	.gz
 EXTRACT_CMD=	${GZIP_CMD}
 EXTRACT_BEFORE_ARGS= -cd
 EXTRACT_AFTER_ARGS= > ${DISTNAME}
+
+NO_CDROM=	"too big"
 
 NO_BUILD=	yes
 USE_X_PREFIX=	yes
