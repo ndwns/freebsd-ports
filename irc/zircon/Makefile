@@ -1,12 +1,12 @@
 # New ports collection makefile for:	zircon
-# Version required:	1.18.155
+# Version required:	1.18.171
 # Date created:		19 Aug 1995
 # Whom:			jkh / pst
 #
 # $Id$
 #
 
-DISTNAME=	zircon-1.18.155
+DISTNAME=	zircon-1.18.171
 CATEGORIES=	net tk81
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
