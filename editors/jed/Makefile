@@ -51,7 +51,7 @@ post-install:
 	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
 	install-info --section="Miscellaneous" \
-		--entry="* JED: (jed).		JED editor documentation." \
+		--entry="* JED: (jed).			JED editor documentation." \
 		${PREFIX}/info/jed.info ${PREFIX}/info/dir
 .endif
 
