@@ -10,9 +10,8 @@ DISTNAME=	zircon-1.18b8
 CATEGORIES=	net
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
-MAINTAINER=	jkh@FreeBSD.org
+MAINTAINER=	ports@FreeBSD.org
 
-#
 # You can define USE_DPWISH if you want to run under the older
 # tcl7.3/tk3.6/tclDP code.  The author strongly reccomends using
 # tcl7.5/tk4.1 instead, and the tclDP wont be supported for long.
