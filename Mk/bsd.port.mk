@@ -74,6 +74,9 @@
 # PKG_DBDIR		- Where package installation is recorded (default: /var/db/pkg)
 # FORCE_PKG_REGISTER - If set, it will overwrite any existing package
 #				  registration information in ${PKG_DBDIR}/${PKGNAME}.
+# NO_MTREE		- If set, will not invoke mtree from bsd.port.mk from
+#				  the "install" target.  This is the default if
+#				  USE_IMAKE or USE_X11 is set.
 #
 # NO_EXTRACT	- Use a dummy (do-nothing) extract target.
 # NO_CONFIGURE	- Use a dummy (do-nothing) configure target.
@@ -251,6 +254,9 @@ MTREE_LOCAL=	/etc/mtree/BSD.local.dist
 .endif
 MTREE_CMD?=	mtree
 MTREE_ARGS?=	-U -f ${MTREE_LOCAL} -d -e -p
+.if defined(USE_X11) || defined(USE_IMAKE) || !defined(MTREE_LOCAL)
+NO_MTREE=	yes
+.endif
 
 # The user can override the NO_PACKAGE by specifying this from
 # the make command line
@@ -768,7 +774,7 @@ install: build ${INSTALL_COOKIE}
 
 ${INSTALL_COOKIE}:
 	@${ECHO_MSG} "===>  Installing for ${PKGNAME}"
-.if !defined(USE_X11) && !defined(USE_IMAKE) && defined(MTREE_LOCAL)
+.if !defined(NO_MTREE)
 	@${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/;
 .endif
 .if target(pre-install)
