@@ -28,7 +28,7 @@ pre-fetch:
 
 pre-install:
 	@${SED} -e 's:%GNUHOST%:${GNUHOST}:' ${PKGDIR}/PLIST \
-		> ${PLIST
+		> ${PLIST}
 
 post-install:
 	@${RM} -f ${PREFIX}/bin/c++
