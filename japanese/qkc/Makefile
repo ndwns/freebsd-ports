@@ -22,9 +22,10 @@ EXTRACT_ARGS=	-q
 NO_WRKSUBDIR=	yes
 ALL_TARGET=
 MAN1=		qkc.1
+MANLANG=	ja
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/qkc ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/qkc.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/qkc.1 ${PREFIX}/man/ja/man1
 
 .include <bsd.port.mk>
