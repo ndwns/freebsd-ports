@@ -13,7 +13,7 @@
 DISTNAME=	bpatch
 PKGNAME=	bpatch-1.0
 CATEGORIES=	editors
-MASTER_SITES=	ftp://ftp.germany.eu.net/pub/utils/bpatch/
+MASTER_SITES=	ftp://ftp.interface-business.de/pub/outgoing/
 
 MAINTAINER=	joerg@FreeBSD.org
 
