@@ -15,6 +15,10 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
 
+VERSION!=	sysctl -n kern.osreldate
+.if ${VERSION} < 300000
+BROKEN=		build
+.endif
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
