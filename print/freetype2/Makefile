@@ -1,12 +1,12 @@
 # New ports collection makefile for:	freetype
-# Version required:	1.1
+# Version required:	1.2
 # Date created:		January 24, 1998
 # Whom:			jseger@FreeBSD.org
 #
 # $Id$
 #
 
-DISTNAME=	freetype-1.1
+DISTNAME=	freetype-1.2
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.physiol.med.tu-muenchen.de/pub/freetype/
 
