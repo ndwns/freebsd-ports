@@ -7,7 +7,7 @@
 
 DISTNAME=	ish-1.11
 CATEGORIES=	converters
-MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/incoming/distfiles/
+MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
 MAINTAINER=	hosokawa@jp.FreeBSD.org
 
