@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=X11/xutils
 
 MAINTAINER=     giffunip@asme.org
 
+RUN_DEPENDS=	$(X11BASE)/bin/mkfontdir:${PORTSDIR}/x11/XFree86
+
 USE_PERL5=	yes
 NO_BUILD=	yes
 STRIP=
