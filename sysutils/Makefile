@@ -24,6 +24,7 @@
     SUBDIR += su2
     SUBDIR += tcplist
     SUBDIR += tua
+    SUBDIR += upsd
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
