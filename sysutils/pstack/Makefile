@@ -3,14 +3,13 @@
 # Whom:			Peter Edwards <pmedwards@eircom.net>
 #
 # $FreeBSD$
+# $Id$
 #
 
 PORTNAME=	pstack
-PORTVERSION=	1.1
+PORTVERSION=	1.2
 CATEGORIES=	sysutils
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE} \
-		http://bsd-pstack.sourceforge.net/releases/
-MASTER_SITE_SUBDIR=	bsd-pstack
+MASTER_SITES=	http://bsd-pstack.sourceforge.net/releases/
 
 MAINTAINER=	pmedwards@eircom.net
 
