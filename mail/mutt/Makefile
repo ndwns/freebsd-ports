@@ -28,6 +28,11 @@ PATCHFILES=	02.externally.PATCH  \
 		08.keypad.PATCH  \
 		09.quote_regexp.PATCH  \
 		10.mark-as-new.PATCH  \
+		11.postponed.PATCH  \
+		12.postponed.PATCH  \
+		13.wait.PATCH  \
+		14.addrfwd.PATCH  \
+		15.flagmessage.PATCH  \
 		06.buffy.PATCH	# other patches need to be before this one
 
 MAINTAINER=     obrien@FreeBSD.org
