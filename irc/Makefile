@@ -20,6 +20,7 @@
     SUBDIR += scrollz
     SUBDIR += sic
     SUBDIR += sirc
+    SUBDIR += tirc
     SUBDIR += tkirc
     SUBDIR += trickyirc
     SUBDIR += xchat
