@@ -46,6 +46,7 @@
     SUBDIR += superlu
     SUBDIR += umatrix
     SUBDIR += umfpack
+    SUBDIR += vtk
     SUBDIR += wingz
     SUBDIR += xgfe
     SUBDIR += xgraph
