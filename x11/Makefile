@@ -23,6 +23,7 @@
    SUBDIR += tvtwm
    SUBDIR += x3270
    SUBDIR += xbuffy
+   SUBDIR += xcb
    SUBDIR += xcolors
    SUBDIR += xdaliclock
    SUBDIR += xdtm
