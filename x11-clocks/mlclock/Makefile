@@ -15,11 +15,14 @@ MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
+WRKSRC=		${WRKDIR}/mlclock
 
-pre-patch:
 .if !defined(KANJIMODE)
-	@${ECHO_MSG} "Japanese Kanji mode disabled....."
-	@${CP} ${FILESDIR}/patch-aa ${PATCHDIR}
+pre-patch:
+	@${ECHO_MSG} "Japanese Kanji mode disabled."
+	@${ECHO_MSG} "Use 'make -DKANJIMODE' when compiling if you want the Japanese"
+	@${ECHO_MSG} "kanji mode enabled."
+	@${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-aa
 .endif
 
 .include <bsd.port.mk>
