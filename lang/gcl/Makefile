@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.ma.utexas.edu/pub/gcl/ \
 
 MAINTAINER=	jseger@freebsd.org
 
+BROKEN_ELF=	yes
+
 MAKEFILE=	makefile
 
 pre-build:
