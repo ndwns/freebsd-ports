@@ -16,6 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 USE_IMAKE=	yes
 MAN6=		xataxx.6
+MANCOMPRESSED=	no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xataxx ${PREFIX}/bin
