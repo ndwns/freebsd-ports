@@ -10,7 +10,7 @@ DISTNAME=	scanner
 PKGNAME=	hpscan-1.0
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/ \
-		ftp://macbeth.cogsci.ed.ac.uk/pub/
+		ftp://ftp.cogsci.ed.ac.uk/pub/richard/
 
 MAINTAINER=	nate@FreeBSD.org
 
