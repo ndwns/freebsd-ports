@@ -12,11 +12,9 @@ MASTER_SITES=	http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/mlvwm/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-CONFIGURE_ENV=	X11BASE=${X11BASE}
-
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-USE_X11=	yes
+CONFIGURE_ENV=	X11BASE=${X11BASE}
 USE_IMAKE=	yes
 
 post-install:
