@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	pidentd-2.4alpha.7
+DISTNAME=	pidentd-2.4.1
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ ftp://ftp.fu-berlin.de/unix/security/ident/servers/
 
 pre-install:
