@@ -18,7 +18,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} PyTix-1.12.tar.gz
 MAINTAINER=	tg@FreeBSD.org
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41 \
-		tix4141\\.1\\.:${PORTSDIR}/x11/tix
+		tix4175\\.1\\.:${PORTSDIR}/x11/tix
 
 WRKSRC=		${WRKDIR}/Python-1.4
 HAS_CONFIGURE=	yes
