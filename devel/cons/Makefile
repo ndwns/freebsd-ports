@@ -8,7 +8,8 @@
 
 DISTNAME=	cons-1.5
 CATEGORIES=	devel
-MASTER_SITES=	http://www.lowrent.org/cons/
+MASTER_SITES=	http://www.dsmit.com/cons/ \
+		http://www.telerama.com/~bgarcia/cons/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rv@fore.com
