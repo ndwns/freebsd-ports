@@ -27,6 +27,7 @@ BUILD_DEPENDS=	openssl:${PORTSDIR}/security/openssl
 RESTRICTED=     "Contains cryptography"
 
 GNU_CONFIGURE=  YES
+CFLAGS+=	I${PREFIX}/include/openssl
 CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc" \
 		--enable-nsl-fork
 MAKEFILE=       makefile
