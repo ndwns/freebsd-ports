@@ -15,8 +15,6 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
-CONFIGURE_ARGS= --with-default-server="irc.FreeBSD.ORG"
-
 WRKSRC=		${WRKDIR}/${PKGNAME}
 MAN1=		ircII.1 ircbug.1
 
