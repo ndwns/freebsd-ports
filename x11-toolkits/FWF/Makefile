@@ -8,7 +8,10 @@
 
 DISTNAME=	fwf-3.8
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.let.rug.nl/pub/FWF/
+MASTER_SITES=   ${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=     widgets
+
+MAINTAINER=	ports@FreeBSD.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
