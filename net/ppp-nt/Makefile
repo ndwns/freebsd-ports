@@ -9,7 +9,7 @@
 DISTNAME=	ppp-2.2.7
 PKGNAME=	ppp-nt-2.2.7
 CATEGORIES=	net
-MASTER_SITES=	http://www.jp.freebsd.org/~sada/distfiles/ \
+MASTER_SITES=	${MASTER_SITE_PORTS_JP} \
 		http://www.freebsd.org/~sada/distfiles/
 
 PATCH_SITES=	http://www.rr.iij4u.or.jp/~sada/patches/ \
