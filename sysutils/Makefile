@@ -16,6 +16,7 @@
     SUBDIR += gtar
     SUBDIR += gtop
     SUBDIR += idled
+    SUBDIR += libretto-config
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mei
