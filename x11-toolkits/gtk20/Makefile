@@ -17,13 +17,12 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	glib11d.1:${PORTSDIR}/devel/glib11-devel
 
+USE_X_PREFIX=	yes
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} <= 300000
 BROKEN=		requires perl5
 .endif
-
-USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c' \
 		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config"
