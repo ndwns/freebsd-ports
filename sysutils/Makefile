@@ -19,7 +19,7 @@
     SUBDIR += manck
     SUBDIR += mei
     SUBDIR += mergemaster
-    SUBDIR += mkhybrid11
+    SUBDIR += mkhybrid
     SUBDIR += mkhybrid12
     SUBDIR += mkisofs
     SUBDIR += no-login
