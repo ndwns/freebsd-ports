@@ -30,6 +30,7 @@
     SUBDIR += diction
     SUBDIR += display
     SUBDIR += dotfile
+    SUBDIR += enlightenment-conf
     SUBDIR += estic
     SUBDIR += ewipe
     SUBDIR += fd
