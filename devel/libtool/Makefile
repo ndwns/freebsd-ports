@@ -1,26 +1,24 @@
 # New ports collection makefile for:	libtool
-# Version required:	1.2
+# Version required:	1.3
 # Date created:		6 May 1998
 # Whom:			Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
 # $Id$
 #
 
-DISTNAME=	libtool-1.2
+DISTNAME=	libtool-1.3
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
 MASTER_SITE_SUBDIR=	libtool
 
-MAINTAINER=	m-kasahr@sra.co.jp
+MAINTAINER=	reg@shale.csir.co.za
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
-		INSTALL_DATA="${INSTALL_DATA}"
+CONFIGURE_ARGS=	--disable-ltdl-install
 
-post-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
+pre-install:
+	@if [ -d ${PREFIX}/info -a ! -f ${PREFIX}/info/dir -a -f /usr/share/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	 fi
-	@install-info ${PREFIX}/info/libtool.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
