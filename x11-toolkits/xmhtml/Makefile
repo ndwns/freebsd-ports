@@ -20,6 +20,8 @@ MAINTAINER=	thepish@freebsd.org
 LIB_DEPENDS=    png.3:${PORTSDIR}/graphics/png \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
+BROKEN=  "doesn't support MOTIFLIB"
+
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 
