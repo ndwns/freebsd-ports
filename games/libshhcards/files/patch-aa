@@ -5,7 +5,7 @@
  DIST		= shhcards
  VERMAJ		= 1
 -VERMIN		= 0
--VERPAT		= 3
+-VERPAT		= 4
 -VERSION		= $(VERMAJ).$(VERMIN).$(VERPAT)
 +VERMIN		= 1
 +ifeq ($(PORTOBJFORMAT),elf)
