@@ -6,14 +6,14 @@
 # $Id$
 #
 
-DISTNAME=       unzip-5.3.2
+DISTNAME=	unzip532
+PKGNAME=	unzip-5.3.2
 CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
-DISTFILES=      unzip532.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/unzip-5.32
+WRKSRC=		${WRKDIR}/${PKGNAME}
 MAKEFILE=       unix/Makefile
 ALL_TARGET=     freebsd
 MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS} -DUSE_UNSHRINK" -f

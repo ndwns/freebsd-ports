@@ -6,14 +6,15 @@
 # $Id$
 #
 
-DISTNAME=       nulib-3.25
+DISTNAME=	nulib325
+PKGNAME=	nulib-3.25
 CATEGORIES=	archivers
 MASTER_SITES=	ftp://apple2.caltech.edu/%2FZocalo/pub/apple2/ARCHIVERS/
-DISTFILES=	nulib325.tar.Z
-WRKSRC=		${WRKDIR}/nulib
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     swallace@freebsd.org
 
+WRKSRC=		${WRKDIR}/nulib
 MAN1=		nulib.1
 
 do-install:
