@@ -52,6 +52,7 @@
     SUBDIR += tcl
     SUBDIR += tcl74
     SUBDIR += tcl76
+    SUBDIR += tcl80
     SUBDIR += tclX
     SUBDIR += tclX74
     SUBDIR += tclX75
