@@ -1,0 +1,5 @@
+@comment $FreeBSD$
+share/texmf/web2c/xmltex.fmt
+share/texmf/web2c/pdfxmltex.fmt
+@exec %D/bin/mktexlsr
+@unexec %D/bin/mktexlsr
