@@ -23,6 +23,7 @@
    SUBDIR += xmj
    SUBDIR += xmris
    SUBDIR += xonix
+   SUBDIR += xpacman
    SUBDIR += xpilot
    SUBDIR += xpipeman
    SUBDIR += xrisk
