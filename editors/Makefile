@@ -21,6 +21,7 @@
     SUBDIR += nvi-perl
     SUBDIR += offix-editor
     SUBDIR += staroffice
+    SUBDIR += sted
     SUBDIR += textedit
     SUBDIR += thoteditor
     SUBDIR += uemacs
