@@ -10,6 +10,10 @@ DISTNAME=	xc
 PKGNAME=	xtt-8514-1.0
 CATEGORIES=	x11
 
+MAINTAINER=	taguchi@tohoku.iij.ad.jp
+
+RUN_DEPENDS=	mkfontdir.pl:${.CURDIR}/../XttXF86srv-common
+
 SERVER=		XF86_8514
 
 .include "${.CURDIR}/../XttXF86srv-common/Makefile"

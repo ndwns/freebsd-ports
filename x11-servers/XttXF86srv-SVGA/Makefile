@@ -12,6 +12,8 @@ CATEGORIES=	x11
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
+RUN_DEPENDS=	mkfontdir.pl:${.CURDIR}/../XttXF86srv-common
+
 SERVER=		XF86_SVGA
 
 .include "${.CURDIR}/../XttXF86srv-common/Makefile"

@@ -10,6 +10,10 @@ DISTNAME=	xc
 PKGNAME=	xtt-S3V-1.0
 CATEGORIES=	x11
 
+MAINTAINER=	taguchi@tohoku.iij.ad.jp
+
+RUN_DEPENDS=	mkfontdir.pl:${.CURDIR}/../XttXF86srv-common
+
 SERVER=		XF86_S3V
 
 .include "${.CURDIR}/../XttXF86srv-common/Makefile"
