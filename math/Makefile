@@ -34,6 +34,7 @@
     SUBDIR += sc
     SUBDIR += siag
     SUBDIR += simpack
+    SUBDIR += spin
     SUBDIR += ss
     SUBDIR += superlu
     SUBDIR += umatrix
