@@ -92,6 +92,7 @@
     SUBDIR += kvirc
     SUBDIR += ksamba
     SUBDIR += ldap
+    SUBDIR += ldapsdk
     SUBDIR += lftp
     SUBDIR += libicq
     SUBDIR += libnet
@@ -143,6 +144,7 @@
     SUBDIR += pathchar
     SUBDIR += pavuk
     SUBDIR += pcnfsd
+    SUBDIR += perldap
     SUBDIR += pmf
     SUBDIR += ppp-nt
     SUBDIR += pppload
