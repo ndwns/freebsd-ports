@@ -13,6 +13,7 @@ MASTER_SITES=	http://www.engelschall.com/sw/gfont/distrib/ \
 		ftp://ftp.hyperreal.org/software/engelschall/gfont/
 
 MAINTAINER=	rse@engelschall.com
+BROKEN=		yes
 
 RUN_DEPENDS=	mf:${PORTSDIR}/print/teTeX \
 		gftopk:${PORTSDIR}/print/teTeX \
