@@ -43,6 +43,7 @@
     SUBDIR += upsmon
     SUBDIR += webmin
     SUBDIR += wmavgload
+    SUBDIR += wmmon
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
