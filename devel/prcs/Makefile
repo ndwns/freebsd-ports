@@ -12,6 +12,10 @@ MASTER_SITES=	ftp://ftp.xcf.berkeley.edu/pub/prcs/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
+# Port is broken because it relies on g++ 2.7.2.  Ask me
+# for a package.
+BROKEN=		yes
+
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 
