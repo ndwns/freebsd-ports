@@ -8,18 +8,18 @@
 
 DISTNAME=	bxform-075
 PKGNAME=	xforms-0.75
-EXTRACT_SUFX=	.tgz
-WRKSRC=		${WRKDIR}/xforms
 CATEGORIES+=	graphics x11
 MASTER_SITES=	ftp://bloch.phys.uwm.edu/pub/xforms/freeBSD/
-
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-
-PREFIX=		/usr/X11R6
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gena@NetVision.net.il
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
+USE_X11=	yes
+WRKSRC=		${WRKDIR}/xforms
+
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
