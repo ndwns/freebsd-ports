@@ -74,6 +74,7 @@
     SUBDIR += xchain
     SUBDIR += xchomp
     SUBDIR += xcogitate
+    SUBDIR += xconq
     SUBDIR += xcubes
     SUBDIR += xdeblock
     SUBDIR += xdemineur
