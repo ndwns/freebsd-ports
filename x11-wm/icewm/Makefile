@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	icewm-0.9.29
+DISTNAME=	icewm-0.9.34
 CATEGORIES=	x11-wm
 MASTER_SITES=	http://www.kiss.uni-lj.si/~k4fr0235/icewm/devel/ \
 		http://www.freebsd.org/~vanilla/
@@ -49,7 +49,7 @@ do-configure:
 	( cd ${WRKSRC}; ${SH} config ${ICEOPTION} )
 
 post-install:
-	${CP} ${FILESDIR}/bsd-daemon.xpm ${PREFIX}/lib/X11/icewm/taskbar
+	${CP} ${FILESDIR}/bsd-daemon.xpm ${PREFIX}/share/icewm/taskbar
 	strip ${PREFIX}/bin/icewm
 	strip ${PREFIX}/bin/icewmbg
 	strip ${PREFIX}/bin/icewmhint
