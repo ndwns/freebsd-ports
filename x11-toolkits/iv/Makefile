@@ -9,6 +9,7 @@
 VERSION=	3.1
 # don't change this to "=" !
 DISTNAME?=	iv-${VERSION}
+CATEGORIES=	x11
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/
 EXTRACT_SUFX=	.tar.Z
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
