@@ -39,7 +39,7 @@
  ifeq ($(SHARED),1)
 -	$(CC) -shared -Wl,-soname,$(LIBTARGETSOMAJ) -o $(LIBTARGET) $(LIBOBJS)
 +ifeq ($(PORTOBJFORMAT),elf)
-+	$(CC) -shared -soname $(LIBTARGET) -o $(LIBTARGET) $(LIBOBJS)
++	$(CC) -shared -Wl,-soname,$(LIBTARGET) -o $(LIBTARGET) $(LIBOBJS)
 +else
 +	$(CC) -shared -o $(LIBTARGET) $(LIBOBJS)
 +endif
