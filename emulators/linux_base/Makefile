@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	linux_lib-2.3
+DISTNAME=	linux_lib-2.4
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
@@ -23,5 +23,8 @@ pre-install:
 
 do-install:
 	@zcat ${DISTDIR}/${DISTNAME}.tar.gz |(cd ${PREFIX}; pax -r)
+
+post-install:
+	-/compat/linux/sbin/ldconfig
 
 .include <bsd.port.mk>
