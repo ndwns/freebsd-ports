@@ -13,7 +13,7 @@ MASTER_SITES=		ftp://moon.csie.ntu.edu.tw/pub/X/ted/ \
 			ftp://freebsd.ntu.edu.tw/freebsd/ntu/moon/X/ted/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		vanilla@MinJe.com.TW
+MAINTAINER=		vanilla@FreeBSD.ORG
 
 USE_X11=		yes
 WRKSRC=			${WRKDIR}/ted

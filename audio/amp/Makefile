@@ -11,7 +11,7 @@ CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.rasip.fer.hr/pub/mpeg/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	vanilla@MinJe.com.TW
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes

@@ -12,7 +12,7 @@ CATEGORIES=	devel x11 tk80
 MASTER_SITES=	http://www.neuron.com/stewart/vtcl/dload/ \
 		ftp://ftp.neuron.com/pub/
 
-MAINTAINER=	vanilla@MinJe.com.TW
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 

@@ -11,7 +11,7 @@ PKGNAME=       gtk-971109
 CATEGORIES=    x11
 MASTER_SITES=  ftp://ftp.gimp.org/pub/gtk/
 
-MAINTAINER=    vanilla@MinJe.com.TW
+MAINTAINER=    vanilla@FreeBSD.ORG
 
 GNU_CONFIGURE= yes
 USE_GMAKE=     yes
