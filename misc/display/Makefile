@@ -19,8 +19,6 @@ MAINTAINER=		ports@FreeBSD.ORG
 
 BUILD_DEPENDS=		gunshar:${PORTSDIR}/archivers/gshar+gunshar
 
-BROKEN=			fetch
-
 NO_WRKSUBDIR=		yes
 EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
