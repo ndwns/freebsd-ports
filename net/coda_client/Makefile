@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	coda-4.6.5
-PKGNAME=	coda-client-4.6.5.1
+DISTNAME=	coda-4.6.6
+PKGNAME=	coda-client-4.6.6.1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.coda.cs.cmu.edu/pub/coda/src/
 EXTRACT_SUFX=	.tgz
