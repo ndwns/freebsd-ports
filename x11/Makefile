@@ -52,11 +52,11 @@
     SUBDIR += kde
     SUBDIR += kde11
     SUBDIR += kdebase
-    SUBDIR += kdebase-i18n-11
     SUBDIR += kdebase11
+    SUBDIR += kdebase11-i18n
     SUBDIR += kdelibs
-    SUBDIR += kdelibs-i18n-11
     SUBDIR += kdelibs11
+    SUBDIR += kdelibs11-i18n
     SUBDIR += kvidtune
     SUBDIR += kworldwatch
     SUBDIR += libdnd
