@@ -105,11 +105,19 @@ This type of messages are used in verbose mode
 .Pq Fl v .
 .El
 .Sh FILES
-.Bl -tag -width /usr/share/mk/bsd.port.mk -compact
-.It Pa /usr/share/mk/bsd.port.mk
+.Bl -tag -width bsd.port.mk -compact
+.It Pa bsd.port.mk
 master Makefile for ports
+.Po
+.Pa bsd.pkg.mk
+on NetBSD/OpenBSD
+.Pc
 .It Pa /usr/ports/*
 port collection
+.Po
+.Pa /usr/pkgsrc/*
+on NetBSD/OpenBSD
+.Pc
 .Sh AUTHORS
 Jun-ichiro Itoh <itojun@itojun.org>
 and
