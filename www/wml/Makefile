@@ -15,6 +15,8 @@ MASTER_SITES=	http://www.engelschall.com/sw/wml/distrib/ \
 
 MAINTAINER=	rse@engelschall.com
 
+BROKEN=		perl5 upgrade
+
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
