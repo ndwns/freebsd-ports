@@ -12,7 +12,6 @@
 DISTNAME=       ssh-1.2.14
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/
-LIB_DEPENDS=    z\\.1\\.:${PORTSDIR}/devel/libz
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
