@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	toolbox-0.4.3
-CATEGORIES=	misc
+CATEGORIES= 	x11-wm
 MASTER_SITES=	http://rfk.masslinux.com/blackbox/utils/
 
 MAINTAINER=	cpiazza@FreeBSD.org

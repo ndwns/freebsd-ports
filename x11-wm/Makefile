@@ -28,6 +28,7 @@
     SUBDIR += piewm
     SUBDIR += qvwm
     SUBDIR += scwm
+    SUBDIR += toolbox
     SUBDIR += tvtwm
     SUBDIR += vtwm
     SUBDIR += windowmaker
