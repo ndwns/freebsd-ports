@@ -13,6 +13,7 @@
     SUBDIR += gtk11
     SUBDIR += gtk12
     SUBDIR += gtkgl
+    SUBDIR += gtkglarea
     SUBDIR += gtkstep
     SUBDIR += itk
     SUBDIR += iwidgets
