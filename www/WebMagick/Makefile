@@ -24,6 +24,9 @@ CONFIGURE_ENV=  webmagick_cv_rootpath=${PREFIX}/www/data \
 		webmagick_cv_maptype=ncsa \
 		PERL=${PERL}
 
+pre-install:
+		@${MKDIR} ${PREFIX}/www/data
+
 post-install:
 		cd ${WRKSRC}; \
 		if [ ! -f ${PREFIX}/etc/webmagickrc ] ; then \
