@@ -17,7 +17,8 @@ MAINTAINER=	nik@freebsd.org
 RUN_DEPENDS=	instant:${PORTSDIR}/textproc/sgmlformat \
 		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular \
 		tidy:${PORTSDIR}/www/tidy \
-		${PREFIX}/share/sgml/html/catalog:${PORTSDIR}/textproc/html
+		${PREFIX}/share/sgml/html/catalog:${PORTSDIR}/textproc/html \
+		lynx:${PORTSDIR}/www/lynx-current
 
 IS_INTERACTIVE= "user must set JADETEX variable to 'yes' or 'no'"
 
