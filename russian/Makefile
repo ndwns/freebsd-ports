@@ -5,6 +5,7 @@
     SUBDIR += cyrproxy
     SUBDIR += d1489
     SUBDIR += elm.language
+    SUBDIR += gd
     SUBDIR += netscape3.language
     SUBDIR += pgp.language
     SUBDIR += pine.language
