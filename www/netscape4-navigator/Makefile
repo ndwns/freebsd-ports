@@ -43,7 +43,7 @@ do-install:
 	    ${INSTALL_DATA} ${FILESDIR}/mailcap ${NDIR}; \
 	fi
 	${RM} -rf ${NDIR}/movemail-src
-.if defined(USE_128BIT) && ${USA_RESIDENT} == NO
+.if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
 	cd ${WRKSRC}/Fortify-1.2.1-unix && \
 		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/navigator-4.04.bin
 .endif
