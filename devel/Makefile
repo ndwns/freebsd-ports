@@ -48,7 +48,6 @@
     SUBDIR += libffi
     SUBDIR += libmalloc
     SUBDIR += libobjects
-    SUBDIR += libproplist
     SUBDIR += libslang
     SUBDIR += libtool
     SUBDIR += linux_devel
