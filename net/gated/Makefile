@@ -1,13 +1,13 @@
 # Makefile for:		gated
-# Version required:	3.0 / 2.17
+# Version required:     3.5
 # Date created:		29 October 1994
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=	gated-R3_5Alpha_10
-PKGNAME=	gated-3.5a10
+DISTNAME=       gated-R3_5Alpha_11
+PKGNAME=        gated-3.5a11
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://gated.cornell.edu/pub/gated/
 EXTRACT_SUFX=	.tar.Z
