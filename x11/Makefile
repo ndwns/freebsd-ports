@@ -10,6 +10,7 @@
     SUBDIR += blt
     SUBDIR += color_xterm
     SUBDIR += ctwm
+    SUBDIR += dclock
     SUBDIR += emiclock
     SUBDIR += emu
     SUBDIR += fvwm
