@@ -10,6 +10,7 @@
     SUBDIR += colorls
     SUBDIR += ctk
     SUBDIR += dejagnu
+    SUBDIR += dotfile
     SUBDIR += ecc
     SUBDIR += estic
     SUBDIR += fd
