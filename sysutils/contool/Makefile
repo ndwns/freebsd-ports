@@ -1,5 +1,5 @@
 # New ports collection makefile for:    contool
-# Version required:     1.25
+# Version required:     3.3a
 # Date created:         2 Dec 1996
 # Whom:                 nsayer@quack.kfu.com
 #
@@ -9,7 +9,6 @@
 DISTNAME=	contool-3.3a
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.kfu.com/pub/
-EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	nsayer@quack.kfu.com
 
