@@ -4,6 +4,7 @@
     SUBDIR += Wnn
     SUBDIR += acroread-korfont
     SUBDIR += afterstep
+    SUBDIR += ami
     SUBDIR += elm
     SUBDIR += engdic
     SUBDIR += ftghostscript5
