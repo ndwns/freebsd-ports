@@ -66,7 +66,7 @@
  
  DEST	= phoned
 -RDEST	= /usr/local/etc/in.phoned
-+RDEST	= ${PREFIX}/libexec/in.phoned
++RDEST	= ${PREFIX}/libexec/phoned
  #RDEST	= /etc/phoned
  
  
