@@ -8,7 +8,7 @@
 
 DISTNAME=	html-4.0b
 CATEGORIES=	textproc
-MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
+MASTER_SITES=	http://fallout.campusview.indiana.edu/ports/distfiles/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 

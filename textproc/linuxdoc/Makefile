@@ -8,7 +8,7 @@
 
 DISTNAME=	linuxdoc-1.1
 CATEGORIES=	textproc
-MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
+MASTER_SITES=	http://fallout.campusview.indiana.edu/ports/distfiles/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
