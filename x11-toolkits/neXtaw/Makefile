@@ -17,6 +17,7 @@ USE_IMAKE=	yes
 
 post-extract:
 	@${RM} -rf ${WRKSRC}/X11
+	@ln -sf exports/include ${WRKSRC}/X11
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
