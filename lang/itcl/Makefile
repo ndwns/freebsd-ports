@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
 
 MAINTAINER=	chuckr@freebsd.org
 
+BROKEN=		yes	# installation does not DTRT
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared --exec_prefix=${PREFIX}
 
