@@ -2,6 +2,7 @@
 #
 
     SUBDIR += babel
+    SUBDIR += hmmer
     SUBDIR += kinemage
     SUBDIR += povchem
     SUBDIR += rasmol
