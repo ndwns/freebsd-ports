@@ -12,9 +12,10 @@ PATCHDIR=	${.CURDIR}/../../misc/ewipe/patches
 PKGDIR=		${.CURDIR}/../../misc/ewipe/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
+PKGNAME=	ja-ewipe-0.7.0
+
 .include <${.CURDIR}/../../misc/ewipe/Makefile>
 
-PKGNAME=	ja-ewipe-0.7.0
 CATEGORIES=	japanese misc
 
 MAINTAINER=	itojun@itojun.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ewipe0.7.0
-PKGNAME=	ewipe-0.7.0
+PKGNAME?=	ewipe-0.7.0
 CATEGORIES=	misc
 MASTER_SITES=	http://al.ei.tuat.ac.jp/~sekisita/ewipe/
 
