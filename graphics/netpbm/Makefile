@@ -15,6 +15,7 @@ DISTFILES=	netpbm-1mar1994.tar.gz
 MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff34
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 USE_IMAKE=	yes
 MAN1=	anytopnm.1 asciitopgm.1 atktopbm.1 bioradtopgm.1 bmptoppm.1 \
