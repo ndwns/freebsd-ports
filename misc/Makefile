@@ -43,6 +43,7 @@
     SUBDIR += xless
     SUBDIR += xmaddressbook
     SUBDIR += xtar
+    SUBDIR += xtimer
     SUBDIR += zorro
 
 .include <bsd.port.subdir.mk>
