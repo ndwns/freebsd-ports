@@ -7,9 +7,7 @@
 #
 
 DISTNAME=       splay-0.2
-PKGNAME=	splay-0.2
 CATEGORIES=	audio
-
 MASTER_SITES=   ${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR = apps/sound
 
