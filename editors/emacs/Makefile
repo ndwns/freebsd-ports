@@ -13,14 +13,15 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	ports@FreeBSD.ORG
 
 EMACS_VERSION=	19.34
-PLIST_SUB=	EMACS_VERSION=${EMACS_VERSION}
+EMACS_ARCH=	${MACHINE_ARCH}--freebsd
+PLIST_SUB=	EMACS_VERSION=${EMACS_VERSION} EMACS_ARCH=${EMACS_ARCH}
 NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/emacs-19.34
 GNU_CONFIGURE=	yes
 USE_XLIB=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit \
-		--sharedstatedir=/var/run
+CONFIGURE_ARGS=	${EMACS_ARCH} --with-x-toolkit --sharedstatedir=/var/run
+
 STRIP=
 MAN1=		emacs.1 etags.1 ctags.1
 

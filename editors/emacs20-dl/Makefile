@@ -22,10 +22,11 @@ RUN_DEPENDS=	emacs-20.3:${PORTSDIR}/editors/emacs20
 GNU_CONFIGURE=	yes
 USE_XLIB=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit --with-pop
 MAKE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 EMACS_VER=	20.3
-PLIST_SUB=	EMACS_VER=${EMACS_VER}
+EMACS_ARCH=	${MACHINE_ARCH}--freebsd
+CONFIGURE_ARGS=	${EMACS_ARCH} --with-x-toolkit --with-pop
+PLIST_SUB=	EMACS_VER=${EMACS_VER} EMACS_ARCH=${EMACS_ARCH}
 
 .if defined(USE_XPGLIB)
 .if (${USE_XPGLIB} == "YES")

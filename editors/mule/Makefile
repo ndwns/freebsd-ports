@@ -41,7 +41,8 @@ MAKE_ENV=      LIBDIR="${LIBDIR}"
 CONFIGURE_ENV=	PATH=/usr/bin:$$PATH
 EMACS_PREFIX=	mule
 EMACS_EXECUTABLE =	mule
-CONFIGURE_ARGS=	i386--freebsd --with-executable=${EMACS_EXECUTABLE} \
+EMACS_ARCH=	${MACHINE_ARCH}--freebsd
+CONFIGURE_ARGS=	${EMACS_ARCH} --with-executable=${EMACS_EXECUTABLE} \
 		--with-emacs-prefix=${EMACS_PREFIX} \
 		--with-terminal-face \
 		--x-includes=${X11BASE}/include --x-libraries=${X11BASE}/lib \
