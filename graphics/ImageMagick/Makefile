@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       ImageMagick-4.0.8
+DISTNAME=       ImageMagick-4.0.9
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 		ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
