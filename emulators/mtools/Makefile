@@ -1,21 +1,15 @@
 # New ports collection makefile for:    mtools
-# Version required:     3.9.4
+# Version required:     3.9.6
 # Date created:         5 October 1994
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=	mtools-3.9.4
-PKGNAME=	mtools-3.9.4.2703b
+DISTNAME=	mtools-3.9.6
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.tux.org/pub/knaff/mtools/  \
 		http://mtools.linux.lu/
-
-PATCHFILES=	mtools-3.9.4-2703b.diff.gz
-PATCH_SITES=	ftp://ftp.tux.org/pub/knaff/mtools/  \
-		http://mtools.linux.lu/
-PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	jmz@FreeBSD.org
 
