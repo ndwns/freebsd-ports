@@ -18,13 +18,10 @@ MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
 		http://www.php3.de/distributions/
 DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP3}.tar.gz
 
-MAINTAINER=	Dirk Froemberg <ibex@physik.TU-Berlin.DE>
+MAINTAINER=	dirk@FreeBSD.ORG
 
 VERSION_APACHE=	1.3.3
 VERSION_PHP3=	3.0.5
-
-IS_INTERACTIVE=	yes
-NO_PACKAGE=	Support for different databases
 
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
@@ -74,14 +71,21 @@ PHP3_CONF_ARGS=	--prefix=${PREFIX} \
 		--enable-track-vars
 
 pre-fetch:
+.if !defined(BATCH)
 	@${SETENV} ${SCRIPTS_ENV} ${SH} ${SCRIPTDIR}/configure.php
+.endif
 
 pre-configure:
 	@cd ${WRKSRC} \
 	&& ./configure > /dev/null \
 	&& cd ${WRKDIR}/php-${VERSION_PHP3} \
 	&& ${ECHO_MSG} "===>  Configuring for PHP-${VERSION_PHP3}" \
-	&& CFLAGS= CPPFLAGS="-I${PREFIX}/include -I${PREFIX}/include/gd" LDFLAGS=-L${PREFIX}/lib ./configure ${PHP3_CONF_ARGS} \
+	&& CC="${CC}" \
+	   ac_cv_path_CC="${CC}" \
+	   CFLAGS="${CFLAGS}" \
+	   CPPFLAGS="-I${PREFIX}/include -I${PREFIX}/include/gd" \
+	   LDFLAGS=-L${PREFIX}/lib \
+	   ./configure ${PHP3_CONF_ARGS} \
 	&& ${ECHO_MSG} "===>  Building for PHP-${VERSION_PHP3}" \
 	&& ${MAKE} install \
 	&& ${ECHO_MSG} "===>  Configuring for Apache-${VERSION_APACHE}"
@@ -132,9 +136,9 @@ clean:
 			${ECHO_MSG} "===>   ${WRKDIR} not writable, skipping"; \
 		fi; \
 	fi
-	@${RM} -f Makefile.inc
+	@${RM} -f ${WRKDIRPREFIX}${.CURDIR}/Makefile.inc
 
-.if exists(Makefile.inc)
-.include "Makefile.inc"
+.if exists(${WRKDIRPREFIX}${.CURDIR}/Makefile.inc)
+.include "${WRKDIRPREFIX}${.CURDIR}/Makefile.inc"
 .endif
 .include <bsd.port.mk>
