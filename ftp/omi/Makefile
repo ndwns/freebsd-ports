@@ -1,13 +1,13 @@
 # New ports collection makefile for:    omi
 # http://fromme.com/omi/
-# Version required:     alpha-7
+# Version required:     alpha
 # Date created:		19 August 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       omi-alpha-7
+DISTNAME=       omi-alpha-8
 CATEGORIES=	net
 MASTER_SITES=   http://dorifer.heim3.tu-clausthal.de/~olli/omi/
 
