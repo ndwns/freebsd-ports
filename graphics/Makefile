@@ -5,6 +5,8 @@
     SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += dore
+    SUBDIR += giftool
+    SUBDIR += giftrans
     SUBDIR += gimp
     SUBDIR += hpscan
     SUBDIR += jpeg
