@@ -86,8 +86,6 @@
     SUBDIR += man-doc
     SUBDIR += mendexk-euc
     SUBDIR += mendexk-sjis
-    SUBDIR += mew-mule
-    SUBDIR += mew-xemacs
     SUBDIR += mh
     SUBDIR += mimekit
     SUBDIR += mmm
