@@ -8,7 +8,7 @@
 
 DISTNAME=       kp-0.95
 CATEGORIES+=	misc
-MASTER_SITES=   ftp://forgery.cs.berkeley.edu/pub/
+MASTER_SITES=   ftp://stampede.cs.berkeley.edu/pub/kp/
 
 MAINTAINER=	asami@FreeBSD.org
 
