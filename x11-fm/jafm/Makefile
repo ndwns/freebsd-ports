@@ -8,11 +8,11 @@
 
 DISTNAME=	jafm-0.5
 CATEGORIES=	x11-fm
-MASTER_SITES=	http://www-personal.usyd.edu.au:/~rlittlew/jafm/
+MASTER_SITES=	http://www-personal.usyd.edu.au:/~rlittlew/jafm/ \
+		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	X11/desktop
 
 MAINTAINER=	brett@peloton.physics.montana.edu
-
-BROKEN=		fetch
 
 USE_QT=		yes
 USE_GMAKE=	yes
