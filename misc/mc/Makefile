@@ -15,8 +15,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-ncurses --without-edit --with-dusum --disable-nls
-CONFIGURE_ENV=	INSTALL="$${INSTALL} -c"
-MAKE_ENV=	CCOPTS="$(CFLAGS)"
+CONFIGURE_ENV=	CCOPTS="$(CFLAGS)" INSTALL="$${INSTALL} -c"
+
 MAN1=		midc.1
 MAN8=		mcserv.8
 
