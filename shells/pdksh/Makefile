@@ -3,10 +3,12 @@
 # Date created:		23 December 1994
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
+# $Id$
+#
 
 
 DISTNAME=	pdksh-5.1.3
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
-HAS_CONFIGURE=	YES
+GNU_CONFIGURE=  YES
 
 .include <bsd.port.mk>
