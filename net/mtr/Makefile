@@ -1,20 +1,19 @@
 # New ports collection makefile for:   mtr
-# Version required:    0.21
+# Version required:    0.28
 # Date created:        12 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
 # $Id$
 #
 
-DISTNAME=	mtr-0.21
+DISTNAME=	mtr-0.28
 CATEGORIES=	net
-MASTER_SITES=	http://www.mkimball.org/
+MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/
 
 MAINTAINER=	billf@chc-chimes.com
 
 LIB_DEPENDS=    gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
-FETCH_BEFORE_ARGS= -b
 USE_AUTOCONF=	yes
 USE_XLIB=	yes
 
