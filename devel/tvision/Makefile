@@ -1,14 +1,15 @@
 # New ports collection makefile for:	tvision
-# Version required:			0.6
+# Version required:			0.7
 # Date created:				16 February 1997
 # Whom:					Sandro Sigala
 #
 # $Id$
 #
 
-DISTNAME=	tvision-0.6
+DISTNAME=	tvision-0.7
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.vix.com/guests/ssigala/pub/tvision/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	devel/lang/c++
 
 MAINTAINER=	ssigala@globalnet.it
 
