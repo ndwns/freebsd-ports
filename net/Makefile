@@ -143,6 +143,7 @@
     SUBDIR += tcpshow
     SUBDIR += tcptrace
     SUBDIR += telnetx
+    SUBDIR += tik
     SUBDIR += tintin++
     SUBDIR += tinyfugue
     SUBDIR += tkirc
