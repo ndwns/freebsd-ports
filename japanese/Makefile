@@ -124,6 +124,7 @@
     SUBDIR += netscape45-navigator
     SUBDIR += newosaka
     SUBDIR += ng
+    SUBDIR += ng-canna
     SUBDIR += nkf
     SUBDIR += nvi-euc-jp
     SUBDIR += nvi-iso-2022-jp
