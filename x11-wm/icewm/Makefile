@@ -34,12 +34,12 @@ ICEOPTION+=	--with-imlib --with-gnome
 
 pre-patch:
 .if defined(TITLE_BOTTOM)
-	${CP} ${FILESDIR}/patch-titlebottom ${PATCHDIR}/patch-ac
+	${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-titlebottom
 .else
-	${CP} ${FILESDIR}/patch-titletop ${PATCHDIR}/patch-ac
+	${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-titletop
 .endif
 .if defined(GNOME)
-	${CP} ${FILESDIR}/patch-gnome ${PATCHDIR}
+	${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-gnome
 .endif
 
 do-configure:
