@@ -1,18 +1,18 @@
 # New ports collection makefile for:	exim
-# Version required:	2.054
+# Version required:	2.10
 # Date created:		23 June 1996
 # Whom:			markm@FreeBSD.ORG
 #
 # $Id$
 #
 
-DISTNAME=	exim-2.054
+DISTNAME=	exim-2.10
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.quite.net/pub/exim/Testing/ \
-		ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/Testing/ \
-		http://www.exim.org/ftp/Testing/ \
-		ftp://ftp.is.co.za/networking/mail/transport/exim/Testing/
-DISTFILES=	exim-testing-2.054.tar.gz exim-texinfo-2.00.tar.gz
+MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/ \
+		ftp://ftp.quite.net/pub/exim/ \
+		http://www.exim.org/ftp/ \
+		ftp://ftp.is.co.za/networking/mail/transport/exim/
+DISTFILES=	exim-2.10.tar.gz exim-texinfo-2.10.tar.gz
 
 MAINTAINER=	axl@iafrica.com
 
@@ -39,7 +39,7 @@ do-configure:
 	${SED} -e "s#XX_BINOWN_XX#${BINOWN}#" \
 	    < ${FILESDIR}/configure.default > ${WRKSRC}/src/configure.default
 	cd ${WRKSRC}/doc && \
-	for i in ../../exim-texinfo-2.00/doc/* ; do \
+	for i in ../../exim-texinfo-2.10/doc/* ; do \
 		ln -sf $$i ; \
 	done
 
