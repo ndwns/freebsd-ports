@@ -14,6 +14,9 @@ MASTER_SITES=	ftp://ftp.juniper.net/pub/gnats/
 
 MAINTAINER=	pst@FreeBSD.org
 
+Y2K=		http://www.cyclic.com/cyclic-pages/gnats.html
+WWW_SITE=	http://www.cyclic.com/cyclic-pages/gnats.html
+
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 GNU_CONFIGURE=	yes

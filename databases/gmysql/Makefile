@@ -13,6 +13,8 @@ MASTER_SITES=	http://www.loth.demon.co.uk/gmysql/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
+WWW_SITE=	http://www.loth.demon.co.uk/gmysql
+
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		mysqlclient.6:${PORTSDIR}/databases/mysql322
 
