@@ -15,6 +15,7 @@
     SUBDIR += chimera
     SUBDIR += diclookup-mule
     SUBDIR += dserver
+    SUBDIR += dvi2dvi
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
     SUBDIR += dvipsk
