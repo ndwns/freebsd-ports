@@ -13,8 +13,7 @@ MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
-LIB_DEPENDS=	tcl75\\.1\\.:${PORTSDIR}/lang/tcl75 \
-		tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
 NO_BUILD=	yes
 
