@@ -16,7 +16,7 @@ MAINTAINER=	matusita@jp.freebsd.org
 BUILD_DEPENDS=	/nonexistent:${SKK_MASTERDIR}:configure
 
 SKK_MASTERDIR=	${.CURDIR}/../../japanese/skk-jisyo
-WRKSRC=		${SKK_MASTERDIR}/work/skk-9.6
+WRKSRC=		${WRKDIRPREFIX}${SKK_MASTERDIR}/work/skk-9.6
 MAKE_ARGS=	SUBDIRS='jisyo-tools'
 
 .include <bsd.port.mk>

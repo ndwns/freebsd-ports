@@ -20,7 +20,7 @@ RUN_DEPENDS=	${PREFIX}/share/skk/${SKKJISYO}:${SKK_MASTERDIR}
 SKKJISYO_SIZE?=	L
 SKKJISYO?=	SKK-JISYO.${SKKJISYO_SIZE}
 SKK_MASTERDIR=	${.CURDIR}/../../japanese/skk-jisyo
-WRKSRC=		${SKK_MASTERDIR}/work/skk-9.6
+WRKSRC=		${WRKDIRPREFIX}${SKK_MASTERDIR}/work/skk-9.6
 
 # we cannot use skk-9.6 on emacs20
 EMACS=		mule
