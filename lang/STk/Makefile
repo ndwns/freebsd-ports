@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
+IS_INTERACTIVE=	yes
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=  	"prefix = ${PREFIX}"
 
