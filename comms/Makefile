@@ -8,6 +8,7 @@
     SUBDIR += lrzsz
     SUBDIR += mgetty+sendfax
     SUBDIR += minicom
+    SUBDIR += qpage
     SUBDIR += rzsz
     SUBDIR += seyon
     SUBDIR += snooper

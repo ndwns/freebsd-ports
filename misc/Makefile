@@ -34,7 +34,6 @@
     SUBDIR += p5-Locale-Codes
     SUBDIR += p5-Search
     SUBDIR += plan
-    SUBDIR += qpage
     SUBDIR += rpm
     SUBDIR += screen
     SUBDIR += splitvt
