@@ -16,7 +16,7 @@ MAINTAINER=	jdp@polstra.com
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	i386-unknown-freebsd
+CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld i386-unknown-freebsd
 MAN1=		cccp.1 g++.1 g77.1 gcc.1
 
 FME=${PREFIX}
