@@ -17,13 +17,13 @@ MAINTAINER=	jmz@FreeBSD.ORG
 CTAN?=		ftp.tex.ac.uk
 FTPGET=		${FILESDIR}/ftpget
 
-
 dvi2xx.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/dviware dvi2xx.tar.gz ${DISTDIR}/$@
 
+pre-fetch:
+	@chmod +x ${FTPGET}
+
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/man/man1
 	@mkdir -p ${PREFIX}/lib/dvi2xx
 	@(cd ${WRKSRC}; install -m 755 -c MakeTeXPK ${PREFIX}/bin)
 	@(cd ${WRKSRC}; install -c -m 644 2up.sty  graybox.sty lj3-filter \
