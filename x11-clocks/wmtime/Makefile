@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmtime-1.0b2
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	http://www.xs4all.nl/~warp/files/
 
 MAINTAINER=	rneswold@mcs.net

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bclock-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	http://dutian.twi.tudelft.nl/~vgeel/bclock/
 
 MAINTAINER=	ports@FreeBSD.ORG

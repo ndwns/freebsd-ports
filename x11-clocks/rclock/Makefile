@@ -9,7 +9,7 @@
 
 PKGNAME=	rclock-2.20
 DISTNAME=	rxvt-2.20
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	${MASTER_SITE_SUNSITE}  \
 		ftp://ftp.nuclecu.unam.mx/linux/local/rxvt/  \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin.X11/

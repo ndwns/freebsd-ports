@@ -66,7 +66,6 @@
     SUBDIR += xless
     SUBDIR += xpns
     SUBDIR += xtar
-    SUBDIR += xtimer
     SUBDIR += xquote
     SUBDIR += ytree
 

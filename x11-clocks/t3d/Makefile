@@ -8,7 +8,7 @@
 
 DISTNAME= 	t3d
 PKGNAME=	t3d-1.1
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	http://www.jwdt.com/~paysan/
 EXTRACT_SUFX=	.shar.gz
 

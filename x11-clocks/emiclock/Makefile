@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	emiclock-1.0.4
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	ftp://ftp.plaza.hitachi-sk.co.jp/pub/EmiClock/X11/
 
 MAINTAINER=	nobu@psrc.isac.co.jp

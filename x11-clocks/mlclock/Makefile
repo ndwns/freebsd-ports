@@ -8,7 +8,7 @@
 
 DISTNAME=	mlclock
 PKGNAME=	mlclock-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-clock
 MASTER_SITES=	http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
