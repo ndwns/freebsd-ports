@@ -12,6 +12,9 @@ MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/clients/pmf/
 
 WRKSRC=		${WRKDIR}/pmfdir/src
 
+
+BROKEN_ELF=	cc: c_packages/libc_packs.a: No such file or directory
+
 pre-install:
 	@${MKDIR} /usr/local/lib/pmf
 	@find ${WRKSRC}/../system_dir -name '*.orig' -exec rm {} \;
