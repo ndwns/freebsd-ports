@@ -30,6 +30,7 @@
     SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += squid11
+    SUBDIR += w3
     SUBDIR += w3-msql
     SUBDIR += w3c_httpd
     SUBDIR += webcopy
