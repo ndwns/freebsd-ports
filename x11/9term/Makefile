@@ -8,7 +8,7 @@
 
 DISTNAME=       9term.1.6.3
 PKGNAME=	9term-1.6.3
-CATEGORIES=	plan9
+CATEGORIES=	plan9 x11
 MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	9wm-1.1
-CATEGORIES=	plan9
+CATEGORIES=	plan9 x11-wm
 MASTER_SITES=	ftp://ftp.mathcs.emory.edu/pub/arnold/
 EXTRACT_SUFX=	.shar.gz
 
