@@ -17,7 +17,7 @@ MAINTAINER=	ports@FreeBSD.org
 MAN1= 		pine.1 pico.1 pilot.1
 
 post-install:
-	install -d -o ${SHAREOWN} -g ${SHAREGRP} -m 755 \
+	${INSTALL} -d -o ${SHAREOWN} -g ${SHAREGRP} -m 755 \
 		${PREFIX}/share/doc/pine
 	cd ${WRKSRC} && \
 		${INSTALL_DATA} doc/tech-notes.txt ${PREFIX}/share/doc/pine
