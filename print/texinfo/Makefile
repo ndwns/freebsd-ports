@@ -38,12 +38,10 @@ pre-configure:
 	@cp ${DISTDIR}/texinfo.tex ${DISTDIR}/lcircle10.tfm ${WRKDIR}
 	@chmod +w ${WRKDIR}/*
 
-build: configure
-	@echo "===>  Building for ${DISTNAME}"
+do-build: 
 	@(cd ${WRKDIR}; initex '&tex texinfo @dump')
 
-install: build
-	@echo "===>  Installing for ${DISTNAME}"
+do-install: 
 	@/usr/bin/install -c -m 644 ${WRKDIR}/texinfo.fmt \
 				${PREFIX}/lib/texmf/ini/
 	@if [ ! -f ${PREFIX}/lib/texmf/fonts/tfm/lcircle10.tfm ]; then \

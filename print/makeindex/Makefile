@@ -14,13 +14,11 @@ DISTFILES=	makeindex-3.0.8.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
-build: configure pre-build
-	@echo "===>  Building for ${DISTNAME}"
+do-build: 
 	@(cd ${WRKSRC}/src-3.0/regexp; make)
 	@(cd ${WRKSRC}/src-3.0; make)
 
-install: build
-	@echo "===>  Installing for ${DISTNAME}"
+do-install: 
 	@mkdir -p ${PREFIX}/lib/texmf/makeindx
 	@mkdir -p ${PREFIX}/bin
 	@mkdir -p ${PREFIX}/man/man1

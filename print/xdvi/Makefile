@@ -20,8 +20,7 @@ IS_INTERACTIVE=	yes
 
 XMKMF=		xmkmf
 
-.if !defined(BATCH)
-install: build
+do-install: 
 	@echo "===>  Installing for ${DISTNAME}"
 	@mkdir -p ${PREFIX}/man/man1
 	@mkdir -p ${PREFIX}/bin
@@ -31,6 +30,5 @@ install: build
 	@(cd ${WRKSRC}; ${GMAKE} -f Makefile install BINDIR=${PREFIX}/bin)
 	@(cd ${WRKSRC}; install -c -m 755 -o bin MakeTeXPK ${PREFIX}/bin)
 	@if -f ${SCRIPTDIR}/install.tmp; then sh ${SCRIPTDIR}/install.tmp; fi
-.endif
 
 .include <bsd.port.mk>

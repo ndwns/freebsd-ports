@@ -16,13 +16,10 @@ MAINTAINER=	jmz@FreeBSD.org
 
 EXEC_DEPENDS=	tex:${PORTSDIR}/print/tex
 
-WRKDIR=		${.CURDIR}/work
-
 FTPGET=		${FILESDIR}/ftpget
-BUILD_COOKIE=	${WRKDIR}/.build_done
 
 #other equivalent sites: ftp.shsu.edu ftp.dante.de
-CTAN=		ftp.tex.ac.uk
+CTAN?=		ftp.tex.ac.uk
 
 
 latex_base.tar.gz:
@@ -34,21 +31,15 @@ latex_tfm.tar.gz:
 latex_tools.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros latex/packages/tools.tar.gz ${DISTDIR}/$@
 
-
-build: configure ${BUILD_COOKIE}
-
-${BUILD_COOKIE}:
-	@echo "===>  Building for ${DISTNAME}"
+do-build:
 	@(cd ${WRKSRC}/base; yes | initex unpack.ins)
 	@(cd ${WRKSRC}/base; TEXFONTS=${WRKSRC}/tfm:; export TEXFONTS; \
 		yes | initex latex.ltx)
 	@(cd ${WRKSRC}/packages/tools; TEXFORMATS=${WRKSRC}/base:; \
 		TEXINPUTS=${WRKSRC}/base: export TEXFORMATS TEXINPUTS;\
 		 ln -sf /usr/local/bin/virtex latex; yes | ./latex tools.ins)
-	@touch -f ${BUILD_COOKIE}
 
-install: build
-	@echo "===>  Installing for ${DISTNAME}"
+do-install: 
 	@(/usr/bin/install -c -m 644 ${WRKSRC}/base/latex.fmt \
 				${PREFIX}/lib/texmf/ini/)
 	@(cd ${WRKSRC}/tfm; install -c -m 644 *.tfm ${PREFIX}/lib/texmf/fonts/tfm)
@@ -67,7 +58,6 @@ install: build
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/lib/texmf/documentation; fi; done)
 	@(cd ${WRKSRC}/packages/tools; for f in *.dtx; do \
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/lib/texmf/documentation; fi; done)
-	@touch ${WRKDIR}/.install_done
 
 .include "Makefile.inc"
 

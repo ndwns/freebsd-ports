@@ -13,8 +13,9 @@ MASTER_SITES=	ftp://sgi.com/sgi/fax/source/
 EXTRACT_SUFX=   -tar.Z
 
 pre-patch:
-	rm -rf ${WRKSRC}/RCS
+	@rm -rf ${WRKSRC}/RCS
 
-build: configure
+do-build:
+	@true
 
 .include <bsd.port.mk>
