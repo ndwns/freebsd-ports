@@ -15,14 +15,11 @@ MAINTAINER=	ports@freebsd.org
 LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
 
 USE_IMAKE=	yes
-USE_X11=	yes
 
 post-install:
-
 .if !defined(NOPORTDOCS)
 	@(cd ${WRKSRC}; ${MAKE} install.doc)
 .endif
-
 	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
