@@ -16,6 +16,7 @@ BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/PV.pm:${PORTSDIR}/devel/p5-PV
 
 USE_PERL5=	YES
+MAKE_ENV+=	PERL=${PERL}
 
 ALL_TARGET=	rateup substitute
 
