@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	mapedit2.24
+PKGNAME=	mapedit-2.24
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.boutell.com/pub/boutell/mapedit/
 EXTRACT_SUFX=	.freebsd.tar.Z
@@ -15,7 +16,6 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 USE_X11=		yes
 NO_BUILD=		yes
-NO_INSTALL_MANPAGES=	yes
 DOCDIR=		${PREFIX}/lib/X11/mapedit
 
 pre-install:
