@@ -14,8 +14,10 @@ MAINTAINER=	deischen@iworks.InterWorks.org
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
-IS_INTERACTIVE=	yes	# asks a lot of questions
 
 MAN1=		cddbcmd.1 wm2xmcd.1
+
+post-install:
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
