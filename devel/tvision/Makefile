@@ -1,5 +1,5 @@
 # New ports collection makefile for:	tvision
-# Version required:			0.3
+# Version required:			0.4
 # Date created:				16 February 1997
 # Whom:					Sandro Sigala
 #
