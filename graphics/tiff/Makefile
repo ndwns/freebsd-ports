@@ -21,7 +21,7 @@ LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-ZIP --with-JPEG --with-DIR_BIN=${PREFIX}/bin \
 		--with-DIR_LIB=${PREFIX}/lib \
-		--with-DIR_INC=${PREFIX}/include/tiff34 \
+		--with-DIR_INC=${PREFIX}/include \
 		--with-CC="${CC}" --with-GCOPTS="${CFLAGS}" \
 		--with-DIRS_LIBINC=${PREFIX}/include \
 		--with-DIR_GZLIB=/usr/lib \

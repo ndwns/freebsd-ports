@@ -20,14 +20,14 @@ MAINTAINER=	tg@FreeBSD.ORG
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80 \
 		Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		tiff34.1:${PORTSDIR}/graphics/tiff34
+		tiff.1:${PORTSDIR}/graphics/tiff34
 
 FETCH_BEFORE_ARGS=	-b
 PATCH_DIST_ARGS=	-p1 -d ${WRKDIR}/tk8.0 -E --quiet
 WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-shared --enable-xpm --enable-step --enable-dnd \
-		 --enable-tiff --with-optimize="${CFLAGS} -I${PREFIX}/include -I${PREFIX}/include/tiff34"
+		 --enable-tiff --with-optimize="${CFLAGS} -I${PREFIX}/include"
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 
 post-install:

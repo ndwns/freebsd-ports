@@ -21,14 +21,14 @@ BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash2 \
 # no dependency on ghostscript because we don't know which
 # version the user prefers
 RUN_DEPENDS=	bash:${PORTSDIR}/shells/bash2
-LIB_DEPENDS=	tiff34.1:${PORTSDIR}/graphics/tiff34 \
+LIB_DEPENDS=	tiff.1:${PORTSDIR}/graphics/tiff34 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--with-INSTALL="" \
 		--with-MAKE=gmake --with-CC=/usr/bin/cc \
-		--with-LIBTIFF="-L${PREFIX}/lib -ltiff34 -ljpeg" \
-		--with-TIFFINC="${PREFIX}/include/tiff34"
+		--with-LIBTIFF="-L${PREFIX}/lib -ltiff -ljpeg" \
+		--with-TIFFINC="${PREFIX}/include"
 HAS_CONFIGURE=	yes
 MAN1=	hylafax.1 faxalter.1 faxcover.1 faxmail.1 faxrm.1 faxstat.1 sendfax.1 \
 	sendpage.1 sgi2fax.1 textfmt.1
