@@ -20,6 +20,6 @@ pre-install:
 	@mkdir -p ${PREFIX}/bin ${PREFIX}/lib ${PREFIX}/include
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
