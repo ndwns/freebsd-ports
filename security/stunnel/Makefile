@@ -19,7 +19,11 @@ BUILD_DEPENDS=	openssl:${PORTSDIR}/security/openssl \
 		${PREFIX}/lib/libssl.a:${PORTSDIR}/security/openssl \
 		${PREFIX}/lib/libcrypto.a:${PORTSDIR}/security/openssl
 RUN_DEPENDS=	openssl:${PORTSDIR}/security/openssl
+
+.if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 LIB_DEPENDS=	rsaref.2:${PORTSDIR}/security/rsaref
+MAKE_ENV+=	EXTRA_SSL_LIBS="-lRSAglue -lrsaref"
+.endif
 
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/stunnel
