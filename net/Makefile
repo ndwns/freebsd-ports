@@ -1,6 +1,6 @@
 # $Id$
 #
-SUBDIR= chimera dgd gn irc pcnfsd pmf sup tcpblast wais yale-tftpd \
-	archie ircII pidentd wu-ftpd
+SUBDIR= archie cern_httpd chimera dgd gn irc ircII pcnfsd pidentd \
+	pmf sup tcpblast wais wu-ftpd yale-tftpd
 
 .include <bsd.port.subdir.mk>

@@ -1,6 +1,6 @@
-
+#
 # $Id$
 #
-SUBDIR=	mh pine procmail smail metamail
+SUBDIR=	elm metamail mh pine popper procmail smail
 
 .include <bsd.port.subdir.mk>
