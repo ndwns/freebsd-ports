@@ -6,13 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       xpilot-3.3.1
-CATEGORIES=	games
+DISTNAME=       xpilot-3.5.1
+CATEGORIES+=	games
 MASTER_SITES=	ftp://ftp.cs.uit.no/pub/games/xpilot/
 
 USE_IMAKE=	yes
-NO_INSTALL_MANPAGES= yes
-WRKSRC=		${WRKDIR}/xpilot-3.3.1/src
-MAN6=		xpilot.6 xpilots.6
 
 .include <bsd.port.mk>
