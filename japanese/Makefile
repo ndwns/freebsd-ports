@@ -42,13 +42,11 @@
     SUBDIR += gawk
     SUBDIR += gd
     SUBDIR += gicq
-    SUBDIR += gimp
     SUBDIR += gn-gnspool
     SUBDIR += gn-mnews
     SUBDIR += gp
     SUBDIR += grep
     SUBDIR += groff
-    SUBDIR += gtk
     SUBDIR += gtkicq
     SUBDIR += gxditview
     SUBDIR += handbook
