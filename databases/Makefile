@@ -12,6 +12,7 @@
     SUBDIR += msql
     SUBDIR += mysql321
     SUBDIR += mysql322
+    SUBDIR += mysql322-client
     SUBDIR += mysqltutor
     SUBDIR += p5-DBD-Pg
     SUBDIR += p5-DBI
