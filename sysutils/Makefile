@@ -9,6 +9,7 @@
     SUBDIR += pib
     SUBDIR += rtty
     SUBDIR += socket
+    SUBDIR += stat
     SUBDIR += su2
     SUBDIR += top
     SUBDIR += tua
