@@ -18,6 +18,8 @@
     SUBDIR += sxpc
     SUBDIR += tk
     SUBDIR += tk4
+    SUBDIR += tk41
+    SUBDIR += tkxpm
     SUBDIR += tvtwm
     SUBDIR += viewfax
     SUBDIR += x3270
