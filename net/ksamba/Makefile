@@ -13,13 +13,12 @@ MASTER_SITE_SUBDIR= /unstable/apps/network
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11-toolkits/qt \
-		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
+LIB_DEPENDS=	kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		kfile\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
 
+USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \

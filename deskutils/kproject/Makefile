@@ -14,12 +14,11 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt \
-		libtool:${PORTSDIR}/devel/libtool
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11-toolkits/qt \
-		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
+BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
+LIB_DEPENDS=	kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
 
+USE_QT=		yes
 WRKSRC=		${WRKDIR}/kproject
 
 .include <bsd.port.mk>

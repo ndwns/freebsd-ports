@@ -14,14 +14,13 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	scrappy@freebsd.org
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11-toolkits/qt \
-		kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
+LIB_DEPENDS=	kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
 
 BROKEN=		upgrade
 
+USE_QT=		yes
 HAS_CONFIGURE=	yes
 
 .include <bsd.port.mk>

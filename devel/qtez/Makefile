@@ -15,9 +15,7 @@ EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11-toolkits/qt
-
+USE_QT=		yes
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/qtez

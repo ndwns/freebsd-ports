@@ -13,9 +13,7 @@ MASTER_SITE_SUBDIR=	games/strategy
 
 MAINTAINER=	plm@xs4all.nl
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11-toolkits/qt
-
+USE_QT=		yes
 WRKSRC=		${WRKDIR}/blackjack
 
 MAN1=		blackjack.1

@@ -12,12 +12,10 @@ MASTER_SITES=	http://pages.infinit.net/fairoff/licq/
 
 MAINTAINER=	brianfeldman@hotmail.com
 
-LIB_DEPENDS=	qt\\.1\\.33:${PORTSDIR}/x11-toolkits/qt133
-
+USE_QT=		yes
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 USE_GMAKE=	yes
-HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-qt-includes=${X11BASE}/include/X11/qt --with-qt-libs=${X11BASE}/lib
 

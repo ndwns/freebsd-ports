@@ -12,9 +12,9 @@ MASTER_SITES=	http://www2.msstate.edu/~dmi1/xgfe/download/
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	qt\\.1\\.3:${PORTSDIR}/x11-toolkits/qt
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
+USE_QT=		yes
 USE_X_PREFIX=	yes
 
 MAKE_ENV=	X11BASE=$(X11BASE) PREFIX=$(PREFIX)

@@ -13,9 +13,7 @@ MASTER_SITES=	ftp://risq.belcaf.minsk.by/pub/genie/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11-toolkits/qt
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-
+USE_QT=		yes
 USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 

@@ -12,8 +12,7 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	Nakai@technologist.com
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
-LIB_DEPENDS=	gtk\\.1\\.0:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
 
 WRKSRC=		${WRKDIR}/mico
 
@@ -21,6 +20,7 @@ CONFIGURE_ARGS=	--with-qt=${X11BASE}/include/X11/qt \
 		--with-gtk=${X11BASE}/include/gtk --with-tcl=/usr/include \
 		--disable-optimize
 
+USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
