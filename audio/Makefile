@@ -4,6 +4,7 @@
     SUBDIR += 8hz-mp3
     SUBDIR += amp
     SUBDIR += ascd
+    SUBDIR += bladeenc
     SUBDIR += cam
     SUBDIR += cdd
     SUBDIR += cddbd
