@@ -16,10 +16,9 @@ prefix=%%PREFIX%%
 #
 # DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
-jabberd_chdir="/var/jabberd/pid"
-jabberd_enable="NO"
-jabberd_flags=""
-jabberd_user="jabber"
+jabberd_chdir=${jabberd_chdir-"/var/jabberd/pid"}
+jabberd_enable=${jabberd_enable-"NO"}
+jabberd_user=${jabberd_user-"jabber"}
 
 . %%RC_SUBR%%
 
@@ -34,7 +33,7 @@ load_rc_config $name
 pidfile="${jabberd_chdir}/router.pid"
 
 case "$1" in
-	stop)
+	stop|faststop|onestop)
 		echo "Stopping Jabber2"
 		killall -u ${jabberd_user} jabberd c2s resolver router s2s sm
 		for file in c2s resolver router s2s sm; do
