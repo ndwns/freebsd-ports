@@ -48,8 +48,8 @@
 #			  	  actually extract.
 # PATCHDIR 		- A directory containing any required patches
 #				  (default: ${.CURDIR}/patches)
-# SCRIPTDIR 	- A directory containing any auxilliary scripts
-#				  (default: ${.CURDIR}/scripes)
+# SCRIPTDIR 	- A directory containing any auxiliary scripts
+#				  (default: ${.CURDIR}/scripts)
 # FILESDIR 		- A directory containing any miscellaneous additional files.
 #				  (default: ${.CURDIR}/files)
 # PKGDIR 		- A direction containing any package creation files.
