@@ -2,6 +2,7 @@
 #
 
     SUBDIR += elm
+    SUBDIR += exim
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
