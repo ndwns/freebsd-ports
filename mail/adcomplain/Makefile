@@ -24,7 +24,7 @@ NO_BUILD=       YES
 post-patch:
 	cd ${WRKSRC}; \
 	cp adcomplain.pl adcomplain.pl.old; \
-	sed 's=%PERL5%=${PERL5}=' < adcomplain.pl.old > adcomplain.pl
+	sed 's=%PERL5%=${PERL}=' < adcomplain.pl.old > adcomplain.pl
 
 do-install:
 	cd ${WRKSRC}; \

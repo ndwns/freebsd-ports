@@ -22,7 +22,7 @@ CONFIGURE_ENV=  webmagick_cv_rootpath=${PREFIX}/www/data \
 		webmagick_cv_prefixpath="" \
 		webmagick_cv_htimage="" \
 		webmagick_cv_maptype=ncsa \
-		PERL=${PERL5}
+		PERL=${PERL}
 
 post-install:
 		cd ${WRKSRC}; \
