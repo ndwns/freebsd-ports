@@ -1,15 +1,16 @@
 # New ports collection makefile for:	xosview
-# Version required:	1.6.2.a
+# Version required:	1.7.0
 # Date created:		19 Nov 1997
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	xosview-1.6.2.a
+DISTNAME=	xosview-1.7.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://lore.ece.utexas.edu/~bgrayson/xosview/ \
-		http://lambic.physics.montana.edu/xosview/
+		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/status/xstatus
 
 MAINTAINER=	handy@physics.montana.edu
 
@@ -18,6 +19,6 @@ USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 MAN1=		xosview.1
 
-# BROKEN=	DiskMeter broken for 3.0+
+# BROKEN=	SwapMeter broken for 4.0+
 
 .include <bsd.port.mk>
