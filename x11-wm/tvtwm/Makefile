@@ -10,5 +10,6 @@ DISTNAME=	tvtwm
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/pub/R6untarred/contrib/programs/
 EXTRACT_SUFX=	.tar.gz
+MAINTAINER=	gpalmer@FreeBSD.ORG
 
 .include <bsd.port.mk>
