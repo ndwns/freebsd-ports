@@ -9,7 +9,6 @@
 DISTNAME=       uudeview-0.5.13
 CATEGORIES=	converters
 MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
-		ftp://ftp.uni-frankfurt.de/pub/dist/frank/  \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/
 
 MAINTAINER=	hoek@FreeBSD.ORG
@@ -17,8 +16,8 @@ MAINTAINER=	hoek@FreeBSD.ORG
 LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 
 GNU_CONFIGURE=	Yes
-CONFIGURE_ARGS=        --enable-inews=${PREFIX}/news/lib/inews \
-			--disable-tcl
+CONFIGURE_ARGS=	--enable-inews=${PREFIX}/news/lib/inews \
+		--disable-tcl
 FETCH_BEFORE_ARGS=	-t
 
 MAN1=		uudeview.1 uuenview.1
