@@ -42,6 +42,7 @@
     SUBDIR += xemeraldia
     SUBDIR += xevil
     SUBDIR += xeyesplus
+    SUBDIR += xfrisk
     SUBDIR += xgalaga
     SUBDIR += xgammon
     SUBDIR += xinvaders
