@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.mandrake.net/pub/imlib/ \
 		http://www.rasterman.com/ftp/
 
-MAINTAINER=	vanilla@MinJe.com.TW
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	png\\.0\\.:${PORTSDIR}/graphics/png \
 		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
