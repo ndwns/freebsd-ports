@@ -16,11 +16,10 @@ MAINTAINER=	asami@FreeBSD.ORG
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_GMAKE=	yes
-SHELL=		/bin/sh
 MAN6=		dgn_comp.6 dlb.6 lev_comp.6 nethack.6 recover.6
 
 pre-configure:
-	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
+	@cd ${WRKSRC}/sys/unix; ${SH} setup.sh
 
 post-install:
 	@cd ${WRKSRC}/doc; chmod 644 *.6

@@ -27,7 +27,6 @@ RUN_DEPENDS=	auplay:${PORTSDIR}/audio/nas
 
 EXTRACT_ONLY=	nethack-3.2.2.tar.gz
 USE_GMAKE=	yes
-SHELL=		/bin/sh
 MAN6=		dgn_comp.6 dlb.6 lev_comp.6 nethack.6 recover.6
 
 pre-configure:
@@ -39,7 +38,7 @@ pre-configure:
 	@echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 	@cd ${WRKSRC}/win; tar xvzf ${DISTDIR}/${QT_PATCH}
 	@cd ${WRKSRC}; patch < win/Qt/nhqt.patch
-	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
+	@cd ${WRKSRC}/sys/unix; ${SH} setup.sh
 	@cd ${WRKSRC}/src; patch < ${FILESDIR}/src-Makefile.diff
 	@cd ${WRKSRC}/src; patch < ${FILESDIR}/src-sounds.c.diff
 	@cd ${WRKSRC}; patch < ${FILESDIR}/include-unixconf.h.diff
