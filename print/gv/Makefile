@@ -1,3 +1,4 @@
+# ex:ts=8
 # New ports collection makefile for:	gv
 # Version required:	gv-3.5.8
 # Date created:		16 Apr 1996
@@ -8,9 +9,11 @@
 
 DISTNAME=	gv-3.5.8
 CATEGORIES=	print
-MASTER_SITES=	ftp://thep.physik.uni-mainz.de/pub/gv/unix/
+MASTER_SITES=	ftp://thep.physik.uni-mainz.de/pub/gv/unix/  \
+		${MASTER_SITE_TEX_CTAN}
+MASTER_SITE_SUBDIR=	support/ghostscript/gnu/gv/unix
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	obrien@freebsd.org
 
 LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
