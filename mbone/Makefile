@@ -1,10 +1,10 @@
 # $Id$
 #
 
-    BROKEN += imm
+    SUBDIR += imm
     SUBDIR += mbone_vcr
     SUBDIR += nte
-    BROKEN += nv
+    SUBDIR += nv
     SUBDIR += rtpmon
     SUBDIR += sdr
     SUBDIR += vat

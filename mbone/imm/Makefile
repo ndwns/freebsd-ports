@@ -13,6 +13,7 @@ DISTFILES=	imm.src.tar.Z
 
 LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 
+BROKEN=		yes	# depends on tk-3.6
 WRKSRC=		${WRKDIR}/src
 
 .include <bsd.port.mk>
