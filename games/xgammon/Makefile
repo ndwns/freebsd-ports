@@ -1,5 +1,5 @@
 # New ports collection makefile for:	xgammon
-# Version required:	0.98-7
+# Version required:	0.98-11
 # Date created:		02 January 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
@@ -8,8 +8,8 @@
 
 DISTNAME=	xgammon-0.98
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.redhat.com/pub/redhat/current/SRPMS/
-EXTRACT_SUFX=	-10.src.rpm
+MASTER_SITES=	ftp://ftp.redhat.com/pub/redhat/current/SRPMS/SRPMS/
+EXTRACT_SUFX=	-11.src.rpm
 
 PATCH_DIST_STRIP=	-p1
 
