@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.eos.ncsu.edu/pub/bsvc/stella/1.1/ \
 
 MAINTAINER=	nectar@FreeBSD.ORG
 
+USE_XLIB=	yes
+
 PORTTOP=	${WRKDIR}/${PKGNAME}
 WRKSRC=		${PORTTOP}/src/build
 MAKEFILE=	makefile
