@@ -8,7 +8,7 @@
 
 DISTNAME=	cyrus-imapd-v1.5.2
 PKGNAME=	cyrus-1.5.2
-CATEGORIES=	mail
+CATEGORIES=	mail tcl80
 MASTER_SITES=	ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/
 
 MAINTAINER=	jfitz@FreeBSD.ORG

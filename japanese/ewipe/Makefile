@@ -16,7 +16,7 @@ PKGNAME=	ja-ewipe-0.7.0
 
 .include <${.CURDIR}/../../misc/ewipe/Makefile>
 
-CATEGORIES=	japanese misc
+CATEGORIES=	japanese misc tk42
 
 MAINTAINER=	itojun@itojun.org
 

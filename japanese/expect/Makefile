@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	ja-expect-5.25
-CATEGORIES=	japanese lang
+CATEGORIES=	japanese lang tk42
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 

@@ -7,7 +7,7 @@
 
 DISTNAME=	FrodoV4_1a.Src
 PKGNAME=	frodo-4.1
-CATEGORIES=	emulators
+CATEGORIES=	emulators tk80
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/micro/commodore/crossplatform/emulators/unix/
 
 MAINTAINER=	dirk.meyer@dinoex.sub.org
