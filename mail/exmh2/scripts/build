@@ -67,7 +67,7 @@ sed <${FILESDIR}/${CONFIGFILE} \
 	-e "s+!!PLAY!!+${PLAY}+g" \
 	-e "s+!!VERSION!!+${VERSION}+g" \
 	-e "s+!!DATE!!+${DATE}+g" \
- | sed -e 's/$/\\/' >> ${SEDFILE}
+ | sed -e 's/$/\\/' -e '$ s/.$//' >> ${SEDFILE}
 
 for i in exmh-async exmh-bg exmh ftp.expect
 do
