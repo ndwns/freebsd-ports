@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.md.chalmers.se/pub/tkrat/ \
 
 MAINTAINER=	appleseed@his.com
 
+BROKEN_ELF=	depends on imap-uw
+
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80 \
