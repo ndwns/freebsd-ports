@@ -56,7 +56,6 @@
     SUBDIR += xcoloredit
     SUBDIR += xcolors
     SUBDIR += xdtm
-    SUBDIR += xfce
     SUBDIR += xfedor
     SUBDIR += xfishtank
     SUBDIR += xgrab

@@ -23,5 +23,6 @@
     SUBDIR += windowmaker
     SUBDIR += wm2
     SUBDIR += wmx
+    SUBDIR += xfce
 
 .include <bsd.port.subdir.mk>
