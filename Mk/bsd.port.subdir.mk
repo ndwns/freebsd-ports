@@ -22,16 +22,17 @@ _SUBDIRUSE: .USE
 				${ECHO_MSG} "===> ${DIRPRFX}$${entry} skipped"; \
 			fi; \
 		done; \
+		if test -d ${.CURDIR}/$${entry}.${MACHINE}; then \
+			edir=$${entry}.${MACHINE}; \
+		elif test -d ${.CURDIR}/$${entry}; then \
+			edir=$${entry}; \
+		else \
+			OK="false"; \
+			${ECHO_MSG} "===> ${DIRPRFX}$${entry} non-existent"; \
+		fi; \
 		if [ "$$OK" = "" ]; then \
-			if test -d ${.CURDIR}/$${entry}.${MACHINE}; then \
-				${ECHO_MSG} "===> ${DIRPRFX}$${entry}.${MACHINE}"; \
-				edir=$${entry}.${MACHINE}; \
-				cd ${.CURDIR}/$${edir}; \
-			else \
-				${ECHO_MSG} "===> ${DIRPRFX}$$entry"; \
-				edir=$${entry}; \
-				cd ${.CURDIR}/$${edir}; \
-			fi; \
+			${ECHO_MSG} "===> ${DIRPRFX}$${edir}"; \
+			cd ${.CURDIR}/$${edir}; \
 			${MAKE} ${.TARGET:realinstall=install} \
 				DIRPRFX=${DIRPRFX}$$edir/; \
 		fi; \
