@@ -54,5 +54,6 @@
     SUBDIR += xdvik
     SUBDIR += xmbibtex
     SUBDIR += xtem
+    SUBDIR += yatex
 
 .include <bsd.port.subdir.mk>
