@@ -11,6 +11,8 @@ CATEGORIES+=	x11
 MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes

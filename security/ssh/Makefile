@@ -11,6 +11,8 @@ CATEGORIES=	security networking
 MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/security/ \
 		ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 DISTFILES=	${DISTNAME}.tar.gz rsaref2.tar.gz
 MASTER_SITES=	\
