@@ -14,7 +14,7 @@ CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.sgi.com/graphics/tiff/
 EXTRACT_SUFX=	-tar.gz
 
-MAINTAINER=	itojun@itojun.org
+MAINTAINER=	ports@freebsd.org
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg
 
