@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-SNMP_Session
-# Version required:			0.70
+# Version required:			0.72
 # Date created:				13 June 1999
 # Whom:					Stephen J. Roznowski <sjr@home.net>
 #
 # $Id$
 #
 
-DISTNAME=	SNMP_Session-0.70
-PKGNAME=	p5-SNMP_Session-0.70
+DISTNAME=	SNMP_Session-0.72
+PKGNAME=	p5-SNMP_Session-0.72
 CATEGORIES=	net perl5
 MASTER_SITES=	ftp://ftp.switch.ch/software/sources/network/snmp/perl/
 
