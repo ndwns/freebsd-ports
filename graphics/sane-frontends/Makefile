@@ -9,7 +9,8 @@
 
 DISTNAME=       sane-0.73
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.mostang.com/pub/sane/
+MASTER_SITES=	ftp://ftp.mostang.com/pub/sane/ \
+		ftp://ftp.lahn.de/pub/platforms/linux/libs/
 
 MAINTAINER=	gary@hotlava.com
 
