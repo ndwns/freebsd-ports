@@ -35,7 +35,6 @@
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
     SUBDIR += libproplist
-    SUBDIR += libshhcards
     SUBDIR += libslang
     SUBDIR += linux_devel
     SUBDIR += linux_kdump
