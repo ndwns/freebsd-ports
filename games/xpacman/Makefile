@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	joerg@FreeBSD.org
 
-EXEC_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
+BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 NO_WRKSUBDIR=	Does not unpack into subdir.
 EXTRACT_CMD=	unzip
