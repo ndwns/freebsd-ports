@@ -15,13 +15,10 @@ MAINTAINER=	nobu@psrc.isac.co.jp
 
 ALL_TARGET=	goal
 PATCH_STRIP=	-p0 -o fdrc
-INSTALL_TARGET=	install catman
+MANLANG=	ja_JP.EUC
 MAN1=		fd.1
 
 do-configure:
 	cd ${WRKSRC} ; make config
-
-post-install:
-	rm -f /usr/local/man/man1/fd.1.gz /usr/local/man/cat1/fd.1.gz
 
 .include <bsd.port.mk>
