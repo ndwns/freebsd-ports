@@ -13,7 +13,9 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	fujimoto@oscar.elec.waseda.ac.jp
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	PERL=/usr/bin/perl
+CONFIGURE_ENV=	PERL=${PERL5}
+USE_PERL5=	yes
+
 STRIP=		 # none
 
 post-install:
