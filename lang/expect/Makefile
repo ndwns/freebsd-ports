@@ -11,7 +11,6 @@ CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
 
-DEPENDS=        ${PORTSDIR}/lang/tcl ${PORTSDIR}/x11/tk
 LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
 		tk\\.3\\.:${PORTSDIR}/x11/tk
 
@@ -20,5 +19,14 @@ test:
 
 HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
+
+post-extract:
+	(cd ${PORTSDIR}/lang/tcl && make extract)
+	ln -s ${PORTSDIR}/lang/tcl/work/tcl* ${WRKDIR}
+	(cd ${PORTSDIR}/x11/tk && make extract)
+	ln -s ${PORTSDIR}/x11/tk/work/tk* ${WRKDIR}
+
+pre-install:
+	test -d ${PREFIX}/lib/expect || mkdir -p ${PREFIX}/lib/expect
 
 .include <bsd.port.mk>
