@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=		hexedit-1.0.0
+DISTNAME=		hexedit-1.1.0
 CATEGORIES=		editors
 MASTER_SITES=		http://www.chez.com/prigaux/ \
 			${MASTER_SITE_SUNSITE}
