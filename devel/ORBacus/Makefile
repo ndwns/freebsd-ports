@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.ooc.com/pub/OmniBroker/1.0/
 
 MAINTAINER=	ejc@bazzle.com
 
+BROKEN=		awaiting upgrade to ORBacus -- see PR ports/7034
+
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	CXX=c++ CXXFLAGS="--no-implicit-templates -fhandle-exceptions -Wall"
 MAN1=		idl.1
