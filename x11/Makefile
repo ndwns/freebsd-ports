@@ -32,7 +32,6 @@
    SUBDIR += xkeycaps
    SUBDIR += xloadimage
    SUBDIR += xlockmore
-   SUBDIR += xperfmon
    SUBDIR += xphoon
    SUBDIR += xscreensaver
    SUBDIR += xsnow
