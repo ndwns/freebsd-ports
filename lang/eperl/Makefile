@@ -10,7 +10,7 @@ DISTNAME=	eperl-2.2.8
 CATEGORIES=	lang www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN} \
 		http://www.engelschall.com/sw/eperl/distrib/ \
-		ftp://ftp.engelschall.com/sw/
+		ftp://ftp.engelschall.com/sw/eperl/
 MASTER_SITE_SUBDIR=Parse
 
 MAINTAINER=	rse@engelschall.com
