@@ -20,6 +20,7 @@
     SUBDIR += dgd-net
     SUBDIR += dict
     SUBDIR += dip
+    SUBDIR += dnswalk
     SUBDIR += echoping
     SUBDIR += fping
     SUBDIR += freewais-sf
