@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	mpg123-0.59o
+DISTNAME=	mpg123-0.59q
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
-		http://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
-		http://www-ti.informatik.uni-tuebingen.de/~hippm/mpg123/
+MASTER_SITES=	http://www-ti.informatik.uni-tuebingen.de/~hippm/mpg123/ \
+		ftp://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
+		http://ftp.tu-clausthal.de/pub/unix/audio/mpg123/
 
 MAINTAINER=	jkoshy@freebsd.org
 
@@ -18,10 +18,6 @@ MAN1=		mpg123.1
 
 .include <bsd.port.pre.mk>
 
-.if ${PORTOBJFORMAT} == "elf"
-ALL_TARGET=	freebsd-elf
-.else
 ALL_TARGET=	freebsd
-.endif
 
 .include <bsd.port.post.mk>
