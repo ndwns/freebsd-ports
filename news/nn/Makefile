@@ -7,11 +7,14 @@
 #
 
 DISTNAME=	nn-6.5.3
-EXTRACT_SUFX=	.tar.Z
 CATEGORIES=	news
 #MASTER_SITES=	ftp://ftp.isca.uiowa.edu/unix/nn/
 MASTER_SITES=	ftp://ftp.visi.com/users/mtpins/
+EXTRACT_SUFX=	.tar.Z
+
 MAINTAINER=     ports@FreeBSD.ORG
+
+BROKEN=		checksum
 
 MAN1=		nn.1 nncheck.1 nngoback.1 nngrab.1  nngrep.1 nnpost.1 \
 		nntidy.1 nnview.1 nnacct.1m nnadmin.1m nnstats.1m nnusage.1m
