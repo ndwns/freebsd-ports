@@ -7,12 +7,12 @@
 #
 
 PORTNAME=	gtk-sharp
-PORTVERSION=	1.0.6
-PORTREVISION=	1
+PORTVERSION=	1.0.8
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	http://www.go-mono.com/archive/${PORTVERSION}/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE}
+MASTER_SITE_SUBDIR= ${PORTNAME}
 
-MAINTAINER=	coop9211@uidaho.edu
+MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	GTK+ and GNOME interfaces for the .NET runtime
 
 BUILD_DEPENDS=	mono:${PORTSDIR}/lang/mono
@@ -31,7 +31,5 @@ MAKE_ENV=MONO_SHARED_DIR=${WRKDIR}
 post-patch:
 	@${FIND} ${WRKSRC} -name '*.pl' | ${XARGS} ${REINPLACE_CMD} -e \
 		's|^#!/usr/bin/perl|#!${PERL}|'
-	@${REINPLACE_CMD} -e 's|libgtkhtml-3.0|libgtkhtml-3.6|g' \
-		${WRKSRC}/configure
 
 .include <bsd.port.mk>
