@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-Apache
-# Version required:			0.98
+# Version required:			1.00b2
 # Date created:				April 26th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 #   $Id$
 #
 
-DISTNAME=	mod_perl-0.98
-PKGNAME=	p5-Apache-0.98
+DISTNAME=	mod_perl-1.00b2
+PKGNAME=	p5-Apache-1.00b2
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Apache
