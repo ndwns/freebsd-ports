@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	emacs-19.30
+DISTNAME=	emacs-19.31
 CATEGORIES+=	editors
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
@@ -19,7 +19,7 @@ post-install:
 	gzip -9nf ${PREFIX}/man/man1/emacs.1
 	gzip -9nf ${PREFIX}/man/man1/etags.1
 	gzip -9nf ${PREFIX}/man/man1/ctags.1
-	for file in emacs-19.30 emacsclient etags ctags b2m; do \
+	for file in emacs-19.31 emacsclient etags ctags b2m; do \
 	  strip ${PREFIX}/bin/$$file; \
 	done
 
