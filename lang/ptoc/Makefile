@@ -8,7 +8,7 @@
 
 DISTNAME=		ptoc
 PKGNAME=		ptoc-2.01
-CATEGORIES=		devel converters x11
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	devel/lang/pascal
 EXTRACT_SUFX=		.tgz
