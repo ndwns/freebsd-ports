@@ -13,6 +13,7 @@
     SUBDIR += emacs
     SUBDIR += emacs20
     SUBDIR += emacs20-dl
+    SUBDIR += gnotepad+
     SUBDIR += flim-emacs20
     SUBDIR += flim-emacs20-current
     SUBDIR += gxedit
@@ -38,6 +39,7 @@
     SUBDIR += staroffice
     SUBDIR += sted
     SUBDIR += textedit
+    SUBDIR += the
     SUBDIR += thoteditor
     SUBDIR += uemacs
     SUBDIR += uzap
