@@ -14,7 +14,4 @@ MAINTAINER=	Nakai@technologist.com
 
 GNU_CONFIGURE=	yes
 
-post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
-
 .include <bsd.port.mk>

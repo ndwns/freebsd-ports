@@ -17,7 +17,4 @@ LIB_DEPENDS=	guile.2:${PORTSDIR}/lang/guile
 
 GNU_CONFIGURE=	yes
 
-post-install:
-	${LDCONFIG} -m ${PREFIX}
-
 .include <bsd.port.mk>
