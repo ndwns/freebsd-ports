@@ -18,4 +18,6 @@ USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
 MAN1=		xosview.1
 
+BROKEN_ELF=	DK_NDRIVE undefined
+
 .include <bsd.port.mk>
