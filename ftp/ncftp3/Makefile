@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	ncftp-3.0beta10-src
-PKGNAME=	ncftp-3.0b10
+DISTNAME=	ncftp-3.0beta11-src
+PKGNAME=	ncftp-3.0b11
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ncftp.com/ncftp/3.0BETA/
 
