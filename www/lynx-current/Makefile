@@ -12,7 +12,7 @@ CATEGORIES+=	www
 
 #MASTER_SITES=   http://www.wfbr.edu/lynx/
 #NCFTP=          w3c
-#NCFTPFLAGS=     -v -to multipart/x-zip -timeout 240 -o ${DISTFILES}
+#NCFTPFLAGS=     -to multipart/x-zip -timeout 120 -o ${DISTFILES}
 #FETCH_DEPENDS=  ${NCFTP}:${PORTSDIR}/www/comline
 
 MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/nidr/www/
