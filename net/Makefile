@@ -63,6 +63,7 @@
     SUBDIR += p5-SNMP
     SUBDIR += pcnfsd
     SUBDIR += pmf
+    SUBDIR += pppload
     SUBDIR += proftpd
     SUBDIR += radius
     SUBDIR += ratoolset
