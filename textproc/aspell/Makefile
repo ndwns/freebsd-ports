@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	aspell-.27
-PKGNAME=	aspell-0.27
+DISTNAME=	aspell-.27.1
+PKGNAME=	aspell-0.27.1
 CATEGORIES=	textproc
 MASTER_SITES=	http://metalab.unc.edu/kevina/aspell/ \
 		ftp://ftp.kddlabs.co.jp/pub/Tools/aspell/ \
