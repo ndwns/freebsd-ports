@@ -31,7 +31,7 @@ do-install:
 	$(INSTALL) -c $(WRKSRC)/blast $(PREFIX)/bin/blast
 	$(INSTALL) -c $(WRKSRC)/blast.man $(DESTDIR)$(MANDIR)/blast.1
 .if !defined(NOMANCOMPRESS)
-	gzip -9 $(MANDIR)/blast.1
+	gzip -9nf $(MANDIR)/blast.1
 .endif
 
 .include <bsd.port.mk>
