@@ -24,9 +24,11 @@ pre-patch:
 pre-build:
 	@${CP} ${FILESDIR}/s-freebsd.h ${WRKSRC}/conf
 
+post-build:
+	[ -r ${PREFIX}/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
+
 pre-install:
 	${MKDIR} ${PREFIX}/news
-	[ -r ${PREFIX}/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
 	[ -r ${PREFIX}/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
 
 post-install:
