@@ -9,7 +9,7 @@
 DISTNAME=	bbmail-0.5.2
 CATEGORIES=	mail
 MASTER_SITES=	http://bbtools.windsofstorm.net/sources/ \
-		ftp://stokes.tte.ele.tue.nl/pub/
+		ftp://stokes.tte.ele.tue.nl/pub/bbmail/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
