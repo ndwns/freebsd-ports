@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	webmin-0.65
+DISTNAME=	webmin-0.71
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.webmin.com/webmin/download/
 
