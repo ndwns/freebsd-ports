@@ -50,6 +50,7 @@
     SUBDIR += transfig
     SUBDIR += virtualpaper
     SUBDIR += xdvi
+    SUBDIR += xdvik
     SUBDIR += xmbibtex
     SUBDIR += xtem
 
