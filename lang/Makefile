@@ -48,6 +48,7 @@
     SUBDIR += modula-3-lib
     SUBDIR += modula-3-socks
     SUBDIR += moscow_ml
+    SUBDIR += nawk
     SUBDIR += o2c
     SUBDIR += objc
     SUBDIR += ocaml
