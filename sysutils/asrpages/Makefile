@@ -8,7 +8,7 @@
 
 DISTNAME=	asrpages
 PKGNAME=	asrpages-0.1
-CATEGORIES=	misc
+CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.winternet.com/users/eric/
 DISTFILES=	asr.pages.tar
 
