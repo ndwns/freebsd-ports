@@ -40,7 +40,8 @@ WITH_OPENSSL_PORT=yes
 .if	!defined(WITH_OPENSSL_BASE) && \
 	!defined(WITH_OPENSSL_BETA) && \
 	!defined(WITH_OPENSSL_PORT) && \
-	!exists(${LOCALBASE}/lib/libcrypto.so)
+	!exists(${LOCALBASE}/lib/libcrypto.so) && \
+	exists(/usr/include/openssl/opensslv.h)
 #	Security: version in base must be 0.9.7a
 OPENSSLVER!=	${AWK} '/OPENSSL_VERSION_NUMBER/ { print $$3 }' \
 		/usr/include/openssl/opensslv.h
