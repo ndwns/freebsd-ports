@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	lftp-1.2.3
+DISTNAME=	lftp-1.2.4
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.yars.free.net/pub/software/unix/net/ftp/client/lftp-old/ \
+MASTER_SITES=	ftp://ftp.yars.free.net/pub/software/unix/net/ftp/client/ \
 		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	system/network/file-transfer
 
