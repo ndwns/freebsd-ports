@@ -15,6 +15,7 @@
     SUBDIR += dvi2tty
     SUBDIR += dvipsk
     SUBDIR += ebw3
+    SUBDIR += edict
     SUBDIR += elvis
     SUBDIR += escpf
     SUBDIR += ewipe
