@@ -24,9 +24,6 @@ MAINTAINER=     ports@freebsd.org
 PREFIX=		${LOCALBASE}/pilot
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
-# argh... mtree happens before we can mkdir ${PREFIX} ! :-(
-NO_MTREE=	yes
-
 USE_PERL5=	yes
 ALL_TARGET=	gnutools all
 MAN1=		build-prc.1 cccp.1 configure.1 \
@@ -67,9 +64,6 @@ STRIP=		build-prc \
 # after we apply freebsd patches, apply prc-tool's patches to gcc/gdb/...
 post-patch:
 		(cd ${WRKSRC} ; make patch)
-
-pre-install:
-		-test -d ${PREFIX} || mkdir ${PREFIX}
 
 # the info files are redundant
 post-install:
