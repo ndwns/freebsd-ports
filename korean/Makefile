@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Wnn
+    SUBDIR += afterstep
     SUBDIR += h2ps
     SUBDIR += hanterm
     SUBDIR += hanterm-autofont
