@@ -9,6 +9,7 @@
     SUBDIR += jdk-tutorial
     SUBDIR += jfc
     SUBDIR += jikes
+    SUBDIR += jlex
     SUBDIR += jsdk
     SUBDIR += kaffe
     SUBDIR += shujit
