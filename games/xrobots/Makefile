@@ -16,6 +16,6 @@ MAINTAINER=	swallace@FreeBSD.org
 USE_IMAKE=	yes
 
 post-install:
-	install -c -g games -m 664 ${.CURDIR}/files/xrobotscores /usr/X11R6/lib/X11
+	${INSTALL} -c -g games -m 664 ${FILESDIR}/xrobotscores ${PREFIX}/lib/X11
 
 .include <bsd.port.mk>

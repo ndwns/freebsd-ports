@@ -17,6 +17,6 @@ MAINTAINER=	swallace@FreeBSD.org
 USE_IMAKE=	yes
 
 post-install:
-	install -c -g games -m 664 ${.CURDIR}/files/xpipescores /usr/X11R6/lib/X11
+	${INSTALL} -c -g games -m 664 ${FILESDIR}/xpipescores ${PREFIX}/lib/X11
 
 .include <bsd.port.mk>
