@@ -46,6 +46,7 @@
     SUBDIR += m4
     SUBDIR += m68kgdb
     SUBDIR += makedepend
+    SUBDIR += mico
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += nana
