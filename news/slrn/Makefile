@@ -1,13 +1,13 @@
 # New ports collection makefile for:   slrn
-# Version required:    0.9.4.0
+# Version required:    0.9.4.2
 # Date created:        28 March 1997
 # Whom:                Carey Jones <mcj@acquiesce.org>
 # 
 # $Id$
 #
 
-DISTNAME=	slrn0.9.4.1
-PKGNAME=	slrn-0.9.4.1
+DISTNAME=	slrn0.9.4.2
+PKGNAME=	slrn-0.9.4.2
 CATEGORIES=	news
 MASTER_SITES=	ftp://space.mit.edu/pub/davis/slrn/ \
 		ftp://ftp.uni-stuttgart.de/pub/unix/misc/slang/ \
