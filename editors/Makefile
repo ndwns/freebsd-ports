@@ -16,6 +16,7 @@
     SUBDIR += nedit
     SUBDIR += nvi
     SUBDIR += staroffice
+    SUBDIR += thoteditor
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
