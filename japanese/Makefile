@@ -30,11 +30,13 @@
     SUBDIR += gawk
     SUBDIR += gd
     SUBDIR += ghostscript
+    SUBDIR += gicq
     SUBDIR += gn-gnspool
     SUBDIR += gn-mnews
     SUBDIR += gp
     SUBDIR += grep
     SUBDIR += groff
+    SUBDIR += gtk
     SUBDIR += gxditview
     SUBDIR += handbook
     SUBDIR += hex
@@ -77,6 +79,7 @@
     SUBDIR += kon
     SUBDIR += kterm
     SUBDIR += less
+    SUBDIR += libicq
     SUBDIR += libslang
     SUBDIR += lipsf
     SUBDIR += lynx
