@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.parc.xerox.com/pub/gc/ \
 
 MAINTAINER=	mmcg@cs.monash.edu.au
 
+BROKEN_ELF=	fbsd-libgc.a
+
 WRKSRC=		${WRKDIR}/gc
 MAN3=		gc.3
 ALL_TARGET=	FreeBSD-pkg-all
