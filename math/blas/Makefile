@@ -10,8 +10,8 @@ DISTNAME=	blas
 PKGNAME=	blas-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/blas/ \
-		ftp://www.hensa.ac.uk/mirrors/netlib/linpack/ \
-		ftp://elib.zib-berlin.de/pub/linpack/
+		ftp://www.hensa.ac.uk/mirrors/netlib/blas/ \
+		ftp://elib.zib-berlin.de/pub/blas/
 
 MAINTAINER=	ports@FreeBSD.org
 
