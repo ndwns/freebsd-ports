@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	sfio97
+PKGNAME=	sfio-97
 CATEGORIES=	devel
 MASTER_SITES=	http://www.research.att.com/sw/tools/sfio/
 EXTRACT_SUFX=	.src.unix.tar.Z
@@ -14,6 +15,7 @@ EXTRACT_SUFX=	.src.unix.tar.Z
 MAINTAINER=	jraynard@freebsd.org
 
 NO_WRKSUBDIR=	yes
+IS_INTERACTIVE=	yes
 MAN3=		sfio.3 sfdisc.3
 
 do-fetch:
