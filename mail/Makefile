@@ -49,7 +49,6 @@
     SUBDIR += pgpsendmail
     SUBDIR += pine3
     SUBDIR += pine4
-    SUBDIR += popclient
     SUBDIR += poppassd
     SUBDIR += popper
     SUBDIR += premail
