@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	cnews nntp
+SUBDIR=	cnews nn nntp
 
 .include <bsd.port.subdir.mk>
