@@ -7,8 +7,8 @@ SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
 	xtexshell xv
 
 #
-# imm & nv depends on tk, so might as well build tk first...
+# These depend on tk, so might as well build tk first...
 #
-SUBDIR+= imm nv
+SUBDIR+= imm nv blt
 
 .include <bsd.port.subdir.mk>
