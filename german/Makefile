@@ -1,6 +1,6 @@
 # $Id$
 #
 
-#    SUBDIR += spinne
+    SUBDIR += spinne
 
 .include <bsd.port.subdir.mk>
