@@ -11,8 +11,8 @@ PKGNAME=        cern_linemode-4.0p7
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/linemode/ \
 		ftp://ftp.w3.org/pub/libwww/
-DISTFILES=      www_4.0pre7_src.tar.gz \
-		libwww_4.0pre7_src.tar.gz
+DISTFILES=      libwww_4.0pre7_src.tar.gz \
+		www_4.0pre7_src.tar.gz
 
 MAINTAINER=	sa2c@and.or.jp
 

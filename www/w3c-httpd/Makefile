@@ -11,8 +11,8 @@ PKGNAME=	cern_httpd-3.0
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/httpd/ \
 		ftp://ftp.w3.org/pub/libwww/
-DISTFILES=      httpd_3.0_src.tar.gz \
-		libwww_2.17_src.tar.Z
+DISTFILES=      libwww_2.17_src.tar.Z \
+		httpd_3.0_src.tar.gz
 
 MAINTAINER=	sa2c@and.or.jp
 
