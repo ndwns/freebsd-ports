@@ -14,12 +14,11 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
-WWW_SITE=		http://www.druid.net/pygresql
-
 BUILD_DEPENDS=		python:${PORTSDIR}/lang/python
 RUN_DEPENDS=		python:${PORTSDIR}/lang/python
 LIB_DEPENDS=		pq.2:${PORTSDIR}/databases/postgresql
 
+WWW_SITE=		http://www.druid.net/pygresql
 MAKE_ENV=		PYTHON=${PREFIX}/bin/python \
 			LN="${LN}" SETENV="${SETENV}" MKDIR="${MKDIR}"
 
