@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
+BROKEN=		C++ library problems on pre and post 2.2.1 systems
+
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 EXTRACT_CMD=	unzip
