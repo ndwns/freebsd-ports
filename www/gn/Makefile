@@ -10,6 +10,8 @@ DISTNAME=       gn-2.24
 CATEGORIES+=	www net
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 
+MAINTAINER=	adam@veda.is
+
 WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.3
 BUILD_DEPENDS=	${WAISDIR}/bin/waisindex:${PORTSDIR}/net/wais
 
@@ -48,8 +50,8 @@ post-install:
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \
-	  awk '$$1 == "gopher" { exit 1 }' ${INETD_CONF} || { \
-		echo gopher${CONF} >>${INETD_CONF}
+	  awk '$$1 == "#gopher" { exit 1 }' ${INETD_CONF} || { \
+		echo '#'gopher${CONF} >>${INETD_CONF}
 	  }
 .endif
 
