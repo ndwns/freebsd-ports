@@ -7,7 +7,7 @@
 #
 
 DISTNAME=      m3gdb-4.17
-CATEGORIES=    lang
+CATEGORIES=    lang devel
 MASTER_SITES=  http://www.freebsd.org/~jdp/distfiles/
 
 MAINTAINER=    jdp@FreeBSD.ORG
