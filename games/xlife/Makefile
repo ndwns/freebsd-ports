@@ -17,6 +17,7 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=      yes
+MAN1=		xlife.1
 
 pre-install:
 	@(cd ${WRKSRC}; make install.patterns)
