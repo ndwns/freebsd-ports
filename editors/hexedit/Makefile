@@ -15,6 +15,8 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	ncurses\\.4\\.:${PORTSDIR}/devel/ncurses
 
+MANUAL_PACKAGE_BUILD=	depends on ncurses
+
 ALL_TARGET=
 WRKSRC=		${WRKDIR}/hexedit
 
