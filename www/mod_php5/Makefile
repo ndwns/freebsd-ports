@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	apache_${VERSION_APACHE}
-PKGNAME=	apache-php3-${VERSION_APACHE}
+PKGNAME=	apache+php3-${VERSION_APACHE}+${VERSION_PHP3}
 CATEGORIES=	www
 MASTER_SITES=	http://www.apache.org/dist/ \
 		http://www.rge.com/pub/infosystems/apache/dist/ \
