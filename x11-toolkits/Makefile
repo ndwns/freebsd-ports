@@ -11,7 +11,6 @@
     SUBDIR += gtk-engines
     SUBDIR += gtk10
     SUBDIR += gtk11
-    SUBDIR += gtk11-devel
     SUBDIR += gtk12
     SUBDIR += gtkgl
     SUBDIR += gtkstep
