@@ -1,5 +1,5 @@
 # New ports collection makefile for:    xfedor
-# Version required:     ?
+# Version required:     1994 year version with Imakefile
 # Date created:         3 Sep 1996
 # Whom:                 ache
 #
