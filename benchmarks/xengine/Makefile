@@ -11,7 +11,7 @@ CATEGORIES=	benchmarks x11
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Usenet/comp.sources.x/volume09/xengine/
 DISTFILES=	part01.z patch1.z
 
-MAINTAINER=	furusawa@com.cs.osakafu-u.ac.jp
+MAINTAINER=	kazu@jp.freebsd.org
 
 BUILD_DEPENDS=	gunshar:${PORTSDIR}/archivers/gshar+gunshar
 
