@@ -15,10 +15,9 @@ BUILD_DEPENDS=	${WAISDIR}/bin/waisindex:${PORTSDIR}/net/wais
 
 IS_INTERACTIVE=	yes
 # This quaint mechanism is for forcing package creation from a staging area.
-# There is normally no package creation, because of compiled-in defaults.
 .if !defined(YES_PACKAGE)
 YES_INSTALL=
-NO_PACKAGE=
+NO_PACKAGE=	# compiled in hostnames
 .endif
 
 INETD_CONF=	/etc/inetd.conf
