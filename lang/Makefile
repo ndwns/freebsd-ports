@@ -38,7 +38,6 @@
     SUBDIR += javac_netscape
     SUBDIR += jdk
     SUBDIR += kaffe
-    SUBDIR += kawk
     SUBDIR += lcc
     SUBDIR += libobjects
     SUBDIR += logo
