@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       mkisofs-1.11.1
+DISTNAME=       mkisofs-1.11.3
 CATEGORIES=	sysutils
 MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/packages/mkisofs/
 
