@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	fvwm-1.23b
+DISTNAME=	fvwm
 NO_WRKSUBDIR=	yes
-DISTFILES=	fvwm-1.23b-core.tar.gz fvwm-1.23b-modules.tar.gz \
-		fvwm-1.23-icons.tar.gz
+DISTFILES=	fvwm-core.tar.gz fvwm-modules.tar.gz \
+		fvwm-icons.tar.gz
 MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
 USE_IMAKE=	yes
 DEPENDS=	${PORTSDIR}/x11/xpm
