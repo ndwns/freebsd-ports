@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	gc4.10
-PKGNAME=	boehm-gc-4.10
+DISTNAME=	gc4.12
+PKGNAME=	boehm-gc-4.12
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.parc.xerox.com/pub/gc/
+MASTER_SITES=	ftp://ftp.parc.xerox.com/pub/gc/ \
+		http://reality.sgi.com/employees/boehm_mti/gc_source/
 
 MAINTAINER=	mmcg@cs.monash.edu.au
 
