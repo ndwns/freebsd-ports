@@ -50,7 +50,6 @@
     SUBDIR += mule-sj3
     SUBDIR += mule-wnn
     SUBDIR += nethack
-    SUBDIR += netscape.language
     SUBDIR += newosaka
     SUBDIR += nkf
     SUBDIR += nvi-euc-jp
