@@ -10,7 +10,7 @@ PKGNAME=	asfsm-1.0p15
 CATEGORIES=	sysutils afterstep
 MASTER_SITES=	http://www.tigr.net/afterstep/as-apps/download/asfsm/
 
-MAINTAINER=	jack@germnaium.xtalwind.net
+MAINTAINER=	jack@germanium.xtalwind.net
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
