@@ -5,7 +5,7 @@
 # BROKEN: wine (doesn't install)
 #
 
-SUBDIR= amanda colorls cpm hfs iozone ispell less mmv mshell mtools \
+SUBDIR= amanda chord colorls cpm hfs iozone ispell less mmv mshell mtools \
 	pcemu rman screen top tua xdu xsysstats 
 
 .include <bsd.port.subdir.mk>
