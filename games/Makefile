@@ -88,6 +88,7 @@
     SUBDIR += xtetris
     SUBDIR += xtic
     SUBDIR += xtriangles
+    SUBDIR += yahtzee
     SUBDIR += yamsweeper
     SUBDIR += ztrack
 
