@@ -14,6 +14,10 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE}  \
 MASTER_SITE_SUBDIR=	apps/editors/X
 EXTRACT_SUFX=	.tgz
 
+PATCH_SITES=	http://www.rpi.edu/~payned/xwpe/
+PATCHFILES=	xwpe-cosmetic.patch xwpe-grep.patch \
+		xwpe-naming.patch xwpe-xchanges.patch
+
 MAINTAINER=     obrien@NUXI.com
 
 # LD_LIBRARY_PATH is to deal with a braindead libX11.a search in configure
@@ -29,12 +33,11 @@ INSTALL_TARGET= install_german
 .endif
 MAN1=		xwpe.1
 
-
 post-install:
 	@strip ${PREFIX}/bin/xwpe
 	@(cd ${PREFIX}/man/man1 ; \
 	for mp in xwe.1 wpe.1 we.1 ; \
-		do rm -f $$mp ; ln -sf xwpe.1.gz $$mp.gz ; done )
+		do ${RM} -f $$mp ; ln -sf xwpe.1.gz $$mp.gz ; done )
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/xwpe
 .if defined(GERMAN_LANG)
