@@ -24,9 +24,6 @@ post-patch:
 	< Configuration.old > Configuration
 .endif
 
-post-patch:
-	${CP} /usr/include/md5.h ${WRKSRC}/src/md5.h
-
 post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
 		echo "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."; \
