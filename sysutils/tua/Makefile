@@ -14,4 +14,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/tua.1
+
 .include <bsd.port.mk>
