@@ -9,6 +9,7 @@
 # it is changed from previous versions
 
 DISTNAME=       wu-ftpd-2.4.2-beta-13
+PKGNAME=	wu-ftpd-2.4.2b13
 CATEGORIES=	net
 # AUSCERT recommendation
 MASTER_SITES=   ftp://ftp.academ.com/pub/wu-ftpd/private/
