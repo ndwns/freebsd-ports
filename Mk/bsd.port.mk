@@ -635,17 +635,21 @@ IGNORECMD=	${DO_NADA}
 .else
 IGNORECMD=	${ECHO_MSG} "===>  ${PKGNAME} ${IGNORE}."
 .endif
+fetch:
+	@${IGNORECMD}
+checksum:
+	@${IGNORECMD}
+extract:
+	@${IGNORECMD}
+patch:
+	@${IGNORECMD}
+configure:
+	@${IGNORECMD}
 all:
 	@${IGNORECMD}
 build:
 	@${IGNORECMD}
 install:
-	@${IGNORECMD}
-fetch:
-	@${IGNORECMD}
-checksum:
-	@${IGNORECMD}
-configure:
 	@${IGNORECMD}
 package:
 	@${IGNORECMD}
