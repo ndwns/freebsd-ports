@@ -1,13 +1,13 @@
 # New ports collection makefile for: wxftp
-# Version required: 		0.4.0
+# Version required: 		0.4.1
 # Date created: 		22 October 1998
 # Whom: 			Antti Kaipila <anttik@iki.fi>
 #
 # $Id$
 #
 
-DISTNAME=	wxftp-0.4.0.src
-PKGNAME=	wxftp-0.4.0
+DISTNAME=	wxftp-0.4.1.src
+PKGNAME=	wxftp-0.4.1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR= 	system/network/file-transfer
