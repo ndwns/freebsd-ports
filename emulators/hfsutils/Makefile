@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.mars.org/pub/hfs/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	tk81\\.1\\.:${PORTSDIR}/x11-toolkits/tk81
+LIB_DEPENDS=	tk81.1:${PORTSDIR}/x11-toolkits/tk81
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tcl --with-tcl-libs=${PREFIX}/lib --with-tk --with-tk-libs=${PREFIX}/lib

@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	X11/desktop
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	tk81\\.1:${PORTSDIR}/x11-toolkits/tk81
+LIB_DEPENDS=	tk81.1:${PORTSDIR}/x11-toolkits/tk81
 
 MAKEFILE=	Makefile.freebsd_gcc
 MAKE_ENV+=	X11BASE=${X11BASE}
