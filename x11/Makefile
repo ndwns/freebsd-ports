@@ -12,7 +12,7 @@
     SUBDIR += bricons
     SUBDIR += ctwm
     SUBDIR += dclock
-    SUBDIR += etlfont
+    SUBDIR += etlfonts
     SUBDIR += emiclock
     SUBDIR += emu
     SUBDIR += filerunner
