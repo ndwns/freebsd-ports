@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ethereal-0.3.16
+DISTNAME=	ethereal-0.3.17
 CATEGORIES=	net
 MASTER_SITES=	http://ethereal.zing.org/distribution/ \
 		http://ethereal.boehm.org/distribution/
