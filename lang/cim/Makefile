@@ -8,8 +8,10 @@
 
 DISTNAME=	cim-1.92
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ifi.uio.no/pub/cim/  \
+MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/cim/  \
+		${MASTER_SITE_SUNSITE}  \
 		ftp://ftp.fenk.wau.nl/pub/lang/simula/compilers/cim/
+MASTER_SITE_SUBDIR=	devel/lang/simula
 
 MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
 
