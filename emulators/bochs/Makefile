@@ -16,6 +16,7 @@ MASTER_SITES= 	ftp://ftp.bochs.com/pub/
 
 MAINTAINER=	alex@FreeBSD.ORG
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--enable-80386 --enable-memory=16 \
 	--enable-v8086-mode --enable-paging --enable-vga \
@@ -26,7 +27,6 @@ WRKSRC=		${WRKDIR}/bochs-${DATE}
 
 RESTRICTED=	"Commercial software"
 NO_CDROM=	${RESTRICTED}
-NO_PACKAGE=	${RESTRICTED}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bochs ${PREFIX}/bin
