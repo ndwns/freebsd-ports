@@ -20,6 +20,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 EXTRACT_SUFX=	.gz
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 NO_BUILD=	yes
 

@@ -20,6 +20,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
 		pgp:${PORTSDIR}/security/pgp
+RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 NO_WRKSUBDIR=	YES
 
