@@ -17,6 +17,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += mapedit
     SUBDIR += netscape
     SUBDIR += netscape2
+    SUBDIR += netscape3
     SUBDIR += tkHTML
     SUBDIR += tkWWW
     SUBDIR += w3c_httpd
