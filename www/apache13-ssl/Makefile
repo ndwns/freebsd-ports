@@ -80,7 +80,13 @@ RESTRICTED=     "Contains cryptography"
 MAN1= 		dbmmanage.1 htdigest.1 htpasswd.1
 MAN8= 		ab.8 httpsdctl.8 apxs.8 httpsd.8 logresolve.8 rotatelogs.8
 
-pre-fetch:
+post-extract:
+	@cd ${WRKSRC} && tar xzf ${DISTDIR}/apache_${APACHE}+ssl_${APACHE-SSL}${EXTRACT_SUFX}
+
+post-patch:
+	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} ./FixPatch
+
+pre-configure:
 .if !defined(USA_RESIDENT) || ${USA_RESIDENT} != YES
 	@${ECHO}
 	@${ECHO} "*** Warning!"
@@ -93,12 +99,6 @@ pre-fetch:
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 CONFIGURE_ENV=LDFLAGS="${LDFLAGS} -L/usr/local/lib -lRSAglue -lrsaref"
 .endif
-
-post-extract:
-	@cd ${WRKSRC} && tar xzf ${DISTDIR}/apache_${APACHE}+ssl_${APACHE-SSL}${EXTRACT_SUFX}
-
-post-patch:
-	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} ./FixPatch
 
 certificate:
 	@if [ -f ${PREFIX}/lib/openssl.cnf ]; then \
