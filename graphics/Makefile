@@ -31,6 +31,7 @@
     SUBDIR += pixmap
     SUBDIR += png
     SUBDIR += povray
+    SUBDIR += sced
     SUBDIR += spigot
     SUBDIR += splitmpg
     SUBDIR += tgif
