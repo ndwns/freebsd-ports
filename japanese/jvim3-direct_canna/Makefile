@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	ja-jvim--direct_canna-3.0.1.3j
+PKGNAME=	ja-jvim-direct_canna-3.0.1.3j
 
 DIRECT_CANNA=	yes
 
