@@ -21,6 +21,8 @@ BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
+BROKEN=		glib.h
+
 GNU_CONFIGURE=	yes
 ALL_TARGET=	sharedmods
 MAKE_FLAGS=	OPT="${CFLAGS}"
