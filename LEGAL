@@ -73,7 +73,6 @@ mikmod-2.14.tar.gz	ports/audio/mikmod	Registration required for
 				use of the binaries
 mmv/*			ports/misc/mmv		Restrictive/unclear copyright
 msql-*			ports/databases/msql	Not free for commercial org.
-mutt/* (without `e')    ports/mail/mutt.with_pgp ITAR export-controlled
 netscape-*		ports/net/netscape	Commercial product
 nte-1.5a23		ports/mbone/nte		Crypto; export-controlled
 pgp262s.zip		ports/security/pgp*	Various locality restrictions
