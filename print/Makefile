@@ -29,6 +29,7 @@
     SUBDIR += gv
     SUBDIR += html2latex
     SUBDIR += html2ps
+    SUBDIR += klyx
     SUBDIR += latex
     SUBDIR += lout
     SUBDIR += lprps
