@@ -98,12 +98,14 @@
     SUBDIR += lipsf
     SUBDIR += lynx
     SUBDIR += lynx-current
+    SUBDIR += lyx
     SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
     SUBDIR += mendexk-euc
     SUBDIR += mendexk-sjis
     SUBDIR += mh
+    SUBDIR += mhonarc
     SUBDIR += micq
     SUBDIR += mimekit
     SUBDIR += mmm
@@ -121,6 +123,7 @@
     SUBDIR += mule-sj3+wnn6
     SUBDIR += mule-wnn4
     SUBDIR += mule-wnn6
+    SUBDIR += namazu
     SUBDIR += ndtpd
     SUBDIR += nethack
     SUBDIR += netscape-fonts
