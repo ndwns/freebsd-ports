@@ -14,6 +14,8 @@ MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
 		ftp://ftp.nuxi.com/pub/tin/
 EXTRACT_SUFX=	.tgz
 
+LIB_DEPENDS=    uu.1:${PORTSDIR}/converters/uulib
+
 MAINTAINER=     ache@FreeBSD.org
 
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
@@ -27,12 +29,17 @@ USE_GMAKE=	yes
 CONFIGURE_ARGS=  --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/news/lib \
+		 --with-defaults-dir=${PREFIX}/etc \
+		 --with-editor=/usr/bin/ee \
 		 --with-mime-default-charset=ISO-8859-1 \
 		 --enable-forgery \
 		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
 		 --with-metamail=${PREFIX}/bin/metamail
+CONFIGURE_ENV=  CFLAGS='${CFLAGS} -I${PREFIX}/include -DNNTP_SERVER_FILE="\"${PREFIX}/etc/nntpserver\""' \
+		CPPFLAGS='${CPPFLAGS} -I${PREFIX}/include' \
+		LDFLAGS='${LDFLAGS} -L${PREFIX}/lib'
 MAKEFILE=       makefile
 ALL_TARGET=     build
 MAN1=		tin.1
@@ -48,8 +55,10 @@ post-patch:
 		-e 's:/usr/lib/news:${PREFIX}/news/lib:' \
 		<${WRKSRC}/doc/tin.1.dist >${WRKSRC}/doc/tin.1
 
-post-configure:
-	${ECHO} '#define NNTP_SERVER_FILE "${PREFIX}/etc/nntpserver"' >>${WRKSRC}/include/autoconf.h
-	${ECHO} '#define SMTP_SERVER_FILE "${PREFIX}/etc/smtpserver"' >>${WRKSRC}/include/autoconf.h
+post-install:
+	cd ${WRKSRC}/doc; ${INSTALL_DATA} tin.defaults ${PREFIX}/etc/tin.defaults.dist
+	if [ ! -f ${PREFIX}/etc/tin.defaults ] ; then \
+		cp ${PREFIX}/etc/tin.defaults.dist ${PREFIX}/etc/tin.defaults; \
+	fi
 
 .include <bsd.port.mk>
