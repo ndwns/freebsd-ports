@@ -15,15 +15,9 @@ MAINTAINER=	ports@FreeBSD.org
 WRKSRC=         ${WRKDIR}/gsm-1.0-pl10
 MAN1=		toast.1
 MAN3=		gsm.3 gsm_explode.3 gsm_option.3 gsm_print.3
+MLINKS=		toast.1 untoast.1	toast.1 tcat.1
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
-.if defined(NOMANCOMPRESS)
-	${LN} -sf ${PREFIX}/man/man1/toast.1 ${PREFIX}/man/man1/untoast.1
-	${LN} -sf ${PREFIX}/man/man1/toast.1 ${PREFIX}/man/man1/tcat.1
-.else
-	${LN} -sf ${PREFIX}/man/man1/toast.1.gz ${PREFIX}/man/man1/untoast.1.gz
-	${LN} -sf ${PREFIX}/man/man1/toast.1.gz ${PREFIX}/man/man1/tcat.1.gz
-.endif
 
 .include <bsd.port.mk>
