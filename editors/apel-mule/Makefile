@@ -1,7 +1,7 @@
 # New ports collection makefile for:	apel for mule
-# Version required:	9.x
+# Version required:	9.18
 # Date created:		23 September 1998
-# Whom:			Shigeyuki FUKUSHIMA <shige@kuis.kyoto-u.ac.jp>
+# Whom:			Shigeyuki FUKUSHIMA <shige@FreeBSD.ORG>
 #
 # $Id$
 #
@@ -19,10 +19,12 @@ EMACS_PORT=	mule
 EMACS_VER=	19.34
 EMACS_LIBDIR=	share/${EMACS_NAME}
 
+# RUN_DEPENDS port name's suffix is '-common'.
 HAVE_COMMON_PORT=	YES
+# emacs requires *-setup.el
 REQUIRE_SETUPEL=	YES
 
-# pkg/* files are used in ${.CURDIR}
+# use pkg/* files in ${.CURDIR}
 PKGDIR=		${.CURDIR}/pkg
 
 .include <${MASTERDIR}/Makefile>
