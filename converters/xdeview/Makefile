@@ -18,7 +18,6 @@ MAINTAINER=	hoek@FreeBSD.ORG
 LIB_DEPENDS=    tk80\\.1\\.:${PORTSDIR}/x11/tk80
 LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 
-FILESDIR=	${.CURDIR}/../../converters/uulib/files
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-tcl="${PREFIX}" --enable-tk="${PREFIX}"
 # Season to taste --- anything over tcl7.5
