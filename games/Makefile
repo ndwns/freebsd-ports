@@ -73,6 +73,7 @@
     SUBDIR += wmtimebomb
     SUBDIR += xabacus
     SUBDIR += xasteroids
+    SUBDIR += xataxx
     SUBDIR += xbat
     SUBDIR += xbattle
     SUBDIR += xbill
