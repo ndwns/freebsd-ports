@@ -15,6 +15,8 @@ MASTER_SITES=	http://www.3dfx.com/software/ \
 
 MAINTAINER= 	cracauer@cons.org
 
+RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
+
 PREFIX=		/compat/linux/usr
 NO_MTREE=	yes
 NO_BUILD=	yes
