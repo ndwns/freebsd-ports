@@ -36,6 +36,7 @@ WRKSRC=		${WRKDIR}/mico
 
 CONFIGURE_ARGS=	--with-qt --with-gtk --with-tcl \
 		--disable-optimize --disable-mini-stl
+CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk10-config"
 
 MAN1=		idl.1 imr.1 nsadmin.1
 MAN5=		micorc.5
