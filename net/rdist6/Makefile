@@ -8,9 +8,9 @@
 #
 
 DISTNAME=	rdist-6.1.0
-PKGNAME=	rdist-6.1.0
-MASTER_SITES=	ftp://usc.edu/pub/rdist/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://usc.edu/pub/rdist/
+
 MAINTAINER=	peter@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
