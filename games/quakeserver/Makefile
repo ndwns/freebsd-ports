@@ -11,11 +11,10 @@ CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.stomped.com/pub/idstuff/quake/ \
 		ftp://ftp.stomped.com/pub/quake/x_linux/ \
 		ftp://ftp1.idsoftware.com/idstuff/quake/ \
-		ftp://ftp2.idsoftware.com/idsutff/quake/ \
+		ftp://ftp2.idsoftware.com/idstuff/quake/ \
 		ftp://ftp.cdrom.com/pub/idgames/idstuff/quake/ \
 		ftp://quake.best.com/pub/idsoftware/quake/ \
 		ftp://ftp.nuqneH.org/pub/quake/idsoftware/ \
-		ftp://PC/games/DOOM/idstuff/quake/ \
 		ftp://ftp.sun.ac.za/pub/msdos/idgames/idstuff/quake/ \
 		ftp://iconz.co.nz/pub/quake/
 DISTFILES=	quake101.zip \
