@@ -22,6 +22,7 @@
     SUBDIR += nethack
     SUBDIR += netscape.language
     SUBDIR += nkf
+    SUBDIR += okphone
     SUBDIR += platex
     SUBDIR += ptex
     SUBDIR += ptex2
