@@ -549,13 +549,13 @@ ${EXTRACT_COOKIE}:
 	@mkdir -p ${WRKDIR}
 .if defined(EXTRACT_ONLY)
 	@for file in ${EXTRACT_ONLY}; do \
-		! if ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
+		if ! ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
 			exit 1; \
 		fi \
 	done
 .else
 	@for file in ${DISTFILES}; do \
-		! if ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
+		if ! ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
 			exit 1; \
 		fi \
 	done
