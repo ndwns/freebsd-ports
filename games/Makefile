@@ -6,6 +6,7 @@
     SUBDIR += angband
     SUBDIR += block
     SUBDIR += cgoban
+    SUBDIR += connect4
     SUBDIR += cosmo
     SUBDIR += crossfire
     SUBDIR += dontspace
