@@ -1,27 +1,25 @@
-# New ports collection makefile for:    zip
-# Version required:     2.0.1
+# New ports collection makefile for:    zip (without encryption)
+# Version required:     2.1
 # Date created:         22 Dec 1994
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       zip201
-PKGNAME=        zip-2.0.1
+DISTNAME=       zip21
+PKGNAME=        zip-2.1
 CATEGORIES+=	archivers
-MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
-EXTRACT_SUFX=   .tar.Z
+MASTER_SITES=   ftp://quest.jpl.nasa.gov/pub/
+EXTRACT_SUFX=   .zip
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-ALL_TARGET=     freebsd
+BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
-pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/man/man1
-
-do-install:
-	cd ${WRKSRC}; install -c -o bin -g bin zip.1 zipgrep.1 ${PREFIX}/man/man1
-	cd ${WRKSRC}; install -c -o bin -g bin zip zipnote zipsplit zipcloak zipgrep ${PREFIX}/bin
+EXTRACT_CMD=    unzip
+EXTRACT_ARGS=   -oq
+NO_WRKSUBDIR=   yes
+MAKEFILE=       unix/Makefile
+ALL_TARGET=     generic
 
 .include <bsd.port.mk>
