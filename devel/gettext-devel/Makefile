@@ -8,12 +8,14 @@
 
 DISTNAME=	gettext-0.10.35
 CATEGORIES=	devel
-MASTER_SITES=	ftp://alpha.gnu.ai.mit.edu/gnu/
+MASTER_SITES=	ftp://alpha.gnu.ai.mit.edu/gnu/ \
+		ftp://alpha.gnu.org/pub/gnu
 
 MAINTAINER=	nacai@iname.com
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-gnu-gettext
+
+PLIST_SUB=	X11BASE=${X11BASE}
 
 pre-configure:
 	${RM} ${WRKSRC}/doc/gettext.info*
@@ -25,5 +27,6 @@ post-install:
 	@install-info ${PREFIX}/info/gettext.info ${PREFIX}/info/dir
 	${INSTALL_DATA} ${WRKSRC}/misc/po-mode.el \
 		${PREFIX}/share/gettext/po-mode.el
+	${MKDIR} ${X11BASE}/share/locale
 
 .include <bsd.port.mk>

@@ -1,15 +1,15 @@
 # New ports collection makefile for:	libxml
-# Version required:			0.99.8
+# Version required:			1.0.0
 # Date created:				28 September 1998
 # Whom:					Yukihiro Nakai <Nakai@technologist.com>
 #
 # $Id$
 #
 
-DISTNAME=	libxml-0.99.8
+DISTNAME=	libxml-1.0.0
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	libxml
+MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	nacai@iname.com
 

@@ -1,15 +1,15 @@
 # New ports collection makefile for:	gtk-engines
-# Version required:			0.1
+# Version required:			0.5
 # Date Created:				23 Dec 1998
 # Whom:					Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	gtk-engines-0.1
+DISTNAME=	gtk-engines-0.5
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gtk-engines
+MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
@@ -17,7 +17,7 @@ LIB_DEPENDS=	gdk_imlib.2:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk11d-config"
+CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
 
 THEMES=		metal notif pixmap redmond95
 

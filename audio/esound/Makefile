@@ -1,15 +1,15 @@
 # New ports collection makefile for:	esound
-# Version required:	0.2.7
+# Version required:	0.2.8
 # Date created:		19 July 1998
 # Whom:			Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	esound-0.2.7
+DISTNAME=	esound-0.2.8
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	esound
+MASTER_SITE_SUBDIR=	gnome-1.0/sources
 #MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
 #		ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
 #		ftp://ftp.labs.redhat.com/pub/imlib/TAR/
