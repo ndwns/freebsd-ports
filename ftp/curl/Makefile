@@ -5,12 +5,11 @@
 #
 # $Id$
 
-DISTNAME=	curl-5.5
+DISTNAME=	curl-5.5.1
 CATEGORIES=	net www
 MASTER_SITES=	http://www.fts.frontec.se/~dast/stuff/ \
 		ftp://ftp.rhrz.uni-bonn.de/pub-koeln/net/inet/ \
 		ftp://ftp.win.or.jp/pub/network/www/misc/ \
-		ftp://ftp.all.de/pub2/unix/network/www/curl/ \
 		ftp://crydee.sai.msu.ru/zeus/unix/WWW/tools/mirror/
 
 MAINTAINER=	kkennawa@physics.adelaide.edu.au
