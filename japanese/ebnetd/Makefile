@@ -38,6 +38,9 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=/var --enable-ja-info
 CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		INSTALL_DATA="${INSTALL_DATA}"
+.if !defined(PACKAGE_BUILDING)
+IS_INTERACTIVE=	Maybe interactive at install stage
+.endif
 
 APPENDIXDIR=	share/ndtpd/appendix
 
@@ -51,10 +54,10 @@ post-install:
 	if [ ! -f ${PREFIX}/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
-.for info in ndtpd.info
+.for info in ndtpd.info ndtpd-ja.info
 	install-info ${PREFIX}/info/${info} ${PREFIX}/info/dir
 .endfor
-	@${SETENV} PKG_PREFIX=${PREFIX} \
+	@${SETENV} PKG_PREFIX=${PREFIX} IS_INTERACTIVE="${IS_INTERACTIVE}" \
 		${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 plist: extract
