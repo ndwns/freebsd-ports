@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       dict-1.0
+DISTNAME=       dict-1.1
 CATEGORIES=	german
 MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${dict}.gz
@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PORTSDIR}/textproc/agrep
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
-dict=		eng2germ.dict
+dict=		ger-eng.txt
 
 post-extract: ${dict}
 ${dict}:
