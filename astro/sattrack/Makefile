@@ -12,6 +12,11 @@ MASTER_SITES=      http://ssl.berkeley.edu/isi_www/
 
 MAINTAINER=        nordquist@platinum.com
 
+# restrictive copyright: distribution via ftp is OK,
+# bundling with commercial products (CDROM) is forbidden
+# without author's consent
+NO_CDROM=	   yes
+
 WRKSRC=            ${WRKDIR}/SatTrack/src
 MAKE_FLAGS=        PREFIX=${PREFIX} -f
 
