@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       dhcp-2.0b1pl17
-PKGNAME=	isc-dhcp2.b1.17
+PKGNAME=	isc-dhcp-2.b1.17
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
