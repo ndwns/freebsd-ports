@@ -6,25 +6,22 @@
 # $Id$
 #
 
-DISTNAME=       de-phone-1.0
-CATEGORIES=	german
-MASTER_SITES=   ${MASTER_SITE_LOCAL} http://www.freebsd.org/~wosch/src/
-DISTFILES=	${phone}.gz
+DISTNAME=	avon-1996
+PKGNAME=	de-phone-1.0
+CATEGORIES=	german missc
+MASTER_SITES=	${MASTER_SITE_LOCAL} \
+		http://www.freebsd.org/~wosch/src/
+EXTRACT_SUFX=	.gz
 
 MAINTAINER=     wosch@FreeBSD.org
 
-NO_BUILD=	YES
 NO_WRKSUBDIR=	YES
-EXTRACT_ONLY=
-
-phone=	avon-1996
-phoneout= de.phone
+EXTRACT_CMD=	${GZCAT}
+EXTRACT_BEFORE_ARGS=	# None
+EXTRACT_AFTER_ARGS=	> ${WRKSRC}/de.phone
+NO_BUILD=	YES
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/${phone} ${PREFIX}/share/misc/${phoneout}
-
-post-extract: ${phone}
-${phone}:
-	${GZCAT} < ${DISTDIR}/${phone}.gz > ${WRKSRC}/${.TARGET}
+	${INSTALL_DATA} ${WRKSRC}/de.phone ${PREFIX}/share/misc
 
 .include <bsd.port.mk>
