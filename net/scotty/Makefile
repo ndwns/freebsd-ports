@@ -34,9 +34,9 @@ pre-install:
 .else
 	@sed "s,@GZIP@,.gz," /tmp/PLIST >pkg/PLIST
 .endif
-	@{RM} /tmp/PLIST
+	@${RM} /tmp/PLIST
 
 pre-clean:
-	@{RM} -f pkg/PLIST
+	@${RM} -f pkg/PLIST
 
 .include <bsd.port.mk>
