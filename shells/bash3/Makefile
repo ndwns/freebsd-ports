@@ -8,6 +8,5 @@
 
 GNU_MAKE=	yes
 DISTNAME=	bash-1.14.2
-HOME_LOCATION=	ftp://freebsd.cdrom.com/pub/FreeBSD/ports/distfiles/bash-1.14.2.tar.gz
 
 .include <bsd.port.mk>
