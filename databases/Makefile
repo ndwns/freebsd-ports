@@ -4,6 +4,7 @@
     SUBDIR += gdbm
     SUBDIR += gnats
     SUBDIR += msql
+    SUBDIR += msqlperl
     SUBDIR += postgres95
     SUBDIR += xfsql
 
