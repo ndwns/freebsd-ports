@@ -1,13 +1,13 @@
 # New ports collection makefile for:	mozilla
-# Version required:	1998-04-08
+# Version required:	1998-04-29
 # Date created:		31 Mar 1998
 # Whom:			eivind/dima/jseger
 #
 # $Id$
 #
 
-DISTNAME=	unix_19980408
-PKGNAME=	mozilla-1998-04-08
+DISTNAME=	unix-19980429
+PKGNAME=	mozilla-1998-04-29
 CATEGORIES=	www
 MASTER_SITES=	ftp://mirror.neosoft.com/pub/mozilla/mozilla/source/ \
 		ftp://ftp.bitcon.no/pub/www/mozilla/mozilla/source/ \
@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://mirror.neosoft.com/pub/mozilla/mozilla/source/ \
 
 MAINTAINER=	jseger@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/ns
+WRKSRC=		${WRKDIR}/`${ECHO} ${DISTNAME} | ${SED} 's/unix-//'`/mozilla
 USE_GMAKE=	yes
 DIST_SUBDIR=	mozilla
 MAKE_ENV=	NO_SECURITY=1 MOZ_MEDIUM=1 MOZILLA_CLIENT=1 NO_MDUPDATE=1 \
