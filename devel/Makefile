@@ -44,6 +44,7 @@
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
+    SUBDIR += libU77
     SUBDIR += lclint
     SUBDIR += libdlmalloc
     SUBDIR += libffi
