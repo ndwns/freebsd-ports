@@ -13,6 +13,7 @@ MASTER_SITES=   http://jaguar.ir.miami.edu/~marcus/
 MAINTAINER=     marcus@miami.edu
 
 GNU_CONFIGURE=  yes
+IS_INTERACTIVE=	yes
 
 MAN1=		gone.1
 
