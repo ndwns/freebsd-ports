@@ -35,7 +35,7 @@ pre-install:
 post-install:
 		@ ln -sf archive2.pl ${PREFIX}/majordomo/archive
 		@ for dir in tmp lists/test-l.archive lists/test-l-digest.archive digests/test-l-digest doc; do \
-			${MKDIR} -p ${PREFIX}/majordomo/$$dir; \
+			${MKDIR} ${PREFIX}/majordomo/$$dir; \
 		done
 		@ /usr/sbin/chown majordom.majordom ${PREFIX}/majordomo/tmp
 		@ /bin/chmod 700 ${PREFIX}/majordomo/tmp
