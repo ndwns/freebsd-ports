@@ -5,6 +5,7 @@
     SUBDIR += chipmunk
     SUBDIR += irsim
     SUBDIR += magic
+    SUBDIR += mars
     SUBDIR += pcb
     SUBDIR += spice
 

@@ -17,6 +17,7 @@
     SUBDIR += latex
     SUBDIR += latex209
     SUBDIR += lout
+    SUBDIR += lprps
     SUBDIR += lyx
     SUBDIR += makeindex
     SUBDIR += mltex
