@@ -15,7 +15,6 @@ DISTFILES=	VFlib2-2.24.1.tar.gz watanabe-vf.tar.Z
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
 LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
 
 VFLIB_VERSION=	2.24.1
@@ -35,8 +34,8 @@ pre-install:
 	${MKDIR} ${PREFIX}/share/fonts/watanabe_font
 	tar -C ${PREFIX}/share/fonts/watanabe_font \
 	  -xzf ${DISTDIR}/watanabe-vf.tar.Z
+
 post-install:
 	${MV} ${PREFIX}/share/VFlib/${VFLIB_VERSION}/VF.h ${PREFIX}/include
-	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
