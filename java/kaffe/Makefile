@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.sarc.city.ac.uk/pub/kaffe/ \
 		ftp://alterego.stack.urc.tue.nl/pub/kaffe/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	xaa@stack.urc.tue.nl
+MAINTAINER=	xaa@stack.nl
 
 RUN_DEPENDS=	${PREFIX}/share/java/classes.zip:${PORTSDIR}/www/jdk
 
