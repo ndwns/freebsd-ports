@@ -7,9 +7,9 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.41I.freebsd
+DISTNAME=	lsof_4.41H.freebsd
 #DISTNAME=	lsof_4.40_W
-PKGNAME=	lsof-4.40i
+PKGNAME=	lsof-4.40h
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/NEW/  \
@@ -49,7 +49,7 @@ post-extract:
 	)
 	@( cd ${WRKSRC} ; echo "y" | ./Inventory || exit 1 )
 .else
-WRKSRC=${WRKDIR}/lsof_4.41I.freebsd
+WRKSRC=${WRKDIR}/lsof_4.41H.freebsd
 .endif
 
 #pre-patch:
