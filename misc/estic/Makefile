@@ -18,6 +18,7 @@ MAINTAINER=		jhs@FreeBSD.org
 
 BUILD_DEPENDS=		unzip:${PORTSDIR}/archivers/unzip
 
+USE_XLIB=		yes
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=#	-q
 NO_WRKSUBDIR=		yes

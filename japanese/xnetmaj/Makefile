@@ -14,6 +14,8 @@ DISTFILES=	netmaj-2.0.7.tar.gz netmaj-xui-2.0.7.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_X_PREFIX=	yes
 ALL_TARGET=	libs all
 INSTALL_TARGET=	install install-pf

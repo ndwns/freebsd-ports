@@ -18,6 +18,8 @@ MAINTAINER=	jkoshy@freebsd.org
 
 LIB_DEPENDS=	png.2:${PORTSDIR}/graphics/png
 
+USE_XLIB=	yes
+
 # This port will benefit from all-stops-out optimization of the code
 
 GNU_CONFIGURE=	yes

@@ -16,6 +16,7 @@ MAINTAINER=	chuckr@FreeBSD.org
 LIB_DEPENDS=    png.2:${PORTSDIR}/graphics/png
 BUILD_DEPENDS=	$(PREFIX)/lib/libgd.a:${PORTSDIR}/graphics/gd
 
+USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/gnuplot
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--exec-prefix=${PREFIX} \

@@ -13,6 +13,7 @@ DISTFILES=	magic-6_5_tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
+USE_XLIB=	yes
 USE_GMAKE=	yes
 
 BINS=	magic ext2sim magicusage net2ir extcheck X11Helper ext2spice

@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 MAN1=		asclock.1
 

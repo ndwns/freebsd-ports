@@ -19,6 +19,8 @@ MAINTAINER=     eric@cybernut.com
 
 LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 
+USE_XLIB=	yes
+
 # comment out the next line if you don't want the X version of JED.
 XJED=	xjed
 

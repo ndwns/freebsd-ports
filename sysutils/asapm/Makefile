@@ -12,6 +12,8 @@ MASTER_SITES=	http://bewoner.dma.be/Albert/linux/software/
 
 MAINTAINER=	handy@physics.montana.edu
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_X_PREFIX=	yes
 
 MAN1=		asapm.1x

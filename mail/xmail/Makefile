@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 MAN1=		xmail.1
 MANCOMPRESSED=	no

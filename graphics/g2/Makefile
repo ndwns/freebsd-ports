@@ -15,6 +15,7 @@ MAINTAINER=	billf@chc-chimes.com
 
 BUILD_DEPENDS=  ${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=  CFLAGS="${CFLAGS} -I${PREFIX}/include/gd"
 
