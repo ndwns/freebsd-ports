@@ -20,7 +20,7 @@ MAINTAINER=	jmz@FreeBSD.ORG
 
 # Define FORCE_PACKAGE from the command line if you want to override
 # this and build a package
-NO_PACKAGE=	yes
+NO_PACKAGE=	"Binary package distributed by XFree86 already"
 IS_INTERACTIVE=	yes	# configure script asks questions
 USE_X11=	yes
 ALL_TARGET=	World
