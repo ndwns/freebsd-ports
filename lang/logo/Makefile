@@ -6,17 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	ucblogo
-PKGNAME=	ucblogo-3.1
+DISTNAME=	ucblogo-3.3
 CATEGORIES+=	languages
-MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
-EXTRACT_SUFX=	.tar.Z
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/GNU/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
 MAKEFILE=	makefile
 MAKE_FLAGS+=	"LIBLOC = ${PREFIX}/lib/logo"
-WRKSRC=	${WRKDIR}
 HAS_CONFIGURE=	yes
 
 .include <bsd.port.mk>
