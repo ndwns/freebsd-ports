@@ -18,18 +18,18 @@ USE_PERL5=	yes
 
 pre-extract:
 	@if [ -x ${PREFIX}/sbin/httpd ]; then \
-	echo Good ! You seem to have apache webserver installed ...; \
+	${ECHO_MSG} Good ! You seem to have apache webserver installed ...; \
 	else \
-	echo You need to install one of the different apache webservers; \
-	echo Best would be apache13-modssl or apache13-php3 that can be; \
-	echo configured to use modssl for better security as well; \
+	${ECHO_MSG} You need to install one of the different apache webservers; \
+	${ECHO_MSG} Best would be apache13-modssl or apache13-php3 that can be; \
+	${ECHO_MSG} configured to use modssl for better security as well; \
 	exit 1; \
 	fi
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/webmin
 	${CP} -r ${WRKSRC}/* ${PREFIX}/lib/webmin
-	@cd ${PREFIX}/lib/webmin && find . -name "*.orig" -print | xargs rm
+	@cd ${PREFIX}/lib/webmin && find . -name "*.orig" -print | xargs ${RM}
 	@cd ${PREFIX}/lib/webmin && ./setup.sh
 
 .include <bsd.port.mk>
