@@ -47,6 +47,7 @@
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gtk
+    SUBDIR += gtkicq
     SUBDIR += gxditview
     SUBDIR += handbook
     SUBDIR += hex
