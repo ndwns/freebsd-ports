@@ -32,6 +32,7 @@
     SUBDIR += linux_devel
     SUBDIR += linuxgdb
     SUBDIR += m4
+    SUBDIR += makedepend
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += noweb
