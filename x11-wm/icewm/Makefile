@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	icewm-0.9.34
+DISTNAME=	icewm-0.9.36
 CATEGORIES=	x11-wm
 MASTER_SITES=	http://www.kiss.uni-lj.si/~k4fr0235/icewm/devel/ \
-		http://www.freebsd.org/~vanilla/
+		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/icewm/
 EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	nacai@iname.com
