@@ -1,16 +1,15 @@
 # New ports collection makefile for:    arena
-# Version required:     beta-2b
+# Version required:     i18n beta-3b
 # Date created:         Dec 1 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       arena-beta-2b
-PKGNAME=        arena-b2b
-CATEGORIES+=    www
-MASTER_SITES=   ftp://ftp.w3.org/pub/arena/beta-2/
-EXTRACT_SUFX=   -src.tar.gz
+DISTNAME=       arena-CJK-beta3a
+PKGNAME=        arena-i18n-beta3b
+CATEGORIES=     www
+MASTER_SITES=   ftp://ftp-eu.w3.org/pub/Arena/beta-3/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
@@ -21,9 +20,9 @@ WRKSRC=         ${WRKDIR}/WWW
 
 do-build:
 	cd ${WRKSRC}/Library/freebsd; ${MAKE}
-	cd ${WRKSRC}; ln -fs ${PREFIX}/include Implementation
 	cd ${WRKSRC}/Arena/freebsd; \
-	${MAKE} LFLAGS=-L${PREFIX}/lib \
+	${MAKE} PREFIX=${PREFIX} LFLAGS=-L${PREFIX}/lib \
+		XLIBDIR=${X11BASE}/lib \
 		JPEGDIR=${WRKSRC} PNGDIR=${WRKSRC} ZLIBDIR=${WRKSRC} \
 		JPEGLIB=-ljpeg PNGLIB=-lpng ZLIB=-lz
 
