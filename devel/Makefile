@@ -2,6 +2,7 @@
 #
 
     SUBDIR += ElectricFence
+    SUBDIR += ORBacus
     SUBDIR += SWIG
     SUBDIR += SpecTcl
     SUBDIR += a2dev
