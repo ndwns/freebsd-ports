@@ -8,7 +8,7 @@
 
 DISTNAME=	yale-tftpd-3.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.cisco.com/pub/
+MASTER_SITES=	ftp://ftp.cert.dfn.de/pub/tools/net/yale-tftpd/
 
 MAINTAINER=	ports@FreeBSD.org
 
