@@ -14,8 +14,6 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	kaveman@magna.com.au
 
-BROKEN_ELF=	install
-
 # documentation in ftp://ic.eecs.berkeley.edu/pub/Spice3/um.3f3.ps
 
 #		These are included as patch-ab
