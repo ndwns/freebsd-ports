@@ -24,7 +24,7 @@ USE_IMAKE=	yes
 
 post-install:
 	@echo "installing default system.fvwmrc file..."
-	@mv -f ${PREFIX}/lib/X11/fvwm95-2/system.fvwmrc \
+	@-mv -f ${PREFIX}/lib/X11/fvwm95-2/system.fvwmrc \
 		${PREFIX}/lib/X11/fvwm95-2/system.fvwmrc.old
 	${INSTALL} -c -m 444 ${WRKSRC}/example.fvwm2rc95 \
 		${PREFIX}/lib/X11/fvwm95-2/system.fvwmrc
