@@ -66,6 +66,13 @@ pre-fetch:
 	@${ECHO_MSG} "Building PostgreSQL with \"libpgtcl\"."
 .endif
 
+post-patch:
+
+	@ ${MV} ${WRKSRC}/template/freebsd ${WRKSRC}/template/freebsd.orig
+	@ ${SED} -e 's#CFLAGS:-O2 -m486 -pipe#CFLAGS:${CFLAGS}#' \
+		-e 's#USE_LOCALE:no#USE_LOCALE:yes#' \
+	${WRKSRC}/template/freebsd.orig >> ${WRKSRC}/template/freebsd
+
 post-build:
 	@ ${ECHO} "------------------------------------------------------------"
 	@ ${ECHO} "Dump existing databases, before installing new db version !!"
