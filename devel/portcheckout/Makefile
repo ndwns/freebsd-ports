@@ -1,4 +1,4 @@
-# New ports collection makefile for:    manck
+# New ports collection makefile for:    portcheckout
 # Version required:     1.0
 # Date created:         1 November 1998
 # Whom:                 wosch
@@ -12,5 +12,7 @@ MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 MAINTAINER=     wosch@FreeBSD.org
 
 USE_PERL5=      YES
+MAN1=		portcheckout.1
+MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
