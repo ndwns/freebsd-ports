@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.5/english/unix/unsuppo
 
 MAINTAINER=     thepish@FreeBSD.ORG
 
+BROKEN=		PLIST
+
 NO_LATEST_LINK=	yes
 WRKSRC=         ${WRKDIR}/communicator-v45.x86-unknown-freebsd
 NO_BUILD=       Yes
