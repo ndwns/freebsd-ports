@@ -8,20 +8,16 @@
 #
 
 DISTNAME=	leafnode-1.0.1
-CATEGORIES+=	news
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/system/news/readers/ \
-		ftp://sunsite.doc.ic.ac.uk/Mirrors/sunsite.unc.edu/pub/Linux/system/news/readers/
-MAINTAINER=	brian@awfulhak.org
+CATEGORIES=	news
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/news/readers
 EXTRACT_SUFX=	.ELF.tgz
+
+MAINTAINER=	brian@awfulhak.org
+
+MAN8=		fetch.8 leafnode.8 texpire.8
 
 post-install:
 	strip ${PREFIX}/sbin/fetch ${PREFIX}/sbin/leafnode ${PREFIX}/sbin/texpire
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man8/fetch.8 ${PREFIX}/man/man8/leafnode.8 \
-		${PREFIX}/man/man8/texpire.8
-	chmod 444 ${PREFIX}/man/man8/fetch.8.gz \
-		${PREFIX}/man/man8/leafnode.8.gz \
-		${PREFIX}/man/man8/texpire.8.gz
-.endif
 
 .include <bsd.port.mk>
