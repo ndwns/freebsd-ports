@@ -6,6 +6,7 @@
     SUBDIR += 225upgrade
     SUBDIR += 227upgrade
     SUBDIR += 30upgrade
+    SUBDIR += 31upgrade
     SUBDIR += acron
     SUBDIR += amanda
     SUBDIR += amanda24
