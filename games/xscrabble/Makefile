@@ -9,13 +9,11 @@
 DISTNAME=	xscrabble
 PKGNAME=	xscrabble-1.0
 CATEGORIES=	games
-MASTER_SITES=	http://www.belgarath.demon.co.uk/programs/
+MASTER_SITES=	http://www.freebsd.org/~mph/distfiles/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
-
-BROKEN= "/usr/bin/tar: Unexpected EOF on archive file"
 
 USE_IMAKE=		yes
 NO_INSTALL_MANPAGES=	yes
