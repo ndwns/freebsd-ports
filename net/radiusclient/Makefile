@@ -18,8 +18,8 @@ USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
 pre-configure:
-	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.2/ltconfig ${WRKSRC}
-	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.2/ltmain.sh ${WRKSRC}
+	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.3/ltconfig ${WRKSRC}
+	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.3/ltmain.sh ${WRKSRC}
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
