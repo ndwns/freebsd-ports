@@ -19,6 +19,8 @@ BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
 		${PREFIX}/lib/perl5/site_perl/Net/FTP.pm:${PORTSDIR}/net/p5-Net
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
+IS_INTERACTIVE=	YES
+
 MAN1=		lwp-mirror.1 lwp-request.1 lwp-rget.1 lwp-download.1
 MAN3=		File::CounterFile.3 File::Listing.3 Font::AFM.3 \
 		HTML::AsSubs.3 HTML::Element.3 HTML::Entities.3 \
