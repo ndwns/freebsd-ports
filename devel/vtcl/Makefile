@@ -18,6 +18,7 @@ RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/vtcl
 NO_BUILD=	yes
+DIST_SUBDIR=	vtcl
 
 do-install:
 	@ ${MKDIR} ${PREFIX}/lib/vtcl/images
