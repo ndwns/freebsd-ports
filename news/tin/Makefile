@@ -11,7 +11,8 @@ DISTNAME=       tin1.3-unoff-BETA-970127
 PKGNAME=        tin-1.3.970127
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.akk.uni-karlsruhe.de/pub/tin/  \
-		ftp://nuxi.cs.ucdavis.edu/pub/tin/
+		ftp://nuxi.ucdavis.edu/pub/tin/  \
+		ftp://ftp.nuxi.com/pub/tin/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ache@FreeBSD.org
