@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	ghostscript psutils tex latex
+SUBDIR=	dvips ghostscript psutils tex latex
 
 .include <bsd.port.subdir.mk>
