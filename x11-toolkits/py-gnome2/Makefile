@@ -17,6 +17,12 @@ MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         python
+.endif
+
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 LIB_DEPENDS=	Imlib.1:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
