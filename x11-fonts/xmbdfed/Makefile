@@ -10,10 +10,10 @@ DISTNAME=	xmbdfed-3.4
 CATEGORIES=	x11-fonts
 MASTER_SITES=	ftp://crl.nmsu.edu/CLR/multiling/General/
 
-MAINTAINER=	jfieber@FreeBSD.ORG
-
 PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	xmbdfed-3.4.patch1
+
+MAINTAINER=	jfieber@FreeBSD.ORG
 
 USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
