@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	zebra-0.68
+DISTNAME=	zebra-0.73
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 # you might need debugging, it's a developer release !
-#CFLAGS+=	-g
+CFLAGS+=	-g
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
