@@ -15,5 +15,7 @@ RESTRICTED += mmv               # restrictive copyright
     SUBDIR += recode
     SUBDIR += rman
     SUBDIR += screen
+    SUBDIR += tkinfo
+    SUBDIR += tkman
 
 .include <bsd.port.subdir.mk>
