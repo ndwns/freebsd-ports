@@ -8,7 +8,7 @@
 
 DISTNAME=	xroads-v0.1.5
 PKGNAME=	xroads-0.1.5
-CATEGORIES=	games x11
+CATEGORIES=	games
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Way/1795/ \
 		http://www.autobahn.mb.ca/~foxtrot/ \
 		http://supernova.dyn.ml.org/
