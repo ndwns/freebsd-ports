@@ -6,6 +6,7 @@
     SUBDIR += bison
     SUBDIR += cflow
     SUBDIR += dmake
+    SUBDIR += flex
     SUBDIR += gmake
     SUBDIR += gperf
     SUBDIR += libdlmalloc
