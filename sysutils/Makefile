@@ -14,6 +14,7 @@
     SUBDIR += mei
     SUBDIR += mkisofs
     SUBDIR += pib
+    SUBDIR += rdate
     SUBDIR += rtty
     SUBDIR += setquota
     SUBDIR += skill
