@@ -20,6 +20,7 @@
     SUBDIR += pilot_makedoc
     SUBDIR += rman
     SUBDIR += sgmlformat
+    SUBDIR += sgrep
     SUBDIR += sp
     SUBDIR += texi2html
     SUBDIR += tth
