@@ -18,10 +18,15 @@ MASTER_SITES=	http://www.oac.uci.edu/indiv/ehood/tar/ \
 MAINTAINER=	jkoshy@freebsd.org
 
 USE_PERL5=	Yes
-
 NO_BUILD=	Yes
+
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} >= 300003
+BROKEN=		installs in /usr/local/local/lib/perl5
+.endif
 
 do-install:
 	cd ${WRKSRC} && ${PERL5} install.me -prefix ${PREFIX} -batch
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
