@@ -1,13 +1,13 @@
 # New ports collection makefile for:	zsh
-# Version required:     	2.6 beta13
+# Version required:     	2.6 beta21
 # Date created:			11 Feb. 1995
 # Whom:				torstenb
 #
 # $Id$
 #
 
-DISTNAME=       zsh-2.6-beta17
-PKGNAME=	zsh-2.6b17
+DISTNAME=       zsh-2.6-beta21
+PKGNAME=	zsh-2.6b21
 CATEGORIES+=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
 		ftp://ftp.sterling.com/zsh/ \
