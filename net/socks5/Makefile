@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.nec.com/pub/socks/socks5/
 MAINTAINER=	ambrisko@ambrisko.roble.com
 
 NO_CDROM=	NEC has a funky license for this software
+RESTRICTED=	no commercial use
 NO_PACKAGE=	put an extra slug in to make sure he's dead
 
 # here are some extra configure args you may wish to use
