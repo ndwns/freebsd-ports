@@ -6,18 +6,18 @@
 # $Id$
 #
 
-DISTNAME=	crafty-15.14
+DISTNAME=	crafty-15.15
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cis.uab.edu/pub/hyatt/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/common/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/v15/
-DISTFILES=	crafty-15.14.tar.gz crafty.doc crafty.faq read.me start.zip
+DISTFILES=	crafty-15.15.tar.gz crafty.doc crafty.faq read.me start.zip
 
 MAINTAINER=	seggers@semyam.dinoco.de
 
 ALL_TARGET=	crafty
 DIST_SUBDIR=	crafty
-EXTRACT_ONLY=	crafty-15.14.tar.gz
+EXTRACT_ONLY=	crafty-15.15.tar.gz
 
 MAN6=		crafty.6
 NO_WRKSUBDIR=	yes
