@@ -18,7 +18,7 @@ LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3 \
 		Mesatk.14:${PORTSDIR}/graphics/Mesa3 \
 		glut.3:${PORTSDIR}/graphics/Mesa3
 
-BROKEN=		can't find mesatk
+BROKEN=		can\'t find mesatk
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/glbiff
