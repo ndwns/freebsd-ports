@@ -8,15 +8,9 @@
 
 PKGNAME=	quakeserver-1.01
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.stomped.com/pub/idstuff/quake/ \
-		ftp://ftp.stomped.com/pub/quake/x_linux/ \
-		ftp://ftp1.idsoftware.com/idstuff/quake/ \
-		ftp://ftp2.idsoftware.com/idstuff/quake/ \
-		ftp://ftp.cdrom.com/pub/idgames/idstuff/quake/ \
-		ftp://quake.best.com/pub/idsoftware/quake/ \
-		ftp://ftp.nuqneH.org/pub/quake/idsoftware/ \
-		ftp://ftp.sun.ac.za/pub/msdos/idgames/idstuff/quake/ \
-		ftp://iconz.co.nz/pub/quake/
+MASTER_SITES=	ftp://ftp.gamesdomain.com/pub/idsoftware/quake/ \
+		ftp://ftp.cssweb.com/pub/games/idstuff/quake/
+		ftp://ftp.feist.com/pub/pc/games/quake/ \
 DISTFILES=	quake101.zip \
 		quake-FreeBSD.tar.gz \
 		intel_linux_quake101.tgz
