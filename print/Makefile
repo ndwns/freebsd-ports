@@ -7,6 +7,7 @@
     SUBDIR += a2ps43-a4
     SUBDIR += a2ps43-letter
     SUBDIR += acroread
+    SUBDIR += acroread-commfont
     SUBDIR += acroread4
     SUBDIR += afm
     SUBDIR += amspsfnt
