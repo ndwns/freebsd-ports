@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
 MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	esd.1:${PORTSDIR}/audio/esound \
-		Fnlib.0:${PORTSDIR}/graphics/fnlib \
+		Fnlib.4:${PORTSDIR}/graphics/fnlib \
 		gif.3:${PORTSDIR}/graphics/giflib \
 		Imlib.4:${PORTSDIR}/graphics/imlib \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
