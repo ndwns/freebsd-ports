@@ -4,6 +4,7 @@
     SUBDIR += Wnn
     SUBDIR += afterstep
     SUBDIR += elm
+    SUBDIR += ftghostscript5
     SUBDIR += fvwm95
     SUBDIR += h2ps
     SUBDIR += han
