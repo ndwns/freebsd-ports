@@ -103,6 +103,7 @@
     SUBDIR += tinymux
     SUBDIR += tksol
     SUBDIR += tvp
+    SUBDIR += omega
     SUBDIR += uox3
     SUBDIR += wmeyes
     SUBDIR += wmtictactoe
