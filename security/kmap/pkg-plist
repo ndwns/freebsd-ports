@@ -3,4 +3,3 @@ bin/kmap
 share/applnk/Applications/kmap.kdelnk
 share/icons/kmap.xpm
 share/icons/mini/kmap.xpm
-@dirrm share/doc/HTML/en/kmap
