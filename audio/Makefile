@@ -18,8 +18,10 @@
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += icecast
+    SUBDIR += id3ren
     SUBDIR += kdemultimedia
     SUBDIR += kdemultimedia11
+    SUBDIR += kmikmod
     SUBDIR += kmpg
     SUBDIR += lamer
     SUBDIR += libaudiofile
@@ -39,6 +41,7 @@
     SUBDIR += radio
     SUBDIR += replay
     SUBDIR += rio
+    SUBDIR += ripenc
     SUBDIR += rosegarden
     SUBDIR += rplay
     SUBDIR += rsynth
