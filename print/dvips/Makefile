@@ -28,6 +28,6 @@ post-install:
 	@install -c  -m 644 ${WRKDIR}/dvips576/PSvfs/*.vf ${PREFIX}/share/texmf/fonts/vf
 
 pre-clean:
-	@rm -f ${SCRIPTDIR}/post-install
+	@${RM} -f ${SCRIPTDIR}/post-install
 
 .include <bsd.port.mk>

@@ -53,7 +53,7 @@ post-patch:
 	FILES=`find . -type f -print | xargs ${GREP} -l @@PREFIX@@`; \
 	for FILE in $$FILES; do \
 	  ${SED} 's!@@PREFIX@@!${PREFIX}!g' < $$FILE > $$FILE.new ; \
-	  mv $$FILE.new $$FILE; \
+	  ${MV} $$FILE.new $$FILE; \
 	done
 
 .include <bsd.port.pre.mk>

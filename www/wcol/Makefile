@@ -24,8 +24,8 @@ DEFAULT_POOLDIR?=/var/spool/wcol
 MAKE_ENV+=DEFAULT_POOLDIR=${DEFAULT_POOLDIR}
 
 pre-patch:
-	@rm -f ${WRKSRC}/../admin/killwcol.in
-	@mv -f ${WRKSRC}/../admin/killwcol ${WRKSRC}/../admin/killwcol.in
+	@${RM} -f ${WRKSRC}/../admin/killwcol.in
+	@${MV} -f ${WRKSRC}/../admin/killwcol ${WRKSRC}/../admin/killwcol.in
 
 post-install:
 	@if [ ! -d ${DEFAULT_POOLDIR} ]; then \

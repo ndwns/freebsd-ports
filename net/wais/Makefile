@@ -21,7 +21,7 @@ is_depended: all
 
 pre-patch:
 	@${CP} ${WRKSRC}/Makefile.bsdi ${WRKSRC}/Makefile.freebsd
-	@mv ${WRKSRC}/src/client/x/Imakefile ${WRKDIR} \
+	@${MV} ${WRKSRC}/src/client/x/Imakefile ${WRKDIR} \
 	&& ${SED} -e '\;/SETME_IN_Imakefile;s;;${WRKSRC};' \
 		<${WRKDIR}/Imakefile >${WRKSRC}/src/client/x/Imakefile
 

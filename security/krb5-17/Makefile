@@ -167,7 +167,7 @@ post-install:
 # XXX Not sure why tmac.doc is installed here -- I don't think
 #     we need it.  I should patch the distribution to not install
 #     it, I think.
-	@rm -f ${PREFIX}/man/man1/tmac.doc
+	@${RM} -f ${PREFIX}/man/man1/tmac.doc
 # shared libs
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 # html documentation

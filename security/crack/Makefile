@@ -23,8 +23,8 @@ WRKSRC=		${WRKDIR}/c50a
 
 pre-configure:
 .if !defined(USE_DES)
-	@/bin/mv -f ${WRKSRC}/src/libdes ${WRKSRC}/src/libdes.notused
-	@/bin/mv -f ${WRKSRC}/src/util/elcid.c ${WRKSRC}/src/util/elcid.c.orig
+	@${MV} -f ${WRKSRC}/src/libdes ${WRKSRC}/src/libdes.notused
+	@${MV} -f ${WRKSRC}/src/util/elcid.c ${WRKSRC}/src/util/elcid.c.orig
 	@${CP} -p ${WRKSRC}/src/util/elcid.c,bsd ${WRKSRC}/src/util/elcid.c
 .endif
 	@${ECHO} "XLIB+= -lcrypt" >> ${WRKSRC}/src/util/Makefile

@@ -23,7 +23,7 @@ USE_X_PREFIX=	yes
 pre-install:
 	@tclsh8.0 ${SCRIPTDIR}/mktclIndex ${WRKSRC}
 	@${SED} s#@X11BASE@#${X11BASE}# <${WRKSRC}/X-Files.tcl >${WRKSRC}/tmpfile
-	@mv ${WRKSRC}/tmpfile ${WRKSRC}/X-Files.tcl
+	@${MV} ${WRKSRC}/tmpfile ${WRKSRC}/X-Files.tcl
 
 do-install:
 	@${MKDIR} ${PREFIX}/lib/X11/X-Files

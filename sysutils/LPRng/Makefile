@@ -37,7 +37,7 @@ post-install:
 		${CP} ${DISTDIR}/$$file ${PREFIX}/share/doc/LPRng; \
 		cd ${PREFIX}/share/doc/LPRng; \
 		tar xvfz $$file; \
-		rm ${PREFIX}/share/doc/LPRng/$$file; \
+		${RM} ${PREFIX}/share/doc/LPRng/$$file; \
 	done
 	@${CAT} ${PKGDIR}/MESSAGE
 

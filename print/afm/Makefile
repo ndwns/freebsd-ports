@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://sgi.com/sgi/fax/source/
 EXTRACT_SUFX=   -tar.Z
 
 pre-patch:
-	@rm -rf ${WRKSRC}/RCS
+	@${RM} -rf ${WRKSRC}/RCS
 
 do-build:
 	@${TRUE}

@@ -27,7 +27,7 @@ OBJS=           language.txt ru.hlp
 do-install:
 	[ -d ${PGPLIB} ] || ${MKDIR} ${PGPLIB}
 	cd ${WRKSRC}; install -c -o bin -g bin -m 444 ${OBJS} ${PGPLIB}
-	cd ${WRKSRC}; tr -d '\015' < NOTES.ru > ${PGPLIB}/NOTES.ru
+	cd ${WRKSRC}; ${TR} -d '\015' < NOTES.ru > ${PGPLIB}/NOTES.ru
 	cd ${PGPLIB}; ${GREP} -l -q '^Language.*=.*ru' config.txt || { \
 		${CP} config.txt config.txt.bak; \
 		${SED} 's/^Language.*=.*$$/Language = ru/' < config.txt.bak > config.txt; }

@@ -43,7 +43,7 @@ post-build:
 	@${CHMOD} o+r ${WRKDIR}/dgd/doc/kfun/*
 
 do-install:
-	@-mv ${PREFIX}/dgd/bin/driver ${PREFIX}/dgd/bin/driver.old
+	@-${MV} ${PREFIX}/dgd/bin/driver ${PREFIX}/dgd/bin/driver.old
 	@tar -C ${WRKDIR} -cf - `${GREP} '^dgd/' ${PKGDIR}/PLIST` \
 		| tar -C ${PREFIX} -xpf -
 

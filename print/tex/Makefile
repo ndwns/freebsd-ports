@@ -31,7 +31,7 @@ post-install:
 	@for i in kpsewhich dmp bibtex dvicopy dvitomp dvitype gftodvi gftopk \
 	  gftype mf mft patgen pktogf pktype pltotf pooltype tangle tex tftopl \
 	  vftovp vptovf weave; do strip ${PREFIX}/bin/$$i; done
-	@rm -f ${PREFIX}/bin/mpostf ${PREFIX}/bin/inimpost ${PREFIX}/bin/virmpost  ${PREFIX}/bin/latex \
+	@${RM} -f ${PREFIX}/bin/mpostf ${PREFIX}/bin/inimpost ${PREFIX}/bin/virmpost  ${PREFIX}/bin/latex \
 	  ${PREFIX}/share/texmf/web2c/mpost.mem ${PREFIX}/share/texmf/web2c/mp.pool
 	@${MKDIR} ${PREFIX}/share/texmf/fonts/tfm
 	@(cd ${WRKDIR}/tfm; ${INSTALL_DATA} *.tfm ${PREFIX}/share/texmf/fonts/tfm)

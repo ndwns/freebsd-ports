@@ -32,7 +32,7 @@ CYRF = ${XLIB}/fonts/cyrillic
 #Be careful to not delete embedded tab characters
 do-install:
 	-if [ ! -d ${CYRF}.old ]; then \
-		mv ${CYRF} ${CYRF}.old; \
+		${MV} ${CYRF} ${CYRF}.old; \
 	fi
 	-${MKDIR} ${CYRF}/100dpi
 	-${MKDIR} ${CYRF}/75dpi

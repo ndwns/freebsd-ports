@@ -19,7 +19,7 @@ USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 
 post-install:
-	@rm -f ${PREFIX}/fcgi-devkit/libfcgi/os_unix.c.orig \
+	@${RM} -f ${PREFIX}/fcgi-devkit/libfcgi/os_unix.c.orig \
 	       ${PREFIX}/fcgi-devkit/Makefile.in.orig
 
 .include <bsd.port.mk>

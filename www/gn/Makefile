@@ -29,19 +29,19 @@ pre-install:
 	@${MKDIR} ${WRKSRC}/etc ${WRKSRC}/libexec ${WRKSRC}/gnroot
 	@cd ${WRKSRC}/gnroot; \
 		tar -cf - -C ${WRKSRC} docs | tar xpf - && \
-			mv docs/sample.root.menu menu
+			${MV} docs/sample.root.menu menu
 
 post-install:
 	@cd ${PREFIX}; \
 	  [ -s etc/gn_mime.types ] && \
 	  if ! cmp -s etc/gn_mime.types ${WRKSRC}/etc/gn_mime.types; then \
-		${ECHO} mv etc/gn_mime.types etc/gn_mime.types.old; \
-		mv etc/gn_mime.types etc/gn_mime.types.old; \
+		${ECHO} ${MV} etc/gn_mime.types etc/gn_mime.types.old; \
+		${MV} etc/gn_mime.types etc/gn_mime.types.old; \
   	  fi; \
 	  [ -s gnroot/menu ] && \
 	  if ! cmp -s gnroot/menu ${WRKSRC}/gnroot/menu; then \
-		${ECHO} mv gnroot/menu gnroot/menu.old; \
-		mv gnroot/menu gnroot/menu.old; \
+		${ECHO} ${MV} gnroot/menu gnroot/menu.old; \
+		${MV} gnroot/menu gnroot/menu.old; \
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \

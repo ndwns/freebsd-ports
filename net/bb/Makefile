@@ -38,9 +38,9 @@ do-install:
 	@${LN} -fs ${PREFIX}/bb/www ${PREFIX}/share/apache/htdocs/bb
 	@${LN} -fs bb.html ${PREFIX}/bb/www/index.html
 	@${LN} -fs ${PREFIX}/bb/web/bb-ack.sh ${PREFIX}/share/apache/cgi-bin
-	@mv -f ${PREFIX}/bb/doc/bbclient ${PREFIX}/bb/bin
-	@mv -f ${PREFIX}/bb/doc/bbconfig ${PREFIX}/bb/bin
-	@mv -f ${PREFIX}/bb/doc ${PREFIX}/share/doc/bb
+	@${MV} -f ${PREFIX}/bb/doc/bbclient ${PREFIX}/bb/bin
+	@${MV} -f ${PREFIX}/bb/doc/bbconfig ${PREFIX}/bb/bin
+	@${MV} -f ${PREFIX}/bb/doc ${PREFIX}/share/doc/bb
 	@${MKDIR} ${PREFIX}/share/bb/bbclients
 	@${TOUCH} ${PREFIX}/share/bb/bbclients/.keep_me
 	@${RM} ${PREFIX}/bb/KNOWN.BUGS

@@ -20,7 +20,7 @@ NO_WRKSUBDIR=	yes
 MAKE_ENV=	DISTDIR=${DISTDIR} DISTFILES="${DISTFILES}"
 
 do-extract:
-	@rm -fr ${WRKDIR} && \
+	@${RM} -fr ${WRKDIR} && \
 	${MKDIR} ${WRKDIR} && \
 	cd ${WRKDIR} && \
 	for file in ${DISTFILES}; do \

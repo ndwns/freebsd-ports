@@ -31,9 +31,9 @@ ALL_TARGET=
 INSTALL_TARGET=	install links
 
 post-patch:
-	mv ${WRKSRC}/configure ${WRKSRC}/configure.input
+	${MV} ${WRKSRC}/configure ${WRKSRC}/configure.input
 	${SED} "s%__MOTIFLIB__%${MOTIFLIB}%" ${WRKSRC}/configure.input > ${WRKSRC}/configure
-	rm -f ${WRKSRC}/configure.input
+	${RM} -f ${WRKSRC}/configure.input
 	${CHMOD} 755 ${WRKSRC}/configure
 
 .include <bsd.port.mk>
