@@ -21,8 +21,6 @@ BUILD_DEPENDS=	${PREFIX}/sbin/httpd:${PORTSDIR}/www/apache
 # contact Sean MacGuire <sean@iti.qc.ca>.
 #NO_CDROM=	"It can't be sold"
 
-DIST_SUBDIR=	bb-1.04
-
 post-configure:
 	( cd ${WRKSRC}/doc; /bin/sh bbconfig freebsd )
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
