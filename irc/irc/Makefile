@@ -11,10 +11,12 @@ PKGNAME=	irc-2.8.21
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 pre-install:
-	mkdir -p ${PREFIX}/bin
 	mkdir -p ${PREFIX}/lib/ircd
-	mkdir -p ${PREFIX}/man/man1
-	mkdir -p ${PREFIX}/man/man8
+
+post-install:
+	gzip -9nf ${PREFIX}/man/man8/ircd.8
 
 .include <bsd.port.mk>
