@@ -29,6 +29,8 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		mediatool\\.0\\.[6-9]:${PORTSDIR}/x11/kdelibs \
 		mimelib\\.1\\.[0-9]:${PORTSDIR}/converters/kdesupport
 
+BROKEN=		upgrade
+
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"

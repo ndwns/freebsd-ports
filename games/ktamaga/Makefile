@@ -17,6 +17,8 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		kdecore\\.0\\.1[1-9]:${PORTSDIR}/x11/kdelibs
 
+BROKEN=		upgrade
+
 WRKSRC=		${WRKDIR}/tamaga-0.2
 
 .include <bsd.port.mk>
