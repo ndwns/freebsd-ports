@@ -7,7 +7,7 @@
 # $Id$
 #
 
-SNAPDATE=	1999-04-18
+SNAPDATE=	1999-05-17
 SNAPVER=	${SNAPDATE:S/-//g}
 
 DISTNAME=	egcs-${SNAPVER}
@@ -32,7 +32,7 @@ NO_CDROM=	'dated material'
 
 .include <bsd.port.pre.mk>
 
-EGCS_REV=	egcs-2.93.19
+EGCS_REV=	2.93.22
 LIBSTDCPP_REV=	4
 
 .if ${PORTOBJFORMAT} == "elf"
