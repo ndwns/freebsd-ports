@@ -13,12 +13,11 @@ MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
 
-USE_BZIP2=	yes
-
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		kdecore.2:${PORTSDIR}/x11/kdelibs11
 
+USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \

@@ -13,8 +13,6 @@ MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
 
-USE_BZIP2=	yes
-
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
@@ -25,6 +23,7 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		mimelib.1:${PORTSDIR}/converters/kdesupport11 \
 		rdb.55:${PORTSDIR}/converters/kdesupport11
 
+USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
