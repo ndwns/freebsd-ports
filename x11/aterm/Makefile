@@ -1,7 +1,7 @@
 # New ports collection makefile for:   aterm
 # Version required:	0.3.6
 # Date created:		17 January 1999
-# Whom:			Jim Mock <jim@phrantic.phear.net>
+# Whom:			Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://members.xoom.com/sashav/aterm/ \
 		http://www.tigr.net/afterstep/as-apps/download/aterm/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
