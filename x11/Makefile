@@ -73,6 +73,7 @@
     SUBDIR += xstarroll
     SUBDIR += xtacy
     SUBDIR += xtattr
+    SUBDIR += xtermset
     SUBDIR += xtestpicture
     SUBDIR += xtoolwait
     SUBDIR += xwit
