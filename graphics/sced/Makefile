@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       sced-1.01
+DISTNAME=       sced-1.02
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.cs.berkeley.edu/~schenney/sced/src/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
