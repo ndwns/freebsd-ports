@@ -7,11 +7,11 @@
 
 DISTNAME=	xpbiff
 PKGNAME=	xpbiff-1.27
-CATEGORIES?=	mail
+CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.ics.es.osaka-u.ac.jp/pub/xpbiff/
 DISTFILES=	xpbiff-1.27-with-YOUBIN.tar.gz.uu
 
-MAINTAINER?=	sanpei@yy.cs.keio.ac.jp
+MAINTAINER=	sanpei@yy.cs.keio.ac.jp
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
