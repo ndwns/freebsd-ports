@@ -7,14 +7,14 @@
 #
 
 DISTNAME=       cd-write-1.1
-CATEGORIES=     sysutils x11
+CATEGORIES=     sysutils
 MASTER_SITES=   ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=     jmz@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/cd-write
-
 LIB_DEPENDS=	tixsam4175\\.1\\.:${PORTSDIR}/x11/tix
+
+WRKSRC=		${WRKDIR}/cd-write
 
 pre-build:
 	@cd ${WRKSRC}; mv Makefile Makefile~; \
