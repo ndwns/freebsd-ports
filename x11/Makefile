@@ -33,6 +33,7 @@
     SUBDIR += olvwm
     SUBDIR += p5-Tk
     SUBDIR += piewm
+    SUBDIR += pythonqt
     SUBDIR += qt
     SUBDIR += qvwm
     SUBDIR += rclock
