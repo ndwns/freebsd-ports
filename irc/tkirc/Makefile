@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	tkirc-1.151
-CATEGORIES=	net x11 tk80
+DISTNAME=	tkirc1.151
+PKGNAME=	tkirc-1.151
+CATEGORIES=	net tk80
 MASTER_SITES=	ftp://ftp.informatik.uni-oldenburg.de/pub/tkirc/
-DISTFILES=	tkirc1.151.tar.gz
 
 MAINTAINER=	brianfeldman@hotmail.com
 
@@ -18,10 +18,12 @@ RUN_DEPENDS=	irc:${PORTSDIR}/net/ircII \
 
 WRKSRC=		${WRKDIR}/tkirc
 NO_BUILD=	yes
-STRIP=
+
+post-patch:
+	perl -pi.orig -e 's/wish/wish8.0/' ${WRKSRC}/tkirc
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tkirc	  ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/tkirc	  ${PREFIX}/bin
 	${MKDIR} ${PREFIX}/share/doc/tkirc
 	${INSTALL_DATA} ${WRKSRC}/tkircrc-example ${PREFIX}/share/doc/tkirc
 	${INSTALL_DATA} ${WRKSRC}/README	  ${PREFIX}/share/doc/tkirc
