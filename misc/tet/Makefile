@@ -9,7 +9,7 @@
 DISTNAME=		tet3.2c-unsup
 PKGNAME=		tet-3.2c
 CATEGORIES=		misc
-MASTER_SITES=		ftp://ftp.rdg.opengroup.org/pub/TET/TET3
+MASTER_SITES=		ftp://ftp.rdg.opengroup.org/pub/TET/TET3/
 EXTRACT_SUFX=		.src.tgz
 
 MAINTAINER=		jkoshy@freebsd.org
@@ -24,14 +24,22 @@ TET_CONFIG_TARGET?=	inet	# options are `lite', `xti' and `inet'
 do-build:
 	cd ${WRKDIR}/src && ${MAKE} ${ALL_TARGET}
 
-pre-extract pre-clean:
+pre-extract:
 .if !defined(TET_ROOT)
 	@echo
 	@echo "The environment variable \"TET_ROOT\" is not set."
 	@echo "You must set it to the directory where you would like "
-	@echo "this port to reside before attempting extraction or cleaning."
+	@echo "this port to reside before attempting extraction."
 	@echo
 	@false
+.else
+	@true
+.endif
+
+# remove the TET_ROOT directory if it exists
+pre-clean:
+.if defined(TET_ROOT)
+	if [ -d ${TET_ROOT} ]; then ${RM} -rf ${TET_ROOT}; fi
 .else
 	@true
 .endif
