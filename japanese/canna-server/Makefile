@@ -9,7 +9,7 @@
 
 DISTNAME=	Canna32p2
 PKGNAME=	jp-Canna-3.2.2
-CATEGORIES+=	japanese
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/Canna32/ \
 		ftp://ftp.cdrom.com/pub/japanese/titech/Canna32/
 
@@ -53,10 +53,6 @@ post-install:
 		chmod 755 ${STARTUP_SCRIPT} ;				\
 		chown bin.bin ${STARTUP_SCRIPT};			\
 	fi
-	@(grep -v ^# /etc/services | grep canna >/dev/null) || \
-	(echo "Now, you need to add following entry to your /etc/services:" ;\
-	 echo ;\
-	 echo "	canna           5680/tcp" ;\
-	 echo )
+	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
