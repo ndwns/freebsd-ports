@@ -40,7 +40,7 @@ post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
 		echo "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."; \
 		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/apache.sh; \
-		echo "[ -x /usr/local/sbin/httpd ] && /usr/local/sbin/httpd && echo -n ' httpd'" >> ${PREFIX}/etc/rc.d/apache.sh; \
+		echo "[ -x /usr/local/sbin/apachectl ] && /usr/local/sbin/apachectl start && echo -n ' apache'" >> ${PREFIX}/etc/rc.d/apache.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/apache.sh; \
 	fi
 
