@@ -8,7 +8,7 @@
 
 DISTNAME=       bzip-0.21
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://ftp.connectnet.com/pub/bzip/
+MASTER_SITES=   ftp://ftp.connectnet.com/pub/bzip/bzip-0.21/
 
 MAINTAINER=     andreas@FreeBSD.ORG
 
