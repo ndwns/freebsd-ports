@@ -26,7 +26,7 @@ CTAN=		ftp.tex.ac.uk
 BASES=		mf.base cmmf.base 
 FORMATS=	tex.fmt 
 
-CFLAGS=		-O2
+CFLAGS=		-O2 -L${X11BASE}/lib
 
 BUILD_COOKIE=		${WRKDIR}/.build_done
 
