@@ -25,6 +25,8 @@ MAN1=		pmsql.1 dbimon.1
 MAN3=		Msql.3 DBD::mSQL.3
 MAN3PREFIX=	${PREFIX}/lib/perl5
 
+BROKEN=		DEPENDS on databases/msql which is currently BROKEN
+
 do-configure:
 		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PREFIX}/bin/perl Makefile.PL
 
