@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mswordview-0.4.9
-CATEGORIES=	converters
+CATEGORIES=	textproc
 MASTER_SITES=	http://www.csn.ul.ie/~caolan/publink/mswordview/
 
 MAINTAINER=	sumikawa@kame.net

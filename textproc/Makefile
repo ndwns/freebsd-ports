@@ -20,6 +20,7 @@
     SUBDIR += libxml
     SUBDIR += linuxdoc
     SUBDIR += mgdiff
+    SUBDIR += mswordview
     SUBDIR += nfbtrans
     SUBDIR += par
     SUBDIR += pilot_makedoc
