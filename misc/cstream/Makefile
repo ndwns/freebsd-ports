@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cstream-1.1
+DISTNAME=	cstream-1.2
 CATEGORIES=     misc
 MASTER_SITES=   http://www.cons.org/cracauer/download/ \
 		http://www2.cons.org/cracauer/download/ \
