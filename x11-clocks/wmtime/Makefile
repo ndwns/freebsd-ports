@@ -8,7 +8,7 @@
 
 DISTNAME=	wmtime-1.0b2
 CATEGORIES=	x11-clock
-MASTER_SITES=	http://www.xs4all.nl/~warp/files/
+MASTER_SITES=	ftp://ftp.mezaway.org/pub/
 
 MAINTAINER=	rneswold@mcs.net
 
