@@ -6,13 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	nwrite-1.9
+DISTNAME=	nwrite-1.9.2
 CATEGORIES=	misc
-MASTER_SITES=	ftp://ftp.csua.berkeley.edu/pub/daveh/
+MASTER_SITES=	ftp://ftp.csua.berkeley.edu/pub/nwrite/
 
 MAINTAINER=	daveh@csua.berkeley.edu
 
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--enable-clear-procs
+
 MAN1=		nwrite.1
-MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
