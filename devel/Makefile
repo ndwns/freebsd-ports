@@ -10,6 +10,7 @@
     SUBDIR += crosssco
     SUBDIR += cutils
     SUBDIR += cxref
+    SUBDIR += ddd
     SUBDIR += dmake
     SUBDIR += fpp
     SUBDIR += gcc11
