@@ -17,8 +17,6 @@ LIB_DEPENDS=	BLT.2:${PORTSDIR}/x11-toolkits/blt \
 		tcl80.1:${PORTSDIR}/lang/tcl80 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-BROKEN_ELF=	depends on blt
-
 GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install install-man
 MAN1=		ttt.1 tttprobe.1 tttview.1
