@@ -60,9 +60,9 @@ post-install:
 	${CP} -r ${WRKDIR}/crossfire-0.92.8-doc/* ${CFDIR}/doc
 	touch ${PREFIX}/crossfire/lib/bookarch
 	chmod 664 ${PREFIX}/crossfire/lib/bookarch
-	chown -R games.games ${CFDIR}
+	/usr/sbin/chown -R games.games ${CFDIR}
 	chmod 0664 ${PREFIX}/crossfire/lib/highscore
-	chown games.games ${PREFIX}/bin/crossfire
+	/usr/sbin/chown games.games ${PREFIX}/bin/crossfire
 	chmod 6555 ${PREFIX}/bin/crossfire
 	@echo ""
 	@echo "======================================================"

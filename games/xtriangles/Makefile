@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xtriangles
-	@chown bin.bin ${PREFIX}/bin/xtriangles
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xtriangles
 	@${INSTALL_DATA} ${WRKSRC}/Triangles.ad \
 		${PREFIX}/lib/X11/app-defaults/Triangles
 

@@ -19,7 +19,7 @@ pre-configure:
 	@cp ${FILESDIR}/Imakefile ${WRKSRC}
 
 post-install:
-	@chown bin.bin ${PREFIX}/man/man1/yamsweeper.1.gz
-	@chown games.bin ${X11BASE}/lib/X11/app-defaults/Yamsweeper
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/man/man1/yamsweeper.1.gz
+	@/usr/sbin/chown games.${BINGRP} ${X11BASE}/lib/X11/app-defaults/Yamsweeper
 
 .include <bsd.port.mk>

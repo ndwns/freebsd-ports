@@ -12,8 +12,10 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/x11/video
 
-USE_IMAKE=	yes
+MAINTAINER=	swallace@FreeBSD.org
 
 NO_CDROM=	"don't sell for profit"
+USE_IMAKE=	yes
+
 
 .include <bsd.port.mk>

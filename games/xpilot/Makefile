@@ -8,7 +8,11 @@
 
 DISTNAME=       xpilot-3.5.1
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.cs.uit.no/pub/games/xpilot/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
+		ftp://ftp.cs.uit.no/pub/games/xpilot/
+MASTER_SITE_SUBDIR=	games/multiplayer
+
+MAINTAINER=	jmacd@FreeBSD.org
 
 USE_IMAKE=	yes
 

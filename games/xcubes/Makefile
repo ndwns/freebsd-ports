@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xcubes
-	@chown bin.bin ${PREFIX}/bin/xcubes
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xcubes
 	@${INSTALL_DATA} ${WRKSRC}/Cubes.ad ${PREFIX}/lib/X11/app-defaults/Cubes
 
 .include <bsd.port.mk>

@@ -16,10 +16,10 @@ MAINTAINER=	jmz@FreeBSD.org
 USE_IMAKE=	yes
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/lib/xjewel.font
-	@mkdir -p ${PREFIX}/man/man6
-	@(cd ${WRKSRC}/bitmaps/; install -c seven_seg.pcf.Z fonts.dir \
+	@${MKDIR} ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/lib/xjewel.font
+	@${MKDIR} ${PREFIX}/man/man6
+	@(cd ${WRKSRC}/bitmaps/; ${INSTALL_DATA} seven_seg.pcf.Z fonts.dir \
 		${PREFIX}/lib/xjewel.font)
 
 post-install:

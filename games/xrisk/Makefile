@@ -11,6 +11,8 @@ CATEGORIES=	games
 MASTER_SITES=   ftp://geocub.greco-prog.fr/pub/Games/
 EXTRACT_SUFX=   .tar.Z
 
+MAINTAINER=	swallace@FreeBSD.org
+
 USE_X11=	yes
 RESTRICTED=	"Possible trademark infringement"
 

@@ -12,6 +12,8 @@ CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.icm.edu.pl/pub/X11/contrib/games/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	janek@gaja.ipan.lublin.pl
+
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

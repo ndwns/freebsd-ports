@@ -9,7 +9,9 @@
 DISTNAME=       xlife
 PKGNAME=	xlife-3.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
+		ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
+MASTER_SITE_SUBDIR=	../../R5contrib
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	asami@FreeBSD.ORG

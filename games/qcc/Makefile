@@ -18,7 +18,7 @@ MAKEFILE=	makefile
 
 do-install:	
 		${INSTALL_PROGRAM} ${WRKSRC}/qcc ${PREFIX}/bin
-		@ ${MKDIR} -p ${PREFIX}/share/qcc/v101qc
+		@ ${MKDIR} ${PREFIX}/share/qcc/v101qc
 		${INSTALL_DATA} ${WRKSRC}/readme.txt ${PREFIX}/share/qcc
 		${INSTALL_DATA} ${WRKSRC}/v101qc/* ${PREFIX}/share/qcc/v101qc
 

@@ -21,7 +21,7 @@ RESTRICTED=	"The author ashames the quality of this version"
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xpuyo
-	@chown bin.bin ${PREFIX}/bin/xpuyo
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xpuyo
 	${MKDIR} ${PREFIX}/share/doc/xpuyo
 	${INSTALL_DATA} ${FILESDIR}/README ${PREFIX}/share/doc/xpuyo
 

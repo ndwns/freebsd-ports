@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xdino
-	@chown bin.bin ${PREFIX}/bin/xdino
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xdino
 	@${INSTALL_DATA} ${WRKSRC}/Dino.ad ${PREFIX}/lib/X11/app-defaults/Dino
 
 .include <bsd.port.mk>

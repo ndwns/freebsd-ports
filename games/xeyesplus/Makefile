@@ -20,6 +20,6 @@ NO_INSTALL_MANPAGES=	yes
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xeyes+
-	@chown bin.bin ${PREFIX}/bin/xeyes+
+	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xeyes+
 
 .include <bsd.port.mk>

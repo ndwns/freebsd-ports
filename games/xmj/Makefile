@@ -11,6 +11,8 @@ PKGNAME=	xmj-1.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://forte.mathematik.uni-bremen.de/pub/unix/X11/
 
+MAINTAINER=	swallace@FreeBSD.org
+
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
 
