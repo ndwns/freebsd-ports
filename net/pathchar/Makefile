@@ -17,7 +17,6 @@ MAINTAINER=	josh@quick.net
 .if ${PORTOBJFORMAT} == "aout"
 DISTNAME=	pathchar-a0-freebsd-2.2
 PKGNAME=	pathchar-a0
-MD5_FILE=	${FILESDIR}/md5.aout
 .endif
 
 NO_BUILD=	yes
