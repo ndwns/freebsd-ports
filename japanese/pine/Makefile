@@ -18,7 +18,7 @@ PATCH_SITES=	${MASTER_SITE_PORTS_JP}
 
 MAINTAINER=	max@FreeBSD.ORG
 
-#BROKEN_ELF=	yes
+BROKEN_ELF=	yes
 
 LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 BUILD_DEPENDS=	${PREFIX}/lib/libcanna.a:${PORTSDIR}/japanese/Canna
