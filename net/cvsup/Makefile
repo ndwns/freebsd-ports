@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
 
 MAINTAINER=	jdp@FreeBSD.org
 
-LIB_DEPENDS=	m3\\.354\\.:${PORTSDIR}/lang/modula-3
+LIB_DEPENDS=	m3\\.2\\.:${PORTSDIR}/lang/modula-3
 
 MAKE_ENV=	M3FLAGS=-DDYNAMIC
 
