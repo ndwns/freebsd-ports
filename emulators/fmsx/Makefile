@@ -14,6 +14,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	dk@farm.org
 
+USE_XLIB=	yes
 NO_PACKAGE=	${RESTRICTED}
 RESTRICTED=	Legal status of distributed ROM images unclear
 WRKSRC=         ${WRKDIR}/MSX
