@@ -76,6 +76,7 @@
     SUBDIR += rwhois
     SUBDIR += samba
     SUBDIR += scotty
+    SUBDIR += sendfile
     SUBDIR += slirp
     SUBDIR += socks5
     SUBDIR += strobe
