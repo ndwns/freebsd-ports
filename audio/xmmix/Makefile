@@ -7,8 +7,10 @@
 #
 
 DISTNAME=	xmmix-1.2
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/xmmix/
+
+MAINTAINER=	erich@FreeBSD.org
 
 USE_IMAKE=	yes
 REQUIRES_MOTIF=	yes

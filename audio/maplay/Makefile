@@ -8,9 +8,11 @@
 
 DISTNAME=       maplay1_2
 PKGNAME=	maplay-1.2
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=   ftp://ftp.iuma.com/audio_utils/mpeg_players/Workstations/
 EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	jkh@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
 PATCH_STRIP=	-p2

@@ -10,15 +10,17 @@ DISTNAME=	rsynth-2.0
 CATEGORIES=	audio
 MASTER_SITES=	ftp://svr-ftp.eng.cam.ac.uk/pub/comp.speech/synthesis/
 
+MAINTAINER=	faulkner@mpd.tandem.com
+
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 EXEC_DEPENDS=	auvoxware:${PORTSDIR}/audio/nas
 
 GNU_CONFIGURE=	YES
 
 pre-configure:
-	@cp ${FILESDIR}/freebsdplay.c ${WRKSRC}/config/freebsdplay.c
-	@cp ${FILESDIR}/config.guess ${WRKSRC}/config.guess
-	@cp ${FILESDIR}/config.sub ${WRKSRC}/config.sub
-	@cp ${FILESDIR}/configure ${WRKSRC}/configure
+	@${CP} ${FILESDIR}/freebsdplay.c ${WRKSRC}/config/freebsdplay.c
+	@${CP} ${FILESDIR}/config.guess ${WRKSRC}/config.guess
+	@${CP} ${FILESDIR}/config.sub ${WRKSRC}/config.sub
+	@${CP} ${FILESDIR}/configure ${WRKSRC}/configure
 
 .include <bsd.port.mk>

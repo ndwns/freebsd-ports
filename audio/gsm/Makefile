@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       gsm-1.0.10
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.cs.tu-berlin.de/pub/local/kbs/tubmik/gsm/
+
+MAINTAINER=	pst@FreeBSD.org
 
 WRKSRC=         ${WRKDIR}/gsm-1.0-pl10
 

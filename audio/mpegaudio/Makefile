@@ -7,7 +7,7 @@
 
 DISTNAME=	mpegaudio
 PKGNAME=	mpegaudio-3.9
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.iuma.com/audio_utils/converters/source/
 EXTRACT_SUFX=	.tar.Z
 

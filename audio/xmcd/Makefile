@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xmcd-2.0
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/xmcd/ \
 		ftp://crl.dec.com/pub/X11/contrib/applications/xmcd/
 
@@ -18,6 +18,6 @@ USE_IMAKE=	yes
 IS_INTERACTIVE=	yes	# asks a lot of questions
 
 post-install:
-	cp ${WRKSRC}/README ${PREFIX}/lib/X11/xmcd
+	${CP} ${WRKSRC}/README ${PREFIX}/lib/X11/xmcd
 
 .include <bsd.port.mk>

@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       xcdplayer-2.2
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Sun/
+
+MAINTAINER=	swallace@FreeBSD.org
 
 USE_IMAKE=      yes
 

@@ -8,14 +8,14 @@
 
 DISTNAME=       WorkMan-1.3
 PKGNAME=	workman-1.3
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/WorkMan/
 
 MAINTAINER=	d_burr@ix.netcom.com
 
 LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
 
-USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/workman
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

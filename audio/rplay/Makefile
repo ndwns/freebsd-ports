@@ -7,8 +7,10 @@
 #
 
 DISTNAME=	rplay-3.2.0b5
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.sdsu.edu/pub/rplay/
+
+MAINTAINER=	rmallory@csusb.edu
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

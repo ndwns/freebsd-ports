@@ -8,8 +8,10 @@
 
 DISTNAME=	radio2.0.4
 PKGNAME=	radio-2.0.4
-CATEGORIES+=	audio net
+CATEGORIES=	audio net
 MASTER_SITES=	ftp://ftp.cwi.nl/pub/audio/
+
+MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 NO_WRKSUBDIR=	yes
 MAKE_FLAGS=	FreeBSD -f

@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	xcd-1.5
-CATEGORIES+=	audio
+CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
-
-WRKSRC=		${WRKDIR}/xcd
 
 MAINTAINER=	jmz@FreeBSD.org
 
 RUN_DEPENDS=    wish4.1:${PORTSDIR}/x11/tk41
+
+WRKSRC=		${WRKDIR}/xcd
 
 .include <bsd.port.mk>
