@@ -9,6 +9,7 @@
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += emacs20
+    SUBDIR += emacs20-dl
     SUBDIR += gxedit
     SUBDIR += hexedit
     SUBDIR += jed
