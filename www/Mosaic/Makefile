@@ -1,23 +1,25 @@
-# New ports collection makefile for:    Mosaic
-# Version required:     2.6
+# New ports collection makefile for:    Mosaic browser
+# Version required:     2.7b2
 # Date created:         7 August 1995
 # Whom:                 torstenb
 #
 # $Id$
 #
 
-DISTNAME=	Mosaic-src-2.6
-PKGNAME=	mosaic-2.6
+DISTNAME=       Mosaic-src-2.7b2
+PKGNAME=        mosaic-2.7b2
 CATEGORIES=	www
+EXTRACT_SUFX=   .tar.Z
 
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 
-LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=   jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=   png\\.0\\.81:${PORTSDIR}/graphics/png
 WRKSRC=		${WRKDIR}/Mosaic-src
 ALL_TARGET=	default
 
 # don't waste diskspace
 post-extract:
-	@rm -rf ${WRKSRC}/libjpeg
+	@rm -rf ${WRKSRC}/libjpeg ${WRKSRC}/libpng
 
 .include <bsd.port.mk>
