@@ -10,4 +10,4 @@
   # a Bourne script: there is no way to get proper quoting and pass through ``~''
   # in the csh.
   # RCS: $Header$
-! exec wish -f /usr/local/lib/tk/tkinfo/`basename $0.tcl` "$@"
+! exec wish4.1 -f /usr/local/lib/tk/tkinfo/`basename $0.tcl` "$@"

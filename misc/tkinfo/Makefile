@@ -12,6 +12,6 @@ MASTER_SITES=	ftp://ptolemy.eecs.berkeley.edu/pub/misc/
 
 MAINTAINER=	tg@freebsd.org
 
-RUN_DEPENDS=	wish:${PORTSDIR}/x11/tk
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 
 .include <bsd.port.mk>
