@@ -1,6 +1,7 @@
 # $Id$
 #
 
+   SUBDIR += FWF
    SUBDIR += XFree86
    SUBDIR += Xaw3d
    SUBDIR += blt
