@@ -3,6 +3,7 @@
 
     SUBDIR += Wnn
     SUBDIR += afterstep
+    SUBDIR += elm
     SUBDIR += h2ps
     SUBDIR += hanterm
     SUBDIR += hanterm-autofont
