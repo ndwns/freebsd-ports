@@ -11,8 +11,7 @@
 DISTNAME=	tiff-v3.4
 PKGNAME=	tiff-3.4
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://ftp.sgi.com/graphics/tiff/ \
-		ftp://ftp.isri.unlv.edu/pub/mirror/tiff/
+MASTER_SITES=   ftp://ftp.sgi.com/graphics/tiff/
 EXTRACT_SUFX=	-tar.gz
 
 MAINTAINER=	itojun@itojun.org
