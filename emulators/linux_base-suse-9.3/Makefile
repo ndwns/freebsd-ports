@@ -27,6 +27,6 @@ do-install:
 post-install:
 	-/compat/linux/sbin/ldconfig
 	${MKDIR} ${PREFIX}/usr/lib/zoneinfo
-	ln -s /etc/localtime /${PREFIX}/usr/lib/zoneinfo/localtime
+	ln -sf /etc/localtime /${PREFIX}/usr/lib/zoneinfo/localtime
 
 .include <bsd.port.mk>
