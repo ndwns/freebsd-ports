@@ -20,6 +20,6 @@
 
 [ -x !!PREFIX!!/pgsql/bin/postmaster ] && {
 	su -l pgsql -c 'exec !!PREFIX!!/pgsql/bin/postmaster -i -S -o -F \
-		-D!!PREFIX!!/pgsql/data > !!PREFIX!!/pgsql/errlog'
+		2>&1 > !!PREFIX!!/pgsql/errlog'
 	echo -n ' pgsql' 
 }

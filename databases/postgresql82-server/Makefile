@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	postgresql-6.5
+DISTNAME=	postgresql-6.5.1
 CATEGORIES=	databases
 MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
 		ftp://ftp.iodynamics.com/pub/mirror/postgresql/ \
@@ -162,7 +162,7 @@ post-install:
 	@ chown -R pgsql:pgsql ${PREFIX}/pgsql
 	@ ${ECHO} 'Initializing PostgreSQL Databases - this may take a few minutes...'
 	@ ${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/pgsql/lib
-	@ su -l pgsql -c '${PREFIX}/pgsql/bin/initdb --pglib=${PREFIX}/pgsql/lib --pgdata=${PREFIX}/pgsql/data'
+	@ su -l pgsql -c 'PATH=${PREFIX}/pgsql/bin:${PATH} ${PREFIX}/pgsql/bin/initdb --pglib=${PREFIX}/pgsql/lib --pgdata=${PREFIX}/pgsql/data'
 	@ ${SED} -e "s=!!PREFIX!!=${PREFIX}=g" < ${FILESDIR}/pgsql.sh.tmpl \
 		> ${PREFIX}/etc/rc.d/pgsql.sh
 	@ chmod 554 ${PREFIX}/etc/rc.d/pgsql.sh
@@ -207,8 +207,10 @@ post-install:
 .if !defined(BATCH)
 	@ more -e ${FILESDIR}/post-install-notes
 .endif
+.if !defined(DEBUG_FLAGS)
 .for file in ecpg pg_dump pg_id pg_passwd pg_version postgres psql
 	@ strip ${PREFIX}/pgsql/bin/${file}
 .endfor
+.endif
 
 .include <bsd.port.mk>
