@@ -16,6 +16,7 @@
     SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linemode
+    SUBDIR += linux-netscape4
     SUBDIR += lynx
     SUBDIR += mapedit
     SUBDIR += mhonarc
