@@ -8,7 +8,7 @@
 
 DISTNAME=       manck-1.2
 CATEGORIES=	sysutils
-MASTER_SITES=   ${MASTER_SITE_LOCAL}
+MASTER_SITES=   http://www.apfel.de/~wosch/src/
 
 MAINTAINER=     wosch@FreeBSD.org
 
