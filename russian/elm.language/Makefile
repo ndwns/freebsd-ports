@@ -12,8 +12,8 @@ RUN_DEPENDS+=   elm:${PORTSDIR}/mail/elm
 
 MAINTAINER=     ache@FreeBSD.org
 
-NO_EXTRACT=     YES
-NO_WRKDIR=      YES
+EXTRACT_ONLY=   # empty
+NO_WRKSUBDIR=   YES
 NO_BUILD=       YES
 
 do-fetch:
