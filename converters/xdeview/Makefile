@@ -16,9 +16,9 @@ MASTER_SITES=	ftp://ftp.uni-frankfurt.de/pub/dist/frank/ \
 MAINTAINER=	ac199@freenet.hamilton.on.ca
 
 LIB_DEPENDS=    tk41\\.1\\.:${PORTSDIR}/x11/tk41
-LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/devel/uulib
+LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 
-FILESDIR=	${.CURDIR}/../../devel/uulib/files
+FILESDIR=	${.CURDIR}/../../converters/uulib/files
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 ALL_TARGET=	xdeview
