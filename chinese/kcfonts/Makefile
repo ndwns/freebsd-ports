@@ -1,13 +1,13 @@
 # New ports collection makefile for:	kcfonts
-# Version required:			1.01
+# Version required:			1.05
 # Date Created:				5 Dec 1997
 # Whom:					Ming-I Hseh <PA@FreeBSD.Ntu.edu.TW>
 #
 # $Id$
 #
 
-DISTNAME=	kcfonts-1.01
-PKGNAME=	zh-kcfonts-1.01
+DISTNAME=	kcfonts-1.05
+PKGNAME=	zh-kcfonts-1.05
 CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://freebsd.ntu.edu.tw/freebsd/taiwan/ \
 		ftp://freebsd.ee.ntu.edu.tw/freebsd/taiwan/ \
