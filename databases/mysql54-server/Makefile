@@ -61,14 +61,15 @@ pre-fetch:
 .endif
 
 pre-install:
-.if defined(PACKAGE_BUILDING)
-	@ ${RM} -rf /var/db/mysql
-.endif
+.if !defined(PACKAGE_BUILDING)
 	@ ${SETENV} ${MAKE_ENV} ${PERL5} ${SCRIPTDIR}/check_old_version
+.endif
 
 post-install:
 	${MKDIR} ${PREFIX}/share/mysql/mysql
+.if !defined(PACKAGE_BUILDING)
 	${PREFIX}/bin/mysql_install_db
+.endif
 	@ ${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql.sh
