@@ -14,12 +14,12 @@ MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 MAINTAINER=	erich@FreeBSD.org
 
 # needs library and private header, but not during runtime
-BUILD_DEPENDS=	/always_build_it:${PORTSDIR}/plan9/sam
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/plan9/sam:extract
 
 USE_XLIB=	yes
 MAN1=		9term.1
 MANCOMPRESSED=	yes
-
+MAKE_ENV=	SAMDIR=${WRKDIRPREFIX}${PORTSDIR}/plan9/sam
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
