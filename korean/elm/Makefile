@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       elm2.4h4.1
-PKGNAME=	kr-elm-2.4h4.1
+PKGNAME=	ko-elm-2.4h4.1
 CATEGORIES=	korean mail
 MASTER_SITES=   ftp://ftp.kaist.ac.kr/pub/hangul/mail/Others/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/mail/Others/

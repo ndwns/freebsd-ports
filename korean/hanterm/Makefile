@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       hanterm304beta3
-PKGNAME=	kr-hanterm-304b3
+PKGNAME=	ko-hanterm-304b3
 CATEGORIES=	korean x11
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/terminal/hanterm/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/terminal/hanterm/

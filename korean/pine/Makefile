@@ -8,7 +8,7 @@
 #
 
 DISTNAME=       pine3.96
-PKGNAME=        kr-pine-3.96k
+PKGNAME=        ko-pine-3.96k
 CATEGORIES=     korean mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/ \
 		ftp://ftp.kaist.ac.kr/pub/hangul/mail/Others/ \

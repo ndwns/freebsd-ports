@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	hcode2.1-mailpatch2
-PKGNAME=	kr-hcode-2.1.2
+PKGNAME=	ko-hcode-2.1.2
 CATEGORIES=	korean
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/code/hcode/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/code/hcode/

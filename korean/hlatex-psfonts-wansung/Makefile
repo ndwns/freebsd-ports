@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       PS-HLaTeX-pfb
-PKGNAME=	kr-hlatexpsfonts-0.95
+PKGNAME=	ko-hlatexpsfonts-0.95
 CATEGORIES=	korean
 MASTER_SITES=	ftp://sunsite.kren.nm.kr/pub/packages/TeX/languages/korean/HLaTeX/fonts/ \
 		ftp://ftp.kornet.nm.kr/pub/Tex/language/korean/HLaTeX/fonts/

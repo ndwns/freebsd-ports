@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nhppf-1.2
-PKGNAME=	kr-nhppf-1.2
+PKGNAME=	ko-nhppf-1.2
 CATEGORIES=	korean
 MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/nhppf/
 

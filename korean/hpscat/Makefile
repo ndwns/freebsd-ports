@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	hpscat-jshin
-PKGNAME=	kr-hpscat-1.3jshin
+PKGNAME=	ko-hpscat-1.3jshin
 CATEGORIES=	korean print
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/print/ \
 		ftp://ftp.kaist.ac.kr/pub/hangul/editor/ked/ \

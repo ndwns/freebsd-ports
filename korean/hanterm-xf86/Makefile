@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       hanterm-xf86-v32
-PKGNAME=	kr-hanterm-xf86-3.2
+PKGNAME=	ko-hanterm-xf86-3.2
 CATEGORIES=	korean x11
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/incoming/ \
 		ftp://jazz.snu.ac.kr/pub/unix/util/X11/

@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	kr-mule-wnn4-2.3
+PKGNAME=	ko-mule-wnn4-2.3
 CATEGORIES=	korean editors
 KWNN4=		yes
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       netscape-3.01
-PKGNAME=	kr-netscape-3.01intl
+PKGNAME=	ko-netscape-3.01intl
 CATEGORIES=	korean www
 MASTER_SITES=	ftp://ftp.kreonet.re.kr/pub/Netscape/navigator/3.01/unix/ \
 		ftp://archive.netscape.com/archive/navigator/intl/3.01/unix/ko/ \

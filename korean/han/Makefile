@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	han-1.0fb
-PKGNAME=	kr-han-1.0fb
+PKGNAME=	ko-han-1.0fb
 CATEGORIES=	korean
 MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/FreeBSD-kr/source/han/
 

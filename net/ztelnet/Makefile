@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ztelnet
-PKGNAME=	kr-ztelnet-1.0p1
+PKGNAME=	ko-ztelnet-1.0p1
 CATEGORIES=	korean net
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/network/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/network/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       hanterm304fonts
-PKGNAME=	kr-johabfonts-304
+PKGNAME=	ko-johabfonts-304
 CATEGORIES=	korean x11
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/terminal/hanterm/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/terminal/hanterm/

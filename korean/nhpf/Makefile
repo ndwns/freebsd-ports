@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nhpf-1.42
-PKGNAME=	kr-nhpf-1.42
+PKGNAME=	ko-nhpf-1.42
 CATEGORIES=	korean www
 MASTER_SITES=	ftp://cglab.snu.ac.kr/pub/hangul/n3f/applications/
 

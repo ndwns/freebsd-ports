@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nh2ps-1.0p1
-PKGNAME=	kr-nh2ps-${PAPERSIZE}-1.0p1
+PKGNAME=	ko-nh2ps-${PAPERSIZE}-1.0p1
 CATEGORIES=	korean print
 MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/nh2ps/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       hanyang-font-pcf
-PKGNAME=        kr-hanyangfonts-1.0
+PKGNAME=        ko-hanyangfonts-1.0
 CATEGORIES=     korean x11
 MASTER_SITES=   ftp://ftp.kaist.ac.kr/pub/hangul/fonts/ \
                 ftp://sunsite.kren.nm.kr/pub/packages/hangul/fonts/
@@ -40,6 +40,6 @@ do-install:
 	${INSTALL_DATA} fonts.dir ${PREFIX}/lib/X11/fonts/korean/hanyang
 
 post-install:
-	@${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL;
+	@${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
 	
 .include <bsd.port.mk>

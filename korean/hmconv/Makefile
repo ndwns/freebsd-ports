@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	hmconv1.0pl3
-PKGNAME=	kr-hmconv-1.0p3
+PKGNAME=	ko-hmconv-1.0p3
 CATEGORIES=	korean mail
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/code/hmconv/ \
 		ftp://sunsite.kren.nm.kr/pub/packages/hangul/code/hmconv/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	h2ps-1.0
-PKGNAME=	kr-h2ps-${PAPERSIZE}-1.0
+PKGNAME=	ko-h2ps-${PAPERSIZE}-1.0
 CATEGORIES=	korean print
 MASTER_SITES=	ftp://cglab.snu.ac.kr/pub/hangul/n3f/applications/
 
