@@ -9,7 +9,9 @@
 DISTNAME=       netatalk-1.4b2+asun2.1.3
 PKGNAME=	netatalk-1.4b2+asun-2.1.3
 CATEGORIES=	net print
-MASTER_SITES=   ftp://ftp.u.washington.edu/public/asun/
+MASTER_SITES=   ftp://ftp.u.washington.edu/public/asun/ \
+		http://www.freebsd.org/~stb/mirror/ftp.u.washington.edu/public/asun/ \
+		ftp://ftp.hanse.de/sites/transit/ftp.u.washington.edu/public/asun/
 
 MAINTAINER=	stb@freebsd.org
 
