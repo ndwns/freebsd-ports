@@ -27,4 +27,10 @@ MAN1=		zsh.1 zshbuiltins.1 zshcompctl.1 zshexpn.1 zshmisc.1 \
 # If you want to build a static binary, uncomment the following line
 #LDFLAGS+=-static
 
+post-install:
+	@if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	 fi
+	@install-info ${PREFIX}/info/zsh.info ${PREFIX}/info/dir
+
 .include <bsd.port.mk>
