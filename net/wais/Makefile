@@ -10,7 +10,8 @@ DISTNAME=       freeWAIS-0.3
 CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
-GMAKE=		yes
+BROKEN=		yes
+USE_GMAKE=	yes
 
 is_depended: all
 
