@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://interviews.stanford.edu/pub/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 DISTFILES=	3.1.tar.Z iv3_1j_gamma.tar.gz
 
+PATCH_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
+PATCHFILES=	iv-3.1j-gamma-fixcmpfont.patch	
+
 MAINTAINER=	sanpei@sanpei.org
 
 USE_XLIB=	yes
