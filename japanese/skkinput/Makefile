@@ -17,7 +17,7 @@ RUN_DEPENDS=	${LOCALBASE}/libexec/skkserv:${PORTSDIR}/japanese/skk \
 		jman:${PORTSDIR}/japanese/man
 
 USE_IMAKE=	yes
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		skkinput.1
 MANCOMPRESSED=	yes
 

@@ -16,7 +16,7 @@ MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 RUN_DEPENDS=	kcc:${PORTSDIR}/japanese/kcc
 
 INSTALL_TARGET=	install install.man
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		prn.1 cprn.1 cmt.1 psconv.1
 MAN5=		cmtdefs.5
 

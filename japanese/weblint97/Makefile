@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.win.or.jp/pub/network/www/weblint/ \
 MAINTAINER=	a00821@cc.hc.keio.ac.jp
 
 WRKSRC=         ${WRKDIR}/weblint-97
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		jweblint.1
 MAKE_ENV+=      PERLLIBDIR="${PERLLIBDIR}"
 ALL_TARGET=	euc-jp
