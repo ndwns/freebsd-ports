@@ -1,13 +1,13 @@
 # New ports collection makefile for:	ewipe
-# Version required:	0.5.0
+# Version required:	0.6.0
 # Date created:		17 October 1997
 # Whom:			itojun@itojun.org
 #
 # $Id$
 #
 
-DISTNAME=	ewipe0.5.0
-PKGNAME=	ja-ewipe-0.5.0
+DISTNAME=	ewipe0.6.0
+PKGNAME=	ja-ewipe-0.6.0
 CATEGORIES=	japanese x11
 MASTER_SITES=	http://al.ei.tuat.ac.jp/~sekisita/ewipe/
 
@@ -22,7 +22,7 @@ do-install:
 	${MKDIR} ${PREFIX}/lib/ewipe
 	${MKDIR} ${PREFIX}/share/doc/ewipe
 	${INSTALL_SCRIPT} ${WRKSRC}/ewipe ${PREFIX}/bin
-	for i in viewer.tcl edittable.tcl tclIndex; do \
+	for i in edittable.tcl setpointer.tcl viewer.tcl tclIndex; do \
 		${INSTALL_DATA} ${WRKSRC}/$$i ${PREFIX}/lib/ewipe; \
 	done
 .if !defined(NOPORTDOCS)
