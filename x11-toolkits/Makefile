@@ -6,6 +6,7 @@
     SUBDIR += auis
     SUBDIR += blt
     SUBDIR += gtk
+    SUBDIR += gtk11
     SUBDIR += iv
     SUBDIR += lesstif
     SUBDIR += neXtaw
