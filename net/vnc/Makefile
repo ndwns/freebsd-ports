@@ -6,18 +6,18 @@
 # $Id$
 #
 
-DISTNAME=       	vnc-3.3.2_unixsrc
-PKGNAME=        	vnc-3.3.2
+DISTNAME=       	vnc-3.3.2r2_unixsrc
+PKGNAME=        	vnc-3.3.2r2
 CATEGORIES=		net x11
 MASTER_SITES=   	http://www.orl.co.uk/vnc/dist/
-DISTFILES=		vnc-3.3.2_unixsrc.tgz \
+DISTFILES=		vnc-3.3.2r2_unixsrc.tgz \
 			vnc-3.3.2_doc.tgz
 
 MAINTAINER=	 	bmah@ca.sandia.gov
 
 USE_PERL5=		YES
 
-EXTRACT_ONLY=		vnc-3.3.2_unixsrc.tgz
+EXTRACT_ONLY=		vnc-3.3.2r2_unixsrc.tgz
 IGNOREFILES=		${DISTFILES}
 
 NO_WRKSUBDIR=		YES
