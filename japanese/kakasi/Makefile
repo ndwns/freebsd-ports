@@ -21,14 +21,18 @@ MAINTAINER=	max@FreeBSD.ORG
 
 EXTRACT_ONLY=	kakasi-2.2.5.tar.gz
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
-
+MANLANG=	ja_JP.EUC
+MAN1=		kakasi.1
 post-extract:
 	@gzip -cd ${DISTDIR}/kakasidict.940620.gz > ${WRKSRC}/kakasidict
 
 post-install:
+	${INSTALL_MAN} ${WRKSRC}/kakasi.1 ${PREFIX}/man/${MANLANG}/man1
+.if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/kakasi
-.for f in README README.jpn src/kakasi.1
+.for f in README README.jpn
 	${INSTALL_DATA} ${WRKSRC}/../$f ${PREFIX}/share/doc/kakasi
 .endfor
+.endif
 
 .include <bsd.port.mk>
