@@ -1,14 +1,14 @@
 # New ports collection makefile for:    xdelta
-# Version required:     0.18
+# Version required:     0.23
 # Date created:         Sun May  4 21:40:06 CDT 1997
 # Whom:                 jmacd
 #
 # $Id$
 #
 
-DISTNAME=       xdelta-0.18
+DISTNAME=       xdelta-0.23
 CATEGORIES=     misc
-MASTER_SITES=   ftp://ftp.xcf.berkeley.edu/pub/jmacd/
+MASTER_SITES=   ftp://ftp.xcf.berkeley.edu/pub/xdelta/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
