@@ -11,6 +11,7 @@
     SUBDIR += gnuplot
     SUBDIR += hexcalc
     SUBDIR += lapack
+    SUBDIR += libranlib
     SUBDIR += linpack
     SUBDIR += maxima
     SUBDIR += octave
