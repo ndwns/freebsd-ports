@@ -11,6 +11,8 @@ CATEGORIES+=	plan9
 MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/arnold/
 EXTRACT_SUFX=	.shar.gz
 
+MAINTAINER=	erich@FreeBSD.org
+
 NO_WRKSUBDIR=	yes
 EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
