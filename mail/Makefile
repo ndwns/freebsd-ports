@@ -55,6 +55,7 @@
     SUBDIR += poppassd
     SUBDIR += popper
     SUBDIR += postfix
+    SUBDIR += postilion
     SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += qmail
