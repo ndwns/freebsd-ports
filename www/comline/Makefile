@@ -16,6 +16,8 @@ DISTFILES=      w3c-libwww-4.0D.tar.gz \
 
 MAINTAINER=     ache@freebsd.org
 
+BROKEN_ELF=	-lwww
+
 do-build:
 	cd ${WRKSRC}; ./BUILD comline
 
