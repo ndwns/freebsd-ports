@@ -21,12 +21,9 @@ IS_INTERACTIVE=	yes
 pre-build:
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} Makefile.inst World)
 
-pre-install:
-	@PREFIX=${PREFIX} ${SCRIPTDIR}/pre-install
+post-install:
 # This package uses imake's "install.man" target to install man pages but
 #  I can't define USE_IMAKE because it doesn't involve xmkmf
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
-
-pre-reinstall: pre-install
 
 .include <bsd.port.mk>

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://www.hitachi-sk.co.jp/pub/Japanese/filter/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-pre-patch: ${PATCH_COOKIE}
+pre-patch:
 	@echo "===>  Installing custom Makefile for ${DISTNAME}"
 	@(cp ${FILESDIR}/Makefile ${WRKSRC})
 
