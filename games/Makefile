@@ -49,6 +49,7 @@
     SUBDIR += xneko
     SUBDIR += xonix
     SUBDIR += xpacman
+    SUBDIR += xpat2
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xpuyo
