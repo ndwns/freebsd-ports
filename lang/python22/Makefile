@@ -8,7 +8,7 @@
 
 DISTNAME=       pyth151
 PKGNAME=        python-1.5.1
-CATEGORIES=	lang tk80
+CATEGORIES=	lang python tk80
 MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/
 EXTRACT_SUFX=	.tgz

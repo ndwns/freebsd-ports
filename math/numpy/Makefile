@@ -8,7 +8,7 @@
 
 DISTNAME=	LLNLPython4
 PKGNAME=	numpy-1.3
-CATEGORIES=	math
+CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
 EXTRACT_SUFX=	.tgz
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	swig1.1p4
 PKGNAME=	swig-1.1p4
-CATEGORIES=	devel tcl81
+CATEGORIES=	devel python tcl81
 MASTER_SITES=	ftp://ftp.cs.utah.edu/pub/beazley/SWIG/ \
 		ftp://ftp.rge.com/pub/languages/swig/ \
 		ftp://ftp.mcc.ac.uk/pub/mvc/swig/

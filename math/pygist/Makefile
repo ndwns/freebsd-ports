@@ -8,7 +8,7 @@
 
 DISTNAME=	LLNLPython4
 PKGNAME=	pygist-1.5
-CATEGORIES=	math
+CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
 EXTRACT_SUFX=	.tgz
 
@@ -16,9 +16,11 @@ MAINTAINER=	tg@FreeBSD.ORG
 
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python \
 		${PREFIX}/lib/yorick/1.4/lib/libgist.a:${PORTSDIR}/lang/yorick \
-		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy
+		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
+		${SITEPYDIR}/Ranf.py:${PORTSDIR}/math/rng
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python \
-		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy
+		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
+		${SITEPYDIR}/Ranf.py:${PORTSDIR}/math/rng
 
 WRKSRC=		${WRKDIR}/LLNLPython4/Graphics
 CONFIGURE_ENV=	PREFIX=${PREFIX}
