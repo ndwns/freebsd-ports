@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Wnn
+    SUBDIR += big5con
     SUBDIR += c2t
     SUBDIR += celvis
     SUBDIR += cless
