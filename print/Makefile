@@ -34,6 +34,5 @@
     SUBDIR += unroff
     SUBDIR += virtualpaper
     SUBDIR += xdvi
-    SUBDIR += xtexshell
 
 .include <bsd.port.subdir.mk>
