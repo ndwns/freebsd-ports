@@ -14,8 +14,6 @@ MAINTAINER=	eserte@cs.tu-berlin.de
 
 BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/Tk.pm:${PORTSDIR}/x11-toolkits/p5-Tk
 
-BROKEN=		perl5 upgrade
-
 USE_PERL5=      YES
 PERLEXE=	perl5
 POD2MAN=	pod2man
