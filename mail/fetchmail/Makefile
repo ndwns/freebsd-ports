@@ -8,7 +8,7 @@
 
 DISTNAME=	fetchmail-3.2
 CATEGORIES=	mail
-MASTER_SITES=	ftp://locke.ccil.org/pub/esr/
+MASTER_SITES=	ftp://locke.ccil.org/pub/esr/fetchmail/
 
 MAINTAINER=	ve@sci.fi
 
