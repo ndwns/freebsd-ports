@@ -31,7 +31,7 @@ FN_DISTFILES=`mktemp -t dclean` || exit 1
 FN_RESULTS_SCRIPT=`mktemp -t dclean` || exit 1
 
 echo -n "Building ports md5 index..."
-find /usr/ports/ -name "distinfo" -type f | xargs cat | grep "^MD5 ("| sort | uniq > $FN_PORTS
+find /usr/ports/ -name "distinfo" -or -name "distinfo.i386" -or -name "distinfo.alpha" -type f | xargs cat | grep "^MD5 ("| sort | uniq > $FN_PORTS
 echo "Done."
 P_MD5_COUNT=`wc -l $FN_PORTS | sed "s| $FN_PORTS|| ; s| ||g"`
 echo "Found $P_MD5_COUNT md5 entries in your ports directory."
