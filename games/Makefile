@@ -88,6 +88,7 @@
     SUBDIR += xneko
     SUBDIR += xnibbles
     SUBDIR += xonix
+    SUBDIR += xothello
     SUBDIR += xpacman
     SUBDIR += xpat2
     SUBDIR += xpilot
