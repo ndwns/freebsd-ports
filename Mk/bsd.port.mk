@@ -89,6 +89,8 @@
 # reinstall		- Install the results of a build, ignoring "already installed"
 #				  flag.
 # package		- Create a package from a build.
+# describe		- Try to generate a one-line description for each port for
+#				  use in INDEX files and the like.
 #
 # Default sequence for "all" is:  fetch extract configure build
 
