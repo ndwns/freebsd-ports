@@ -9,9 +9,9 @@
 DISTNAME=	xsystem35-BETA-19981114
 PKGNAME=	xsystem-3.5-19981123
 CATEGORIES=	emulators
-MASTER_SITES=	http://ryo1207.aist-nara.ac.jp/unitbase/xsys35/down/
+MASTER_SITES=	http://www.aist-nara.ac.jp/~masaki-c/private/unitbase/xsys35/down/
 
-PATCH_SITES=	http://ryo1207.aist-nara.ac.jp/unitbase/xsys35/down/
+PATCH_SITES=	http://www.aist-nara.ac.jp/~masaki-c/private/unitbase/xsys35/down/
 PATCHFILES=	patch-19981123.diff.gz
 
 MAINTAINER=	k5@respo.or.jp
