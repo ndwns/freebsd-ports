@@ -26,6 +26,7 @@
     SUBDIR += gyvescm
     SUBDIR += ical
     SUBDIR += iselect
+    SUBDIR += jargon
     SUBDIR += jive
     SUBDIR += kdeutils
     SUBDIR += korganizer
