@@ -21,7 +21,7 @@ sbin/makemap
 sbin/praliases
 @group smmsp
 sbin/sendmail
-@group wheel
+@group
 @comment (overwritten by pkg_add) chown root:smmsp sbin/sendmail
 @exec chmod 2555 sbin/sendmail
 %%PORTDOCS%%share/doc/sendmail/op.ps
