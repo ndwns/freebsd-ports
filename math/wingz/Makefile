@@ -9,7 +9,7 @@
 DISTNAME=	Wingz-142
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	apps/financial
+MASTER_SITE_SUBDIR=	apps/financial/spreadsheet
 EXTRACT_SUFX=	.tgz
 
 MANINAINER=	erich@FreeBSD.org
