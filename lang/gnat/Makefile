@@ -15,7 +15,7 @@ MASTER_SITES=   ftp://cs.nyu.edu/pub/gnat/
 MAINTAINER=	nils@guru.ims.uni-stuttgart.de
 
 .if !exists(/usr/local/bin/gnatf)
-BROKEN=		yes	# requires existing gnat compiler
+BROKEN=		"requires existing gnat compiler"
 .endif
 # You need a compiler who calls an existing gnat compiler:
 # if you have one, if you have one put it here, otherwise,
