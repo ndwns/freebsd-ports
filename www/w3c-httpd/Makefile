@@ -14,6 +14,8 @@ MAINTAINER=	giffunip@asme.org
 
 NO_WRKSUBDIR=	yes
 
+BROKEN_ELF=	yes
+
 WWW_ROOT=	${PREFIX}/www
 
 pre-configure:
