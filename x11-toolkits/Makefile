@@ -24,6 +24,7 @@
     SUBDIR += p5-Tk
     SUBDIR += pmw
     SUBDIR += py-gnome
+    SUBDIR += qt-i18n
     SUBDIR += qt142
     SUBDIR += rubytk
     SUBDIR += slingshot
