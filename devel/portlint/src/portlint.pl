@@ -688,18 +688,19 @@ EOF
 
 	# check x11 in CATEGORIES
 	if ($newxdef
-	 && $tmp =~ /\nCATEGORIES[+?]?=[ \t]*([^\n]*)\n/ && $1 =~ /x11/) {
+	 && $tmp =~ /\nCATEGORIES[+?]?=[ \t]*([^\n]*)\n/
+	 && ($foo = $1) =~ /x11/) {
 		print "OK: checking x11 in CATEGORIES.\n" if ($verbose);
-		@i = split(/\s+/, $1);
-		if ($i[0] eq 'x11') {
+		@i = split(/\s+/, $foo);
+		if ($i[0] =~ /^x11\-?/) {
 			; # okay
 		} elsif ($i[0] =~ /(chinese|japanese|korean|german|russian)/) {
 			; # okay
 		} else {
 			&perror("WARN: only specific kind of apps should ".
 				"specify \"x11\" in CATEGORIES. ".
-				"do you mean just USE_XLIB? ".
-				"then remove \"x11\" from CATEGORIES.");
+				"Do you mean just USE_XLIB? ".
+				"Then remove \"x11\" from CATEGORIES.");
 		}
 	}
 
