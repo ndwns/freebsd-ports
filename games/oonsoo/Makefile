@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.z
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
+BROKEN_ELF=	build
+
 pre-patch:
 	@${CP} ${WRKSRC}/Makefile.Linux ${WRKSRC}/Makefile
 
