@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	nas-1.2p1
-PKGNAME=	nas-1.2.1
+DISTNAME=	nas-1.2p5
+PKGNAME=	nas-1.2.5
 CATEGORIES+=	audio
 MASTER_SITES=	ftp://ftp.x.org/contrib/audio/nas/
 
