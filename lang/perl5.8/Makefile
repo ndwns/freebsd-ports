@@ -18,6 +18,11 @@ HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=		-sde -Dprefix=${PREFIX}
 
+OSVER!= sysctl -n kern.osreldate
+.if ${OSVER} > 300003
+BROKEN= perl is in system
+.endif
+
 MAN1=	a2p.1 c2ph.1 h2ph.1 h2xs.1 perl.1 perl5004delta.1 \
 	perlapio.1 perlbook.1 perlbot.1 perlbug.1 perlcall.1 \
 	perldata.1 perldebug.1 perldelta.1 perldiag.1 perldoc.1 \
