@@ -17,6 +17,8 @@ LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		png\\.0\\.:${PORTSDIR}/graphics/png
 RUN_DEPENDS=    newsp:${PORTSDIR}/print/mp
 
+BROKEN=		jpeglib.h
+
 WRKSRC=		${WRKDIR}/knews
 USE_IMAKE=	yes
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \
