@@ -11,12 +11,12 @@ PKGNAME=	fftpack-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/
 EXTRACT_SUFX=	.tar
-EXTRACT_ARGS=	-xvf
 
 MAINTAINER=	ports@FreeBSD.org
 
 # ${DISTFILES} is automatically created from the directory contents
 IGNOREFILES=	${DISTFILES}
+EXTRACT_BEFORE_ARGS=	-xvf
 
 post-extract:
 	uncompress $(WRKSRC)/*.f.Z
@@ -30,6 +30,6 @@ post-install:
 	${MKDIR} $(PREFIX)/share/doc/fftlib
 	${CP} $(WRKSRC)/doc.Z $(PREFIX)/share/doc/fftlib/
 .endif
-	ldconfig -m ${PREFIX}/lib
+	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
