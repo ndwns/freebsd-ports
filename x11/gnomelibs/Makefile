@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	Nakai@technologist.com
 
+BROKEN=		gtk11 rewrite dnd code.
+
 BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	gdk_imlib.1:${PORTSDIR}/graphics/imlib
 LIB_DEPENDS+=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
