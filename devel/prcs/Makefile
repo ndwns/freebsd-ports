@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME= 	prcs-1.2.4
+DISTNAME= 	prcs-1.2.8
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.xcf.berkeley.edu/pub/prcs/
 
