@@ -44,6 +44,7 @@
     SUBDIR += plan
     SUBDIR += rpm
     SUBDIR += screen
+    SUBDIR += sma
     SUBDIR += splitvt
     SUBDIR += team
     SUBDIR += teapot
