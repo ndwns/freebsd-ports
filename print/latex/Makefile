@@ -60,6 +60,7 @@ do-install:
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/share/texmf/documentation; fi; done)
 	@(cd ${WRKSRC}/packages/tools; for f in *.dtx; do \
 	    if [ -f $$f ]; then install -c -m 644  $$f ${PREFIX}/share/texmf/documentation; fi; done)
+	@(cd ${PREFIX}/bin; rm -f latex; ln -s tex latex)
 
 .include "Makefile.inc"
 
