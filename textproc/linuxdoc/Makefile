@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
+RUN_DEPENDS=    ${ISOCAT}:${PORTSDIR}/textproc/iso8879
+
 NO_MTREE=       yes
 NO_EXTRACT=     yes
 NO_BUILD=       yes
@@ -20,6 +22,7 @@ NO_CONFIGURE=	yes
 NO_WRKDIR=      yes
 
 INSTDIR=	${PREFIX}/share/sgml/linuxdoc
+ISOCAT=		${PREFIX}/share/sgml/iso8879/catalog
 
 pre-install:
 	@[ -d ${INSTDIR} ] || ${MKDIR} ${INSTDIR}
