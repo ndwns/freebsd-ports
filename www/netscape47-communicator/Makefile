@@ -22,10 +22,15 @@ NO_BUILD=       Yes
 NDIR=           ${PREFIX}/lib/netscape.45
 BINDIR=		${PREFIX}/bin
 
-pre-extract:
 .if defined(USE_128BIT)
-	@${ECHO} "Sorry Fortify do not provide support for pre-release netscape versions"
-.endif
+MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
+		ftp://ftp.za.freebsd.org/pub/Fortify/
+DISTFILES+=	Fortify-1.3.0-unix-x86.tar.gz
+RESTRICTED=     "Contains strong cryptography"
+.else
+pre-extract:
+		@${ECHO} "You can make Netscape use 128-bit encryption by defining USE_128BIT"
+.endif	# USE_128BIT
 
 .if !defined(MULTIVERSION)
 		@${ECHO} "you can define MULTIVERSION to install the script which runs communicator-v45"
@@ -48,6 +53,10 @@ do-install:
 	  ${INSTALL_DATA} ${FILESDIR}/mailcap ${NDIR}; \
 	fi
 	${RM} -rf ${NDIR}/movemail-src
-	chown -R root.wheel ${NDIR}
+.if defined(USE_128BIT)
+	cd ${WRKDIR}/Fortify-1.3.0-unix-x86 && \
+		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.5.bin
+.endif
+	chown -R ${BINOWN}.${BINGRP} ${NDIR}
 
 .include <bsd.port.mk>
