@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= calc libncurses dialog mshell iozone
+SUBDIR= calc dialog mshell iozone
 
 .include <bsd.port.subdir.mk>
