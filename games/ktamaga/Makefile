@@ -8,9 +8,7 @@
 
 DISTNAME=	ktamaga-0.2
 CATEGORIES=	games kde
-MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/pub/kde/old/apps/games/ \
- 		ftp://ftp.uni-erlangen.de/pub/Linux/MIRROR.KDE/old/apps/games/ \
- 		ftp://ftp.caldera.com/pub/mirrors/kde/old/apps/games/
+MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/apps/games/
 
 MAINTAINER=	se@freebsd.org
 
