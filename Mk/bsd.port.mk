@@ -293,15 +293,15 @@ ${EXTRACT_COOKIE}:
 				if ${NCFTP} ${HOME_LOCATION}; then \
 					${EXTRACT_CMD} ${EXTRACT_ARGS}; \
 				else \
-					echo "Couldn't fetch it - please retreive ${DISTFILE} manually and try again."; \
+					echo ">> Couldn't fetch it - please retreive ${DISTFILE} manually and try again."; \
 					exit 1; \
 				fi \
 			else \
-				echo "Couldn't cd to `dirname ${DISTFILE}`.  Please correct and try again."; \
+				echo ">> Couldn't cd to `dirname ${DISTFILE}`.  Please correct and try again."; \
 				exit 1; \
 			fi \
 		else \
-			echo "Please ensure ${DISTFILE} exists before trying again."; \
+			echo ">> Please ensure ${DISTFILE} exists before trying again."; \
 			exit 1; \
 		fi \
 	    else \
