@@ -13,6 +13,8 @@ DISTFILES=	objc-1.8.18.tar.gz bootstrap-1.8.17.tar.gz
 
 MAINTAINER=     chuckr@freebsd.org
 
+BROKEN_ELF=	yes
+
 HAS_CONFIGURE=	yes
 MAN1=		cvtimport.1 objc.1 postlink.1
 MAN3=		AsciiFiler.3 Array.3 CAObject.3 Bag.3 Block.3 Complex.3 \
