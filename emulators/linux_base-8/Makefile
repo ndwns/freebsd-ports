@@ -14,6 +14,7 @@ MAINTAINER=	erich@FreeBSD.org
 
 PREFIX=		/compat/linux/
 WRKSRC=		${WRKDIR}
+NO_MTREE=	yes
 
 pre-install:
 	@[ -d ${PREFIX} ] || mkdir -p ${PREFIX}
