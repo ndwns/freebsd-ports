@@ -1,16 +1,16 @@
 # New ports collection makefile for:    nana
-# Version required:     1.09
-# Date created:         20th April 1997
-# Whom:                 Phil Maker <pjm@cs.ntu.edu.au>
+# Version required:     2.4
+# Date created:         30th May 1999
+# Whom:                 Phil Maker <pjm@gnu.org>
 #
 # $Id$
 #
 
-DISTNAME=	nana-1.09
+DISTNAME=	nana-2.4
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.cs.ntu.edu.au/pub/nana/
 
-MAINTAINER=	pjm@cs.ntu.edu.au
+MAINTAINER=	pjm@gnu.org
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
