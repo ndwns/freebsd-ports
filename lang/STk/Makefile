@@ -14,6 +14,9 @@ MAINTAINER=	jmacd@FreeBSD.ORG
 
 IS_INTERACTIVE=	yes
 GNU_CONFIGURE=	yes
-MAKE_FLAGS=  	"prefix = ${PREFIX}"
+MAKE_FLAGS=  	"prefix=${PREFIX}" -f
+
+post-install:
+	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
 
 .include <bsd.port.mk>
