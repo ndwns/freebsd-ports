@@ -33,5 +33,6 @@
     SUBDIR += tcl75
     SUBDIR += tclX
     SUBDIR += tclX74
+    SUBDIR += tclX75
 
 .include <bsd.port.subdir.mk>

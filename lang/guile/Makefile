@@ -10,6 +10,7 @@ DISTNAME= 	guile-iii
 PKGNAME=	guile-iii
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cygnus.com/pub/lord/guile-iii/
+REQUIRES_OS_VERSION=	2.2
 
 MAINTAINER=	jkh@FreeBSD.ORG
 
