@@ -7,6 +7,7 @@
     SUBDIR += fvwm95
     SUBDIR += h2ps
     SUBDIR += han
+    SUBDIR += hanmutt
     SUBDIR += hanterm
     SUBDIR += hanterm-autofont
     SUBDIR += hanterm-xf86
