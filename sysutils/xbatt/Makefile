@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xbatt-1.0
-CATEGORIES+=	x11
+CATEGORIES+=	sysutils x11
 MASTER_SITES=	ftp://ftp.fujitsu.co.jp/pub/FreeBSD/misc/
 
 MAINTAINER=	asami@FreeBSD.ORG

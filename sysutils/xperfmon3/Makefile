@@ -9,7 +9,7 @@
 DISTNAME=	xperfmon++
 PKGNAME=	xperfmon-1.1
 USE_IMAKE=	yes
-CATEGORIES+=	utilities
+CATEGORIES+=	sysutils
 # In Germany try this
 # MASTER_SITES=	ftp://odie.physik2.uni-rostock.de/pub/
 MASTER_SITES=	ftp://proteus.arc.nasa.gov/pub/
