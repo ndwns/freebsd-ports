@@ -4,6 +4,7 @@
     SUBDIR += LPRng
     SUBDIR += afio
     SUBDIR += asapm
+    SUBDIR += ascpu
     SUBDIR += asrpages
     SUBDIR += bchunk
     SUBDIR += bkpupsd
