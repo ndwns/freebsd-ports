@@ -9,8 +9,10 @@
 DISTNAME=	wxftp-0.4.4.src
 PKGNAME=	wxftp-0.4.4
 CATEGORIES=	net
-MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR= 	system/network/file-transfer
+MASTER_SITES=	ftp://ftp.wxftp.seul.org/pub/wxftp/0.4.4/ \
+		ftp://ftp.c-com.net/pub/.10/LinuxBerg/files/x11/network/ \
+		ftp://ftp.sunsite.auc.dk/disk2/linuxberg.com/files/x11/network/ \
+		ftp://ftp.bitcon.no/.10/linux/linuxberg/files/x11/network/
 
 MAINTAINER=	kris@FreeBSD.ORG
 
