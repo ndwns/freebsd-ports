@@ -11,7 +11,7 @@ PKGNAME=	ja-man-doc-2.2
 CATEGORIES=	japanese
 DISTFILES=	# none
 
-MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
+MAINTAINER=	horikawa@jp.FreeBSD.org
 
 PREFIX?=	/usr
 NO_CHECKSUM=	yes
