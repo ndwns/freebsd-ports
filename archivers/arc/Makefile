@@ -8,7 +8,7 @@
 
 DISTNAME=       arc521e.pl8
 PKGNAME=        arc-5.21e
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
 EXTRACT_SUFX=   .tar.Z
 

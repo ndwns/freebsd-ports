@@ -8,15 +8,15 @@
 
 DISTNAME=	hfs0_37
 PKGNAME=	hfs-0.37
-CATEGORIES+=	emulators
+CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_GMAKE=	yes
 
-.include <bsd.port.mk>
-
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/man/man1
+	@${MKDIR} ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/man/man1
+
+.include <bsd.port.mk>

@@ -7,20 +7,20 @@
 #
 
 DISTNAME=	expect-5.21
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	http://expect.nist.gov/ \
 		ftp://expect.nist.gov/mel/div826/subject/expect/
 DISTFILES=	expect.tar.gz
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
-test:
-	@(cd ${WRKSRC}; make test)
-
 HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-shared --with-tclconfig=/usr/libdata/tcl \
 		--with-tclinclude=/usr/include/tcl
+
+test:
+	@(cd ${WRKSRC}; make test)
 
 # Sigh, all this just to get tkInt.h..
 post-extract:

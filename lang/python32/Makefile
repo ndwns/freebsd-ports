@@ -8,7 +8,7 @@
 
 DISTNAME=       python1.4
 PKGNAME=        python-1.4
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/
 
@@ -23,7 +23,7 @@ MAKE_FLAGS+=	'OPT=${CFLAGS}'
 INSTALL_TARGET=	install
 
 post-configure:
-	cp ${FILESDIR}/Setup ${WRKSRC}/Modules
+	${CP} ${FILESDIR}/Setup ${WRKSRC}/Modules
 
 post-install:
 	strip ${PREFIX}/bin/python

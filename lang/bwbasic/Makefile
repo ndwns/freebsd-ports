@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bwbasic-2.10
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.eng.umd.edu/pub/basic/
 
 MAINTAINER=	msmith@atrad.adelaide.edu.au
@@ -19,8 +19,8 @@ GNU_CONFIGURE=	yes
 # test programs in ${PREFIX}/share/bwbasic/bwbtest.
 
 post-install:
-	-mkdir ${PREFIX}/share/bwbasic
-	cp ${WRKSRC}/bwbasic.doc ${PREFIX}/share/bwbasic/
-	cp -r ${WRKSRC}/bwbtest ${PREFIX}/share/bwbasic/
+	-${MKDIR} ${PREFIX}/share/bwbasic
+	${CP} ${WRKSRC}/bwbasic.doc ${PREFIX}/share/bwbasic/
+	${CP} -r ${WRKSRC}/bwbtest ${PREFIX}/share/bwbasic/
 
 .include <bsd.port.mk>

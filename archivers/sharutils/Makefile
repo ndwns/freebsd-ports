@@ -6,7 +6,7 @@
 # $Id$
 #
 DISTNAME=       sharutils-4.1.4
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.iro.umontreal.ca/pub/contrib/pinard/gnu/
 
 MAINTAINER=     ache@FreeBSD.ORG

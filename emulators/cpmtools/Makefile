@@ -8,7 +8,7 @@
 
 DISTNAME=	cpm-1.1
 PKGNAME=	cpmtools-1.1
-CATEGORIES+=	emulators
+CATEGORIES=	emulators
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 MAINTAINER=	joerg@FreeBSD.org
 

@@ -8,7 +8,7 @@
 
 DISTNAME=       zip21
 PKGNAME=        zip-2.1
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://quest.jpl.nasa.gov/pub/
 EXTRACT_SUFX=   .zip
 

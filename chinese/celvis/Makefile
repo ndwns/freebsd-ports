@@ -8,7 +8,7 @@
 
 DISTNAME=	celvis
 PKGNAME=	cn-celvis-1.3
-CATEGORIES+=	chinese editors
+CATEGORIES=	chinese editors
 MASTER_SITES=	ftp://ftp.cs.purdue.edu/pub/ygz/  \
 		ftp://ftp.ifcss.org/pub/software/x-win/cxterm/
 
@@ -25,6 +25,5 @@ do-install:
 .else
 	ln -sf ${PREFIX}/man/man1/celvis.1 ${PREFIX}/man/man1/cvi.1
 .endif
-
 
 .include <bsd.port.mk>

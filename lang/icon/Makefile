@@ -8,7 +8,7 @@
 
 DISTNAME=       icon-9.1
 DISTFILES=	unix.tar.gz
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.cs.arizona.edu/icon/packages/unix/
 
 MAINTAINER=	ports@freebsd.org

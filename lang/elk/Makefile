@@ -8,7 +8,7 @@
 
 DISTNAME=	elk-3.0
 PKGNAME=	elk-3.0.2
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.uni-bremen.de/pub/programming/languages/scheme/elk/ \
 		ftp://crl.dec.com/pub/X11/contrib/devel_tools/ \
 		ftp://ftp.th-darmstadt.de/pub/X11/contrib/devel_tools/

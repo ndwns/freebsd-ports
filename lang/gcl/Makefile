@@ -7,9 +7,12 @@
 #
 
 DISTNAME=       gcl-2.0
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=   ftp://ftp.cli.com/pub/gcl/ ftp://math.utexas.edu/pub/gcl/
 EXTRACT_SUFX=	.tgz
+
+MAINTAINER=	ports@FreeBSD.org
+
 MAKEFILE=	makefile
 
 do-install:

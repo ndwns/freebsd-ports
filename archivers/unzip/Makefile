@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       unzip-5.2
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://quest.jpl.nasa.gov/pub/
 DISTFILES=      unzip52.tar.Z
 

@@ -8,7 +8,7 @@
 
 DISTNAME=       ha0999
 PKGNAME=        ha-0.999b
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
 EXTRACT_SUFX=   .tgz
 

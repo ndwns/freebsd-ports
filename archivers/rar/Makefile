@@ -8,17 +8,17 @@
 
 DISTNAME=       rar2bsdb
 PKGNAME=        rar-2.00b
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.relcom.ru/unix/arcers/
 EXTRACT_SUFX=   .tgz
 
-NO_BUILD=       yes
-
 MAINTAINER=     ache@FreeBSD.ORG
+
+NO_BUILD=       yes
 
 do-install:
 	cd ${WRKSRC}; \
-	$(INSTALL) -c -m $(BINMODE) -o $(BINOWN) -g $(BINGRP) rar_bsd $(PREFIX)/bin/rar; \
-	$(INSTALL) -c -m $(MANMODE) -o $(MANOWN) -g $(MANGRP) rar.man $(PREFIX)/man/cat1/rar.1
+	${INSTALL_PROGRAM} rar_bsd ${PREFIX}/bin/rar; \
+	${INSTALL_MAN} rar.man ${PREFIX}/man/cat1/rar.1
 
 .include <bsd.port.mk>

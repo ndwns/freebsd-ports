@@ -8,7 +8,7 @@
 
 DISTNAME=       unrar101
 PKGNAME=        unrar-1.01a
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.relcom.ru/unix/arcers/
 EXTRACT_SUFX=   .tgz
 

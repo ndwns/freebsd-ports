@@ -16,6 +16,6 @@ WRKSRC=		${WRKDIR}
 NO_MTREE=	yes
 
 pre-install:
-	@[ -d ${PREFIX} ] || mkdir -p ${PREFIX}
+	@[ -d ${PREFIX} ] || ${MKDIR} ${PREFIX}
 
 .include <bsd.port.mk>

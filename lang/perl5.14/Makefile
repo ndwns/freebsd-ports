@@ -8,7 +8,7 @@
 
 DISTNAME=	perl5.003
 PKGNAME=	perl-5.003
-CATEGORIES+=	lang devel
+CATEGORIES=	lang devel
 MASTER_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0/ \
 		ftp://ftp.is.co.za/pub/perl/CPAN/src/5.0/ \
 		ftp://dong.math.ncu.edu.tw/perl/CPAN/src/5.0/ \

@@ -8,7 +8,7 @@
 
 DISTNAME=       lha-114c
 PKGNAME=        lha-1.14c
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.leo.chubu.ac.jp/pub/tools/
 EXTRACT_SUFX=   .tgz
 

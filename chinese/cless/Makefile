@@ -8,7 +8,7 @@
 
 DISTNAME=	cless-290
 PKGNAME=	cn-${DISTNAME}
-CATEGORIES+=	chinese misc
+CATEGORIES=	chinese misc
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/c-utils/  \
 		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/unix/c-utils/ \
 		ftp://ftp.edu.tw/Chinese/ifcss/software/unix/c-utils/  \

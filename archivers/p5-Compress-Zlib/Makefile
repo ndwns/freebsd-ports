@@ -8,7 +8,7 @@
 
 DISTNAME=	Compress-Zlib-0.4
 PKGNAME=	p5-Compress-Zlib-0.4
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Compress/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Compress/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Compress/ \

@@ -8,14 +8,10 @@
 
 DISTNAME=	tclX7.5.2
 PKGNAME=	tclX-7.5.2
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
 
-TCL_BASE=	/usr/libdata/tcl
-TCL_SRC=	/usr/src/contrib/tcl
-
-TK_DIR=		${PORTSDIR}/x11/tk41
-TK_SRC=		${TK_DIR}/work/tk4.1
+MAINTAINER=	jkh@FreeBSD.org
 
 DEPENDS=	${TK_DIR}
 LIB_DEPENDS=	tk41\\.1:${TK_DIR}
@@ -23,6 +19,12 @@ LIB_DEPENDS=	tk41\\.1:${TK_DIR}
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared --with-tk
+
+TCL_BASE=	/usr/libdata/tcl
+TCL_SRC=	/usr/src/contrib/tcl
+
+TK_DIR=		${PORTSDIR}/x11/tk41
+TK_SRC=		${TK_DIR}/work/tk4.1
 
 pre-configure:
 	cd ${WRKSRC} ; \

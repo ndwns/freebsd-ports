@@ -8,13 +8,13 @@
 
 DISTNAME=       unarj
 PKGNAME=	unarj-2.41
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
 DISTFILES=      unarj241.tar.Z
 
 MAINTAINER=     ache@FreeBSD.ORG
 
 do-install:
-	cd ${WRKSRC}; install -cs -o bin -g bin -m755 ${DISTNAME} ${PREFIX}/bin
+	cd ${WRKSRC}; ${INSTALL_PROGRAM} ${DISTNAME} ${PREFIX}/bin
 
 .include <bsd.port.mk>

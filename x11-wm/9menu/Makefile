@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	9menu-1.4
-CATEGORIES+=	plan9
+CATEGORIES=	plan9
 MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/arnold/
 EXTRACT_SUFX=	.shar.gz
 

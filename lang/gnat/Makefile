@@ -9,9 +9,10 @@
 
 DISTNAME=       gnat-2.03-src
 PKGNAME=        gnat-2.03
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=   ftp://cs.nyu.edu/pub/gnat/
-EXTRACT_SUFX=	.tar.gz
+
+MAINTAINER=	nils@guru.ims.uni-stuttgart.de
 
 .if !exists(/usr/local/bin/gnatf)
 BROKEN=		yes	# requires existing gnat compiler

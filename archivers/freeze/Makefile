@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       freeze-2.5
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=	ftp://lupin.csv.warwick.ac.uk/pub/compression/
 
 MAINTAINER=     lukin@okbmei.msk.su

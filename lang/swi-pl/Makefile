@@ -8,14 +8,13 @@
 
 DISTNAME=	pl-2.7.15
 PKGNAME=	swi-pl-2.7.15
-CATEGORIES+=    lang
+CATEGORIES=     lang
 MASTER_SITES=	ftp://swi.psy.uva.nl/pub/SWI-Prolog/
 
 MAINTAINER=	max@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 GNU_CONFIGURE=	yes
-
 CONFIGURE_ARGS=	i386-freebsd
 STRIP=
 MAKE_FLAGS+=	CIFLAGS=-DRTLD_LAZY -f

@@ -8,7 +8,7 @@
 
 DISTNAME=       scm
 PKGNAME=	scm-4e1
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=   ftp://swiss-ftp.ai.mit.edu/pub/scm/
 DISTFILES=      scm4e1.tar.gz \
 		slib.info.tar.gz slib2a2.tar.gz slib-psd1-3.tar.gz \
@@ -19,10 +19,10 @@ USE_GMAKE=
 MAKE_FLAGS=	CFLAGS=-O2 LDFLAGS=-s defines="-DSICP -DHAVE_CONFIG_H -DFLOATS -DIO_EXTENSIONS -DMEMOIZE_LOCALS -DGC_FREE_SEGMENTS" -f
 
 pre-install:
-	cp -rp ${WRKDIR}/slib ${PREFIX}/lib
+	${CP} -rp ${WRKDIR}/slib ${PREFIX}/lib
 	(cd ${WRKDIR}/slib; \
 		makeinfo slib.texi; \
-		install -c -m 444 slib.info slib.info-1 slib.info-2 \
+		${INSTALL_MAN} slib.info slib.info-1 slib.info-2 \
 				  slib.info-3 slib.info-4 /usr/local/info)
 
 .include <bsd.port.mk>

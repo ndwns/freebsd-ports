@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	modula-3-3.6
-CATEGORIES+=	lang
+CATEGORIES=	lang
 DISTFILES=
 
 MAINTAINER=	jdp@polstra.com
@@ -56,7 +56,7 @@ do-install:
 	    export LD_LIBRARY_PATH PATH; \
 	    umask 022; \
 	    rm -rf FreeBSD2; \
-	    mkdir FreeBSD2; \
+	    ${MKDIR} FreeBSD2; \
 	    cd FreeBSD2; \
 	    quake -D_bootstrap -D_all -DPACKAGE_DIR=${WRKSRC}/m3/m3build \
 		-DPACKAGE=m3build -DBUILD_DIR=FreeBSD2 \

@@ -8,7 +8,7 @@
 
 DISTNAME= 	schemetoc-93.3.15
 PKGNAME=	schemetoc-93.3.15
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Scheme-to-C/
 DISTFILES=      15mar93.tar.Z
 

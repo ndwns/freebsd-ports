@@ -8,7 +8,7 @@
 
 DISTNAME=	pbasic-2.0-950813
 PKGNAME=	pbasic-2.0
-CATEGORIES+=	lang
+CATEGORIES=	lang
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	asami@FreeBSD.ORG
@@ -23,8 +23,8 @@ do-configure:
 			pdp11 cursor/cursor.dos cursor/cursor.ukc 
 
 do-install:
-	install -c -s -m 775 ${WRKSRC}/basic ${PREFIX}/bin/pbasic
-	install -c -m 644 ${WRKSRC}/docs/basic.1 ${PREFIX}/man/man1/pbasic.1
+	${INSTALL_PROGRAM} ${WRKSRC}/basic ${PREFIX}/bin/pbasic
+	${INSTALL_MAN} ${WRKSRC}/docs/basic.1 ${PREFIX}/man/man1/pbasic.1
 .if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/pbasic.1
 .endif

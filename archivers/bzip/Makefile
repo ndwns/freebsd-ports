@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       bzip-0.21
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   http://www.cs.man.ac.uk/arch/people/j-seward/
 
 MAINTAINER=     andreas@klemm.gtn.com
@@ -15,7 +15,7 @@ MAINTAINER=     andreas@klemm.gtn.com
 NO_CDROM=       yes     # Restrictive copyright (don't sell for profit)
 
 pre-install:
-	@cat ${FILESDIR}/COPYRIGHT
+	@${CAT} ${FILESDIR}/COPYRIGHT
 
 do-install:
 	rm -f ${PREFIX}/bin/bzip ${PREFIX}/bin/bunzip

@@ -8,8 +8,10 @@
 
 DISTNAME=       zoo-2.10pl1
 PKGNAME=	zoo-2.10.1
-CATEGORIES+=	archivers
+CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+
+MAINTAINER=	jmz@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
 ALL_TARGET=     bsdansi
