@@ -80,6 +80,7 @@
     SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xautolock
+    SUBDIR += xbae
     SUBDIR += xbuffy
     SUBDIR += xcb
     SUBDIR += xco
