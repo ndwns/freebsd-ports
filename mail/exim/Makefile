@@ -41,6 +41,11 @@ do-configure:
 post-build:
 	${INSTALL_SCRIPT} ${FILESDIR}/exim.sh ${WRKSRC}/build-FreeBSD-i386
 
+pre-install:
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+
 post-install:
 	@${SETENV} ${SCRIPTS_ENV} ${PERL5} ${PKGDIR}/INSTALL \
 	    exim-2.053 POST-INSTALL
