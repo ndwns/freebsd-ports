@@ -23,6 +23,7 @@
     SUBDIR += mc
     SUBDIR += mmv
     SUBDIR += mshell
+    SUBDIR += plan
     SUBDIR += recode
     SUBDIR += rman
     SUBDIR += sattrack
