@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xmysqladmin-0.4.4
+DISTNAME=	xmysqladmin-1.0
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
@@ -17,7 +17,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms \
-		mysqlclient.6:${PORTSDIR}/databases/mysql322
+		mysqlclient.6:${PORTSDIR}/databases/mysql322-client
 
 WRKSRC=		${WRKDIR}/xmysqladmin
 USE_X_PREFIX=	yes

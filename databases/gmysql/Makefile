@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.loth.demon.co.uk/gmysql/ \
 MAINTAINER=	dirk@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \
-		mysqlclient.6:${PORTSDIR}/databases/mysql322
+		mysqlclient.6:${PORTSDIR}/databases/mysql322-client
 
 GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 

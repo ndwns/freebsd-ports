@@ -11,8 +11,8 @@
     SUBDIR += interbase4
     SUBDIR += msql
     SUBDIR += mysql321
-    SUBDIR += mysql322
-#    SUBDIR += mysql322-client
+    SUBDIR += mysql322-client
+    SUBDIR += mysql322-server
     SUBDIR += mysqltutor
     SUBDIR += p5-DBD-Pg
     SUBDIR += p5-DBI
