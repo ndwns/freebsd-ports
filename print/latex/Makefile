@@ -5,7 +5,7 @@
 #
 # $Id$
 #
-VERSION=	96.06
+VERSION=	96.12
 DISTNAME=	latex
 PKGNAME=	latex2e-${VERSION}
 CATEGORIES=	print
