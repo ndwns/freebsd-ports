@@ -24,7 +24,7 @@ ALL_TARGET=	bootstrap
 MAN1=		cccp28.1 g++28.1 gcc28.1
 
 pre-fetch:
-	@${ECHO} "GCC 2.8 for ${OSNAME} ${GNUOSREL}"
+	@${ECHO} "GCC ${DISTNAME:S/^gcc-//} for ${OSNAME} ${GNUOSREL}"
 
 post-patch:
 	@(cd ${WRKSRC}/config/i386/ ; \
