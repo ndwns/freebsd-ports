@@ -8,6 +8,7 @@
     SUBDIR += idled
     SUBDIR += lsof
     SUBDIR += manck
+    SUBDIR += mei
     SUBDIR += mkisofs
     SUBDIR += pib
     SUBDIR += rtty
