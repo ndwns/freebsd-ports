@@ -5,6 +5,7 @@
     SUBDIR += btoa
     SUBDIR += ish
     SUBDIR += kdesupport
+    SUBDIR +- man2html
     SUBDIR += mimepp
     SUBDIR += mpack
     SUBDIR += p5-Convert-UU
