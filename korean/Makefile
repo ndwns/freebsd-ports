@@ -20,6 +20,7 @@
     SUBDIR += johabfonts
     SUBDIR += kaistfonts
     SUBDIR += linuxdoc-sgml
+    SUBDIR += mizifont
     SUBDIR += mule-wnn4
     SUBDIR += netscape3
     SUBDIR += nh2ps
