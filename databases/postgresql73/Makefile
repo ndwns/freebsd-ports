@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.postgresql.org/pub/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+Y2K=		http://www.postgresql.org/y2k.html
+
 # if you want to use the tcl/tk frontend pgaccess, then you need to build
 # postgresql with tcl support by typing: make USE_TCL=yes
 .if defined(USE_TCL)
