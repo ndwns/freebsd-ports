@@ -16,7 +16,7 @@ EXTRACT_SUFX=	-tar.gz
 
 MAINTAINER=	itojun@itojun.org
 
-BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash \
+BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash2 \
 		${PREFIX}/lib/afm/Courier:${PORTSDIR}/print/afm
 # no dependency on ghostscript because we don't know which
 # version the user prefers

@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	devel/lang/c
 
 MAINTAINER=	dchapes@zeus.leitch.com
 
-RUN_DEPENDS=	bash:${PORTSDIR}/shells/bash
+RUN_DEPENDS=	bash:${PORTSDIR}/shells/bash2
 
 USE_GMAKE=	yes
 

@@ -1,7 +1,7 @@
 # $Id$
 #
 
-    SUBDIR += bash
+    SUBDIR += bash1
     SUBDIR += bash2
     SUBDIR += es
     SUBDIR += scsh
