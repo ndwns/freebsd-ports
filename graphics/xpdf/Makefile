@@ -16,7 +16,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-gzip
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		xpdf.1 pdftops.1 pdftotext.1
 
 .include <bsd.port.mk>

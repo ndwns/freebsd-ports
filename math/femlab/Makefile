@@ -17,7 +17,7 @@ MAINTAINER=	giffunip@asme.org
 BUILD_DEPENDS=	${PREFIX}/lib/libsx.a:${PORTSDIR}/x11/libsx
 
 WRKSRC=         ${WRKDIR}/${PKGNAME}
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 FEMLAB_HOME=	${PREFIX}/lib/X11/femlab
 

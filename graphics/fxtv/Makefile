@@ -25,8 +25,8 @@ LIB_DEPENDS=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
 #		mpeg_encode:${PORTSDIR}/graphics/mpeg_encode \
 #		mplex:${PORTSDIR}/graphics/mplex
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_GMAKE=      yes
-MAKE_FLAGS+=	-e
+MAKE_FLAGS=	-e
 
 .include <bsd.port.mk>

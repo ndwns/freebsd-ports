@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.st.ryukoku.ac.jp/pub/X11/fonts/ \
 
 MAINTAINER=	ginga@amalthea.phys.s.u-tokyo.ac.jp
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAKE_ENV=	INSTALL_DATA="${INSTALL_DATA}"
 
 post-install:

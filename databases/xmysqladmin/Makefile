@@ -20,7 +20,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
 WRKSRC=		${WRKDIR}/xmysqladmin
-USE_X11=	yes
+USE_X_PREFIX=	yes
 ALL_TARGET=	xmysqladmin
 
 .include <bsd.port.mk>

@@ -15,7 +15,7 @@ MAINTAINER=     dom@myrddin.demon.co.uk
 LIB_DEPENDS=	gtk\\.1\\.5:${PORTSDIR}/x11/gtk
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-install:
 .if !defined(NOPORTDOCS)

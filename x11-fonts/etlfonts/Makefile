@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tar
 MAINTAINER=	mita@jp.FreeBSD.org
 
 EXTRACT_ARGS=	-xf
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-extract:
 	@gunzip ${WRKSRC}/*.gz

@@ -17,7 +17,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 ALL_TARGET=	linux
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/xnibbles
 
 MAN6=		xnibbles.6

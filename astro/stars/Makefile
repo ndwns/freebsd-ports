@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/stars-1.0/ \
 
 MAINTAINER=	jseger@FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		$(WRKDIR)/$(PKGNAME)
 
 do-build:

@@ -17,7 +17,7 @@ PATCH_SITES=	${MASTER_SITES}
 
 BROKEN=		old version not available, new version needs debugging
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
 
 MAN1=		xmbdfed.1

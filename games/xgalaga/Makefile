@@ -16,7 +16,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 HAS_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 # xgalaga has a very strange usage of these variables...
 CONFIGURE_ARGS=	--prefix=${X11BASE}/lib/X11/xgalaga \
 		--exec_prefix=${X11BASE}/bin

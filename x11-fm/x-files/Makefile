@@ -17,7 +17,7 @@ BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
 WRKSRC=		${WRKDIR}/X-Files
 NO_BUILD=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-install:
 	@wish8.0 ${SCRIPTDIR}/mktclIndex ${WRKSRC}
@@ -32,5 +32,7 @@ xfilesrc xflogo.gif
 .endfor
 	@${INSTALL_DATA} ${WRKSRC}/X-Files.xpm ${X11BASE}/include/X11/pixmaps
 	@${INSTALL_MAN} ${WRKSRC}/X-Files.1x ${X11BASE}/man/man1
+
+BROKEN=		DISPLAY
 
 .include <bsd.port.mk>

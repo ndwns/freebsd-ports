@@ -15,7 +15,7 @@ MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-patch:
 .if defined(TITLE_BOTTOM)

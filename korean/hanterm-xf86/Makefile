@@ -15,7 +15,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-x --build=i386--freebsd --prefix=${PREFIX}
 NO_INSTALL_MANPAGES=	yes

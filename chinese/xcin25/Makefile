@@ -17,7 +17,7 @@ MAINTAINER=     yssu@CCCA.NCTU.edu.tw
 
 RUN_DEPENDS=	${X11BASE}/lib/X11/fonts/chinese/kc15f.pcf.gz:${PORTSDIR}/chinese/kcfonts
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS	=-prefix="${X11BASE}" \
 		-x-font-prefix="${X11BASE}/lib/X11/fonts"

@@ -14,7 +14,7 @@ MASTER_SITES=	http://lore.ece.utexas.edu/~bgrayson/xosview/ \
 MAINTAINER=	handy@physics.montana.edu
 
 FETCH_BEFORE_ARGS=	-b
-USE_X11=	yes
+USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
 MAN1=		xosview.1
 

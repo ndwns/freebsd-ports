@@ -19,6 +19,6 @@ MAINTAINER=     nsayer@quack.kfu.com
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 .include <bsd.port.mk>

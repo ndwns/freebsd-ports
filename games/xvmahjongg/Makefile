@@ -19,7 +19,7 @@ LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib \
 		olgx\\.3\\.2:${PORTSDIR}/x11/xview-lib
 
 ALL_TARGET=	mahjongg.swap
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/mahjongg2.1
 MAN6=		xvmahjongg.6
 

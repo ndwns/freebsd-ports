@@ -17,7 +17,7 @@ MAINTAINER=	giffunip@asme.org
 
 LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 ALL_TARGET=	src freq
 
 do-install:

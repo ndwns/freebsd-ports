@@ -19,7 +19,7 @@ BUILD_DEPENDS=	${X11BASE}/lib/libhlpclient.a:${PORTSDIR}/x11/libhelp \
 		${LOCALBASE}/lib/libmfhdf.a:${PORTSDIR}/graphics/hdf
 LIB_DEPENDS=	Xbae\\.6\\.:${PORTSDIR}/x11/xbae
 
-USE_X11=	YES
+USE_X_PREFIX=	YES
 REQUIRE_MOTIF=	YES
 HAS_CONFIGURE=	YES
 CONFIGURE_ARGS=	-prefix=${X11BASE} \

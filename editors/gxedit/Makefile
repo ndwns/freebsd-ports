@@ -17,7 +17,7 @@ MAINTAINER=     dom@myrddin.demon.co.uk
 LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
 
 EXTRACT_BEFORE_ARGS= -xf
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gxedit ${PREFIX}/bin

@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN6=		xbomb.6
 
 post-install:

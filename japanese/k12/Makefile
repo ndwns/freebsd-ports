@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/FreeBSD/etc/
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 
 post-install:

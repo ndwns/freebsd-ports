@@ -16,7 +16,7 @@ LIB_DEPENDS=	tk42\\.1:${PORTSDIR}/x11/tk42
 BUILD_DEPENDS=	autoconf:${PORTSDIR}/devel/autoconf
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		rtpmon.1
 
 pre-configure:

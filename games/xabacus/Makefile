@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	applications
 MAINTAINER=		andy@icc.surw.chel.su
 
 GNU_CONFIGURE=		yes
-USE_X11=		yes
+USE_X_PREFIX=		yes
 REQUIRES_MOTIF=		yes
 WRKSRC=			${WRKDIR}/xabacus
 

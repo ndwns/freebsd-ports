@@ -16,7 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11/qt
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 
 pre-build:

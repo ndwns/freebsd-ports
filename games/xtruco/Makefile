@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xtruco ${PREFIX}/bin

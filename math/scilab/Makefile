@@ -21,7 +21,7 @@ BROKEN=		package
 NO_CDROM=	"Don't sell for profit."
 WRKSRC=		${WRKDIR}/scilab-2.3
 HAS_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 SCIDIR= ${X11BASE}/lib/X11/scilab
 

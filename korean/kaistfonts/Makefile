@@ -14,7 +14,7 @@ DISTFILES=	kaist-newmj18.bdf.gz ks_philgi16.bdf.gz \
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
 MAKE_ENV=	DISTDIR=${DISTDIR} DISTFILES="${DISTFILES}"

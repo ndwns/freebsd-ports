@@ -17,7 +17,7 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/fnlib

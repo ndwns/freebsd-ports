@@ -24,7 +24,7 @@ LIB_DEPENDS+=	png\\.2\\.:${PORTSDIR}/graphics/png
 LIB_DEPENDS+=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
 #LIB_DEPENDS+=	xdelta\\.0\\.18:${PORTSDIR}/misc/xdelta
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 

@@ -18,7 +18,7 @@ RESTRICTED=     "Includes a copyrighted file from Netscape"
 NO_EXTRACT=     YES
 NO_BUILD=       YES
 NO_WRKDIR=      YES
-USE_X11=        YES
+USE_X_PREFIX=   YES
 
 APPDEF = ${X11BASE}/lib/X11/app-defaults
 

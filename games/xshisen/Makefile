@@ -16,7 +16,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 # runs fine on ssh connection
 #IS_INTERACTIVE=	YES	# Has to create an app-defaults file
-USE_X11=	YES
+USE_X_PREFIX=	YES
 GNU_CONFIGURE=	YES
 #CONFIGURE_ARGS=--enable-japanese=euc	#Japanese char set euc, jis sjis
 MAN6=		xshisen.6

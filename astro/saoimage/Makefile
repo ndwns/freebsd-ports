@@ -17,7 +17,7 @@ ALL_TARGET=	FreeBSD
 INSTALL_TARGET= -f makefile.$(ALL_TARGET) install_saobin install_saoman
 
 MANL=		saoimage.l
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-patch:
 	$(CP) $(WRKSRC)/makefile.sun $(WRKSRC)/makefile.$(ALL_TARGET)

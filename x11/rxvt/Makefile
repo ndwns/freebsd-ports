@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=  yes
 MAN1=		rxvt.1
 

@@ -18,7 +18,7 @@ RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
 NO_BUILD=	yes
 NO_WRKSUBDIR=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 STRIP=
 BINOWN=		root

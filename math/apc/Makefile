@@ -14,7 +14,7 @@ MAINTAINER= 	eagriff@global2000.net
 
 LIB_DEPENDS=	xforms\\.0\\.86:${PORTSDIR}/x11/xforms
 
-USE_X11=	YES
+USE_X_PREFIX=	YES
 MAN1=		apc.1
 MANCOMPRESSED=	YES
 

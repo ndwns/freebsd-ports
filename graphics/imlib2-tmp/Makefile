@@ -21,7 +21,7 @@ LIB_DEPENDS=    png\\.2\\.:${PORTSDIR}/graphics/png \
 		gtk\\.1\\.5:${PORTSDIR}/x11/gtk
 
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS=-I${LOCALBASE}/include \
 		LIBS=-L${LOCALBASE}/lib \

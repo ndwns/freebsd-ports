@@ -18,7 +18,7 @@ NO_PACKAGE=	${RESTRICTED}
 
 NO_BUILD=	yes
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/X11/fonts/sharefont

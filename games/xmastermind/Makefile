@@ -15,7 +15,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 LIB_DEPENDS=		xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xmastermind ${PREFIX}/bin

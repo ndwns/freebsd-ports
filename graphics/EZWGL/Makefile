@@ -16,7 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 LIB_DEPENDS=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
 
 ALL_TARGET=	shared clean static
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
 MAN3=	EZ.3 EZ_ActivateNoteBookPage.3 EZ_ActivateWidget.3 \

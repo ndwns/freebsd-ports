@@ -18,7 +18,7 @@ RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
 NO_WRKSUBDIR=	yes
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-install:
 	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL

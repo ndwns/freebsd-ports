@@ -16,7 +16,7 @@ EXTRACT_SUFX=	.bdf.tar.gz
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 FONTS=		ptpR08 ptpR10 ptpR12 ptpR14 ptpR18 ptpR24 \
 		ptpB08 ptpB10 ptpB12 ptpB14 ptpB18 ptpB24

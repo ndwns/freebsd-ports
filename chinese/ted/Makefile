@@ -17,7 +17,7 @@ MAINTAINER=		vanilla@FreeBSD.ORG
 
 RUN_DEPENDS=		${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 WRKSRC=			${WRKDIR}/ted
 
 .include <bsd.port.mk>

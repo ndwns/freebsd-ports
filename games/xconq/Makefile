@@ -17,7 +17,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-xpm
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAN6=		xconq.6 cconq.6
 

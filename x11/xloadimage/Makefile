@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/
 
 MAINTAINER=	jmz@FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 ALL_TARGET=
 

@@ -14,7 +14,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=     ache@FreeBSD.org
 
-USE_X11=        yes
+USE_X_PREFIX=   yes
 NO_WRKSUBDIR=   yes
 ALL_TARGET=     getbdf
 

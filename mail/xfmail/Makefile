@@ -16,7 +16,7 @@ MAINTAINER=	gena@NetVision.net.il
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.88\\.1:${PORTSDIR}/x11/xforms
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 MAN1=		xfmail.1
 

@@ -16,7 +16,7 @@ MASTER_SITES=   ftp://ftp.x.org/R5contrib/  \
 
 MAINTAINER=	giffunip@asme.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_BUILD=	yes
 
 # Where it will be installed (change pkg/PLIST if you change this)

@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.computas.no/users/shh/pub-unix/files/ \
 MAINTAINER=	andy@icc.surw.chel.su
 
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/shhcards.h ${PREFIX}/include

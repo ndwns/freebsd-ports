@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 WRKSRC=		${WRKDIR}/NES
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_BUILD=	yes
 
 do-install:

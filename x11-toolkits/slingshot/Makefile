@@ -17,7 +17,7 @@ MAINTAINER=	giffunip@asme.org
 LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
 
 WRKSRC=		$(WRKDIR)/sspkg2.1
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 MAKE_ENV=       OPENWINHOME=$(X11BASE)
 

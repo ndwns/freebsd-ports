@@ -15,7 +15,7 @@ MAINTAINER=	ports@freebsd.org
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
 MAKEFILE=	GNUmakefile
 MAN1=		mgv.1

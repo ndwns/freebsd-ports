@@ -48,7 +48,7 @@ WRKSRC=		${WRKDIR}/GimpUserManaul_v1.0.0
 
 BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 NO_BUILD=	yes
 
@@ -70,7 +70,7 @@ DISTFILES=	GimpUserManual-1.0.0-pdf
 EXTRACT_ONLY=	#empty
 NO_BUILD=	yes
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-fetch:
 	@${MKDIR} ${WRKDIR}
@@ -92,7 +92,7 @@ EXTRACT_AFTER_ARGS= > ${DISTNAME}
 
 NO_BUILD=	yes
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-extract:
 	@${CP} ${PKGDIR}/PLIST_PS ${PKGDIR}/PLIST

@@ -14,6 +14,6 @@ MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 MAINTAINER=	erich@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 .include <bsd.port.mk>

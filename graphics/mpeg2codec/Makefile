@@ -13,7 +13,7 @@ DISTFILES=	mpeg2vidcodec_v12.tar.gz
 
 MAINTAINER=	charnier@lirmm.fr
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/mpeg2
 
 do-install:

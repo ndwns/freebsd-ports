@@ -19,7 +19,7 @@ LIB_DEPENDS=	xforms\\.0:${PORTSDIR}/x11/xforms \
 
 WRKSRC=		${WRKDIR}/Geomview
 REQUIRES_MOTIF=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAN1=		addbbox.1 animate.1 anytooff.1 anytoucd.1 bdy.1 clip.1 \
 		cplxview.1 crayola.1 example.1 flythrough.1 geomview.1 \

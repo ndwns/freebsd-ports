@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	graphics
 MAINTAINER=	erich@FreeBSD.org
 
 REQUIRES_MOTIF=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>

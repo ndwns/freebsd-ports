@@ -16,7 +16,7 @@ MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
 LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
-USE_X11=	YES
+USE_X_PREFIX=	YES
 NO_WRKSUBDIR=	YES
 EXTRACT_BEFORE_ARGS=	-xf
 

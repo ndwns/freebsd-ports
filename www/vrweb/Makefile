@@ -16,7 +16,7 @@ MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 LIB_DEPENDS=	GL\\.13\\.:${PORTSDIR}/graphics/Mesa2
 
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-configure:
 	(cd ${WRKSRC}; \

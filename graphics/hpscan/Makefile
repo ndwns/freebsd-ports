@@ -17,7 +17,7 @@ MAINTAINER=	nate@FreeBSD.org
 LIB_DEPENDS+=  jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
 
 NO_WRKSUBDIR=		yes
-USE_X11=		yes
+USE_X_PREFIX=		yes
 USE_IMAKE=		yes
 NO_INSTALL_MANPAGES=	yes
 

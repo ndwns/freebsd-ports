@@ -23,7 +23,7 @@ CONFIGURE_ARGS= --without-gl --without-motif --without-sx \
 .if defined(MAKE_KERBEROS4)
 CONFIGURE_ARGS+= --enable-kerberos4
 .endif
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		xlock.1
 
 OSVERSION!=     sysctl -n kern.osreldate

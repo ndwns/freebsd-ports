@@ -18,7 +18,7 @@ DIST_SUBDIR=	kaskade
 WRKSRC=         ${WRKDIR}/3.1
 MAKEFILE=	makefile
 ALL_TARGET=	k6
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	$(INSTALL_PROGRAM) $(WRKSRC)/k6 $(PREFIX)/bin

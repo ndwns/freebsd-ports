@@ -14,7 +14,7 @@ MASTER_SITES=	http://zippy.sonoma.edu/kendrick/nbs/unix/x/gemdropx/
 MAINTAINER=	andy@icc.surw.chel.su
 
 MAKEFILE=	makefile
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/gemdropx ${PREFIX}/bin

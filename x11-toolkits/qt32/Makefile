@@ -17,8 +17,8 @@ LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa2
 MAJ=		1
 MIN=		40
 USE_GMAKE=	yes
-USE_X11=	yes
-MAKE_ENV+=	QTDIR=${WRKSRC}
+USE_X_PREFIX=	yes
+MAKE_ENV=	QTDIR=${WRKSRC}
 
 MAN1=	moc.1
 MAN3=	QAccel.3qt QApplication.3qt QArray.3qt QAsyncIO.3qt \

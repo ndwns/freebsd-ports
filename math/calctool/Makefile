@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.kfu.com/pub/
  
 MAINTAINER=     nsayer@quack.kfu.com
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 MAN1=		calctool.1
 
 .include <bsd.port.mk>

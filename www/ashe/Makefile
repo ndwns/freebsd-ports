@@ -17,6 +17,6 @@ DISTFILES=	ashe_cci.tar.Z cci.tar.Z libhtmlw.tar.Z
 
 REQUIRES_MOTIF=	yes
 NO_WRKSUBDIR=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 .include <bsd.port.mk>

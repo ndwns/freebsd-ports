@@ -17,7 +17,7 @@ MAINTAINER=	jseger@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/Mesa-3.0
 
 ALL_TARGET=	freebsd
-USE_X11=	yes
+USE_X_PREFIX=	yes
 LIBS=		libMesaGL libMesaGLU
 SHLIB_VERSION=	14.0
 NO_LATEST_LINK=	yes

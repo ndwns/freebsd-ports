@@ -18,7 +18,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 BROKEN=		libkrb
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		attraction.1 blitspin.1 bouboule.1 braid.1 bubbles.1 \
 		decayscreen.1 deco.1 drift.1 epicycle.1 flag.1 flame.1 \
 		forest.1 galaxy.1 goop.1 grav.1 greynetic.1 halo.1 helix.1 \

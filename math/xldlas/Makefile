@@ -20,7 +20,7 @@ LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
 WRKSRC=		${WRKDIR}/xldlas
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAN1=	xldlas.1
 

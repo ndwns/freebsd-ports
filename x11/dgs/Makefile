@@ -19,7 +19,7 @@ LIB_DEPENDS= 	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 WRKSRC=		${WRKDIR}/${DISTNAME}/dgs
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAN1=		gs.1 pdf2ps.1 ps2ascii.1 ps2epsi.1 ps2pdf.1
 

@@ -17,7 +17,7 @@ MAINTAINER=	deischen@iworks.InterWorks.org
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 REQUIRES_MOTIF=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	nedit_source.tar.gz
 MAN1=		nedit.1 nc.1

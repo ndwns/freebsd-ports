@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	apps/graphics/hacks/X
 
 MAINTAINER=	matt@bdd.net
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/Xtacy
 ALL_TARGET=	xtacy
 

@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		xdl.1
 
 .include <bsd.port.mk>

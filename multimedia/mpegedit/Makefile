@@ -15,6 +15,6 @@ MAINTAINER=	erich@FreeBSD.org
 
 BUILD_DEPENDS=	${PREFIX}/include/pbmplus.h:${PORTSDIR}/graphics/netpbm
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 .include <bsd.port.mk>

@@ -23,7 +23,7 @@ BUILD_DEPENDS=	${GSM_WORK}/lib/libgsm.a:${GSM_DIR}:build
 LIB_DEPENDS=	tk80:${PORTSDIR}/x11/tk80 \
 		gsm:${GSM_DIR}
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_AUTOCONF=	yes
 CONFIGURE_ARGS=	--with-gsm=${GSM_WORK}
 INSTALL_TARGET=	install install-man

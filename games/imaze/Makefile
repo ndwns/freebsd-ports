@@ -22,7 +22,7 @@ LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib
 .endif
 
 EXTRACT_ONLY=	imaze1.3.tar.Z
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-extract:
 	@${CP} ${FILESDIR}/Makefile ${WRKDIR}/imaze/Makefile

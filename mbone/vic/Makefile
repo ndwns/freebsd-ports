@@ -16,7 +16,7 @@ MAINTAINER=	fenner@FreeBSD.ORG
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 USE_AUTOCONF=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		vic.1
 
 post-install:

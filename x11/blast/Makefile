@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/blast-1.0/ \
 
 MAINTAINER=	jseger@FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		blast.1
 WRKSRC=		${WRKDIR}/blast-1.0
 

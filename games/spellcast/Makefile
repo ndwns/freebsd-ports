@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	games/multiplayer
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 MAN6=			spellcast.6
 
 do-install:

@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.pacbell.com/X11/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
 
 HAS_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 STRIP=
 MAN1=		${PROGRAM_NAME}.1
 

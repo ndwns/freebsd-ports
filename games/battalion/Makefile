@@ -17,7 +17,7 @@ LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa2 \
 		MesaGLU\\.13\\.:${PORTSDIR}/graphics/Mesa2
 
 ALL_TARGET=
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/battalionSource
 
 MAN6=		battalion.6

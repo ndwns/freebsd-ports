@@ -15,7 +15,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/xchain-1.0
 
 MAN6=		xchain.6

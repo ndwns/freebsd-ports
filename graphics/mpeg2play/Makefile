@@ -13,7 +13,7 @@ DISTFILES=	mpeg2play-1.1b.tar.gz
 
 MAINTAINER=	charnier@lirmm.fr
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 USE_IMAKE=	yes
 REQUIRES_MOTIF=	yes
 ALL_TARGET=	mpeg2play

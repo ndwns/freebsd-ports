@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://igs.nuri.net/Go/igs_clients/Unix/
 MAINTAINER=	simonm@dcs.gla.ac.uk
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 ALL_TARGET=
 MAN6=		cgoban.6
 

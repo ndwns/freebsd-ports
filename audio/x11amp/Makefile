@@ -17,7 +17,7 @@ MAINTAINER=	dburr@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/x11amp
 
-USE_X11=	YES
+USE_X_PREFIX=	YES
 NO_BUILD=	YES
 
 do-install:

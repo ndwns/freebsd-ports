@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.cs.columbia.edu/pub/xmove/
 MAINTAINER=	sec@42.org
 
 WRKSRC=		${WRKDIR}/xmove
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		xmove.1 xmovectrl.1
 
 post-extract:

@@ -14,7 +14,7 @@ DISTFILES=	angband-283.tar.gz ext-x11-283.tar.gz
 
 MAINTAINER=	mph@freebsd.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 DIST_SUBDIR=	angband
 
 EXTSRC=		${WRKDIR}/ext-x11-283

@@ -16,7 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-configure:
 	@ ${RM} ${WRKSRC}/config.cache

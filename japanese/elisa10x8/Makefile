@@ -16,7 +16,7 @@ DISTFILES=	elisau10.tgz clR5x8.bdf
 
 MAINTAINER=	ishijima@tri.pref.osaka.jp
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	elisau10.tgz
 

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://devvax.jpl.nasa.gov/pub/xopps/
 MAINTAINER=	ports@FreeBSD.org
 
 ALL_TARGET=
-USE_X11=	yes
+USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
 MACH=		FreeBSD
 MAKE_ENV=	'MACH=$(MACH)'

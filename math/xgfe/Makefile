@@ -15,7 +15,7 @@ MAINTAINER=	mph@freebsd.org
 LIB_DEPENDS=	qt\\.1\\.3:${PORTSDIR}/x11/qt
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAKE_ENV=	X11BASE=$(X11BASE) PREFIX=$(PREFIX)
 .if defined(NOPORTDOCS)

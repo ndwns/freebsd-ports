@@ -14,8 +14,8 @@ DISTFILES=	VGB.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-USE_X11=	yes
-CONFIGURE_ENV+= X11BASE=${X11BASE}
+USE_X_PREFIX=	yes
+CONFIGURE_ENV=  X11BASE=${X11BASE}
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/gblist ${PREFIX}/bin

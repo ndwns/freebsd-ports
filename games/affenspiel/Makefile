@@ -15,7 +15,7 @@ EXTRACT_SUFX=		.tgz
 MAINTAINER=		andy@icc.surw.chel.su
 
 WRKSRC=			${WRKDIR}/affenspiel
-USE_X11=		yes
+USE_X_PREFIX=		yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/affenspiel ${PREFIX}/bin

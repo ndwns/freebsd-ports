@@ -16,7 +16,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gena@NetVision.net.il
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/xforms
 MAN1=		fdesign.1 fd2ps.1
 MAN5=		xforms.5

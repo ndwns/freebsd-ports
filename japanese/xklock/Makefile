@@ -21,7 +21,7 @@ PATCH_DIST_STRIP=	-p1
 MAINTAINER=	nkazushi@highway.or.jp
 
 WRKSRC=	${WRKDIR}
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-configure:
 	@${MV} ${WRKDIR}/jnames.c ${WRKDIR}/jnames.c.in

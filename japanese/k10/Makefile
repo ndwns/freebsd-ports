@@ -13,7 +13,7 @@ MASTER_SITES=	http://gondow-www.cs.titech.ac.jp/~snagao/fonts/
 
 MAINTAINER=	usagi@clave.gr.jp
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=         ${WRKDIR}/knj10-1.00
 
 post-install:

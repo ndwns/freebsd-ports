@@ -14,7 +14,7 @@ MAINTAINER=	dirk.meyer@dinoex.sub.org
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
-USE_X11=	YES
+USE_X_PREFIX=	YES
 ALL_TARGET=	Frodo
 WRKSRC=		${WRKDIR}/Frodo/Src
 

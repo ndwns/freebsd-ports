@@ -18,7 +18,7 @@ LIB_DEPENDS=	Dnd\\.1\\.:${PORTSDIR}/x11/libdnd
 
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
-USE_X11=	YES
+USE_X_PREFIX=	YES
 MAN1=		clipboard.1
 
 .include <bsd.port.mk>

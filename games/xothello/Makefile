@@ -18,7 +18,7 @@ LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
 NO_CDROM=	Possible trademark infringement
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-build:
 	@ ${RM} ${WRKSRC}/xothello

@@ -15,7 +15,7 @@ MAINTAINER=     Nakai@Mlab.t.u-tokyo.ac.jp
 
 RUN_DEPENDS=    ${LOCALBASE}/libexec/gnushogix:${PORTSDIR}/games/gnushogi
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAKEFILE=	Makefile.custom
 MAN6=		xshogi.6
 

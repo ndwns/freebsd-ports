@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gimp/fonts/
 MAINTAINER=	erich@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-install:
 	@cat ${PKGDIR}/DESCR

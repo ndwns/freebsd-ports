@@ -13,7 +13,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 RESTRICTED=	"Possible trademark infringement"
 
 .include <bsd.port.mk>

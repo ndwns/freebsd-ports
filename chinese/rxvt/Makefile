@@ -15,7 +15,7 @@ MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
 RUN_DEPENDS=	${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin
 
-USE_X11=        yes
+USE_X_PREFIX=   yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --enable-big5=yes --enable-xcin=yes
 MAN1=           crxvt2.1

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://freebsd.ntu.edu.tw/freebsd/taiwan/ \
 
 MAINTAINER=	PA@FreeBSD.ee.Ntu.edu.TW
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

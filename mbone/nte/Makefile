@@ -22,7 +22,7 @@ LIB_DEPENDS=	tk42\\.1:${TK_DIR}
 RESTRICTED=	"Contains DES encryption"
 NO_WRKSUBDIR=	yes
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 # Pass this on to our child
 MAKE_ENV=	TK_SRC=${TK_SRC}
 

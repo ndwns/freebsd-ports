@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.asci.fr/~prudhomm/gfem-html/freefem/
 
 MAINTAINER=     giffunip@asme.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-adapt --with-optimization
 

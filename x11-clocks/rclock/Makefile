@@ -19,7 +19,7 @@ MASTER_SITE_SUBDIR=	utils/file/managers/mc/rxvt
 MAINTAINER=	obrien@FreeBSD.org
 
 CFLAGS+=	'-DMAIL_SPOOL=\"/var/mail/\"'
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=  yes
 ALL_TARGET=	clock
 MAN1=		rclock.1

@@ -19,7 +19,7 @@ MANUAL_PACKAGE_BUILD=	do not want to install during interactive build
 GNU_CONFIGURE=  yes
 # comment this and remove the strip statement in post-install for debugging
 CONFIGURE_ARGS=	--disable-debug
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 MAN1=	mwm.1 xmbind.1 lesstif.1
 MAN3=	XmClipboard.3 LessTifInternals.3 \

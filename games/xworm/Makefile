@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.ekran.no/archive/x/
 MAINTAINER=	andy@icc.surw.chel.su
 
 ALL_TARGET=	freebsd
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/XWorm
 
 do-install:

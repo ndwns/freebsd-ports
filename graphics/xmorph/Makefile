@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	erich@FreeBSD.org
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-patch:
 	(cd ${WRKSRC}; makedepend)

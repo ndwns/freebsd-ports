@@ -17,7 +17,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 LIB_DEPENDS=		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 			Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 WRKSRC=			${WRKDIR}/3Dc
 
 do-build:

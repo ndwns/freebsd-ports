@@ -22,7 +22,7 @@ NO_PACKAGE=	${RESTRICTED}
 
 NO_BUILD=	yes
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 pre-extract:
 	@${MKDIR} ${WRKDIR}

@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.geocities.com/SiliconValley/Way/1795/ \
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xroads ${PREFIX}/bin

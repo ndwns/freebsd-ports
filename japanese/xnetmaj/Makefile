@@ -14,7 +14,7 @@ DISTFILES=	netmaj-2.0.7.tar.gz netmaj-xui-2.0.7.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 ALL_TARGET=	libs all
 INSTALL_TARGET=	install install-pf
 

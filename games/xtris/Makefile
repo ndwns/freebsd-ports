@@ -15,7 +15,7 @@ MAINTAINER=	sec@42.org
 RESTRICTED=	"Possible trademark infringement"
 WRKSRC=		${WRKDIR}/xtris
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN6=		xtris.6 xtserv.6 xtbot.6
 
 .include <bsd.port.mk>

@@ -18,7 +18,7 @@ BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
 
 NO_CDROM=	"Not a free software, but redistributable on FreeBSD mirrors"
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 
 RPM2CPIO=	rpm2cpio

@@ -21,7 +21,7 @@ USE_GMAKE=	yes
 
 MAN1=		xlogmaster.1
 WRKSRC=		${WRKDIR}/xlogmaster
-USE_X11=	yes
+USE_X_PREFIX=	yes
 NO_PACKAGE=	ignores cflags
 
 post-install:

@@ -20,7 +20,7 @@ LIB_DEPENDS=	Imlib\\.1\\.:${PORTSDIR}/graphics/imlib
 WRKSRC=		$(WRKDIR)/Eterm-DR-0.7
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 MAN1=		Eterm.1
 ALL_TARGET=	FreeBSD
 

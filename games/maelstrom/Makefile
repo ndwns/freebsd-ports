@@ -15,7 +15,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 LIB_DEPENDS=		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-USE_X11=		yes
+USE_X_PREFIX=		yes
 WRKSRC=			${WRKDIR}/Maelstrom
 
 do-configure:

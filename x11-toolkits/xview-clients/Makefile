@@ -14,7 +14,7 @@ DEPENDS=        ${PORTSDIR}/x11/xview-lib
 
 WRKSRC=      	${PORTSDIR}/x11/xview-config/work/xview3.2p1-X11R6/clients
 NO_WRKDIR=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 do-fetch:
 do-extract:	# don't use NO_EXTRACT, dependency won't work

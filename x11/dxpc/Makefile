@@ -16,7 +16,7 @@ MAINTAINER=	bmah@ca.sandia.gov
 MAN1=		dxpc.1
 
 GNU_CONFIGURE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 
 post-install:
 	strip ${PREFIX}/bin/dxpc

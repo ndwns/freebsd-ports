@@ -21,7 +21,7 @@ LIB_DEPENDS=	esd\\.0\\.0:${PORTSDIR}/audio/esound \
 		Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib
 
 USE_GMAKE=	yes
-USE_X11=	yes
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LIBS=-L${LOCALBASE}/lib

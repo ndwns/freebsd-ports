@@ -17,7 +17,7 @@ BUILD_DEPENDS=	${X11BASE}/lib/libfwf.a:${PORTSDIR}/x11/FWF
 RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/aero/src
 MAKEFILE=	Makefile.linux
 

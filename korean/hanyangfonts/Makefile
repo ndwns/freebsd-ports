@@ -14,7 +14,7 @@ MASTER_SITES=   ftp://ftp.kaist.ac.kr/pub/hangul/fonts/ \
 
 MAINTAINER=     junker@jazz.snu.ac.kr
 
-USE_X11=        yes
+USE_X_PREFIX=        yes
 NO_WRKSUBDIR=   yes
 
 FONTS=		hgm10 hgm12 hgm14 hgm16 hgm18 hgm20 \

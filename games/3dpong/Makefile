@@ -14,7 +14,7 @@ MASTER_SITES=	http://zippy.sonoma.edu/kendrick/nbs/unix/x/3dpong/
 MAINTAINER=	andy@icc.surw.chel.su
 
 MAKEFILE=	makefile
-USE_X11=	yes
+USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/3dpong
 
 do-install:
