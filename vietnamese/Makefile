@@ -6,6 +6,7 @@
     SUBDIR += vnless
     SUBDIR += vnlpr
     SUBDIR += vnpstext
+    SUBDIR += vnroff
     SUBDIR += vnterm
 
 
