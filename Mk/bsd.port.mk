@@ -380,11 +380,11 @@ build: configure
 	@${TOUCH} ${TOUCH_FLAGS} ${BUILD_COOKIE}
 .endif
 .if defined(NO_PACKAGE) && !target(package)
-package: install
+package:
 	@${DO_NADA}
 .endif
 .if defined(NO_PACKAGE) && !target(repackage)
-repackage: install
+repackage:
 	@${DO_NADA}
 .endif
 .if defined(NO_INSTALL) && !target(install)
