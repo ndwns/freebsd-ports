@@ -349,6 +349,10 @@ build:
 package:
 	@${DO_NADA}
 .endif
+.if defined(NO_PACKAGE) && !target(repackage)
+repackage:
+	@${DO_NADA}
+.endif
 .if defined(NO_INSTALL) && !target(install)
 install:
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
@@ -442,7 +446,19 @@ pre-package:
 .endif
 
 .if !target(package)
-package: pre-package
+package: install
+	@${MAKE} ${.MAKEFLAGS} pre-package
+	@${MAKE} ${.MAKEFLAGS} do-package
+.endif
+
+.if !target(repackage)
+repackage:
+	@${MAKE} ${.MAKEFLAGS} pre-package
+	@${MAKE} ${.MAKEFLAGS} do-package
+.endif
+
+.if !target(do-package)
+do-package:
 	@if [ -e ${PKGDIR}/PLIST ]; then \
 		${ECHO_MSG} "===>  Building package for ${DISTNAME}"; \
 		if [ -d ${PACKAGES} ]; then \
