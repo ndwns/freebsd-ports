@@ -23,9 +23,10 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		mediatool\\.0\\.[6-9]:${PORTSDIR}/x11/kdelibs
 
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
-		"--with-extra-includes=$(PREFIX)/include/giflib"
+BROKEN=		install
+
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	"--with-extra-includes=$(PREFIX)/include/giflib"
 USE_GMAKE=	yes
 
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
