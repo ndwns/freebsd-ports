@@ -19,6 +19,8 @@
     SUBDIR += majordomo
     SUBDIR += metamail
     SUBDIR += mew
+    SUBDIR += mew-common
+    SUBDIR += mew-mule
     SUBDIR += mh
     SUBDIR += mmr
     SUBDIR += movemail
