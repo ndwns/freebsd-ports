@@ -26,11 +26,11 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/$$f ${PREFIX}/bin ; done)
 	${INSTALL_MAN} ${WRKSRC}/dvi2tty.1 ${PREFIX}/man/man1
 	-ln -sf ${PREFIX}/bin/jdvi2tty ${PREFIX}/bin/dvi2tty
+	${COMPRESS_MAN} ${PREFIX}/man/man1/dvi2tty.1
 .if !defined(NOMANCOMPRESS)
-	@gzip -9f ${PREFIX}/man/man1/dvi2tty.1
-	@ln -sf ${PREFIX}/man/man1/dvi2tty.1.gz ${PREFIX}/man/man1/jdvi2tty.1.gz
+	ln -sf ${PREFIX}/man/man1/dvi2tty.1.gz ${PREFIX}/man/man1/jdvi2tty.1.gz
 .else
-	@ln -sf ${PREFIX}/man/man1/dvi2tty.1 ${PREFIX}/man/man1/jdvi2tty.1
+	ln -sf ${PREFIX}/man/man1/dvi2tty.1 ${PREFIX}/man/man1/jdvi2tty.1
 .endif
 
 .include <bsd.port.mk>

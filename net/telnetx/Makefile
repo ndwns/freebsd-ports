@@ -26,8 +26,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/telnet/telnet ${PREFIX}/bin/telnetx
 	${INSTALL_PROGRAM} ${WRKSRC}/transit/transit ${PREFIX}/bin/transit
 	${INSTALL_MAN} ${WRKSRC}/telnet/telnet.1 ${PREFIX}/man/man1/telnetx.1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/telnetx.1
-.endif
+	${COMPRESS_MAN} ${PREFIX}/man/man1/telnetx.1
 
 .include <bsd.port.mk>

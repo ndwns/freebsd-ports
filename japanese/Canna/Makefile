@@ -36,10 +36,10 @@ STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/canna.sh
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
-.if !defined(NOMANCOMPRESS)
-	for f in ${MAN3PAGES} ; do gzip -9nf ${PREFIX}/man/man3/$$f ; done
-	for f in ${MAN1PAGES} ; do gzip -9nf ${PREFIX}/man/man1/$$f ; done
-.endif
+	for f in ${MAN3PAGES} ; do 					\
+	  ${COMPRESS_MAN} ${PREFIX}/man/man3/$$f ; done
+	for f in ${MAN1PAGES} ; do 					\
+	  ${COMPRESS_MAN} ${PREFIX}/man/man1/$$f ; done
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then 				\
 		echo "Installing ${STARTUP_SCRIPT} startup file."; 	\
 		echo '#!/bin/sh' > ${STARTUP_SCRIPT}; 			\
