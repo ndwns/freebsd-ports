@@ -6,7 +6,7 @@
 #
 
 DISTNAME=       rispell
-PKGNAME=        russian-ispell-1.0
+PKGNAME=        ru-ispell-1.0
 CATEGORIES=     textproc russian
 MASTER_SITES=   http://www.ispras.ru/~knizhnik/ \
 		ftp://ftp.kiarchive.ru/pub/unix/text/ispell/
