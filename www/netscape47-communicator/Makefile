@@ -33,7 +33,7 @@ NBIN=           communicator-4.51.bin
 .if defined(USE_128BIT)
 MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
 		ftp://ftp.za.freebsd.org/pub/Fortify/
-DISTFILES+=	Fortify-1.3.2-unix-x86.tar.gz
+DISTFILES+=	Fortify-1.4.1-unix-x86.tar.gz
 RESTRICTED=	"Contains strong cryptography"
 .else
 pre-extract:
@@ -57,7 +57,7 @@ do-install:
 	fi
 	${RM} -rf ${NDIR}/movemail-src
 .if defined(USE_128BIT)
-	cd ${WRKDIR}/Fortify-1.3.2-unix-x86 && \
+	cd ${WRKDIR}/Fortify-1.4.1-unix-x86 && \
 		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.51.bin
 .endif
 	chown -R ${BINOWN}.${BINGRP} ${NDIR}
