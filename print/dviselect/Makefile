@@ -8,7 +8,7 @@
 
 DISTNAME=	dviselect
 PKGNAME=	dviselect-1.3
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.cs.umn.edu/pub/latex/software/
 
 MAINTAINER=	jmz@FreeBSD.org

@@ -8,7 +8,7 @@
 VERSION=	95.06
 DISTNAME=	latex
 PKGNAME=	latex2e-${VERSION}
-CATEGORIES+=	printing
+CATEGORIES+=	print
 DISTFILES=	latex_mf-${VERSION}.tar.gz latex_tfm-${VERSION}.tar.gz \
 		latex_base-${VERSION}.tar.gz latex_tools-${VERSION}.tar.gz
 

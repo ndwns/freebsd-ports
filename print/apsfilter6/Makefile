@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	apsfilter-4.9.2
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://freefall.FreeBSD.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	Andreas Klemm <andreas@knobel.gun.de>

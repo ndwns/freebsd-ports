@@ -7,7 +7,7 @@
 #
 PKGNAME=        musixtex-3.96
 DISTFILES=      musixtex-T396.tar.gz musixexa-0375.tar.gz
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.tex.ac.uk//tex-archive/macros/musixtex/taupin/
 NO_WRKSUBDIR=	yes
 

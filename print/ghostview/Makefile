@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ghostview-1.5
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 EXEC_DEPENDS=	gs:${PORTSDIR}/print/ghostscript

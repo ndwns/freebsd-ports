@@ -9,7 +9,7 @@
 DISTNAME=	dvi2xx
 PKGNAME=	dvi2xx-0.51a9
 DISTFILES=	dvi2xx.tar.gz
-CATEGORIES+=	printing
+CATEGORIES+=	print
 
 MAINTAINER=	jmz@FreeBSD.ORG
 

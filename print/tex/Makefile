@@ -8,7 +8,7 @@
 
 DISTNAME=	web2c-6.1
 PKGNAME=	tex-3.1415
-CATEGORIES+=	printing
+CATEGORIES+=	print
 DISTFILES=	web2c.tar.gz web.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz      modes.mf 
 

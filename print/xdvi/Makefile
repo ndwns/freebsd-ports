@@ -8,7 +8,7 @@
 
 DISTNAME=	xdvi-20
 PKGNAME=	xdvi-pl20
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/	\
 		ftp://crl.dec.com/pub/X11/contrib/applications/
 EXTRACT_SUFX=	.tar.Z

@@ -8,7 +8,7 @@
 
 DISTNAME=	afm
 PKGNAME=	afm-1.0
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://sgi.com/sgi/fax/source/
 EXTRACT_SUFX=   -tar.Z
 

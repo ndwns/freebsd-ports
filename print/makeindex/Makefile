@@ -8,7 +8,7 @@
 
 DISTNAME=	makeindex
 PKGNAME=	makeindex-3.0.8
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.th-darmstadt.de/pub/tex/src/makeindex/BETA/
 DISTFILES=	makeindex-3.0.8.tar.Z
 

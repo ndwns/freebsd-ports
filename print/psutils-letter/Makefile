@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	psutils-1.13
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.sunet.se/pub/text-processing/postscript/utilities/psutils/
 
 MAINTAINER=	jmz@FreeBSD.org

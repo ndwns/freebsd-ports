@@ -8,7 +8,7 @@
 
 DISTNAME=	dvips
 PKGNAME=	dvips-5.58
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/dviware/dvips/
 DISTFILES=	dvips558.tar.gz
 

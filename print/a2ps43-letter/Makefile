@@ -8,7 +8,7 @@
 
 DISTNAME=	a2ps
 PKGNAME=	a2ps-4.3
-CATEGORIES+=	printing
+CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.imag.fr/archive/postscript/
 DISTFILES=	a2ps.V4.3.tar.gz
 
