@@ -8,7 +8,7 @@
 
 DISTNAME=       wmcdplay-0.8
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.windowmaker.org/pub/contrib/srcs/apps/
+MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
 
 MAINTAINER=	clkao@CirX.ORG
 
