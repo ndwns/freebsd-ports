@@ -11,6 +11,8 @@ CATEGORIES=	security net
 DISTFILES=	fwtk-v1.3${EXTRACT_SUFX} fwtk-doc-only${EXTRACT_SUFX}
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	obrien@FreeBSD.org
+
 RESTRICTED=	"No form of redistribution is allowed"
 
 WRKSRC=		${WRKDIR}/fwtk
