@@ -32,6 +32,7 @@
     SUBDIR += ircII
     SUBDIR += ircii-epic
     SUBDIR += isc-dhcp
+    SUBDIR += isc-dhcp2
     SUBDIR += ivs
     SUBDIR += kdenetwork
     SUBDIR += kirc
