@@ -25,6 +25,7 @@
     SUBDIR += gindent
     SUBDIR += gmake
     SUBDIR += id-utils
+    SUBDIR += ilu
     SUBDIR += lclint
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
