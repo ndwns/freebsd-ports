@@ -15,6 +15,8 @@ MAINTAINER=     dmaddox@scsn.net
 
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
+BROKEN=		repository copy
+
 .if !defined(DISPLAY)
 BROKEN=		requires DISPLAY to install
 .endif
