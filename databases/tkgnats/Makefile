@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	tkgnats-3.0.5
+DISTNAME=	tkgnats-3.0.6
 CATEGORIES=	databases tk80
 MASTER_SITES=	http://www.cuug.ab.ca/~macdonal/tkgnats/
 
