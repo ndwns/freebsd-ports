@@ -12,7 +12,7 @@ CATEGORIES+=	japanese net
 MASTER_SITES=	http://www.iijnet.or.jp/IIJ-MC/odajima/okphone/src/
 
 PATCH_SITES=	${MASTER_SITES}
-PATCHFILES=	okphone-1.2.FreeBSD-patch.gz
+PATCHFILES=	okphone-1.2.FreeBSD-patch.rev2.gz
 PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	asami@FreeBSD.ORG
