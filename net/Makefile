@@ -26,6 +26,7 @@
     SUBDIR += icmpinfo
     SUBDIR += irc
     SUBDIR += ircII
+    SUBDIR += ircii-epic
     SUBDIR += isc-dhcp
     SUBDIR += ivs
     SUBDIR += ldap
