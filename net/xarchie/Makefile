@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	xarchie-2.0.9
+DISTNAME=	xarchie-2.0.10
+MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+MASTER_SITES+=	ftp://ftp.funet.fi/pub/X11/contrib/applications/
+
 USE_IMAKE=	yes
-MASTER_SITES=	ftp://ftp.uu.net/networking/info-service/archie/clients/
-EXTRACT_SUFX=	.tar.Z
 DEPENDS=	${PORTSDIR}/net/archie
 
 .include <bsd.port.mk>
