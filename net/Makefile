@@ -39,8 +39,8 @@
     SUBDIR += dgd-net
     SUBDIR += dip
     SUBDIR += dlint
-    SUBDIR += dnswalk
     SUBDIR += dnsutl
+    SUBDIR += dnswalk
     SUBDIR += domtools
     SUBDIR += echoping
     SUBDIR += etherboot
@@ -48,15 +48,15 @@
     SUBDIR += fping
     SUBDIR += freewais-sf
     SUBDIR += fspclient
-    SUBDIR += gated
     SUBDIR += gaim
+    SUBDIR += gated
     SUBDIR += generic-nqs
     SUBDIR += ggsd
+    SUBDIR += gicq
     SUBDIR += gnome-icu
     SUBDIR += gnomenetwork
     SUBDIR += gnu-finger
     SUBDIR += gopher
-    SUBDIR += gicq
     SUBDIR += gtksamba
     SUBDIR += h2n
     SUBDIR += hesiod
@@ -132,6 +132,7 @@
     SUBDIR += rinetd
     SUBDIR += ripetools
     SUBDIR += rmsg
+    SUBDIR += rrdtool
     SUBDIR += rshell
     SUBDIR += rsync
     SUBDIR += rtsp_proxy
