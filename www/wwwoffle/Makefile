@@ -13,8 +13,6 @@ MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/httpd/ \
 MASTER_SITE_SUBDIR=	apps/www/servers
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	plm@xs4all.nl
-
 USE_GMAKE=	yes
 
 MAN1=		wwwoffle.1
