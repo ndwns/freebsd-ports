@@ -17,8 +17,8 @@ MASTERDIR=	${.CURDIR}/../../editors/flim-emacs-current
 EMACS_NAME=	emacs
 EMACS_PORT=	emacs20
 EMACS_VER=	20.3
-EMACS_LIBDIR=	share/${EMACS_NAME}
-EMACS_CMD=	${PREFIX}/bin/${EMACS_NAME}-${EMACS_VER}
+EMACS_LIBDIR=		share/${EMACS_NAME}
+EMACS_LIBDIR_WITH_VER=	${EMACS_LIBDIR}/${EMACS_VER}
 
 # use pkg/* files in ${.CURDIR}
 PKGDIR=		${.CURDIR}/pkg
