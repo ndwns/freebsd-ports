@@ -12,7 +12,7 @@
     SUBDIR += g77
     SUBDIR += gcl
     BROKEN += gnat   # not really broken, just requires existing gnat compiler
-    SUBDIR += guile-ii
+    SUBDIR += guile-iii
     SUBDIR += icon
     SUBDIR += itcl
     SUBDIR += logo
