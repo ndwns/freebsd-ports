@@ -32,5 +32,6 @@
     SUBDIR += unroff
     SUBDIR += virtualpaper
     SUBDIR += xdvi
+    SUBDIR += xmgr
 
 .include <bsd.port.subdir.mk>
