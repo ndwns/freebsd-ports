@@ -35,7 +35,7 @@ post-install:
 		${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/vnterm \
-		&& chmod a+rx ${PREFIX}/share/doc/vnterm
+		&& ${CHMOD} a+rx ${PREFIX}/share/doc/vnterm
 	@${INSTALL_MAN} ${WRKSRC}/README ${PREFIX}/share/doc/vnterm
 .endif
 

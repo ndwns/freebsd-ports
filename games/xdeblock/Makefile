@@ -22,7 +22,7 @@ NO_INSTALL_MANPAGES=	yes
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/xdeblo ${PREFIX}/bin
 	${MKDIR} ${PREFIX}/lib/X11/xdeblock/mapf
-	chmod 777 ${PREFIX}/lib/X11/xdeblock/mapf
+	${CHMOD} 777 ${PREFIX}/lib/X11/xdeblock/mapf
 	${INSTALL_DATA} ${WRKSRC}/mapf/*.txt ${PREFIX}/lib/X11/xdeblock/mapf
 
 .include <bsd.port.mk>

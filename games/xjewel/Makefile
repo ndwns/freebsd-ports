@@ -28,6 +28,6 @@ post-install:
 	$(ECHO) "#!/bin/sh" >${PREFIX}/bin/xjewel; \
 	$(ECHO) "xset +fp ${PREFIX}/lib/X11/xjewel" >>${PREFIX}/bin/xjewel; \
 	$(ECHO) "${PREFIX}/bin/xjewel_" >>${PREFIX}/bin/xjewel; \
-	chmod ugo+x ${PREFIX}/bin/xjewel)
+	${CHMOD} ugo+x ${PREFIX}/bin/xjewel)
 
 .include <bsd.port.mk>

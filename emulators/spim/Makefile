@@ -27,7 +27,7 @@ pre-configure:
 	@${RM} -f ${WRKSRC}/y.tab.*
 	
 pre-install:
-	@${MKDIR} ${PREFIX}/share/spim && chmod a+rx ${PREFIX}/share/spim
+	@${MKDIR} ${PREFIX}/share/spim && ${CHMOD} a+rx ${PREFIX}/share/spim
 
 post-install:
 	[ -e ${PREFIX}/bin/cl-spim ] &&  \
@@ -37,7 +37,7 @@ post-install:
 .if !defined(NOPORTDOCS)
 	@${ECHO} "Installing spim/xspim documentation"
 	@${MKDIR} ${PREFIX}/share/doc/spim  \
-		&& chmod a+rx ${PREFIX}/share/doc/spim
+		&& ${CHMOD} a+rx ${PREFIX}/share/doc/spim
 	${INSTALL_DATA} ${WRKSRC}/Documentation/spim.ps  \
 		${PREFIX}/share/doc/spim
 	${INSTALL_DATA} ${WRKSRC}/Documentation/cycle.ps  \

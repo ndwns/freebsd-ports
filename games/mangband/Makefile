@@ -25,8 +25,8 @@ do-install:
 	cd ${WRKSRC}/../lib; cp -R -p * ${MALIB}; \
 	   cd ${MALIB}; \
 	   touch file/wizards.txt; \
-	   chmod 750 *; chown -R games.games *; \
-	   chmod 755 user;
+	   ${CHMOD} 750 *; ${CHOWN} -R games.games *; \
+	   ${CHMOD} 755 user;
 	cd ${WRKSRC}; \
 	   ${INSTALL_PROGRAM} -o games -g games -m 4550 \
 		mangband ${PREFIX}/bin; \

@@ -38,7 +38,7 @@ do-fetch:
 
 pre-install:
 	@if [ !`id -u` ]; then \
-	/usr/sbin/chown -R root:wheel ${WRKDIR}/*; \
+	${CHOWN} -R root:wheel ${WRKDIR}/*; \
 	fi
 
 do-install:

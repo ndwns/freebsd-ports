@@ -17,7 +17,7 @@ USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 
 post-install:
-	@chmod 2754 ${PREFIX}/sbin/paledit
-	@chown root:dialer ${PREFIX}/sbin/paledit
+	@${CHMOD} 2754 ${PREFIX}/sbin/paledit
+	@${CHOWN} root:dialer ${PREFIX}/sbin/paledit
 
 .include <bsd.port.mk>

@@ -108,7 +108,7 @@ post-install:
 		${ECHO} "Installing ${PREFIX}/etc/rc.d/sshd.sh startup file."; \
 		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/sshd.sh; \
 		${ECHO} "[ -x ${PREFIX}/sbin/sshd ] && ${PREFIX}/sbin/sshd && ${ECHO} -n ' sshd'" >> ${PREFIX}/etc/rc.d/sshd.sh; \
-		/bin/chmod 751 ${PREFIX}/etc/rc.d/sshd.sh; \
+		${CHMOD} 751 ${PREFIX}/etc/rc.d/sshd.sh; \
 	fi
 
 .include <bsd.port.pre.mk>

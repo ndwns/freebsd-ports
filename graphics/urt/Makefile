@@ -68,9 +68,9 @@ post-install:
 	${RM} -rf doc; \
 	cd ${PREFIX}/share/examples/urt; \
 	${TAR} xf $(DISTDIR)/urt-img.tar; \
-	chown -R root:wheel . ; \
-	find . -type d -exec chmod 775 '{}' \; ; \
-	find . -type f -exec chmod 664 '{}' \;
+	${CHOWN} -R root:wheel . ; \
+	find . -type d -exec ${CHMOD} 775 '{}' \; ; \
+	find . -type f -exec ${CHMOD} 664 '{}' \;
 .endif
 
 .include <bsd.port.mk>

@@ -29,7 +29,7 @@ do-install:
 	@echo "Installing method definitions..."
 	@ if [ ! -d ${PREFIX}/lib/smalltalk ]; then ${MKDIR} ${PREFIX}/lib/smalltalk; fi
 	@(cd ${WRKSRC}; ${CP} *.st ${PREFIX}/lib/smalltalk)
-	@(cd ${PREFIX}/lib/smalltalk ; chmod +r *.st)
+	@(cd ${PREFIX}/lib/smalltalk ; ${CHMOD} +r *.st)
 	@echo
 	@echo "To complete the installation of GNU Smalltalk, do"
 	@echo "	cd ${WRKSRC};"

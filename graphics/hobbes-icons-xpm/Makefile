@@ -24,7 +24,7 @@ LIBDIR=		${PREFIX}/include/X11/pixmaps
 do-install:
 	${MKDIR} ${LIBDIR}
 	${CP} -R ${WRKSRC}/* ${LIBDIR}
-	chown -R ${BINOWN}:${BINGRP} ${LIBDIR}
+	${CHOWN} -R ${BINOWN}:${BINGRP} ${LIBDIR}
 	-${RM} ${LIBDIR}/README
 	-${RM} ${LIBDIR}/readem.shar
 

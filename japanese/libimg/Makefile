@@ -28,7 +28,7 @@ TKVERSION=	8.0
 PORTDOCDIR=	${PREFIX}/share/doc/img
 
 pre-configure:
-	chmod 755 ${WRKSRC}/configure
+	${CHMOD} 755 ${WRKSRC}/configure
 
 .include <bsd.port.pre.mk>
 

@@ -40,7 +40,7 @@ do-install:
 	@${INSTALL_SCRIPT} ${WRKSRC}/allscene.sh ${POVLIB}/
 	@${RM} -f ${PREFIX}/man/man1/povray.1*
 	@${INSTALL_MAN} ${WRKSRC}/povray.1 ${PREFIX}/man/man1
-	@chmod -R og-r ${POVLIB}
-	@chmod -R a+r ${POVLIB}
+	@${CHMOD} -R og-r ${POVLIB}
+	@${CHMOD} -R a+r ${POVLIB}
 
 .include <bsd.port.mk>

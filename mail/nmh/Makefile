@@ -70,6 +70,6 @@ post-patch:
 post-install:
 	@PKG_PREFIX='${PREFIX}' sh ${PKGDIR}/INSTALL
 	chgrp mail ${PREFIX}/bin/inc
-	chmod g+s ${PREFIX}/bin/inc
+	${CHMOD} g+s ${PREFIX}/bin/inc
 
 .include <bsd.port.mk>

@@ -33,16 +33,16 @@ post-install:
 	${INSTALL_MAN} ${HUGS_DOC}/hugs.1.fix ${PREFIX}/man/man1/${MAN1}
 	${RM} ${HUGS_DOC}/hugs.1.fix
 	# fix owner/permissions
-	find ${PREFIX}/share/hugs -type d | xargs chmod 755
-	find ${PREFIX}/share/hugs -type f | xargs chmod ${SHAREMODE}
-	find ${PREFIX}/share/hugs         | xargs chown ${SHAREOWN}.${SHAREGRP}
+	find ${PREFIX}/share/hugs -type d | xargs ${CHMOD} 755
+	find ${PREFIX}/share/hugs -type f | xargs ${CHMOD} ${SHAREMODE}
+	find ${PREFIX}/share/hugs         | xargs ${CHOWN} ${SHAREOWN}.${SHAREGRP}
 .if !defined(NOPORTDOCS)
 	${INSTALL_DIR} ${PREFIX}/share/doc/hugs
 	${CP} -R ${HUGS_DOC}/* ${PREFIX}/share/doc/hugs
 	# fix owner/permissions
-	find ${PREFIX}/share/doc/hugs -type d | xargs chmod 755
-	find ${PREFIX}/share/doc/hugs -type f | xargs chmod ${SHAREMODE}
-	find ${PREFIX}/share/doc/hugs         | xargs chown ${SHAREOWN}.${SHAREGRP}
+	find ${PREFIX}/share/doc/hugs -type d | xargs ${CHMOD} 755
+	find ${PREFIX}/share/doc/hugs -type f | xargs ${CHMOD} ${SHAREMODE}
+	find ${PREFIX}/share/doc/hugs         | xargs ${CHOWN} ${SHAREOWN}.${SHAREGRP}
 .endif
 
 .include <bsd.port.mk>

@@ -27,7 +27,7 @@ L_LIB=          ${PREFIX}/etc
 L_HELP=         ${PREFIX}/share/lynx_help
 
 post-install:
-	chown -R ${SHAREOWN}:${SHAREGRP} ${L_HELP}
-	chown ${SHAREOWN}:${SHAREGRP} ${L_LIB}/lynx.cfg
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${L_HELP}
+	${CHOWN} ${SHAREOWN}:${SHAREGRP} ${L_LIB}/lynx.cfg
 
 .include <bsd.port.mk>

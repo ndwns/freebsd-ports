@@ -22,9 +22,6 @@ LIB_DEPENDS=		pq.2:${PORTSDIR}/databases/postgresql
 MAKE_ENV=		PYTHON=${PREFIX}/bin/python \
 			LN="${LN}" SETENV="${SETENV}" MKDIR="${MKDIR}"
 
-CHOWN?=			chown
-CHMOD?=			chmod
-
 pre-build:
 	${CP} ${FILESDIR}/Makefile ${WRKSRC}/Makefile
 

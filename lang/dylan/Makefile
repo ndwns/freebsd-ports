@@ -41,6 +41,6 @@ MAN7=		dylan.7 gwydion.7
 
 post-extract:
 	$(GUNZIP_CMD) -c $(DISTDIR)/d2c-2.2.0-FreeBSD.gz > $(WRKDIR)/d2c
-	chmod ugo+x $(WRKDIR)/d2c
+	${CHMOD} ugo+x $(WRKDIR)/d2c
 
 .include <bsd.port.mk>

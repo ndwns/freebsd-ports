@@ -56,8 +56,8 @@ SUID_EXES= 	${PREFIX}/sbin/faxgetty ${PREFIX}/sbin/faxq \
 		${PREFIX}/bin/faxrm ${PREFIX}/bin/faxalter
 
 post-install:
-	chown uucp ${SUID_EXES}
-	chmod 4555 ${SUID_EXES}
+	${CHOWN} uucp ${SUID_EXES}
+	${CHMOD} 4555 ${SUID_EXES}
 	@if [ ! -f ${PREFIX}/etc/rc.d/hylafax.sh.sample ]; then	\
 		${CP} ${FILESDIR}/hylafax.sh.sample ${PREFIX}/etc/rc.d;	\
 	fi

@@ -94,7 +94,7 @@ do-install:
 	@${MKDIR} ${PREFIX}/dev
 	@${RM} -f ${PREFIX}/dev/null
 	@mknod ${PREFIX}/dev/null c 2 2
-	@chmod 666 ${PREFIX}/dev/null
+	@${CHMOD} 666 ${PREFIX}/dev/null
 .if defined(NEEDLOADLINK)
 	@${MKDIR} ${PREFIX}/compat
 	@${LN} -s / ${PREFIX}/compat/linux

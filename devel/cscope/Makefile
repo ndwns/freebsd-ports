@@ -57,7 +57,7 @@ pre-extract:
 #
 
 post-extract:
-	@(chmod +w ${WRKSRC})
+	@(${CHMOD} +w ${WRKSRC})
 	@(for file in ${WRKSRC}/* ; do ${TR} -d '\015' < $$file > $$file.x ; ${MV} -f $$file.x $$file ; done)
 	@(for file in ${TRUNCATED_NAMES} ; do \
 		x=`echo $$file | ${SED} -e 's/^\(......\).*/\1/'` ; \

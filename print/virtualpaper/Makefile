@@ -50,7 +50,7 @@ do-install:
 		${PREFIX}/lib/m3/www; \
 	    if [ ! -d ${PREFIX}/share/virtualpaper ]; then \
 		${MKDIR} ${PREFIX}/share/virtualpaper; \
-		chmod 755 ${PREFIX}/share/virtualpaper; \
+		${CHMOD} 755 ${PREFIX}/share/virtualpaper; \
 	    fi; \
 	    ${INSTALL_DATA} COPYRIGHT ${PREFIX}/share/virtualpaper
 	@echo "Stripping programs"

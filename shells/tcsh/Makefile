@@ -20,8 +20,8 @@ INSTALL_TARGET= install install.man
 MAN1=		tcsh.1
 
 post-install:
-	chown bin.bin ${PREFIX}/bin/tcsh
-	chown bin.bin ${PREFIX}/man/man1/tcsh.1
+	${CHOWN} bin.bin ${PREFIX}/bin/tcsh
+	${CHOWN} bin.bin ${PREFIX}/man/man1/tcsh.1
 	cd ${WRKSRC}; ${INSTALL_DATA} tcsh.C.cat ${PREFIX}/share/nls/C/tcsh.cat
 	cd ${WRKSRC}; ${INSTALL_DATA} tcsh.french.cat ${PREFIX}/share/nls/fr_FR.ISO_8859-1/tcsh.cat
 	${LN} -sf ${PREFIX}/share/nls/fr_FR.ISO_8859-1/tcsh.cat ${PREFIX}/share/nls/fr_BE.ISO_8859-1/tcsh.cat

@@ -47,8 +47,8 @@ do-install:
 #       ${INSTALL_DATA} ${FILESDIR}/xmodmap ${XLIB}/xinit/.Xmodmap
 	if [ ! -d ${XLIB}/nls ] ; then \
 		mkdir ${XLIB}/nls; \
-		chown ${BINOWN}.${BINGRP} ${XLIB}/nls; \
-		chmod 755 ${XLIB}/nls; \
+		${CHOWN} ${BINOWN}.${BINGRP} ${XLIB}/nls; \
+		${CHMOD} 755 ${XLIB}/nls; \
 	fi
 	if [ ! -f ${XLIB}/nls/ru_SU.KOI8-R ] ; then \
 		${INSTALL_DATA} ${FILESDIR}/nls_koi8-r ${XLIB}/nls/ru_SU.KOI8-R; \

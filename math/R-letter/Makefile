@@ -47,9 +47,9 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/R.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/Rdconv.1 ${PREFIX}/man/man1
 	${SED} 's:PREFIX:${PREFIX}:;s:DEFAULTPAPER:${PAPERSIZE}:' ${FILESDIR}/R > ${PREFIX}/bin/R
-	(cd ${WRKSRC}; find . -type d -exec chmod a+rx \{\} \; )
-	(cd ${WRKSRC}; find . -type f -exec chmod a+r \{\} \; )
-	chmod a+x ${PREFIX}/bin/R
+	(cd ${WRKSRC}; find . -type d -exec ${CHMOD} a+rx \{\} \; )
+	(cd ${WRKSRC}; find . -type f -exec ${CHMOD} a+r \{\} \; )
+	${CHMOD} a+x ${PREFIX}/bin/R
 	${MKDIR} ${PREFIX}/share/R
 	${MKDIR} ${PREFIX}/share/R/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/R.binary ${PREFIX}/share/R/bin

@@ -19,7 +19,7 @@ GNU_CONFIGURE=	yes
 NO_BUILD=	yes
 
 pre-configure:
-	chmod +x ${WRKSRC}/configure
+	${CHMOD} +x ${WRKSRC}/configure
 
 do-install:
 	${MKDIR} ${PREFIX}/include/stlport

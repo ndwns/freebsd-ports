@@ -58,8 +58,8 @@ post-install:
 		${ECHO} "	${ECHO} -n ' dhcps'"				\
 			>> ${STARTUP_SCRIPT};				\
 		${ECHO} 'fi' >> ${STARTUP_SCRIPT};				\
-		chmod 755 ${STARTUP_SCRIPT};				\
-		chown bin.bin ${STARTUP_SCRIPT};                        \
+		${CHMOD} 755 ${STARTUP_SCRIPT};				\
+		${CHOWN} bin.bin ${STARTUP_SCRIPT};                        \
 	fi
 	@if [ ! -c /dev/bpf1 ]; then \
 	    ${ECHO} "**********************************************************";\

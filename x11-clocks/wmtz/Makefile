@@ -21,7 +21,7 @@ USE_X_PREFIX=	yes
 post-install:
 	@${ECHO} "===>   Installing wmtzrc in ${PREFIX}/share/examples/wmtz"
 	@${ECHO} "===>   Modify to your config and copy to ~/.wmtzrc"
-	@${MKDIR} ${PREFIX}/share/examples/wmtz && chmod a+rx ${PREFIX}/share/examples/wmtz
+	@${MKDIR} ${PREFIX}/share/examples/wmtz && ${CHMOD} a+rx ${PREFIX}/share/examples/wmtz
 	@${INSTALL_DATA} ${WRKSRC}/wmtzrc ${PREFIX}/share/examples/wmtz
 	@${ECHO} "===>   Run wmtz --help for usage instructions"
 

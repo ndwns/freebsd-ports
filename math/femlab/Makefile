@@ -29,7 +29,7 @@ do-install:
 	${MKDIR} ${FEMLAB_HOME}/config
 	${INSTALL_DATA} ${WRKSRC}/config/modules ${FEMLAB_HOME}/config
 	${SED} -e "s|@@FEMLAB_HOME@@|${FEMLAB_HOME}|" <${FILESDIR}/femlab.sh >${PREFIX}/bin/femlab
-	chmod +x ${PREFIX}/bin/femlab
+	${CHMOD} +x ${PREFIX}/bin/femlab
 
 post-install:
 .if !defined(NOPORTDOCS)

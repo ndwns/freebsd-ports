@@ -40,7 +40,7 @@ PATCH_DIST_ARGS=	-d ${WRKDIR} --forward --quiet -E ${PATCH_DIST_STRIP}
 
 post-build:
 	@cd ${WRKSRC}; ${MAKE} install
-	@chmod o+r ${WRKDIR}/dgd/doc/kfun/*
+	@${CHMOD} o+r ${WRKDIR}/dgd/doc/kfun/*
 
 do-install:
 	@-mv ${PREFIX}/dgd/bin/driver ${PREFIX}/dgd/bin/driver.old

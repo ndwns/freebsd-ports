@@ -59,7 +59,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/lsof.8 ${PREFIX}/man/man8/lsof.8
 	@${MKDIR} ${PREFIX}/share/lsof
 	${INSTALL_SCRIPT} ${WRKSRC}/scripts/* ${PREFIX}/share/lsof
-	@/bin/chmod 0444 ${PREFIX}/share/lsof/00*
+	@${CHMOD} 0444 ${PREFIX}/share/lsof/00*
 
 .if !exists(/sys/miscfs/fdesc/fdesc.h) && !exists(/usr/src/miscfs/fdesc/fdesc.h)
 post-install:

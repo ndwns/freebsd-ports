@@ -21,7 +21,7 @@ do-install:
 
 	${SED} -e 's#!!PREFIX!!#${PREFIX}#g' ${FILESDIR}/upsmon.sh \
 	> ${PREFIX}/etc/rc.d/upsmon.sh
-	@chmod +x ${PREFIX}/etc/rc.d/upsmon.sh
+	@${CHMOD} +x ${PREFIX}/etc/rc.d/upsmon.sh
 
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/upsmon

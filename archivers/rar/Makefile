@@ -31,7 +31,7 @@ STRIP=
 .endif
 
 post-fetch:
-	@chmod a+x ${DISTDIR}/${DISTFILES}
+	@${CHMOD} a+x ${DISTDIR}/${DISTFILES}
 
 #do-build:
 #        cd ${WRKSRC} && \

@@ -28,6 +28,6 @@ post-extract:
 	@${RM} -f ${WRKSRC}/src/libs.tcl
 	@${CP} ${FILESDIR}/Makefile.work ${WRKSRC}/Makefile
 	@${CP} ${FILESDIR}/configure ${WRKSRC}
-	@chmod 755 ${WRKSRC}/configure
+	@${CHMOD} 755 ${WRKSRC}/configure
 
 .include <bsd.port.mk>

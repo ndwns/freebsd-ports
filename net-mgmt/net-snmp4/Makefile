@@ -60,7 +60,7 @@ post-install:
 		${ECHO} "Creating ${PREFIX}/etc/rc.d/snmpd.sh startup file."; \
 		${ECHO} "#!/bin/sh" > ${STARTUP_FILE}; \
 		${ECHO} "[ -x ${PREFIX}/sbin/snmpd ] && ${PREFIX}/sbin/snmpd && ${ECHO} -n ' snmpd'" >> ${STARTUP_FILE}; \
-		chmod 751 ${STARTUP_FILE}; \
+		${CHMOD} 751 ${STARTUP_FILE}; \
 	 fi
 	${SETENV} OBJFORMAT="${PORTOBJFORMAT}" ${LDCONFIG} -m ${PREFIX}/lib
 

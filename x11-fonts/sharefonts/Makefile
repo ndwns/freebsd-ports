@@ -23,8 +23,8 @@ USE_X_PREFIX=	yes
 do-install:
 	${MKDIR} ${PREFIX}/lib/X11/fonts/sharefont
 	${CP} ${WRKDIR}/sharefont/* ${PREFIX}/lib/X11/fonts/sharefont
-	chmod 755 ${PREFIX}/lib/X11/fonts/sharefont
-	chmod 644 ${PREFIX}/lib/X11/fonts/sharefont/*
+	${CHMOD} 755 ${PREFIX}/lib/X11/fonts/sharefont
+	${CHMOD} 644 ${PREFIX}/lib/X11/fonts/sharefont/*
 
 post-install:
 	@cat ${PKGDIR}/DESCR

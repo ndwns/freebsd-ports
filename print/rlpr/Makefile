@@ -33,7 +33,7 @@ post-patch:
 post-install:
 	@echo "Making the installed binaries suid,\
 		for the remote lpds to talk to them"
-	chmod u+s ${PREFIX}/bin/rlpq ${PREFIX}/bin/rlpr ${PREFIX}/bin/rlprm
+	${CHMOD} u+s ${PREFIX}/bin/rlpq ${PREFIX}/bin/rlpr ${PREFIX}/bin/rlprm
 
 MAN1=	rlpr.1 rlpq.1 rlprm.1
 MAN5=	rlprrc.5

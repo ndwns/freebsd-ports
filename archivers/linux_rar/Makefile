@@ -28,7 +28,7 @@ EXTRACT_AFTER_ARGS=	# empty
 STRIP=			# empty: do not touch linux binary!
 
 post-fetch:
-	@chmod a+x ${DISTDIR}/${DISTFILES}
+	@${CHMOD} a+x ${DISTDIR}/${DISTFILES}
 
 do-build:
 do-install:

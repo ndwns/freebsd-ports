@@ -24,8 +24,8 @@ post-install:
 		${PREFIX}/lib/X11/xsokoban/bitmaps/defaults \
 		${PREFIX}/lib/X11/xsokoban/saves \
 		${PREFIX}/lib/X11/xsokoban/screens
-	@chmod 777 ${PREFIX}/lib/X11/xsokoban/scores
-	@chmod 775 ${PREFIX}/lib/X11/xsokoban/saves
+	@${CHMOD} 777 ${PREFIX}/lib/X11/xsokoban/scores
+	@${CHMOD} 775 ${PREFIX}/lib/X11/xsokoban/saves
 	@${INSTALL_DATA} ${WRKSRC}/screens/* ${PREFIX}/lib/X11/xsokoban/screens
 	@${INSTALL_DATA} ${WRKSRC}/bitmaps/defaults/* \
 		${PREFIX}/lib/X11/xsokoban/bitmaps/defaults

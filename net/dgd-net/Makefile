@@ -49,7 +49,7 @@ post-build:
 	@mv ${WRKDIR}/dgd/bin/precomp ${WRKDIR}/dgd/bin/precomp.net
 	@mv ${WRKDIR}/dgd/doc/Introduction ${WRKDIR}/dgd/doc/Introduction.NET
 	@mv ${WRKDIR}/dgd/doc/kfun/send_message ${WRKDIR}/dgd/doc/kfun/send_message.NET
-	@chmod o+r ${WRKDIR}/dgd/doc/kfun/*
+	@${CHMOD} o+r ${WRKDIR}/dgd/doc/kfun/*
 
 do-install:
 	@-mv ${PREFIX}/dgd/bin/driver.net ${PREFIX}/dgd/bin/driver.net.old

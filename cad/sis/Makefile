@@ -57,7 +57,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/SIS_paper.ps ${PREFIX}/lib/sis
 	${INSTALL_DATA} ${WRKSRC}/RELEASE-NOTES-1.2 ${PREFIX}/lib/sis
 	${GZIP_CMD} ${PREFIX}/lib/sis/SIS_paper.ps
-	chown -R bin:bin ${PREFIX}/lib/sis
+	${CHOWN} -R bin:bin ${PREFIX}/lib/sis
 .endif
 
 .include <bsd.port.mk>

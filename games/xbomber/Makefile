@@ -46,6 +46,6 @@ do-install:
 	${ECHO} "#!/bin/sh" > ${PREFIX}/bin/xbomber; \
 	${ECHO} "cd ${PREFIX}/lib/xbomber" >> ${PREFIX}/bin/xbomber; \
 	${CAT} ${SCRIPTDIR}/xbomber.sh >> ${PREFIX}/bin/xbomber; \
-	chmod 0755 ${PREFIX}/bin/xbomber
+	${CHMOD} 0755 ${PREFIX}/bin/xbomber
 
 .include <bsd.port.mk>

@@ -38,6 +38,6 @@ post-install:
 .endif
 	@${MKDIR} ${PREFIX}/lib/ratatosk
 	${INSTALL_DATA} ${FILESDIR}/ratatoskrc ${PREFIX}/lib/ratatosk
-	#/bin/chmod ugo+wt /var/mail
+	#${CHMOD} ugo+wt /var/mail
 
 .include <bsd.port.mk>

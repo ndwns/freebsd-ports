@@ -46,7 +46,7 @@ INSTALL_TARGET= install links
 post-patch:
 	${MV} ${WRKSRC}/configure ${WRKSRC}/configure.input
 	${SED} "s%-lXm %${MOTIFLIB} %" ${WRKSRC}/configure.input > ${WRKSRC}/configure
-	chmod 755 ${WRKSRC}/configure
+	${CHMOD} 755 ${WRKSRC}/configure
 	${RM} -f ${WRKSRC}/configure.input
 
 .include <bsd.port.mk>

@@ -89,7 +89,7 @@ MAN1=	nqs.1 nqsconfig.1 nqsgs.1 nqsrn.1\
 pre-configure:
 	@ ${CP} ${FILESDIR}/${TEMPLATE} ${PLATFORMDIR}/${PLATFORM}; \
 	${CP}   ${FILESDIR}/${DUMMYMAKE} ${WRKSRC}; \
-	chmod 555 ${WRKDIR}/${DISTNAME}/Source-Tree/SETUP/all-systems/*
+	${CHMOD} 555 ${WRKDIR}/${DISTNAME}/Source-Tree/SETUP/all-systems/*
 
 #
 # Install system boot startup file but need to find out exactly where

@@ -63,7 +63,7 @@ post-configure:
 		-e "s;@BROWSER@;${BROWSER};g" \
 		-e "s;@BROWSER_VER@;${BROWSER_VER};g" \
 		${WRAPPER_TEMPLATE} >${WRKSRC}/netscape
-	chmod +x ${WRKSRC}/netscape
+	${CHMOD} +x ${WRKSRC}/netscape
 	${ECHO} -n ${INFILE_HEAD},${NDIR} >${WRKSRC}/infile
 
 pre-install:
@@ -94,7 +94,7 @@ do-install:
 		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) \
 		| ./Fortify.sh ${NDIR}/${BROWSER}-${BROWSER_VER}.bin
 .endif
-	chown -R root:wheel ${NDIR}
+	${CHOWN} -R root:wheel ${NDIR}
 
 post-install:
 	${CAT} ${PKGDIR}/DESCR

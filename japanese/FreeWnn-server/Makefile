@@ -158,7 +158,7 @@ post-install:
 	${MKDIR} ${PORT_DOCDIR}
 	@(cd ${DOC_FROM}; tar cvf - manual manual.en | \
 		(cd ${PORT_DOCDIR}; tar xf -))
-	@chown -R bin.bin ${PORT_DOCDIR}
+	@${CHOWN} -R bin.bin ${PORT_DOCDIR}
 .endif
 .endif
 ### for the shared libray

@@ -23,7 +23,7 @@ pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SH} setup.sh
 
 post-install:
-	@cd ${WRKSRC}/doc; chmod 644 *.6
+	@cd ${WRKSRC}/doc; ${CHMOD} 644 *.6
 	@cd ${WRKSRC}/doc; PREFIX=${PREFIX} ${MAKE} manpages
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/nethack

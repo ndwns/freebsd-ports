@@ -99,7 +99,7 @@ post-install:
 		echo "if [ -x ${PREFIX}/sbin/RunCache -a -f ${PREFIX}/etc/squid/squid.conf ]; then" >> ${PREFIX}/etc/rc.d/squid.sh; \
 		echo "	(cd /tmp; ${PREFIX}/sbin/RunCache >/dev/null 2>&1 &) ; echo -n ' squid'" >> ${PREFIX}/etc/rc.d/squid.sh; \
 		echo "fi" >> ${PREFIX}/etc/rc.d/squid.sh; \
-		chmod 751 ${PREFIX}/etc/rc.d/squid.sh; \
+		${CHMOD} 751 ${PREFIX}/etc/rc.d/squid.sh; \
 	fi
 
 .include <bsd.port.mk>

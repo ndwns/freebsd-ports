@@ -23,11 +23,11 @@ MAN8=		arpwatch.8 arpsnmp.8
 post-install:
 	if [ ! -d ${PREFIX}/arpwatch ]; then				\
 		${MKDIR} ${PREFIX}/arpwatch;				\
-		chmod 775 ${PREFIX}/arpwatch;				\
-		chown root.operator ${PREFIX}/arpwatch;			\
+		${CHMOD} 775 ${PREFIX}/arpwatch;				\
+		${CHOWN} root.operator ${PREFIX}/arpwatch;			\
 	fi
 	${TOUCH} ${PREFIX}/arpwatch/arp.dat
-	chmod 644 ${PREFIX}/arpwatch/arp.dat
+	${CHMOD} 644 ${PREFIX}/arpwatch/arp.dat
 	for file in ethercodes.dat d.awk e.awk p.awk; do		\
 		${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/arpwatch/.;	\
 	done

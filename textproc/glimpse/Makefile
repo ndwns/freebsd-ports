@@ -22,7 +22,7 @@ CONFIGURE_ENV=  CFLAGS="${CFLAGS} -DISO_CHAR_SET=1"
 MAN1=		glimpse.1 glimpseindex.1 glimpseserver.1 agrep.1
 
 pre-configure:
-	chmod ugo+x ${WRKSRC}/configure
+	${CHMOD} ugo+x ${WRKSRC}/configure
 
 post-install:
 	${MKDIR} ${PREFIX}/share/doc/glimpse

@@ -24,7 +24,7 @@ PROGRAMS=	bitcp dct2mstr expgram genmodel gramtest impkimmo impmsc \
 post-install:
 	@echo "#!/bin/sh" > ${WRKSRC}/bin/qstart-nttpd
 	@echo ${PREFIX}/bin/"nttpd -b " ${PREFIX}/share/examples/nicetext/database >> ${WRKSRC}/bin/qstart-nttpd
-	chmod a+rx ${WRKSRC}/bin/qstart-nttpd
+	${CHMOD} a+rx ${WRKSRC}/bin/qstart-nttpd
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/qstart-nttpd ${PREFIX}/bin/
 .for f in ${MAN1}
 	${INSTALL_MAN} ${WRKSRC}/man/man1/${f} ${PREFIX}/man/man1

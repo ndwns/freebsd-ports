@@ -23,7 +23,7 @@ MAN1=		gmake.1
 # joerg@freebsd.org says our getloadavg() no longer requires setgid kmem
 
 post-install:
-	chmod g-s ${PREFIX}/bin/gmake
+	${CHMOD} g-s ${PREFIX}/bin/gmake
 	chgrp ${BINGRP} ${PREFIX}/bin/gmake
 
 .include <bsd.port.mk>

@@ -41,7 +41,7 @@ post-install:
 # The documentation comes with bogus ownerships; this is a little leaky security-wise
 	${MKDIR} ${PREFIX}/share/doc/vnc
 	tar -C ${PREFIX}/share/doc/vnc -xzf ${DISTDIR}/vnc-3.3.2_doc.tgz
-	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/doc/vnc
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/doc/vnc
 # Go install Java classes
 	${MKDIR} ${PREFIX}/share/vnc
 	${CP} -R ${WRKSRC}/classes ${PREFIX}/share/vnc

@@ -32,7 +32,7 @@ do-install:
 	@zcat ${DISTDIR}/docbk241.tar.Z |(cd ${INSTDIR}/2.4.1; pax -r)
 	@${INSTALL_DATA} ${FILESDIR}/catalog ${INSTDIR}/2.4.1/catalog
 	@echo "CATALOG \"${ISOCAT}\"" >> ${INSTDIR}/2.4.1/catalog
-	@chmod ${SHAREMODE} ${INSTDIR}/2.4.1/*
-	@/usr/sbin/chown -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
+	@${CHMOD} ${SHAREMODE} ${INSTDIR}/2.4.1/*
+	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
 
 .include <bsd.port.mk>

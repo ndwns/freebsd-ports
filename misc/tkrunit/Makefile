@@ -30,7 +30,7 @@ post-install:
 	@${ECHO} "===> Copy runitrc.sample to ~/.runitrc and modify if you wish"
 	@${ECHO} "-------------------------------------------------------------------"
 	@${ECHO} "		"
-	@${MKDIR} ${PREFIX}/share/examples/tkrunit && chmod a+rx ${PREFIX}/share/examples/tkrunit
+	@${MKDIR} ${PREFIX}/share/examples/tkrunit && ${CHMOD} a+rx ${PREFIX}/share/examples/tkrunit
 	@${INSTALL_DATA} ${WRKSRC}/runitrc.sample ${PREFIX}/share/examples/tkrunit
 
 .include <bsd.port.mk>

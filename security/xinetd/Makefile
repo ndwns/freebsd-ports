@@ -25,7 +25,7 @@ post-install:
 		${ECHO} "Install ${PREFIX}/etc/rc.d/xinetd.sh startup file."; \
 		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/xinetd.sh; \
 		${ECHO} "[ -x ${PREFIX}/sbin/xinetd ] && ${PREFIX}/sbin/xinetd && echo -n ' xinetd'" >> ${PREFIX}/etc/rc.d/xinetd.sh; \
-		chmod 751 ${PREFIX}/etc/rc.d/xinetd.sh; \
+		${CHMOD} 751 ${PREFIX}/etc/rc.d/xinetd.sh; \
 	fi
 	strip ${PREFIX}/sbin/xinetd
 

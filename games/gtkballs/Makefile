@@ -25,7 +25,7 @@ do-install:
 	@ ${MKDIR} ${PREFIX}/share/gtkballs
 	@ ${INSTALL_DATA} ${WRKSRC}/gtkballs-data/*.xpm ${PREFIX}/share/gtkballs
 	@ ${INSTALL_DATA} ${WRKSRC}/score ${PREFIX}/share/gtkballs/score
-	@ chmod a+rw ${PREFIX}/share/gtkballs/score
+	@ ${CHMOD} a+rw ${PREFIX}/share/gtkballs/score
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/gtkballs
 .for file in COPYING README README.russian TODO

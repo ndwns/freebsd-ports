@@ -21,7 +21,7 @@ post-patch:
 	@(cd ${WRKSRC}; \
 	  ${SED} s@/usr/local/bin/perl@${PERL5}@ mkpsfontmap.pl > mk.pl; \
 	  ${MV} -f mk.pl mkpsfontmap.pl; \
-	  chmod +x mkpsfontmap.pl)
+	  ${CHMOD} +x mkpsfontmap.pl)
 
 pre-install:
 	@(cd ${WRKSRC}; make install.man)

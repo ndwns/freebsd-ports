@@ -41,7 +41,7 @@ post-install:
 		> /mnt/tw.db_`hostname`.gz
 	@ ${CP} -p ${FILESDIR}/twcheck /mnt/twcheck
 	@ ${GZIP_CMD} < /usr/bin/gunzip > /mnt/gunzip
-	@ chmod 555 /mnt/tripwire /mnt/gunzip /mnt/twcheck
+	@ ${CHMOD} 555 /mnt/tripwire /mnt/gunzip /mnt/twcheck
 	@ umount /mnt
 	@ ${ECHO} Do not forget to remove and write-protect the floppy.
 .endif

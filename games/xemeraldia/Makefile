@@ -28,7 +28,7 @@ do-extract:
 
 post-install:
 	touch ${PREFIX}/lib/X11/.xemeraldia.scores
-	chmod 666 ${PREFIX}/lib/X11/.xemeraldia.scores
+	${CHMOD} 666 ${PREFIX}/lib/X11/.xemeraldia.scores
 
 pre-clean:
 	@${RM} -f ${DISTDIR}/${DISTNAME}.tar.gz

@@ -22,6 +22,6 @@ MAN1=		skill.1
 MLINKS=		skill.1 snice.1
 
 pre-configure:
-	@chmod a+x ${WRKSRC}/Config
+	@${CHMOD} a+x ${WRKSRC}/Config
 
 .include <bsd.port.mk>

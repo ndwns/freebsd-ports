@@ -22,7 +22,7 @@ MAN8=			binkd.8
 
 post-extract:
 	@ ${CP} ${WRKSRC}/mkfls/unix/* ${WRKSRC}
-	@ chmod a+x ${WRKSRC}/configure
+	@ ${CHMOD} a+x ${WRKSRC}/configure
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/binkd ${PREFIX}/sbin

@@ -22,7 +22,7 @@ MAN1=		4va.1
 			ctor2.4vd hcube.4vd hsph.4vd sin.4vd tripris.4vd
 
 post-extract:
-	@chmod -R go-x ${WRKSRC}/
+	@${CHMOD} -R go-x ${WRKSRC}/
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/4va ${PREFIX}/bin

@@ -26,33 +26,33 @@ MAN5=	cmap.5 displays.5 dlys.5 sim.5 dstyle.5 ext.5 glyphs.5 magic.5 net.5
 MAN8=	prleak.8
 
 post-install:
-	@chmod ${BINMODE} ${PREFIX}/bin/spice2sim
-	@chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/spice2sim
+	@${CHMOD} ${BINMODE} ${PREFIX}/bin/spice2sim
+	@${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/bin/spice2sim
 .for f in ${BINS}
-	@chmod ${BINMODE} ${PREFIX}/bin/$f
-	@chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/$f
+	@${CHMOD} ${BINMODE} ${PREFIX}/bin/$f
+	@${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/bin/$f
 	@strip ${PREFIX}/bin/$f
 .endfor
 .for f in ${MAN1}
-	@chmod ${MANMODE} ${PREFIX}/man/man1/$f
-	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/$f
+	@${CHMOD} ${MANMODE} ${PREFIX}/man/man1/$f
+	@${CHOWN} ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/$f
 .endfor
 .for f in ${MAN3}
-	@chmod ${MANMODE} ${PREFIX}/man/man3/$f
-	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man3/$f
+	@${CHMOD} ${MANMODE} ${PREFIX}/man/man3/$f
+	@${CHOWN} ${MANOWN}.${MANGRP} ${PREFIX}/man/man3/$f
 .endfor
 .for f in ${MAN5}
-	@chmod ${MANMODE} ${PREFIX}/man/man5/$f
-	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man5/$f
+	@${CHMOD} ${MANMODE} ${PREFIX}/man/man5/$f
+	@${CHOWN} ${MANOWN}.${MANGRP} ${PREFIX}/man/man5/$f
 .endfor
 .for f in ${MAN8}
-	@chmod ${MANMODE} ${PREFIX}/man/man8/$f
-	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man8/$f
+	@${CHMOD} ${MANMODE} ${PREFIX}/man/man8/$f
+	@${CHOWN} ${MANOWN}.${MANGRP} ${PREFIX}/man/man8/$f
 .endfor
-	@chmod -R a+rX,go-w ${PREFIX}/lib/magic
-	@chown -R ${SHAREOWN}.${SHAREGRP} ${PREFIX}/lib/magic
-	@chmod ${SHAREMODE} ${PREFIX}/lib/mpack.h ${PREFIX}/lib/libmpack.a
-	@chown ${SHAREOWN}.${SHAREGRP} ${PREFIX}/lib/mpack.h		\
+	@${CHMOD} -R a+rX,go-w ${PREFIX}/lib/magic
+	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${PREFIX}/lib/magic
+	@${CHMOD} ${SHAREMODE} ${PREFIX}/lib/mpack.h ${PREFIX}/lib/libmpack.a
+	@${CHOWN} ${SHAREOWN}.${SHAREGRP} ${PREFIX}/lib/mpack.h		\
 	  ${PREFIX}/lib/libmpack.a
 
 .include <bsd.port.mk>

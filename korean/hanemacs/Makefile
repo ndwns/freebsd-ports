@@ -43,7 +43,7 @@ post-install:
 .endfor
 # install emacs.sh into ${PREFIX}/etc/rc.d
 	${MKDIR} /var/run/emacs/lock
-	chmod 1777 /var/run/emacs/lock
+	${CHMOD} 1777 /var/run/emacs/lock
 	@${MKDIR} ${PREFIX}/etc/rc.d
 	@${INSTALL_SCRIPT} ${FILESDIR}/emacs.sh ${PREFIX}/etc/rc.d
 

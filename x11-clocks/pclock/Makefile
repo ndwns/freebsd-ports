@@ -20,7 +20,7 @@ USE_X_PREFIX=	yes
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/src/pclock ${PREFIX}/bin
-	@${MKDIR} ${PREFIX}/share/pclock/pixmaps && chmod a+rx ${PREFIX}/share/pclock/pixmaps
+	@${MKDIR} ${PREFIX}/share/pclock/pixmaps && ${CHMOD} a+rx ${PREFIX}/share/pclock/pixmaps
 	@${ECHO} "===>  Installing sample pixmaps in ${PREFIX}/share/pclock/pixmaps"
 	@${INSTALL_DATA} ${WRKSRC}/XPM/*.xpm ${PREFIX}/share/pclock/pixmaps
 

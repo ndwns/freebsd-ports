@@ -22,7 +22,7 @@ USE_GMAKE=	yes
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/httperf ${PREFIX}/bin
-	chmod 750 ${PREFIX}/bin/httperf
+	${CHMOD} 750 ${PREFIX}/bin/httperf
 	@${MKDIR} ${PREFIX}/share/httperf
 	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/httperf
 	@${INSTALL_DATA} ${WRKSRC}/COPYRIGHT ${PREFIX}/share/httperf

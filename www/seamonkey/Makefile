@@ -56,11 +56,11 @@ MAKE_ENV=	LD_LIBRARY_PATH=${WRKSRC}/dist/bin
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/mozilla
-	chmod 755 ${PREFIX}/lib/mozilla
+	${CHMOD} 755 ${PREFIX}/lib/mozilla
 	cd ${WRKSRC}/dist/bin && tar -chf - * | \
 		tar -xf - -C ${PREFIX}/lib/mozilla
 	${INSTALL_SCRIPT} ${WRKSRC}/mozilla ${PREFIX}/bin
 	${TOUCH} ${PREFIX}/lib/mozilla/component.reg
-	chmod 666 ${PREFIX}/lib/mozilla/component.reg
+	${CHMOD} 666 ${PREFIX}/lib/mozilla/component.reg
 
 .include <bsd.port.post.mk>

@@ -31,7 +31,7 @@ post-install:
 	(cd ${WRKSRC} ; ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} default)
 	@cat ${FILESDIR}/lprng.sh | \
 		${SED} -e "s|@@PREFIX@@|${PREFIX}|g" > ${PREFIX}/etc/rc.d/lprng.sh
-	@chmod +x ${PREFIX}/etc/rc.d/lprng.sh
+	@${CHMOD} +x ${PREFIX}/etc/rc.d/lprng.sh
 	${INSTALL} -d -g bin -o bin -m 0555 ${PREFIX}/share/doc/LPRng
 	@for file in ${EXTRA_FILES}; do \
 		cp ${DISTDIR}/$$file ${PREFIX}/share/doc/LPRng; \

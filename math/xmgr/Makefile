@@ -34,6 +34,6 @@ post-patch:
 	mv ${WRKSRC}/configure ${WRKSRC}/configure.input
 	sed "s%__MOTIFLIB__%${MOTIFLIB}%" ${WRKSRC}/configure.input > ${WRKSRC}/configure
 	rm -f ${WRKSRC}/configure.input
-	chmod 755 ${WRKSRC}/configure
+	${CHMOD} 755 ${WRKSRC}/configure
 
 .include <bsd.port.mk>

@@ -26,7 +26,7 @@ CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" \
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/src/gaim ${PREFIX}/bin
-	@${MKDIR} ${PREFIX}/share/gaim/pixmaps && chmod a+rx ${PREFIX}/share/gaim/pixmaps
+	@${MKDIR} ${PREFIX}/share/gaim/pixmaps && ${CHMOD} a+rx ${PREFIX}/share/gaim/pixmaps
 	@${ECHO} "===>   Installing pixmaps"
 	@${INSTALL_DATA} ${WRKSRC}/pixmaps/*.xpm ${PREFIX}/share/gaim/pixmaps
 

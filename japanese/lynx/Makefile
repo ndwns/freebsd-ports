@@ -39,8 +39,8 @@ HELPFILE_SUFFIX= .gz
 post-install:
 .if !defined(NOPORTDOCS)
 	@(cd ${WRKSRC} ; make install-doc)
-	@chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/${L_DOCDIR}
+	@${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/${L_DOCDIR}
 .endif
-	@chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/${L_HELPDIR}
+	@${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/${L_HELPDIR}
 
 .include <bsd.port.mk>

@@ -30,14 +30,14 @@ do-build:
 		tex --ini latex.ltx </dev/null)
 	@(cd ${WRKSRC}/tools; TEXFORMATS=${WRKSRC}/base:; \
 		TEXINPUTS=${WRKSRC}/base: export TEXFORMATS TEXINPUTS;\
-		 ln -sf ${PREFIX}/bin/tex latex; ./latex tools.ins)
+		 ${LN} -sf ${PREFIX}/bin/tex latex; ./latex tools.ins)
 	@(cd ${WRKSRC}/graphics; TEXFORMATS=${WRKSRC}/base:; \
 		TEXINPUTS=${WRKSRC}/base: export TEXFORMATS TEXINPUTS;\
-		 ln -sf ${PREFIX}/bin/tex latex; ./latex graphics.ins)
+		 ${LN} -sf ${PREFIX}/bin/tex latex; ./latex graphics.ins)
 	@(cd ${WRKSRC}/psnfss; TEXFORMATS=${WRKSRC}/base:; \
 		TEXINPUTS=${WRKSRC}/base: export TEXFORMATS TEXINPUTS;\
-		chmod u+w mh2scr.enc;\
-		 ln -sf ${PREFIX}/bin/tex latex; for f in adobe charter\
+		${CHMOD} u+w mh2scr.enc;\
+		 ${LN} -sf ${PREFIX}/bin/tex latex; for f in adobe charter\
 		 mathtime psfonts alucida lucidabr nimbus utopia; do \
 		./latex $$f.ins; done)
 
@@ -58,7 +58,7 @@ do-install:
 	    if [ -f $$f ]; then ${INSTALL_DATA} $$f ${PREFIX}/share/texmf/tex/latex; fi; done)
 	@(cd ${WRKSRC}/psnfss; for f in *.sty *.tex; do \
 	    if [ -f $$f ]; then ${INSTALL_DATA} $$f ${PREFIX}/share/texmf/tex/latex; fi; done)
-	@(cd ${PREFIX}/bin; ${RM} -f latex; ln -s tex latex)
+	@(cd ${PREFIX}/bin; ${RM} -f latex; ${LN} -s tex latex)
 	@(mkdir -p ${PREFIX}/share/texmf/documentation)
 	@(cd ${WRKSRC}/base; for f in *.dtx ltx3info.tex source2e.tex *.fdd ltnews*.tex *guide.tex; do \
 	    if [ -f $$f ]; then ${INSTALL_DATA} $$f ${PREFIX}/share/texmf/documentation; fi; done)
@@ -68,6 +68,6 @@ do-install:
 	    if [ -f $$f ]; then ${INSTALL_DATA} $$f ${PREFIX}/share/texmf/documentation; fi; done)
 	@(cd ${WRKSRC}/psnfss; for f in *.dtx; do \
 	    if [ -f $$f ]; then ${INSTALL_DATA} $$f ${PREFIX}/share/texmf/documentation; fi; done)
-	@(cd ${PREFIX}/bin; ${RM} -f latex; ln -s tex latex)
+	@(cd ${PREFIX}/bin; ${RM} -f latex; ${LN} -s tex latex)
 
 .include <bsd.port.mk>

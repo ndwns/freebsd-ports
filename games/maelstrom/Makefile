@@ -29,8 +29,8 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/Maelstrom\ ${file} ${PREFIX}/share/Maelstrom
 .endfor
 	@ ${INSTALL_DATA} ${WRKSRC}/Maelstrom-Scores ${PREFIX}/share/Maelstrom
-	@ chown games:games ${PREFIX}/share/Maelstrom/Maelstrom-Scores
-	@ chmod 666 ${PREFIX}/share/Maelstrom/Maelstrom-Scores
+	@ ${CHOWN} games:games ${PREFIX}/share/Maelstrom/Maelstrom-Scores
+	@ ${CHMOD} 666 ${PREFIX}/share/Maelstrom/Maelstrom-Scores
 	@ ${MKDIR} ${PREFIX}/share/Maelstrom/Images
 	@ ${INSTALL_DATA} ${WRKSRC}/Images/*n ${PREFIX}/share/Maelstrom/Images
 

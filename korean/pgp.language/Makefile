@@ -35,8 +35,8 @@ OBJS=		language.txt ${PGP_LANG}.hlp README.${PGP_LANG} \
 do-install:
 	-[ -d ${PGPLIB} ] || { \
 		${MKDIR} ${PGPLIB} ; \
-		chown bin.bin ${PGPLIB} ; \
-		chmod 555 ${PGPLIB} ; }
+		${CHOWN} bin.bin ${PGPLIB} ; \
+		${CHMOD} 555 ${PGPLIB} ; }
 	-[ -f ${PGPLIB}/language.txt ] && \
 		${MV} ${PGPLIB}/language.txt ${PGPLIB}/language.txt.bak
 	@cd ${WRKDIR}; \

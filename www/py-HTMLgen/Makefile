@@ -21,8 +21,6 @@ WRKSRC=			${WRKDIR}/HTMLgen
 PLIST=			${WRKDIR}/PLIST
 
 DOCDIR=			${PREFIX}/share/doc/HTMLgen
-CHMOD?=			chmod
-CHOWN?=			chown
 FIND?=			find
 
 pre-install:

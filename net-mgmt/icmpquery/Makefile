@@ -24,6 +24,6 @@ do-extract:
 
 do-install:
 		@${INSTALL_PROGRAM} ${WRKDIR}/icmpquery ${PREFIX}/bin
-		@chmod u+s ${PREFIX}/bin/icmpquery
+		@${CHMOD} u+s ${PREFIX}/bin/icmpquery
 
 .include <bsd.port.mk>

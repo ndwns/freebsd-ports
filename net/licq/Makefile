@@ -27,7 +27,7 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/licq
 	@${CP} ${WRKSRC}/contrib/licq.* ${WRKSRC}/contrib/viewurl* \
 	 ${PREFIX}/share/licq
-	@chmod 555 ${PREFIX}/share/licq/*
-	@chown bin.bin ${PREFIX}/share/licq/*
+	@${CHMOD} 555 ${PREFIX}/share/licq/*
+	@${CHOWN} bin.bin ${PREFIX}/share/licq/*
 
 .include <bsd.port.mk>

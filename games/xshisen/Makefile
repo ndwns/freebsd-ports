@@ -25,7 +25,7 @@ INSTALL_TARGET=	install install.man
 
 post-install:
 	@ strip ${PREFIX}/bin/xshisen
-	@ /bin/chmod 755 ${PREFIX}/bin/xshisen
-	@ /usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xshisen
+	@ ${CHMOD} 755 ${PREFIX}/bin/xshisen
+	@ ${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/bin/xshisen
 
 .include <bsd.port.mk>

@@ -22,7 +22,7 @@ post-install:
 	@${SED} -e "s=!!PREFIX!!=${PREFIX}=" \
 		< ${FILESDIR}/zebra.sh  \
 		> ${PREFIX}/etc/rc.d/zebra.sh 
-	@chmod 555 ${PREFIX}/etc/rc.d/zebra.sh
+	@${CHMOD} 555 ${PREFIX}/etc/rc.d/zebra.sh
 	@${ECHO} "===>     done."
 
 .include <bsd.port.mk>

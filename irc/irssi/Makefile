@@ -44,7 +44,7 @@ CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" \
 post-install:
 	@${ECHO} "===>   Installing example irssi.conf to ${PREFIX}/share/examples/irssi"
 	@${ECHO} "===>   You will find a ~/.irssi.conf after running irssi for the first time."
-	@${MKDIR} ${PREFIX}/share/examples/irssi && chmod a+rx ${PREFIX}/share/examples/irssi
+	@${MKDIR} ${PREFIX}/share/examples/irssi && ${CHMOD} a+rx ${PREFIX}/share/examples/irssi
 	@${INSTALL_DATA} ${WRKSRC}/irssi.conf ${PREFIX}/share/examples/irssi
 
 .include <bsd.port.mk>

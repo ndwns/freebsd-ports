@@ -24,7 +24,7 @@ pre-build:
 	(cd ${WRKSRC} ; ./reconfig)
 	(cd ${WRKSRC} ; \
 	${SED} 's,^SECURE=/usr/foo/bar,SECURE=${PREFIX}/cops,g' < cops | ${SED} '/^$$SECURE\/passwd\.chk.*/d' | ${SED} 's,SECURE_USERS="foo@bar\.edu",SECURE_USERS="root@localhost",g' | ${SED} 's/passwd\.chk pass.chk //g' > cops.out ; \
-	${MV} cops.out cops ; chmod u+x cops)
+	${MV} cops.out cops ; ${CHMOD} u+x cops)
 
 do-build:
 	(cd ${WRKSRC} ; make EXECUTABLE="${EXECUTABLE}" C_SRC="${C_SRC}")
@@ -32,7 +32,7 @@ do-build:
 do-install:
 	(cd ${WRKSRC} ; ${RM} -rf ${PREFIX}/cops ; ${MKDIR} ${PREFIX}/cops ; \
 	${CP} -R * ${PREFIX}/cops ; \
-	chmod -R go-rwx ${PREFIX}/cops ; \
+	${CHMOD} -R go-rwx ${PREFIX}/cops ; \
 	${RM} -rf ${PREFIX}/cops/*.old ${PREFIX}/cops/src)
 
 .include <bsd.port.mk>

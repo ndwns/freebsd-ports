@@ -49,7 +49,7 @@ do-install:
 	@${INSTALL_SCRIPT} ${WRKSRC}/allscene.sh ${POVLIB}/
 	@${RM} -f ${PREFIX}/man/man1/povray.1*
 	@${INSTALL_MAN} ${WRKSRC}/povray.1 ${PREFIX}/man/man1
-	@chmod -R a+rX,og-w ${POVLIB}
+	@${CHMOD} -R a+rX,og-w ${POVLIB}
 
 post-install:
 	@${SH} ${FILESDIR}/script

@@ -40,7 +40,7 @@ pre-install:
 		${PREFIX}/news/spool/news ${PREFIX}/share/doc/diablo
 	${RM} -f /news
 	${LN} -sf ${PREFIX}/news /news
-	/usr/sbin/chown -R news.news ${PREFIX}/news
+	${CHOWN} -R news.news ${PREFIX}/news
 
 do-install:
 	cd ${WRKSRC} && ${PREFIX}/bin/xmake install
@@ -70,7 +70,7 @@ post-install:
 	@ ${ECHO} "	echo -n ' diablo(disabled)'" >> \
 		${PREFIX}/etc/rc.d/diablo.sh
 	@ ${ECHO} "fi" >> ${PREFIX}/etc/rc.d/diablo.sh
-	/bin/chmod 0750 ${PREFIX}/etc/rc.d/diablo.sh
+	${CHMOD} 0750 ${PREFIX}/etc/rc.d/diablo.sh
 .if !defined(BATCH)
 	@ /usr/bin/more -e ${PREFIX}/share/doc/diablo/post-install-notes
 .endif

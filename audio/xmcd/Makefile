@@ -19,7 +19,7 @@ MAN1=		cda.1 cddbcmd.1 dp2xmcd.1 wm2xmcd.1 xmcd.1
 MANCOMPRESSED=	no
 
 post-extract:
-	@chmod -R u+w ${WRKSRC}
+	@${CHMOD} -R u+w ${WRKSRC}
 
 pre-patch:
 	@${CP} ${WRKSRC}/xmcd_d/XMcd.ad ${WRKSRC}/xmcd_d/XMcd.ad.in

@@ -46,7 +46,7 @@ pre-clean:
 
 # move the work directory to $TET_ROOT after extraction
 post-extract:
-	chmod +x ${WRKDIR}/configure
+	${CHMOD} +x ${WRKDIR}/configure
 	${MKDIR} ${TET_ROOT}
 	cd ${WRKDIR} && tar cf - . | (cd ${TET_ROOT} && tar xf -)
 	${RM} -rf ${WRKDIR} && ${LN} -s ${TET_ROOT} ${WRKDIR}

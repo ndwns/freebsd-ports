@@ -41,7 +41,7 @@ post-install:
 	@strip ${PREFIX}/bin/xchat
 .if !defined(NOPORTDOCS)
 	@${ECHO} "===>   Installing xchat docs in ${PREFIX}/share/doc/xchat"
-	@${MKDIR} ${PREFIX}/share/doc/xchat && chmod a+rx ${PREFIX}/share/doc/xchat
+	@${MKDIR} ${PREFIX}/share/doc/xchat && ${CHMOD} a+rx ${PREFIX}/share/doc/xchat
 	@${INSTALL_DATA} ${WRKSRC}/doc/*.* ${PREFIX}/share/doc/xchat
 	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/xchat
 	@${INSTALL_DATA} ${WRKSRC}/ChangeLog ${PREFIX}/share/doc/xchat

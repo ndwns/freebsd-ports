@@ -39,14 +39,14 @@ post-install:
 		@for file in RELEASE_NOTES MSQL_BOOK INSTALL; do \
 			${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/share/doc/msql; \
 		done
-		@/bin/chmod 751 ${PREFIX}/etc/msql2/
-		@/usr/sbin/chown -R msql.msql ${PREFIX}/etc/msql2/
+		@${CHMOD} 751 ${PREFIX}/etc/msql2/
+		@${CHOWN} -R msql.msql ${PREFIX}/etc/msql2/
 		@${MKDIR} ${PREFIX}/etc/rc.d
 		@if [ ! -f ${PREFIX}/etc/rc.d/msql2.sh ]; then \
 			${ECHO} "Installing ${PREFIX}/etc/rc.d/msql2.sh startup file."; \
 			${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/msql2.sh; \
 			${ECHO} "[ -x ${PREFIX}/bin/msql2d ] && su -l msql -c 'exec ${PREFIX}/bin/msql2d' > /dev/null 2>&1 & && echo -n ' msql2'" >> ${PREFIX}/etc/rc.d/msql2.sh; \
-			chmod 751 ${PREFIX}/etc/rc.d/msql2.sh; \
+			${CHMOD} 751 ${PREFIX}/etc/rc.d/msql2.sh; \
 		fi
 .if !defined(BATCH)
 		@ /usr/bin/more -e ${FILESDIR}/post-install-notes

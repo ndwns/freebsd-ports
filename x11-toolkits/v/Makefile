@@ -37,8 +37,8 @@ post-install:
 	@echo "==> Installing extra docs under ${PREFIX}/share/doc/v..."
 	${MKDIR} ${PREFIX}/share/doc/v
 	${CP} -R ${WRKSRC}/doc/* ${PREFIX}/share/doc/v
-	find ${PREFIX}/share/doc/v -type d -exec chmod 755 {} \;
-	find ${PREFIX}/share/doc/v -type f -exec chmod 644 {} \;
+	find ${PREFIX}/share/doc/v -type d -exec ${CHMOD} 755 {} \;
+	find ${PREFIX}/share/doc/v -type f -exec ${CHMOD} 644 {} \;
 	@echo "==> Extra docs installed.  Note, you will need *tex to read 'em."
 .endif
 	@${CAT} ${PKGDIR}/MESSAGE

@@ -40,9 +40,9 @@ do-install:
 	(cd ${WRKSRC}; ./install-vscan)
 
 post-install:
-	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/uvscan
-	@/usr/sbin/chown -R ${SHAREOWN}.${SHAREGRP} ${LIBDIR}
-	@/usr/sbin/chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/uvscan.1
+	@${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/bin/uvscan
+	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${LIBDIR}
+	@${CHOWN} ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/uvscan.1
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/vscan
 	${INSTALL_DATA} ${WRKSRC}/Whatsnew.txt ${PREFIX}/share/doc/vscan

@@ -26,7 +26,7 @@ pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SH} setup.sh
 
 pre-install:
-	@cd ${WRKSRC}/doc; chmod 644 *.6
+	@cd ${WRKSRC}/doc; ${CHMOD} 644 *.6
 	@cd ${WRKSRC}/doc; ${MAKE} PREFIX=${PREFIX} manpages
 
 post-install:

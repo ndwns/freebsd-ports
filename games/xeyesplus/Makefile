@@ -19,7 +19,7 @@ USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-install:
-	@chmod 755 ${PREFIX}/bin/xeyes+
-	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/xeyes+
+	@${CHMOD} 755 ${PREFIX}/bin/xeyes+
+	@${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/bin/xeyes+
 
 .include <bsd.port.mk>

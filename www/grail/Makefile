@@ -25,8 +25,6 @@ GRAILDIR=		${PREFIX}/${GRAILSUBDIR}
 DIRS_CMD=		${CAT} ${PLIST} | ${GREP} '^@dirrm' | ${SED} 's,@dirrm ,,'
 FILES_CMD=		${CAT} ${PLIST} | ${GREP} -v '^@' | ${SED} 's,${GRAILSUBDIR}/,,'
 
-CHOWN?=chown
-CHMOD?=chmod
 FIND?=find
 PYTHON?=python
 

@@ -84,7 +84,7 @@ post-install:
 	strip ${PREFIX}/bin/${file}
 .endfor
 # ``make install'' does not set the permissions like pkg_add does.
-	chmod 1777 /var/run/emacs/lock
+	${CHMOD} 1777 /var/run/emacs/lock
 #	${MKDIR} ${PREFIX}/lib/xemacs
 	${RM} -f ${PREFIX}/bin/send-pr
 # install xemacs21.sh into ${PREFIX}/etc/rc.d

@@ -114,8 +114,8 @@ post-install:
 	${MKDIR} -m 0775 ${NEWSSPOOL}/uniover
 	chown news.news ${NEWSSPOOL}/uniover
 	${SED} <${FILESDIR}/innd.sh >${PREFIX}/etc/rc.d/innd.sh \
-		s+!!PREFIX!!+${PREFIX}+g && chmod +x ${PREFIX}/etc/rc.d/innd.sh
+		s+!!PREFIX!!+${PREFIX}+g && ${CHMOD} +x ${PREFIX}/etc/rc.d/innd.sh
 	# make rnews work when getting news via uucp !
-	chmod 4555 ${NEWSLIB}/bin/rnews
+	${CHMOD} 4555 ${NEWSLIB}/bin/rnews
 
 .include <bsd.port.mk>

@@ -34,7 +34,7 @@ post-install:
 	  ${INSTALL_SCRIPT} ${PREFIX}/Acrobat4/bin/acroread \
 	     ${PREFIX}/bin/acroread4 && ${RM} acroread.orig
 	@brandelf -t Linux ${PREFIX}/Acrobat4/Reader/intellinux/bin/acroread
-	@chmod +x ${PREFIX}/bin/acroread4
+	@${CHMOD} +x ${PREFIX}/bin/acroread4
 	@${ECHO_MSG} "Be sure to read the license agreement in"
 	@${ECHO_MSG} "${PREFIX}/Acrobat4/Reader/License.pdf"
 

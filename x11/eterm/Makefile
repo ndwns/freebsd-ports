@@ -32,8 +32,8 @@ pre-patch:
 .endif
 
 post-install:
-	chown root.wheel ${PREFIX}/bin/Eterm
-	chmod 4755 ${PREFIX}/bin/Eterm
+	${CHOWN} root.wheel ${PREFIX}/bin/Eterm
+	${CHMOD} 4755 ${PREFIX}/bin/Eterm
 	${INSTALL_SCRIPT} ${WRKSRC}/doc/colortest.sh ${PREFIX}/share/Eterm
 .ifndef NOPORTDOCS
 	${MKDIR} ${PREFIX}/share/doc/Eterm

@@ -37,6 +37,6 @@ MAN1=		hattrib.1 \
 		xhfs.1
 
 post-install:
-		chmod 755 ${PREFIX}/bin/hfs
+		${CHMOD} 755 ${PREFIX}/bin/hfs
 
 .include <bsd.port.mk>

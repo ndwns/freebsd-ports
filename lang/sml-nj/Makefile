@@ -63,7 +63,7 @@ do-install:
 	${RM} -f ${SML_BINDIR}/.run-sml
 	${SED} -e "s,^BIN_DIR=.*\$$,BIN_DIR=${SML_BINDIR}," \
 		< ${WRKDIR}/bin/.run-sml > ${SML_BINDIR}/.run-sml
-	chmod 755 ${SML_BINDIR}/.run-sml
+	${CHMOD} 755 ${SML_BINDIR}/.run-sml
 	cd ${WRKDIR} && tar -cf - `find . -name '*.stable' | ${GREP} CM` | \
 		tar -C ${SML_BASE} -xf -
 	cd ${WRKDIR} && tar -cf - `${SCRIPTDIR}/get-cm ${WRKDIR}` | \

@@ -38,7 +38,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${i} ${PREFIX}/share/doc/gnupg
 .endfor
 .endif
-#	chmod u+s ${PREFIX}/bin/gpg
+#	${CHMOD} u+s ${PREFIX}/bin/gpg
 
 check:
 	(cd ${WRKSRC}; ${MAKE} check)

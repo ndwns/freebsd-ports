@@ -26,7 +26,7 @@ MAN1=		guavac.1
 STRIP=
 
 pre-install:
-	@chmod +x ${WRKSRC}/mkinstalldirs
+	@${CHMOD} +x ${WRKSRC}/mkinstalldirs
 
 post-install:
 	@strip ${PREFIX}/bin/guavac ${PREFIX}/bin/guavad

@@ -37,7 +37,7 @@ post-install:
 		echo "    ${PREFIX}/sbin/youbind ; echo -n ' youbind'"	\
 			>> ${STARTUP_SCRIPT} ;				\
 		echo "fi" >> ${STARTUP_SCRIPT} ;			\
-		chmod 755 ${STARTUP_SCRIPT} ;				\
+		${CHMOD} 755 ${STARTUP_SCRIPT} ;				\
 	fi
 	@${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 

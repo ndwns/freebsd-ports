@@ -48,7 +48,7 @@ do-install:
 	@${INSTALL_PROGRAM} ${WRKDIR}/sndserv/linux/sndserver ${PREFIX}/libexec/doom/sndserver
 	@(${ECHO} "#!/bin/sh"; ${ECHO} "cd ${PREFIX}/libexec/doom"; \
 	  ${ECHO} 'export PATH=.:$$PATH';${ECHO} "export DOOMWADDIR=${PREFIX}/share/doom"; ${ECHO} "./xdoom $$*") > ${PREFIX}/bin/doom
-	@/bin/chmod ugo+x ${PREFIX}/bin/doom
+	@${CHMOD} ugo+x ${PREFIX}/bin/doom
 	@${GZCAT} ${DISTDIR}/${DISTFILES2} > ${PREFIX}/share/doom/doom1.wad
 
 .include <bsd.port.mk>

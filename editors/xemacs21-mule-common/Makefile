@@ -90,7 +90,7 @@ pre-install:
 post-install:
 # install xemacs-mule.sh into ${PREFIX}/etc/rc.d
 	@${MKDIR} /var/run/emacs/lock
-	chmod 1777 /var/run/emacs/lock
+	${CHMOD} 1777 /var/run/emacs/lock
 	@${MKDIR} ${PREFIX}/etc/rc.d
 	@${INSTALL_SCRIPT} ${FILESDIR}/xemacs-mule.sh ${PREFIX}/etc/rc.d
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}

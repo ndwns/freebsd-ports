@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 do-install:
 	@mkdir -p ${PREFIX}/bin
 	@install -c -s ${WRKSRC}/xmold ${PREFIX}/bin
-	@chmod 755 ${PREFIX}/bin/xmold
-	@chown bin.bin ${PREFIX}/bin/xmold
+	@${CHMOD} 755 ${PREFIX}/bin/xmold
+	@${CHOWN} bin.bin ${PREFIX}/bin/xmold
 
 .include <bsd.port.mk>

@@ -48,8 +48,8 @@ post-install:
 		echo '	done'						\
 			>> ${STARTUP_SCRIPT};				\
 		echo 'fi' >> ${STARTUP_SCRIPT};				\
-		chmod 755 ${STARTUP_SCRIPT};				\
-		chown bin.bin ${STARTUP_SCRIPT};                        \
+		${CHMOD} 755 ${STARTUP_SCRIPT};				\
+		${CHOWN} bin.bin ${STARTUP_SCRIPT};                        \
 	fi
 
 .include <bsd.port.mk>

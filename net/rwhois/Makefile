@@ -36,6 +36,6 @@ post-install:
 	@ echo "# configured your server's data" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
 	@ echo "echo \"rwhoisd not started; sample data still in place.   See ${PREFIX}/share/doc/rwhois for details.\"" >> ${PREFIX}/etc/rc.d/rwhoisd.sh 
 	@ echo "#[ -x ${PREFIX}/lib/rwhois/sbin/rwhoisd ] && ${PREFIX}/lib/rwhois/sbin/rwhoisd -c ${PREFIX}/lib/rwhois/rwhois.conf & && echo -n ' rwhoisd'" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
-	chmod 751 ${PREFIX}/etc/rc.d/rwhoisd.sh
+	${CHMOD} 751 ${PREFIX}/etc/rc.d/rwhoisd.sh
 
 .include <bsd.port.mk>

@@ -35,7 +35,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/man/man1/mars.1 ${PREFIX}/man/man1
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/mars
-	@chmod a+rx ${PREFIX}/share/doc/mars
+	@${CHMOD} a+rx ${PREFIX}/share/doc/mars
 	@(cd ${PREFIX}/share/doc ; \
 		${TAR} xfpz /${DISTDIR}/MaRS-2-doc.tar.gz ; \
 		[ -d mars ] && ${RM} -rf mars; \

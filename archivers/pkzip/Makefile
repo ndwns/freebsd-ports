@@ -27,7 +27,7 @@ do-extract:
 	${MKDIR} ${WRKDIR}
 	${MKDIR} ${WRKSRC}
 	${CP} ${PORTSDIR}/distfiles/${DISTFILES} ${WRKSRC}/.
-	chmod 700 ${WRKSRC}/${DISTFILES}
+	${CHMOD} 700 ${WRKSRC}/${DISTFILES}
 	cd ${WRKSRC} && \
 	    ./${DISTFILES}
 

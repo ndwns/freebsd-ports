@@ -21,7 +21,7 @@ pre-install:
 	@-mv ${WRKSRC}/../doc/pmf.doc ${WRKSRC}/../system_dir
 	@tar -C ${WRKSRC}/../system_dir -cf - . \
 		| tar -C ${PREFIX}/lib/pmf -xf -
-	@chown -R bin.bin ${PREFIX}/lib/pmf
-	@chmod -R a-w ${PREFIX}/lib/pmf
+	@${CHOWN} -R bin.bin ${PREFIX}/lib/pmf
+	@${CHMOD} -R a-w ${PREFIX}/lib/pmf
 
 .include <bsd.port.mk>

@@ -23,7 +23,7 @@ do-install:
 	${ECHO} "export TMPDIR RESULTDIR"	   >> $(PREFIX)/bin/bytebench
 	${ECHO} "cd $(PREFIX)/lib/bytebench"  >> $(PREFIX)/bin/bytebench
 	${ECHO} "exec ./Run \"\$$@\""	   >> $(PREFIX)/bin/bytebench
-	chmod 755 $(PREFIX)/bin/bytebench
+	${CHMOD} 755 $(PREFIX)/bin/bytebench
 	chmod 644 $(PREFIX)/lib/bytebench/Makefile
 	chmod 644 $(PREFIX)/lib/bytebench/README
 	chmod 755 $(PREFIX)/lib/bytebench/Run

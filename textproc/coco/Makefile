@@ -154,9 +154,9 @@ post-install:
 		${ECHO} "else" >> ${STARTUP_SCRIPT}; \
 		${ECHO} "     mkdir -p /var/run/emacs/lock" >> ${STARTUP_SCRIPT}; \
 		${ECHO} "fi" >> ${STARTUP_SCRIPT} ; \
-		${ECHO} "chmod 1777 /var/run/emacs/lock${lockdir}" >> ${STARTUP_SCRIPT} ; \
-		chmod 755 ${STARTUP_SCRIPT} ;				\
-		chown bin.bin ${STARTUP_SCRIPT};			\
+		${ECHO} "${CHMOD} 1777 /var/run/emacs/lock${lockdir}" >> ${STARTUP_SCRIPT} ; \
+		${CHMOD} 755 ${STARTUP_SCRIPT} ;				\
+		${CHOWN} bin.bin ${STARTUP_SCRIPT};			\
 	fi
 
 post-package:

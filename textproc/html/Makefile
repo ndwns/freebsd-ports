@@ -24,7 +24,7 @@ pre-install:
 
 do-install:
 	@zcat ${DISTDIR}/${DISTFILES} |(cd ${INSTDIR}; pax -r)
-	@chmod ${SHAREMODE} `find ${INSTDIR} -type f`
-	@chown -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
+	@${CHMOD} ${SHAREMODE} `find ${INSTDIR} -type f`
+	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
 
 .include <bsd.port.mk>

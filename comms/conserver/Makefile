@@ -41,7 +41,7 @@ post-install:
 		${ECHO} "if [ -x ${PREFIX}/sbin/conserver -a -f ${PREFiX}/etc/conserver.cf ]; then" >> ${PREFIX}/etc/rc.d/conserver.sh; \
 		${ECHO} "	${PREFIX}/sbin/conserver -d -n ; ${ECHO} -n ' conserver'" >> ${PREFIX}/etc/rc.d/conserver.sh; \
 		${ECHO} "fi" >> ${PREFIX}/etc/rc.d/conserver.sh; \
-		chmod 751 ${PREFIX}/etc/rc.d/conserver.sh; \
+		${CHMOD} 751 ${PREFIX}/etc/rc.d/conserver.sh; \
 	fi
 
 .include <bsd.port.mk>

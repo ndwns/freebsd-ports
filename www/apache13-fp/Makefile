@@ -128,7 +128,7 @@ post-install:
 	@${CAT} ${FILESDIR}/apache.sh.tmpl | \
 		${SED} -e 's;PREFIX;${PREFIX};' -e 's;PERL5;${PERL};' \
 		> ${PREFIX}/etc/rc.d/apache.sh
-	@chmod 751 ${PREFIX}/etc/rc.d/apache.sh
+	@${CHMOD} 751 ${PREFIX}/etc/rc.d/apache.sh
 	@${CAT} ${WRKSRC}/${FPINSTALL} | \
 		${SED} -e 's;PREFIX;${PREFIX};' > ${WRKDIR}/tmp.fpinstall
 	@${SH} ${WRKDIR}/tmp.fpinstall

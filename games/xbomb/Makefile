@@ -21,6 +21,6 @@ post-install:
 	@touch ${PREFIX}/lib/X11/xbomb/xbomb3.hi
 	@touch ${PREFIX}/lib/X11/xbomb/xbomb4.hi
 	@touch ${PREFIX}/lib/X11/xbomb/xbomb6.hi
-	@chmod 666 ${PREFIX}/lib/X11/xbomb/xbomb?.hi
+	@${CHMOD} 666 ${PREFIX}/lib/X11/xbomb/xbomb?.hi
 
 .include <bsd.port.mk>

@@ -64,16 +64,16 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/doc/crossfire
 	@${CP} -r ${WRKDIR}/crossfire-${MAJ}.${MIN}.${PL}-doc/* \
 		${PREFIX}/share/doc/crossfire
-	@touch ${CFDIR}/lib/bookarch
-	@chmod 664 ${CFDIR}/lib/bookarch
-	@touch ${CFDIR}/lib/forbid
-	@chmod 664 ${CFDIR}/lib/forbid
-	@touch ${CFDIR}/lib/players/.keep_me
-	@touch ${CFDIR}/lib/unique-items/.keep_me
-	@chown -R games.games ${CFDIR}
-	@chmod 0664 ${CFDIR}/lib/highscore
-	@chown games.games ${PREFIX}/bin/crossfire
-	@chmod 6555 ${PREFIX}/bin/crossfire
+	@${TOUCH} ${CFDIR}/lib/bookarch
+	@${CHMOD} 664 ${CFDIR}/lib/bookarch
+	@${TOUCH} ${CFDIR}/lib/forbid
+	@${CHMOD} 664 ${CFDIR}/lib/forbid
+	@${TOUCH} ${CFDIR}/lib/players/.keep_me
+	@${TOUCH} ${CFDIR}/lib/unique-items/.keep_me
+	@${CHOWN} -R games.games ${CFDIR}
+	@${CHMOD} 0664 ${CFDIR}/lib/highscore
+	@${CHOWN} games.games ${PREFIX}/bin/crossfire
+	@${CHMOD} 6555 ${PREFIX}/bin/crossfire
 	${ECHO} "Note: to start crossfire in clientmode"
 	${ECHO} "	crossfire -xpm"
 	${ECHO} "Note: don't forget to update ${PREFIX}/etc/rplay.conf"

@@ -20,7 +20,7 @@ USE_X_PREFIX=	yes
 MAN1=		rtpmon.1
 
 pre-configure:
-	@cd ${WRKSRC}; chmod +w configure; autoconf
+	@cd ${WRKSRC}; ${CHMOD} +w configure; autoconf
 
 post-install:
 	strip ${PREFIX}/bin/rtpmon

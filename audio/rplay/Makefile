@@ -24,7 +24,7 @@ post-install:
 		@${ECHO} "Installing ${PREFIX}/etc/rc.d/rplayd.sh startup file."; \
 		@${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/rplayd.sh; \
 		@${ECHO} "[ -x ${PREFIX}/sbin/rplayd ] && ( ${PREFIX}/sbin/rplayd & ) && ${ECHO} -n ' rplayd'" >> ${PREFIX}/etc/rc.d/rplayd.sh; \
-		chmod 751 ${PREFIX}/etc/rc.d/rplayd.sh; \
+		${CHMOD} 751 ${PREFIX}/etc/rc.d/rplayd.sh; \
 	fi
 	@if [ ! -f ${PREFIX}/etc/rplay.hosts ]; then \
 		@${ECHO} localhost > ${PREFIX}/etc/rplay.hosts; \

@@ -24,7 +24,7 @@ NO_WRKSUBDIR=	yes
 
 pre-configure:
 	@${CP} ${DISTDIR}/texinfo.tex ${DISTDIR}/lcircle10.tfm ${WRKDIR}
-	@chmod +w ${WRKDIR}/*
+	@${CHMOD} +w ${WRKDIR}/*
 
 do-build:
 	@(cd ${WRKDIR}; initex '&tex texinfo @dump')

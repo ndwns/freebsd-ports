@@ -101,7 +101,7 @@ post-install:
 	@${ECHO} "then" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "	${PREFIX}/bin/safe_mysqld --user=mysql > /dev/null & && ${ECHO} -n ' mysql'" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "fi" >> ${PREFIX}/etc/rc.d/mysql-server.sh
-	@/bin/chmod 750 ${PREFIX}/etc/rc.d/mysql-server.sh
+	@${CHMOD} 750 ${PREFIX}/etc/rc.d/mysql-server.sh
 
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/mysql/Img
@@ -124,7 +124,7 @@ post-install:
 	@${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql-client.sh
 	@${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql-client.sh
 	@${ECHO} "${LDCONFIG} -m ${PREFIX}/lib/mysql" >> ${PREFIX}/etc/rc.d/mysql-client.sh
-	@/bin/chmod 750 ${PREFIX}/etc/rc.d/mysql-client.sh
+	@${CHMOD} 750 ${PREFIX}/etc/rc.d/mysql-client.sh
 
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib/mysql
 

@@ -107,7 +107,6 @@ HTML_DOCS=		admin.html install_foot.html user-guide.html          \
 			install.html krb425_toc.html
 SETUID_EXE=		bin/ksu bin/v4rcp
 
-CHOWN?=		chown
 SUPERUSER?=	root
 
 .include <bsd.port.pre.mk>

@@ -17,7 +17,7 @@ USE_IMAKE=	yes
 MAN1=		xgas.1
 
 post-install:
-	@chmod 755 ${PREFIX}/bin/xgas
-	@chown bin.bin ${PREFIX}/bin/xgas
+	@${CHMOD} 755 ${PREFIX}/bin/xgas
+	@${CHOWN} bin.bin ${PREFIX}/bin/xgas
 
 .include <bsd.port.mk>

@@ -65,7 +65,7 @@ post-patch:
 
 .if !defined(NOPORTDOCS)
 post-build:
-	touch ${WRKSRC}/doc/mutt.man ${WRKSRC}/doc/manual.txt
+	${TOUCH} ${WRKSRC}/doc/mutt.man ${WRKSRC}/doc/manual.txt
 	${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-doc-ref
 	printf ",s|\$${PREFIX}|%s|g\nw\nq\n" ${PREFIX} | \
 		ed -s ${WRKSRC}/doc/mutt.man
@@ -81,7 +81,7 @@ post-install:
 	@strip ${PREFIX}/bin/mutt
 .if !defined(NOPORTDOCS)
 	@${ECHO} "===>   Installing Mutt documentation"
-	@${MKDIR} ${PREFIX}/share/doc/mutt && chmod a+rx ${PREFIX}/share/doc/mutt
+	@${MKDIR} ${PREFIX}/share/doc/mutt && ${CHMOD} a+rx ${PREFIX}/share/doc/mutt
 	@cd ${WRKSRC}/doc ; ${INSTALL_MAN} manual.txt PGP-Notes.txt \
 		${PREFIX}/share/doc/mutt
 .if defined(BATCH)

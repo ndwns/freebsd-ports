@@ -70,7 +70,7 @@ do-install:
 post-install:
 	@${SED} -e "s=!!PREFIX!!=${PREFIX}=g" ${FILESDIR}/radiusd.sh.tmpl \
 		> ${PREFIX}/etc/rc.d/radiusd.sh
-	@chmod 555 ${PREFIX}/etc/rc.d/radiusd.sh
-	@chown root.wheel ${PREFIX}/etc/rc.d/radiusd.sh
+	@${CHMOD} 555 ${PREFIX}/etc/rc.d/radiusd.sh
+	@${CHOWN} root.wheel ${PREFIX}/etc/rc.d/radiusd.sh
 
 .include <bsd.port.mk>

@@ -31,7 +31,7 @@ post-patch:
 	@${REWRITE} ${WRKSRC}/${file}.bak > ${WRKSRC}/${file}
 .endfor
 	@${REWRITE} ${FILESDIR}/INSTALL.in > ${PKGINSTALL}
-	@chmod 755 ${PKGINSTALL}
+	@${CHMOD} 755 ${PKGINSTALL}
 
 do-install:
 .for file in leafnode fetchnews texpire checkgroups leaftool

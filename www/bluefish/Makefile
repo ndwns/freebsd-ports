@@ -27,7 +27,7 @@ post-install:
 .if !defined(NOPORTDOCS)
 	@${ECHO} "===>   Installing bluefish docs in ${PREFIX}/share/doc/bluefish"
 	@${ECHO} "===>   A manual is available online at http://bluefish.linuxbox.com/manual/"
-	@${MKDIR} ${PREFIX}/share/doc/bluefish && chmod a+rx ${PREFIX}/share/doc/bluefish
+	@${MKDIR} ${PREFIX}/share/doc/bluefish && ${CHMOD} a+rx ${PREFIX}/share/doc/bluefish
 	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/bluefish
 .endif
 

@@ -42,8 +42,8 @@ do-install:
 	(cd ${WRKSRC}/Examples; tar cf - .) | (cd ${SKETCHEXDIR}; tar xf -)
 	(cd ${SKETCHDIR}; python finishinst.py)
 	${SED} -e "s|@PREFIX@|${PREFIX}|g" < ${FILESDIR}/sketch.in > ${PREFIX}/bin/sketch
-	chmod +x ${PREFIX}/bin/sketch
+	${CHMOD} +x ${PREFIX}/bin/sketch
 	${SED} -e "s|@PREFIX@|${PREFIX}|g" < ${FILESDIR}/sk2ps.in > ${PREFIX}/bin/sk2ps
-	chmod +x ${PREFIX}/bin/sk2ps
+	${CHMOD} +x ${PREFIX}/bin/sk2ps
 
 .include <bsd.port.mk>

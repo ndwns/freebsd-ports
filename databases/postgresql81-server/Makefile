@@ -159,14 +159,14 @@ post-install:
 		${ECHO} "#export TZ" \
 			>> ${PREFIX}/pgsql/.profile; \
 	fi
-	@ chown -R pgsql:pgsql ${PREFIX}/pgsql
+	@ ${CHOWN} -R pgsql:pgsql ${PREFIX}/pgsql
 	@ ${ECHO} 'Initializing PostgreSQL Databases - this may take a few minutes...'
 	@ ${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/pgsql/lib
 	@ su -l pgsql -c 'PATH=${PREFIX}/pgsql/bin:${PATH} ${PREFIX}/pgsql/bin/initdb --pglib=${PREFIX}/pgsql/lib --pgdata=${PREFIX}/pgsql/data'
 	@ ${SED} -e "s=!!PREFIX!!=${PREFIX}=g" < ${FILESDIR}/pgsql.sh.tmpl \
 		> ${PREFIX}/etc/rc.d/pgsql.sh
-	@ chmod 554 ${PREFIX}/etc/rc.d/pgsql.sh
-	@ chown root.pgsql ${PREFIX}/etc/rc.d/pgsql.sh
+	@ ${CHMOD} 554 ${PREFIX}/etc/rc.d/pgsql.sh
+	@ ${CHOWN} root.pgsql ${PREFIX}/etc/rc.d/pgsql.sh
 	@ ${INSTALL_DATA} ${FILESDIR}/post-install-notes ${PREFIX}/pgsql
 
 .if defined(USE_TCL)

@@ -36,8 +36,8 @@ post-install:
 		${ECHO} 'if [ -f $$sj3 ]; then' >> ${STARTUP_SCRIPT} ;	\
 		${ECHO} '     $$sj3' >> ${STARTUP_SCRIPT} ;		\
 		${ECHO} "fi" >> ${STARTUP_SCRIPT} ;			\
-		chmod 755 ${STARTUP_SCRIPT} ;				\
-		chown bin.bin ${STARTUP_SCRIPT};			\
+		${CHMOD} 755 ${STARTUP_SCRIPT} ;				\
+		${CHOWN} bin.bin ${STARTUP_SCRIPT};			\
 	fi
 	${SETENV} PKG_PREFIX=${PREFIX} \
 		${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL

@@ -186,7 +186,7 @@ post-install:
 		strip $$prog ; \
 	    fi \
 	done)
-	@(chown -R bin:bin ${PREFIX}/lib/gcc-lib/${GNUHOST}/${GCC_VERSION})
+	@(${CHOWN} -R bin:bin ${PREFIX}/lib/gcc-lib/${GNUHOST}/${GCC_VERSION})
 	@(${ECHO} "-----------------------------------------------------------" )
 	@(${ECHO} "" )
 	@(${ECHO} "For information about using the tasking library please read" )

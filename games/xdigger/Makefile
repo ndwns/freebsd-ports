@@ -31,7 +31,7 @@ do-install:
 .for file in diamond.au step.au stone.au
 	@ ${INSTALL_DATA} ${WRKSRC}/audio/${file} ${PREFIX}/share/xdigger
 .endfor
-	@ chmod a+rw ${PREFIX}/share/xdigger/xdigger.hiscore
+	@ ${CHMOD} a+rw ${PREFIX}/share/xdigger/xdigger.hiscore
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/xdigger
 .for file in COPYING ChangeLog README

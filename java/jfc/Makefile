@@ -35,6 +35,6 @@ do-install:
 	${MKDIR} ${PREFIX}/${JFCSUBDIR}
 	(cd ${WRKSRC} && tar -c -f - .) \
 		| (cd ${PREFIX}/${JFCSUBDIR} && tar fx -)
-	chown -R ${SHAREOWN}.${SHAREGRP} ${PREFIX}/${JFCSUBDIR}
+	${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${PREFIX}/${JFCSUBDIR}
 
 .include <bsd.port.mk>
