@@ -1,12 +1,12 @@
 # New ports collection makefile for:	cdlabelgen
-# Version required:	1.1.3
+# Version required:	1.5.0
 # Date created:		Tue Jun 23 00:19:55 MET DST 1999
 # Whom:			Juergen Lock <nox@jelal.kn-bremen.de>
 #
 # $Id$
 #
 
-DISTNAME=	cdlabelgen-1.1.3
+DISTNAME=	cdlabelgen-1.5.0
 CATEGORIES=	print
 MASTER_SITES=	http://www.red-bean.com/~bwf/software/cdlabelgen/
 
