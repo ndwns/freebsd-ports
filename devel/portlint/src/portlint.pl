@@ -4,7 +4,6 @@
 # implemented by:
 #	Jun-ichiro itojun Itoh <itojun@itojun.org>
 #	Yoshishige Arai <ryo2@on.rim.or.jp>
-# visit ftp://ftp.foretune.co.jp/pub/tools/portlint/ for latest version.
 #
 # Copyright(c) 1997 by Jun-ichiro Itoh <itojun@itojun.org>.
 # All rights reserved.
