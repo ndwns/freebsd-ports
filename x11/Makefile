@@ -62,6 +62,7 @@
     SUBDIR += tk80
     SUBDIR += tkdesk
     SUBDIR += tkgoodstuff
+    SUBDIR += tkstep80
     SUBDIR += tvtwm
     SUBDIR += viewfax
     SUBDIR += windowmaker
