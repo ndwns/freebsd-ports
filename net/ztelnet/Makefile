@@ -15,7 +15,8 @@
 DISTNAME=	ztelnet2
 PKGNAME=	ztelnet-1.0p3
 CATEGORIES=	net
-MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/net/ztelnet/
+MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/net/ztelnet/ \
+		ftp://ftp.kr.freebsd.org/pub/FreeBSD-kr/distfiles/
 DISTFILES=	ztelnet-linux.tar.gz ztelnet-patch.tar.gz \
 		ztelnet-patch-cmascott.tar.gz
 
