@@ -9,7 +9,8 @@
 DISTNAME=	bzip2-0.1pl2
 PKGNAME=	bzip2-0.1p2
 CATEGORIES=	archivers
-MASTER_SITES=	http://www.muraroa.demon.co.uk/
+MASTER_SITES=	ftp://ftp.connectnet.com/pub/bzip/ \
+		http://www.muraroa.demon.co.uk/
 
 MAINTAINER=	ports@FreeBSD.org
 
