@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	games/strategy
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=		gtk10.1:${PORTSDIR}/x11-toolkits/gtk10
 
 ALL_TARGET=		gtkballs
 MAKEFILE=		makefile
