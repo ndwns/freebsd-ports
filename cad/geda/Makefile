@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gEDA-19990124
-PKGNAME=	geda-19990124
+DISTNAME=	gEDA-19990327
+PKGNAME=	geda-19990327
 CATEGORIES=	cad
 MASTER_SITES=	http://www.geda.seul.org/dist/  \
 		ftp://ftp.geda.seul.org/pub/geda/dist/ \
@@ -15,13 +15,13 @@ MASTER_SITES=	http://www.geda.seul.org/dist/  \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
 		guile.4:${PORTSDIR}/lang/guile
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS}" 
-CONFIGURE_ARGS=	--with-gtk-config=${X11BASE}/bin/gtk11d-config
+CONFIGURE_ARGS=	--with-gtk-config=${X11BASE}/bin/gtk12-config
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
