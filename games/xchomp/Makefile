@@ -1,14 +1,14 @@
 # New ports collection makefile for:    xchomp
-# Version required:     1.1
+# Version required:     pl1
 # Date created:         4 Jan 1995
 # Whom:                 swallace
 #
 # $Id$
 #
 
-DISTNAME=       xchomp
-PKGNAME=	xchomp-1.1
+DISTNAME=       xchomp-pl1
 CATEGORIES+=	games
+MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/mirrors/X/R5contrib/
 #
 # Original sources in multi-part compressed shell archive
 #
@@ -18,6 +18,7 @@ CATEGORIES+=	games
 # Change -DFRAME_DELAY=40000 in patchfile/Imakefile value to adjust
 # speed of play depending on X server.
 
+WRKSRC=		${WRKDIR}/xchomp
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
 
