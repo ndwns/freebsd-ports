@@ -62,13 +62,13 @@ Emacs_Include_MAINTAINER=	shige@FreeBSD.org
 EMACS_MASTERDIR_PKGFILES?=	NO
 
 # Emacs-19.x
-.if (${EMACS_PORT_NAME} == "emacs") || (${EMACS_PORT_NAME} == "emacs19")
+.if (${EMACS_PORT_NAME} == "emacs19")
 EMACS_NAME=		emacs
 EMACS_VER=		19.34
 EMACS_MAJOR_VER=	19
 EMACS_LIBDIR?=		share/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	share/${EMACS_NAME}/${EMACS_VER}
-EMACS_PORTSDIR=		${PORTSDIR}/editors/emacs
+EMACS_PORTSDIR=		${PORTSDIR}/editors/emacs19
 EMACS_COMMON_PORT=	NO
 EMACS_HAS_MULE=		NO
 EMACS_NO_SUBDIRSEL=	YES
@@ -102,7 +102,7 @@ EMACS_VER=		21.3
 EMACS_MAJOR_VER=	21
 EMACS_LIBDIR?=		share/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	share/${EMACS_NAME}/${EMACS_VER}
-EMACS_PORTSDIR=		${PORTSDIR}/editors/emacs21
+EMACS_PORTSDIR=		${PORTSDIR}/editors/emacs
 EMACS_COMMON_PORT=	NO
 EMACS_HAS_MULE=		YES
 EMACS_NO_SUBDIRSEL=	NO
@@ -201,7 +201,7 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 check-makevars::
 	@${ECHO} "Makefile error: Bad value of EMACS_PORT_NAME: ${EMACS_PORT_NAME}."
 	@${ECHO} "Valid values are:"
-	@${ECHO} "	Emacs  family: emacs mule emacs20"
+	@${ECHO} "	Emacs  family: emacs19 mule emacs20 emacs21"
 	@${ECHO} "	XEmacs family: xemacs xemacs20 xemacs21 xemacs21-mule"
 	@${ECHO} "	                xemacs-devel xemacs-devel-mule"
 	@${FALSE}
