@@ -11,6 +11,7 @@
     SUBDIR += p5-Msql
     SUBDIR += p5-Mysql
     SUBDIR += p5-Pg
+    SUBDIR += pgaccess
     SUBDIR += postgresql
     SUBDIR += typhoon
     SUBDIR += xmbase-grok
