@@ -93,7 +93,7 @@ package:
 	@if [ -d ${PKGDIR} ]; then \
 	   echo "===>  Building package for ${DISTNAME}"; \
 	   pkg_create -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR \
-	     -f ${PKGDIR}/PLIST ${DISTNAME}; \
+	     -f ${PKGDIR}/PLIST ${DISTNAME}.tgz; \
 	fi
 .endif
 
