@@ -22,6 +22,7 @@
     SUBDIR += mailcrypt
     SUBDIR += majorcool
     SUBDIR += majordomo
+    SUBDIR += mbx2mbox
     SUBDIR += metamail
     SUBDIR += mew
     SUBDIR += mew-common
