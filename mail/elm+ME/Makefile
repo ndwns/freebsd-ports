@@ -7,7 +7,8 @@
 #
 
 DISTNAME=       elm-2.4pl24me8
-PKGNAME=        elm-2.4m8b
+VERSION=        2.4m8b          # allows to not edit elm+* Makefiles
+PKGNAME=        elm-${VERSION}
 PATCHFILES=     elm-2.4pl24me8a.diffs.Z elm-2.4pl24me8b.diffs.Z
 PATCH_DIST_STRIP= -p1
 CATEGORIES+=	mail
