@@ -9,7 +9,9 @@
 
 DISTNAME=	icmpinfo-1.11
 CATEGORIES=	net sysutils
-MASTER_SITES=	ftp://hplyot.obspm.fr/net/
+MASTER_SITES=	ftp://hplyot.obspm.fr/net/ \
+		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/network/admin
 
 MAINTAINER=     obrien@NUXI.com
 
