@@ -13,4 +13,11 @@ MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
 
 ALL_TARGET=	freebsd
 
+post-install:
+	gzip -9nf ${PREFIX}/man/man3/hosts_access.3 \
+	${PREFIX}/man/man5/hosts_access.5 ${PREFIX}/man/man5/hosts_options.5 \
+	${PREFIX}/man/man8/tcpd.8 ${PREFIX}/man/man8/tcpdchk.8 \
+	${PREFIX}/man/man8/tcpdmatch.8
+
+
 .include <bsd.port.mk>
