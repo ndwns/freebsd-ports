@@ -13,7 +13,9 @@ MASTER_SITES=	ftp://ftp.rwhois.net/pub/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+.if !exists(/usr/include/tcpd.h)
 LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
+.endif
 
 HAS_CONFIGURE=	YES
 CONFIGURE_ARGS=	--prefix=${PREFIX}/lib/rwhois
@@ -33,7 +35,7 @@ post-install:
 	@ echo "# remove or comment the following line and uncomment the one below it once you have" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
 	@ echo "# configured your server's data" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
 	@ echo "echo \"rwhoisd not started; sample data still in place.   See ${PREFIX}/share/doc/rwhois for details.\"" >> ${PREFIX}/etc/rc.d/rwhoisd.sh 
-	@ echo "#[ -x /usr/local/lib/rwhois/sbin/rwhoisd ] && /usr/local/lib/rwhois/sbin/rwhoisd -c /usr/local/lib/rwhois/rwhois.conf & && echo -n ' rwhoisd'" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
+	@ echo "#[ -x ${PREFIX}/lib/rwhois/sbin/rwhoisd ] && ${PREFIX}/lib/rwhois/sbin/rwhoisd -c ${PREFIX}/lib/rwhois/rwhois.conf & && echo -n ' rwhoisd'" >> ${PREFIX}/etc/rc.d/rwhoisd.sh
 	chmod 751 ${PREFIX}/etc/rc.d/rwhoisd.sh
 
 .include <bsd.port.mk>
