@@ -13,9 +13,9 @@ MASTER_SITES=	http://www1.las.es/~amil/ssystem/
 MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
-		MesaGL\\.1\[34\]\\.:${PORTSDIR}/graphics/Mesa3 \
-		MesaGLU\\.1\[34\]\\.:${PORTSDIR}/graphics/Mesa3 \
-		glut\\.3\\.:${PORTSDIR}/graphics/Mesa3
+		MesaGL.14:${PORTSDIR}/graphics/Mesa3 \
+		MesaGLU.14:${PORTSDIR}/graphics/Mesa3 \
+		glut.3:${PORTSDIR}/graphics/Mesa3
 
 USE_X11=	yes
 
