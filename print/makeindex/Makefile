@@ -25,7 +25,7 @@ do-install:
 	@(cd ${WRKSRC}/src-3.0/regexp; make)
 	@(cd ${WRKSRC}/src-3.0; make install)
 	@(cd ${WRKSRC}/doc; \
-	  sed -e s:/usr/local/lib/tex/macros/:${PREFIX}/share/texmf/makeindx/: \
+	  ${SED} -e s:/usr/local/lib/tex/macros/:${PREFIX}/share/texmf/makeindx/: \
 	      <makeindex.l >makeindex.1; \
 	  ${INSTALL_DATA} makeindex.1 ${PREFIX}/man/man1/)
 

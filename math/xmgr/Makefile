@@ -32,7 +32,7 @@ INSTALL_TARGET=	install links
 
 post-patch:
 	mv ${WRKSRC}/configure ${WRKSRC}/configure.input
-	sed "s%__MOTIFLIB__%${MOTIFLIB}%" ${WRKSRC}/configure.input > ${WRKSRC}/configure
+	${SED} "s%__MOTIFLIB__%${MOTIFLIB}%" ${WRKSRC}/configure.input > ${WRKSRC}/configure
 	rm -f ${WRKSRC}/configure.input
 	${CHMOD} 755 ${WRKSRC}/configure
 

@@ -30,7 +30,7 @@ do-install:
 	cd ${WRKSRC}; tr -d '\015' < NOTES.ru > ${PGPLIB}/NOTES.ru
 	cd ${PGPLIB}; ${GREP} -l -q '^Language.*=.*ru' config.txt || { \
 		${CP} config.txt config.txt.bak; \
-		sed 's/^Language.*=.*$$/Language = ru/' < config.txt.bak > config.txt; }
+		${SED} 's/^Language.*=.*$$/Language = ru/' < config.txt.bak > config.txt; }
 	-pgp > /dev/null  2>&1  # update .idx file
 
 .include <bsd.port.mk>

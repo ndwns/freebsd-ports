@@ -25,6 +25,6 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/../qts_proxy.conf ${PREFIX}/etc/
 
 post-install:
-	@ ${CAT} ${PKGMESSAGE} | sed -e 's,@PREFIX@,${PREFIX},g'
+	@ ${CAT} ${PKGMESSAGE} | ${SED} -e 's,@PREFIX@,${PREFIX},g'
 
 .include <bsd.port.mk>

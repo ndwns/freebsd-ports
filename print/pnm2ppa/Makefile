@@ -38,8 +38,8 @@ pre-configure:
 .endif
 
 do-install:
-	sed s#CHANGETHIS#${PREFIX}# < ${FILESDIR}/ppafilter.SH > ${WRKSRC}/ppafilter
-	sed s#CHANGETHIS#${PREFIX}# < ${FILESDIR}/asciippafilter.SH > ${WRKSRC}/asciippafilter
+	${SED} s#CHANGETHIS#${PREFIX}# < ${FILESDIR}/ppafilter.SH > ${WRKSRC}/ppafilter
+	${SED} s#CHANGETHIS#${PREFIX}# < ${FILESDIR}/asciippafilter.SH > ${WRKSRC}/asciippafilter
 	cd ${WRKSRC} && \
 		(${INSTALL_PROGRAM} pbm2ppa pbmtpg \
 			${PREFIX}/bin; \

@@ -25,7 +25,7 @@ NO_BUILD=       YES
 pre-configure:
 .for i in wginstall wginstall.pl
 	cd ${WRKSRC}; ${CP} $i $i.tmp; \
-		sed s=%PERL%=${PERL}= < $i.tmp > $i
+		${SED} s=%PERL%=${PERL}= < $i.tmp > $i
 .endfor
 
 do-install:

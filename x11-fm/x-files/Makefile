@@ -22,7 +22,7 @@ USE_X_PREFIX=	yes
 
 pre-install:
 	@tclsh8.0 ${SCRIPTDIR}/mktclIndex ${WRKSRC}
-	@sed s#@X11BASE@#${X11BASE}# <${WRKSRC}/X-Files.tcl >${WRKSRC}/tmpfile
+	@${SED} s#@X11BASE@#${X11BASE}# <${WRKSRC}/X-Files.tcl >${WRKSRC}/tmpfile
 	@mv ${WRKSRC}/tmpfile ${WRKSRC}/X-Files.tcl
 
 do-install:

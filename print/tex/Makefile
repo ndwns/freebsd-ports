@@ -24,7 +24,7 @@ USE_GMAKE=	yes
 MAKE_FLAGS=	fmts= all_mems=
 
 do-build:
-	 @(cd ${WRKSRC}; unset `env|${GREP} ^TEX|sed -e s/=.*//`; \
+	 @(cd ${WRKSRC}; unset `env|${GREP} ^TEX|${SED} -e s/=.*//`; \
 	    ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${ALL_TARGET})
 
 post-install:

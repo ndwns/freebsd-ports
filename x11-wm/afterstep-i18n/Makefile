@@ -49,7 +49,7 @@ post-patch:
 	@ for i in ${SRCDIRS}; do \
 		cd ${WRKSRC}/$$i; \
 		mv Imakefile Imakefile.orig; \
-		sed -e 's/#ifdef AlphaArchitecture/#if defined(AlphaArchitecture) \&\& !defined(FreeBSDArchitecture)/' < Imakefile.orig  >  Imakefile; \
+		${SED} -e 's/#ifdef AlphaArchitecture/#if defined(AlphaArchitecture) \&\& !defined(FreeBSDArchitecture)/' < Imakefile.orig  >  Imakefile; \
 	done
 
 pre-build:

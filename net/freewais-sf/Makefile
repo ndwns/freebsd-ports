@@ -25,7 +25,7 @@ MAN1=	catalog.1 dictionary.1 inverted_file.1 makedb.1 mkfmt.1 waisindex.1 \
 MAN3=	ftw.3 scandir.3
 
 pre-configure:
-	sed "s,PREFIX,${PREFIX},g" \
+	${SED} "s,PREFIX,${PREFIX},g" \
 	${FILESDIR}/configure.ans.skel > ${WRKDIR}/configure.ans
 	${MKDIR} ${PREFIX}
 	${MKDIR} ${PREFIX}/bin
