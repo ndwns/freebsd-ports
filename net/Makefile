@@ -135,6 +135,7 @@
     SUBDIR += pppload
     SUBDIR += ppxp
     SUBDIR += proftpd
+    SUBDIR += pvm
     SUBDIR += queso
     SUBDIR += radius
     SUBDIR += radiusclient
