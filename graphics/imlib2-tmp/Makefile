@@ -9,7 +9,8 @@
 DISTNAME=	imlib_DR-0.4
 PKGNAME=	imlib-0.4
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://cthulhu.mandrake.net/pub/enlightenment/
+MASTER_SITES=	http://www.rasterman.com/ftp/ \
+		ftp://cthulhu.mandrake.net/pub/enlightenment/
 
 MAINTAINER=	Vanill I. Shu <vanilla@MinJe.com.TW>
 
