@@ -19,7 +19,11 @@ do-fetch:
 
 do-install:
 	grep -q -i koi8 ${PREFIX}/lib/elm.rc || \
-		(echo "charset=KOI8-R"; echo "displaycharset=KOI8-R";) >> \
+		( \
+		echo "charset=KOI8-R"; \
+		echo "displaycharset=KOI8-R"; \
+		echo "nohdrencoding=ON"; \
+		) >> \
 		${PREFIX}/lib/elm.rc
 
 .include <bsd.port.mk>
