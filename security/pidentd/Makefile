@@ -20,7 +20,7 @@ MAN8=		identd.8 idecrypt.8
 # Uncomment to activate the use of verifiable "cookies".  The idea is to be
 # able to detect fake "logs" intended to get your innocent users in trouble.
 # Naturally, since it uses libdes, you must have the "secure" dist installed.
-USE_DES=	true
+# USE_DES=	true
 
 .if defined(USE_DES)
 ADD_GDEFS=	-DINCLUDE_CRYPT
