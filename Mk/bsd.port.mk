@@ -312,7 +312,7 @@ PKG_ARGS+=		-k ${PKGDIR}/DEINSTALL
 .if exists(${PKGDIR}/REQ)
 PKG_ARGS+=		-r ${PKGDIR}/REQ
 .endif
-.if !defined(USE_X11) && !defined(USE_IMAKE) && defined(MTREE_LOCAL)
+.if !defined(NO_MTREE) && defined(MTREE_LOCAL)
 PKG_ARGS+=		-m ${MTREE_LOCAL}
 .endif
 .endif
