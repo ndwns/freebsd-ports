@@ -265,6 +265,10 @@ PATCH_DIST_ARGS?=	-d ${WRKSRC} -E ${PATCH_DIST_STRIP}
 PATCH_ARGS?=	-d ${WRKSRC} --forward --quiet -E ${PATCH_STRIP}
 PATCH_DIST_ARGS?=	-d ${WRKSRC} --forward --quiet -E ${PATCH_DIST_STRIP}
 .endif
+.if defined(BATCH)
+PATCH_ARGS+=		--batch
+PATCH_DIST_ARGS+=	--batch
+.endif
 
 .if defined(PATCH_CHECK_ONLY)
 PATCH_ARGS+=	-C
