@@ -66,7 +66,7 @@ MAN8=			krb5kdc.8 kadmin.8 kadmin.local.8 kdb5_util.8 \
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 RECONF_COOKIE=		${WRKDIR}/.reconf_done
 README_KRB5=		README.KRB5-1.0.5
-AWK_SCRIPT=		'(/1) Change into the directory/) { if (match($$0, "dist/[0-9]+")) print substr($$0, RSTART, RLENGTH) }'
+AWK_SCRIPT=		'(/1\) Change into the directory/) { if (match($$0, "dist/[0-9]+")) print substr($$0, RSTART, RLENGTH) }'
 
 WANT_HTML?=		YES
 HTML_DOC_DIR=		${WRKDIR}/${DISTNAME}/doc
