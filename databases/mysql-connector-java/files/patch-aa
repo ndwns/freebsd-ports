@@ -1,0 +1,11 @@
+--- Makefile.orig	Mon Feb 21 23:43:51 2000
++++ Makefile	Sat Mar  4 09:34:31 2000
+@@ -3,7 +3,7 @@
+ # $Id$
+ #
+ 
+-JAVAC = /usr/local/jdk118/bin/javac
++JAVAC = javac
+ JAVAC_FLAGS =-O -g 
+ 
+ all:
