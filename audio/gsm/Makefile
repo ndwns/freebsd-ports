@@ -12,4 +12,7 @@ MASTER_SITES=	ftp://ftp.cs.tu-berlin.de/pub/local/kbs/tubmik/gsm/
 
 WRKSRC=		${WRKDIR}/gsm-1.0-pl7
 
+post-install:
+	/sbin/ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>
