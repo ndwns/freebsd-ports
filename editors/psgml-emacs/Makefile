@@ -66,7 +66,6 @@ PLIST_SUB=	EMACS_LIBDIR=${EMACS_LIBDIR} EMACS_VER=${EMACS_VER}
 # main configurations
 #
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-emacs="${EMACS_CMD}"
 RUN_DEPENDS+=	${CATALOG}:${PORTSDIR}/textproc/dtd-catalogs
 
 pre-configure:
