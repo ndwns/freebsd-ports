@@ -17,7 +17,7 @@ MAINTAINER=	ache@FreeBSD.ORG
 RESTRICTED=	"Crypto"
 
 BUILD_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
-RUN_DEPENDS += pgp:${PORTSDIR}/security/pgp
+RUN_DEPENDS += ${PREFIX}/lib/pgp/config.txt:${PORTSDIR}/security/pgp
 
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
