@@ -9,9 +9,10 @@
 DISTNAME=	proftpd-1.2.0pre3
 PKGNAME=	proftpd-1.2.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.proftpd.org/distrib/
+MASTER_SITES=	ftp://ftp.proftpd.org/distrib/ \
+		ftp://ftp3.proftpd.org/distrib/
 
-MAINTAINER=	mharo@area51.fremont.ca.us
+MAINTAINER=	mharo@FreeBSD.org
 
 MAN1=	ftpcount.1
 MAN8=	proftpd.8 ftpshut.8
