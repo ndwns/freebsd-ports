@@ -13,6 +13,7 @@
     SUBDIR += escpf
     SUBDIR += gawk
     SUBDIR += ghostscript
+    SUBDIR += gn-gnspool
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
