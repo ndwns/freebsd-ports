@@ -15,9 +15,12 @@ MAINTAINER=	billf@chc-chimes.com
 LIB_DEPENDS=    gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk
 
 FETCH_BEFORE_ARGS= -b
-USE_AUTOCONF=	hellyeah
-USE_X11=	youbet
+USE_AUTOCONF=	yes
+USE_XLIB=	yes
 
 MAN8=	mtr.8
+
+post-install:
+	@chown root ${PREFIX}/sbin/mtr
 
 .include <bsd.port.mk>
