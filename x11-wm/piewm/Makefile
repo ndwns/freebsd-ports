@@ -23,7 +23,7 @@ MAN1=		piewm.1
 #  files plus an executable
 
 pre-configure:
-	@/bin/rm -rf ${WRKDIR}/xpm
+	@${RM} -rf ${WRKDIR}/xpm
 
 pre-build:
 	@(cd ${WRKSRC}; ${MAKE} clean)
