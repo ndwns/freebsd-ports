@@ -9,6 +9,7 @@
     SUBDIR += p5-Msql
     SUBDIR += p5-Pg
     SUBDIR += postgres95
+    SUBDIR += typhoon
     SUBDIR += xfsql
 
 .include <bsd.port.subdir.mk>
