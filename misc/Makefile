@@ -66,6 +66,7 @@
     SUBDIR += xpns
     SUBDIR += xtar
     SUBDIR += xtimer
+    SUBDIR += xquote
     SUBDIR += ytree
     SUBDIR += zorro
 
