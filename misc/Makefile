@@ -7,6 +7,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
+    SUBDIR += fd
     SUBDIR += fep
     SUBDIR += git
     SUBDIR += glimpse
