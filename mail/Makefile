@@ -2,6 +2,7 @@
 #
 
     SUBDIR += elm
+    SUBDIR += elm+mime
     SUBDIR += elm+pgp
     SUBDIR += metamail
     SUBDIR += mh
