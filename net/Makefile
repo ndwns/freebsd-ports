@@ -62,6 +62,7 @@
     SUBDIR += hesiod
     SUBDIR += icb
     SUBDIR += icmpinfo
+    SUBDIR += ipw
     SUBDIR += irc
     SUBDIR += ircII
     SUBDIR += ircd-hybrid-5
