@@ -45,6 +45,7 @@ post-patch:
 			tgif.Xdefaults.org > tgif.Xdefaults
 
 post-install:
+		${MKDIR} ${PREFIX}/lib/X11/ja_JP.EUC/app-defaults
 		${INSTALL_DATA} ${FILESDIR}/tgif.Xdefaults.ja \
 			${PREFIX}/lib/X11/ja_JP.EUC/app-defaults/Tgif
 
