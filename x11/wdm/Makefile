@@ -1,11 +1,11 @@
 # New ports collection makefile for:	wdm
-# Version required:	0.90
+# Version required:	1.0
 # Date created:		August 31, 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 
-DISTNAME=	wdm-0.90
+DISTNAME=	wdm-1.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/contrib/srcs/utils/ \
 		ftp://ftp.io.com/pub/mirror/windowmaker/contrib/srcs/utils/ \
