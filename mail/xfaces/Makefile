@@ -8,7 +8,7 @@
 # $Id$
 #
 
-PKGNAME=	xfaces-3.3
+DISTNAME=	xfaces-3.3
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/xfaces/ \
 		ftp://odie.physik2.uni-rostock.de/pub/
