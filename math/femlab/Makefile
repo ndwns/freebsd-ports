@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.md.chalmers.se/pub/Femlab/	\
 
 MAINTAINER=	giffunip@asme.org
 
-BUILD_DEPENDS=	${PREFIX}/lib/libsx.a:${PORTSDIR}/X11/libsx
+BUILD_DEPENDS=	${PREFIX}/lib/libsx.a:${PORTSDIR}/x11/libsx
 
 WRKSRC=         ${WRKDIR}/${PKGNAME}
 USE_X11=	yes
