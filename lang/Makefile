@@ -31,6 +31,7 @@
     SUBDIR += javac_netscape
     SUBDIR += jdk
     SUBDIR += kaffe
+    SUBDIR += kawk
     SUBDIR += lcc
     SUBDIR += logo
     SUBDIR += mit-scheme
