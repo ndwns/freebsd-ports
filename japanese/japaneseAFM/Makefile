@@ -21,5 +21,6 @@ AFMDIR=		${PREFIX}/share/fonts/afm
 do-install:
 	@${MKDIR} ${AFMDIR}
 	@${INSTALL_DATA} ${WRKSRC}/* ${AFMDIR}
+	@rm -f ${AFMDIR}/PLIST.mktmp
 
 .include <bsd.port.mk>
