@@ -9,7 +9,7 @@
 DISTNAME=       lynx2.8.1rel.1
 PKGNAME=        lynx-2.8.1.1
 CATEGORIES=	www
-MASTER_SITES=   http://sol.slcc.edu/lynx/release/
+MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
