@@ -23,6 +23,8 @@ NO_BUILD=	YES
 NO_CDROM=	"This software is shareware"
 
 do-extract:
+		@ ${RM} -rf ${WRKDIR}
+		@ ${MKDIR} ${WRKDIR}
 		@ unzip -q -o ${DISTDIR}/quake106.zip -d ${WRKDIR} resource.*
 		@ cat ${WRKDIR}/resource.dat ${WRKDIR}/resource.1 > ${WRKDIR}/resource.exe
 		@ cd ${WRKDIR}; lha xfq resource.exe id1/pak0.pak
