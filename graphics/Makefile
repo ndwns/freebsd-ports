@@ -63,6 +63,7 @@
     SUBDIR += pnmtopng
     SUBDIR += povray
     SUBDIR += ppm2fli
+    SUBDIR += pstoedit
     SUBDIR += qgl
     SUBDIR += qvplay
     SUBDIR += rayshade
