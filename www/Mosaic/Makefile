@@ -8,7 +8,7 @@
 
 DISTNAME=	Mosaic-src-2.6
 CATEGORIES=	networking
-LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
 WRKSRC=		${WRKDIR}/Mosaic-src
 ALL_TARGET=	default
 
