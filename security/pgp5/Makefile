@@ -7,7 +7,8 @@
 # $Id$
 #
 
-CATEGORIES+=	utilities
+CATEGORIES+=	security
+
 MAINTAINER=	ache@FreeBSD.ORG
 WRKSRC=         ${WRKDIR}/src
 MAKEFILE=       makefile

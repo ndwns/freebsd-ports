@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pidentd-2.5.1
-CATEGORIES+=	networking
+CATEGORIES+=	security networking
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ \
 		ftp://ftp.fu-berlin.de/unix/security/ident/servers/
 
