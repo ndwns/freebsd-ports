@@ -23,6 +23,6 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/libdnd
 	${INSTALL_MAN} ${WRKDIR}/DND/DNDdoc/* ${PREFIX}/share/doc/libdnd
 .endif
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
