@@ -1,5 +1,5 @@
 # New ports collection makefile for:	fetchmail
-# Version required:	3.3
+# Version required:	3.3.1
 # Date created:		26 Oct 1996
 # Whom:			Ville Eerola <ve@sci.fi>
 #
@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	fetchmail-3.3
+PKGNAME=	fetchmail-3.3.1
 CATEGORIES=	mail
 MASTER_SITES=	ftp://locke.ccil.org/pub/esr/fetchmail/
 
