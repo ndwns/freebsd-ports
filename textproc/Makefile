@@ -45,6 +45,7 @@
     SUBDIR += prag
     SUBDIR += py-mxTextTools
     SUBDIR += py-xml
+    SUBDIR += rand
     SUBDIR += rman
     SUBDIR += sar
     SUBDIR += sgmlformat
