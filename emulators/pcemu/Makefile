@@ -21,7 +21,6 @@ CATEGORIES+=	utilities emulation
 #
 # a selection of sites archie has been reporting:
 #
-MASTER_SITES=	ftp://hpcsos.col.hp.com/mirrors/.scsi0/linux/ALPHA/dosemu/Misc/
 MASTER_SITES+=	ftp://ftp.germany.eu.net//pub/os/Linux/Local.EUnet/ALPHA/dosemu/Misc/
 MASTER_SITES+=	ftp://minnie.cs.adfa.oz.au/BSD/phillip/FreeBSD/pc-emulator/
 MASTER_SITES+=	ftp://ftp.iij.ad.jp/pub/linux/tsx-11/ALPHA/dosemu/Misc/
