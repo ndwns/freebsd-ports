@@ -22,6 +22,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/wine${DATE}
 GNU_CONFIGURE=	yes
+MAN1=		wine.1
 
 pre-configure:
 	@${ECHO} "WINE_INI_GLOBAL \"${PREFIX}/etc/wine.conf\"" \
@@ -37,8 +38,5 @@ do-install:
 		|| ${CP} ${WRKSRC}/wine.ini ${PREFIX}/etc/wine.conf
 	cp ${WRKSRC}/wine.sym ${PREFIX}/etc
 	cp ${WRKSRC}/wine.man ${PREFIX}/man/man1/wine.1
-.if !defined(NOMANCOMPRESS)
-	gzip -9f ${PREFIX}/man/man1/wine.1
-.endif
 
 .include <bsd.port.mk>

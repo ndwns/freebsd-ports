@@ -14,6 +14,10 @@ MAINTAINER=	jmz@FreeBSD.org
 
 HAS_CONFIGURE=  yes
 CONFIGURE_ARGS+=--enable-xdf --prefix=${PREFIX}
+MAN1=		mattrib.1 mbadblocks.1 mcd.1 mcopy.1 mdel.1 mdeltree.1 \
+		mdir.1 mformat.1 mkmanifest.1 mlabel.1 mmd.1 mmount.1 mmove.1 \
+		mrd.1 mread.1 mren.1 mtest.1 mtools.1 mtype.1 mwrite.1
+MAN5=		mtools.5
 
 post-patch:
 	@cd ${WRKSRC}; for f in config.c mtools.5 mtools.texi; do \
@@ -23,12 +27,5 @@ post-patch:
 
 post-install:
 	@install -c ${WRKSRC}/mtools.conf ${PREFIX}/etc
-.if !defined(NOMANCOMPRESS)
-	@for f in mattrib.1 mbadblocks.1 mcd.1 mcopy.1 mdel.1 mdeltree.1 \
-	 mdir.1 mformat.1 mkmanifest.1 mlabel.1 mmd.1 mmount.1 mmove.1 mrd.1 \
-	 mread.1 mren.1 mtest.1 mtools.1 mtype.1 mwrite.1; do \
-	 gzip -fn ${PREFIX}/man/man1/$$f; done
-	@gzip -fn ${PREFIX}/man/man5/mtools.5
-.endif
 
 .include <bsd.port.mk>
