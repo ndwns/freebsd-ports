@@ -50,6 +50,7 @@
     SUBDIR += viewfax
     SUBDIR += x3270
     SUBDIR += xalarm
+    SUBDIR += xantfarm
     SUBDIR += xautolock
     SUBDIR += xbuffy
     SUBDIR += xcb
