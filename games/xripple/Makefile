@@ -14,7 +14,10 @@ MASTER_SITES=	ftp://www.cse.unsw.edu.au/pub/users/s2154962/
 MAINTAINER=	oly@world.std.com
 
 USE_IMAKE=	yes
-ALL_TARGET=
+ALL_TARGET=	xripple
+
+post-configure:
+	cd ${WRKSRC}; make clean
 
 post-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/xripple ${PREFIX}/bin
