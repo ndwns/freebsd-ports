@@ -17,6 +17,11 @@ MAINTAINER=		andy@icc.surw.chel.su
 BUILD_DEPENDS=		antlr:${PORTSDIR}/devel/pccts \
 			dlg:${PORTSDIR}/devel/pccts
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		signal.h:163: syntax error
+.endif
+
 WRKSRC=			${WRKDIR}/usr/local/src/cccc-2.1.1
 USE_GMAKE=		yes
 MAKEFILE=		makefile
