@@ -16,10 +16,6 @@ BUILD_DEPENDS=	/compat/linux/usr/bin/cpp:${PORTSDIR}/devel/linux_devel
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
-BROKEN=	"During build fails makesyscalls"
-.endif
-
 .if !exists(/sys/i386/linux/syscalls.master)
 BROKEN=		"requires kernel source present in /sys"
 .endif
