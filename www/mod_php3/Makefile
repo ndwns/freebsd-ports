@@ -38,7 +38,7 @@ MASTER_SITES=	http://www.apache.org/dist/ \
 		http://www.php.cz/${PHP_DISTDIR}/ \
 		http://php3.globe.de/${PHP_DISTDIR}/ \
 		ftp://ftp.blatzheim.com/pub/mod_ssl/ \
-		ftp://ftp.fu-berlin.de/unix/security/mod_ssl/ \
+		ftp://ftp.fu-berlin.de/unix/security/mod_ssl/
 DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP}.tar.gz
 
 MAINTAINER=	dirk@FreeBSD.org
