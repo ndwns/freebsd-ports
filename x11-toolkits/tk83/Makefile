@@ -15,6 +15,7 @@ MAINTAINER=	jseger@FreeBSD.ORG
 
 LIB_DEPENDS=	tcl81\\.1\\.0:${PORTSDIR}/lang/tcl81
 
+NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
