@@ -13,6 +13,7 @@
     SUBDIR += astrolog
     SUBDIR += bb
     SUBDIR += bbjd
+    SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += crosspad
