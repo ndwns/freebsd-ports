@@ -1,12 +1,12 @@
 # New ports collection makefile for:	nethack
-# Version required:	3.2.0
+# Version required:	3.2.1
 # Date created:		27 March 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	nethack-3.2.0
+DISTNAME=	nethack-3.2.1
 CATEGORIES+=	games
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/ \
 	ftp://ftp.win.tue.nl/pub/games/nethack/General/Source/NH32/sources/
@@ -15,7 +15,6 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-NO_WRKSUBDIR=	yes
 USE_GMAKE=	yes
 SHELL=		/bin/sh
 
