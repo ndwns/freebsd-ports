@@ -12,6 +12,7 @@
     SUBDIR += gimp
     SUBDIR += gimp-devel
     SUBDIR += hpscan
+    SUBDIR += jbigkit
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
