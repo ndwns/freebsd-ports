@@ -17,6 +17,8 @@ MAINTAINER=		mph@freebsd.org
 WRKSRC=			${WRKDIR}/xzip
 ALL_TARGET=
 
+USE_XLIB=		yes
+
 MAN1=			xzip.1
 
 .include <bsd.port.mk>

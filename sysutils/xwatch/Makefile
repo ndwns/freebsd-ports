@@ -14,6 +14,7 @@ MAINTAINER=	mph@freebsd.org
 
 LIB_DEPENDS=	gtk\\.1:${PORTSDIR}/x11-toolkits/gtk
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 
 post-install:
