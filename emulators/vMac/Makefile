@@ -3,7 +3,7 @@
 # Date created:				Jul 11th 1999
 # Whom:					troll
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		vMac-0.1.9.3-src
