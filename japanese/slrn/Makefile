@@ -4,6 +4,7 @@
 # Whom:			Takashi Mega <mega@minz.org>
 #
 # $Id$
+#
 
 DISTNAME=	slrn0.9.5.4
 PKGNAME=	ja-slrn-0.9.5.4
