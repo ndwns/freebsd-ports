@@ -14,10 +14,9 @@ DISTFILES=	ls.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-FETCH_DEPENDS=	ncftp2:${PORTSDIR}/net/ncftp2
+WRKSRC=		${WRKDIR}/ls
 
-WRKSRC=		${WRKDIR}/pub/FreeBSD/FreeBSD-current/src/bin/ls
-NCFTP=		ncftp2
-NCFTPFLAGS=	
+pre-patch:
+	cp ${WRKSRC}/ls.1 ${WRKSRC}/colorls.1
 
 .include <bsd.port.mk>
