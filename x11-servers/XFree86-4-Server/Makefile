@@ -22,6 +22,7 @@ PATCH_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.2/fixes/ \
 
 DISTFILES=	X32src-1.tgz X32src-2.tgz
 PATCHFILES=	3.2-fix-01
+PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	jmz@FreeBSD.ORG
 
