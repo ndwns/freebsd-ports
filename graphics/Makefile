@@ -5,6 +5,7 @@
     SUBDIR += Mesa
     SUBDIR += aalib
     SUBDIR += aero
+    SUBDIR += aview
     SUBDIR += camediaplay
     SUBDIR += dc3play
     SUBDIR += dore
