@@ -25,6 +25,13 @@ do-install:
 	$(INSTALL_PROGRAM) $(WRKSRC)/mesh2dual	$(PREFIX)/bin
 	$(INSTALL_PROGRAM) $(WRKSRC)/graphchk	$(PREFIX)/bin
 	$(INSTALL_DATA) $(WRKSRC)/libmetis.a $(PREFIX)/lib
+	${MKDIR} $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/defs.h    $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/macros.h  $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/metis.h   $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/proto.h   $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/rename.h  $(PREFIX)/include/metis
+	$(INSTALL_DATA) $(WRKSRC)/Lib/struct.h  $(PREFIX)/include/metis
 .if !defined(NOPORTDOCS)
 	${MKDIR} $(PREFIX)/share/doc/METIS
 	$(INSTALL_DATA) ${WRKSRC}/Doc/manual.ps $(PREFIX)/share/doc/METIS
