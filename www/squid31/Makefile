@@ -15,6 +15,9 @@ MASTER_SITES=  \
 	ftp://ftp.net.lut.ac.uk/squid/squid-1.1/
 EXTRACT_SUFX=	-src.tar.gz
 
+PATCH_SITES+=   http://squid.nlanr.net/Squid/1.1/1.1.6/
+PATCHFILES+=    fixes.patch
+
 MAINTAINER=	peter@freebsd.org
 
 DIST_SUBDIR=	squid
