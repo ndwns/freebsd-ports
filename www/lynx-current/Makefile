@@ -14,6 +14,7 @@ MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+NO_LATEST_LINK=	YES
 WRKSRC=         ${WRKDIR}/lynx2-8
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
