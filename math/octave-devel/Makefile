@@ -14,6 +14,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
+BROKEN=		"Sorry, doesn't link with gcc-2.7.2.1 in our tree"
+
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
 PATCH_STRIP=	-p1
