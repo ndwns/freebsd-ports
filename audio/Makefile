@@ -7,6 +7,7 @@
     SUBDIR += bladeenc
     SUBDIR += cam
     SUBDIR += cdd
+    SUBDIR += cdindex
     SUBDIR += cdplay
     SUBDIR += cdrdao
     SUBDIR += cmp3
