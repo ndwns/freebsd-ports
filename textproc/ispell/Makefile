@@ -23,12 +23,14 @@ MAN1=		buildhash.1 findaffix.1 ispell.1 munchlist.1 \
 		sq.1 tryaffix.1 unsq.1
 MAN4=		ispell.4 english.4
 
-pre-fetch pre-build pre-install:
 .if !defined(ISPELL_FR)
+.if (make(patch) || make(configure) || make(build) || make (install))
+.BEGIN:
 	@echo '*********************************************************' 
 	@echo '* Note that you can build a french or british version   *' 
 	@echo '* by typing "make french" or "make british"             *'
 	@echo '*********************************************************' 
+.endif
 .else
 EXTRA_DICT=	francais-IREQ-1.4.tar.gz
 MASTER_SITES+=	ftp://ftp.robot.ireq.ca/pub/ispell/
