@@ -8,7 +8,7 @@
 
 DISTNAME=	radiusclient-0.3
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.cityline.net/pub/radiusclient/
+MASTER_SITES=	ftp://ftp.hamburg.cityline.net/pub/radiusclient/
 
 MAINTAINER=	maurice@serc.rmit.edu.au
 
