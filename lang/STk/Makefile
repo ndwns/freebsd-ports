@@ -14,6 +14,7 @@ MAINTAINER=	jmacd@FreeBSD.ORG
 
 BROKEN_ELF=	yes
 
+USE_XLIB=	yes
 PATCH_STRIP=      -p1
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=  	"prefix=${PREFIX}" -f
