@@ -10,6 +10,7 @@
     SUBDIR += bind8
     SUBDIR += bing
     SUBDIR += bitchx
+    SUBDIR += bnc
     SUBDIR += cap
     SUBDIR += cftp
     SUBDIR += choparp
