@@ -14,12 +14,11 @@ MASTER_SITES=	http://www.tcserv.com/archive/E/ \
 
 MAINTAINER=	murray@cdrom.com
 
-MAN1=		Eterm.1
-
 LIB_DEPENDS=	Im\\.3\\.:${PORTSDIR}/graphics/imlib
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
+MAN1=		Eterm.1
 
 do-build:
 	cd ${WRKSRC}/src && \
