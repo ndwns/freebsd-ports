@@ -14,6 +14,8 @@ EXTRACT_SUFX=		.tar.Z
 
 MAINTAINER=		mph@freebsd.org
 
+BROKEN=			fetch
+
 WRKSRC=			${WRKDIR}/xzip
 ALL_TARGET=
 
