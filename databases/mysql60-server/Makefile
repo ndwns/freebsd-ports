@@ -16,6 +16,8 @@ MASTER_SITES=	http://www.buoy.com/mysql/Downloads/MySQL-3.21/ \
 
 MAINTAINER=	josh@ican.net
 
+BROKEN=		package
+
 MAN1=		mysql.1
 
 USE_GMAKE=	YES
