@@ -7,12 +7,13 @@
 #
 
 DISTNAME=	splitmpg
-
+PKGNAME=	splitmpg-1.0
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.ecel.uwa.edu.au/users/michael/
-NO_WRKSUBDIR=	yes
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	erich@FreeBSD.org
+
+NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
