@@ -76,6 +76,6 @@ post-install:
 	fi
 	chmod 500 ${SAMBA_PRIVATE}
 	chown root.wheel ${PREFIX}/bin/smbpasswd
-	chmod 4111 ${PREFIX}/bin/smbpasswd
+	chmod 111 ${PREFIX}/bin/smbpasswd
 
 .include <bsd.port.mk>
