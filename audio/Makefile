@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += amp
     SUBDIR += cam
     SUBDIR += cddbd
     SUBDIR += gmod
