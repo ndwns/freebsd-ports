@@ -6,6 +6,7 @@
     SUBDIR += bro
     SUBDIR += bugs
     SUBDIR += cfs
+    SUBDIR += checkpassword
     SUBDIR += cops
     SUBDIR += crack
     SUBDIR += donkey
