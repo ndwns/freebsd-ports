@@ -31,6 +31,9 @@ post-install:
 	-${GZIP_CMD} ${GZIP} ${WRKSRC}/fft.doc
 	${CP} $(WRKSRC)/fft.doc.gz $(PREFIX)/share/doc/fftpack/
 .endif
-	${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libbihar.so.1 ${PREFIX}/lib/libbihar.so; \
+	fi
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
