@@ -29,7 +29,7 @@ do-install:
 		MANDIR=${PREFIX}/man/man1 MANSUFFIX=1)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} xdvi.man)
 	@(cd ${WRKSRC}; ${GMAKE} -f Makefile install BINDIR=${PREFIX}/bin)
-	@(cd ${WRKSRC}; ${INSTALL_PROGRAM} MakeTeXPK ${PREFIX}/bin)
+	@(cd ${WRKSRC}; ${INSTALL_SCRIPT} MakeTeXPK ${PREFIX}/bin)
 
 pre-clean:
 	@rm -f ${SCRIPTDIR}/post-install
