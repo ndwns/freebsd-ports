@@ -6,6 +6,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += git
+    SUBDIR += ical
     SUBDIR += ispell
     SUBDIR += kp
     SUBDIR += less
