@@ -3,6 +3,7 @@
 
     SUBDIR += 3dc
     SUBDIR += 3dpong
+    SUBDIR += KnightCap
     SUBDIR += acm
     SUBDIR += agm
     SUBDIR += an
