@@ -43,7 +43,7 @@ do-install:
 
 post-install:
 	@cd ${PREFIX}/share/latex2html && env LATEX2HTMLDIR=${PREFIX}/share/latex2html ${PREFIX}/bin/perl ${PREFIX}/share/latex2html/install-test
-	@${INSTALL_SCRIPT} ${WRKSRC}/latex2html ${PREFIX}/bin
+	@${INSTALL_SCRIPT} ${PREFIX}/share/latex2html/latex2html ${PREFIX}/bin
 	@${ECHO_MSG} "********************************************************"
 	@${ECHO_MSG} "Latex2html has now been installed with a very basic"
 	@${ECHO_MSG} "configuration and HTML specific style files have been"
