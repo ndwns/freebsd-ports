@@ -16,6 +16,8 @@ MAINTAINER=	billf@chc-chimes.com
 BUILD_DEPENDS=	${PREFIX}/bin/tclsh8.0:${PORTSDIR}/lang/tcl80
 RUN_DEPENDS=	${PREFIX}/bin/tclsh8.0:${PORTSDIR}/lang/tcl80
 
+BROKEN=		installs man page in /usr/local/man1
+
 MAN1=		clig.1
 
 NO_BUILD=	yes
