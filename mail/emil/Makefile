@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.uu.se/pub/unix/networking/mail/emil/ \
 		ftp://ftp.gwdg.de/pub/misc/emil/ \
 		ftp://ftp.funet.fi/pub/unix/mail/emil/ \
 		ftp://ftp.enst.fr/pub/unix/network/mail/ \
-		ftp://ftp.doc.ic.ac.uk/Mirrors/ftp.uu.se/pub/unix/networking/mail/emil/
+		ftp://sunsite.doc.ic.ac.uk/Mirrors/ftp.uu.se/pub/unix/networking/mail/emil/
 
 MAINTAINER=	josh@quick.net
 
