@@ -26,4 +26,6 @@ XMKMF=		xmkmf
 BROKEN=		requires X session to run xrdb
 .endif
 
+MAN1=		xgrab.1 xgrabsc.1
+
 .include <bsd.port.mk>
