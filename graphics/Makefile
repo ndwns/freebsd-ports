@@ -47,7 +47,6 @@
     SUBDIR += spigot
     SUBDIR += splitmpg
     SUBDIR += tgif
-    SUBDIR += tiff
     SUBDIR += tiff34
     SUBDIR += txtmerge
     SUBDIR += urt
