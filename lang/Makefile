@@ -26,7 +26,6 @@
     SUBDIR += guile
     SUBDIR += hugs
     SUBDIR += icon
-    SUBDIR += idl4
     SUBDIR += intercal
     SUBDIR += itcl
     SUBDIR += javac_netscape
