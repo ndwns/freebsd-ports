@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Apache + mod_ssl
-# Version required:	1.3.3 + 2.1.6
+# Version required:	1.3.4 + 2.1.7
 # Date created:		Sat Aug 22 12:00:00 CDT 1998
 # Whom:			rse@engelschall.com
 #
@@ -12,6 +12,7 @@ CATEGORIES=	www security
 MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
 		http://www.engelschall.com/sw/mod_ssl/distrib/ \
 		ftp://ftp.engelschall.com/sw/mod_ssl/ \
+		ftp://ftp.pca.dfn.de/pub/tools/net/mod_ssl/ \
 		ftp://ftp.nvg.ntnu.no/pub/unix/mod_ssl/ \
 		ftp://ftp.ulpgc.es/pub/mod_ssl/ \
 		ftp://glock.missouri.edu/pub/mod_ssl/ \
@@ -20,7 +21,6 @@ MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
 		ftp://ftp.blatzheim.com/pub/mod_ssl/ \
 		ftp://ftp.fu-berlin.de/unix/security/mod_ssl/ \
 		ftp://ftp.ntrl.net/pub/mirror/ralfsw/mod_ssl/
-
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		mod_ssl-${VERSION_MODSSL}-${VERSION_APACHE}${EXTRACT_SUFX}
 
@@ -31,13 +31,15 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl \
 		${PREFIX}/lib/libcrypto.a:${PORTSDIR}/security/openssl
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
 
-VERSION_APACHE=	1.3.3
-VERSION_MODSSL=	2.1.6
+VERSION_APACHE=	1.3.4
+VERSION_MODSSL=	2.1.7
 
+Y2K=		http://www.engelschall.com/sw/mod_ssl/docs/2.1/ssl_faq.html#y2k
 RESTRICTED=	"Contains cryptography"
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/apache \
+CONFIGURE_ARGS=	--with-layout=GNU \
+		--sysconfdir=${PREFIX}/etc/apache \
 		--includedir=${PREFIX}/include/apache \
 		--logfiledir=/var/log \
 		--runtimedir=/var/run \
