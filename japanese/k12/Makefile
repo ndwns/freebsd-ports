@@ -9,7 +9,7 @@
 DISTNAME=	kaname_k12_bdf
 PKGNAME=	ja-kaname12-1.0
 CATEGORIES=	japanese x11-fonts
-MASTER_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/FreeBSD/etc/
+MASTER_SITES=	${MASTER_SITE_PORTS_JP}
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
