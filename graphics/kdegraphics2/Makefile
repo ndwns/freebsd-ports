@@ -17,7 +17,7 @@ MAINTAINER=	se@freebsd.org
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore.2:${PORTSDIR}/x11/kdelibs
+		kdecore.2:${PORTSDIR}/x11/kdelibs11
 
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS= -cd

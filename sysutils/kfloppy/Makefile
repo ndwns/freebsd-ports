@@ -18,7 +18,7 @@ MAINTAINER=	se@freebsd.org
 BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore.2:${PORTSDIR}/x11/kdelibs
+		kdecore.2:${PORTSDIR}/x11/kdelibs11
 
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS= -cd
