@@ -93,6 +93,7 @@
     SUBDIR += xlife
     SUBDIR += xlines
     SUBDIR += xmahjongg
+    SUBDIR += xmastermind
     SUBDIR += xmemory
     SUBDIR += xmille
     SUBDIR += xmine
