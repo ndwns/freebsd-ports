@@ -9,6 +9,7 @@
     SUBDIR += hanterm-autofont
     SUBDIR += hanterm-xf86
     SUBDIR += hanyangfonts
+    SUBDIR += helvis
     SUBDIR += johabfonts
     SUBDIR += nvi-euc-kr
     SUBDIR += nvi-iso-2022-kr
