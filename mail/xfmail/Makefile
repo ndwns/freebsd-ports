@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://burka.netvision.net.il/pub/xfmail/work/
 MAINTAINER=	gena@NetVision.net.il
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		forms\\.0\\.:${PORTSDIR}/x11/xforms
+		xforms\\.0\\.:${PORTSDIR}/x11/xforms
 
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/xfmail/ui
