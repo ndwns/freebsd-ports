@@ -8,7 +8,7 @@
 
 DISTNAME=	ghostscript-5.03
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/ \
+MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/gs503/ \
 		ftp://bonk.ethz.ch/gs-driver-distrib/
 DISTFILES=	${GS_SOURCES} ${GS_FONTS_STD} ${GS_FONTS_OTHER} \
 		${HP850_DRV}
