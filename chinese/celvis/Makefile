@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	celvis
-PKGNAME=	celvis-1.3
+PKGNAME=	cn-celvis-1.3
 CATEGORIES+=	chinese editors
 MASTER_SITES=	ftp://ftp.cs.purdue.edu/pub/ygz/  \
 		ftp://ftp.ifcss.org/pub/software/x-win/cxterm/
