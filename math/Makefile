@@ -7,6 +7,7 @@
     SUBDIR += fudgit
     SUBDIR += gnuplot
     SUBDIR += hexcalc
+    SUBDIR += lapack
     SUBDIR += linpack
     SUBDIR += maxima
     SUBDIR += octave
