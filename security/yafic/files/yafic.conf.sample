@@ -23,7 +23,7 @@ $/dev		L
 /root/.history	L
 
 # /tmp
-=/tmp		L
+=/tmp		L-n
 
 # /var
 =/var
@@ -61,7 +61,7 @@ $/dev		L
 =/usr/sup	L
 
 # /usr/tmp
-=/usr/tmp	L
+=/usr/tmp	L-n
 
 #### /usr/X11R6 ####
 
