@@ -8,7 +8,7 @@
 
 DISTNAME=	apsfilter-5.1.2
 CATEGORIES=	print
-MASTER_SITES=	http://www.FreeBSD.ORG/~andreas/download/
+MASTER_SITES=	http://www.FreeBSD.ORG/~andreas/apsfilter/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
