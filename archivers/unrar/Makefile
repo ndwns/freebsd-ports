@@ -20,7 +20,7 @@ do-build:
 		${CC} ${CFLAGS} -D_UNIX unrar.c -o unrar
 
 do-install:
-	install -d -m 755 -o ${SHAREOWN} -g ${SHAREGRP} \
+	${INSTALL} -d -m 755 -o ${SHAREOWN} -g ${SHAREGRP} \
 		${PREFIX}/share/doc/unrar
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} unrar ${PREFIX}/bin
 	cd ${WRKSRC} && ${INSTALL_MAN} readme.txt license.txt \
