@@ -9,6 +9,7 @@
     SUBDIR += lmbench
     SUBDIR += nbench
     SUBDIR += netperf
+    SUBDIR += netpipe
     SUBDIR += tcpblast
     SUBDIR += xengine
 
