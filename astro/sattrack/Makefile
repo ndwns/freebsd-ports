@@ -12,6 +12,7 @@ MASTER_SITES=      ${MASTER_SITE_LOCAL}
 
 MAINTAINER=        bjn@visi.com
 
+USE_XLIB=	   yes
 WRKSRC=            ${WRKDIR}/SatTrack-3.1.6/src
 
 post-install:
