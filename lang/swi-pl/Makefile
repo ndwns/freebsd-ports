@@ -19,7 +19,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386-freebsd
 STRIP=
 MAKE_FLAGS+=	CIFLAGS=-DRTLD_LAZY -f
-NO_CDROM= 	"No commercial use."
 
 # Below is for broken configure script that comes with the original
 # distribution.  This, and patches/patch-00 will be removed as soon as
