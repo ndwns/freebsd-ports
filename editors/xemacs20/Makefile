@@ -16,8 +16,8 @@ MASTER_SITES=	\
 		ftp://ftp.lab.kdd.co.jp/xemacs/${DISTNAME}/ \
 		ftp://ftp.th-darmstadt.de:/pub/editors/xemacs/${DISTNAME}/ \
 		ftp://SunSITE.sut.ac.jp/pub/archives/xemacs/${DISTNAME}/ \
-		ftp://ftp.gw.com/mirrors/pub/unix/xemacs/${DISTNAME}/ \
-
+		ftp://ftp.gw.com/mirrors/pub/unix/xemacs/${DISTNAME}/
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${MULEDISTFILE}
 
 MAINTAINER=	me@FreeBSD.org
 
@@ -45,6 +45,7 @@ pre-configure:
 
 .if defined(USE_MULE)
 WITH_MULE=	--with-mule
+MULEDISTFILE=	${DISTNAME}-mule.tar.gz
 .endif
 
 # hack to avoid shipping binaries linked with Motif
