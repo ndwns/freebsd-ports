@@ -6,12 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	ripe-whois-tools-2.3
-PKGNAME=	ripetools-2.3
+DISTNAME=	ripe-whois-tools-2.4
+PKGNAME=	ripetools-2.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ripe.net/tools/
 
 MAINTAINER=	joe@uk.freebsd.org
+
+NO_WRKSUBDIR=	yes
 
 MAN1=		ripewhois.1
 
