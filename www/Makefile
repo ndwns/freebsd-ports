@@ -75,6 +75,7 @@
     SUBDIR += squid11-novm
     SUBDIR += squid20
     SUBDIR += squid21
+    SUBDIR += squidclients
     SUBDIR += swish-e
     SUBDIR += tidy
     SUBDIR += transproxy
