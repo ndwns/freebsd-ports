@@ -31,6 +31,7 @@
     SUBDIR += oonsoo
     SUBDIR += qcc
     SUBDIR += quakeserver
+    SUBDIR += sokoban
     SUBDIR += spider
     SUBDIR += starlanes
     SUBDIR += tksol
