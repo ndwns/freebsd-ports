@@ -25,6 +25,8 @@ LIB_DEPENDS=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10 \
 BUILD_DEPENDS=	g++28:${PORTSDIR}/lang/gcc28 \
 		${LIBSTDC}:${PORTSDIR}/lang/glibstdc++28
 
+BROKEN=		Cannot find a working cpp
+
 CC=		gcc28
 CXX=		g++28
 
@@ -43,6 +45,6 @@ MAN5=		micorc.5
 MAN8=		ird.8 micod.8 nsd.8
 
 post-install:
-	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m 
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m
 
 .include <bsd.port.post.mk>
