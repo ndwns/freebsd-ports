@@ -15,5 +15,6 @@ EXTRACT_SUFX=   .tar.Z
 MAINTAINER=     ache@FreeBSD.ORG
 
 NO_WRKSUBDIR=	yes
+MAN1=		arc.1
 
 .include <bsd.port.mk>

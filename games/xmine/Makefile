@@ -13,8 +13,9 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	joerg@FreeBSD.org
 
-LIB_DEPENDS=        Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
+LIB_DEPENDS=    Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
 
 USE_IMAKE=      yes
+MAN1=		xmine.1
 
 .include <bsd.port.mk>

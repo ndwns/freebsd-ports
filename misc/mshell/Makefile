@@ -15,6 +15,7 @@ DISTFILES=	7432.Z
 MAINTAINER=	jmz@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
+MAN1=		mshell.1
 
 do-extract:
 	@rm -rf ${WRKDIR}

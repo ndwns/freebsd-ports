@@ -21,6 +21,9 @@ MAINTAINER=	jmz@FreeBSD.org
 DISTFILES+=	   ${EXTRA_DICT}
 
 MAKE_FLAGS=	TMPDIR=${.CURDIR} -f 
+MAN1=		buildhash.1 findaffix.1 ispell.1 munchlist.1 \
+		sq.1 tryaffix.1 unsq.1
+MAN4=		ispell.4 english.4
 
 pre-extract:
 .if !defined(LANG) 

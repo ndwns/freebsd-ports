@@ -19,8 +19,16 @@ LIB_DEPENDS=	tk41\\.1:${TK_DIR}
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared --with-tk
-MAN3=		CmdWrite.3 Handles.3 Keylist.3 TclXInit.3
-MANN=		Memory.n TclX.n
+MAN3=		CmdWrite.3 Handles.3 Keylist.3 TclCommandWriting.3 \
+		TclXInit.3 Tcl_HandleAlloc.3 Tcl_HandleFree.3 \
+		Tcl_HandleTblInit.3 Tcl_HandleTblRelease.3 \
+		Tcl_HandleTblUseCount.3 Tcl_HandleWalk.3 \
+		Tcl_HandleXlate.3 Tcl_GetKeyedListKeys.3 \
+		Tcl_GetKeyedListField.3 Tcl_SetKeyedListField.3 \
+		Tcl_DeleteKeyedListField.3 Tclx_Init.3 \
+		Tclxcmd_Init.3 TclX_Main.3 Tkx_Init.3 TkX_Main.3
+MANN=		Memory.n TclX.n ckalloc.n memory.n ckfree.n \
+		Tcl_DisplayMemory.n Tcl_InitMemory.n Tcl_ValidateAllMemory.n
 
 TCL_BASE=	/usr/libdata/tcl
 TCL_SRC=	/usr/src/contrib/tcl

@@ -18,6 +18,10 @@ HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-shared --with-tclconfig=/usr/libdata/tcl \
 		--with-tclinclude=/usr/include/tcl
+MAN1=		autoexpect.1 cryptdir.1 decryptdir.1 dislocate.1 \
+		expect.1 expectk.1 kibitz.1 mkpasswd.1 passmass.1 \
+		tknewsbiff.1 unbuffer.1 xkibitz.1
+MAN3=		libexpect.3
 
 test:
 	@(cd ${WRKSRC}; make test)

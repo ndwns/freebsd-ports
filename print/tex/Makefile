@@ -16,6 +16,11 @@ MAINTAINER=	jmz@FreeBSD.org
 
 EXTRACT_ONLY=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz
+MAN1=		bibtex.1 dvitype.1 gftodvi.1 gftopk.1 gftype.1 \
+		latex.1 mf.1 mft.1 pktogf.1 pktype.1 pltotf.1 slitex.1 \
+		tangle.1 tex.1 tftopl.1 vftovp.1 vptovf.1 weave.1 etex.1 \
+		amslatex.1 amstex.1 initex.1 lamstex.1 patgen.1 pooltype.1 \
+		virtex.1
 
 #other equivalent sites: ftp.shsu.edu ftp.dante.de
 CTAN?=		ftp.tex.ac.uk

@@ -14,12 +14,13 @@ CATEGORIES=	security
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-RESTRICTED=     YES
+# Need to define USA_RESIDENT to YES or NO
+IS_INTERACTIVE=	YES
+RESTRICTED=     "Crypto"
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd
 PGPLIB=         ${PREFIX}/lib/pgp
-# Need to define USA_RESIDENT to YES or NO
-IS_INTERACTIVE=	YES
+MAN1=		pgp.1
 
 do-install:
 	cd ${WRKSRC}; install -c -o bin -g bin -m 555 pgp ${PREFIX}/bin

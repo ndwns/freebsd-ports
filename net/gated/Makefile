@@ -12,5 +12,6 @@ CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.gated.merit.edu/net-research/gated/
 
 ALL_TARGET=	gated
+MAN8=		gated.8 ripquery.8 ospf_monitor.8 gdc.8
 
 .include <bsd.port.mk>

@@ -15,5 +15,6 @@ MAINTAINER=	jmz@FreeBSD.org
 RUN_DEPENDS=    wish4.1:${PORTSDIR}/x11/tk41
 
 WRKSRC=		${WRKDIR}/xcd
+MAN1=		cdplayer.1 xcd.1
 
 .include <bsd.port.mk>

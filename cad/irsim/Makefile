@@ -14,5 +14,8 @@ EXTRACT_SUFX=   .tar.Z
 MAINTAINER=	swallace@FreeBSD.org
 
 WRKSRC=		${.CURDIR}/work/irsim
+MAN1=		irsim.1
+MAN3=		irsim-analyzer.3
+MAN5=		netchange.5
 
 .include <bsd.port.mk>

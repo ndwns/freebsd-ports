@@ -21,6 +21,7 @@ USE_X11=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_BEFORE_ARGS=	-C ${WRKDIR} -xf
 EXTRACT_ONLY=	nedit_source.tar
+MAN1=		nedit.1 nc.1
 
 post-extract:
 	${CP} ${DISTDIR}/nedit.app-defaults ${WRKSRC}/NEdit

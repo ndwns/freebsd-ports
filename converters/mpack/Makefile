@@ -16,5 +16,6 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 WRKSRC=         ${WRKDIR}/mpack
 MAKEFLAGS=      -DDESTDIR=${PREFIX} -f
+MAN1=		mpack.1 munpack.1
 
 .include <bsd.port.mk>

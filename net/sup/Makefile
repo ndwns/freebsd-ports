@@ -13,4 +13,7 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	gibbs@FreeBSD.org
 
+MAN1=		sup.1
+MAN8=		supservers.8
+
 .include <bsd.port.mk>

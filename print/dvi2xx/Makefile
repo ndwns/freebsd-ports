@@ -13,6 +13,8 @@ CATEGORIES=	print
 
 MAINTAINER=	jmz@FreeBSD.ORG
 
+MAN1=		dvi2xx.1
+
 #other equivalent sites: ftp.shsu.edu ftp.dante.de
 CTAN?=		ftp.tex.ac.uk
 

@@ -15,6 +15,7 @@ DISTFILES=	fudgit_2.41.tar.gz
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_GMAKE=	yes
+MAN1=		fudgit.1
 
 pre-install:
 	@mkdir -p ${PREFIX}/bin

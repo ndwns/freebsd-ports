@@ -12,5 +12,6 @@ CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
 
 GNU_CONFIGURE=	yes
+MAN1=		gmake.1
 
 .include <bsd.port.mk>

@@ -19,5 +19,7 @@ RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 NO_BUILD=	YES
 WRKSRC=		${WRKDIR}/Array-PrintCols
+MAN3=		Array::PrintCols.3p
+MANPREFIX=	${PREFIX}/lib/perl5
 
 .include <bsd.port.mk>

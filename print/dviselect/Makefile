@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.cs.umn.edu/pub/latex/software/
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MAN1=		dviselect.1
+
 pre-install:
 	@${MKDIR} ${PREFIX}/man/man1
 	@${MKDIR} ${PREFIX}/bin

@@ -17,5 +17,7 @@ BUILD_DEPENDS += pgp:${PORTSDIR}/security/pgp
 
 WRKSRC=         ${WRKDIR}/pgpsendmail
 INSTALL_TARGET= all_install
+MAN1=		pgppipe.1 sendpgppass.1
+MAN8=		pgpsendmail.8 pgpdaemon.8
 
 .include <bsd.port.mk>

@@ -17,5 +17,6 @@ CONFIGURE_ARGS= --prefix=${PREFIX}
 ALL_TARGET = 	enough
 NO_WRKSUBDIR=	yes
 STRIP=
+MAN1=		scheme48.1
 
 .include <bsd.port.mk>

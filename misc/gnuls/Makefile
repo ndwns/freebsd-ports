@@ -12,8 +12,8 @@ CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 PATCHFILES=	color-ls-3.12.0.2.patch.gz
-PATCH_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/slackware/source/a/bin/ \
-		ftp://ftp.cdrom.com/pub/linux/slackware_source/a/bin/
+PATCH_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	distributions/slackware/source/a/bin/
 
 MAINTAINER=	bmc@WillsCreek.COM
 

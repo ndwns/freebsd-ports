@@ -20,5 +20,6 @@ MAINTAINER=	jmz@FreeBSD.org
 EXTRACT_CMD=    ( gzcat | awk '{if (/^\#!/) x++} {if(x) print $$0'}| /bin/sh )
 EXTRACT_ARGS=   <
 NO_WRKSUBDIR=   YES
+MAN1=		iozone.1
 
 .include <bsd.port.mk>

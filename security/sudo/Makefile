@@ -17,5 +17,7 @@ MAINTAINER=	erich@rrnet.com
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-C2 --with-fbsdops
 WRKSRC=		${WRKDIR}/sudo.v1.5
+MAN5=		sudoers.5
+MAN8=		sudo.8 visudo.8
 
 .include <bsd.port.mk>

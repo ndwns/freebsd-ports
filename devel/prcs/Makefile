@@ -14,5 +14,6 @@ MAINTAINER=	jmacd@FreeBSD.ORG
 
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
+MAN1=		prcs.1
 
 .include <bsd.port.mk>

@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 MAINTAINER=	joerg@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/cpm
+MAN1=		cpm.1
 
 #
 # need our own build target to pass PREFIX down to the make command

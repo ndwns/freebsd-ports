@@ -15,6 +15,8 @@ DISTFILES=	gnuplot3.5.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MAN1=		gnuplot.1 lasergnu.1
+
 pre-install:
 	@mkdir -p ${PREFIX}/bin
 	@mkdir -p ${PREFIX}/lib

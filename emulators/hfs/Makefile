@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_GMAKE=	yes
+MAN1=		hfs.1
 
 pre-install:
 	@${MKDIR} ${PREFIX}/bin

@@ -14,6 +14,7 @@ MASTER_SITES=   ftp://ftp.uu.net/graphics/jpeg/
 WRKSRC=         ${WRKDIR}/jpeg-6a
 GNU_CONFIGURE=	yes
 INSTALL_TARGET= install install-lib
+MAN1=		cjpeg.1 djpeg.1 jpegtran.1 rdjpgcom.1 wrjpgcom.1
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib

@@ -18,6 +18,7 @@ BUILD_DEPENDS=  autoconf:${PORTSDIR}/devel/autoconf
 HAS_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 STRIP=
+MAN6=		xboard.6 cmail.6
 
 pre-configure:
 	cd ${WRKSRC}; autoconf; autoheader

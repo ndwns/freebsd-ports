@@ -15,9 +15,9 @@ DISTFILES=	dvips558.tar.gz
 MAINTAINER=	jmz@FreeBSD.org
 
 IS_INTERACTIVE=	yes
-
 EXTRACT_CMD=	(zcat | dd 2>/dev/null | tar xf -)
 EXTRACT_ARGS=	<
+MAN1=		dvips.1 afm2tfm.1
 
 pre-install:
 	@${MKDIR} ${PREFIX}/lib/texmf

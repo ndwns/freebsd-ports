@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.cs.uni-sb.de/pub/graphics/vcg/
 DISTFILES=	vcg.1.30.r3.17.tgz
 
 USE_X11=	yes
+MANL=		pbmrot90.l pbmshift.l pbm2hp.l vcgdemomaker.l vcg.l xvcg.l
 
 pre-patch:
 	@mkdir -p ${WRKSRC}/preconf/X11ccFreeBSD

@@ -16,8 +16,8 @@ RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
-
 PATCH_STRIP=	-p1
 MAKE_FLAGS=	CFLAGS="-O2 -pipe -m486" CXXFLAGS="-O2 -pipe -m486" LDFLAGS="-s" -f
+MAN1=		octave.1
 
 .include <bsd.port.mk>

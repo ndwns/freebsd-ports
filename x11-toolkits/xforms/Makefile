@@ -16,6 +16,8 @@ MAINTAINER=	gena@NetVision.net.il
 
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/xforms
+MAN1=		fdesign.1
+MAN5=		xforms.5
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib

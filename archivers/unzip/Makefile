@@ -18,5 +18,6 @@ ALL_TARGET=     bsd
 MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS}" \
 		INSTALL="install -c -o bin -g bin" \
 		prefix=${PREFIX} -f
+MAN1=		funzip.1 unzip.1 unzipsfx.1 zipinfo.1
 
 .include <bsd.port.mk>

@@ -21,6 +21,6 @@ WRKSRC=		$(WRKDIR)/xmix
 
 pre-install:
 	${CP} ${WRKSRC}/xmix.1 ${WRKSRC}/xmix.man
-	${INSTALL_DATA} $(WRKSRC)/XMix /usr/X11R6/lib/X11/app-defaults
+	${INSTALL_DATA} $(WRKSRC)/XMix ${PREFIX}/lib/X11/app-defaults
 
 .include <bsd.port.mk>

@@ -16,5 +16,6 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/fspclient
 GNU_CONFIGURE=	yes
+MAN1=		fsp.1
 
 .include <bsd.port.mk>

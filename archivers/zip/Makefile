@@ -21,5 +21,6 @@ EXTRACT_ARGS=   -oq
 NO_WRKSUBDIR=   yes
 MAKEFILE=       unix/Makefile
 ALL_TARGET=     generic
+MAN1=		zip.1 zipgrep.1
 
 .include <bsd.port.mk>

@@ -14,6 +14,7 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 ALL_TARGET=     all catalogs
 INSTALL_TARGET= install install.man
+MAN1=		tcsh.1
 
 post-install:
 	chown bin.bin ${PREFIX}/bin/tcsh

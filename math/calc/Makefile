@@ -13,8 +13,10 @@ MASTER_SITES=	ftp://ftp.cs.uni-sb.de/pub/misc/4.4BSD-Lite/contrib/
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MAN1=		calc.1
+
 pre-install:
-	@mkdir -p ${PREFIX}/lib/calc/help
-	@mkdir -p ${PREFIX}/man/man1
+	@${MKDIR} ${PREFIX}/lib/calc/help
+	@${MKDIR} ${PREFIX}/man/man1
 
 .include <bsd.port.mk>

@@ -16,16 +16,17 @@ MASTER_SITES=   ftp://ftp2.cc.ukans.edu/pub/lynx/lynx2-6/ \
 		http://www.mtsu.edu/~ripa0003/
 DISTFILES=      ${DISTNAME}.zip 2-6update.zip
 
-BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
-EXTRACT_CMD=    unzip
-EXTRACT_ARGS=   -q -o
-
 #PATCH_SITES=    http://www.nyu.edu/pages/wsn/subir/lynx/patches/
 #PATCHFILES=     2-6-patch11.txt
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
+
+EXTRACT_CMD=    unzip
+EXTRACT_ARGS=   -q -o
 ALL_TARGET=     freebsd-ncurses
+MAN1=		lynx.1
 
 .include <bsd.port.mk>
 

@@ -12,4 +12,6 @@ MASTER_SITES=	ftp://ftp.khoral.com/pub/weblint/
 
 MAINTAINER=	pst@FreeBSD.ORG
 
+MAN1=		weblint.1
+
 .include <bsd.port.mk>

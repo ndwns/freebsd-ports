@@ -17,5 +17,7 @@ MAINTAINER=     ache@FreeBSD.ORG
 # It asks for list af directories to do test for file locking
 # (defaults to /tmp and ".", so return should suffice in most cases).
 IS_INTERACTIVE=	yes
+MAN1=		procmail.1 formail.1 lockfile.1
+MAN5=		procmailex.5 procmailrc.5 procmailsc.5
 
 .include <bsd.port.mk>

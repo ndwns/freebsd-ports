@@ -13,6 +13,7 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 MAINTAINER=	ache@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
+MAN1=		less.1 lesskey.1
 
 EXTRA_PATCH=	patch-ab
 

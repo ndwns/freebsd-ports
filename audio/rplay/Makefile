@@ -14,5 +14,6 @@ MAINTAINER=	rmallory@csusb.edu
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
+MAN5=		rplay.conf.5 rplay.hosts.5 rplay.servers.5
 
 .include <bsd.port.mk>

@@ -17,5 +17,6 @@ HAS_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 #CONFIGURE_SCRIPT=	src/configure
 #CONFIGURE_ARGS=		-sde -Dprefix=${PREFIX}
+MAN6=		game.6 gnuan.6 gnuchess.6 postprint.6
 
 .include <bsd.port.mk>

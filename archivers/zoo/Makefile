@@ -16,5 +16,6 @@ MAINTAINER=	jmz@FreeBSD.org
 NO_WRKSUBDIR=	yes
 ALL_TARGET=     bsdansi
 MAKEFILE=       makefile
+MAN1=		fiz.1 zoo.1
 
 .include <bsd.port.mk>

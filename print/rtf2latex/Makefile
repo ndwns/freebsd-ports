@@ -14,5 +14,6 @@ MASTER_SITES=	ftp://ftp.dante.de/pub/tex/support/rtf2latex/
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
 WRKSRC=		${WRKDIR}/rtf2LaTeX
+MAN1=		rtf2LaTeX.1
 
 .include <bsd.port.mk>

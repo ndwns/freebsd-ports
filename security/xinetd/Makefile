@@ -14,6 +14,8 @@ DISTFILES=	xinetd.2.1.7-freebsd.4.tar.gz
 MAINTAINER=	markm@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/xinetd.2.1.7-freebsd.4
+MAN1=		xinetd.1
+MAN5=		xinetd.conf.5 xinetd.log.5
 
 do-build:
 	cd ${WRKSRC} ; ./compile-src -os freebsd2 -sf has_SB
