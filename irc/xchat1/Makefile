@@ -8,7 +8,7 @@
 
 DISTNAME=	xchat-0.3.1
 CATEGORIES=	net
-MASTER_SITES=	http://users.mentasm.com/~zed/xchat/files/
+MASTER_SITES=	http://users.mentasm.com/~zed/xchat/files/old/
 
 MAINTAINER=	jim@phrantic.phear.net
 
