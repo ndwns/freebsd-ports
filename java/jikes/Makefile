@@ -9,11 +9,12 @@
 DISTNAME=	jikes-0.41
 CATEGORIES=	lang
 MASTER_SITES=	http://www.backplane.com/FreeBSDPorts/
-DISTFILES=	${DISTNAME}.tar.gz
-WRKSRC=		${WRKDIR}/jikesos
-MAN1=		jikes.1
+#DISTFILES=	${DISTNAME}.tar.gz
 
 MAINTAINER=	dillon@backplane.com
+
+WRKSRC=		${WRKDIR}/jikesos
+MAN1=		jikes.1
 
 # 	(sufficiently handled by pkg/MESSAGE, but if IBM has an issue then
 #	uncomment this section)
