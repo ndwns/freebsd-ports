@@ -15,5 +15,6 @@ MASTER_SITE_SUBDIR=	utilities
 MAINTAINER=	dchapes@zeus.leitch.com
 
 USE_IMAKE=	yes
+MAN1=		xbuffy.1
 
 .include <bsd.port.mk>

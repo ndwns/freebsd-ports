@@ -17,5 +17,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=     obrien@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN1=		xlbiff.1
 
 .include <bsd.port.mk>

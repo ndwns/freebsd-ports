@@ -20,6 +20,10 @@ USE_IMAKE=	yes
 PREFIX=         ${LOCALBASE}
 MTREE_FILE=	/etc/mtree/BSD.local.dist
 
+MAN1=		youbin.1
+MAN3=		youbin_sub.3
+MAN8=		youbind.8
+
 STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/youbind.sh.sample
 
 post-install:

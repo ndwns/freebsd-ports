@@ -22,6 +22,7 @@ LIB_DEPENDS=	compface.1:${PORTSDIR}/mail/faces \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	YES
+MAN1=		xfaces.1
 
 pre-configure:
 	@ln -sf ../sounds ${WRKSRC}
