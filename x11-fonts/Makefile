@@ -6,6 +6,7 @@
     SUBDIR += getbdf
     SUBDIR += sharefonts
     SUBDIR += tkfont
+    SUBDIR += ttmkfdir
     SUBDIR += xfed
     SUBDIR += xmbdfed
 

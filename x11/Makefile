@@ -43,7 +43,6 @@
     SUBDIR += rxvt
     SUBDIR += sxpc
     SUBDIR += tkgoodstuff
-    SUBDIR += ttmkfdir
     SUBDIR += tycoon
     SUBDIR += wdm
     SUBDIR += x3270
