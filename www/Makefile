@@ -36,6 +36,7 @@
     SUBDIR += w3c-httpd
     SUBDIR += webcopy
     SUBDIR += weblint
+    SUBDIR += webstone
     SUBDIR += wn
     SUBDIR += wwwcount
     SUBDIR += wwwstat
