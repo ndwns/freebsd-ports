@@ -1,12 +1,12 @@
 # New ports collection makefile for:   astime
-# Version required:    1.5
+# Version required:    1.7
 # Date created:        21 Nov 1998
 # Whom:                Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	astime-1.5
+DISTNAME=	astime-1.7
 CATEGORIES=	x11-clocks windowmaker
 MASTER_SITES=	http://bewoner.dma.be/Albert/linux/software/ \
 		ftp://ftp.tux.org/pub/x/afterstep/apps/astime/ \
