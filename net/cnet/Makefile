@@ -16,7 +16,6 @@ LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib
 WRKSRC=		${WRKDIR}/cnet-1.4
 ALL_TARGET=
 MAN1=		cnet.1
-BROKEN=		package
 
 pre-build:
 	${CP} ${FILESDIR}/Makefile.freebsd ${WRKSRC}/src
