@@ -8,7 +8,11 @@
 
 DISTNAME=		SSLeay-0.9.0b
 CATEGORIES=		devel security
-MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/
+MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/  \
+			ftp://ftp.funet.fi/pub/mirrors/ftp.psy.uq.oz.au/SSL/  \
+			ftp://sunsite.doc.ic.ac.uk/Mirrors/ftp.psy.uq.oz.au/pub/Crypto/SSL/  \
+ 			ftp://ftp.internat.freebsd.org/pub/Crypto/SSL/
+
 
 MAINTAINER=		markm@FreeBSD.ORG
 
