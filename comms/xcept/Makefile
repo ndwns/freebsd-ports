@@ -12,6 +12,7 @@ MASTER_SITES=   ${MASTER_SITE_LOCAL}
 
 MAINTAINER=     joerg@FreeBSD.ORG
 
+MANCOMPRESSED=	maybe
 WRKSRC=		${WRKDIR}/XCept-2.1.2
 
 .include <bsd.port.mk>
