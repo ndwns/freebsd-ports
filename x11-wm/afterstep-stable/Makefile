@@ -9,10 +9,8 @@
 DISTNAME=	AfterStep-1.6.6
 PKGNAME=	afterstep-1.6.6
 CATEGORIES=     x11-wm afterstep
-MASTER_SITES=   ftp://ftp.afterstep.org/stable/ \
-		ftp://ftp.starshadow.com/pub/afterstep/stable/ \
-		ftp://ftp.digex.net/pub/os/wm/AfterStep/stable/ \
-		ftp://ftp.alpha1.net/pub/mirrors/ftp.afterstep.org/
+MASTER_SITES=   ${MASTER_SITE_AFTERSTEP}
+MASTER_SITE_SUBDIR=	stable/archives
 
 MAINTAINER=	dima@chg.ru
 
