@@ -262,4 +262,6 @@ do-install:
 	@ cd ${WRKSRC}; tar cf - html ps | (cd ${PREFIX}/share/doc/EZ; tar --unlink -xf - )
 .endif
 
+post-install:
+	${LDCONFIG} -m ${PREFIX}/lib
 .include <bsd.port.mk>
