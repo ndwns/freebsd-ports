@@ -17,9 +17,9 @@ GNU_CONFIGURE=	yes
 MAN1=		a2ps.1 ogonkify.1 card.1 psmandup.1 fixps.1 pdiff.1
 
 PAPERSIZE?=	letter
-PS!=		echo ${PAPERSIZE} | tr l L | tr a A
+PAPERSIZECNF=	${PAPERSIZE:S/l/L/:S/a/A/}
 STRIP=
-CONFIGURE_ARGS=	--with-medium=${PS}
+CONFIGURE_ARGS=	--with-medium=${PAPERSIZECNF}
 
 .if ${PAPERSIZE} != a4 && ${PAPERSIZE} != letter && ${PAPERSIZE} != letterdj
 .BEGIN:
