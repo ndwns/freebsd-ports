@@ -13,7 +13,7 @@ PKGNAME=        lynx-2.7
 CATEGORIES=	www
 MASTER_SITES=   http://www.slcc.edu/lynx/fote/ \
 		http://www.wfbr.edu/lynx/
-EXTRACT_SUFX=	.zip
+DISTFILES=      lynx2-7.zip 27bugfixes.zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
@@ -21,7 +21,7 @@ BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
 WRKSRC=         ${WRKDIR}/lynx2-7
 EXTRACT_CMD=    unzip
-EXTRACT_ARGS=   -q -o
+EXTRACT_ARGS=   -q -u -o
 ALL_TARGET=     freebsd-ncurses
 MAN1=		lynx.1
 
