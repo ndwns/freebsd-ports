@@ -38,7 +38,6 @@
     SUBDIR += kinput2-sj3+wnn
     SUBDIR += kinput2-wnn
     SUBDIR += kon
-    SUBDIR += kon2
     SUBDIR += kterm
     SUBDIR += less
     SUBDIR += lipsf
