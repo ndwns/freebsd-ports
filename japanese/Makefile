@@ -58,6 +58,7 @@
     SUBDIR += nvi-iso-2022-jp
     SUBDIR += nvi-sjis
     SUBDIR += okphone
+    SUBDIR += oleo
     SUBDIR += perl5
     SUBDIR += pine
     SUBDIR += pkfonts
