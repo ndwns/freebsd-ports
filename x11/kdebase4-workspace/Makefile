@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kdebase-1.1.1
-CATEGORIES=	misc kde
+CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= stable/1.1.1/distribution/tar/generic/source/bz2
 
