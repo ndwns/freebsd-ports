@@ -98,6 +98,7 @@
     SUBDIR += p5-TraceFuncs
     SUBDIR += patch
     SUBDIR += pccts
+    SUBDIR += pcre
     SUBDIR += portlint
     SUBDIR += prc-tools
     SUBDIR += prcs
