@@ -1,13 +1,13 @@
 # New ports collection makefile for:	pgplot
-# Version required:     5.1
+# Version required:     5.2
 # Date created:		21 December 1996
 # Whom:			jmz
 #
 # $Id$
 #
 
-DISTNAME=       pgplot5.1
-PKGNAME=        pgplot-5.1
+DISTNAME=       pgplot5.2
+PKGNAME=        pgplot-5.2
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://astro.caltech.edu/pub/pgplot/
 
