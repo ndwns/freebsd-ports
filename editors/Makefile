@@ -63,6 +63,7 @@
     SUBDIR += vile
     SUBDIR += vilearn
     SUBDIR += vim5
+    SUBDIR += vim-lite
     SUBDIR += wemi-emacs
     SUBDIR += wemi-emacs-current
     SUBDIR += wemi-emacs20
