@@ -11,7 +11,7 @@ CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	utils/file/managers/mc
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	vanilla@MinJe.com.TW
 
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-ncurses --without-edit --without-subshell
