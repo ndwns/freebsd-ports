@@ -88,6 +88,7 @@
     SUBDIR += today
     SUBDIR += typist
     SUBDIR += vfghostscript
+    SUBDIR += vfghostscript5
     SUBDIR += vflib
     SUBDIR += vfxdvi
     SUBDIR += w3
