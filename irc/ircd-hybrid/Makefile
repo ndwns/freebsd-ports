@@ -1,13 +1,12 @@
 # New ports collection makefile for:	ircd-hybrid
-# Version required:	5.2p1
+# Version required:	5.3
 # Date created:		9 January 1998
 # Whom:			desmo@bandwidth.org
 #
 # $Id$
 #
 
-DISTNAME=	ircd-hybrid-5.2p1
-PKGNAME=	ircd-hybrid-5.2.1
+DISTNAME=	ircd-hybrid-5.3
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.vol.com/pub/ircd/
 
