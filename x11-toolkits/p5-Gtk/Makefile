@@ -11,7 +11,7 @@ PKGNAME=	p5-Gtk-0.1.17
 CATEGORIES=	x11 lang perl5
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/perl/
 
-MAINTAINER=	vanilla@MinJe.com.TW
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
