@@ -68,6 +68,7 @@
     SUBDIR += libslang
     SUBDIR += lipsf
     SUBDIR += lynx
+    SUBDIR += lynx-current
     SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
