@@ -25,10 +25,10 @@ MAN1=		sconvert.1 nutmeg.1 spice.1
 MAN3=		mfb.3
 MAN5=		mfbcap.5
 
-.if !defined(NOPORTDOCS)
 post-install:
-	${MKDIR} ${PREFIX}/share/examples/spice
-	${INSTALL_DATA} ${WRKSRC}/examples/*.cir ${PREFIX}/share/examples/spice
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/examples/spice3
+	${INSTALL_DATA} ${WRKSRC}/examples/*.cir ${PREFIX}/share/examples/spice3
 .endif
 
 .include <bsd.port.mk>
