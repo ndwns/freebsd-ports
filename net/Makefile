@@ -4,6 +4,7 @@
     SUBDIR += archie
     SUBDIR += ascend-radius
     SUBDIR += bb
+    SUBDIR += bing
     SUBDIR += cap
     SUBDIR += cvsup
     SUBDIR += cvsup-mirror
@@ -22,6 +23,7 @@
     SUBDIR += isc-dhcp
     SUBDIR += ivs
     SUBDIR += ldap
+    SUBDIR += libsocket++
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += ncftp
