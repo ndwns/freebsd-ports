@@ -31,6 +31,7 @@
     SUBDIR += xbat
     SUBDIR += xbattle
     SUBDIR += xbill
+    SUBDIR += xbl
     SUBDIR += xblackjack
     SUBDIR += xblast
     SUBDIR += xboard
