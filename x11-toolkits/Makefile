@@ -21,9 +21,6 @@
     SUBDIR += p5-Tk
     SUBDIR += pmw
     SUBDIR += pygtk
-    SUBDIR += qt
-    SUBDIR += qt133
-    SUBDIR += qt140
     SUBDIR += qt141
     SUBDIR += slingshot
     SUBDIR += tix
