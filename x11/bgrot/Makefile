@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	bgrot-1.10
+DISTNAME=	bgrot-1.20
 CATEGORIES=	x11
 MASTER_SITES=	http://www.futuresouth.com/~fullermd/bgrot/ \
 		http://www.over-yonder.net/~fullermd/bgrot/
