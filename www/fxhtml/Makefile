@@ -12,5 +12,8 @@ CATEGORIES=     www
 MASTER_SITES=   ftp://ftp.flevel.co.uk/pub/fxhtml/
  
 MAINTAINER=     fxhtml@flevel.co.uk
- 
+
+pre-install:
+	${MKDIR} ${PREFIX}/www/cgi-bin ${PREFIX}/www/data
+
 .include <bsd.port.mk>
