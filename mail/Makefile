@@ -4,6 +4,7 @@
     SUBDIR += elm
     SUBDIR += exim
     SUBDIR += exmh
+    SUBDIR += exmh2
     SUBDIR += faces
     SUBDIR += fetchmail
     SUBDIR += mailagent
