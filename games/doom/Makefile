@@ -17,19 +17,18 @@ MAINTAINER=	erich@FreeBSD.org
 BUILD_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
+PKGINSTALL=	${WRKDIR}/INSTALL
 
 post-patch:
 	@(cd ${WRKSRC}/joystick4doom; make clean)
 	@(cd ${WRKSRC}/musserver; make clean)
 
 pre-install:
-	@sed 's,@PREFIX@,${PREFIX},' ${PKGDIR}/INSTALL.in > ${PKGDIR}/INSTALL
+	@sed 's,@PREFIX@,${PREFIX},' ${PKGDIR}/INSTALL.in > ${PKGINSTALL}
 
 post-install:
-	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
-
-pre-clean:
-	@rm -f ${PKGDIR}/INSTALL
+	@${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
