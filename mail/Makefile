@@ -18,6 +18,7 @@
     SUBDIR += imap-uw
     SUBDIR += kbiff
     SUBDIR += mailagent
+    SUBDIR += mailcrypt
     SUBDIR += majorcool
     SUBDIR += majordomo
     SUBDIR += metamail
