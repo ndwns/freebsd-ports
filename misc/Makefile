@@ -19,6 +19,7 @@
     SUBDIR += kp
     SUBDIR += less
     SUBDIR += linuxls
+    SUBDIR += logsurfer
     SUBDIR += mc
     SUBDIR += mmv
     SUBDIR += mshell
