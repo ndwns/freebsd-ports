@@ -8,12 +8,11 @@
 
 DISTNAME=	linux_lib-2.2
 CATEGORIES=	emulators
+MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	erich@FreeBSD.org
 
 PREFIX=		/compat/linux
-WRKSRC=		${WRKDIR}
-
 NO_MTREE=	yes
 NO_BUILD=	yes
 NO_EXTRACT=	yes
