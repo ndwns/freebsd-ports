@@ -3,7 +3,7 @@
 # Date created:         30 July 1998
 # Whom:                 Brent J. Nordquist <bjn@visi.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	web500gw-2.1b2

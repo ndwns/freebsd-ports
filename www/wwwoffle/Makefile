@@ -3,7 +3,7 @@
 # Date created:		1 Jun 1998
 # Whom:			Peter Mutsaers
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wwwoffle-2.4

@@ -6,7 +6,7 @@
 #			and apache-ssl port by Mark Murray <mark@grondar.za>.
 #			Oh, and with a little bit of help from Ben :)
 #
-# $Id$
+# $FreeBSD$
 
 APACHE= 	1.3.6
 APACHE-SSL=	1.35

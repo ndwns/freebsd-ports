@@ -3,7 +3,7 @@
 # Date created:		25 June 1997
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asWedit-4.0-i386.linux

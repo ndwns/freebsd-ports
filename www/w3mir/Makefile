@@ -3,7 +3,7 @@
 # Date created:                         9 May 1998
 # Whom:                                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       w3mir-1.0.8

@@ -3,7 +3,7 @@
 # Date created:         16 May 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 # WWW site: http://www.fccc.edu/users/muquit/Count.html

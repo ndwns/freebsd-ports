@@ -3,7 +3,7 @@
 # Date created:		Thu Nov  7 00:53:18 WST 1996
 # Whom:			Peter Wemm <peter@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	squid-2.2.STABLE4

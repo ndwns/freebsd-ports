@@ -3,7 +3,7 @@
 # Date created:		18 Feb 1996
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	libwww-5.2.6

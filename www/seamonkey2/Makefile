@@ -3,7 +3,7 @@
 # Date created:		31 Mar 1998
 # Whom:			eivind/dima/jseger
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mozilla-source-M8

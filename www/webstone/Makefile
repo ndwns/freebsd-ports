@@ -3,7 +3,7 @@
 # Date created:        25 March 1997
 # Whom:                Soren Dossing <sauber@netcom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      WebStone-2.0

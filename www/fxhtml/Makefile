@@ -3,7 +3,7 @@
 # Date created:         21 August 1994
 # Whom:                 Trefor S. <trefor@flevel.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
  
 DISTNAME=       fxhtml-freebsd-1.6.7

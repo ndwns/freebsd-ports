@@ -3,7 +3,7 @@
 # Date created:				1/11/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		grail-06

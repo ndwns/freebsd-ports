@@ -4,7 +4,7 @@
 # Date created:                         20 May 1998
 # Whom:                                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       WebMagick-1.45

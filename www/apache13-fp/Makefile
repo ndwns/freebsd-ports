@@ -3,7 +3,7 @@
 # Date created:         Sat Oct 31 16:30:00 CDT 1997
 # Whom:                 hetzels@westbend.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       apache_${AP_VERS}

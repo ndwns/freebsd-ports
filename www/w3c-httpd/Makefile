@@ -3,7 +3,7 @@
 # Date created:		29 October 1994
 # Whom:			pst (orig)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	w3c-httpd-3.0A

@@ -3,7 +3,7 @@
 # Date created:				23 Dec 1997
 # Whom:					mjhsieh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       hypermail

@@ -3,7 +3,7 @@
 # Date created:				30 March 1997
 # Whom:					jmg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cgiparse-0.8e

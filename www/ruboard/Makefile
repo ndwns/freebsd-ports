@@ -3,7 +3,7 @@
 # Date created:                        5 October 1998
 # Whom:                                Andrew Maltsev <am@amsoft.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      ruboard-1.2.1

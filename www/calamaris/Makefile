@@ -3,7 +3,7 @@
 # Date created:         25 December 1998
 # Whom:                 Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	calamaris-2.27

@@ -3,7 +3,7 @@
 # Date created:		01 Jul 1999
 # Whom:			Mitsuru Yoshida <mitsuru@riken.go.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tinyproxy-1.2.8

@@ -1,4 +1,4 @@
-# $Id$
+# $FreeBSD$
 #
 
     SUBDIR += Mosaic         # requires Motif

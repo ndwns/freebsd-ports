@@ -3,7 +3,7 @@
 # Date created:		Fri Jul 11 06:11:41 CEST 1997
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       http-analyze2.01

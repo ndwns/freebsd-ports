@@ -3,7 +3,7 @@
 # Date created:         24 Feb 1997
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/${BROWSER_VER}/english/unix/unsupported/freebsd/navigator_standalone/

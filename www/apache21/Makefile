@@ -3,7 +3,7 @@
 # Date created:         Fri Aug 25 16:42:36 CDT 1995
 # Whom:                 ache@nagual.pp.ru
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       apache_1.3.6

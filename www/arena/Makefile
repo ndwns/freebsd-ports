@@ -3,7 +3,7 @@
 # Date created:         Dec 1 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       arena-CJK-beta3a

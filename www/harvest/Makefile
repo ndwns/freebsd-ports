@@ -3,7 +3,7 @@
 # Date created:		Fri Mar  1 19:43:52 MET 1996
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	harvest-1.5

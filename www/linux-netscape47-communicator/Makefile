@@ -4,7 +4,7 @@
 # Whom:				girgen@partitur.se
 # Based on work by:		thepish
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	linux-netscape-${BROWSER}-${BROWSER_VER}

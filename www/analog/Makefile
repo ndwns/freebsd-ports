@@ -4,7 +4,7 @@
 # Date created:		October 21st 1996
 # Whom:			jfitz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       analog3.3

@@ -3,7 +3,7 @@
 # Date created:         4 May 1995
 # Whom:                 adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       wn-1.18.6

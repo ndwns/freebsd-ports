@@ -4,7 +4,7 @@
 # Date created:                         2 Nov 1998
 # Whom:                                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       webglimpse-1.6.src

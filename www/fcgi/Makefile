@@ -3,7 +3,7 @@
 # Date created:        13 May 1999
 # Whom:                kbyanc
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fcgi-devkit-2.1

@@ -3,7 +3,7 @@
 # Date created:		17 July 1998
 # Whom:			Shigeyuki FUKUSHIMA <shige@kuis.kyoto-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wcolEpre.980713_100245

@@ -3,7 +3,7 @@
 # Date created:		05 January 1999
 # Whom:			Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	squidclients-1.6-freebsd.bin

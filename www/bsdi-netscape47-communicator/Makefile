@@ -3,7 +3,7 @@
 # Date created:		24 Feb 1997
 # Whom:			thepish
 #
-# $Id$
+# $FreeBSD$
 #
 
 MASTER_SITES?=	ftp://ftp.netscape.com/pub/communicator/english/4.61/unix/unsupported/freebsd/complete_install/

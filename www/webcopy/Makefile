@@ -3,7 +3,7 @@
 # Date created:         14 Sep 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 # WWW site: http://www.inf.utfsm.cl/~vparada/webcopy.html

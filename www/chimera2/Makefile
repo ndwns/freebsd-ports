@@ -3,7 +3,7 @@
 # Date created:         24 Nov 1997
 # Whom:                 Bruce Gingery <bgingery@gtcs.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	chimera-2.0a15

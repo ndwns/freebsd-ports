@@ -3,7 +3,7 @@
 # Date created:		09-Sep-1997
 # Whom:			Ralf S. Engelschall <rse@engelschall.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wml-1.6.8

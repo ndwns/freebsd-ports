@@ -3,7 +3,7 @@
 # Date created:				2. Feb 1998
 # Whom:	      				wosch@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	checkbot-1.54

@@ -3,7 +3,7 @@
 # Date created:		16 October 1995
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ashe-1.1.2

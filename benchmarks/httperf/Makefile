@@ -3,7 +3,7 @@
 # Date created:		28 Jul 1999
 # Whom:			Will Andrews <andrews@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	httperf-0.6

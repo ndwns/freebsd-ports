@@ -3,7 +3,7 @@
 # Date created:		26 February 1999
 # Whom:			Kai Voigt (k@123.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Roxen_1.2final-int

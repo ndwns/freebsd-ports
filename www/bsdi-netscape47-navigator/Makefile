@@ -3,7 +3,7 @@
 # Date created:		20 Sept 1998
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/english/4.61/unix/unsupported/freebsd/navigator_standalone/

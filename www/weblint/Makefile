@@ -3,7 +3,7 @@
 # Date created:		Oct 14, 1995
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	weblint-1.020

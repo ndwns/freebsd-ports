@@ -3,7 +3,7 @@
 # Date created:		17 April 1995
 # Whom:			NIIMI Satoshi <sa2c@and.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	WWW

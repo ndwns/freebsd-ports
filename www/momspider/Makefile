@@ -3,7 +3,7 @@
 # Date created:         11 October 1997
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       MOMspider-1.00

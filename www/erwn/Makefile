@@ -3,7 +3,7 @@
 # Date created:			31 July 1999
 # Whom:				Jim Mock <jimFreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	erwin-0.3.1

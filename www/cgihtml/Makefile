@@ -3,7 +3,7 @@
 # Date created:		3 Nov 1997
 # Whom:			Ian Vaudrey <i.vaudrey@bigfoot.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cgihtml-1.69

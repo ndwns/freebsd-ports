@@ -3,7 +3,7 @@
 # Date created:         		23 Feb 98
 # Whom:              			Daniel O'Connor <doconnor@gsoft.com.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       swish-efiles.1.3.2

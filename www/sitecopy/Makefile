@@ -3,7 +3,7 @@
 # Date created:		15 January 1999
 # Whom:			nik
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       sitecopy-0.6.0

@@ -3,7 +3,7 @@
 # Date created:		2 May 1998
 # Whom:			Ian Struble <ian@broken.net>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	ijb20
 PKGNAME=	ijb-2.0.2

@@ -3,7 +3,7 @@
 # Date created:		So  21 Jun 1998 16:09:39 CEST
 # Whom:			Stefan Herrmann <stefan@asterix.webaffairs.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	apache_${VERSION_APACHE}

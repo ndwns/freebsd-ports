@@ -3,7 +3,7 @@
 # Date created:		25 November 1998
 # Whom:			Sheldon Hearn <axl@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	marc-search.4.3

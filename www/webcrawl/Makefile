@@ -3,7 +3,7 @@
 # Date created:		31 January 1999
 # Whom:			Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	webcrawl-1.10

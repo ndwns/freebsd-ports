@@ -3,7 +3,7 @@
 # Date created:		Sat Aug 22 12:00:00 CDT 1998
 # Whom:			rse@engelschall.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	apache_${VERSION_APACHE}

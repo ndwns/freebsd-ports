@@ -3,7 +3,7 @@
 # Date created:         9 Dec 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	WWW

@@ -3,7 +3,7 @@
 # Date created:				18 June 1997
 # Whom:					koshy@india.hp.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	MHonArc2.3.3

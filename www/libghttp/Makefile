@@ -3,7 +3,7 @@
 # Date Created:				24 Dec 1998
 # Whom:					Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libghttp-1.0.4

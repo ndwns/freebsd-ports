@@ -3,7 +3,7 @@
 # Date created:		15 Oct 1997
 # Whom:			Ian Vaudrey <i.vaudrey@cableinet.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xiuni23d

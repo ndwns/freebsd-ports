@@ -3,7 +3,7 @@
 # Date created:     24 May 1999
 # Whom:             Maxim Sobolev <sobomax@altavista.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	squirm-1.0betaB

@@ -3,7 +3,7 @@
 # Date created:         15 Dec 1994
 # Whom:                 Stefan `Sec` Zehl <sec@42.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       lynx2.8.2rel.1

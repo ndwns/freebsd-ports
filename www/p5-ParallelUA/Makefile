@@ -4,7 +4,7 @@
 # Date created:                         Sep 8 1998
 # Whom:                                 ache@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ParallelUserAgent-2.43

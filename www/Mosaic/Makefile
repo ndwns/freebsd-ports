@@ -3,7 +3,7 @@
 # Date created:         7 August 1995
 # Whom:                 torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Mosaic-src-2.7b5

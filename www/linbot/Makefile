@@ -3,7 +3,7 @@
 # Date created:        19 September 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	linbot-0.9

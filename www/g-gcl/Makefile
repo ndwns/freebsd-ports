@@ -3,7 +3,7 @@
 # Date created:				21 Jun 1999
 # Whom:					G. Adam Stanislav <adam@whizkidtech.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	g-gcl-1.10
