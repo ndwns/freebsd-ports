@@ -23,7 +23,8 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-wnn-includes=${PREFIX}/include/wnn --with-wnn6 \
 		--with-emacs-src=${WRKDIRPREFIX}${EMACSDL_DIR}/work/emacs-${EMACS_VER}
 CONFIGURE_ENV=	EMACS=emacs-dl-${EMACS_VER}
-PLIST_SUB=	EMACS_VER=${EMACS_VER} DOCDIR=${DOCDIR}
+PLIST_SUB=	EMACS_VER=${EMACS_VER} EMACS_ARCH=${MACHINE_ARCH}--freebsd \
+		DOCDIR=${DOCDIR}
 
 DOCDIR=		share/doc/emacs20-dl-wnn6
 EMACS_VER=	20.3
