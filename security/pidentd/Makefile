@@ -14,7 +14,9 @@ ALL_TARGET=     freebsd
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+.if !defined(NOMANCOMPRESS)
 post-install:
 	gzip -9nf ${PREFIX}/man/man8/identd.8
+.endif
 
 .include <bsd.port.mk>
