@@ -39,6 +39,6 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 WRKSRC=		${WRKDIR}/kdenetwork
 
 pre-configure:
-		ln -s $(PREFIX)/include/uu.h $(WRKSRC)/krn/uudeview.h
+		${LN} -sf $(PREFIX)/include/uu.h $(WRKSRC)/krn/uudeview.h
 
 .include <bsd.port.mk>
