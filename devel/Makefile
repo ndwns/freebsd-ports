@@ -53,6 +53,7 @@
     SUBDIR += scogdb
     SUBDIR += tkcvs
     SUBDIR += tvision
+    SUBDIR += vtcl
     SUBDIR += xmake
     SUBDIR += xwpe
     SUBDIR += xxgdb
