@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xqf
-# Version required:			0.8.7.2
+# Version required:			0.8.99.2
 # Date created:				08 February 1999
 # Whom:					steve farrell
 #
 # $Id$
 #
 
-DISTNAME=	xqf-0.8.99.1
+DISTNAME=	xqf-0.8.99.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.linuxgames.com/xqf/
 
@@ -16,5 +16,8 @@ RUN_DEPENDS=	qstat:${PORTSDIR}/games/qstat
 LIB_DEPENDS=    gtk12:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_GMAKE=	yes
+
+post-install:
+	@ ${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
