@@ -8,7 +8,7 @@
 
 DISTNAME=	cl74unix
 PKGNAME=	caml-0.74
-CATEGORIES=	lang
+CATEGORIES=	lang elisp
 MASTER_SITES=	ftp://ftp.inria.fr/lang/caml-light/ \
 	ftp://sunsite.doc.ic.ac.uk/computing/programming/languages/ml/caml-light/ \
 	ftp://arcadia.informatik.uni-muenchen.de/pub/comp/programming/languages/functional/caml-light/ \

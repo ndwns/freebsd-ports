@@ -9,7 +9,7 @@
 
 DISTNAME=	ispell-3.1
 PKGNAME=	ispell-3.1.20
-CATEGORIES=	textproc
+CATEGORIES=	textproc elisp
 MASTER_SITES=	ftp://ftp.cs.ucla.edu/pub/ispell-3.1/
 DISTFILES=	ispell-3.1.20.tar.gz
 

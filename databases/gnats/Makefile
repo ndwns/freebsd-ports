@@ -8,7 +8,7 @@
 
 DISTNAME=       gnats-3.106-beta
 PKGNAME=	gnats-3.106b
-CATEGORIES=	databases
+CATEGORIES=	databases elisp
 #MASTER_SITES=	ftp://ftp.cygnus.com/pub/gnats/
 MASTER_SITES=	ftp://ftp.juniper.net/pub/gnats/
 
