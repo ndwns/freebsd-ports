@@ -20,7 +20,7 @@ PATCHFILES=	3.3.2-patch1 3.3.2-patch2 3.3.2-patch3
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
-LIB_DEPENDS=	ttf\\.2\\.:${PORTSDIR}/print/freetype
+LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
 .if defined(SERVER)
 RUN_DEPENDS=	mkfontdir.pl:${PORTSDIR}/x11/XttXF86srv-common
 .endif

@@ -24,7 +24,7 @@ LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff34.1:${PORTSDIR}/graphics/tiff34 \
 		png.2:${PORTSDIR}/graphics/png \
 		jbig\\.1\\.:${PORTSDIR}/graphics/jbigkit \
-		ttf\\.2\\.:${PORTSDIR}/print/freetype
+		ttf.2:${PORTSDIR}/print/freetype
 BUILD_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig \
 		picttoppm:${PORTSDIR}/graphics/netpbm \
 		gs:${PORTSDIR}/print/ghostscript5

@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.darmstadt.gmd.de/~pommnitz/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	ttf\\.2\\.:${PORTSDIR}/print/freetype
+LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
 
 NO_WRKSUBDIR=	yes
 USE_X_PREFIX=	yes

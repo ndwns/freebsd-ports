@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.mew.org/pub/MagicPoint/
 MAINTAINER=	itojun@itojun.org
 
 # plus sign is for localized (i.e. Japanese) version
-LIB_DEPENDS+=	ttf:${PORTSDIR}/print/freetype
+LIB_DEPENDS+=	ttf.2:${PORTSDIR}/print/freetype
 
 USE_IMAKE=	yes
 GNU_CONFIGURE=	yes

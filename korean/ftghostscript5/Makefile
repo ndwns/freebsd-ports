@@ -30,7 +30,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg:extract \
 		/nonexistent:${PORTSDIR}/graphics/png:extract \
 		unzip:${PORTSDIR}/archivers/unzip
-LIB_DEPENDS=    ttf\\..\\.0:${PORTSDIR}/print/freetype
+LIB_DEPENDS=    ttf.2:${PORTSDIR}/print/freetype
 
 MAKE_ENV=	PORTSDIR=${PORTSDIR}
 EXTRACT_ONLY=	${GS_SOURCES}
