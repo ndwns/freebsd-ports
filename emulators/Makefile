@@ -12,7 +12,9 @@
     SUBDIR += hfs
     SUBDIR += hfsutils
     SUBDIR += ines
+    SUBDIR += linux_glide
     SUBDIR += linux_lib
+    SUBDIR += linux_mesa
     SUBDIR += macutils
     SUBDIR += mastergear
     SUBDIR += mtools
