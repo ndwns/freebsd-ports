@@ -20,6 +20,7 @@ MAN8=		etherload.8 eventselect.8 genmon.8 multiping.8 noclogd.8 \
 		nocol-overview.8 nocol-utility.8 nsmon.8 ntpmon.8 pingmon.8 \
 		portmon.8 tpmon.8 trapmon.8
 
+IS_INTERACTIVE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 
