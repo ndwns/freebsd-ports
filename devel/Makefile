@@ -130,6 +130,7 @@
     SUBDIR += p5-Term-ReadKey
     SUBDIR += p5-Time
     SUBDIR += p5-TimeDate
+    SUBDIR += p5-Time-HiRes
     SUBDIR += p5-TraceFuncs
     SUBDIR += patch
     SUBDIR += pccts
