@@ -3,6 +3,7 @@
 
     SUBDIR += cnews
     SUBDIR += inn
+    SUBDIR += knews
     SUBDIR += nn
     SUBDIR += nntp
     SUBDIR += rkive
