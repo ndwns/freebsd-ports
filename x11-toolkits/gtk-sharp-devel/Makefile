@@ -30,5 +30,7 @@ MAKE_ENV=MONO_SHARED_DIR=${WRKDIR}
 post-patch:
 	@${FIND} ${WRKSRC} -name '*.pl' | ${XARGS} ${REINPLACE_CMD} -e \
 		's|^#!/usr/bin/perl|#!${PERL}|'
+	@${REINPLACE_CMD} -e 's|libgtkhtml-3.0|libgtkhtml-3.6|g' \
+		${WRKSRC}/configure
 
 .include <bsd.port.mk>
