@@ -14,7 +14,6 @@ DISTFILES=	expect.tar.gz
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
-HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-shared --with-tclconfig=/usr/libdata/tcl \
 		--with-tclinclude=/usr/include/tcl
