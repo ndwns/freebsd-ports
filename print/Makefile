@@ -11,6 +11,7 @@
     SUBDIR += dvi2tty
     SUBDIR += dvi2xx
     SUBDIR += dvips
+    SUBDIR += dvips2ascii
     SUBDIR += dviselect
     SUBDIR += enscript
     SUBDIR += ghostscript
