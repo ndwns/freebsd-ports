@@ -1,18 +1,14 @@
 # New ports collection makefile for:	pdksh
-# Version required:	5.2.4 + patch 1, 2
+# Version required:	5.2.5
 # Date created:		23 May 1995
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	pdksh-5.2.4
-PKGNAME=	pdksh-5.2.4.2
+DISTNAME=	pdksh-5.2.5
 CATEGORIES+=	shells
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
-
-PATCH_SITES=	${MASTER_SITES}
-PATCHFILES=	pdksh-5.2.4.patch-1 pdksh-5.2.4.patch-2
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
