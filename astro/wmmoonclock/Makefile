@@ -24,7 +24,7 @@ ALL_TARGET=	clean all
 MAN1=		wmmoonclock.1
 
 do-install:
-	${INSTALL_MAN} ${WRKSRC}/wmMoonClock.1 ${PREFIX}/share/man/man1/wmmoonclock.1
+	${INSTALL_MAN} ${WRKSRC}/wmMoonClock.1 ${PREFIX}/man/man1/wmmoonclock.1
 	${INSTALL_PROGRAM} ${WRKSRC}/wmMoonClock ${PREFIX}/bin/wmmoonclock
 
 .include <bsd.port.mk>
