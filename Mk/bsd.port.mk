@@ -237,6 +237,8 @@ EXTRACT_BEFORE_ARGS?=   -xzf
 .if !defined(MTREE_LOCAL) && exists(/etc/mtree/BSD.local.dist)
 MTREE_LOCAL=	/etc/mtree/BSD.local.dist
 .endif
+MTREE_CMD?=	mtree
+MTREE_ARGS?=	-U -f ${MTREE_LOCAL} -d -e -p
 
 PKG_CMD?=		pkg_create
 .if !defined(PKG_ARGS)
@@ -731,6 +733,9 @@ install: build ${INSTALL_COOKIE}
 
 ${INSTALL_COOKIE}:
 	@${ECHO_MSG} "===>  Installing for ${PKGNAME}"
+.if !defined(USE_X11) && !defined(USE_IMAKE) && defined(MTREE_LOCAL)
+	${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/;
+.endif
 .if target(pre-install)
 	@${MAKE} ${.MAKEFLAGS} pre-install
 .endif
