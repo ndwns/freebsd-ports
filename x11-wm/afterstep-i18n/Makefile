@@ -9,7 +9,7 @@
 DISTNAME=	AfterStep-1.0
 PKGNAME=	afterstep-i18n-1.0
 CATEGORIES=	x11-wm
-MASTER_SITES=	ftp://ftp.afterstep.org/pub/AfterStep/ \
+MASTER_SITES=	ftp://ftp.afterstep.org/archives/ \
 		http://www.itlb.te.noda.sut.ac.jp/~manome/afterstep/archive/ \
 		http://www.itlb.te.noda.sut.ac.jp/~manome/afterstep/archive/icons/
 DISTFILES=      ${DISTNAME}.tar.gz \
