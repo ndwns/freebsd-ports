@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	gcc-2.7.2
-PKGNAME=	pgcc-2.7.2-current
+PKGNAME=	pgcc-2.7.2c
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
@@ -17,7 +17,6 @@ PATCHFILES=	gcc-2.7.2-961122.diff.gz
 
 MAINTAINER=	andreas@klemm.gtn.com
 
-WRKSRC=		${WRKDIR}/${DISTNAME}
 PATCH_DIST_STRIP=	-p1 -N -E
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} --with-gnu-as --with-gnu-ld pentium-freebsd
