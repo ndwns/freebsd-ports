@@ -64,5 +64,6 @@ test:
 
 post-install:
 	@strip ${PREFIX}/bin/perl ${PREFIX}/bin/suidperl
+	@ln -sf ${PREFIX}/bin/perl ${PREFIX}/bin/perl5
 
 .include <bsd.port.mk>
