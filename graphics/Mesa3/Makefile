@@ -14,6 +14,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} MesaDemos-2.6.tar.gz
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
+BROKEN=		awaiting upgrade to Mesa3 after repository copy
+
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
 ALL_TARGET=	freebsd-386

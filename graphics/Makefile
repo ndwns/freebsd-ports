@@ -3,7 +3,8 @@
 
     SUBDIR += EZWGL
     SUBDIR += ImageMagick
-    SUBDIR += Mesa
+    SUBDIR += Mesa2
+    SUBDIR += Mesa3
     SUBDIR += aalib
     SUBDIR += aero
     SUBDIR += aview
