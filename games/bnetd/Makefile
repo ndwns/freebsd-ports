@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	bnetd-0.4.15.1
+DISTNAME=	bnetd-0.4.16
 CATEGORIES=	games net
 MASTER_SITES=	http://www.bnetd.org/files/
 
