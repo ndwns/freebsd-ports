@@ -44,7 +44,7 @@ post-install:
 	    ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
 	@${MKDIR} ${PREFIX}/man/man1
 	@mv ${PREFIX}/man/mann/tixwish.1 ${PREFIX}/man/man1
-	@ln -sf ${PREFIX}/bin/tixwish8.0.8.0 ${PREFIX}/bin/tixwish
+	@ln -sf ${PREFIX}/bin/tixwish4.1.8.0 ${PREFIX}/bin/tixwish
 	${LDCONFIG} -m ${PREFIX}/lib
 .for dir in generic unix
 	@${MKDIR} ${PREFIX}/include/tix/${dir}
