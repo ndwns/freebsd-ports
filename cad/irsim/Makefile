@@ -1,5 +1,5 @@
-# New ports collection makefile for:    magic
-# Version required:     6.4.4
+# New ports collection makefile for:    irsim
+# Version required:     9.2
 # Date created:         18 Dec 1994
 # Whom:                 swallace
 #
@@ -7,9 +7,10 @@
 #
 
 DISTNAME=       irsim-9.2
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
 CATEGORIES+=	cad
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
+EXTRACT_SUFX=   .tar.Z
+
 WRKSRC=		${.CURDIR}/work/irsim
 
 .include <bsd.port.mk>

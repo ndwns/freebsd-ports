@@ -7,9 +7,10 @@
 #
 
 DISTNAME=       magic-6.4.4
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
 CATEGORIES+=	cad
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
+EXTRACT_SUFX=   .tar.Z
+
 USE_GMAKE=	yes
 
 install:
