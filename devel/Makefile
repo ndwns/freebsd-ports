@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SWIG
+    SUBDIR += SpecTcl
     SUBDIR += asl
     SUBDIR += autoconf
     SUBDIR += automake
