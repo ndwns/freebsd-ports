@@ -18,6 +18,11 @@ PATCHFILES=	tcpdump-3.2.1-smb-diffs.gz
 
 MAINTAINER=	obrien@FreeBSD.org
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         T_GID undeclared
+.endif
+
 GNU_CONFIGURE=	yes
 ALL_TARGET=	depend tcpdump
 MAN1=		smbtcpdump.1
