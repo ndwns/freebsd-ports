@@ -9,7 +9,7 @@
 DISTNAME=	xdvi-17
 PKGNAME=	ja-vfxdvi${RESOLUTION}-17
 CATEGORIES=	japanese print
-MASTER_SITES=	http://www.jp.FreeBSD.org/~mita/LOCAL_PORTS/ \
+MASTER_SITES=	${MASTER_SITE_PORTS_JP} \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Sep/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Oct/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Nov/

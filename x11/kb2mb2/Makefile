@@ -8,12 +8,11 @@
 
 DISTNAME=	kb2mb2-1.0
 CATEGORIES=	x11
-MASTER_SITES=	http://www.jp.FreeBSD.org/~hosokawa/XFree86/
+MASTER_SITES=	${MASTER_SITE_PORTS_JP}
 
-MAINTAINER=	sada@e-mail.ne.jp
+MAINTAINER=	sada@FreeBSD.ORG
 
 USE_IMAKE=	yes
-#XMKMF=		xmkmf
 NO_INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>

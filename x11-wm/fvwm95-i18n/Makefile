@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://mitac11.uia.ac.be/pub/ \
 		ftp://ftp.terraware.net/pub/Mirrors/FVWM95/ \
 		ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/ \
 		ftp://ftp.ics.es.osaka-u.ac.jp/pub/CFAN/misc/fvwm95/ \
-		http://www.jp.freebsd.org/~ryo2/archives/ \
+		${MASTER_SITE_PORTS_JP} \
 		http://www.freebsd.org/~sada/distfiles/
 DISTFILES=	${EXTRACT_ONLY} fvwm95-2.0.43a-FreeBSD.apmpatch.tar.gz
 
