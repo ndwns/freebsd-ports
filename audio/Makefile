@@ -19,6 +19,7 @@
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += icecast
+    SUBDIR += id3ed
     SUBDIR += id3ren
     SUBDIR += juke
     SUBDIR += kdemultimedia11
