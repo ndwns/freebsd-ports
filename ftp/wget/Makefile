@@ -1,12 +1,12 @@
 # New ports collection makefile for:	wget
-# Version required:	1.4.4
+# Version required:	1.4.5
 # Date created:		31 December 1996
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	wget-1.4.4
+DISTNAME=	wget-1.4.5
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GNU}
 
