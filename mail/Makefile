@@ -12,6 +12,7 @@
     SUBDIR += exmh2
     SUBDIR += faces
     SUBDIR += fetchmail
+    SUBDIR += im
     SUBDIR += imap-uw
     SUBDIR += mailagent
     SUBDIR += majorcool
