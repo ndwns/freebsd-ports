@@ -9,7 +9,7 @@
 DISTNAME=       slang0.99-38
 PKGNAME=        libslang-0.99.38
 CATEGORIES=	devel
-MASTER_SITES=   ftp://space.mit.edu/pub/davis/slang/
+MASTER_SITES=   ftp://ftp.clara.net/pub/unix/Usenet/
 
 MAINTAINER=     ache@FreeBSD.org
 
