@@ -5,13 +5,16 @@
 #
 # $Id$
 #
+# The changes to ?= on some of these lines is required for the
+# pine4-ssl port. Also, please mirror changes to the files/
+# directory to the pine4-ssl port.
 
-DISTNAME=       pine4.10
-PKGNAME=        pine-4.10
+DISTNAME?=       pine4.10
+PKGNAME?=        pine-4.10
 CATEGORIES=     mail news
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 
-MAINTAINER=	pine@freebsd.ady.ro
+MAINTAINER?=	pine@freebsd.ady.ro
 
 Y2K=		http://www.washington.edu/pine/QandA/sysadmins.html#Millenium
 
