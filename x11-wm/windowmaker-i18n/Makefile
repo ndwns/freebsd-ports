@@ -20,7 +20,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png \
-		tiff34.1:${PORTSDIR}/graphics/tiff34
+		tiff.4:${PORTSDIR}/graphics/tiff34
 BUILD_DEPENDS=	${LOCALBASE}/lib/libintl.a:${PORTSDIR}/devel/gettext \
 		nkf:${PORTSDIR}/japanese/nkf
 
