@@ -25,9 +25,9 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=${PREFIX}/include" \
 		"--x-inc=$(X11BASE)/include" \
 		"--x-lib=$(X11BASE)/lib"
-CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${PREFIX}/include" \
+		LDFLAGS="-L${LOCALBASE}/lib"
 USE_GMAKE=	yes
-CFLAGS+=	"-I$(PREFIX)/include"
 
 .include <bsd.port.pre.mk>
 
