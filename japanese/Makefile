@@ -229,8 +229,6 @@
     SUBDIR += xshodo
     SUBDIR += xshodou
     SUBDIR += xv
-    SUBDIR += yatex
-    SUBDIR += yatex-xemacs
     SUBDIR += zipcodes
 
 .include <bsd.port.subdir.mk>
