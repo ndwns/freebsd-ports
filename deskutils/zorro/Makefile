@@ -9,7 +9,7 @@
 DISTNAME=	zorro-1.1p8
 PKGNAME=	zorro-1.1
 CATEGORIES+=	misc x11
-MASTER_SITES=	http://catless.ncl.ac.uk/pub
+MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
