@@ -8,9 +8,11 @@
 #
 
 DISTNAME=	pine3.95
-PKGNAME=	pine-3.95
+PKGNAME=        pine-3.95q
 CATEGORIES=     mail news
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
+PATCH_SITES=    ${MASTER_SITES}
+PATCHFILES=     pine3.95.patch-1
 
 MAINTAINER=	ports@FreeBSD.org
 
