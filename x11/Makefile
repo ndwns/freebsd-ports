@@ -69,6 +69,7 @@
     SUBDIR += xcolors
     SUBDIR += xdaliclock
     SUBDIR += xdtm
+    SUBDIR += xfce
     SUBDIR += xfed
     SUBDIR += xfedor
     SUBDIR += xfishtank
