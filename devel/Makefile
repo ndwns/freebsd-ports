@@ -29,6 +29,7 @@
     SUBDIR += cs
     SUBDIR += cscope
     SUBDIR += cssc
+    SUBDIR += ctags
     SUBDIR += cutils
     SUBDIR += cvslines
     SUBDIR += cweb
