@@ -128,6 +128,7 @@
     SUBDIR += xtris
     SUBDIR += xtruco
     SUBDIR += xvier
+    SUBDIR += xvmahjongg
     SUBDIR += xvmines
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
