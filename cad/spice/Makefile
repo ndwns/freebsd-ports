@@ -22,6 +22,7 @@ BROKEN_ELF=	install
 #PATCH_SITES=	ftp://ilpsoft.eecs.berkeley.edu/pub/SPICE3F5/
 #PATCHFILES=	grid.patch newcoms.patch spsmp.patch
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 MAN1=		sconvert.1 nutmeg.1 spice.1
 MAN3=		mfb.3
