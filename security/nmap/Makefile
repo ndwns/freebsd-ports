@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     obrien@FreeBSD.org
 
+.include <bsd.port.pre.mk>
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --libdir=${PREFIX}/share/misc
 OSVERSION!=	sysctl -n kern.osreldate
@@ -29,4 +31,4 @@ post-extract:
 post-install:
 	@strip ${PREFIX}/bin/nmap
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
