@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	super-3.11.8
+DISTNAME=	super-3.11.9
 CATEGORIES=	security sysutils
 MASTER_SITES=	ftp://phobos.caltech.edu/users/will/  \
 		ftp://ftp.ucolick.org/pub/users/will/  \
