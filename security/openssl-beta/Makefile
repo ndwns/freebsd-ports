@@ -13,8 +13,12 @@ MASTER_SITES=		http://www.openssl.org/source/ \
 			ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/ \
 			ftp://ftp.cert.dfn.de/pub/tools/net/openssl/source/
 
+PATCH_SITES=		${MASTER_SITES}
+PATCHFILES=		openssl-0.9.1c-bnrec.patch
+
 MAINTAINER=		dirk@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=		i386
 RESTRICTED=		"Cryptography"
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	util/FreeBSD.sh
@@ -24,7 +28,7 @@ CONFIGURE_ENV=		PREFIX=${PREFIX}
 pre-fetch:
 	@${ECHO} ""
 	@${ECHO} "You must set variable USA_RESIDENT to YES, if you are USA resident"
-	@${ECHO} "or to NO, if you aren\'t USA resident to build this package."
+	@${ECHO} "or to NO, if you aren't USA resident to build this package."
 	@${ECHO} "You must also have installed RSAREF if you are USA resident."
 	@${FALSE}
 .elif defined(USA_RESIDENT)
