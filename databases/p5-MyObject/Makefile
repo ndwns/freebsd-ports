@@ -6,8 +6,8 @@
 #
 
 PORTNAME=	MyObject
-PORTVERSION=	1.2
-PORTREVISION=	1
+PORTVERSION=	1.1
+PORTEPOCH=	1
 CATEGORIES=	databases perl5
 MASTER_SITES=	http://www.frontierworld.com/perl/
 PKGNAMEPREFIX=	p5-
