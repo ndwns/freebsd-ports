@@ -10,12 +10,11 @@ DISTNAME=	cdplay-0.92
 CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.one.sci.fi/pub/cdplay/
 
-MAINTAINER=    anttik@iki.fi
+MAINTAINER=	anttik@iki.fi
+
+MAN1=		cdplay.1
 
 pre-patch:
 	@${GUNZIP_CMD} ${WRKSRC}/cdplay.1.gz
-
-post-patch:
-	@${GZIP_CMD} ${WRKSRC}/cdplay.1
 
 .include <bsd.port.mk>
