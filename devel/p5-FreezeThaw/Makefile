@@ -17,7 +17,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 USE_PERL5=	YES
 
 MAN3=		FreezeThaw.3
-MAN3PREFIX=	${PREFIX}/lib/perl5
+MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PREFIX}/bin/perl Makefile.PL

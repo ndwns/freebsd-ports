@@ -17,7 +17,7 @@ MAINTAINER=	mph@freebsd.org
 USE_PERL5=	YES
 
 MAN3=		Term::ReadLine::Gnu.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 # We override LDDLFLAGS and LDFLAGS to keep it from adding -L/usr/local/lib
 # automatically.  There is sometimes an old libreadline in /usr/local/lib

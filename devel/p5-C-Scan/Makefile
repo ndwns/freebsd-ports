@@ -14,12 +14,12 @@ MASTER_SITE_SUBDIR=	C
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Data/Flow.pm:${PORTSDIR}/devel/p5-Data-Flow
+BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/Data/Flow.pm:${PORTSDIR}/devel/p5-Data-Flow
 
 USE_PERL5=	YES
 
 MAN3=		C::Scan.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

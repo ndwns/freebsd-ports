@@ -16,7 +16,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
 
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Proc::Simple.3
 
 do-configure:

@@ -20,7 +20,7 @@ MAN3=		IO::AtomicFile.3 IO::Lines.3 IO::Scalar.3 \
 		IO::ScalarArray.3 IO::Stringy.3 \
 		IO::Wrap.3 IO::WrapTie.3
 
-MANPREFIX=	${PREFIX}/lib/perl5/5.00501
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 	@cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

@@ -18,7 +18,7 @@ USE_PERL5=	YES
 
 MAN1=		showtable.1
 MAN3=		Data::ShowTable.3
-MAN3PREFIX=	${PREFIX}/lib/perl5/5.00501
+MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PREFIX}/bin/perl Makefile.PL

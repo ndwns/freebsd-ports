@@ -18,7 +18,7 @@ USE_PERL5=	YES
 
 MAN3=		Time::CTime.3 Time::JulianDay.3 Time::ParseDate.3 \
 		Time::Timezone.3 Time::DaysInMonth.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

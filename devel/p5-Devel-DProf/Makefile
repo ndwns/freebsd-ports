@@ -18,7 +18,7 @@ USE_PERL5=	YES
 
 MAN1PREFIX=	${PREFIX}
 MAN1=		dprofpp.1
-MAN3PREFIX=	${PREFIX}/lib/perl5
+MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Devel::DProf.3
 
 do-configure:

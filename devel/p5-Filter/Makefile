@@ -16,7 +16,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
 
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Filter::Util::Call.3 Filter::Util::Exec.3 Filter::cpp.3 \
 		Filter::decrypt.3 Filter::exec.3 Filter::sh.3 Filter::tee.3
 

@@ -14,11 +14,11 @@ MASTER_SITE_SUBDIR=	Term
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/Array/PrintCols.pm:${PORTSDIR}/misc/p5-Array-PrintCols
+RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/Array/PrintCols.pm:${PORTSDIR}/misc/p5-Array-PrintCols
 
 USE_PERL5=	YES
 
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Term::Query.3
 
 do-configure:
