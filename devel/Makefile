@@ -7,6 +7,7 @@
     SUBDIR += boehm-gc
     SUBDIR += cflow
     SUBDIR += crossgo32
+    SUBDIR += crosssco
     SUBDIR += cutils
     SUBDIR += cxref
     SUBDIR += dmake
