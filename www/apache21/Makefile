@@ -22,13 +22,14 @@ CONFIGURE_ARGS= \
 		 --datadir=${PREFIX}/www \
 		 --proxycachedir=${PREFIX}/www/proxy \
 		 --libexecdir=${PREFIX}/libexec/apache \
+		 --disable-rule=STATUS \
 		 --enable-shared=remain \
 		 --enable-module=most \
 		 --enable-module=auth_db \
 		 --disable-module=auth_dbm
 
 CONFIGURE_ENV= \
-OPTIM='-DDOCUMENT_LOCATION=\\"'${PREFIX}'/www/data/\\" \
+OPTIM='-DBUFFERED_LOGS -DDOCUMENT_LOCATION=\\"'${PREFIX}'/www/data/\\" \
 -DDEFAULT_PATH=\\"/bin:/usr/bin:'${PREFIX}'/bin\\"'
 
 MAN1=   ab.1 apachectl.1 dbmmanage.1 htdigest.1 htpasswd.1
