@@ -14,11 +14,12 @@ MASTER_SITES=	ftp://iphthf.physik.uni-mainz.de/pub/gv/unix/
 MAINTAINER=	tg@freebsd.org
 
 LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
-RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript4
 
 PATCH_STRIP=	-p1
 WRKSRC=		${WRKDIR}/gv
 USE_IMAKE=	yes
 
-.include <bsd.port.mk>
+post-install:
+	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
+.include <bsd.port.mk>
