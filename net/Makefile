@@ -78,6 +78,7 @@
     SUBDIR += llnlxdir
     SUBDIR += llnlxftp
     SUBDIR += macipgw
+    SUBDIR += mars_nwe
     SUBDIR += micq
     SUBDIR += mirror
     SUBDIR += moxftp
