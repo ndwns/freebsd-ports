@@ -9,7 +9,7 @@
 #
 
 DISTNAME=       lynx2-7-1
-PKGNAME=        lynx-2.7.1+fotemods
+PKGNAME=        lynx+fotemods-2.7.1
 CATEGORIES=	www
 MASTER_SITES=   http://www.slcc.edu/lynx/fote/ \
 		http://www.slcc.edu/lynx/fote/patches/
