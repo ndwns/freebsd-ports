@@ -10,4 +10,6 @@ PKGNAME=	zh-mule-wnn4-2.3
 CATEGORIES=	chinese editors
 CWNN4=		yes
 
+BROKEN_ELF=	build
+
 .include "${.CURDIR}/../../editors/mule/Makefile"
