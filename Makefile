@@ -40,4 +40,4 @@ ${.CURDIR}/INDEX:
 	@echo " Done."
 
 print-index:	${.CURDIR}/INDEX
-	@awk -F\| '{ printf("Port:\t%s\nPath:\t%s\nInfo:\t%s\nMaint:\t%s\nIndex:\t%s\nKeywds:\t%s\n\n", $$1, $$2, $$4, $$6, $$7, $$8); }' < ${.CURDIR}/INDEX
+	@awk -F\| '{ printf("Port:\t%s\nPath:\t%s\nInfo:\t%s\nMaint:\t%s\nIndex:\t%s\nB-deps:\t%s\nR-deps:\t%s\n\n", $$1, $$2, $$4, $$6, $$7, $$8, $$9); }' < ${.CURDIR}/INDEX
