@@ -20,6 +20,8 @@ LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 WITH_TCL=	--with-tcl
 .endif
 
+BROKEN_ELF=	yes
+
 NO_PACKAGE=	"Requires pgsql uid"
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
