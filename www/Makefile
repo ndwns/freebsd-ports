@@ -10,6 +10,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += chimera
     SUBDIR += comline
     SUBDIR += gn
+    SUBDIR += harvest
     SUBDIR += lynx
     SUBDIR += netscape
     SUBDIR += netscape2
