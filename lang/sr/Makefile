@@ -14,8 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	rssh@cki.ipri.kiev.ua
 
-BROKEN_ELF=	yes
-
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	prefix
 NO_WRKSUBDIR=	yes
