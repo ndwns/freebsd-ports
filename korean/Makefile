@@ -10,6 +10,7 @@
     SUBDIR += gtk10
     SUBDIR += h2ps
     SUBDIR += han
+    SUBDIR += hanIM
     SUBDIR += hanemacs
     SUBDIR += hanmutt
     SUBDIR += hanterm
