@@ -17,6 +17,7 @@
     SUBDIR += ispell
     SUBDIR += jade
     SUBDIR += latex2html
+    SUBDIR += libxml
     SUBDIR += linuxdoc
     SUBDIR += mgdiff
     SUBDIR += nfbtrans
