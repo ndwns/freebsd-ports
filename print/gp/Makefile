@@ -9,8 +9,7 @@
 DISTNAME=	GP-2.5p2
 PKGNAME?=	gp-2.5p2
 CATEGORIES=	print tk42
-MASTER_SITES=	http://www.kamome.or.jp/hueda/GP/ \
-		ftp://www.neosoft.com/pub/tcl/sorted/print/GP-2.5/
+MASTER_SITES=	http://www.itbrain.co.jp/~ueda/GP/
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
