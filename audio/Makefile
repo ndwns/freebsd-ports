@@ -1,7 +1,7 @@
 # $Id$
 #
 
-    BROKEN += gmod
+    SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += maplay
     SUBDIR += nas
@@ -15,7 +15,7 @@
     SUBDIR += workman
     SUBDIR += xcd
     SUBDIR += xcdplayer
-RESTRICTED += xmcd       # needs Motif, xmcd itself isn't restricted
+    SUBDIR += xmcd
     SUBDIR += xmix
 
 .include <bsd.port.subdir.mk>
