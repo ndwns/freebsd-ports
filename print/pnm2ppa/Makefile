@@ -6,18 +6,18 @@
 # $Id$
 #
 
-PKGNAME=	pbm2ppa-0.8.6
 DISTNAME=	ppa-0.8.6
+PKGNAME=	pbm2ppa-0.8.6
 CATEGORIES=	print
 MASTER_SITES=	http://www.rpi.edu/~normat/technical/ppa/files/
-
-WRKSRC=		${WRKDIR}/pbm2ppa-0.8.6
-USE_GMAKE=	yes
 
 MAINTAINER=	smace@freebsd.org
 
 RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
-		enscript:${PORTSDIR}/print/enscript
+		enscript:${PORTSDIR}/print/enscript-letter
+
+WRKSRC=		${WRKDIR}/pbm2ppa-0.8.6
+USE_GMAKE=	yes
 
 HPMODEL?=	720
 ALL_TARGET=	${HPMODEL}
