@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	flwm-0.22
+DISTNAME=	flwm-0.23
 CATEGORIES=	x11-wm
 MASTER_SITES=	http://www.cinenet.net/users/spitzak/flwm/ \
 		ftp://ftp.sai.msu.su/pub/X11/win_man/
