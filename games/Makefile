@@ -9,6 +9,7 @@
    SUBDIR += oneko
    SUBDIR += tksol
    SUBDIR += xasteroids
+   SUBDIR += xbill
    SUBDIR += xboard
    SUBDIR += xboing
    SUBDIR += xchomp
