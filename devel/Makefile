@@ -59,6 +59,7 @@
     SUBDIR += gtksheet
     SUBDIR += id-utils
     SUBDIR += ilu
+    SUBDIR += irb
     SUBDIR += jam
     SUBDIR += ktranslator
     SUBDIR += lclint
