@@ -14,7 +14,8 @@ EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-EXEC_DEPENDS=   unzip:${PORTSDIR}/archivers/unzip
+EXEC_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
+EXEC_DEPENDS += pgp:${PORTSDIR}/utils/pgp
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
 NO_WRKSUBDIR=   YES
@@ -22,25 +23,8 @@ NO_CONFIGURE=   YES
 NO_PATCH=       YES
 NO_BUILD=       YES
 
-# Need to define USA_RESIDENT to YES or NO
-IS_INTERACTIVE=	YES
-
 PGPLIB=         ${PREFIX}/lib/pgp
 OBJS=           language.txt ru.hlp
-
-.if !defined(USA_RESIDENT) || ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
-exec_depends:
-	@echo
-	@echo You must set variable USA_RESIDENT to YES, if you are USA resident
-	@echo or to NO, if you aren\'t USA resident to build this package
-	@false
-.elif defined(USA_RESIDENT)
-.if ${USA_RESIDENT} == YES
-EXEC_DEPENDS += pgp:${PORTSDIR}/utils/pgp.usa_only
-.else
-EXEC_DEPENDS += pgp:${PORTSDIR}/utils/pgp.non-usa_only
-.endif
-.endif
 
 do-install:
 	[ -d ${PGPLIB} ] || mkdir -p ${PGPLIB}
