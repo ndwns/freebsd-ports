@@ -12,6 +12,10 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://nwalsh.com/docbook/dsssl/
 EXTRACT_SUFX=	.zip
 
+PATCH_SITES=	http://www.freebsd.org/~kuriyama/distfiles/
+PATCHFILES=	db113jpja-980919.diff.gz
+PATCH_DIST_STRIP=	-p1
+
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
@@ -22,6 +26,7 @@ EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -q -L
 NO_MTREE=	yes
 NO_BUILD=	yes
+WRKSRC=		${WRKDIR}/docbook
 
 INSTDIR=	${PREFIX}/share/sgml/docbook/dsssl/modular
 
