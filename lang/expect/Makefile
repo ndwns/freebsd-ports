@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	expect-5.12
+DISTNAME=	expect-5.13
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
 HAS_CONFIGURE=	yes
