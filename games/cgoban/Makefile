@@ -8,7 +8,7 @@
 
 DISTNAME=	cgoban-1.9.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://igs.nuri.net/Go/clients/
+MASTER_SITES=	ftp://igs.nuri.net/Go/igs_clients/Unix/
 
 MAINTAINER=	simonm@dcs.gla.ac.uk
 
