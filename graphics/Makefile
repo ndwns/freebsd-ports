@@ -44,6 +44,7 @@
     SUBDIR += pixmap
     SUBDIR += plotmtv
     SUBDIR += png
+    SUBDIR += pnmtopng
     SUBDIR += povray
     SUBDIR += qvplay
     SUBDIR += sced
