@@ -13,14 +13,13 @@ PKGNAME=        lynx-2.6fm
 CATEGORIES=	www
 MASTER_SITES=   http://www.slcc.edu/lynx/fote/ \
 		http://www.wfbr.edu/lynx/
-DISTFILES=      ${DISTNAME}.zip
+EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-WRKSRC=         ${WRKDIR}/lynx2-6FM
-
 BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
+WRKSRC=         ${WRKDIR}/lynx2-6FM
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q -o
 ALL_TARGET=     freebsd-ncurses
