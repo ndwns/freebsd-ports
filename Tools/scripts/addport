@@ -30,8 +30,8 @@
 # Original shell script & idea: Will Andrews <will@FreeBSD.org>
 # Original conversion to Perl : Michael Haro <mharo@FreeBSD.org>
 #
-# $Id$ (original shell script)
-# $Id$ (perl conversion)
+# Id: addport,v 1.2 2000/04/02 06:21:13 will Exp (original shell script)
+# Id: addport,v 1.5 2000/04/22 22:19:43 mharo Exp (perl conversion)
 # $FreeBSD$
 #
 # MAINTAINER=	will@FreeBSD.org
@@ -129,6 +129,7 @@ if ($addlchk && -f $portlint) {
 	if ($more_testing) {
 		push(@commands, "$make $passenv distclean");
 		push(@commands, "$make $passenv build");
+		push(@commands, "$make $passenv distclean");
 	}
 	if (!$nomkdir) {
 		chdir $tmpdir;
