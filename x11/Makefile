@@ -50,7 +50,6 @@
     SUBDIR += p5-Tcl-Tk
     SUBDIR += p5-Tk
     SUBDIR += piewm
-    SUBDIR += pppload
     SUBDIR += props
     SUBDIR += pythonqt
     SUBDIR += qt
