@@ -20,6 +20,7 @@
     SUBDIR += dvi2tty
     SUBDIR += dvipsk
     SUBDIR += dvipsk-vflib
+    SUBDIR += eb
     SUBDIR += ebw3
     SUBDIR += edict
     SUBDIR += elisa10x8
