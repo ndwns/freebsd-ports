@@ -33,6 +33,7 @@
     SUBDIR += lprps
     SUBDIR += lyx
     SUBDIR += makeindex
+    SUBDIR += mgv
     SUBDIR += mp
     SUBDIR += mpage
     SUBDIR += musixtex
