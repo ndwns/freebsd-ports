@@ -9,7 +9,7 @@
 DISTNAME=	xcolors
 PKGNAME=	xcolors-1.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.tut.ac.jp/pub/X11/X11R6/contrib/programs/
+MASTER_SITES=	ftp://ftp.tut.ac.jp/X11/X11R6/contrib/programs/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
