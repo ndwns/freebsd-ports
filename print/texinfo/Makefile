@@ -14,10 +14,15 @@ CATEGORIES+=	printing
 MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/macros/eplain/doc/ \
 		ftp://ftp.tex.ac.uk/tex-archive/fonts/latex/tfm/
 
+MAINTAINER=     jmz@FreeBSD.org
+
+EXEC_DEPENDS=   tex:${PORTSDIR}/print/tex
+
+
 EXTRACT_ONLY=
 NO_WRKSUBDIR=	yes
 
-PREFIX=/usr/local
+
 
 pre-fetch:
 	@if [ ! -x ${PREFIX}/bin/tex ]; then \
