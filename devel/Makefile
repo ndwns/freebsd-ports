@@ -80,6 +80,7 @@
     SUBDIR += p5-TraceFuncs
     SUBDIR += pccts
     SUBDIR += portlint
+    SUBDIR += prc-tools
     SUBDIR += prcs
     SUBDIR += sawt
     SUBDIR += scogdb
