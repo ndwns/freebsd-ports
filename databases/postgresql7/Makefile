@@ -17,6 +17,8 @@ MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN='unfetchable, version 6.5 is the latest'
+
 .if ${MACHINE_ARCH} == "alpha"
 BROKEN=		doesn\'t build on the alpha yet
 .endif
