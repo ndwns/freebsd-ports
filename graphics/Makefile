@@ -27,6 +27,7 @@
     SUBDIR += splitmpg
     SUBDIR += tgif
     SUBDIR += tiff
+    SUBDIR += txtmerge
     SUBDIR += vcg
     SUBDIR += xanim
     SUBDIR += xbmbrowser
