@@ -18,15 +18,11 @@ USE_PERL5=	YES
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
-BROKEN=         perl paths
-.endif
-
 MAN1=		puuencode.1 puudecode.1
 MAN3=		Convert::UU.3
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
-		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
+		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL PREFIX=${PREFIX}
 
 .include <bsd.port.post.mk>
