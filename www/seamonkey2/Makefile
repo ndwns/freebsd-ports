@@ -26,8 +26,6 @@ OSNAME=	`uname -s`
 OSVER=	`uname -r | ${SED} 's/-.*//'`
 OBJDIR=	${WRKSRC}/dist/${OSNAME}${OSVER}_OPT.OBJ
 
-post-configure:
-	@${ECHO} ${MOTIFLIB} > ${WRKSRC}/MOTIFLIB
 do-install:
 	@${MKDIR} ${PREFIX}/lib/mozilla/bin
 	@cd ${OBJDIR}/bin && tar -chf - bsdecho lib* moz-export \
