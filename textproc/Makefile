@@ -21,6 +21,7 @@
     SUBDIR += sgmlformat
     SUBDIR += sp
     SUBDIR += texi2html
+    SUBDIR += tth
     SUBDIR += unroff
     SUBDIR += wdiff
 
