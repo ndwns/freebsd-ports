@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	linux_lib-2.2
+DISTNAME=	linux_lib-2.3
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
