@@ -9,6 +9,7 @@
     SUBDIR += cgiparse
     SUBDIR += chimera
     SUBDIR += comline
+    SUBDIR += fxhtml
     SUBDIR += gn
     SUBDIR += gwstat
     SUBDIR += harvest
