@@ -8,7 +8,7 @@
 
 DISTNAME=	oneko-1.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.cin.nihon-u.ac.jp/pub/Linux/PJE/PJE-0.1.2/sources/xclt/ \
+MASTER_SITES=	ftp://ftp.cin.nihon-u.ac.jp/pub/Linux/PJE/PJE-0.1.5/sources/xclt/oneko/ \
 		http://hp.vector.co.jp/authors/VA004959/oneko/
 
 MAINTAINER=	candy@kgc.co.jp
