@@ -27,8 +27,8 @@ do-install:
 	$(INSTALL_DATA) ${WRKSRC}/pfb/* $(TEXDIR)/fonts/type1
 	@${MKDIR} $(TEXDIR)/dvips/mapfiles
 	$(INSTALL_DATA) ${WRKSRC}/mapfiles/* $(TEXDIR)/dvips/mapfiles
-	@${MKDIR} $(TEXDIR)/fonts/afm
-	$(INSTALL_DATA) ${WRKSRC}/afm/* $(TEXDIR)/fonts/afm
+	@${MKDIR} $(PREFIX)/lib/afm
+	$(INSTALL_DATA) ${WRKSRC}/afm/* $(PREFIX)/lib/afm
 
 .if !defined(NOPORTSDOC)
 	@${MKDIR} $(PREFIX)/share/doc/cmpsfont
