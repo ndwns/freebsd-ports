@@ -1,12 +1,12 @@
 # New ports collection makefile for:	pgpmoose
-# Version required:	1.18 in pmapp
+# Version required:	1.19 in pmapp
 # Date created:		28 Nov 1997
 # Whom:			dirk.meyer@dinoex.sub.org
 #
 # $Id$
 
 DISTNAME=	PGPMoose
-PKGNAME=	pgpmoose-1.18
+PKGNAME=	pgpmoose-1.19
 CATEGORIES=	news security
 MASTER_SITES=	http://people.qualcomm.com/ggr/ \
 		ftp://ftp.dinoex.sub.de/pub/approved/
