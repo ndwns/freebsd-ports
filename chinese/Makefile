@@ -2,6 +2,6 @@
 #
 
 #    SUBDIR += celvis
-#    SUBDIR += cxterm
+    SUBDIR += cxterm
 
 .include <bsd.port.subdir.mk>
