@@ -21,6 +21,7 @@
     SUBDIR += piewm
     SUBDIR += qvwm
     SUBDIR += tvtwm
+    SUBDIR += vtwm
     SUBDIR += windowmaker
     SUBDIR += windowmaker-i18n
     SUBDIR += wm2
