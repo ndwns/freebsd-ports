@@ -198,6 +198,12 @@
     SUBDIR += vfghostscript55
     SUBDIR += vflib
     SUBDIR += vftool
+    SUBDIR += vfxdvi118
+    SUBDIR += vfxdvi240
+    SUBDIR += vfxdvi300
+    SUBDIR += vfxdvi360
+    SUBDIR += vfxdvi400
+    SUBDIR += vfxdvi600
     SUBDIR += vfxdvik
     SUBDIR += vje-trial
     SUBDIR += w3
