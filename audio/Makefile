@@ -25,6 +25,7 @@
     SUBDIR += linux-realplayer
     SUBDIR += maplay
     SUBDIR += mikmod
+    SUBDIR += mixer.app
     SUBDIR += mp3encode
     SUBDIR += mp3info
     SUBDIR += mpegaudio
