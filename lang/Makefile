@@ -70,7 +70,7 @@
     SUBDIR += slib
     SUBDIR += smalltalk
     SUBDIR += sml-nj
-    SUBDIR += squeak
+    SUBDIR += squeak1
     SUBDIR += squeak2
     SUBDIR += sr
     SUBDIR += swi-pl
