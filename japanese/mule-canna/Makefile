@@ -47,8 +47,5 @@ post-install:
 	gzip -9nf ${PREFIX}/man/man1/etags.1
 	gzip -9nf ${PREFIX}/man/man1/m2ps.1
 	gzip -9nf ${PREFIX}/man/man1/mule.1
-	if [ ! -d ${PREFIX}/share/emacs/site-lisp ]; then \
-	  mkdir -p ${PREFIX}/share/emacs/site-lisp; \
-	fi
 
 .include <bsd.port.mk>
