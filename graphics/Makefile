@@ -28,6 +28,7 @@
     SUBDIR += gimp-manual
     SUBDIR += gimp1
     SUBDIR += gplot
+    SUBDIR += gqview
     SUBDIR += graphviz
     SUBDIR += gtkdps
     SUBDIR += gyvefigs
