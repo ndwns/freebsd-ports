@@ -2,6 +2,7 @@
 #
 
     SUBDIR += bonnie
+    SUBDIR += bytebench
     SUBDIR += iozone
     SUBDIR += lmbench
     SUBDIR += tcpblast
