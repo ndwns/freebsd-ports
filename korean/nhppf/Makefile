@@ -13,10 +13,10 @@ MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/nhppf/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-NO_BUILD=	yes
+RUN_DEPENDS=    ${PREFIX}/share/fonts/HLaTeX-0.95-pfb:$(PORTSDIR)/korean/hlatexpsfonts
 
-RUN_DEPENDS=    ${PREFIX}/share/fonts/HLaTeX-0.95-pfb:$(PORTSDIR)/korean/hlatexpsfonts \
-		perl5.00401:${PORTSDIR}/lang/perl5
+USE_PERL5=	yes
+NO_BUILD=	yes
 
 do-configure:
 	@cd ${WRKSRC}; \

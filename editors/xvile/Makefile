@@ -39,7 +39,7 @@ SCREEN_TYPE=	x11
 .if defined(USE_PERL)
 WITH_PERL=	--with-perl
 PLIST=		${PKGDIR}/PLIST.perl
-BUILD_DEPENDS=	perl5:${PORTSDIR}/lang/perl5
+USE_PERL5=	yes
 .endif
 
 post-install:

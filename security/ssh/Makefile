@@ -128,13 +128,11 @@ post-install:
 		chmod 751 ${PREFIX}/etc/rc.d/sshd.sh; \
 	fi
 
-.include <bsd.port.mk>
-
-# Following stuff must be after <bsd.port.mk> to expand exists() properly
+.include <bsd.port.pre.mk>
 
 .if defined(USE_PERL) && ${USE_PERL} == YES || \
     exists(${PERL5}) && (!defined(USE_PERL) || ${USE_PERL} != NO)
-BUILD_DEPENDS+= perl${PERL_VERSION}:${PORTSDIR}/lang/perl5
+USE_PERL5=	yes
 CONFIGURE_ENV+= PERL=${PERL5}
 .else
 CONFIGURE_ENV+= PERL=/replace_it_with_PERL_path
@@ -153,3 +151,5 @@ LIB_DEPENDS+=   wrap.7:${PORTSDIR}/security/tcp_wrapper
 .if defined(USE_SOCKS) && ${USE_SOCKS} == YES
 CONFIGURE_ARGS+= --with-socks="-L${PREFIX}/lib -lsocks5" --with-socks5
 .endif
+
+.include <bsd.port.post.mk>

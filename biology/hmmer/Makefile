@@ -13,8 +13,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	barnhart@genetics.wustl.edu
 
-BUILD_DEPENDS=	perl:${PORTSDIR}/lang/perl5
-
+USE_PERL5=	yes
 MAN1=		hmmalign.1 hmmbuild.1 hmmcalibrate.1 hmmconvert.1 hmmemit.1 hmmer.1 hmmpfam.1 hmmsearch.1
 
 WRKSRC=		${WRKDIR}/build/${DISTNAME}

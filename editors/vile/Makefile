@@ -22,7 +22,7 @@ MAN1=		vile.1
 .if defined(USE_PERL)
 CONFIGURE_ARGS=	--with-perl
 PLIST=		${PKGDIR}/PLIST.perl
-BUILD_DEPENDS=	perl5:${PORTSDIR}/lang/perl5
+USE_PERL5=	yes
 .endif
 
 pre-configure:

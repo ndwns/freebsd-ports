@@ -12,11 +12,11 @@ MASTER_SITES=	ftp://src.doc.ic.ac.uk/computing/archiving/mirror/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+USE_PERL5=	yes
 NO_WRKSUBDIR=	yes
 MAKEFILE=	makefile
 MAN1=		mirror.1 mirror-master.1
 
-RUN_DEPENDS=	perl5:${PORTSDIR}/lang/perl5
 
 pre-install:
 	${MKDIR} ${PREFIX}/lib/mirror
