@@ -17,6 +17,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_AUTOCONF=	yes
 ALL_TARGET=
 INSTALL_TARGET=	install install-man
+CFLAGS+=	-D__dead=
 
 MAN8=		ntop.8
 
