@@ -10,7 +10,7 @@ DISTNAME=	w3c-httpd-3.0A
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.w3.org/pub/httpd/
 
-MAINTAINER=	m230761@ingenieria.ingsala.unal.edu.co 
+MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
 NO_WRKSUBDIR=	yes
 
