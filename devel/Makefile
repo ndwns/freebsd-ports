@@ -4,6 +4,7 @@
     SUBDIR += ElectricFence
     SUBDIR += SWIG
     SUBDIR += SpecTcl
+    SUBDIR += aalib
     SUBDIR += asl
     SUBDIR += autoconf
     SUBDIR += automake
