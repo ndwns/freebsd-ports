@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	zircon-1.18.56
+DISTNAME=	zircon-1.18.71
 CATEGORIES=	net tk80
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
@@ -15,17 +15,8 @@ MAINTAINER=	ports@FreeBSD.org
 IS_INTERACTIVE=	yes
 NO_BUILD=	yes
 
-# You can define USE_DPWISH if you want to run under the older
-# tcl7.3/tk3.6/tclDP code.  The author strongly reccomends using
-# tcl7.5/tk4.1 instead, and the tclDP wont be supported for long.
-#
-.if defined(USE_DPWISH) && ${USE_DPWISH} == YES
-BUILD_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
-RUN_DEPENDS=	dpwish:${PORTSDIR}/net/tclDP
-.else
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
-.endif
 
 do-install:
 	(cd ${WRKSRC} && ./installZircon)
