@@ -1,3 +1,4 @@
+# ex:ts=8
 # Ports collection makefile for:  nmap
 # Version required:     	  1.51
 # Date created:			  Tue Aug 04, 1998
@@ -6,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	nmap-2.07
+DISTNAME=	nmap-2.08
 CATEGORIES=	security net
 MASTER_SITES=	http://www.insecure.org/nmap/dist/  \
 		ftp://relay.nuxi.com/pub/misc/
