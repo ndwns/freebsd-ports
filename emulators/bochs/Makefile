@@ -6,11 +6,11 @@
 # $Id$
 #
 
-VGABIOS=	VGABIOS-elpin-2.00A
-BIOS=		BIOS-bochs-980331a
-DATE= 		980513
+VGABIOS=	VGABIOS-elpin-2.20
+BIOS=		BIOS-bochs-980717a
+DATE= 		981102
 
-DISTNAME=	bochs-${DATE}a
+DISTNAME=	bochs-${DATE}b
 CATEGORIES= 	emulators
 MASTER_SITES= 	ftp://ftp.bochs.com/pub/
 
