@@ -6,10 +6,9 @@
 # $Id$
 #
 
-DISTNAME=       xboard-3.6.1
+DISTNAME=       xboard-3.6.2
 CATEGORIES=	games
-MASTER_SITES=	${MASTER_SITE_GNU} \
-		ftp://chess.onenet.net/pub/chess/X/
+MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	xaa@stack.nl
 
