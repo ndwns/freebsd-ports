@@ -6,19 +6,23 @@
 # $Id$
 #
 
-DISTNAME=	SMS
-PKGNAME=	mastergear-1.0
+DISTNAME=	MG12-FreeBSD-80x86-bin
+PKGNAME=	mastergear-1.2
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.komkon.org/fms/MG/
-DISTFILES=	MG.tar.Z
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	nacai@iname.com
 
+WRKSRC=		${WRKDIR}/SMS
+ONLY_FOR_ARCHS=	i386
+
+NO_BUILD=	yes
+STRIP=
 USE_X_PREFIX=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mg ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/dasm ${PREFIX}/bin
 	@${MKDIR} ${PREFIX}/share/mastergear
 	${INSTALL_DATA} ${WRKSRC}/MG.doc ${PREFIX}/share/mastergear
 
