@@ -1,13 +1,13 @@
 # New ports collection makefile for:	tinyfugue
-# Version required:	4.0a6
+# Version required:	4.0a7
 # Date created:		4 January 1997
 # Whom:			mike@binghamton.edu
 #
 # $Id$
 #
 
-DISTNAME=	tf-40a6
-PKGNAME=	tf-4.0a6
+DISTNAME=	tf-40a7
+PKGNAME=	tf-4.0a7
 CATEGORIES=	net games
 MASTER_SITES=	ftp://tf.tcp.com/pub/tinyfugue/ \
 		ftp://laurel.actlab.utexas.edu/pub/tinyfugue/
