@@ -4,6 +4,7 @@
     SUBDIR += FWF
     SUBDIR += XFree86
     SUBDIR += Xaw3d
+    SUBDIR += auis
     SUBDIR += blt
     SUBDIR += color_xterm
     SUBDIR += ctwm
