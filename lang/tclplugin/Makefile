@@ -15,7 +15,6 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 
-#BROKEN=	"possibly doesn't run on -current"
 NO_PACKAGE=	yes
 WRKSRC=		${WRKDIR}/tclplugin2.0b5/plugin2.0/unix
 GNU_CONFIGURE=	yes
