@@ -31,7 +31,6 @@
     SUBDIR += mmr
     SUBDIR += movemail
     SUBDIR += mutt
-    SUBDIR += mutt.with_pgp
     SUBDIR += nmh
     SUBDIR += p5-MIME-Tools
     SUBDIR += p5-Mail-Folder
