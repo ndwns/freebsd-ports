@@ -9,8 +9,7 @@
 DISTNAME=	3.1.1
 PKGNAME=	kaskade-3.1.1
 CATEGORIES=	cad
-MASTER_SITES=	ftp://elib.zib-berlin.de/pub/kaskade/3.x/	\
-		ftp://na.cs.yale.edu/mgnet/Codes/kaskade/3.x/
+MASTER_SITES=	ftp://elib.zib-berlin.de/pub/kaskade/3.x/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	giffunip@asme.org
