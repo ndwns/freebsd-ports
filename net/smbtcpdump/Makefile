@@ -10,7 +10,8 @@
 DISTNAME=	tcpdump-3.4
 PKGNAME=	smbtcpdump-3.4
 CATEGORIES=	net security
-MASTER_SITES=	ftp://ftp.ee.lbl.gov/
+MASTER_SITES=	ftp://ftp.ee.lbl.gov/  \
+		ftp://ftp.uu.net/networking/ip/trace/tcpdump/
 EXTRACT_SUFX=	.tar.Z
 
 PATCH_SITES=	ftp://ftp.samba.org/pub/samba/tcpdump-smb/
