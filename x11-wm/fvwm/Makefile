@@ -13,9 +13,13 @@ DISTFILES=	fvwm-core.tar.gz fvwm-modules.tar.gz \
 MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
 USE_IMAKE=	yes
 DEPENDS=	${PORTSDIR}/x11/xpm
+PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
+		-r ${PKGDIR}/REQUIRES -p ${PREFIX}
 
 pre-install:
 	@cp ${FILESDIR}/configure2.h ${WRKSRC}/configure.h
 	@(cd ${WRKSRC}; ${MAKE} Makefiles)
+
+
 
 .include <bsd.port.mk>
