@@ -9,7 +9,7 @@
 
 DISTNAME=	expect-5.26
 CATEGORIES=	lang tcl80 tk80
-MASTER_SITES=	http://peloton.physics.montana.edu/handy/
+MASTER_SITES=	ftp://peloton.physics.montana.edu/pub/distfiles/
 
 MAINTAINER=	ports@freebsd.org
 
