@@ -17,6 +17,12 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/doc/giflib
 	@${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/giflib
 .endif
-	@${LDCONFIG} -m ${PREFIX}/lib
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+GIFLIB=	libgif.so.3
+.else
+GIFLIB=	libgif.so.3.0
+.endif
