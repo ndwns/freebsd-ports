@@ -53,7 +53,7 @@ do-install:
 		@ echo "" >> ${PREFIX}/etc/rc.d/quakeserver.sh
 		@ echo "if [ -x ${PREFIX}/quakeserver/unixded ]" >> ${PREFIX}/etc/rc.d/quakeserver.sh
 		@ echo "then" >> ${PREFIX}/etc/rc.d/quakeserver.sh
-		@ echo "	su nobody -c ${PREFIX}/quakeserver/qserver.sh &" >> ${PREFIX}/etc/rc.d/quakeserver.sh
+		@ echo "	su nobody -c ${PREFIX}/quakeserver/qserver.sh && echo -n ' quakeserver'" >> ${PREFIX}/etc/rc.d/quakeserver.sh
 		@ echo "fi" >> ${PREFIX}/etc/rc.d/quakeserver.sh
 		@ /bin/chmod 750 ${PREFIX}/etc/rc.d/quakeserver.sh
 .if !defined(BATCH)
