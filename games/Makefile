@@ -46,6 +46,7 @@
     SUBDIR += xboing
     SUBDIR += xchomp
     SUBDIR += xcubes
+    SUBDIR += xdeblock
     SUBDIR += xdino
     SUBDIR += xemeraldia
     SUBDIR += xevil
