@@ -39,6 +39,7 @@
     SUBDIR += linux_kdump
     SUBDIR += linuxgdb
     SUBDIR += m4
+    SUBDIR += m68kgdb
     SUBDIR += makedepend
     SUBDIR += mkmf
     SUBDIR += mprof
