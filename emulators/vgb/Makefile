@@ -9,7 +9,7 @@
 DISTNAME=	GB
 PKGNAME=        vgb-0.7
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://freefall/pub/FreeBSD/LOCAL_PORTS/
+MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 DISTFILES=	VGB.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
