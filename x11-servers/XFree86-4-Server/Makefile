@@ -39,6 +39,7 @@ IS_INTERACTIVE=		yes
 
 MAINTAINER=		jmz@FreeBSD.ORG
 
+USE_X11		=	yes
 DIST_SUBDIR	=	xc
 
 .if defined(DISTDIR)
