@@ -13,9 +13,11 @@ MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+# It asks for list af directories to do test for file locking
+# (defaults to /tmp and ".", so return should suffice in most cases).
 IS_INTERACTIVE=	yes
 
 do-install:
-	@cd ${WRKSRC}; ${MAKE} install-suid install.man
+	@cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} install-suid install.man
 
 .include <bsd.port.mk>
