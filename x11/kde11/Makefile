@@ -19,7 +19,7 @@ RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 		kmahjongg:${PORTSDIR}/games/kdegames \
 		kghostview:${PORTSDIR}/graphics/kdegraphics \
 		kmedia:${PORTSDIR}/audio/kdemultimedia \
-#		kmail:${PORTSDIR}/net/kdenetwork
+		kmail:${PORTSDIR}/net/kdenetwork
 
 EXTRACT_ONLY=	# empty
 NO_PATCH=	yes
