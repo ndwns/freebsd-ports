@@ -8,7 +8,8 @@
 
 DISTNAME=	x48-0.4.0
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/system/Emulators/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/Emulators
 
 MAINTAINER=	erich@FreeBSD.org
 

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	fvwm-1.24r
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/X11/window-managers/
-CATEGORIES+=	x11
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	X11/window-managers
 
 MAINTAINER=	me@FreeBSD.org
 

@@ -8,8 +8,8 @@
 
 DISTNAME=	minicom-1.75
 CATEGORIES=	comms
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/apps/comm/ \
-		ftp://ftp.yggdrasil.com/mirrors/sunsite/apps/comm/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/comm
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 

@@ -8,7 +8,8 @@
 
 DISTNAME=	cal-3.4
 CATEGORIES=	misc
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/utils/shell/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	utils/shell
 
 MAINTAINER=	andy@cgu.chel.su
 

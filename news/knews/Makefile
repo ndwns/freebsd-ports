@@ -7,12 +7,10 @@
 #
 
 DISTNAME=	knews-0.9.8
-CATEGORIES+=	x11 news
+CATEGORIES=	x11 news
 MASTER_SITES=	ftp://ftp.nada.kth.se/home/su95-kjo/knews/ \
-	ftp://sunsite.unc.edu/pub/Linux/X11/xapps/networked/ \
-	ftp://ftp.cc.gatech.edu/ac88/linux/X11/xapps/networked/ \
-	ftp://ftp.germany.eu.net/pub/os/Linux/Mirror.SunSITE/X11/xapps/networked/ \
-	ftp://ftp.funet.fi/pub/mirrors/sunsite.unc.edu/pub/Linux/X11/xapps/networked/
+		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	X11/xapps/networked
 
 MAINTAINER=	andreas@klemm.gtn.com
 

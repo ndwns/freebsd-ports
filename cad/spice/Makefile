@@ -9,7 +9,8 @@
 DISTNAME=       spice3f4
 PKGNAME=	spice-3f4
 CATEGORIES=	cad
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/apps/circuits/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/circuits
 
 #PATCH_SITES=	ftp://ic.eecs.berkeley.edu/pub/Spice3/3f4patches
 #PATCHFILES=	grid.patch newcoms.patch spsmp.patch
