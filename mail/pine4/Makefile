@@ -15,6 +15,5 @@ MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 MAINTAINER=	ports@FreeBSD.org
 
 MAN1= 		pine.1 pico.1 pilot.1
-MAN8=		imapd.8c ipopd.8c
 
 .include <bsd.port.mk>
