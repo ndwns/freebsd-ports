@@ -25,6 +25,7 @@
     SUBDIR += gnomeutils
     SUBDIR += gnuls
     SUBDIR += gone
+    SUBDIR += gtkfind
     SUBDIR += gyvescm
     SUBDIR += iselect
     SUBDIR += jargon
