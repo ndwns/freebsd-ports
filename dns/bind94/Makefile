@@ -23,6 +23,12 @@ MAN8=		named-xfer.8 named.8 ndc.8 nslookup.8
 
 PATCH_ARGS?=	-d ${WRKDIR} -E ${PATCH_STRIP}
 
+PA_H=	${WRKSRC}/port/freebsd/include/port_after.h
+
+post-configure:
+	${MV} ${PA_H} ${PA_H}.orig
+	sed "s,/usr,${PREFIX}," ${PA_H}.orig >${PA_H}
+
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/named/named-bootconf.pl ${PREFIX}/bin/
 #	for i in ${MAN1}; do \
