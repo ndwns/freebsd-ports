@@ -9,7 +9,9 @@
 DISTNAME=	freeWAIS-sf-2.1.2
 PKGNAME=	freewais-sf-2.1.2
 CATEGORIES=	net databases
-MASTER_SITES=   ftp://ftp.wsct.wsc.com/pub/freeWAIS-sf/freeWAIS-sf-2.1/
+MASTER_SITES=   ftp://ftp.wsct.wsc.com/pub/freeWAIS-sf/freeWAIS-sf-2.1/ \
+		ftp://ftp.u-aizu.ac.jp/pub/net/wais/ \
+		ftp://ftp.bio.indiana.edu/util/wais/
 
 MAINTAINER=	giffunip@asme.org
 
