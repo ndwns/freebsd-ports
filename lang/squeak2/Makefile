@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://alix.inria.fr/pub/squeak/unix/ \
 		ftp://alix.inria.fr/pub/squeak/unix/2.3/ \
 		ftp://ftp.cs.uni-magdeburg.de/pub/Smalltalk/Smalltalk/Squeak/ \
 		ftp://ftp.cs.uni-magdeburg.de/pub/Smalltalk/Smalltalk/Squeak/2.3/ \
-		http://www.nectar.com/distfiles/
+		http://www.nectar.com/distfiles/squeak/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} image/${SQUEAK_SRC}
 
 MAINTAINER=	jesse@cs.uni-magdeburg.de
