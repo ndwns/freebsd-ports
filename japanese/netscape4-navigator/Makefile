@@ -6,11 +6,12 @@
 # $Id$
 #
 
-MAINTAINER=	sada@e-mail.ne.jp
+MAINTAINER=	sada@FreeBSD.ORG
 
 MASTERDIR=	${.CURDIR}/../netscape4-communicator
 PKGDIR=		${.CURDIR}/pkg
 
+BROKEN=		www/netscape4-navigator was upgraded to 4.08
 BROWSER_NAME=	navigator
 MANFILE=	${.CURDIR}/files/${MAN1}
 
