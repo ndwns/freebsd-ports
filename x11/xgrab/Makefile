@@ -15,7 +15,7 @@ MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \
-		XAPPLOADDIR=${PREFIX}/lib/app-defaults  -f
+		XAPPLOADDIR=${PREFIX}/lib/X11/app-defaults  -f
 # Needs to actually *run* xrdb
 IS_INTERACTIVE=	yes
 # "make depend" blows up
