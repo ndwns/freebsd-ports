@@ -55,6 +55,7 @@
     SUBDIR += tcl76
     SUBDIR += tcl80
     SUBDIR += tclX75
+    SUBDIR += tclplugin
     SUBDIR += xpl
 
 .include <bsd.port.subdir.mk>
