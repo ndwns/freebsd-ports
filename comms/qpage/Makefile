@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	joes@seaport.net
 
+BROKEN=		corrupted distfile
+
 MAN1=		qpage.1
 
 post-install:
