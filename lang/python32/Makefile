@@ -21,7 +21,7 @@ WRKSRC=		${WRKDIR}/Python-1.3
 HAS_CONFIGURE=	yes
 
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
-INSTALL_TARGET=	install libinstall maninstall
+INSTALL_TARGET=	install libinstall maninstall inclinstall
 
 post-configure:
 	cp ${FILESDIR}/Setup ${WRKSRC}/Modules
