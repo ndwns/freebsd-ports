@@ -9,7 +9,7 @@
 DISTNAME=	MAGE_4_2.LINUX
 PKGNAME=	kinemage-4.2
 CATEGORIES=     biology
-MASTER_SITES=	ftp://suna.biochem.duke.edu/pub/LINUXprograms/
+MASTER_SITES=	ftp://kinemage.biochem.duke.edu/LINUXprograms/
 EXTRACT_SUFX=	.Z
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
