@@ -36,7 +36,7 @@ ALL_TARGET?=	elc
 HAVE_COMMON_PORT=	NO
 .endif
 # if RUN_DEPENDS-emacs needs setup elisp
-.if !defined(REQUIRE_SETUP)
+.if !defined(REQUIRE_SETUPEL)
 REQUIRE_SETUPEL=	NO
 .endif
 
