@@ -85,6 +85,7 @@
     SUBDIR += kdenetwork
     SUBDIR += kdenetwork11
     SUBDIR += kdetelnet
+    SUBDIR += kicq
     SUBDIR += kvirc
     SUBDIR += ksamba
     SUBDIR += ldap
