@@ -8,8 +8,8 @@
 
 DISTNAME=	ja-netscape-${BROWSER}-${BROWSER_VERSION}
 CATEGORIES=	japanese www
-MASTER_SITES=	${PORTKIT_SITES}
-		http://www.bres.tsukuba.ac.jp/~yohta/netscape/ \
+MASTER_SITES=	${PORTKIT_SITES} \
+		http://www.bres.tsukuba.ac.jp/~yohta/netscape/
 DISTFILES=	${JAPANIZE_KIT} ${PORTKIT}
 
 MAINTAINER=	sada@FreeBSD.ORG
