@@ -90,6 +90,7 @@
     SUBDIR += mendexk-euc
     SUBDIR += mendexk-sjis
     SUBDIR += mh
+    SUBDIR += micq
     SUBDIR += mimekit
     SUBDIR += mmm
     SUBDIR += mnews
