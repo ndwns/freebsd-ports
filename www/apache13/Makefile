@@ -17,9 +17,9 @@ MAINTAINER=     ache@freebsd.org
 
 NO_LATEST_LINK=	yes
 
-HAS_CONFIGURE=  yes
-CONFIGURE_ARGS+= --prefix=${PREFIX} \
-		 --localstatedir=/var \
+GNU_CONFIGURE=  yes
+CONFIGURE_ARGS= \
+	         --localstatedir=/var \
 		 --datadir=${PREFIX}/www \
 		 --libexecdir=${PREFIX}/libexec/apache \
 		 --enable-shared=remain \
@@ -27,7 +27,7 @@ CONFIGURE_ARGS+= --prefix=${PREFIX} \
 		 --enable-module=auth_db \
 		 --disable-module=auth_dbm
 
-CONFIGURE_ENV+= \
+CONFIGURE_ENV= \
 OPTIM='-DDOCUMENT_LOCATION=\\"'${PREFIX}'/www/data/\\" \
 -DDEFAULT_PATH=\\"/bin:/usr/bin:'${PREFIX}'/bin\\"'
 
