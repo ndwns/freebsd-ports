@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	tk8.1a2
-PKGNAME=	tk-8.1.a2
+DISTNAME=	tk8.1b1
+PKGNAME=	tk-8.1.b1
 CATEGORIES=	x11-toolkits tk81
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 
