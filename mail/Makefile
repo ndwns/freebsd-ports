@@ -36,6 +36,7 @@
     SUBDIR += mew-xemacs20
     SUBDIR += mew-xemacs-mule
     SUBDIR += mh
+    SUBDIR += ml
     SUBDIR += mmr
     SUBDIR += movemail
     SUBDIR += mutt
