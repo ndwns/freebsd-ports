@@ -1,7 +1,7 @@
 # New ports collection makefile for:	x-files
 # Version required:     1.43
 # Date created:		14 April 1998
-# Whom:			Donald J. Maddox <dmaddox@scsn.net>
+# Whom:			Donald J. Maddox <dmaddox@conterra.com>
 #
 # $Id$
 #
