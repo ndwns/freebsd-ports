@@ -19,6 +19,7 @@
     SUBDIR += cdk
     SUBDIR += cflow
     SUBDIR += clig
+    SUBDIR += codecrusader
     SUBDIR += cons
     SUBDIR += crossgo32
     SUBDIR += crossgo32-djgpp2
