@@ -20,6 +20,8 @@ EXTRACT_CMD=		tar
 EXTRACT_BEFORE_ARGS=	-xf
 EXTRACT_AFTER_ARGS=	
 
+MAN1=		setiathome.1
+
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} >= 400000
@@ -69,6 +71,7 @@ pre-fetch:
 
 do-install:
 	${INSTALL_PROGRAM}	${WRKDIR}/${WRKSRC}/setiathome ${PREFIX}/bin
+	${INSTALL_SCRIPT}	${FILESDIR}/setiathome.sh ${PREFIX}/etc/rc.d
 	${INSTALL_MAN}		${FILESDIR}/setiathome.1 ${MAN1PREFIX}/man/man1
 
 post-install:
