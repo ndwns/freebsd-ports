@@ -153,6 +153,7 @@
     SUBDIR += sj3
     SUBDIR += sjxa
     SUBDIR += skk
+    SUBDIR += skkfep
     SUBDIR += skkinput
     SUBDIR += slrn
     SUBDIR += tcl76
