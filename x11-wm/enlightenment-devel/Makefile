@@ -15,9 +15,6 @@ MASTER_SITES=	http://www.rasterman.com/ftp/ \
 MAINTAINER=	vanilla@MinJe.com.TW
 
 LIB_DEPENDS=	Im\\.3\\.:${PORTSDIR}/graphics/imlib
-RUN_DEPENDS=	djpeg:${PORTSDIR}/graphics/jpeg \
-		tgatoppm:${PORTSDIR}/graphics/netpbm \
-		convert:${PORTSDIR}/graphics/ImageMagick
 
 USE_GMAKE=	yes
 USE_IMAKE=	yes
