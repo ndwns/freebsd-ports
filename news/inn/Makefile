@@ -27,7 +27,7 @@ INN_NEWSLOG?=/var/log/news
 HAS_CONFIGURE=		yes
 CONFIGURE_ENV+=		MANDIR=${PREFIX}/man
 CONFIGURE_ARGS+=	--prefix=${INN_NEWSLIB}
-CONFIGURE_ARGS+=	--with-spool-dir=$INN_NEWSSPOOL}
+CONFIGURE_ARGS+=	--with-spool-dir=${INN_NEWSSPOOL}
 CONFIGURE_ARGS+=	--with-log-dir=${INN_NEWSLOG}
 CONFIGURE_ARGS+=	--with-perl
 
