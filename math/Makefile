@@ -8,7 +8,7 @@
     SUBDIR += gnuplot
     SUBDIR += hexcalc
     SUBDIR += linpack
-RESTRICTED += maxima (license required)
+    SUBDIR += maxima
     SUBDIR += octave
     SUBDIR += oleo
     SUBDIR += xgraph
