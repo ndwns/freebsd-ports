@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	strobe-1.04
-CATEGORIES=	net security
+CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.win.or.jp/pub/network/misc/
 EXTRACT_SUFX=	.tgz
 

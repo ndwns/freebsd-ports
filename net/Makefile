@@ -113,7 +113,6 @@
     SUBDIR += pavuk
     SUBDIR += pcnfsd
     SUBDIR += pmf
-    SUBDIR += portscanner
     SUBDIR += ppp-nt
     SUBDIR += pppload
     SUBDIR += ppxp
@@ -141,7 +140,6 @@
     SUBDIR += sniffit
     SUBDIR += socks5
     SUBDIR += spegla
-    SUBDIR += strobe
     SUBDIR += sup
     SUBDIR += tac_plus
     SUBDIR += tcpshow

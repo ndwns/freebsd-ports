@@ -8,7 +8,7 @@
 
 DISTNAME=	PortScanner-1.0
 PKGNAME=	portscanner-1.0
-CATEGORIES=	net security
+CATEGORIES=	security net
 MASTER_SITES=	http://www.ameth.org/~veilleux/ \
 		http://www.FreeBSD.org/~billf/
 
@@ -18,10 +18,10 @@ NO_WRKSUBDIR=	yes
 
 do-build:
 
-	@${CC} -o ${WRKSRC}/portscanner ${CFLAGS} ${WRKSRC}/portscanner.c
+	@ ${CC} -o ${WRKSRC}/portscanner ${CFLAGS} ${WRKSRC}/portscanner.c
 
 do-install:
 
-	${INSTALL_PROGRAM} ${WRKSRC}/portscanner ${PREFIX}/bin
+	@ ${INSTALL_PROGRAM} ${WRKSRC}/portscanner ${PREFIX}/bin
 
 .include <bsd.port.mk>
