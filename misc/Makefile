@@ -42,6 +42,7 @@
     SUBDIR += xgas
     SUBDIR += xless
     SUBDIR += xmaddressbook
+    SUBDIR += xpns
     SUBDIR += xtar
     SUBDIR += xtimer
     SUBDIR += zorro
