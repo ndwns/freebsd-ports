@@ -11,7 +11,7 @@
     SUBDIR += forth
     SUBDIR += g77
     SUBDIR += gcl
-    BROKEN += gnat   # not really broken, just requires existing gnat compiler
+    SUBDIR += gnat
     SUBDIR += guile-iii
     SUBDIR += icon
     SUBDIR += itcl
