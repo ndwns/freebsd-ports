@@ -37,6 +37,7 @@
     SUBDIR += hugs
     SUBDIR += ici
     SUBDIR += icon
+    SUBDIR += intel2gas
     SUBDIR += intercal
     SUBDIR += itcl
     SUBDIR += javac_netscape
