@@ -9,6 +9,7 @@
     SUBDIR += dsssl-docbook-modular
     SUBDIR += glimpse
     SUBDIR += gxditview
+    SUBDIR += htdig
     SUBDIR += html
     SUBDIR += info2html
     SUBDIR += isearch
