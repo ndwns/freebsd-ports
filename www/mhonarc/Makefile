@@ -17,6 +17,8 @@ MASTER_SITES=	http://www.oac.uci.edu/indiv/ehood/tar/ \
 
 MAINTAINER=	jkoshy@freebsd.org
 
+BROKEN=		package
+
 USE_PERL5=	Yes
 
 NO_BUILD=	Yes
