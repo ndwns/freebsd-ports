@@ -8,7 +8,8 @@
 
 DISTNAME=	linux_kdump-1.2
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.scc.nl/pub/FreeBSD/distfiles/
+MASTER_SITES=	http://www.FreeBSD.org/~marcel/			\
+		ftp://ftp.scc.nl/pub/FreeBSD/distfiles/
 
 MAINTAINER=	marcel@FreeBSD.org
 
