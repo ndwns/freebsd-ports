@@ -8,7 +8,8 @@
 
 DISTNAME=       objc-2.2.15
 CATEGORIES=     lang
-MASTER_SITES=   http://www.can.nl/~stes/Software/
+MASTER_SITES=   http://metalab.unc.edu/pub/Linux/devel/lang/objc/ \
+		http://www.freebsd.org/~chuckr/
 DISTFILES=	objc-2.2.15-bootstrap.tar.gz objc-2.2.15.tar.gz
 
 MAINTAINER=     chuckr@freebsd.org
