@@ -16,6 +16,8 @@ MAINTAINER=	paulo@isr.uc.pt
 
 RUN_DEPENDS=    xless:${PORTSDIR}/misc/xless
 
+BROKEN=		package
+
 NO_CDROM=	"Don't sell for profit."
 WRKSRC=		${WRKDIR}/scilab-2.3
 HAS_CONFIGURE=	yes
