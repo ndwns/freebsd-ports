@@ -35,6 +35,6 @@ post-install:
 	${INSTALL_MAN} ${FILESDIR}/tvp.6 ${PREFIX}/man/man6/tvp.6
 	a='${PREFIX}/share/doc/tvp/' perl -pi -e 's/TOKEN/$$ENV{a}/' \
 		${PREFIX}/man/man6/tvp.6
-	strip ${PREFIX}/bin/xpwish ${PREFIX}/bin/aprez ${PREFIX}/bin/prez
+	strip ${PREFIX}/bin/aprez ${PREFIX}/bin/prez
 
 .include <bsd.port.mk>
