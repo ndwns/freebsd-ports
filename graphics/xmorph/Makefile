@@ -8,8 +8,9 @@
 
 DISTNAME=	xmorph-02oct96
 PKGNAME=	xmorph-96.10.02
-CATEGORIES+=	graphics
-MASTER_SITES=	ftp://ftp.x.org/contrib/graphics/
+CATEGORIES=	graphics
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	erich@FreeBSD.org
 
