@@ -19,7 +19,7 @@ build: configure pre-build
 	@(cd ${WRKSRC}/src-3.0/regexp; make)
 	@(cd ${WRKSRC}/src-3.0; make)
 
-install:
+install: build
 	@echo "===>  Installing for ${DISTNAME}"
 	@mkdir -p ${PREFIX}/lib/texmf/makeindx
 	@mkdir -p ${PREFIX}/bin

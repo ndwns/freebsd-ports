@@ -21,7 +21,7 @@ IS_INTERACTIVE=	yes
 XMKMF=		xmkmf
 
 .if !defined(BATCH)
-install:
+install: build
 	@echo "===>  Installing for ${DISTNAME}"
 	@mkdir -p ${PREFIX}/man/man1
 	@mkdir -p ${PREFIX}/bin

@@ -15,6 +15,6 @@ EXTRACT_SUFX=   -tar.Z
 pre-patch:
 	rm -rf ${WRKSRC}/RCS
 
-build:
+build: configure
 
 .include <bsd.port.mk>

@@ -45,7 +45,7 @@ modes.mf:
 tex_base.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros plain/base.tar.gz ${DISTDIR}/$@
 
-build: ${BUILD_COOKIE}
+build: configure ${BUILD_COOKIE}
 
 ${BUILD_COOKIE}:
 	@echo "===>  Building for ${DISTNAME}"
@@ -60,7 +60,7 @@ ${BUILD_COOKIE}:
 		make fmts="${FORMATS}" fmts)
 	@touch -f ${BUILD_COOKIE}
 
-install:
+install: build
 	@echo "===>  Installing for ${DISTNAME}"
 	@(cd ${WRKSRC}/web2c; make install-exec INSTALL_PROGRAM="/usr/bin/install -c -s")
 	@(cd ${WRKSRC}/web2c; make install-manpages)

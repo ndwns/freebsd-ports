@@ -42,7 +42,7 @@ build: configure
 	@echo "===>  Building for ${DISTNAME}"
 	@(cd ${WRKDIR}; initex '&tex texinfo @dump')
 
-install:
+install: build
 	@echo "===>  Installing for ${DISTNAME}"
 	@/usr/bin/install -c -m 644 ${WRKDIR}/texinfo.fmt \
 				${PREFIX}/lib/texmf/ini/
