@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	WSoundPrefs-0.9.1
+DISTNAME=	WSoundPrefs-0.9.3
 CATEGORIES=	audio windowmaker
 MASTER_SITES=	ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
