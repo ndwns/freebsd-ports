@@ -37,6 +37,7 @@
     SUBDIR += libmalloc
     SUBDIR += libproplist
     SUBDIR += libslang
+    SUBDIR += libtool
     SUBDIR += linux_devel
     SUBDIR += linux_kdump
     SUBDIR += linuxgdb
