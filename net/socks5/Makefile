@@ -11,6 +11,8 @@ DISTNAME=	socks5-beta-0.12
 CATEGORIES+=	net security
 MASTER_SITES=	ftp://ftp.nec.com/pub/socks/socks5/
 
+MAINTAINER=	ambrisko@ambrisko.roble.com
+
 NO_CDROM=	NEC has a funky license for this software
 RESTRICTED=	ITAR license required to export outside US/Canada
 NO_PACKAGE=	put an extra slug in to make sure he's dead
