@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += 3dpong
     SUBDIR += acm
     SUBDIR += agm
     SUBDIR += an
