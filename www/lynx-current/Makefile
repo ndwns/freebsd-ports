@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.7.1ac-0.58
-PKGNAME=        lynx-2.7.1ac-0.58
+DISTNAME=       lynx2.7.1ac-0.59
+PKGNAME=        lynx-2.7.1ac-0.59
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
@@ -16,10 +16,9 @@ MAINTAINER=	ache@FreeBSD.ORG
 
 WRKSRC=         ${WRKDIR}/lynx2-7-1
 GNU_CONFIGURE=  YES
-CONFIGURE_ARGS= --with-screen=ncurses --with-zlib
-MAKE_FLAGS=     libdir=${PREFIX}/etc \
-		SITE_DEFS=-DLYNX_CFG_FILE='\\\"${PREFIX}/etc/lynx.cfg\\\"' \
-		-f
+CONFIGURE_ARGS= --with-screen=ncurses --with-zlib \
+		--with-cfg-file="${PREFIX}/etc/lynx.cfg"
+MAKE_FLAGS=     libdir="${PREFIX}/etc" -f
 MAKEFILE=       makefile
 MAN1=		lynx.1
 
