@@ -56,6 +56,7 @@
     SUBDIR += vfghostscript
     SUBDIR += vflib
     SUBDIR += vfxdvi
+    SUBDIR += xbakuzan
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
