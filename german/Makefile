@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += BBBike
     SUBDIR += dict
     SUBDIR += manpages
     SUBDIR += phone
