@@ -10,6 +10,7 @@
     SUBDIR += gb2ps
     SUBDIR += gbscript
     SUBDIR += hc
+    SUBDIR += hztty
     SUBDIR += lunar
     SUBDIR += mule-wnn4
     SUBDIR += nvi-big5
