@@ -13,9 +13,9 @@ MASTER_SITES=	ftp://ftp.povray.org/pub/povray/modellers/aero/
 
 MAINTAINER=	erich@FreeBSD.org
 
+BUILD_DEPENDS=	${X11BASE}/lib/libfwf.a:${PORTSDIR}/x11/FWF
+RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray \
-		${X11BASE}/lib/libfwf.a:${PORTSDIR}/x11/FWF
 
 USE_X11=	yes
 WRKSRC=		work/aero/src
