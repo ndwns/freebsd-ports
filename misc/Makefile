@@ -12,6 +12,7 @@
     SUBDIR += amanda
     SUBDIR += amanda24
     SUBDIR += astrolog
+    SUBDIR += asbutton
     SUBDIR += bb
     SUBDIR += bbjd
     SUBDIR += buffer
