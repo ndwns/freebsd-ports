@@ -17,7 +17,7 @@ MASTER_SITES=	ftp://avian.org/src/hacks/  \
 		ftp://ftp.rge.com:/pub/security/coast/mirrors/avian.org/netcat/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
 ALL_TARGET=	freebsd

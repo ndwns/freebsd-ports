@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/xcpustate/  \
 MASTER_SITE_SUBDIR=	utilities
 EXTRACT_SUFX=	.shar.gz
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=

@@ -12,7 +12,7 @@ CATEGORIES=	security
 MASTER_SITES=   ftp://ftp.mcafee.com/pub/antivirus/unix/freebsd/
 EXTRACT_SUFX=	.taz
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
 RESTRICTED=	"Commercial software"

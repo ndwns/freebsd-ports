@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/sdag/MaRS/
 DISTFILES=	MaRS-2.1.tar.gz MaRS-2-doc.tar.gz
 .endif
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	${DISTNAME}.tar.gz

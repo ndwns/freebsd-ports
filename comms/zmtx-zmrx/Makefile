@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.inria.fr/network/modem/  \
 # ftp://ftp.lth.se/pub/usenet/comp.sources.unix/volume28/zm/part01.gz
 EXTRACT_SUFX=	.shar.gz
 
-MAINTAINER=	obrien@cs.ucdavis.edu
+MAINTAINER=	obrien@FreeBSD.org
 
 EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=

@@ -10,7 +10,7 @@ DISTNAME=	lrzsz-0.12.16
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/
 
-MAINTAINER=	obrien@cs.ucdavis.edu
+MAINTAINER=	obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
