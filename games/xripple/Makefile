@@ -8,8 +8,8 @@
 
 DISTNAME=	xripple
 PKGNAME=	xripple-1.0
-MASTER_SITES=	ftp://www.cse.unsw.edu.au/pub/users/s2154962/
 CATEGORIES+=	games
+MASTER_SITES=	ftp://www.cse.unsw.edu.au/pub/users/s2154962/
 
 MAINTAINER=	oly@world.std.com
 
