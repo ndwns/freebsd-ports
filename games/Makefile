@@ -42,6 +42,7 @@
     SUBDIR += gnugo
     SUBDIR += gnushogi
     SUBDIR += golddig
+    SUBDIR += gtkballs
     SUBDIR += icbm3d
     SUBDIR += ifm
     SUBDIR += imaze
