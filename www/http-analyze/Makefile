@@ -19,7 +19,7 @@ MAN1=		http-analyze.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/http-analyze ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/http-analyze.man \
+	${INSTALL_MAN} ${WRKSRC}/http-analyze.man \
 		${PREFIX}/man/man1/http-analyze.1
 
 .include <bsd.port.mk>
