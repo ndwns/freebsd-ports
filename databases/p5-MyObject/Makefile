@@ -25,7 +25,7 @@ MAN3=		MyObject.3
 
 do-extract:
 	@${MKDIR} ${WRKSRC}
-	@${CP} ${DISTDIR}/${DISTNAME} ${WRKSRC}
+	@${CP} ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ${WRKSRC}
 	@(cd ${WRKSRC}; ${POD2MAN} MyObject.pm > MyObject.3)
 
 do-install:
