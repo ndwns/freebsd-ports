@@ -207,7 +207,7 @@ while [ "$1" ]; do
 				exit 1
 			fi
 			echo "PATCH_SITES+=	http://www.ipnet6.org/postfix/download/"
-			echo "PATCHFILES+=	ipv6-1.23-pf-2.1.0.patch.gz"
+			echo "PATCHFILES+=	ipv6-1.24-pf-2.1.1.patch.gz"
 			echo "PATCH_DIST_STRIP=	-p1"
 			echo "IPv6_SUFFIX=	+ipv6"
 			echo ""
@@ -225,7 +225,7 @@ while [ "$1" ]; do
 			echo "POSTFIX_CCARGS+=	-DHAS_SSL -I\${OPENSSLINC}"
 			echo "POSTFIX_AUXLIBS+=	-L\${OPENSSLLIB} -lssl -lcrypto"
 			echo "PATCH_SITES+=	http://www.ipnet6.org/postfix/download/"
-			echo "PATCHFILES+=	tls+ipv6-1.23-pf-2.1.0.patch.gz"
+			echo "PATCHFILES+=	tls+ipv6-1.24-pf-2.1.1.patch.gz"
 			echo "PATCH_DIST_STRIP=	-p1"
 			echo "TLS_SUFFIX=	+tls+ipv6"
 			SUB_TLS=""
