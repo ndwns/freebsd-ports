@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       zsh-2.6-beta8
-PKGNAME=	zsh-2.6b8
+DISTNAME=       zsh-2.6-beta10
+PKGNAME=	zsh-2.6b10
 CATEGORIES+=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/src/ \
 		ftp://ftp.sterling.com/zsh/src/ \
