@@ -88,6 +88,7 @@
     SUBDIR += rayshade
     SUBDIR += sane
     SUBDIR += sced
+    SUBDIR += scwm-icons
     SUBDIR += sketch
     SUBDIR += spigot
     SUBDIR += splitmpg
