@@ -28,7 +28,7 @@ USE_GMAKE=	yes
 CONFIGURE_ARGS=        i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
 		--canna --canna-libraries=/usr/local/lib \
 		--canna-includes=/usr/local/canna/include --terminal-face \
-		--locallisppath=${PREFIX}/share/emacs/site-lisp:${PREFIX}/lib/mule/site-lisp
+		--locallisppath=${PREFIX}/lib/mule/site-lisp:${PREFIX}/share/emacs/site-lisp
 STRIP=
 
 pre-build:
@@ -47,5 +47,8 @@ post-install:
 	gzip -9nf ${PREFIX}/man/man1/etags.1
 	gzip -9nf ${PREFIX}/man/man1/m2ps.1
 	gzip -9nf ${PREFIX}/man/man1/mule.1
+	if [ ! -d ${PREFIX}/share/emacs/site-lisp ]; then \
+	  mkdir -p ${PREFIX}/share/emacs/site-lisp; \
+	fi
 
 .include <bsd.port.mk>
