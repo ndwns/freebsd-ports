@@ -156,6 +156,7 @@
     SUBDIR += tclcheck
     SUBDIR += tclcl
     SUBDIR += tclgetopts
+    SUBDIR += templ
     SUBDIR += tkcvs
     SUBDIR += tkref
     SUBDIR += tvision
