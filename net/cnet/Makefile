@@ -6,10 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	cnet-1.4-3
-PKGNAME=	cnet-1.4p3
+DISTNAME=	cnet-1.4-4
+PKGNAME=	cnet-1.4p4
 CATEGORIES=	net
 MASTER_SITES=	http://www.cs.uwa.edu.au/pls/cnet/
+
+MAINTAINER=	ports@FreeBSD.org
 
 LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib \
 		Xpm.4:${PORTSDIR}/graphics/xpm
