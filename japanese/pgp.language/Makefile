@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	hikura@kaisei.org
 
-RESTRICTED=	"Crypto
+RESTRICTED=	"Crypto"
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS=	pgp:${PORTSDIR}/security/pgp
