@@ -16,9 +16,13 @@ MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.is.co.za/applications/editors/beta-test/vim/  \
 		ftp://ftp.progsoc.uts.edu.au/pub/beta-test/vim/
 
+PATCH_SITES=	${MASTER_SITES}
+PATCHFILES=	vim-50u-50u+.diff.gz
+
 MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
+PATCH_DIST_ARGS=	-d ${WRKDIR}/${DISTNAME} --forward --quiet -E ${PATCH_DIST_STRIP}
 MAKE_FLAGS=	CONF_ARGS=--prefix=${PREFIX} -f
 ALL_TARGET=	#
 MAN1=		vim.1 xxd.1 ctags.1
