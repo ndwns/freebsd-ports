@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	blackened-1.7.0
+DISTNAME=	blackened-${VERSION}
 CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.blackened.com/pub/irc/blackened/ \
 		http://www.psn.net/~andrews/blackened/
