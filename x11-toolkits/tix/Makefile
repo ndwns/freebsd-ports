@@ -19,7 +19,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/unix/tk4.1
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared \
 		--with-tcl=/usr/include/tcl \
-		--with-tk="${PREFIX}/include/tk"
+		--with-tk="${PREFIX}/include/tk4.1"
 # this should probably be added to bsd.port.mk
 CONFIGURE_ENV=	PREFIX=${PREFIX}
 MAN1=		tixwish.1 
