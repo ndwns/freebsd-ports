@@ -21,6 +21,9 @@ MAN1=		cpif.1 nodefs.1 noroots.1 noweb.1 noindex.1 \
 		nuweb2noweb.1 notangle.1 sl2h.1 htmltoc.1
 MAN7=		nowebstyle.7 nowebfilters.7
 
+post-build:
+	@(cd ${WRKSRC} && ${WRKSRC}/awkname awk)
+
 .if !defined(NOMANCOMPRESS)
 post-install:
 	@rm ${PREFIX}/man/man1/noweave.1*
@@ -30,4 +33,3 @@ post-install:
 .endif
 
 .include <bsd.port.mk>
-
