@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
+BROKEN_ELF=	yes
+
 WRKSRC=		${WRKDIR}/NES
 USE_X_PREFIX=	yes
 NO_BUILD=	yes
