@@ -8,6 +8,7 @@
     SUBDIR += ssystem
     SUBDIR += stars
     SUBDIR += sunclock
+    SUBDIR += wmmoonclock
     SUBDIR += xearth
     SUBDIR += xephem
     SUBDIR += xglobe
