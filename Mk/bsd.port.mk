@@ -659,7 +659,7 @@ fetch: pre-fetch
 		if [ ! -f $$file -a ! -f `basename $$file` ]; then \
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${MASTER_SITES}; do \
-			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
+			    ${ECHO_MSG} ">> Attempting to fetch from $${site}"; \
 				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
 					break; \
 				fi \
