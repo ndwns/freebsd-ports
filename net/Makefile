@@ -27,6 +27,7 @@
     SUBDIR += clusterit
     SUBDIR += cnet
     SUBDIR += coda5_client
+    SUBDIR += coda5_doc
     SUBDIR += coda5_server
     SUBDIR += coda_client
     SUBDIR += coda_doc
