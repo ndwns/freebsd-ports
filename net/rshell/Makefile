@@ -6,10 +6,14 @@
 # $Id$
 #
 
-DISTNAME=      rshell-1.0
-CATEGORIES=    net
-MASTER_SITES=  http://www.freebsd.org/~wosch/src/
+DISTNAME=	rshell-1.0
+CATEGORIES=	net
+MASTER_SITES=	http://www.freebsd.org/~wosch/src/
 
-MAINTAINER=    wosch@FreeBSD.ORG
+MAINTAINER=	wosch@FreeBSD.ORG
+
+MAN1=		rshell.1
+MLINKS=		rshell.1 rcopy.1
+MANCOMPRESSED=	maybe
 
 .include <bsd.port.mk>
