@@ -31,11 +31,7 @@ OSVERSION!=     sysctl -n kern.osreldate
 CONFIGURE_ARGS+= --with-libraries=/usr/lib/aout
 .endif
 
-#
-# MesaGL has a security hole. Don't use it in setuid binaries.
-# Override this with WITH_MESAGL=yes in your environment.
-#
-WITH_MESAGL?=	no
+WITH_MESAGL?=	yes
 .if ${WITH_MESAGL} == yes
 CONFIGURE_ARGS+=	--with-mesagl
 LIB_DEPENDS+=		GL.14:${PORTSDIR}/graphics/Mesa3
