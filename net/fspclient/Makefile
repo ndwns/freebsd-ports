@@ -9,7 +9,7 @@
 DISTNAME=       fspclient.0.0-h+
 PKGNAME=        fspclient.0.0.h
 CATEGORIES=	net
-MASTER_SITES=   ftp://ftp.germany.eu.net/pub/networking/tcpip/fsp/
+MASTER_SITES=   ftp://ftp.germany.eu.net/pub/networking/fsp/
 EXTRACT_SUFX=   .tar.z
 
 MAINTAINER=     ache@FreeBSD.ORG
