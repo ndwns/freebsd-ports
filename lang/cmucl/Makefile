@@ -10,9 +10,9 @@
 DISTNAME=	18a-FreeBSD_22
 PKGNAME=	cmucl-18a
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp2.cons.org/pub/languages/lisp/cmucl/binaries/ \
-		http://www2.cons.org:8000/ftp-area/cmucl/binaries/ \
-		http://www2.cons.org:8000/freebsd-distfiles/
+MASTER_SITES=	http://www2.cons.org:8000/freebsd-distfiles/ \
+		ftp://ftp2.cons.org/pub/languages/lisp/cmucl/binaries/ \
+		http://www2.cons.org:8000/ftp-area/cmucl/binaries/
 
 MAINTAINER= 	cracauer@cons.org
 
