@@ -18,7 +18,7 @@ RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 do-install:
 	${MKDIR} ${PREFIX}/lib/pib
 	${INSTALL_SCRIPT} ${WRKSRC}/*.tcl ${PREFIX}/lib/pib
-	${INSTALL_DATA} ${WRKSRC}/libTkSteal.so* ${PREFIX}/lib/pib
+	${INSTALL_DATA} ${WRKSRC}/libTkSteal.so.2* ${PREFIX}/lib/pib
 	ln -fs ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
 
 .include <bsd.port.mk>
