@@ -8,6 +8,7 @@
 
 DISTNAME=	xmine-1.0.3-Xaw
 USE_IMAKE=      yes
+INSTALL_MANPAGES=     yes
 
 DEPENDS=        x11/Xaw3d
 
