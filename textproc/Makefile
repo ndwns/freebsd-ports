@@ -36,6 +36,7 @@
     SUBDIR += p5-XML-Parser
     SUBDIR += par
     SUBDIR += prag
+    SUBDIR += py-xml
     SUBDIR += rman
     SUBDIR += sar
     SUBDIR += sgmlformat
