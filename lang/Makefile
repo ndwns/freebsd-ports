@@ -63,6 +63,7 @@
     SUBDIR += pgcc
     SUBDIR += ptoc
     SUBDIR += python
+    SUBDIR += python-beta
     SUBDIR += rexx-imc
     SUBDIR += ruby
     SUBDIR += scheme48
