@@ -4,6 +4,7 @@
     SUBDIR += Canna
     SUBDIR += Wnn
     SUBDIR += chimera
+    SUBDIR += dvi2tty
     SUBDIR += elvis
     SUBDIR += gawk
     SUBDIR += ghostscript
