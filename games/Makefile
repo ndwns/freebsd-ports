@@ -66,7 +66,6 @@
     SUBDIR += xkobo
     SUBDIR += xlife
     SUBDIR += xmahjongg
-    SUBDIR += xmame
     SUBDIR += xmille
     SUBDIR += xmine
     SUBDIR += xminehunter
