@@ -16,7 +16,7 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/Data/ShowTable.pm:${PORTSDIR}/devel/p5-Data-ShowTable \
 		${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/DBI.pm:${PORTSDIR}/databases/p5-DBI
-LIB_DEPENDS=	mysqlclient.5:${PORTSDIR}/databases/mysql322
+LIB_DEPENDS=	mysqlclient.6:${PORTSDIR}/databases/mysql322
 
 CONFIGURE_ARGS=	PREFIX=${PREFIX}
 CONFIGURE_ENV=	MYSQL_HOME=${PREFIX} IN_MYSQL_DISTRIBUTION=1

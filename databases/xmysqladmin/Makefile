@@ -17,7 +17,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms \
-		mysqlclient.5:${PORTSDIR}/databases/mysql322
+		mysqlclient.6:${PORTSDIR}/databases/mysql322
 
 # depends on xforms
 ONLY_FOR_ARCHS=	i386

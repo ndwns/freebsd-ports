@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.loth.demon.co.uk/gmysql/ \
 MAINTAINER=	dirk@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		mysqlclient.5:${PORTSDIR}/databases/mysql322
+		mysqlclient.6:${PORTSDIR}/databases/mysql322
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-mysql=${PREFIX}
