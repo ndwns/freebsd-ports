@@ -19,7 +19,7 @@ USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/ppsrc
 
 pre-build:
-	@ cd ${WRKSRC}; make depend
+	@ cd ${WRKSRC}; ${MAKE} ${MAKE_ENV} depend
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/pp ${PREFIX}/bin/pp.bin
