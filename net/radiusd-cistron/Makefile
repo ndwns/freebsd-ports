@@ -31,6 +31,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/raddb/clients ${PREFIX}/etc/raddb
 	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary ${PREFIX}/etc/raddb
 	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary.ascend ${PREFIX}/etc/raddb
+	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary.cisco ${PREFIX}/etc/raddb
 	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary.compat ${PREFIX}/etc/raddb
 	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary.livingston ${PREFIX}/etc/raddb
 	${INSTALL_DATA} ${WRKSRC}/raddb/dictionary.tunnel ${PREFIX}/etc/raddb
@@ -48,6 +49,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/ChangeLog ${PREFIX}/share/doc/radiusd-cistron
 	${INSTALL_DATA} ${WRKSRC}/doc/INSTALL.OLD ${PREFIX}/share/doc/radiusd-cistron
 	${INSTALL_DATA} ${WRKSRC}/doc/README ${PREFIX}/share/doc/radiusd-cistron
+	${INSTALL_DATA} ${WRKSRC}/doc/README.Y2K ${PREFIX}/share/doc/radiusd-cistron
 	${INSTALL_DATA} ${WRKSRC}/doc/README.cisco ${PREFIX}/share/doc/radiusd-cistron
 	${INSTALL_DATA} ${WRKSRC}/doc/README.pam ${PREFIX}/share/doc/radiusd-cistron
 	${INSTALL_DATA} ${WRKSRC}/doc/README.proxy ${PREFIX}/share/doc/radiusd-cistron
