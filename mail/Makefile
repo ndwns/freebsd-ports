@@ -5,6 +5,7 @@
     SUBDIR += asmail
     SUBDIR += balsa
     SUBDIR += bulk_mailer
+    SUBDIR += cmail
     SUBDIR += coolmail
     SUBDIR += cucipop
     SUBDIR += cyrus
