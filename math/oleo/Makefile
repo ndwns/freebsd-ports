@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	oleo-1.6
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu
+MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 EXTRACT_SUFX=.tar.gz
 HAS_CONFIGURE=yes
 
