@@ -19,6 +19,7 @@
    SUBDIR += p2c
    SUBDIR += pTk
    SUBDIR += perl5
+   SUBDIR += python
    SUBDIR += scheme48
    SUBDIR += schemetoc
    SUBDIR += scm
