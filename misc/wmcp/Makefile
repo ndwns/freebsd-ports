@@ -1,7 +1,7 @@
 # New ports collection makefile for:	wmcp
 # Version required:		1.2.8
 # Date created:			10 February 1999
-# Whom:				Jim Mock <jim@phrantic.phear.net>
+# Whom:				Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	wmcp-1.2.8
 CATEGORIES=	misc windowmaker
 MASTER_SITES=	http://users.linuxbox.com/~bac/src/wmcp/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
