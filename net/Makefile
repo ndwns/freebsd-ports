@@ -2,6 +2,7 @@
 #
 
     SUBDIR += archie
+    SUBDIR += ascend-radius
     SUBDIR += cvsup
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
