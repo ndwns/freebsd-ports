@@ -14,11 +14,6 @@ MASTER_SITES=	http://home8.swipnet.se/~w-82625/encoder/binaries/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-.include <bsd.port.pre.mk>
-.if ${OSVERSION} >= 400002
-BROKEN=		unable to execute BSDI executables
-.endif
-
 ONLY_FOR_ARCHS=	i386
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
@@ -30,4 +25,4 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/BladeEnc.html ${PREFIX}/share/doc/BladeEnc
 .endif
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
