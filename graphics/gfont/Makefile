@@ -9,7 +9,8 @@
 DISTNAME=	gfont-1.0.2
 CATEGORIES=	graphics print www
 MASTER_SITES=	http://www.engelschall.com/sw/gfont/distrib/ \
-		ftp://ftp.engelschall.com/sw/gfont/
+		ftp://ftp.engelschall.com/sw/gfont/ \
+		ftp://ftp.hyperreal.org/software/engelschall/gfont/
 
 MAINTAINER=	rse@engelschall.com
 
