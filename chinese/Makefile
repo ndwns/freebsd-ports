@@ -23,7 +23,6 @@
     SUBDIR += pine
     SUBDIR += rxvt
     SUBDIR += samba
-    SUBDIR += samba-des
     SUBDIR += ted
     SUBDIR += tin
     SUBDIR += xcin
