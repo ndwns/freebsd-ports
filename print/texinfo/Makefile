@@ -41,10 +41,10 @@ do-build:
 
 do-install: 
 	@${INSTALL_DATA} ${WRKDIR}/texinfo.fmt \
-				${PREFIX}/lib/texmf/ini/
-	@if [ ! -f ${PREFIX}/lib/texmf/fonts/tfm/lcircle10.tfm ]; then \
+				${PREFIX}/share/texmf/web2c/
+	@if [ ! -f ${PREFIX}/share/texmf/fonts/tfm/lcircle10.tfm ]; then \
 	  ${INSTALL_DATA} ${WRKDIR}/lcircle10.tfm \
-				${PREFIX}/lib/texmf/fonts/tfm/;\
+				${PREFIX}/share/texmf/fonts/tfm/;\
 	 fi
 	@(cd ${PREFIX}/bin/; rm -f texinfo; ln -s virtex texinfo)
 

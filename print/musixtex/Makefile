@@ -19,7 +19,7 @@ RUN_DEPENDS=	tex:${PORTSDIR}/print/tex
 NO_WRKSUBDIR=	yes
 
 pre-install:
-	${MKDIR} ${PREFIX}/lib/texmf/fonts/tfm
-	${MKDIR} ${PREFIX}/lib/texmf/documentation
+	${MKDIR} ${PREFIX}/share/texmf/fonts/tfm
+	${MKDIR} ${PREFIX}/share/texmf/documentation
 
 .include <bsd.port.mk>

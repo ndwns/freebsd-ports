@@ -21,11 +21,11 @@ do-build:
 	@(cd ${WRKSRC}/src-3.0; make)
 
 do-install: 
-	@${MKDIR} ${PREFIX}/lib/texmf/makeindx
+	@${MKDIR} ${PREFIX}/share/texmf/makeindx
 	@(cd ${WRKSRC}/src-3.0/regexp; make)
 	@(cd ${WRKSRC}/src-3.0; make install)
 	@(cd ${WRKSRC}/doc; \
-	  sed -e s:/usr/local/lib/tex/macros/:${PREFIX}/lib/texmf/makeindx/: \
+	  sed -e s:/usr/local/lib/tex/macros/:${PREFIX}/share/texmf/makeindx/: \
 	      <makeindex.l >makeindex.1; \
 	  ${INSTALL_DATA} makeindex.1 ${PREFIX}/man/man1/)
 
