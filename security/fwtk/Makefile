@@ -24,12 +24,17 @@ CONFIGURE_SCRIPT=	fixmake
 MAN3=		auth.3
 MAN5=		netperm-table.5
 MAN8=		authmgr.8 authsrv.8 ftp-gw.8 http-gw.8 login-sh.8 netacl.8 \
-		plug-gw.8 rlogin-gw.8 smap.8 smapd.8 tn-gw.8 x-gw.8
+		plug-gw.8 rlogin-gw.8 smap.8 smapd.8 tn-gw.8
 DOCS=		sample-report.txt manpages.ps admin_guide.ps user_guide.ps \
 		overview.ps presentation.ps
 SBIN_BINS=	authdump authload authmgr
 LIBEXEC_BINS=	authsrv ftp-gw http-gw netacl plug-gw rlogin-gw smap smapd \
-		tn-gw x-gw
+		tn-gw
+
+.if !defined(NO_X11)
+LIBEXEC_BINS+=	x-gw
+MAN8+=		x-gw.8
+.endif
 
 .include <bsd.port.pre.mk>
 
