@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://phobos.caltech.edu/users/will/  \
 
 MAINTAINER=     obrien@FreeBSD.org
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 MAN1=		super.1 setuid.1
 MAN5=		super.5
