@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += 8hz-mp3
     SUBDIR += amp
     SUBDIR += cam
     SUBDIR += cddbd
