@@ -18,7 +18,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 USE_IMAKE=	yes
 PREFIX?=		${LOCALBASE}
 
-STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/youbind.sh
+STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/youbind.sh.sample
 
 post-install:
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then				\
@@ -31,6 +31,6 @@ post-install:
 		echo "fi" >> ${STARTUP_SCRIPT} ;			\
 		chmod 755 ${STARTUP_SCRIPT} ;				\
 	fi
-	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
