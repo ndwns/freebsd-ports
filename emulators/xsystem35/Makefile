@@ -13,7 +13,7 @@ MASTER_SITES=	http://ryo1207.aist-nara.ac.jp/unitbase/xsys35/down/
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
-LIB_DEPENDS+=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
 USE_X_PREFIX=	YES
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
