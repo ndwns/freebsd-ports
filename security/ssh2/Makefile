@@ -27,7 +27,7 @@ CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc --enable-debug
 
 # Include support for ssh1 client backward compatibility
 USE_SSH1?=	YES
-# Include tcp_wrappers support
+# Include tcp_wrappers support (automaticlly YES if /usr/include/tcpd.h exists)
 USE_TCPWRAP?=	NO
 # Warning: untested !
 # Include support for the TIS authentication server
