@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	glbiff-0.2
-CATEGORIES=	mail x11
+CATEGORIES=	mail
 MASTER_SITES=	http://www.eecg.utoronto.ca/~mac/projects/
 EXTRACT_SUFX=	.tgz
 
