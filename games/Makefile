@@ -68,6 +68,7 @@
     SUBDIR += merlin
     SUBDIR += mindfocus
     SUBDIR += mirrormagic
+    SUBDIR += miscom
     SUBDIR += nethack
     SUBDIR += nethack-qt
     SUBDIR += netrek-BRMH-bin
@@ -84,10 +85,12 @@
     SUBDIR += seabattle
     SUBDIR += seahaven
     SUBDIR += sokoban
+    SUBDIR += sol
     SUBDIR += spellcast
     SUBDIR += spider
     SUBDIR += starlanes
     SUBDIR += tank
+    SUBDIR += tetrinet-x
     SUBDIR += tinymux
     SUBDIR += tksol
     SUBDIR += tvp
@@ -126,6 +129,7 @@
     SUBDIR += xgalaga
     SUBDIR += xgammon
     SUBDIR += xgolgo
+    SUBDIR += xhexagons
     SUBDIR += xhime
     SUBDIR += xinfocom
     SUBDIR += xinvaders
