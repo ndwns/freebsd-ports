@@ -7,8 +7,9 @@
 #
 
 DISTNAME=       xmj
+PKGNAME=	xmj-1.0
 CATEGORIES+=	games
-MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/demos/
+MASTER_SITES=	ftp://forte.mathematik.uni-bremen.de/pub/unix/X11/
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
