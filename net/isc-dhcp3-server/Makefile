@@ -15,7 +15,7 @@ MAINTAINER=	ports@FreeBSD.org
 
 HAS_CONFIGURE=	yes
 
-MAN5=		dhcpd.conf.5${ZEXTENSION}
-MAN8=		dhcpd.8${ZEXTENSION}
+MAN5=		dhcpd.conf.5
+MAN8=		dhcpd.8
 
 .include <bsd.port.mk>
