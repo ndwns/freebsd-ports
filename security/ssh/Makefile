@@ -18,7 +18,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 # You can set USA_RESIDENT appropriately in /etc/make.conf if this bugs you..
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
-DISTFILES=	${DISTNAME}.tar.gz rsaref2.tar.gz
+DISTFILES=	${DISTNAME}.tar.gz
 MASTER_SITES=	\
 	ftp://ftp.funet.fi/pub/unix/security/login/ssh/ \
 	ftp://nic.funet.fi/pub/crypt/mirrors/ftp.dsi.unimi.it/applied-crypto/ \
@@ -56,6 +56,7 @@ CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 CONFIGURE_ARGS+= --with-rsaref
+LIB_DEPENDS+=	rsaref.2:${PORTSDIR}/security/rsaref
 .endif
 
 .if defined(KRB5_HOME) && exists(${KRB5_HOME})
@@ -95,12 +96,6 @@ fetch-depends:
 	@echo States so using RSA implementations other than RSAREF there
 	@echo may violate US patent law\).
 	@false
-.endif
-
-post-extract:
-.if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
-	@mv ${WRKDIR}/rsaref2 ${WRKSRC}/rsaref2
-	@(cd ${WRKSRC} && patch -s -p < ${FILESDIR}/rsa64.diff)
 .endif
 
 post-install:
