@@ -14,5 +14,6 @@
     SUBDIR += workplace
     SUBDIR += x-files
     SUBDIR += xfm
+    SUBDIR += xnc
 
 .include <bsd.port.subdir.mk>
