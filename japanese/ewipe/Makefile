@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ewipe
-# Version required:	0.7.0
+# Version required:	1.0.0
 # Date created:		17 October 1997
 # Whom:			itojun@itojun.org
 #
@@ -9,9 +9,11 @@
 # can't use PORTSDIR here, since we haven't included bsd.port.mk
 FILESDIR=	${.CURDIR}/../../misc/ewipe/files
 PKGDIR=		${.CURDIR}/../../misc/ewipe/pkg
+SCRIPTDIR=	${.CURDIR}/../../misc/ewipe/scripts
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-PKGNAME=	ja-ewipe-0.7.0
+PKGNAME=	ja-ewipe-1.0.0
+KANJI=		yes
 
 .include <${.CURDIR}/../../misc/ewipe/Makefile>
 
