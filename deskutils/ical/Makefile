@@ -15,9 +15,9 @@ MAINTAINER=	erich@FreeBSD.org
 LIB_DEPENDS=    tk41\\.1:${PORTSDIR}/x11/tk41
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-tclsh=/usr/bin/tclsh \
-		--with-tclconfig=/usr/libdata/tcl \
-		--with-tkconfig=${PREFIX}/lib
+CONFIGURE_ARGS=	--with-tclsh=${PREFIX}/bin/tclsh7.5 \
+		--with-tclconfig=${PREFIX}/lib/tcl7.5 \
+		--with-tkconfig=${PREFIX}/lib/tk4.1
 MAN1=		ical.1
 
 post-install:
