@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/gtk--/
 
 MAINTAINER=	Nakai@technologist.com
 
-BROKEN_ELF=	yes
+BROKEN=		build
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
