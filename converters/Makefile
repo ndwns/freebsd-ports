@@ -6,6 +6,7 @@
     SUBDIR += i18ntools
     SUBDIR += ish
     SUBDIR += kdesupport
+    SUBDIR += kdesupport-i18n-11
     SUBDIR += kdesupport11
     SUBDIR += libutf-8
     SUBDIR += mimepp
