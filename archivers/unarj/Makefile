@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=       unarj
+DISTNAME=	unarj
 PKGNAME=	unarj-2.41
 CATEGORIES=	archivers
 MASTER_SITES=	ftp://garbo.uwasa.fi/unix/arcers/
-DISTFILES=      unarj241.tar.Z
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     ache@FreeBSD.ORG
 
