@@ -17,6 +17,8 @@ MAINTAINER=	itojun@itojun.org
 BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 		nkf:${PORTSDIR}/japanese/nkf
 
+BROKEN=		checksum
+
 EXTRACT_CMD=	lha
 EXTRACT_BEFORE_ARGS=	xfqw=${WRKDIR}
 NO_WRKSUBDIR=	yes
