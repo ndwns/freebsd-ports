@@ -13,8 +13,8 @@ MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org
 
-# needs library and private header
-DEPENDS=	${PORTSDIR}/plan9/sam
+# needs library and private header, but not during runtime
+BUILD_DEPENDS=	/always_build_it:${PORTSDIR}/plan9/sam
 
 NO_WRKSUBDIR=	yes
 
