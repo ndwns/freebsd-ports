@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       Scheme-to-C
+DISTNAME= 	schemetoc-93.3.15
 PKGNAME=	schemetoc-93.3.15
 CATEGORIES+=	languages
+MAINTAINER=	jmacd@FreeBSD.ORG
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Scheme-to-C/
 DISTFILES=      15mar93.tar.Z
 
