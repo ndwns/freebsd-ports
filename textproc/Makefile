@@ -4,6 +4,7 @@
     SUBDIR += agrep
     SUBDIR += docbook
     SUBDIR += glimpse
+    SUBDIR += html
     SUBDIR += isearch
     SUBDIR += iso12083
     SUBDIR += iso8879
