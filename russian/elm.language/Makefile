@@ -25,7 +25,6 @@ do-install:
 		( \
 		echo "charset=KOI8-R"; \
 		echo "displaycharset=KOI8-R"; \
-		echo "nohdrencoding=ON"; \
 		) >> \
 		${PREFIX}/lib/elm.rc
 
