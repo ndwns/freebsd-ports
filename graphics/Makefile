@@ -15,6 +15,7 @@
     SUBDIR += xanim
     SUBDIR += xdl
     SUBDIR += xfig
+    SUBDIR += xgrasp
     SUBDIR += xli
     SUBDIR += xpaint
     SUBDIR += xpm
