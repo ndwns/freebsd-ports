@@ -22,6 +22,7 @@
     SUBDIR += expect
     SUBDIR += forth
     SUBDIR += g77
+    SUBDIR += gawk
     SUBDIR += gcc28
     SUBDIR += gcl
     SUBDIR += glibstdc++28
