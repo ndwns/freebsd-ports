@@ -24,6 +24,7 @@ _MANPAGES+=	${CAT8:S%^%${MANPREFIX}/man/cat8/%}
 
 post-install:
 	${TOUCH} /var/db/dhcpd.leases
+	${TOUCH} /etc/dhclient.conf
 .for file in dhclient dhcpd dhcrelay
 	if [ -f ${PREFIX}/sbin/${file} ]; then \
 		strip ${PREFIX}/sbin/${file}; \
