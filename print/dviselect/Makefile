@@ -9,14 +9,13 @@
 DISTNAME=	dviselect
 PKGNAME=	dviselect-1.3
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.cs.umn.edu/pub/latex/software/
+MASTER_SITES=	ftp://ftp.ee.duke.edu/archives/
 
 MAINTAINER=	jmz@FreeBSD.org
 
+SCRIPTS_ENV=	CFLAGS="${CFLAGS}"
+
 MAN1=		dviselect.1
 
-pre-install:
-	@${MKDIR} ${PREFIX}/man/man1
-	@${MKDIR} ${PREFIX}/bin
 
 .include <bsd.port.mk>
