@@ -15,9 +15,7 @@ MASTER_SITES=	http://www.buoy.com/mysql/Downloads/ \
 		http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.21/ \
 		http://www.tcx.se/Downloads/MySQL-3.21/
 
-MAINTAINER=	josh@ican.net
-
-BROKEN=		build
+MAINTAINER=	ibex@physik.TU-Berlin.DE
 
 MAN1=		mysql.1
 
