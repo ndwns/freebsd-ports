@@ -62,7 +62,7 @@ pre-patch:
 
 pre-configure:
 	@(MAJ=`sysctl -n kern.osreldate | ${SED} -e '/.....$$/s///'` ; \
-	${SED} -e "s:__FreeBSD__:__FreeBSD__=$${MAJ}:" ${FILESDIR}/freebsd.h \
+	${SED} -e "s:__FreeBSD__[0-9=]*:__FreeBSD__=$${MAJ}:" ${FILESDIR}/freebsd.h \
 		>${WRKSRC}/gcc/config/freebsd.h )
 	@${CP} ${FILESDIR}/alpha-freebsd.h ${WRKSRC}/gcc/config/alpha/freebsd.h
 .if ${PORTOBJFORMAT} == "elf" && ${MACHINE_ARCH} == "i386"
