@@ -13,6 +13,7 @@
     SUBDIR += p5-Pg
     SUBDIR += pgaccess
     SUBDIR += postgresql
+    SUBDIR += py-PyGreSQL
     SUBDIR += tkgnats
     SUBDIR += typhoon
     SUBDIR += xmbase-grok
