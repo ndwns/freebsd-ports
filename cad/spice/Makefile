@@ -11,7 +11,6 @@ PKGNAME=	spice-3f4
 CATEGORIES=	cad
 MASTER_SITES=	ftp://ic.eecs.berkeley.edu/pub/Spice3/
 EXTRACT_SUFX=   .tar.Z
-WRKSRC=		${WRKDIR}
 
 #PATCH_SITES=	ftp://ic.eecs.berkeley.edu/pub/Spice3/3f4patches
 #PATCHFILES=	grid.patch newcoms.patch spsmp.patch
@@ -20,6 +19,7 @@ WRKSRC=		${WRKDIR}
 MAINTAINER=	kaveman@magna.com.au
 
 RESTRICTED=	"export restrictions"
+NO_WRKSUBDIR=	yes
 MAN1=		sconvert.1 nutmeg.1 spice.1
 MAN3=		mfb.3
 MAN5=		mfbcap.5
