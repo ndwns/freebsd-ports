@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://kermit.columbia.edu/kermit/archives/ \
 
 MAINTAINER=	pst@FreeBSD.org
 
-RESTRICTED=	"'No redistibution' copyright."
+RESTRICTED=	"'No redistribution' copyright."
 NO_WRKSUBDIR=	yes
 
 post-install:
