@@ -5,6 +5,7 @@
     SUBDIR += acroread
     SUBDIR += afm
     SUBDIR += apsfilter
+    SUBDIR += asprint
     SUBDIR += bibcard
     SUBDIR += bibview
     SUBDIR += c2ps
