@@ -20,4 +20,12 @@ pre-patch:
 	cp ${FILESDIR}/mf.freebsd2 ${WRKSRC}/config
 	cp ${FILESDIR}/os-freebsd2.h ${WRKSRC}/config
 
+post-install:
+	strip ${PREFIX}/bin/rdist6
+	strip ${PREFIX}/bin/rdistd
+.if !defined(NOMANCOMPRESS)
+	gzip -9nf ${PREFIX}/man/man1/rdist6.1
+	gzip -9nf ${PREFIX}/man/man8/rdistd.8
+.endif
+
 .include <bsd.port.mk>
