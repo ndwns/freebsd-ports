@@ -18,6 +18,11 @@ BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/RPC/pServer.pm:${PORTSD
 
 USE_PERL5=	YES
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         perl
+.endif
+
 MAN1=		dbiproxy.1 \
 		dbish.1
 MAN3=		DBD::Proxy.3 \
