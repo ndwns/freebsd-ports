@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       linux
-PKGNAME=	citrix_ica-2.8.1
+PKGNAME=	citrix_ica-3.0.15
 CATEGORIES=	comms
 MASTER_SITES=   "Distfile must be fetched manually"
 EXTRACT_SUFX=	.tar.z
