@@ -2,6 +2,7 @@
 #
 
     SUBDIR += afio
+    SUBDIR += cd-write
     SUBDIR += contool
     SUBDIR += idled
     SUBDIR += lsof
