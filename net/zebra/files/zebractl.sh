@@ -27,6 +27,8 @@ case $1 in
 			&& !!PREFIX!!/sbin/zebra -d && echo -n ' zebra'
 		[ -f !!PREFIX!!/etc/zebra/ripd.conf ] \
 			&& !!PREFIX!!/sbin/ripd -d && echo -n ' ripd'
+		[ -f !!PREFIX!!/etc/zebra/ripngd.conf ] \
+			&& !!PREFIX!!/sbin/ripngd -d && echo -n ' ripngd'
 		[ -f !!PREFIX!!/etc/zebra/ospfd.conf ] \
 			&& !!PREFIX!!/sbin/ospfd -d && echo -n ' ospfd'
 		[ -f !!PREFIX!!/etc/zebra/bgpd.conf ] \
@@ -35,6 +37,7 @@ case $1 in
 
 	stop)
 		[ -f !!PREFIX!!/etc/zebra/ripd.conf ] && killall ripd
+		[ -f !!PREFIX!!/etc/zebra/ripngd.conf ] && killall ripngd
 		[ -f !!PREFIX!!/etc/zebra/ospfd.conf ] && killall ospfd
 		[ -f !!PREFIX!!/etc/zebra/bgpd.conf ] && killall bgpd
 		[ -f !!PREFIX!!/etc/zebra/zebra.conf ] &&  killall zebra
