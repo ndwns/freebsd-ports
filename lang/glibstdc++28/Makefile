@@ -26,6 +26,11 @@ GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 PLIST_SUB=	GCC28SUBDIR=${GCC28DIR}
 
+pre-install:
+	@# allow a boched ``make install'' to be re-tried
+	@${RM} -rf ${PREFIX}/include/g++
+	@${MKDIR} ${PREFIX}/include/g++
+
 post-install:
 	${RM} -rf ${PREFIX}/${GCC28DIR}/include/g++
 	${MV} ${PREFIX}/include/g++  \
