@@ -38,6 +38,7 @@
     SUBDIR += freeciv
     SUBDIR += frotz
     SUBDIR += galaxis
+    SUBDIR += garith
     SUBDIR += gemdropx
     SUBDIR += gleyes
     SUBDIR += gnomegames
