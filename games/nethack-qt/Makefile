@@ -19,6 +19,8 @@ DISTFILES=	nethack-3.2.2.tar.gz ${QT_PATCH} ${QT_SOUND}
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN=		qt version?
+
 BUILD_DEPENDS=	auplay:${PORTSDIR}/audio/nas \
 		xpmtoppm:${PORTSDIR}/graphics/netpbm
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
