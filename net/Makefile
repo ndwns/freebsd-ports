@@ -121,6 +121,7 @@
     SUBDIR += wide-dhcp
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
+    SUBDIR += xicq
     SUBDIR += xipmsg
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
