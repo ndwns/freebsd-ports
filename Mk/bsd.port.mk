@@ -18,6 +18,7 @@
 # PKGDIR 	- Package creation files.
 #
 # USE_GMAKE	- Says that the package uses gmake.
+# USE_IMAKE	- Says that the package uses imake.
 # HAS_CONFIGURE	- Says that the package has its own configure script.
 # CONFIGURE_ARGS - Pass these args to configure, if $HAS_CONFIGURE.
 # HOME_LOCATION	- site/path name (or user's email address) describing
@@ -143,16 +144,16 @@ build: configure pre-build
 .endif
 .endif
 
-# No pre-configure stuff since that's handled differently.  We wrap
-# pre-configure and post-configure scripts around what is generally
-# an originally-provided script file, and easier to pre/post install for
-# than change.
+.if !target(pre-configure)
+pre-configure:
+	@echo -n
+.endif
 
 .if !target(configure)
 # This is done with a .configure because configures are often expensive,
 # and you don't want it done again gratuitously when you're trying to get
 # a make of the whole tree to work.
-configure: extract ${CONFIGURE_COOKIE}
+configure: pre-configure extract ${CONFIGURE_COOKIE}
 
 ${CONFIGURE_COOKIE}:
 	@echo "===>  Configuring for ${DISTNAME}"
