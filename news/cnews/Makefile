@@ -22,6 +22,9 @@ MANDIR=		/usr/local/man
 
 install: all
 	@echo "===>  installing for ${DISTNAME}"
+	mkdir -p /usr/local/include /usr/local/lib
+	cp {WRKSRC}/libdbz/dbz.h /usr/local/include
+	cp {WRKSRC}/libcnews.a /usr/local/lib
 	mkdir -p ${NEWSSPOOL}
 	ln -s ${NEWSSPOOL} /var/news
 	mkdir -p ${NEWSBIN} ${NEWSLIB}
