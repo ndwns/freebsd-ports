@@ -15,11 +15,12 @@ MAINTAINER=	obrien@FreeBSD.org
 
 FETCH_BEFORE_ARGS=	-b
 MAN1=		bzip2.1
-MLINKS=		bzip2.1 bunzip2.1
+MLINKS=		bzip2.1 bunzip2.1 bzip2.1 bzcat.1 bzip2.1 bzip2recover.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip2 ${PREFIX}/bin
 	${LN} -sf ${PREFIX}/bin/bzip2 ${PREFIX}/bin/bunzip2
+	${LN} -sf ${PREFIX}/bin/bzip2 ${PREFIX}/bin/bzcat
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip2recover ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/libbz2.a ${PREFIX}/lib
 	${INSTALL_MAN} ${WRKSRC}/bzip2.1 ${PREFIX}/man/man1
