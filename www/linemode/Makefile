@@ -15,8 +15,9 @@ DISTFILES=	WWWLineMode_3.0.tar.Z WWWLibrary_3.0.tar.Z
 
 PATCH_STRIP=	-p1
 
-install: build
+do-install:
 	install -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/LineMode/unix/www ${PREFIX}/bin
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>

@@ -14,7 +14,7 @@ CATEGORIES+=	networking
 
 WWW_ROOT=	${PREFIX}/www
 
-install: build
+do-install:
 	-mkdir ${WWW_ROOT} \
 	       ${WWW_ROOT}/data ${WWW_ROOT}/cgi-bin ${WWW_ROOT}/htbin
 	cd ${WRKSRC}/server_root; pax -rw * ${WWW_ROOT}
@@ -28,5 +28,6 @@ install: build
 		${WRKSRC}/Daemon/unix/cgiparse ${WWW_ROOT}/cgi-bin
 	install -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/Daemon/unix/cgiutils ${WWW_ROOT}/cgi-bin
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>

@@ -26,7 +26,7 @@ CONFIGURE_ARGS=	athena
 
 .include <bsd.port.mk>
 
-install: build
-	@mkdir -p ${PREFIX}/man/man1
-	@install -c -m 0444 ${WRKSRC}/xftp.man ${PREFIX}/man/man1/xftp.1
-	@gzip -9n ${PREFIX}/man/man1/xftp.1
+do-install:
+	mkdir -p ${PREFIX}/man/man1
+	install -c -m 0444 ${WRKSRC}/xftp.man ${PREFIX}/man/man1/xftp.1
+	gzip -9n ${PREFIX}/man/man1/xftp.1
