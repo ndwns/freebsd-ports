@@ -33,8 +33,17 @@ GS_SOURCES+=	ghostscript-5.0gnu.tar.gz
 GS_FONTS_STD=	ghostscript-fonts-std-4.0.tar.gz
 GS_FONTS_OTHER=	ghostscript-fonts-other-5.0.tar.gz
 
-#if you are using DIN A4 paper format, keep this _here_ before MAKE_FLAGS
+.if defined(A4)
 CFLAGS+=	-DA4
+.endif
+
+pre-fetch:
+.if !defined(A4)
+	@${ECHO_MSG} "Type \"make A4=yes\" if you want -DA4 for compilation."
+.else
+	@${ECHO_MSG} "Using -DA4 for compilation."
+.endif
+
 
 post-extract:
 	touch $(WRKSRC)/adler32.c
