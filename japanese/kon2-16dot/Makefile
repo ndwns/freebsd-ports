@@ -9,36 +9,20 @@
 DISTNAME=	kon
 PKGNAME=	kon-0994e
 CATEGORIES+=	japanese
-MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/
-DISTFILES=	kon-0.99.4e.tgz
+# note kon is only in first directory and fonts are only in second directory
+MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/ \
+		ftp://ftp.iij.ad.jp/pub/X/XFree86/XFree86/3.1.1/untarred/xc/fonts/bdf/misc/
+DISTFILES=	kon-0.99.4e.tgz k14.bdf 7x14rk.bdf
 EXTRACT_ONLY=	kon-0.99.4e.tgz
-
-.if !defined(MASTER_SITE_OVERRIDE)
-FONT_SITE=	ftp://ftp.iij.ad.jp/pub/X/XFree86/XFree86/3.1.1/untarred/xc/fonts/bdf/misc/
-FONTFILES=	k14.bdf 7x14rk.bdf
-.else
-DISTFILES +=	k14.bdf 7x14rk.bdf
-.endif
 
 MAINTAINER=	asami@FreeBSD.ORG
 
 USE_GMAKE=	yes
 
-.if !defined(MASTER_SITE_OVERRIDE)
-pre-fetch: 
-	@(cd ${DISTDIR}; \
-	for file in ${FONTFILES} ; do \
-		if [ ! -f $$file ]; then \
-			if ${NCFTP} ${NCFTPFLAGS} ${FONT_SITE}$$file; then \
-				break; \
-			fi \
-		fi \
-	done)
-.endif
-
 post-configure:
 	sed -e 's%%CURDIR%%${.CURDIR}' \
 	  -e 's%%PREFIX%%${PREFIX}' \
+	  -e 's%%DISTDIR%%${DISTDIR}' \
 	  files/dotconfig > ${WRKSRC}/.config
 
 post-install:
