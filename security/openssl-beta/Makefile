@@ -1,12 +1,12 @@
 # New ports collection makefile for:	Eric Young's SSL/Crypto Library
-# Version required:	0.6.4
+# Version required:	0.6.5
 # Date created:		1 July 1996
 # Whom:			markm
 #
 # $Id$
 #
 
-DISTNAME=		SSLeay-0.6.4
+DISTNAME=		SSLeay-0.6.5
 CATEGORIES=		devel security
 MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/
 
