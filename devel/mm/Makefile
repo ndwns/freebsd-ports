@@ -8,7 +8,8 @@
 
 DISTNAME=	mm-1.0.4
 CATEGORIES=	devel
-MASTER_SITES=	http://www.engelschall.com/sw/mm/
+MASTER_SITES=	http://www.engelschall.com/sw/mm/ \
+		ftp://ftp.engelschall.com/sw/mm/
 
 MAINTAINER=	rse@engelschall.com
 
