@@ -10,8 +10,8 @@ DISTNAME=	apache_${VERSION_APACHE}
 PKGNAME=	apache-${VERSION_APACHE}+mod_ssl-${VERSION_MODSSL}
 CATEGORIES=	www security
 MASTER_SITES=	http://www.apache.org/dist/ \
-		http://www.engelschall.com/sw/mod_ssl/distrib/ \
-		ftp://ftp.engelschall.com/sw/mod_ssl/ \
+		http://www.modssl.org/source/ \
+		ftp://ftp.modssl.org/source/ \
 		ftp://ftp.pca.dfn.de/pub/tools/net/mod_ssl/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://ftp.rge.com/pub/infosystems/apache/dist/ \
