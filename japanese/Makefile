@@ -99,6 +99,7 @@
     SUBDIR += lesw
     SUBDIR += libicq
     SUBDIR += libimg
+    SUBDIR += libjcode
     SUBDIR += libslang
     SUBDIR += libxpg4-ns
     SUBDIR += lipsf
