@@ -10,7 +10,7 @@
 DISTNAME=       lynx2-4-fm
 PKGNAME=        lynx-2.4fm
 CATEGORIES+=	www
-MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/nidr/www/
+MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/internet/www/
 EXTRACT_SUFX=   .zip
 
 # Original location, lynx changes too often there
