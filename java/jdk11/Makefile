@@ -8,7 +8,6 @@
 
 DISTNAME=	jdk1.1.6.V98-7-21
 PKGNAME=	jdk-1.1.6
-WRKSRC=		${WRKDIR}/jdk1.1.6
 CATEGORIES=	lang devel
 MASTER_SITES=	http://www.freebsd.org/java/
 
@@ -16,6 +15,7 @@ MAINTAINER=	cracauer@freebsd.org
 
 NO_CDROM=	"License doesn't allow distribution with fee"
 
+WRKSRC=		${WRKDIR}/jdk1.1.6
 NO_BUILD=       yes
 
 do-install:
