@@ -8,7 +8,7 @@
 
 DISTNAME=	sed-1.18
 PKGNAME=	ja-sed-1.18
-CATEGORIES=	japanese
+CATEGORIES=	japanese textproc
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	ports@FreeBSD.ORG

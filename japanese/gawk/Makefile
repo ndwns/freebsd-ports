@@ -8,7 +8,7 @@
 
 DISTNAME=	gawk-2.15.6
 PKGNAME=	ja-gawk-2.15.6
-CATEGORIES=	japanese
+CATEGORIES=	japanese textproc
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	ports@FreeBSD.ORG
