@@ -9,7 +9,6 @@
 DISTNAME=       STk-2.1.6
 MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 GNU_CONFIGURE=	yes
-PATCH_STRIP=	-p1
 MAKE_FLAGS=  	"prefix = ${PREFIX}"
 
 
