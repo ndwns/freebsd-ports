@@ -34,6 +34,7 @@
     SUBDIR += lyx
     SUBDIR += makeindex
     SUBDIR += mp
+    SUBDIR += mpage
     SUBDIR += musixtex
     SUBDIR += pkfonts
     SUBDIR += psutils
