@@ -18,6 +18,10 @@ EXTRACT_ONLY=	ircii2.8.2-EPIC3.004.tar.gz
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/ircii-EPIC3.004
 
+do-install:
+		(cd ${WRKSRC} && make INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
+			INSTALL_DATA="${INSTALL_DATA}" install)
+
 post-install:
 		(cd $(PREFIX)/lib/irc && tar xzf $(DISTDIR)/ircii2.8.2-EPIC3.help.tar.gz)
 		# Distfile has wrong permissions for...
