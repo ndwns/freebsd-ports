@@ -1,13 +1,13 @@
 # New ports collection makefile for:    lynx
-# Version required:     2.8
+# Version required:     2.8.1 release 2
 # Date created:         15 Dec 1994
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       lynx2.8.1rel.1
-PKGNAME=        lynx-2.8.1.1
+DISTNAME=       lynx2.8.1rel.2
+PKGNAME=        lynx-2.8.1.2
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
