@@ -28,5 +28,5 @@
 
 #include <stdio.h>
 
-#undef	stderr
-FILE *stderr = &__sF[2];
+#undef	stdout
+FILE *stdout = &__sF[1];

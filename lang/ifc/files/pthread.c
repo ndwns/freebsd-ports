@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2002 Marius Strobl
+ * Copyright (c) 2003  The FreeBSD Project
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -26,7 +26,11 @@
  * $FreeBSD$
  */
 
-#include <stdio.h>
+void pthread_exit(void *value_ptr) __attribute__ ((weak));
+void pthread_exit(void *value_ptr) {}
 
-#undef	stderr
-FILE *stderr = &__sF[2];
+int pthread_equal(void) __attribute__ ((weak));
+int pthread_equal(void)
+{
+   return 1;
+}
