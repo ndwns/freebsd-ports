@@ -1,10 +1,8 @@
 # $Id$
 #
 
-# the reversed ordering of a2ps43 and a2ps is intentional -- this
-# is to make sure the "Latest" link points to the latest version
-    SUBDIR += a2ps43
     SUBDIR += a2ps
+    SUBDIR += a2ps43
     SUBDIR += acroread
     SUBDIR += afm
     SUBDIR += apsfilter
