@@ -1,12 +1,12 @@
 # New ports collection makefile for:	sgmlformat
-# Version required:	1.6
+# Version required:	1.7
 # Date created:		July 16, 1997
 # Whom:			jfieber
 #
 # $Id$
 #
 
-DISTNAME=	sgmlformat-1.6
+DISTNAME=	sgmlformat-1.7
 CATEGORIES=	textproc print
 MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
 
@@ -24,7 +24,8 @@ RUN_DEPENDS=	nsgmls:${PORTSDIR}/textproc/jade
 
 RUN_DEPENDS+=	${PREFIX}/share/sgml/linuxdoc:${PORTSDIR}/textproc/linuxdoc \
 		${PREFIX}/share/sgml/docbook:${PORTSDIR}/textproc/docbook \
-		${PREFIX}/bin/perl:${PORTSDIR}/lang/perl5
+
+USE_PERL5=	yes
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
