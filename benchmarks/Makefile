@@ -11,6 +11,7 @@
     SUBDIR += netperf
     SUBDIR += netpipe
     SUBDIR += polygraph
+    SUBDIR += rawio
     SUBDIR += tcpblast
     SUBDIR += xengine
 
