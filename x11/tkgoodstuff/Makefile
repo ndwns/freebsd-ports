@@ -18,8 +18,8 @@ RUN_DEPENDS=	fvwm:${PORTSDIR}/x11/fvwm2
 LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	TCLCONFIGSH=/usr/libdata/tcl/tclConfig.sh TCLSH=/usr/bin/tclsh \
-		INSTALL_PROGRAM=""
+CONFIGURE_ENV=	TCLCONFIGSH=/usr/libdata/tcl/tclConfig.sh TCLSH=/usr/bin/tclsh
 CONFIGURE_ARGS=	--enable-libs
+STRIP=
 
 .include <bsd.port.mk>
