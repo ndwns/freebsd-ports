@@ -9,7 +9,7 @@
 DISTNAME=	c-archie-1.4.1-FIXED
 PKGNAME=	archie-1.4.1
 CATEGORIES=	net
-MASTER_SITES=	ftp://nic.sura.net/pub/archie/clients/
+MASTER_SITES=	ftp://ftp.uu.net/networking/info-service/archie/clients/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.ORG
