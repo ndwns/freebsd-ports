@@ -40,7 +40,6 @@
     SUBDIR += xg
     SUBDIR += xmhtml
     SUBDIR += xview-clients
-    SUBDIR += xview-config
-    SUBDIR += xview-lib
+    SUBDIR += xview
 
 .include <bsd.port.subdir.mk>
