@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mpd-2.0b1
+DISTNAME=	mpd-2.0b2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/mpd/
 
