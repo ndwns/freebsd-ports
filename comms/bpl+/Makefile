@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bpl+
-PKGNAME=	bpl+
+PKGNAME=	bpl+-1.0
 CATEGORIES+=	comms
 MASTER_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/telnet/telnetx/
 
