@@ -549,11 +549,15 @@ ${EXTRACT_COOKIE}:
 	@mkdir -p ${WRKDIR}
 .if defined(EXTRACT_ONLY)
 	@for file in ${EXTRACT_ONLY}; do \
-		${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file ; \
+		if ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
+			exit 1; \
+		fi \
 	done
 .else
 	@for file in ${DISTFILES}; do \
-		${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file ; \
+		if ${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTDIR}/$$file; then \
+			exit 1; \
+		fi \
 	done
 .endif
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
