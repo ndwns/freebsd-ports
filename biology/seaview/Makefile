@@ -22,7 +22,7 @@ EXTRACT_BEFORE_ARGS=	-xf
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/${DISTNAME} ${PREFIX}/bin
-	@ (mkdir ${PREFIX}/lib/X11/seaview)
+	@ (${MKDIR} ${PREFIX}/lib/X11/seaview)
 	@ ${INSTALL_DATA} ${WRKSRC}/seaview.help ${PREFIX}/lib/X11/seaview
 
 post-install:
