@@ -1,13 +1,13 @@
 # New ports collection makefile for:	jade
-# Version required:	1.0.1
+# Version required:	1.1
 # Date created:		June 19, 1997
 # Whom:			jfieber
 #
 # $Id$
 #
 
-DISTNAME=	jade1_0_1
-PKGNAME=	jade-1.0.1
+DISTNAME=	jade1_1
+PKGNAME=	jade-1.1
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.jclark.com/pub/jade/
 EXTRACT_SUFX=	.zip
