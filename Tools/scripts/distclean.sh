@@ -45,7 +45,7 @@ FN_DISTFILES=`mktemp -t dclean` || exit 1
 FN_RESULTS_SCRIPT=`mktemp -t dclean` || exit 1
 
 trap cleanup 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 21 22 23 24 25 26 27 28 29 \
-	     30 21
+	     30 31
 
 echo -n "Building ports md5 index..."
 find /usr/ports/ -name "distinfo" -or -name "distinfo.i386" -or -name "distinfo.alpha" -type f | xargs cat | grep "^MD5 ("| sort | uniq > $FN_PORTS
