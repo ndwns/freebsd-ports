@@ -12,7 +12,7 @@ MASTER_SITES=	http://naim.n.ml.org/release/ \
 		ftp://ftp.netmug.org/pub/FreeBSD/distfiles/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	mharo@area51.fremont.ca.us
+MAINTAINER=	mharo@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 
