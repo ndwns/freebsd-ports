@@ -30,6 +30,7 @@ do-build:
 	${MV} ${WRKDIR}/htmlpp.temp ${WRKDIR}/htmlpp
 
 do-install:
+	${MKDIR} ${PREFIX}/lib/perl5/site_perl
 	${INSTALL_SCRIPT} ${WRKDIR}/htmlpp ${PREFIX}/bin/htmlpp
 	${INSTALL_DATA} ${WRKDIR}/htmlpp.d ${PREFIX}/lib/perl5/site_perl/htmlpp.d
 	(cd ${WRKDIR}; for FILE in *.pl; do ${INSTALL_DATA} $${FILE} ${PREFIX}/lib/perl5/site_perl/$${FILE}; done)
