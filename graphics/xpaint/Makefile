@@ -8,10 +8,10 @@
 
 DISTNAME=       xpaint-2.1.1
 MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/X/R5contrib/
-DEPENDS=	${PORTSDIR}/graphics/jpeg ${PORTSDIR}/graphics/tiff \
-		${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg \
+		tiff\\.3\\.:${PORTSDIR}/graphics/tiff \
+		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 USE_IMAKE=      yes
-INSTALL_MANPAGES=     yes
 WRKSRC=		${.CURDIR}/work/xpaint
 
 .include <bsd.port.mk>

@@ -11,7 +11,7 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
 USE_IMAKE=	YES
 EXTRACT_SUFX=	.tar.Z
 .if !exists(/usr/X11R6/lib/libXpm.a)
-DEPENDS=	${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 .endif
 
 .include <bsd.port.mk>

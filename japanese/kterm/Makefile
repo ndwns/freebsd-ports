@@ -9,7 +9,5 @@
 DISTNAME=	kterm-6.1.0
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
-INSTALL_MANPAGES=	yes
-PKG_CMD=	pkg_create -N
 
 .include <bsd.port.mk>

@@ -8,7 +8,6 @@
 
 DISTNAME=	mpeg_play-2.0
 USE_IMAKE=	yes
-INSTALL_MANPAGES=	yes
 MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/
 EXTRACT_SUFX=	.tar.Z
 NO_WRKSUBDIR=	yes

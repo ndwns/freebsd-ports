@@ -12,7 +12,7 @@ DISTFILES=	fvwm-core.tar.gz fvwm-modules.tar.gz \
 		fvwm-icons.tar.gz
 MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
 USE_IMAKE=	yes
-DEPENDS=	${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 		-r ${PKGDIR}/REQUIRES -p ${PREFIX}
 

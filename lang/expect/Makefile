@@ -12,6 +12,7 @@ DISTFILES=	expect.tar.gz
 HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
 
-DEPENDS=	${PORTSDIR}/lang/tcl ${PORTSDIR}/x11/tk
+LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
+		tk\\.3\\.:${PORTSDIR}/x11/tk
 
 .include <bsd.port.mk>

@@ -9,7 +9,6 @@
 DISTNAME=       xmille
 MASTER_SITES=	ftp://gatekeeper.dec.com/.b/X11-contrib/
 USE_IMAKE=      yes
-INSTALL_MANPAGES=     yes
 EXTRACT_SUFX=   .tar.Z
 NO_WRKSUBDIR=	yes
 

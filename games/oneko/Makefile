@@ -8,7 +8,6 @@
 
 DISTNAME=	oneko-1.1b
 USE_IMAKE=	yes
-INSTALL_MANPAGES=	yes
 MASTER_SITES=	ftp://ftp.cs.columbia.edu/archives/X11R5/contrib/
 WRKSRC=		${WRKDIR}/oneko
 

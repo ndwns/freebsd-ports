@@ -8,8 +8,7 @@
 
 DISTNAME=	xmine-1.0.3-Xaw
 USE_IMAKE=      yes
-INSTALL_MANPAGES=     yes
 
-DEPENDS=        ${PORTSDIR}/x11/Xaw3d
+LIB_DEPENDS=        Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
 
 .include <bsd.port.mk>

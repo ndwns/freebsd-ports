@@ -9,7 +9,6 @@ DISTNAME=       xpipeman
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/
 EXTRACT_SUFX=	.tar.Z
 USE_IMAKE=	yes
-INSTALL_MANPAGES= yes
 
 .include <bsd.port.mk>
 

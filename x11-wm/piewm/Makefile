@@ -11,7 +11,7 @@ USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 PKG_CMD=	pkg_create -N
-DEPENDS=        ${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 # piewm.tar.Z includes and old version of xpm, and also a bunch of .o
 #  files plus an executable

@@ -12,8 +12,7 @@ PKGNAME=	xfig-3.1.3
 WRKSRC=		${WRKDIR}/xfig
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/xfig/ \
 	ftp://crl.dec.com/pub/X11/contrib/applications/drawing_tools/xfig/
-DEPENDS=	${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 USE_IMAKE=	yes
-INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>

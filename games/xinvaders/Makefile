@@ -9,6 +9,5 @@
 DISTNAME=       xinvaders
 MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/Linux/games/x11/action/
 USE_IMAKE=	yes
-INSTALL_MANPAGES= yes
 
 .include <bsd.port.mk>

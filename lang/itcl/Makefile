@@ -10,6 +10,7 @@ DISTNAME=	itcl-1.5
 HAS_CONFIGURE=	yes
 MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
 PATCH_STRIP=	-p1
-DEPENDS=	${PORTSDIR}/lang/tcl ${PORTSDIR}/x11/tk
+LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
+		tk\\.3\\.:${PORTSDIR}/x11/tk
 
 .include <bsd.port.mk>

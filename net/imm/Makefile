@@ -10,6 +10,6 @@ DISTNAME=	imm-3.3
 DISTFILES=	imm-3.3-src.tar.Z
 MASTER_SITES=	ftp://ftp.ucs.ed.ac.uk/pub/videoconference/imm/
 WRKSRC=		${WRKDIR}/src
-DEPENDS=	${PORTSDIR}/x11/tk
+LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 
 .include <bsd.port.mk>
