@@ -13,7 +13,13 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ian@broken.net
 
-FETCH_BEFORE_ARGS=	-b
+USE_GMAKE=	yes
+ALL_TARGET=	# yes, an empty target.
+
+# You need to delete the old distfile if you are upgrading, as the tar ball
+# for ijb has not been changing names between minor revisions(ie 2.0->2.0.1).
+# I have contacted the author about this though so we may see something new
+# in the next revision.
 
 MAN1=		junkbuster.1
 
