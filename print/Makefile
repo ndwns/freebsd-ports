@@ -66,6 +66,7 @@
     SUBDIR += psutils-a4
     SUBDIR += psutils-letter
     SUBDIR += rtf2latex
+    SUBDIR += t1utils
     SUBDIR += teTeX
     SUBDIR += teTeX-beta
     SUBDIR += tex
