@@ -15,4 +15,7 @@ LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg \
 
 USE_IMAKE=	yes
 
+# Restrictive copyright
+NO_PACKAGE=	yes
+
 .include <bsd.port.mk>
