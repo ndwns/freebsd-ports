@@ -8,7 +8,7 @@
 
 DISTNAME=	bing-1.0.4
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.ibp.fr/pub/networking/
+MASTER_SITES=	ftp://ftp.lip6.fr/pub/networking/
 
 MAINTAINER=	jseger@freebsd.org
 
