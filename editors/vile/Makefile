@@ -1,12 +1,12 @@
 # New ports collection makefile for:    vile
-# Version required:     7.2
+# Version required:     7.3
 # Date created:         Wed Nov 26, 1996
 # Whom:                 pgf
 #
 # $Id$
 #
 
-DISTNAME=	vile-7.2
+DISTNAME=	vile-7.3
 CATEGORIES=	editors
 MASTER_SITES=   ftp://ftp.clark.net/pub/dickey/vile/ \
 		ftp://id.wing.net/pub/pgf/vile/
