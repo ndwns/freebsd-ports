@@ -6,8 +6,8 @@
 #
 # $Id$
 
-DISTNAME=	mutt-0.95.4i
-PKGNAME=	mutt-0.95.4
+DISTNAME=	mutt-0.95.5i
+PKGNAME=	mutt-0.95.5
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.guug.de/pub/mutt/  \
 		ftp://ftp.uib.no/pub/mutt/  \
@@ -45,6 +45,7 @@ RUN_DEPENDS+=	urlview:${PORTSDIR}/textproc/urlview
 DIST_SUBDIR=	mutt
 PATCH_DIST_STRIP=	-p1
 GNU_CONFIGURE=	yes
+CONFIGURE_TARGET=${ARCH}-portbld-freebsd${OSREL}
 CONFIGURE_ARGS= --enable-pop --enable-imap --enable-flock --disable-fcntl  \
 		--with-sharedir=${PREFIX}/share/mutt \
 		--with-docdir=${PREFIX}/share/doc/mutt
