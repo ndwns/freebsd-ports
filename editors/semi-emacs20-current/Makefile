@@ -48,7 +48,7 @@ BUILD_DEPENDS+=	nkf:${PORTSDIR}/japanese/nkf
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} >= 300006
-MAKEINFO=	makeinfo --no-split --force
+MAKEINFO=	makeinfo --no-split --no-validate
 .else
 MAKEINFO=	makeinfo --no-split
 .endif

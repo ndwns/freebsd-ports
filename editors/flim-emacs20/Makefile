@@ -39,7 +39,7 @@ EMACS_CMD=	${PREFIX}/bin/${EMACS_NAME}-${EMACS_VER}
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} >= 300006
-MAKEINFO=	makeinfo --no-split --force
+MAKEINFO=	makeinfo --no-split --no-validate
 .else
 MAKEINFO=	makeinfo --no-split
 .endif
