@@ -17,7 +17,10 @@ LIB_DEPENDS=	png\\.0\\.[7-9]:${PORTSDIR}/graphics/png
 
 WRKSRC=		${WRKDIR}/gnuplot
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--exec-prefix=${PREFIX} --with-x --without-linux-vga --with-gnu-readline --with-lasergnu --with-png --includedir=${PREFIX}/include
+CONFIGURE_ARGS=	--exec-prefix=${PREFIX} \
+		--includedir=${PREFIX}/include --libdir=${PREFIX}/lib \
+		--with-x --without-linux-vga \
+		--with-gnu-readline --with-lasergnu --with-png 
 
 MAN1=		gnuplot.1 lasergnu.1
 
