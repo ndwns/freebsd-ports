@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += asmodem
     SUBDIR += bpl+
     SUBDIR += conserver
     SUBDIR += ecu
