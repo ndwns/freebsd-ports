@@ -18,7 +18,7 @@ WRKSRC=		${WRKDIR}
 
 do-build:
 
-	${CC} -o ${WRKSRC}/portscanner ${CFLAGS} ${WRKSRC}/portscanner.c
+	@${CC} -o ${WRKSRC}/portscanner ${CFLAGS} ${WRKSRC}/portscanner.c
 
 do-install:
 
