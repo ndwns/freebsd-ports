@@ -70,6 +70,7 @@
     SUBDIR += makedepend
     SUBDIR += mico
     SUBDIR += mkmf
+    SUBDIR += mm
     SUBDIR += mprof
     SUBDIR += nana
     SUBDIR += nasm
