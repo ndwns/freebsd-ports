@@ -26,8 +26,8 @@
     SUBDIR += play
     SUBDIR += playmidi
     SUBDIR += radio
-    SUBDIR += rosegarden
     SUBDIR += replay
+    SUBDIR += rosegarden
     SUBDIR += rplay
     SUBDIR += rsynth
     SUBDIR += s3mod
