@@ -13,14 +13,15 @@ MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/
 
 MAINTAINER=	cracauer@cons.org
 
+BUILD_DEPENDS=	/compat/linux/usr/lib/libglide2x.so:${PORTSDIR}/emulators/linux_glide \
+		/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devel
+
 ALL_TARGET=	linux-glide
 MAKE_ENV=	PATH=${PREFIX}/usr/bin:$$PATH
 NO_FILTER_SHLIBS=yes
 
 PREFIX=		/compat/linux
 WRKSRC=		${WRKDIR}/Mesa-2.6/src
-BUILD_DEPENDS=	/compat/linux/usr/lib/libglide2x.so:${PORTSDIR}/emulators/linux_glide \
-		/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devel
 
 post-extract:
 	-${MKDIR} ${WRKSRC}/../lib/
