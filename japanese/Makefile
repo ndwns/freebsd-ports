@@ -56,6 +56,5 @@
     SUBDIR += vfxdvi
     SUBDIR += xbakuzan
     SUBDIR += xdvi
-    SUBDIR += xloadface
 
 .include <bsd.port.subdir.mk>
