@@ -214,7 +214,7 @@ build: configure pre-build
 		if [ ! -d ${PORTSDIR}/$$i ]; then \
 			echo ">> No directory for ${PORTSDIR}/$$i.  Skipping.."; \
 		else \
-			(cd ${PORTSDIR}/$$i; ${MAKE}) ; \
+			(cd ${PORTSDIR}/$$i; ${MAKE} all install) ; \
 		fi \
 	done
 	@echo "===>  Returning to build of ${DISTNAME}"
