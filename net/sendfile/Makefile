@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.uni-stuttgart.de/pub/unix/comm/sendfile/current/
 
 MAINTAINER=	sec@42.org
 
+BROKEN= 'single mastersite unreachable'
+
 WRKSRC=		${WRKDIR}/${PKGNAME}
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=makeconfig
