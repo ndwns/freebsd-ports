@@ -20,7 +20,7 @@ BUILD_DEPENDS=		antlr:${PORTSDIR}/devel/pccts \
 WRKSRC=			${WRKDIR}/usr/local/src/cccc-2.1.1
 USE_GMAKE=		yes
 MAKEFILE=		makefile
-MAKE_ENV+=		OSTYPE=FreeBSD
+MAKE_ENV=		OSTYPE=FreeBSD
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/cccc ${PREFIX}/bin

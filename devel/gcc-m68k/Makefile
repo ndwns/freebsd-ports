@@ -24,7 +24,7 @@ GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS=	--target=m68k-coff --with-gnu-as --with-gnu-ld
 
-MAKE_FLAGS+=	LANGUAGES="c c++" SUBDIRS="cp"
+MAKE_FLAGS=	LANGUAGES="c c++" SUBDIRS="cp" -f
 
 MAN1=		cccp.1 m68k-coff-g++.1 m68k-coff-gcc.1
 

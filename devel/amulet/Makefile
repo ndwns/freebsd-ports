@@ -15,7 +15,7 @@ MAINTAINER=	bovynf@awe.be
 
 USE_X_PREFIX=	yes
 WRKSRC=		$(WRKDIR)/amulet
-MAKE_ENV+=	AMULET_DIR=$(WRKSRC) AMULET_VARS_FILE=Makefile.vars.gcc.FreeBSD
+MAKE_ENV=	AMULET_DIR=$(WRKSRC) AMULET_VARS_FILE=Makefile.vars.gcc.FreeBSD
 
 pre-build:
 	${CP} $(FILESDIR)/Makefile.vars.gcc.FreeBSD $(WRKSRC)/bin
