@@ -13,6 +13,7 @@
     SUBDIR += bb
     SUBDIR += chord
     SUBDIR += colorls
+    SUBDIR += comconsole
     SUBDIR += crosspad
     SUBDIR += ctk
     SUBDIR += cwish
