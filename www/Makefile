@@ -95,6 +95,7 @@
     SUBDIR += weblint
     SUBDIR += webstone
     SUBDIR += wml
+    SUBDIR += wmnetselect
     SUBDIR += wn
     SUBDIR += wwwcount
     SUBDIR += wwwoffle
