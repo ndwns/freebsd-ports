@@ -10,13 +10,13 @@ DISTNAME=	xtide-1.6.2
 CATEGORIES=	astro
 MASTER_SITES=	http://www.universe.digex.net/~dave/files/
 DISTFILES=	xtide-1.6.2.tgz harmonics.gz
-EXTRACT_ONLY=	xtide-1.6.2.tgz
 
 MAINTAINER=	brion@queeg.com
 
 # www.universe.digex.net is broken
 FETCH_BEFORE_ARGS=	-t
 
+EXTRACT_ONLY=	xtide-1.6.2.tgz
 USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes
 MAN1=		xtide.1
