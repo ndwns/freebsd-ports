@@ -60,11 +60,7 @@ post-extract:
 	touch ${WRKSRC}/trees.o
 	ln -s ${PORTSDIR}/graphics/jpeg/work/jpeg-6a ${WRKSRC}/jpeg-6a
 	ln -s ${PORTSDIR}/graphics/png/work/libpng-0.96 ${WRKSRC}/libpng
-	cd ${WRKSRC} && unzip ${DISTDIR}/${HP850_DRV}
-.for file in gdevcd8.c gdevcd8.h
-#	( cd ${WRKSRC} && sed -e "s/\\\\,//" < ${file} | sed -e "s/\\//" > ${file}.tmp && mv ${file}.tmp ${file} )
-	( cd ${WRKSRC} && sed -e "s///" < ${file} > ${file}.tmp && mv ${file}.tmp ${file} )
-.endfor
+	cd ${WRKSRC} && unzip -La ${DISTDIR}/${HP850_DRV}
 
 do-configure:
 .if defined(BATCH)
