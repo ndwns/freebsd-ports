@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bwbasic-2.10
-CATEGORIES+=	lang
+CATEGORIES+=	languages
 MASTER_SITES=	ftp://ftp.eng.umd.edu/pub/basic/
 
 MAINTAINER=	msmith@atrad.adelaide.edu.au
