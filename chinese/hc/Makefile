@@ -7,6 +7,7 @@
 # $Id$
 #
 
+DISTNAME=	hc-3.0
 PKGNAME=	zh-hc-3.0
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/convert/  \
@@ -14,7 +15,7 @@ MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/convert/  \
 		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/unix/convert/
 DISTFILES=	hc-30.tar.gz  hc-supp.tab
 
-MAINTAINER=     obrien@NUXI.com
+MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/hc3
 EXTRACT_ONLY=	hc-30.tar.gz

@@ -20,7 +20,7 @@ DISTFILES=	${DISTNAME}.tar.gz  \
 		csong24.ccf.gz ckai24.ccf.gz cfang24.ccf.gz chei24.ccf.gz \
 		cfan24.ccf.gz
 
-MAINTAINER=     obrien@NUXI.com
+MAINTAINER=     obrien@FreeBSD.org
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 WRKSRC=		${WRKDIR}/GB2PS
@@ -36,6 +36,5 @@ do-install:
 	@${MKDIR} ${PREFIX}/share/doc/gb2ps
 	${INSTALL_MAN} ${WRKSRC}/gb2ps.help ${PREFIX}/share/doc/gb2ps
 .endif
-
 
 .include <bsd.port.mk>

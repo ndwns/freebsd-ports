@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.edu.cn/PUB/Chinese/
 #	if the distfile becomes unfetchable again.  Note this ver is slightly
 #	different.
 
-MAINTAINER=     obrien@NUXI.com
+MAINTAINER=     obrien@FreeBSD.org
 
 MAN1=		celvis.1
 

@@ -18,10 +18,10 @@ MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/print/  \
 		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/fonts/gb/misc/
 DISTFILES=	gbscript-1.11.tar.gz cclib.24
 
-MAINTAINER=     obrien@NUXI.com
+MAINTAINER=     obrien@FreeBSD.org
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
-MAKEFILE=	makefile 
+MAKEFILE=	makefile
 CFLAG+=		-DPROLOGUE_PATH=\"${PREFIX}/share/chinese/gb\"
 
 do-install:
@@ -29,6 +29,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gbscript ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/gbscript.pro ${PREFIX}/share/chinese/gb
 	${INSTALL_DATA} ${DISTDIR}/cclib.24 ${PREFIX}/share/chinese/gb
-
 
 .include <bsd.port.mk>
