@@ -12,6 +12,7 @@
     SUBDIR += fvwm95
     SUBDIR += gwm
     SUBDIR += icewm
+    SUBDIR += iconmaker
     SUBDIR += lwm
     SUBDIR += mlvwm
     SUBDIR += olvwm
