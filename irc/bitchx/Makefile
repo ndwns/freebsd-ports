@@ -1,13 +1,13 @@
 # New ports collection makefile for:	BitchX ircII client
-# Version required:	74p2
+# Version required:	74p4
 # Date created:		26 Jan 1998
 # Whom:			griffin
 #
 # $Id$
 #
 
-DISTNAME=	ircii-pana-74p2
-PKGNAME=	bitchx-74p2
+DISTNAME=	ircii-pana-74p4
+PKGNAME=	bitchx-74p4
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.bitchx.com/pub/BitchX/source/
 
