@@ -9,8 +9,7 @@
 DISTNAME=	plor-0.3.1
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.psy.unipd.it/pub/pluto/developers/ \
-		ftp://ftp.unipd.it/pub/Linux/pluto/developers/ \
-		ftp://ftp.linux.it/pub/Pluto/developers/
+		ftp://ftp.unipd.it/pub/Linux/pluto/developers/
 
 MAINTAINER=	hoek@FreeBSD.ORG
 
