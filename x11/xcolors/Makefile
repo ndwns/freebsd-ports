@@ -18,9 +18,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 FETCH_DEPENDS=	ncftp2:${PORTSDIR}/net/ncftp2
 
-WRKSRC=		${WRKDIR}/pub/R6untarred/contrib/programs/xcolors
-NCFTP=		ncftp2
-NCFTPFLAGS=
+WRKSRC=		${WRKDIR}/xcolors
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>
