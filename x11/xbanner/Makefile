@@ -15,6 +15,8 @@ MASTER_SITE_SUBDIR=X11/xutils
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_X_PREFIX=	yes
 #USE_IMAKE=	yes
 
