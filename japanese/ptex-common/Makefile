@@ -14,6 +14,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} web-7.0.tar.gz texmflib-7.2.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
 USE_GMAKE=	yes
 STRIP=		# some shell scripts
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX} web-7.0.tar.gz
