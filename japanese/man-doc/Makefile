@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	jpman-3.0
-PKGNAME=	ja-man-doc-3.0
+DISTNAME=	jpman-3.1
+PKGNAME=	ja-man-doc-3.1
 CATEGORIES=	japanese
 DISTFILES=	# none
 
