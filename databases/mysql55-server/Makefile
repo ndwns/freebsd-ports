@@ -16,6 +16,10 @@ MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/My
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		doesn\'t build on the alpha yet
+.endif
+
 Y2K=            http://www.tcx.se/Manual_chapter/manual_Introduction.html#Year_2000_compliance
 
 MAN1=		mysql.1
