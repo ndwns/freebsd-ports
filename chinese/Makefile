@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += CJK
     SUBDIR += Wnn
     SUBDIR += bg5ps
     SUBDIR += big5con
