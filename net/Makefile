@@ -113,6 +113,7 @@
     SUBDIR += p5-Archie
     SUBDIR += p5-Net
     SUBDIR += p5-Net-DNS
+    SUBDIR += p5-Net-RawIP
     SUBDIR += p5-Net-Telnet
     SUBDIR += p5-Net-Whois
     SUBDIR += p5-SNMP
