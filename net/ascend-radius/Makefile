@@ -37,9 +37,9 @@ do-install:
 		done
 		for file in ChangeLog README README.cexample README.dict; do \
 			${INSTALL_DATA} ${WRKDIR}/${WRKPREFIX}/$$file ${PREFIX}/share/doc/ascend-radius; \
+		done
 		${INSTALL_DATA} ${DISTDIR}/radius-961029.ps ${PREFIX}/share/doc/ascend-radius
 		${INSTALL_DATA} ${DISTDIR}/radius-961029.pdf ${PREFIX}/share/doc/ascend-radius
-		done
 .endif
 		@ ${MKDIR} ${PREFIX}/etc/raddb
 		@ chown root.wheel ${PREFIX}/etc/raddb
