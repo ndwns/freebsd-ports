@@ -7,7 +7,9 @@
 #
 
 VERSION=	3.1
-DISTNAME=	iv-${VERSION}
+# don't change this to "=" !
+DISTNAME?=	iv-${VERSION}
+MASTER_SITES=	ftp://interviews.stanford.edu/pub/
 EXTRACT_SUFX=	.tar.Z
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
@@ -18,7 +20,7 @@ MAKEFILE=	makefile
 pre-fetch:
 	@if [ ! -f ${DISTDIR}/${DISTFILES} ]; then \
 	    mkdir -p ${DISTDIR}/${DISTNAME} ; \
-	    ${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
+	    ${MAKE} \
 		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch ; \
 	    mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFX} \
 		${DISTDIR}/${DISTFILES} ; \
