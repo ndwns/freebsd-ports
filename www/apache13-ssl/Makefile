@@ -73,12 +73,7 @@ pre-fetch:
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES
 pre-build:
-	@${ECHO} If you are USA resident, then this port is broken for you.
-	@${ECHO} I am unable to get some of the necessary goodies, so
-	@${ECHO} please assist by fixing this and sending me the patches.
-	@${ECHO} Thanks\!
-	${PATCH} <${FILESDIR}/Makefile.rsa.patch
-BROKEN=     "RSAref code doesn't apply cleanly"
+	cd ${WRKSRC} && ${PATCH} -p2 <${FILESDIR}/Makefile.rsa.patch
 .endif
 .endif
 
