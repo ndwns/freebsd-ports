@@ -32,6 +32,7 @@
     SUBDIR += modula-3-lib
     SUBDIR += modula-3-socks
     SUBDIR += moscow_ml
+    SUBDIR += objc
     SUBDIR += ocaml
     SUBDIR += p2c
     SUBDIR += p5-Tcl
@@ -53,6 +54,7 @@
     SUBDIR += tcl75
     SUBDIR += tcl76
     SUBDIR += tcl80
+    SUBDIR += tclX75
     SUBDIR += xpl
 
 .include <bsd.port.subdir.mk>
