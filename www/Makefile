@@ -19,6 +19,7 @@
     SUBDIR += gwstat
     SUBDIR += harvest
     SUBDIR += http-analyze
+    SUBDIR += hypermail
     SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linemode
