@@ -1,22 +1,20 @@
 # New ports collection makefile for:	xzx
-# Version required:     2.4.4
+# Version required:     2.6.1
 # Date created:         13 Nov 1997
 # Whom:                 Sheldon Hearn <axl@iafrica.com>
 #
 # $Id$
 #
 
-DISTNAME=	xzx-2.4.4
+DISTNAME=	xzx-2.6.1
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.gns.getronics.nl/pub/os/sinclair/emulators/unix/
-DISTFILES=	xzx-2.4.4-src.tar.gz \
-		xzx-2.4.4-roms.tar.gz \
-		xzx-2.4.4-contrib.tar.gz
 
 MAINTAINER=	axl@iafrica.com
 
-USE_IMAKE=	yes
+USE_X_PREFIX=	yes
+GNU_CONFIGURE=	yes
+
 MAN1=		xzx.1
-MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
