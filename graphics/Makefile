@@ -35,6 +35,7 @@
     SUBDIR += xfractint
     SUBDIR += xgrasp
     SUBDIR += xli
+    SUBDIR += xmandel
     SUBDIR += xmfract
     SUBDIR += xmorph
     SUBDIR += xpaint
