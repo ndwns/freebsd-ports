@@ -23,8 +23,6 @@ MASTER_SITES=   ftp://ftp.gimp.org/pub/gimp/v${MAJOR}.${MINOR}/v${VERSION}/ \
 
 MAINTAINER=     erich@FreeBSD.org
 
-BROKEN=		fetch
-
 LIB_DEPENDS+=	gtk\\.1\\.0:${PORTSDIR}/x11/gtk
 LIB_DEPENDS+=	png\\.0\\.[7-9]:${PORTSDIR}/graphics/png
 LIB_DEPENDS+=	jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
