@@ -40,5 +40,6 @@
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
+    SUBDIR += yamsweeper
 
 .include <bsd.port.subdir.mk>
