@@ -62,6 +62,7 @@
     SUBDIR += perl5
     SUBDIR += pine
     SUBDIR += pkfonts
+    SUBDIR += plain2
     SUBDIR += platex
     SUBDIR += prn
     SUBDIR += ptex2
