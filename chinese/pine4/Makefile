@@ -9,7 +9,8 @@
 DISTNAME=       pine4.00
 PKGNAME=        zh-pine-4.00
 CATEGORIES=     chinese mail news
-MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
+MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/old/
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	avatar@www.mmlab.cse.yzu.edu.tw
 
