@@ -27,6 +27,7 @@ PATCHFILES=	egcs-970924-pgcc-970924.diff.gz \
 
 FETCH_DEPENDS=	${PREFIX}/bin/autoconf:${PORTSDIR}/devel/autoconf
 
+BROKEN=		"problems during patch, PLIST needs closer look"
 WRKSRC=		${WRKDIR}/egcs-970924
 PATCH=		patch -p1
 HAS_CONFIGURE=	yes
