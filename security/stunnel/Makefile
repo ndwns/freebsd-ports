@@ -11,8 +11,7 @@ CATEGORIES=	security
 MASTER_SITES=	http://mike.daewoo.com.pl/computer/stunnel/ \
 		ftp://ftp.fu-berlin.de/unix/security/stunnel/ \
 		ftp://ftp.uni-freiburg.de/pub/net/stunnel/ \
-		ftp://ftp.all.de/pub2/unix/security/stunnel/ \
-		http://mike.daewoo.com.pl/computer/stunnel/
+		ftp://ftp.all.de/pub2/unix/security/stunnel/
 
 MAINTAINER=	martti.kuparinen@ericsson.com
 
