@@ -27,6 +27,7 @@
     SUBDIR += mailagent
     SUBDIR += mailcrypt
     SUBDIR += maildrop
+    SUBDIR += mailx
     SUBDIR += majorcool
     SUBDIR += majordomo
     SUBDIR += mbx2mbox
@@ -59,6 +60,8 @@
     SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += qmail
+    SUBDIR += qmail-contrib
+    SUBDIR += qmailanalog
     SUBDIR += rblcheck
     SUBDIR += rblsmtpd
     SUBDIR += rftp
