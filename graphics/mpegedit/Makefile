@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.demon.co.uk/.d2/unix/unix/tools/
 
 MAINTAINER=	erich@FreeBSD.org
 
+BUILD_DEPENDS=	${PREFIX}/include/pbmplus.h:${PORTSDIR}/graphics/netpbm
+
 USE_X11=	yes
 
 .include <bsd.port.mk>
