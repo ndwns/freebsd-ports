@@ -36,12 +36,12 @@ post-install:
 	@ newfs -u 0 -t 0 -i 196608 -m 0 -T minimum -o space /dev/rfd0c
 	@ mount /dev/fd0c /mnt
 	@ ${GZIP_CMD} < ${PREFIX}/bin/tripwire > /mnt/tripwire
-	@ chmod 555 /mnt/tripwire
 	@ ${CP} -p /var/adm/tcheck/tw.config /mnt/tw.config
 	@ ${GZIP_CMD} < /var/adm/tcheck/databases/tw.db_`hostname` \
 		> /mnt/tw.db_`hostname`.gz
 	@ ${CP} -p ${FILESDIR}/twcheck /mnt/twcheck
 	@ ${GZIP_CMD} < /usr/bin/gunzip > /mnt/gunzip
+	@ chmod 555 /mnt/tripwire /mnt/gunzip /mnt/twcheck
 	@ umount /mnt
 	@ ${ECHO} Do not forget to remove and write-protect the floppy.
 .endif
