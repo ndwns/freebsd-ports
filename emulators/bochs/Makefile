@@ -17,7 +17,7 @@ MASTER_SITES= 	ftp://ftp.std.com/pub/bochs/
 MAINTAINER=	alex@FreeBSD.ORG
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS+=--enable-80386 --enable-debugger --enable-memory=16 \
+CONFIGURE_ARGS=	--enable-80386 --enable-debugger --enable-memory=16 \
 	--enable-v8086-mode --enable-paging --enable-vga \
 	--enable-bochs-bios-hooks --enable-dma-floppy-io \
 	--enable-processor-ips=200000
