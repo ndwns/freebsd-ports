@@ -24,7 +24,7 @@ DISTFILES=	quake101.zip \
 
 MAINTAINER=	jfitz@freebsd.org
 
-FETCH_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
+BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
 		lha:${PORTSDIR}/archivers/lha
 
 RUN_DEPENDS=	expect:${PORTSDIR}/lang/expect \
