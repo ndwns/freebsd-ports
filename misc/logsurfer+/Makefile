@@ -10,7 +10,7 @@ DISTNAME=	logsurfer-1.41
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.fh-rosenheim.de/pub/mirror/cert.dfn/tools/audit/logsurfer/ \
 		ftp://ftp.tuwien.ac.at/infosys/security/dfn/tools/audit/logsurfer/ \
-		ftp://ftp.uni-magdeburg.de/pub/mirror/ftp.cert.dfn.de/tools/audit/logsurfer/ \
+		ftp://ftp.uni-magdeburg.de/pub/mirror/ftp.cert.dfn.de/tools/audit/logsurfer/
 
 MAINTAINER=	shanee@augusta.de
 
