@@ -16,7 +16,7 @@ MAINTAINER=     jkh@FreeBSD.org
 WRKSRC=		${WRKDIR}/spegla
 
 post-install:
-	@mkdir -p ${PREFIX}/share/examples/spegla
-	${INSTALL} -c -m 444 ${WRKSRC}/freebsd.org ${PREFIX}/share/examples/spegla
+	@${MKDIR} ${PREFIX}/share/examples/spegla
+	${INSTALL_DATA} ${WRKSRC}/freebsd.org ${PREFIX}/share/examples/spegla
 
 .include <bsd.port.mk>
