@@ -14,7 +14,7 @@ MAINTAINER=	mi@aldan.ziplink.net
 
 # Yes, CCFLAGS, not CFLAGS! -mi
 MAKE_FLAGS=	CCFLAGS="${CFLAGS}" CC="${CC}"
-WRKSRC=	work/jbigkit
+WRKSRC= ${WRKDIR}/jbigkit
 MAN1=	jbgtopbm.1 pbmtojbg.1
 MAN5=	pbm.5
 
