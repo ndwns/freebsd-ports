@@ -9,7 +9,7 @@
 DISTNAME=       zsh-2.6-beta8
 PKGNAME=	zsh-2.6b8
 CATEGORIES+=	shells
-MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/
+MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/src/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
