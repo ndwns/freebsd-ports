@@ -25,5 +25,6 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/glimpse
 	${INSTALL_DATA} ${WRKSRC}/COPYRIGHT ${PREFIX}/share/doc/glimpse
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/glimpse
+	${INSTALL_PROGRAM} ${WRKSRC}/index/wgconvert ${PREFIX}/bin
 
 .include <bsd.port.mk>
