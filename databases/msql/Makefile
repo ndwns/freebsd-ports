@@ -13,7 +13,7 @@ MASTER_SITES=	http://www2.nerosworld.com/msql/ \
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BROKEN=yes
+BROKEN=	"PR 5868 : PLIST broken, not PREFIX clean"
 
 # Not free for commercial use.  Must create a user on the local system
 NO_PACKAGE=	YES
