@@ -16,4 +16,6 @@ MAINTAINER= 	jmacd@FreeBSD.ORG
 
 BROKEN_ELF=	yes
 
+USE_XLIB=	yes
+
 .include <bsd.port.mk>
