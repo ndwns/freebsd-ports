@@ -1,13 +1,13 @@
 # New ports collection makefile for:	freeciv
-# Version required:	1.46
+# Version required:	1.51
 # Date created:		Jun 20 1997
 # Whom:			ada@bsd.org
 #
 # $Id$
 #
 
-DISTNAME=	freeciv-150
-PKGNAME=	freeciv-1.50
+DISTNAME=	freeciv-151
+PKGNAME=	freeciv-1.51
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.daimi.aau.dk/pub/stud/pjunold/freeciv/
 EXTRACT_SUFX=	.tgz
