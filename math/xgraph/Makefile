@@ -8,7 +8,9 @@
 
 DISTNAME=	xgraph-11.3.2
 CATEGORIES=	math print
-MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/misc/
+MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/misc/ \
+		ftp://ftp.tk.mesh.ad.jp/pub/X/misc/ \
+		ftp://ftp.eos.hokudai.ac.jp/pub/X11/misc/
 
 MAINTAINER=	ports@FreeBSD.ORG
 

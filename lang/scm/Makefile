@@ -9,12 +9,11 @@
 DISTNAME=       scm
 PKGNAME=	scm-4e1
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.swiss.ai.mit.edu/archive/scm/OLD/ \
-		ftp://swiss-ftp.ai.mit.edu/pub/scm/ \
-		ftp://swiss-ftp.ai.mit.edu/pub/scm/OLD/
-DISTFILES=      scm4e1.tar.gz \
-		slib.info.tar.gz slib2a2.tar.gz slib-psd1-3.tar.gz \
-		scmconfig4e1.tar.gz
+MASTER_SITES=	ftp://ftp.cs.oswego.edu/pub/Z/unix/scheme/ \
+		ftp://ftp.swiss.ai.mit.edu/pub/scm/ \
+		ftp://ftp.swiss.ai.mit.edu/pub/scm/OLD/
+DISTFILES=      scm4e1.tar.gz slib.info.tar.gz slib2a2.tar.gz \
+		slib-psd1-3.tar.gz scmconfig4e1.tar.gz
 
 MAINTAINER=	ports@FreeBSD.org
 

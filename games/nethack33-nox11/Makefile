@@ -8,7 +8,7 @@
 
 DISTNAME=	nethack-3.2.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.uu.net/pub/games/nethack/sources/ \
+MASTER_SITES=	ftp://ftp.wtower.com/nethack/sources/ \
 		${MASTER_SITE_GNU}
 
 MAINTAINER=	ports@FreeBSD.ORG

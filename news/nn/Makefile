@@ -8,8 +8,8 @@
 
 DISTNAME=	nn-6.5.3
 CATEGORIES=	news
-#MASTER_SITES=	ftp://ftp.isca.uiowa.edu/unix/nn/
-MASTER_SITES=	ftp://ftp.visi.com/users/mtpins/
+MASTER_SITES=	ftp://ftp.visi.com/users/mtpins/ \
+		ftp://maroon.webmaster.com/pub/nn/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     ports@FreeBSD.ORG

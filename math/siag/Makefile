@@ -8,7 +8,8 @@
 
 DISTNAME=	siag-2.80
 CATEGORIES=	math
-MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/
+MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/OLD/ \
+		ftp://ftp.icm.edu.pl/site/siag/OLD/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tsiag-2.80.tar.gz
 
 MAINTAINER=	ports@freebsd.org
