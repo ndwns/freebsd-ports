@@ -53,6 +53,7 @@
     SUBDIR += upsmon
     SUBDIR += webmin
     SUBDIR += wmavgload
+    SUBDIR += wminet
     SUBDIR += wmmon
     SUBDIR += wmmount
     SUBDIR += xbatt
