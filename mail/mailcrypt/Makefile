@@ -13,6 +13,8 @@ MASTER_SITE_SUBDIR=	mailcrypt
 
 MAINTAINER=	murray@cdrom.com
 
+BROKEN= 	"requires emacs to build but has no dependency for it."
+
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
