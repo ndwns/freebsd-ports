@@ -5,6 +5,7 @@
     SUBDIR += bclock
     SUBDIR += dclock
     SUBDIR += emiclock
+    SUBDIR += eyeclock
     SUBDIR += mlclock
     SUBDIR += mouseclock
     SUBDIR += rclock
