@@ -29,7 +29,7 @@ IS_INTERACTIVE= "user must set JADETEX variable to 'yes' or 'no'"
 
 JADETEX?=
 
-.if empty(JADETEX) && (make(fetch) || make(build) || make(install))
+.if empty(JADETEX) && (make(build) || make(install))
 .BEGIN:
 	@${CAT} files/JADETEX
 	@${FALSE}
