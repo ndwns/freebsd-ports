@@ -28,6 +28,7 @@
     SUBDIR += su2
     SUBDIR += tcplist
     SUBDIR += tua
+    SUBDIR += ucspi-tcp
     SUBDIR += upsd
     SUBDIR += xbatt
     SUBDIR += xcpustate
