@@ -1,25 +1,23 @@
 # New ports collection makefile for:	xfmail
 # http://Burka.NetVision.net.il/xfmail/xfmail.html
-# Version required:     1.1
+# Version required:     1.2
 # Date created:		30 June 1996
 # Whom:			gena
 #
 # $Id$
 #
 
-DISTNAME=       xfmail-1.1
-CATEGORIES=     mail
+DISTNAME=       xfmail-1.2
+CATEGORIES=     x11 mail
 MASTER_SITES=	ftp://burka.netvision.net.il/pub/xfmail/
 
-MAINTAINER=	andreas@FreeBSD.ORG
+MAINTAINER=	gena@NetVision.net.il
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		xforms\\.0\\.86:${PORTSDIR}/x11/xforms
+		xforms\\.0\\.88:${PORTSDIR}/x11/xforms
 
-WRKSRC=		${WRKDIR}/xfmail/ui
 USE_X11=	yes
-
-pre-configure:
-	@(cd ${WRKSRC} ; ${CP} Makefile.FreeBSD Makefile)
+GNU_CONFIGURE=	yes
+MAN1=		xfmail.1
 
 .include <bsd.port.mk>
