@@ -1,4 +1,4 @@
-# New port collection makefile for:	ircd-hybrid
+# New ports collection makefile for:	ircd-hybrid
 # Version required:	5
 # Date created:		9 January 1998
 # Whom:			desmo@bandwidth.org
