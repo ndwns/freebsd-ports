@@ -9,9 +9,9 @@
 DISTNAME=	oneko-1.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cin.nihon-u.ac.jp/pub/Linux/PJE/PJE-0.1.2/sources/xclt/ \
-		http://www.asahi-net.or.jp/~ZW6T-KND/oneko/
+		http://hp.vector.co.jp/authors/VA004959/oneko/
 
-MAINTAINER=	candy@fct.kgc.co.jp
+MAINTAINER=	candy@kgc.co.jp
 
 USE_IMAKE=	yes
 MAN6=		oneko.6
