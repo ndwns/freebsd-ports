@@ -14,6 +14,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} MesaDemos-3.0beta6.tar.gz
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
+MANUAL_PACKAGE_BUILD=	shlib version conflict
+
 WRKSRC=		${WRKDIR}/Mesa-3.0
 
 ALL_TARGET=	freebsd
