@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	postgresql-v6.4
+PKGNAME=	postgresql-6.4
 CATEGORIES=	databases
 MASTER_SITES=	ftp://ftp.postgresql.org/pub/
 
