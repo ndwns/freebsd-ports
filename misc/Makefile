@@ -46,6 +46,7 @@
     SUBDIR += viz
     SUBDIR += xcalendar
     SUBDIR += xgas
+    SUBDIR += xinvest
     SUBDIR += xless
     SUBDIR += xmaddressbook
     SUBDIR += xopps
