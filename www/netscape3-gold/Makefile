@@ -6,9 +6,11 @@
 # $Id$
 #
 
-GOLD=	yes
-MASTERDIR=	${.CURDIR}/../netscape3
+DISTNAME=	netscape-gold-3.04
+MASTER_SITES=	ftp://archive:oldies@archive.netscape.com/archive/navigator/3.04/shipping/english/unix/bsdi11/navigator_gold_complete/
 
-Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+DIST_SUBDIR=	gold
+COMMENT=	${.CURDIR}/pkg/COMMENT
+MASTERDIR=	${.CURDIR}/../netscape3
 
 .include "${MASTERDIR}/Makefile"
