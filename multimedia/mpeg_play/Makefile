@@ -1,19 +1,19 @@
 # New ports collection makefile for:	mpeg_play
-# Version required:	2.0
+# Version required:	2.2
 # Date created:		17 December 1994
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	mpeg_play-2.0
+DISTNAME=	mpeg_play-2.2
 CATEGORIES+=	graphics
-MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/
-EXTRACT_SUFX=	.tar.Z
+MASTER_SITES=	ftp://s2k-ftp.cs.berkeley.edu/pub/multimedia/mpeg/play/
+EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-NO_WRKSUBDIR=	yes
+WRKSRC=		${WRKDIR}/mpeg_play
 USE_IMAKE=	yes
 
 pre-patch:
