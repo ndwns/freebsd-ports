@@ -3,6 +3,8 @@
 
     SUBDIR += afio
     SUBDIR += manck
+    SUBDIR += rtty
+    SUBDIR += socket
     SUBDIR += sudo
     SUBDIR += top
     SUBDIR += tua
