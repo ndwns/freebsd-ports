@@ -9,7 +9,8 @@
 DISTNAME=	koules1.4-src
 PKGNAME=	xkoules-1.4
 CATEGORIES=	games
-MASTER_SITES=	http://www.paru.cas.cz/~hubicka/koules/packages/
+MASTER_SITES=	http://www.paru.cas.cz/~hubicka/koules/packages/ \
+		${MASTER_SITE_SUNSITE}
 
 MAINTAINER=	andy@icc.surw.chel.su
 
@@ -24,6 +25,8 @@ do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/koules.sndsrv.freebsd ${PREFIX}/share/xkoules
 	@ ${INSTALL_DATA} ${WRKSRC}/sounds/*.raw ${PREFIX}/share/xkoules
 	@ ${INSTALL_MAN} ${WRKSRC}/xkoules.6 ${PREFIX}/man/man6
+
+post-install:
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/xkoules
 .for file in ANNOUNCE BUGS COPYING Card ChangeLog Koules.FAQ TODO
