@@ -4,6 +4,7 @@
 RESTRICTED += Mosaic         # requires Motif
     SUBDIR += apache
 RESTRICTED += ashe           # requires Motif
+    SUBDIR += cached
     SUBDIR += cern_httpd
     SUBDIR += cern_linemode
     SUBDIR += chimera
