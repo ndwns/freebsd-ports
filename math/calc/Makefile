@@ -10,14 +10,14 @@ DISTNAME=	calc-2.9.3t6
 PKGNAME=	calc-2.9.3
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/bsd-sources/4.4BSD-Lite/usr/src/contrib/
+EXTRACT_SUFX=	.tar
 
 MAINTAINER=	jmz@FreeBSD.org
 
+EXTRACT_BEFORE_ARGS=	-xf
+
 MAN1=		calc.1
 IGNOREFILES=	${DISTFILES}	# "on-the-fly" creation of tarball
-
-pre-patch:
-	@cd ${WRKDIR} && mv pub/bsd-sources/4.4BSD-Lite/usr/src/contrib/calc-2.9.3t6 .
 
 pre-install:
 	@${MKDIR} ${PREFIX}/lib/calc/help
