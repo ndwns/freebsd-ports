@@ -20,6 +20,7 @@ do-install:
 	${INSTALL} -d -m 755 -o ${DOCOWN} -g ${DOCGRP} \
 		${PREFIX}/share/doc/omi
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/omi
+	${INSTALL_DATA} ${WRKSRC}/CHANGES ${PREFIX}/share/doc/omi
 	${INSTALL_DATA} ${WRKSRC}/BSD-COPYRIGHT ${PREFIX}/share/doc/omi
 
 .include <bsd.port.mk>
