@@ -6,14 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	tcsh-6.08
-PKGNAME=	ja-tcsh-6.08.00
+DISTNAME=	tcsh-6.08.02
+PKGNAME=	ja-tcsh-6.08.02
 CATEGORIES=	japanese shells
-MASTER_SITES=	ftp://ftp.astron.com/pub/tcsh/
+MASTER_SITES=	ftp://ftp.astron.com/pri/
 
 MAINTAINER=	issei@jp.FreeBSD.ORG
-
-WRKSRC=		${WRKDIR}/tcsh-6.08.00
 
 GNU_CONFIGURE=	yes
 ALL_TARGET=	all catalogs
