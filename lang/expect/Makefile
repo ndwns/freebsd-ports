@@ -9,8 +9,7 @@
 DISTNAME=	expect
 PKGNAME=	expect-5.25
 CATEGORIES=	lang tcl80 tk80
-MASTER_SITES=	http://expect.nist.gov/ \
-		ftp://expect.nist.gov/mel/div826/subject/expect/
+MASTER_SITES=	http://expect.nist.gov/
 
 MAINTAINER=	ports@freebsd.org
 
