@@ -93,6 +93,10 @@ do-install:
 				${PREFIX}/${DISTNAME}/www/bb-info.html
 	${INSTALL_DATA} ${WRKSRC}/www/bb-page.html \
 				${PREFIX}/${DISTNAME}/www/bb-page.html
+	${INSTALL_SCRIPT} ${WRKSRC}/www/bb-pager.sh \
+				${PREFIX}/www/cgi-bin/bb-pager.sh
+	@ln -sf ${PREFIX}/www/cgi-bin/bb-pager.sh \
+				${PREFIX}/${DISTNAME}/www/bb-pager.sh
 	${INSTALL_DATA} ${WRKSRC}/www/gifs/bb-diag.gif \
 				${PREFIX}/${DISTNAME}/www/gifs/bb-diag.gif
 	${INSTALL_DATA} ${WRKSRC}/www/gifs/bb.gif \
@@ -128,7 +132,6 @@ do-install:
 	@${RM} -f ${PREFIX}/www/data/bb
 	@ln -sf ${PREFIX}/${DISTNAME}/www ${PREFIX}/www/data/bb
 	@ln -sf bb.html ${PREFIX}/${DISTNAME}/www/index.html
-	@ln -sf ${PREFIX}/${DISTNAME}/bin/bb-page.sh ${PREFIX}/www/cgi-bin
 	@echo ""
 	@echo "================================================================"
 	@echo "==== Configuration Notes:                                    ==="
