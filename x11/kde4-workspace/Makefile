@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdebase-1.1pre2
+DISTNAME=	kdebase-1.1
 CATEGORIES=	misc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
+MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
@@ -29,3 +29,5 @@ MAKE_ENV=	RM=${RM}
 CFLAGS+=	"-I$(PREFIX)/include"
 
 .include <bsd.port.mk>
+
+#CONFIGURE_ARGS+="--with-install-root=/data/kde"

@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdelibs-1.1pre2
+DISTNAME=	kdelibs-1.1
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
+MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 

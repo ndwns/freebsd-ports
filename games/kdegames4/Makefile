@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdegames-1.1pre2
+DISTNAME=	kdegames-1.1
 CATEGORIES=	games kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1pre2/distribution/tar/generic/source
+MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
@@ -28,3 +28,5 @@ CONFIGURE_ENV= CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
 
 .include <bsd.port.mk>
+
+#CONFIGURE_ARGS+="--with-install-root=/data/kde"

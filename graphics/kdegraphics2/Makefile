@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdegraphics-1.1pre2
+DISTNAME=	kdegraphics-1.1
 CATEGORIES=	graphics kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.2pre1/distribution/tar/generic/source
+MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
@@ -27,3 +27,5 @@ CFLAGS+=	"-I${PREFIX}/include"
 USE_GMAKE=	yes
 
 .include <bsd.port.mk>
+
+#CONFIGURE_ARGS+="--with-install-root=/data/kde"
