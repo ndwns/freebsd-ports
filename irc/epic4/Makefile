@@ -13,7 +13,6 @@ MASTER_SITES=	ftp://ftp.epicsol.org/pub/epic/EPIC4-BETA/ \
 		ftp://totem.fix.no/pub/mirrors/epic/EPIC4-BETA/
 DISTFILES=	epic4pre2.003.tar.gz epic4pre2-help.tar.gz
 
-
 MAINTAINER=	benhutch@xfiles.org.uk
 
 DIST_SUBDIR=	epic4
