@@ -18,7 +18,8 @@ BUILD_DEPENDS=  ${LOCALBASE}/lib/perl5/site_perl/5.005/i386-freebsd/Gtk.pm:${POR
 LIB_DEPENDS=	esd.0:${PORTSDIR}/audio/esound \
 		Fnlib.0:${PORTSDIR}/graphics/fnlib \
 		gif.3:${PORTSDIR}/graphics/giflib \
-		Imlib.1:${PORTSDIR}/graphics/imlib
+		Imlib.1:${PORTSDIR}/graphics/imlib \
+		tiff.4${PORTSDIR}/graphics/tiff34	
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
