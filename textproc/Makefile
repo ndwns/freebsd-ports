@@ -6,6 +6,7 @@
     SUBDIR += br-ispell
     SUBDIR += c2html
     SUBDIR += catdoc
+    SUBDIR += cocoon
     SUBDIR += dict
     SUBDIR += docbook
     SUBDIR += docbook-241
