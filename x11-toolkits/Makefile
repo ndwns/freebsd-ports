@@ -35,6 +35,7 @@
     SUBDIR += tk81
     SUBDIR += tkstep80
     SUBDIR += v
+    SUBDIR += wxgtk
     SUBDIR += xbae
     SUBDIR += xforms
     SUBDIR += xg
