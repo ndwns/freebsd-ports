@@ -18,6 +18,7 @@
     SUBDIR += cwish
     SUBDIR += deco
     SUBDIR += dejagnu
+    SUBDIR += delay
     SUBDIR += diction
     SUBDIR += display
     SUBDIR += dotfile
