@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/CVSup/ \
 
 MAINTAINER=	jdp@FreeBSD.org
 
+BROKEN_ELF=	depends on mulda-3
+
 BUILD_DEPENDS=	m3build-6:${PORTSDIR}/lang/modula-3
 LIB_DEPENDS=	m3.6:${PORTSDIR}/lang/modula-3-lib
 

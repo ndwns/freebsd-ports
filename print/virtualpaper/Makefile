@@ -13,6 +13,8 @@ DISTFILES=	sources.tar.Z
 
 MAINTAINER=	jdp@FreeBSD.org
 
+BROKEN_ELF=	depends on modula-3
+
 BUILD_DEPENDS=	m3build-6:${PORTSDIR}/lang/modula-3
 LIB_DEPENDS=	m3.6:${PORTSDIR}/lang/modula-3-lib
 
