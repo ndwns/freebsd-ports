@@ -7,12 +7,10 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.41H.freebsd
-#DISTNAME=	lsof_4.40_W
-PKGNAME=	lsof-4.40h
+DISTNAME=	lsof_4.41_W
+PKGNAME=	lsof-4.41
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
-		ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/NEW/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
 		ftp://ftp.auscert.org.au/pub/mirrors/vic.cc.purdue.edu/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
@@ -33,7 +31,6 @@ BROKEN=	'please install kernel source for offical package builds'
 .endif
 .endif
 
-.if 0
 SRCBALL_NAME=	${DISTNAME:S/_W$//}
 
 post-extract:
@@ -46,11 +43,9 @@ post-extract:
 		exit 1 ; \
 	fi ; \
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS:S/z//} ${SRCBALL_NAME}.tar \
+	${EXTRACT_AFTER_ARGS} \
 	)
 	@( cd ${WRKSRC} ; echo "y" | ./Inventory || exit 1 )
-.else
-WRKSRC=${WRKDIR}/lsof_4.41H.freebsd
-.endif
 
 #pre-patch:
 #	@${ECHO_MSG} "===>  Applying distribution patches for ${PKGNAME}"
@@ -75,6 +70,5 @@ post-install:
 	@${ECHO} "* with respect to your running kernel (i.e. not new than). *"
 	@${ECHO} "************************************************************"
 .endif
-
 
 .include <bsd.port.mk>
