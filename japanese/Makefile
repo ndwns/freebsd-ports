@@ -10,6 +10,7 @@
     SUBDIR += camltk41
     SUBDIR += cdrom2
     SUBDIR += chimera
+    SUBDIR += diclookup-mule
     SUBDIR += dserver
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
