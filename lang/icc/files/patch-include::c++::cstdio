@@ -1,11 +1,5 @@
 --- include/c++/cstdio.orig	Wed Mar 17 14:14:58 2004
 +++ include/c++/cstdio	Wed Mar 17 14:17:22 2004
-@@ -1,4 +1,4 @@
--/* static char cvs_id[] = "$Id$"; */
-+/* static char cvs_id[] = "$Id$"; */
- // cstdio standard header
- #ifndef _CSTDIO_
- #define _CSTDIO_
 @@ -13,40 +13,6 @@
   #include <stdio.h>
  #endif /* _STD_USING */
