@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	giftrans
-PKGNAME=        giftrans-1.12
+PKGNAME=	giftrans-1.12
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://ftp.lab.kdd.co.jp/infosystems/misc/tools/
+MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/infosystems/misc/tools/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 CONFIGURE_ENV=	X11BASE=${X11BASE}
 MAN1=		giftrans.1

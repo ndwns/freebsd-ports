@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	xmold
-PKGNAME=        xmold-1.0
+PKGNAME=	xmold-1.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://cclub.tutcc.tut.ac.jp/pub/xwin/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_IMAKE=	yes
 

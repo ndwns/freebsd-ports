@@ -8,11 +8,11 @@
 
 DISTNAME=	recjis-1.0
 PKGNAME=	ja-recjis-1.0
-CATEGORIES+=    japanese
-MASTER_SITES=   ftp://ftp.leo.chubu.ac.jp/pub/tools/
+CATEGORIES+=	japanese
+MASTER_SITES=	ftp://ftp.leo.chubu.ac.jp/pub/tools/
 DISTFILES=	recjis.tar.gz
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 NO_WRKSUBDIR=	yes
 ALL_TARGET=	prog

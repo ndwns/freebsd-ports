@@ -10,7 +10,7 @@ DISTNAME=	dgs-0.5.0
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS= 	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png \

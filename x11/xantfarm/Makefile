@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	xantfarm
-PKGNAME=        xantfarm-1.16
+PKGNAME=	xantfarm-1.16
 CATEGORIES=	x11
-MASTER_SITES=   ftp://ftp.kuis.kyoto-u.ac.jp/Linux/JG/other-sources/
+MASTER_SITES=	ftp://ftp.kuis.kyoto-u.ac.jp/Linux/JG/other-sources/
 DISTFILES=	xantfarm23oct91.tar.gz
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_IMAKE=	yes
 MAN1=		xantfarm.1

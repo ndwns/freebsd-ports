@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.kiss.uni-lj.si/~k4fr0235/icewm/devel/ \
 		http://www.freebsd.org/~vanilla/
 EXTRACT_SUFX=	.src.tar.gz
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 .if defined(GNOME)
 BUILD_DEPENDS+=	gnome-config:${PORTSDIR}/x11/gnomelibs

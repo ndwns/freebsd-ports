@@ -10,7 +10,7 @@ DISTNAME=	killustrator-0.2.1
 CATEGORIES=	graphics kde
 MASTER_SITES=	http://wwwiti.cs.uni-magdeburg.de/~sattler/pub/killustrator/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kde
 

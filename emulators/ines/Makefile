@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	iNES07-FreeBSD-80x86-bin
-PKGNAME=        ines-0.7
-CATEGORIES=     emulators
-MASTER_SITES=   http://www.komkon.org/fms/iNES/
+PKGNAME=	ines-0.7
+CATEGORIES=	emulators
+MASTER_SITES=	http://www.komkon.org/fms/iNES/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 WRKSRC=		${WRKDIR}/NES
 USE_X_PREFIX=	yes

@@ -6,12 +6,12 @@
 # $Id$
 #
 
-DISTNAME=        xdino-5.4.4
+DISTNAME=	xdino-5.4.4
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/xpuzzles
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 WRKSRC=		${WRKDIR}/xdino
 USE_IMAKE=	yes

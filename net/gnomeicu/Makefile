@@ -12,10 +12,12 @@ MASTER_SITES=	ftp://ftp.bse.bg/pub/Unix/icq/ \
 		ftp://ftp.infodrom.north.de/pub/unix/gtk-etc/apps/gtkicq/ \
 		ftp://ftp.rnd.runnet.ru/pub/unix/GUI_Toolkits/gtk/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
 		panel_applet.0:${PORTSDIR}/x11/gnomecore
+
+BROKEN=		"gtkicq 0.58 is out"
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes

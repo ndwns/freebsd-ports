@@ -10,7 +10,7 @@ DISTNAME=	xfce-2.1.1
 CATEGORIES=	x11-wm
 MASTER_SITES=	http://www.xfce.org/archive/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms

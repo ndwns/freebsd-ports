@@ -11,7 +11,7 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/xpuzzles
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 WRKSRC=		${WRKDIR}/xcubes
 USE_IMAKE=	yes

@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	newosaka
-PKGNAME=        ja-newosaka-1.0
-CATEGORIES+=    japanese
-MASTER_SITES=   ftp://ports.jp.freebsd.org/pub/incoming/distfiles/
+PKGNAME=	ja-newosaka-1.0
+CATEGORIES+=	japanese
+MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/incoming/distfiles/
 DISTFILES=	new-osaka.tar.gz
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 do-build:
 	(cd ${WRKSRC}; ${CC} ${CFLAGS} -o osaka osaka.c -I${WRKSRC})

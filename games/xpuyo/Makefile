@@ -11,7 +11,7 @@ PKGNAME=	xpuyo-0.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.meme.hokudai.ac.jp/pub/games/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_IMAKE=	yes
 XMKMF=		xmkmf

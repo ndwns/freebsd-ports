@@ -11,7 +11,7 @@ PKGNAME=	gnushogi-1.2.3
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 DOCFILES= BOOKFILES CHANGES CONTRIB COPYING GENERAL INSTALL PORTING \
 	README-FIRST listserv.ref shogi.rules tutorial1.gam tutorial2.gam

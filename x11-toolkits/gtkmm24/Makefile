@@ -11,7 +11,7 @@ PKGNAME=	gtk---0.9.14
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/gtk--/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 BROKEN=		build
 

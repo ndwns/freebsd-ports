@@ -8,9 +8,9 @@
 
 DISTNAME=	giftool-1.0
 CATEGORIES=	graphics
-MASTER_SITES=   ftp://ftp.sbs.de/pub/www/tools/giftool/
+MASTER_SITES=	ftp://ftp.sbs.de/pub/www/tools/giftool/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 NO_CDROM=	"Shareware"
 

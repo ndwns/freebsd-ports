@@ -10,7 +10,7 @@ DISTNAME=	gettext-0.10.35
 CATEGORIES=	devel
 MASTER_SITES=	ftp://alpha.gnu.ai.mit.edu/gnu/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386--freebsd --with-gnu-gettext

@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	xmascot2.5p2
-PKGNAME=        xmascot-2.5p2
+PKGNAME=	xmascot-2.5p2
 CATEGORIES=	x11
 MASTER_SITES=	ftp://cclub.tutcc.tut.ac.jp/pub/xmascot/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_GMAKE=	yes
 USE_IMAKE=	yes

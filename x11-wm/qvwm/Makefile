@@ -6,15 +6,15 @@
 # $Id$
 #
 
-DISTNAME=       qvwm-1.0b12
-CATEGORIES=     x11-wm
-MASTER_SITES=   http://www-masuda.is.s.u-tokyo.ac.jp/~kourai/qvwm/program/
+DISTNAME=	qvwm-1.0b12
+CATEGORIES=	x11-wm
+MASTER_SITES=	http://www-masuda.is.s.u-tokyo.ac.jp/~kourai/qvwm/program/
 
-MAINTAINER=     Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
-USE_IMAKE=      yes
+USE_IMAKE=	yes
 MAN1=		qvwm.1
 MANCOMPRESSED=	yes
 

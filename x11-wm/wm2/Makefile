@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	wm2-3
-PKGNAME=        wm2-3.0
-CATEGORIES=     x11-wm
-MASTER_SITES=   http://www.netcomuk.co.uk/~cannam/
+PKGNAME=	wm2-3.0
+CATEGORIES=	x11-wm
+MASTER_SITES=	http://www.netcomuk.co.uk/~cannam/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/wm2

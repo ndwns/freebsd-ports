@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	GB
-PKGNAME=        vgb-0.7
+PKGNAME=	vgb-0.7
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 DISTFILES=	VGB.tar.Z
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_X_PREFIX=	yes
 CONFIGURE_ENV=  X11BASE=${X11BASE}

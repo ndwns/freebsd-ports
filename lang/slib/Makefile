@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	slib2c0
-PKGNAME=        slib-2c0
+PKGNAME=	slib-2c0
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.gnome.org/pub/GNOME/extra-src/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 BUILD_DEPENDS=	scheme48:${PORTSDIR}/lang/scheme48
 

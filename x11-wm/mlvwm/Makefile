@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/mlvwm/ \
 		http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/
 DISTFILES=	mlvwm089.tgz mini-icons.tar.gz
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 

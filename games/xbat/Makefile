@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	xev111
-PKGNAME=        xbat-1.11
-CATEGORIES=     games
-MASTER_SITES=   http://www.nemoto.ecei.tohoku.ac.jp/~wai/Xbat/
+PKGNAME=	xbat-1.11
+CATEGORIES=	games
+MASTER_SITES=	http://www.nemoto.ecei.tohoku.ac.jp/~wai/Xbat/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 NO_CDROM=	Possible copyright infringement
 

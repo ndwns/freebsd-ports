@@ -11,7 +11,7 @@ PKGNAME=	replay-0.58
 CATEGORIES=	audio
 MASTER_SITES=	http://replay.linuxpower.org/files/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		esd.1:${PORTSDIR}/audio/esound

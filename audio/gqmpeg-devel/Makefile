@@ -11,7 +11,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Haven/5235/
 EXTRACT_SUFX=	.src.tgz
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 RUN_DEPENDS=	mpg123:${PORTSDIR}/audio/mpg123
 LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \

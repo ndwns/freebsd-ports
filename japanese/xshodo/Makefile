@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	xshodo2.0
-PKGNAME=        ja-xshodo-2.0
-CATEGORIES=	japanese x11
+PKGNAME=	ja-xshodo-2.0
+CATEGORIES=	japanese
 MASTER_SITES=	ftp://cclub.tutcc.tut.ac.jp/pub/xwin/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 USE_IMAKE=	yes
 MAN1=		xshodo.1

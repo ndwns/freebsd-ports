@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.uni-magdeburg.de/pub/www/xanime/ \
 		ftp://ftp.doc.ic.ac.uk/computing/information-systems/WWW/xanime/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 BROKEN=		build
 

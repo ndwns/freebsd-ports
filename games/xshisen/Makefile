@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=       xshisen-1.36
+DISTNAME=	xshisen-1.36
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.win.or.jp/pub/doc-sources/fj.sources/1996/feb/
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 

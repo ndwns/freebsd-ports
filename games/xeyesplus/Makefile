@@ -6,16 +6,16 @@
 # $Id$
 #
 
-DISTNAME=		xeyes+2.01
-PKGNAME=		xeyes+-2.01
-CATEGORIES=		games
-MASTER_SITES=		ftp://ftp.eos.hokudai.ac.jp/pub/X11/contrib/misc/
+DISTNAME=	xeyes+2.01
+PKGNAME=	xeyes+-2.01
+CATEGORIES=	games
+MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/X11/contrib/misc/
 
-MAINTAINER=		nakai@mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
-USE_IMAKE=		yes
+USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-install:

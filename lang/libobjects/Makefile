@@ -10,7 +10,7 @@ DISTNAME=	libobjects-0.1.19
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 GNU_CONFIGURE=	yes
 

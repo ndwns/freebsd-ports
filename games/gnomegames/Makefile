@@ -7,14 +7,14 @@
 #
 
 DISTNAME=	gnome-games-0.99.1
-PKGNAME=        gnomegames-0.99.1
+PKGNAME=	gnomegames-0.99.1
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
+LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
 
 USE_X_PREFIX=	yes

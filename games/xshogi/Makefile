@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	xshogi-1.2p03
-PKGNAME=        xshogi-1.2.3
-CATEGORIES=     games
-MASTER_SITES=   ${MASTER_SITE_GNU}
+PKGNAME=	xshogi-1.2.3
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=     Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
-RUN_DEPENDS=    ${LOCALBASE}/libexec/gnushogix:${PORTSDIR}/games/gnushogi
+RUN_DEPENDS=	${LOCALBASE}/libexec/gnushogix:${PORTSDIR}/games/gnushogi
 
 USE_X_PREFIX=	yes
 MAKEFILE=	Makefile.custom

@@ -7,11 +7,11 @@
 #
 
 DISTNAME=	cosmo-2.0.4
-CATEGORIES=     games
-MASTER_SITES=   http://cheer.u-aizu.ac.jp:10080/~eiju/cosmo/
+CATEGORIES=	games
+MASTER_SITES=	http://cheer.u-aizu.ac.jp:10080/~eiju/cosmo/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}  moon.tif.gz
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 NO_CDROM=	Possible copyright infringement
 

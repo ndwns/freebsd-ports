@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://gnomeftp.wgn.net/pub/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
 RUN_DEPENDS=	gettext:${PORTSDIR}/devel/gettext

@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	gifmerge
-PKGNAME=        gifmerge-1.33
-CATEGORIES=     graphics
+PKGNAME=	gifmerge-1.33
+CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 EXTRACT_SUFX=	.tar
 
-MAINTAINER=     nakai@mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 ALL_TARGET=	gifmerge
 NO_WRKSUBDIR=	yes

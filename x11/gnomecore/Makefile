@@ -12,11 +12,11 @@ CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
+LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 		gtop.0:${PORTSDIR}/devel/libgtop \
-		esd.0:${PORTSDIR}/audio/esound \
+		esd.1:${PORTSDIR}/audio/esound \
 		ghttp.0:${PORTSDIR}/www/libghttp
 
 BROKEN=	'gnome-core-0.99.2 is the currently available'

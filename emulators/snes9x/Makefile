@@ -12,7 +12,7 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://www.snes9x.com/zips/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	Nacai@iname.com
+MAINTAINER=	nacai@iname.com
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 BUILD_DEPENDS+=	egcc:${PORTSDIR}/lang/pgcc

@@ -12,7 +12,7 @@ CATEGORIES=	japanese games
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~kusune/netmaj/files/
 DISTFILES=	netmaj-2.0.7.tar.gz netmaj-xui-2.0.7.tar.gz
 
-MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 

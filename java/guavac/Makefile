@@ -10,7 +10,7 @@ DISTNAME=	guavac-1.2
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.yggdrasil.com/pub/dist/devel/compilers/guavac/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 CC=		gcc28
 CXX=		g++28

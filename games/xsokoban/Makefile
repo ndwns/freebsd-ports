@@ -8,15 +8,15 @@
 
 DISTNAME=	xsokoban-3.3c
 CATEGORIES=	games
-MASTER_SITES=   ftp://ftp.pmg.lcs.mit.edu/pub/xsokoban/
+MASTER_SITES=	ftp://ftp.pmg.lcs.mit.edu/pub/xsokoban/
 
-MAINTAINER=     Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xsokoban
-ALL_TARGET=	xsokoban	
+ALL_TARGET=	xsokoban
 MAN1=		xsokoban.1
 
 post-install:
