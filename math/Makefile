@@ -1,6 +1,6 @@
 
 # $Id$
 #
-SUBDIR=	gnuplot oleo
+SUBDIR=	blas gnuplot oleo
 
 .include <bsd.port.subdir.mk>
