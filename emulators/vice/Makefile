@@ -24,7 +24,9 @@ MANPAGES=	vice c1541 petcat
 MAN1=		vice.1 c1541.1 petcat.1
 
 pre-build:
-	${ECHO} ${OSVER}
+	@${ECHO} "NOTE:  When compiling on FreeBSD some source files cause gcc to go over the"
+	@${ECHO} "default memory limits.  Either fix /etc/login.conf or temporaryily adjust"
+	@${ECHO} "the limits with your shells limit command (\"unlimit\" works in [t]csh)."
 
 pre-install:
 	${SED} -e "s,%VER%,`uname -r | ${SED} -e 's,-.*$$,,'`," < ${PKGDIR}/PLIST.in > ${PKGDIR}/PLIST
