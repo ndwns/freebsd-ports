@@ -26,6 +26,7 @@
     SUBDIR += mkisofs
     SUBDIR += no-login
     SUBDIR += pib
+    SUBDIR += pkg_version
     SUBDIR += rdate
     SUBDIR += rtty
     SUBDIR += setquota
