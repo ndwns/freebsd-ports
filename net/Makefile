@@ -14,6 +14,7 @@
     SUBDIR += bing
     SUBDIR += binkd
     SUBDIR += bitchx
+    SUBDIR += blackened
     SUBDIR += bnc
     SUBDIR += boclient
     SUBDIR += bounce
