@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# $Id$
+#
+
+cp ${CURDIR}/files/vfont.h ${WRKSRC}/include
+echo echo $PREFIX > ${WRKSRC}/:findcad
+chmod -R a+rX ${WRKSRC}
