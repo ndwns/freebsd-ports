@@ -9,7 +9,8 @@
 DISTNAME=	imap-4.1.BETA
 PKGNAME=	imap-uw-4.1b
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
+MASTER_SITES=	http://www.freebsd.org/~steve/ \
+		ftp://ftp.cac.washington.edu/imap/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
