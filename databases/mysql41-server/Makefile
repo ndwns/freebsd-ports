@@ -9,9 +9,11 @@
 DISTNAME=	mysql-3.22.10-beta
 PKGNAME=	mysql-3.22.10b
 CATEGORIES=	databases
-MASTER_SITES=	http://mysql.polaris.ca/Downloads/MySQL-3.22/ \
-		http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
-		http://www.tcx.se/Downloads/MySQL-3.22/
+MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
+		ftp://ftp.digex.net/pub/database/mysql/Downloads/MySQL-3.22/ \
+		ftp://ftp.bse.bg/pub/Unix/database/MySQL/ \
+		ftp://ftp.plig.net/pub/database/mysql/Downloads/MySQL-3.22/ \
+		ftp://ftp.sunet.se/pub/unix/databases/relational/mysql/Downloads/MySQL-3.22/
 
 MAINTAINER=	ibex@physik.TU-Berlin.DE
 
