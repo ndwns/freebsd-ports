@@ -33,7 +33,6 @@
     SUBDIR += mpd
     SUBDIR += mrtg
     SUBDIR += moxftp
-    SUBDIR += natd
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += netcat
