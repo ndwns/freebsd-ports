@@ -7,9 +7,10 @@
 DISTNAME=	xearth-0.92
 MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
 
-# working directory
-WRKDIR=		work
-
 USE_IMAKE=	is_set
+
+# Copy the list of FreeBSD sites
+pre-patch:
+	cp ${FILESDIR}/freebsd.h ${WRKSRC}
 
 .include <bsd.port.mk>
