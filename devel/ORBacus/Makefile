@@ -17,8 +17,6 @@ BUILD_DEPENDS=  gcc28:${PORTSDIR}/lang/gcc28 \
 		g++28:${PORTSDIR}/lang/gcc28 \
 		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${OSREL}/2.8.1/libstdc++.a:${PORTSDIR}/lang/glibstdc++28
 
-BROKEN_ELF=	depends on gcc28 and glibstdc++28
-
 USE_XLIB=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ENV=	CXX=g++28 CXXFLAGS="-O -pipe"
