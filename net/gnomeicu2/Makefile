@@ -11,10 +11,10 @@ CATEGORIES=		net gnome
 MASTER_SITES=		ftp://gnomeicu.gdev.net/pub/gnomeicu/          \
 			http://www.nectar.com/distfiles/
 
+MAINTAINER=		nectar@FreeBSD.ORG
+
 LIB_DEPENDS=		gnome.1:${PORTSDIR}/x11/gnomelibs              \
 			gdk_imlib.3:${PORTSDIR}/graphics/imlib
-
-MAINTAINER=		nectar@FreeBSD.ORG
 
 USE_X_PREFIX=		YES
 GNU_CONFIGURE=		YES
