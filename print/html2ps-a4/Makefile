@@ -16,7 +16,6 @@ MAINTAINER=	andreas@FreeBSD.ORG
 BUILD_DEPENDS=	mogrify:${PORTSDIR}/graphics/ImageMagick \
 		djpeg:${PORTSDIR}/graphics/jpeg \
 		giftopnm:${PORTSDIR}/graphics/netpbm \
-		${site_perl}/Image/Magick.pm:${PORTSDIR}/graphics/p5-PerlMagick \
 		gs:${PORTSDIR}/print/ghostscript5 \
 		tex:${PORTSDIR}/print/teTeX \
 		${site_perl}/LWP.pm:${PORTSDIR}/www/p5-libwww \
