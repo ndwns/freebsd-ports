@@ -17,6 +17,8 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
 
+BROKEN=		upgrade
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
