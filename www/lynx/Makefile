@@ -10,7 +10,7 @@ DISTNAME=       lynx2-7-2
 PKGNAME=        lynx-2.7.2
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/release/ \
-		http://www.slcc.edu/lynx/fote/patches/
+		http://www.freebsd.org/~jseger/
 DISTFILES=      lynx2-7-2.zip 272fixes.zip
 
 MAINTAINER=	jseger@FreeBSD.ORG
