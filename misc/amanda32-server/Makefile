@@ -12,10 +12,10 @@ MASTER_SITES=	ftp://ftp.amanda.org/pub/amanda/
 
 MAINTAINER=	cwt@FreeBSD.ORG
 
+BUILD_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
+RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
+
 WRKSRC=		${WRKDIR}/amanda-2.4.0
-
-BROKEN=		package
-
 NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --libexecdir=${PREFIX}/libexec/amanda \
