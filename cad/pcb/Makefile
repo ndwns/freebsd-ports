@@ -1,15 +1,14 @@
 # New ports collection makefile for:	PCB
-# Version required:	1.5.5 beta
+# Version required:	1.6.3
 # Date created:		19 October 1994
 # Whom:			mr
 #
 # $Id$
 #
 
-DISTNAME=	pcb-1.5.5.BETA
-PKGNAME=	pcb-1.5.5
+DISTNAME=	pcb-1.6.3
 CATEGORIES=	cad
-MASTER_SITES=	ftp://ftp.uni-ulm.de/pub/pcb/1.5/
+MASTER_SITES=	ftp://ftp.linuxppc.org/users/harry/PCB/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jseger@FreeBSD.org
