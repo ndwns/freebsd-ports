@@ -90,6 +90,7 @@
     SUBDIR += mrt
     SUBDIR += mrtg
     SUBDIR += mtr
+    SUBDIR += muh
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += ncftp3
