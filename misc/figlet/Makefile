@@ -10,9 +10,11 @@
 DISTNAME=	figlet22
 PKGNAME=	figlet-2.2
 CATEGORIES=	misc
-MASTER_SITES=	ftp://ftp.nicoh.com/pub/figlet/program/unix/  \
-		ftp://ftp.funet.fi/pub/unix/tools/figlet/program/unix/  \
-		ftp://ftp.wwa.com/pub/Scarecrow/Figlet/Unix/
+MASTER_SITES=	ftp://wuarchive.wustl.edu/graphics/graphics/misc/figlet/program/unix/ \
+		ftp://ftp.funet.fi/pub/unix/tools/figlet/program/unix/ \
+		ftp://ftp.internexus.net/pub/figlet/program/unix/ \
+		http://www.freebsd.org/~obrien/Distfiles/ \
+		ftp://ftp.nuxi.com/pub/misc/
 
 MAINTAINER=     obrien@FreeBSD.org
 
