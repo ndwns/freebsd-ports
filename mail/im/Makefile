@@ -8,7 +8,7 @@
 
 DISTNAME=	im-76
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/elisp/Mew/ \
+MASTER_SITES=	ftp://ftp.mew.org/pub/Mew/ \
 		ftp://ftp.kyushu-u.ac.jp/pub/Misc/mew/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
