@@ -19,8 +19,16 @@ LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk11d-config" \
-		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config"
+CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk11d-config"
+
+THEMES=		metal notif pixmap redmond95
+
+post-patch:
+	@for theme in ${THEMES}; do \
+		cd ${WRKSRC}/$$theme/Theme/gtk; \
+		${MV} gtkrc gtkrc.tmp; \
+		${SED} -e s^%%PREFIX%%^${PREFIX}^g < gtkrc.tmp > gtkrc; \
+	done
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
