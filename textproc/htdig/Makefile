@@ -1,16 +1,17 @@
 # New ports collection makefile for:   htdig
-# Version required:    3.1.0b2
+# Version required:    3.1.0b4
 # Date created:        18 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
 # $Id$
 #
 
-DISTNAME=	htdig-3.1.0b2
+DISTNAME=	htdig-3.1.0b4
 PKGNAME=	htdig-3.1.0
 CATEGORIES=	textproc www
 MASTER_SITES=	http://www.htdig.org/files/ \
 		ftp://ftp.medasys-digital-systems.fr/mirror/htdig/files/ \
+		ftp://ftp.htdig.org/pub/htdig/ \
 		http://www.FreeBSD.org/~billf/
 
 MAINTAINER=	billf@FreeBSD.org
