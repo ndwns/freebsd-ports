@@ -17,6 +17,6 @@ GNU_CONFIGURE=	YES
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/README.smurflog
-	${INSTALL_PROGRAM} ${WRKSRC}/smurflog ${PREFIX}/bin/smurflog
+	${INSTALL_PROGRAM} ${WRKSRC}/smurflog ${PREFIX}/sbin/smurflog
 
 .include <bsd.port.mk>
