@@ -13,7 +13,7 @@ CATEGORIES=	news
 MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
 		ftp://nuxi.ucdavis.edu/pub/tin/pre-v1.4/ \
 		ftp://ftp.nuxi.com/pub/tin/pre-v1.4/
-EXTRACT_SUFX=   .tgz
+USE_BZIP2=      yes
 
 MAINTAINER=     ache@FreeBSD.org
 
