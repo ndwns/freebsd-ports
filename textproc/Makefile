@@ -20,6 +20,7 @@
     SUBDIR += latex2html
     SUBDIR += libxml
     SUBDIR += linuxdoc
+    SUBDIR += man2html
     SUBDIR += mgdiff
     SUBDIR += mswordview
     SUBDIR += nfbtrans
