@@ -15,8 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 CFLAGS+=	-I../../include
 MAN1=		vnpstext.1
 
