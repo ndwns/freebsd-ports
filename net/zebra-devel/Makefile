@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	zebra-981222
-PKGNAME=	zebra-19981222
+DISTNAME=	zebra-19990408
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 # you might need debugging, it's a developer release !
