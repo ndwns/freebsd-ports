@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	gcc-2.95
+DISTNAME=	gcc-2.95.1
 CATEGORIES=	lang java
 MASTER_SITES=	ftp://go.cygnus.com/pub/sourceware.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
 		ftp://egcs.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
