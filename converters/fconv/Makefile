@@ -12,6 +12,8 @@ MASTER_SITES=	http://WWW.FreeBSD.ORG/~taoka/distfiles/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 post-install:
 	strip ${PREFIX}/bin/dos2bsd
 	strip ${PREFIX}/bin/bsd2dos
