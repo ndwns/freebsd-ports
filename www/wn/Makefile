@@ -10,6 +10,8 @@ DISTNAME=       wn-1.16.8
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
+MAINTAINER=	adam@veda.is
+
 IS_INTERACTIVE=
 NO_PACKAGE=	"Hostname compiled in"
 
