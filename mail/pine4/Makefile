@@ -11,13 +11,9 @@ PKGNAME=	pine-3.95
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/pine.1
-	gzip -9nf ${PREFIX}/man/man1/pico.1
-	gzip -9nf ${PREFIX}/man/man1/pilot.1
-	gzip -9nf ${PREFIX}/man/man8/imapd.8c
-	gzip -9nf ${PREFIX}/man/man8/ipopd.8c
-.endif
+MAINTAINER=	ports@FreeBSD.org
+
+MAN1= 		pine.1 pico.1 pilot.1
+MAN8=		imapd.8c ipopd.8c
 
 .include <bsd.port.mk>

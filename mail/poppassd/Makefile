@@ -19,12 +19,10 @@ EXTRACT_SUFX=
 EXTRACT_BEFORE_ARGS=	
 EXTRACT_AFTER_ARGS=	| /usr/bin/sed -e '1,16d' | /bin/sh
 ALL_TARGET=	poppassd
+MAN8=		poppassd.8
 
 post-install:
 	@ strip ${PREFIX}/libexec/poppassd
 	@ ${INSTALL_MAN} ${FILESDIR}/poppassd.8 ${PREFIX}/man/man8/
-.if !defined{NOMANCOMPRESS}
-	gzip -9nf ${PREFIX}/man/man8/poppassd.8
-.endif
 
 .include <bsd.port.mk>

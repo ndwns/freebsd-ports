@@ -14,9 +14,9 @@ DISTFILES=	exim-1.58.tar.gz exim-texinfo-1.58.tar.gz
 MAINTAINER=	markm@FreeBSD.ORG
 
 do-configure:
-	mkdir ${WRKSRC}/Local
-	cp ${FILESDIR}/Makefile ${WRKSRC}/Local
-	cp ${FILESDIR}/eximon.conf ${WRKSRC}/Local
+	${MKDIR} ${WRKSRC}/Local
+	${CP} ${FILESDIR}/Makefile ${WRKSRC}/Local
+	${CP} ${FILESDIR}/eximon.conf ${WRKSRC}/Local
 	(cd ${WRKSRC}/doc ; ln -s ../../exim-texinfo-1.58/doc/* )
 
 .include <bsd.port.mk>

@@ -16,6 +16,8 @@ MASTER_SITES=   ftp://dionysos.fmi.fi/KEH/ \
 MAINTAINER=	ache@FreeBSD.ORG
 
 WRKSRC=         ${WRKDIR}/elm2.4.ME+.28
+MAN1=		answer.1 checkalias.1 elm.1 elmalias.1 fastmail.1 filter.1 \
+		listalias.1 messages.1 newalias.1 printmail.1 readmsg.1
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install

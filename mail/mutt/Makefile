@@ -34,12 +34,12 @@ DIST_SUBDIR=	Mutt
 WRKSRC=		${WRKDIR}/${PKGNAME}
 PATCH_DIST_STRIP=	
 GNU_CONFIGURE=	yes
+MAN1=		mutt.1
 
 
 post-install:
 	@####   don't strip until out of beta peroid
 	@#strip ${PREFIX}/bin/mutt
-	@gzip -9nf ${PREFIX}/man/man1/mutt.1
 .if !defined(NOPORTDOCS)
 	@${ECHO} "Installing Mutt documentation"
 	@${MKDIR} ${PREFIX}/share/doc/mutt && chmod a+rx ${PREFIX}/share/doc/mutt

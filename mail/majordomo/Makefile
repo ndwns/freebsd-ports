@@ -20,6 +20,8 @@ IS_INTERACTIVE= yes
 NO_PACKAGE=	yes
 ALL_TARGET=	wrapper
 INSTALL_TARGET=	install install-wrapper
+MAN1=		approve.1 bounce-remind.1 digest.1
+MAN8=		majordomo.8
 
 pre-configure:
 		@ ${SETENV} ${MAKE_ENV} /usr/bin/perl ${SCRIPTDIR}/createuser
@@ -56,12 +58,6 @@ post-install:
 		@ ln -sf ${PREFIX}/majordomo/lists/test-l.info ${PREFIX}/majordomo/lists/test-l-digest.info
 		@ ln -sf ${PREFIX}/majordomo/lists/test-l.passwd ${PREFIX}/majordomo/lists/test-l-digest.passwd
 		@ /bin/chmod 660 ${PREFIX}/majordomo/lists/test-l.passwd
-.if !defined(NOMANCOMPRESS)
-		@ for file in approve bounce-remind digest; do \
-			gzip -9nf ${PREFIX}/man/man1/$$file.1; \
-		done
-		@ gzip -9nf ${PREFIX}/man/man8/majordomo.8
-.endif
 		@ /usr/sbin/chown -R majordom.majordom ${PREFIX}/majordomo/lists
 		@ /bin/chmod -R 664 ${PREFIX}/majordomo/lists
 		@ /bin/chmod 775 ${PREFIX}/majordomo/lists

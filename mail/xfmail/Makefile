@@ -20,6 +20,6 @@ WRKSRC=		${WRKDIR}/xfmail/ui
 USE_X11=	yes
 
 pre-configure:
-	@(cd ${WRKSRC} ; cp Makefile.FreeBSD Makefile)
+	@(cd ${WRKSRC} ; ${CP} Makefile.FreeBSD Makefile)
 
 .include <bsd.port.mk>
