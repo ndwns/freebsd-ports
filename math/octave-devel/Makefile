@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.che.wisc.edu/pub/octave/
 
 MAINTAINER=	chuckr@FreeBSD.ORG
 
+BROKEN_ELF=	build
+
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
 OCTAVE_VERSION=	2.0.13
