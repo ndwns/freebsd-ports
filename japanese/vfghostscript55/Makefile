@@ -84,6 +84,7 @@ do-configure:
 .endif
 
 pre-install:
+	@mkdir -p ${PREFIX}/share/ghostscript
 	@tar -C ${PREFIX}/share/ghostscript -xzf ${DISTDIR}/${GS_FONTS_STD}
 	@tar -C ${PREFIX}/share/ghostscript -xzf ${DISTDIR}/${GS_FONTS_OTHER}
 
