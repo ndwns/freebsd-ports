@@ -6,11 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	grep-0.7
-PKGNAME=	freegrep-0.7
+DISTNAME=	grep-0.8
+PKGNAME=	freegrep-0.8
 CATEGORIES=	textproc
-MASTER_SITES=	http://www.freebsd.org/~des/software/ \
-		ftp://ftp.ofug.org/pub/grep/
+MASTER_SITES=	http://www.freebsd.org/~des/software/
 
 MAINTAINER=	howardjp@wam.umd.edu
 
