@@ -12,15 +12,14 @@ CATEGORIES+=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
 EXTRACT_SUFX=	.tar.Z
 
-# to many compile-time options
-NO_PACKAGE=	yes
-
 PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/OLD/
 PATCHFILES=	select-loop-bug.patch innxmit-long-lines
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-NO_WRKSUBDIR=	YES
+# too many compile-time options
+NO_PACKAGE=	yes
+NO_WRKSUBDIR=	yes
 
 pre-install:
 	mkdir -p ${PREFIX}/news
