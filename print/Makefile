@@ -17,6 +17,7 @@
     SUBDIR += latex209
     SUBDIR += makeindex
     SUBDIR += mltex
+    SUBDIR += mp
     SUBDIR += musixtex
     SUBDIR += pkfonts
     SUBDIR += psutils
