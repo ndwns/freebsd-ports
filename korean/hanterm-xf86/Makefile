@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/incoming/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/korean/johab:${PORTSDIR}/korean/johabfonts
+RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
 USE_X11=		yes
 GNU_CONFIGURE=		yes
