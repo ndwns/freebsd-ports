@@ -15,9 +15,7 @@ EXTRACT_SUFX=	.src.tar.gz
 MAINTAINER=	giffunip@asme.org
 
 OSVERSION!=	sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
 BROKEN=		too few arguments to function error
-.endif
 
 WRKSRC=         ${WRKDIR}/FElt-3.02
 GNU_CONFIGURE=	yes
