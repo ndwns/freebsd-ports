@@ -17,6 +17,7 @@
     SUBDIR += pine
     SUBDIR += popclient
     SUBDIR += popper
+    SUBDIR += poppassd
     SUBDIR += procmail
     SUBDIR += smail
     SUBDIR += xfmail
