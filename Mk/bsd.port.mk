@@ -239,9 +239,9 @@ obj:
 cleandir:
 	@${DO_NADA}
 .else
-cleandir:
-	@rm -rf ${WRKDIR}/${DISTNAME}
-	@rm -f ${WRKDIR}/.*_done
+cleandir: clean
+	@if [ "${WRKDIR}" != "${.CURDIR}" ]; then ${RM} -rf ${WRKDIR}/; fi
+	@rm -f ${.CURDIR}/obj
 .endif
 .endif
 
