@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	applications/ImageMagick
 
 MAINTAINER=	ports@freebsd.org
 
-LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \
+LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		mpeg\\.1\\.:${PORTSDIR}/graphics/mpeg-lib \
 		tiff\\.3\\.:${PORTSDIR}/graphics/tiff \
 		png\\.0\\.:${PORTSDIR}/graphics/png

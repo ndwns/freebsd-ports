@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	applications/drawing_tools/xfig
 MAINTAINER=	asami@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 
 USE_IMAKE=	yes
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \

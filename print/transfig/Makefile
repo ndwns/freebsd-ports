@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	applications/drawing_tools/transfig
 MAINTAINER=	chuckr@freebsd.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+		jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 
 USE_IMAKE=	yes
 
