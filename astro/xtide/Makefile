@@ -16,7 +16,7 @@ MAINTAINER=	brion@queeg.com
 # www.universe.digex.net is broken
 FETCH_BEFORE_ARGS=	-t
 
-EXTRACT_ONLY=	xtide-1.6.2.tgz
+EXTRACT_ONLY=	xtide-1.6.2.tar.gz
 USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes
 MAN1=		xtide.1
