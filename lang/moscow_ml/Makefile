@@ -7,12 +7,14 @@
 #
 
 DISTNAME=       mos14src
+PKGNAME=        moscow_ml-1.4
 CATEGORIES+=	lang
-PKGNAME=        moscow_ml
 MASTER_SITES=	ftp://ftp.dina.kvl.dk/pub/mosml/ \
 		ftp://ftp.csd.uu.se/pub/mirror/mosml/ \
 		ftp://ftp.dcs.ed.ac.uk/pub/ml/Moscow/
+
 MAINTAINER=	chuckr@freefall.FreeBSD.org
+
 ALL_TARGET=	world
 WRKSRC=		${WRKDIR}/mosml/src
 
