@@ -16,6 +16,8 @@ MAINTAINER=	se@freebsd.org
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
+BROKEN_ELF=	this hasn't been converted to ELF yet
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
