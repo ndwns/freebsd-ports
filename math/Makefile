@@ -12,6 +12,7 @@
     SUBDIR += fftpack
     SUBDIR += freefem
     SUBDIR += fudgit
+    SUBDIR += geg
     SUBDIR += gnuplot
     SUBDIR += hexcalc
     SUBDIR += lapack
