@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	clig-1.0.2
+DISTNAME=	clig-1.1.3
 CATEGORIES=	devel tcl80
 MASTER_SITES=	http://wsd.iitb.fhg.de/~kir/clighome/
 
@@ -21,11 +21,12 @@ MAN1=		clig.1
 NO_BUILD=	yes
 MAKEFILE=	makefile
 MAKE_ENV=	tclsh=${PREFIX}/bin/tclsh8.0
+PLIST_SUB=	VERSION=${DISTNAME}
 
 do-patch:
-	chmod a+r ${WRKSRC}/CHANGES
-	${MV} ${WRKSRC}/makefile ${WRKSRC}/makefile.orig
-	${SED} -e 's#prefix =~/tools#prefix =${PREFIX}/share#' \
+	@/usr/sbin/chmod a+r ${WRKSRC}/CHANGES
+	@${MV} ${WRKSRC}/makefile ${WRKSRC}/makefile.orig
+	@${SED} -e 's#prefix =~/tools#prefix =${PREFIX}/share#' \
 	       -e 's#LROOT =~/tools#LROOT =${PREFIX}#' \
 	       -e 's#DOCDIR =$$(prefix)/doc#DOCDIR =${PREFIX}/share/doc/clig#' \
 	       -e 's#MANDIR =$$(prefix)#MANDIR =${MANPREFIX}/man/#' \
