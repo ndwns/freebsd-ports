@@ -1,6 +1,11 @@
 # $Id$
 #
 
+    SUBDIR += 221upgrade
+    SUBDIR += 222upgrade
+    SUBDIR += 225upgrade
+    SUBDIR += 227upgrade
+    SUBDIR += 30upgrade
     SUBDIR += acron
     SUBDIR += amanda
     SUBDIR += amanda24
