@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	radiusd-cistron-1.5.4.3-beta16
+DISTNAME=	radiusd-cistron-1.5.4.3-beta18
 PKGNAME=	radiusd-cistron-1.5.4.3
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/radius/
