@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=		gnomeicu-0.64
+DISTNAME=		gnomeicu-0.65
 CATEGORIES=		net gnome
 MASTER_SITES=		ftp://gnomeicu.gdev.net/pub/gnomeicu/          \
-			http://www.nectar.com/distfiles/
+			http://www.nectar.cc/distfiles/
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
@@ -18,6 +18,7 @@ LIB_DEPENDS=		panel_applet.1:${PORTSDIR}/x11/gnomecore
 GTK_CONFIG?=		${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=		YES
+USE_BZIP2=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ENV=		GTK_CONFIG="${GTK_CONFIG}"
 CONFIGURE_ARGS=		--datadir=${PREFIX}/share/gnome
