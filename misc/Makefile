@@ -8,6 +8,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
+    SUBDIR += ecc
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += git
