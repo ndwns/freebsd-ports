@@ -1,5 +1,5 @@
 # New ports collection makefile for: 	Ninja-irc
-# Version required: 	1.0.9
+# Version required: 	1.1
 # Date created:	 	10 April 1999
 # Whom:			Chris Piazza <cpiazza@home.net>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME= 	ninja-src
-PKGNAME=	ninja-1.0.9
+PKGNAME=	ninja-1.1
 CATEGORIES=	net
 MASTER_SITES=	http://ninja.pimped.org/
 
@@ -16,12 +16,11 @@ MAINTAINER=	cpiazza@home.net
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
+pre-patch:
+	@${CP} ${WRKSRC}/config/configure ${WRKSRC}
+
 post-patch:
 	@${SED} -e s#__PREFIX__#$(PREFIX)#g $(WRKSRC)/include/config.h.dist > $(WRKSRC)/include/config.h.dist.new
 	@${MV} $(WRKSRC)/include/config.h.dist.new $(WRKSRC)/include/config.h.dist
-
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/source/ninja ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/source/wserv ${PREFIX}/bin
 
 .include <bsd.port.mk>
