@@ -62,6 +62,7 @@
     SUBDIR += mplex
     SUBDIR += netpbm
     SUBDIR += netshow
+    SUBDIR += opengl-man
     SUBDIR += p5-GD
     SUBDIR += p5-GIFgraph
     SUBDIR += p5-Image-Size
