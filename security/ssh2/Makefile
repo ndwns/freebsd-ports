@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ssh2
-# Version required:     2.0.11
+# Version required:     2.0.*
 # Date created:		5 Oct 1998
 # Whom:			Issei Suzuki <issei@jp.FreeBSD.ORG>
 #
@@ -8,7 +8,7 @@
 # Maximal ssh2 package requires YES values for
 # USE_SSH1, USE_TCPWRAP
 
-DISTNAME=       ssh-2.0.11
+DISTNAME=       ssh-2.0.12
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/ \
 		ftp://sunsite.unc.edu/pub/packages/security/ssh/ \
