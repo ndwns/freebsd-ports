@@ -9,7 +9,8 @@
 DISTNAME=	ASFiles-1.0
 PKGNAME=	asfiles-1.0
 CATEGORIES=	x11-fm windowmaker
-MASTER_SITES=	ftp://ftp.okbmei.msk.su/pub/os/unix/X11/fileman/
+MASTER_SITES=	ftp://ftp.cs.tu-berlin.de/pub/X/afterstep/apps/ASFiles/ \
+		ftp://ftp.uni-trier.de/pub/unix/X11/window-manager/AfterStep/apps/ASFiles/
 
 MAINTAINER=	lukin@okbmei.msk.su
 
