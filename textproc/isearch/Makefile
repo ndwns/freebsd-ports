@@ -11,7 +11,7 @@ PKGNAME=	isearch-1.14
 CATEGORIES=	textproc databases
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/Isearch/
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 GNU_CONFIGURE= yes 
 

@@ -11,7 +11,7 @@ CATEGORIES=	games
 MASTER_SITES=	ftp://ftp710.univ-lyon1.fr/pub/xbl/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 USE_X11=	yes
 HAS_CONFIGURE=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/cim/  \
 		ftp://ftp.fenk.wau.nl/pub/lang/simula/compilers/cim/
 MASTER_SITE_SUBDIR=	devel/lang/simula
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 STRIP=
 GNU_CONFIGURE= 	yes 

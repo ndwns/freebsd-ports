@@ -12,7 +12,7 @@ MASTER_SITES=	http://www-cse.ucsd.edu/users/atkinson/FElt/Binaries/ \
 		ftp://ftp.isd.uni-stuttgart.de/pub/src/FEM/FElt/
 EXTRACT_SUFX=	.src.tar.gz
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 WRKSRC=         ${WRKDIR}/FElt-3.02
 GNU_CONFIGURE=	yes

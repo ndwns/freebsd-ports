@@ -10,7 +10,7 @@ DISTNAME=	w3c-httpd-3.0A
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.w3.org/pub/httpd/
 
-MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 NO_WRKSUBDIR=	yes
 

@@ -10,7 +10,7 @@ DISTNAME=	atlast-1.0
 CATEGORIES=	lang
 MASTER_SITES=	http://www.fourmilab.ch/atlast/
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 do-install:
 	$(INSTALL_PROGRAM) $(WRKSRC)/atlast $(PREFIX)/bin

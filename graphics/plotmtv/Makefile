@@ -14,7 +14,7 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes

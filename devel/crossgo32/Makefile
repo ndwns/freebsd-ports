@@ -1,7 +1,7 @@
 # New ports collection makefile for:    crossgo32
 # Version required:     1.3
 # Date created:         6 Mar 97
-# Whom:                 Pedro Giffuni <pgiffuni@fps.biblos.unal.edu.co>
+# Whom:                 Pedro Giffuni <giffunip@asme.org>
 # Date updated: 	Sun Jun 22 16:11:40 EST 1997
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 #

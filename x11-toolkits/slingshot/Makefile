@@ -1,7 +1,7 @@
 # New ports collection makefile for:   SlingShot
 # Version required:    2.1
 # Date created:        5 March 1997
-# Whom:                pgiffuni@FPS.biblos.unal.edu.co
+# Whom:                Pedro Giffuni
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=	giffunip@asme.org
 
 LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
 
