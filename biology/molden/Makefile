@@ -18,6 +18,10 @@ MAINTAINER=	rmiya@cc.hirosaki-u.ac.jp
 EXTRACT_ONLY=	molden3.4.tar.Z
 RESTRICTED=     "free for academic, non profit usage; do not re-distribute source and executable"
 
+.if ${MACHINE_ARCH} == "alpha"
+DONOTUSE_ORIGINALBINARY=	yes
+.endif
+
 pre-build:
 .if defined(DONOTUSE_ORIGINALBINARY)
 	(cd ${WRKSRC}; ${CP} makefile Makefile)
