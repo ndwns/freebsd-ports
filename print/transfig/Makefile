@@ -1,12 +1,13 @@
 # New ports collection makefile for:	transfig
-# Version required:	3.1
+# Version required:	3.1.1
 # Date created:		?
 # Whom:			mr (original)
 #
 # $Id$
 #
 
-DISTNAME=	transfig.3.1
+DISTNAME=	transfig.3.1.1
+PKGNAME=	transfig-3.1.1
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/transfig/ \
 	ftp://crl.dec.com/pub/X11/contrib/applications/drawing_tools/transfig/
 USE_IMAKE=	yes
