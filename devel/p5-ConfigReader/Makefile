@@ -19,7 +19,7 @@ USE_PERL5=	YES
 NO_BUILD=	YES
 
 do-install:
-		@ ${MKDIR} -p ${PREFIX}/lib/perl5/site_perl/ConfigReader/
+		@ ${MKDIR} ${PREFIX}/lib/perl5/site_perl/ConfigReader/
 		@ ${INSTALL_DATA} ${WRKSRC}/DirectiveStyle.pm ${PREFIX}/lib/perl5/site_perl/ConfigReader/
 		@ ${INSTALL_DATA} ${WRKSRC}/Spec.pm ${PREFIX}/lib/perl5/site_perl/ConfigReader/
 		@ ${INSTALL_DATA} ${WRKSRC}/Values.pm ${PREFIX}/lib/perl5/site_perl/ConfigReader/
