@@ -7,8 +7,7 @@
 
 DISTNAME=	postgresql-6.2.1
 CATEGORIES=	databases
-MASTER_SITES=	ftp://ftp.PostgreSQL.org/pub/ \
-		ftp://ftp.jaist.ac.jp/pub/dbms/postgres95/
+MASTER_SITES=	http://www.freebsd.org/~andreas/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
