@@ -28,4 +28,10 @@ pre-fetch:
 	fi
 .endif
 
+post-install:
+	cd ${PREFIX}/interviews/man/mann; gzip -9nf *.n
+# need these in ${PREFIX}/lib so that ldconfig can find them
+	ln -fs ../interviews/lib/FREEBSD/libIV.so.3.1 ${PREFIX}/lib
+	ln -fs ../interviews/lib/FREEBSD/libUnidraw.so.3.1 ${PREFIX}/lib
+
 .include <bsd.port.mk>
