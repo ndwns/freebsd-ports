@@ -17,6 +17,8 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
 MAINTAINER=     ache@freebsd.org
 
+NO_LATEST_LINK=	yes
+
 # Set it for local-supplied patch, f.e.
 # VERS_ID = mods-1.0/me
 
