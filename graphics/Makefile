@@ -91,6 +91,7 @@
     SUBDIR += xfractint
     SUBDIR += xgrasp
     SUBDIR += xli
+    SUBDIR += xmagv
     SUBDIR += xmandel
     SUBDIR += xmfract
     SUBDIR += xmorph
@@ -98,6 +99,7 @@
     SUBDIR += xpaint
     SUBDIR += xpdf
     SUBDIR += xpm
+    SUBDIR += xpx
     SUBDIR += xv
     SUBDIR += xv-m17n
     SUBDIR += xwpick
