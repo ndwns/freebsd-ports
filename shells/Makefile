@@ -8,5 +8,6 @@
     SUBDIR += scsh
     SUBDIR += tcsh
     SUBDIR += zsh
+    SUBDIR += zsh-devel
 
 .include <bsd.port.subdir.mk>
