@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_LOCAL} \
 		ftp://ftp.cogsci.ed.ac.uk/pub/richard/
 
-MAINTAINER=	nate@FreeBSD.org
+MAINTAINER=	jkh@FreeBSD.org
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg
 
