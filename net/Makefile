@@ -171,6 +171,7 @@
     SUBDIR += tac_plus
     SUBDIR += tcpshow
     SUBDIR += tcptrace
+    SUBDIR += tdetect
     SUBDIR += telnetx
     SUBDIR += telserv
     SUBDIR += tik
