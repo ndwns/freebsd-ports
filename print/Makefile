@@ -43,6 +43,7 @@
     SUBDIR += lprps-a4
     SUBDIR += lprps-letter
     SUBDIR += lyx
+    SUBDIR += magicfilter
     SUBDIR += makeindex
     SUBDIR += mgv
     SUBDIR += mp-a4
