@@ -1,10 +1,8 @@
 # $Id$
 #
-# restricted: pgp.usa_only pgp.non-usa_only zip.with_encryption \
-#             unzip.with_encryption
+# restricted: pgp.usa_only pgp.non-usa_only 
 #
-SUBDIR= acs arc calc cpm gshar+gunshar hfs iozone ispell less \
-	lha mshell mtools netpbm rman screen top unarj unrar unzip \
-	xsysstats zip zoo
+SUBDIR= cpm hfs iozone ispell less lha mshell mtools rman screen top \
+	xsysstats 
 
 .include <bsd.port.subdir.mk>
