@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	pst@FreeBSD.org
 
 RUN_DEPENDS=	fvwm:${PORTSDIR}/x11/fvwm2
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	TCLCONFIGSH=/usr/libdata/tcl/tclConfig.sh TCLSH=/usr/bin/tclsh \
