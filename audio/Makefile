@@ -30,5 +30,6 @@
     SUBDIR += xmcd
     SUBDIR += xmix
     SUBDIR += xmmix
+    SUBDIR += xmpeg3
 
 .include <bsd.port.subdir.mk>
