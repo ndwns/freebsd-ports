@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.cygnus.com/pub/xconq/
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-xpm

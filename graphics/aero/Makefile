@@ -15,7 +15,7 @@ MAINTAINER=	erich@FreeBSD.org
 
 BUILD_DEPENDS=	${X11BASE}/lib/libfwf.a:${PORTSDIR}/x11-toolkits/FWF
 RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/aero/src

@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.windowmaker.org/pub/beta/srcs/ \
 MAINTAINER=	handy@physics.montana.edu
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm \
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \

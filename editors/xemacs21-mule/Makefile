@@ -19,7 +19,7 @@ DISTFILES+=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
 MAINTAINER?=	kiri@kiri.toba-cmt.ac.jp
 
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm \
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		compface\\.1\\.:${PORTSDIR}/mail/faces \

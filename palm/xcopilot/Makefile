@@ -17,7 +17,7 @@ PATCH_DIST_STRIP= -p1
 
 MAINTAINER=     nsayer@quack.kfu.com
 
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
 

@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.belgarath.demon.co.uk/programs/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=		yes
 NO_INSTALL_MANPAGES=	yes

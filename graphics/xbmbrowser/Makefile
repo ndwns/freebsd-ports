@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	utilities
 
 MAINTAINER=	tg@FreeBSD.org
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 USE_GMAKE=	yes

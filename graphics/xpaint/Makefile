@@ -14,7 +14,7 @@ MAINTAINER=	jseger@FreeBSD.org
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
-		Xpm.5:${PORTSDIR}/graphics/xpm   \
+		Xpm.4:${PORTSDIR}/graphics/xpm   \
 		png.3:${PORTSDIR}/graphics/png
 
 WRKSRC=		${WRKDIR}/xpaint

@@ -14,7 +14,7 @@ DISTFILES=	PuzzleTama-ver1.5.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 CONFIGURE_ENV=  X11BASE=${X11BASE}
 USE_IMAKE=      yes

@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.leo.org:/pub/comp/usenet/comp.sources.x/xteddy/
 
 MAINTAINER=	Isegrim@Wunder-Nett.org
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 NO_CDROM=	"Can only be distributed for free"
 

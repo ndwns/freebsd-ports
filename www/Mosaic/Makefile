@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
-		Xpm.5:${PORTSDIR}/graphics/xpm \
+		Xpm.4:${PORTSDIR}/graphics/xpm \
 
 REQUIRES_MOTIF=	yes
 WRKSRC=		${WRKDIR}/Mosaic-src

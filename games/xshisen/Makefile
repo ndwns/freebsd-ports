@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.win.or.jp/pub/doc-sources/fj.sources/1996/feb/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 # runs fine on ssh connection
 #IS_INTERACTIVE=	YES	# Has to create an app-defaults file

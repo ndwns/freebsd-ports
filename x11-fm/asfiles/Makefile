@@ -14,7 +14,7 @@ MASTER_SITES=	http://w3.one.net/~roz/software/x11/windowmaker/
 MAINTAINER=	lukin@okbmei.msk.su
 
 BUILD_DEPENDS=	${PREFIX}/lib/libDnd.a:${PORTSDIR}/x11/libdnd
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 MAN1=	files.1

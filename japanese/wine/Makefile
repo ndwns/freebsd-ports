@@ -15,7 +15,7 @@ DISTFILES=	Wine-971130.tar.gz Wine971130-jp.tar.gz
 
 MAINTAINER=	Takashi Uozu <j1594016@ed.kagu.sut.ac.jp>
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 BROKEN=		fetch
 

@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	apps/database/flatfile
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 REQUIRES_MOTIF=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.tjhsst.edu/xnibbles/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 ALL_TARGET=	linux
 USE_GMAKE=	yes

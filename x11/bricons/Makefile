@@ -15,7 +15,7 @@ EXTRACT_SUFX=	-athena-3.0.tar.gz
 
 MAINTAINER=     shanee@augusta.de
 
-LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 

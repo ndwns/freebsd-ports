@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=		yes
 MAN6=			xoids.6

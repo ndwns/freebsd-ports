@@ -21,7 +21,7 @@ DISTFILES=	${CF_SOURCES} ${CF_DOC} ${CF_MAPS} ${CF_SOUNDS} \
 MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	rplay:${PORTSDIR}/audio/rplay
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 EXTRACT_ONLY=	${CF_SOURCES} ${CF_DOC}
 USE_PERL5=	yes

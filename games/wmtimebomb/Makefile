@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.gpf.or.th/~mhz/wmtimebomb/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 BUILD_DEPENDS=	${PREFIX}/lib/libWMaker.a:${PORTSDIR}/x11-wm/windowmaker
 
 WRKSRC=		${WRKDIR}/wmtimebomb

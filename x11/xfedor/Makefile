@@ -14,7 +14,7 @@ PKGNAME=        xfedor-1.0
 CATEGORIES=	x11
 MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/x11/util/
 
-LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 MAINTAINER=     ache@FreeBSD.ORG
 

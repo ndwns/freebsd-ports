@@ -15,7 +15,7 @@ DISTFILES=	gimp-1.0.0.tar.gz gimp-data-extras-1.0.0.tar.gz
 
 MAINTAINER=	erich@FreeBSD.org
 
-LIB_DEPENDS+=	Xpm.5:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS+=	Xpm.4:${PORTSDIR}/graphics/xpm
 LIB_DEPENDS+=	aa\\.1\\.:${PORTSDIR}/graphics/aalib
 LIB_DEPENDS+=	jpeg.9:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=	gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk

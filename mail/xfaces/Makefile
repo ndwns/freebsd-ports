@@ -19,7 +19,7 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 
 BUILD_DEPENDS= 	${X11BASE}/lib/libaudio.a:${PORTSDIR}/audio/nas
 LIB_DEPENDS=	compface\\.1\\.:${PORTSDIR}/mail/faces \
-		Xpm.5:${PORTSDIR}/graphics/xpm
+		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	YES
 
