@@ -26,5 +26,9 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/typhoon
 	@${INSTALL_DATA} ${WRKSRC}/man/manual.asc ${PREFIX}/share/typhoon
 	@${INSTALL_DATA} ${WRKSRC}/include/environ.h ${WRKSRC}/include/typhoon.h ${PREFIX}/include
+	@if [ $PORTOBJFORMAT = "elf" ]; then \
+		@{LN} -sf libtyphoon.so.1.10 ${PREFIX}/lib/libtyphoon.so; \
+	fi
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
