@@ -15,7 +15,6 @@ MAINTAINER=	s.moeding@ndh.net
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-NO_PACKAGE=	"doesn't respect $CFLAGS"
 
 do-build:
 	@(cd ${WRKSRC}; ${GMAKE})
