@@ -9,7 +9,7 @@
 DISTNAME=	xtide-1.6.2
 CATEGORIES=	astro
 MASTER_SITES=	http://www.universe.digex.net/~dave/files/
-DISTFILES=	xtide-1.6.2.tgz harmonics.gz
+DISTFILES=	xtide-1.6.2.tar.gz harmonics.gz
 
 MAINTAINER=	brion@queeg.com
 
