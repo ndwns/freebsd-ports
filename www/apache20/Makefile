@@ -28,12 +28,14 @@ CONFIGURE_ARGS= \
 		 --datadir=${PREFIX}/www \
 		 --proxycachedir=${PREFIX}/www/proxy \
 		 --libexecdir=${PREFIX}/libexec/apache \
-		 --with-perl=${PERL5} \
 		 --without-confadjust \
 		 --enable-shared=remain \
 		 --enable-module=most \
 		 --enable-module=auth_db \
 		 --disable-module=auth_dbm
+
+# Currently perl version don't matter
+#                 --with-perl=${PERL5}
 
 OPTIM=-DHARD_SERVER_LIMIT=512 \
 -DDOCUMENT_LOCATION=\\"${PREFIX}/www/data/\\" \
