@@ -22,6 +22,7 @@ NO_INSTALL_MANPAGES=	yes
 
 post-install:
 	${MKDIR} ${PREFIX}/share/freeciv
-	${INSTALL_DATA} $(WRKSRC)/data/Freeciv $(WRKSRC)/data/*.xpm \
-	  ${PREFIX}/share/freeciv
+	${INSTALL_DATA} $(WRKSRC)/data/helpdata.txt $(WRKSRC)/data/Freeciv \
+		$(WRKSRC)/data/*.xpm ${PREFIX}/share/freeciv
+
 .include <bsd.port.mk>
