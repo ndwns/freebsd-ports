@@ -1,13 +1,13 @@
 # New ports collection makefile for:	amaya
-# Version required:	2.0
+# Version required:	2.0a
 # Date created:		26 Dec 1998
 # Whom:			Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
 # $Id$
 #
 
-DISTNAME=	amaya-src-2.0
-PKGNAME=	amaya-2.0
+DISTNAME=	amaya-src-2.0a
+PKGNAME=	amaya-2.0a
 CATEGORIES= 	www
 MASTER_SITES=	http://www.w3.org/Amaya/Distribution/ \
 		ftp://ftp.w3.org/pub/amaya/ \
