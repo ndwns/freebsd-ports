@@ -20,7 +20,10 @@ AFMDIR=		${PREFIX}/share/fonts/afm
 
 do-install:
 	@${MKDIR} ${AFMDIR}
-	@${INSTALL_DATA} ${WRKSRC}/* ${AFMDIR}
-	@rm -f ${AFMDIR}/PLIST.mktmp
+.for font in GothicBBB-Medium Ryumin-Light
+.for dir in H V
+	${INSTALL_DATA} ${WRKSRC}/${font}-${dir} ${AFMDIR}
+.endfor
+.endfor
 
 .include <bsd.port.mk>
