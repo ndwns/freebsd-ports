@@ -55,7 +55,7 @@
     SUBDIR += gicq
     SUBDIR += gtkicq
     SUBDIR += gtksamba
-    SUBDIR += h2n-bind4
+    SUBDIR += h2n
     SUBDIR += hesiod
     SUBDIR += icb
     SUBDIR += icmpinfo
