@@ -561,7 +561,9 @@ do-install:
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
 .endif
 .endif
+.if !defined(NO_PACKAGE)
 	@${MAKE} ${.MAKEFLAGS} fake-pkg
+.endif
 .endif
 
 ################################################################
