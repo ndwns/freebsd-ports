@@ -8,7 +8,6 @@
 
 # can't use PORTSDIR here, since we haven't included bsd.port.mk
 FILESDIR=	${.CURDIR}/../../misc/ewipe/files
-PATCHDIR=	${.CURDIR}/../../misc/ewipe/patches
 PKGDIR=		${.CURDIR}/../../misc/ewipe/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
