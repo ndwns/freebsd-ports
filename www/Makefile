@@ -24,6 +24,7 @@
     SUBDIR += grail
     SUBDIR += gwstat
     SUBDIR += harvest
+    SUBDIR += htmlpp
     SUBDIR += http-analyze
     SUBDIR += hypermail
     SUBDIR += ijb
