@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += bash1
     SUBDIR += bash2
     SUBDIR += es
     SUBDIR += pdksh
