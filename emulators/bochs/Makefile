@@ -28,13 +28,6 @@ RESTRICTED=	"Commercial software"
 NO_CDROM=	${RESTRICTED}
 NO_PACKAGE=	${RESTRICTED}
 
-pre-patch:
-	@${SED} -e 's!LOCAL_PREFIX!${PREFIX}!' patches/patch-aa > patches/patch-aa.new
-	@${MV} patches/patch-aa.new patches/patch-aa
-
-	@${SED} -e 's!LOCAL_PREFIX!${PREFIX}!' pkg/MESSAGE > pkg/MESSAGE.new
-	@${MV} pkg/MESSAGE.new pkg/MESSAGE
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bochs ${PREFIX}/bin
 	-@${MKDIR} ${PREFIX}/lib/bochs
