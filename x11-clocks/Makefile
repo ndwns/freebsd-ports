@@ -2,6 +2,7 @@
 #
 
     SUBDIR += asclock
+    SUBDIR += astime
     SUBDIR += bclock
     SUBDIR += dclock
     SUBDIR += emiclock
