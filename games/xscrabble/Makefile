@@ -15,6 +15,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+BROKEN= "/usr/bin/tar: Unexpected EOF on archive file"
+
 USE_IMAKE=		yes
 NO_INSTALL_MANPAGES=	yes
 
