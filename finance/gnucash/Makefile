@@ -13,7 +13,7 @@ CATEGORIES=	deskutils
 MASTER_SITES=	http://www.gnucash.org/xacc/download/  \
 		ftp://ftp.gnucash.org/pub/xacc/
 
-MAINTAINER=     alex@FreeBSD.org
+MAINTAINER=     obrien@FreeBSD.org
 
 REQUIRES_MOTIF=	yes
 GNU_CONFIGURE=	yes
