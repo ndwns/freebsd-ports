@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	sunclock-1.4
-PKGNAME=	sunclock-1.4
 CATEGORIES=	astro
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
