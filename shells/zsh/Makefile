@@ -9,9 +9,8 @@
 DISTNAME=       zsh-3.0.5
 PKGNAME=	zsh-3.0.5
 CATEGORIES=	shells
-MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
-		ftp://ftp.sterling.com/zsh/ \
-		ftp://ftp.rge.com/pub/zsh/ \
+MASTER_SITES=	ftp://ftp.sterling.com/zsh/ \
+		ftp://ftp.rge.com/pub/shells/zsh/ \
 		ftp://ftp.cenatls.cena.dgac.fr/pub/shells/zsh/ \
 		ftp://mrrl.lut.ac.uk/zsh/ \
 		ftp://ftp.fu-berlin.de/pub/unix/shells/zsh/ \
