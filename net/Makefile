@@ -152,6 +152,7 @@
     SUBDIR += proftpd
     SUBDIR += pvm
     SUBDIR += queso
+    SUBDIR += quirc
     SUBDIR += radius
     SUBDIR += radiusclient
     SUBDIR += radiusd-cistron
