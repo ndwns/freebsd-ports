@@ -4,7 +4,7 @@
 # 
 if ! test -x %%PREFIX%%/libexec/vbsfilter
 then
-#	exit 0
+	exit 0
 fi
 case $1 in
 start)
