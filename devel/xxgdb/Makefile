@@ -15,4 +15,14 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 USE_IMAKE=	yes
 
+# This isn't included in the original Imakefile for some reason.
+#  Yes, I know this will recompile the program every time, but
+#  we have the cookie anyway and it's much easier this way
+#  than modifying the Imakefile.
+post-build:
+	cd ${WRKSRC}; gcc -o xxgdbiowin -m486 -O2 xxgdbiowin.c
+
+post-install:
+	install -c -s ${WRKSRC}/xxgdbiowin ${PREFIX}/bin
+
 .include <bsd.port.mk>
