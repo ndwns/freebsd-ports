@@ -11,6 +11,7 @@ PKGNAME=        gated-3.5a11
 CATEGORIES+=	networking
 MASTER_SITES=   ftp://ftp.gated.merit.edu/net-research/gated/
 
+WRKSRC=		${WRKDIR}/gated
 ALL_TARGET=	gated
 
 .include <bsd.port.mk>
