@@ -21,5 +21,6 @@ MAINTAINER=    joerg@FreeBSD.ORG
 
 USE_IMAKE=     yes
 WRKSRC=        ${WRKDIR}/xpostit
+MAN1=          xpostit.1
 
 .include <bsd.port.mk>

@@ -18,6 +18,9 @@ NO_CDROM=	"Don't sell for profit"
 EXTRACT_ONLY=	${DISTNAME}.tar.gz
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
+MAN1=		xdaclunix.1 xdalarm.1 xdcustom.1 xddump.1 xdiary.1 xdinitdb.1 \
+		xdlight.1 xdnotify.1 xdprformat.1 xdremind.1 xdremove.1 \
+		xdrestore.1
 
 pre-patch:
 	for node in `tar tzf ${DISTDIR}/xmdfix.gz` ; \

@@ -14,5 +14,6 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 MAINTAINER=	joerg@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN1=		sliderule.1
 
 .include <bsd.port.mk>

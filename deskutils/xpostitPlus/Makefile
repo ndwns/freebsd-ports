@@ -14,5 +14,6 @@ MASTER_SITE_SUBDIR=	office
 MAINTAINER=	mi@aldan.ziplink.net
 
 USE_IMAKE=	yes
+MAN1=		xpostit+.1
 
 .include <bsd.port.mk>
