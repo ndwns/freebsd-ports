@@ -10,7 +10,7 @@ DISTNAME=	psgml-1.1.6
 CATEGORIES=	editors elisp
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/sgml/ALPHA/
 
-MAINTAINER?=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER?=	shige@FreeBSD.ORG
 
 # distfile version
 PSGML_VER=	1.1.6
@@ -65,7 +65,7 @@ PLIST_SUB=	EMACS_LIBDIR=${EMACS_LIBDIR} EMACS_VER=${EMACS_VER}
 #
 # main configurations
 #
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
 RUN_DEPENDS+=	${CATALOG}:${PORTSDIR}/textproc/dtd-catalogs
 
 pre-configure:
