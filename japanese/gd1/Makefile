@@ -20,8 +20,6 @@ MAINTAINER=	ichiro@ichiro.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libVFlib2.so:${PORTSDIR}/japanese/vflib
 
-#BROKEN_ELF=	linker command line
-
 FETCH_BEFORE_ARGS=	-b
 
 .include <bsd.port.pre.mk>
