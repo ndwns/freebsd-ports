@@ -1,5 +1,5 @@
 # New ports collection makefile for:    Gimp
-# Version required:     0.99.19
+# Version required:     0.99.28
 # Date created:         Mon Nov 18 21:28:43 CST 1996
 # Whom:                 erich@FreeBSD.org
 #
@@ -8,7 +8,7 @@
 
 MAJOR=	0
 MINOR=	99
-MICRO=	26
+MICRO=	28
 
 VERSION=	${MAJOR}.${MINOR}.${MICRO}
 MM_VERSION=	${MAJOR}.${MINOR}
@@ -39,6 +39,8 @@ USE_GMAKE=	yes
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include \
 		-I${LOCALBASE}/include/tiff34" \
 		LIBS=-L${LOCALBASE}/lib INSTALL_SCRIPT='$${INSTALL} -m 755'
+
+MAN1=		gimp.1
 
 DATASTUFF=  brushes palettes gradients patterns
 
