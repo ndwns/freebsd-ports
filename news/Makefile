@@ -3,7 +3,6 @@
 
     SUBDIR += cnews
     SUBDIR += dnews
-    SUBDIR += dnews3
     SUBDIR += inn
     SUBDIR += knews
     SUBDIR += nn
