@@ -16,9 +16,9 @@ PATCHFILES=	patch-2.01.txt
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
+RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
 
+USE_PERL5=	yes
 DIST_SUBDIR=	wwwstat
 WRKSRC=		${WRKDIR}/wwwstat-2.0
 MAN1=		wwwstat.1 splitlog.1
