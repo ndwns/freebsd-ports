@@ -4,6 +4,7 @@
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += maplay
+    SUBDIR += mpegaudio
     SUBDIR += nas
     SUBDIR += playmidi
     SUBDIR += radio
