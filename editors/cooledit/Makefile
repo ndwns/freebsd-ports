@@ -1,12 +1,12 @@
 # New ports collection makefile for:	 cooledit
-# Version required:	3.6.0
+# Version required:	3.8.3
 # Date created:		18 November 1997
 # Whom:			brett@peloton.physics.montana.edu
 #
 # $Id$
 #
 
-DISTNAME=	cooledit-3.8.2
+DISTNAME=	cooledit-3.8.3
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/editors/X
