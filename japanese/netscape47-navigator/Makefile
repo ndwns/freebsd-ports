@@ -6,6 +6,8 @@
 # $Id$
 #
 
+BROKEN=		REPOSITORY COPIED
+
 MAINTAINER=	sada@FreeBSD.ORG
 
 FILESDIR=	${BASEDIR}/files
