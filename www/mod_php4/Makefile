@@ -18,7 +18,7 @@ MAINTAINER=	ibex@physik.TU-Berlin.DE
 APACHE_VER=	1.3.1
 PHP3_VER=	3.0.3
 
-#USE_PERL5=	yes
+USE_PERL5=	yes
 
 IS_INTERACTIVE=	yes
 NO_PACKAGE=	Support for different databases
