@@ -28,5 +28,6 @@
     SUBDIR += unroff
     SUBDIR += urlview
     SUBDIR += wdiff
+    SUBDIR += word2x
 
 .include <bsd.port.subdir.mk>
