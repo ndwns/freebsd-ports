@@ -1,14 +1,14 @@
 # New ports collection makefile for:	intercal
-# Version required:    0.17
+# Version required:    0.18
 # Date created:        20 March 1998
 # Whom:                Matthew Hunt <mph@freebsd.org>
 #
 # $Id$
 #
 
-DISTNAME=	intercal-0.17
+DISTNAME=	intercal-0.18
 CATEGORIES=	lang
-MASTER_SITES=	http://earthspace.net/~esr/
+MASTER_SITES=	http://www.tuxedo.org/~esr/intercal/
 
 MAINTAINER=	mph@freebsd.org
 
