@@ -9,7 +9,7 @@
 DISTNAME=	tank-0.4a-src
 PKGNAME=	tank-0.4a
 CATEGORIES=	games
-MASTER_SITES=	http://www.info.polymtl.ca/~coyote/tank/
+MASTER_SITES=	http://step.polymtl.ca/~coyote/tank/
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
