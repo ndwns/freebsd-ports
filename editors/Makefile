@@ -14,4 +14,6 @@
     SUBDIR += xemacs
     SUBDIR += xvile
 
+    NOBUILD += ashe		# requires motif
+
 .include <bsd.port.subdir.mk>
