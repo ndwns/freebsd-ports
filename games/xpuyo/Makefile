@@ -7,9 +7,9 @@
 #
 
 DISTNAME=	xpuyo
-PKGNAME=        xpuyo-0.0
+PKGNAME=	xpuyo-0.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.huee.hokudai.ac.jp/pub/games/
+MASTER_SITES=	ftp://ftp.meme.hokudai.ac.jp/pub/games/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
