@@ -59,7 +59,7 @@ post-patch:
 .endif
 
 .include <bsd.port.pre.mk>
-.if ${OSREL} >= 3
+.if ${OSVERSION} >= 300000
 ALL_TARGET=	freebsd3.x
 LIBACE=		4
 LIBJTOOL=	0
