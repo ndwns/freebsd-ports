@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	openldap-1.2.0
+DISTNAME=	openldap-1.2.3
 CATEGORIES=	net databases
 MASTER_SITES=	ftp://ftp.OpenLDAP.org/pub/OpenLDAP/openldap-release/ \
 		ftp://ftp.net.lut.ac.uk/openldap/openldap-release/ \
@@ -14,7 +14,9 @@ MASTER_SITES=	ftp://ftp.OpenLDAP.org/pub/OpenLDAP/openldap-release/ \
 		ftp://mirror.aarnet.edu.au/pub/OpenLDAP/openldap-release/ \
 		ftp://gd.tuwien.ac.at/infosys/network/OpenLDAP/openldap-release/ \
 		http://www.unibase.cz/ldapcz/Programy/Free/OpenLDAP/openldap-release/ \
-		ftp://ftp.ntua.gr/mirror/OpenLDAP/openldap-release/
+		ftp://ftp.ntua.gr/mirror/OpenLDAP/openldap-release/ \
+		ftp://ftp.loxinfo.co.th/pub/unix/LDAP/OpenLDAP/openldap-release/\
+		ftp://ftp.zcu.cz/pub/network/openldap/openldap-release/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ulmo@earthling.net
