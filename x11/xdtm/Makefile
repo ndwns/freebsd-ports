@@ -17,5 +17,6 @@ LIB_DEPENDS=		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=		yes
 WRKSRC=			${WRKDIR}/xdtm
+MAN1=			xdtm.1
 
 .include <bsd.port.mk>
