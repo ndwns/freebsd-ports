@@ -13,6 +13,8 @@ DISTFILES=	exim-testing-2.053.tar.gz exim-texinfo-2.00.tar.gz
 
 MAINTAINER=	axl@iafrica.com
 
+BROKEN=		fetch
+
 USE_PERL5=	YES
 
 do-configure:
