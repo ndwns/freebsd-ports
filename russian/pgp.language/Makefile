@@ -14,6 +14,9 @@ EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+# depends on restricted stuff (pgp)
+NO_PACKAGE=	yes
+
 EXEC_DEPENDS=   unzip:${PORTSDIR}/archivers/unzip \
 		pgp:${PORTSDIR}/utils/pgp.non-usa_only
 EXTRACT_CMD=    unzip
