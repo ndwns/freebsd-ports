@@ -21,7 +21,7 @@ MAINTAINER=     obrien@FreeBSD.org
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-motif-libraries=${MOTIFLIB}
+CONFIGURE_ARGS=	--with-motif-libraries="${MOTIFLIB} -lXt -lXext"
 USE_GMAKE=	yes
 REQUIRES_MOTIF=	yes
 MAN1=		ddd.1
