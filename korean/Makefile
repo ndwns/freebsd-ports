@@ -6,6 +6,8 @@
     SUBDIR += elm
     SUBDIR += ftghostscript5
     SUBDIR += fvwm95
+    SUBDIR += gau
+    SUBDIR += gtk10
     SUBDIR += h2ps
     SUBDIR += han
     SUBDIR += hanemacs
