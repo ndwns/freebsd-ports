@@ -13,6 +13,6 @@ MASTER_SITES+=	ftp://ftp.funet.fi/pub/X11/contrib/applications/
 CATEGORIES+=	networking
 
 USE_IMAKE=	yes
-DEPENDS=	${PORTSDIR}/net/archie
+EXEC_DEPENDS=	archie:${PORTSDIR}/net/archie
 
 .include <bsd.port.mk>
