@@ -47,7 +47,6 @@ post-build:
 
 post-install:
 	@(cd ${SWDESKDIR} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
-.endif
 	@${MKDIR} ${PREFIX}/lib/X11/${FVWMNAME}/pixmaps
 	${INSTALL_DATA} ${WRKSRC}/icons/*.xpm \
 		${PREFIX}/lib/X11/${FVWMNAME}/pixmaps
