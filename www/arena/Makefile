@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp-eu.w3.org/pub/Arena/beta-3/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-LIB_DEPENDS+=   jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=   jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=   png\\.0\\.:${PORTSDIR}/graphics/png
 
 WRKSRC=         ${WRKDIR}/WWW
