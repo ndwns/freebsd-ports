@@ -1,12 +1,12 @@
 # New ports collection makefile for:   mm
-# Version required:		1.0.7
+# Version required:		1.0.9
 # Date Created:			14 March 1999
 # Whom:				Ralf S. Engelschall
 #
 # $Id$
 #
 
-DISTNAME=	mm-1.0.7
+DISTNAME=	mm-1.0.9
 CATEGORIES=	devel
 MASTER_SITES=	http://www.engelschall.com/sw/mm/ \
 		ftp://ftp.engelschall.com/sw/mm/
