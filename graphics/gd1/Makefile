@@ -13,6 +13,8 @@ MASTER_SITES=   http://www.boutell.com/gd/http/
 
 MAINTAINER=     jeff@cetlink.net
 
+FETCH_BEFORE_ARGS=	-b
+
 pre-install:
 	${MKDIR} ${PREFIX}/include/gd
 	${MKDIR} ${PREFIX}/share/examples/gd
