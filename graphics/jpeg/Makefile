@@ -9,8 +9,12 @@
 DISTNAME=       jpegsrc.v6
 PKGNAME=        jpeg-6
 CATEGORIES+=	graphics
-MASTER_SITES=	ftp://ftp.uu.net/graphics/jpeg/ \
-		ftp://ftp.netcom.com/pub/tg/tgl/uunet/
+MASTER_SITES=	ftp://nic.switch.ch/mirror/ghost/ \
+		ftp://ftp.zam.kfa-juelich.de/pub/graphics/JPEG/ \
+		ftp://scotch.csua.berkeley.edu/pub/gimp/old/ \
+		ftp://ftp.efd.lth.se/pub/graphic/ \
+		ftp://rcs1.urz.tu-dresden.de/pub/soft/tex/tex.dante/support/ghostscript/ \
+		ftp://sun.dante.de/tex-archive/support/ghostscript/
 
 WRKSRC=         ${WRKDIR}/jpeg-6
 GNU_CONFIGURE=	yes
