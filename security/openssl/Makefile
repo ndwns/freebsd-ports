@@ -17,4 +17,11 @@ HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	util/FreeBSD.sh
 MAKEFILE=		Makefile.FreeBSD
 
+
+post-install:
+.if !defined(NOPORTDOCS)
+	@${MKDIR} ${PREFIX}/share/doc/SSLeay
+	@${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/SSLeay
+.endif
+
 .include <bsd.port.mk>
