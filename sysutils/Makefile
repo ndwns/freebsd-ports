@@ -20,6 +20,7 @@
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += ffsrecov
+    SUBDIR += gcombust
     SUBDIR += gnomeadmin
     SUBDIR += gnomecontrolcenter
     SUBDIR += glload
