@@ -8,7 +8,7 @@
 
 DISTNAME=      rshell-1.0
 CATEGORIES=    misc
-MASTER_SITES=  ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/LOCAL_PORTS/
+MASTER_SITES=  ${MASTER_SITE_LOCAL}
 MAINTAINER=    wosch@FreeBSD.ORG
 
 .include <bsd.port.mk>
