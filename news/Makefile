@@ -15,6 +15,7 @@
     SUBDIR += nntpbtr
     SUBDIR += nntpcache
     SUBDIR += p5-News-Article
+    SUBDIR += p5-Gateway
     SUBDIR += plor
     SUBDIR += rkive
     SUBDIR += slnr
