@@ -33,6 +33,7 @@
     SUBDIR += splitmpg
     SUBDIR += tgif
     SUBDIR += tiff
+    SUBDIR += tiff34
     SUBDIR += txtmerge
     SUBDIR += vcg
     SUBDIR += xanim
