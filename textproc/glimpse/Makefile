@@ -9,7 +9,7 @@
 DISTNAME=       glimpse-3.0.src
 PKGNAME=	glimpse-3.0b
 CATEGORIES+=	misc
-MASTER_SITES=   ftp://cs.arizona.edu/glimpse/
+MASTER_SITES=   ftp://ftp.cs.arizona.edu/glimpse/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	chuckr@glue.umd.edu
