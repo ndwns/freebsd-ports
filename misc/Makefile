@@ -36,7 +36,6 @@
     SUBDIR += gnomeutils
     SUBDIR += gnuls
     SUBDIR += gone
-    SUBDRI += gtimer
     SUBDIR += gtkfind
     SUBDIR += gyvescm
     SUBDIR += Howto
