@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
 
 MAINTAINER=	ports@freebsd.org
 
+BROKEN_ELF=	build
+
 ALL_TARGET=	freebsd
 MAN1=		mpg123.1
 
