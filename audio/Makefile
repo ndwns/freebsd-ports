@@ -8,6 +8,7 @@
     SUBDIR += mpegaudio
     SUBDIR += mxv
     SUBDIR += nas
+    SUBDIR += nspmod
     SUBDIR += playmidi
     SUBDIR += radio
     SUBDIR += rosegarden
