@@ -39,6 +39,7 @@ RESTRICTED += ivs            # crypto, export controlled
     SUBDIR += tkined
     SUBDIR += vic
     BROKEN += wais           # for XFree3.x
+    SUBDIR += wn
     SUBDIR += wu-ftpd
     SUBDIR += wwwish
     SUBDIR += xarchie
