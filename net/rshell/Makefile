@@ -4,7 +4,7 @@
 # Whom:                wosch
 #
 # $Id$
-
+#
 
 DISTNAME=      rshell-1.0
 CATEGORIES=    misc
