@@ -54,6 +54,7 @@
     SUBDIR += m68kbinutils
     SUBDIR += m68kgcc
     SUBDIR += m68kgdb
+    SUBDIR += m68knewlib
     SUBDIR += makedepend
     SUBDIR += mico
     SUBDIR += mico-latest
