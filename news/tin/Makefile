@@ -19,7 +19,7 @@ MAINTAINER=     ache@FreeBSD.org
 
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+= --with-nntp-default-server=news  \
+CONFIGURE_ARGS=  --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/news/lib \
 		 --with-mime-default-charset=US-ASCII \
@@ -39,7 +39,7 @@ CONFIGURE_ARGS+=	--enable-nntp-only
 .endif
 
 post-configure:
-	echo '#define NNTP_SERVER_FILE "${PREFIX}/etc/nntpserver"' >>${WRKSRC}/include/autoconf.h
-	echo '#define SMTP_SERVER_FILE "${PREFIX}/etc/smtpserver"' >>${WRKSRC}/include/autoconf.h
+	${ECHO} '#define NNTP_SERVER_FILE "${PREFIX}/etc/nntpserver"' >>${WRKSRC}/include/autoconf.h
+	${ECHO} '#define SMTP_SERVER_FILE "${PREFIX}/etc/smtpserver"' >>${WRKSRC}/include/autoconf.h
 
 .include <bsd.port.mk>
