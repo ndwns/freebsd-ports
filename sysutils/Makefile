@@ -51,6 +51,7 @@
     SUBDIR += webmin
     SUBDIR += wmavgload
     SUBDIR += wmmon
+    SUBDIR += wmmount
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
