@@ -8,7 +8,7 @@
 
 
 DISTNAME=       vile-5.2
-MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile
+MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
 MAKEFILE=	makefile
 GNU_CONFIGURE=	YES
 
