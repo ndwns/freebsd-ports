@@ -94,6 +94,7 @@
     SUBDIR += sjxa
     SUBDIR += skk
     SUBDIR += tcl76
+    SUBDIR += tcsh
     SUBDIR += tgif
     SUBDIR += tk42
     SUBDIR += today
