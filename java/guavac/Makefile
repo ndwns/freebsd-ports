@@ -16,6 +16,8 @@ CC=		gcc28
 CXX=		g++28
 BUILD_DEPENDS=	${LOCALBASE}/i386-unknown-freebsd${OSREL}/lib/libiberty.a:${PORTSDIR}/lang/glibstdc++28
 
+BROKEN_ELF=	depends on glibstdc++28
+
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 MAN1=		guavac.1
