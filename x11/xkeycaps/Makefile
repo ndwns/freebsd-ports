@@ -3,7 +3,7 @@
 # Date created:         12 February 1995
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xkeycaps-2.42

@@ -3,7 +3,7 @@
 # Date created:				17 March 1998
 # Whom:					Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnome-core-1.0.9

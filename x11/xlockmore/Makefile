@@ -3,7 +3,7 @@
 # Date created:		9 November 1994
 # Whom:			smace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xlockmore-4.14

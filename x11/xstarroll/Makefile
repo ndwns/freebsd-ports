@@ -3,7 +3,7 @@
 # Date created:        14 January 1999
 # Whom:                Sakai Hiroaki <sakai@miya.ee.kagu.sut.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xstarroll-1.04

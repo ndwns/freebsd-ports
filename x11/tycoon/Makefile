@@ -3,7 +3,7 @@
 # Date created:		19 September 1997
 # Whom:			steve@farrell.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tycoon-1.07o

@@ -3,7 +3,7 @@
 # Date created:         5 January 1995
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xc

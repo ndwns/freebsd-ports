@@ -3,7 +3,7 @@
 # Date created:			10 Apr 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmbutton-0.4

@@ -3,7 +3,7 @@
 # Date created:			5 December 1996
 # Whom:				Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libsx

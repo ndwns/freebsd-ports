@@ -3,7 +3,7 @@
 # Date created:        23 March 1997
 # Whom:                Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xprompt-1.4

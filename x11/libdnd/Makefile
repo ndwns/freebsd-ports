@@ -3,7 +3,7 @@
 # Date created:                8 August 1997
 # Whom:                        lukin@okbmei.msk.su
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dnd.1.1

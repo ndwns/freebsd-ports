@@ -3,7 +3,7 @@
 # Date created:		2 May 1998
 # Whom:			Bruce A. Mah <bmah@ca.sandia.gov>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       dxpc-3.7.0

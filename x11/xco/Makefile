@@ -3,7 +3,7 @@
 # Date created:		6 Jun 1997
 # Whom:			Satoshi TAOKA
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xco

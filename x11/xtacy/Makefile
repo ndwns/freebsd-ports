@@ -3,7 +3,7 @@
 # Date created:         25 July 1996
 # Whom:                 matt@bdd.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xtacy114

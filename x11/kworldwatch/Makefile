@@ -3,7 +3,7 @@
 # Date created:        12 July 1998
 # Whom:                Marc G. Fournier <scrappy@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kworldwatch-0.6

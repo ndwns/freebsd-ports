@@ -3,7 +3,7 @@
 # Date created:        24th April 1997
 # Whom:                jacs
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      xfishtank-2.2

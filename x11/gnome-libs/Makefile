@@ -3,7 +3,7 @@
 # Date created:				17 June 1998
 # Whom:					Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnome-libs-1.0.14

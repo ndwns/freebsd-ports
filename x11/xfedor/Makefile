@@ -6,7 +6,7 @@
 # ATTENTION: It not work in > 256 colors modes, please fix it
 # if you can.
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xfedor

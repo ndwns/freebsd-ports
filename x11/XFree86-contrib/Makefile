@@ -3,7 +3,7 @@
 # Date created:         7 November 1996
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	X333contrib

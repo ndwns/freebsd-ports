@@ -3,7 +3,7 @@
 # Date created:         11 March 1997
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xtestpicture-1.2

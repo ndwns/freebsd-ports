@@ -3,7 +3,7 @@
 # Date created:			12 January 1999
 # Whom:				Matthew Fuller <fullermd@futuresouth.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bgrot-1.20

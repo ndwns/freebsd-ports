@@ -3,7 +3,7 @@
 # Date created:			31 July 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gyroscope-1.0

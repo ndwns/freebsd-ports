@@ -3,7 +3,7 @@
 # Date created:         9 Jul 1996
 # Whom:            searle
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	blast-1.0-ss-10.20

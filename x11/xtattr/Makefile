@@ -3,7 +3,7 @@
 # Date created:		6 August 1997
 # Whom:			jeff@cetlink.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xtattr-1.0

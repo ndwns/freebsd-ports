@@ -3,7 +3,7 @@
 # Date created:        20 November 1996
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmascot2.5p2

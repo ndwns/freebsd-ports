@@ -3,7 +3,7 @@
 # Date created:		Sat Jun 14 09:43:24 CEST 1997
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fbsd-icons

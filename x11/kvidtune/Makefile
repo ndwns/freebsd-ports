@@ -3,7 +3,7 @@
 # Date created:        15 November 1998
 # Whom:                Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kvidtune-0.4.1

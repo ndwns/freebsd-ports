@@ -3,7 +3,7 @@
 # Date created:        20 Sep 1997
 # Whom:                Stefan Zehl <sec@42.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xaniroc

@@ -3,7 +3,7 @@
 # Date created:		20 Jul 1996
 # Whom:			Eric Blood <eblood@cs.unr.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xautolock-pl15

@@ -3,7 +3,7 @@
 # Date created:		30 October 1998
 # Whom:			Sakai Hiroaki <sakai@miya.ee.kagu.sut.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmangekyou-2.0

@@ -3,7 +3,7 @@
 # Date created:		1 August 1995
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcb-2.3

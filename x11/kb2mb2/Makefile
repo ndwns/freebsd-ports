@@ -3,7 +3,7 @@
 # Date created:		24 December 1997
 # Whom:			Tatsumi Hosokawa
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kb2mb2-1.0

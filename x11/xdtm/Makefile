@@ -3,7 +3,7 @@
 # Date created:         		26th April 1995
 # Whom:                 		gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xdtm-2.5.8

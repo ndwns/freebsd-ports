@@ -3,7 +3,7 @@
 # Date created:         15 June 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xwit-1.0

@@ -3,7 +3,7 @@
 # Date created:		22nd March 1995
 # Whom:			jkh@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sxpc-1.4

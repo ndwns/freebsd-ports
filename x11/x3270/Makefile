@@ -3,7 +3,7 @@
 # Date created:		31 January 1995
 # Whom:			janek
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	x3270-3.1.1.6

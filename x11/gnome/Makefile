@@ -3,7 +3,7 @@
 # Date created:		17 Aug 1998
 # Whom:			Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnome-1.0.0

@@ -3,7 +3,7 @@
 # Date created:         9 January 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xloadimage.4.1

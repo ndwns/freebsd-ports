@@ -3,7 +3,7 @@
 # Date created:		3 January 1998
 # Whom:			jraynard
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	props-1.0

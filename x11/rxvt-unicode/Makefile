@@ -3,7 +3,7 @@
 # Date created:         5th December 1994
 # Whom:                 gpalmer@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rxvt-2.6.1

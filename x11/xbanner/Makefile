@@ -3,7 +3,7 @@
 # Date created:		13 Jan 1999
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	XBanner1.31

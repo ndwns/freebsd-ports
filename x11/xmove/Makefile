@@ -3,7 +3,7 @@
 # Date created:        16 Jan 1997
 # Whom:                Stefan Zehl <sec@42.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmove.2.0beta2

@@ -3,7 +3,7 @@
 # Date created:		17 January 1999
 # Whom:			Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	aterm-0.3.6

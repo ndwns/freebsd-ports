@@ -3,7 +3,7 @@
 # Date created:         12 November 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsnow-1.40

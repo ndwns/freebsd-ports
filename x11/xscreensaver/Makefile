@@ -3,7 +3,7 @@
 # Date created:         10 July 1995
 # Whom:                 dom@myrddin.demon.co.uk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xscreensaver-3.17

@@ -3,7 +3,7 @@
 # Date created:        24 November 1997
 # Whom:                Murray Stokely <murray@cdrom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Eterm-0.8.8

@@ -3,7 +3,7 @@
 # Date created:		31 May 1997
 # Whom:			jonny
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xtoolwait-1.3

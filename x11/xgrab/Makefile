@@ -3,7 +3,7 @@
 # Date created:         27 February 1995
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xgrabsc.2_41

@@ -3,7 +3,7 @@
 # Date created:        28 October 1997
 # Whom:                Stefan Eßer <se@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kdebase-1.1.1

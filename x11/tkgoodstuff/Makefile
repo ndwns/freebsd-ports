@@ -3,7 +3,7 @@
 # Date created:		7 Oct 1996
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkgoodstuff8.0-final
