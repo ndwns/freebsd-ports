@@ -19,6 +19,7 @@
     SUBDIR += dvips2ascii
     SUBDIR += dviselect
     SUBDIR += enscript
+    SUBDIR += enscriptfonts
     SUBDIR += freetype
     SUBDIR += ghostscript
     SUBDIR += ghostscript3
