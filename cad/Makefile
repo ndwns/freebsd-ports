@@ -4,6 +4,7 @@
     SUBDIR += acs
     SUBDIR += chipmunk
     SUBDIR += felt
+    SUBDIR += geda
     SUBDIR += irsim
     SUBDIR += kaskade
     SUBDIR += magic
