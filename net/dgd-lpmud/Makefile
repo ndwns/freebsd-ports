@@ -16,8 +16,8 @@ DIST_SUBDIR=	dgd
 
 MAINTAINER=	adam@veda.is
 
-NO_CDROM=	depends on DGD, which is NO_CDROM
-RESTRICTED=	no monetary gain
+NO_PACKAGE=	depends on DGD, which is NO_CDROM
+RESTRICTED=	no monetary gain, tarball OK for CDROM
 
 RUN_DEPENDS=	${PREFIX}/dgd/bin/driver:${PORTSDIR}/net/dgd
 
