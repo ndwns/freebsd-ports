@@ -10,7 +10,7 @@ DISTNAME=	cs-0.3
 CATEGORIES=	devel
 MASTER_SITES=	ftp://cantor.informatik.rwth-aachen.de/pub/unix/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	andy@icc.surw.chel.su
 
 NO_CDROM=	this port requires a written license
 ALL_TARGET=	cs
