@@ -13,8 +13,8 @@ MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt133
-LIB_DEPENDS=	qt\\.1\\.3[3-9]:${PORTSDIR}/x11/qt133
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt140
+LIB_DEPENDS=	qt\\.1\\.\\\(33\\\|40\\\):${PORTSDIR}/x11/qt140
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
