@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += afio
     SUBDIR += manck
     SUBDIR += sudo
     SUBDIR += top
