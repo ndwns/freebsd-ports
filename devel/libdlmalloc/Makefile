@@ -14,8 +14,6 @@ DISTFILES=	malloc-2.6.4.c
 
 MAINTAINER=	roberto@FreeBSD.ORG
 
-BROKEN_ELF=	yes
-
 NO_WRKSUBDIR=   yes
 
 do-extract:
@@ -25,6 +23,6 @@ do-extract:
 	${CP} -p ${FILESDIR}/Makefile ${WRKDIR}
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
