@@ -15,6 +15,10 @@ MAINTAINER=     dmaddox@scsn.net
 
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
+.if !defined(DISPLAY)
+BROKEN=		requires DISPLAY to install
+.endif
+
 WRKSRC=		${WRKDIR}/X-Files
 NO_BUILD=	yes
 USE_X_PREFIX=	yes
@@ -32,7 +36,5 @@ xfilesrc xflogo.gif
 .endfor
 	@${INSTALL_DATA} ${WRKSRC}/X-Files.xpm ${X11BASE}/include/X11/pixmaps
 	@${INSTALL_MAN} ${WRKSRC}/X-Files.1x ${X11BASE}/man/man1
-
-BROKEN=		DISPLAY
 
 .include <bsd.port.mk>
