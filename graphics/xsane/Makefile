@@ -14,6 +14,7 @@ MASTER_SITES=	http://www.wolfsburg.de/~rauch/sane/ \
 MAINTAINER=	domi@saargate.de
 
 LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
+		sane.1:${PORTSDIR}/graphics/sane \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
 		png.3:${PORTSDIR}/graphics/png
