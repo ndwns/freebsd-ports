@@ -33,9 +33,13 @@ pre-patch:
 	@${PATCH} ${PATCH_DIST_ARGS} < ${WRKDIR}/kakasi-ext/patch.kakasi-2.2.5
 
 post-install:
+.for f in mkkanwa atoc-conv rdic-conv
+	@/usr/bin/strip ${PREFIX}/lib/kakasi/$f
+.endfor
 	${INSTALL_MAN} ${WRKSRC}/kakasi.1 ${PREFIX}/man/${MANLANG}/man1
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/kakasi
+	${INSTALL_DATA} ${WRKSRC}/JISYO ${PREFIX}/share/doc/kakasi
 	${INSTALL_DATA} ${WRKSRC}/../README* ${PREFIX}/share/doc/kakasi
 	${INSTALL_DATA} ${WRKDIR}/kakasi-ext/KAKASI.DOC \
 	  ${PREFIX}/share/doc/kakasi/kakasi-ext.doc
