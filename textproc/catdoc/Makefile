@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	catdoc-0.90.2
+DISTNAME=	catdoc-0.90.3
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN} \
 		ftp://ftp.ice.ru/pub/vitus/
