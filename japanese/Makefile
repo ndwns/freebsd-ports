@@ -99,8 +99,10 @@
     SUBDIR += mule-wnn6
     SUBDIR += ndtpd
     SUBDIR += nethack
+    SUBDIR += netscape-fonts
     SUBDIR += netscape3.language
-    SUBDIR += netscape4
+    SUBDIR += netscape4-communicator
+    SUBDIR += netscape4-navigator
     SUBDIR += newosaka
     SUBDIR += nkf
     SUBDIR += nvi-euc-jp
