@@ -44,10 +44,10 @@ MAN1=		exmh.1
 do-build:
 	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} \
 		WISH=${PREFIX}/bin/${WISH} WRKSRC=${WRKSRC} \
-		FILESDIR=${FILESDIR} ${SCRIPTDIR}/build
+		FILESDIR=${FILESDIR} /bin/sh ${SCRIPTDIR}/build
 
 do-install:
 	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} \
-		WRKSRC=${WRKSRC} ${SCRIPTDIR}/install
+		WRKSRC=${WRKSRC} /bin/sh ${SCRIPTDIR}/install
 
 .include <bsd.port.mk>
