@@ -17,8 +17,6 @@ USE_X_PREFIX=	yes
 ALL_TARGET=	asprint
 MAKEFILE=	makefile
 
-BROKEN_ELF=	yes
-
 do-install:
 	${INSTALL_PROGRAM} $(WRKSRC)/asprint ${PREFIX}/bin
 
