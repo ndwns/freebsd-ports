@@ -15,6 +15,8 @@ MAINTAINER=	stb@freebsd.org
 
 ONLY_FOR_ARCHS=	i386
 
+RESTRICTED=	"Binary redistribution not authorized."
+
 EXTRACT_CMD=		tar
 EXTRACT_BEFORE_ARGS=	-xf
 EXTRACT_AFTER_ARGS=	
