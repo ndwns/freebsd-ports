@@ -13,4 +13,7 @@ MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
 MAKEFILE=	makefile
 GNU_CONFIGURE=	yes
 
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/vile.1
+
 .include <bsd.port.mk>
