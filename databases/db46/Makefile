@@ -12,6 +12,7 @@ MASTER_SITES=	http://www.sleepycat.com/db/packages/
 
 MAINTAINER=	josh@ican.net
 
+MANUAL_PACKAGE_BUILD=	incompatible with libc version
 WRKSRC=		${WRKDIR}/${DISTNAME}/build.unix
 
 GNU_CONFIGURE=	YES
@@ -39,7 +40,5 @@ post-install:
 .for example in AccessExample.cpp AppinitExample.cpp LockExample.cpp MpoolExample.cpp TpcbExample.cpp
 	${INSTALL_DATA} ${WRKSRC}/../examples_cxx/${example} ${PREFIX}/share/examples/db
 .endfor
-
-MANUAL_PACKAGE_BUILD=	incompatible with libc version
 
 .include <bsd.port.mk>
