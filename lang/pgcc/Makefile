@@ -12,9 +12,9 @@ CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 # note this is an http site 
-PATCH_SITES=	http://www.iti.cs.tu-bs.de/soft/www.goof.com/pcg/data/ \
-		http://www.nightflight.com/~pcg/data/ \
+PATCH_SITES=	http://www.nightflight.com/~pcg/data/ \
 		http://www.goof.com/pcg/data/ \
+		http://www.iti.cs.tu-bs.de/soft/www.goof.com/pcg/data/ \
 		http://www.pmi.saitama-med.ac.jp/pcg/data/ \
 		http://linux.cis.nctu.edu.tw/pcg/data/
 
