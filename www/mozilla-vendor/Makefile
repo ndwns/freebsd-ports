@@ -8,8 +8,13 @@
 
 DISTNAME=       netscape-4.03b8
 CATEGORIES=	www
-MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/base_install/
+.if defined(NAVIGATOR)
+MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/navigator_standalone/
+DISTFILES=      navigator-v403b8-export.x86-unknown-freebsd.tar.gz
+.else
+MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/base_install/
 DISTFILES=      communicator-v403b8-export.x86-unknown-freebsd.tar.gz
+.endif
 NO_WRKSUBDIR=   Yes
 NO_BUILD=       Yes
 
@@ -19,6 +24,13 @@ BINDIR=		${PREFIX}/bin
 MAINTAINER=     ache@FreeBSD.ORG
 
 RESTRICTED=	"Commercial software"
+
+pre-fetch:
+.if !defined(NAVIGATOR)
+	@${ECHO_MSG} "Note you can make the standalone navigator version by typing \"make NAVIGATOR=yes\"."
+.else
+	@${ECHO_MSG} "Making the standalone navigator version."
+.endif
 
 do-install:
 	cd ${WRKSRC} && yes "" | \
