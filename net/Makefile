@@ -31,6 +31,7 @@
     SUBDIR += irc
     SUBDIR += ircII
     SUBDIR += ircii-epic
+    SUBDIR += ircd-hybrid-5
     SUBDIR += isc-dhcp
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
