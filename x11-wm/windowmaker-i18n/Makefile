@@ -46,6 +46,19 @@ MASTER_SITES+=	ftp://muse.brain.riken.go.jp/pub/ja.po/
 DISTFILES+=	${JA_CATALOGFILE}${EXTRACT_SUFX}
 .endif
 
+.if defined(USE_GNOME)
+CONFIGURE_ARGS+=	--enable-gnome
+.endif
+.if defined(USE_KDE)
+CONFIGURE_ARGS+=	--enable-kde
+.endif
+
+.SILENT:
+.if !defined(USE_KDE) && !defined(USE_GNOME)
+pre-extract:
+	${ECHO} "You can add hooks for Gnome and KDE by defining USE_GNOME and/or USE_KDE"
+.endif
+
 .include <bsd.port.pre.mk>
 
 post-patch:
