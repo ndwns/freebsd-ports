@@ -6,8 +6,8 @@
     SUBDIR += bulk_mailer
     SUBDIR += cucipop
     SUBDIR += cyrus
-    SUBDIR += elim
     SUBDIR += elm
+    SUBDIR += emil
     SUBDIR += exim
     SUBDIR += exmh
     SUBDIR += exmh2
