@@ -1,5 +1,5 @@
 # New ports collection makefile for:    licq
-# Version required:                     0.34
+# Version required:                     0.61
 # Date created:                         2 July 1998
 # Whom:                                 Brian Feldman
 #
