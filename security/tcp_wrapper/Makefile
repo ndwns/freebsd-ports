@@ -1,13 +1,13 @@
 # New ports collection makefile for:	tcp_wrapper
-# Version required:     7.2
+# Version required:     7.6
 # Date created:		27 Oct 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=       tcp_wrappers_7.4
-PKGNAME=        tcp_wrappers-7.4
+DISTNAME=       tcp_wrappers_7.6
+PKGNAME=        tcp_wrappers-7.6
 CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
 
