@@ -1,7 +1,8 @@
 # $Id$
 #
 # restricted: rzsz kermit
+# broken = flexfax
 #
-SUBDIR= ecu flexfax mgetty+sendfax seyon
+SUBDIR= ecu mgetty+sendfax seyon
 
 .include <bsd.port.subdir.mk>
