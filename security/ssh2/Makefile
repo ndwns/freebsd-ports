@@ -27,7 +27,7 @@ MASTER_SITES=	\
 	ftp://isdec.vc.cvut.cz/pub/security/unimi/crypt/applied-crypto/
 .endif
 
-NO_PACKAGE=	YES
+RESTRICTED=	"Crypto; export-controlled"
 IS_INTERACTIVE=	YES
 
 GNU_CONFIGURE=	YES
