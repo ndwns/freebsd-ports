@@ -76,6 +76,7 @@
     SUBDIR += netrek-COW3-bin
     SUBDIR += netris
     SUBDIR += oneko
+    SUBDIR += oneko-sakura
     SUBDIR += oonsoo
     SUBDIR += pmars
     SUBDIR += pp
