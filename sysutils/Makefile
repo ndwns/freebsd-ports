@@ -17,6 +17,7 @@
     SUBDIR += mei
     SUBDIR += mkhybrid
     SUBDIR += mkisofs
+    SUBDIR += no-login
     SUBDIR += pib
     SUBDIR += rdate
     SUBDIR += rtty
