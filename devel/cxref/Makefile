@@ -1,7 +1,7 @@
 # New ports collection makefile for:	cxref
 # Version required:	1.2b
-# Date created:		26 May 1995
-# Whom:			Satoshi Asami <asami@FreeBSD.ORG>
+# Date created:		23 October 1996
+# Whom:			Thomas Gellekum <tg@freebsd.org>
 #
 # $Id$
 #
