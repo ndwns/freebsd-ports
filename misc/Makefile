@@ -7,7 +7,7 @@
 # BROKEN: wine (doesn't install)
 #
 
-SUBDIR= amanda chord colorls cpm hfs iozone ispell kp less lmbench \
+SUBDIR= amanda bonnie chord colorls cpm hfs iozone ispell kp less lmbench \
 	mshell mtools \
 	pcemu rman screen top tua vmsbackup xbatt xdu xsysstats 
 
