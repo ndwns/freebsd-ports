@@ -22,7 +22,7 @@ BINDIR=		${PREFIX}/bin
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
 MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
 		ftp://ftp.za.freebsd.org/pub/Fortify/
-DISTFILES+=	Fortify-1.2.1-unix.tar.gz
+DISTFILES+=	Fortify-1.2.2-unix.tar.gz
 RESTRICTED=     "Contains strong cryptography"
 .endif
 
@@ -44,7 +44,7 @@ do-install:
 	fi
 	${RM} -rf ${NDIR}/movemail-src
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
-	cd ${WRKDIR}/Fortify-1.2.1-unix && \
+	cd ${WRKDIR}/Fortify-1.2.2-unix && \
 		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/navigator-4.05.bin
 .endif
 	chown -R bin.bin ${NDIR}
