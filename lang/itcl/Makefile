@@ -9,7 +9,7 @@
 DISTNAME=	itcl2.1
 PKGNAME=	itcl-2.1
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/devel/
 
 MAINTAINER=	chuckr@freebsd.org
 
