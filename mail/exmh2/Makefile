@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	exmh-2.0
-PKGNAME=	exmh-2.0
 CATEGORIES=	mail tk80
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
