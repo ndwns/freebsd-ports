@@ -83,6 +83,7 @@
     SUBDIR += telnetx
     SUBDIR += tintin++
     SUBDIR += tinyfugue
+    SUBDIR += tkirc
     SUBDIR += traceroute
     SUBDIR += trafshow
     SUBDIR += ttt
