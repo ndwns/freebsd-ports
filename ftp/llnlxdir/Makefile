@@ -8,14 +8,14 @@
 #
 
 DISTNAME=	latest_xdir
-PKGNAME=	llnlxdir-2.0
+PKGNAME=	llnlxdir-2.1
 CATEGORIES=	net
 MASTER_SITES=	ftp://k2.llnl.gov/pub/ia/llnlxdir/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dima@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/llnlxdir2.0/sources
+WRKSRC=		${WRKDIR}/llnlxdir2_1/sources
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 
