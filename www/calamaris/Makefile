@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	calamaris-2.22
+DISTNAME=	calamaris-2.23
 CATEGORIES=	www textproc
 MASTER_SITES=	http://calamaris.cord.de/ \
 		ftp://ftp.gpad.ac.ru/pub/FreeBSD/distfiles/
