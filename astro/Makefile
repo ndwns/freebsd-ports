@@ -3,6 +3,7 @@
 
     SUBDIR += ephem
     SUBDIR += luna
+    SUBDIR += saoimage
     SUBDIR += sattrack
     SUBDIR += stars
     SUBDIR += sunclock
