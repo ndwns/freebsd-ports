@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ranlib.f
+DISTNAME=	ranlib.c
 PKGNAME=	ranlib-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.netlib.org/random/
@@ -24,5 +24,5 @@ post-install:
 	@${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/doc/* ${PREFIX}/share/doc/ranlib
 .endif
 	@${LDCONFIG} -m ${PREFIX}/lib
-	
+
 .include <bsd.port.mk>
