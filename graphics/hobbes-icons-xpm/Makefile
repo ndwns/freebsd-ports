@@ -11,7 +11,6 @@ PKGNAME=	hobbes-icons-xpm3-1.0
 CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.x.org/R5contrib/  \
 		ftp://ftp.duke.edu/pub/X11/R5contrib/  \
-		ftp://ftp.informatik.uni-bonn.de/pub/X11/contrib/  \
 		ftp://ftp.sunet.se/pub/X11/R5contrib/  \
 		ftp://ftp.pacbell.com/X11/R5contrib/
 
