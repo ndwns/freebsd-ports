@@ -65,6 +65,12 @@ IV_LIB_VER=     3
 IV_LIB_VER=     3.1
 .endif
 
+.if ${OSVERSION} >= 400002
+post-patch:
+	@(cd ${WRKSRC}/src/config/InterViews; ${MV} -f iv-freebsd.cf \
+	iv-freebsd.cf~; ${SED} -e 's/\-lg\+\+//' iv-freebsd.cf~ > iv-freebsd.cf)
+.endif
+
 post-install:
 # need these in ${PREFIX}/lib so that ldconfig can find them
 	${LN} -fs ../interviews/lib/FREEBSD/libIV.so.${IV_LIB_VER} ${PREFIX}/lib
