@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=       Sather-1.0.2
+DISTNAME=       Sather-1.0.4
 MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
-DISTFILES=      Sather-1.0.2.tar.Z
+DISTFILES=      Sather-1.0.4.tar.Z
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
 
