@@ -16,6 +16,7 @@
     SUBDIR += bnc
     SUBDIR += boclient
     SUBDIR += bounce
+    SUBDIR += bpft
     SUBDIR += cap
     SUBDIR += cftp
     SUBDIR += choparp
