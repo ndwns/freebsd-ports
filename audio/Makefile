@@ -25,6 +25,7 @@
     SUBDIR += rplay
     SUBDIR += rsynth
     SUBDIR += s3mod
+    SUBDIR += sidplay
     SUBDIR += sox
     SUBDIR += splay
     SUBDIR += splaytk
