@@ -10,8 +10,9 @@ DISTNAME=	xperfmon++
 PKGNAME=	xperfmon++-2.0
 CATEGORIES=     sysutils x11
 # In Germany try this
-MASTER_SITES=	ftp://proteus.arc.nasa.gov/pub/ \
-		ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller
+MASTER_SITES=	ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller/ \
+		ftp://ftp.u-aizu.ac.jp/pub/misc/tools/xperfmon/ \
+		ftp://ftp.ibank.ru/pub/unix_src/benchmarks/
 
 DISTFILES=	xperfmon++v1.1.tar.Z
 
