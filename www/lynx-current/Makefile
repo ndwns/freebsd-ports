@@ -7,15 +7,15 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.8.1dev.14
-PKGNAME=        lynx-2.8.1dev.14
+DISTNAME=       lynx2.8.1dev.17
+PKGNAME=        lynx-2.8.1dev.17
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
 MAINTAINER=	ache@FreeBSD.ORG
 
 NO_LATEST_LINK=	YES
-WRKSRC=         ${WRKDIR}/lynx2-8
+WRKSRC=         ${WRKDIR}/lynx2-8-1
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
 MAKEFILE=       makefile
