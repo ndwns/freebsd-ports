@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-Gtk
-# Version required:	0.2.1
+# Version required:	0.2.2
 # Date created:		28 Oct 1997
 # Whom:	      		Vanilla I. Shu <vanilla@MinJe.com.TW>
 #
 # $Id$
 #
 
-DISTNAME=	Gtk-0.2.1
-PKGNAME=	p5-Gtk-0.2.1
+DISTNAME=	Gtk-0.2.2
+PKGNAME=	p5-Gtk-0.2.2
 CATEGORIES=	x11 lang perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Gtk
