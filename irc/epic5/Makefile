@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ircii2.8.2-EPIC3.004
-PKGNAME=	ircii-2.8.2-epic3.004
+PKGNAME=	ircii-epic-2.8.2.3.004
 CATEGORIES=	net
 MASTER_SITES=	http://www.min.net/~douglas/ircii/
 DISTFILES=	ircii2.8.2-EPIC3.004.tar.gz ircii2.8.2-EPIC3.help.tar.gz
