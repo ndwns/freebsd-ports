@@ -9,7 +9,9 @@
 DISTNAME=	Imaging-0.3b2
 PKGNAME=	py-imaging-0.3b2
 CATEGORIES=	graphics python
-MASTER_SITES=	http://www.pythonware.com/downloads/
+MASTER_SITES=	http://www.pythonware.com/downloads/ \
+		ftp://www.python.org/pub/python/src/ \
+		ftp://ftp.cwi.nl/pub/python/src/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} pyth151.tgz
 
 MAINTAINER=	tg@FreeBSD.ORG
