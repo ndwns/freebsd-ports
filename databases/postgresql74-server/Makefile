@@ -1,5 +1,5 @@
 # New ports collection makefile for:	PostgreSQL
-# Version required:	6.4
+# Version required:	6.4.2
 # Date created:		November 13, 1998
 # Whom:			Marc G. Fournier <scrappy@FreeBSD.ORG>
 #
@@ -9,8 +9,11 @@
 DISTNAME=	postgresql-6.4.2
 CATEGORIES=	databases
 MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
-		ftp://ftp.iodynamics.com/pub/mirror/postgresql/
-
+		ftp://ftp.iodynamics.com/pub/mirror/postgresql/ \
+		ftp://ftp.de.postgresql.org/ \
+		ftp://ftp.digex.net/pub/packages/database/postgresql/ \
+		ftp://ftp.incoma.ru/pub/unix/postgresql/ \
+		ftp://ftp.sunet.se/pub/unix/databases/relational/postgresql/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
