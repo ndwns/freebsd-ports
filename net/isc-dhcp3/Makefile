@@ -11,12 +11,7 @@ PKGNAME=	isc-dhcp-b5.16
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
-MAINTAINER=	ports@FreeBSD.org
-
-OSVERSION!=	sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=		"currently doesn't compile for -current"
-.endif
+MAINTAINER=	jseger@scds.com
 
 HAS_CONFIGURE=	yes
 
