@@ -9,6 +9,7 @@
     SUBDIR += hfs
     SUBDIR += ines
     SUBDIR += linux_lib
+    SUBDIR += macutils
     SUBDIR += mastergear
     SUBDIR += mtools
     SUBDIR += pcemu
