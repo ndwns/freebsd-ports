@@ -28,6 +28,7 @@
     SUBDIR += pgp
     SUBDIR += pgp5
     SUBDIR += pidentd
+    SUBDIR += portmap_tcpd
     SUBDIR += portscanner
     SUBDIR += rsaref
     SUBDIR += sentry
