@@ -41,7 +41,7 @@ pre-install:
 post-install:
 	${MKDIR} ${PREFIX}/share/mysql/mysql
 	${CP} ${WRKSRC}/data/mysql/*.frm ${PREFIX}/share/mysql/mysql
-	${WRKSRC}/scripts/mysql_install_db
+	(cd ${WRKSRC};scripts/mysql_install_db)
 	@ /usr/bin/killall mysqld
 	@ ${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql.sh
