@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 PATCH_STRIP=      -p1
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=  	"prefix=${PREFIX}" -f
