@@ -406,6 +406,18 @@ package:
 	@${DO_NADA}
 .endif
 
+.if defined(ALL_HOOK)
+all:
+	@/usr/bin/env CURDIR=${.CURDIR} DISTNAME=${DISTNAME} \
+	  DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} WRKSRC=${WRKSRC} \
+	  PATCHDIR=${PATCHDIR} SCRIPTDIR=${SCRIPTDIR} \
+	  FILESDIR=${FILESDIR} PORTSDIR=${PORTSDIR} PREFIX=${PREFIX} \
+	  DEPENDS="${DEPENDS}" BUILD_DEPENDS="${BUILD_DEPENDS}" \
+	  RUN_DEPENDS="${RUN_DEPENDS}" X11BASE=${X11BASE} \
+	${ALL_HOOK}
+
+.endif
+
 .if !target(all)
 all: build
 .endif
