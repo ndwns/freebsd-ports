@@ -36,7 +36,7 @@ MAN1=		vim.1 xxd.1 ectags.1
 
 .if defined(HAVE_MOTIF)
 REQUIRES_MOTIF=	yes
-MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=motif" MOTIFHOME=${X11BASE} ${MAKE_FLAGS}
+MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=motif --with-motif-lib=${MOTIFLIB}" MOTIFHOME=${X11BASE} ${MAKE_FLAGS}
 .else
 MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=athena" ${MAKE_FLAGS}
 .endif
