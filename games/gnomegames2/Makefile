@@ -14,7 +14,8 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	Nakai@technologist.com
 
-LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs
+LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
+		guile.2:${PORTSDIR}/lang/guile
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
