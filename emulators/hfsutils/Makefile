@@ -8,7 +8,7 @@
 
 DISTNAME=	hfsutils-3.2
 CATEGORIES=	emulators tk81
-MASTER_SITES=	ftp://ftp.ps.ucl.ac.uk/pub/mkhfs/ \
+MASTER_SITES=	ftp://ftp.mars.org/pub/hfs/ \
 		http://www.freebsd.org/~vanilla/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
