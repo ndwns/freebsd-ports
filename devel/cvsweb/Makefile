@@ -31,7 +31,7 @@ do-install:
 .if !defined(PACKAGE_BUILDING)
 	@PKG_PREFIX=${PREFIX} ${SH} ${PKGREQ} ${PKGNAME} INSTALL
 .endif
-	@${MKDIR} ${PREFIX}/www/cgi-bin
-	@${INSTALL_SCRIPT} ${WRKDIR}/cvsweb ${PREFIX}/www/cgi-bin/
+	@${MKDIR} ${PREFIX}/share/apache/cgi-bin
+	@${INSTALL_SCRIPT} ${WRKDIR}/cvsweb ${PREFIX}/share/apache/cgi-bin/
 
 .include <bsd.port.mk>
