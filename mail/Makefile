@@ -36,6 +36,7 @@
     SUBDIR += p5-Mail-Folder
     SUBDIR += p5-Mail-POP3Client
     SUBDIR += p5-Mail-Tools
+    SUBDIR += pathalias
     SUBDIR += pgpsendmail
     SUBDIR += pine3
     SUBDIR += pine4
