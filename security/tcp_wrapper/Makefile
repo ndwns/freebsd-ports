@@ -16,6 +16,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 ALL_TARGET=	freebsd
 
 post-install:
+	ldconfig -m ${PREFIX}/lib
 	gzip -9nf ${PREFIX}/man/man3/hosts_access.3 \
 	${PREFIX}/man/man5/hosts_access.5 ${PREFIX}/man/man5/hosts_options.5 \
 	${PREFIX}/man/man8/tcpd.8 ${PREFIX}/man/man8/tcpdchk.8 \
