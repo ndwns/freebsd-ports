@@ -1,12 +1,12 @@
 # New ports collection makefile for:	shtool
-# Version required:		1.2.2
+# Version required:		1.2.3
 # Date created:			26-Apr-1999
 # Whom:				Ralf S. Engelschall
 #
 # $Id$
 #
 
-DISTNAME=	shtool-1.2.2
+DISTNAME=	shtool-1.2.3
 CATEGORIES=	devel
 MASTER_SITES=	http://www.engelschall.com/sw/shtool/ \
 		ftp://ftp.engelschall.com/sw/shtool/
