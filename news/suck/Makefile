@@ -1,12 +1,12 @@
 # New ports collection makefile for:	suck
-# Version required:	4.1.0
+# Version required:	4.1.1
 # Date created:		30 Mar 1996
 # Whom:			graphite@taurus.bekkoame.or.jp
 #
 # $Id$
 #
 
-DISTNAME=	suck-4.1.0
+DISTNAME=	suck-4.1.1
 CATEGORIES=	news
 MASTER_SITES=	http://home.att.net/~bobyetman/
 
