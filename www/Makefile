@@ -13,6 +13,7 @@
     SUBDIR += gn
     SUBDIR += gwstat
     SUBDIR += harvest
+    SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linemode
     SUBDIR += lynx
