@@ -38,6 +38,7 @@
     SUBDIR += scotty
     SUBDIR += slirp
     SUBDIR += socks5
+    SUBDIR += strobe
     SUBDIR += sup
     SUBDIR += telnetx
     SUBDIR += tintin++
