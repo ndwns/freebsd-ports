@@ -10,6 +10,8 @@ DISTNAME=	scheme48-0.36
 CATEGORIES+=	languages
 MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
 
+MAINTAINER= 	jmacd@FreeBSD.ORG
+
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 ALL_TARGET = 	enough
