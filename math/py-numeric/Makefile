@@ -1,13 +1,13 @@
 # New ports collection makefile for:	numpy
-# Version required:	1.6
+# Version required:	1.8
 # Date created:		20 April 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	LLNLPython6
-PKGNAME=	py-numeric-1.6
+DISTNAME=	LLNLPython8
+PKGNAME=	py-numeric-1.8
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
 EXTRACT_SUFX=	.tgz
