@@ -16,5 +16,7 @@ LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 GNU_CONFIGURE=	yes
 ALL_TARGET=	all sharedlib
 
-.include <bsd.port.mk>
+post-install:
+	ldconfig -m ${PREFIX}/lib
 
+.include <bsd.port.mk>

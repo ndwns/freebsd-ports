@@ -16,4 +16,7 @@ LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 
 PATCH_STRIP=	-p1
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

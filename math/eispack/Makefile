@@ -43,4 +43,7 @@ pre-build:
 pre-extract:
 	chmod +x scripts/uncomp
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

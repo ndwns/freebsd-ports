@@ -21,4 +21,7 @@ ALL_TARGET=	canna
 pre-configure:
 	@(cd ${WRKSRC}; ${XMKMF})
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

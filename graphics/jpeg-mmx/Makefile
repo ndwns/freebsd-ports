@@ -15,4 +15,7 @@ MASTER_SITES=	ftp://ftp.uu.net/graphics/jpeg/ \
 WRKSRC=		${WRKDIR}/jpeg-5b
 GNU_CONFIGURE=	yes
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

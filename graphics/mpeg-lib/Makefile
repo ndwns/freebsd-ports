@@ -16,4 +16,7 @@ pre-install:
 	@mkdir -p ${PREFIX}/bin ${PREFIX}/lib ${PREFIX}/include
 	@mkdir -p ${PREFIX}/man/man1 ${PREFIX}/man/man3
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

@@ -86,4 +86,7 @@ do-install:
 	@echo -n
 .endif
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

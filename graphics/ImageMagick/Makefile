@@ -21,4 +21,7 @@ USE_IMAKE=	YES
 pre-build:
 	@(cd ${WRKSRC}/magick;make)
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

@@ -15,4 +15,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/lib/Xaw3d
 USE_IMAKE=	yes
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

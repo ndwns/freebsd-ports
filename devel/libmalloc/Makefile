@@ -11,4 +11,7 @@ PKGNAME=	malloc-1.17a
 CATEGORIES+=	development programming libraries
 MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

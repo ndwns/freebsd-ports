@@ -13,4 +13,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	markm@FreeBSD.ORG
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

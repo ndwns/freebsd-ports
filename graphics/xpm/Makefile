@@ -13,4 +13,7 @@ MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>

@@ -35,4 +35,7 @@ pre-install:
 		;; \
 	  esac)
 
+post-install:
+	ldconfig -m ${PREFIX}/lib
+
 .include <bsd.port.mk>
