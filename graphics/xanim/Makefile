@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	xanim2683
-PKGNAME=	xanim-2.68.3
+DISTNAME=	xanim26978
+PKGNAME=	xanim-2.69.7.8
 CATEGORIES+=	graphics x11
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/
+MASTER_SITES=	ftp://ftp.portal.com/pub/podlipec/
 EXTRACT_SUFX=	.tar.Z
 
 USE_IMAKE=	is_set
