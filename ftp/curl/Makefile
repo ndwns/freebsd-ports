@@ -20,7 +20,8 @@ BUILD_DEPENDS=	${PREFIX}/lib/libssl.a:${PORTSDIR}/security/openssl \
 .endif
 
 .if defined(USE_SSL)
-CONFIGURE_ENV+=	CPPFLAGS='-I${PREFIX}/include' LDFLAGS='-L${PREFIX}/lib'
+CONFIGURE_ENV+=	CPPFLAGS='-I${PREFIX}/include -I${PREFIX}/include/openssl' \
+		LDFLAGS='-L${PREFIX}/lib'
 .endif
 
 GNU_CONFIGURE=	yes
