@@ -40,6 +40,8 @@ pre-build:
 pre-install:
 	${MKDIR} ${PREFIX}/lib/tcl7.6jp
 	cd ${WRKSRC} && ${MAKE} -f Makefile.lib install PREFIX=${PREFIX}
+
+post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
 
 test:
