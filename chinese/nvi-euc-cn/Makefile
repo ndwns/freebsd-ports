@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 PKGNAME=	zh-nvi-euccn-1.79.19970820
 
-.include <${.CURDIR}/../../editors/nvi/Makefile>
+.include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
 
 CATEGORIES=	chinese editors
 

@@ -16,7 +16,7 @@ LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 
 PKGNAME=	ja-nvi-sjis-1.79.19970820
 
-.include <${.CURDIR}/../../editors/nvi/Makefile>
+.include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
 
 CATEGORIES=	japanese editors
 

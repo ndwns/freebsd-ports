@@ -15,7 +15,8 @@
     SUBDIR += mule
     SUBDIR += mule-common
     SUBDIR += nedit
-    SUBDIR += nvi
+    SUBDIR += nvi-m17n
+    SUBDIR += nvi-perl
     SUBDIR += staroffice
     SUBDIR += textedit
     SUBDIR += thoteditor
