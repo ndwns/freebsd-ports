@@ -5,6 +5,8 @@
     SUBDIR += afio
     SUBDIR += asapm
     SUBDIR += ascpu
+    SUBDIR += asfsm
+    SUBDIR += asmem
     SUBDIR += asrpages
     SUBDIR += bchunk
     SUBDIR += bkpupsd
