@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	newsfetch-1.0
+DISTNAME=	newsfetch-1.11
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	system/news/readers
