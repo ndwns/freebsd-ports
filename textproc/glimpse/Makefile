@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	chuckr@glue.umd.edu
 
-NO_CDROM=	yes	# Restrictive copyright (no commercial use)
+NO_CDROM=	yes	# Restrictive copyright (don't sell for profit)
 GNU_CONFIGURE=	yes
 
 pre-configure:
