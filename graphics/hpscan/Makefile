@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/ \
 
 NO_WRKSUBDIR=		true
 USE_X11=		true
+USE_IMAKE=		true
 NO_INSTALL_MANPAGES=	true
 
 MAINTAINER=	nate@FreeBSD.org
