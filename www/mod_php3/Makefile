@@ -94,6 +94,9 @@ pre-fetch:
 	@${SETENV} ${SCRIPTS_ENV} ${SH} ${SCRIPTDIR}/configure.php
 .endif
 
+post-extract:
+	@${LN} -s php-${VERSION_PHP3} ${WRKDIR}/php3
+
 pre-configure:
 	@cd ${WRKSRC} \
 	&& ./configure > /dev/null \
