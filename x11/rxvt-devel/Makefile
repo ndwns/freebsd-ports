@@ -6,6 +6,10 @@
 # $Id$
 #
 
+# If possible, please consider updating the simple ports/x11-clocks/rclock
+# (and maybe ports/chinese/rxvt) when you upgrade rxvt.  These ports all use
+# the same distfile.
+
 DISTNAME=	rxvt-2.6.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.rxvt.org/pub/rxvt/ \
