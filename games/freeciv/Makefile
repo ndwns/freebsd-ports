@@ -1,7 +1,7 @@
 # New ports collection makefile for:	freeciv
 # Version required:	1.0j
-# Whom:			ada@bsd.org
 # Date created:		Jun 20 1997
+# Whom:			ada@bsd.org
 #
 # $Id$
 #
