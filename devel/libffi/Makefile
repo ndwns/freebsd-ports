@@ -1,24 +1,20 @@
 # New ports collection makefile for:	libffi
-# Version required:     1.18
+# Version required:     1.20
 # Date created:		14, June, 1998
 # Whom:			Horance Chou <horance@freedom.ie.cycu.edu.tw>
 #
 # $Id$
 #
 
-DISTNAME=       libffi-1.18
+DISTNAME=       libffi-1.20
 CATEGORIES=	devel
-MASTER_SITES=   ftp://ftp.cygnus.com:/pub/green/
+MASTER_SITES=   ftp://ftp.cygnus.com/pub/green/
 
 MAINTAINER=     horance@freedom.ie.cycu.edu.tw
 
-VERSION!=	sysctl -n kern.osreldate
-.if ${VERSION} < 300000
-BROKEN=		undefined symbol in ffitest
-.endif
-
 GNU_CONFIGURE=  yes
-WRKSRC=         ${WRKDIR}/${PKGNAME}
-ALL_TARGET=     test
+
+post-install:
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
