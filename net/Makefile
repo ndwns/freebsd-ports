@@ -165,6 +165,7 @@
     SUBDIR += roxirc
     SUBDIR += rshell
     SUBDIR += rsync
+    SUBDIR += rtsp_proxy
     SUBDIR += rwhois
     SUBDIR += samba
     SUBDIR += scotty
