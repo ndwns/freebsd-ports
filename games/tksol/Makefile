@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
-LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
+RUN_DEPENDS=	wish4.0:${PORTSDIR}/x11/tk4
 
 PATCH_STRIP=	-p1
 WRKSRC=		${WRKDIR}/release
