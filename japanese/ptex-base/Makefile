@@ -103,9 +103,9 @@ pre-install:
 	(echo "(Don't worry about the following \"*** Error code 1\"s)" ; \
 	 exit 1)
 .endif
-	@(cd ${PREFIX}/lib ; tar zxf ${DISTDIR}/lib-6.9.tar.gz)
-	@${RM} -rf ${PREFIX}/lib/texmf/tex/latex2e/base/*
-	@(cd ${PREFIX}/lib ; tar zxf ${DISTDIR}/${LIB_FILE})
+	@tar --exclude 'texmf/tex/latex2e/base/*' -zx -C ${PREFIX}/lib \
+	  -f ${DISTDIR}/lib-6.9.tar.gz
+	@tar -zx -C ${PREFIX}/lib -f ${DISTDIR}/${LIB_FILE}
 
 post-install:
 	@echo -n "Stripping the binary files...."
