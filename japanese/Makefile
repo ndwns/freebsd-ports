@@ -4,6 +4,7 @@
     SUBDIR += Canna
     SUBDIR += Wnn
     SUBDIR += chimera
+    SUBDIR += dvi2ps
     SUBDIR += dvi2tty
     SUBDIR += ejdict
     SUBDIR += elvis
@@ -52,6 +53,7 @@
     SUBDIR += today
     SUBDIR += vfghostscript
     SUBDIR += vflib
+    SUBDIR += vfxdvi
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
