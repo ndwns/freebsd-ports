@@ -35,6 +35,7 @@
     SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += smail
+    SUBDIR += tkrat
     SUBDIR += xfaces
     SUBDIR += xfmail
     SUBDIR += xlbiff
