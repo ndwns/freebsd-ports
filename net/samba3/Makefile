@@ -9,7 +9,8 @@
 DISTNAME=	samba-2.0.0
 #PKGNAME=	samba-2.0.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
+MASTER_SITES=	ftp://ftp.bitcon.no/.7/unix/networking/samba/   \
+		ftp://samba.anu.edu.au/pub/samba/
 
 MAINTAINER=	hosokawa@jp.FreeBSD.org
 
