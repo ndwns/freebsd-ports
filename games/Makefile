@@ -83,6 +83,7 @@
     SUBDIR += tinymux
     SUBDIR += tksol
     SUBDIR += tvp
+    SUBDIR += uox3
     SUBDIR += wmtimebomb
     SUBDIR += xabacus
     SUBDIR += xasteroids
