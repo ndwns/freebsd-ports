@@ -15,6 +15,7 @@
 # PORTSDIR		- The root of the ports tree (default: /usr/ports).
 # DISTDIR 		- Where to get gzip'd, tarballed copies of original sources
 #				  (default: ${PORTSDIR}/distfiles).
+# PREFIX		- Where to install things in general (default: /usr/local).
 # MASTER_SITES	- Primary location(s) for distribution files if not found
 #				  locally.
 # PACKAGES		- A top level directory where all packages go (rather than
@@ -80,6 +81,7 @@
 # tree we are and thus can't go relative.  They can, of course, be overridden
 # by individual Makefiles.
 PORTSDIR?=		${DESTDIR}/usr/ports
+PREFIX?=		${DESTDIR}/usr/local
 DISTDIR?=		${PORTSDIR}/distfiles
 PACKAGES?=		${PORTSDIR}/packages
 WRKDIR?=		${.CURDIR}/work
