@@ -20,7 +20,7 @@ DISTFILES=	xdvi-17.tar.gz xdvi-17miyu.patch-beta6.gz \
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-LIB_DEPENDS=	VFlib2\\.23\\.:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
 RUN_DEPENDS=	${LOCALBASE}/lib/fonts/pk${RESOLUTION}:${PORTSDIR}/print/pkfonts
 
 MANUAL_PACKAGE_BUILD=	RESOLUTION has to be set to 118 240 300 360 400 600

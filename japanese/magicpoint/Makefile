@@ -12,7 +12,7 @@ PATCHDIR=	${.CURDIR}/../../misc/magicpoint/patches
 PKGDIR=		${.CURDIR}/../../misc/magicpoint/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-LIB_DEPENDS=	VFlib:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
 
 PKGNAME=	ja-magicpoint-1.04a
 

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/
 MAINTAINER=	mita@jp.FreeBSD.org
 
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
-LIB_DEPENDS=	VFlib2\\.23\\.:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
 
 MAN1=		dvi2ps.1 ../ja/man1/dvi2ps.1
 
