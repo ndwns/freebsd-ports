@@ -654,9 +654,11 @@ EOF
 	# for the rest of the checks, comment lines are not important.
 	#
 	for ($i = 0; $i < scalar(@sections); $i++) {
+		$sections[$i] = "\n" . $sections[$i];
 		$sections[$i] =~ s/\n#[^\n]*//g;
 		$sections[$i] =~ s/\n\n+/\n/g;
 		$sections[$i] =~ s/\\\n/ /g;
+		$sections[$i] =~ s/^\n//;
 	}
 
 	#
