@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += agrep
     SUBDIR += glimpse
     SUBDIR += isearch
     SUBDIR += ispell
