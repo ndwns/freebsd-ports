@@ -16,13 +16,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 USE_IMAKE=      yes
 NO_INSTALL_MANPAGES=	yes
 
-EXTRACT_COOKIE?=	${.CURDIR}/work/.extract_done
-
-extract: fetch ${EXTRACT_COOKIE}
-
-${EXTRACT_COOKIE}:
-	@${MAKE} ${.MAKEFLAGS} checksum pre-extract
-	@echo "===>  Extracting for ${DISTNAME}"
+do-extract:
 	@(cd ${DISTDIR}; \
 	  if [ ! -f ${DISTNAME}.tar.gz ]; then \
 	    zcat ${DISTFILES} | uudecode; \
@@ -31,10 +25,8 @@ ${EXTRACT_COOKIE}:
 	@mkdir -p ${WRKDIR}
 	@(cd ${WRKDIR}; tar -xzf \
 		${DISTDIR}/${DISTNAME}.tar.gz)
-	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
 
-
-pre-install:
+post-install:
 	touch ${PREFIX}/lib/X11/.xemeraldia.scores
 	chmod 666 ${PREFIX}/lib/X11/.xemeraldia.scores
 

@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tar.Z
 
 USE_IMAKE=	yes
 
-.include <bsd.port.mk>
-
-install:
+do-install:
 	install -c -g games -m 664 ${.CURDIR}/files/xpipescores /usr/X11R6/lib/X11
+
+.include <bsd.port.mk>

@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/games/
 
 USE_IMAKE=	yes
 
-.include <bsd.port.mk>
-
-install:
+do-install:
 	install -c -g games -m 664 ${.CURDIR}/files/xrobotscores /usr/X11R6/lib/X11
+
+.include <bsd.port.mk>

@@ -16,10 +16,10 @@ MAINTAINER=	jmz@FreeBSD.org
 USE_IMAKE=	yes
 MAKE_FLAGS=	PREFIX=${PREFIX} -f
 
-.include <bsd.port.mk>
-
-install:
+do-install:
 	@chown games ${PREFIX}/bin/jetpack
 	@chmod u+s ${PREFIX}/bin/jetpack
 	@chown games ${PREFIX}/lib/X11/jetpack
 	@chmod go+r ${PREFIX}/lib/X11/jetpack/jetpack.lev000
+
+.include <bsd.port.mk>
