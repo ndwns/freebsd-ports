@@ -4,13 +4,11 @@
     SUBDIR += SWIG
     SUBDIR += autoconf
     SUBDIR += bcc
-    SUBDIR += bison
     SUBDIR += cflow
     SUBDIR += dmake
     SUBDIR += flex
     SUBDIR += gcc11
     SUBDIR += gmake
-    SUBDIR += gperf
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
     SUBDIR += libslang
