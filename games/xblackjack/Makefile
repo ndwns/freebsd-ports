@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@FreeBSD.org
 
+BROKEN_ELF=	lesstif does not work for this one
+
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 MAN1=		xblackjack.1
