@@ -19,6 +19,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+NO_LATEST_LINK= yes
 USE_X_PREFIX=	yes
 INSTALL_TARGET=	install install.man
 MANCOMPRESSED=	yes
