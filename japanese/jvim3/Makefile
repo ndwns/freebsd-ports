@@ -10,15 +10,14 @@ DISTNAME=	vim
 PKGNAME?=	ja-jvim-3.0.1.3d
 CATEGORIES=	japanese editors
 MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Editors/ \
-		http://spock.vector.co.jp/authors/VA003457/vim/vim3/1.3d/
+		http://spock.vector.co.jp/authors/VA003457/vim/vim3/1.3d/ \
+		http://www.freebsd.org/~kuriyama/distfiles/
 DISTFILES=	vim-3.0.tar.gz jvim.1.3d.tar.gz
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
 LIB_DEPENDS=	${LIB_INPUT_METHOD}
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
-
-BROKEN=		fetch
 
 PATCHDIR=	${.CURDIR}/../jvim3/patches
 FILESDIR=	${.CURDIR}/../jvim3/files
