@@ -3,6 +3,7 @@
 
 RESTRICTED += Mosaic         # requires Motif
     SUBDIR += apache
+    SUBDIR += arena
 RESTRICTED += ashe           # requires Motif
     SUBDIR += cached
     SUBDIR += chimera
