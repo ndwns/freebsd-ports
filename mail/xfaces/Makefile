@@ -28,5 +28,6 @@ pre-configure:
 
 pre-install:
 	@${MKDIR} ${LOCALBASE}/share/sounds
+	@${MKDIR} ${X11BASE}/include/X11/pixmaps
 
 .include <bsd.port.mk>
