@@ -19,6 +19,8 @@ MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN= 'depends on BROKEN freetype'
+
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		mpeg.1:${PORTSDIR}/graphics/mpeg-lib \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
