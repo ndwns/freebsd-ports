@@ -4,8 +4,7 @@
 # Whom:			Marc G. Fournier <scrappy@FreeBSD.ORG>
 #
 # $Id$
-
-PATCH_DEBUG=	yes
+#
 
 DISTNAME=	postgresql-6.3.2
 CATEGORIES=	databases
