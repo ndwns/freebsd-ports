@@ -8,8 +8,8 @@
 # REMINDER: to use ftpaccess(5) you need to specify -a in command line,
 # it is changed from previous versions
 
-DISTNAME=       wu-ftpd-2.4.2-beta-17
-PKGNAME=        wu-ftpd-2.4.2b17
+DISTNAME=       wu-ftpd-2.4.2-beta-18
+PKGNAME=        wu-ftpd-2.4.2b18
 CATEGORIES=	net
 # AUSCERT recommendation
 MASTER_SITES=   ftp://ftp.academ.com/pub/wu-ftpd/private/
