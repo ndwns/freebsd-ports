@@ -17,6 +17,7 @@
     SUBDIR += g77
     SUBDIR += gcc28
     SUBDIR += gcl
+    SUBDIR += glibstd++28
     SUBDIR += gnat
     SUBDIR += guavac
     SUBDIR += guile
