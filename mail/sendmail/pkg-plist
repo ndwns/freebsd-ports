@@ -19,8 +19,10 @@ sbin/editmap
 sbin/mailstats
 sbin/makemap
 sbin/praliases
+@group smmsp
 sbin/sendmail
-@exec chown root:smmsp sbin/sendmail
+@group wheel
+@comment (overwritten by pkg_add) chown root:smmsp sbin/sendmail
 @exec chmod 2555 sbin/sendmail
 %%PORTDOCS%%share/doc/sendmail/DEVTOOLS
 %%PORTDOCS%%share/doc/sendmail/SENDMAIL
