@@ -576,15 +576,7 @@ do-configure:
 	    ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
-.if defined(X_NO_MAKE_MAKEFILES)
 	@(cd ${WRKSRC}; ${XMKMF})
-.else
-.if defined(USE_GMAKE)
-	@(cd ${WRKSRC}; ${XMKMF} && ${GMAKE} Makefiles)
-.else
-	@(cd ${WRKSRC}; ${XMKMF} && ${MAKE} Makefiles)
-.endif
-.endif
 .endif
 .endif
 
