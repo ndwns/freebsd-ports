@@ -1,12 +1,12 @@
 # New ports collection makefile for:	dopewars
-# Version required:		1.4.2
+# Version required:		1.4.3
 # Date created:			16 May 1999
 # Whom:				Jim Mock <jim@phrantic.phear.net>
 #
 # $Id$
 #
 
-DISTNAME=	dopewars-1.4.2
+DISTNAME=	dopewars-1.4.3
 CATEGORIES=	games
 MASTER_SITES=	http://bellatrix.pcl.ox.ac.uk/~ben/dopewars/
 
