@@ -7,6 +7,7 @@
     SUBDIR += bkpupsd
     SUBDIR += cd-write
     SUBDIR += cdrecord
+    SUBDIR += cfengine
     SUBDIR += contool
     SUBDIR += idled
     SUBDIR += lsof
