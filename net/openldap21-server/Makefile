@@ -8,7 +8,10 @@
 
 DISTNAME=       openldap-1.1.2
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.OpenLDAP.org/pub/OpenLDAP/
+MASTER_SITES=	ftp://ftp.OpenLDAP.org/pub/OpenLDAP/openldap-release/ \
+		ftp://ftp.net.lut.ac.uk/openldap/openldap-release/ \
+		ftp://sunsite.cnlab-switch.ch/mirror/OpenLDAP/openldap-release/
+
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ulmo@earthling.net
