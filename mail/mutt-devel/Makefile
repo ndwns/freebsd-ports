@@ -29,7 +29,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 PATCH_DIST_STRIP=	-p1
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-dsn --enable-pop --enable-8bitmime --enable-flock \
-		--disable-fcntl
+		--disable-fcntl --enable-hidden-host
 MAN1=		mutt.1
 
 
