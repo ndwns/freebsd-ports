@@ -29,7 +29,7 @@ do-configure:
 
 do-install:
 .if !defined(PACKAGE_BUILDING)
-	@if PKG_PREFIX=${PREFIX} ${SH} ${PKGREQ} ${PKGNAME} INSTALL
+	@PKG_PREFIX=${PREFIX} ${SH} ${PKGREQ} ${PKGNAME} INSTALL
 .endif
 	@${MKDIR} ${PREFIX}/www/cgi-bin
 	@${INSTALL_SCRIPT} ${WRKDIR}/cvsweb ${PREFIX}/www/cgi-bin/
