@@ -32,7 +32,7 @@ pre-fetch:
 	    ${ECHO_MSG} ">> ${PATCHFILES} doesn't seem to exist on this system."; \
 	    for file in ${DISTPATCHES} ; do \
 		for site in ${PATCH_SITES} ; do \
-		    if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
+		    if ${FETCH_CMD} ${FETCH_BEFORE_ARGS} $${site}$${file} ${FETCH_AFTER_ARGS}; then \
 			break; \
 		    fi \
 		done; \
