@@ -19,6 +19,10 @@ fi
 
 case $1 in
 	start)
+		if [ ! -f !!PREFIX!!/etc/zebra/zebra.conf ]; then
+			echo "error: zebra.conf config file is mandatory"
+			exit 1
+		fi
 		[ -f !!PREFIX!!/etc/zebra/zebra.conf ] \
 			&& !!PREFIX!!/sbin/zebra -d && echo -n ' zebra'
 		[ -f !!PREFIX!!/etc/zebra/ripd.conf ] \
