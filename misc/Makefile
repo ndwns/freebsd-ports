@@ -7,10 +7,12 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += git
+    SUBDIR += glimpse
     SUBDIR += ical
     SUBDIR += ispell
     SUBDIR += kp
     SUBDIR += less
+    SUBDIR += linuxls
     SUBDIR += mc
 RESTRICTED += mmv               # restrictive copyright
     SUBDIR += mshell
