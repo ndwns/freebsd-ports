@@ -33,6 +33,7 @@
     SUBDIR += gwm
     SUBDIR += iv
     SUBDIR += kdebase
+    SUBDIR += kdegames
     SUBDIR += kdelibs
     SUBDIR += kdeutils
     SUBDIR += lesstif
