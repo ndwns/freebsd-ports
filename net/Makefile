@@ -31,6 +31,7 @@
     SUBDIR += libsocket++
     SUBDIR += mirror
     SUBDIR += moxftp
+    SUBDIR += natd
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += netcat
