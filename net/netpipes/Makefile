@@ -11,7 +11,7 @@ PKGNAME=        netpipes-3.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cis.ufl.edu/pub/staff/thoth/
 
-MAINTAINER=	doconnor@ist.flinders.edu.au
+#MAINTAINER=	doconnor@ist.flinders.edu.au
 
 MAN1=		faucet.1 hose.1 sockdown.1 getpeername.1
 
