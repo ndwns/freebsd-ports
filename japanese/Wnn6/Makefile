@@ -16,6 +16,9 @@ MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/Xsi
 IS_INTERACTIVE=	yes	# needs "wnn" user
 
+post-extract:
+	/bin/ln -sf Project.tmpl ${WRKSRC}/config/X11.tmpl
+
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.
 do-build:
