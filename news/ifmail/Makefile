@@ -10,7 +10,7 @@ DISTNAME=       ifmail-2.14
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 		ftp://ftp.average.org/ifmail/ \
-		ftp://ftp.dinoex.sub.de/pub/approved/
+		ftp://ftp.lan-ks.de/pub/approved/
 MASTER_SITE_SUBDIR=	system/fido
 
 MAINTAINER=     dirk.meyer@dinoex.sub.org
