@@ -6,14 +6,17 @@
 # $Id$
 #
 
-DISTNAME=	swig1.1b5p1
-PKGNAME=	swig-1.1b5
+DISTNAME=	swig1.1
+PKGNAME=	swig-1.1
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.cs.utah.edu/pub/beazley/SWIG/
 
 MAINTAINER=	erich@FreeBSD.org
 
-WRKSRC=		${WRKDIR}/SWIG1.1b5p1
+WRKSRC=		${WRKDIR}/SWIG1.1
 GNU_CONFIGURE=	yes
+
+post-build:
+	@cd ${WRKSRC}; make runtime
 
 .include <bsd.port.mk>
