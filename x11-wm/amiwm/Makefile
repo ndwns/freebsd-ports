@@ -13,19 +13,17 @@ MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/X11/wm/amiwm/
 
 MAINTAINER=	ports@FreeBSD.org
 
-BROKEN=		build
-
-#WRKSRC=		${WRKDIR}/amiwm
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	CFLAGS="${CFLAGS} -DHAVE_X11_EXTENSIONS_SHAPE_H"
 USE_X_PREFIX=	yes
 MAN1=		amiwm.1
 
 post-install:
 .if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/amiwm
-	${INSTALL_DATA} ${WRKSRC}/INSTALL ${PREFIX}/share/doc/amiwm
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/amiwm
-	${INSTALL_DATA} ${WRKSRC}/README.modules ${PREFIX}/share/doc/amiwm
+	@${ECHO} "===>  Copying documents to ${PREFIX}/share/doc/amiwm"
+	@${MKDIR} ${PREFIX}/share/doc/amiwm
+	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/amiwm
+	@${INSTALL_DATA} ${WRKSRC}/README.modules ${PREFIX}/share/doc/amiwm
 .endif
 
 .include <bsd.port.mk>
