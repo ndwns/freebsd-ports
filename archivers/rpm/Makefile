@@ -10,7 +10,7 @@ DISTNAME=	rpm-2.5.5
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.rpm.org/pub/rpm/dist/rpm-2.5.x/
 
-MAINTAINER=	tg@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 
