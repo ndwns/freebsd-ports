@@ -14,7 +14,6 @@ MASTER_SITES=	ftp://ctan.unsw.edu.au/ctan/tex-archive/dviware/
 MAINTAINER=	sutton@aardvark.apana.org.au
 
 IGNOREFILES=	${DISTFILES}
-# this WRKSRC courtesy of latest fetch(1) brain-damage
 MAN1=		dvi2tty.1
 
 .include <bsd.port.mk>
