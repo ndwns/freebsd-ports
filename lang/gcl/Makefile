@@ -7,9 +7,10 @@
 #
 
 DISTNAME=       gcl-1.1
-MASTER_SITES=   ftp://ftp.cli.com/pub/gcl/ ftp://math.utexas.edu/pub/gcl/
 CATEGORIES+=	languages
+MASTER_SITES=   ftp://ftp.cli.com/pub/gcl/ ftp://math.utexas.edu/pub/gcl/
 EXTRACT_SUFX=	.tgz
+
 MAKEFILE=	makefile
 
 INSTALL_COOKIE=	${WRKDIR}/.install_done

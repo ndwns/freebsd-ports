@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	ucblogo
-EXTRACT_SUFX=	.tar.Z
-MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
+PKGNAME=	ucblogo-7.3
 CATEGORIES+=	languages
+MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
+EXTRACT_SUFX=	.tar.Z
+
 MAKEFILE=	makefile
 WRKSRC=	${WRKDIR}
 HAS_CONFIGURE=	yes

@@ -7,11 +7,13 @@
 #
 
 DISTNAME=       scm
-MASTER_SITES=   ftp://swiss-ftp.ai.mit.edu/pub/scm/
+PKGNAME=	scm-4e1
 CATEGORIES+=	languages
+MASTER_SITES=   ftp://swiss-ftp.ai.mit.edu/pub/scm/
 DISTFILES=      scm4e1.tar.gz \
 		slib.info.tar.gz slib2a2.tar.gz slib-psd1-3.tar.gz \
 		scmconfig4e1.tar.gz
+
 GNU_CONFIGURE=
 USE_GMAKE=
 MAKE_FLAGS=	CFLAGS=-O2 LDFLAGS=-s defines="-DSICP -DHAVE_CONFIG_H -DFLOATS -DIO_EXTENSIONS -DMEMOIZE_LOCALS -DGC_FREE_SEGMENTS" -f

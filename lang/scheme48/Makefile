@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	scheme48-0.36
-MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
 CATEGORIES+=	languages
+MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
+
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
 ALL_TARGET = 	enough

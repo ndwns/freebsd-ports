@@ -7,10 +7,11 @@
 #
 
 DISTNAME=       Scheme-to-C
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Scheme-to-C/
+PKGNAME=	schemetoc-93.3.15
 CATEGORIES+=	languages
-EXTRACT_SUFX=	tar.Z
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/Scheme-to-C/
 DISTFILES=      15mar93.tar.Z
+
 NO_WRKSUBDIR=
 
 .include <bsd.port.mk>
