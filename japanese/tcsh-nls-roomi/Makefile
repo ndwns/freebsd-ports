@@ -9,7 +9,7 @@
 DISTNAME=	tcsh-6.08.05.add2
 PKGNAME=	ja-tcsh-nls-roomi-6.08.05
 CATEGORIES=	japanese shells
-MASTER_SITES=	http://www2.wbs.ne.jp/~znc/tcsh/
+MASTER_SITES=	${MASTER_SITE_PORTS_JP}
 
 MAINTAINER=	issei@jp.FreeBSD.ORG
 

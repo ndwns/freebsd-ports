@@ -10,8 +10,7 @@
 DISTNAME=	tcsh-6.08.05
 PKGNAME=	ja-tcsh-nls-generic-6.08.05
 CATEGORIES=	japanese shells
-MASTER_SITES=	ftp://ftp.astron.com/pub/tcsh/ \
-		http://www2.wbs.ne.jp/~znc/tcsh/
+MASTER_SITES=	ftp://ftp.astron.com/pub/tcsh/ ${MASTER_SITE_PORTS_JP}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${DISTNAME}.add2${EXTRACT_SUFX}
 
 MAINTAINER=	issei@jp.FreeBSD.ORG
