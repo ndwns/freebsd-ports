@@ -11,7 +11,7 @@ CATEGORIES=	math
 MASTER_SITES=	http://a42.com/~thor/xldlas/			\
 		http://sunsite.math.klte.hu/mirrors/xldlas/	\
 		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	X11/xapps/math/
+MASTER_SITE_SUBDIR=	X11/xapps/math
 EXTRACT_SUFX=	-source.tgz
 
 MAINTAINER=	giffunip@asme.org

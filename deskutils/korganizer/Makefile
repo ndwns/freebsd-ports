@@ -9,7 +9,7 @@
 DISTNAME=	korganizer-0.9
 CATEGORIES=	misc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= /unstable/apps/office
+MASTER_SITE_SUBDIR= unstable/apps/office
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 

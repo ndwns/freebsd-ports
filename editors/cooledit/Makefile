@@ -9,7 +9,7 @@
 DISTNAME=	cooledit-3.6.2
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	apps/editors/X/
+MASTER_SITE_SUBDIR=	apps/editors/X
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
