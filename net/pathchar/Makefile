@@ -22,26 +22,6 @@ PKGNAME=	pathchar-a0
 NO_BUILD=	yes
 NO_WRKSUBDIR=   yes
 
-ZCAT?=		zcat
-TAR?=		tar
-
-# wierd .. pathchar-a0 is a gzip'd gzip'd tar, while pathchar-a1
-# is just a tar.  both have the extension .tar.gz though...
-.if ${PORTOBJFORMAT} == "aout"
-do-extract:
-	@${RM} -rf ${WRKDIR}
-	@${MKDIR} ${WRKDIR}
-	@for file in ${EXTRACT_ONLY}; do                                \
-		if ! (cd ${WRKDIR} && ${ZCAT} ${DISTDIR}/$$file |       \
-		${TAR} ${EXTRACT_BEFORE_ARGS} - ${EXTRACT_AFTER_ARGS}); \
-		then							\
-			exit 1;						\
-		fi							\
-	done
-.else
-EXTRACT_BEFORE_ARGS=	-xf
-.endif
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pathchar ${PREFIX}/bin
 	${INSTALL_DATA} ${FILESDIR}/README.pathchar \
