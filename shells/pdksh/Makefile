@@ -1,12 +1,12 @@
 # New ports collection makefile for:	pdksh
-# Version required:	5.2.11
+# Version required:	5.2.12
 # Date created:		23 May 1995
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	pdksh-5.2.11
+DISTNAME=	pdksh-5.2.12
 CATEGORIES+=	shells
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 
