@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.geocities.com/SiliconValley/Park/2030/
 
 MAINTAINER=	rom_glsa@ein-hashofet.co.il
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
