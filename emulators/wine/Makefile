@@ -27,7 +27,7 @@ pre-configure:
 	@echo "WINE_INI_GLOBAL \"${PREFIX}/etc/wine.conf\"" \
 		>> ${WRKSRC}/autoconf.h
 
-install:
+do-install:
 	install -cs ${WRKSRC}/wine ${PREFIX}/bin
 	-@mkdir ${PREFIX}/etc 2>/dev/null
 	[ -f ${PREFIX}/etc/wine.conf ] \
