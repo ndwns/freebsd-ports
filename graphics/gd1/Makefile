@@ -9,7 +9,8 @@
 DISTNAME=       gd1.3
 PKGNAME=        gd-1.3
 CATEGORIES=	graphics
-MASTER_SITES=   http://www.boutell.com/gd/http/
+MASTER_SITES=   http://www.boutell.com/gd/http/ \
+		ftp://ftp.boutell.com/pub/boutell/gd/
 
 MAINTAINER=     jeff@cetlink.net
 
