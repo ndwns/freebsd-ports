@@ -11,7 +11,7 @@ PKGNAME=	tidy-0.1.98.12
 CATEGORIES=	www
 MASTER_SITES=	http://www.w3.org/People/Raggett/
 
-MAINTAINER=	saken@rmta.ml.org
+MAINTAINER=	saken@budoir.net
 
 ALL_TARGET=	tidy
 WRKSRC=		${WRKDIR}/tidy17dec98
