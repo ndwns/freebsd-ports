@@ -9,7 +9,7 @@
 DISTNAME=	a2ps
 PKGNAME=	a2ps-4.3
 CATEGORIES+=	print
-MASTER_SITES=	ftp://ftp.imag.fr/archive/postscript/
+MASTER_SITES=	ftp://ftp.imag.fr/archive/postscript/format.translators/
 DISTFILES=	a2ps.V4.3.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
