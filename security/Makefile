@@ -3,6 +3,7 @@
 
     SUBDIR += SSLeay
     SUBDIR += cops
+    SUBDIR += crack
     SUBDIR += donkey
     SUBDIR += fwtk
     SUBDIR += libident
