@@ -17,6 +17,7 @@
     SUBDIR += giftrans
     SUBDIR += gimp
     SUBDIR += gimp-devel
+    SUBDIR += hdf
     SUBDIR += hobbes-icons-xpm
     SUBDIR += hpscan
     SUBDIR += imlib
