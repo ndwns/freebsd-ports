@@ -17,6 +17,8 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 MAKEFILE=		makefile
 
+BROKEN_ELF=	libXbgi.a
+
 pre-build:
 	@ ${RM} ${WRKSRC}/libXbgi.a
 	@ ${RM} ${WRKSRC}/libptoc.a
