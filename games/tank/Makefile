@@ -13,7 +13,9 @@ MASTER_SITES=	http://step.polymtl.ca/~coyote/tank/
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
-LIB_DEPENDS=	MesaGL.13:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
+
+BROKEN=		can't find libaux.h
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 

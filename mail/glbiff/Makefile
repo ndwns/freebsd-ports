@@ -13,10 +13,12 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	MesaGL.13:${PORTSDIR}/graphics/Mesa2 \
-		MesaGLU.13:${PORTSDIR}/graphics/Mesa2 \
-		Mesatk.13:${PORTSDIR}/graphics/Mesa2 \
-		glut.3:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3 \
+		MesaGLU.14:${PORTSDIR}/graphics/Mesa3 \
+		Mesatk.14:${PORTSDIR}/graphics/Mesa3 \
+		glut.3:${PORTSDIR}/graphics/Mesa3
+
+BROKEN=		can't find mesatk
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/glbiff

@@ -13,7 +13,9 @@ DISTFILES=	vrweb-src-1.5.tar.gz help-1.5.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-LIB_DEPENDS=	GL.13:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS=	GL.14:${PORTSDIR}/graphics/Mesa3
+
+BROKEN=		install
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
