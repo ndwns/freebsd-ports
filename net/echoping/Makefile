@@ -9,7 +9,7 @@
 DISTNAME=	echoping-2.1-BETA
 PKGNAME=	echoping-2.1b
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.pasteur.fr/pub/Network/echoping/
+MASTER_SITES=	ftp://ftp.pasteur.fr/pub/computing/unix/network/echoping/
 
 MAINTAINER=	peter@FreeBSD.ORG
 
