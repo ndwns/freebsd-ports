@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	Nakai@technologist.com
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 USE_X11=	yes
 
 post-install:
