@@ -1,5 +1,5 @@
 # New ports collection makefile for:	expect
-# Version required:	5.21.6
+# Version required:	5.21.7
 # Date created:		20 November 1994
 # Whom:			pst
 #
@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	expect-5.21
+PKGNAME=	expect-5.21.7
 CATEGORIES=	lang
 MASTER_SITES=	http://expect.nist.gov/ \
 		ftp://expect.nist.gov/mel/div826/subject/expect/
