@@ -6,12 +6,12 @@
 # $Id$
 #
 
-DISTNAME=       apache_1.3b7
-PKGNAME=        apache-1.3b7
+DISTNAME=       apache_1.3.0
+PKGNAME=        apache-1.3.0
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
-#PATCH_SITES=    ftp://www.apache.org/apache/dist/patches/apply_to_1.3b7/
+#PATCH_SITES=    ftp://www.apache.org/apache/dist/patches/apply_to_1.3.0/
 
 MAINTAINER=     ache@freebsd.org
 
