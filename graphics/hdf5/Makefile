@@ -15,6 +15,8 @@ MAINTAINER=	mi@aldan.ziplink.net
 
 LIB_DEPENDS=	jpeg:${PORTSDIR}/graphics/jpeg
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=	CC="$(CC)" -f
 
