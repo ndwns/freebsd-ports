@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $Id$
+# $FreeBSD$
 #
 
 QSERVER=%%PREFIX%%/quakeserver/unixded

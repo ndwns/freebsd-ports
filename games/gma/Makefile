@@ -3,7 +3,7 @@
 # Date created:         22 June 1999
 # Whom:                 Ying-Chieh Liao <ijliao@csie.nctu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      gma-0.5

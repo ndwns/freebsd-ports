@@ -3,7 +3,7 @@
 # Date created:         6 August 1997
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       dict-1.1
