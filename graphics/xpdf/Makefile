@@ -11,7 +11,6 @@ CATEGORIES=	graphics print
 MASTER_SITES=	ftp://ftp.foolabs.com/pub/xpdf/  \
 		ftp://ftp.duke.edu/pub/X11/contrib/applications/  \
 		ftp://ftp.cdrom.com/pub/tex/ctan/support/xpdf/
-
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	chuckr@glue.umd.edu
