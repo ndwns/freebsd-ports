@@ -229,7 +229,7 @@ MASTER_SITES=	${MASTER_SITE_OVERRIDE}
 # Derived names so that they're easily overridable.
 DISTFILES?=		${DISTNAME}${EXTRACT_SUFX}
 PKGNAME?=		${DISTNAME}
-MAINTAINER?=	FreeBSD-Ports@FreeBSD.ORG
+MAINTAINER?=	ports@FreeBSD.ORG
 
 .if exists(${PACKAGES})
 PKGFILE?=		${PACKAGES}/${PKGNAME}${PKG_SUFX}
@@ -321,19 +321,27 @@ patch:
 
 # More standard targets start here.
 
+# This target generates an index entry suitable for aggregation into
+# a large index.  Format is:
+#
+# distribution-name|port-path|installation-prefix|comment| \
+#  description-file|maintainer
+#
 .if !target(describe)
 describe:
-	@echo -n "${DISTNAME}@${.CURDIR}/${DISTNAME}@${PREFIX}@"
+	@echo -n "${DISTNAME}|${.CURDIR}/${DISTNAME}|"
+	@echo -n "${PREFIX}|"
 	@if [ -f ${PKGDIR}/COMMENT ]; then \
 		echo -n "`cat ${PKGDIR}/COMMENT`"; \
 	else \
 		echo -n "** No Description"; \
 	fi
 	@if [ -f ${PKGDIR}/DESCR ]; then \
-		echo -n "@${PKGDIR}/DESCR"; \
+		echo -n "|${PKGDIR}/DESCR"; \
 	else \
-		echo -n "@/dev/null"; \
+		echo -n "|/dev/null"; \
 	fi
+	echo -n "|${MAINTAINER}"
 	@echo ""
 .endif
 
