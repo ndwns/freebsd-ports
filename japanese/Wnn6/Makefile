@@ -26,12 +26,13 @@ NO_PACKAGE=	"You should buy from Omron Software Co., Ltd."
 NO_BUILD=	yes
 IS_INTERACTIVE=	yes
 
+do-fetch:
+	@${DO_NADA}
+
 # If ${.CURDIR}/work/.build_done (which will be ${BUILD_COOKIE}) exists,
 # we do nothing in a 'do-fetch' stage.
-.if exists(${.CURDIR}/work/.build_done)
-do-fetch:
-.else
-do-fetch:
+.if !exists(${.CURDIR}/work/.build_done)
+pre-extract:
 	@${ECHO} -n "Please set the CD-ROM of 'Wnn6' into your cdrom-drive. (Press Return)"; \
 	read dummy; \
 	${ECHO} "By default, a mount point and a device file"; \
