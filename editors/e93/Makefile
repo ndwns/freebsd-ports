@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	editors
 
 MAINTAINER=	asami@FreeBSD.ORG
 
+LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
+
 MAKEFILE=	makefile
 USE_X11=	yes
 
