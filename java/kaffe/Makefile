@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	kaffe-0.7.1
-PKGNAME=	kaffe-0.7.1
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.sarc.city.ac.uk/pub/kaffe/ \
 		ftp://alterego.stack.nl/pub/kaffe/
