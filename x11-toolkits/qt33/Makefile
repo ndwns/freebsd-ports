@@ -102,6 +102,7 @@ post-configure:
 do-install:
 	${INSTALL_PROGRAM} $(WRKDIR)/qt-1.31/bin/moc $(X11BASE)/bin
 	${INSTALL_DATA} $(WRKDIR)/qt-1.31/lib/libqt.so.1.31 $(X11BASE)/lib
+	${LN} -sf $(X11BASE)/lib/libqt.so.1.31 $(X11BASE)/lib/libqt.so
 	${LDCONFIG} -m $(PREFIX)/lib
 	${MKDIR} $(PREFIX)/include/X11/qt
 	${INSTALL_DATA} $(WRKDIR)/qt-1.31/include/* $(PREFIX)/include/X11/qt
