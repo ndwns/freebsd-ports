@@ -35,6 +35,7 @@
     SUBDIR += p5-Image-Size
     SUBDIR += pgperl
     SUBDIR += pgplot
+    SUBDIR += photopc
     SUBDIR += pixmap
     SUBDIR += plotmtv
     SUBDIR += png
