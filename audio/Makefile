@@ -153,6 +153,7 @@
     SUBDIR += linux-arts
     SUBDIR += linux-esound
     SUBDIR += linux-libaudiofile
+    SUBDIR += linux-mbrola
     SUBDIR += linux-vsound
     SUBDIR += liteamp
     SUBDIR += lopster
@@ -160,6 +161,7 @@
     SUBDIR += mad
     SUBDIR += maplay
     SUBDIR += mbrola
+    SUBDIR += mbrolavox
     SUBDIR += mctoolame-decoder
     SUBDIR += mctoolame-encoder
     SUBDIR += mhwaveedit
