@@ -25,8 +25,7 @@ LIB_DEPENDS=    z\\.1\\.0:${PORTSDIR}/devel/libz
 
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 DISTFILES=	${DISTNAME}.tar.gz rsaref2.tar.gz
-MASTER_SITES=	\
-	ftp://ftp.cs.hut.fi/pub/ssh/ \
+MASTER_SITES+=   \
 	ftp://nic.funet.fi/pub/crypt/mirrors/ftp.dsi.unimi.it/applied-crypto/ \
 	ftp://rzsun2.informatik.uni-hamburg.de/pub/virus/crypt/ripem/ \
 	ftp://ftp.dsi.unimi.it/pub/security/crypt/math/ \
