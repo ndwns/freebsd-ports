@@ -8,8 +8,7 @@
 
 DISTNAME=	pari-1.39.03
 CATEGORIES=	math
-MASTER_SITES=   ftp://megrez.math.u-bordeaux.fr/pub/pari/unix/ \
-		ftp://math.ucla.edu/pub/pari/unix/
+MASTER_SITES=	ftp://megrez.math.u-bordeaux.fr/pub/pari/unix/OLDVERSIONS/
 
 MAINTAINER=     yoshiaki@kt.rim.or.jp
 
