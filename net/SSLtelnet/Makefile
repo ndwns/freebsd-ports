@@ -7,7 +7,7 @@
 
 DISTNAME=		SSLtelnet-0.11
 CATEGORIES=		net security
-MASTER_SITES=		ftp://ftp.psy.uq.oz.au:/pub/Crypto/SSLapps/
+MASTER_SITES=		ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/
 
 MAINTAINER=		issei@t-cnet.or.jp
 
