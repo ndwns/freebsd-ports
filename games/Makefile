@@ -38,6 +38,7 @@
     SUBDIR += ladder
     SUBDIR += libshhcards
     SUBDIR += lincity
+    SUBDIR += maelstrom
     SUBDIR += nethack
     SUBDIR += nethack-qt
     SUBDIR += netris
