@@ -9,6 +9,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
+    SUBDIR += cwish
     SUBDIR += deco
     SUBDIR += dejagnu
     SUBDIR += diction
