@@ -25,8 +25,8 @@ FLIGHTGEAR_VERSION=	0.6.1
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400003
-BUILD_DEPENDS+=		eg++:${PORTSDIR}/lang/egcs
-CXX=			eg++
+BUILD_DEPENDS+=		g++295:${PORTSDIR}/lang/egcs
+CXX=			g++295
 .endif
 
 .if defined(BUILD_SCENERY_TOOLS)

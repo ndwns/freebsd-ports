@@ -15,9 +15,9 @@ MAINTAINER=	scrappy@freebsd.org
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400004
-CC=		egcc
-CXX=		eg++
-BUILD_DEPENDS=	egcc:${PORTSDIR}/lang/egcs
+CC=		gcc295
+CXX=		g++295
+BUILD_DEPENDS=	gcc295:${PORTSDIR}/lang/egcs
 .endif
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \

@@ -23,9 +23,9 @@ USE_X_PREFIX=	yes
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400004
-BUILD_DEPENDS=  eg++:${PORTSDIR}/lang/egcs
-CC=		egcc
-CXX=		eg++
+BUILD_DEPENDS=  g++295:${PORTSDIR}/lang/egcs
+CC=		gcc295
+CXX=		g++295
 .endif
 
 USE_GMAKE=	yes

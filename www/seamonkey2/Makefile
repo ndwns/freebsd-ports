@@ -20,9 +20,9 @@ LIB_DEPENDS=	glib12.2:${PORTSDIR}/devel/glib12 \
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400004
-BUILD_DEPENDS+=	eg++:${PORTSDIR}/lang/egcs
-CC=		egcc
-CXX=		eg++
+BUILD_DEPENDS+=	g++295:${PORTSDIR}/lang/egcs
+CC=		gcc295
+CXX=		g++295
 .endif
 
 GLIB_CONFIG?=	${LOCALBASE}/bin/glib12-config
