@@ -10,7 +10,7 @@ DISTNAME=       bzip-0.21
 CATEGORIES+=	archivers
 MASTER_SITES=   http://www.cs.man.ac.uk/arch/people/j-seward/
 
-MAINTAINER=     Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=     andreas@klemm.gtn.com
 
 NO_CDROM=       yes     # Restrictive copyright (don't sell for profit)
 

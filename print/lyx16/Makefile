@@ -10,7 +10,7 @@ DISTNAME=	lyx-0.10.6
 CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/
 
-MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=	andreas@klemm.gtn.com
 
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX \

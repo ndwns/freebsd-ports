@@ -11,7 +11,7 @@ CATEGORIES+=	x11
 MASTER_SITES=	ftp://mitac11.uia.ac.be/pub/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=	andreas@klemm.gtn.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

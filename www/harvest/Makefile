@@ -15,6 +15,6 @@ MASTER_SITES=	ftp://ftp.town.hall.org/pub/harvest/ \
 		ftp://ftp.sunet.se/pub/nir/harvest/
 EXTRACT_SUFX=	-src.tar.gz
 
-MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=	andreas@klemm.gtn.com
 
 .include <bsd.port.mk>

@@ -12,7 +12,7 @@ CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.boutell.com/pub/boutell/mapedit/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	Andreas Klemm <andreas@klemm.gtn.com>
+MAINTAINER=	andreas@klemm.gtn.com
 
 USE_IMAKE=		yes
 NO_INSTALL_MANPAGES=	yes
