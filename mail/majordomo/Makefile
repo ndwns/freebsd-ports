@@ -16,7 +16,7 @@ EXTRACT_SUFX=   .tgz
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 Y2K=		http://www.greatcircle.com/majordomo/majordomo-faq.html#1.8
-WWW_SITE=	http://www.greatcircle.com/majordomo
+WWW_SITE=	http://www.greatcircle.com/majordomo/
 
 # Needs to create a user and group
 IS_INTERACTIVE= yes

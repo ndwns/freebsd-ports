@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.terra.net/pub/sleepycat/
 MAINTAINER=	josh@ican.net
 
 Y2K=		http://www.sleepycat.com/faq.html#A8
-WWW_SITE=	http://www.sleepycat.com
+WWW_SITE=	http://www.sleepycat.com/
 
 MANUAL_PACKAGE_BUILD= incompatible with libc internal db calls
 WRKSRC=         ${WRKDIR}/${DISTNAME}/build_unix

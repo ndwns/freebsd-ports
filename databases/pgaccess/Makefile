@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.flex.ro/pgaccess/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-WWW_SITE=	http://www.flex.ro/pgaccess
+WWW_SITE=	http://www.flex.ro/pgaccess/
 
 RUN_DEPENDS=	${PREFIX}/pgsql/bin/postmaster:${PORTSDIR}/databases/postgresql\
 		wish8.0:${PORTSDIR}/x11-toolkits/tk80

@@ -22,7 +22,7 @@ DISTFILES=	egcs-core-1.1.2${EXTRACT_SUFX} egcs-g++-1.1.2${EXTRACT_SUFX} \
 
 MAINTAINER=	obrien@FreeBSD.org
 
-WWW_SITE=	http://egcs.cygnus.com
+WWW_SITE=	http://egcs.cygnus.com/
 
 USE_BZIP2=	yes
 

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 MAINTAINER=	cwt@freebsd.org
 
 Y2K=            http://www.scriptics.com/Y2K.html
-WWW_SITE=       http://www.scriptics.com  
+WWW_SITE=       http://www.scriptics.com/
 
 
 WRKSRC=		${WRKDIR}/tcl8.0.4/unix

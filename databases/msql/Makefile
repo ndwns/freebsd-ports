@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.hughes.com.au/software/msql2/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-WWW_SITE=	http://www.hughes.com.au
+WWW_SITE=	http://www.hughes.com.au/
 
 # Not free for commercial use.  Must create a user on the local system
 NO_PACKAGE=	YES

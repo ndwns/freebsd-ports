@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/ \
 MAINTAINER=	stb@FreeBSD.ORG
 
 Y2K=		http://andrew2.andrew.cmu.edu/cyrus/imapd/y2k.html
-WWW_SITE=	http://andrew2.andrew.cmu.edu/cyrus/imapd
+WWW_SITE=	http://andrew2.andrew.cmu.edu/cyrus/imapd/
 
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 BUILD_DEPENDS=	makedepend:${PORTSDIR}/devel/makedepend
