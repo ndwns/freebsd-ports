@@ -1,4 +1,5 @@
 # New ports collection makefile for:    lynx
+# See http://www.wfbr.edu/dir/lynx/ for additional info
 # Version required:     2.4-FM
 # Date created:         15 Dec 1994
 # Whom:                 ache
@@ -10,6 +11,7 @@ DISTNAME=       lynx2-4-FM
 PKGNAME=        lynx-2.4fm
 CATEGORIES+=	www
 
+# Original location, lynx changes too often there
 #MASTER_SITES=   http://www.wfbr.edu/lynx/
 #NCFTP=          w3c
 #NCFTPFLAGS=     -to multipart/x-zip -timeout 120 -o ${DISTFILES}
