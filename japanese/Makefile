@@ -11,6 +11,7 @@
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
+    SUBDIR += ircII
     SUBDIR += kakasi
     SUBDIR += kinput2-canna
     SUBDIR += kinput2-canna+wnn
@@ -31,6 +32,7 @@
     SUBDIR += platex
     SUBDIR += ptex
     SUBDIR += ptex2
+    SUBDIR += qkc
     SUBDIR += sed
     SUBDIR += tcl
     SUBDIR += tgif
