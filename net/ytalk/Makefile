@@ -8,6 +8,7 @@
 
 DISTNAME=	ytalk-v3pl2
 MASTER_SITES=	ftp://knot.queensu.ca/pub/unix/software/
+MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/ytalk-3.2
 PKGNAME=	ytalk-3.0.2
 USE_IMAKE=	yes

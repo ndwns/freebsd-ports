@@ -9,6 +9,7 @@
 DISTNAME=	piewm
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+MAINTAINER=	asami@FreeBSD.ORG
 EXTRACT_SUFX=	.tar.Z
 PKG_CMD=	pkg_create -N
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

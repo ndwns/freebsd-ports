@@ -10,6 +10,7 @@ DISTNAME=	xdu-3.0
 EXTRACT_SUFX=	.tar.Z
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.arl.mil/pub/
+MAINTAINER=	asami@FreeBSD.ORG
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

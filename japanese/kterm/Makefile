@@ -9,5 +9,6 @@
 DISTNAME=	kterm-6.1.0
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
+MAINTAINER=	asami@FreeBSD.ORG
 
 .include <bsd.port.mk>

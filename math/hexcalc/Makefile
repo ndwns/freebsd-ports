@@ -9,5 +9,6 @@
 DISTNAME=	hexcalc
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cs.columbia.edu/archives/X11R5/contrib/
+MAINTAINER=	asami@FreeBSD.ORG
 
 .include <bsd.port.mk>

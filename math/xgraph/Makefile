@@ -9,6 +9,7 @@
 DISTNAME=	xgraph-11
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/Xclients.local/
+MAINTAINER=	asami@FreeBSD.ORG
 EXTRACT_SUFX=	.tar.Z
 
 .include <bsd.port.mk>

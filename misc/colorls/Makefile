@@ -10,6 +10,7 @@ DISTFILES=	ls.tar.gz
 FTP_SITE=	ftp.freebsd.org
 FTP_DIR=	/pub/FreeBSD/FreeBSD-current/src/bin/
 MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/FreeBSD-current/src/bin/
+MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/ls
 
 .if !defined(MASTER_SITE_OVERRIDE)

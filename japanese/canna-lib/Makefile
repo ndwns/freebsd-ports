@@ -8,6 +8,7 @@
 
 DISTNAME=	Canna32p1
 MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/Canna32/
+MAINTAINER=	asami@FreeBSD.ORG
 PATCH_STRIP=	-p1
 ALL_TARGET=	canna
 

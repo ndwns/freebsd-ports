@@ -9,6 +9,7 @@
 DISTNAME=	mule-2.2.2
 DISTFILES=	emacs-19.28.tar.gz
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+MAINTAINER=	asami@FreeBSD.ORG
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 STRIP=

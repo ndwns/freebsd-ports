@@ -9,6 +9,7 @@
 DISTNAME=	oneko-1.1b
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cs.columbia.edu/archives/X11R5/contrib/
+MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/oneko
 
 .include <bsd.port.mk>

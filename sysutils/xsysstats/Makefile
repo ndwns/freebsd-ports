@@ -9,5 +9,6 @@
 DISTNAME=	xsysstats1.32
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/utilities/
+MAINTAINER=	asami@FreeBSD.ORG
 
 .include <bsd.port.mk>

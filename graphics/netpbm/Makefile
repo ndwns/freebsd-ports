@@ -9,6 +9,7 @@
 DISTNAME=	netpbm
 DISTFILES=	netpbm-1mar1994.tar.gz
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+MAINTAINER=	asami@FreeBSD.ORG
 USE_IMAKE=	yes
 
 LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
