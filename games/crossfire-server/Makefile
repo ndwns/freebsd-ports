@@ -66,13 +66,14 @@ post-install:
 	chown games.games ${PREFIX}/bin/crossfire
 	chmod 6555 ${PREFIX}/bin/crossfire
 	@echo ""
-	@echo ""
 	@echo "======================================================"
 	@echo "===== ATTENTION BEFORE PLAYING ======================="
 	@echo "======================================================"
 	@echo "Create a players directory before playing crossfire,  "
-	@echo "otherwise crossfire cannot save your player character:"
-	@echo "Type the following command as user: mkdir $HOME/players"
+	@echo "otherwise crossfire cannot save your player character !"
+	@echo "Type the following command as user in your login directory:"
+	@echo ""
+	@echo "        $ mkdir players"
 	@echo ""
 	@echo "Read the docu, which is available in Postscript and HTML"
 	@echo "format in the directory ${CFDIR}/doc"
