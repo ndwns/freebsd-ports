@@ -3,6 +3,7 @@
 
     SUBDIR += axe
     SUBDIR += beav
+    SUBDIR += bpatch
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += jove
