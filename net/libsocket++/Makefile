@@ -22,7 +22,7 @@ post-configure:
 	@${CP} ${FILESDIR}/Makefile.lib ${WRKSRC}/Makefile
 
 post-install:
-	@/sbin/ldconfig -m ${PREFIX}/lib
+	@${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/libsocket++
 	${INSTALL_MAN} ${WRKSRC}/README ${PREFIX}/share/doc/libsocket++

@@ -35,7 +35,7 @@ MAN3= 	RkRgnBun.3 RkDefineDic.3 RkDeleteDic.3 RkEndBun.3 \
 STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/canna.sh
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then 				\
 		echo "Installing ${STARTUP_SCRIPT} startup file."; 	\
 		echo '#!/bin/sh' > ${STARTUP_SCRIPT}; 			\

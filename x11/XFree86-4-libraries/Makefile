@@ -25,6 +25,6 @@ INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

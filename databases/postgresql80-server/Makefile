@@ -60,7 +60,7 @@ post-install:
 	fi
 	@ chown -R pgsql:pgsql ${PREFIX}/pgsql
 	@ echo 'Initializing PostgreSQL Databases - this may take a few minutes...'
-	@ /sbin/ldconfig -m ${PREFIX}/pgsql/lib
+	@ ${LDCONFIG} -m ${PREFIX}/pgsql/lib
 	@ su -l pgsql -c '${PREFIX}/pgsql/bin/initdb --pglib=${PREFIX}/pgsql/lib --pgdata=${PREFIX}/pgsql/data'
 	@ if [ ! -f ${PREFIX}/etc/rc.d/postgresql.sh ]; then \
 		echo "Installing ${PREFIX}/etc/rc.d/postgresql.sh startup file."; \

@@ -42,6 +42,6 @@ pre-extract:
 	chmod +x ${SCRIPTDIR}/uncomp
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

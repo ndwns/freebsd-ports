@@ -24,6 +24,6 @@ do-extract:
 	${CP} -p ${FILESDIR}/Makefile ${WRKDIR}
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -35,6 +35,6 @@ pre-build:
 	@(cd ${WRKSRC} ; make clean)
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

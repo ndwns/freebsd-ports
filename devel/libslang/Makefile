@@ -20,6 +20,6 @@ WRKSRC=         ${WRKDIR}/slang
 
 post-install:
 	@rm -f ${PREFIX}/lib/libslang.so.99.3[348]
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

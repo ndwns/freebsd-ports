@@ -49,6 +49,6 @@ do-install:
 	${MKDIR} ${PREFIX}/share/fonts/watanabe_font
 	tar -C ${PREFIX}/share/fonts/watanabe_font \
 	  -xzf ${DISTDIR}/watanabe-vf.tar.Z
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

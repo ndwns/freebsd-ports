@@ -17,7 +17,7 @@ MAINTAINER=	jmz@FreeBSD.org
 do-install:
 	install -c -o bin -g bin ${WRKSRC}/BLAS/SRC/libblas.* ${PREFIX}/lib
 	install -c -o bin -g bin ${WRKSRC}/SRC/liblapack.* ${PREFIX}/lib
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOMANCOMPRESS)
 	cd ${WRKDIR}/blas/man/manl; \
 	   for i in *.l; do gzip -9f < $$i >${PREFIX}/man/manl/$$i.gz; done

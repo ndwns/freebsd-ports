@@ -26,6 +26,6 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/jbig
 	${INSTALL_DATA} ${WRKSRC}/libjbig/jbig.doc ${PREFIX}/share/doc/jbig
 .endif
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -17,6 +17,6 @@ MAN1=		toast.1
 MAN3=		gsm.3 gsm_explode.3 gsm_option.3 gsm_print.3
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

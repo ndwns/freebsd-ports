@@ -34,7 +34,7 @@ post-install:
 	mv ${PREFIX}/lib/libreadline.so ${PREFIX}/lib/libreadline.so.2.0
 	mv ${PREFIX}/lib/libhistory.so ${PREFIX}/lib/libhistory.so.2.0
 	mv ${PREFIX}/lib/libkpathsea.so ${PREFIX}/lib/libkpathsea.so.2.0
-	/sbin/ldconfig -m $(PREFIX)/lib
+	${LDCONFIG} -m $(PREFIX)/lib
 .ifndef NOPORTDOCS
 .for file in $(OCTAVE-INFO)
 	$(INSTALL_DATA) $(WRKSRC)/doc/interpreter/$(file) $(PREFIX)/info

@@ -32,7 +32,7 @@ DOCFILES+=	doc/test.txt
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.1.0 ${PREFIX}/lib
-	@/sbin/ldconfig -m ${PREFIX}/lib
+	@${LDCONFIG} -m ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib
 	@/usr/bin/ranlib ${PREFIX}/lib/libuu.a
 	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h

@@ -20,6 +20,6 @@ post-extract:
 	@ln -sf exports/include ${WRKSRC}/X11
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -45,6 +45,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/pine/pine.ndx ${PREFIX}/lib/pine
 	${INSTALL_DATA} ${WRKSRC}/pine/pine_ja.hlp ${PREFIX}/lib/pine
 	${INSTALL_DATA} ${WRKSRC}/pine/pine_ja.ndx ${PREFIX}/lib/pine
-	ldconfig -vm /usr/local/lib
+	${LDCONFIG} -m /usr/local/lib
 
 .include <bsd.port.mk>

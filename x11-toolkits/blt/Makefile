@@ -22,6 +22,6 @@ MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
 		vector.n watch.n winop.n
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -30,6 +30,6 @@ post-install:
 	${MKDIR} $(PREFIX)/share/doc/fftlib
 	${CP} $(WRKSRC)/doc.Z $(PREFIX)/share/doc/fftlib/
 .endif
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

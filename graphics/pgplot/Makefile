@@ -16,6 +16,6 @@ MAINTAINER=	jmz@FreeBSD.org
 WRKSRC=		${WRKDIR}/pgplot
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

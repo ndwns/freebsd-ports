@@ -24,6 +24,6 @@ DIST_SUBDIR=	xc
 WRKSRC=		${WRKDIR}/contrib
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

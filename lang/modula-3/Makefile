@@ -93,6 +93,6 @@ do-install:
 	    find -X lib/m3 -type d | xargs chown ${BINOWN}.${BINGRP}; \
 	    find -X lib/m3 -type d | xargs chmod 755
 	@echo "Running ldconfig"
-	@/sbin/ldconfig -m ${PREFIX}/lib/m3/FreeBSD2
+	@${LDCONFIG} -m ${PREFIX}/lib/m3/FreeBSD2
 
 .include <bsd.port.mk>

@@ -17,6 +17,6 @@ MAINTAINER=	jmacd@FreeBSD.ORG
 NO_WRKSUBDIR=	yes
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

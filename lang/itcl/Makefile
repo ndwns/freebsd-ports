@@ -55,6 +55,6 @@ post-install:
 	@echo "                         iwidgets"
 	@echo "To the manpath in /etc/manpath.config"
 	@echo "*****************************************************"
-	/sbin/ldconfig -m $(PREFIX)/lib
+	${LDCONFIG} -m $(PREFIX)/lib
 
 .include <bsd.port.mk>

@@ -45,7 +45,7 @@ post-install:
 	@${MKDIR} ${PREFIX}/man/man1
 	@mv ${PREFIX}/man/mann/tixwish.1 ${PREFIX}/man/man1
 	@ln -sf ${PREFIX}/bin/tixwish4.1.7.5 ${PREFIX}/bin/tixwish
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 .for dir in generic unix
 	@${MKDIR} ${PREFIX}/include/tix/${dir}
 	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/${dir}/*.h ${PREFIX}/include/tix/${dir}

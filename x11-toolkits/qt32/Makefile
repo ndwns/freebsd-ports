@@ -92,7 +92,7 @@ post-configure:
 do-install:
 	${INSTALL_PROGRAM} $(WRKDIR)/qt-1.2/bin/moc $(X11BASE)/bin
 	${INSTALL_DATA} $(WRKDIR)/qt-1.2/lib/libqt.so.1.2 $(X11BASE)/lib
-	/sbin/ldconfig -m $(PREFIX)/lib
+	${LDCONFIG} -m $(PREFIX)/lib
 	mkdir -p $(PREFIX)/include/X11/qt
 	${INSTALL_DATA} $(WRKDIR)/qt-1.2/include/* $(PREFIX)/include/X11/qt
 	${INSTALL_MAN} $(WRKDIR)/qt-1.2/man/man1/* $(PREFIX)/man/man1

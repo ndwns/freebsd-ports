@@ -139,6 +139,6 @@ do-install:
 	    chmod 755 ${startup_script}; \
 	fi
 	@echo "Running ldconfig"
-	@/sbin/ldconfig -m ${PREFIX}/lib/m3/FreeBSD2
+	@${LDCONFIG} -m ${PREFIX}/lib/m3/FreeBSD2
 
 .include <bsd.port.mk>

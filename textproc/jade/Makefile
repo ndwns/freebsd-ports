@@ -28,6 +28,6 @@ BROKEN=		Requires FreeBSD 2.2 or later.
 
 # Shared libraries are currently broken for this port.
 # post-install:
-# 	/sbin/ldconfig -m ${PREFIX}/lib
+# 	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -32,7 +32,7 @@ do-install:
 	cd ${WRKSRC} && \
 		${INSTALL_DATA} librsaref.a librsaref.so.2.0 \
 			${PREFIX}/lib
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 	install -d -m 555 ${PREFIX}/share/doc/rsaref
 	cd ${WRKDIR}/doc && \
 		${INSTALL_DATA} info.txt rsaref.txt \
