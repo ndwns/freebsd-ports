@@ -17,4 +17,11 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	M4=${PREFIX}/bin/gm4
 
+post-install:
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	 fi
+	install-info ${PREFIX}/info/autoconf.info ${PREFIX}/info/dir
+	install-info ${PREFIX}/info/standards.info ${PREFIX}/info/dir
+
 .include <bsd.port.mk>
