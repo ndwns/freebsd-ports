@@ -2,6 +2,7 @@
 #
 
     SUBDIR += cnews
+    SUBDIR += diablo
     SUBDIR += dnews
     SUBDIR += inn
     SUBDIR += knews
