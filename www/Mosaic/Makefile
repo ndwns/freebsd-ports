@@ -12,8 +12,7 @@ CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 
 LIB_DEPENDS=	jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \
-		png\\.0\\.:${PORTSDIR}/graphics/png \
-		z\\.1\\.:${PORTSDIR}/devel/libz
+		png\\.0\\.:${PORTSDIR}/graphics/png
 
 REQUIRES_MOTIF=	yes
 WRKSRC=		${WRKDIR}/Mosaic-src
