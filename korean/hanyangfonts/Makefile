@@ -28,10 +28,11 @@ do-build:
 	done; \
 
 do-install:
+	-mkdir -p ${PREFIX}/lib/X11/fonts/local
 	@cd ${WRKSRC}; \
 	for file in ${FONTS}; do \
-		${INSTALL_DATA} "$$file".pcf.gz ${PREFIX}/lib/X11/fonts/misc; \
+		${INSTALL_DATA} "$$file".pcf.gz ${PREFIX}/lib/X11/fonts/local; \
 	done; \
-	mkfontdir ${PREFIX}/lib/X11/fonts/misc
+	mkfontdir ${PREFIX}/lib/X11/fonts/local
 
 .include <bsd.port.mk>
