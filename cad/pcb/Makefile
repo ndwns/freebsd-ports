@@ -15,8 +15,7 @@ MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4 \
 		bison:${PORTSDIR}/devel/bison \
-		/usr/local/bin/flex:${PORTSDIR}/devel/flex
-# note we can't say "${PREFIX}/bin/flex" because this is an X port
+		${LOCALBASE}/bin/flex:${PORTSDIR}/devel/flex
 
 USE_IMAKE=	yes
 
