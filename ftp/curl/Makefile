@@ -1,18 +1,18 @@
 # New ports collection makefile for:	curl
-# Version required:     5.8
+# Version required:     5.9
 # Date created:		12 December 1998
 # Whom:			Neil Blakey-Milner <nbm@rucus.ru.ac.za>
 #
 # $Id$
 
-DISTNAME=	curl-5.8
+DISTNAME=	curl-5.9
 CATEGORIES=	net www
 MASTER_SITES=	http://www.fts.frontec.se/~dast/stuff/ \
 		ftp://ftp.rhrz.uni-bonn.de/pub-koeln/net/inet/ \
 		ftp://ftp.win.or.jp/pub/network/www/misc/ \
 		ftp://crydee.sai.msu.ru/zeus/unix/WWW/tools/mirror/
 
-MAINTAINER=	kkennawa@physics.adelaide.edu.au
+MAINTAINER=	kris@FreeBSD.ORG
 
 .if defined(USE_SSL)
 BUILD_DEPENDS=	${PREFIX}/lib/libssl.a:${PORTSDIR}/security/openssl \
