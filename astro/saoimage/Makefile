@@ -16,6 +16,8 @@ MAKEFILE=	makefile
 ALL_TARGET=	FreeBSD
 INSTALL_TARGET= -f makefile.$(ALL_TARGET) install_saobin install_saoman
 
+BROKEN_ELF=	build
+
 MANL=		saoimage.l
 USE_X_PREFIX=	yes
 
