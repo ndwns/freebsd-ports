@@ -63,6 +63,7 @@
     SUBDIR += w3
     SUBDIR += w3c-httpd
     SUBDIR += w3mir
+    SUBDIR += wcol
     SUBDIR += web500gw
     SUBDIR += webalizer
     SUBDIR += webcopy
