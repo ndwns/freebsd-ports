@@ -23,7 +23,7 @@ MAINTAINER=	dirk@FreeBSD.ORG
 Y2K=		http://www.php.net/y2k.php3
 
 VERSION_APACHE=	1.3.4
-VERSION_PHP3=	3.0.6
+VERSION_PHP3=	3.0.7
 
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
