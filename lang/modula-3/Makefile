@@ -12,7 +12,7 @@ DISTFILES=
 
 MAINTAINER=	jdp@polstra.com
 
-DEPENDS=	${PORTSDIR}/lang/modula-3-lib
+DEPENDS=	${PORTSDIR}/lang/modula-3-lib:install
 
 WRKSRC=		${WRKDIRPREFIX}${PORTSDIR}/lang/modula-3-lib/work
 NO_CHECKSUM=	yes
