@@ -111,6 +111,7 @@
     SUBDIR += xtriangles
     SUBDIR += xtris
     SUBDIR += xtruco
+    SUBDIR += xvier
     SUBDIR += xvmines
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
