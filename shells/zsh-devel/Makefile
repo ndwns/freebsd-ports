@@ -11,6 +11,8 @@ PKGNAME=	zsh-2.6b7
 CATEGORIES+=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
