@@ -41,6 +41,8 @@ if [ "$2" = "PRE-INSTALL" ]; then
 
     /usr/bin/install -o ${USER} -g ${GROUP} -m 750 -d ${DIR}
     echo "Created \"${DIR}\" directory."
+    /usr/bin/install -o ${USER} -g ${GROUP} -m 750 -d ${DIR}/db
+    echo "Created \"${DIR}/db\" directory."
     /usr/bin/install -o ${USER} -g ${GROUP} -m 750 -d ${QUARANTINE}
     echo "Created \"${QUARANTINE}\" directory."    
 fi

@@ -21,7 +21,7 @@ rcvar=`set_rcvar`
 
 command=%%PREFIX%%/sbin/amavisd > /dev/null 2>&1
 
-amavisd_user=%%AMAVISUSER%%
+amavisd_flags="-u %%AMAVISUSER%%"
 
 pidfile=%%AMAVISDIR%%/amavisd.pid
 required_files=%%PREFIX%%/etc/amavisd.conf
