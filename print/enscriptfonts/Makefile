@@ -14,7 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	kline@thought.org
 
-RUN_DEPENDS=	enscript:${PORTSDIR}/print/enscript
+# user should choose their own version
+#RUN_DEPENDS=	enscript:${PORTSDIR}/print/enscript-letter
 
 NO_WRKSUBDIR=	YES
 NOMANCOMPRESS=	YES
