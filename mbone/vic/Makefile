@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	vic-2.8
-CATEGORIES=	mbone tk80
+CATEGORIES=	mbone tk81
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vic/
 DISTFILES=	vicsrc-2.8.tar.gz
 
 MAINTAINER=	fenner@FreeBSD.ORG
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=	tk81\\.1:${PORTSDIR}/x11/tk81
 
 GNU_CONFIGURE=	yes
 USE_X11=	yes

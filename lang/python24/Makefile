@@ -8,7 +8,7 @@
 
 DISTNAME=       python1.5
 PKGNAME=        python-1.5
-CATEGORIES=	lang tk80
+CATEGORIES=	lang tk81
 MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/
 
@@ -34,7 +34,7 @@ SETUP_FILE=	Setup
 #
 WITH_TK?=	yes
 .if defined(WITH_TK) && $(WITH_TK) == yes
-TK_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
+TK_DEPENDS=	tk81\\.1\\.:${PORTSDIR}/x11/tk81
 SETUP_LOCAL=	Setup.tk
 .endif
 

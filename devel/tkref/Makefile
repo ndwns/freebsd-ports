@@ -7,19 +7,19 @@
 #
 
 DISTNAME=	tkref-1.01
-CATEGORIES=	devel x11 tk80
+CATEGORIES=	devel x11 tk81
 MASTER_SITES=	http://gtcs.com/softdist/ \
 		${MASTER_SITE_LOCAL}
 
 MAINTAINER=	bgingery@gtcs.com
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.1:${PORTSDIR}/x11/tk81
 
 NO_BUILD=	yes
 NO_CONFIGURE=	yes
 
 do-patch:
-	perl -pi -e "s|/usr/local/bin/wish4.1|${PREFIX}/bin/wish8.0|;" \
+	perl -pi -e "s|/usr/local/bin/wish4.1|${PREFIX}/bin/wish8.1|;" \
 		${WRKDIR}/TkRef
 
 do-install:
