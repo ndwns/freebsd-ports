@@ -33,6 +33,7 @@
     SUBDIR += tkinfo
     SUBDIR += tkman
     SUBDIR += trans
+    SUBDIR += unclutter
     SUBDIR += xcalendar
     SUBDIR += xephem
     SUBDIR += zorro
