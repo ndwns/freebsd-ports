@@ -12,9 +12,7 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-.if !exists(/usr/local/bin/bash)
-DEPENDS=	${PORTSDIR}/shells/bash
-.endif
+BUILD_DEPENDS=	bash:${PREFIX}/shells/bash
 
 MAKE_FLAGS=	"SHELL=/usr/local/bin/bash"
 
