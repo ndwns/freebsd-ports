@@ -103,11 +103,11 @@ do-install:
 	${INSTALL_PROGRAM} $(WRKDIR)/qt-1.31/bin/moc $(X11BASE)/bin
 	${INSTALL_DATA} $(WRKDIR)/qt-1.31/lib/libqt.so.1.31 $(X11BASE)/lib
 	${LDCONFIG} -m $(PREFIX)/lib
-	mkdir -p $(PREFIX)/include/X11/qt
+	${MKDIR} $(PREFIX)/include/X11/qt
 	${INSTALL_DATA} $(WRKDIR)/qt-1.31/include/* $(PREFIX)/include/X11/qt
 	${INSTALL_MAN} $(WRKDIR)/qt-1.31/man/man1/* $(PREFIX)/man/man1
 	${INSTALL_MAN} $(WRKDIR)/qt-1.31/man/man3/* $(PREFIX)/man/man3
-	mkdir -p ${PREFIX}/share/doc/qt
+	${MKDIR} ${PREFIX}/share/doc/qt
 	${INSTALL_DATA} ${WRKDIR}/qt-1.31/README ${PREFIX}/share/doc/qt
 	${INSTALL_DATA} ${WRKDIR}/qt-1.31/README.QT ${PREFIX}/share/doc/qt
 
