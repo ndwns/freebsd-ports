@@ -6,10 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	dejasearch11
-PKGNAME=	dejasearch-1.1
+DISTNAME=	dejasearch12
+PKGNAME=	dejasearch-1.2
 CATEGORIES=	news
-MASTER_SITES=	http://homemade.hypermart.net/dejasearch/
+MASTER_SITES=	http://homemade.hypermart.net/dejasearch/ \
+		http://homemade.virtualave.net/dejasearch/ \
+		http://www.freebsd.org/~mharo/distfiles/
 
 MAINTAINER=	kris@FreeBSD.ORG
 
