@@ -1,13 +1,13 @@
 # New ports collection makefile for:    m68kgdb
-# Version required:     4.17
+# Version required:     4.18
 # Date created:         7 Jul 98
-# Whom:                 Jerry Hicks <jhicks@glenatl.glenayre.com>
+# Whom:                 Jerry Hicks <Jerry.Hicks@Glenayre.com>
 #
 # $Id$
 #
 
-DISTNAME=	gdb-4.17
-PKGNAME=	m68kgdb-4.17
+DISTNAME=	gdb-4.18
+PKGNAME=	m68kgdb-4.18
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
 MASTER_SITE_SUBDIR=	gdb
