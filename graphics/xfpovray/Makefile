@@ -26,6 +26,6 @@ USE_GMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-patch:
-	@/usr/bin/perl -pi -e "s|@LOCALBASE@|${LOCALBASE}|g;" ${WRKSRC}/src/xfpovray.h
+	@/usr/bin/perl -pi -e "s|\@LOCALBASE\@|${LOCALBASE}|g;" ${WRKSRC}/src/xfpovray.h
 
 .include <bsd.port.mk>
