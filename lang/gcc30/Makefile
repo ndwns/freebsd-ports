@@ -7,15 +7,15 @@
 # $Id$
 #
 
-DISTNAME=	egcs-19980715
+DISTNAME=	egcs-19980721
 CATEGORIES=	lang
-MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-07-15/ \
-		ftp://cambridge.cygnus.com/pub/egcs/snapshots/1998-07-15/ \
-		ftp://ftp.fu-berlin.de/unix/languages/egcs/snapshots/1998-07-15/
+MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-07-21/ \
+		ftp://cambridge.cygnus.com/pub/egcs/snapshots/1998-07-21/ \
+		ftp://ftp.fu-berlin.de/unix/languages/egcs/snapshots/1998-07-21/
 
 MAINTAINER=	obrien@FreeBSD.org
 
-EGCS_REV=	egcs-2.91.50
+EGCS_REV=	egcs-2.91.51
 GNUHOST=	i386-unknown-freebsd${GNUOSREL}
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
