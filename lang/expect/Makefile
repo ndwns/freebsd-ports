@@ -14,6 +14,8 @@ MASTER_SITES=	http://expect.nist.gov/ \
 
 MAINTAINER=	ports@freebsd.org
 
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/lang/tcl80:build \
+		/nonexistent:${PORTSDIR}/x11/tk80:build
 LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80 \
 		tk80\\.1:${PORTSDIR}/x11/tk80
 
