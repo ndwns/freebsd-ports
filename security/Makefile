@@ -17,6 +17,7 @@
     SUBDIR += safe-tcl
     SUBDIR += ssh
     SUBDIR += sudo
+    SUBDIR += super
     SUBDIR += tcp_wrapper
     SUBDIR += tripwire
     SUBDIR += vscan
