@@ -8,7 +8,7 @@
 
 DISTNAME=	WWW
 PKGNAME=	w3c_httpd-3.0
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/httpd/ \
 		ftp://ftp.w3.org/pub/libwww/
 DISTFILES=      libwww_2.17_src.tar.Z \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	octave-1.1.1
-CATEGORIES+=	math 
+CATEGORIES=	math 
 MASTER_SITES=	ftp://ftp.che.utexas.edu/pub/octave/
 
 MAINTAINER=	ports@FreeBSD.ORG

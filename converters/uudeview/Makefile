@@ -22,6 +22,7 @@ GNU_CONFIGURE=	Yes
 # its own minews do-hicky.
 CONFIGURE_ARGS=		--disable-minews
 CONFIGURE_ARGS+=	--disable-tcl
+MAN1=			uudeview.1 uuenview.1
 
 EXTRAFILES+=	porting.notes
 
@@ -54,10 +55,6 @@ post-install:
 	then \
 		${ECHO_MSG} "===>  Not copying available documents to ${PREFIX}/${PORTDOCDIR}"; \
 	fi;
-.endif
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/uudeview.1
-	gzip -9nf ${PREFIX}/man/man1/uuenview.1
 .endif
 	strip ${PREFIX}/bin/uudeview
 	strip ${PREFIX}/bin/uuenview

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ucd-snmp-3.1
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
@@ -29,13 +29,7 @@ MAN8=		snmptrapd.8 snmpd.8
 post-install:
 	( cd ${PREFIX}/bin; strip ${BIN} )
 	( cd ${PREFIX}/sbin; strip ${SBIN} )
-.if !defined(NOMANCOMPRESS)
-	( cd ${PREFIX}/man/man1; gzip -9nf ${MAN1} )
-	( cd ${PREFIX}/man/man3; gzip -9nf ${MAN3} )
-	( cd ${PREFIX}/man/man5; gzip -9nf ${MAN5} )
-	( cd ${PREFIX}/man/man8; gzip -9nf ${MAN8} )
-.endif
-	mkdir -p ${PREFIX}/share/examples/ucd-snmp
+	${MKDIR} ${PREFIX}/share/examples/ucd-snmp
 	( cd ${WRKSRC}/etc; cp * ${PREFIX}/share/examples/ucd-snmp )
 
 .include <bsd.port.mk>

@@ -8,19 +8,19 @@
 
 DISTNAME=	cxref-1.2
 PKGNAME=	cxref-1.2b
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/unix/tools/
 EXTRACT_SUFX=	.tgz
 
 PATCHFILES=	cxref-1.2-1.2a.diff.gz cxref-1.2a-1.2b.diff.gz
 PATCH_SITES=	${MASTER_SITES}
-PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	tg@freebsd.org
 
 WRKSRC=		${WRKDIR}/cxref
 USE_GMAKE=	yes
 ALL_TARGET=	program
+PATCH_DIST_STRIP=	-p1
 
 DOCDIR=		${PREFIX}/share/doc/cxref
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mpeg_lib-1.1
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.mni.mcgill.ca/pub/mpeg/
 
 WRKSRC=		${WRKDIR}/mpeg_lib

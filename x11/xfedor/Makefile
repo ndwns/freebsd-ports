@@ -11,7 +11,7 @@
 
 DISTNAME=       xfedor
 PKGNAME=        xfedor-1.0
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=   ftp://ftp.uni-trier.de/pub/unix/X11/R6/contrib/programs/
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm

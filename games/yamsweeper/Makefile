@@ -7,13 +7,12 @@
 #
 
 DISTNAME=       yamsweeper-1.9
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.tut.ac.jp/X11/Contrib/Games/
 
 MAINTAINER=	hidekazu@cs.titech.ac.jp
 
 USE_IMAKE=	yes
-
 
 pre-configure:
 	@mv ${WRKSRC}/Imakefile ${WRKSRC}/Imakefile.old

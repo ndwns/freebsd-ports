@@ -7,7 +7,7 @@
 #
 
 PKGNAME=        ru-netscape-3.01
-CATEGORIES+=    russian www x11
+CATEGORIES=     russian www
 
 MAINTAINER=	ache@FreeBSD.ORG
 

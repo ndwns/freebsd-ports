@@ -8,7 +8,7 @@
 
 DISTNAME=	squid-1.1.beta19
 PKGNAME=	squid-1.1b19
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=  \
 	ftp://squid.nlanr.net/pub/squid-1.1.beta/ \
 	ftp://www.unimelb.edu.au/pub/cwis/servers/unix/squid/squid-1.1.beta/ \

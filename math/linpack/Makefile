@@ -8,7 +8,7 @@
 
 DISTNAME=	linpack
 PKGNAME=	linpack-1.0
-CATEGORIES+=	math
+CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/linpack/
 
 DIST_SUBDIR=	${DISTNAME}

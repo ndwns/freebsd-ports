@@ -8,7 +8,7 @@
 
 DISTNAME=	inn1.4sec
 PKGNAME=	inn-1.4
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
 EXTRACT_SUFX=	.tar.Z
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xpilot-3.3.1
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cs.uit.no/pub/games/xpilot/
 
 USE_IMAKE=	yes

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	freefonts-0.10
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://scam.xcf.berkeley.edu/pub/gimp/
 
 MAINTAINER=	erich@FreeBSD.org

@@ -7,18 +7,16 @@
 #
 
 DISTNAME=       xpdf-0.5
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.andrew.cmu.edu/pub/xpdf/
 
 MAINTAINER=	chuckr@glue.umd.edu
 
 USE_X11=	yes
+MAN1=		xpdf.1 pdftops.1
 
 post-install:
-	install -c -m 444 ${WRKSRC}/xpdf.1 ${PREFIX}/man/man1
-	install -c -m 444 ${WRKSRC}/pdftops.1 ${PREFIX}/man/man1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/xpdf.1 ${PREFIX}/man/man1/pdftops.1
-.endif
+	${INSTALL_MAN} ${WRKSRC}/xpdf.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/pdftops.1 ${PREFIX}/man/man1
 
 .include <bsd.port.mk>

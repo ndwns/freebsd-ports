@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	slirp-0.95f
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/ \
 		ftp://freedom.wit.com/misc4/danjo/SLiRP/
 
@@ -15,10 +15,6 @@ MAINTAINER=	A.C.P.M.Kalker@student.utwente.nl
 
 WRKSRC=		${WRKDIR}/slirp-0.95f/src
 HAS_CONFIGURE=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/slirp.1
-.endif
+MAN1=		slirp.1
 
 .include <bsd.port.mk>

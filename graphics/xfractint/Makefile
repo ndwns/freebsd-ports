@@ -8,7 +8,7 @@
 
 DISTNAME=       xfract300
 PKGNAME=	xfractint-3.00
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/sprite/
 EXTRACT_SUFX=	.shar.Z
 
@@ -16,10 +16,6 @@ EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
 NO_WRKSUBDIR=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/xfractint.1
-.endif
+MAN1=		xfractint.1
 
 .include <bsd.port.mk>

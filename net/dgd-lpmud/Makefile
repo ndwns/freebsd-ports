@@ -8,10 +8,9 @@
 
 DISTNAME=	dgd-lpmud
 PKGNAME=	dgd-lpmud-2.4.5
-CATEGORIES+=	net devel games
+CATEGORIES=	net devel games
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
 DISTFILES=	2.4.5-for-1.1.tgz
-DIST_SUBDIR=	dgd
 
 MAINTAINER=	adam@veda.is
 
@@ -20,6 +19,7 @@ RESTRICTED=	no monetary gain, tarball OK for CDROM
 
 RUN_DEPENDS=	${PREFIX}/dgd/bin/driver:${PORTSDIR}/net/dgd
 
+DIST_SUBDIR=	dgd
 WRKSRC=		${WRKDIR}/mud
 PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 		-p ${PREFIX}/dgd

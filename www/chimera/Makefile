@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	chimera-1.65
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
 
 MAINTAINER=	asami@FreeBSD.ORG

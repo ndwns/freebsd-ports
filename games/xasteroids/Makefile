@@ -8,7 +8,7 @@
 
 DISTNAME=       xasteroids
 PKGNAME=	xasteroids-5.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://calypso-2.oit.unc.edu/pub/X11/contrib/
 EXTRACT_SUFX=	.sh.Z
 

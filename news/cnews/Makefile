@@ -8,7 +8,7 @@
 
 DISTNAME=	cnews
 PKGNAME=	cnews-cr.g
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.zoo.toronto.edu/pub/
 EXTRACT_SUFX=	.tar.Z
 

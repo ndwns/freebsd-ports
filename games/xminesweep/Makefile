@@ -8,7 +8,7 @@
 
 DISTNAME=	xminesweep3.0
 PKGNAME=	xminesweep-3.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.icm.edu.pl/pub/X11/contrib/games/
 EXTRACT_SUFX=	.tar.Z
 

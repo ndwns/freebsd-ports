@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       Mesa-1.2.7
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/Mesa/
 
 ALL_TARGET=     freebsd

@@ -8,7 +8,7 @@
 
 DISTNAME=	spider
 PKGNAME=	spider-1.1
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.uni-koeln.de/windows/xcontrib/
 
 MAINTAINER=	asami@FreeBSD.ORG

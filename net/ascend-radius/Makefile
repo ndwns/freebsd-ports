@@ -8,7 +8,7 @@
 
 DISTNAME=	radius-961015
 PKGNAME=	ascend-radius-961015
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ascend.com/pub/Software-Releases/Radius/Current/ \
 		ftp://ftp.ascend.com/pub/Software-Releases/Radius/Archive/
 

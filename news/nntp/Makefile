@@ -8,7 +8,7 @@
 
 DISTNAME=	nntp-t5
 PKGNAME=	nntp-1.5.11.5
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 
 MAINTAINER=	adam@veda.is

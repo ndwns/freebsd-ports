@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	blt-2.1
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
 DISTFILES=	BLT2.1.tar.gz
 
 MAINTAINER=	lukin@okbmei.msk.su
 
-LIB_DEPENDS=	tk41\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
 
 WRKSRC=		${WRKDIR}/blt2.1
 GNU_CONFIGURE=	yes

@@ -7,9 +7,8 @@
 #
 
 DISTNAME=	cvsup-13.5
-CATEGORIES+=	devel
-CATEGORIES+=	net
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
+CATEGORIES=	devel net
+MASTERSITES=	ftp://freefall.freebsd.org/pub/CVSup/
 
 MAINTAINER=	jdp@FreeBSD.org
 

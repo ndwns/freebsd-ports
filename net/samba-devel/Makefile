@@ -7,27 +7,18 @@
 #
 
 DISTNAME=	samba-1.9.15p8
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
-pre-install:
-	@mkdir -p /usr/local/samba
+MAN1=		smbstatus.1 smbclient.1 smbrun.1 smbtar.1 testparm.1 testprns.1
+MAN5=		smb.conf.5
+MAN7=		samba.7
+MAN8=		smbd.8 nmbd.8
 
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/smbstatus.1
-	gzip -9nf ${PREFIX}/man/man1/smbclient.1
-	gzip -9nf ${PREFIX}/man/man1/smbrun.1
-	gzip -9nf ${PREFIX}/man/man1/smbtar.1
-	gzip -9nf ${PREFIX}/man/man1/testparm.1
-	gzip -9nf ${PREFIX}/man/man1/testprns.1
-	gzip -9nf ${PREFIX}/man/man5/smb.conf.5
-	gzip -9nf ${PREFIX}/man/man7/samba.7
-	gzip -9nf ${PREFIX}/man/man8/smbd.8
-	gzip -9nf ${PREFIX}/man/man8/nmbd.8
-.endif
+pre-install:
+	@${MKDIR} /usr/local/samba
 
 .include <bsd.port.mk>

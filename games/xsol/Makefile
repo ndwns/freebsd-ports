@@ -8,7 +8,7 @@
 
 DISTNAME=       xsol-new
 PKGNAME=	xsol-2.1.1
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
 
 USE_IMAKE=      yes

@@ -8,7 +8,7 @@
 
 DISTNAME=	uudeview-0.5.4
 PKGNAME=	uulib-0.5.4
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/
 
 MAINTAINER=	ac199@freenet.hamilton.on.ca

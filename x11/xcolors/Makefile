@@ -8,7 +8,7 @@
 
 DISTNAME=	xcolors
 PKGNAME=	xcolors-1.3
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.x.org/pub/R6untarred/contrib/programs/
 
 # Note: do NOT create an md5 checksum for xcolors.tar.gz, it may

@@ -8,7 +8,7 @@
 
 DISTNAME=       xlife
 PKGNAME=	xlife-3.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
 EXTRACT_SUFX=	.tar.Z
 

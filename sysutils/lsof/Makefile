@@ -21,9 +21,9 @@ WRKSRC=		${WRKDIR}/${SRCBALL_NAME}
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=	-n freebsd
+MAN1=		lsof.1
 
 SRCBALL_NAME=	${DISTNAME:S/_W$//}
-
 
 post-extract:
 	@( cd ${WRKDIR} ; \
@@ -42,11 +42,5 @@ post-extract:
 do-install:
 	${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m 2755 -g kmem ${WRKSRC}/lsof ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/lsof.man ${PREFIX}/man/man1/lsof.1
-
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/lsof.1
-.endif
 
 .include <bsd.port.mk>

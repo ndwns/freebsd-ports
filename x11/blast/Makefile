@@ -8,7 +8,7 @@
 
 DISTNAME=	blast-1.0-ss-9.03
 PKGNAME=	blast-1.0
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/blast-1.0/ \
 		ftp://ftp.ask.uni-karlsruhe.de/pub/hpux/X11/Demos/blast-1.0/ \
 		ftp://ftp.univie.ac.at/systems/hpux/hpux/X11/Demos/blast-1.0/ \

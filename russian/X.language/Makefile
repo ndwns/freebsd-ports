@@ -8,7 +8,7 @@
 
 DISTNAME=       xrus-2.0-bin
 PKGNAME=        ru-X11-3.2
-CATEGORIES+=    russian x11
+CATEGORIES=     russian x11
 MASTER_SITES=   ftp://ftp.relcom.ru/misc/fonts/cyrillic/xwindows/
 EXTRACT_SUFX=   .tgz
 

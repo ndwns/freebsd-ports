@@ -8,7 +8,7 @@
 
 DISTNAME=       xmj
 PKGNAME=	xmj-1.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://forte.mathematik.uni-bremen.de/pub/unix/X11/
 
 USE_IMAKE=	yes

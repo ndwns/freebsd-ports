@@ -8,7 +8,7 @@
 
 DISTNAME=       xanim27063
 PKGNAME=        xanim-2.70.6.3
-CATEGORIES+=	graphics x11
+CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://ftp.portal.com/pub/podlipec/ \
 		ftp://ftp.portal.com/pub/podlipec/cinepak/ \
 		ftp://ftp.portal.com/pub/podlipec/indeo/ \

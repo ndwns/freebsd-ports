@@ -8,7 +8,7 @@
 
 DISTNAME=	netpbm
 PKGNAME=	netpbm-94.3.1
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 DISTFILES=	netpbm-1mar1994.tar.gz
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	jetpack
 PKGNAME=	jetpack-1.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://qiclab.scn.rain.com/pub/games/
 DISTFILES=	jetpack.tar.Z
 

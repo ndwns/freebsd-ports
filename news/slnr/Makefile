@@ -8,7 +8,7 @@
 
 DISTNAME=	slnr
 PKGNAME=	slnr-2.13
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/readers/off-line/slnr/ \
 		ftp://ftp.adelaide.edu.au/pub/news/readers/off-line/slnr/
 DISTFILES=	part1.Z part2.Z part3.Z

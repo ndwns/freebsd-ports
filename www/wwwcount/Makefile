@@ -12,7 +12,7 @@
 
 DISTNAME=       wwwcount2.3
 PKGNAME=        wwwcount-2.3
-CATEGORIES+=    www
+CATEGORIES=     www
 MASTER_SITES=   http://www.fccc.edu/users/muquit/src/wwwcount2.3/
 
 MAINTAINER=     ache@FreeBSD.ORG

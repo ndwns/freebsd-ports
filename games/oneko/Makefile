@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	oneko-1.1b
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cs.columbia.edu/archives/X11R5/contrib/
 
 MAINTAINER=	asami@FreeBSD.ORG

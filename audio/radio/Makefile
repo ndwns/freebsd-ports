@@ -15,11 +15,6 @@ MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 NO_WRKSUBDIR=	yes
 MAKE_FLAGS=	FreeBSD -f
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/radio.1
-	gzip -9nf ${PREFIX}/man/man1/broadcast.1
-.endif
+MAN1=		radio.1 broadcast.1
 
 .include <bsd.port.mk>

@@ -7,9 +7,9 @@
 #
 
 DISTNAME=       bytebench-3.1
-EXTRACT_SUFX=	.tar.Z
-CATEGORIES+=	benchmarks
+CATEGORIES=	benchmarks
 MASTER_SITES=   ftp://ftp.inria.fr/system/benchmark/
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	se@FreeBSD.org
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	fvwm-2.0.43
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.hpc.uh.edu/pub/fvwm/version-2/
 
 MAINTAINER=	peter@FreeBSD.org

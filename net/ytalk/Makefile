@@ -8,7 +8,7 @@
 
 DISTNAME=	ytalk-v3pl2
 PKGNAME=	ytalk-3.0.2
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://knot.queensu.ca/pub/unix/software/
 
 MAINTAINER=	asami@FreeBSD.ORG

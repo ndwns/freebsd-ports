@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	qt-1.0
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.troll.no/qt/source/
 
 MAINTAINER=	searle@longacre.demon.co.uk

@@ -7,16 +7,16 @@
 #
 
 DISTNAME=       gn-2.24
-CATEGORIES+=	www net
+CATEGORIES=	www net
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 
 MAINTAINER=	adam@veda.is
 
-WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.5
 BUILD_DEPENDS=	${WAISDIR}/bin/waisindex:${PORTSDIR}/net/wais
 
 IS_INTERACTIVE=	yes
 NO_PACKAGE=	# compiled in hostnames
+WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.5
 
 INETD_CONF=	/etc/inetd.conf
 CONF=	'	stream	tcp	nowait	nobody	/usr/local/libexec/gn	gn'

@@ -8,7 +8,7 @@
 
 DISTNAME=	as-10pre1
 PKGNAME=	afterstep-1.0pr1
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://oak.sfasu.edu/pub/AfterStep/
 
 MAINTAINER=	jfitz@FreeBSD.ORG

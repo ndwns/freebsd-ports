@@ -8,7 +8,7 @@
 
 DISTNAME=	WWW
 PKGNAME=        comline-4.0D
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/comline/ \
 		ftp://ftp.w3.org/pub/libwww/
 DISTFILES=      libwww_4.0D_src.tar.gz \

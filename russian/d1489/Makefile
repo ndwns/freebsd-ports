@@ -8,7 +8,7 @@
 
 DISTNAME=       d1489-1.2
 PKGNAME=        ru-d1489-1.2
-CATEGORIES+=    russian
+CATEGORIES=     russian
 MASTER_SITES=   ftp://ftp.kiae.su/unix/convert/char/
 EXTRACT_SUFX=   .tgz
 

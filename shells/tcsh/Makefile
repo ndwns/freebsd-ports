@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       tcsh-6.06
-CATEGORIES+=	shells
+CATEGORIES=	shells
 MASTER_SITES=   ftp://ee.cornell.edu/pub/tcsh/
+
+MAINTAINER=     ache@FreeBSD.ORG
 
 ALL_TARGET=     all catalogs
 INSTALL_TARGET= install install.man
@@ -24,7 +26,5 @@ post-install:
 	cd ${WRKSRC}; install -c -o bin -g bin -m 444 tcsh.german.cat ${PREFIX}/share/nls/de_DE.ISO_8859-1/tcsh.cat
 	ln -sf ${PREFIX}/share/nls/de_DE.ISO_8859-1/tcsh.cat ${PREFIX}/share/nls/de_AT.ISO_8859-1/tcsh.cat
 	ln -sf ${PREFIX}/share/nls/de_DE.ISO_8859-1/tcsh.cat ${PREFIX}/share/nls/de_CH.ISO_8859-1/tcsh.cat
-
-MAINTAINER=     ache@FreeBSD.ORG
 
 .include <bsd.port.mk>

@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	xonix-1.4
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.inf.tu-dresden.de/pub/people/wunsch/xonix/
-CATEGORIES+=	games
 
 MAINTAINER=	joerg@FreeBSD.org
 

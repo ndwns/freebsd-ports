@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       freeWAIS-0.5
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
 NO_PACKAGE=	not yet

@@ -8,7 +8,7 @@
 
 DISTNAME=       libpng-0.89c
 PKGNAME=        png-0.89c
-CATEGORIES+=    graphics
+CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 
 MAINTAINER=     ache@FreeBSD.org

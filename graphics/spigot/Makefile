@@ -7,7 +7,7 @@
 #
 
 DISTNAME= 	spigot-1.6
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.uwm.edu/pub/FreeBSD/spigot/
 DISTFILES=	spigot.tar.gz
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	libwww_4.0D_src
 PKGNAME=	libwww-4.0D
-CATEGORIES+=	www devel
+CATEGORIES=	www devel
 MASTER_SITES=	ftp://ftp.w3.org/pub/libwww/
 
 WRKSRC=		${WRKDIR}/WWW

@@ -8,7 +8,7 @@
 
 DISTNAME=	vcg.1.30
 PKGNAME=	vcg-1.30
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.uni-sb.de/pub/graphics/vcg/
 DISTFILES=	vcg.1.30.r3.17.tgz
 

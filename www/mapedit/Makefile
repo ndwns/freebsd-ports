@@ -8,7 +8,7 @@
 
 DISTNAME=       mapedit1.5
 PKGNAME=        mapedit-1.5
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.boutell.com/pub/boutell/mapedit/
 EXTRACT_SUFX=	.tar.Z
 

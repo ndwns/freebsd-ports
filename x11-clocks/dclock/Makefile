@@ -8,7 +8,7 @@
 
 DISTNAME=	dclock
 PKGNAME=	dclock-pl4
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.ucs.ubc.ca/pub/old/X11/contrib/ \
 		ftp://pdq.coe.montana.edu/pub/mirrors/X11-contrib/ \
 		ftp://ftp.pasteur.fr/pub/computing/unix/X11/R5contrib/

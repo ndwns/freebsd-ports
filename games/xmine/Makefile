@@ -7,9 +7,9 @@
 #
 
 DISTNAME=	xmine-1.0.3-Xaw
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 PKGNAME=	xmine-1.0.3
-CATEGORIES+=	games
+CATEGORIES=	games
+MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	joerg@FreeBSD.org
 

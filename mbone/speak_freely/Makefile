@@ -19,6 +19,7 @@ UTILS=   sfspeaker sfmike sflwl
 DEMNS=   sfecho sflwld
 DDEMNS=  sfvod
 SFLIB=   ${PREFIX}/lib/speak_freely
+MAN1=	 ${UTILS:S/$/.1/} ${DEMNS:S/$/.1/} ${DDEMNS:S/$/.1/}
 
 do-install:
 	if [ ! -d ${SFLIB} ]; then \
@@ -41,10 +42,5 @@ do-install:
 		$(INSTALL_SCRIPT) $$p ${PREFIX}/sbin; \
 		$(INSTALL_MAN) $$p.1 ${PREFIX}/man/man1; \
 	done;
-.if !defined(NOMANCOMPRESS)
-	for p in ${UTILS} ${DEMNS} ${DDEMNS}; do \
-		gzip -9nf ${PREFIX}/man/man1/$$p.1; \
-	done
-.endif
 
 .include <bsd.port.mk>

@@ -8,7 +8,7 @@
 
 DISTNAME=	xrubik
 PKGNAME=	xrubik-5.3.2
-CATEGORIES+=	games x11
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub1/X/contrib/games/puzzles/
 
 MAINTAINER=	nakai@mlab.t.u-tokyo.ac.jp

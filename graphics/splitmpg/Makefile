@@ -8,7 +8,7 @@
 
 DISTNAME=	splitmpg
 PKGNAME=	splitmpg-1.0
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.ecel.uwa.edu.au/users/michael/
 EXTRACT_SUFX=	.tgz
 

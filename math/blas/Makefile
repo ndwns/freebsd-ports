@@ -8,7 +8,7 @@
 
 DISTNAME=	blas
 PKGNAME=	blas-1.0
-CATEGORIES+=	math
+CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/blas/
 
 DIST_SUBDIR=	${DISTNAME}

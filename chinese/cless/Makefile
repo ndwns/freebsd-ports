@@ -18,13 +18,9 @@ MAINTAINER=     obrien@cs.ucdavis.edu
 
 GNU_CONFIGURE=	yes
 CFLAGS+=	-DHANZI # LDFLAGS=-s datadir=/usr/local/lib/less
+MAN1=		cless.1 clesskey.1
 
 post-install:
-.if !defined(NOMANCOMPRESS)
-.for mp in cless clesskey
-	gzip -9nf ${PREFIX}/man/man1/${mp}.1
-.endfor
-.endif
 .if !defined(NOPORTDOCS)
 	${MKDIR} -p ${PREFIX}/share/doc/cless
 	${INSTALL_DATA} ${WRKSRC}/README.CLESS ${PREFIX}/share/doc/cless

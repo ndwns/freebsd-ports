@@ -8,7 +8,7 @@
 
 DISTNAME=       xpipeman
 PKGNAME=        xpipeman-1.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/
 EXTRACT_SUFX=	.tar.Z
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME= 	prcs-1.0.1
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.xcf.berkeley.edu/pub/prcs/
 
 MAINTAINER=	jmacd@FreeBSD.ORG

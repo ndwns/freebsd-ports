@@ -7,14 +7,12 @@
 #
 
 DISTNAME=	xdl-2.1
-CATEGORIES+=	graphics x11
+CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://ftp.uoknor.edu/src/X11R5/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
 USE_X11=	yes
-
-post-install:
-	gzip -9nf ${PREFIX}/man/man1/xdl.1
+MAN1=		xdl.1
 
 .include <bsd.port.mk>

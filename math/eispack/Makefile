@@ -8,7 +8,7 @@
 
 DISTNAME=	eispack
 PKGNAME=	eispack-1.0
-CATEGORIES+=	math
+CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/eispack/
 
 DIST_SUBDIR=	${DISTNAME}

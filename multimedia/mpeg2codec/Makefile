@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mpeg2codec-1.1a
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.netcom.com/pub/cf/cfogg/mpeg2/
 DISTFILES=	mpeg2codec_v1.1a.tar.gz
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wu-ftpd-2.4
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.wustl.edu/packages/wuarchive-ftpd/ \
 		http://wuarchive.wustl.edu/packages/wuarchive-ftpd/
 EXTRACT_SUFX=   .tar.Z

@@ -9,7 +9,7 @@
 # WWW site: http://www.inf.utfsm.cl/~vparada/webcopy.html
 
 DISTNAME=       webcopy-0.98b7
-CATEGORIES+=    www
+CATEGORIES=     www
 MASTER_SITES=   ftp://ftp.inf.utfsm.cl/pub/utfsm/perl/
 DISTFILES=      webcopy.tgz
 

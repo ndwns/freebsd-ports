@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xshisen-1.35
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub1/X/contrib/games/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp

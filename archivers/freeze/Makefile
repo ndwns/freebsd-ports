@@ -14,12 +14,6 @@ MAINTAINER=     lukin@okbmei.msk.su
 
 GNU_CONFIGURE=	yes
 ALL_TARGET=	prog
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-.for man in freeze melt unfreeze fcat statist
-	gzip -9nf ${PREFIX}/man/man1/${man}.1
-.endfor
-.endif
+MAN1=		freeze.1 melt.1 unfreeze.1 fcat.1 statist.1
 
 .include <bsd.port.mk>

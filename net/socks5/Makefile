@@ -8,7 +8,7 @@
 
 PKGNAME=	socks5-0.16.6
 DISTNAME=	socks5-beta-0.16.6-exportable
-CATEGORIES+=	net security
+CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.nec.com/pub/socks/socks5/
 
 MAINTAINER=	ambrisko@ambrisko.roble.com

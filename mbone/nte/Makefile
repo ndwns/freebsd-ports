@@ -8,7 +8,7 @@
 
 DISTNAME=	nt.1.5a23
 PKGNAME=	nte-1.5a23
-CATEGORIES+=	mbone
+CATEGORIES=	mbone
 MASTER_SITES=	ftp://cs.ucl.ac.uk/mice/nte/
 RESTRICTED=	"Contains DES encryption"
 

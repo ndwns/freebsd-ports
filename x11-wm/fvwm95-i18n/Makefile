@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	fvwm95-2.0.41f
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://mitac11.uia.ac.be/pub/
 EXTRACT_SUFX=	.tgz
 

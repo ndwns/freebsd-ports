@@ -8,7 +8,7 @@
 
 DISTNAME=	golddig2
 PKGNAME=	golddig-2.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://qiclab.scn.rain.com/pub/games/
 EXTRACT_SUFX=	.tar.Z
 

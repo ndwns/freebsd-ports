@@ -8,7 +8,7 @@
 
 DISTNAME=	tkgoodstuff4.1
 PKGNAME=	tkgoodstuff-4.1
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://merv.philosophy.lsa.umich.edu/pub/
 EXTRACT_SUFX=	.tgz
 

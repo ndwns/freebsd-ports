@@ -16,6 +16,7 @@ MAINTAINER=	obrien@cs.ucdavis.edu
 
 WRKSRC=		${WRKDIR}/mp
 USE_GMAKE=	yes
+MAN1=		mp.1
 
 .if !defined(PAPERSIZE)
 PAPERSIZE=letter
@@ -29,7 +30,6 @@ pre-patch:
 MP_UTILS=   digestp filep filofaxp franklinp mailp newsp timemanp timesysp
 post-install:
 .if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/mp.1
 	-(cd ${PREFIX}/man/man1 ; \
 	for mpu in $(MP_UTILS) ; do \
 		ln -sf mp.1.gz $$mpu.1.gz ; done)

@@ -8,7 +8,7 @@
 
 DISTNAME=       es-0.9-alpha1
 PKGNAME=	es-0.9a1
-CATEGORIES+=	shells
+CATEGORIES=	shells
 MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/es/
 
 MAINTAINER=	erich@FreeBSD.org

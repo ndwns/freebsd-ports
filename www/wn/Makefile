@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       wn-1.16.1
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
 IS_INTERACTIVE=

@@ -7,19 +7,17 @@
 #
 
 DISTNAME=       mprof-3.0
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=   ftp://cs.colorado.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 
 WRKSRC=		${WRKDIR}
 MAKEFILE=	Makefile.i386
+MAN1=		mprof.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mprof ${PREFIX}/bin
 	install -c -m 555 ${WRKSRC}/libc_mp.a ${PREFIX}/lib
 	${INSTALL_MAN} ${WRKSRC}/mprof.1 ${PREFIX}/man/man1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/mprof.1
-.endif
 
 .include <bsd.port.mk>

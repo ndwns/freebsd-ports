@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rxvt-2.09
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/misc/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG

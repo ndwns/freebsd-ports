@@ -8,7 +8,7 @@
 
 DISTNAME=       zsh-3.0.1
 PKGNAME=	zsh-3.0.1
-CATEGORIES+=	shells
+CATEGORIES=	shells
 MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
 		ftp://ftp.sterling.com/zsh/ \
 		ftp://ftp.rge.com/pub/zsh/ \
@@ -21,13 +21,7 @@ MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/zsh/ \
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-.for man in zsh zshbuiltins zshcompctl zshexpn zshmisc zshoptions zshall \
-	zshparam zshzle 
-	gzip -9nf ${PREFIX}/man/man1/${man}.1
-.endfor
-.endif
+MAN1=		zsh.1 zshbuiltins.1 zshcompctl.1 zshexpn.1 zshmisc.1 \
+		zshoptions.1 zshall.1 zshparam.1 zshzle.1
 
 .include <bsd.port.mk>

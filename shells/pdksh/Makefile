@@ -7,16 +7,12 @@
 #
 
 DISTNAME=	pdksh-5.2.12
-CATEGORIES+=	shells
+CATEGORIES=	shells
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 
 MAINTAINER=	tg@freebsd.org
 
 GNU_CONFIGURE=  yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/ksh.1
-.endif
+MAN1=		ksh.1
 
 .include <bsd.port.mk>

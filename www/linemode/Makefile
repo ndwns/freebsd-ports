@@ -8,7 +8,7 @@
 
 DISTNAME=	WWW
 PKGNAME=        linemode-4.0D
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/linemode/ \
 		ftp://ftp.w3.org/pub/libwww/
 DISTFILES=      libwww_4.0D_src.tar.gz \

@@ -8,7 +8,7 @@
 
 DISTNAME=	sup
 PKGNAME=	sup-2.0
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	gibbs@FreeBSD.org

@@ -8,7 +8,7 @@
 
 DISTNAME=       POV-Ray-2.2
 PKGNAME=	povray-2.2
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://povray.cdrom.com/pub/povray/Official/Generic-Unix/
 DISTFILES=      povdoc.tar.Z povscn.tar.Z povsrc.tar.Z
 

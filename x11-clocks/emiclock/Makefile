@@ -8,7 +8,7 @@
 
 DISTNAME=	EmiClock-1.0.2
 PKGNAME=	emiclock-1.0.2
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://theta.iis.u-tokyo.ac.jp/pub1/X/contrib/applications/ \
 		ftp://sunsite.unc.edu/pub/X11/contrib/applications/
 

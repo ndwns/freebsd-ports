@@ -9,7 +9,8 @@
 
 DISTNAME=	asedit-1.3.2
 CATEGORIES=	editors
-MASTER_SITES=	ftp://ftp.x.org/contrib/editors/
+MASTER_SITES=	${MASTER_SITE_CONTRIB}
+MASTER_SITE_SUBDIR=	editors
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	shanee@rabbit.augusta.de

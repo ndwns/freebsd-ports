@@ -8,7 +8,7 @@
 
 DISTNAME=       xrobots
 PKGNAME=        xrobots-1.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/games/
 
 USE_IMAKE=	yes

@@ -7,7 +7,8 @@
 #
 
 DISTNAME=	xmahjongg
-CATEGORIES+=	games
+PKGNAME=	xmahjongg-1.0
+CATEGORIES=	games
 # Most Usenet archive sites don't store it as a .tar.gz, but Slackware
 # and it's mirrors do.
 MASTER_SITES=	ftp://wcarchive.cdrom.com/pub/linux/slackware/source/xap/xgames/
@@ -18,5 +19,8 @@ WRKSRC=		${WRKDIR}/xmahjongg
 USE_IMAKE=	yes
 
 NO_CDROM=	"Restrictive copyright."
+
+post-extract:
+	@cp ${WRKSRC}/xmahjongg.6 ${WRKSRC}/xmahjongg.man
 
 .include <bsd.port.mk>

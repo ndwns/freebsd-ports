@@ -8,7 +8,7 @@
 
 DISTNAME=	analog.1.92.1
 PKGNAME=	analog-1.92.1
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=	http://www.statslab.cam.ac.uk/~sret1/ \
 		http://www.lightside.net/analog/ \
 		http://www.gamesdomain.com/analog/ \

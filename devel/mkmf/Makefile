@@ -8,7 +8,7 @@
 
 DISTNAME=	mkmf
 PKGNAME=	mkmf-4.11
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.uni-koeln.de/util/
 
 MAINTAINER=	se@FreeBSD.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	weblint-1.017
-CATEGORIES+=	www
+CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.khoral.com/pub/weblint/
 
 MAINTAINER=	pst@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xpm-3.4i
-CATEGORIES+=	graphics x11
+CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
 
 USE_IMAKE=	yes

@@ -8,7 +8,7 @@
 
 DISTNAME=       dhcp-1.3beta
 PKGNAME=        wide-dhcp-1.3b
-CATEGORIES+=    net
+CATEGORIES=     net
 MASTER_SITES=   ftp://sh.wide.ad.jp/WIDE/free-ware/dhcp/ \
 		ftp://ftp.freebsd.org/pub/FreeBSD/FreeBSD-current/src/lib/libc/stdtime/
 DISTFILES=	dhcp-1.3beta.tar.gz tzfile.h

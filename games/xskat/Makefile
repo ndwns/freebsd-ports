@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xskat-1.6
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.germany.eu.net/pub/X11/misc/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	zircon-1.17p3
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 #

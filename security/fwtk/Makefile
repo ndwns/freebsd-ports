@@ -47,11 +47,6 @@ post-install:
 	( cd ${WRKSRC}/doc/man ; ${INSTMAN} ${MAN3} ${PREFIX}/man/man3 )
 	( cd ${WRKSRC}/doc/man ; ${INSTMAN} ${MAN5} ${PREFIX}/man/man5 )
 	( cd ${WRKSRC}/doc/man ; ${INSTMAN} ${MAN8} ${PREFIX}/man/man8 )
-.if !defined(NOMANCOMPRESS)
-	( cd ${PREFIX}/man/man3; gzip -9nfv ${MAN3} )
-	( cd ${PREFIX}/man/man5; gzip -9nfv ${MAN5} )
-	( cd ${PREFIX}/man/man8; gzip -9nfv ${MAN8} )
-.endif
 .if !defined(NOPORTDOCS)
 	( cd ${WRKSRC}/doc ; cp ${DOCS} ${PREFIX}/share/doc/fwtk )
 .endif

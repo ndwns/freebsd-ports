@@ -7,17 +7,16 @@
 #
 
 DISTNAME=       ncftp-1.9.5
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jkh@FreeBSD.ORG
 
+MAN1=		ncftp.1
+
 do-install:
 	cd ${WRKSRC}; $(INSTALL) -c $(STRIP) -o $(BINOWN) -g $(BINGRP) -m $(BINMODE) ncftp $(PREFIX)/bin
 	cd ${WRKSRC}; $(INSTALL) -c -o $(BINOWN) -g $(BINGRP) -m 644 ncftp.1 $(PREFIX)/man/man1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf $(PREFIX)/man/man1/ncftp.1
-.endif
 
 .include <bsd.port.mk>

@@ -8,7 +8,7 @@
 
 DISTNAME=	mplex-1.1
 
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.informatik.tu-muenchen.de/pub/comp/graphics/mpeg/mplex/
 
 MAINTAINER=	erich@FreeBSD.org

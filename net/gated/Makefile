@@ -8,7 +8,7 @@
 
 DISTNAME=       gated-R3_5Beta_3
 PKGNAME=        gated-3.5b3
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.gated.merit.edu/net-research/gated/
 
 ALL_TARGET=	gated

@@ -8,7 +8,7 @@
 
 DISTNAME=       bash-1.14.7
 WRKSRC=         ${WRKDIR}/bash-1.14.7
-CATEGORIES+=	shells
+CATEGORIES=	shells
 MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
 
 MAINTAINER=     ache@FreeBSD.ORG

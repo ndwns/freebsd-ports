@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tf-35a16
-CATEGORIES+=	net games
+CATEGORIES=	net games
 MASTER_SITES=	ftp://tf.tcp.com/pub/tinyfugue/ \
 		ftp://ftp.tcp.com/pub/mud/Clients/tf/ \
 		ftp://ftp7.freebsd.org/pub/tf/

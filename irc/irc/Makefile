@@ -8,7 +8,7 @@
 
 DISTNAME=	irc2.8.21
 PKGNAME=	irc-2.8.21
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
@@ -18,11 +18,9 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 # Restrictive copyright in irc2.8.21/ircd/res.c
 RESTRICTED=	"No redistribution allowed."
+MAN8=		ircd.8
 
 pre-install:
 	mkdir -p ${PREFIX}/lib/ircd
-
-post-install:
-	gzip -9nf ${PREFIX}/man/man8/ircd.8
 
 .include <bsd.port.mk>

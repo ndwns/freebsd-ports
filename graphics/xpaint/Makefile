@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xpaint-2.4.6
-CATEGORIES+=	graphics x11
+CATEGORIES=	graphics x11
 MASTER_SITES=	http://www2.dk-online.dk/users/Torsten_Martinsen/xpaint/
 
 LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \

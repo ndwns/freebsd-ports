@@ -8,7 +8,7 @@
 
 DISTNAME=	xloadimage
 PKGNAME=	xloadimage-3.03
-CATEGORIES+=	x11
+CATEGORIES=	x11
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11-contrib/
 DISTFILES=	xloadimage.3.03.tar.Z
 

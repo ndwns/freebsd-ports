@@ -8,11 +8,10 @@
 
 DISTNAME=	calc-2.9.3t6
 PKGNAME=	calc-2.9.3
+CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.cs.uni-sb.de/pub/misc/4.4BSD-Lite/contrib/
 
 MAINTAINER=	jmz@FreeBSD.org
-
-CATEGORIES+=	math
 
 pre-install:
 	@mkdir -p ${PREFIX}/lib/calc/help

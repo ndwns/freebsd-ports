@@ -8,7 +8,7 @@
 
 DISTNAME=       pacman10
 PKGNAME=	xpacman-1.0
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.nvg.unit.no/pub/pacman/
 EXTRACT_SUFX=	.zip
 

@@ -7,11 +7,13 @@
 #
 
 DISTNAME=       nntpbtr-1.7
-CATEGORIES+=	news
+CATEGORIES=	news
 MASTER_SITES=   ftp://ftp.kiae.su/unix/news/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	dk@farm.org
+
+MAN1=		nntpbtr.1
 
 # "patch" complains otherwise
 post-extract:
@@ -20,10 +22,5 @@ post-extract:
 pre-build:
 	cd ${FILESDIR} ; pax -rw -l -u dbz ${WRKDIR} || true
 	cd ${WRKDIR}/dbz ; ${CC} ${CFLAGS} -c -I. dbz.c
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/nntpbtr.1
-.endif
 
 .include <bsd.port.mk>

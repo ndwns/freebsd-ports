@@ -8,7 +8,7 @@
 
 DISTNAME=	telnetx+transit.src.940401
 PKGNAME=	telnetx-940401
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/ \
 		http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 

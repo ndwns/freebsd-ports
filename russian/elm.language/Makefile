@@ -6,7 +6,7 @@
 #
 
 PKGNAME=        ru-elm-2.4ME
-CATEGORIES+=    russian mail
+CATEGORIES=     russian mail
 
 RUN_DEPENDS+=   elm:${PORTSDIR}/mail/elm
 

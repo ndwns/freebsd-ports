@@ -7,8 +7,8 @@
 
 DISTNAME=	xmris.4.02
 PKGNAME=	xmris-4.02
+CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
-CATEGORIES+=	games
 
 MAINTAINER=	jmz@FreeBSD.org
 

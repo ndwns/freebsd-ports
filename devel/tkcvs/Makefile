@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkcvs-6.0
-CATEGORIES+=	devel
+CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
 
 MAINTAINER=	shanee@rabbit.augusta.de
@@ -15,6 +15,8 @@ MAINTAINER=	shanee@rabbit.augusta.de
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
 NO_BUILD=	yes
+
+MAN1=		tkcvs.1 tkdiff.1
 
 do-install:
 	(cd $(WRKSRC)/tkcvs; sh ./doinstall)
@@ -27,10 +29,6 @@ post-install:
 .if !defined(NOPORTDOCS)
 	install -c ${WRKSRC}/README.tkcvs $(PREFIX)/lib/tkcvs/
 	install -c ${WRKSRC}/tkdiff/README $(PREFIX)/lib/tkcvs/README.tkdiff
-.endif
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf $(PREFIX)/man/man1/tkcvs.1
-	gzip -9nf $(PREFIX)/man/man1/tkdiff.1
 .endif
 
 .include <bsd.port.mk>

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rdist-6.1.3
-CATEGORIES+=	net
+CATEGORIES=	net
 MASTER_SITES=	ftp://usc.edu/pub/rdist/
 
 MAINTAINER=	peter@FreeBSD.org

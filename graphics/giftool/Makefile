@@ -8,7 +8,7 @@
 
 DISTNAME=	giftool
 PKGNAME=        giftool-0.9
-CATEGORIES+=	graphics
+CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.huie.hokudai.ac.jp/pub/tool/graphics/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
