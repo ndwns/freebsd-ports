@@ -8,7 +8,7 @@
 
 DISTNAME=       xpdf-0.7
 CATEGORIES=	graphics print
-MASTER_SITES=   ftp://ftp.andrew.cmu.edu/pub/xpdf/
+MASTER_SITES=	ftp://ftp.aimnet.com/pub/users/derekn/xpdf/
 
 MAINTAINER=	chuckr@glue.umd.edu
 
