@@ -11,6 +11,10 @@ PKGNAME=	proftpd-1.2.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.proftpd.org/distrib/
 
+PATCH_SITES=	ftp://ftp.proftpd.org/patches/
+PATCHFILES=	proftpd-1.2.0pre1-path_exploit3.patch
+PATCH_DIST_STRIP=	-p1
+
 MAINTAINER=	stephane@lituus.fr
 
 MAN1=	ftpcount.1
