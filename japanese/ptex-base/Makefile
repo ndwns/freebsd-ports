@@ -46,6 +46,6 @@ post-install:
 .for bin in ${BINARIES}
 	@strip ${PREFIX}/bin/${bin}
 .endfor
-	@/bin/ln -fs ${PREFIX}/bin/tex ${PREFIX}/bin/ptex-common
+	@/bin/ln -fs tex ${PREFIX}/bin/ptex-common
 
 .include <bsd.port.mk>
