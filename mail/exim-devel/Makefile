@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	exim-2.02
+DISTNAME=	exim-2.05
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/
-DISTFILES=	exim-2.02.tar.gz exim-texinfo-2.00.tar.gz
+DISTFILES=	exim-2.05.tar.gz exim-texinfo-2.00.tar.gz
 
 MAINTAINER=	axl@iafrica.com
 
