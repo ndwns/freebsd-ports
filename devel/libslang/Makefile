@@ -11,7 +11,7 @@ PKGNAME=        libslang-0.99.38
 CATEGORIES=	devel
 MASTER_SITES=   ftp://ftp.clara.net/pub/unix/Usenet/
 
-MAINTAINER=     ache@FreeBSD.org
+MAINTAINER=     ports@FreeBSD.org
 
 GNU_CONFIGURE=  yes
 ALL_TARGET=     all elf
