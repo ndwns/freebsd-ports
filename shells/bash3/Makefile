@@ -20,7 +20,7 @@ GNU_CONFIGURE=	Yes
 MAN1=		bash.1 bashbug.1
 
 post-extract:
-	cp /dev/null ${WRKSRC}/lib/glob/fnmatch.h
+	cp /usr/include/fnmatch.h ${WRKSRC}/lib/glob/fnmatch.h
 
 post-install:
 .if !defined(NOPORTDOCS)
