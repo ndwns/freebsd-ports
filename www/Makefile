@@ -5,8 +5,6 @@
     SUBDIR += WebMagick
     SUBDIR += amaya
     SUBDIR += analog
-    SUBDIR += apache12
-    SUBDIR += apache12-fp
     SUBDIR += apache13
     SUBDIR += apache13-fp
     SUBDIR += apache13-modssl
