@@ -14,6 +14,7 @@
     SUBDIR += iso8879
     SUBDIR += ispell
     SUBDIR += jade
+    SUBDIR += latex2html
     SUBDIR += linuxdoc
     SUBDIR += mgdiff
     SUBDIR += par
