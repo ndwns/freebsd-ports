@@ -21,7 +21,7 @@ BUILD_DEPENDS=	mogrify:${PORTSDIR}/graphics/ImageMagick \
 		${site_perl}/LWP.pm:${PORTSDIR}/www/p5-libwww \
 		weblint:${PORTSDIR}/www/weblint
 
-site_perl=	${PREFIX}/lib/perl5/site_perl
+site_perl=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}
 USE_PERL5=	YES
 NO_BUILD=	YES
 IS_INTERACTIVE=	YES
