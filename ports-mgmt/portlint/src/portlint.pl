@@ -903,8 +903,8 @@ sub checkmakefile {
 	if ($whole =~ /NOPORTSDOC/) {
 		&perror("WARN: NOPORTSDOC found. Do you mean NOPORTDOCS?");
 	}
-	if ($sharedocused && $whole !~ /defined\s*\(NOPORTDOCS\)/
-	 && $whole !~ /def\s*\(NOPORTDOCS\)/
+	if ($sharedocused && $whole !~ /defined\s*\(?NOPORTDOCS\)?/
+	 && $whole !~ /def\s*\(?NOPORTDOCS\)?/
 	 && $whole !~ m#(\$[\{\(]PREFIX[\}\)]|$localbase)/share/doc#) {
 		&perror("WARN: use \".if !defined(NOPORTDOCS)\" to wrap ".
 			"installation of files into $localbase/share/doc.");
