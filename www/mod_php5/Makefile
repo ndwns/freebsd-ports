@@ -10,11 +10,8 @@ DISTNAME=       apache_1.1.1
 PKGNAME=        apache-1.1.1
 CATEGORIES+=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
-DISTFILES=      ${DISTNAME}.tar.gz
 
-MAINTAINER=	ache@freebsd.org,pst@freebsd.org
-
-EXTRACT_ONLY=   ${DISTNAME}.tar.gz
+MAINTAINER=	ache@freebsd.org
 
 post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
