@@ -14,8 +14,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
 
-BROKEN=		build
-
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
