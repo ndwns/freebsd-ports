@@ -20,7 +20,10 @@ DISTFILES=	kon-0.99.4e.tgz 8x16.bdf.gz taipei16.bdf.gz
 
 MAINTAINER=	hcchu@r350.ee.ntu.edu.tw
 
-RESTRICTED=	"The font 'taipei16.bdf' is copyrighted"
+#from Hung-Chi Chu <hcchu@r350.ee.ntu.edu.tw>:  The font is transformed from
+#	a font with restrictive copyright, so I think you can't distribute
+#	it on the CDROM.
+RESTRICTED=	"The font 'taipei16.bdf' has restrictive copyrighted"
 EXTRACT_ONLY=	kon-0.99.4e.tgz
 USE_GMAKE=	yes
 
