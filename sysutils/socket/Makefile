@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       socket-1.1
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils net
 MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     wosch@FreeBSD.org
