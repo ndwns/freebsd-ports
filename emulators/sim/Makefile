@@ -3,7 +3,7 @@
 # Date created:         7 November 1997
 # Whom:			jraynard
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sim_2.3

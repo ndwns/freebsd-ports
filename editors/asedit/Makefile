@@ -4,7 +4,7 @@
 #
 # Whom:	Andreas Kohout <shanee@augusta.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asedit-1.3.2

@@ -3,7 +3,7 @@
 # Date created:         Wed Nov 26, 1996
 # Whom:                 pgf
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	vile-8.2

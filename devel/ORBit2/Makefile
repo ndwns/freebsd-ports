@@ -3,7 +3,7 @@
 # Date Created:			16 Aug 1998
 # Whom:				Chia-liang Kao <clkao@CirX.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ORBit-0.4.93

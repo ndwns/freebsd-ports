@@ -3,7 +3,7 @@
 # Date created:				20 February 1998
 # Whom:	      				Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Term-ReadLine-Perl-0.9904

@@ -3,7 +3,7 @@
 # Date created: 		22 October 1998
 # Whom: 			Antti Kaipila <anttik@iki.fi>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wxftp-0.4.4.src

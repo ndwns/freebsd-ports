@@ -3,7 +3,7 @@
 # Date created:         19 April 1996
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	swig1.1p5

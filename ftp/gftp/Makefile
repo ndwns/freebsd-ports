@@ -3,7 +3,7 @@
 # Date Created:		21 Feb 1999
 # Whom:			Damjan Marion <dmarion@open.hr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gftp-2.0.1

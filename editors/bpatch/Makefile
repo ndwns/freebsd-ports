@@ -3,7 +3,7 @@
 # Date created:         18 March 1996
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bpatch

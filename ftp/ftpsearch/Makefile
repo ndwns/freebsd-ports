@@ -3,7 +3,7 @@
 # Date created:		07 Dec 1996
 # Whom:			Tor.Egge@idi.ntnu.no
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ftpsearch-1.0

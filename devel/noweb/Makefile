@@ -3,7 +3,7 @@
 # Date created:		29 July 1995
 # Whom:			Thomas Gellekum <tg@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	noweb-2.9a

@@ -3,7 +3,7 @@
 # Date created: 	13 November 1997
 # Whom:			jraynard
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ElectricFence-2.0.5

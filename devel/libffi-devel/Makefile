@@ -3,7 +3,7 @@
 # Date created:			14, June, 1998
 # Whom:				Horance Chou <horance@freedom.ie.cycu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       libffi-1.20

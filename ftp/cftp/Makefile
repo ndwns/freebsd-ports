@@ -3,7 +3,7 @@
 # Date created:				14 October 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cftp-0.9.3

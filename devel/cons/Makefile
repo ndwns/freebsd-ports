@@ -3,7 +3,7 @@
 # Date created:		11 December 1998
 # Whom:			rv@fore.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cons-1.6a3

@@ -3,7 +3,7 @@
 # Date created:		30 July 1999
 # Whom:			Davec <davec@unforgettable.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	CodeCrusader-2.1.3

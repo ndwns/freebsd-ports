@@ -3,7 +3,7 @@
 # Date created:         02 Aug 1996
 # Whom:                 shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkcvs-6.0

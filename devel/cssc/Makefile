@@ -3,7 +3,7 @@
 # Date created:         31 Mar 1999
 # Whom:                 Oliver Fromme
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	CSSC-0.10beta.pl1

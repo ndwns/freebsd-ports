@@ -3,7 +3,7 @@
 # Date created:				08 July 1998
 # Whom:					dom
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pcre-2.05

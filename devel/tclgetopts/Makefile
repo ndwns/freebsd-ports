@@ -3,7 +3,7 @@
 # Date created:				Mar 18, 1999
 # Whom:					mi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tclGetOpts

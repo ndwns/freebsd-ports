@@ -3,7 +3,7 @@
 # Date created:		19 December 1994
 # Whom:			janek
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	moxftp-2.2

@@ -3,7 +3,7 @@
 # Date created:		18th February 1997
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	prodosemu.v0.1

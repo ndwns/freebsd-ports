@@ -3,7 +3,7 @@
 # Date created:		30 January 1996
 # Whom:		 	vazquez@iqm.unicamp.br	
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fdfpp

@@ -3,7 +3,7 @@
 # Date created:         Oct, 8, 1998
 # Whom:                 cracauer@cons.org "Martin Cracauer"
 #
-# $Id$
+# $FreeBSD$
 #
 #
 

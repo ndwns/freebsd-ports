@@ -3,7 +3,7 @@
 # Date created:        4 June 1996
 # Whom:                jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ctags-3.2.2

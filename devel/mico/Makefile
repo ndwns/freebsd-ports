@@ -3,7 +3,7 @@
 # Date created:        11 July 1998
 # Whom:                Marc G. Fournier <scrappy@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mico-2.2.7

@@ -3,7 +3,7 @@
 # Date created:				August 15th 1997
 # Whom:					Ian Vaudrey <i.vaudrey@bigfoot.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cyrus-imapd-v1.5.14

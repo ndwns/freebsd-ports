@@ -3,7 +3,7 @@
 # Date created:				29 Jul 1998
 # Whom:					rom
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME= 	gIDE-0.1.2

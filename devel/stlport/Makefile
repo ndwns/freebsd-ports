@@ -3,7 +3,7 @@
 # Date Created:		2 December 1998
 # Whom:			Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	STLport-3.01

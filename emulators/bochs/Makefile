@@ -3,7 +3,7 @@
 # Date created:        16 December 1997
 # Whom:                alex
 #
-# $Id$
+# $FreeBSD$
 #
 
 VGABIOS=	VGABIOS-elpin-2.20

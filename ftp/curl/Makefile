@@ -3,7 +3,7 @@
 # Date created:		12 December 1998
 # Whom:			Neil Blakey-Milner <nbm@rucus.ru.ac.za>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	curl-5.9
 CATEGORIES=	ftp www

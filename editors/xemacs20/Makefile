@@ -3,7 +3,7 @@
 # Date created:		26 August 1997
 # Whom:			Michael Elbel (me)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xemacs-20.4

@@ -3,7 +3,7 @@
 # Date created:				19 February 1998
 # Whom:	      				Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Term-ReadLine-Gnu-1.01

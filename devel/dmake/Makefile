@@ -3,7 +3,7 @@
 # Date created:		31 July 1995
 # Whom:			nils@guru.ims.uni-stuttgart.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dmake-v4.1-src-export.all-unknown-all

@@ -3,7 +3,7 @@
 # Date created:		5 Dec 1997
 # Whom:			Kazuyuki IENAGA <ienaga@jsys.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xemacs-20.4

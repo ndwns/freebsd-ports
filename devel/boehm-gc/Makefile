@@ -3,7 +3,7 @@
 # Date created:		15 November 1996
 # Whom:			Mike McGaughey <mmcg@cs.monash.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gc4.14

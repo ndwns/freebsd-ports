@@ -3,7 +3,7 @@
 # Date created:		18 Apr 1994
 # Whom:			Jonathan M. Bresler (jmb)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	vmsbackup

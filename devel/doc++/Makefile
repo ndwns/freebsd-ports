@@ -3,7 +3,7 @@
 # Whom:			Ruslan@Shevchenko.Kiev.UA
 # Version required:	3.3.13
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	doc++-3.3.13

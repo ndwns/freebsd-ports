@@ -3,7 +3,7 @@
 # Date created:         		1 July 1998
 # Whom:                 		Archie L. Cobbs <archie@whistle.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		a2dev-1.2

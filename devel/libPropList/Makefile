@@ -3,7 +3,7 @@
 # Date Created:				6 December 1998
 # Whom:					Glenn Johnson
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libPropList-0.8.3

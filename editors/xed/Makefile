@@ -3,7 +3,7 @@
 # Date created:		28 Jul 1996
 # Whom:			shanee
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xed1.3

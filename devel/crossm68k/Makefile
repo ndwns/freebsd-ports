@@ -3,7 +3,7 @@
 # Date created:        7 July 1997
 # Whom:                Jerry Hicks <jhicks@glenatl.glenayre.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	crossm68k-2.0

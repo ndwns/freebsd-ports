@@ -3,7 +3,7 @@
 # Date created:				18 August 1999
 # Whom:					Ade Lovett <ade@lovett.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libglade-0.3

@@ -3,7 +3,7 @@
 # Date created:		October 3, 1998
 # Whom:			rch@richard.eu.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	yudit-1.3

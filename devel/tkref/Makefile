@@ -3,7 +3,7 @@
 # Date created:         3 August 1997
 # Whom:                 Bruce Gingery <bgingery@gtcs.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkref-1.01

@@ -3,7 +3,7 @@
 # Date created:		23 January 1999
 # Whom:			shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	psgml-1.1.6

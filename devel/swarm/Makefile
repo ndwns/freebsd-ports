@@ -3,7 +3,7 @@
 # Date created:		26 June 1998
 # Whom:			Horance C.H Chou <horance@freedom.ie.cycu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	swarm-1.4.1

@@ -3,7 +3,7 @@
 # Date created:		28 June 1995
 # Whom:			janek@gaja.ipan.lublin.pl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cpm-0.2

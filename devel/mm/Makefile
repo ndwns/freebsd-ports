@@ -3,7 +3,7 @@
 # Date Created:			14 March 1999
 # Whom:				Ralf S. Engelschall
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mm-1.0.9

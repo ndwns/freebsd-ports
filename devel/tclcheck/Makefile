@@ -3,7 +3,7 @@
 # Date created:			28 June 1997
 # Whom:				Sander Vesik <sander@haldjas.folklore.ee>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tclCheck-1.1.11

@@ -3,7 +3,7 @@
 # Date created:		21 Mar 1998
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	flick-src-1.1

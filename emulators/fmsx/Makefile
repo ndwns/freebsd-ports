@@ -3,7 +3,7 @@
 # Date created:         15 Oct 1996
 # Whom:                 dk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       fMSX

@@ -3,7 +3,7 @@
 # Date created:		01 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	joe2.8

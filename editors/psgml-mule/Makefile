@@ -3,7 +3,7 @@
 # Date created:		23 January 1999
 # Whom:			shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 MAINTAINER=	shige@FreeBSD.ORG

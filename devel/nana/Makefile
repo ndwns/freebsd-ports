@@ -3,7 +3,7 @@
 # Date created:         30th May 1999
 # Whom:                 Phil Maker <pjm@gnu.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nana-2.4

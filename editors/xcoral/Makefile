@@ -3,7 +3,7 @@
 # Date created:         
 # Whom:                 erich@rrnet.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcoral-3.2

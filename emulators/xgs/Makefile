@@ -4,7 +4,7 @@
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 # FreeBSD Version:	2.1.5-RELEASE
 #
-# $Id$
+# $FreeBSD$
 #
 
 # This is the stable release of the xgs emulator. Sound support is

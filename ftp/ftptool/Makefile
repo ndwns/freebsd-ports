@@ -3,7 +3,7 @@
 # Date created:		19 March 1996
 # Whom:			janek@gaja.ipan.lublin.pl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ftptool-4.6

@@ -3,7 +3,7 @@
 # Date created:				01 Jul 1998
 # Whom:					Dom Mitchell <dom@myrddin.demon.co.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	GXedit1.23

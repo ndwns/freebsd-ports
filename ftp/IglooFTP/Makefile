@@ -3,7 +3,7 @@
 # Date created:				3 May 1999
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		IglooFTP-0.6.1.src

@@ -3,7 +3,7 @@
 # Date created:		6 March 1998
 # Whom:			Jeroen Hogeveen <albast@xs4all.nl>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		yacl-0170-beta

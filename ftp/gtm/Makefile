@@ -3,7 +3,7 @@
 # Date created:				05/28/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		gtm-0.3.1

@@ -4,7 +4,7 @@
 # Date created:		19 August 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       omi-alpha-9

@@ -3,7 +3,7 @@
 # Date created:		27 December 1998
 # Whom:			shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	custom-${CUSTOM_VER}

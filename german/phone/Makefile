@@ -3,7 +3,7 @@
 # Date created:         1997-12-30
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	avon-1996

@@ -3,7 +3,7 @@
 # Date created:		23 October 1996
 # Whom:			Thomas Gellekum <tg@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cxref-1.4b

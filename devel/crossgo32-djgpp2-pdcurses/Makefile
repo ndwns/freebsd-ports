@@ -3,7 +3,7 @@
 # Date created:		Sun Jun 22 16:57:39 EST 1997
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pdc22

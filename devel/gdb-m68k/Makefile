@@ -3,7 +3,7 @@
 # Date created:         7 Jul 98
 # Whom:                 Jerry Hicks <Jerry.Hicks@Glenayre.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gdb-4.18

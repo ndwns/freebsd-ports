@@ -3,7 +3,7 @@
 # Date created:				22 May 1997
 # Whom:					Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cs-0.5

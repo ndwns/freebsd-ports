@@ -3,7 +3,7 @@
 # Date created:         Sa   9 Nov 1996 00:52:22 MET
 # Whom:			se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DATE=		990426

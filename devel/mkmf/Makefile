@@ -3,7 +3,7 @@
 # Date created:		14 Mar 1996
 # Whom:			se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mkmf

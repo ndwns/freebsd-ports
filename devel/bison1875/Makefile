@@ -3,7 +3,7 @@
 # Date created:		27 Mar 1999
 # Whom:			Jerry Hicks
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		bison-1.28

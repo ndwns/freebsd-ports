@@ -3,7 +3,7 @@
 # Date created:		7 July 1998
 # Whom:			Jerry Hicks <jhicks@glenatl.glenayre.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	binutils-2.9.1

@@ -3,7 +3,7 @@
 # Date created:         21 Jan 1998
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       patch-2.5

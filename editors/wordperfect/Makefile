@@ -5,7 +5,7 @@
 #					msmith@freebsd.org
 # Relevant URLs:			http://www.corel.com/
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	GUILG00
 PKGNAME=	wordperfect-8.0

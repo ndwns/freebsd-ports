@@ -3,7 +3,7 @@
 # Date created:      28 Jun 1997
 # Whom:              Ruslan Shevchenko <ruslan@shevchenko.kiev.ua>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Editor-2.4

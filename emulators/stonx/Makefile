@@ -3,7 +3,7 @@
 # Date created:         3rd August, 1997
 # Whom:                 Tobias Reifenberger <tr@freebsd.mayn.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       STonX-0.6.7-epsilon

@@ -3,7 +3,7 @@
 # Date created:		1998-11-21
 # Whom:			Castor Fu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cscope-13.7

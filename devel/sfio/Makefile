@@ -3,7 +3,7 @@
 # Date created: 	8 November 1997
 # Whom:			jraynard
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sfio_1998

@@ -3,7 +3,7 @@
 # Date created:         22 APR 1997
 # Whom:                 eric
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       jed0.98-7

@@ -3,7 +3,7 @@
 # Date created:		03-Mar-1997
 # Whom:			tenser
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bsvc-2.0

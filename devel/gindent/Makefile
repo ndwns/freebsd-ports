@@ -3,7 +3,7 @@
 # Date created:        28 August 1997
 # Whom:                Kapil Chowksey <kchowksey@hss.hns.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      indent-2.2.0

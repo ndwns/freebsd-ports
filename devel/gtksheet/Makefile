@@ -3,7 +3,7 @@
 # Date created:			Jun 22 1999
 # Whom:				Ying-Chieh Liao <ijliao@csie.nctu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtksheet-7.6

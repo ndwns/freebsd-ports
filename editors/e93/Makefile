@@ -3,7 +3,7 @@
 # Date created:		21 June 1995
 # Whom:			Satoshi Asami (asami)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	e93-1.2r7X

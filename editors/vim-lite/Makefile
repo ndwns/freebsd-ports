@@ -4,7 +4,7 @@
 # Date created:			  Fri Jun 25, 1999
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	vim-lite-5.3

@@ -4,7 +4,7 @@
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 # FreeBSD Version:	2.1.5-RELEASE
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	macutils_2.0b3.orig

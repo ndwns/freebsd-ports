@@ -3,7 +3,7 @@
 # Date created:         5 October 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mtools-3.9.6

@@ -4,7 +4,7 @@
 # Date created:         Sat Nov  5 01:16:33 PST 1994
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       mprof-3.0

@@ -3,7 +3,7 @@
 # Date created:       26 July 1997
 # Whom:               Filip Bovyn (bovynf@awe.be)
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	amulet
 PKGNAME=	amulet-3.0

@@ -4,7 +4,7 @@
 #
 # Whom: Dima Ruban <dima@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	latest_xftp

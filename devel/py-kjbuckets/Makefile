@@ -3,7 +3,7 @@
 # Date created:				03/27/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		kjb

@@ -3,7 +3,7 @@
 # Date created:		22 Aug 1996
 # Whom:			pst@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	id-utils-3.2

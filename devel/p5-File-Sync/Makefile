@@ -3,7 +3,7 @@
 # Date created:		6 March 1998
 # Whom:			Jun Kuriyama <kuriyama@opt.phys.waseda.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	File-Sync-0.06

@@ -3,7 +3,7 @@
 # Date created:				16 February 1997
 # Whom:					Sandro Sigala
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tvision-0.7

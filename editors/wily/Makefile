@@ -3,7 +3,7 @@
 # Date created:   	23 September 1997
 # Whom: 		koshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wily-0.13.41

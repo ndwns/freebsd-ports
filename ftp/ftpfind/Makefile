@@ -3,7 +3,7 @@
 # Date created:		Feb 21 1998
 # Whom:			Tomokazu ISHII <t-ishii@tryplanet.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ftpfind-0.996

@@ -3,7 +3,7 @@
 # Date created:				7 April 1996
 # Whom:	Daniel Eischen <deischen@iworks.InterWorks.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nedit-5.0.2

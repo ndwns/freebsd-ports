@@ -3,7 +3,7 @@
 # Date created:		29th April, 1997
 # Whom:			Joel Sutton <jsutton@webnet.com.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Atari800-0.8.6

@@ -3,7 +3,7 @@
 # Date created:         Oct, 8 1998
 # Whom:                 cracauer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       MesaLib-2.6

@@ -3,7 +3,7 @@
 # Date created:		26 March 1995
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bcc

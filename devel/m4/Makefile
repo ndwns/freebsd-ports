@@ -3,7 +3,7 @@
 # Date created:		25 October 1994
 # Whom:			mr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       m4-1.4

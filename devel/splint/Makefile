@@ -3,7 +3,7 @@
 # Date created: 	9 September 1996
 # Whom:			moeding
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lclint-2.4b

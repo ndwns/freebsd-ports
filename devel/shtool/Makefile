@@ -3,7 +3,7 @@
 # Date created:			26-Apr-1999
 # Whom:				Ralf S. Engelschall
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	shtool-1.4.5

@@ -3,7 +3,7 @@
 # Date created:			26 November 1996
 # Whom:				Sandro Sigala
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cutils-1.4

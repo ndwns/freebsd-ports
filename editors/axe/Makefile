@@ -3,7 +3,7 @@
 # Date created:		28 December 1994
 # Whom:			jc@irbs.com John Capo
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	aXe-6.1.2

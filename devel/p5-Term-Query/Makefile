@@ -3,7 +3,7 @@
 # Date created:				21 May 1998
 # Whom:	      				Garrett Wollman <wollman@lcs.mit.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Term-Query-2.0

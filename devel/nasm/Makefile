@@ -3,7 +3,7 @@
 # Date created:        7 April 1998
 # Whom:                Murray Stokely <murray@cdrom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nasm-0.98

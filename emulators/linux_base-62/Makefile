@@ -3,7 +3,7 @@
 # Date created:         Jul 7, 1999
 # Whom:                 marcel@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		linux_base

@@ -3,7 +3,7 @@
 # Date created:		10 July 1998
 # Whom:			Jeffrey Hsu <hsu@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jam-2.2

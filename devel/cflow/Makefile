@@ -3,7 +3,7 @@
 # Date created:		28 Sept 1995
 # Whom:			dchapes@zeus.leitch.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cflow-2.0

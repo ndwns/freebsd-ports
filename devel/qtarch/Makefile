@@ -3,7 +3,7 @@
 # Date created:				17 Oct 1998
 # Whom:					Frank Gruender
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qtarch-1.4-4

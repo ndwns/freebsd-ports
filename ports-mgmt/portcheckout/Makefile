@@ -3,7 +3,7 @@
 # Date created:         1 November 1998
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       portcheckout-1.0

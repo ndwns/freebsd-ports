@@ -3,7 +3,7 @@
 # Date created:		6 May 1998
 # Whom:			Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libtool-1.3

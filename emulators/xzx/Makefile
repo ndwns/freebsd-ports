@@ -3,7 +3,7 @@
 # Date created:         13 Nov 1997
 # Whom:                 Sheldon Hearn <axl@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xzx-2.9.0

@@ -3,7 +3,7 @@
 # Whom:			ejc@bazzle.com
 # Version required:	2.2.0
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	omniORB_2.2.0

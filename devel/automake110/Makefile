@@ -3,7 +3,7 @@
 # Date created:		15 March 1997
 # Whom:			FUJIMOTO Kensaku <fujimoto@oscar.elec.waseda.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	automake-1.4

@@ -3,7 +3,7 @@
 # Date created:		Mar 28, 1998
 # Whom:			dchapes@ddm.on.ca
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	vice-1.0
 CATEGORIES=	emulators

@@ -3,7 +3,7 @@
 # Whom:			ejc@bazzle.com
 # Version required:	3.0
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	OB-3.1.3

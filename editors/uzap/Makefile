@@ -3,7 +3,7 @@
 # Date created:		19 Jun 1995
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	uzap

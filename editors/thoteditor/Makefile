@@ -3,7 +3,7 @@
 # Date created:		1 Aug 1997
 # Whom:			Pedro Giffuni (orig)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	thoteditor

@@ -3,7 +3,7 @@
 # Date created:		08-March-1999
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnotepad+-1.1.4

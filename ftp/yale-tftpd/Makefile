@@ -3,7 +3,7 @@
 # Date created:		Oct 8, 1994
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	yale-tftpd-3.0

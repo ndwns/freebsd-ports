@@ -3,7 +3,7 @@
 # Date created:		01 July 1995
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	beav_1.40-13

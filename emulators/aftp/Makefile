@@ -4,7 +4,7 @@
 # Last updated:		2nd August, 1998
 # Whom:			Joel Sutton <jsutton@webnet.com.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	aftp

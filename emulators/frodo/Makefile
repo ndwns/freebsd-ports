@@ -3,7 +3,7 @@
 # Date created:		11 Dez 1997
 # Whom:			dirk.meyer@dinoex.sub.org
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	FrodoV4_1a.Src
 PKGNAME=	frodo-4.1

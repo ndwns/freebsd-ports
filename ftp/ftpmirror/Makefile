@@ -3,7 +3,7 @@
 # Date created:		10 January 1999
 # Whom:			Yasuhiro Fukuma <yasuf@big.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ftpmirror-1.95

@@ -3,7 +3,7 @@
 # Date created:		Fri Aug 14 15:32:26 CEST 1998
 # Whom:			Slaven Rezic <eserte@cs.tu-berlin.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	BBBike-2.48

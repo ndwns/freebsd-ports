@@ -3,7 +3,7 @@
 # Date created:         20 Jun 1996
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ncftp-1.9.5

@@ -3,7 +3,7 @@
 # Date created:		26 January 1998
 # Whom:			Stephane Legrand
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	proftpd-1.2.0pre3
