@@ -5,11 +5,11 @@
     SUBDIR += WebMagick
     SUBDIR += analog
     SUBDIR += apache12
+    SUBDIR += apache12-fp
     SUBDIR += apache12-php3
     SUBDIR += apache13
     SUBDIR += apache13-modssl
     SUBDIR += apache13-php3
-    SUBDIR += apache-fp
     SUBDIR += apache-ssl
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
