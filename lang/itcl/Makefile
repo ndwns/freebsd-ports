@@ -9,7 +9,7 @@
 DISTNAME=	itcl-1.5
 HAS_CONFIGURE=	yes
 CATEGORIES+=	lang
-MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/alcatel/extensions/
 
 DEPENDS=	${PORTSDIR}/lang/tcl
 LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk

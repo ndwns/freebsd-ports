@@ -8,7 +8,7 @@
 
 DISTNAME=	blt-1.7
 CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/alcatel/extensions/
 DISTFILES=	BLT-1.7.tar.gz
 
 LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
