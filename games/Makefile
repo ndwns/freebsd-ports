@@ -56,6 +56,7 @@
     SUBDIR += xfrisk
     SUBDIR += xgalaga
     SUBDIR += xgammon
+    SUBDIR += xgolgo
     SUBDIR += xinvaders
     SUBDIR += xjewel
     SUBDIR += xkobo
