@@ -15,7 +15,9 @@ MASTER_SITES=	ftp://phobos.caltech.edu/users/will/  \
 
 MAINTAINER=     obrien@FreeBSD.org
 
-.if ${OSVERSION} < 300000
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} <= 300000
 BROKEN=	'/usr/include/prot.h parse error'         
 .endif
 
@@ -33,4 +35,4 @@ post-install:
 	${INSTALL_MAN} ${WRKSRC}/README ${PREFIX}/share/doc/super
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
