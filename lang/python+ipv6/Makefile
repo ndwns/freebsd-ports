@@ -113,5 +113,6 @@ post-install:
 	strip ${PREFIX}/bin/python
 	@${MKDIR} ${PREFIX}/share/doc/python
 	${INSTALL_DATA} ${WRKSRC}/Misc/COPYRIGHT ${PREFIX}/share/doc/python
+	@${MKDIR} ${PREFIX}/lib/python1.5/site-packages
 
 .include <bsd.port.post.mk>
