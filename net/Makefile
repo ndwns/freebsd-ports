@@ -47,6 +47,7 @@
     SUBDIR += echoping
     SUBDIR += epic4
     SUBDIR += ethereal
+    SUBDIR += ezbounce
     SUBDIR += fping
     SUBDIR += freewais-sf
     SUBDIR += fspclient
