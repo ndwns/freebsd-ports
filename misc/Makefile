@@ -21,6 +21,7 @@
     SUBDIR += fep
     SUBDIR += figlet
     SUBDIR += git
+    SUBDIR += gnomeadmin
     SUBDIR += gnomeutils
     SUBDIR += gnuls
     SUBDIR += gone
