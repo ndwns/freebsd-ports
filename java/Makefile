@@ -17,6 +17,8 @@
     SUBDIR += eclipse-gef-examples
     SUBDIR += eclipse-langpack
     SUBDIR += forte
+    SUBDIR += gj
+    SUBDIR += gj-jdk11
     SUBDIR += gnu-regexp
     SUBDIR += guavac
     SUBDIR += infobus
