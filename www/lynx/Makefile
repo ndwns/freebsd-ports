@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.7.1ac-0.96
-PKGNAME=        lynx-2.7.1ac-0.96
+DISTNAME=       lynx2.7.1ac-0.97
+PKGNAME=        lynx-2.7.1ac-0.97
 CATEGORIES=	www
 MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
