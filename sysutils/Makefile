@@ -12,6 +12,7 @@
     SUBDIR += mkisofs
     SUBDIR += pib
     SUBDIR += rtty
+    SUBDIR += setquota
     SUBDIR += skill
     SUBDIR += socket
     SUBDIR += star
