@@ -16,7 +16,7 @@ DISTFILES=	pine3.91.tar.Z pine3.91j1.0.tar.gz
 PATCHFILES=	pine3.91j1.0-1.0.1.gz pine3.91j1.0.1-1.0.2.gz
 PATCH_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/
 
-MAINTAINER=	max@sfc.wide.ad.jp
+MAINTAINER=	max@FreeBSD.ORG
 
 EXTRACT_ONLY=	pine3.91.tar.Z
 

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.uu.net/usenet/comp.sources.games/
 PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/jnethack/
 PATCHFILES=	jnethack-1.0.5.2.gz
 
-MAINTAINER=	max@sfc.wide.ad.jp
+MAINTAINER=	max@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

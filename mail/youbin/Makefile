@@ -1,7 +1,7 @@
 # New ports collection makefile for:	youbin
 # Version required:		2.13
 # Date created:			09 Aug 1996
-# Whom:				Masafumi NAKANE <max@sfc.wide.ad.jp>
+# Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ CATEGORIES+=	mail
 MASTER_SITES=	ftp://nuis.nuie.nagoya-u.ac.jp/info/nagoya-u/ \
 		ftp://ftp.kyoto.wide.ad.jp/pub/net/
 
-MAINTAINER=	max@sfc.wide.ad.jp
+MAINTAINER=	max@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

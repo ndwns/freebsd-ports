@@ -17,7 +17,7 @@ PATCH_SITES=	ftp://ftp.kyoto.wide.ad.jp/IRC/ircII/
 PATCHFILES=	ircii-2.8.2-jp.patch.gz
 PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	max@sfc.wide.ad.jp
+MAINTAINER=	max@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
