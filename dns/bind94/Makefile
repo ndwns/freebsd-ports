@@ -1,5 +1,5 @@
 # New ports collection makefile for:	bind
-# Version required:	8.1.1
+# Version required:	8.1.2
 # Date created:		18 July 1997
 # Whom:			jseger@scds.com
 #
