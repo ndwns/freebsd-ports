@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       xkobo-1.3
+DISTNAME=       xkobo-1.7
 CATEGORIES+=	games
 MASTER_SITES=	ftp://ftp.uoknor.edu/mirrors/X/contrib/games/
 USE_IMAKE=	yes
