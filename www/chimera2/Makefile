@@ -9,7 +9,6 @@
 DISTNAME=	chimera-1.65
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
-PREFIX=         ${X11BASE}
 
 MAINTAINER=	asami@FreeBSD.ORG
 
