@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	oneko-1.2
-CATEGORIES+=	games
+CATEGORIES=	games
 MASTER_SITES=	http://www.asahi-net.or.jp/~ZW6T-KND/oneko/
 
 MAINTAINER=	candy@fct.kgc.co.jp
