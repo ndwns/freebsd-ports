@@ -31,6 +31,7 @@
     SUBDIR += dmake
     SUBDIR += doc++
     SUBDIR += f77flow
+    SUBDIR += flick
     SUBDIR += fpp
     SUBDIR += ftnchek
     SUBDIR += gcc11
