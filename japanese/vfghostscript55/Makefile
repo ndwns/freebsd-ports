@@ -34,6 +34,10 @@ GS_DRIVERS=	gs4.03-vflib.tar.gz
 GS_DRIVERS+=	gdevlips4-1.0.1.tar.gz
 GS_DRIVERS+=	gdevbitps-1.0.tar.gz
 GS_DRIVERS+=	gdevmjc-0.7.tar.gz
+#  Note: the following two are real files that have symlinks with
+#  later version numbers pointing to them.  To avoid unnecessarily
+#  downloading distfiles, do not change these when upgrading the port
+#  unless the files really change.
 GS_FONTS_STD=	ghostscript-fonts-std-4.0.tar.gz
 GS_FONTS_OTHER=	ghostscript-fonts-other-3.0.tar.gz
 
