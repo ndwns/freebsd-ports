@@ -16,7 +16,7 @@ MAINTAINER=	markm@FreeBSD.ORG
 
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
-CONFIGURE_ARGS=		-sde
+CONFIGURE_ARGS=		-sde -Dprefix=${PREFIX}
 
 PERLMAN= "" api book bot call data debug diag embed form func guts ipc mod \
 	   obj op ovl pod re ref run sec style sub syn trap var
