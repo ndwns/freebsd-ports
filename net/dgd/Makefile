@@ -58,8 +58,6 @@ package:
 #	@${MAKE} ${.MAKEFLAGS} 'PKG_CMD= cd ${WRKDIR}; ${PKG_CMD}' \
 	@${MAKE} ${.MAKEFLAGS} 'PKG_ARGS= ${PKG_ARGS} -f ${WRKDIR}/PLIST' \
 	    NO_INSTALL= DO_PACKAGE= package
-.else
-post-package:
 	@rm ${INSTALL_COOKIE}
 .endif
 
