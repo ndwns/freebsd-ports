@@ -45,7 +45,7 @@ pre-fetch:
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/fonts
-	tar -C ${PREFIX}/lib/fonts -xzf ${DISTDIR}/${DISTFILES}
+	tar -C ${PREFIX}/lib/fonts -xzf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES}
 	@${CP} ${PKGDIR}/${RESOLUTION}.list ${PKGDIR}/PLIST 
 
 pre-clean:

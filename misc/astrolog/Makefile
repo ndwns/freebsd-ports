@@ -27,7 +27,7 @@ EPHEM=          lrz5_24 chi_24 cpjv_24
 post-extract:
 	cd ${WRKSRC}/..; \
 		for i in ${EPHEM}; do \
-			zcat ${DISTDIR}/$$i.gz > \
+			zcat ${DISTDIR}/${DIST_SUBDIR}/$$i.gz > \
 				`echo $$i | tr '[:lower:]' '[:upper:]'`; \
 		done
 

@@ -21,6 +21,6 @@ USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
 
 post-extract:
-	${CP} ${DISTDIR}/Makefile ${WRKSRC}/Makefile
+	${CP} ${DISTDIR}/${DIST_SUBDIR}/Makefile ${WRKSRC}/Makefile
 
 .include <bsd.port.mk>
