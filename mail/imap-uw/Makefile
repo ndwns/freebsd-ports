@@ -18,6 +18,14 @@ MAINTAINER=	imap-uw@freebsd.ady.ro
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SHLIB=	libc-client.so.2
+.else
+SHLIB=	libc-client.so.2.1
+.endif
+
 #pre-build:
 #	@chmod 755 ${WRKSRC}/src/osdep/unix/drivers ${WRKSRC}/src/osdep/unix/mkauths
 
@@ -42,10 +50,4 @@ do-install:
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-SHLIB=	libc-client.so.2
-.else
-SHLIB=	libc-client.so.2.1
-.endif
+.include <bsd.port.post.mk>

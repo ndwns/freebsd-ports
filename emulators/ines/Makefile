@@ -18,6 +18,12 @@ WRKSRC=		${WRKDIR}/NES
 USE_X_PREFIX=	yes
 NO_BUILD=	yes
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ines ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/ines-debug ${PREFIX}/bin
@@ -26,8 +32,4 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/headers.tgz ${PREFIX}/share/ines
 	@${INSTALL_DATA} ${WRKSRC}/CART.* ${PREFIX}/share/ines
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-STRIP=
-.endif
+.include <bsd.port.post.mk>

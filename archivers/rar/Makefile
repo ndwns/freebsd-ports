@@ -21,6 +21,12 @@ NO_WRKSUBDIR=   yes
 EXTRACT_CMD=
 EXTRACT_BEFORE_ARGS=
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
+
 post-fetch:
 	chmod a+x ${DISTDIR}/${DISTFILES}
 
@@ -46,8 +52,4 @@ do-install:
 		${INSTALL_DATA} Dos.SFX \
 			${PREFIX}/share/rar/dos.sfx
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-STRIP=
-.endif
+.include <bsd.port.post.mk>

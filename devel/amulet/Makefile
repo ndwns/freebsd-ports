@@ -17,6 +17,14 @@ USE_X_PREFIX=	yes
 WRKSRC=		$(WRKDIR)/amulet
 MAKE_ENV=	AMULET_DIR=$(WRKSRC) AMULET_VARS_FILE=Makefile.vars.gcc.FreeBSD
 
+.include <bsd.port.pre.mk>
+
+.if $(PORTOBJFORMAT) == "elf"
+SO_VERSION=	3
+.else
+SO_VERSION=	3.0
+.endif
+
 pre-build:
 	${CP} $(FILESDIR)/Makefile.vars.gcc.FreeBSD $(WRKSRC)/bin
 
@@ -93,10 +101,4 @@ do-install:
 	   $(INSTALL_PROGRAM) $(WRKSRC)/bin/$$a $(PREFIX)/share/amulet/samples; \
 	 done)
 
-.include <bsd.port.mk>
-
-.if $(PORTOBJFORMAT) == "elf"
-SO_VERSION=	3
-.else
-SO_VERSION=	3.0
-.endif
+.include <bsd.port.post.mk>

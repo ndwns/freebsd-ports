@@ -28,14 +28,16 @@ MAN1=		autoexpect.1 cryptdir.1 decryptdir.1 dislocate.1 \
 MAN3=		libexpect.3
 .endif
 
-post-install:
-	${LN} -sf ${SOLIB} ${PREFIX}/lib/libexpect528.so
-	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
 SOLIB=	libexpect528.so.1
 .else
 SOLIB=	libexpect528.so.1.2
 .endif
+
+post-install:
+	${LN} -sf ${SOLIB} ${PREFIX}/lib/libexpect528.so
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+
+.include <bsd.port.post.mk>

@@ -24,10 +24,12 @@ CONFIGURE_ARGS=	--enable-shared --with-tclconfig=${PREFIX}/lib/tcl8.0jp \
 
 NO_MAN_INSTALL=	yes
 
+.include <bsd.port.pre.mk>
+
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		${LN} -sf libexpect528jp.so.1.2 ${PREFIX}/lib/libexpect528jp.so; \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libexpect528jp.so.1.2 ${PREFIX}/lib/libexpect528jp.so
+.endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

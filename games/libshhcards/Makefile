@@ -18,6 +18,14 @@ USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 SOLIB=		libshhcards.so
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SOVERSION=	1
+.else
+SOVERSION=	1.1
+.endif
+
 do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/shhcards.h ${PREFIX}/include
 	@ ${INSTALL_DATA} ${WRKSRC}/${SOLIB}.${SOVERSION} ${PREFIX}/lib
@@ -27,10 +35,4 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/libshhcards
 	@ ${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-SOVERSION=	1
-.else
-SOVERSION=	1.1
-.endif
+.include <bsd.port.post.mk>

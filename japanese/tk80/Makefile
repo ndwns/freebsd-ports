@@ -31,6 +31,8 @@ USE_AUTOCONF=	yes
 USE_XLIB=	yes
 CONFIGURE_ARGS=	--enable-shared --with-tcl=${PREFIX}/lib/tcl${VERSION}jp
 
+.include <bsd.port.pre.mk>
+
 .if !defined(NOPORTDOCS)
 post-patch:
 	@${CP} ${FILESDIR}/README.FreeBSD.in ${TOPDIR}/README.FreeBSD.JP.in
@@ -50,9 +52,9 @@ post-install:
 	 )
 .endif
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		${LN} -sf libtk80jp.so.1.2 ${PREFIX}/lib/libtk80jp.so; \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libtk80jp.so.1.2 ${PREFIX}/lib/libtk80jp.so
+.endif
 	@${CAT}	${PKGDIR}/MESSAGE
 
 test:
@@ -61,4 +63,4 @@ test:
 install-man:
 	cd ${WRKSRC} && ${MAKE} install-man
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

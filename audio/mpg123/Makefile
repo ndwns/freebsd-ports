@@ -15,10 +15,12 @@ MAINTAINER=	jkoshy@freebsd.org
 
 MAN1=		mpg123.1
 
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
 ALL_TARGET=	freebsd-elf
 .else
 ALL_TARGET=	freebsd
 .endif
+
+.include <bsd.port.post.mk>

@@ -20,6 +20,14 @@ MAN3=		uulib.3
 
 ALL_TARGET=	libuu.a	libuu.so.${VERSION}
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	1
+.else
+VERSION=	1.0
+.endif
+
 DOCFILES=	HISTORY doc/Makefile doc/README doc/binhex.fig \
 		doc/library.ltx doc/structure.fig doc/td-v1.c doc/td-v2.c \
 		doc/td-v3.c doc/test.txt
@@ -42,10 +50,4 @@ do-install:
 .endfor
 .endif
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-VERSION=	1
-.else
-VERSION=	1.0
-.endif
+.include <bsd.port.post.mk>

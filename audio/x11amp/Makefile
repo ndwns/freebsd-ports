@@ -20,14 +20,16 @@ WRKSRC=		${WRKDIR}/x11amp
 USE_X_PREFIX=	YES
 NO_BUILD=	YES
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/x11amp ${PREFIX}/bin/x11amp
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-STRIP=
-.endif
+.include <bsd.port.post.mk>

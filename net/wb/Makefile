@@ -20,6 +20,12 @@ USE_X_PREFIX=	yes
 # XXX ghostscript, ghostscript3, ghostscript4 or ghostscript5 will all do.
 RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wb ${PREFIX}/bin
 .if !defined(NOPORTDOCS)
@@ -30,8 +36,4 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/lblwb.ps ${PREFIX}/share/doc/wb
 .endif
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-STRIP=
-.endif
+.include <bsd.port.post.mk>

@@ -24,6 +24,8 @@ BROKEN_ELF=	linker command line
 
 FETCH_BEFORE_ARGS=	-b
 
+.include <bsd.port.pre.mk>
+
 pre-install:
 	${MKDIR} ${PREFIX}/include/gd
 	${MKDIR} ${PREFIX}/share/examples/gd
@@ -33,12 +35,12 @@ do-install:
 		${INSTALL} -c -o bin -g bin -m 555 ${WRKSRC}/$$i \
 			${PREFIX}/lib; \
 	done
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		(cd ${PREFIX}/lib; ${LN} -sf libgd.so.1.3 libgd.so); \
-	else \
-		(cd ${PREFIX}/lib; ${MV} -sf libgd.so.1.3 libgd.so.1; \
-		${LN} -sf libgd.so.1 libgd.so); \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	cd ${PREFIX}/lib; ${LN} -sf libgd.so.1.3 libgd.so
+.else
+	cd ${PREFIX}/lib; ${MV} -sf libgd.so.1.3 libgd.so.1
+	${LN} -sf libgd.so.1 libgd.so
+.endif
 	for i in gddemo giftogd webgif; do \
 	${INSTALL} -c -o bin -g bin -m 755 ${WRKSRC}/$$i \
 		${PREFIX}/bin; \
@@ -55,4 +57,4 @@ do-install:
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

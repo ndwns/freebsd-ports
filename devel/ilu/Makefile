@@ -25,6 +25,22 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}/ilu
 INSTALL_TARGET=	Install
 PLIST=		${WRKSRC}/PLIST
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SHLIBPATCH=files/shlib-elf.patch
+# The FreeBSD Java Development Kit is still in aout object format.
+# You might want to enable it if you have an ELF JDK and/or build
+# a seperate aout ILU runtime to use with Java.
+CONFIGURE_ARGS+=	--disable-java-support
+.else
+SHLIBPATCH=files/shlib-aout.patch
+# Java support on -stable does not work (ILU runtime dumps core).
+# You might want to enable it if you know what you are doing.
+# Maybe taking -O out of patches/patch-1-cra-cflags help.
+CONFIGURE_ARGS+=	--disable-java-support
+.endif
+
 # Startup script, run at boot time
 startup_dir=	${PREFIX}/etc/rc.d
 startup_script=	${startup_dir}/50.ilu.sh
@@ -63,18 +79,4 @@ do-install:
 	chmod 755 ${startup_script};
 	${startup_script}
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-SHLIBPATCH=files/shlib-elf.patch
-# The FreeBSD Java Development Kit is still in aout object format.
-# You might want to enable it if you have an ELF JDK and/or build
-# a seperate aout ILU runtime to use with Java.
-CONFIGURE_ARGS+=	--disable-java-support
-.else
-SHLIBPATCH=files/shlib-aout.patch
-# Java support on -stable does not work (ILU runtime dumps core).
-# You might want to enable it if you know what you are doing.
-# Maybe taking -O out of patches/patch-1-cra-cflags help.
-CONFIGURE_ARGS+=	--disable-java-support
-.endif
+.include <bsd.port.post.mk>

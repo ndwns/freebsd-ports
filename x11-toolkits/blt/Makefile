@@ -22,14 +22,16 @@ MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
 		stripchart.n table.n tabset.n tile.n vector.n watch.n winop.n \
 		beep.n cutbuffer.n
 
-post-install:
-	${LN} -sf libBLT.so.${SO_VERSION} ${PREFIX}/lib/libBLT.so
-	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
 SO_VERSION=	2
 .else
 SO_VERSION=	2.4
 .endif
+
+post-install:
+	${LN} -sf libBLT.so.${SO_VERSION} ${PREFIX}/lib/libBLT.so
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+
+.include <bsd.port.post.mk>

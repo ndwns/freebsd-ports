@@ -16,16 +16,18 @@ MAINTAINER=	ports@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/xc/lib/Xaw3d
 USE_IMAKE=	yes
 
+.include <bsd.port.pre.mk>
+
 post-extract:
 	${MKDIR} ${WRKSRC}/X11/Xaw3d
 	cd ${WRKSRC}/X11/Xaw3d; ln -sf ../../*.h .
 
 post-install:
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		${LN} -sf libXaw3d.so.6.1 ${PREFIX}/lib/libXaw3d.so; \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libXaw3d.so.6.1 ${PREFIX}/lib/libXaw3d.so
+.endif
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	${MKDIR} ${PREFIX}/share/doc/Xaw3d
 	${CP} ${WRKSRC}/README.XAW3D ${PREFIX}/share/doc/Xaw3d
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -20,6 +20,12 @@ RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
+
 do-extract:
 	@${MKDIR} ${WRKDIR}
 	@${CP} ${DISTDIR}/${DISTFILES} ${WRKDIR}
@@ -28,8 +34,4 @@ do-extract:
 do-install:
 	@${INSTALL_PROGRAM} ${WRKDIR}/MAGE_4_2.LINUX ${PREFIX}/bin/kinemage
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-STRIP=
-.endif
+.include <bsd.port.post.mk>

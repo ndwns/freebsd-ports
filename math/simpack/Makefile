@@ -15,6 +15,14 @@ MAINTAINER=	rssh@cki.ipri.kiev.ua
 
 WRKSRC=	${WRKDIR}/simpack
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	1
+.else
+VERSION=	1.0
+.endif
+
 post-build: create-libs create-scripts
 
 do-install: do-install-bin do-install-include do-install-lib do-install-doc
@@ -131,10 +139,4 @@ create-deq-alias:
 	@${ECHO} ${PREFIX}/lib/SimPack/constraint/differential/deq $$*       \
 			   >> ${WRKDIR}/temp/deq.alias
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-VERSION=	1
-.else
-VERSION=	1.0
-.endif
+.include <bsd.port.post.mk>

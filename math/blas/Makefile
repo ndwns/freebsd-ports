@@ -18,13 +18,15 @@ MAINTAINER=	ports@FreeBSD.org
 
 WRKSRC=		${WRKDIR}
 
+.include <bsd.port.pre.mk>
+
 pre-build:
 	${CP} ${FILESDIR}/makefile.lib ${WRKDIR}/Makefile
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		${LN} -sf libblas.so.1.0 ${PREFIX}/lib/libblas.so; \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libblas.so.1.0 ${PREFIX}/lib/libblas.so
+.endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -21,6 +21,16 @@ MAN1=		ncftp3.1 ncftpbatch.1 ncftpget.1 ncftpls.1 ncftpput.1
 MAN3=		Strn.3
 NO_LATEST_LINK=	yes
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+LIBNCFTP= libncftp.so.2
+LIBSTRN=libStrn.so.1
+.else
+LIBNCFTP= libncftp.so.2.0
+LIBSTRN=libStrn.so.1.0
+.endif
+
 post-patch:
 	@${MV} ${WRKSRC}/ncftp/pref.h ${WRKSRC}/ncftp/pref.h.in
 	@${SED} -e 's:/etc/ncftp.firewall:${PREFIX}/etc/ncftp.firewall:' \
@@ -46,12 +56,4 @@ do-install:
 		$(PREFIX)/man/man1
 	@$(INSTALL_MAN) $(WRKSRC)/Strn/Strn.3 $(PREFIX)/man/man3
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-LIBNCFTP= libncftp.so.2
-LIBSTRN=libStrn.so.1
-.else
-LIBNCFTP= libncftp.so.2.0
-LIBSTRN=libStrn.so.1.0
-.endif
+.include <bsd.port.post.mk>
