@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.patho.gen.nz/pub/users/jabley/ \
 
 MAINTAINER=	jabley@clear.co.nz
 
+BUILD_DEPENDS=	makedepend:${PORTSDIR}/x11/XFree86
 ALL_TARGET=	depend all
 MAN8=		ciscoconfd.8 ciscoconfr.8
 

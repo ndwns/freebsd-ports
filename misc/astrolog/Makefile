@@ -22,6 +22,7 @@ DISTFILES=      ${EXTRACT_ONLY} ${EPHEM}
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+USE_XLIB=	yes
 EXTRACT_CMD=    ${SH}
 EXTRACT_ARGS=
 DIST_SUBDIR=    astrolog

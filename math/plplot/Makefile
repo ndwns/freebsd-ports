@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://dino.ph.utexas.edu/plplot/distrib/alpha/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-gcc=yes --with-double=yes
 

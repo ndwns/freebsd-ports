@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAN1= 		audiocompose.1 audiosend.1 extcompose.1 \
 		getfilename.1 mailto-hebrew.1 mailto.1 metamail.1 \

@@ -13,6 +13,8 @@ DISTFILES=	SimPack3.tar.Z
 
 MAINTAINER=	rssh@cki.ipri.kiev.ua
 
+BUILD_DEPENDS=	imake:${PORTSDIR}/x11/XFree86
+
 WRKSRC=	${WRKDIR}/simpack
 
 .include <bsd.port.pre.mk>

@@ -13,6 +13,7 @@ MASTER_SITES=   ftp://megrez.math.u-bordeaux.fr/pub/pari/unix/ \
 
 MAINTAINER=     yoshiaki@kt.rim.or.jp
 
+USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAN1=		gp.1
 

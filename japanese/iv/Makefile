@@ -15,6 +15,8 @@ DISTFILES=	3.1.tar.Z iv3_1j_gamma.tar.gz
 
 MAINTAINER=	sanpei@sanpei.org
 
+BUILD_DEPENDS=	imake:${PORTSDIR}/x11/XFree86
+
 DIST_SUBDIR=	iv
 WRKSRC=		${WRKDIR}/iv
 PATCH_DIST_STRIP=	-p1
