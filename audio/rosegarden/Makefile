@@ -26,6 +26,7 @@ CONFIGURE_ARGS=	--with-tclincl=${LOCALBASE}/include/tcl8.0/
 CONFIGURE_ENV=	LIBS="-L${PREFIX}/lib"
 
 do-install:
+	@${MKDIR} ${PREFIX}/lib/X11/app-defaults
 	@( \
 	 cd ${WRKSRC} ; ${SETENV} PREFIX="${PREFIX}" ./do-install \
 	)
