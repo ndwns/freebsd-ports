@@ -10,9 +10,9 @@
 DISTNAME=	egcs-19980914
 PKGNAME=	egcs-19980914
 CATEGORIES=	lang
-MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
-		ftp://cambridge.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
-		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/${DISTNAME}/
+MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-09-14/ \
+		ftp://cambridge.cygnus.com/pub/egcs/snapshots/1998-09-14/ \
+		ftp://ftp.fu-berlin.de/unix/languages/egcs/snapshots/1998-09-14/
 
 MAINTAINER=	obrien@FreeBSD.org
 
