@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ical-1.9
-CATEGORIES+=	utils
+CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ftp.sterling.com/programming/languages/tcl/code/ical/
 
 LIB_DEPENDS=    tcl\\.7\\.:${PORTSDIR}/lang/tcl \
