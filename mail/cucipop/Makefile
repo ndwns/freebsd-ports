@@ -10,7 +10,7 @@ DISTNAME=       cucipop-1.31
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/cucipop/
 
-MAINTAINER=	igor@zynaps.ru
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 MAN8=		cucipop.8
 
