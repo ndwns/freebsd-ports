@@ -1,19 +1,25 @@
 # New ports collection makefile for:	netscape
-# Version required:     4.03b8
+# Version required:     4.04
 # Date created:         24 Feb 1997
 # Whom:                 ache
+#
+# Note: you can make the standalone navigator version by typing
+#       make NAVIGATOR=yes
 #
 # $Id$
 #
 
-DISTNAME=       netscape-4.03b8
 CATEGORIES=	www
-.if defined(NAVIGATOR)
+.if !defined(NAVIGATOR)
+DISTNAME=       netscape-4.04
+MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.04/development/english/unix/freebsd/professional_edition/
+DISTFILES=      communicator-v404-export.x86-unknown-freebsd.tar.gz
+MAINTAINER=     ache@FreeBSD.ORG
+.else
+DISTNAME=       netscape-4.03b8
 MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/navigator_standalone/
 DISTFILES=      navigator-v403b8-export.x86-unknown-freebsd.tar.gz
-.else
-MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/base_install/
-DISTFILES=      communicator-v403b8-export.x86-unknown-freebsd.tar.gz
+MAINTAINER=     ports@FreeBSD.ORG
 .endif
 NO_WRKSUBDIR=   Yes
 NO_BUILD=       Yes
@@ -21,16 +27,7 @@ NO_BUILD=       Yes
 NDIR=           ${PREFIX}/lib/netscape
 BINDIR=		${PREFIX}/bin
 
-MAINTAINER=     ache@FreeBSD.ORG
-
 RESTRICTED=	"Commercial software"
-
-pre-fetch:
-.if !defined(NAVIGATOR)
-	@${ECHO_MSG} "Note you can make the standalone navigator version by typing \"make NAVIGATOR=yes\"."
-.else
-	@${ECHO_MSG} "Making the standalone navigator version."
-.endif
 
 do-install:
 	cd ${WRKSRC} && yes "" | \
