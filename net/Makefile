@@ -37,6 +37,7 @@
     SUBDIR += dip
     SUBDIR += dnswalk
     SUBDIR += echoping
+    SUBDIR += epic4
     SUBDIR += ethereal
     SUBDIR += fping
     SUBDIR += freewais-sf
