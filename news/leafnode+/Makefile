@@ -47,10 +47,11 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/share/doc/leafnode+
 .endfor
 .endif
-	@PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
 
 post-install:
-	@test -d /var/spool/news -a -d ${PREFIX}/lib/leafnode || \
-		${CAT} ${PKGDIR}/MESSAGE
+	@PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
+	@if test \( ! -d ${LEAFSPOOLDIR} \) -o \( ! -d ${LEAFLIBDIR} \) ; then \
+		${CAT} ${PKGDIR}/MESSAGE; \
+	fi
 
 .include <bsd.port.mk>
