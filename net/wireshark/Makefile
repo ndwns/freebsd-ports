@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ethereal-0.3.17
+DISTNAME=	ethereal-0.4.0
 CATEGORIES=	net
 MASTER_SITES=	http://ethereal.zing.org/distribution/ \
 		http://ethereal.boehm.org/distribution/
@@ -16,7 +16,7 @@ MAINTAINER=	billf@chc-chimes.com
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
 USE_X_PREFIX=	yes
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
 
 MAN1=		ethereal.1
 
