@@ -1,14 +1,14 @@
 # New ports collection makefile for:	magicpoint
-# Version required:	1.04a
+# Version required:	1.05a
 # Date created:		24 December 1997
 # Whom:			itojun@itojun.org
 #
 # $Id$
 #
 
-DISTNAME=	magicpoint-1.04a
+DISTNAME=	magicpoint-1.05a
 # question is for localized (i.e. Japanese) version
-PKGNAME?=	magicpoint-1.04a
+PKGNAME?=	magicpoint-1.05a
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.mew.org/pub/MagicPoint/
 
