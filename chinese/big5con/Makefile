@@ -9,7 +9,7 @@
 #
 
 DISTNAME=	kon
-PKGNAME=	cn-big5con-0.1
+PKGNAME=	zh-big5con-0.1
 CATEGORIES=	chinese
 # note kon is only in first directory and
 # fonts are only in the other two directories

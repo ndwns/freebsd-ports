@@ -7,7 +7,7 @@
 # $Id$
 #
 
-PKGNAME=	cn-hc-3.0
+PKGNAME=	zh-hc-3.0
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/convert/  \
 		ftp://ftp.edu.tw/Chinese/ifcss/software/unix/convert/  \

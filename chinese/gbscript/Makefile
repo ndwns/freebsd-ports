@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	gbscript-1.11
-PKGNAME=	cn-gbscript-1.11
+PKGNAME=	zh-gbscript-1.11
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/print/  \
 		ftp://ftp.ifcss.org/pub/software/fonts/gb/misc/  \

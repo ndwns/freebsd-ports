@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	celvis
-PKGNAME=	cn-celvis-1.3
+PKGNAME=	zh-celvis-1.3
 CATEGORIES=	chinese editors
 MASTER_SITES=	ftp://ftp.edu.cn/PUB/Chinese/
 #

@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	cn-mule-wnn4-2.3
+PKGNAME=	zh-mule-wnn4-2.3
 CATEGORIES=	chinese editors
 CWNN4=		yes
 

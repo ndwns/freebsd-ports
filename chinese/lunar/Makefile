@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	lunar-2.1
-PKGNAME=	cn-lunar-2.1
+PKGNAME=	zh-lunar-2.1
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/c-utils/  \
 		ftp://ftp.edu.tw/Chinese/ifcss/software/unix/c-utils/  \

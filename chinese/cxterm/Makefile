@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cxterm5.0.p3
-PKGNAME=	cn-cxterm-5.0.3
+PKGNAME=	zh-cxterm-5.0.3
 CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/x-win/cxterm/  \
 		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/x-win/cxterm/ \
