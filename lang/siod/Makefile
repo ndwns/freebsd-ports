@@ -3,7 +3,7 @@
 # Date created:        28 April 1999
 # Whom:                jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	siod

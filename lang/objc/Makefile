@@ -3,7 +3,7 @@
 # Date created:         16 May 1998
 # Whom:                 chuckr@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       objc-2.2.15

@@ -4,7 +4,7 @@
 # Date created:				9 Jan 1998
 # Whom:					John Polstra <jdp@polstra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gcc-2.95.1

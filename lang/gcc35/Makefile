@@ -4,7 +4,7 @@
 # Date created:				9 Jan 1998
 # Whom:					John Polstra <jdp@polstra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 SNAPDATE=	1999-07-18

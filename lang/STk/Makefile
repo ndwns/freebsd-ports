@@ -3,7 +3,7 @@
 # Date created:         17 Sep 96 
 # Whom:                 jmacd@cs.berkeley.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       STk-3.1.1

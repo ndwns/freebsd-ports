@@ -3,7 +3,7 @@
 # Date created:		18 November 1997
 # Whom:			Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	emacs-lisp-intro-1.05

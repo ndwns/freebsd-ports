@@ -3,7 +3,7 @@
 # Date created:				28 DEC 1998
 # Whom:					Steven G. Kargl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	f2c-freebsd.2.0.1

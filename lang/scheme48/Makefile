@@ -3,7 +3,7 @@
 # Date created:         25 Aug 1997
 # Whom:                 jmacd
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scheme48-0.46

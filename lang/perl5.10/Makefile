@@ -3,7 +3,7 @@
 # Date created:		16 April 1995
 # Whom:			markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	perl5.005_02

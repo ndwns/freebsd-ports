@@ -3,7 +3,7 @@
 # Date created:		16 Jan 1997
 # Whom:			msmith@gsoft.com.au
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bwbasic-2.20

@@ -5,7 +5,7 @@
 # Porter (original):	nils@guru.ims.uni-stuttgart.de
 # Porter (version 3):	maurice@serc.rmit.edu.au
 #
-# $Id$
+# $FreeBSD$
 #
 # Note:
 # - FreeBSD tasking libraries created by Dan Eischen have been incorporated

@@ -3,7 +3,7 @@
 # Date created:		18 Mar 1996
 # Whom:			John Polstra <jdp@polstra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	modula-3-3.6

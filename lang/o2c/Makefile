@@ -3,7 +3,7 @@
 # Date created:		December 3, 1997
 # Whom:			Oliver Breuninger <ob@seicom.NET>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	o2c-1.16
 CATEGORIES=	lang

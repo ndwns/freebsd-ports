@@ -3,7 +3,7 @@
 # Date created:         Sat Nov  5 17:11:01 PST 1994
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       scm

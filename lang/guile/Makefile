@@ -3,7 +3,7 @@
 # Date created:		2 November 1997
 # Whom:			jseger@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	guile-1.3

@@ -3,7 +3,7 @@
 # Date created:		13th August 1995
 # Whom:			Julian Stacey <jhs@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pbasic-2.0-950813

@@ -4,7 +4,7 @@
 # Date created:				10 Dec 1998
 # Whom:					David O'Brien <obrien@NUXI.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	egcs-1.1.2

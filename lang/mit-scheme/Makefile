@@ -3,7 +3,7 @@
 # Date created:         Mar 26 1995
 # Whom:                 jmacd@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       mit-scheme

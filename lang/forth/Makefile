@@ -3,7 +3,7 @@
 # Date created:         23 November 1994
 # Whom:                 mr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pfe-0.9.9

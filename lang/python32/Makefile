@@ -3,7 +3,7 @@
 # Date created:         08 August 1995
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       py152

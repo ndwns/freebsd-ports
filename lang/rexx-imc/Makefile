@@ -3,7 +3,7 @@
 # Date created:				Septermber 21 96
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rexx-imc-1.6d

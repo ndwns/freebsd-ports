@@ -3,7 +3,7 @@
 # Date created:		6 February 1996
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tclX8.0.2

@@ -3,7 +3,7 @@
 # Date created:		Sat Nov  8 10:46:42 CET 1997
 # Whom:			andreas
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tclplug20-src

@@ -3,7 +3,7 @@
 # Date created:         12 May 1999
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	${DOCFORMAT}-${VERSION}

@@ -3,7 +3,7 @@
 # Date created:		09 Feb 1995
 # Whom:			gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	smalltalk-1.1.5

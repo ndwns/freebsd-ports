@@ -3,7 +3,7 @@
 # Date created:         2 August 1998
 # Whom:                 chuckr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       mos14src

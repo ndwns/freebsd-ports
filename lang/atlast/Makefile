@@ -3,7 +3,7 @@
 # Date created:         26 Ag 97
 # Whom:                 Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	atlast-1.0

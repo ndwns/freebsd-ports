@@ -3,7 +3,7 @@
 # Date created:        17 February 1999
 # Whom:                wagner@luthien.in-berlin.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      m3gdb-4.17

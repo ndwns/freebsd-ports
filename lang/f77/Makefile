@@ -3,7 +3,7 @@
 # Date created:				19 JAN 1999
 # Whom:					Steven G. Kargl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	f77-freebsd.0.3

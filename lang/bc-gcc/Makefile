@@ -4,7 +4,7 @@
 # Date created:		Sun June 08, 1997
 # Whom:			David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gcc-2.7.2

@@ -3,7 +3,7 @@
 # Date created:				27 June 1999
 # Whom:					Richard Kiss <richard@homemail.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lua-3.1

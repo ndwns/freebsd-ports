@@ -3,7 +3,7 @@
 # Date created:		03-Sep-1997
 # Whom:			Ralf S. Engelschall <rse@engelschall.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	eperl-2.2.14

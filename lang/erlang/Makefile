@@ -3,7 +3,7 @@
 # Date created:		11 Dec 1998
 # Whom:			ruslan@shevchenko.kiev.ua
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	erlang_base-47.4.1.src

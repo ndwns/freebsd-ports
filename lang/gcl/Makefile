@@ -3,7 +3,7 @@
 # Date created:         Wed Feb  8 01:49:11  1995
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gcl-2.2.2

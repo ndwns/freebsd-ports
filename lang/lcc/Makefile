@@ -4,7 +4,7 @@
 # Date created:		Sat Dec 7, 1996
 # Whom:			David O'Brien (obrien@cs.ucdavis.edu)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lcc-3.6

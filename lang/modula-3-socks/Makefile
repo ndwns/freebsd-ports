@@ -3,7 +3,7 @@
 # Date created:		31 Oct 1996
 # Whom:			John Polstra <jdp@polstra.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	modula-3-socks

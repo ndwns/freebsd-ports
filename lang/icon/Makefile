@@ -3,7 +3,7 @@
 # Date created:         05 April 1995
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       unix

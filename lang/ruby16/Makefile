@@ -3,7 +3,7 @@
 # Date created:         04 September 1997
 # Whom:                 Eiji-usagi-MATSUmoto <usagi@ruby.club.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ruby-1.2.5

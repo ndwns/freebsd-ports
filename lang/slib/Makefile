@@ -3,7 +3,7 @@
 # Date created:        01 April 1998
 # Whom:                Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slib2c5

@@ -3,7 +3,7 @@
 # Date created:				10 December 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		ptoc-3.41

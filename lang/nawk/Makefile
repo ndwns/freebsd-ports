@@ -3,7 +3,7 @@
 # Date created:        29 April 1998
 # Whom:                Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	awk

@@ -3,7 +3,7 @@
 # Date created:         4 October 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	p2c-1.21alpha-07.Dec.93

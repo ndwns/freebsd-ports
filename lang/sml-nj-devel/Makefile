@@ -3,7 +3,7 @@
 # Date created:        7 July 1998
 # Whom:                jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=     110.9.1-bin.x86-unix

@@ -3,7 +3,7 @@
 # Whom:			pst
 # Version required:	5.30
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	expect
 PKGNAME=	expect-5.30

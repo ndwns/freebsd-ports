@@ -3,7 +3,7 @@
 # Date created:         23 Jan 1998
 # Whom:                 housel@acm.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gd-2.2.0

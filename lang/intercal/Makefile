@@ -3,7 +3,7 @@
 # Date created:        20 March 1998
 # Whom:                Matthew Hunt <mph@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	intercal-0.18

@@ -3,7 +3,7 @@
 # Date created:			21 Sept 1996
 # Whom:				giffunip
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cim-3.29

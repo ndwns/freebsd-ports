@@ -3,7 +3,7 @@
 # Date created:         Mon Oct 31 22:04:12 PST 1994
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Sather-1.0.5

@@ -3,7 +3,7 @@
 # Date created:		24 December 1996
 # Whom:			Kiriyama Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ocaml-2.02

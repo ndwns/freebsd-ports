@@ -3,7 +3,7 @@
 # Date created:		22 October 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ucblogo-4.6

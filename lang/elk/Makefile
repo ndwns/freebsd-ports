@@ -3,7 +3,7 @@
 # Date created:         08 March 1995
 # Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	elk-3.0

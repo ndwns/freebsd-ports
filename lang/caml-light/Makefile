@@ -3,7 +3,7 @@
 # Date created:		21 July 1998
 # Whom:			jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cl74unix

@@ -3,7 +3,7 @@
 # Date created:		22 September 1997
 # Whom:			Torsten Teg Grust (Torsten.Grust@uni-konstanz.de)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hugs-June98-source

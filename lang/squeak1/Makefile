@@ -3,7 +3,7 @@
 # Date created:        			20 December 1998
 # Whom:                			jesse@cs.uni-magdeburg.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	1.31

@@ -3,7 +3,7 @@
 # Date created:		7 Apr 1998
 # Whom:			Robert Nordier <rnordier@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	TenDRA-4.1.2

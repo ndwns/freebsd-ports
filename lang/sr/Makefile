@@ -3,7 +3,7 @@
 # Date created:			2 Jun 1997
 # Whom:				Ruslan Shevchenko <rssh@satori.ipri.kiev.ua>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sr

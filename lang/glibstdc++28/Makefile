@@ -4,7 +4,7 @@
 # Date created:				03 Mar 1998
 # Whom:					David O'Brien <obrien@NUXI.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libstdc++-2.8.1.1

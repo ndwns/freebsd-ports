@@ -3,7 +3,7 @@
 # Date created:         Wed Feb  1 01:51:59 PST 1995
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gofer230a

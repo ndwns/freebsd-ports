@@ -4,7 +4,7 @@
 # Date created:				17 Jan 1998
 # Whom:					David O'Brien <obrien@NUXI.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gcc-2.8.1

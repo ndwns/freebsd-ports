@@ -3,7 +3,7 @@
 # Date created:         28 Dec 1994
 # Whom:                 jmacd@uclink.berkeley.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME= 	schemetoc-93.3.15

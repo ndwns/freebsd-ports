@@ -3,7 +3,7 @@
 # Date created:		12 July 1998
 # Whom:			Jerry Hicks <jhicks@glenatl.glenayre.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ETHLinuxOberon

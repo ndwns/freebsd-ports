@@ -4,7 +4,7 @@
 # Date created:		21-Dec-1996
 # Whom:                 David O'Brien <obrien@cs.ucdavis.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mixal-1.06
