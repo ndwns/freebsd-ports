@@ -8,7 +8,7 @@
 
 DISTNAME=	workplace-1.0.a3
 PKGNAME=	workplace-1.0a3
-CATEGORIES=	x11
+CATEGORIES=	x11-fm
 MASTER_SITES=	http://www2.osk.3web.ne.jp/~hideki70/src/
 
 MAINTAINER=	andy@icc.surw.chel.su

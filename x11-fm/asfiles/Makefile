@@ -8,7 +8,7 @@
 
 DISTNAME=	ASFiles-1.0
 PKGNAME=	asfiles-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-fm
 MASTER_SITES=	http://w3.one.net/~roz/software/x11/windowmaker/
 
 MAINTAINER=	lukin@okbmei.msk.su

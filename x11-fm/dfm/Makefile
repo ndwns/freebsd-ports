@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	dfm-0.9.8
-CATEGORIES=	x11
+CATEGORIES=	x11-fm
 MASTER_SITES=	http://www-c.informatik.uni-hannover.de/~kaiser/dfm/
 
 MAINTAINER=	andy@icc.surw.chel.su

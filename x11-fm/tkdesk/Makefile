@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkdesk-1.0
-CATEGORIES=	misc x11 tk42
+CATEGORIES=	x11-fm tk42
 MASTER_SITES=	http://people.mainz.netsurf.de/~bolik/tkdesk/
 
 MAINTAINER=	dmlb@ragnet.demon.co.uk
