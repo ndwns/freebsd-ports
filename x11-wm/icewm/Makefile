@@ -15,6 +15,8 @@ MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		master site not responding
+
 USE_X11=	yes
 
 pre-patch:
