@@ -8,7 +8,8 @@
 
 DISTNAME=	ewipe-1.0.0
 CATEGORIES=	misc tk42
-MASTER_SITES=	http://www.jnet-jp.to/~sekisita/ewipe/
+MASTER_SITES=	http://www.jnet-jp.to/~sekisita/ewipe/ \
+		http://freefall.freebsd.org/~itojun/distfiles/
 
 MAINTAINER=	itojun@itojun.org
 
