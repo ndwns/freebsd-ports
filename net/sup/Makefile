@@ -11,8 +11,6 @@ PKGNAME=	sup-2.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
-MAINTAINER=	gibbs@FreeBSD.org
-
 MAN1=		sup.1
 MAN8=		supservers.8
 
