@@ -19,7 +19,7 @@ RUN_DEPENDS=	tex:${PORTSDIR}/print/tex
 
 IGNOREFILES=	${DISTFILES}
 
-#other equivalent sites: ftp.shsu.edu ftp.dante.de
+#other equivalent sites: ftp.cdrom.com ftp.dante.de
 CTAN?=		ftp.tex.ac.uk
 
 
