@@ -15,10 +15,10 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${DAEMONPIC}
 MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
-		gif\\.3\\.:${PORTSDIR}/graphics/giflib \
+		gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png \
-		tiff34\\.1:${PORTSDIR}/graphics/tiff34 \
+		tiff34.1:${PORTSDIR}/graphics/tiff34 \
 		PropList\\.0\\.8:${PORTSDIR}/x11-wm/windowmaker
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
