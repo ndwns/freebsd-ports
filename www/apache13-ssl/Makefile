@@ -17,6 +17,8 @@ MAINTAINER=     markm@freebsd.org
 BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 
+BROKEN=		repository copy
+
 EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 RESTRICTED=     "Contains cryptography"
