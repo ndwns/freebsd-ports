@@ -103,6 +103,7 @@
     SUBDIR += xshisen
     SUBDIR += xshogi
     SUBDIR += xskat
+    SUBDIR += xskewb
     SUBDIR += xsok
     SUBDIR += xsokoban
     SUBDIR += xsol
