@@ -9,13 +9,11 @@
 DISTNAME=	HDF4.1r1
 PKGNAME=	hdf-4.1r1
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/HDF/HDF_Current/tar/
+MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/HDF/HDF4.1r1/tar/
 
 MAINTAINER=	mi@aldan.ziplink.net
 
 LIB_DEPENDS=	jpeg:${PORTSDIR}/graphics/jpeg
-
-BROKEN=		build
 
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=	CC="$(CC)" -f
