@@ -6,12 +6,12 @@
 # $Id$
 #
 
-PKGNAME=	ja-yatex-1.66
-CATEGORIES=	japanese print elisp
+PKGNAME=	yatex-mule-1.66
+CATEGORIES=	print elisp
 
 MULE=		yes
 
-MASTERDIR=	${.CURDIR}/../../print/yatex
+MASTERDIR=	${.CURDIR}/../yatex
 PLIST=		${.CURDIR}/pkg/PLIST
 
 .include	"${MASTERDIR}/Makefile"
