@@ -1,12 +1,12 @@
 # ports collection makefile for:	mySQL
-# Version required:			v3.20.25
-# Date created:				11 Aug 1997
+# Version required:			v3.20.29
+# Date created:				15 Sep 1997
 # Whom:					Josh Tiefenbach <josh@ican.net>
 #
 # $Id$
 #
 
-DISTNAME=	mysql-3.20.25
+DISTNAME=	mysql-3.20.29
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/ \
 		http://www.buoy.com/mysql/ \
@@ -25,7 +25,7 @@ CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-perl \
 		--without-debug \
 		--without-readline
-CONFIGURE_ENV+=	PERL=${PREFIX}/bin/perl
+CONFIGURE_ENV+=	PERL=${PREFIX}/bin/perl INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 
 pre-install:
 	@ ${SETENV} ${MAKE_ENV} /usr/bin/perl ${SCRIPTDIR}/check_old_version
