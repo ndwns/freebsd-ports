@@ -35,6 +35,10 @@ CONFIGURE_ARGS=	--prefix=${PREFIX} --libdir=${SAMBA_CONFDIR} \
 		--localstatedir=${VARDIR} --with-swatdir=${PREFIX}/share/swat \
 		--with-lockdir=${VARDIR}/spool/lock
 
+.if defined(KRB5_HOME) && exists(${KRB5_HOME})
+CONFIGURE_ARGS+=--with-krb5=${KRB5_HOME}
+.endif
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 
 MAN1=		nmblookup.1 smbstatus.1 smbclient.1 smbrun.1 smbtar.1 \
