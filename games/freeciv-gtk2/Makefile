@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ada@bsd.org
 
+BROKEN='no route to the *single* mastersite'
+
 BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
