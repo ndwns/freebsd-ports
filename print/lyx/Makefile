@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	lyx-1.0.2
+DISTNAME=	lyx-1.0.3
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.lyx.org/pub/lyx/stable/ \
 		ftp://la1ad.uio.no/pub/lyx/ \
@@ -27,7 +27,7 @@ USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 STRIP=
-CONFIGURE_ARGS= --with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
+CONFIGURE_ARGS= --with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11 ${LOCALBASE}/include"
 MAN1=		lyx.1 reLyX.1
 
 pre-fetch:
