@@ -83,6 +83,7 @@
     SUBDIR += scotty
     SUBDIR += sendfile
     SUBDIR += slirp
+    SUBDIR += sniffit
     SUBDIR += socks5
     SUBDIR += strobe
     SUBDIR += sup
