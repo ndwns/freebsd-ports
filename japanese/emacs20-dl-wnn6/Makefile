@@ -21,7 +21,7 @@ RUN_DEPENDS=	emacs-dl-${EMACS_VER}:${EMACSDL_DIR}
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-wnn-includes=${PREFIX}/include/wnn --with-wnn6 \
-		--with-emacs-src=${EMACSDL_DIR}/work/emacs-${EMACS_VER}
+		--with-emacs-src=${WRKDIRPREFIX}${EMACSDL_DIR}/work/emacs-${EMACS_VER}
 CONFIGURE_ENV=	EMACS=emacs-dl-${EMACS_VER}
 PLIST_SUB=	EMACS_VER=${EMACS_VER} DOCDIR=${DOCDIR}
 
