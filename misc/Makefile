@@ -3,6 +3,7 @@
 
     SUBDIR += amanda
     SUBDIR += beav
+    SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += git
