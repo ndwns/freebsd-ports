@@ -6,11 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	xgraph-11
-PKGNAME=	xgraph-11.3.2
+DISTNAME=	xgraph-11.3.2
 CATEGORIES=	math print
-MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/R5contrib/
-EXTRACT_SUFX=	.tar.Z
+MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/misc/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
