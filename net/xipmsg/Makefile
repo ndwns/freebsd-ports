@@ -9,9 +9,9 @@
 DISTNAME=	xipmsg-8087
 PKGNAME=	xipmsg-0.8087
 CATEGORIES=	net
-MASTER_SITES=	http://spock.vector.co.jp/authors/VA004959/xipmsg/
+MASTER_SITES=	http://hp.vector.co.jp/authors/VA004959/xipmsg/
 
-MAINTAINER=	candy@fct.kgc.co.jp
+MAINTAINER=	candy@kgc.co.jp
 
 USE_IMAKE=	yes
 MAN1=		xipmsg.1
