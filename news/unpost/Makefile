@@ -8,7 +8,7 @@
 
 DISTNAME=	unpost-2.3.4
 CATEGORIES=	news
-MASTER_SITES=	ftp://ftp.rhein.de/pub/unix/news/
+MASTER_SITES=	http://www.freebsd.org/~steve/
 
 MAINTAINER=	volf@oasis.IAEhv.nl
 
