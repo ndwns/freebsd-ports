@@ -107,4 +107,3 @@ pre-clean:
 	@(cd ${PKGDIR}; ${RM} -f PLIST ${TMPL_FILES})
 
 .include <bsd.port.mk>
-
