@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	xscavenger-132
-PKGNAME=	xscavenger-1.3.2
+DISTNAME=	xscavenger-133
+PKGNAME=	xscavenger-1.3.3
 CATEGORIES=	games
-MASTER_SITES=	http://epyx.com/dash/
+MASTER_SITES=	http://www.epyx.com/dash/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	eivind@FreeBSD.org
