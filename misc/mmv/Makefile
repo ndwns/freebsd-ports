@@ -43,6 +43,6 @@ do-install:
 	 ln -fs ${PREFIX}/bin/mmv ${PREFIX}/bin/mad ; \
 	 ln -fs ${PREFIX}/bin/mmv ${PREFIX}/bin/mcp ; \
 	 ln -fs ${PREFIX}/bin/mmv ${PREFIX}/bin/mln ; \
-	 ${INSTALL_MAN} mmv.1 ${PREFIX}/man/man1 ; )
+	 ${INSTALL_MAN} ${WRKSRC}/mmv.1 ${PREFIX}/man/man1 ; )
 
 .include <bsd.port.mk>
