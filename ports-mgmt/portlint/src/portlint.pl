@@ -40,7 +40,7 @@ $portdir = '.';
 # version variables
 my $major = 2;
 my $minor = 4;
-my $micro = 2;
+my $micro = 3;
 
 sub l { '[{(]'; }
 sub r { '[)}]'; }
@@ -909,7 +909,7 @@ ldconfig ln md5 mkdir mv patch perl rm rmdir ruby sed sh touch tr which xargs xm
 	foreach my $i (keys %cmdnames) {
 		if ($j =~ /[ \t\/]$i[ \t\n;]/
 		 && $j !~ /\n[A-Z]+_TARGET[?+]?=[^\n]+$i/
-	     && $j !~ /^COMMENT(.)?=/) {
+	     && $j !~ /\nCOMMENT(.)?=/) {
 			&perror("WARN: possible direct use of command \"$i\" ".
 				"found. use $cmdnames{$i} instead.");
 		}
@@ -918,7 +918,7 @@ ldconfig ln md5 mkdir mv patch perl rm rmdir ruby sed sh touch tr which xargs xm
 	foreach my $i (keys %autocmdnames) {
 		if ($j =~ /[\s\/]($i\d*)[\s;]/
 			&& $j !~ /\n[A-Z]+_TARGET[?+]?=[^\n]+($i\d*)/
-			&& $j !~ /^COMMENT(.)?=/) {
+			&& $j !~ /\nCOMMENT(.)?=/) {
 				&perror("WARN: possible direct use of command \"$1\" ".
 					"found. Use $autocmdnames{$i} instead and ".
 					"set according USE_*_VER= flag");
