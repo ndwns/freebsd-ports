@@ -64,7 +64,8 @@ do-install:
 	${MKDIR} ${NDIR}/locale
 	${LN} -sf /usr/share/locale/en_US.ISO_8859-1 ${NDIR}/locale/${LANG}
 	${MKDIR} ${NDIR}/${LANG}
-.for f in mail.msg netscape.cfg plugins
+	${INSTALL_DATA} ${WRKSRC}/netscape.cfg ${NDIR}/
+.for f in mail.msg plugins
 	${INSTALL_DATA} ${WRKSRC}/$f ${NDIR}/${LANG}/
 .endfor
 .for f in Netscape about splash
