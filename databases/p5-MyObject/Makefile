@@ -1,16 +1,16 @@
 # New ports collection makefile for:	p5-MyObject
-# Version required:			1.1
 # Date created:				14 November 1999
 # Whom:					Chris D. Faulhaber <jedgar@fxp.org>
 #
 # $FreeBSD$
 #
 
-DISTNAME=	MyObject.pm
-PKGNAME=	p5-MyObject-1.1
+PORTNAME=	p5-MyObject
+PORTVERSION=	1.1
 CATEGORIES=	databases perl5
 MASTER_SITES=	http://www.frontierworld.com/perl/
 EXTRACT_SUFX=
+DISTNAME=	MyObject.pm
 
 MAINTAINER=	jedgar@FreeBSD.org
 
