@@ -1,5 +1,5 @@
-# New ports collection makefile for:	hobbes-icons.3000
-# Version required:	3000
+# New ports collection makefile for:	hobbes-icons-xpm3
+# Version required:	1.0
 # Date created:		19 October 1996
 # Whom:			pgs
 #
@@ -19,15 +19,21 @@ MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 USE_X11=	yes
 NO_BUILD=	yes
 
-# Where it will be installed (will have to change PLIST if you change this
-LIBDIR=         ${PREFIX}/lib/X11/xpm3
+# Where it will be installed (change pkg/PLIST if you change this)
+LIBDIR=		${PREFIX}/include/X11/pixmaps
 
 do-install:
-# Very dirty, but it works...
-	-${RM} ${WRKSRC}/README
-	-${RM} ${WRKSRC}/readem.shar
-	${MKDIR} ${PREFIX}/lib/X11/xpm3
+	${MKDIR} ${LIBDIR}
 	${CP} -R ${WRKSRC}/* ${LIBDIR}
-	chown -R ${BINOWN}.${BINGRP} ${LIBDIR}
+	chown -R ${BINOWN}:${BINGRP} ${LIBDIR}
+	-${RM} ${LIBDIR}/README
+	-${RM} ${LIBDIR}/readem.shar
+
+post-install:
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/hobbes-icons-xpm3
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/hobbes-icons-xpm3
+	${INSTALL_SCRIPT} ${WRKSRC}/*.shar ${PREFIX}/share/doc/hobbes-icons-xpm3
+.endif
 
 .include <bsd.port.mk>
