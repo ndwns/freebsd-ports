@@ -14,7 +14,7 @@ DISTFILES=	ue312dev.zip
 
 MAINTAINER=	ports@freebsd.org
 
-EXEC_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
+BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 NO_WRKSUBDIR=	yes
 PATCH_STRIP=	-p1

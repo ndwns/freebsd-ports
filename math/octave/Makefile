@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.che.utexas.edu/pub/octave/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-EXEC_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
+RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

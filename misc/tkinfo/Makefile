@@ -11,6 +11,8 @@ CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ptolemy.eecs.berkeley.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 
-EXEC_DEPENDS=	wish:${PORTSDIR}/x11/tk
+MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+
+RUN_DEPENDS=	wish:${PORTSDIR}/x11/tk
 
 .include <bsd.port.mk>
