@@ -36,6 +36,7 @@
     SUBDIR += p5-Archie
     SUBDIR += p5-IO
     SUBDIR += p5-Net
+    SUBDIR += p5-Net-DNS
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += radius
