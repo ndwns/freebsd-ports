@@ -35,6 +35,7 @@
     SUBDIR += hotjava
     SUBDIR += htmlpp
     SUBDIR += http-analyze
+    SUBDIR += httperf
     SUBDIR += hypermail
     SUBDIR += ijb
     SUBDIR += libghttp
