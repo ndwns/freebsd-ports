@@ -19,18 +19,29 @@ NO_BUILD=       Yes
 NDIR=           ${PREFIX}/lib/netscape
 BINDIR=		${PREFIX}/bin
 
+.if defined(USE_128BIT) && ${USA_RESIDENT} == NO
+MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
+		ftp://ftp.za.freebsd.org/pub/Fortify/
+DISTFILES+=	Fortify-1.1.5-unix.tar.gz
+RESTRICTED=     "Contains strong cryptography"
+.endif
+
 do-install:
 	cd ${WRKSRC} && yes "" | \
 	    LC_TIME=C MOZILLA_HOME="${NDIR}" ./ns-install
-	mv -f ${NDIR}/netscape ${NDIR}/navigator-4.04.bin
+	${MV} -f ${NDIR}/netscape ${NDIR}/navigator-4.04.bin
 	${INSTALL_SCRIPT} ${WRKSRC}/netscape ${BINDIR}/navigator-4.04
 	ln -sf navigator-4.04 ${BINDIR}/navigator-4
 	ln -sf navigator-4 ${BINDIR}/netscape
 	if [ ! -f ${NDIR}/mailcap ] ; then \
 	    ${INSTALL_DATA} ${FILESDIR}/mailcap ${NDIR}; \
 	fi
-	rm -rf ${NDIR}/movemail-src
+	${RM} -rf ${NDIR}/movemail-src
 	chown -R bin.bin ${NDIR}
+.if defined(USE_128BIT) && ${USA_RESIDENT} == NO
+	cd ${WRKSRC}/Fortify-1.1.5-unix && \
+		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/navigator-4.04.bin
+.endif
 
 post-install:
 	@${CAT} ${PKGDIR}/DESCR
