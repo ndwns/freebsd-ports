@@ -5,11 +5,12 @@
 #
 # $Id$
 #
+
 DISTNAME=       Mesa-2.0
 PKGNAME=	mesa-2.0
 CATEGORIES=	graphics
 MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/
-DISTFILES=      Mesa-2.0.tar.gz
+
 ALL_TARGET=	freebsd
 USE_X11=	yes
 
