@@ -24,4 +24,7 @@ USE_GMAKE=	yes
 ALL_TARGET=	ups
 MAN1=		ups.1
 
+post-install:
+	@${INSTALL_DATA} ${WRKSRC}/Ups ${X11BASE}/lib/X11/app-defaults
+
 .include <bsd.port.mk>
