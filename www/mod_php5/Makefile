@@ -9,7 +9,12 @@
 DISTNAME=	apache_1.0.0
 PKGNAME=	apache-1.0.0
 CATEGORIES+=	www
-MASTER_SITES=	ftp://ftp.ast.cam.ac.uk/pub/WWW/apache/
+MASTER_SITES=	ftp://www.apache.org/apache/dist/
+MASTER_SITES+=	ftp://gd.tuwien.ac.at/pub/infosys/servers/http/apache/dist/
+MASTER_SITES+=	ftp://ftp.uni-regensburg.de/pub/comp/infosystems/www/daemons/apache/dist/
+MASTER_SITES+=	ftp://Bond.edu.au/pub/apache/dist/
+MASTER_SITES+=	ftp://sunsite.mff.cuni.cz/Net/Infosystems/WWW/Servers/Apache/dist/
+MASTER_SITES+=	ftp://ftp.ast.cam.ac.uk/pub/WWW/apache/
 
 MAINTAINER=	pst@freebsd.org
 
