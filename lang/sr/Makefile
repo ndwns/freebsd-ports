@@ -28,7 +28,7 @@ pre-install:
 post-install:
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/sr/notes
-	${MKDIR} -p ${PREFIX}/share/doc/sr/ps
+	${MKDIR} ${PREFIX}/share/doc/sr/ps
 	${INSTALL_DATA} ${WRKSRC}/notes/* ${PREFIX}/share/doc/sr/notes
 	${INSTALL_DATA} ${WRKSRC}/ps/* ${PREFIX}/share/doc/sr/ps
 	${MKDIR} ${PREFIX}/share/examples/sr
