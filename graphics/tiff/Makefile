@@ -9,7 +9,7 @@
 #
 
 DISTNAME=	tiff-v3.4
-PKGNAME=	tiff-3.4
+PKGNAME=	tiff-3.4a
 CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.sgi.com/graphics/tiff/
 EXTRACT_SUFX=	-tar.gz
