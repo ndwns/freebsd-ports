@@ -22,6 +22,7 @@
     SUBDIR += xjewel
     SUBDIR += xkobo
     SUBDIR += xlife
+    SUBDIR += xmahjongg
     SUBDIR += xmille
     SUBDIR += xmine
     SUBDIR += xminesweep
