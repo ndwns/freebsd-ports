@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/tcpip/ \
 		ftp://proton.elka.pw.edu.pl/pub/unix/network/
 
 WRKSRC=		${WRKDIR}/rmsg
-MAN1=		rmsg.1 rmsgd.8
+MAN1=		rmsg.1
+MAN8=		rmsgd.8
 
 .include <bsd.port.mk>
