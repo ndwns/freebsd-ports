@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       apache_1.2.1
+PKGNAME=	apache-php-1.2.1
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/ \
 		ftp://ftp.nerosworld.com/pub/php/dist/ \
