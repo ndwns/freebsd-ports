@@ -13,9 +13,9 @@ MASTER_SITES=	http://www.shudo.net/jit/dist/
 MAINTAINER=	jake@checker.org
 
 BUILD_DEPENDS=	${PREFIX}/bin/ruby:${PORTSDIR}/lang/ruby \
-		${PREFIX}/jdk1.1.8/bin/javac:${PORTSDIR}/lang/jdk \
+		${PREFIX}/jdk1.1.8/bin/javac:${PORTSDIR}/java/jdk \
 		${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
-RUN_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/lang/jdk
+RUN_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/java/jdk
 
 .include <bsd.port.pre.mk>
 .if ${OSVERSION} < 400002

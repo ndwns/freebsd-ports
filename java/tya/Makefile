@@ -14,9 +14,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jake@checker.org
 
-BUILD_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/lang/jdk:install
+BUILD_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/java/jdk
 
-WRKSRC=		${WRKDIR}/tya1.3v2
+WRKSRC=		${WRKDIR}/${PKGNAME}
 
 ONLY_FOR_ARCHS=	i386
 

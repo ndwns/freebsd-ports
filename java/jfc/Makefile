@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/lang/jdk
+RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/java/jdk
 
 RESTRICTED=	"Cannot distribute without value-added application."
 WRKSRC=		${WRKDIR}/swing-1.1
