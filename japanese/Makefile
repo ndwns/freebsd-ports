@@ -153,6 +153,7 @@
     SUBDIR += vftool-misc
     SUBDIR += vfxdvi
     SUBDIR += vfxdvik
+    SUBDIR += vje-trial
     SUBDIR += w3
     SUBDIR += weblint97
     SUBDIR += wine
