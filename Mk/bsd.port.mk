@@ -281,7 +281,7 @@ ${INSTALL_COOKIE}:
 	@(cd ${WRKSRC}; ${GMAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
 .else defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
-.if defined(USE_IMAKE)
+.if defined(USE_IMAKE) && defined(INSTALL_MANPAGES)
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
 .endif
 .endif
