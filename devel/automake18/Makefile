@@ -1,12 +1,12 @@
 # New ports collection makefile for:	automake
-# Version required:	1.3
+# Version required:	1.4
 # Date created:		15 March 1997
 # Whom:			FUJIMOTO Kensaku <fujimoto@oscar.elec.waseda.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	automake-1.3
+DISTNAME=	automake-1.4
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
 MASTER_SITE_SUBDIR=	automake
