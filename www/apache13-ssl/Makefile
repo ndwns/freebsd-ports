@@ -33,7 +33,7 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/ \
 DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} \
 		apache_${APACHE}+ssl_${APACHE-SSL}${EXTRACT_SUFX}
 
-MAINTAINER=     Adam Laurie \<adam@algroup.co.uk\>
+MAINTAINER=     adam@algroup.co.uk
 
 
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
