@@ -17,6 +17,8 @@ LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 FILE_DEPENDS=	${PORTSDIR}/x11-toolkits/tk80
 
+BROKEN_ELF=	library names
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-shared --with-tk
