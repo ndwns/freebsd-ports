@@ -23,6 +23,6 @@ BROKEN=		../../lib/libfwf.a: cannot read symbols
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/FWF
-XMKMF=		env X11BASE=${X11BASE} WRKSRC=${WRKSRC} sh ${FILESDIR}/xmkmf
+XMKMF=		${SETENV} X11BASE=${X11BASE} WRKSRC=${WRKSRC} sh ${FILESDIR}/xmkmf
 
 .include <bsd.port.mk>

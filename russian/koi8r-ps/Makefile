@@ -77,7 +77,7 @@ do-install:
 			You can always merge ${CPS_DIR}/Fontmap.diff into \
 			${FONTMAP} manually. ; \
 		else \
-			env SIMPLE_BACKUP_SUFFIX=.CyrPS VERSION_CONTROL= \
+			${SETENV} SIMPLE_BACKUP_SUFFIX=.CyrPS VERSION_CONTROL= \
 				${PATCH} "${FONTMAP}" ${WRKSRC}/Fontmap.diff ; \
 			${RM} -f "${FONTMAP}".CyrPS ; \
 	fi

@@ -51,7 +51,7 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/texinputs/* ${PREFIX}/share/texmf/tex/latex/latex2html
 
 post-install:
-	@cd ${PREFIX}/share/latex2html && env LATEX2HTMLDIR=${PREFIX}/share/latex2html ${PERL5} ${PREFIX}/share/latex2html/install-test
+	@cd ${PREFIX}/share/latex2html && ${SETENV} LATEX2HTMLDIR=${PREFIX}/share/latex2html ${PERL5} ${PREFIX}/share/latex2html/install-test
 	@${INSTALL_SCRIPT} ${PREFIX}/share/latex2html/latex2html ${PREFIX}/bin
 	@${ECHO_MSG} "********************************************************"
 	@${ECHO_MSG} "Latex2html has now been installed with a very basic"

@@ -29,7 +29,7 @@ MAN7=		yodlmacros.7 \
 		yodlmanpage.7
 
 do-build:
-	(cd ${WRKSRC} && env CFLAGS="${CFLAGS}" ${GMAKE} PREFIX=${PREFIX} progs)
+	(cd ${WRKSRC} && ${SETENV} CFLAGS="${CFLAGS}" ${GMAKE} PREFIX=${PREFIX} progs)
 	(cd ${WRKSRC}/misc && gcc ${CFLAGS} -s -o striproff striproff.c)
 
 # this weird contortion is because the YODL makefile is broken
