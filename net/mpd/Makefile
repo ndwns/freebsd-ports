@@ -13,7 +13,10 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
 BROKEN=			if_tun.h
+.endif
 
 WRKSRC=			${WRKDIR}/mpd-1.0b3/src
 ALL_TARGET=		depend all
