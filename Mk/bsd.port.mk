@@ -538,15 +538,29 @@ do-patch:
 	@if [ -d ${PATCHDIR} ]; then \
 		${ECHO_MSG} "===>  Applying FreeBSD patches for ${PKGNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; do \
-			${ECHO_MSG} "===>   Applying FreeBSD patch $$i" ; \
-			${PATCH} ${PATCH_ARGS} < $$i; \
+			case $$i in \
+				*.orig|*~) \
+					${ECHO_MSG} "===>   Ignoring patchfile $$i" ; \
+					;; \
+				*) \
+					${ECHO_MSG} "===>   Applying FreeBSD patch $$i" ; \
+					${PATCH} ${PATCH_ARGS} < $$i; \
+					;; \
+			esac; \
 		done; \
 	fi
 .else
 	@if [ -d ${PATCHDIR} ]; then \
 		${ECHO_MSG} "===>  Applying FreeBSD patches for ${PKGNAME}" ; \
-		for i in ${PATCHDIR}/patch-*; \
-			do ${PATCH} ${PATCH_ARGS} < $$i; \
+		for i in ${PATCHDIR}/patch-*; do \
+			case $$i in \
+				*.orig|*~) \
+					${ECHO_MSG} "===>   Ignoring patchfile $$i" ; \
+					;; \
+				*) \
+					${PATCH} ${PATCH_ARGS} < $$i; \
+					;; \
+			esac; \
 		done;\
 	fi
 .endif
