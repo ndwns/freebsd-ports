@@ -8,7 +8,7 @@
 
 DISTNAME=	vnlpr
 PKGNAME=	vi-vnlpr-2.0
-CATEGORIES=	vietnamese
+CATEGORIES=	vietnamese print
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/
 EXTRACT_SUFX=	.tar.Z

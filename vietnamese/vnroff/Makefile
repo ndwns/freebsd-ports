@@ -9,7 +9,7 @@
 
 DISTNAME=	vnroff
 PKGNAME=	vi-vnroff-2.0
-CATEGORIES=	vietnamese
+CATEGORIES=	vietnamese print
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Troff/
 DISTFILES=	vnroff.c.Z vnroff.1.Z
 

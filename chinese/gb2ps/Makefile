@@ -9,7 +9,7 @@
 
 DISTNAME=	gb2ps.2.02
 PKGNAME=	zh-gb2ps-2.02
-CATEGORIES=	chinese
+CATEGORIES=	chinese print
 MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/print/  \
 		ftp://ftp.ifcss.org/pub/software/fonts/gb/misc/  \
 		ftp://ftp.edu.tw/Chinese/ifcss/software/unix/print/  \
