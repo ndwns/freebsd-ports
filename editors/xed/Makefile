@@ -18,9 +18,6 @@ MAINTAINER=	shanee@augusta.de
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
-XMKMF=		xmkmf
-
-pre-install:
-	cd $(WRKSRC); make install.man
+MAN1=		xed.1
 
 .include <bsd.port.mk>
