@@ -15,6 +15,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		repository copy from 1.0, awaiting upgrade to 1.44
+
 USE_X11=	yes
 INSTALL_TARGET=	install install.man
 MANCOMPRESSED=	yes
