@@ -6,19 +6,20 @@
 # $Id$
 #
 
-DISTNAME=	tcptrace-4.0.2
+DISTNAME=	tcptrace-4.1.3
 CATEGORIES=	net
-MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/4.0.2/
+MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/4.1.3/
 DISTFILES=	tcptrace.tar.gz
 
 MAINTAINER=	fenner@FreeBSD.ORG
 
+GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/tcptrace
 ALL_TARGET=	tcptrace
 
-DOCFILES=	COPYRIGHT README README.tput_graphs
+DOCFILES=	COPYRIGHT README README.modules README.tput_graphs WWW
 
-post-install:
+do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tcptrace ${PREFIX}/bin
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/tcptrace
