@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	unix-19980429
-PKGNAME=	mozilla-1998-04-29
+PKGNAME=	mozilla-1998.04.29
 CATEGORIES=	www
 MASTER_SITES=	ftp://mirror.neosoft.com/pub/mozilla/mozilla/source/ \
 		ftp://ftp.bitcon.no/pub/www/mozilla/mozilla/source/ \
