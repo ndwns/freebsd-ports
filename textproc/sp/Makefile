@@ -13,6 +13,6 @@ MASTER_SITES=	ftp://ftp.jclark.com/pub/sp/
 MAINTAINER=	jfieber@FreeBSD.ORG
 
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
