@@ -50,6 +50,7 @@
     SUBDIR += libshhcards
     SUBDIR += lincity
     SUBDIR += maelstrom
+    SUBDIR += merlin
     SUBDIR += nethack
     SUBDIR += nethack-qt
     SUBDIR += netris
