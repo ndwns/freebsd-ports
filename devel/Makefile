@@ -6,6 +6,7 @@
     SUBDIR += bcc
     SUBDIR += boehm-gc
     SUBDIR += cflow
+    SUBDIR += cutils
     SUBDIR += cxref
     SUBDIR += dmake
     SUBDIR += gcc11
