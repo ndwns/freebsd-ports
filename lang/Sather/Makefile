@@ -6,9 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       Sather-1.0.4
+DISTNAME=       Sather-1.0.5
 MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
-DISTFILES=      Sather-1.0.4.tar.Z
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
 
@@ -17,5 +16,6 @@ install:
 	@if [ ! -e ${PREFIX}/man/man1 ]; then mkdir -p ${PREFIX}/man/man1; fi
 	install -c -m 555 ${WRKSRC}/Compiler/cs ${PREFIX}/bin
 	install -c -m 555 ${WRKSRC}/Doc/man/man1/cs.1 ${PREFIX}/man/man1
+	gzip -9 -f ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
