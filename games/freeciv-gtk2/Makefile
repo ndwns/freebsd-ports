@@ -1,15 +1,16 @@
 # New ports collection makefile for:	freeciv
-# Version required:	1.0k
+# Version required:	1.46
 # Date created:		Jun 20 1997
 # Whom:			ada@bsd.org
 #
 # $Id$
 #
 
-DISTNAME=	freeciv-1.0k
+DISTNAME=	freeciv-150
+PKGNAME=	freeciv-1.50
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.daimi.aau.dk/pub/stud/pjunold/
-EXTRACT_SUFX=	.tar.Z
+MASTER_SITES=	ftp://ftp.daimi.aau.dk/pub/stud/pjunold/freeciv/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ada@bsd.org
 
