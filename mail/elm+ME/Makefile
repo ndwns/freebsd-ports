@@ -17,10 +17,5 @@ IS_INTERACTIVE=	is_set
 
 # Packaging
 NO_PACKAGE=	is_set
-# PKGDIR=	pkg
-
-pre-configure:
-	@echo "===> Running pre-configure target for ${DISTNAME}"
-	@sh ${SCRIPTDIR}/preconf ${PORTSDIR} ${.CURDIR} ${WRKSRC}
 
 .include <bsd.port.mk>
