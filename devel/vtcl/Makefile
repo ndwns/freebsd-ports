@@ -16,9 +16,9 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
-WRKSRC=		${WRKDIR}/vtcl-1.2.0
+WRKSRC=		${WRKDIR}/${PKGNAME}
 NO_BUILD=	yes
-DIST_SUBDIR=	vtcl
+DIST_SUBDIR=	${PKGNAME}
 
 do-install:
 	@ ${MKDIR} ${PREFIX}/lib/vtcl/images
