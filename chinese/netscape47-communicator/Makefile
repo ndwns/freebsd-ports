@@ -19,7 +19,6 @@ RUN_DEPENDS?=	\
 		${X11BASE}/lib/aout/zh-XFree86-aoutlibs-3.3.6:${.CURDIR}/../XFree86-aoutlibs \
 		${LOCALBASE}/bin/${BROWSER_ARC}-${BROWSER_VERSION}:${PORTSDIR}/www/netscape${BROWSER_VER}-${BROWSER} \
 		${LOCALBASE}/lib/aout/libxpg4-ns.so.2.0:${PORTSDIR}/www/libxpg4-ns \
-		${X11BASE}/lib/X11/locale/zh_TW.Big5/XLC_LOCALE:${PORTSDIR}/x11/XFree86 \
 		${X11BASE}/lib/X11/fonts/TrueType/bsmi00lp.ttf:${PORTSDIR}/chinese/arphicttf
 
 # These variables can be defined in ports that include this Makefile.
