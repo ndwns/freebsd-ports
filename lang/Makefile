@@ -14,6 +14,7 @@
     SUBDIR += cmucl
     SUBDIR += dylan
     SUBDIR += egcs
+    SUBDIR += egcs-devel
     SUBDIR += eiffel
     SUBDIR += elisp-manual
     SUBDIR += elk
