@@ -7,14 +7,17 @@
 #
 
 DISTNAME=       arena-beta-1e
-CATEGORIES+=    www x11
+PKGNAME=	arena-b1e
+CATEGORIES+=    www
 MASTER_SITES=   ftp://ftp.w3.org/pub/arena/beta-1/
-DISTFILES=      arena-beta-1e-src.tgz
-WRKSRC=         ${WRKDIR}/WWW
+EXTRACT_SUFX=   -src.tgz
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 LIB_DEPENDS+=   jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=   png\\.0\\.:${PORTSDIR}/graphics/png
 
-MAINTAINER=     ache@FreeBSD.ORG
+WRKSRC=         ${WRKDIR}/WWW
 
 do-build:
 	cd ${WRKSRC}/Library/freebsd; ${MAKE}
