@@ -16,10 +16,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=     obrien@cs.ucdavis.edu
 
 post-install:
-.if !defined{NOMANCOMPRESS}
-.for mp in figlet.6
-	gzip -9nf ${PREFIX}/man/man6/${mp}
-.endfor
-.endif
+	${COMPRESS_MAN} ${PREFIX}/man/man6/figlet.6
 
 .include <bsd.port.mk>

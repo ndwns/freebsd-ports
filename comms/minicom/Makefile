@@ -26,9 +26,9 @@ pre-install:
 .endif
 
 post-install:
-.if !defined(NOMANCOMPRESS)
-	@for mp in minicom.1 runscript.1 ascii-xfr.1 ; do \
-		gzip -9nf ${PREFIX}/man/man1/$$mp ; done
-.endif
+	${COMPRESS_MAN}  \
+		${PREFIX}/man/minicom.1  \
+		${PREFIX}/man/runscript.1  \
+		${PREFIX}/man/ascii-xfr.1
 
 .include <bsd.port.mk>
