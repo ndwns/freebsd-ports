@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://xraysoft.chem.ruu.nl/pub/unix/
 
 MAINTAINER=	rmiya@cc.hirosaki-u.ac.jp
 
+BROKEN='MD5 checksum error'
+
 # PLATON may be used free of charge by the academic community under
 # the condition that it is not redistributed for a current & fresh copy.
 # There is a charge of US$ 5000 for commercial users.
