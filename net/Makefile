@@ -2,8 +2,9 @@
 #
 # Broken - gn, dgd-lpmud
 # Broken for XFree3.x - wais
+# Broken - gopher (upgraded, new one uses fgetpwent())
 
-SUBDIR= archie cern_httpd cern_linemode chimera dgd fspclient gated gopher \
+SUBDIR= archie cern_httpd cern_linemode chimera dgd fspclient gated \
 	imm irc \
 	ircII lynx ncftp2 nv pcnfsd pidentd pmf samba scotty slirp sup tclDP \
 	tcp_wrapper tcpblast tkined tkWWW tintin++ wu-ftpd xarchie \
