@@ -53,7 +53,6 @@
     SUBDIR += jbigkit
     SUBDIR += jgv
     SUBDIR += jpeg
-    SUBDIR += kdegraphics
     SUBDIR += kdegraphics11
     SUBDIR += killustrator
     SUBDIR += lfview

@@ -49,12 +49,9 @@
     SUBDIR += gnomecore
     SUBDIR += gnomelibs
     SUBDIR += kb2mb2
-    SUBDIR += kde
     SUBDIR += kde11
-    SUBDIR += kdebase
     SUBDIR += kdebase11
     SUBDIR += kdebase11-i18n
-    SUBDIR += kdelibs
     SUBDIR += kdelibs11
     SUBDIR += kdelibs11-i18n
     SUBDIR += kvidtune

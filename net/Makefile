@@ -85,7 +85,6 @@
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
     SUBDIR += jmirror
-    SUBDIR += kdenetwork
     SUBDIR += kdenetwork11
     SUBDIR += kdetelnet
     SUBDIR += kicq

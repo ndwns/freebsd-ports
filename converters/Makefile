@@ -5,7 +5,6 @@
     SUBDIR += btoa
     SUBDIR += i18ntools
     SUBDIR += ish
-    SUBDIR += kdesupport
     SUBDIR += kdesupport11
     SUBDIR += kdesupport11-i18n
     SUBDIR += libutf-8
