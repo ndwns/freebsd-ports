@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/editor/HanEmacs/ \
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+NOT_FOR_ARCHS=	alpha
+
 WRKSRC=		${WRKDIR}/hanemacs-19.34
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
