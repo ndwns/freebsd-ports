@@ -249,6 +249,7 @@
     SUBDIR += xnetmaj
     SUBDIR += xshodo
     SUBDIR += xshodou
+    SUBDIR += xt	
     SUBDIR += xv
     SUBDIR += zipcodes
 
