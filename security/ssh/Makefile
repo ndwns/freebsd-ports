@@ -9,6 +9,7 @@
 DISTNAME=       ssh-1.2.12a
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
+LIB_DEPENDS=    z\\.0\\.:${PORTSDIR}/devel/libz
 BUILD_DEPENDS+= wish:${PORTSDIR}/x11/tk
 BUILD_DEPENDS+= perl5.001:${PORTSDIR}/lang/perl5
 
