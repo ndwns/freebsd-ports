@@ -9,7 +9,7 @@
 DISTNAME=       xmille
 PKGNAME=	xmille-2.0
 CATEGORIES+=	games
-MASTER_SITES=	ftp://gatekeeper.dec.com/.b/X11-contrib/
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11-contrib/
 EXTRACT_SUFX=   .tar.Z
 
 USE_IMAKE=      yes
