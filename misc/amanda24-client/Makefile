@@ -6,7 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	amanda-2.4.1
+DISTNAME=	amanda-2.4.1p1
+PKGNAME=	amanda-2.4.1
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.amanda.org/pub/amanda/
 
@@ -15,11 +16,12 @@ MAINTAINER=	cwt@FreeBSD.ORG
 BUILD_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
-WRKSRC=		${WRKDIR}/amanda-2.4.1
+WRKSRC=		${WRKDIR}/amanda-2.4.1p1
 NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --libexecdir=${PREFIX}/libexec/amanda \
 		--with-amandahosts --with-fqdn \
+		--with-dump-honor-nodump \
 		--with-user=operator --with-group=operator
 
 PATCH_STRIP=
