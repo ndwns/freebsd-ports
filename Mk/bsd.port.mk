@@ -425,7 +425,7 @@ ${CONFIGURE_COOKIE}:
 		sh ${SCRIPTDIR}/configure; \
 	fi
 .if defined(HAS_CONFIGURE)
-	@(cd ${WRKSRC}; CC="${CC}" CFLAGS="${CFLAGS}" \
+	@(cd ${WRKSRC}; CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
 	    INSTALL="${INSTALL} ${COPY} -o ${BINOWN} -g ${BINGRP}" \
 	    INSTALL_PROGRAM="${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE}" \
 	    ./configure ${CONFIGURE_ARGS})
