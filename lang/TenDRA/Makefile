@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://alph.dera.gov.uk/pub/TenDRA/
 MAINTAINER=	rnordier@FreeBSD.ORG
 
 ONLY_FOR_ARCHS=	i386
+OSRELEASE!=	uname -r
+PLIST_SUB=	OSRELEASE=${OSRELEASE}
 
 MAN1=		calculus.1 disp.1 lexi.1 pl.1 sid.1 tcc.1 tchk.1 \
 		tcpplus.1 tdfc2.1 tld.1 tnc.1 trans.1 tspec.1
@@ -49,7 +51,7 @@ pre-install:
 		INSTALL >INSTALL.install && \
 	chmod a+x INSTALL.install)
 
-do-install:
+do-install: ${TMPPLIST}
 	@${MKDIR} ${PREFIX}/lib/TenDRA
 	@(PATH=${WRKSRC}/bin:$$PATH && \
 	cd ${WRKSRC} && \
@@ -60,8 +62,8 @@ do-install:
 	@(cd ${PREFIX} && \
 	chown -R ${BINOWN}:${BINGRP} lib/TenDRA && \
 	find -X lib/TenDRA -type d | xargs chmod 755 && \
-	${GREP} '^lib/' ${PLIST} | xargs chmod ${SHAREMODE} && \
-	${GREP} '/bin/' ${PLIST} | xargs chmod ${BINMODE})
+	${GREP} '^lib/' ${TMPPLIST} | xargs chmod ${SHAREMODE} && \
+	${GREP} '/bin/' ${TMPPLIST} | xargs chmod ${BINMODE})
 	@(cd ${PREFIX}/man/man1 && \
 	chown ${MANOWN}:${MANGRP} ${MAN1} && \
 	chmod ${MANMODE} ${MAN1})
