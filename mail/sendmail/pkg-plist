@@ -25,9 +25,9 @@ sbin/sendmail
 @group
 @comment (overwritten by pkg_add) chown root:smmsp sbin/sendmail
 @exec chmod 2555 %D/sbin/sendmail
-%%PORTDOCS%%share/doc/sendmail/op.ps
-%%PORTDOCS%%share/doc/sendmail/op.txt
-%%PORTDOCS%%share/doc/sendmail/DEVTOOLS
-%%PORTDOCS%%share/doc/sendmail/SENDMAIL
-%%PORTDOCS%%share/doc/sendmail/MAIL.LOCAL
-%%PORTDOCS%%share/doc/sendmail/SMRSH
+%%PORTDOCS%%%%DOCSDIR%%/op.ps
+%%PORTDOCS%%%%DOCSDIR%%/op.txt
+%%PORTDOCS%%%%DOCSDIR%%/DEVTOOLS
+%%PORTDOCS%%%%DOCSDIR%%/SENDMAIL
+%%PORTDOCS%%%%DOCSDIR%%/MAIL.LOCAL
+%%PORTDOCS%%%%DOCSDIR%%/SMRSH
