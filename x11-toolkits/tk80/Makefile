@@ -15,6 +15,7 @@ MAINTAINER=	jkh@Freebsd.ORG
 
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 
+USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
