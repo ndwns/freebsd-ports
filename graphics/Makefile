@@ -52,6 +52,7 @@
     SUBDIR += kdegraphics
     SUBDIR += kdegraphics11
     SUBDIR += killustrator
+    SUBDIR += lfview
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
     SUBDIR += mpeg2play
