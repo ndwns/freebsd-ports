@@ -25,10 +25,6 @@ pre-patch:
 post-extract:
 	${CP} ${WRKDIR}/wmmon/Makefile.FreeBSD ${WRKSRC}/Makefile
 
-pre-clean:
-	${RM} ${WRKDIR}/wmmon-freebsd.patch
-	${RM} -rf ${WRKDIR}/wmmon
-
 post-install:
 	strip ${PREFIX}/bin/wmmon
 
