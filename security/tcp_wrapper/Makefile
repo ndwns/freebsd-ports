@@ -20,5 +20,12 @@ MAN8=		tcpd.8 tcpdchk.8 tcpdmatch.8
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+	@${INSTALL_DATA} ${FILESDIR}/inetd.conf.wrapped.sample ${PREFIX}/etc
+
+update:
+	@cd ${FILESDIR} ; co -f $(CVSROOT)/src/etc/inetd.conf,v
+	@${SED} 's:/usr/libexec/[a-zA-Z]*:${PREFIX}/libexec/tcpd:g'  \
+		< ${FILESDIR}/inetd.conf  > ${FILESDIR}/inetd.conf.wrapped.sample
+	@${RM} -f ${FILESDIR}/inetd.conf
 
 .include <bsd.port.mk>
