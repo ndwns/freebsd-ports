@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	majorcool
-PKGNAME=	majorcool-1.1.0
+PKGNAME=	majorcool-1.1.2
 CATEGORIES=	mail
 MASTER_SITES=	http://ncrinfo.ncr.com/pub/contrib/unix/MajorCool/
 
