@@ -9,8 +9,6 @@
 DISTNAME=	xcpustate-2.4
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/xcpustate/  \
-		ftp://ftp.vector.co.za/pub/FAQS/FAQs/mirrors/ftp.cdf.toronto.edu/xcpustate/  \
-		ftp://ftp.csie.nctu.edu.tw/pub/Vendors/sun/sun-faq/FAQs/mirrors/ftp.cdf.toronto.edu/xcpustate/  \
 		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
 EXTRACT_SUFX=	.shar.gz
