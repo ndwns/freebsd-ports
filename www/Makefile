@@ -41,6 +41,7 @@
     SUBDIR += linbot
     SUBDIR += linemode
     SUBDIR += linux-netscape4
+    SUBDIR += linux-netscape46-communicator
     SUBDIR += lynx
     SUBDIR += lynx-current
     SUBDIR += lynx-ssl
