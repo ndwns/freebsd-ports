@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xferstats-2.13
+DISTNAME=	xferstats-2.14
 CATEGORIES=	net
 MASTER_SITES=	http://xferstats.off.net/download/xferstats-2.00/ \
 		ftp://xferstats.off.net/pub/xferstats/xferstats-2.00/ \
