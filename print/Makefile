@@ -29,6 +29,7 @@
     SUBDIR += ghostscript5
     SUBDIR += ghostscript55
     SUBDIR += ghostview
+    SUBDIR += gnomeprint
     SUBDIR += gp
     SUBDIR += gsfonts
     SUBDIR += gv
