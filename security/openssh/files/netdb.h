@@ -55,6 +55,8 @@
 /*
  *      @(#)netdb.h	8.1 (Berkeley) 6/2/93
  *      From: Id: netdb.h,v 8.9 1996/11/19 08:39:29 vixie Exp $
+ * ported from:
+ * FreeBSD: src/include/netdb.h,v 1.14 2000/02/08 05:12:45 shin Exp
  * $FreeBSD$
  */
 
@@ -190,7 +192,7 @@ struct addrinfo {
 /*
  * Scope delimit character
  */
-#define	SCOPE_DELIMITER	'@'
+#define	SCOPE_DELIMITER	'%'
 
 __BEGIN_DECLS
 void		endhostent __P((void));
