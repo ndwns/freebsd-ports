@@ -18,8 +18,13 @@ USE_GMAKE=	yes
 MAKE_ENV=	MAKEPROG=gmake
 MAN1=		star.1
 
+.if ${MACHINE_ARCH} != "i386"
+post-extract:
+	@${LN} -sf i386-freebsd-cc.rul ${WRKSRC}/RULES/${MACHINE_ARCH}-freebsd-cc.rul
+.endif
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/star/OBJ/i386-freebsd-cc/star ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/star/OBJ/${MACHINE_ARCH}-freebsd-cc/star ${PREFIX}/bin
 	${LN} -sf ${PREFIX}/bin/star ${PREFIX}/bin/ustar
 	${INSTALL_MAN} ${WRKSRC}/star/star.1 ${PREFIX}/man/man1
 
