@@ -28,8 +28,8 @@ PLIST_SUB=	DOCDIR=${L_DOCDIR} HELPDIR=${L_HELPDIR} \
 INSTALL_TARGET= install install-help
 MAN1=		lynx.1
 
-RUN_DEPENDS=	unzip:${PORTSDIR}/arhivers/unzip \
-		zip:${PORTSDIR}/arhivers/zip
+RUN_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
+		zip:${PORTSDIR}/archivers/zip
 
 L_ETCDIR=	etc
 L_DOCDIR=	share/doc/lynx
