@@ -64,6 +64,7 @@
     SUBDIR += spider
     SUBDIR += starlanes
     SUBDIR += tank
+    SUBDIR += tinymux
     SUBDIR += tksol
     SUBDIR += tvp
     SUBDIR += xabacus
