@@ -6,18 +6,19 @@
 # $Id$
 #
 
-DISTNAME=       bash-2.02.1
+DISTNAME=       bash-2.03
 CATEGORIES=	shells
 MASTER_SITES=   ${MASTER_SITE_GNU} \
 		ftp://slc2.ins.cwru.edu/pub/dist/
 MASTER_SITE_SUBDIR=	bash
 .if !defined(NOPORTDOCS)
-DISTFILES=      bash-2.02.1.tar.gz bash-doc-2.02.tar.gz
+DISTFILES=      bash-2.03.tar.gz bash-doc-2.02.tar.gz
 .endif
 
 MAINTAINER=	ache@FreeBSD.ORG
 
 GNU_CONFIGURE=	Yes
+CONFIGURE_ENV=	LDFLAGS=-static
 MAN1=		bash.1 bashbug.1
 
 pre-install:
