@@ -12,6 +12,21 @@ CATEGORIES+=	mail
 MASTER_SITES=	ftp://thumper.bellcore.com/pub/nsb/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
+
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/audiocompose.1 \
+	${PREFIX}/man/man1/audiosend.1 ${PREFIX}/man/man1/extcompose.1 \
+	${PREFIX}/man/man1/getfilename.1 ${PREFIX}/man/man1/mailto-hebrew.1 \
+	${PREFIX}/man/man1/mailto.1 ${PREFIX}/man/man1/metamail.1 \
+	${PREFIX}/man/man1/metasend.1 ${PREFIX}/man/man1/mime.1 \
+	${PREFIX}/man/man1/mimencode.1 ${PREFIX}/man/man1/mmencode.1 \
+	${PREFIX}/man/man1/patch-metamail.1 ${PREFIX}/man/man1/richtext.1 \
+	${PREFIX}/man/man1/showaudio.1 ${PREFIX}/man/man1/showexternal.1 \
+	${PREFIX}/man/man1/shownonascii.1 ${PREFIX}/man/man1/showpartial.1 \
+	${PREFIX}/man/man1/showpicture.1 ${PREFIX}/man/man1/splitmail.1 \
+	${PREFIX}/man/man4/mailcap.4
 
 .include <bsd.port.mk>
