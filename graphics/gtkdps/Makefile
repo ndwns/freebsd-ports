@@ -1,15 +1,15 @@
 # New ports collection makefile for:   gtkdps
-# Version required:    0.2.11
+# Version required:    0.2.16
 # Date created:        21 April 1998
 # Whom:                Yukihiro Nakai <Nakai@technologist.com>
 #
 # $Id$
 #
 
-DISTNAME=	gtkDPS-0.2.11
-PKGNAME=	gtkdps-0.2.11
+DISTNAME=	gtkDPS-0.2.16
+PKGNAME=	gtkdps-0.2.16
 CATEGORIES=	graphics
-MASTER_SITES= 	ftp://ftp.aist-nara.ac.jp/pub/personal/masata-y/gyve/fullkit/gyve-0.1.2.4/
+MASTER_SITES= 	ftp://ftp.aist-nara.ac.jp/pub/personal/masata-y/gyve/fullkit/gyve-0.2.1/
 
 MAINTAINER=	Nakai@technologist.com
 
