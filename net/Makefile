@@ -65,6 +65,7 @@
     SUBDIR += icmpinfo
     SUBDIR += icmpquery
     SUBDIR += icqlib
+    SUBDIR += icqnix
     SUBDIR += ipw
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
