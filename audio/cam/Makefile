@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	cam-1.02
-CATEGORIES+=	audio
-EXTRACT_SUFX=	.tgz
+CATEGORIES=	audio
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/apps/sound/mixers/
+EXTRACT_SUFX=	.tgz
 
 .include <bsd.port.mk>
