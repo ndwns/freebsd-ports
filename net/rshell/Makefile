@@ -8,7 +8,7 @@
 
 DISTNAME=      rshell-1.0
 CATEGORIES=    net
-MASTER_SITES=  ${MASTER_SITE_LOCAL}
+MASTER_SITES=  http://www.freebsd.org/~wosch/src/
 
 MAINTAINER=    wosch@FreeBSD.ORG
 
