@@ -25,17 +25,17 @@ XCAT1= ${X11BASE}/man/cat1
 
 do-install:
 	cd ${WRKSRC}; \
-	${INSTALL} -c -s -m ${BINMODE} -o ${BINOWN} -g ${BINGRP} xfedor ${PREFIX}/bin
+	${INSTALL_PROGRAM} xfedor ${PREFIX}/bin
 	-mkdir -p ${XFHELP}
 	chown ${SHAREOWN}.${SHAREGRP} ${XFHELP}
 	chmod 755 ${XFHELP}
 	cd ${WRKSRC}/help; \
-	${INSTALL} -c -m ${SHAREMODE} -o ${SHAREOWN} -g ${SHAREGRP} * ${XFHELP}
-	${INSTALL} -c -m ${SHAREMODE} -o ${SHAREOWN} -g ${SHAREGRP} ${FILESDIR}/default.sos ${XFHELP}
+	${INSTALL_DATA} * ${XFHELP}
+	${INSTALL_DATA} ${FILESDIR}/default.sos ${XFHELP}
 	-mkdir -p ${XCAT1}
 	chown ${MANOWN}.${MANGRP} ${XCAT1}
 	chmod 755 ${XCAT1}
 	cd ${WRKSRC}; \
-	${INSTALL} -c -m ${MANMODE} -o ${MANOWN} -g ${MANGRP} xfedor.txt ${XCAT1}/xfedor.1
+	${INSTALL_MAN} xfedor.txt ${XCAT1}/xfedor.1
 
 .include <bsd.port.mk>
