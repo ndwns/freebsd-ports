@@ -47,6 +47,7 @@
     SUBDIR += tvtwm
     SUBDIR += viewfax
     SUBDIR += x3270
+    SUBDIR += xalarm
     SUBDIR += xautolock
     SUBDIR += xbuffy
     SUBDIR += xcb
