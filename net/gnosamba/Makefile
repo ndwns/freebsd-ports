@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	gtksamba-0.1.1
-CATEGORIES=	net x11
+CATEGORIES=	net
 MASTER_SITES=	http://www.open-systems.com/gtksamba/
 
 MAINTAINER=	andy@icc.surw.chel.su
