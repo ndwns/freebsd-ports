@@ -18,6 +18,8 @@ PATCH_DIST_STRIP= -p1
 
 MAINTAINER=	avatar@www.mmlab.cse.yzu.edu.tw
 
+BROKEN_ELF=	does not build ELF libs
+
 NO_LATEST_LINK= yes
 
 MAN1= 		pine.1 pico.1 pilot.1
