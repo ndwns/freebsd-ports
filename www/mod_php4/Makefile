@@ -12,12 +12,12 @@ CATEGORIES=	www
 MASTER_SITES=	http://www.apache.org/dist/ \
 		http://www.rge.com/pub/infosystems/apache/dist/ \
 		http://www.apache.de/dist/ \
-		http://www.php.net/distributions/ \
-		http://us.php.net/distributions/ \
+		http://www.php.net/version4/downloads/ \
+		http://us.php.net/version4/downloads/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://apache.compuex.com/pub/apache/dist/ \
-		http://php.he.net/distributions/ \
-		http://www.php3.de/distributions/ \
+		http://php.he.net/version4/downloads/ \
+		http://www.php3.de/version4/downloads/ \
 		ftp://apache.arctic.org/pub/apache/dist/ \
 		ftp://ftp.epix.net/pub/apache/dist/ \
 		ftp://ftp.ameth.org/pub/mirrors/ftp.apache.org/apache/dist/ \
@@ -29,7 +29,8 @@ MASTER_SITES=	http://www.apache.org/dist/ \
 		ftp://ftp.mtnranch.net/pub/apache/dist/ \
 		ftp://ftp.iodynamics.com/pub/mirror/apache/dist/ \
 		ftp://apache.nextpath.com/pub/apache/dist/
-DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP}.tar.gz
+#DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP}.tar.gz
+DISTFILES=	php-${VERSION_PHP}.tar.gz
 
 MAINTAINER=	dirk@FreeBSD.org
 
