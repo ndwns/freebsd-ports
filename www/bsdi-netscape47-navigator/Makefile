@@ -13,6 +13,8 @@ DISTFILES=      navigator-v45-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 NO_LATEST_LINK=	yes
 WRKSRC=         ${WRKDIR}/navigator-v45.x86-unknown-freebsd
 NO_BUILD=       Yes

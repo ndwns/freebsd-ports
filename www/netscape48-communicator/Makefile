@@ -14,6 +14,8 @@ AUTOADMIN=      autoadmin-v408.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 NO_FILTER_SHLIBS=	yes
 WRKSRC=         ${WRKDIR}/communicator-v408.x86-unknown-freebsd
 NO_BUILD=       Yes

@@ -17,6 +17,8 @@ MAINTAINER=     tom@eborcom.com
 RUN_DEPENDS=    /compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 BUILD_DEPENDS=  /compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+
 WRKSRC=		${WRKDIR}/communicator-v408.x86-unknown-linux1.2
 NO_BUILD=       Yes
 

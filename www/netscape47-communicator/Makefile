@@ -15,6 +15,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	thepish@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/communicator-v45.x86-unknown-freebsd
 NO_BUILD=	Yes

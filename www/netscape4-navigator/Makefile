@@ -13,6 +13,8 @@ DISTFILES=	navigator-v408-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     sada@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 WRKSRC=		${WRKDIR}/navigator-v408.x86-unknown-freebsd
 NO_BUILD=       Yes
 STRIP=
