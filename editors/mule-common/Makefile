@@ -35,10 +35,10 @@ MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 		japanese/mule-wnn4 \
 		japanese/mule-wnn6 \
 		korean/mule-wnn4
-.if exists(${.CURDIR}/../../${dir}/work/.install_done)
-WRKDIR=		${.CURDIR}/../../${dir}/work
-.elif exists(${.CURDIR}/../../${dir}/work/.build_done)
-WRKDIR?=	${.CURDIR}/../../${dir}/work
+.if exists(${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work/.install_done)
+WRKDIR=		${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work
+.elif exists(${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work/.build_done)
+WRKDIR?=	${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work
 .endif
 .endfor
 WRKSRC= ${WRKDIR}/emacs-19.34
