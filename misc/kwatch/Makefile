@@ -9,7 +9,7 @@
 DISTNAME=	kwatch-0.3
 CATEGORIES=	misc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.0/apps/utils
+MASTER_SITE_SUBDIR= stable/1.1/apps/utils
 
 MAINTAINER=	zerium@webindex.no
 
