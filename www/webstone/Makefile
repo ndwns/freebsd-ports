@@ -9,7 +9,8 @@
 DISTNAME=      WebStone-2.0
 PKGNAME=       webstone-2.0.1
 CATEGORIES=    www benchmarks
-MASTER_SITES=  http://www.sgi.com/Products/WebFORCE/WebStone/
+#WebStone no longer distributed by SGi
+#MASTER_SITES=  http://www.sgi.com/Products/WebFORCE/WebStone/
 
 MAINTAINER=    sauber@netcom.com
 
