@@ -10,6 +10,7 @@
     SUBDIR += dap
     SUBDIR += esound
     SUBDIR += gmod
+    SUBDIR += gnomeaudio
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += kdemultimedia
