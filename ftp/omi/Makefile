@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=       omi-alpha-8
+DISTNAME=       omi-alpha-9
 CATEGORIES=	net
 MASTER_SITES=   http://dorifer.heim3.tu-clausthal.de/~olli/omi/
 
@@ -19,7 +19,8 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/omi ${PREFIX}/bin
 	${INSTALL} -d -m 755 -o ${DOCOWN} -g ${DOCGRP} \
 		${PREFIX}/share/doc/omi
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/omi
+	${INSTALL_DATA} ${WRKSRC}/README.txt ${PREFIX}/share/doc/omi
+	${INSTALL_DATA} ${WRKSRC}/README.html ${PREFIX}/share/doc/omi
 	${INSTALL_DATA} ${WRKSRC}/CHANGES ${PREFIX}/share/doc/omi
 	${INSTALL_DATA} ${WRKSRC}/BSD-COPYRIGHT ${PREFIX}/share/doc/omi
 
