@@ -108,6 +108,7 @@
     SUBDIR += onew-canna+wnn6
     SUBDIR += onew-wnn4
     SUBDIR += onew-wnn6
+    SUBDIR += p5-jcode.pl
     SUBDIR += p5-manual
     SUBDIR += perl5
     SUBDIR += pgp.language
