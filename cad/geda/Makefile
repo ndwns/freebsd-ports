@@ -20,7 +20,8 @@ LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CPPFLAGS="${CFLAGS}"
+CONFIGURE_ENV=	CPPFLAGS="${CFLAGS}" 
+CONFIGURE_ARGS=	--with-gtk-config=${X11BASE}/bin/gtk10-config
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
