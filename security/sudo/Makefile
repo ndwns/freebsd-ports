@@ -6,17 +6,17 @@
 # $Id$
 #
 
-DISTNAME=	cu-sudo.v1.5.3
-PKGNAME=	sudo-1.5.3
+DISTNAME=	cu-sudo.v1.5.4
+PKGNAME=	sudo-1.5.4
 CATEGORIES=	security
-MASTER_SITES=	ftp://freestuff.cs.colorado.edu/pub/sysadmin/sudo/
+MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/sysadmin/sudo/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@rrnet.com
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-C2 --with-skey --with-fbsdops
-WRKSRC=		${WRKDIR}/sudo.v1.5.3
+WRKSRC=		${WRKDIR}/sudo.v1.5.4
 MAN5=		sudoers.5
 MAN8=		sudo.8 visudo.8
 
