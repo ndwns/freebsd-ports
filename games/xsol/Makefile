@@ -8,7 +8,6 @@
 
 DISTNAME=       xsol-new
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
-EXTRACT_SUFX=	.tar.Z
 USE_IMAKE=      yes
 
 .include <bsd.port.mk>
