@@ -6,6 +6,7 @@
     SUBDIR += ha
     SUBDIR += hpack.non-usa.only
     SUBDIR += lha
+    SUBDIR += rar
     SUBDIR += unarj
     SUBDIR += unrar
     SUBDIR += unzip
