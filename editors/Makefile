@@ -14,6 +14,7 @@
     SUBDIR += vile
     SUBDIR += vim
     SUBDIR += xcoral
+    SUBDIR += xed
     SUBDIR += xemacs
     SUBDIR += xvile
 
