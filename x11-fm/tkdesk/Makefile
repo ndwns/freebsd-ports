@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	tkdesk-1.0
+DISTNAME=	tkdesk-1.1
 CATEGORIES=	x11-fm tk42
 MASTER_SITES=	http://people.mainz.netsurf.de/~bolik/tkdesk/
 
