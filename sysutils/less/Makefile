@@ -7,10 +7,7 @@
 #
 
 DISTNAME=       less-252
-# Commented out, often busy
-# MASTER_SITES=  ftp://prep.ai.mit.edu/pub/gnu/
-# Mirror:
-MASTER_SITES=   ftp://ftp.uu.net/systems/gnu/
+MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
 GNU_CONFIGURE=	YES
 
 .include <bsd.port.mk>
