@@ -140,7 +140,6 @@
     SUBDIR += portlint
     SUBDIR += prcs
     SUBDIR += pth
-    SUBDIR += pth-devel
     SUBDIR += py-kjbuckets
     SUBDIR += py-mxDateTime
     SUBDIR += py-mxStack
