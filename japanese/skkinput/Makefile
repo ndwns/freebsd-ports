@@ -6,26 +6,27 @@
 # $Id$
 #
 
-DISTNAME=	skkinput-2.00
-PKGNAME=	ja-skkinput-2.00
+DISTNAME=	skkinput-2.03
+PKGNAME=	ja-skkinput-2.03
 CATEGORIES=	japanese x11
-MASTER_SITES=	http://www.yajima.kuis.kyoto-u.ac.jp/staffs/sakamoto/skkinput/
+MASTER_SITES=	http://member.nifty.ne.jp/Tatari_SAKAMOTO/
 
-MAINTAINER=	mrt@mickey.ai.kyutech.ac.jp
+MAINTAINER=	yasuf@big.or.jp
 
-RUN_DEPENDS=	${LOCALBASE}/libexec/skkserv:${PORTSDIR}/japanese/skk \
-		jman:${PORTSDIR}/japanese/man
+RUN_DEPENDS=	${LOCALBASE}/sbin/skkserv:${PORTSDIR}/japanese/skkserv
 
 USE_IMAKE=	yes
 MANLANG=	ja
 MAN1=		skkinput.1
 MANCOMPRESSED=	yes
 
+DOCS=		*.jis skkinput.doc myeval/skkinputlisp.doc dot.skkinput
+
 post-install:
 .if !defined(NOPORTDOCS)
-	@${MKDIR} ${X11BASE}/share/doc/skkinput
+	@${MKDIR} ${PREFIX}/share/doc/skkinput
 	@( cd ${WRKSRC} ; \
-	   ${INSTALL_DATA} *.jis skkinput.doc ${X11BASE}/share/doc/skkinput/ )
+	   ${INSTALL_DATA} ${DOCS} ${PREFIX}/share/doc/skkinput )
 .endif
 
 .include <bsd.port.mk>
