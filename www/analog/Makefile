@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       analog2.90beta4
-PKGNAME=        analog-2.90b4
+DISTNAME=       analog3.0
+PKGNAME=        analog-3.0
 CATEGORIES=	www
 MASTER_SITES=   http://www.statslab.cam.ac.uk/~sret1/analog/ \
 		http://www.lightside.net/analog/ \
