@@ -18,6 +18,7 @@
     SUBDIR += numpy
     SUBDIR += octave
     SUBDIR += oleo
+    SUBDIR += simpack
     SUBDIR += ss
     SUBDIR += umatrix
     SUBDIR += wingz
