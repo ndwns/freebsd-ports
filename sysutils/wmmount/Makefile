@@ -21,7 +21,11 @@ USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-extract:
-	@ ${WRKSRC}/system.wmmount.awk >${WRKSRC}/system.wmmount
+	@ if [ -r /etc/fstab ]; then \
+		${WRKSRC}/system.wmmount.awk >${WRKSRC}/system.wmmount; \
+	  else \
+		${CP} ${WRKSRC}/system.wmmount.eg ${WRKSRC}/system.wmmount; \
+	  fi
 
 do-install:
 	@ ${MKDIR} ${PREFIX}/lib/X11/wmmount
