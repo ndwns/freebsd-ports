@@ -30,6 +30,7 @@
     SUBDIR += mkhybrid12
     SUBDIR += mkisofs
     SUBDIR += no-login
+    SUBDIR += npadmin
     SUBDIR += pib
     SUBDIR += pkg_version
     SUBDIR += psmisc
