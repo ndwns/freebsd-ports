@@ -618,7 +618,7 @@ do-fetch:
 					continue 2; \
 				fi \
 			done; \
-			${ECHO_MSG} ">> Couldn't fetch it - please try to retreive this";\
+			${ECHO_MSG} ">> Couldn't fetch it - please try to retrieve this";\
 			${ECHO_MSG} ">> port manually into ${DISTDIR} and try again."; \
 			exit 1; \
 	    fi \
@@ -641,7 +641,7 @@ do-fetch:
 					continue 2; \
 				fi \
 			done; \
-			${ECHO_MSG} ">> Couldn't fetch it - please try to retreive this";\
+			${ECHO_MSG} ">> Couldn't fetch it - please try to retrieve this";\
 			${ECHO_MSG} ">> port manually into ${DISTDIR} and try again."; \
 			exit 1; \
 	    fi \
