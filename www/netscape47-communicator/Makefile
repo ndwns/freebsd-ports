@@ -13,6 +13,7 @@ DISTFILES=      communicator-v45b1-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     thepish@FreeBSD.ORG
 
+NO_LATEST_LINK=	yes
 WRKSRC=         ${WRKDIR}/communicator-v45b1.x86-unknown-freebsd
 NO_BUILD=       Yes
 
