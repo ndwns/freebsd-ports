@@ -10,7 +10,7 @@ DISTNAME=	sp-1.3
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.jclark.com/pub/sp/
 
-MAINTAINER=	jfieber@FreeBSD.ORG
+MAINTAINER=	chuckr@FreeBSD.ORG
 
 post-patch:
 	$(CP) $(WRKSRC)/Makefile $(WRKSRC)/Makefile.sed
