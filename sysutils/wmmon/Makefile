@@ -8,8 +8,12 @@
 
 DISTNAME=	wmmon-1.0b2
 CATEGORIES=	sysutils
-MASTER_SITES=	ftp://ftp.mezaway.org/pub/
-DISTFILES=	wmmon-1.0b2.tar.gz wmmon-1.0b2-bsd.tar.gz
+MASTER_SITES=	ftp://ftp.mezaway.org/pub/ \
+		http://www.physics.adelaide.edu.au/~kkennawa/ \
+		ftp://ftp.tecnogi.com/pub/linux/WindowMaker/ \
+		ftp://ftp.deva.net/pub/sources/X11/WindowMaker/dockapps/ \
+		ftp://ftp.paco.odessa.ua/.2/x11/wm/WindowMaker/apps/
+DISTFILES=	wmmon-1.0b2.tar.gz wmmon-1.0b2-freebsd.tar.gz
 
 MAINTAINER=	kkennawa@physics.adelaide.edu.au
 
@@ -19,18 +23,24 @@ USE_X_PREFIX=   yes
 
 WRKSRC=		${WRKDIR}/wmmon.app/wmmon
 
-pre-patch:
-	cd ${WRKDIR}/wmmon.app && ${PATCH} -p < ${WRKDIR}/wmmon-freebsd.patch
+.include <bsd.port.pre.mk>
 
-post-extract:
-	${CP} ${WRKDIR}/wmmon/Makefile.FreeBSD ${WRKSRC}/Makefile
+pre-patch:
+	@cd ${WRKDIR}/wmmon.app && ${PATCH} -p < ${WRKDIR}/wmmon-freebsd.patch
+
+post-patch:
+.if ${OSVERSION} >= 300000
+	@${CP} ${WRKDIR}/wmmon/Makefile.FreeBSD-3.0 ${WRKSRC}/Makefile
+.else
+	@${CP} ${WRKDIR}/wmmon/Makefile.FreeBSD-2.2 ${WRKSRC}/Makefile
+.endif
 
 post-install:
-	strip ${PREFIX}/bin/wmmon
+	@strip ${PREFIX}/bin/wmmon
 
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/wmmon
 	${INSTALL_MAN} ${WRKSRC}/../HINTS ${PREFIX}/share/doc/wmmon
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
