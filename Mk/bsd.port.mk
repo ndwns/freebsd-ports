@@ -6,7 +6,7 @@
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
 #	This file is in the public domain.
 #
-# $Id$
+# $FreeBSD$
 #
 # Please view me with 4 column tabs!
 
