@@ -20,8 +20,6 @@ LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 WITH_TCL=	--with-tcl
 .endif
 
-BROKEN_ELF=	yes
-
 NO_PACKAGE=	"Requires pgsql uid"
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
@@ -101,7 +99,7 @@ post-install:
 	fi
 	@ chown -R pgsql:pgsql ${PREFIX}/pgsql
 	@ ${ECHO} 'Initializing PostgreSQL Databases - this may take a few minutes...'
-	@ ${LDCONFIG} -m ${PREFIX}/pgsql/lib
+	@ ${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/pgsql/lib
 	@ su -l pgsql -c '${PREFIX}/pgsql/bin/initdb --pglib=${PREFIX}/pgsql/lib --pgdata=${PREFIX}/pgsql/data'
 	@ ${SED} -e "s=!!PREFIX!!=${PREFIX}=g" < ${FILESDIR}/pgsql.sh.tmpl \
 		> ${PREFIX}/etc/rc.d/pgsql.sh
