@@ -17,6 +17,8 @@ LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		guile.4:${PORTSDIR}/lang/guile
 BUILD_DEPENDS=	automake:${PORTSDIR}/devel/automake
 
+BROKEN_ELF=	yes
+
 USE_X_PREFIX=   yes
 GNU_CONFIGURE=  yes
 USE_GMAKE= 	yes
