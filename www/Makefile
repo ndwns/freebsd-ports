@@ -70,6 +70,7 @@
     SUBDIR += wml
     SUBDIR += wn
     SUBDIR += wwwcount
+    SUBDIR += wwwoffle
     SUBDIR += wwwstat
     SUBDIR += xitami
 
