@@ -64,7 +64,6 @@ scsh-0.4.4.tar.gz	ports/shells/scsh	The author requested not to
 						in the CD-ROM.
 sdr-2.3*		ports/mbone/sdr		Crypto; export-controlled
 socks5-*		ports/net/socks5	No commercial use
-spice-3f4		ports/cad/spice		Export restrictions
 ssh-*			ports/security/ssh	Crypto; export-controlled
 SSLeay-0.5.1b.tar.gz	ports/security/SSLeay	Crypto; export-controlled
 su2-1.3.tar.gz		ports/sysutils/su2	Don't sell for profit.
