@@ -15,7 +15,8 @@ MAINTAINER=     wosch@FreeBSD.org
 
 LANG=		de_DE.ISO_8859-1
 NO_WRKSUBDIR=	YES
-NO_CHECKSUM=	YES
+IGNOREFILES=	${DISTFILES}
+PLIST=		${WRKSRC}/PLIST
 
 mandir=		${PREFIX}/man/${LANG}
 manpages=	manpages-de
@@ -35,6 +36,6 @@ do-install:
 post-install:
 	find ${WRKSRC}/${manpages} -type f -print | \
 		sed "s%${WRKSRC}/${manpages}%man/${LANG}%" > \
-	   ${WRKSRC}/PLIST && cp -f ${WRKSRC}/PLIST ${.CURDIR}/pkg/PLIST
+	   ${WRKSRC}/PLIST
 
 .include <bsd.port.mk>
