@@ -18,6 +18,7 @@
     SUBDIR += etlfonts
     SUBDIR += emiclock
     SUBDIR += emu
+    SUBDIR += fbsd-icons
     SUBDIR += filerunner
     SUBDIR += freefonts
     SUBDIR += fvwm
