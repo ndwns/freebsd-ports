@@ -38,6 +38,8 @@ post-install:
 		echo "[ -x /usr/local/sbin/httpsd ] && /usr/local/sbin/httpsd && echo -n ' httpsd'" >> ${PREFIX}/etc/rc.d/apache_ssl.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/apache_ssl.sh; \
 	fi
+	@echo "Please note: in order to install a certificate you have to type:"
+	@echo "    make certificate"
 
 .if !defined(USA_RESIDENT) || ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
 pre-fetch:
@@ -52,5 +54,9 @@ pre-build:
 	${PATCH} <${FILESDIR}/Makefile.rsa.patch
 .endif
 .endif
+
+certificate:
+	cd ${WRKSRC}; ${MAKE} ${MAKE_ENV} $@
+	cp ${WRKSRC}/SSLconf/conf/httpsd.pem ${PREFIX}/certs/cert.pem
 
 .include <bsd.port.mk>
