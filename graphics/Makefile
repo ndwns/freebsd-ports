@@ -19,6 +19,7 @@
     SUBDIR += giftool
     SUBDIR += giftrans
     SUBDIR += gimp-devel
+    SUBDIR += graphviz
     SUBDIR += hdf
     SUBDIR += hobbes-icons-xpm
     SUBDIR += hpscan
