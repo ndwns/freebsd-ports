@@ -14,7 +14,6 @@ MASTER_SITE_SUBDIR=	utils/compress
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-#NO_PACKAGE=	ignores cflags
 USE_GMAKE=	yes
 MAKE_ENV=	MAKEPROG=gmake CCOM=${CC}
 MAN1=		star.1
