@@ -318,7 +318,9 @@
     SUBDIR += pgplot
     SUBDIR += pho
     SUBDIR += photopc
+    SUBDIR += php4-exif
     SUBDIR += php4-gd
+    SUBDIR += php4-ming
     SUBDIR += php5-gd
     SUBDIR += phplot
     SUBDIR += picturebook
