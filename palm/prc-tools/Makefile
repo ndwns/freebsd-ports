@@ -20,8 +20,10 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 
 MAINTAINER=     ports@freebsd.org
 
+BROKEN=		strip
+
 # install things in ${LOCALBASE}/palm to avoid conflicts
-PREFIX=		${LOCALBASE}/palm
+PREFIX=		${LOCALBASE}/pilot
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
 USE_PERL5=	yes
@@ -67,9 +69,6 @@ STRIP=		build-prc \
 # after we apply freebsd patches, apply prc-tool's patches to gcc/gdb/...
 post-patch:
 		(cd ${WRKSRC} ; make patch)
-
-pre-install:
-		${MKDIR} ${PREFIX}
 
 # the info files are redundant
 post-install:
