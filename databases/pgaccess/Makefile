@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.flex.ro/pgaccess/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+WWW_SITE=	http://www.flex.ro/pgaccess
+
 RUN_DEPENDS=	${PREFIX}/pgsql/bin/postmaster:${PORTSDIR}/databases/postgresql
 
 WRKSRC=		${WRKDIR}/pgaccess
