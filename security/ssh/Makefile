@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ssh
-# Version required:     1.2.25
+# Version required:     1.2.*
 # Date created:		30 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
@@ -9,7 +9,7 @@
 # USE_PERL, USE_TCPWRAP
 #
 
-DISTNAME=       ssh-1.2.26
+DISTNAME=       ssh-1.2.27
 CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/security/login/ssh/
 
