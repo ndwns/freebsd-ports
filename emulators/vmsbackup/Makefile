@@ -2,6 +2,7 @@
 # Version required:	3.0
 # Date created:		18 Apr 1994
 # Whom:			Jonathan M. Bresler (jmb)
+#
 # $Id$
 #
 
@@ -14,6 +15,9 @@ MASTER_SITES=	ftp://ftp.cs.uni-sb.de/pub/utils/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jmb@FreeBSD.org
+
+MAN1=		vmsbackup.1
+MANCOMPRESSED=	yes
 
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 -f
 

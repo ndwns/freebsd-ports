@@ -14,6 +14,9 @@ MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		xmorph.1
+MANCOMPRESSED=	yes
+
 USE_X_PREFIX=	yes
 
 post-patch:

@@ -13,6 +13,9 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
+MAN6=		xrisk.6
+MANCOMPRESSED=	yes
+
 USE_X_PREFIX=	yes
 RESTRICTED=	"Possible trademark infringement"
 

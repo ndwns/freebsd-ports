@@ -12,4 +12,7 @@ MASTER_SITES=	ftp://ftp.csua.berkeley.edu/pub/daveh/
 
 MAINTAINER=	daveh@csua.berkeley.edu
 
+MAN1=		nwrite.1
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

@@ -14,6 +14,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		splitmpeg.1
+MANCOMPRESSED=	yes
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

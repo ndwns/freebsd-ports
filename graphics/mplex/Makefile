@@ -13,4 +13,7 @@ MASTER_SITES=	ftp://ftp.informatik.tu-muenchen.de/pub/comp/graphics/mpeg/mplex/
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		mplex.1
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

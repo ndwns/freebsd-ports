@@ -15,6 +15,9 @@ MASTER_SITE_SUBDIR=	apps/graphics/hacks/X
 
 MAINTAINER=	matt@bdd.net
 
+MAN1=		xtacy.1
+MANCOMPRESSED=	yes
+
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/Xtacy
 ALL_TARGET=	xtacy

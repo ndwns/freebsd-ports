@@ -13,6 +13,9 @@ MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		9term.1
+MANCOMPRESSED=	yes
+
 # needs library and private header, but not during runtime
 BUILD_DEPENDS=	/always_build_it:${PORTSDIR}/plan9/sam
 

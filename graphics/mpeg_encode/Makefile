@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://mm-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/encode/
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		mpeg_encode.1
+MANCOMPRESSED=	yes
+
 WRKSRC=		${WRKDIR}/mpeg_encode
 
 .include <bsd.port.mk>

@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://ftp.sra.co.jp/pub/cmd/
 
 MAINTAINER=	nobu@psrc.isac.co.jp
 
+MAN1=		fep.1
+MANCOMPRESSED=	yes
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

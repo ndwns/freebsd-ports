@@ -15,6 +15,9 @@ DISTFILES=	ashe_cci.tar.Z cci.tar.Z libhtmlw.tar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+MAN1=		xhtml.1
+MANCOMPRESSED=	yes
+
 REQUIRES_MOTIF=	yes
 NO_WRKSUBDIR=	yes
 USE_X_PREFIX=	yes

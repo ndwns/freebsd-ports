@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://mm-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/stat/
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=		mpeg_stat.1
+MANCOMPRESSED=	yes
+
 WRKSRC=		${WRKDIR}/mpeg_stat
 
 .include <bsd.port.mk>
