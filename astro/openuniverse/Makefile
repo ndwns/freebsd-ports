@@ -10,7 +10,6 @@ DISTNAME=		ssystem-1.5
 CATEGORIES=		astro
 MASTER_SITES=		http://www1.las.es/~amil/ssystem/ \
 			http://www.msu.edu/~kamelkev/
-FETCH_BEFORE_ARGS=	-b
 
 MAINTAINER=		andy@icc.surw.chel.su
 
@@ -20,7 +19,7 @@ LIB_DEPENDS=		jpeg.9:${PORTSDIR}/graphics/jpeg \
 			glut.3:${PORTSDIR}/graphics/Mesa3
 
 MAKEFILE=		Makefile.FreeBSD
-
+FETCH_BEFORE_ARGS=	-b
 USE_X_PREFIX=		yes
 
 do-install:
