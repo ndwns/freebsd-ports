@@ -16,6 +16,8 @@ MAINTAINER=     ache@FreeBSD.ORG
 LIB_DEPENDS+=   jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=   png\\.2\\.:${PORTSDIR}/graphics/png
 
+BROKEN=		png upgrade
+
 WRKSRC=         ${WRKDIR}/WWW
 
 do-build:
