@@ -19,10 +19,15 @@ RUN_DEPENDS=	rman:${PORTSDIR}/textproc/rman \
 
 NO_CDROM=	"License required"
 
-.if !defined(NOPORTDOCS)
+post-patch:
+	perl -pi -e "s;/usr/local/bin/wish;${PREFIX}/bin/wish8.0;" \
+		${WRKSRC}/contrib/tkmanclient
+
 post-install:
+.if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/tkman
 	${INSTALL_DATA} ${WRKSRC}/tkman-help.html ${PREFIX}/share/doc/tkman
 .endif
+	${INSTALL_SCRIPT} ${WRKSRC}/contrib/tkmanclient ${PREFIX}/bin
 
 .include <bsd.port.mk>
