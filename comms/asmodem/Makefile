@@ -15,8 +15,9 @@ MAINTAINER=     ports@FreeBSD.ORG
 
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
-USE_GMAKE=      yes
+USE_GMAKE=	yes
 USE_IMAKE=	yes
+MAN1=		asmodem.1
 
 post-install:
 		strip ${PREFIX}/bin/asmodem
