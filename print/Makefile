@@ -6,6 +6,7 @@
     SUBDIR += afm
     SUBDIR += apsfilter
     SUBDIR += bibcard
+    SUBDIR += bibview
     SUBDIR += c2ps
     SUBDIR += detex
     SUBDIR += dvi2tty
