@@ -150,6 +150,7 @@
     SUBDIR += xvier
     SUBDIR += xvmahjongg
     SUBDIR += xvmines
+    SUBDIR += xworm
     SUBDIR += xzip
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
