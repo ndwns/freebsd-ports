@@ -2,6 +2,7 @@
 #
 
     SUBDIR += adcomplain
+    SUBDIR += asmail
     SUBDIR += bulk_mailer
     SUBDIR += cucipop
     SUBDIR += cyrus
