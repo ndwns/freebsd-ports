@@ -32,6 +32,9 @@ latex_tfm-${VERSION}.tar.gz:
 latex_tools-${VERSION}.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros latex/packages/tools.tar.gz ${DISTDIR}/$@
 
+pre-fetch:
+	@chmod +x ${FTPGET}
+
 do-build:
 	@(cd ${WRKSRC}/base; yes | initex unpack.ins)
 	@(cd ${WRKSRC}/base; TEXFONTS=${WRKSRC}/tfm:; export TEXFONTS; \

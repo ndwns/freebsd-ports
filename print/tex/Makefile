@@ -44,6 +44,9 @@ modes.mf:
 tex_base.tar.gz:
 	@${FTPGET} ${CTAN} /tex-archive/macros plain/base.tar.gz ${DISTDIR}/$@
 
+pre-fetch:
+	@chmod +x ${FTPGET}
+
 do-build: 
 	@(cd ${WRKSRC}/web2c; make triptrap)
 	@(cd ${WRKSRC}/web2c; make run-triptrap)
