@@ -38,6 +38,7 @@
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += nana
+    SUBDIR += nasm
     SUBDIR += noweb
     SUBDIR += omniBroker
     SUBDIR += omniORB
