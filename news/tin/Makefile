@@ -22,9 +22,10 @@ CONFIGURE_ENV+=  cf_cv_corefile=yes
 CONFIGURE_ARGS+= --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/lib/news \
-		 --with-pgp=/usr/local/bin/pgp \
-		 --with-ispell=/usr/local/bin/ispell \
-		 --with-metamail=/usr/local/bin/metamail
+		 --enable-forgery \
+		 --with-pgp=${PREFIX}/bin/pgp \
+		 --with-ispell=${PREFIX}/bin/ispell \
+		 --with-metamail=${PREFIX}/bin/metamail
 MAKEFILE=	makefile
 ALL_TARGET=     build
 
