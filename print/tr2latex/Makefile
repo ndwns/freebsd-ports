@@ -12,7 +12,7 @@ CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	support
 
-MAINTAINER=	tg@FreeBSD.org
+MAINTAINER=	ports@FreeBSD.org
 
 MAN1=		tr2latex.1
 
