@@ -17,11 +17,13 @@ MASTER_SITE_SUBDIR=	wget
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+LIB_DEPENDS=	intl.1:${PORTSDIR}/devel/gettext
+
 GNU_CONFIGURE=	yes
 
 post-install:
 	if [ ! -f ${PREFIX}/info/dir ]; then \
-		sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
 	-install-info ${PREFIX}/info/wget.info ${PREFIX}/info/dir
 
