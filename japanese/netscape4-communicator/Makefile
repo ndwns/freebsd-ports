@@ -28,6 +28,8 @@ MSG_LANG=		-us
 RUN_DEPENDS=	${X11BASE}/lib/X11/k12:${PORTSDIR}/japanese/k12 \
 		${X11BASE}/lib/X11/fonts/misc/5x10B.pcf.Z:${PORTSDIR}/japanese/k10
 
+MANUAL_PACKAGE_BUILD=	have to set ENGLISH and NAGIVATOR variables
+
 DISTFILES=	${DISTFILE}
 EXTRACT_ONLY=	${DISTFILE}
 MASTER_SITES+=	http://www.bpel.tutics.tut.ac.jp/~take/Netscape/etc/ \
