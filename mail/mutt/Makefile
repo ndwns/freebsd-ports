@@ -26,7 +26,11 @@ PATCHFILES=	02.keys.PATCH  \
 		05.bind.PATCH  \
 		08.undisclosed.PATCH  \
 		09.attach.PATCH  \
-		10.noop.PATCH
+		10.noop.PATCH  \
+		11.external.PATCH  \
+		12.tagged.PATCH  \
+		13.random.PATCH
+#		don't apply cleanly:
 #		06.setgid.PATCH  \
 #		07.configure.in.PATCH  \
 
