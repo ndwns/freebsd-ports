@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mysql-3.22.21
+DISTNAME=	mysql-3.22.22
 CATEGORIES=	databases
 MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
 		ftp://ftp.digex.net/pub/database/mysql/Downloads/MySQL-3.22/ \
@@ -20,8 +20,8 @@ Y2K=            http://www.tcx.se/Manual_chapter/manual_Introduction.html#Year_2
 
 MAN1=		mysql.1
 
-USE_PERL5=	YES
-GNU_CONFIGURE=	YES
+USE_PERL5=	yes
+GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-perl \
 		--without-debug \
