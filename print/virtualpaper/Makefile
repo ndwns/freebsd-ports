@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	virtualpaper-1.4
-DIST_SUBDIR=	virtualpaper-1.4
 CATEGORIES=	print
 MASTER_SITES=	http://www.research.digital.com:80/SRC/virtualpaper/cgi-bin/nph-download.tcl/sources.tar.Z?object=Virtual+Paper/
 DISTFILES=	sources.tar.Z
@@ -17,6 +16,7 @@ MAINTAINER=	jdp@FreeBSD.org
 BUILD_DEPENDS=	m3build-4:${PORTSDIR}/lang/modula-3
 LIB_DEPENDS=	m3\\.4\\.:${PORTSDIR}/lang/modula-3-lib
 
+DIST_SUBDIR=	virtualpaper-1.4
 MAN1=		LecternClient.1 Lectern.1 BuildLectern.1 EditLectern.1
 
 do-build:
