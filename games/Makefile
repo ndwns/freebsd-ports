@@ -69,6 +69,7 @@
     SUBDIR += qstat
     SUBDIR += quakeserver
     SUBDIR += seabattle
+    SUBDIR += seahaven
     SUBDIR += sokoban
     SUBDIR += spellcast
     SUBDIR += spider
