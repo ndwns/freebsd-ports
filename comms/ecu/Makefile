@@ -1,12 +1,12 @@
 # New ports collection makefile for:    ecu
-# Version required:     3.38.06
+# Version required:     3.39
 # Date created:         Feb 18, 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       ecu-3.38.06
+DISTNAME=       ecu-3.39
 CATEGORIES+=	comms
 MASTER_SITES=   ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/Communications/ \
 		ftp://ftp.kiae.su/unix/comm/
