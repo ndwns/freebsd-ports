@@ -1,14 +1,14 @@
 # New ports collection makefile for:	LPRng
-# Version required:	3.2.3
+# Version required:	3.3.3
 # Date created:		2 Apr 1997
 # Whom:			desmo@bandwidth.org
 #
 # $Id$
 #
 
-DISTNAME=	LPRng-3.2.3
+DISTNAME=	LPRng-3.3.3
 CATEGORIES=	sysutils print
-MASTER_SITES=	ftp://dickory.sdsu.edu/pub/LPRng/
+MASTER_SITES=	ftp://ftp.astart.com/pub/LPRng/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	desmo@bandwidth.org
