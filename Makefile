@@ -5,6 +5,7 @@ SUBDIR += archivers
 SUBDIR += audio
 SUBDIR += benchmarks
 SUBDIR += cad
+SUBDIR += chinese
 SUBDIR += comms
 SUBDIR += databases
 SUBDIR += devel
