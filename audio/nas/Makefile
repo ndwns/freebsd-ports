@@ -12,6 +12,8 @@ CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	audio/nas
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 USE_IMAKE=	yes
 ALL_TARGET=	World
 # no need to "xmkmf -a" and create the Makefiles twice -- see above
