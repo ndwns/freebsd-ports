@@ -8,7 +8,7 @@
 
 DISTNAME=	ko-kaistfonts-ksc-1.0
 CATEGORIES=	korean x11-fonts
-MASTER_SITES=	ftp://sensor.kaist.ac.kr/pub/fonts/newones/
+MASTER_SITES=	ftp://ftp.kr.freebsd.org/pub/FreeBSD-kr/distfiles/
 DISTFILES=	kaist-newmj18.bdf.gz ks_philgi16.bdf.gz \
 		kaist-newmj16.bdf.gz ks_iyagi16.bdf.gz
 
@@ -26,5 +26,8 @@ do-extract:
 	for file in ${DISTFILES}; do \
 		${GUNZIP_CMD} -c < ${_DISTDIR}/$$file > `echo $$file | ${SED} -e 's/\.Z//' -e 's/\.gz//'`; \
 	done
+
+post-install:
+	${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
