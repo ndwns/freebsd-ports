@@ -13,7 +13,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tsiag-2.80.tar.gz
 
 MAINTAINER=	ports@freebsd.org
 
-LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
+LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d \
+		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/siag
