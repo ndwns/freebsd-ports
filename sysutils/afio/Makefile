@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       afio.2.4.1
-PKGNAME=        afio-2.4.1
+DISTNAME=       afio.2.4.2
+PKGNAME=        afio-2.4.2
 CATEGORIES=     sysutils
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	system/Backup
@@ -15,6 +15,19 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=	nox@jelal.hb.north.de
 
+ALL_TARGET=	afio
 MAN1=		afio.1
+
+
+post-install:
+.if !defined(NOPORTDOCS)
+	@${MKDIR} ${PREFIX}/share/doc/afio
+	@(cd ${WRKSRC} ; \
+		${INSTALL_MAN} README SCRIPTS ${PREFIX}/share/doc/afio)
+	@${MKDIR} ${PREFIX}/share/example/afio
+	@${INSTALL_SCRIPT} ${FILESDIR}/afiodump.example ${PREFIX}/share/example/afio
+	@${INSTALL_SCRIPT} ${WRKSRC}/script1/DONTDUMP ${PREFIX}/share/example/afio
+	@${INSTALL_SCRIPT} ${WRKSRC}/script2/* ${PREFIX}/share/example/afio
+.endif
 
 .include <bsd.port.mk>
