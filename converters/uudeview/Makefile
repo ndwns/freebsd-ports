@@ -12,11 +12,10 @@ MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
 		ftp://ftp.uni-frankfurt.de/pub/dist/frank/  \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/
 
-MAINTAINER=	ac199@freenet.hamilton.on.ca
+MAINTAINER=	hoek@FreeBSD.ORG
 
 LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 
-FILESDIR=	${.CURDIR}/../../converters/uulib/files
 GNU_CONFIGURE=	Yes
 CONFIGURE_ARGS+=        --enable-inews=${PREFIX}/news/lib/inews \
 			--disable-tcl
