@@ -14,6 +14,9 @@ MASTER_SITES=	ftp://ftp.informatik.tu-muenchen.de/pub/comp/graphics/mpeg/mplex/
 MAINTAINER=	erich@FreeBSD.org
 
 MAN1=		mplex.1
-MANCOMPRESSED=	yes
+
+do-install:
+	@${INSTALL_PROGRAM} ${WRKSRC}/mplex ${PREFIX}/bin
+	@${INSTALL_MAN} ${FILESDIR}/mplex.1 ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
