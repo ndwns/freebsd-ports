@@ -9,7 +9,7 @@
 DISTNAME=	xlispstat-3-44
 PKGNAME=	xlispstat-3.44
 CATEGORIES=	math lang
-MASTER_SITES=	ftp://ftp.stat.umn.edu/pub/xlispstat/
+MASTER_SITES=	ftp://ftp.stat.umn.edu/pub/xlispstat/old/3-44/
 
 MAINTAINER=	erich@FreeBSD.org
 
