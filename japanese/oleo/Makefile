@@ -9,7 +9,8 @@
 DISTNAME=	oleo-1.6
 PKGNAME=	jp-oleo-1.6
 CATEGORIES=	japanese math
-MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITES=	http://www.hh.iij4u.or.jp/~hayasida/oleo/ \
+		${MASTER_SITE_GNU}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} oleo-doc.tar.gz
 
 PATCH_SITES=	http://www.hh.iij4u.or.jp/%7Ehayasida/oleo/
