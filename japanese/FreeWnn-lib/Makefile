@@ -11,8 +11,6 @@ MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
 MAINTAINER=	asami@FreeBSD.ORG
 IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/Xsi
-PKG_ARGS?=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
-			-r ${PKGDIR}/REQ -i ${PKGDIR}/INSTALL -p ${PREFIX}
 
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.

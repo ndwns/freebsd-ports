@@ -14,8 +14,6 @@ MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
-		-r ${PKGDIR}/REQUIRES -p ${PREFIX}
 
 pre-install:
 	@cp ${FILESDIR}/configure2.h ${WRKSRC}/configure.h
