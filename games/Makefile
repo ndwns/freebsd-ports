@@ -109,6 +109,7 @@
     SUBDIR += xminehunter
     SUBDIR += xminesweep
     SUBDIR += xmj
+    SUBDIR += xmlink
     SUBDIR += xmris
     SUBDIR += xneko
     SUBDIR += xnibbles
