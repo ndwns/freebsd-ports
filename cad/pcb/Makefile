@@ -16,7 +16,7 @@ EXEC_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 MAKE_FLAGS=	-f
 MAKEFILE=	makefile
-USE_IMAKE=
+USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>
