@@ -21,9 +21,6 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 
 .include "files/manpages"
 
-checkm:
-	@echo ${_MLINKS}
-
 pre-install:
 	-@ ${RM} ${WRKSRC}/examples/Makefile.orig
 	-@ ${RM} ${WRKSRC}/examples/ExampleMsg
