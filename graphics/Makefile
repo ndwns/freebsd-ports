@@ -53,6 +53,7 @@
     SUBDIR += photopc
     SUBDIR += pixmap
     SUBDIR += plotmtv
+    SUBDIR += plotutils
     SUBDIR += png
     SUBDIR += pnmtopng
     SUBDIR += povray
