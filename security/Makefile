@@ -22,6 +22,7 @@
     SUBDIR += l0pht-watch
     SUBDIR += libident
     SUBDIR += libparanoia
+    SUBDIR += mhash
     SUBDIR += nbaudit
     SUBDIR += nessus
     SUBDIR += nmap
