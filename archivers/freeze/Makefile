@@ -8,7 +8,8 @@
 
 DISTNAME=       freeze-2.5
 CATEGORIES=	archivers
-MASTER_SITES=	ftp://lupin.csv.warwick.ac.uk/pub/compression/
+MASTER_SITES=	ftp://ftp.cdrom.com/pub/unixfreeware/archive/ \
+		ftp://ftp.warwick.ac.uk/pub/compression/
 
 MAINTAINER=     lukin@okbmei.msk.su
 
