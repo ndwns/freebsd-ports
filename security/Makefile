@@ -13,6 +13,7 @@
     SUBDIR += firewalk
     SUBDIR += fwtk
     SUBDIR += gnupg
+    SUBDIR += gpasman
     SUBDIR += gtkportscan
     SUBDIR += identify
     SUBDIR += john
