@@ -30,10 +30,10 @@ BUILD_DEPENDS=	${LOCALBASE}/lib/librplay.a:${PORTSDIR}/audio/rplay
 EXTRACT_ONLY=	${DISTNAME}.tgz ${PKGNAME}-portKit-19981122.tgz
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+= --prefix=${PREFIX} --x-includes=${X11BASE}/include \
+CONFIGURE_ARGS= --prefix=${PREFIX} --x-includes=${X11BASE}/include \
 		--mandir=${MANPREFIX}/man \
 		--includedir=${LOCALBASE}/include --libdir=${LOCALBASE}/lib
-CONFIGURE_ENV+=INSTALL_MAN="${INSTALL_MAN}"
+CONFIGURE_ENV=	INSTALL_MAN="${INSTALL_MAN}"
 MAN1=	fvwm95.1 xpmroot.1 FvwmAudio.1 FvwmAuto.1 FvwmBacker.1 FvwmBanner.1 \
 	FvwmButtons.1 FvwmConsole.1 FvwmCpp.1 FvwmDebug.1 FvwmForm.1 \
 	FvwmIconBox.1 FvwmIconMan.1 FvwmIdent.1 FvwmM4.1 FvwmPager.1 \
