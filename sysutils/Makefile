@@ -27,6 +27,7 @@
     SUBDIR += xcpustate
     SUBDIR += xdu
     SUBDIR += xloadface
+    SUBDIR += xosview
     SUBDIR += xperfmon
     SUBDIR += xsysinfo
     SUBDIR += xsysstats
