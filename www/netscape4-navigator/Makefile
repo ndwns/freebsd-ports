@@ -8,7 +8,7 @@
 
 DISTNAME=       netscape-navigator-4.08
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.08/english/unix/unsupported/freebsd/navigator_standalone
+MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.08/english/unix/unsupported/freebsd/navigator_standalone/
 DISTFILES=	navigator-v408-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     sada@FreeBSD.ORG
