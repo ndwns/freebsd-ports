@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	rsync-2.1.0
+DISTNAME=	rsync-2.1.1
 CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
 		ftp://sunsite.auc.dk/pub/unix/rsync/  \
