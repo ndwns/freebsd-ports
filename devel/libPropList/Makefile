@@ -10,7 +10,7 @@ DISTNAME=	libPropList-0.8.3
 PKGNAME=	libproplist-0.8.3
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	libPropList
+MASTER_SITE_SUBDIR=	sources/libPropList
 
 MAINTAINER=    gljohns@bellsouth.net
 
