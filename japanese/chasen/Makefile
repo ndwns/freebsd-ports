@@ -9,7 +9,7 @@
 DISTNAME=	chasen-sys1.51-dic1.5
 PKGNAME=	ja-chasen-1.51
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/nlp/tools/chasen/ \
+MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/lab/nlp/tools/chasen/ \
 		http://www.freebsd.org/~kuriyama/distfiles/
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
