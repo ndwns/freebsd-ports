@@ -13,16 +13,26 @@ BINMODE?=	555
 
 _SUBDIRUSE: .USE
 	@for entry in ${SUBDIR}; do \
-		(if test -d ${.CURDIR}/$${entry}.${MACHINE}; then \
-			echo "===> ${DIRPRFX}$${entry}.${MACHINE}"; \
-			edir=$${entry}.${MACHINE}; \
-			cd ${.CURDIR}/$${edir}; \
-		else \
-			echo "===> ${DIRPRFX}$$entry"; \
-			edir=$${entry}; \
-			cd ${.CURDIR}/$${edir}; \
+		OK=""; \
+		for dud in $$DUDS; do \
+			if [ $${dud} = $${entry} ]; then \
+				OK="false"; \
+				echo "===> ${DIRPRFX}$${entry} skipped"; \
+			fi; \
+		done; \
+		if [ "$$OK" = "" ]; then \
+			if test -d ${.CURDIR}/$${entry}.${MACHINE}; then \
+				echo "===> ${DIRPRFX}$${entry}.${MACHINE}"; \
+				edir=$${entry}.${MACHINE}; \
+				cd ${.CURDIR}/$${edir}; \
+			else \
+				echo "===> ${DIRPRFX}$$entry"; \
+				edir=$${entry}; \
+				cd ${.CURDIR}/$${edir}; \
+			fi; \
+			${MAKE} ${.TARGET:realinstall=install} \
+				DIRPRFX=${DIRPRFX}$$edir/; \
 		fi; \
-		${MAKE} ${.TARGET:realinstall=install} DIRPRFX=${DIRPRFX}$$edir/); \
 	done
 
 ${SUBDIR}::
