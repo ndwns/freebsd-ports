@@ -29,6 +29,6 @@ do-configure:
 
 post-install:
 	cd ${PREFIX}/lib/timidity/patch && \
-	unzip -q -L ${DISTDIR}${TIINS}
+	unzip -o -q -L ${DISTDIR}/${TIINS}
 
 .include <bsd.port.mk>
