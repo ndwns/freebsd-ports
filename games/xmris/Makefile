@@ -8,7 +8,8 @@
 DISTNAME=	xmris.4.04
 PKGNAME=	xmris-4.04
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.x.org/contrib/games
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	games
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jmz@FreeBSD.org
