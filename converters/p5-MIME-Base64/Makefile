@@ -1,13 +1,13 @@
 # New ports collection makefile for:    p5-MIME-Base64
-# Version required:                     2.06
+# Version required:                     2.10
 # Date created:                         June 21th 1997
 # Whom:                                 ache@freebsd.org
 #
 # $Id$
 #
 
-DISTNAME=       MIME-Base64-2.09
-PKGNAME=        p5-MIME-Base64-2.09
+DISTNAME=       MIME-Base64-2.10
+PKGNAME=        p5-MIME-Base64-2.10
 CATEGORIES=	converters perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     MIME
