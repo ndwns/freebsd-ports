@@ -28,8 +28,8 @@ pre-build:
 post-install:
 .if !defined(NOPORTDOCS)
 	${MKDIR} $(PREFIX)/share/doc/fftpack
-	gzip ${WRKSRC}*.doc
-	${CP} $(WRKSRC)/doc.gz $(PREFIX)/share/doc/fftpack/
+	-${GZIP_CMD} ${GZIP} ${WRKSRC}/fft.doc
+	${CP} $(WRKSRC)/fft.doc.gz $(PREFIX)/share/doc/fftpack/
 .endif
 	${LDCONFIG} -m ${PREFIX}/lib
 
