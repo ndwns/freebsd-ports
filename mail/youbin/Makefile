@@ -16,7 +16,8 @@ MAINTAINER=	max@FreeBSD.ORG
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
-PREFIX?=		${LOCALBASE}
+PREFIX=         ${LOCALBASE}
+MTREE_FILE=	/etc/mtree/BSD.local.dist
 
 STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/youbind.sh.sample
 
