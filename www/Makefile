@@ -19,6 +19,7 @@
     SUBDIR += aswedit
     SUBDIR += boa
     SUBDIR += cgihtml
+    SUBDIR += calamaris
     SUBDIR += cgiparse
     SUBDIR += cgiwrap
     SUBDIR += checkbot
