@@ -10,8 +10,7 @@ DISTNAME=	iv-3.1
 PKGNAME=	ja-iv-3.1
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/ \
-		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/ \
-		ftp://ftp.phys.keio.ac.jp/pub/FreeBSD/local-distfiles/
+		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 DISTFILES=	3.1.tar.Z iv3_1j_gamma.tar.gz
 
 MAINTAINER=	sanpei@yy.cs.keio.ac.jp
