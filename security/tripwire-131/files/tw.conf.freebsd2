@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $Id$
 #
 # tripwire.config
 # Generic version for FreeBSD
@@ -107,12 +107,8 @@
 # /home
 =/home
 
-# /lkm and /modules
+# /lkm
 /lkm			R-2
-/modules		R-2
-
-# /boot
-/boot			R-2
 
 # /root
 /root			R-2

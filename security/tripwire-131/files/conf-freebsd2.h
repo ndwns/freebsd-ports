@@ -1,4 +1,4 @@
-/* $FreeBSD$ */
+/* $Id$ */
 
 /*
  * conf-freebsd2.h
