@@ -7,6 +7,7 @@
     SUBDIR += crack
     SUBDIR += donkey
     SUBDIR += fwtk
+    SUBDIR += john
     SUBDIR += libident
     SUBDIR += p5-Authen-Radius
     SUBDIR += p5-Crypt-DES
