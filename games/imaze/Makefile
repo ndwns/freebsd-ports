@@ -18,7 +18,7 @@ MAINTAINER=	kuehn@rz.tu-clausthal.de
 .if defined(HAVE_MOTIF) && !defined(PACKAGE_BUILDING)
 MAKE_ENV+=	FORCE_MOTIF=yes
 .else
-LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 .endif
 
 EXTRACT_ONLY=	imaze1.3.tar.Z

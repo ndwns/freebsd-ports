@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	obrien@NUXI.com
 
-LIB_DEPENDS=    xview\\.3\\.:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=    xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes

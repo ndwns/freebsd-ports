@@ -21,7 +21,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	brianfeldman@hotmail.com
 
-LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
