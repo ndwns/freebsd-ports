@@ -33,6 +33,8 @@ do-install:
 	@${MKDIR} ${PREFIX}/${DISTNAME}/www/gifs
 	@${MKDIR} ${PREFIX}/${DISTNAME}/www/logs
 	@${MKDIR} ${PREFIX}/${DISTNAME}/www/notes
+	@${MKDIR} ${PREFIX}/${DISTNAME}/tmp
+	@/usr/bin/touch ${PREFIX}/${DISTNAME}/tmp/.keep_me
 	${INSTALL_DATA} ${WRKSRC}/README \
 				${PREFIX}/${DISTNAME}/README
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/bb \
@@ -126,6 +128,7 @@ do-install:
 	@${RM} -f ${PREFIX}/www/data/bb
 	@ln -s ${PREFIX}/${DISTNAME}/www ${PREFIX}/www/data/bb
 	@ln -s bb.html ${PREFIX}/${DISTNAME}/www/index.html
+	@ln -s ${PREFIX}/${DISTNAME}/bin/bb-page.sh ${PREFIX}/www/cgi-bin
 	@echo ""
 	@echo "================================================================"
 	@echo "==== Configuration Notes:                                    ==="
