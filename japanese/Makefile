@@ -13,6 +13,7 @@
     SUBDIR += dserver
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
+    SUBDIR += dvipsk
     SUBDIR += ebw3
     SUBDIR += elvis
     SUBDIR += escpf
