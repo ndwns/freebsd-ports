@@ -15,6 +15,7 @@
     SUBDIR += block
     SUBDIR += blue
     SUBDIR += bogged
+    SUBDIR += bugsx
     SUBDIR += bs
     SUBDIR += cgoban
     SUBDIR += connect4
