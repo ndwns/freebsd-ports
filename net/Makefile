@@ -23,6 +23,9 @@
     SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += nv
+    SUBDIR += p5-Archie
+    SUBDIR += p5-IO
+    SUBDIR += p5-Net
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += radius
