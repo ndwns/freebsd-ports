@@ -18,12 +18,16 @@ LIB_DEPENDS=	jpeg:${PORTSDIR}/graphics/jpeg
 GNU_CONFIGURE=	yes
 FC?=		f77 # Can also be g77 for the newer one
 MAKE_FLAGS=	CC="$(CC)" FC="${FC}" -f
+MAKE_ENV=	pwrkdir=${WRKDIR}
+#"wrkdir" doesn't work for some reason in the above
 
 # This will create dummy Makefiles and some links in the jpeg and libz
 # subdirectories. This way, we do not need to hunt all the dependencies
 # out. Shame on the lib's developers, though, this can not be done through
 # `configure'.	-mi
 pre-build:
+	${AR} -r ${WRKDIR}/libz.a /dev/null
+	${RANLIB} ${WRKDIR}/libz.a
 	test -d ${WRKSRC}/hdf/jpeg.came-with-HDF || \
 		${MV} -f ${WRKSRC}/hdf/jpeg ${WRKSRC}/hdf/jpeg.came-with-HDF
 	-${MKDIR} ${WRKSRC}/hdf/jpeg
