@@ -25,6 +25,10 @@ INSTALL_TARGET=	Install
 NOMANCOMPRESS=
 PLIST=		${WRKSRC}/PLIST
 
+# Startup script, run at boot time
+startup_dir=    ${PREFIX}/etc/rc.d
+startup_script= ${startup_dir}/50.ilu.sh
+
 post-install:
 	# Empty dirs
 	${RMDIR} ${PREFIX}/ilu/man/man[358]
@@ -45,5 +49,14 @@ post-install:
 	# Empty dir, but we really need it
 	${ECHO} @exec ${MKDIR} %D/ilu/lib/binding >> ${PLIST}
 	${ECHO} @exec chmod 777 %D/ilu/lib/binding >> ${PLIST}
+	${ECHO} @exec ${LDCONFIG} -m %D/ilu/lib >> ${PLIST}
+	${ECHO} etc/rc.d/50.ilu.sh >> ${PLIST}
+	${ECHO} "Installing ${startup_script} file"
+	test -d ${startup_dir} || ${MKDIR} ${startup_dir}
+	${ECHO} "#!/bin/sh" > ${startup_script}
+	${ECHO} "${ECHO} -n ' ILU-shlibs'" >> ${startup_script}
+	${ECHO} "${LDCONFIG} -m ${PREFIX}/ilu/lib" >> ${startup_script}
+	chmod 755 ${startup_script};
+	${startup_script}
 
 .include <bsd.port.mk>
