@@ -13,6 +13,7 @@
     SUBDIR += png
     SUBDIR += povray
     SUBDIR += spigot
+    SUBDIR += tgif
     SUBDIR += tiff
     SUBDIR += vcg
     SUBDIR += xanim
