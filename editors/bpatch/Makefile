@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.interface-business.de/pub/outgoing/
 
 MAINTAINER=	joerg@FreeBSD.org
 
+MAN1=		bpatch.1
 NO_WRKSUBDIR=   yes
 
 .include <bsd.port.mk>
