@@ -6,14 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	lupe-0.07
+DISTNAME=	lupe007
+PKGNAME=	lupe-0.07
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/X11/contrib/misc/
-DISTFILES=	lupe007.tar.gz
 
 MAINTAINER=	furusawa@com.cs.osakafu-u.ac.jp
 
-WRKSRC=		$(WRKDIR)/lupe
+WRKSRC=		${WRKDIR}/lupe
 USE_GMAKE=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
