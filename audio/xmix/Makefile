@@ -19,6 +19,8 @@ MAINTAINER=	janek@gaja.ipan.lublin.pl
 USE_IMAKE=	yes
 WRKSRC=		$(WRKDIR)/xmix
 
+MAN1=		xmix.1
+
 pre-install:
 	${CP} ${WRKSRC}/xmix.1 ${WRKSRC}/xmix.man
 	${INSTALL_DATA} $(WRKSRC)/XMix ${PREFIX}/lib/X11/app-defaults

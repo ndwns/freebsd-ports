@@ -16,4 +16,6 @@ MAINTAINER=	erich@FreeBSD.org
 USE_IMAKE=	yes
 REQUIRES_MOTIF=	yes
 
+MAN1=		xmmix.1
+
 .include <bsd.port.mk>

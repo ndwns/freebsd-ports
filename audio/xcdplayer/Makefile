@@ -15,5 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	swallace@FreeBSD.org
 
 USE_IMAKE=      yes
+MAN1=		xcdplayer.1
 
 .include <bsd.port.mk>
