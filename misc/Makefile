@@ -52,6 +52,7 @@
     SUBDIR += man.el
     SUBDIR += mc
     SUBDIR += mmv
+    SUBDIR += mopac
     SUBDIR += most
     SUBDIR += mshell
     SUBDIR += nwrite
@@ -59,6 +60,7 @@
     SUBDIR += p5-Business-CreditCard
     SUBDIR += p5-Locale-Codes
     SUBDIR += pdmenu
+    SUBDIR += psi88
     SUBDIR += qclock
     SUBDIR += quotes
     SUBDIR += rc5des
