@@ -22,6 +22,7 @@
     SUBDIR += geg
     SUBDIR += gnumeric
     SUBDIR += gnuplot
+    SUBDIR += gnuplot+
     SUBDIR += grace
     SUBDIR += hexcalc
     SUBDIR += lapack
@@ -34,6 +35,7 @@
     SUBDIR += p5-MatrixReal
     SUBDIR += p5-Set-IntSpan
     SUBDIR += pari
+    SUBDIR += parmetis
     SUBDIR += plplot
     SUBDIR += pygist
     SUBDIR += rng
