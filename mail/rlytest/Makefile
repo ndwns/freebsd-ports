@@ -1,5 +1,5 @@
 # New ports collection makefile for:	rlytest
-# Version required:	1.15
+# Version required:	1.16
 # Date created:		16 January 1999
 # Whom:			Paul Chvostek <paul@it.ca>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rlytest
-PKGNAME=	rlytest-1.15
+PKGNAME=	rlytest-1.16
 CATEGORIES=	mail security
 MASTER_SITES=	http://www.unicom.com/sw/rlytest/
 
