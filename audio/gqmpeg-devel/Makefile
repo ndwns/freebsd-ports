@@ -15,7 +15,7 @@ MAINTAINER=	nacai@iname.com
 
 RUN_DEPENDS=	mpg123:${PORTSDIR}/audio/mpg123
 LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \
-		Imlib.1:${PORTSDIR}/graphics/imlib
+		Imlib.2:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 ALL_TARGET=	gqmpeg

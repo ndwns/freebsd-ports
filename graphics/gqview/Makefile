@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		Imlib.1:${PORTSDIR}/graphics/imlib
+		Imlib.2:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/gqview-0.5.1
