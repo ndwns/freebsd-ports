@@ -1,12 +1,12 @@
 # ports collection makefile for:   mikmod304
-# Version required:    3.1.1
+# Version required:    3.1.2
 # Date created:        16 November 1998
 # Whom:                yoshiaki Uchikawa
 #
 # $Id$
 #
 
-DISTNAME=	mikmod-3.1.1
+DISTNAME=	mikmod-3.1.2
 CATEGORIES=	audio
 MASTER_SITES=	http://www.multimania.com/miodrag/mikmod/
 
