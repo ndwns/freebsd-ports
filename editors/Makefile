@@ -9,6 +9,8 @@
     SUBDIR += beav
     SUBDIR += bpatch
     SUBDIR += cooledit
+    SUBDIR += custom-emacs
+    SUBDIR += custom-mule
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += emacs20
