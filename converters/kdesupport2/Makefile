@@ -13,6 +13,8 @@ MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
+BROKEN_ELF=	package
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
