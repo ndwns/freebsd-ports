@@ -16,7 +16,7 @@ DISTFILES=      # empty
 
 MAINTAINER=     nik@freebsd.org
 
-BUILD_DEPENDS=  ${PREFIX}/share/sgml/iso8879:${PORTSDIR}/textproc/iso8879 \
+RUN_DEPENDS=	${PREFIX}/share/sgml/iso8879:${PORTSDIR}/textproc/iso8879 \
 		${PREFIX}/share/sgml/docbook/2.4.1:${PORTSDIR}/textproc/docbook-241 \
 		${PREFIX}/share/sgml/docbook/3.0:${PORTSDIR}/textproc/docbook-300 \
 		${PREFIX}/share/sgml/docbook/3.1:${PORTSDIR}/textproc/docbook-310
