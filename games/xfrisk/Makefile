@@ -1,13 +1,13 @@
 # New ports collection makefile for:   xfrisk
-# Version required:    0.99c0pl9
+# Version required:    1.00
 # Date created:        20 April 1997
 # Whom:                Matthew Hunt <mph@pobox.com>
 #
 # $Id$
 #
 
-DISTNAME=	XFrisk-0.99c0pl9
-PKGNAME=	xfrisk-0.99c09
+DISTNAME=	XFrisk-1.00
+PKGNAME=	xfrisk-1.00
 CATEGORIES=	games
 MASTER_SITES=	$(MASTER_SITE_XCONTRIB)
 MASTER_SITE_SUBDIR=	games/multiplayer
