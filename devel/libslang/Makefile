@@ -1,13 +1,13 @@
 # New ports collection makefile for:    S-Lang library
-# Version required:     0.99-33
+# Version required:     0.99-34
 # Date created:         11 July 1996
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       slang0.99-33
-PKGNAME=        libslang-0.99.33
+DISTNAME=       slang0.99-34
+PKGNAME=        libslang-0.99.34
 CATEGORIES+=	devel
 MASTER_SITES=   ftp://space.mit.edu/pub/davis/slang/
 
