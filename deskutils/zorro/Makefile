@@ -18,7 +18,7 @@ LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 NO_BUILD=	yes
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/zorro ${PREFIX}/bin/zorro
+	${INSTALL_SCRIPT} ${WRKSRC}/zorro ${PREFIX}/bin/zorro
 	${MKDIR} ${PREFIX}/share/zorro
 	${INSTALL_DATA} ${WRKSRC}/DOTzorrorc ${PREFIX}/share/zorro
 	@echo ""
