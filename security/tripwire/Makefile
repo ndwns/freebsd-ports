@@ -20,7 +20,7 @@ NO_PACKAGE=	"requires local database to be built"
 RESTRICTED=	"contains crypto class algorithms"
 
 post-extract:
-	@ (cd work; tar xf T1.2.tar)
+	@ (cd ${WRKDIR}; tar xf T1.2.tar)
 
 pre-configure:
 	@ ${CP} ${FILESDIR}/conf-freebsd2.h ${WRKSRC}/configs
