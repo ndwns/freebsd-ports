@@ -1,6 +1,6 @@
 
 # $Id$
 #
-SUBDIR=	blas calc eispack fudgit gmp gnuplot hexcalc linpack oleo xgraph
+SUBDIR=	blas calc eispack fudgit gmp gnuplot hexcalc linpack octave oleo xgraph
 
 .include <bsd.port.subdir.mk>
