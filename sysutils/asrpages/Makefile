@@ -14,6 +14,8 @@ DISTFILES=	asr.pages.tar
 
 MAINTAINER=	axl@iafrica.com
 
+BROKEN=		"by rev 1.227.2.46 of bsd.port.mk"
+
 EXTRACT_ARGS=	-xf
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
