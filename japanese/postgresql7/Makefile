@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
 		ftp://ftp.sra.co.jp/pub/cmd/postgres/6.3.2/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/cmd/postgres/6.3.2/patches/FreeBSD/
-PATCHFILES=	jumbo.patch.gz
+PATCHFILES=	jumbo_981104.patch.gz
 
 MAINTAINER=	ichiro@ichiro.org
 
