@@ -13,7 +13,7 @@ MASTER_SITES= 	ftp://ftp.aist-nara.ac.jp/pub/personal/masata-y/gyve/fullkit/gyve
 MAINTAINER=	Nakai@technologist.com
 
 BUILD_DEPENDS=	${LOCALBASE}/lib/libobjects.a:${PORTSDIR}/lang/libobjects
-LIB_DEPENDS=	guile.2:${PORTSDIR}/lang/guile
+LIB_DEPENDS=	guile.4:${PORTSDIR}/lang/guile
 
 GNU_CONFIGURE=	yes
 
