@@ -8,12 +8,14 @@
 
 DISTNAME=		SSLeay-0.6.2
 CATEGORIES+=		devel security
-MASTER_SITES=		psych.psy.uq.oz.au:/pub/Crypto/SSL/
+MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/
+
+MAINTAINER=		markm@FreeBSD.ORG
 
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	util/FreeBSD.sh
 MAKEFILE=		Makefile.FreeBSD
 
-NO_PACKAGE=		"Cryptography"
+RESTRICTED=		"Cryptography"
 
 .include <bsd.port.mk>
