@@ -8,6 +8,8 @@
     SUBDIR += hpscan
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
+    SUBDIR += mpeg2codec
+    SUBDIR += mpeg2play
     SUBDIR += mpeg_play
     SUBDIR += netpbm
     SUBDIR += pixmap
