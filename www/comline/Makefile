@@ -11,8 +11,8 @@ PKGNAME=        comline-4.0p7
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/comline/ \
 		ftp://ftp.w3.org/pub/libwww/
-DISTFILES=      w3c_4.0pre7_src.tar.gz \
-		libwww_4.0pre7_src.tar.gz
+DISTFILES=      libwww_4.0pre7_src.tar.gz \
+		w3c_4.0pre7_src.tar.gz
 
 MAINTAINER=     ache@freebsd.org
 
