@@ -2,6 +2,7 @@
 #
 
     SUBDIR += btoa
+    SUBDIR += mimepp
     SUBDIR += mpack
     SUBDIR += p5-Convert-UU
     SUBDIR += p5-MIME-Base64

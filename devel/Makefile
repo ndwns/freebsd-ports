@@ -29,7 +29,6 @@
     SUBDIR += linux_devel
     SUBDIR += linuxgdb
     SUBDIR += m4
-    SUBDIR += mimepp
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += noweb
