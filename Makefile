@@ -69,4 +69,7 @@ search:	${.CURDIR}/INDEX
 .endif
 
 parallel: ${.CURDIR}/INDEX
-	@sed -e 's/|/.tgz|/' ${.CURDIR}/INDEX | awk -F '|' '{me=$$1; here=$$2; bdep=$$8; rdep=$$9; if (bdep != "") { gsub("$$", ".tgz", bdep); gsub(" ", ".tgz ", bdep); } if (rdep != "") { gsub("$$", ".tgz", rdep); gsub(" ", ".tgz ", rdep); } print "all:: " me; print me ": " bdep " " rdep; printf("\t@/a/asami/portbuild/pdispatch /a/asami/portbuild/portbuild %s %s", me, here); if (bdep != "") printf(" %s", bdep); if (rdep != "") printf(" %s", rdep); printf("\n")}'
+.for dir in ${SUBDIR}
+	@echo "all:: ${dir}-all"
+.endfor
+	@sed -e 's/|/.tgz|/' ${.CURDIR}/INDEX | awk -F '|' '{me=$$1; here=$$2; bdep=$$8; rdep=$$9; split(here, tmp, "/"); if (bdep != "") { gsub("$$", ".tgz", bdep); gsub(" ", ".tgz ", bdep); } if (rdep != "") { gsub("$$", ".tgz", rdep); gsub(" ", ".tgz ", rdep); } print tmp[4] "-all:: " me; print me ": " bdep " " rdep; printf("\t@/a/asami/portbuild/scripts/pdispatch /a/asami/portbuild/scripts/portbuild %s %s", me, here); if (bdep != "") printf(" %s", bdep); if (rdep != "") printf(" %s", rdep); printf("\n")}'
