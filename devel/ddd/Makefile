@@ -7,13 +7,17 @@
 # $Id$
 #
 
-DISTNAME=	ddd-3.0
+DISTNAME=	ddd-3.0.91
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/  \
-		ftp://richb-pc.acc.qc.edu/pub/ddd/  \
-		ftp://ftp.gre.ac.uk/pub/tools/debuggers/ddd/  \
-		ftp://uiarchive.cso.uiuc.edu/pub/packages/ddd/  \
-		ftp://ftp.th-darmstadt.de/pub/programming/tools/ddd/
+MASTER_SITES=	ftp://Xftp.ips.cs.tu-bs.de/pub/local/softech/ddd/src/  \
+		ftp://richb-pc.acc.qc.edu/pub/ddd/src/  \
+		ftp://ftp.gre.ac.uk/pub/tools/debuggers/ddd/src/  \
+		ftp://uiarchive.cso.uiuc.edu/pub/packages/ddd/src/  \
+		ftp://ftp.th-darmstadt.de/pub/programming/tools/ddd/src/
+
+#PATCH_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/patches/ddd-3.0/
+#PATCHFILES=	gdb-4-17-args
+#PATCH_DIST_STRIP=	-p1 -N -E
 
 MAINTAINER=     obrien@NUXI.com
 
