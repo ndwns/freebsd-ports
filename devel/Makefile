@@ -35,6 +35,7 @@
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gdbtk
+    SUBDIR += gettext
     SUBDIR += gide
     SUBDIR += gindent
     SUBDIR += glade
