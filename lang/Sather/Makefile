@@ -9,9 +9,15 @@
 DISTNAME=       Sather-1.0.5
 PKGNAME=        sather-1.0.5
 CATEGORIES=	lang
-MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
+MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/  \
+		ftp://ftp.sterling.com/programming/languages/sather/  \
+		ftp://ftp.uni-muenster.de/pub/languages/sather/  \
+		ftp://ftp.nis.co.jp/pub/lang/sather/  \
+		ftp://ftp.th-darmstadt.de/pub/programming/languages/sather/  \
+		ftp://ftp.sra.co.jp/pub/lang/sather/  \
+		ftp://ftp.infomagic.com/pub/mirrors/.mirror14/languages/sather/
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
