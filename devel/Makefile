@@ -17,6 +17,7 @@
     SUBDIR += crosssco
     SUBDIR += cs
     SUBDIR += cutils
+    SUBDIR += cweb
     SUBDIR += cxref
     SUBDIR += ddd
     SUBDIR += dmake
