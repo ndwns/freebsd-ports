@@ -1,12 +1,12 @@
 # New ports collection makefile for:	gnupg
-# Version required:	0.4.5
+# Version required:	0.9.1
 # Date created:		Sep 30, 1998
 # Whom:			kuriyama@FreeBSD.ORG
 #
 # $Id$
 #
 
-DISTNAME=	gnupg-0.4.5
+DISTNAME=	gnupg-0.9.1
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.guug.de/pub/gcrypt/ \
 		ftp://pgp.iijlab.net/pub/gnupg/ \
@@ -16,7 +16,7 @@ MAINTAINER=	kuriyama@FreeBSD.ORG
 
 RESTRICTED=	"Crypto; export-controlled"
 
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	YES
 CONFIGURE_ARGS=	--with-included-gettext
 
 MAN1=		gpg.1
