@@ -12,7 +12,8 @@ MASTER_SITES=	http://c64.org/~nr/ \
 		http://www.goatnet.ml.org/ \
 		ftp://sangis.kalix.net/pub/nr/xwhois/ \
 		ftp://c64.org/pub/nr/xwhois/ \
-		ftp://ftp.infodrom.north.de/pub/unix/gtkbuffet/apps/xwhois/
+		ftp://ftp.infodrom.north.de/pub/unix/gtkbuffet/apps/xwhois/ \
+		http://www.physics.adelaide.edu.au/~kkennawa/
 
 MAINTAINER=	kris@FreeBSD.ORG
 
