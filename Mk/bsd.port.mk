@@ -249,7 +249,13 @@ cleandir: clean
 .endif
 .endif
 
+.if !target(distribute)
+distribute:
+	@cd ${.CURDIR} && ${MAKE} install DESTDIR=${DISTDIR}/${DISTRIBUTION}
 .endif
+.endif
+# end of SRC_ENCAPSULATION defines
+
 
 # These need to be absolute since we don't know how deep in the ports
 # tree we are and thus can't go relative.  They can, of course, be overridden
