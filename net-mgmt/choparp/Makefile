@@ -12,6 +12,9 @@ MASTER_SITES=	http://delegate.uec.ac.jp:8081/club/mma/~tree/soft/choparp/
 
 MAINTAINER=	itojun@itojun.org
 
+MAN8=		choparp.8
+MANCOMPRESSED=	maybe
+
 WRKSRC=		${WRKDIR}/choparp
 
 .include <bsd.port.mk>
