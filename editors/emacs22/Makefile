@@ -21,5 +21,9 @@ post-install:
 	for file in emacs-19.34 emacsclient etags ctags b2m; do \
 	  strip ${PREFIX}/bin/$$file; \
 	done
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+	install-info ${PREFIX}/info/emacs ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
