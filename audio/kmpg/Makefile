@@ -14,8 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
-LIB_DEPENDS=	kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 USE_GMAKE=	yes
