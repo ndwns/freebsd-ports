@@ -124,7 +124,8 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/www/logs/later \
 				${PREFIX}/${DISTNAME}/www/logs/later
 	@${RM} -f ${PREFIX}/www/data/bb
-	@ln -s ../../${DISTNAME}/www ${PREFIX}/www/data/bb
+	@ln -s ${PREFIX}/${DISTNAME}/www ${PREFIX}/www/data/bb
+	@ln -s bb.html ${PREFIX}/${DISTNAME}/www/index.html
 	@echo ""
 	@echo "================================================================"
 	@echo "==== Configuration Notes:                                    ==="
@@ -144,7 +145,7 @@ do-install:
 	@echo ""
 	@echo "and watching your systems status by viewing this URL with"
 	@echo "Netscape or another WWW browser"
-	@echo "        http://localhost/bb/bb.html"
+	@echo "        http://localhost/bb"
 	@echo ""
 	@echo "Look here for a life sample:"
 	@echo "        http://www.menet.umn.edu/~clolson/bb/bb.html"
