@@ -17,7 +17,4 @@ BUILD_DEPENDS=	goconfig:${PORTSDIR}/lang/guileobjc
 
 GNU_CONFIGURE=	yes
 
-post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
-
 .include <bsd.port.mk>
