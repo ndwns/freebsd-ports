@@ -4,6 +4,7 @@
     SUBDIR += Canna
     SUBDIR += Wnn
     SUBDIR += camltk41
+    SUBDIR += cdrom2
     SUBDIR += chimera
     SUBDIR += dserver
     SUBDIR += dvi2ps
