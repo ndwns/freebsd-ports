@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ircd-hybrid
-# Version required:	5.3p4
+# Version required:	5.3p6
 # Date created:		9 January 1998
 # Whom:			desmo@bandwidth.org
 #
 # $Id$
 #
 
-DISTNAME=	ircd-hybrid-5.3p4
+DISTNAME=	ircd-hybrid-5.3p6
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.blackened.com/pub/irc/hybrid/
 
@@ -22,7 +22,7 @@ pre-install:
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/tools/buildm4 ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/tools/fixklines ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/tools/mkpasswd ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/tools/ircd-mkpasswd ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/tools/viconf ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 ${MANPREFIX}/man/man8
 	${INSTALL_SCRIPT} ${FILESDIR}/ircd.sh ${PREFIX}/etc/rc.d
