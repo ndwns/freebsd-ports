@@ -9,7 +9,7 @@
 DISTNAME=	t1lib-0.9
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	lib/graphics
+MASTER_SITE_SUBDIR=	libs/graphics
 
 MAINTAINER=	ijliao@csie.nctu.edu.tw
 
