@@ -16,7 +16,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 NO_BUILD=	yes
 
 RUN_DEPENDS=    ${PREFIX}/share/fonts/HLaTeX-0.95-pfb:$(PORTSDIR)/korean/hlatexpsfonts \
-		perl5.004:${PORTSDIR}/lang/perl5
+		perl5.00401:${PORTSDIR}/lang/perl5
 
 do-configure:
 	@cd ${WRKSRC}; \
