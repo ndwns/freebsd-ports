@@ -11,7 +11,7 @@ PKGNAME=	pbasic-2.0
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	asami@FreeBSD.org
 # Ask jhs@freebsd.org if you want newer sources or author's latest e-mail
 #  (which is currently "phil@gmrs.isar.de" but changes a lot)
 

@@ -1,7 +1,7 @@
 # New ports collection makefile for:   kde
 # Version required:    around November 1997
 # Date created:        4 November 1997
-# Whom:                Satoshi Asami <asami@freebsd.org>
+# Whom:                Satoshi Asami <asami@FreeBSD.org>
 #
 # $Id$
 #

@@ -85,4 +85,4 @@ post-install:
 # cf.	<http://www.bpel.tutics.tut.ac.jp/~take/>
 
 # This port is based on 'russian/netscape3.language(ru-netscape-3.01)'
-# by asami@FreeBSD.ORG
+# by asami@FreeBSD.org
