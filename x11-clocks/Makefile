@@ -2,6 +2,7 @@
 #
 
     SUBDIR += asclock
+    SUBDIR += asclock-xlib
     SUBDIR += astime
     SUBDIR += bclock
     SUBDIR += dclock
