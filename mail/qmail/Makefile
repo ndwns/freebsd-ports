@@ -125,6 +125,7 @@ do-install:
 	@# This is not part of qmail proper, hence the 2nd class citizenship
 	@${INSTALL_SCRIPT} ${FILESDIR}/mkaliasdir ${PREFIX}/${DOCDIR}
 	@cd ${PREFIX}/configure ; ./config
+	@${MKDIR} /usr/local/etc/rc.d
 	@${LN} -sf ${PREFIX}/rc /usr/local/etc/rc.d/qmail.sh
 	@${ECHO}
 	@${SED} s!/usr/local/!${PREFIX}/!g ${PKGDIR}/MESSAGE | /usr/bin/fmt
