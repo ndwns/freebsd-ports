@@ -15,10 +15,12 @@ MAINTAINER=	deischen@iworks.InterWorks.org
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 
-MAN1=		cddbcmd.1 wm2xmcd.1
-MANCOMPRESSED=	no
+MAN1=		cddbcmd.1 wm2xmcd.1 xmcd.1 cda.1
 
 post-install:
+.for man in cddbcmd.1 wm2xmcd.1
+	${GZIP_CMD} ${PREFIX}/man/man1/${man}
+.endfor
 	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
