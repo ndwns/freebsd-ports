@@ -14,6 +14,7 @@
     SUBDIR += camltk41
     SUBDIR += ctwm
     SUBDIR += dclock
+    SUBDIR += enlightenment
     SUBDIR += etlfonts
     SUBDIR += emiclock
     SUBDIR += emu
