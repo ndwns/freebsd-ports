@@ -11,18 +11,12 @@ PKGNAME=	uox3-0.69.02
 CATEGORIES=	games
 MASTER_SITES=	ftp://provolone.dynip.com/pub/ \
 		http://users.1st.net/magda/
-EXTRACT_SUFX=	.zip
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tqpsworld${EXTRACT_SUFX}
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-
 DIST_SUBDIR=		uox3
-EXTRACT_CMD=		unzip
-EXTRACT_BEFORE_ARGS=	-qa
-EXTRACT_AFTER_ARGS=	# This space left intentionally blank.
-
+USE_ZIP=	YES
 NO_WRKSUBDIR=	YES
 
 USE_GMAKE=	YES

@@ -10,12 +10,10 @@ DISTNAME=	snes118e
 PKGNAME=	snes9x-118e
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.snes9x.com/zips/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=	nacai@iname.com
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-BUILD_DEPENDS+=	egcc:${PORTSDIR}/lang/pgcc
+BUILD_DEPENDS=	egcc:${PORTSDIR}/lang/pgcc
 BUILD_DEPENDS+=	nasm:${PORTSDIR}/devel/nasm
 
 ONLY_FOR_ARCHS=	i386
@@ -25,9 +23,7 @@ USE_X_PREFIX=	YES
 MAKEFILE=	Makefile.linux
 ALL_TARGET=	snes9x s9xserver
 
-EXTRACT_CMD=	unzip
-EXTRACT_BEFORE_ARGS=	# empty
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=	yes
 
 WRKSRC=		${WRKDIR}/release
 

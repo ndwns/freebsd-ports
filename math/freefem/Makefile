@@ -9,19 +9,14 @@
 DISTNAME=	freefem-3.4
 CATEGORIES=	math cad
 MASTER_SITES=	http://www.asci.fr/~prudhomm/gfem-html/freefem/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=     giffunip@asme.org
-
-BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-adapt --with-optimization
 
-EXTRACT_CMD=	unzip
-EXTRACT_BEFORE_ARGS= -q -o
-EXTRACT_AFTER_ARGS= -d ${WRKDIR}
+USE_ZIP=	yes
 
 post-install:
 .if !defined(NOPORTDOCS)

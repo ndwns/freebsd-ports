@@ -10,16 +10,11 @@ DISTNAME=       pacman10
 PKGNAME=	xpacman-1.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.nvg.unit.no/pub/pacman/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=	joerg@FreeBSD.org
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-
 NO_WRKSUBDIR=	Does not unpack into subdir.
-EXTRACT_CMD=	unzip
-EXTRACT_BEFORE_ARGS= -x
-EXTRACT_AFTER_ARGS=  # empty
+USE_ZIP=	yes
 USE_IMAKE=      yes
 MAN1=		pacman.1
 

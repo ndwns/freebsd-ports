@@ -12,18 +12,14 @@ DISTNAME=	pgp263i-${PGP_LANGUAGE}
 PKGNAME=	ko-pgp-2.6.3
 CATEGORIES=	korean security
 MASTER_SITES=	http://sparcs.kaist.ac.kr/~firiel/Works/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS=	pgp:${PORTSDIR}/security/pgp
 
 RESTRICTED=	"Crypto"
 
-EXTRACT_CMD=	unzip
-EXTRACT_BEFORE_ARGS=	-q
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=	yes
 NO_BUILD=	YES
 
 # version and language specifications

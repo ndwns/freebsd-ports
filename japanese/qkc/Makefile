@@ -11,15 +11,10 @@ PKGNAME=	ja-qkc-1.0
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Usenet/fj.sources/1995/oct/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/pub1/unix/Kanji/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=	max@FreeBSD.ORG
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-
-EXTRACT_CMD=	unzip
-EXTRACT_BEFORE_ARGS=	-q
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=	yes
 NO_WRKSUBDIR=	yes
 ALL_TARGET=
 MAN1=		qkc.1
