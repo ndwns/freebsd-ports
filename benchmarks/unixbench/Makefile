@@ -32,5 +32,6 @@ do-install:
 		chmod 755 $(PREFIX)/lib/bytebench/pgms/*
 		chmod 755 $(PREFIX)/lib/bytebench/results
 		chmod 755 $(PREFIX)/lib/bytebench/testdir
+		@rm -f ${PREFIX}/lib/bytebench/pgms/*.orig
 
 .include <bsd.port.mk>
