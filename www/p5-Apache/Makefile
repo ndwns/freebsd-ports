@@ -17,7 +17,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 BUILD_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
-CONFIGURE_ENV+=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
+CONFIGURE_ENV=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
 
 MAN3=		Apache.3 Apache::Constants.3  Apache::Options.3 \
 		Apache::Registry.3  Apache::Status.3  Bundle::Apache.3 \
