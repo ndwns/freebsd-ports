@@ -20,6 +20,7 @@
     SUBDIR += fvwm2
     SUBDIR += fvwm95
     SUBDIR += getbdf
+    SUBDIR += gwm
     SUBDIR += iv
     SUBDIR += olvwm
     SUBDIR += piewm
