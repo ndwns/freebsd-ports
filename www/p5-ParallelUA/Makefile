@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       ParallelUserAgent-2.39
-PKGNAME=        p5-ParallelUA-2.39
+DISTNAME=       ParallelUserAgent-2.42
+PKGNAME=        p5-ParallelUA-2.42
 CATEGORIES=     www perl5 devel
 MASTER_SITES=   ${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     LWP
@@ -22,10 +22,10 @@ USE_PERL5=	YES
 
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
-MAN3=           LWP::Parallel.3 \
+MAN3=           Bundle::ParallelUA.3 \
+		LWP::Parallel.3 \
 		LWP::Parallel::Protocol.3 \
 		LWP::Parallel::RobotUA.3 \
-		Bundle::ParallelUA.3 \
 		LWP::Parallel::UserAgent.3 \
 		LWP::ParallelUA.3 \
 		LWP::RobotPUA.3
