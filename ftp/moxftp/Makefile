@@ -8,7 +8,7 @@
 
 DISTNAME=	moxftp-2.2
 CATEGORIES=	net
-MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITES=	ftp://ftp.pacbell.com/X11/contrib/applications/
 MASTER_SITE_SUBDIR=	applications
 EXTRACT_SUFX=	.tar.Z
 
