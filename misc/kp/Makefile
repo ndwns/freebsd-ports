@@ -12,7 +12,7 @@ MASTER_SITES=   ftp://forgery.cs.berkeley.edu/pub/
 
 MAINTAINER=	asami@FreeBSD.org
 
-EXEC_DEPENDS=   wish:${PORTSDIR}/x11/tk
+RUN_DEPENDS=   wish:${PORTSDIR}/x11/tk
 
 USE_X11=	yes
 
