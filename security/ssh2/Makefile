@@ -93,8 +93,5 @@ post-install:
 		${ECHO} "[ -x ${PREFIX}/sbin/sshd ] && ${PREFIX}/sbin/sshd && ${ECHO} -n ' sshd'" >> ${PREFIX}/etc/rc.d/sshd.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/sshd.sh; \
 	fi
-	@if [ -f ${PREFIX}/etc/rc.d/sshd.sh ]; then \
-		chmod -x ${PREFIX}/etc/rc.d/sshd.sh; \
-	fi
 
 .include <bsd.port.mk>
