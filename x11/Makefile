@@ -61,6 +61,7 @@
     SUBDIR += slingshot
     SUBDIR += swisswatch
     SUBDIR += sxpc
+    SUBDIR += t3d
     SUBDIR += tix
     SUBDIR += tk41
     SUBDIR += tk42
