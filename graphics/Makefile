@@ -113,6 +113,7 @@
     SUBDIR += xaos
     SUBDIR += xbm2gif
     SUBDIR += xbmbrowser
+    SUBDIR += xdgagrab
     SUBDIR += xdl
     SUBDIR += xfig
     SUBDIR += xfpovray
