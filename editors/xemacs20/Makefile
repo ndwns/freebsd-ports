@@ -72,5 +72,8 @@ post-install:
 	chmod 755 ${PREFIX}/lib/xemacs/site-lisp
 	chmod 755 ${PREFIX}/share/emacs/site-lisp
 	${RM} -f ${PREFIX}/bin/send-pr
+# install xemacs.sh into ${PREFIX}/etc/rc.d
+	@if [ ! -d ${PREFIX}/etc/rc.d ] then; mkdir -p ${PREFIX}/etc/rc.d; fi
+	${INSTALL_SCRIPT} ${FILESDIR}/xemacs.sh ${PREFIX}/etc/rc.d
 
 .include <bsd.port.mk>
