@@ -17,7 +17,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
-MAN3=		Include
+MAN3=		Include.3
 MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
