@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.uni-frankfurt.de/pub/dist/frank/ \
 MAINTAINER=	ac199@freenet.hamilton.on.ca
 
 GNU_CONFIGURE=	yes
-ALL_TARGET=	libuu.a	# libuu.so.1.0
+ALL_TARGET=	libuu.a	libuu.so.1.0
 MAN3=		uulib.3
 
 DOCFILES+=	HISTORY
@@ -31,7 +31,7 @@ DOCFILES+=	doc/td-v3.c
 DOCFILES+=	doc/test.txt
 
 do-install:
-	@#	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.1.0 ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.1.0 ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib
 	/usr/bin/ranlib ${PREFIX}/lib/libuu.a
 	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h
