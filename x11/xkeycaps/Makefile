@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xkeycaps-2.38
+DISTNAME=	xkeycaps-2.42
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
