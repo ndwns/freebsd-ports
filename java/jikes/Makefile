@@ -6,17 +6,16 @@
 # $Id$
 #
 
-DISTNAME=	jikes-0.45
+DISTNAME=	jikes-0.46
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/misc/
 
 MAINTAINER=	dillon@backplane.com
 
-WRKSRC=		${WRKDIR}/jikes
+WRKSRC=		${WRKDIR}/jikes/src
 MAN1=		jikes.1
 MAKE_ENV=	FILESDIR=${FILESDIR}
-SCRIPTS_ENV=	FILESDIR=${FILESDIR} PKGDIR=${PKGDIR}
-PATCH_STRIP=	-p1
+PATCH_STRIP=	-p2
 
 # 	(sufficiently handled by pkg/MESSAGE, but if IBM has an issue then
 #	uncomment this section)
