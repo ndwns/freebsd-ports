@@ -7,10 +7,11 @@
 #
 
 DISTNAME=	mtools-3.9.1
+PKGNAME=	mtools-3.9.1.3110
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://linux.wauug.org/pub/knaff/mtools/
 
-PATCHFILES=	mtools-3.9.1-2906.diff.gz
+PATCHFILES=	mtools-3.9.1-3110.diff.gz
 PATCH_SITES=	ftp://linux.wauug.org/pub/knaff/mtools/
 PATCH_DIST_STRIP=	-p1
 
