@@ -19,8 +19,6 @@ MAINTAINER=	pst@freebsd.org
 # with APOP authentification only
 #
 
-NO_PACKAGE=	"Needs POP UID"
-
 O_DEFS=         -DSETPROCTITLE -DKEEP_TEMP_DROP -DBSD44_DBM -DBIND43 \
 		-DAPOP='\"'${PREFIX}'/etc/popper/pop.auth\"' \
 		-DPOPUID='\"pop\"' \
