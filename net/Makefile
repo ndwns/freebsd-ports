@@ -17,6 +17,7 @@
     SUBDIR += ivs
     SUBDIR += mirror
     SUBDIR += moxftp
+    SUBDIR += ncftp
     SUBDIR += ncftp2
     SUBDIR += nv
     SUBDIR += pcnfsd
