@@ -16,6 +16,7 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
+BROKEN=		"the MASTER_SITES have disappeared."
 WRKSRC=		${WRKDIR}/${PKGNAME}
 NO_BUILD=	yes
 DIST_SUBDIR=	${PKGNAME}
