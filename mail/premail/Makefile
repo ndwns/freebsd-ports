@@ -1,5 +1,5 @@
 # New ports collection makefile for: premail
-# Version required:     0.45
+# Version required:     0.46
 # Premail homepage is http://www.c2.net/~raph/premail.html
 #
 # Date created:         31 Jan 1997
@@ -8,9 +8,11 @@
 # $Id$
 #
 
-DISTNAME=       premail-0.45
+DISTNAME=       premail-0.46
 CATEGORIES=     security mail
-MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/remailer/premail/
+MASTER_SITES=   ftp://ftp.jpunix.com/pub/remailer-tools/ \
+		ftp://ftp.kiarchive.ru/unix/crypto/
+WRKSRC=         ${WRKDIR}/premail
 
 BUILD_DEPENDS+= pgp:${PORTSDIR}/security/pgp
 
@@ -29,7 +31,7 @@ do-install:
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} premail ${PREFIX}/bin
 	install -d -m 555 ${PREFIX}/share/doc/premail
 	cd ${WRKSRC} && ${INSTALL_DATA} \
-	   preferences doc-0.45.html doc-0.45.txt ${PREFIX}/share/doc/premail
+	   preferences doc-0.46.html doc-0.46.txt ${PREFIX}/share/doc/premail
 	@echo
 	@echo "Check ${PREFIX}/share/doc/premail for further instructions"
 	@echo
