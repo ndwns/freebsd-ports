@@ -15,19 +15,14 @@ MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
 RUN_DEPENDS=	jman:${PORTSDIR}/japanese/man
 
-EXTRACT_ONLY=	# empty
-NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
+WRKSRC=		${WRKDIR}
 
 ELISPDIR=	${PREFIX}/share/emacs/site-lisp
 
 do-install:
-	@${MKDIR} ${ELISPDIR};
-	@${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${DISTFILES} -C ${ELISPDIR}
-	@files=`${EXTRACT_CMD} tzf ${DISTDIR}/${DISTFILES}`; \
-	for f in $${files}; do \
-		chown ${SHAREOWN}:${SHAREGRP} ${ELISPDIR}/$${f}; \
-		chmod ${SHAREMODE} ${ELISPDIR}/$${f}; \
-	done
+	@${MKDIR} ${ELISPDIR}
+	@cd ${WRKSRC}; \
+	${INSTALL_DATA} `${EXTRACT_CMD} tzf ${DISTDIR}/${DISTFILES}` ${ELISPDIR}
 
 .include <bsd.port.mk>
