@@ -8,7 +8,7 @@
 
 DISTNAME=	toolbox-0.4.3
 CATEGORIES=	misc
-MASTER_SITES=	http://cs.bc.edu/~kelleyry/blackbox/utils/
+MASTER_SITES=	http://rfk.masslinux.com/blackbox/utils/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
