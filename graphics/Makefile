@@ -29,6 +29,7 @@
     SUBDIR += imlib
     SUBDIR += jbigkit
     SUBDIR += jpeg
+    SUBDIR += kdegraphics
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
     SUBDIR += mpeg2play
