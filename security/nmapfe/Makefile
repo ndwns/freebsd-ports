@@ -14,6 +14,7 @@ MASTER_SITES=	http://www.insecure.org/nmap/
 MAINTAINER=     obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
+CFLAGS+=        -DDLT_RAW=12 # for obsoleted <net/bpf.h>
 MAN1=		nmap.1
 
 post-install:
