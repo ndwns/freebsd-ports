@@ -13,10 +13,11 @@ MASTER_SITES=	ftp://ftp.okbmei.msk.su/pub/os/unix/X11/fileman/
 
 MAINTAINER=	lukin@okbmei.msk.su
 
-BUILD_DEPENDS=	${PREFIX}/lib/libDnd.a:${PORTSDIR}/x11/libdnd
-LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Dnd.1:${PORTSDIR}/x11/libdnd \
+		Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
+USE_X_PREFIX=	yes
 MAN1=	files.1
 MAN3=	regexp.3
 
