@@ -16,6 +16,6 @@ MAINTAINER=	swallace@FreeBSD.org
 
 NO_CDROM=	"don't sell for profit"
 USE_IMAKE=	yes
-
+MAN6=		xinvaders.6
 
 .include <bsd.port.mk>
