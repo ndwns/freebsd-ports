@@ -61,6 +61,7 @@
     SUBDIR += xgolgo
     SUBDIR += xinvaders
     SUBDIR += xjewel
+    SUBDIR += xjig
     SUBDIR += xkobo
     SUBDIR += xlife
     SUBDIR += xmahjongg
