@@ -16,6 +16,7 @@
     SUBDIR += faces
     SUBDIR += fetchmail
     SUBDIR += glbiff
+    SUBDIR += hbiff
     SUBDIR += im
     SUBDIR += imap-uw
     SUBDIR += kbiff
