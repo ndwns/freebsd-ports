@@ -9,8 +9,6 @@ DISTNAME=       sharutils-4.1.4
 CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.iro.umontreal.ca/pub/contrib/pinard/gnu/
 
-MAINTAINER=     ache@FreeBSD.ORG
-
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --program-prefix=g --disable-uucode --prefix=${PREFIX}
 INSTALL_TARGET= install install-man
