@@ -37,7 +37,9 @@
     SUBDIR += popper
     SUBDIR += premail
     SUBDIR += procmail
+    SUBDIR += rblcheck
     SUBDIR += smail
+    SUBDIR += smtpfeed
     SUBDIR += tkrat
     SUBDIR += xfaces
     SUBDIR += xfmail
