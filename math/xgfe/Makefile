@@ -8,7 +8,7 @@
 
 DISTNAME=	xgfe-2.0
 CATEGORIES=	math
-MASTER_SITES=	http://www2.msstate.edu/~dmi1/xgfe/download/
+MASTER_SITES=	http://jasper.he.net/~dmishee/xgfe/download/
 
 MAINTAINER=	mph@freebsd.org
 
