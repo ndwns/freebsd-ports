@@ -20,7 +20,7 @@ PATCH_DIST_STRIP=	-p1
 MAINTAINER=	inagaki@tg.rim.or.jp
 
 RUN_DEPENDS=	mf:${PORTSDIR}/japanese/ptex-common
-LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.24:${PORTSDIR}/japanese/vflib
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
