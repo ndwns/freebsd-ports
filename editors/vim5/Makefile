@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0p
+DISTNAME=	vim-5.0q
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
@@ -20,7 +20,7 @@ MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAKE_FLAGS=	CONF_ARGS=--prefix=${PREFIX} -f
-ALL_TARGET=	
+ALL_TARGET=	#
 MAN1=		vim.1 xxd.1 ctags.1
 
 .if defined(HAVE_MOTIF)
@@ -35,7 +35,7 @@ pre-build:
 
 post-install:
 	[ -e ${PREFIX}/bin/gvim ] || /bin/ln -s ${PREFIX}/bin/vim ${PREFIX}/bin/gvim
-	@/bin/rm -f ${PREFIX}/man/man1/etags.1
+	@${RM} -f ${PREFIX}/man/man1/etags.1
 	@/bin/ln -sf ${PREFIX}/man/man1/ctags.1.gz ${PREFIX}/man/man1/etags.1.gz
 
 
