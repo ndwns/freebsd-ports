@@ -15,10 +15,14 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
+.if ${MACHINE_ARCH} == alpha
+BROKEN=		won\'t build on alpha
+.endif
+
 MAN1=		dlxcc.1
 
 do-configure:
-	cd ${WRKSRC}/gcc ; config.gcc dlx
+	cd ${WRKSRC}/gcc ; ./config.gcc dlx
 
 do-build:
 	cd ${WRKSRC}/dlxsim ; make install
