@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	xgfe-2.0
-CATEGORIES=	math
-MASTER_SITES=	http://jasper.he.net/~dmishee/xgfe/download/
+DISTNAME=		xgfe-2.0
+CATEGORIES=		math
+MASTER_SITES=		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/graphics/visualization
 
 MAINTAINER=	mph@freebsd.org
 
