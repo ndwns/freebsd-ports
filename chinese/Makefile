@@ -20,6 +20,7 @@
     SUBDIR += nvi-euc-cn
     SUBDIR += nvi-euc-tw
     SUBDIR += samba
+    SUBDIR += samba-des
     SUBDIR += ted
 
 .include <bsd.port.subdir.mk>
