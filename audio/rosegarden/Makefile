@@ -17,7 +17,7 @@ EXTRACT_SUFX=	-sources.tar.gz
 MAINTAINER=	shanee@augusta.de
 
 BUILD_DEPENDS=	${LOCALBASE}/lib/tclmidi/tclmidi31.so:$(PORTSDIR)/audio/tclmidi
-RUN_DEPENDS=	${LOCALBASE}/lib/tclmidi/tclmidi31.so:$(PORTSDIR)/audio/tclmidi	
+RUN_DEPENDS=	${LOCALBASE}/lib/tclmidi/tclmidi31.so:$(PORTSDIR)/audio/tclmidi
 
 GNU_CONFIGURE=	yes
 USE_AUTOCONF=	yes
