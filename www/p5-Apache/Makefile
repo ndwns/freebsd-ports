@@ -16,6 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/www/apache12:patch
 
+BROKEN=		perl5 upgrade
+
 USE_PERL5=	YES
 CONFIGURE_ENV=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
 MAN3=		Apache.3 Apache::Constants.3  Apache::Options.3 \

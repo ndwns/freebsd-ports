@@ -16,6 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	pgp:${PORTSDIR}/security/pgp
 
+BROKEN=		perl5 upgrade
+
 USE_PERL5=	YES
 
 MAN3=		PGP::Pipe.3

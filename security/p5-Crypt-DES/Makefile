@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	Crypt
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN=		perl5 upgrade
+
 USE_PERL5=	YES
 
 MAN3=		Crypt::DES.3
