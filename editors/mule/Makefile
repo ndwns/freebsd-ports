@@ -84,6 +84,15 @@ pre-build:
 	find ${WRKSRC} \( -name \*.orig -o -name \*~ \) -exec ${RM} -f \{} \;
 	${RM} -f ${WRKSRC}/etc/DOC* ${WRKSRC}/src/emacs ${WRKSRC}/src/emacs-19.28.*
 
+# If site-start.el exists, you should run below when you install by
+# this port
+pre-install:
+	@if [ -f ${SITE_START} ]; then \
+		${MV} ${SITE_START} ${SITE_START}.orig ; \
+		${SED} -e '/;; BEGIN mule-family/,/;; END mule-family/d' \
+			${SITE_START}.orig > ${SITE_START}; \
+	fi
+
 post-install:
 # note that any2ps is a script
 .for file in b2m coco ctags emacsclient etags m2ps mule-19.28
@@ -112,4 +121,3 @@ post-package:
 	@${TOUCH} ${TOUCH_FLAGS} ${PACKAGE_COOKIE}
 
 .include <bsd.port.mk>
-
