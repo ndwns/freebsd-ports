@@ -17,7 +17,7 @@ RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
 NO_BUILD=	yes
 
-CARDSETS=	pysol-cardsets-2.11
+CARDSETS=	pysol-cardsets-2.14
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/pysol.py ${PREFIX}/bin/pysol
