@@ -8,6 +8,7 @@
     SUBDIR += bwbasic
     SUBDIR += cim
     SUBDIR += cmucl
+    SUBDIR += egcs
     SUBDIR += eiffel
     SUBDIR += elk
     SUBDIR += eperl
