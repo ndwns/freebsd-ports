@@ -1,5 +1,5 @@
 # New ports collection makefile for:    mgetty+sendfax
-# Version required:     0.98
+# Version required:     0.99
 # Date created:         21 September 1994
 # Whom:                 jmz
 #
