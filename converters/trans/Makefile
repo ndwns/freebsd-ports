@@ -22,7 +22,7 @@ do-install:
 	for i in $(ALL); do \
 		$(INSTALL_MAN) $$i.man ${PREFIX}/man/cat1/$$i.1; \
 	done
-	-mkdir -p ${LIBDIR}/tables ${LIBDIR}/xlt ${LIBDIR}/doc
+	${MKDIR} ${LIBDIR}/tables ${LIBDIR}/xlt ${LIBDIR}/doc
 	cd ${WRKSRC} && \
 	$(INSTALL_SCRIPT) checkall mkbintab mklist one iso ${LIBDIR}
 	cd ${WRKSRC} && \
