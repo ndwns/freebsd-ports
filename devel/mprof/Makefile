@@ -8,7 +8,7 @@
 
 DISTNAME=       mprof-3.0
 CATEGORIES=	devel
-MASTER_SITES=   ftp://cs.colorado.edu/pub/misc/
+MASTER_SITES=   ftp://ftp.cs.colorado.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 
 WRKSRC=		${WRKDIR}
