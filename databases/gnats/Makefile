@@ -6,16 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	gnats-3.107-beta
-PKGNAME=	gnats-3.107b
+DISTNAME=	gnats-3.110
 CATEGORIES=	databases elisp
-#MASTER_SITES=	ftp://ftp.cygnus.com/pub/gnats/
-MASTER_SITES=	ftp://ftp.juniper.net/pub/gnats/
+MASTER_SITES=	ftp://sourceware.cygnus.com/pub/gnats/snapshots/
 
 MAINTAINER=	pst@FreeBSD.org
 
-Y2K=		http://www.cyclic.com/cyclic-pages/gnats.html
-WWW_SITE=	http://www.cyclic.com/cyclic-pages/gnats.html
+Y2K=		http://sourceware.cygnus.com/gnats/
+WWW_SITE=	http://sourceware.cygnus.com/gnats/
 
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
