@@ -24,7 +24,7 @@ PATCHFILES=	xtt11-to-pl00.diff.gz xtt11pl00-to-pl01.diff.gz \
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
-#RUN_DEPENDS+=	mkttfdir:${PORTSDIR}/print/perlftlib
+RUN_DEPENDS+=	mkttfdir:${PORTSDIR}/print/perlftlib
 
 .if !defined(USE_SHARED_WRKSRC) && defined(COMPILE_ALL_SERVERS_AT_ONCE)
 USE_SHARED_WRKSRC= YES
