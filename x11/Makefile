@@ -25,6 +25,7 @@
     SUBDIR += tk
     SUBDIR += tk4
     SUBDIR += tk41
+    SUBDIR += tkdesk
     SUBDIR += tkxpm
     SUBDIR += tvtwm
     SUBDIR += viewfax
