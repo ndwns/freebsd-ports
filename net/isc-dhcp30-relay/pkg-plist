@@ -1,9 +1,3 @@
 @comment $FreeBSD$
 etc/rc.d/isc-dhcrelay.sh
 sbin/dhcrelay
-%%PORTDOCS%%%%DOCSDIR%%/ANONCVS
-%%PORTDOCS%%%%DOCSDIR%%/CHANGES
-%%PORTDOCS%%%%DOCSDIR%%/COPYRIGHT
-%%PORTDOCS%%%%DOCSDIR%%/README
-%%PORTDOCS%%%%DOCSDIR%%/RELNOTES
-%%PORTDOCS%%@dirrm %%DOCSDIR%%
