@@ -76,7 +76,6 @@
     SUBDIR += plain2
     SUBDIR += platex
     SUBDIR += prn
-    SUBDIR += ptex2
     SUBDIR += qkc
     SUBDIR += recjis
     SUBDIR += sed
