@@ -16,21 +16,14 @@ MAINTAINER=     obrien@FreeBSD.org
 
 RESTRICTED=	"Author wishes Alpha releases not to be distrubted."
 
+.if !exists(${DISTDIR}/vp-bro-0.4-alpha${EXTRACT_SUFX})
+IGNORE='Please contact Vern Paxson <vern@ee.lbl.gov> to obtain the obtain the Bro source.  Put it in ${DISTDIR} as vp-bro-0.4-alpha${EXTRACT_SUFX} and run make again'
+.endif
+
 IS_INTERACTIVE=	"manual fetch"
 WRKSRC=		${WRKDIR}/bro-0.4
 CONFIGURE_ARGS= --libdir=${PREFIX}/share
 GNU_CONFIGURE=	yes
-
-do-fetch:
-	@if [ ! -f ${DISTDIR}/vp-bro-0.4-alpha${EXTRACT_SUFX} ]; then \
-	  echo ""; \
-	  echo "Please contact Vern Paxson <vern@ee.lbl.gov>"; \
-	  echo "to obtain the obtain the Bro source.  Put it in"; \
-	  echo "${DISTDIR} as vp-bro-0.4-alpha${EXTRACT_SUFX}"; \
-	  echo "and run make again"; \
-	  echo ""; \
-	  exit 1;\
-	fi
 
 post-patch:
 	@${MV} ${WRKSRC}/util.cc ${WRKSRC}/util.cc.in
