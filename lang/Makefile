@@ -45,6 +45,7 @@
     SUBDIR += scm
     SUBDIR += smalltalk
     SUBDIR += squeak
+    SUBDIR += sr
     SUBDIR += swi-pl
     SUBDIR += tcl
     SUBDIR += tcl74
