@@ -9,6 +9,7 @@
     SUBDIR += bwbasic
     SUBDIR += cim
     SUBDIR += cmucl
+    SUBDIR += dylan
     SUBDIR += egcs
     SUBDIR += eiffel
     SUBDIR += elisp-manual
