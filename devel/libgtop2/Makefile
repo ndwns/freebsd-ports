@@ -8,7 +8,7 @@
 
 DISTNAME=	libgtop-0.26.2
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.home-of-linux.org/pub/libgtop/
+MASTER_SITES=	ftp://ftp.home-of-linux.org/pub/libgtop/0.26.2/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
