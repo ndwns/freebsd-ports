@@ -16,6 +16,8 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		esd.0:${PORTSDIR}/audio/esound
 
+BROKEN_ELF=	yes
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-esd
