@@ -42,8 +42,6 @@
     SUBDIR += p5-ePerl
     SUBDIR += pbasic
     SUBDIR += perl5
-    SUBDIR += pgcc
-    SUBDIR += pgcc-current
     SUBDIR += python
     SUBDIR += rexx-imc
     SUBDIR += ruby
