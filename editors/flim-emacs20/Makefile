@@ -38,18 +38,14 @@ EMACS_CMD=	${PREFIX}/bin/${EMACS_NAME}-${EMACS_VER}
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300006
 MAKEINFO=	makeinfo --no-split --no-validate
-.else
-MAKEINFO=	makeinfo --no-split
-.endif
 
 post-build:
 	@(cd ${WRKSRC} ; \
 	for i in mime-en.texi mime-ja.texi; do \
 		${MV} $${i} $${i}.jis ; \
 		${CAT} $${i}.jis | nkf -e > $${i} ; \
-		${ECHO} "===>   Please ignore the following errors." ; \
+		${ECHO_MSG} "===>   Please ignore the following errors." ; \
 		${MAKEINFO} $${i} || ${TRUE} ; \
 	done)
 
