@@ -6,6 +6,8 @@
 # $Id$
 #
 
+BROKEN=		package
+
 DISTNAME=	mgetty1.1.9-Aug17
 PKGNAME=	mgetty-1.1.9
 CATEGORIES=	comms
