@@ -19,7 +19,7 @@ NO_PACKAGE=	"Compiled in hostnames"
 WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.5
 
 INETD_CONF=	/etc/inetd.conf
-CONF=	'	stream	tcp	nowait	nobody	/usr/local/libexec/gn	gn'
+CONF=	'	stream	tcp	nowait	nobody	${PREFIX}/libexec/gn	gn'
 
 pre-build:
 	@ln -fs ${WAISDIR}/include ${WRKSRC}/waisgn/ir
@@ -45,7 +45,7 @@ post-install:
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \
-	  awk '$$1 ~ /#*gopher/ && $$6 == "/usr/local/libexec/gn" { exit 1 }' \
+	  awk '$$1 ~ /#*gopher/ && $$6 == "${PREFIX}/libexec/gn" { exit 1 }' \
 		${INETD_CONF} || { \ echo '#'gopher${CONF} >>${INETD_CONF}
 	  }
 
