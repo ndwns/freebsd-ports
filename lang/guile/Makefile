@@ -15,4 +15,7 @@ MAINTAINER=	jseger@FreeBSD.org
 GNU_CONFIGURE=	YES
 MAKE_ENV+=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 
+post-install:
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+
 .include <bsd.port.mk>
