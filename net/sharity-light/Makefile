@@ -15,11 +15,6 @@ MASTER_SITES=	ftp://ftp.obdev.at/pub/Products/Sharity-Light/	\
 
 MAINTAINER=	dt@FreeBSD.ORG
 
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=         MOUNT_NFS undeclared
-.endif
-
 MAN8=		smbmount.8
 
 post-extract:
