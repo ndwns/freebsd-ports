@@ -13,6 +13,8 @@ MASTER_SITES=	http://iblinux.rios.co.jp/dloadfb/
 
 MAINTAINER=	berend@pobox.com
 
+ONLY_FOR_ARCHS=	i386
+
 NO_WRKSUBDIR=
 NO_BUILD=
 NO_FILTER_SHLIBS=
