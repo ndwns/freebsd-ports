@@ -28,4 +28,26 @@ pre-install:
 	@cd ${WRKSRC}/doc; chmod 644 *.6
 	@cd ${WRKSRC}/doc; ${MAKE} PREFIX=${PREFIX} manpages
 
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/win/X11/nh_icon.xpm ${PREFIX}/lib/jnethackdir
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/ja/nethack
+	${INSTALL_MAN} ${WRKSRC}/doc/jGuidebook.txt ${PREFIX}/share/doc/ja/nethack
+	${INSTALL_MAN} ${FILESDIR}/README ${PREFIX}/share/doc/ja/nethack
+.for i in README.j ChangeLog.j INSTALL.j
+	${INSTALL_MAN} ${WRKSRC}/$i ${PREFIX}/share/doc/ja/nethack
+.endfor
+.endif
+	${MKDIR} ${PREFIX}/share/examples/ja/nethack
+	${INSTALL_DATA} ${WRKSRC}/win/X11/nethack.rc ${PREFIX}/share/examples/ja/nethack
+	${INSTALL_DATA} ${WRKSRC}/win/X11/JNetHack.ad ${PREFIX}/share/examples/ja/nethack
+.for i in ibm nh10
+	${INSTALL_DATA} ${WRKSRC}/win/X11/$i.bdf ${PREFIX}/share/examples/ja/nethack
+	${X11BASE}/bin/bdftopcf ${PREFIX}/share/examples/ja/nethack/$i.bdf \
+		> ${PREFIX}/share/examples/ja/nethack/$i.pcf
+	${RM} ${PREFIX}/share/examples/ja/nethack/$i.bdf
+	${GZIP_CMD} ${PREFIX}/share/examples/ja/nethack/$i.pcf
+.endfor
+	${CAT} ${PKGDIR}/MESSAGE
+
 .include <bsd.port.mk>
