@@ -58,6 +58,7 @@
     SUBDIR += xbmbrowser
     SUBDIR += xdl
     SUBDIR += xfig
+    SUBDIR += xfpovray
     SUBDIR += xfractint
     SUBDIR += xgrasp
     SUBDIR += xli
