@@ -66,6 +66,7 @@
     SUBDIR += tkgoodstuff
     SUBDIR += tkstep80
     SUBDIR += tvtwm
+    SUBDIR += tycoon
     SUBDIR += viewfax
     SUBDIR += windowmaker
     SUBDIR += wm2
