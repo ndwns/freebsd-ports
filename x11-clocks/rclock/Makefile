@@ -7,8 +7,8 @@
 # $Id$
 #
 
-PKGNAME=	rclock-2.4.5
-DISTNAME=	rxvt-2.4.5
+PKGNAME=	rclock-2.4.11
+DISTNAME=	rxvt-2.4.11
 CATEGORIES=	x11-clocks
 MASTER_SITES=	${MASTER_SITE_SUNSITE}  \
 		ftp://ftp.nuclecu.unam.mx/linux/local/rxvt/  \
