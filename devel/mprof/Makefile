@@ -10,6 +10,7 @@ DISTNAME=       mprof-3.0
 MASTER_SITES=   ftp://cs.colorado.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 WRKSRC=		${WRKDIR}
+MAKEFILE=	Makefile.i386
 
 install:
 	@if [ ! -e ${PREFIX}/bin ]; then mkdir -p ${PREFIX}/bin; fi
