@@ -18,6 +18,7 @@ SUBDIR += japanese
 SUBDIR += lang
 SUBDIR += mail
 SUBDIR += math
+SUBDIR += mbone
 SUBDIR += misc
 SUBDIR += net
 SUBDIR += news
