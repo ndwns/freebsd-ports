@@ -11,6 +11,7 @@ PKGNAME=	ile-1.6
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.inria.fr/system/user/
 EXTRACT_SUFX=	.tar.Z
+
 MAINTAINER=	jmz@FreeBSD.org
 
 MAN1=		ile.1
