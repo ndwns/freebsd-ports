@@ -21,9 +21,11 @@ post-extract:
 	cp ${DISTDIR}/mod_env.c ${WRKSRC}/src
 
 post-install:
-	@echo "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."
-	@echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/apache.sh
-	@echo "[ -x /usr/local/sbin/httpd ] && /usr/local/sbin/httpd && echo -n ' httpd'" >> ${PREFIX}/etc/rc.d/apache.sh
-	@chmod 751 ${PREFIX}/etc/rc.d/apache.sh
+	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
+		echo "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."; \
+		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/apache.sh; \
+		echo "[ -x /usr/local/sbin/httpd ] && /usr/local/sbin/httpd && echo -n ' httpd'" >> ${PREFIX}/etc/rc.d/apache.sh; \
+		chmod 751 ${PREFIX}/etc/rc.d/apache.sh; \
+	fi
 
 .include <bsd.port.mk>
