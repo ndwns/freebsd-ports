@@ -24,6 +24,7 @@ ALL_TARGET=	superlulib
 
 post-install:
 	$(INSTALL_DATA) ${WRKSRC}/libsuperlu.* ${PREFIX}/lib
+	$(INSTALL_DATA) ${WRKSRC}/SRC/supermatrix.h ${PREFIX}/include
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/SuperLU
 	${INSTALL_DATA} ${WRKSRC}/INSTALL/*.ps ${PREFIX}/share/doc/SuperLU
