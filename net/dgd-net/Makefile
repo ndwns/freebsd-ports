@@ -17,13 +17,7 @@ PATCH_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/patches/ \
 PATCHFILES=	1.0.37-1.0.39.gz \
 		1.0.39-1.0.40.gz \
 		1.0.40-1.0.56.gz \
-		1.0.56-1.0.57.gz \
-		1.0.57-1.0.58.gz \
-		1.0.58-1.0.59.gz \
-		1.0.59-1.0.60.gz \
-		1.0.60-1.0.61.gz \
-		1.0.61-1.0.62.gz \
-		1.0.62-1.0.63.gz \
+		1.0.56-1.0.63.gz \
 		net-10.dgd-63.gz
 
 MAINTAINER=	adam@veda.is
