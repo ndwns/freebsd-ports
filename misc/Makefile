@@ -32,7 +32,6 @@
     SUBDIR += mmv
     SUBDIR += most
     SUBDIR += mshell
-    SUBDIR += na-zipcodes
     SUBDIR += nwrite
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
@@ -49,6 +48,7 @@
     SUBDIR += uk-phone
     SUBDIR += uk-postcodes
     SUBDIR += unclutter
+    SUBDIR += us-zipcodes
     SUBDIR += viz
     SUBDIR += xcalendar
     SUBDIR += xgas
