@@ -25,13 +25,12 @@ pre-configure:
 	cd ${WRKSRC}; yes "" | PREFIX=${PREFIX} ./Count-config
 
 post-build:
-	cd ${WRKSRC}/utils; ${MAKE}
 	cd ${WRKSRC}; ./Gen-conf
 
 do-install:
 	cd ${WRKSRC}; yes "" | ./Count-install
-	cd ${WRKSRC}/utils; \
-		${INSTALL_PROGRAM} mkstrip ${PREFIX}/bin; \
+	cd ${WRKSRC}/utils/mkstrip; \
+		${INSTALL_PROGRAM} extdgts mkstrip ${PREFIX}/bin; \
 		${INSTALL_MAN} mkstrip.1 ${PREFIX}/man/man1; \
 		${INSTALL_SCRIPT} mkstrip.sh ${PREFIX}/lib/Counter/digits
 
