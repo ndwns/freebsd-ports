@@ -14,6 +14,5 @@
     SUBDIR += p5-Pg
     SUBDIR += postgresql
     SUBDIR += typhoon
-    SUBDIR += xfsql
 
 .include <bsd.port.subdir.mk>
