@@ -24,6 +24,7 @@
     SUBDIR += olvwm
     SUBDIR += piewm
     SUBDIR += qvwm
+    SUBDIR += scwm
     SUBDIR += tvtwm
     SUBDIR += vtwm
     SUBDIR += windowmaker
