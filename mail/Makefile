@@ -4,6 +4,7 @@
     SUBDIR += adcomplain
     SUBDIR += asmail
     SUBDIR += bulk_mailer
+    SUBDIR += coolmail
     SUBDIR += cucipop
     SUBDIR += cyrus
     SUBDIR += elm
