@@ -8,12 +8,12 @@
 
 DISTNAME=	itcl2.1
 PKGNAME=	itcl-2.1
-GNU_CONFIGURE=	yes
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/NEW/
 
 MAINTAINER=	chuckr@freebsd.org
 
+GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 
 post-extract:
