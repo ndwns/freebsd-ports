@@ -29,5 +29,15 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKSRC}/doc/index.html ${PREFIX}/share/doc/lua
 	@ ${INSTALL_DATA} ${WRKSRC}/doc/luac.html ${PREFIX}/share/doc/lua
 	@ ${INSTALL_DATA} ${WRKSRC}/doc/manual.html ${PREFIX}/share/doc/lua
+	@ ${INSTALL_DATA} ${WRKSRC}/include/lua.h ${PREFIX}/include
+	@ ${INSTALL_DATA} ${WRKSRC}/include/luadebug.h ${PREFIX}/include
+	@ ${INSTALL_DATA} ${WRKSRC}/include/lualib.h ${PREFIX}/include
+	@ ${INSTALL_DATA} ${WRKSRC}/include/lauxlib.h ${PREFIX}/include
+	@ ${INSTALL_DATA} ${WRKSRC}/lib/liblua.a ${PREFIX}/lib
+	@ ${INSTALL_DATA} ${WRKSRC}/lib/liblualib.a ${PREFIX}/lib
+
+post-install:
+	@strip ${PREFIX}/bin/lua
+	@strip ${PREFIX}/bin/luac
 
 .include <bsd.port.mk>
