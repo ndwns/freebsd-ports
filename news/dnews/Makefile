@@ -7,10 +7,10 @@
 #
 
 DISTNAME=	dnews
-PKGNAME=	dnews-4.5i
+PKGNAME=	dnews-4.6n
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.netwinsite.com/pub/netwinsite/dnews/
-DISTFILES=	dnews45i_freebsd2.tar.Z
+DISTFILES=	dnews46n_freebsd.tar.Z
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
