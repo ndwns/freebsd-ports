@@ -4,7 +4,7 @@
 #
 # doesn't compile: mh
 #
-SUBDIR= Canna Wnn gawk grep kinput2-canna kterm less nkf \
+SUBDIR= Canna Wnn gawk grep groff kinput2-canna kterm less nkf \
 	mule-canna mule-wnn sed tcl tk
 
 .include <bsd.port.subdir.mk>
