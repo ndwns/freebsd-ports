@@ -26,7 +26,7 @@ post-install:
 	if [ ! -f ${PREFIX}/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
-.for info in emacs vip viper forms gnus mh-e cl sc dired-x ediff ccmode
+.for info in emacs vip viper forms gnus mh-e cl sc dired-x ediff ccmode message
 	install-info ${PREFIX}/info/${info} ${PREFIX}/info/dir
 .endfor
 
