@@ -48,6 +48,7 @@
     SUBDIR += socket
     SUBDIR += star
     SUBDIR += stat
+    SUBDIR += stmpclean
     SUBDIR += su2
     SUBDIR += tcplist
     SUBDIR += tua
