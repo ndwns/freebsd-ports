@@ -8,7 +8,8 @@ SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
 
 #
 # These depend on tk, so might as well build tk first...
+# (And vic depends on blt.)
 #
-SUBDIR+= imm nv blt
+SUBDIR+= imm nv blt vic
 
 .include <bsd.port.subdir.mk>
