@@ -10,6 +10,7 @@
     SUBDIR += nbench
     SUBDIR += netperf
     SUBDIR += netpipe
+    SUBDIR += polygraph
     SUBDIR += tcpblast
     SUBDIR += xengine
 
