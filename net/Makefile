@@ -51,6 +51,7 @@
     SUBDIR += ldap
     SUBDIR += lftp
     SUBDIR += libsocket++
+    SUBDIR += licq
     SUBDIR += llnlxdir
     SUBDIR += llnlxftp
     SUBDIR += macipgw
