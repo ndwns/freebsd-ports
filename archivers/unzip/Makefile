@@ -16,9 +16,16 @@ MAINTAINER=     ache@FreeBSD.ORG
 NO_WRKSUBDIR=   YES
 MAKEFILE=       unix/Makefile
 ALL_TARGET=     bsd
-MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS}" \
-		INSTALL="install -c -o bin -g bin" \
-		prefix=${PREFIX} -f
-MAN1=		funzip.1 unzip.1 unzipsfx.1 zipinfo.1
+MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS}" -f
+MAN1=           funzip.1 unzip.1 unzipsfx.1 zipgrep.1 zipinfo.1
+
+do-install:
+	cd ${WRKSRC} && \
+		${INSTALL_PROGRAM} unzip funzip unzipsfx ${PREFIX}/bin
+	ln -sf unzip ${PREFIX}/bin/zipinfo
+	cd ${WRKSRC}/unix && \
+		${INSTALL_SCRIPT} zipgrep ${PREFIX}/bin
+	cd ${WRKSRC}/unix && \
+		${INSTALL_MAN} ${MAN1} ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
