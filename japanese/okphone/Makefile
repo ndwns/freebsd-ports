@@ -9,7 +9,7 @@
 DISTNAME=	okphone-1.2
 PKGNAME=	jp-okphone-1.2
 CATEGORIES+=	japanese net
-MASTER_SITES=	ftp://www.iijnet.or.jp/IIJ-MC/odajima/okphone/src/
+MASTER_SITES=	http://www.iijnet.or.jp/IIJ-MC/odajima/okphone/src/
 
 PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	okphone-1.2.FreeBSD-patch.gz
