@@ -124,6 +124,7 @@
     SUBDIR += vflib
     SUBDIR += vftool
     SUBDIR += vfxdvi
+    SUBDIR += vfxdvik
     SUBDIR += w3
     SUBDIR += weblint97
     SUBDIR += wine
