@@ -40,6 +40,6 @@ post-install:
 .endif
 	for file in $(PREFIX)/moscow_ml/bin/*;do \
 	if [ -f $${file} ]; then\
-	$(LN) -s $${file} $(PREFIX)/bin;fi;done
+	$(LN) -sf $${file} $(PREFIX)/bin;fi;done
 
 .include <bsd.port.mk>
