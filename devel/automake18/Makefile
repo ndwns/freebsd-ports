@@ -16,9 +16,9 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	PERL=/usr/bin/perl
 
 post-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	@if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	 fi
-	install-info ${PREFIX}/info/automake.info ${PREFIX}/info/dir
+	@install-info ${PREFIX}/info/automake.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
