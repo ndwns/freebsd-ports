@@ -13,6 +13,7 @@
     SUBDIR += gsm
     SUBDIR += kdemultimedia
     SUBDIR += kmpg
+    SUBDIR += lamer
     SUBDIR += maplay
     SUBDIR += mikmod
     SUBDIR += mp3info
