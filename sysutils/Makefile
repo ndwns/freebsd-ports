@@ -3,6 +3,7 @@
 
     SUBDIR += LPRng
     SUBDIR += afio
+    SUBDIR += asrpages
     SUBDIR += cdrecord
     SUBDIR += cd-write
     SUBDIR += contool
