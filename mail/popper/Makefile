@@ -9,7 +9,7 @@
 DISTNAME=       qpopper2.5
 PKGNAME=        qpopper-2.5
 CATEGORIES=	mail
-MASTER_SITES=   ftp://ftp.qualcomm.com/eudora/servers/unix/popper/
+MASTER_SITES=   ftp://ftp.qualcomm.com/oldeudora/servers/unix/popper/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ache@freebsd.org
