@@ -15,6 +15,7 @@
     SUBDIR += expect
     SUBDIR += forth
     SUBDIR += g77
+    SUBDIR += gcc28
     SUBDIR += gcl
     SUBDIR += gnat
     SUBDIR += guavac
