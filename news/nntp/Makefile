@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nntp-t5
-PKGNAME=	nntp-1.5.11.4
+PKGNAME=	nntp-1.5.11.5
 CATEGORIES+=	news
 MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 
