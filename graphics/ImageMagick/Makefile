@@ -10,7 +10,7 @@ DISTNAME=	ImageMagick-3.6.2
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/ImageMagick/
 
-LIB_DEPENDS=	jpeg\\.5\\.:${PORTSDIR}/graphics/jpeg \
+LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg \
 		mpeg\\.1\\.:${PORTSDIR}/graphics/mpeg-lib \
 		tiff\\.3\\.:${PORTSDIR}/graphics/tiff \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
