@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=       tinpre-1.4-980514
+DISTNAME=       tinpre-1.4-980618
 CATEGORIES=	news
 MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
 		ftp://nuxi.ucdavis.edu/pub/tin/ \
