@@ -11,7 +11,7 @@ PKGNAME=	nntp-1.5.11.5
 CATEGORIES+=	news
 MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 
-BUILD_DEPENDS=	${PREFIX}/libexec/news/ctime:${PORTSDIR}/news/cnews
+BUILD_DEPENDS=	${PREFIX}/lib/libcnews.a:${PORTSDIR}/news/cnews
 
 pre-patch:
 	@cp ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h
