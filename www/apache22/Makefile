@@ -9,7 +9,7 @@
 DISTNAME=       apache_1.3.4
 PKGNAME=        apache-1.3.4
 CATEGORIES=	www
-MASTER_SITES=   ftp://www.apache.org/apache/dist/
+MASTER_SITES=   http://www.apache.org/dist/
 
 MAINTAINER=     ache@freebsd.org
 
