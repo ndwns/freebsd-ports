@@ -12,6 +12,7 @@
     SUBDIR += fetchmail
     SUBDIR += imap-uw
     SUBDIR += mailagent
+    SUBDIR += majorcool
     SUBDIR += majordomo
     SUBDIR += metamail
     SUBDIR += mew
