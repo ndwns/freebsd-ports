@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://interviews.stanford.edu/pub/
 EXTRACT_SUFX=	.tar.Z
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
+BROKEN=		"ibuild doesn't build (how ironic)"
 WRKSRC=		${WRKDIR}/iv
 MAKEFILE=	makefile
 
