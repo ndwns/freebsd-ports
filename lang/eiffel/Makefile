@@ -10,7 +10,7 @@ DISTNAME=	eiffels13a
 PKGNAME=	eiffel-13a
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cm.cf.ac.uk/pub/Eiffel/SIG/Eiffel-S-1.3/BSD/
-EXTRACT_SUFX=	.freebsd.gz
+EXTRACT_SUFX=	.freebsd.tar.gz
 
 MAINTAINER=	erich@FreeBSD.ORG
 
