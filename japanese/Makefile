@@ -123,6 +123,7 @@
     SUBDIR += onew-wnn6
     SUBDIR += p5-jcode.pl
     SUBDIR += p5-manual
+    SUBDIR += p5-mkres
     SUBDIR += perl5
     SUBDIR += pgp.language
     SUBDIR += pine
