@@ -29,6 +29,9 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/doc/neXtaw
 	${INSTALL_DATA} ${WRKSRC}/README.neXtaw ${PREFIX}/share/doc/neXtaw
 .endif
-	${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libneXtaw.so.6.1 ${PREFIX}/lib/libneXtaw.so; \
+	fi
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
