@@ -73,9 +73,9 @@ pre-patch:
 fetch-depends:
 .if !defined(USA_RESIDENT) || ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
 	@echo
-	@echo You must set variable USA_RESIDENT to YES if you are a USA
-	@echo resident or NO otherwise.
-	@echo If you are a USA resident then this port must also fetch
+	@echo You must set the variable USA_RESIDENT to YES if you are a
+	@echo United States resident, otherwise NO.
+	@echo If you are a US resident then this port must also fetch
 	@echo the RSAREF2 library from sources abroad \(RSA Inc. holds a
 	@echo patent on RSA and public key crypto in general in the United
 	@echo States so using RSA implementations other than RSAREF there
