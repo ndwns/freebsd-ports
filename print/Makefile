@@ -31,6 +31,7 @@
     SUBDIR += ghostscript5
     SUBDIR += ghostview
     SUBDIR += gp
+    SUBDIR += gsfonts
     SUBDIR += gv
     SUBDIR += html2latex
     SUBDIR += html2ps
