@@ -15,6 +15,8 @@ MAINTAINER=	vanilla@MinJe.com.TW
 
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
+BROKEN=		build
+
 USE_PERL5=	YES
 
 do-configure:
