@@ -14,9 +14,10 @@ DISTFILES=	# empty
 
 MAINTAINER=	nik@freebsd.org
 
-# sgmlformat brings in almost everything except for the modular stylesheets
 RUN_DEPENDS=	instant:${PORTSDIR}/textproc/sgmlformat \
-		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular
+		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular \
+		tidy:${PORTSDIR}/www/tidy \
+		${PREFIX}/share/sgml/html/catalog:${PORTSDIR}/textproc/html
 
 EXTRACT_ONLY=	# empty
 NO_BUILD=	yes
