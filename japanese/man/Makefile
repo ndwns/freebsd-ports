@@ -36,6 +36,7 @@ XPG4PATCHFILE=		patch-xpg4
 XPG4PATCHSUFX=		xpg4
 
 pre-patch:
+	@${MKDIR} ${PATCHDIR}
 	@rm -f ${PATCHDIR}/patch-${XPG4PATCHSUFX}
 .if !defined(NOUSE_XPG4LIB)
 	@${SED} -e "s,%xpg4_lib_path%,${XPG4LIBPATH},g" < ${FILESDIR}/${XPG4PATCHFILEORG} > ${FILESDIR}/${XPG4PATCHFILE}
