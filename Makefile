@@ -28,6 +28,8 @@ SUBDIR += sysutils
 SUBDIR += www
 SUBDIR += x11
 
+PORTSTOP=	yes
+
 .include <bsd.port.subdir.mk>
 
 index:
