@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	bxform-086
-PKGNAME=	xforms-0.86
+DISTNAME=	bxform-088
+PKGNAME=	xforms-0.88
 CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://einstein.phys.uwm.edu/pub/xforms/freeBSD/
 EXTRACT_SUFX=	.tgz
