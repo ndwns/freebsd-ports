@@ -26,6 +26,7 @@
     SUBDIR += emu
     SUBDIR += eterm
     SUBDIR += fbsd-icons
+    SUBDIR += gnome
     SUBDIR += gnomecore
     SUBDIR += gnomelibs
     SUBDIR += kb2mb2
