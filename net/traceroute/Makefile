@@ -19,8 +19,7 @@ NO_WRKSUBDIR=	yes
 MAN8=		traceroute.8
 
 do-install:
-
-	${INSTALL} -m 4755 -o root -g bin ${WRKSRC}/traceroute ${PREFIX}/sbin
+	${INSTALL} -c -m 4755 -o root -g bin ${WRKSRC}/traceroute ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/traceroute.8 ${PREFIX}/man/man8
 
 .include <bsd.port.mk>
