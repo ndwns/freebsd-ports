@@ -42,6 +42,7 @@
     SUBDIR += schemetoc
     SUBDIR += scm
     SUBDIR += smalltalk
+    SUBDIR += squeak
     SUBDIR += swi-pl
     SUBDIR += tcl
     SUBDIR += tcl74
