@@ -20,7 +20,7 @@ Y2K=		http://andrew2.andrew.cmu.edu/cyrus/imapd/y2k.html
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 BUILD_DEPENDS=	makedepend:${PORTSDIR}/devel/makedepend
 
-HAS_CONFIGURE=	YES
+GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-cyrus-prefix=${PREFIX}/cyrus \
 		--with-cyrus-group=cyrus \
 		--with-login=unix_pwcheck \
