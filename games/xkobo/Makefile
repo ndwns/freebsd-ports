@@ -10,7 +10,6 @@ DISTNAME=       xkobo-1.7
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		ftp://ftp.uoknor.edu/mirrors/X/contrib/games/
-		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	jkh@FreeBSD.ORG
