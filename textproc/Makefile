@@ -18,6 +18,7 @@
     SUBDIR += rman
     SUBDIR += sgmlformat
     SUBDIR += sp
+    SUBDIR += texi2html
     SUBDIR += unroff
     SUBDIR += wdiff
 
