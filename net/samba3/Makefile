@@ -9,7 +9,11 @@
 DISTNAME=	samba-2.0.2
 #PKGNAME=	samba-2.0.2
 CATEGORIES=	net
-MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/ \
+MASTER_SITES=	ftp://ftp.samba.org/pub/samba/ \
+		ftp://ring.asahi-net.or.jp/pub/net/samba/ \
+		ftp://samba.anu.edu.au/pub/samba/ \
+		ftp://de.samba.org/pub/mirror/samba/ \
+		ftp://se.samba.org/pub/samba/ \
 		ftp://ftp.sunet.se/pub/unix/utilities/samba/
 
 MAINTAINER=	hosokawa@jp.FreeBSD.org
