@@ -82,5 +82,6 @@
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += yamsweeper
+    SUBDIR += ztrack
 
 .include <bsd.port.subdir.mk>
