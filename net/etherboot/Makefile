@@ -15,10 +15,9 @@ MAINTAINER=	ambrisko@whistle.com
 
 BUILD_DEPENDS=	as86:${PORTSDIR}/devel/bcc
 
-BROKEN=		"4.2 has been released, this port is no longer fetchable"
-
+NO_PACKAGE=	yes	# lots of configuration necessary
 USE_BZIP2=	yes
 USE_GMAKE=1	# note uses is from emulation package
-WRKSRC=		${WRKDIR}/${DISTNAME}/src-32
+WRKSRC=		${WRKDIR}/etherboot-4.1/src-32
 
 .include <bsd.port.mk>
