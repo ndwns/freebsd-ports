@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.08_W
-PKGNAME=	lsof-4.08
+DISTNAME=	lsof_4.09_W
+PKGNAME=	lsof-4.09
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
@@ -16,11 +16,6 @@ MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.sunet.se/pub/unix/admin/lsof/
 
 MAINTAINER=     obrien@NUXI.com
-
-OSVERSION!=	sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=		"outdated WRT -CURRENT's headers"
-.endif
 
 WRKSRC=		${WRKDIR}/${SRCBALL_NAME}
 HAS_CONFIGURE=	yes
