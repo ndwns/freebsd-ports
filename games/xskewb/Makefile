@@ -17,9 +17,12 @@ WRKSRC=			${WRKDIR}/xskewb
 USE_IMAKE=		yes
 MAN1=			xskewb.1
 
+# Not configured to use Motif.
+# Optionally edit ${WRKSRC}/Imakefile before build.
+
 do-install:
-	@ ${INSTALL_PROGRAM} ${WRKSRC}/xskewb ${PREFIX}/bin
-	@ ${INSTALL_DATA} ${WRKSRC}/Skewb.ad ${PREFIX}/lib/X11/app-defaults/Skewb
-	@ ${INSTALL_MAN} ${WRKSRC}/xskewb.man ${PREFIX}/man/man1/xskewb.1
+	@${INSTALL_PROGRAM} ${WRKSRC}/xskewb ${PREFIX}/bin
+	@${INSTALL_DATA} ${WRKSRC}/Skewb.ad ${PREFIX}/lib/X11/app-defaults/Skewb
+	@${INSTALL_MAN} ${WRKSRC}/xskewb.man ${PREFIX}/man/man1/xskewb.1
 
 .include <bsd.port.mk>
