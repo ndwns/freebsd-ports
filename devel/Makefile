@@ -5,6 +5,7 @@
     SUBDIR += autoconf
     SUBDIR += bcc
     SUBDIR += cflow
+    SUBDIR += cxref
     SUBDIR += dmake
     SUBDIR += gcc11
     SUBDIR += gdb
