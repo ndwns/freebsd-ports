@@ -16,6 +16,7 @@ EXTRACT_SUFX=	-tar.gz
 
 LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
 
+BROKEN=		"Libtiff might be incompatible with older library"
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-ZIP --with-JPEG --with-DIR_BIN=${PREFIX}/bin \
 		--with-DIR_LIB=${PREFIX}/lib --with-DIR_INC=${PREFIX}/include \
