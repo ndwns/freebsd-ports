@@ -14,6 +14,9 @@ MAINTAINER=	candy@fct.kgc.co.jp
 
 USE_IMAKE=	yes
 MANCOMPRESSED=	yes
-MAN1=		oneko.1
+MAN6=		oneko.6
+
+pre-configure:
+	@echo "MANSUFFIX=6" >>${WRKSRC}/Imakefile
 
 .include <bsd.port.mk>
