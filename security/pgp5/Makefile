@@ -1,6 +1,6 @@
 # New ports collection makefile for: pgp
 # Version required:     MIT 2.6.2 / International 2.6.3i dev
-# PGP 2.6.3i homepage is http://www.ifi.uio.no/~staalesc/PGP/home.html
+# PGP 2.6.3i homepage is http://www.ifi.uio.no/pgp/
 # Date created:         8 Jul 1995
 # Whom:                 ache
 #
