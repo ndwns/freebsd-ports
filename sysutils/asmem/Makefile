@@ -5,11 +5,12 @@
 #
 # $Id$
 
-DISTNAME=	asmem-1.2
+DISTNAME=	asmem-1.3
 CATEGORIES=	sysutils afterstep
-MASTER_SITES=	http://www.bewoner.dma.be/Albert/software/
+MASTER_SITES=	ftp://ftp.afterstep.org/apps/asmem/ \
+		http://www.bewoner.dma.be/Albert/software/
 
-MAINTAINER=	jack@germnaium.xtalwind.net
+MAINTAINER=	jack@germanium.xtalwind.net
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
