@@ -69,7 +69,7 @@
 # EXTRACT_ARGS	- Arguments to ${EXTRACT_CMD} (default: -C ${WRKDIR} -xzf).
 #
 # NCFTP			- Full path to ncftp command if not in $PATH (default: ncftp).
-# NCFTP_ARGS	- Arguments to ${NCFTP} (default: -N).
+# NCFTPFLAGS    - Arguments to ${NCFTP} (default: -N).
 #
 #
 # Default targets and their behaviors:
