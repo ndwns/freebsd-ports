@@ -48,7 +48,7 @@ GS_SOURCES+=	ghostscript-5.10gnu.tar.gz
 #  later version numbers pointing to them.  To avoid unnecessarily
 #  downloading distfiles, do not change these when upgrading the port
 #  unless the files really change.
-GS_FONTS_STD=	ghostscript-fonts-std-5.10.tar.gz
+GS_FONTS_STD=	ghostscript-fonts-std-5.50.tar.gz
 GS_FONTS_OTHER=	ghostscript-fonts-other-5.10.tar.gz
 
 # Additional driver HP 850, see http://bonk.ethz.ch/hp850/hp850.html
