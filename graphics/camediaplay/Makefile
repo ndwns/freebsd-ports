@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	camediaplay-971009
+DISTNAME=	camediaplay-971231-beta
 CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.itojun.org/pub/digi-cam/C-400L/unix/ \
 		ftp://ftp.digipri.co.jp/pub/free-software/Olympus/C-400L/unix/ 
@@ -17,6 +17,10 @@ WRKSRC=		${WRKDIR}/camediaplay/build
 HAS_CONFIGURE=	yes
 
 DOC=	README.english README.japanese PROTOCOL
+
+# Work-around not being able to apply patches with locked RCS files present.
+pre-patch:
+	${RM} -rf ${WRKSRC}/../src/RCS
 
 post-install:
 	${MKDIR} ${PREFIX}/share/doc/camediaplay
