@@ -61,6 +61,7 @@
     SUBDIR += maelstrom
     SUBDIR += mangband
     SUBDIR += merlin
+    SUBDIR += mirrormagic
     SUBDIR += nethack
     SUBDIR += nethack-qt
     SUBDIR += netris
