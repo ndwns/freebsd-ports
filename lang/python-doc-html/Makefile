@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	${DOCFORMAT}-${VERSION}
-PKGNAME=        python-doc-${DOCFORMAT}
+PKGNAME=        python-doc-${DOCFORMAT}-${VERSION}
 CATEGORIES=	lang python
 MASTER_SITES=	ftp://www.python.org/pub/python/doc/1.5.2/ \
 		ftp://ftp.cwi.nl/pub/python/doc/1.5.2/
