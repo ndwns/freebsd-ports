@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += aish
     SUBDIR += btoa
     SUBDIR += ish
     SUBDIR += kdesupport
