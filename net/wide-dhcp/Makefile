@@ -6,10 +6,13 @@
 # $Id$
 #
 
-DISTNAME=       dhcp-1.4.0p3
-PKGNAME=        wide-dhcp-1.4.0p3
+DISTNAME=       dhcp-1.4.0p5
+PKGNAME=        wide-dhcp-1.4.0p5
 CATEGORIES=     net
-MASTER_SITES=   ftp://sh.wide.ad.jp/WIDE/free-ware/dhcp/
+MASTER_SITES=   ftp://sh.wide.ad.jp/WIDE/free-ware/dhcp/ \
+		ftp://ftp.netlab.is.tsukuba.ac.jp/pub/network/wide-dhcp/ \
+		ftp://ftp.st.ryukoku.ac.jp/pub/network/dhcp/wide/ \
+		ftp://ftp.sage-au.org.au/pub/network/boot/wide-dhcp/
 
 MAINTAINER=     hideyuki@sat.t.u-tokyo.ac.jp
 
