@@ -50,6 +50,12 @@ DISTFILES+=	Code_Medic_source-1.0.3.tar.gz \
 		JSearch_source-0.5.6.tar.gz
 .endif
 
+.if !defined(CODEMEDIC) || (${CODEMEDIC} != no && ${CODEMEDIC} != NO)
+post-patch:
+		@${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-medic
+		@${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-jsearch
+.endif
+
 .include <bsd.port.pre.mk>
 .if ${OSREL} >= 3
 ALL_TARGET=	freebsd3.x
