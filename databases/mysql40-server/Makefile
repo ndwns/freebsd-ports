@@ -28,14 +28,15 @@ CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-bench
 CONFIGURE_ENV+=	PERL=${PERL5} \
 		PERL5=${PERL5} \
-		INSTALL_SCRIPT="${INSTALL_SCRIPT}"
+		INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
+		CXXFLAGS="${CFLAGS}"
 
 .include <bsd.port.pre.mk>
 
 .if defined(NATIVE_THREADS) && ${OSVERSION} >= 300000
-CONFIGURE_ARGS+=	--with-named-thread-libs=-lc_r
+CONFIGURE_ARGS+=	--with-mit-threads=no
 .else
-CONFIGURE_ARGS+=	--with-mit-threads
+CONFIGURE_ARGS+=	--with-mit-threads=yes
 .endif
 
 .if !defined(NATIVE_THREADS) && ${OSVERSION} >= 300000
@@ -44,7 +45,8 @@ pre-fetch:
 	@${ECHO} "You may set NATIVE_THREADS (make NATIVE_THREADS=yes)"
 	@${ECHO} "to compile mysql with the native FreeBSD threads (libc_r)."
 	@${ECHO} "Warning: There are still some bugs in libc_r which prevent"
-	@${ECHO} "         'mysqladmin shutdown' from working properly."
+	@${ECHO} "         'mysqladmin shutdown' from working properly and"
+	@${ECHO} "         killing mysqld might not work."
 	@${ECHO}
 .elif defined(NATIVE_THREADS) && ${OSVERSION} >= 300000
 pre-fetch:
