@@ -126,9 +126,9 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/www/logs/later \
 				${PREFIX}/${DISTNAME}/www/logs/later
 	@${RM} -f ${PREFIX}/www/data/bb
-	@ln -s ${PREFIX}/${DISTNAME}/www ${PREFIX}/www/data/bb
-	@ln -s bb.html ${PREFIX}/${DISTNAME}/www/index.html
-	@ln -s ${PREFIX}/${DISTNAME}/bin/bb-page.sh ${PREFIX}/www/cgi-bin
+	@ln -sf ${PREFIX}/${DISTNAME}/www ${PREFIX}/www/data/bb
+	@ln -sf bb.html ${PREFIX}/${DISTNAME}/www/index.html
+	@ln -sf ${PREFIX}/${DISTNAME}/bin/bb-page.sh ${PREFIX}/www/cgi-bin
 	@echo ""
 	@echo "================================================================"
 	@echo "==== Configuration Notes:                                    ==="
