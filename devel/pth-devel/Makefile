@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://alpha.gnu.org/gnu/pth/ \
 MAINTAINER=	rse@engelschall.com
 
 NO_LATEST_LINK=	yes
+NO_CDROM=	yes
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
