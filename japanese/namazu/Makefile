@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	namazu-1.3.0.6
-PKGNAME=	ja-namazu-1.3.0.6
+DISTNAME=	namazu-1.3.0.8
+PKGNAME=	ja-namazu-1.3.0.8
 CATEGORIES=	japanese textproc
 MASTER_SITES=	http://openlab.ring.gr.jp/namazu/release/
 
@@ -21,6 +21,6 @@ RUN_DEPENDS=	kakasi:${PORTSDIR}/japanese/kakasi \
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 
-WRKSRC=		${WRKDIR}/namazu-1.3.0.6/src
+WRKSRC=		${WRKDIR}/namazu-1.3.0.8/src
 
 .include <bsd.port.mk>
