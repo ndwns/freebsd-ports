@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.balsa.net/dist/
 MAINTAINER=	gljohns@bellsouth.net
 
 LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
-		PropListgnome.1:${PORTSDIR}/devel/libPropListgnome
+		PropList.1:${PORTSDIR}/devel/libPropList
 
 BROKEN=		"can't work with gnomelibs-0.99.3"
 
