@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	libghttp-0.99.2
-CATEGORIES=	www
+CATEGORIES=	www gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	libghttp
 
