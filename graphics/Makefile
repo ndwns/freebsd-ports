@@ -71,7 +71,6 @@
     SUBDIR += pstoedit
     SUBDIR += py-imaging
     SUBDIR += qcread
-    SUBDIR += qgl
     SUBDIR += qvplay
     SUBDIR += rayshade
     SUBDIR += sane
