@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.amanda.org/pub/amanda/
 
 MAINTAINER=	cwt@FreeBSD.ORG
 
+NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --libexecdir=${PREFIX}/libexec/amanda \
 		--with-user=operator --with-group=operator
