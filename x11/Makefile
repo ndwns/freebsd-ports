@@ -25,6 +25,7 @@
     SUBDIR += rxvt
     SUBDIR += specJava
     SUBDIR += stars
+    SUBDIR += sunclock
     SUBDIR += sxpc
     SUBDIR += tk
     SUBDIR += tk4
