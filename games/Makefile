@@ -20,6 +20,7 @@
     SUBDIR += flying
     SUBDIR += freeciv
     SUBDIR += galaxis
+    SUBDIR += gemdropx
     SUBDIR += gnuchess
     SUBDIR += gnugo
     SUBDIR += gnushogi
