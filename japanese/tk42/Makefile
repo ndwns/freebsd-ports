@@ -41,13 +41,13 @@ post-configure:
 	@${CP} ${FILESDIR}/Makefile.lib ${WRKSRC}
 
 pre-build:
-	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} && rm -f *.o
+	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} && rm -f *.o
 
 pre-install:
 	${MKDIR} ${PREFIX}/lib/tk${VERSION}
 
 post-install:
-	cd ${WRKSRC} && ${MAKE} -f Makefile.lib install PREFIX=${PREFIX}
+	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} install
 	${LDCONFIG} -m ${PREFIX}/lib
 	@echo "**********"
 	@echo "IMPORTANT:"

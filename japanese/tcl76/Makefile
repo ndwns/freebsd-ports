@@ -1,6 +1,6 @@
 # New ports collection makefile for:	tcl7.6jp
 # Version required:	7.6p2jp
-# Date created:		
+# Date created:		11 March 1997
 # Whom:			taguchi@tohoku.iij.ad.jp
 #
 # $Id$
@@ -21,6 +21,8 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 
+VERSION=	7.6jp
+
 .if defined(PATCH_DEBUG)
 PATCH_DIST_ARGS=	-d ${WRKDIR}/${DISTNAME} -E ${PATCH_DIST_STRIP}
 .else
@@ -35,11 +37,11 @@ post-configure:
 	@${CP} ${FILESDIR}/Makefile.lib ${WRKSRC}
 
 pre-build:
-	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} && rm *.o
+	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} && rm *.o
 
 pre-install:
-	${MKDIR} ${PREFIX}/lib/tcl7.6jp
-	cd ${WRKSRC} && ${MAKE} -f Makefile.lib install PREFIX=${PREFIX}
+	${MKDIR} ${PREFIX}/lib/tcl${VERSION}
+	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} install
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
