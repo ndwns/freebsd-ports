@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	giffunip@asme.org
 
-BROKEN=		too few arguments to function error
+LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
 WRKSRC=         ${WRKDIR}/FElt-3.02
 GNU_CONFIGURE=	yes
@@ -29,5 +29,7 @@ post-patch:
 post-install:
 	${MKDIR} ${PREFIX}/share/examples/FElt
 	${CP} ${WRKSRC}/examples/* ${PREFIX}/share/examples/FElt
+	${MKDIR} ${PREFIX}/share/doc/FElt
+	${CP} ${WRKSRC}/*.html ${PREFIX}/share/doc/FElt
 
 .include <bsd.port.mk>
