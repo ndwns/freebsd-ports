@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DATE=		950606
+DATE=		950706
 DISTNAME=       Wine-${DATE}
 PKGNAME=	Wine-95.06.06
 CATEGORIES+=	utilities x11 emulation
