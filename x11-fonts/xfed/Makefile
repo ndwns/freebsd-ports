@@ -16,7 +16,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 IGNOREFILES=	${DISTFILES}
 USE_IMAKE=	yes
 MAKE_FLAGS=	MANDIR=${PREFIX}/man/man1 BINDIR=${PREFIX}/bin -f
-WRKSRC=		${WRKDIR}/pub/graphics/systems/X11.old/pub/R6untarred/contrib/programs/xfed
+WRKSRC=		${WRKDIR}/xfed
 MAN1=		xfed.1
 
 .include <bsd.port.mk>
