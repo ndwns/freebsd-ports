@@ -11,7 +11,7 @@
 
 PORTNAME=	XFree86-aoutlibs
 PORTVERSION=	3.3.6
-CATEGORIES=	x11
+CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://freebsd.sinica.edu.tw/pub/keith/
 DISTNAME=	Xbin336aout
 EXTRACT_SUFX=	.tgz
