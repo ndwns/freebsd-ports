@@ -12,6 +12,6 @@ MASTER_SITES=   ftp://geocub.greco-prog.fr/pub/Games/
 EXTRACT_SUFX=   .tar.Z
 
 USE_X11=	yes
-NO_PACKAGE=	yes	# restrictive copyright
+RESTRICTED=	"Possible trademark infringement."
 
 .include <bsd.port.mk>
