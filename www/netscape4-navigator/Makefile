@@ -11,7 +11,7 @@ CATEGORIES=	www
 MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.07/development/english/unix/freebsd/navigator_standalone/
 DISTFILES=      navigator-v407-export.x86-unknown-freebsd.tar.gz
 
-MAINTAINER=     asami@FreeBSD.ORG
+MAINTAINER=     sada@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/navigator-v407.x86-unknown-freebsd
 NO_BUILD=       Yes
