@@ -35,6 +35,7 @@
     SUBDIR += plan
     SUBDIR += recode
     SUBDIR += rman
+    SUBDIR += rpm
     SUBDIR += screen
     SUBDIR += splitvt
     SUBDIR += team
