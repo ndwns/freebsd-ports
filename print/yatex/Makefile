@@ -21,7 +21,8 @@ PLIST=		${.CURDIR}/pkg/PLIST
 WRKSRC=		${WRKDIR}/yatex${VERSION}
 .if defined(XEMACS-MULE)
 BUILD_DEPENDS=	xemacs:${PORTSDIR}/editors/xemacs-mule \
-		nkf:${PORTSDIR}/japanese/nkf
+		nkf:${PORTSDIR}/japanese/nkf \
+		bash:${PORTSDIR}/shells/bash2
 .endif
 
 VERSION=	1.65.6
