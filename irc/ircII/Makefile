@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	ircii-4.4
-PKGNAME=	ircii-4.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	IRCLIB=${PREFIX}/share/irc
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 MAN1=		ircII.1 ircbug.1
