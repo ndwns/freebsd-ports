@@ -56,6 +56,7 @@
     SUBDIR += ppm2fli
     SUBDIR += qgl
     SUBDIR += qvplay
+    SUBDIR += rayshade
     SUBDIR += sane
     SUBDIR += sced
     SUBDIR += spigot
