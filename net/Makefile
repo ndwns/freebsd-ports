@@ -25,6 +25,7 @@
     SUBDIR += fping
     SUBDIR += freewais-sf
     SUBDIR += fspclient
+    SUBDIR += ftpfind
     SUBDIR += ftpsearch
     SUBDIR += ftptool
     SUBDIR += gated
