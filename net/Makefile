@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= sup ncftp
+SUBDIR=	dgd irc ncftp sup
 
 .include <bsd.port.subdir.mk>
