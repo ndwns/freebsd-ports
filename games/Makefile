@@ -60,6 +60,7 @@
     SUBDIR += xbomb
     SUBDIR += xchain
     SUBDIR += xchomp
+    SUBDIR += xcogitate
     SUBDIR += xcubes
     SUBDIR += xdeblock
     SUBDIR += xdemineur
