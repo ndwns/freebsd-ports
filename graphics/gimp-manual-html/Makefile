@@ -35,7 +35,7 @@ pre-fetch:
 
 .if ${DOCFORMAT} == "HTML"
 EXTRACT_SUFX=	-html.tar.bz2
-WRKSRC=		${WRKDIR}/GimpUserManaul_v1.0.0
+WRKSRC=		${WRKDIR}/GimpUserManual_v1.0.0
 
 BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 
