@@ -17,6 +17,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += crosspad
+    SUBDIR += cstream
     SUBDIR += ctk
     SUBDIR += cwish
     SUBDIR += deco
