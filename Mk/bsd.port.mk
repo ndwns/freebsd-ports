@@ -83,7 +83,6 @@
 PORTSDIR?=		/usr/ports
 DISTDIR?=		${PORTSDIR}/distfiles
 PACKAGES?=		${PORTSDIR}/packages
-HOME
 WRKDIR?=		${.CURDIR}/work
 .if defined(NO_WRKSUBDIR)
 WRKSRC?=		${WRKDIR}
