@@ -4,6 +4,7 @@
     SUBDIR += bash1
     SUBDIR += bash2
     SUBDIR += es
+    SUBDIR += esh
     SUBDIR += pdksh
     SUBDIR += rc
     SUBDIR += scsh
