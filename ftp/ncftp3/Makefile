@@ -1,6 +1,6 @@
 # ex:ts=8
 # New ports collection makefile for:    ncftp2
-# Version required:     2.4.2
+# Version required:     3.0
 # Date created:         4 Nov 1994
 # Whom:                 ache
 #
@@ -16,7 +16,6 @@ MAINTAINER=	ache@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/-src//}
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	ac_cv_func_getmaxyx=yes ac_cv_lib_readline=yes
 MAN1=		ncftp3.1 ncftpbatch.1 ncftpget.1 ncftpls.1 ncftpput.1
 MAN3=		Strn.3
 
