@@ -18,7 +18,8 @@ NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/emacs-19.34
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit
+CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit \
+		--sharedstatedir=/var/run
 STRIP=
 MAN1=		emacs.1 etags.1 ctags.1
 
@@ -32,5 +33,9 @@ post-install:
 .for info in emacs vip viper forms gnus mh-e cl sc dired-x ediff ccmode message
 	install-info ${PREFIX}/info/${info} ${PREFIX}/info/dir
 .endfor
+# install emacs.sh into ${PREFIX}/etc/rc.d
+	chmod 1777 /var/run/emacs/lock
+	@${MKDIR} ${PREFIX}/etc/rc.d
+	@${INSTALL_SCRIPT} ${FILESDIR}/emacs.sh ${PREFIX}/etc/rc.d
 
 .include <bsd.port.mk>
