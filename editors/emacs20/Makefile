@@ -17,8 +17,6 @@ USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit
 STRIP=
 MAN1=		emacs.1 etags.1 ctags.1
-prefix=		${PREFIX}
-sharedstatedir=	${PREFIX}/share/com
 
 pre-build:
 	${RM} -rf ${WRKSRC}/info/*
