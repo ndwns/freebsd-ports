@@ -11,8 +11,6 @@ CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.real-time.com/pub/games/crossfire/ \
 		ftp://ftp.ifi.uio.no/pub/crossfire/ \
 		ftp://ftp.pyramid.com/pub/crossfire/ \
-		ftp://yoyo.cc.monash.edu.au/pub/crossfire/ \
-		ftp://ftp.cs.city.ac.uk/pub/games/crossfire/ \
 		ftp://ftp.sunet.se/pub/unix/games/crossfire/ \
 		ftp://ftp.cs.titech.ac.jp/pub/games/crossfire/
 DISTFILES=	${CF_SOURCES} ${CF_DOC} ${CF_MAPS} ${CF_SOUNDS} \
