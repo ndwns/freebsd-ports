@@ -3,6 +3,7 @@
 
     SUBDIR += amp
     SUBDIR += ascd
+    SUBDIR += aumix
     SUBDIR += bladeenc
     SUBDIR += cam
     SUBDIR += cdd
