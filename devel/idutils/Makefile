@@ -10,7 +10,7 @@ DISTNAME=	id-utils-3.2
 CATEGORIES+=	devel
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
-MAINTAINER=	pst
+MAINTAINER=	pst@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
