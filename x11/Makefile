@@ -1,7 +1,8 @@
 # $Id$
 #
 SUBDIR=	emu ghostview ivs jpeg olvwm pcb tk xanim xarchie \
-	xcdplayer xdvi xearth xlockmore xpm xsnow xtexshell xv
+	xcdplayer xdvi xearth xlockmore xpm xsnow xtexshell xv \
+	ImageMagick ctwm mpeg-lib tiff
 
 #
 # imm & nv depends on tk, so might as well build tk first...
