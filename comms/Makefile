@@ -9,6 +9,7 @@
     SUBDIR += lrzsz
     SUBDIR += mgetty+sendfax
     SUBDIR += minicom
+    SUBDIR += pilot-link
     SUBDIR += qpage
     SUBDIR += rzsz
     SUBDIR += seyon
