@@ -33,7 +33,7 @@ BUILD_DEPENDS=  bzip2:${PORTSDIR}/archivers/bzip2  \
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS=	-dc
 EXTRACT_AFTER_ARGS=	| /usr/bin/tar -xf -
-EGCS_REV=	egcs-2.91.60
+EGCS_REV=	pgcc-2.91.60
 LIBSTDCPP_REV=	2.9.0
 
 .if ${PORTOBJFORMAT} == "elf"
