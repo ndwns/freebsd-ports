@@ -44,6 +44,7 @@
     SUBDIR += webcopy
     SUBDIR += weblint
     SUBDIR += webstone
+    SUBDIR += wml
     SUBDIR += wn
     SUBDIR += wwwcount
     SUBDIR += wwwstat
