@@ -12,6 +12,8 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://bcm.tmc.edu/pcnfs/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	pst@FreeBSD.org
+
 NO_WRKSUBDIR=
 
 .include <bsd.port.mk>

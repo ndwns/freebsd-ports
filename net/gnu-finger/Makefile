@@ -17,11 +17,11 @@ HAS_CONFIGURE=	yes
 INSTALL_TARGET= server
 
 post-install:
-	mkdir -p ${PREFIX}/etc/fingerdir
-	mkdir -p ${PREFIX}/etc/rc.d
-	@cp ${WRKSRC}/support/ttylocs ${PREFIX}/etc/fingerdir/ttylocs.sample
-	@cp ${FILESDIR}/clients.sample ${PREFIX}/etc/fingerdir/clients.sample
-	@install -c -m 744 -o root ${FILESDIR}/start.fingerd.sh.sample ${PREFIX}/etc/rc.d/start.fingerd.sh.sample
+	${MKDIR} ${PREFIX}/etc/fingerdir
+	${MKDIR} ${PREFIX}/etc/rc.d
+	@${CP} ${WRKSRC}/support/ttylocs ${PREFIX}/etc/fingerdir/ttylocs.sample
+	@${CP} ${FILESDIR}/clients.sample ${PREFIX}/etc/fingerdir/clients.sample
+	@${INSTALL} ${COPY} -m 744 -o root ${FILESDIR}/start.fingerd.sh.sample ${PREFIX}/etc/rc.d/start.fingerd.sh.sample
 	@echo "GNU.finger.server.hotname" > ${PREFIX}/etc/fingerdir/serverhost.sample
 	@echo "mail.spool.server.hostname" > ${PREFIX}/etc/fingerdir/mailhost.sample
 

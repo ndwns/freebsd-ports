@@ -16,7 +16,7 @@ MAINTAINER=	jkh@FreeBSD.ORG
 MAN1=		ncftp.1
 
 do-install:
-	cd ${WRKSRC}; $(INSTALL) -c $(STRIP) -o $(BINOWN) -g $(BINGRP) -m $(BINMODE) ncftp $(PREFIX)/bin
-	cd ${WRKSRC}; $(INSTALL) -c -o $(BINOWN) -g $(BINGRP) -m 644 ncftp.1 $(PREFIX)/man/man1
+	cd ${WRKSRC}; ${INSTALL_PROGRAM} ncftp ${PREFIX}/bin
+	cd ${WRKSRC}; ${INSTALL_MAN} ncftp.1 ${PREFIX}/man/man1
 
 .include <bsd.port.mk>

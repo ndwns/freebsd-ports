@@ -10,6 +10,8 @@ DISTNAME=	zephyr-2.0.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://athena-dist.mit.edu/pub/ATHENA/zephyr/dist/
 
+MAINTAINER=	pst@FreeBSD.org
+
 .if exists(/usr/lib/libkrb.a) && defined(MAKE_EBONES)
 CONFIGURE_ARGS="--with-krb4"
 .endif
@@ -25,11 +27,13 @@ ZEPHYR_DOCDIR=	${PREFIX}/share/doc/zephyr
 ZEPHYR_DOCS=	INSTALL NOTES OPERATING README USING
 
 post-install:
-	${INSTALL} -c -m 755 -o bin -g bin ${FILESDIR}/zhm.sh ${ZEPHYR_RCDIR}
+	${MKDIR} ${ZEPHYR_RCDIR}
+	${INSTALL_SCRIPT} ${FILESDIR}/zhm.sh ${ZEPHYR_RCDIR}
+.if !defined(NOPORTDOCS)
 	${MKDIR} ${ZEPHYR_DOCDIR}
 	for file in ${ZEPHYR_DOCS} ; do \
-	    ${INSTALL} -c ${WRKSRC}/$$file ${ZEPHYR_DOCDIR} ; \
+	    ${INSTALL_DATA} ${WRKSRC}/$$file ${ZEPHYR_DOCDIR} ; \
 	    done
-	${MKDIR} ${ZEPHYR_RCDIR}
+.endif
 
 .include <bsd.port.mk>

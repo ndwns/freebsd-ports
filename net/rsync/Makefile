@@ -17,9 +17,9 @@ GNU_CONFIGURE=	yes
 MAN1=		rsync.1
 
 post-install:
-	strip ${PREFIX}/bin/rsync
+	@strip ${PREFIX}/bin/rsync
 .if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/rsync
+	@${MKDIR} ${PREFIX}/share/doc/rsync
 	${INSTALL_DATA} ${WRKSRC}/tech_report.ps ${PREFIX}/share/doc/rsync
 .endif
 

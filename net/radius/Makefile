@@ -12,12 +12,14 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.merit.edu/radius/releases/
 DISTFILES=	radius.23c.basic.tar.gz
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
 INSTALL_TARGET=	install-all
 MAN5=		dictionary.5 users.5 radius.fsm.5 authfile.5 clients.5
 MAN8=		builddbm.8 radcheck.8 radiusd.8 radpwtst.8
 
 pre-install:
-	${MKDIR} ${PREFIX}/lib/radius/db ${PREFIX}/lib/radius/acct
+	@${MKDIR} ${PREFIX}/lib/radius/db ${PREFIX}/lib/radius/acct
 
 .include <bsd.port.mk>

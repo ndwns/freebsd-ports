@@ -20,19 +20,19 @@ MAKE_ENV=	OSTYPE=`uname`
 
 post-patch:
 	if [ ! -f ${WRKSRC}/server/tzfile.h ]; then \
-		cp ${DISTDIR}/tzfile.h ${WRKSRC}/server/; \
+		${CP} ${DISTDIR}/tzfile.h ${WRKSRC}/server/; \
 	fi
 
 post-install:
 	@if [ ! -d ${PREFIX}/share/dhcp ]; then \
-		mkdir -p ${PREFIX}/share/dhcp; \
+		${MKDIR} ${PREFIX}/share/dhcp; \
 	fi
-	@cp ${WRKSRC}/README ${PREFIX}/share/dhcp/
-	@cp ${WRKSRC}/README.jis ${PREFIX}/share/dhcp/
-	@cp ${WRKSRC}/db_sample/dhcpdb.pool ${PREFIX}/share/dhcp/dhcpdb.pool.sample
-	@cp ${WRKSRC}/db_sample/dhcpdb.relay ${PREFIX}/share/dhcp/dhcpdb.relay.sample
-	@cp ${WRKSRC}/db_sample/dhcpdb.server ${PREFIX}/share/dhcp/dhcpdb.server.sample
-	@cp ${WRKSRC}/db_sample/intro.dhcp ${PREFIX}/share/dhcp/
+	@{CP} ${WRKSRC}/README ${PREFIX}/share/dhcp/
+	@{CP} ${WRKSRC}/README.jis ${PREFIX}/share/dhcp/
+	@{CP} ${WRKSRC}/db_sample/dhcpdb.pool ${PREFIX}/share/dhcp/dhcpdb.pool.sample
+	@{CP} ${WRKSRC}/db_sample/dhcpdb.relay ${PREFIX}/share/dhcp/dhcpdb.relay.sample
+	@{CP} ${WRKSRC}/db_sample/dhcpdb.server ${PREFIX}/share/dhcp/dhcpdb.server.sample
+	@{CP} ${WRKSRC}/db_sample/intro.dhcp ${PREFIX}/share/dhcp/
 	@if [ ! -c /dev/bpf1 ]; then \
 	    echo "**********************************************************";\
 	    echo "*                      W a r n i n g                     *";\

@@ -17,6 +17,6 @@ MAKEFILE=	makefile
 MAN1=		mirror.1 mirrormaster.1
 
 pre-install:
-	mkdir -p ${PREFIX}/lib/mirror
+	${MKDIR} ${PREFIX}/lib/mirror
 
 .include <bsd.port.mk>

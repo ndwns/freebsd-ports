@@ -21,6 +21,6 @@ RESTRICTED=	"No redistribution allowed."
 MAN8=		ircd.8
 
 pre-install:
-	mkdir -p ${PREFIX}/lib/ircd
+	@{MKDIR} ${PREFIX}/lib/ircd
 
 .include <bsd.port.mk>

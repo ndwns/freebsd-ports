@@ -11,6 +11,8 @@ CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
+MAINTAINER=	ports@FreeBSD.org
+
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -19,7 +19,7 @@ RUN_DEPENDS=	lyx:${PORTSDIR}/print/lyx
 
 post-configure:
 	( cd ${WRKSRC}/doc; /bin/sh bbconfig freebsd )
-	@cp ${FILESDIR}/Makefile ${WRKSRC}
+	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 do-install:
 	@${MKDIR} ${PREFIX}/${DISTNAME}/bin
@@ -119,7 +119,7 @@ do-install:
 				${PREFIX}/${DISTNAME}/www/gifs/yellow.gif
 	${INSTALL_DATA} ${WRKSRC}/www/logs/later \
 				${PREFIX}/${DISTNAME}/www/logs/later
-	@rm -f ${PREFIX}/www/data/bb
+	@${RM} -f ${PREFIX}/www/data/bb
 	@ln -s ../../${DISTNAME}/www ${PREFIX}/www/data/bb
 	@echo ""
 	@echo "================================================================"

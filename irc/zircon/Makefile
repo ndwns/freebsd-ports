@@ -10,6 +10,8 @@ DISTNAME=	zircon-1.17p3
 CATEGORIES=	net
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
+MAINTAINER=	jkh@FreeBSD.org
+
 #
 # You can define USE_DPWISH if you want to run under the older
 # tcl7.3/tk3.6/tclDP code.  The author strongly reccomends using
@@ -36,6 +38,6 @@ MAKE_ENV+=	TCLSH=tclsh7.5
 MAKEFILE=	Makefile.FreeBSD
 
 pre-patch:
-	cp ${WRKSRC}/Makefile.Linux ${WRKSRC}/Makefile.FreeBSD
+	${CP} ${WRKSRC}/Makefile.Linux ${WRKSRC}/Makefile.FreeBSD
 
 .include <bsd.port.mk>

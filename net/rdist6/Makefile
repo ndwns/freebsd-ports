@@ -22,7 +22,7 @@ MAN1=		${RDIST_NAME}.1
 MAN8=		rdistd.8
 
 post-install:
-	strip ${PREFIX}/bin/${RDIST_NAME}
-	strip ${PREFIX}/bin/rdistd
+	@strip ${PREFIX}/bin/${RDIST_NAME}
+	@strip ${PREFIX}/bin/rdistd
 
 .include <bsd.port.mk>

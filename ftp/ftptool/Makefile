@@ -22,7 +22,7 @@ WRKSRC=		${WRKDIR}/Ftptool4.6
 # Because lex.l is broken, lex.c is taken from old FreeBSD 1.1 port
 
 post-extract:
-	cp ${FILESDIR}/lex.c ${WRKSRC}
-	rm -f ${WRKSRC}/lex.l
+	@${CP} ${FILESDIR}/lex.c ${WRKSRC}
+	@${RM} -f ${WRKSRC}/lex.l
 
 .include <bsd.port.mk>

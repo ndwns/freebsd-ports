@@ -10,6 +10,8 @@ DISTNAME=	yale-tftpd-3.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cisco.com/pub/
 
+MAINTAINER=	pst@FreeBSD.org
+
 NO_WRKSUBDIR=
 
 .include <bsd.port.mk>

@@ -10,6 +10,8 @@ DISTNAME=       freeWAIS-0.5
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 
+MAINTAINER=	ports@FreeBSD.org
+
 NO_PACKAGE=	not yet
 NO_INSTALL=	almost
 ALL_TARGET=	freebsd
