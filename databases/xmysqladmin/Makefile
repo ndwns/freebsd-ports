@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.tcx.se/Contrib/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BROKEN_ELF=	depends on broken mysql321 and xforms which is a.out only
+BROKEN_ELF=	xforms is a.out only
 
 BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
