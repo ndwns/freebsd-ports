@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:     4.0.*
+# Version required:     4.0.9
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
@@ -8,7 +8,7 @@
 
 DISTNAME=       ImageMagick-4.0.9
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.freebsd.org/~asami/ \
+MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 		ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
 		ftp://ftp.cci.fr/pub/unix/gfx/ImageMagick/ \
 		ftp://ftp.u-aizu.ac.jp/pub/graphics/image/ImageMagick/ \
@@ -33,9 +33,9 @@ MAN1=	ImageMagick.1 animate.1 combine.1 convert.1 display.1 identify.1 import.1 
 MAN4=	miff.4
 MAN5=	quantize.5
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--enable-lzw --enable-shared
+CONFIGURE_ARGS=	--enable-lzw --enable-shared --with-perl=${PREFIX}/bin/perl5
+USE_PERL5=	YES
 CONFIGURE_ENV=  LDFLAGS="$(LDFLAGS) -L${WRKSRC}/magick/.libs"
-
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
 
