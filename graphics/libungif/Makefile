@@ -8,7 +8,7 @@
 
 DISTNAME=	giflib-3.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.ccil.org/~esr/giflib/
+MASTER_SITES=	http://earthspace.net/~esr/giflib/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
