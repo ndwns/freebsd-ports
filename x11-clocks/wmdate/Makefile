@@ -1,7 +1,7 @@
 # New ports collection makefile for:	wmdate
 # Version required:	0.7
 # Date created:		1 February 1999
-# Whom:			Jim Mock <jim@phrantic.phear.net>
+# Whom:			Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	wmdate-0.7
 CATEGORIES=	x11-clocks windowmaker afterstep
 MASTER_SITES=	http://wit401310.student.utwente.nl/apps/apps/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 BUILD_DEPENDS=	${PREFIX}/include/dockapp.h:${PORTSDIR}/x11-wm/libdockapp

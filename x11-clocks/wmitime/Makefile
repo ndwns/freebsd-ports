@@ -1,7 +1,7 @@
 # New ports collection makefile for:	wmitime
 # Version required:	0.3
 # Date created:		14 March 1999
-# Whom:			Jim Mock <jim@phrantic.phear.net>
+# Whom:			Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	wmitime-0.3
 CATEGORIES=	x11-clocks windowmaker afterstep
 MASTER_SITES=	http://www.neotokyo.org/illusion/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
