@@ -104,6 +104,7 @@
     SUBDIR += xlines
     SUBDIR += xmahjongg
     SUBDIR += xmastermind
+    SUBDIR += xmball
     SUBDIR += xmemory
     SUBDIR += xmille
     SUBDIR += xmine
