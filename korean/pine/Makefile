@@ -10,10 +10,10 @@
 DISTNAME=       pine3.96
 PKGNAME=        ko-pine-3.96k.2
 CATEGORIES=     korean mail news
-MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/ \
+MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/old/ \
 		ftp://ftp.kaist.ac.kr/pub/hangul/incoming/ \
 		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/incoming/
-DISTFILES=	pine3.96.tar.gz pine396k2.tar.gz
+DISTFILES=	pine3.96.tar.Z pine396k2.tar.gz
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
