@@ -6,6 +6,6 @@
 SUBDIR= archie cern_httpd chimera dgd fspclient gated gopher imm irc \
 	ircII ivs lynx ncftp2 nv pcnfsd pidentd pmf samba scotty sup tclDP \
 	tcp_wrapper tcpblast tkined tkWWW tintin++ wu-ftpd xarchie \
-	yale-tftpd zircon
+	yale-tftpd ytalk zircon
 
 .include <bsd.port.subdir.mk>
