@@ -1,7 +1,7 @@
 # New ports collection makefile for:   xglobe
 # Version required:    0.2
 # Date created:        20 January 1998
-# Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
+# Whom:                Kris Kennaway <kris@FreeBSD.ORG>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	xglobe-0.2
 CATEGORIES=	astro
 MASTER_SITES=	http://www.uni-karlsruhe.de/~uddn/xglobe/
 
-MAINTAINER=	kkennawa@physics.adelaide.edu.au
+MAINTAINER=	kris@FreeBSD.ORG
 
 USE_QT=		yes
 USE_X_PREFIX=   yes
