@@ -15,8 +15,8 @@ MAINTAINER=	erich@FreeBSD.org
 PREFIX=		/compat/linux
 NO_MTREE=	yes
 NO_BUILD=	yes
-NO_EXTRACT=	yes
-NO_WRKDIR=	yes
+EXTRACT_ONLY=	# empty
+NO_WRKSUBDIR=	yes
 
 pre-install:
 	@[ -d ${PREFIX} ] || ${MKDIR} ${PREFIX}
