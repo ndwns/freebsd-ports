@@ -8,7 +8,7 @@
 
 DISTNAME=       rftp-1.2
 CATEGORIES=	mail
-MASTER_SITES=   http://www2.fortunecity.com/skyscraper/siliconex/38/
+MASTER_SITES=   http://www.freebsd.org/~steve/
 
 MAINTAINER=	kline@thought.org
 
