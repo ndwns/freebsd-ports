@@ -34,6 +34,7 @@ MAN4=	miff.4
 MAN5=	quantize.5
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--enable-lzw --enable-shared
+CONFIGURE_ENV=  LDFLAGS="$(LDFLAGS) -Lmagick/.libs"
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
