@@ -17,6 +17,10 @@
     SUBDIR += choparp
     SUBDIR += clog
     SUBDIR += cnet
+    SUBDIR += coda_client
+    SUBDIR += coda_doc
+    SUBDIR += coda_intro
+    SUBDIR += coda_server
     SUBDIR += cvsup
     SUBDIR += cvsup-bin
     SUBDIR += cvsup-mirror
