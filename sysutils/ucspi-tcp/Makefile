@@ -8,7 +8,7 @@
 
 DISTNAME=	ucspi-tcp-0.80
 CATEGORIES=	sysutils net
-MASTER_SITES=   ftp://koobera.math.uic.edu/www/software/
+MASTER_SITES=	ftp://koobera.math.uic.edu/pub/software/
 
 MAINTAINER=     dom@myrddin.demon.co.uk
 
