@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       netscape-communicator-4.5
+DISTNAME=       netscape-communicator-4.5b1
 CATEGORIES=	www
 MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.5/4.5_PR1/english/unix/freebsd2/
 DISTFILES=      communicator-v45b1-export.x86-unknown-freebsd.tar.gz
