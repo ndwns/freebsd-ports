@@ -14,6 +14,10 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=			no sound support on the alpha yet
+.endif
+
 USE_IMAKE=		yes
 MAN6=			xdigger.6
 MANCOMPRESSED=		no
