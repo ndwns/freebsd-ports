@@ -17,8 +17,8 @@ PREFIX?=	/usr
 NO_CHECKSUM=	yes
 NO_MTREE=	yes
 WRKSRC=		${WRKDIR}/man
+PLIST=		${WRKDIR}/PLIST
 
-LANGNAME=	ja
 MANSECS=	1 5 8
 JAMANDIR?=	/usr/opt/doc/ja/man
 
@@ -35,8 +35,31 @@ do-extract:
 .for sec in ${MANSECS}
 	@if [ -d ${JAMANDIR}/man${sec} ]; then \
 		${CP} -R ${JAMANDIR}/man${sec} ${WRKSRC}/ ; \
+		${ECHO} >>${WRKSRC}/man${sec}/Makefile; \
+		${ECHO} pages-list: >>${WRKSRC}/man${sec}/Makefile; \
+		${ECHO} "	@\$${ECHO} \$${MAN${sec}} \$${MLINKS}" \
+			>>${WRKSRC}/man${sec}/Makefile; \
 	fi
 .endfor
+
+post-build:
+	@${RM} -f ${PLIST}
+	@for sec in ${MANSECS}; do \
+	 if [ -d ${WRKSRC}/man$${sec} ]; then \
+		cd ${WRKSRC}/man$${sec}; \
+		list=`${MAKE} pages-list`; \
+		set `${ECHO} $$list " "|${SED} 's/\.\([^.]*\) /.\1 \1 /g'`; \
+		while : ; do \
+			case $$# in \
+				0) break;; \
+				[1]) ${ECHO} "can not happen"; break;; \
+			esac; \
+			${ECHO} share/man/ja/man$$2/$$1.gz; shift 2; \
+		done; \
+	 fi; \
+	done|sort|uniq >>${PLIST}
+	@${ECHO} "@exec ln -sf %D/share/man/ja %D/share/man/ja_JP.EUC" >>${PLIST}
+	@${ECHO} "@unexec ${RM} -f %D/share/man/ja_JP.EUC" >>${PLIST}
 
 pre-install:
 .for sec in ${MANSECS}
