@@ -67,7 +67,6 @@
     SUBDIR += netshow
     SUBDIR += opengl-man
     SUBDIR += p5-GD
-    SUBDIR += p5-GIFgraph
     SUBDIR += p5-Image-Size
     SUBDIR += p5-chart
     SUBDIR += pgperl
