@@ -3,7 +3,8 @@
 
     SUBDIR += Mosaic         # requires Motif
     SUBDIR += analog
-    SUBDIR += apache-current
+    SUBDIR += apache
+    SUBDIR += apache-ssl
     SUBDIR += apache-stable
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
