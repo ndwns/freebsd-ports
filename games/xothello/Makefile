@@ -14,8 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-BROKEN_ELF=	xforms is a.out only
-
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
 NO_CDROM=	Possible trademark infringement

@@ -13,8 +13,6 @@ MASTER_SITE_SUBDIR=	X11/desktop
 
 MAINTAINER=	steve@farrell.org
 
-BROKEN_ELF=	xforms is a.out only
-
 LIB_DEPENDS=	xforms:${PORTSDIR}/x11-toolkits/xforms
 
 USE_IMAKE=	yes
