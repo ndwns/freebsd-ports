@@ -1,13 +1,13 @@
 # New ports collection makefile for:	gnomemc
-# Version required:	4.5.23
-# Date created:		26 Jnuary 1999
+# Version required:	4.5.30
+# Date created:		26 January 1999
 # Whom:			Jeremy Lea <reg@shale.csir.co.za>
 #
 # $Id$
 #
 
-DISTNAME=	mc-4.5.23
-PKGNAME=	gnomemc-4.5.23
+DISTNAME=	mc-4.5.30
+PKGNAME=	gnomemc-4.5.30
 CATEGORIES=	x11-fm gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	sources/mc
