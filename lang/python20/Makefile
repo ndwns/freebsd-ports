@@ -90,11 +90,7 @@ pre-install:
 .endif
 
 post-install:
-.if ${OSVERSION} < 300000
 	${INSTALL_SCRIPT} ${PREFIX}/lib/python1.5/plat-freebsd2/regen ${PREFIX}/lib/python1.5/plat-freebsd3
-.else
-	${INSTALL_SCRIPT} ${PREFIX}/lib/python1.5/plat-freebsd3/regen ${PREFIX}/lib/python1.5/plat-freebsd2
-.endif
 	strip ${PREFIX}/bin/python
 
 .include <bsd.port.mk>
