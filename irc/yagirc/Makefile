@@ -15,6 +15,8 @@ MAINTAINER=	mph@freebsd.org
 LIB_DEPENDS=	gtk\\.1\\.\[345\]:${PORTSDIR}/x11-toolkits/gtk \
 		Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib
 
+BROKEN=		gtk
+
 USE_GMAKE=	yes
 USE_PERL5=	yes
 
