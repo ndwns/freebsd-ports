@@ -8,7 +8,7 @@
 
 DISTNAME=       xkobo-1.3
 CATEGORIES+=	games
-MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/mirrors/X/contrib/games/
+MASTER_SITES=	ftp://ftp.uoknor.edu/mirrors/X/contrib/games/
 USE_IMAKE=	yes
 ALL_TARGET=	xkobo
 
