@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	${PKGNAME}.src
-PKGNAME=	minicom-1.82
+PKGNAME=	minicom-1.82.1
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/  \
 		${MASTER_SITE_SUNSITE}  \
