@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.radix.net/~cknudsen/gtimer/
 
 MAINTAINER=	cpiazza@home.net
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_BZIP2=	YES
 MAN1=		gtimer.1
