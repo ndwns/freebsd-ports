@@ -8,7 +8,7 @@
 
 DISTNAME=	play-1.0
 CATEGORIES=	audio
-MASTER_SITES=	ftp://jaz.jp.FreeBSD.org/pub/incoming/PUT-here/
+MASTER_SITES=	ftp://ports.jp.FreeBSD.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS
 
 MAINTAINER=	seiken@nbs.co.jp
 
