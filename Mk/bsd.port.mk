@@ -81,6 +81,7 @@
 # NO_DEPENDS	- Don't verify build of dependencies.
 # USE_GMAKE		- Says that the port uses gmake.
 # USE_IMAKE		- Says that the port uses imake.
+# USE_X11		- Says that the port uses X11.
 # NO_INSTALL_MANPAGES - For imake ports that don't like the install.man
 #						target.
 # HAS_CONFIGURE	- Says that the port has its own configure script.
@@ -164,7 +165,7 @@ PATCHDIR?=		${.CURDIR}/patches
 SCRIPTDIR?=		${.CURDIR}/scripts
 FILESDIR?=		${.CURDIR}/files
 PKGDIR?=		${.CURDIR}/pkg
-.if defined(USE_IMAKE)
+.if defined(USE_IMAKE) || defined(USE_X11)
 PREFIX?=		${X11BASE}
 .else
 PREFIX?=		/usr/local
