@@ -1,4 +1,4 @@
-# New ports collection makefile for:	North American zipcodes
+# New ports collection makefile for:	USA zipcodes
 # Version required:     1.0
 # Date created:         1997-12-30
 # Whom:                 wosch
