@@ -34,6 +34,10 @@ post-install:
 		${INSTALL_DATA} \
 			${FILESDIR}/elm.mimetypes ${PREFIX}/lib; \
 	fi
+.if defined(NOMANCOMPRESS)
 	${LN} -f ${PREFIX}/man/man1/frm.1 ${PREFIX}/man/man1/nfrm.1
+.else
+	${LN} -f ${PREFIX}/man/man1/frm.1.gz ${PREFIX}/man/man1/nfrm.1.gz
+.endif
 
 .include <bsd.port.mk>
