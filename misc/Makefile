@@ -28,6 +28,7 @@
     SUBDIR += kdeutils
     SUBDIR += korganizer
     SUBDIR += kp
+    SUBDIR += kproject
     SUBDIR += less
     SUBDIR += lile
     SUBDIR += logsurfer
