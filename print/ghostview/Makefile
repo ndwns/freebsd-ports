@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	ghostview-1.5
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 CATEGORIES+=	printing
+MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
+
 EXEC_DEPENDS=	gs:${PORTSDIR}/print/ghostscript
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>
