@@ -36,5 +36,10 @@ post-install:
 		echo "fi" >> ${STARTUP_SCRIPT}; \
 		chmod 755 ${STARTUP_SCRIPT}; \
 	fi
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+# Our makeinfo can't handle files with Japanese characters. :<
+	install-info --section="The Emacs editor and associated tools" --entry="* Skk: (skk.info).		Yet another Japanese Inputting Method. (Japanese)" ${PREFIX}/info/skk.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
