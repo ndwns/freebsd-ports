@@ -36,6 +36,7 @@
     SUBDIR += dgd-net
     SUBDIR += dict
     SUBDIR += dip
+    SUBDIR += dlint
     SUBDIR += dnswalk
     SUBDIR += dnsutl
     SUBDIR += echoping
