@@ -34,6 +34,7 @@
     SUBDIR += xrisk
     SUBDIR += xroach
     SUBDIR += xrobots
+    SUBDIR += xskat
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
