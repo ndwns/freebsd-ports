@@ -21,6 +21,7 @@
     SUBDIR += fep
     SUBDIR += figlet
     SUBDIR += git
+    SUBDIR += gnucash
     SUBDIR += gnuls
     SUBDIR += gone
     SUBDIR += gyvescm
