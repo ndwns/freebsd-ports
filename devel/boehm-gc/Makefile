@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gc4.12
-PKGNAME=	boehm-gc-4.12
+DISTNAME=	gc4.14
+PKGNAME=	boehm-gc-4.14
 CATEGORIES=	devel
 MASTER_SITES=	http://reality.sgi.com/boehm_mti/gc_source/
 
