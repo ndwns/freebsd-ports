@@ -184,6 +184,9 @@ ${CONFIGURE_COOKIE}:
 .if defined(HAS_CONFIGURE)
 	@(cd ${WRKSRC}; ./configure ${CONFIGURE_ARGS})
 .endif
+.if defined(USE_IMAKE)
+	@(cd ${WRKSRC}; xmkmf)
+.endif
 	@if [ -f ${SCRIPTDIR}/post-configure ]; then \
 	   sh ${SCRIPTDIR}/post-configure ${PORTSDIR} ${.CURDIR} ${WRKSRC}; \
 	fi
