@@ -21,6 +21,7 @@ MAKE_FLAGS=	CFLAGS=-O2 LDFLAGS=-s defines="-DSICP -DHAVE_CONFIG_H -DFLOATS -DIO_
 pre-install:
 	cp -rp ${WRKDIR}/slib ${PREFIX}/lib
 	(cd ${WRKDIR}/slib; \
+		makeinfo slib.texi; \
 		install -c -m 444 slib.info slib.info-1 slib.info-2 \
 				  slib.info-3 slib.info-4 /usr/local/info)
 
