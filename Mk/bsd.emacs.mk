@@ -50,6 +50,14 @@ Emacs_Include_MAINTAINER=	shige@FreeBSD.org
 #		ex.) "share/emacs/20.6/site-lisp" when emacsen is a
 #		emacs-20.6.
 #
+# EMACS_NO_BUILD_DEPENDS:
+#		If set "YES" to this variable, port does not 
+#		build-depend on EMACS_PORT_NAME's emacsen.
+#
+# EMACS_NO_RUN_DEPENDS:
+#		If set "YES" to this variable, port does not 
+#		run-depend on EMACS_PORT_NAME's emacsen.
+#
 
 
 # Emacs-19.x
@@ -151,11 +159,17 @@ EMACS_SITE_LISPDIR?=		${EMACS_LIBDIR}/site-lisp
 EMACS_VERSION_SITE_LISPDIR?=	${EMACS_LIBDIR_WITH_VER}/site-lisp
 
 # build&run-dependency
+EMACS_NO_BUILD_DEPENDS?=	NO
+EMACS_NO_RUN_DEPENDS?=		NO
+.if (${EMACS_NO_BUILD_DEPENDS} == "NO")
 BUILD_DEPENDS+=		${EMACS_CMD}:${EMACS_PORTSDIR}
+.endif
+.if (${EMACS_NO_RUN_DEPENDS} == "NO")
 .if defined(EMACS_COMMON_PORT) && (${EMACS_COMMON_PORT} == "YES")
 RUN_DEPENDS+=	${EMACS_CMD}:${EMACS_PORTSDIR}-common
 .else
 RUN_DEPENDS+=	${EMACS_CMD}:${EMACS_PORTSDIR}
+.endif
 .endif
 
 # environments for build
