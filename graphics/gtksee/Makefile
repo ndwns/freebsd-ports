@@ -6,17 +6,18 @@
 # $Id$
 #
 
-DISTNAME=       gtksee-0.2.0
+DISTNAME=	gtksee-0.2.1
 CATEGORIES=	graphics
-MASTER_SITES=   http://www.zg169.net/~hotaru/download/ \
+MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
+		http://www.zg169.net/~hotaru/download/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
-MAINTAINER=     ibex@physik.TU-Berlin.DE
+MAINTAINER=	ibex@physik.TU-Berlin.DE
 
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png \
-		tiff34.1:${PORTSDIR}/graphics/tiff34
+		tiff.4:${PORTSDIR}/graphics/tiff34
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS=-I${PREFIX}/include \
