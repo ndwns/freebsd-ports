@@ -59,6 +59,7 @@ fwtk-*			ports/security/fwtk	No redistribution allowed
 Frisk-*			ports/games/xfrisk	Copyright/trademark violation?
 glimpse-*		ports/misc/glimpse	Don't sell for profit
 giftool-*		ports/graphics/giftool	Don't redistribute for profit
+graphviz-*		ports/graphics/graphviz	Needs license before fetching
 ivs3.4-src.tar.gz	ports/net/ivs		Crypto; export-controlled
 john-1.4		ports/security/john	crypt(); export-controlled
 JDK-*			ports/lang/jdk		Put copyright on packaging!
