@@ -50,6 +50,7 @@
     SUBDIR += musixtex
     SUBDIR += offix-printer
     SUBDIR += pbm2ppa
+    SUBDIR += pdflib
     SUBDIR += perlftlib
     SUBDIR += pkfonts118
     SUBDIR += pkfonts240
