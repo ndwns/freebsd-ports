@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	xsokoban-3.3b
+DISTNAME=	xsokoban-3.3c
 CATEGORIES=	games
 MASTER_SITES=   ftp://ftp.pmg.lcs.mit.edu/pub/xsokoban/
 
-MAINTAINER=     Nakai@Mlab.t.u-tokyo.ac.jp
+MAINTAINER=     Nakai@technologist.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
