@@ -94,6 +94,7 @@
     SUBDIR += p5-Net-Whois
     SUBDIR += p5-SNMP
     SUBDIR += p5-pRPC
+    SUBDIR += pathchar
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += pppload
