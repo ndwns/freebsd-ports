@@ -13,10 +13,15 @@ MASTER_SITES=	ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/
 EXTRACT_SUFX=	.tgz
 
+PATCH_SITES=	http://www.python.org/1.5/patches-1.5.1/
+PATCHFILES=	_tkinter.1.txt bltinmodule.1.txt freeze.1.txt object.1.txt \
+		parsermodule.1.txt string.1.txt	zlibmodule.1.txt
+
 MAINTAINER=	tg@FreeBSD.org
 
 LIB_DEPENDS=	${TK_DEPENDS}
 
+DIST_SUBDIR=	python
 WRKSRC=		${WRKDIR}/Python-1.5.1
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-fpectl
