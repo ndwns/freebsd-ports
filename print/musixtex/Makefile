@@ -1,15 +1,15 @@
 # New ports collection makefile for:    musixtex
-# Version required:     T89
+# Version required:     T90
 # Date created:         9 july 1995
 # Whom:                 jmz
 #
 # $Id$
 #
 
-DISTNAME=       musixtex-T89
+DISTNAME=       musixtex-T90
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/macros/musixtex/taupin/
-DISTFILES=      musixtex-T89.tar.gz musixexa-T86.tar.gz
+DISTFILES=      musixtex-T90.tar.gz musixexa-T90.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
