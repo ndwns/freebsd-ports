@@ -15,6 +15,7 @@
     SUBDIR += cxref
     SUBDIR += ddd
     SUBDIR += dmake
+    SUBDIR += f77flow
     SUBDIR += fpp
     SUBDIR += gcc11
     SUBDIR += gdb
