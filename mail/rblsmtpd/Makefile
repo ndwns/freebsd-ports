@@ -8,7 +8,7 @@
 
 DISTNAME=	rblsmtpd-0.70
 CATEGORIES=	mail
-MASTER_SITES=	ftp://koobera.math.uic.edu/pub/software/
+MASTER_SITES=	ftp://koobera.math.uic.edu/www/software/
 
 MAINTAINER=	john@nlc.net.au
 
