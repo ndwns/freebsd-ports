@@ -1,12 +1,12 @@
 # New ports collection makefile for:	wmtz
-# Version required:		0.2
+# Version required:		0.4
 # Date created:			24 Apr 1999
 # Whom:				Jim Mock <jim@phrantic.phear.net>
 #
 # $Id$
 #
 
-DISTNAME=	wmtz-0.2
+DISTNAME=	wmtz-0.4
 CATEGORIES=	x11-clocks windowmaker afterstep
 MASTER_SITES=	http://www.algonet.se/~jlin/
 
