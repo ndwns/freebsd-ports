@@ -75,6 +75,7 @@
     SUBDIR += scheme48
     SUBDIR += schemetoc
     SUBDIR += scm
+    SUBDIR += siod
     SUBDIR += slib
     SUBDIR += smalltalk
     SUBDIR += sml-nj
