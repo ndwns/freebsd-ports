@@ -12,11 +12,14 @@ MASTER_SITES=	http://junior.technion.ac.il/~sergey/linux/
 
 MAINTAINER=	cpiazza@home.net
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
 ALL_TARGET=	gmixer
 
 pre-install:
 	@ ${MKDIR} ${PREFIX}/share/pixmaps
+do-install:
+	${INSTALL_PROGRAM} ${WRKSRC}/gmixer ${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/icons/gmixer.xpm ${PREFIX}/share/pixmaps
 
 .include <bsd.port.mk>
