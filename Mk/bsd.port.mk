@@ -191,6 +191,9 @@ build: configure pre-build
 .else defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${MAKE} all)
 .endif
+	@if [ -f ${SCRIPTDIR}/post-build ]; then \
+	    sh ${SCRIPTDIR}/post-build ${PORTSDIR} ${.CURDIR} ${WRKSRC}; \
+	fi
 .endif
 
 .if !target(pre-configure)
