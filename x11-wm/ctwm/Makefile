@@ -15,6 +15,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		upgraded and not available on master site anymore
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>
