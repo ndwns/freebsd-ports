@@ -16,7 +16,7 @@ MAINTAINER=	cracauer@cons.org
 MAN8=		rdate.8
 
 post-install:
-	$(INSTALL_PROGRAM) $(WRKSRC)/rdate $(PREFIX)/bin/.
+	$(INSTALL_PROGRAM) $(WRKSRC)/rdate $(PREFIX)/sbin/.
 	$(INSTALL_MAN) $(WRKSRC)/rdate.8 $(PREFIX)/man/man8/.
 
 .include <bsd.port.mk>
