@@ -8,13 +8,13 @@
 # $Id$
 #
 
-CATEGORIES+=	security
-
 # Pick an initial default, else it doesn't get set in the INDEX.
 DISTNAME=	pgp262s
+CATEGORIES+=	security
 
 MAINTAINER=	ache@FreeBSD.ORG
-NO_PACKAGE=     YES
+
+RESTRICTED=     YES
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd
 PGPLIB=         ${PREFIX}/lib/pgp
