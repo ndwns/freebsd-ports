@@ -1,0 +1,20 @@
+--- Makefile	Mon Jan 20 19:35:28 2003
++++ Makefile	Mon Jan 20 19:35:41 2003
+@@ -1,14 +1,14 @@
+ 
+ # $Id$
+ 
+-CC=gcc
+-CFLAGS=-g3 -O0 -Wall
++CC?=gcc
++CFLAGS?=-g3 -O0 -Wall
+ TARGETS=magictun.so
+ 
+ all:	$(TARGETS)
+ 
+ magictun.so:	magictun.c
+-	$(CC) $(CFLAGS) -fpic -shared magictun.c -o magictun.so -ldl
++	$(CC) $(CFLAGS) -fpic -shared magictun.c -o magictun.so
+ 
+ clean:
+ 	rm -f *.o $(TARGETS)
