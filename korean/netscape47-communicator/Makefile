@@ -27,7 +27,7 @@ BROWSER=	${BROWSER_NAME}-${BROWSER_VER}
 BROWSER_NAME?=	communicator
 BROWSER_VER=	4.08
 LANG=		ko_KR.EUC
-KOREAN_KIT=	netscape-v408.generic-generic-generic-19981227
+KOREAN_KIT=	netscape-v408.generic-generic-generic-19981229
 NDIR=		${PREFIX}/lib/netscape
 MAKESCRIPT=	${SED} -e "s;@X11BASE@;${X11BASE};g" \
 			-e "s;@PREFIX@;${PREFIX};g" \
