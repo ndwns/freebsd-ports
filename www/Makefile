@@ -10,6 +10,7 @@
     SUBDIR += apache13-modssl
     SUBDIR += apache13-php3
     SUBDIR += apache13-ssl
+    SUBDIR += apache-jserv
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
     SUBDIR += aswedit
