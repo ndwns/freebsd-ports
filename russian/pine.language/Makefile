@@ -12,8 +12,8 @@ MAINTAINER=     ache@FreeBSD.org
 
 RUN_DEPENDS=    pine:${PORTSDIR}/mail/pine3
 
-NO_EXTRACT=     YES
-NO_WRKDIR=      YES
+EXTRACT_ONLY=   # empty
+NO_WRKSUBDIR=   YES
 NO_BUILD=       YES
 
 do-fetch:
