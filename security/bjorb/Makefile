@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	bjorb-0.5.4p4
+DISTNAME=	bjorb-0.5.5p1
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.hitachi-ms.co.jp/pub/bjorb/
 
@@ -24,8 +24,8 @@ pre-fetch:
 LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref
 .endif
 .endif
-BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
-RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
+BUILD_DEPENDS=	openssl:${PORTSDIR}/security/openssl
+RUN_DEPENDS=	openssl:${PORTSDIR}/security/openssl
 
 RESTRICTED=	"Cryptography"
 
