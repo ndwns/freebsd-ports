@@ -25,6 +25,9 @@ CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 CONFIGURE_ENV+=	PERL=${PREFIX}/bin/perl INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 
 pre-install:
+.if defined(PACKAGE_BUILDING)
+	@ ${RM} -rf /var/db/mysql
+.endif
 	@ ${SETENV} ${MAKE_ENV} /usr/bin/perl ${SCRIPTDIR}/check_old_version
 
 post-install:

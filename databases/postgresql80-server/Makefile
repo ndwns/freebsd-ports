@@ -65,6 +65,9 @@ post-build:
 	@ ${ECHO} "------------------------------------------------------------"
 
 pre-install:
+.if defined(PACKAGE_BUILDING)
+	/bin/rm -rf ${PREFIX}/pgsql
+.endif
 	@ ${MKDIR} ${PREFIX}/pgsql
 	@ ${SETENV} ${MAKE_ENV} perl ${SCRIPTDIR}/createuser
 
