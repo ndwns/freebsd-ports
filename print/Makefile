@@ -12,6 +12,7 @@
     SUBDIR += dvi2xx
     SUBDIR += dvips
     SUBDIR += dviselect
+    SUBDIR += enscript
     SUBDIR += ghostscript
     SUBDIR += ghostscript3
     SUBDIR += ghostscript4
