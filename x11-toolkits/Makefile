@@ -8,6 +8,7 @@
     SUBDIR += blt
     SUBDIR += gtk
     SUBDIR += gtk--
+    SUBDIR += gtk-engines
     SUBDIR += gtk11
     SUBDIR += gtk11-devel
     SUBDIR += gtkgl
