@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	utils/file/managers/mc
 MAINTAINER=	ports@FreeBSD.ORG
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--with-ncurses --without-edit --without-subshell --disable-nls
+CONFIGURE_ARGS=	--with-ncurses --without-edit --with-dusum --disable-nls
 CONFIGURE_ENV=	INSTALL="$${INSTALL} -c"
 MAKE_ENV=	CCOPTS="$(CFLAGS)"
 MAN1=		midc.1
