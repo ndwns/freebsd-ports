@@ -1,12 +1,12 @@
 # New ports collection makefile for:	fetchmail
-# Version required:     4.1.7
+# Version required:     4.2.7
 # Date created:		26 Oct 1996
 # Whom:			Ville Eerola <ve@sci.fi>
 #
 # $Id$
 #
 
-DISTNAME=       fetchmail-4.1.7
+DISTNAME=       fetchmail-4.2.7
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.ccil.org/pub/esr/fetchmail/
 
