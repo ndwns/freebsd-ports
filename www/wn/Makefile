@@ -1,12 +1,12 @@
 # New ports collection makefile for:    wn
-# Version required:     1.12
+# Version required:     1.14
 # Date created:         4 May 1995
 # Whom:                 adam
 #
 # $Id$
 #
 
-DISTNAME=       wn-1.12.7
+DISTNAME=       wn-1.14.5
 CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
@@ -19,7 +19,7 @@ pre-patch:
 
 post-install:
 	@mkdir -p ${PREFIX}/wn/wnlogs
-	@cp -PR ${WRKSRC}/docs ${WRKSRC}/images ${PREFIX}/wn
+	@cp -PR ${WRKSRC}/docs ${PREFIX}/wn
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wn ${PREFIX}/libexec
 	@install -c -o bin -g bin  ${WRKSRC}/bin/swn ${PREFIX}/sbin
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wndex ${PREFIX}/bin
