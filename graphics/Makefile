@@ -10,6 +10,7 @@
     SUBDIR += mpeg_play
     SUBDIR += netpbm
     SUBDIR += pixmap
+    SUBDIR += png
     SUBDIR += povray
     SUBDIR += spigot
     SUBDIR += tiff
