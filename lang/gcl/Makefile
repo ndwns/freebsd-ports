@@ -13,6 +13,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN=		"Seems to depend on old version of tcl/tk"
 MAKEFILE=	makefile
 
 do-install:
