@@ -25,6 +25,7 @@
     SUBDIR += chimera2
     SUBDIR += comline
     SUBDIR += demoroniser
+    SUBDIR += erwin
     SUBDIR += evg
     SUBDIR += fcgi
     SUBDIR += fxhtml
@@ -32,6 +33,7 @@
     SUBDIR += gn
     SUBDIR += grail
     SUBDIR += gwstat
+    SUBDIR += gyroscope
     SUBDIR += harvest
     SUBDIR += hotjava
     SUBDIR += htmlpp
