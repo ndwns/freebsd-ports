@@ -30,5 +30,6 @@
     SUBDIR += tkinfo
     SUBDIR += tkman
     SUBDIR += trans
+    SUBDIR += xcalendar
 
 .include <bsd.port.subdir.mk>
