@@ -1,6 +1,6 @@
 # $Id$
 #
-SUBDIR=	emu fvwm ghostview iv ivs olvwm pcb tk xarchie xcdplayer xdvi \
+SUBDIR=	emu fvwm ghostview iv ivs jpeg olvwm pcb tk xarchie xcdplayer xdvi \
 	xearth xpm xtexshell xv
 
 #
