@@ -29,6 +29,9 @@ MAN3=           LWP::Parallel.3 \
 		LWP::ParallelUA.3 \
 		LWP::RobotPUA.3
 
+post-patch:
+		@ cd ${WRKSRC}/lib/LWP/Parallel; ${RM} *.orig
+
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
 
