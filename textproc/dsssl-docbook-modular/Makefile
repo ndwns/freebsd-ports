@@ -1,13 +1,13 @@
 # New ports collection makefile for:	DSSSL stylesheets for DocBook
-# Version required:	1.10
+# Version required:	1.13
 # Date created:		16 March 1998
 # Whom:			Jun Kuriyama <kuriyama@opt.phys.waseda.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	db110
-PKGNAME=	dsssl-docbook-modular-1.10
+DISTNAME=	db113
+PKGNAME=	dsssl-docbook-modular-1.13
 CATEGORIES=	textproc
 MASTER_SITES=	http://nwalsh.com/docbook/dsssl/
 EXTRACT_SUFX=	.zip
