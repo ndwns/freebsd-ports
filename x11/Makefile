@@ -38,7 +38,6 @@
     SUBDIR += offix-clipboard
     SUBDIR += offix-execute
     SUBDIR += props
-    SUBDIR += pythonqt
     SUBDIR += rxvt
     SUBDIR += sxpc
     SUBDIR += tkgoodstuff
