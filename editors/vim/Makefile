@@ -7,11 +7,11 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0
+DISTNAME=	vim-5.1
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/unix/ \
-		ftp://ftp.oce.nl/pub/misc/vim/unix/  \
+		ftp://ftp.oce.nl/pub/vim/unix/  \
 		ftp://ftp.prz.tu-berlin.de/pub/unix/editors/vim/unix/  \
 		ftp://ftp.is.co.za/applications/editors/vim/  \
 		ftp://ftp.progsoc.uts.edu.au/pub/vim/
