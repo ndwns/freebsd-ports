@@ -16,6 +16,8 @@ MAINTAINER=	ade@lovett.com
 LIB_DEPENDS=	gnome.2:${PORTSDIR}/x11/gnomelibs \
 		xml.4:${PORTSDIR}/textproc/libxml
 
+BROKEN=		problems with rpath handling in libtool
+
 GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_PERL5=	yes
