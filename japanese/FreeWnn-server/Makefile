@@ -24,8 +24,8 @@ WRKSRC=		${WRKDIR}/Xsi
 .if (${PKGNAME} == ja-Wnn-4.2)
 PORT_DOCDIR=	${PREFIX}/share/doc/ja-Wnn
 DOC_FROM=	${WRKSRC}/Wnn
-.elif (${PKGNAME} == cn-Wnn-4.2)
-PORT_DOCDIR=	${PREFIX}/share/doc/cn-Wnn
+.elif (${PKGNAME} == zh-Wnn-4.2)
+PORT_DOCDIR=	${PREFIX}/share/doc/zh-Wnn
 DOC_FROM=	${WRKSRC}/cWnn
 .endif  # kWnn has no manual.
 
@@ -42,9 +42,9 @@ post-patch:
 	case ${PKGNAME} in \
 	  ja-Wnn-4.2) \
 		LANG_PATCH=${FILESDIR}/patch-for-japanese;; \
-	  cn-Wnn-4.2) \
+	  zh-Wnn-4.2) \
 		LANG_PATCH=${FILESDIR}/patch-for-chinese;; \
-	  kr-Wnn-4.2) \
+	  ko-Wnn-4.2) \
 		LANG_PATCH=${FILESDIR}/patch-for-korean;; \
 	esac; \
 	(cd ${_DISTDIR}; \

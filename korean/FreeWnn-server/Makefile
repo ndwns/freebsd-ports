@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	kr-Wnn-4.2
+PKGNAME=	ko-Wnn-4.2
 CATEGORIES=	korean
 
 ## COMMENT, DESCR, PLIST is used in a local 'pkg' directory

@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	cn-Wnn-4.2
+PKGNAME=	zh-Wnn-4.2
 CATEGORIES=	chinese
 
 ## COMMENT, DESCR, PLIST is used in a local 'pkg' directory
