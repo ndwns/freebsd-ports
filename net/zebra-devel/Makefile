@@ -17,4 +17,11 @@ MAINTAINER=	andreas@FreeBSD.ORG
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc/zebra
 
+post-install:
+	@${ECHO} "===>     installing zebra startup file..."
+	@${SED} -e "s=!!PREFIX!!=${PREFIX}=" \
+		< ${FILESDIR}/zebra.sh  \
+		> ${PREFIX}/etc/rc.d/zebra.sh 
+	@${ECHO} "===>     done."
+
 .include <bsd.port.mk>
