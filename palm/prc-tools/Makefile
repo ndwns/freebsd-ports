@@ -21,6 +21,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 
 MAINTAINER=     ports@freebsd.org
 
+BROKEN=		"build touches stuff outside of build directory"
+
 # install things in ${LOCALBASE}/pilot to avoid conflicts
 PREFIX=		${LOCALBASE}/pilot
 WRKSRC=		${WRKDIR}/${PKGNAME}
