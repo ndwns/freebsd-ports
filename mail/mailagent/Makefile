@@ -38,5 +38,12 @@ pre-extract:
 	  echo "Please set umask to 022 before running make,"; \
 	  echo "or mailagent will not build successfully."; \
 	  false; fi
+	@if [ `id -u` = 0 ]; then \
+	  echo "Do not build mailagent as root or it won't pass the sanity tests."; \
+	  false; fi
+
+post-install:
+	@${MKDIR} ${PREFIX}/share/examples/mailagent
+	${INSTALL_DATA} ${WRKSRC}/agent/examples/* ${PREFIX}/share/examples/mailagent
 
 .include <bsd.port.mk>
