@@ -74,7 +74,10 @@
     SUBDIR += pine
     SUBDIR += pkfonts
     SUBDIR += plain2
-    SUBDIR += platex
+    SUBDIR += platex-common
+    SUBDIR += platex-euc
+    SUBDIR += platex-jis
+    SUBDIR += platex-sjis
     SUBDIR += prn
     SUBDIR += ptex-common
     SUBDIR += ptex-euc
