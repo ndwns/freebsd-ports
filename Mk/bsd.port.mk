@@ -79,7 +79,7 @@
 # These need to be absolute since we don't know how deep in the ports
 # tree we are and thus can't go relative.  They can, of course, be overridden
 # by individual Makefiles.
-PORTSDIR?=		/usr/ports
+PORTSDIR?=		${DESTDIR}/usr/ports
 DISTDIR?=		${PORTSDIR}/distfiles
 PACKAGES?=		${PORTSDIR}/packages
 WRKDIR?=		${.CURDIR}/work
