@@ -17,6 +17,10 @@ BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 GNU_CONFIGURE=	yup
 CONFIGURE_ENV= CPPFLAGS="-I${LOCALBASE}/include" \
 	LIBS=-L${LOCALBASE}/lib INSTALL_SCRIPT='$${INSTALL} -m 755'
+
 MAN1=           xdelta.1
+
+post-install:
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
