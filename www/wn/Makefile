@@ -11,7 +11,7 @@ CATEGORIES+=	networking
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
 IS_INTERACTIVE=
-NO_PACKAGE=
+NO_PACKAGE=	# hostname compiled in
 
 pre-patch: ${PATCH_COOKIE}
 	@cp ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
