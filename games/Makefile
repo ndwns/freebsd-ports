@@ -52,6 +52,7 @@
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xpuyo
+    SUBDIR += xpuzzletama
     SUBDIR += xripple
     SUBDIR += xrisk
     SUBDIR += xroach
