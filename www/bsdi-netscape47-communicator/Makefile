@@ -24,9 +24,10 @@ BINDIR=		${PREFIX}/bin
 do-install:
 	cd ${WRKSRC} && yes "" | \
 	    LC_TIME=C MOZILLA_HOME="${NDIR}" ./ns-install
-	mv ${NDIR}/netscape ${NDIR}/communicator-4.04.bin
+	mv -f ${NDIR}/netscape ${NDIR}/communicator-4.04.bin
 	${INSTALL_SCRIPT} ${WRKSRC}/netscape ${BINDIR}/communicator-4.04
-	ln -sf communicator-4.04 ${BINDIR}/netscape
+	ln -sf communicator-4.04 ${BINDIR}/communicator-4
+	ln -sf communicator-4 ${BINDIR}/netscape
 	if [ ! -f ${NDIR}/mailcap ] ; then \
 	    ${INSTALL_DATA} ${FILESDIR}/mailcap ${NDIR}; \
 	fi
