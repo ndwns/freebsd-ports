@@ -1,13 +1,13 @@
 # New ports collection makefile for:	procmail
-# Version required:     3.11pre3
+# Version required:     3.11pre4
 # Date created:		24 September 1994
 # Whom:			adam
 #
 # $Id$
 #
 
-DISTNAME=       procmail-3.11pre3
-PKGNAME=        procmail-3.11.3
+DISTNAME=       procmail-3.11pre4
+PKGNAME=        procmail-3.11p4
 CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 INSTALL_TARGET= install-suid install.man
