@@ -76,5 +76,7 @@ post-install:
 	@chmod 6555 ${PREFIX}/bin/crossfire
 	${ECHO} "Note: to start crossfire in clientmode"
 	${ECHO} "	crossfire -xpm"
+	${ECHO} "Note: don't forget to update ${PREFIX}/etc/rplay.conf"
+	${ECHO} "	with new sounds in ${CFDIR}/sounds"
 
 .include <bsd.port.mk>
