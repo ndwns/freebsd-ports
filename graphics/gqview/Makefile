@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gqview-0.6.1.src
-PKGNAME=	gqview-0.6.1
+DISTNAME=	gqview-0.7.0.src
+PKGNAME=	gqview-0.7.0
 CATEGORIES=	graphics
 MASTER_SITES=	http://gqview.netpedia.net/ \
 		http://www.geocities.com/SiliconValley/Haven/5235/
