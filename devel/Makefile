@@ -30,6 +30,7 @@
     SUBDIR += gdb
     SUBDIR += gdbtk
     SUBDIR += gindent
+    SUBDIR += glade
     SUBDIR += gmake
     SUBDIR += id-utils
     SUBDIR += ilu
