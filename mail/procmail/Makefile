@@ -8,6 +8,7 @@
 
 DISTNAME=       procmail-3.10pre5
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
+IS_INTERACTIVE=	yes
 
 install:
 	@echo "===>  Installing for ${DISTNAME}"
