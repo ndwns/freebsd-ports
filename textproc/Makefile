@@ -2,6 +2,7 @@
 #
 
     SUBDIR += agrep
+    SUBDIR += aspell
     SUBDIR += c2html
     SUBDIR += catdoc
     SUBDIR += docbook
