@@ -8,7 +8,6 @@
     SUBDIR += 30upgrade
     SUBDIR += 31upgrade
     SUBDIR += 32upgrade
-    SUBDIR += Generic-NQS
     SUBDIR += Howto
     SUBDIR += acron
     SUBDIR += amanda
@@ -39,6 +38,7 @@
     SUBDIR += fep
     SUBDIR += figlet
     SUBDIR += fortuneit
+    SUBDIR += generic-nqs
     SUBDIR += git
     SUBDIR += gnomeutils
     SUBDIR += gnuls
