@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	mysql-3.21.19-beta
+PKGNAME=	mysql-3.21.19b
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/Downloads/MySQL-3.21/ \
 		http://www.buoy.com/mysql/ \
