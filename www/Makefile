@@ -17,6 +17,7 @@
     SUBDIR += linemode
     SUBDIR += lynx
     SUBDIR += mapedit
+    SUBDIR += mhonarc
     SUBDIR += mmm
     SUBDIR += netscape3
     SUBDIR += netscape4
