@@ -56,6 +56,7 @@
     SUBDIR += ftptool
     SUBDIR += gated
     SUBDIR += ggsd
+    SUBDIR += gnomeicu
     SUBDIR += gnomenetwork
     SUBDIR += gnu-finger
     SUBDIR += gopher
