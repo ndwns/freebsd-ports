@@ -61,7 +61,6 @@
     SUBDIR += m68knewlib
     SUBDIR += makedepend
     SUBDIR += mico
-    SUBDIR += mico-latest
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += nana
