@@ -17,6 +17,7 @@
     SUBDIR += cap
     SUBDIR += cftp
     SUBDIR += choparp
+    SUBDIR += ciscoconf
     SUBDIR += citrix_ica
     SUBDIR += clog
     SUBDIR += cnet
