@@ -7,6 +7,7 @@
     SUBDIR += 227upgrade
     SUBDIR += 30upgrade
     SUBDIR += 31upgrade
+    SUBDIR += Howto
     SUBDIR += acron
     SUBDIR += amanda
     SUBDIR += amanda24
@@ -38,7 +39,6 @@
     SUBDIR += gone
     SUBDIR += gtkfind
     SUBDIR += gyvescm
-    SUBDIR += Howto
     SUBDIR += iselect
     SUBDIR += jargon
     SUBDIR += jive
