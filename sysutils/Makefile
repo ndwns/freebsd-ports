@@ -12,6 +12,7 @@
     SUBDIR += contool
     SUBDIR += daemontools
     SUBDIR += doconfig
+    SUBDIR += gnomeadmin
     SUBDIR += gtar
     SUBDIR += gtop
     SUBDIR += idled
