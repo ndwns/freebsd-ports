@@ -12,10 +12,12 @@ MASTER_SITES=	http://www.radix.net/~cknudsen/gtimer/
 
 MAINTAINER=	cpiazza@home.net
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 USE_GMAKE=	YES
 USE_BZIP2=	YES
 MAN1=		gtimer.1

@@ -13,7 +13,7 @@ MASTER_SITES=	http://devplanet.fastethernet.net/
 
 MAINTAINER=	dom@myrddin.demon.co.uk
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_X_PREFIX=	yes
 ALL_TARGET=	gxedit

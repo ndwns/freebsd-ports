@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.asclock.org/tar/
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 HAS_CONFIGURE=	YES
 WRKSRC=		${WRKDIR}/asclock-gtk

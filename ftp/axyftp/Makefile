@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.wxftp.seul.org/pub/wxftp/0.4.4/ \
 
 MAINTAINER=	kris@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 WRKSRC=		${WRKDIR}/${PKGNAME}/src
 USE_GMAKE=	yes

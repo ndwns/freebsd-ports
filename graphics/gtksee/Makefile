@@ -13,16 +13,18 @@ MASTER_SITES=	http://www.zg169.net/~hotaru/gtksee/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34
 RUN_DEPENDS=	bzip:${PORTSDIR}/archivers/bzip \
 		bzip2:${PORTSDIR}/archivers/bzip2
 
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${PREFIX}/include" \
-		GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
+		GTK_CONFIG="${GTK_CONFIG}" \
 		LDFLAGS=-L${PREFIX}/lib
 
 .include <bsd.port.mk>

@@ -16,15 +16,17 @@ EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	jim@phrantic.phear.net
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
-		glib12.1:${PORTSDIR}/devel/glib12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \
+		glib12.2:${PORTSDIR}/devel/glib12
+
+GLIB_CONFIG?=	${LOCALBASE}/bin/glib12-config
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
-
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
-		GLIB_CONFIG="${LOCALBASE}/bin/glib12-config"
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" \
+		GLIB_CONFIG="${GLIB_CONFIG}"
 
 post-patch:
 	${CP} ${DISTDIR}/logo.xpm.gz ${WRKSRC}/pixmaps

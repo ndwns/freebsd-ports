@@ -16,7 +16,7 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=	dima@chg.ru
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 WRKSRC=		${WRKDIR}/GGSD
 EXTRACT_CMD=	${TAR}

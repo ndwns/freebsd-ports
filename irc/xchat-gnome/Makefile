@@ -14,15 +14,16 @@ MASTER_SITES=	http://xchat.linuxpower.org/files/ \
 
 MAINTAINER=	jim@phrantic.phear.net
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
+
+USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-gnome
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
-
-USE_X_PREFIX=	yes
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" 
 
 post-install:
 	strip ${PREFIX}/bin/xchat

@@ -16,7 +16,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} expat.tar.gz \
 MAINTAINER=	dburr@FreeBSD.ORG
 
 BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash2
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12 \
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12 \
 		png.3:${PORTSDIR}/graphics/png
 RUN_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell
 

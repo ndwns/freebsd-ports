@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.newwave.net/~masneyb/
 
 MAINTAINER=	dmarion@open.hr
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_AUTOCONF=	yes
 USE_X_PREFIX=	yes

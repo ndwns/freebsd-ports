@@ -17,11 +17,13 @@ MASTER_SITES=	http://c64.org/~nr/ \
 
 MAINTAINER=	kris@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG=${X11BASE}/bin/gtk12-config
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/xwhois ${PREFIX}/bin

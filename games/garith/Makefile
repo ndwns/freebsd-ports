@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.cnm-vra.com/micah/garith/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	gdk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gdk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 ALL_TARGET=
 USE_X_PREFIX=	yes

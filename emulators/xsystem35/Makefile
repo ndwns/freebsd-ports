@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.aist-nara.ac.jp/~masaki-c/private/unitbase/xsys35/down/
 
 MAINTAINER=	k5@respo.or.jp
 
-LIB_DEPENDS+=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS+=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_IMAKE=	YES
 WRKSRC=		${WRKDIR}/${DISTNAME}/src

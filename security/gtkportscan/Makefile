@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.calpoly.edu/~rbarrero/
 
 MAINTAINER=	cpiazza@home.net
 
-LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
+LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 WRKSRC=		${WRKDIR}/gtkscan
 
