@@ -11,7 +11,7 @@ CATEGORIES+=	networking
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/applications/ \
 		ftp://ftp.funet.fi/pub/X11/contrib/applications/
 
-EXEC_DEPENDS=	archie:${PORTSDIR}/net/archie
+RUN_DEPENDS=	archie:${PORTSDIR}/net/archie
 
 USE_IMAKE=	yes
 
