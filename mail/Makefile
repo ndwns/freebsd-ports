@@ -11,6 +11,7 @@
     SUBDIR += mh
     SUBDIR += mpack
     SUBDIR += mutt
+    SUBDIR += mutt.with_pgp
     SUBDIR += p5-Mail-Folder
     SUBDIR += p5-Mail-POP3Client
     SUBDIR += p5-Mail-Tools
@@ -21,8 +22,8 @@
     SUBDIR += poppassd
     SUBDIR += procmail
     SUBDIR += smail
-    SUBDIR += xfmail
     SUBDIR += youbin
+    SUBDIR += xfmail
     SUBDIR += xlbiff
 
 .include <bsd.port.subdir.mk>
