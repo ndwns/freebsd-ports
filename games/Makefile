@@ -88,7 +88,6 @@
     SUBDIR += xsol
     SUBDIR += xsoldier
     SUBDIR += xspringies
-    SUBDIR += xtetris
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += yahtzee
