@@ -34,10 +34,9 @@ do-install:
 	-@${MKDIR} ${PREFIX}/lib/astrolog
 	cd ${DISTDIR}/${DIST_SUBDIR} && \
 		${INSTALL_DATA} ${EPHEM} ${PREFIX}/lib/astrolog
-	cd ${WRKSRC} && \
-		if [ -f ${PREFIX}/lib/astrolog/astrolog.dat ] ; then \
-			${INSTALL_DATA} astrolog.dat ${PREFIX}/lib/astrolog/astrolog.dat-dist; \
-		else \
+	cd ${WRKSRC}; \
+		${INSTALL_DATA} astrolog.dat ${PREFIX}/lib/astrolog/astrolog.dat-dist; \
+		if [ ! -f ${PREFIX}/lib/astrolog/astrolog.dat ] ; then \
 			${INSTALL_DATA} astrolog.dat ${PREFIX}/lib/astrolog; \
 		fi
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} astrolog ${PREFIX}/bin
