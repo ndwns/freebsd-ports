@@ -7,10 +7,11 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.41_W
-PKGNAME=	lsof-4.41
+DISTNAME=	lsof_4.42A.freebsd
+PKGNAME=	lsof-4.41.1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
+		ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/NEW/ \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
 		ftp://ftp.auscert.org.au/pub/mirrors/vic.cc.purdue.edu/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
