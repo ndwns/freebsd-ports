@@ -16,6 +16,8 @@ MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/  \
 
 MAINTAINER=		markm@FreeBSD.ORG
 
+BROKEN=			upgrade
+
 RESTRICTED=		"Cryptography"
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	util/FreeBSD.sh
