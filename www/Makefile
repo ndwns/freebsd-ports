@@ -90,6 +90,7 @@
     SUBDIR += swish-e
     SUBDIR += thttpd
     SUBDIR += tidy
+    SUBDIR += tinyproxy
     SUBDIR += transproxy
     SUBDIR += vrweb
     SUBDIR += w3
