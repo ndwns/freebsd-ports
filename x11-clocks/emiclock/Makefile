@@ -12,6 +12,10 @@ MASTER_SITES=	ftp://ftp.plaza.hitachi-sk.co.jp/pub/EmiClock/X11/
 
 MAINTAINER=	nobu@psrc.isac.co.jp
 
+.if ${MACHINE_ARCH} != "i386"
+PLIST=		${PKGDIR}/PLIST.nosound
+.endif
+
 USE_IMAKE=	yes
 MAN1=		emiclock.1
 
