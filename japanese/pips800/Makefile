@@ -13,9 +13,9 @@ DISTFILES=	# empty
 
 MAINTAINER=	taoka@FreeBSD.org
 
-RUN_DEPENDS=	/compat/linux/usr/share/locale/ja_JP/LC_COLLATE:${PORTSDIR}/japanese/linux_locale
+RUN_DEPENDS=	${PREFIX}/usr/share/locale/ja_JP/LC_COLLATE:${PORTSDIR}/japanese/linux_locale
 
-PREFIX=		/compat/linux
+USE_LINUX_PREFIX=	yes
 NO_BUILD=       yes
 USE_PERL5=	yes
 ONLY_FOR_ARCHS= i386
@@ -27,9 +27,9 @@ DESCR=		${.CURDIR}/pkg-descr
 
 PRTYPE?=	800
 .if (${PORTVERSION} == 1.3)
-RUN_DEPENDS+=	/compat/linux/usr/lib/libpm${PRTYPE}c.so:${PORTSDIR}/print/pips${PRTYPE}
+RUN_DEPENDS+=	${PREFIX}/usr/lib/libpm${PRTYPE}c.so:${PORTSDIR}/print/pips${PRTYPE}
 .else
-RUN_DEPENDS+=	/compat/linux/usr/lib/libPrt${PRTYPE}.so:${PORTSDIR}/print/pips${PRTYPE}
+RUN_DEPENDS+=	${PREFIX}/usr/lib/libPrt${PRTYPE}.so:${PORTSDIR}/print/pips${PRTYPE}
 .endif
 
 do-install:     # empty
