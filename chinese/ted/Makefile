@@ -17,6 +17,8 @@ MAINTAINER=		vanilla@FreeBSD.ORG
 
 RUN_DEPENDS=		${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin
 
+BROKEN=			package
+
 USE_X11=		yes
 WRKSRC=			${WRKDIR}/ted
 
