@@ -13,6 +13,7 @@ MASTER_SITES=	http://www-rn.informatik.uni-bremen.de/software/unroff/dist/
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
 RUN_DEPENDS=	elk:${PORTSDIR}/lang/elk
+BUILD_DEPENDS=	elk:${PORTSDIR}/lang/elk
 
 PATCH_STRIP=	-p1
 
