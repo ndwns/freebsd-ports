@@ -100,6 +100,7 @@ fetch-depends:
 post-extract:
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 	@mv ${WRKDIR}/rsaref2 ${WRKSRC}/rsaref2
+	@(cd ${WRKSRC} && patch -s -p < ${FILESDIR}/rsa64.diff)
 .endif
 
 post-install:
