@@ -1,20 +1,17 @@
 # New ports collection makefile for:    mkisofs
-# Version required:     1.0.5
+# Version required:     1.10
 # Date created:         07 Aug 1996
 # Whom:                 jkh
 #
 # $Id$
 #
 
-DISTNAME=       mkisofs-1.05
+DISTNAME=       mkisofs-1.10
 CATEGORIES=	sysutils
-MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/BETA/cdrom/
+MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/packages/mkisofs/
 
-NO_WRKSUBDIR=   yes     
-HAS_CONFIGURE=		yes
-CONFIGURE_SCRIPT=	Configure
-ALL_TARGET=
-MAKE_FLAGS=	CFLAGS='-c ${CFLAGS} -DSYSTEM_ID_DEFAULT=\"FREEBSD\"' -f
+GNU_CONFIGURE=		yes
+MAKE_FLAGS=	XCFLAGS='-c -I. ${CFLAGS} -DSYSTEM_ID_DEFAULT=\"FREEBSD\"' -f
 MAN8=		mkisofs.8
 
 .include <bsd.port.mk>
