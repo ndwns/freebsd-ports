@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	dnews
+PKGNAME=	dnews-4.2j
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.netwinsite.com/pub/netwinsite/dnews/
 DISTFILES=	dnews42j_freebsd.tar.Z
