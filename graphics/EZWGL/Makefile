@@ -15,6 +15,8 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
 
+BROKEN=		reinstall
+
 ALL_TARGET=	shared clean static
 USE_X11=	yes
 
