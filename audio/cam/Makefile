@@ -14,4 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	erich@FreeBSD.org
 
+MAN1=	cam.1
+
 .include <bsd.port.mk>
