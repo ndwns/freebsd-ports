@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
+BROKEN_ELF=	yes
+
 CFLAGS+=	-I../../include
 MAN1=		vnelvis.1 vnvi.1
 
