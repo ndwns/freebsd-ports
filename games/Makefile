@@ -161,6 +161,7 @@
     SUBDIR += xpuyo
     SUBDIR += xpuzzletama
     SUBDIR += xpyraminx
+    SUBDIR += xqf
     SUBDIR += xquarto
     SUBDIR += xripple
     SUBDIR += xrisk
