@@ -8,7 +8,7 @@
 
 DISTNAME=	wmcp-1.2.6
 CATEGORIES=	misc windowmaker
-MASTER_SITES=	http://www.linuxbox.com/~bac/src/wmcp/
+MASTER_SITES=	http://users.linuxbox.com/~bac/src/wmcp/
 
 MAINTAINER=	jim@phrantic.phear.net
 
