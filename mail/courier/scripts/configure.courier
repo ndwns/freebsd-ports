@@ -251,7 +251,12 @@ while [ "$1" ]; do
 			echo "BUILD_DEPENDS+=	procmail:\${PORTSDIR}/mail/procmail"
 			;;
 		\"SendFax\")
-			echo "BUILD_DEPENDS+=	gs:\${PORTSDIR}/print/ghostscript-gnu"
+			if [ "x${WITH_GHOSTSCRIPT_AFPL}" = "xyes" ]
+			then
+				echo "BUILD_DEPENDS+=	gs:\${PORTSDIR}/print/ghostscript-afpl"
+			else
+				echo "BUILD_DEPENDS+=	gs:\${PORTSDIR}/print/ghostscript-gnu"
+			fi
 			echo "BUILD_DEPENDS+=	pnmscale:\${PORTSDIR}/graphics/netpbm"
 			echo "BUILD_DEPENDS+=	giftopnm:\${PORTSDIR}/graphics/netpbm"
 			echo "BUILD_DEPENDS+=	jpegtopnm:\${PORTSDIR}/graphics/netpbm"
