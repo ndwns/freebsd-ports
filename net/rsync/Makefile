@@ -26,6 +26,8 @@ post-install:
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/rsync
 	${INSTALL_DATA} ${WRKSRC}/tech_report.ps ${PREFIX}/share/doc/rsync
+	${INSTALL_DATA} ${FILESDIR}/README.daemon ${PREFIX}/share/doc/rsync
+	${INSTALL_DATA} ${FILESDIR}/rsyncd_trees.eg ${PREFIX}/share/doc/rsync
 .endif
 
 .include <bsd.port.mk>
