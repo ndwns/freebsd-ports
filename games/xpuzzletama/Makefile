@@ -8,16 +8,15 @@
 
 DISTNAME=	xpuzzletama
 PKGNAME=        xpuzzletama-1.5
-CATEGORIES=     games x11
+CATEGORIES=     games
 MASTER_SITES=   http://neo.yanagi.gifu-u.ac.jp/~c94056/
 DISTFILES=	PuzzleTama-ver1.5.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-CONFIGURE_ENV=  X11BASE=${X11BASE}
-
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+CONFIGURE_ENV=  X11BASE=${X11BASE}
 USE_IMAKE=      yes
 NO_INSTALL_MANPAGES=    yes
 
