@@ -64,4 +64,3 @@ post-install:
 	strip ${PREFIX}/bin/gs
 
 .include <bsd.port.mk>
-
