@@ -29,7 +29,8 @@
 #
 # MAKE_ENV		- extended with the variables above
 # CONFIGURE_ENV		- extended with LDFLAGS
-# LIB_DEPENDS		- are added if needed
+# BUILD_DEPENDS		- are added if needed
+# RUN_DEPENDS		- are added if needed
 
 OpenSSL_Include_MAINTAINER=	dinoex@FreeBSD.org
 
@@ -111,12 +112,8 @@ OPENSSL_SHLIBVER?=	3
 OPENSSL_PORT?=		security/openssl
 .endif
 OPENSSLDIR=		${OPENSSLBASE}/openssl
-.if exists(/usr/lib/libcrypto.so.${OPENSSL_SHLIBVER})
 BUILD_DEPENDS+=		${LOCALBASE}/lib/libcrypto.so.${OPENSSL_SHLIBVER}:${PORTSDIR}/${OPENSSL_PORT}
 RUN_DEPENDS+=		${LOCALBASE}/lib/libcrypto.so.${OPENSSL_SHLIBVER}:${PORTSDIR}/${OPENSSL_PORT}
-.else
-LIB_DEPENDS+=		crypto.${OPENSSL_SHLIBVER}:${PORTSDIR}/${OPENSSL_PORT}
-.endif
 OPENSSLRPATH=		${LOCALBASE}/lib
 
 .endif
