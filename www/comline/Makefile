@@ -1,5 +1,5 @@
 # New ports collection makefile for:    comline
-# Version required:     4.0pre7
+# Version required:     4.0B
 # Date created:         9 Dec 1995
 # Whom:                 ache
 #
@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	WWW
-PKGNAME=        comline-4.0p7
+PKGNAME=        comline-4.0B
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/comline/ \
 		ftp://ftp.w3.org/pub/libwww/
-DISTFILES=      libwww_4.0pre7_src.tar.gz \
-		w3c_4.0pre7_src.tar.gz
+DISTFILES=      libwww_4.0B_src.tar.gz \
+		w3c_4.0B_src.tar.gz
 
 MAINTAINER=     ache@freebsd.org
 
