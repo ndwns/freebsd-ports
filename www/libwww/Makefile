@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.w3.org/pub/libwww/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN_ELF=	yes
+
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--enable-shared --enable-static
