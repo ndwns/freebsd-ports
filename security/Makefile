@@ -29,6 +29,7 @@
     SUBDIR += sentry
     SUBDIR += skip
     SUBDIR += smurflog
+    SUBDIR += sniff
     SUBDIR += ssh
     SUBDIR += ssh2
     SUBDIR += sudo
