@@ -24,6 +24,7 @@
     SUBDIR += mew
     SUBDIR += mew-common
     SUBDIR += mew-mule
+    SUBDIR += mew-xemacs
     SUBDIR += mh
     SUBDIR += mmr
     SUBDIR += movemail
