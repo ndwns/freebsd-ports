@@ -1,16 +1,16 @@
 # $Id$
 #
-# BROKEN: expect (no package file yet)
-# BROKEN: gnat (not really broken, just requires existing gnat compiler)
-#
 
    SUBDIR += Gofer
    SUBDIR += STk
    SUBDIR += Sather
+   SUBDIR += bwbasic
    SUBDIR += elk
+   BROKEN += expect      # no package file yet
    SUBDIR += forth
    SUBDIR += g77
    SUBDIR += gcl
+   BROKEN += gnat   # not really broken, just requires existing gnat compiler
    SUBDIR += guile-ii
    SUBDIR += icon
    SUBDIR += itcl
