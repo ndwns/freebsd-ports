@@ -13,11 +13,9 @@
     SUBDIR += sliderule
     SUBDIR += teapot
     SUBDIR += xcalendar
-    SUBDIR += xhime
     SUBDIR += xinvest
     SUBDIR += xmaddressbook
     SUBDIR += xmdiary
-    SUBDIR += xmulti
     SUBDIR += xopps
     SUBDIR += xpostit
     SUBDIR += xpostitPlus
