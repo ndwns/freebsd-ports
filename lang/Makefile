@@ -42,6 +42,7 @@
     SUBDIR += pgcc-current
     SUBDIR += python
     SUBDIR += rexx-imc
+    SUBDIR += ruby
     SUBDIR += scheme48
     SUBDIR += schemetoc
     SUBDIR += scm
