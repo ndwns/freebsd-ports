@@ -12,9 +12,9 @@ MASTER_SITES=	ftp://ftp.home-of-linux.org/pub/libgtop/0.26.2/
 
 MAINTAINER=	Nakai@technologist.com
 
-LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
+LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib \
+		gnome.0:${PORTSDIR}/x11/gnomelibs
 
-BROKEN=		build
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
