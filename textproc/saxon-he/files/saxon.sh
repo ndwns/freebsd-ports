@@ -3,4 +3,4 @@
 # $FreeBSD$
 
 export CLASSPATH=`%%PREFIX%%/bin/classpath`
-javavm -jar %%JAVAJARDIR%%/saxon8.jar $@
+JAVAVM=%%JAVAVM%% javavm -jar %%JAVAJARDIR%%/saxon8.jar $@
