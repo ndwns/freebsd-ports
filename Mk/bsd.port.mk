@@ -2027,12 +2027,14 @@ generate-plist:
 .endif
 .endfor
 	@${SED} ${_sedsubplist} ${PLIST} >> ${TMPPLIST}
+.if !defined(NO_FILTER_SHLIBS)
 .if (${PORTOBJFORMAT} == "aout")
 	@${SED} -e 's,\(/lib.*\.so\.[0-9]*\)$$,\1.0,' ${TMPPLIST} > ${TMPPLIST}.tmp
 .else
 	@${SED} -e 's,\(/lib.*\.so\.[0-9]*\)\.[0-9]*$$,\1,' ${TMPPLIST} > ${TMPPLIST}.tmp
 .endif
 	@${MV} -f ${TMPPLIST}.tmp ${TMPPLIST}
+.endif
 .endif
 
 ${TMPPLIST}:
