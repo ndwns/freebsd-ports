@@ -47,6 +47,9 @@ post-install:
 	 )
 .endif
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libtcl80jp.so.1.2 ${PREFIX}/lib/libtcl80jp.so; \
+	fi
 	@${CAT}	${PKGDIR}/MESSAGE
 
 test:
