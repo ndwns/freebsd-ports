@@ -25,7 +25,7 @@ REQUIRES_MOTIF=	yes
 MAN1=		ddd.1
 
 post-configure:
-	echo "LIBXM = ${MOTIFLIB}" >> ${WRKSRC}/ddd/Makefile
+	${ECHO} "LIBXM = ${MOTIFLIB}" >> ${WRKSRC}/ddd/Makefile
 
 post-install:
 .if !defined(NOPORTDOCS)
