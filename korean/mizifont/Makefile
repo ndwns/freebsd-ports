@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.rpm
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+BROKEN_ELF=	depends on rpm
+
 BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
 
 NO_CDROM=	"Not a free software, but redistributable on FreeBSD mirrors"
