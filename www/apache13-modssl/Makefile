@@ -41,10 +41,10 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 
 MAINTAINER=	rse@engelschall.com
 
-BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl \
+BUILD_DEPENDS=	openssl:${PORTSDIR}/security/openssl \
 		${PREFIX}/lib/libssl.a:${PORTSDIR}/security/openssl \
 		${PREFIX}/lib/libcrypto.a:${PORTSDIR}/security/openssl
-RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
+RUN_DEPENDS=	openssl:${PORTSDIR}/security/openssl
 
 VERSION_APACHE=	1.3.6
 VERSION_MODSSL=	2.2.6
