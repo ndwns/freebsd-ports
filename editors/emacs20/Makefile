@@ -19,6 +19,12 @@ MAKE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 MAN1=		emacs.1 etags.1 ctags.1
 PLIST_SUB=	EMACS_VER=20.3
 
+.if defined(USE_XPGLIB)
+.if (${USE_XPGLIB} == "YES")
+CONFIGURE_ARGS+=	--with-xpg4
+.endif
+.endif
+
 pre-build:
 	${RM} -rf ${WRKSRC}/info/*
 
