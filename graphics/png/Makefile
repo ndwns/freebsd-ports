@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 
 MAINTAINER=     ache@FreeBSD.org
 
-MAN3=           libpng.3 libpngpf.3
+MAN3=           libpng.2 libpngpf.3
 MAN5=           png.5
 
 do-configure:
