@@ -23,6 +23,7 @@
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
+    SUBDIR += xemacs20
     SUBDIR += xvile
 
 .include <bsd.port.subdir.mk>
