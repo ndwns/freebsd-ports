@@ -17,7 +17,7 @@ MAINTAINER=	jmz@FreeBSD.org
 USE_IMAKE=	yes
 MAKE_FLAGS=	PREFIX=${PREFIX} -f
 
-do-install:
+post-install:
 	@chown games ${PREFIX}/bin/jetpack
 	@chmod u+s ${PREFIX}/bin/jetpack
 	@chown games ${PREFIX}/lib/X11/jetpack
