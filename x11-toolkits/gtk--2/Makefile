@@ -31,9 +31,9 @@ USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-static=yes \
 		--without-gnome
-CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" CC="${CC}" CXX="${CXX}"
 
-MAN3=  G_IntList.3 G_IntList_Iterator.3 G_List.3 G_List_Cpp_Iterator.3 \
+MAN3=	G_IntList.3 G_IntList_Iterator.3 G_List.3 G_List_Cpp_Iterator.3 \
 	G_List_Iterator.3 G_SList_Iterator.3 GtkBase.3 GtkBaseClass.3 \
 	Gtk_AccelEntry.3 Gtk_AccelGroup.3 Gtk_AccelLabel.3 Gtk_Adjustment.3 \
 	Gtk_Alignment.3 Gtk_ArgBase.3 Gtk_ArgObject.3 Gtk_ArgSimple.3 \
@@ -67,5 +67,8 @@ MAN3=  G_IntList.3 G_IntList_Iterator.3 G_List.3 G_List_Cpp_Iterator.3 \
 	MenuFactoryConnector.3 MenuFactoryConnectorBase.3 \
 	ToolbarConnector.3 ToolbarConnectorBase.3 Toolbar_Child.3 \
 	_gtk_string.3 gtkmm_add_signal_class.3
+
+post-install:
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.post.mk>
