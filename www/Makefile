@@ -53,6 +53,7 @@
     SUBDIR += netscape4-communicator.us
     SUBDIR += netscape4-navigator
     SUBDIR += netscape45-communicator
+    SUBDIR += netscape45-communicator.us
     SUBDIR += netscape45-navigator
     SUBDIR += p5-Apache
     SUBDIR += p5-CGI
