@@ -13,6 +13,7 @@
     SUBDIR += antipolix
     SUBDIR += awele
     SUBDIR += battalion
+    SUBDIR += battleball
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
