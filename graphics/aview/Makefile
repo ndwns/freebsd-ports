@@ -1,12 +1,12 @@
 # New ports collection Makefile for: aview
-# Version required:     1.1
+# Version required:     1.2
 # Date created:         Dec 18 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
 # $Id$
 #
 
-DISTNAME=       aview-1.1
+DISTNAME=       aview-1.2
 CATEGORIES=     graphics x11
 MASTER_SITES=   ftp://ftp.ta.jcu.cz/pub/aa/
 
