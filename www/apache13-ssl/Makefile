@@ -50,7 +50,7 @@ DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} \
 MAINTAINER=     adam@algroup.co.uk
 
 
-RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
+RUN_DEPENDS=	openssl:${PORTSDIR}/security/openssl
 
 EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
@@ -60,8 +60,9 @@ RESTRICTED=     "Contains cryptography"
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
 #
 
-GNU_CONFIGURE=  yes
+HAS_CONFIGURE=  yes
 CONFIGURE_ARGS= \
+		--prefix=${PREFIX} \
 		--sysconfdir=${PREFIX}/etc/apache \
 		--includedir=${PREFIX}/include/apache \
 		--logfiledir=/var/log \
@@ -106,14 +107,14 @@ post-extract:
 	@cd ${WRKSRC} && tar xzf ${DISTDIR}/apache_${APACHE}+ssl_${APACHE-SSL}${EXTRACT_SUFX}
 
 post-patch:
-	@cd ${WRKSRC} && ./FixPatch
+	@cd ${WRKSRC} && ./FixPatch ${PREFIX}
 
 certificate:
-	@if [ -f ${PREFIX}/etc/ssleay.cnf ]; then \
+	@if [ -f ${PREFIX}/lib/openssl.cnf ]; then \
 		cd ${WRKSRC}; ${MAKE} ${MAKE_ENV} $@; \
 		${CP} ${WRKSRC}/SSLconf/conf/httpsd.pem ${PREFIX}/certs/cert.pem; \
 	else \
-		${ECHO} "You must create the file ${PREFIX}/etc/ssleay.cnf first."; \
+		${ECHO} "You must create the file ${PREFIX}/lib/openssl.cnf first."; \
 	fi
 
 .include <bsd.port.mk>
