@@ -8,14 +8,13 @@
 
 DISTNAME=	freeciv-1.7.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/ \
+		ftp://ftp.pvv.ntnu.no/pub/freeciv/ \
+		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
 MAINTAINER=	ada@bsd.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
-
-BROKEN='no route to the *single* mastersite'
 
 USE_BZIP2=	yes
 GNU_CONFIGURE=	yes
