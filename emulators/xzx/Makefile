@@ -17,5 +17,6 @@ MAINTAINER=	axl@iafrica.com
 
 USE_IMAKE=	yes
 MAN1=		xzx.1
+MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
