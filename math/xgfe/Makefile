@@ -10,7 +10,7 @@ DISTNAME=	xgfe-1.3
 CATEGORIES=	math
 MASTER_SITES=	http://www2.msstate.edu/~dmi1/xgfe/download/
 
-MAINTAINER=	mph@pobox.com
+MAINTAINER=	mph@freebsd.org
 
 LIB_DEPENDS=	qt\\.1\\.3:${PORTSDIR}/x11/qt
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
