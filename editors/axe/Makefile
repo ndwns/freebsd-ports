@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	aXe-6.1.2
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/editors/
 EXTRACT_SUFX=	.tar.Z
 

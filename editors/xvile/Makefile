@@ -8,8 +8,10 @@
 
 DISTNAME=       vile-6.1
 PKGNAME=	xvile-6.1
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
+
+MAINTAINER=	ports@FreeBSD.org
 
 MAKEFILE=	makefile
 GNU_CONFIGURE=	yes

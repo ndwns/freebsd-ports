@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xcoral-2.5
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://public.x.org/contrib/editors/
 
 MAINTAINER=	erich@FreeBSD.ORG

@@ -8,12 +8,14 @@
 
 DISTNAME=	uzap
 PKGNAME=	uzap-1.0
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.germany.eu.net/pub/utils/uzap/
 
-WRKSRC=		${WRKDIR}
+MAINTAINER=	joerg@FreeBSD.org
 
 # restrictive Copyright; the author is no longer reachable, however :-(
 RESTRICTED=	"Restrictive copyright."
+
+WRKSRC=		${WRKDIR}
 
 .include <bsd.port.mk>

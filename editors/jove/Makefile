@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	jove-4.16
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
 
 MAINTAINER=	erich@FreeBSD.ORG

@@ -8,7 +8,7 @@
 
 DISTNAME=	uemacs
 PKGNAME=	uemacs-3.12
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://midas.mgmt.purdue.edu/dist/uemacs312/
 DISTFILES=	ue312dev.zip
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	emacs-19.34
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 GNU_CONFIGURE=	yes

@@ -8,7 +8,7 @@
 
 DISTNAME=	xed1.3
 PKGNAME=	xed-1.3
-CATEGORIES+=	editors x11
+CATEGORIES=	editors x11
 MASTER_SITES=	ftp://ftp.x.org/contrib/editors/
 EXTRACT_SUFX=	.tar.Z
 

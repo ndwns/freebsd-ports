@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mule-2.3
-CATEGORIES+=	editors
+CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.cs.buffalo.edu/pub/mule/ \
 		ftp://etlport.etl.go.jp/pub/mule/ \
 		ftp://sh.wide.ad.jp/JAPAN/mule/ \
