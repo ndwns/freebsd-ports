@@ -8,7 +8,7 @@
 
 DISTNAME=       ncftp-2.4.2
 CATEGORIES=	net
-MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
+MASTER_SITES=   ftp://ftp.ncftp.com/ncftp/
 
 MAINTAINER=	ache@FreeBSD.ORG
 

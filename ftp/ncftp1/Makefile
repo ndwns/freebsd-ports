@@ -8,7 +8,7 @@
 
 DISTNAME=       ncftp-1.9.5
 CATEGORIES=	net
-MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
+MASTER_SITES=   ftp://ftp.ncftp.com/ncftp/
 
 MAINTAINER=	obrien@FreeBSD.org
 

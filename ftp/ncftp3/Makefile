@@ -10,7 +10,7 @@
 DISTNAME=	ncftp-3.0beta7-src
 PKGNAME=	ncftp-3.0b7
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.probe.net/pub/ncftp/3.0BETA/
+MASTER_SITES=	ftp://ftp.ncftp.com/ncftp/3.0BETA/
 
 MAINTAINER=	obrien@FreeBSD.ORG
 
