@@ -9,7 +9,7 @@
 
 DISTNAME=       speak_freely-6.1c
 CATEGORIES=     mbone audio security
-MASTER_SITES=   http://www.fourmilab.ch/speakfree/unix/
+MASTER_SITES=   http://www.fourmilab.ch/speakfree/unix/prior-releases/6.1/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
