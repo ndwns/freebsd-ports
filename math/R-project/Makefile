@@ -25,6 +25,7 @@ MAINTAINER=	maurice@serc.rmit.edu.au
 BROKEN=		package
 
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 USE_PERL5=	yes
 
 CONFIGURE_ENV=		R_PAPERSIZE=${PAPERSIZE}
