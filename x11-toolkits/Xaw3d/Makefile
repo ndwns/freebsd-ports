@@ -22,6 +22,13 @@ post-extract:
 	${MKDIR} ${WRKSRC}/X11/Xaw3d
 	cd ${WRKSRC}/X11/Xaw3d; ln -sf ../../*.h .
 
+# Workaround a bug in egcs on FreeBSD/Alpha.
+.if ${MACHINE_ARCH} == "alpha"
+post-configure:
+	@(cd ${WRKSRC}; ${MV} Makefile Makefile.orig; ${SED} -e \
+	  's/CDEBUGFLAGS = -O/CDEBUGFLAGS =/g' Makefile.orig > Makefile)
+.endif
+
 post-install:
 .if ${PORTOBJFORMAT} == "aout"
 	${LN} -sf libXaw3d.so.6.1 ${PREFIX}/lib/libXaw3d.so
