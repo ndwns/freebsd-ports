@@ -13,7 +13,6 @@ MASTER_SITES=   ftp://ftp.wsct.wsc.com/pub/freeWAIS-sf/freeWAIS-sf-2.1/
 
 MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
-IS_INTERACTIVE= yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+= < ${FILESDIR}/configure.ans
 MAN1=	catalog.1 dictionary.1 inverted_file.1 makedb.1 mkfmt.1 waisindex.1 \
