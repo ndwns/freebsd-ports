@@ -10,7 +10,7 @@ DISTNAME=	hfsutils-2.0
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.ps.ucl.ac.uk/pub/mkhfs/
 
-MAINTAINER=	vanilla@@FreeBSD.ORG
+MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
 
