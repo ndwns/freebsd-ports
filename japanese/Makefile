@@ -119,6 +119,7 @@
     SUBDIR += platex209-euc
     SUBDIR += platex209-jis
     SUBDIR += platex209-sjis
+    SUBDIR += play
     SUBDIR += prn
     SUBDIR += ptex-common
     SUBDIR += ptex-euc
