@@ -8,8 +8,7 @@
 
 DISTNAME=	slirp-1.0c
 CATEGORIES=	net
-MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/ \
-		ftp://freedom.wit.com/misc4/danjo/SLiRP/
+MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/
 
 MAINTAINER=	A.C.P.M.Kalker@student.utwente.nl
 
