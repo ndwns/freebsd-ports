@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	lyx-1.0.0
+DISTNAME=	lyx-1.0.1
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.lyx.org/pub/lyx/stable/ \
 		ftp://la1ad.uio.no/pub/lyx/ \
@@ -26,6 +26,7 @@ LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 # depends on xforms
 ONLY_FOR_ARCHS=	i386
 
+USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 STRIP=
