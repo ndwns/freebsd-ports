@@ -18,6 +18,7 @@
     SUBDIR += hmconv
     SUBDIR += hpscat
     SUBDIR += johabfonts
+    SUBDIR += kaistfonts
     SUBDIR += linuxdoc-sgml
     SUBDIR += mule-wnn4
     SUBDIR += netscape3
