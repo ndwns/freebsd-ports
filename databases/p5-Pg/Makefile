@@ -16,8 +16,6 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	${PREFIX}/pgsql/lib/libpq.a:${PORTSDIR}/databases/postgresql
 
-BROKEN_ELF=     depends on postgresql
-
 USE_PERL5=	YES
 
 MAN3=		Pg.3
