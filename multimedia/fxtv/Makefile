@@ -17,6 +17,8 @@ LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff34 \
 		Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d    \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
+NOT_FOR_ARCHS=	alpha
+
 # This program does not actually require the programs below, but they are 
 # needed if you use digital video recording and playback.
 #RUN_DEPENDS=	sox:${PORTSDIR}/audio/sox \

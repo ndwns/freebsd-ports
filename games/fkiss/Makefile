@@ -15,6 +15,8 @@ MAINTAINER=	flathill@FreeBSD.ORG
 
 RUN_DEPENDS=	lha:${PORTSDIR}/archivers/lha
 
+NOT_FOR_ARCHS=	alpha
+
 WRKSRC=		${WRKDIR}/fkiss
 USE_IMAKE=	yes
 MAN1=		fkiss.1
