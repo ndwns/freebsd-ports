@@ -46,6 +46,7 @@
     SUBDIR += rdist6
     SUBDIR += rmsg
     SUBDIR += rsync
+    SUBDIR += rwhois
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += slirp
