@@ -27,13 +27,13 @@ PREBUILD_COOKIE=	${.CURDIR}/work/.prebuild_done
 
 pre-fetch:
 	@if [ ! -d ${DISTDIR} ]; then mkdir -p ${DISTDIR}; fi
-	@for file in ${PATCHFILES}; do \
-		if [ ! -f ${DISTDIR}/$$file ]; then \
+	@(cd ${DISTDIR}; \
+	 for file in ${PATCHFILES}; do \
+		if [ ! -f $$file ]; then \
 			echo ">> Fetching patch $$file from remote site...";  \
-			${NCFTP} ${NCFTPFLAGS} ${PATCHSITE}$$file \
-				&& mv $$file ${DISTDIR}; \
+			${NCFTP} ${NCFTPFLAGS} ${PATCHSITE}$$file; \
 	    	fi \
-	 done
+	 done)
 
 pre-patch:	${PREPATCH_COOKIE}
 
