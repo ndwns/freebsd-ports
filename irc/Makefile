@@ -17,6 +17,7 @@
     SUBDIR += olirc
     SUBDIR += quirc
     SUBDIR += roxirc
+    SUBDIR += scrollz
     SUBDIR += sic
     SUBDIR += sirc
     SUBDIR += tkirc
