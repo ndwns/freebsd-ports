@@ -1,4 +1,5 @@
 # New ports collection makefile for:    xrobots
+# Version required:	?
 # Date created:         2 Jan 1995
 # Whom:                 swallace
 #
@@ -6,8 +7,9 @@
 #
 
 DISTNAME=       xrobots
-MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/games/
 CATEGORIES+=	games
+MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/games/
+
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>

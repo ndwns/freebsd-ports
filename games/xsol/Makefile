@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       xsol-new
-MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
+PKGNAME=	xsol-2.1.1
 CATEGORIES+=	games
+MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
+
 USE_IMAKE=      yes
 
 .include <bsd.port.mk>

@@ -7,13 +7,15 @@
 #
 
 DISTNAME=	nethack3.1.3
-EXTRACT_SUFX=	.tar.Z
-MASTER_SITES=	ftp://ftp.uu.net/usenet/comp.sources.games/
+PKGNAME=	nethack-3.1.3
 CATEGORIES+=	games
+MASTER_SITES=	ftp://ftp.uu.net/usenet/comp.sources.games/
+EXTRACT_SUFX=	.tar.Z
+
 MAINTAINER=	asami@FreeBSD.ORG
+
 WRKSRC=		${WRKDIR}/nethack313
 USE_GMAKE=	yes
-PKGNAME=	nethack-3.1.3
 SHELL=		/bin/sh
 
 pre-configure:

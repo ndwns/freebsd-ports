@@ -7,12 +7,14 @@
 #
 
 DISTNAME=       xlife
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
-CATEGORIES+=	games
-MAINTAINER=	asami@FreeBSD.ORG
-EXTRACT_SUFX=	.tar.Z
-USE_IMAKE=      yes
 PKGNAME=	xlife-3.0
+CATEGORIES+=	games
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11/R5-contrib/
+EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	asami@FreeBSD.ORG
+
+USE_IMAKE=      yes
 
 pre-install:
 	@(cd ${WRKSRC}; make install.patterns)

@@ -1,5 +1,5 @@
-# New ports collection makefile for:	acm(6)
-# Version required:	comp.sources.x/volume12
+# New ports collection makefile for:	acm
+# Version required:	comp.sources.x/volume12 (ver 2.0)
 # Date created:		5 March 1995
 # Whom:			joerg
 #
@@ -7,12 +7,14 @@
 #
 
 DISTNAME=	acm
+PKGNAME=	acm-2.0
+CATEGORIES+=	games
+MASTER_SITES=	ftp://ftp.informatik.tu-muenchen.de/pub/comp/usenet/comp.sources.x/acm/ \
+		ftp://ftp.physik.tu-muenchen.de/pub/comp/usenet/comp.sources.x/acm/
+
+MAINTAINER=	joerg@FreeBSD.org
+
 WRKSRC=		${WRKDIR}/acm
 USE_IMAKE=	yes
-MASTER_SITES=	ftp://ftp.informatik.tu-muenchen.de/pub/comp/usenet/comp.sources.x/acm/
-MASTER_SITES+=	ftp://ftp.physik.tu-muenchen.de/pub/comp/usenet/comp.sources.x/acm/
-MAINTAINER=	joerg@FreeBSD.org
-CATEGORIES+=	games
-
 
 .include <bsd.port.mk>

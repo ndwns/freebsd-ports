@@ -7,10 +7,12 @@
 #
 
 DISTNAME=       xmille
-MASTER_SITES=	ftp://gatekeeper.dec.com/.b/X11-contrib/
+PKGNAME=	2.0
 CATEGORIES+=	games
-USE_IMAKE=      yes
+MASTER_SITES=	ftp://gatekeeper.dec.com/.b/X11-contrib/
 EXTRACT_SUFX=   .tar.Z
+
+USE_IMAKE=      yes
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
