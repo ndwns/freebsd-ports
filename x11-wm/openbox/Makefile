@@ -1,12 +1,12 @@
 # New ports collection makefile for:	Blackbox
-# Version required:	0.51.0
+# Version required:	0.51.1
 # Date created:		June 15, 1998
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	blackbox-0.51.0
+DISTNAME=	blackbox-0.51.1
 CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://balance.wiw.org/pub/blackbox/ \
 		ftp://ftp.digex.net/pub/X11/window-managers/blackbox/ \
