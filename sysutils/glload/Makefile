@@ -12,6 +12,8 @@ MASTER_SITES=	http://student.ex.ba-heidenheim.de/gload/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
+BROKEN= 'the single MASTER_SITE gives: "Alert!: HTTP/1.1 404 File Not Found"'
+
 LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
 
 USE_X_PREFIX=	yes
