@@ -29,6 +29,6 @@ post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
 
 pre-clean:
-	@${RM} -f ${PKGDIR}/MESSAGE
+	@-${RM} -f ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
