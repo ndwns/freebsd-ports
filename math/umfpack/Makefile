@@ -10,6 +10,7 @@ DISTNAME=	umfpack2.2
 PKGNAME=	umfpack-2.2
 CATEGORIES=	math
 MASTER_SITES=	http://netlib.bell-labs.com/netlib/linalg/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.org
 
