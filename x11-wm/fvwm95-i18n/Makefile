@@ -15,7 +15,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	andreas@klemm.gtn.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-BUILD_DEPENDS=	/usr/local/lib/librplay.a:${PORTSDIR}/audio/rplay
+BUILD_DEPENDS=	${LOCALBASE}/lib/librplay.a:${PORTSDIR}/audio/rplay
+RUN_DEPENDS=	${X11BASE}/icons/chuck.xpm:${PORTSDIR}/x11/fbsd-icons
 
 USE_X11=	yes
 GNU_CONFIGURE=	yes
@@ -26,7 +27,6 @@ MAN1=		fvwm95.1
 
 post-install:
 		@${INSTALL_MAN}	$(WRKSRC)/fvwm/fvwm95.man \
-				$(PREFIX)/man/man1/fvwm95.1
-		(cd ${PREFIX}/icons; tar xzf ${FILESDIR}/fbsd-icons.tar.gz)
+			$(PREFIX)/man/man1/fvwm95.1
 
 .include <bsd.port.mk>
