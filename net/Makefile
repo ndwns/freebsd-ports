@@ -46,6 +46,7 @@
     SUBDIR += socks5
     SUBDIR += strobe
     SUBDIR += sup
+    SUBDIR += tcptrace
     SUBDIR += telnetx
     SUBDIR += tintin++
     SUBDIR += tinyfugue
