@@ -34,6 +34,8 @@ post-patch:
 
 .if defined(SECURE_SERVER)
 
+BROKEN=		"SSLeay has changed, and the patches for apache need more work"
+MAINTAINER=	markm@freebsd.org
 PKGNAME=        apache_SSL-1.1.1
 MAIN_SRC=	${DISTNAME}${EXTRACT_SUFX}
 SSL_EXTRAS=	${DISTNAME}+1.3.ssl${EXTRACT_SUFX}
