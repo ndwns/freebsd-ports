@@ -1,5 +1,5 @@
 # New ports collection makefile for:	lesstif
-# Version required:	0.78
+# Version required:	0.79
 # Date created:		December 10, 1996
 # Whom:			1wardd@airmail.net
 #
