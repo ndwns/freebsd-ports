@@ -36,7 +36,7 @@
     SUBDIR += isc-dhcp
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
-#   SUBDIR += kdenetwork
+    SUBDIR += kdenetwork
     SUBDIR += kirc
     SUBDIR += ldap
     SUBDIR += lftp
