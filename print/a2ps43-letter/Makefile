@@ -12,7 +12,7 @@ CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.imag.fr/archive/postscript/format.translators/
 DISTFILES=	a2ps.V4.3.tar.gz
 
-MAINTAINER=	jmz@FreeBSD.org
+MAINTAINER=	obrien@FreeBSD.org
 
 MAKE_FLAGS?=	WIDTH=${WIDTH} HEIGHT=${HEIGHT} A4_PAPERSIZE=${A4_PAPERSIZE} -f
 NO_WRKSUBDIR=	yes
