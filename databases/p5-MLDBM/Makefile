@@ -1,20 +1,22 @@
 # New ports collection makefile for:    p5-MLDBM
-# Version required:                     1.25
+# Version required:                     2.00
 # Date created:                         December 3 1997
 # Whom:                                 ache@freebsd.org
 #
 # $Id$
 #
 
-DISTNAME=       MLDBM-1.25
-PKGNAME=        p5-MLDBM-1.25
+DISTNAME=       MLDBM-2.00
+PKGNAME=        p5-MLDBM-2.00
 CATEGORIES=	databases perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     MLDBM
 
 MAINTAINER=     ports@FreeBSD.ORG
 
-BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Data/Dumper.pm:${PORTSDIR}/devel/p5-Data-Dumper
+BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Data/Dumper.pm:${PORTSDIR}/devel/p5-Data-Dumper \
+		${PREFIX}/lib/perl5/site_perl/FreezeThaw.pm:${PORTSDIR}/devel/p5-FreezeThaw \
+		${PREFIX}/lib/perl5/site_perl/Storable.pm:${PORTSDIR}/devel/p5-Storable
 
 USE_PERL5=	YES
 
