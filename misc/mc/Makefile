@@ -13,6 +13,11 @@ MASTER_SITE_SUBDIR=	utils/file/managers/mc
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+VERSION!=	sysctl -n kern.osreldate
+.if ${VERSION} < 300000
+BROKEN=		mountlist.c
+.endif
+
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-ncurses --without-edit --with-dusum --disable-nls
 CONFIGURE_ENV=	CCOPTS="$(CFLAGS)" INSTALL="$${INSTALL} -c"
