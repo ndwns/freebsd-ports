@@ -45,6 +45,7 @@
     SUBDIR += s3mod
     SUBDIR += shorten
     SUBDIR += sidplay
+    SUBDIR += snowstar
     SUBDIR += sox
     SUBDIR += splay
     SUBDIR += splaytk
