@@ -45,19 +45,21 @@ post-extract:
 post-install:
 	@${MKDIR} ${PREFIX}/share/inform
 	@(cd ${PREFIX}/share/inform && \
-		unzip -qq ${DISTDIR}/${DIST_SUBDIR}/inform_library69.zip)
+		unzip -qq -o ${DISTDIR}/${DIST_SUBDIR}/inform_library69.zip)
 .for file in English Grammar Parser Verblib infix linklpa linklv parserm \
 		verblibm
 	@${MV} ${PREFIX}/share/inform/${file} ${PREFIX}/share/inform/${file}.h
 	@ chmod ${SHAREMODE} ${PREFIX}/share/inform/${file}.h
 	@ chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/inform/${file}.h
 .endfor
-	@${LN} -s Verblib.h ${PREFIX}/share/inform/VerbLib.h
+	@${LN} -fs Verblib.h ${PREFIX}/share/inform/VerbLib.h
 	@ chown ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/inform/VerbLib.h
 .if !defined(NOPORTDOCS)
-	@ (umask 222 && unzip -qq -d ${PREFIX}/share/doc \
+	@ (umask 222 && unzip -qq -o -d ${PREFIX}/share/doc \
 		${DISTDIR}/${DIST_SUBDIR}/designers_manual_html.zip)
-	@${MV} ${PREFIX}/share/doc/dman ${PREFIX}/share/doc/inform
+	@${MKDIR} ${PREFIX}/share/doc/inform
+	@${MV} ${PREFIX}/share/doc/dman/* ${PREFIX}/share/doc/inform
+	@${RMDIR} ${PREFIX}/share/doc/dman
 	@ chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/doc/inform
 .endif
 
