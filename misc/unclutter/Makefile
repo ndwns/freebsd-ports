@@ -6,9 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	unclutter
-EXTRACT_SUFX=	-8.tar.gz
-PKGNAME=	unclutter-8
+DISTNAME=	unclutter-8
 MASTER_SITES=	ftp://ftp.cs.umn.edu/packages/X11/contrib/utilities/ \
 		ftp://csg.uwaterloo.ca/pub/lhf/net/ \
 		ftp://ftp.univ-angers.fr/pub2/X11/contrib/utilities/ \
@@ -19,6 +17,7 @@ CATEGORIES+=	misc
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
+WRKSRC=		$(WRKDIR)/unclutter
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>
