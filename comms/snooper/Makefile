@@ -1,4 +1,5 @@
 # New ports collection makefile for:	snooper
+# Version required:	980813
 # Date created:		4 May 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
