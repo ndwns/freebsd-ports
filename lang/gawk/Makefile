@@ -11,6 +11,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+MANUAL_PACKAGE_BUILD=	confuses zsh
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--program-prefix=g --enable-bitops --enable-non-decimal-data
 
