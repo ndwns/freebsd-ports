@@ -30,6 +30,7 @@
     SUBDIR += siag
     SUBDIR += simpack
     SUBDIR += ss
+    SUBDIR += superlu
     SUBDIR += umatrix
     SUBDIR += umfpack
     SUBDIR += wingz
