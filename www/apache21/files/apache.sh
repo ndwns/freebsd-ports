@@ -49,7 +49,7 @@ checkyesno apache21ssl_enable && \
 apache21_checkconfig()
 {
 	echo "Performing sanity check on apache21 configuration:"
-	${command} -t
+	${command} ${apache21_flags} -t
 }
 
 apache21_precmd() 
