@@ -9,6 +9,4 @@
 RESOLUTION=	240
 MASTERDIR=	${.CURDIR}/../pkfonts300
 
-BROKEN= 'fetch'
-
 .include	"${MASTERDIR}/Makefile"
