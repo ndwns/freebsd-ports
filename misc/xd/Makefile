@@ -13,4 +13,7 @@ MASTER_SITES=	http://spock.vector.co.jp/authors/VA004959/xd/
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
+MAN1=		xd.1
+MANCOMPRESSED=	maybe
+
 .include <bsd.port.mk>
