@@ -34,8 +34,13 @@ pre-build:
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+.if exists(${PKGDIR}/INSTALL.wish)
+	${SH} ${PKGDIR}/INSTALL.wish
+.endif
 
 test:
 	cd ${WRKSRC}; make test
 
 .include <bsd.port.mk>
+
+PKG_ARGS+=	-i ${PKGDIR}/INSTALL.wish

@@ -29,5 +29,10 @@ post-install:
 	$(INSTALL_MAN) $(WRKSRC)/../doc/Memory.n $(PREFIX)/man/mann
 	$(INSTALL_MAN) $(WRKSRC)/../doc/TclX.n $(PREFIX)/man/mann
 	${LDCONFIG} -m ${PREFIX}/lib
+.if exists(${PORTSDIR}/x11/tk80/pkg/INSTALL.wish)
+	${SH} ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
+.endif
 
 .include <bsd.port.mk>
+
+PKG_ARGS+=      -i ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
