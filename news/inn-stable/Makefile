@@ -21,6 +21,9 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 NO_PACKAGE=	yes
 NO_WRKSUBDIR=	yes
 
+pre-configure:
+	echo "${CFLAGS}" >/tmp/build-ports-news-inn-cflags
+
 pre-install:
 	mkdir -p ${PREFIX}/news
 
