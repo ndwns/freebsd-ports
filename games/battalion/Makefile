@@ -13,8 +13,8 @@ DISTFILES=	battalionSource1.4.tar.Z battalionSUN4.tar.gz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa \
-		MesaGLU\\.13\\.:${PORTSDIR}/graphics/Mesa
+LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa2 \
+		MesaGLU\\.13\\.:${PORTSDIR}/graphics/Mesa2
 
 ALL_TARGET=
 USE_X11=	yes
