@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.alphaworks.ibm.com/tech/xml4j/
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/lang/jfc
+RUN_DEPENDS=	${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/java/jfc
 
 RESTRICTED=	"License prohibites distribute."
 NO_BUILD=	YES

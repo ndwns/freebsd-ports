@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/lang/jdk
+RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/java/jdk
 
 EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -q -L

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.boutell.com/pub/boutell/mapedit/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	${PREFIX}/java/bin/java:${PORTSDIR}/lang/jdk
+RUN_DEPENDS=	${PREFIX}/java/bin/java:${PORTSDIR}/java/jdk
 
 NO_BUILD=	yes
 
