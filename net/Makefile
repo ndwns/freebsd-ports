@@ -74,7 +74,6 @@
     SUBDIR += wget
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
-    SUBDIR += xgopher
     SUBDIR += xipmsg
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
