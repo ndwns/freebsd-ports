@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cvsup-13.3
+DISTNAME=	cvsup-13.4
 CATEGORIES+=	net
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
 
