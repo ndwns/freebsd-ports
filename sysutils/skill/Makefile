@@ -1,13 +1,13 @@
 # New ports collection makefile for:    skill
-# Version required:     3.7.6
+# Version required:     3.7.7
 # Date created:         20 Oct 1998
 # Whom:                 Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
 # $Id$
 #
 
-DISTNAME=	skill-3.7@P5
-PKGNAME=	skill-3.7.6
+DISTNAME=	skill-3.7@P6
+PKGNAME=	skill-3.7.7
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://fast.cs.utah.edu/pub/skill/
 EXTRACT_SUFX=	_tar.Z
