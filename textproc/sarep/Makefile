@@ -1,6 +1,8 @@
 # Ports collection makefile for:  sar
 # http://tarp.linuxos.org/software/
 # Version required:               0.2
+# Date created:                   Feb 18, 1999
+# Whom:                           ache
 #
 # $Id$
 #
