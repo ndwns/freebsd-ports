@@ -1,13 +1,13 @@
 # New ports collection makefile for: lout
-# Version required:  3.08
+# Version required:  3.10
 # Date created:      10/22/96
 # Whom:              oly@world.std.com
 #
 # $Id$
 #
 
-DISTNAME=	lout.3.08
-PKGNAME=	lout-3.08
+DISTNAME=	lout.3.10
+PKGNAME=	lout-3.10
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN}  \
 		ftp://ftp.cs.usyd.edu.au/jeff/lout/
@@ -23,7 +23,6 @@ INSTALL_TARGET=	install installman installdoc
 MAN1=		c2lout.1 lout.1
 
 post-install:
-	strip $(PREFIX)/bin/lout
-	strip $(PREFIX)/bin/c2lout
+	strip ${PREFIX}/bin/lout ${PREFIX}/bin/c2lout
 
 .include <bsd.port.mk>
