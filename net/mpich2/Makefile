@@ -14,10 +14,6 @@ MAINTAINER=	dbader@eece.unm.edu
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
-BROKEN=         MOUNT_NFS undeclared
-.endif
-
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--cflags="$(CFLAGS)"
 WRKSRC=		${WRKDIR}/mpich
