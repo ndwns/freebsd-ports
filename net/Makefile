@@ -101,7 +101,6 @@
     SUBDIR += sirc
     SUBDIR += slirp
     SUBDIR += smbtcpdump
-    SUBDIR += smurflog
     SUBDIR += sniffit
     SUBDIR += socks5
     SUBDIR += spegla

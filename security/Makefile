@@ -25,8 +25,9 @@
     SUBDIR += pgp5
     SUBDIR += pidentd
     SUBDIR += rsaref
-    SUBDIR += ssh
     SUBDIR += skip
+    SUBDIR += smurflog
+    SUBDIR += ssh
     SUBDIR += sudo
     SUBDIR += super
     SUBDIR += swatch
