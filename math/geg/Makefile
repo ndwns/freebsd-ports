@@ -10,7 +10,7 @@ DISTNAME=	geg-0.99.0
 CATEGORIES=	math
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Park/2030/
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	domi@saargate.de
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
