@@ -15,7 +15,7 @@ EXTRACT_SUFX=   -src.tgz
 MAINTAINER=	andreas@klemm.gtn.com
 
 BUILD_DEPENDS=	${PREFIX}/sbin/httpd:${PORTSDIR}/www/apache
-RUN_DEPENDS=	lyx:${PORTSDIR}/print/lyx
+RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape3
 
 post-configure:
 	( cd ${WRKSRC}/doc; /bin/sh bbconfig freebsd )
