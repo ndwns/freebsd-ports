@@ -10,7 +10,6 @@ DISTNAME=	rad0919
 PKGNAME=	ascend-radius-960919
 CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.ascend.com/pub/Software-Releases/Radius/Current/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
