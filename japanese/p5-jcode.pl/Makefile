@@ -17,8 +17,12 @@ RUN_DEPENDS=	${PREFIX}/lib/perl/jcode.pl:${PORTSDIR}/japanese/jcode.pl
 NO_BUILD=	YES
 USE_PERL5=	YES
 
+INSTALL_DIR=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}
+
+.SILENT:
+
 do-install:
-	@${MKDIR} ${PREFIX}/lib/perl5/site_perl
-	@${LN} -sf ../../perl/jcode.pl ${PREFIX}/lib/perl5/site_perl
+	${MKDIR} ${INSTALL_DIR}
+	${LN} -sf ../../../perl/jcode.pl ${INSTALL_DIR}
 
 .include <bsd.port.mk>
