@@ -9,7 +9,8 @@
 DISTNAME=	zebra-980401
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
-CFLAGS+=	-g
+# you might need debugging, it's a developer release !
+#CFLAGS+=	-g
 
 MAINTAINER=	andreas@FreeBSD.org
 
