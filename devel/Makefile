@@ -23,6 +23,7 @@
     SUBDIR += crossm68k
     SUBDIR += crosssco
     SUBDIR += cs
+    SUBDIR += cssc
     SUBDIR += cutils
     SUBDIR += cvslines
     SUBDIR += cweb
