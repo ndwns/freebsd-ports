@@ -12,14 +12,14 @@ CATEGORIES=		misc
 MASTER_SITES=		ftp://ftp.uu.net/usenet/comp.sources.unix/volume8/
 EXTRACT_SUFX=
 
+PATCH_SITES=		${MASTER_SITES}
+PATCHFILES=		display.pch.Z
+
 MAINTAINER=		ports@FreeBSD.ORG
 
-PATCHFILES=		display.pch.Z
-PATCH_SITES=		${MASTER_SITES}
+BUILD_DEPENDS=		gunshar:${PORTSDIR}/archivers/gshar+gunshar
 
 NO_WRKSUBDIR=		yes
-
-BUILD_DEPENDS=		gunshar:${PORTSDIR}/archivers/gshar+gunshar
 EXTRACT_CMD=		gunshar
 EXTRACT_BEFORE_ARGS=
 
