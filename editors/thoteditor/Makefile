@@ -31,4 +31,7 @@ ALL_TARGET=	all schemas
 post-extract:
 	($(EXTRACT_CMD) $(EXTRACT_BEFORE_ARGS) $(DISTDIR)/thoteditor-src-2.1b.tar.gz -C $(WRKSRC))
 
+post-install:
+	${MKDIR} ${PREFIX}/share/thot/doc
+
 .include <bsd.port.mk>
