@@ -18,5 +18,8 @@ USE_IMAKE=	yes
 post-install:
 	mkdir -p ${PREFIX}/share/doc/xv
 	cp ${WRKSRC}/README ${PREFIX}/share/doc/xv
+.if !defined(NOPORTDOCS)
+	cp ${WRKSRC}/docs/xvdocs.ps ${PREFIX}/share/doc/xv
+.endif
 
 .include <bsd.port.mk>
