@@ -10,6 +10,7 @@
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gmake
+    SUBDIR += id-utils
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
     SUBDIR += libslang
