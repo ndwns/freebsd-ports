@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	samba-1.9.18p6
-PKGNAME=	samba-1.9.18.6
+DISTNAME=	samba-1.9.18p7
+PKGNAME=	samba-1.9.18.7
 CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
 
