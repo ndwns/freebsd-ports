@@ -22,6 +22,7 @@
     SUBDIR += mgdiff
     SUBDIR += mswordview
     SUBDIR += nfbtrans
+    SUBDIR += p5-XML-Parser
     SUBDIR += par
     SUBDIR += pilot_makedoc
     SUBDIR += rman
