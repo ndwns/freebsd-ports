@@ -12,7 +12,7 @@ CATEGORIES+=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
 DISTFILES=      ${DISTNAME}.tar.gz
 
-MAINTAINER=	pst@freebsd.org
+MAINTAINER=	ache@freebsd.org,pst@freebsd.org
 
 EXTRACT_ONLY=   ${DISTNAME}.tar.gz
 
