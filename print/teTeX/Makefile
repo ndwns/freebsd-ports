@@ -12,7 +12,8 @@ CATEGORIES+=	print
 MASTER_SITES=	${TETEX_SITE}/distrib/sources/ ${TETEX_SITE}/updates/texmf/
 DISTFILES=	teTeX-src-0.3.3.tar.gz teTeX-lib-0.3.3.tar.gz \
 		koma-script-2.3d.sh mflogo-1.5b.sh mathppl.sh \
-		foiltex-2.0.1.sh dec-95pl1-update-u2.tar
+		foiltex-2.0.1.sh dec-95pl1-update-u2.tar \
+		apr-96-update.tar
 
 PATCH_SITES=	${TETEX_SITE}/distrib/sources/
 PATCHFILES=	teTeX-src-0.3.3-patch-001.gz teTeX-src-0.3.3-patch-002.gz \
