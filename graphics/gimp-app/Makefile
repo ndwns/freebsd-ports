@@ -25,7 +25,7 @@ MAINTAINER=	erich@FreeBSD.org
 
 LIB_DEPENDS+=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 LIB_DEPENDS+=	aa\\.1\\.:${PORTSDIR}/graphics/aalib
-LIB_DEPENDS+=	jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=	jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=	gtk\\.1\\.0:${PORTSDIR}/x11/gtk
 LIB_DEPENDS+=	mpeg\\.1\\.2:${PORTSDIR}/graphics/mpeg-lib
 LIB_DEPENDS+=	png\\.2\\.:${PORTSDIR}/graphics/png
