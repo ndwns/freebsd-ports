@@ -26,7 +26,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		png.2:${PORTSDIR}/graphics/png \
 		compface.1:${PORTSDIR}/mail/faces \
 		${LIB_INPUT_METHOD}
-RUN_DEPENDS=	${PREFIX}/lib/xemacs-mule-20.4/etc/BABYL:${PORTSDIR}/editors/xemacs-mule-common
+RUN_DEPENDS=	${PREFIX}/lib/xemacs-20.4/etc/BABYL:${PORTSDIR}/editors/xemacs-mule-common
 
 EXTRACT_ONLY=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
 		xemacs-20.4-info.tar.gz xemacs-20.4-mule.tar.gz 
