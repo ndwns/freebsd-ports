@@ -9,10 +9,7 @@
 DISTNAME=	ptex215
 PKGNAME=	ja-ptex-jis-2.1.5
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/ \
-		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/web2c/ \
-		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/ \
-		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/corresponding-sources/ 
+MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} plib13-jis.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG

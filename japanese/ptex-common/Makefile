@@ -9,10 +9,7 @@
 DISTNAME=	web2c-7.0
 PKGNAME=	ja-ptex-common-2.1.5
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/ \
-		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/web2c/ \
-		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/ \
-		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/corresponding-sources/ 
+MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex215/web2c/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} web-7.0.tar.gz texmflib-7.2.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG
