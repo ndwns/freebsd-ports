@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	spim
-PKGNAME=	spim-5.8
+DISTNAME=	spim5.9
+PKGNAME=	spim-5.9
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.cs.wisc.edu/pub/spim/
 
