@@ -26,6 +26,10 @@ MAN1=		fetchmail.1
 CONFIGURE_ARGS += --with-kerberos=/usr/include
 .endif
 
+.if defined(KRB5_HOME) && exists(${KRB5_HOME}/lib/libkrb5.a)
+CONFIGURE_ARGS += --with-kerberos5=${KRB5_HOME}
+.endif
+
 FDOC=   ${PREFIX}/share/doc/fetchmail
 
 post-patch:
