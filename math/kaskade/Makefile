@@ -14,8 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	giffunip@asme.org
 
-BROKEN_ELF=	undefined reference to MAIN__ /usr/lib/libf2c.so
-
 DIST_SUBDIR=	kaskade
 WRKSRC=         ${WRKDIR}/3.1
 MAKEFILE=	makefile
