@@ -29,6 +29,8 @@
     SUBDIR += nvi-perl
     SUBDIR += offix-editor
     SUBDIR += sam
+    SUBDIR += semi-emacs20
+    SUBDIR += semi-emacs20-current
     SUBDIR += staroffice
     SUBDIR += sted
     SUBDIR += textedit
@@ -39,6 +41,8 @@
     SUBDIR += vilearn
     SUBDIR += vim4
     SUBDIR += vim5
+    SUBDIR += wemi-emacs20
+    SUBDIR += wemi-emacs20-current
     SUBDIR += wily
     SUBDIR += wordperfect
     SUBDIR += xcoral
