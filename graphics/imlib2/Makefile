@@ -18,6 +18,7 @@ RUN_DEPENDS=	djpeg:${PORTSDIR}/graphics/jpeg \
 
 USE_GMAKE=	yes
 USE_IMAKE=	yes
+WRKSRC=		${WRKDIR}/imlib-0.5.1
 
 post-patch:
 	$(CP) $(WRKSRC)/Imakefile $(WRKSRC)/Imakefile.pat
