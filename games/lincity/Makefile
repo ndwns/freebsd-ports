@@ -17,5 +17,6 @@ MAINTAINER=	proff@iq.org
 USE_GMAKE=	yes
 ALL_TARGET=	freebsd
 MAN6=		lincity.6
+MANCOMPRESSED=	no
 
 .include <bsd.port.mk>
