@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	Authen
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/MD5.pm:${PORTSDIR}/security/p5-MD5/
+BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/MD5.pm:${PORTSDIR}/security/p5-MD5
 USE_PERL5=	YES
 
 MAN3=		Authen::Radius.3

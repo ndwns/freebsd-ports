@@ -16,7 +16,7 @@ MAINTAINER=	max@FreeBSD.ORG
 
 RUN_DEPENDS=	rz:${PORTSDIR}/comms/rzsz
 RUN_DEPENDS+=	bp:${PORTSDIR}/comms/bpl+
-RUN_DEPENDS+=	kermit:${PORTSDIR}/comms/kermit/
+RUN_DEPENDS+=	kermit:${PORTSDIR}/comms/kermit
 
 WRKSRC=		${WRKDIR}/telnetx
 MAN1=		telnetx.1
