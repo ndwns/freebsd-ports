@@ -14,7 +14,8 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/transfig/ \
 
 MAINTAINER=	chuckr@freebsd.org
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
+		jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
 
 USE_IMAKE=	yes
 
