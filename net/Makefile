@@ -36,6 +36,7 @@
     SUBDIR += moxftp
     SUBDIR += ncftp
     SUBDIR += ncftp2
+    SUBDIR += netatalk
     SUBDIR += netcat
     SUBDIR += p5-Archie
     SUBDIR += p5-Net
