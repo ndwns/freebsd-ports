@@ -3,7 +3,7 @@
 # Date created:		20 Feb 1998
 # Whom:			jkoshy
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	netpipe-2.3
 CATEGORIES=	benchmarks net

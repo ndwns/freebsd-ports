@@ -3,7 +3,7 @@
 # Date created:		29 July 1995
 # Whom:			janek@gaja.ipan.lublin.pl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	chipmunk-5.10

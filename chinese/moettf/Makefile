@@ -3,7 +3,7 @@
 # Date created:		9 July 1999
 # Whom:			Keith Jang <jtjang@gcn.net.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zh-moettf-1.0

@@ -3,7 +3,7 @@
 # Date created:		20 July 1997
 # Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	zh-Wnn-4.2

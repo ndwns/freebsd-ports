@@ -3,7 +3,7 @@
 # Date created:		1998-11-14
 # Whom:			rmiya
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	molden3.4

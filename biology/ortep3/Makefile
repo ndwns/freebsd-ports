@@ -3,7 +3,7 @@
 # Date created:		1999-05-08
 # Whom:			Ryo MIYAMOTO
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME= ortep

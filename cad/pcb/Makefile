@@ -3,7 +3,7 @@
 # Date created:		19 October 1994
 # Whom:			mr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pcb-1.6.3

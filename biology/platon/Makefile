@@ -3,7 +3,7 @@
 # Date created:		1999-04-22
 # Whom:			Ryo MIYAMOTO <rmiya@cc.hirosaki-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	platon

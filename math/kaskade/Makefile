@@ -3,7 +3,7 @@
 # Date created:		19 Sept. 1997
 # Whom:			Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	3.1.1

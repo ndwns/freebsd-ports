@@ -3,7 +3,7 @@
 # Date created:		99/06/16
 # Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	chsfont

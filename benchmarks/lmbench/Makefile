@@ -3,7 +3,7 @@
 # Date created:		6 May 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lmbench

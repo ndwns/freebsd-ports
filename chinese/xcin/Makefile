@@ -3,7 +3,7 @@
 # Date created:		Nov 28 ,1997
 # Whom:			Yen-Shuo Su <yssu@CCCA.NCTU.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcin-2.3.03

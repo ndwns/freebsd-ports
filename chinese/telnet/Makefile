@@ -3,7 +3,7 @@
 # Date created:		13 Feb 1999
 # Whom:			Ching-Hong Wu <woju@freebsd.ntu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	telnet8-1.0

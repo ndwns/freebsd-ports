@@ -3,7 +3,7 @@
 # Date created:		June 29 1998
 # Whom:			barnhart@genetics.wustl.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hmmer-2.1.1

@@ -3,7 +3,7 @@
 # Date created:		2 Dec 1997
 # Whom:			Yen-Shuo Su <yssu@CCCA.NCTU.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tinpre-1.4-980818

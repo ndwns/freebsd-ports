@@ -3,7 +3,7 @@
 # Date created:         Dec 5 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       seaview

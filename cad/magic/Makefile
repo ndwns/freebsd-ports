@@ -3,7 +3,7 @@
 # Date created:         18 Dec 1994
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       magic-6.5

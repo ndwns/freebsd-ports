@@ -3,7 +3,7 @@
 # Date created:		1 March 1999
 # Whom:			J.T. Jang (jtjang@gcn.net.tw)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zh-CJK-4.2.0

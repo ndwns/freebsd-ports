@@ -3,7 +3,7 @@
 # Date created:			24 Nov 1998
 # Whom:				Vanilla I. Shu <vanilla@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gEDA-19990327

@@ -3,7 +3,7 @@
 # Date created:         Mar 14 1998
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	povchem-1.0

@@ -3,7 +3,7 @@
 # Date created:		22 August 1994
 # Whom:			mr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcpblast

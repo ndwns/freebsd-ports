@@ -3,7 +3,7 @@
 # Date created:         26 September 1994
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       Bonnie

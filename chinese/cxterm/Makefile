@@ -3,7 +3,7 @@
 # Date created:         Sat Aug 10, 1996
 # Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cxterm5.0.p3

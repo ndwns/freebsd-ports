@@ -3,7 +3,7 @@
 # Date created:		26 April 1999
 # Whom:			Chia-Hsing Yu <davidyu@ken.csie.ntu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	aterm-0.3.6

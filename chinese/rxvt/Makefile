@@ -3,7 +3,7 @@
 # Date created:         Nov 16 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rxvt-2.6.0

@@ -3,7 +3,7 @@
 # Date Created:				5 Dec 1997
 # Whom:					Ming-I Hseh <PA@FreeBSD.Ntu.edu.TW>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kcfonts-1.05

@@ -3,7 +3,7 @@
 # Date Created:		18 Sep 1997
 # Whom:			Vanilla I. Shu <vanilla@MinJe.com.TW>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		ted4.3b

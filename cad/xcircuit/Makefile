@@ -3,7 +3,7 @@
 # Date created:		3 Apr 1998
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcircuit-1.7

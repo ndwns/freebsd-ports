@@ -3,7 +3,7 @@
 # Date created: 	1 August 1998
 # Whom:			jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dbs-1.1.5

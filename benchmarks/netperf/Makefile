@@ -3,7 +3,7 @@
 # Date created:		19 July 1996
 # Whom:			koshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	netperf-2.1pl3

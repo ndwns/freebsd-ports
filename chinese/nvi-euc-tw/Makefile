@@ -3,7 +3,7 @@
 # Date created:		5 Apr 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	zh-nvi-euctw-1.79.19990331

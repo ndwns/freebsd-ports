@@ -3,7 +3,7 @@
 # Date created:         28 December 1995
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       bytebench-3.1

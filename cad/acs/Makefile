@@ -3,7 +3,7 @@
 # Date created:		01 January 1995
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	acs021

@@ -3,7 +3,7 @@
 # Date created:				28 May 1999
 # Whom:					Jeffery Hansen <hansen@cmu.edu>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		tkgate-0.9

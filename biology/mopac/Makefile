@@ -3,7 +3,7 @@
 # Date created:  1997-04-23
 # Whom:	 Ryo MIYAMOTO <rmiya@cc.hirosaki-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mopac7

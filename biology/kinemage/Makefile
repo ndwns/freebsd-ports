@@ -3,7 +3,7 @@
 # Date created:         Dec 4 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	MAGE_4_2.LINUX

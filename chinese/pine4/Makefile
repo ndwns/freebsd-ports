@@ -4,7 +4,7 @@
 # Date created:		15 July 1998
 # Whom:			Tai-hwa Liang <avatar@www.mmlab.cse.yzu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pine4.10

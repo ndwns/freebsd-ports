@@ -3,7 +3,7 @@
 # Date created:			  Wed Sep 24, 1997
 # Whom:				  Ada T Lim <ada@not-enough.bandwidth.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hztty-2.0

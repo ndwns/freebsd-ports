@@ -3,7 +3,7 @@
 # Date created:		17 January 1997
 # Whom:			FURUSAWA,Kazuhisa <furusawa@com.cs.osakafu-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	xengine-1.0.1

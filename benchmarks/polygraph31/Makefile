@@ -3,7 +3,7 @@
 # Date created:         3 March 1999
 # Whom:                 Dima Sivachenko <dima@chg.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	polygraph-1.2.0-src

@@ -3,7 +3,7 @@
 # Date created:		07 Jan 1997
 # Whom:			Hung-Chi Chu <hcchu@r350.ee.ntu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	big5con-0.92e

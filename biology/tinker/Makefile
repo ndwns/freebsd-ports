@@ -3,7 +3,7 @@
 # Date Created:                26 August 1998
 # Whom:                        Glenn Johnson
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tinker

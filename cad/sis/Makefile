@@ -3,7 +3,7 @@
 # Date created:         10 October 1997
 # Whom:                 volf@oasis.IAEhv.nl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		sis-1.2

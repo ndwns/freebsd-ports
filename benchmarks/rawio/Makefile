@@ -4,7 +4,7 @@
 # Date created:			  Sun Aug 08, 1999
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rawio

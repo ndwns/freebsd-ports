@@ -3,7 +3,7 @@
 # Date created:		19 October 1996
 # Whom:			Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	felt-3.02

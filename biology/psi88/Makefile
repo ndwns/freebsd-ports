@@ -3,7 +3,7 @@
 # Date created:		1998-11-11
 # Whom:			Ryo MIYAMOTO
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	psi88

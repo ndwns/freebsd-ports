@@ -4,7 +4,7 @@
 # Date created:         Mon Nov 18, 1996
 # Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	MaRS-2.1
