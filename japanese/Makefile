@@ -112,6 +112,7 @@
     SUBDIR += ptex-sjis
     SUBDIR += qkc
     SUBDIR += recjis
+    SUBDIR += rxvt
     SUBDIR += sed
     SUBDIR += sj3
     SUBDIR += sjxa
