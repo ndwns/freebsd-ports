@@ -10,6 +10,5 @@ DISTNAME=	xgraph-11
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/Xclients.local/
 EXTRACT_SUFX=	.tar.Z
-INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>

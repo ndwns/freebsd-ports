@@ -8,7 +8,6 @@
 
 DISTNAME=	rxvt-2.09
 USE_IMAKE=	yes
-INSTALL_MANPAGES=	yes
 WRKSRC=		${WRKDIR}/rxvt
 PREFIX=		/usr/X11R6
 MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/
