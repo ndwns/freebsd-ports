@@ -1,14 +1,14 @@
 # New ports collection makefile for:    xfpovray
-# Version required:     1.2.4
+# Version required:     1.3
 # Date created:         20 Sep 1997
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=       xfpovray-1.2.4
+DISTNAME=       xfpovray-1.3
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.batse.msfc.nasa.gov/~mallozzi/software/xfpovray/
+MASTER_SITES=	http://www.batse.msfc.nasa.gov/~mallozzi/software/xfpovray/v1.3/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
