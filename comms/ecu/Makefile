@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       ecu-3.34beta
+PKGNAME=	ecu-3.34b
 CATEGORIES+=	comms
 MASTER_SITES=   ftp://ftp.kiae.su/unix/comm/
 EXTRACT_SUFX=   .cpio.Z
