@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.ncftp.com/ncftp/3.0BETA/
 
 MAINTAINER=	obrien@FreeBSD.ORG
 
+BROKEN=		fetch
+
 WRKSRC=		${WRKDIR}/${DISTNAME:S/-src//}
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-curses
