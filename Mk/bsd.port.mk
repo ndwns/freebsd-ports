@@ -96,7 +96,7 @@
 # tree we are and thus can't go relative.  They can, of course, be overridden
 # by individual Makefiles.
 PORTSDIR?=		${DESTDIR}/usr/ports
-PREFIX?=		/usr/local
+X11BASE?=		/usr/X11R6
 DISTDIR?=		${PORTSDIR}/distfiles
 PACKAGES?=		${PORTSDIR}/packages
 .if !defined(NO_WRKDIR)
@@ -113,6 +113,11 @@ PATCHDIR?=		${.CURDIR}/patches
 SCRIPTDIR?=		${.CURDIR}/scripts
 FILESDIR?=		${.CURDIR}/files
 PKGDIR?=		${.CURDIR}/pkg
+.if defined(USE_XMKMF)
+PREFIX?=		${X11BASE}
+.else
+PREFIX?=		/usr/local
+.endif
 
 .if exists(${PORTSDIR}/../Makefile.inc)
 .include "${PORTSDIR}/../Makefile.inc"
