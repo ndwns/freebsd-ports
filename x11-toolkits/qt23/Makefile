@@ -1,5 +1,5 @@
 # New ports collection makefile for:   qt-1.0
-# Version required:	0.98
+# Version required:	1.0
 # Date created:		30 Jul 1996
 # Whom:			searle@longacre.demon.co.uk
 #
