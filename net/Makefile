@@ -13,7 +13,6 @@
     SUBDIR += gated
     SUBDIR += gnu-finger
     SUBDIR += gopher
-    SUBDIR += imm
     SUBDIR += irc
     SUBDIR += ircII
     SUBDIR += isc-dhcp
@@ -22,7 +21,6 @@
     SUBDIR += moxftp
     SUBDIR += ncftp
     SUBDIR += ncftp2
-    SUBDIR += nv
     SUBDIR += p5-Archie
     SUBDIR += p5-IO
     SUBDIR += p5-Net
@@ -42,7 +40,6 @@
     SUBDIR += tinyfugue
     SUBDIR += trafshow
     SUBDIR += ucd-snmp
-    SUBDIR += vic
     SUBDIR += wais
     SUBDIR += wide-dhcp
     SUBDIR += wu-ftpd
