@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	sup
+PKGNAME=	sup-2.0
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 CATEGORIES+=	networking
 
