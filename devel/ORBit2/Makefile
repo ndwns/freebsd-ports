@@ -1,12 +1,12 @@
 # New ports collection makefile for:   orbit
-# Version required:		0.4.3
+# Version required:		0.4.93
 # Date Created:			16 Aug 1998
 # Whom:				Chia-liang Kao <clkao@CirX.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	ORBit-0.4.3
+DISTNAME=	ORBit-0.4.93
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	sources/ORBit
