@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gated-R3_5Alpha_9
-PKGNAME=	gated-3.5a9
+DISTNAME=	gated-R3_5Alpha_10
+PKGNAME=	gated-3.5a10
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://gated.cornell.edu/pub/gated/
 EXTRACT_SUFX=	.tar.Z
