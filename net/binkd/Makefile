@@ -10,7 +10,8 @@ DISTNAME=		binkd092
 PKGNAME=		binkd-0.9.2
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.sut.ru/pub/FidoNet/BinkD/092/ \
-			ftp://ftp.aanet.ru/pub/Linux/system/Fido/
+			ftp://ftp.aanet.ru/pub/Linux/system/Fido/ \
+			http://www.corbina.net/~maloff/binkd/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		andy@icc.surw.chel.su
@@ -32,6 +33,8 @@ do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/binkd ${PREFIX}/sbin
 	@ ${INSTALL_MAN} ${WRKSRC}/binkd.8 ${PREFIX}/man/man8
 	@ ${INSTALL_DATA} ${WRKSRC}/binkd.cfg ${PREFIX}/etc/binkd.cfg.sample
+
+post-install:
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/binkd
 	@ ${INSTALL_DATA} ${WRKSRC}/!README ${PREFIX}/share/doc/binkd/README
