@@ -16,7 +16,7 @@ MAINTAINER=	giffunip@asme.org
 
 USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
-MAKEFILE=	makefile 
+MAKEFILE=	makefile
 ALL_TARGET=	pns
 
 do-install:
