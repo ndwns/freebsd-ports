@@ -59,7 +59,6 @@
     SUBDIR += us-zipcodes
     SUBDIR += viz
     SUBDIR += x-files
-    SUBDIR += xacc
     SUBDIR += xd
     SUBDIR += xdelta
     SUBDIR += xgas
