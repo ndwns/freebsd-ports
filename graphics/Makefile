@@ -36,6 +36,7 @@
     SUBDIR += gimp-manual-ps
     SUBDIR += gimp1
     SUBDIR += gimp1-i18n
+    SUBDIR += gphoto
     SUBDIR += gplot
     SUBDIR += gqview
     SUBDIR += graphviz
