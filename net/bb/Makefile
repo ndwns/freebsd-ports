@@ -10,6 +10,7 @@ DISTNAME=	bb-1.08a
 CATEGORIES=	net
 MASTER_SITES=	http://maclawran.ca/~sean/bb-dnld/ \
 		http://freefall.freebsd.org/~andreas/download/
+
 MAINTAINER=	andreas@FreeBSD.ORG
 
 # The FreeBSD Ports Team has permission to include this in our CDROM
