@@ -27,6 +27,7 @@
     SUBDIR += tkWWW
     SUBDIR += w3-msql
     SUBDIR += w3c_httpd
+    SUBDIR += webcopy
     SUBDIR += weblint
     SUBDIR += wn
     SUBDIR += wwwcount
