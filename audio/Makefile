@@ -5,6 +5,7 @@
     SUBDIR += amp
     SUBDIR += ascd
     SUBDIR += cam
+    SUBDIR += cdd
     SUBDIR += cddbd
     SUBDIR += cdplay
     SUBDIR += dap
