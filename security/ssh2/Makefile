@@ -27,7 +27,8 @@ MASTER_SITES=	\
 	ftp://isdec.vc.cvut.cz/pub/security/unimi/crypt/applied-crypto/
 
 CONFIGURE_ARGS+= --with-rsaref
-BUILD_DEPENDS+= ${PORTSDIR}/security/rsaref/work/.extract_done:${PORTSDIR}/security/rsaref
+LIB_DEPENDS+=	rsaref.2:${PORTSDIR}/security/rsaref
+BUILD_DEPENDS+= /nonexistent:${PORTSDIR}/security/rsaref:extract
 .endif
 
 #
