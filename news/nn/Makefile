@@ -23,10 +23,10 @@ pre-build:
 	@cp ${.CURDIR}/files/s-freebsd.h ${WRKSRC}/conf
 
 pre-install:
-	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
-	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
+	[ -r /usr/local/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
+	[ -r /usr/local/news/lib/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
 
 post-install:
-	@echo Put your NNTP host into ${PREFIX}/lib/news/nntp_server file
+	@echo Put your NNTP host into ${PREFIX}/etc/nntpserver file
 
 .include <bsd.port.mk>
