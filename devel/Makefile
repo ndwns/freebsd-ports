@@ -37,6 +37,7 @@
     SUBDIR += ddd
     SUBDIR += dmake
     SUBDIR += doc++
+    SUBDIR += doxygen
     SUBDIR += elftoaout
     SUBDIR += f77flow
     SUBDIR += fastcrc
