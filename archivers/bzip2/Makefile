@@ -7,10 +7,11 @@
 # $Id$
 #
 
-DISTNAME=	bzip2-0.9.0c
+DISTNAME=	bzip2-0.9.5b
 CATEGORIES=	archivers
-MASTER_SITES=	http://www.bzip2.org/bzip2/v090/ \
-		http://www.digistar.com/bzip2/
+MASTER_SITES=	http://www.bzip2.org/bzip2/v095/ \
+		http://www.digistar.com/bzip2/ \
+		http://www.muraroa.demon.co.uk/
 
 MAINTAINER=	obrien@FreeBSD.org
 
