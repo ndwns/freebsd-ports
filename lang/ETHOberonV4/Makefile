@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	jhicks@glenatl.glenayre.com
 
 # XXX - how to fix the following?
-RUN_DEPENDS=	/compat/linux/lib/libc.so.5.4.23:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=	/compat/linux/usr/i486-linux-libc5/lib/libc.so.5:${PORTSDIR}/emulators/linux_base
 
 ONLY_FOR_ARCHS=	i386
 NO_CDROM=	licensing

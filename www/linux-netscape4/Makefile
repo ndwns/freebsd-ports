@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.08/english/unix/supporte
 
 MAINTAINER=	tom@eborcom.com
 
-RUN_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_base
 
 ONLY_FOR_ARCHS=	i386
 

@@ -16,7 +16,7 @@ MAINTAINER=     cjh@kr.freebsd.org
 
 BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/local/mzgt16h1.pcf.gz:${PORTSDIR}/korean/mizifont \
-		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_lib \
+		/compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base \
 		/compat/linux/usr/share/locale/ko/LC_MESSAGES/SYS_LC_MESSAGES:${PORTSDIR}/korean/linux_locale
 
 NO_CDROM=	"Not a free software"

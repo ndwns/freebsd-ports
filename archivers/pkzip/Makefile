@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.exe
 
 MAINTAINER=     dbader@eece.unm.edu
 
-RUN_DEPENDS=    /compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=    /compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_base
 
 ONLY_FOR_ARCHS=	i386
 

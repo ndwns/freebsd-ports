@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=     msmith@FreeBSD.ORG
 
-RUN_DEPENDS=    /compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=    /compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_base
 
 ONLY_FOR_ARCHS=	i386
 RESTRICTED=	"License prohibits redistribution"

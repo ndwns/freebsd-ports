@@ -16,7 +16,7 @@ EXTRACT_SUFX=   .sfx
 
 MAINTAINER=     k5@respo.or.jp
 
-RUN_DEPENDS=	/compat/linux/lib/ld-linux.so.2:${PORTSDIR}/emulators/linux_lib
+RUN_DEPENDS=	/compat/linux/lib/ld-linux.so.2:${PORTSDIR}/emulators/linux_base
 
 ONLY_FOR_ARCHS=	i386
 NO_PACKAGE=     Only unmodified original package can be distributed
