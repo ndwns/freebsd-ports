@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kdemultimedia-1.0
-CATEGORIES=	x11
+CATEGORIES=	audio kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source
 
