@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cxterm5.0.p3
-PKGNAME=	${DISTNAME:S/cxterm/cn-cxterm-/:S/p//}
+PKGNAME=	cn-${DISTNAME:S/cxterm/cn-cxterm-/:S/p//}
 CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://ftp.cs.purdue.edu/pub/ygz/  \
 		ftp://ftp.ifcss.org/pub/software/x-win/cxterm/  \
