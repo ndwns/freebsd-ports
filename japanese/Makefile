@@ -121,6 +121,7 @@
     SUBDIR += vfxdvi
     SUBDIR += w3
     SUBDIR += weblint97
+    SUBDIR += wine
     SUBDIR += x0212fonts
     SUBDIR += xdvi
     SUBDIR += xfig
