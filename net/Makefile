@@ -8,6 +8,7 @@
     SUBDIR += bb
     SUBDIR += bind8
     SUBDIR += bing
+    SUBDIR += bitchx
     SUBDIR += cap
     SUBDIR += choparp
     SUBDIR += clog
@@ -86,6 +87,7 @@
     SUBDIR += slirp
     SUBDIR += sniffit
     SUBDIR += socks5
+    SUBDIR += spegla
     SUBDIR += strobe
     SUBDIR += sup
     SUBDIR += tac_plus
