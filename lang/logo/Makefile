@@ -7,9 +7,10 @@
 #
 
 DISTNAME=	ucblogo
-EXTRACT_SUFX=	.tar.Z
-MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
+PKGNAME=	ucblogo-3.1
 CATEGORIES+=	languages
+MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmacd@FreeBSD.ORG
 
