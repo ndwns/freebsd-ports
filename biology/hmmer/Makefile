@@ -8,7 +8,7 @@
 
 DISTNAME=	hmmer-2.0
 CATEGORIES=	biology
-MASTER_SITES=	ftp://ftp.genetics.wustl.edu/pub/eddy/hmmer/
+MASTER_SITES=	ftp://ftp.genetics.wustl.edu/pub/eddy/hmmer/oldversions/2.0/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	barnhart@genetics.wustl.edu

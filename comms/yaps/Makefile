@@ -8,8 +8,8 @@
 
 DISTNAME=       yaps-0.96
 CATEGORIES=	comms
-MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/comm/ \
-		ftp://ftp.cdrom.com/pub/linux/sunsite/apps/serialcomm/machines/
+MASTER_SITES=   ${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/serialcomm/machines
 
 MAINTAINER=     se@FreeBSD.ORG
 

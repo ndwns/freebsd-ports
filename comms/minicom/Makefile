@@ -10,7 +10,9 @@
 DISTNAME=	${PKGNAME}.src
 PKGNAME=	minicom-1.80
 CATEGORIES=	comms
-MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/
+MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/OLD/ \
+		ftp://ftp.nstu.ru/pub/sources/nettools/modem/ \
+		ftp://ftp.okbmei.msk.su/pub/comm/minicom/
 
 MAINTAINER=     obrien@FreeBSD.org
 

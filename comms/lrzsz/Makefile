@@ -9,7 +9,8 @@
 DISTNAME=	lrzsz-0.12.19
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/ \
-		http://www.nrw.net/uwe/archive/
+		ftp://ftp.ohse.de/comp/unix/comm/ \
+		ftp://ftp.uven.ru/pub/unix/comms/
 
 MAINTAINER=	obrien@FreeBSD.org
 

@@ -9,7 +9,9 @@
 DISTNAME=       tintin++v1.5pl6
 PKGNAME=	tintin-1.5.6
 CATEGORIES=     net games
-MASTER_SITES=   ftp://princeton.edu/pub/tintin++/dist/
+MASTER_SITES=   ftp://ftp.walrus.com/pub/avatar/clients/ \
+		ftp://ftp.cctpu.edu.ru/pub/comp/networking/mud/ \
+		ftp://iclub.nsu.ru/pub/mud/clients/tintin++/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	ache@FreeBSD.ORG
