@@ -30,7 +30,7 @@ post-patch:
 	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/configure-pstoimg
 	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/install-test
 	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/makemap
-	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/psttoimg
+	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/pstoimg
 	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/pstoimg_nopipes
 	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/texexpand
 
