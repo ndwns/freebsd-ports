@@ -110,6 +110,7 @@
     SUBDIR += weblint97
     SUBDIR += x0212fonts
     SUBDIR += xdvi
+    SUBDIR += xnetmaj
     SUBDIR += xshodo
     SUBDIR += zipcodes
 
