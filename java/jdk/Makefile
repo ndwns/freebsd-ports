@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	jdk1.1.5.V98-2-25
-PKGNAME=	jdk-1.1.5
-WRKSRC=		${WRKDIR}/jdk1.1.5
+DISTNAME=	jdk1.1.6.V98-7-21
+PKGNAME=	jdk-1.1.6
+WRKSRC=		${WRKDIR}/jdk1.1.6
 CATEGORIES=	lang devel
 MASTER_SITES=	http://www.freebsd.org/java/
 
