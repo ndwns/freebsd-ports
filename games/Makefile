@@ -29,6 +29,7 @@
     SUBDIR += xevil
     SUBDIR += xeyesplus
     SUBDIR += xgalaga
+    SUBDIR += xgammon
     SUBDIR += xinvaders
     SUBDIR += xjewel
     SUBDIR += xkobo
