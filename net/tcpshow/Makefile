@@ -7,7 +7,7 @@
 # $Id$
 #
 
-PKGNAME=	tcpshow-1.0
+DISTNAME=	tcpshow-1.0
 CATEGORIES=	net security
 MASTER_SITES=	http://www.cs.berkeley.edu/~daw/mike/
 DISTFILES=	tcpshow.c tcpshow.1
