@@ -8,7 +8,7 @@
 
 DISTNAME=	fltk-19990127
 PKGNAME=	fltk-1999.01.27
-CATEGORIES=	x11-toolkit
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.easysw.com/pub/fltk/ \
 		ftp://ftp.northamerica.net/pub/ESP/fltk/ \
 		ftp://ftp.funet.fi/mirrors/ftp.easysw.com/pub/fltk/ \
