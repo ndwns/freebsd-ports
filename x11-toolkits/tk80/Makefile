@@ -14,7 +14,6 @@ MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
 MAINTAINER=	jkh@Freebsd.ORG
 
 LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
-BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/lang/tcl80:configure
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
