@@ -19,7 +19,7 @@ MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/C/ \
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/perl5/site_perl/Data/Flow.pm:${PORTSDIR}/perl5/Data-Flow
+		${PREFIX}/lib/perl5/site_perl/Data/Flow.pm:${PORTSDIR}/perl5/p5-Data-Flow
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 do-configure:
