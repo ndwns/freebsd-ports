@@ -473,7 +473,9 @@ clean: pre-clean
 	@echo "===>  Cleaning for ${DISTNAME}"
 	@rm -f ${EXTRACT_COOKIE} ${CONFIGURE_COOKIE} ${INSTALL_COOKIE} \
 		${BUILD_COOKIE} ${PATCH_COOKIE}
+.if !defined(NO_WRKDIR)
 	@rm -rf ${WRKDIR}
+.endif
 .endif
 
 # No pre-targets for depend or tags.  It would be silly.
