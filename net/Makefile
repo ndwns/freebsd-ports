@@ -9,6 +9,7 @@
     SUBDIR += fspclient
     SUBDIR += ftptool
     SUBDIR += gated
+    SUBDIR += gnu-finger
     SUBDIR += gopher
     SUBDIR += imm
     SUBDIR += irc
