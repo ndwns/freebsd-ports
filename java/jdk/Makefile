@@ -24,14 +24,21 @@ NO_BUILD=       yes
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "aout"
-DISTFILES=	jdk${JDK_VERSION}_AOUT.V99-6-3.tar.gz
+NETPATCH=	AOUT.netpatch.tar.gz
+DISTFILES=	jdk${JDK_VERSION}_AOUT.V99-6-3.tar.gz ${NETPATCH}
+EXTRACT_ONLY=	jdk${JDK_VERSION}_AOUT.V99-6-3.tar.gz
 .else
-DISTFILES=	jdk${JDK_VERSION}_ELF.V99-6-3.tar.gz
+NETPATCH=	ELF.netpatch.tar.gz
+DISTFILES=	jdk${JDK_VERSION}_ELF.V99-6-3.tar.gz ${NETPATCH}
+EXTRACT_ONLY=	jdk${JDK_VERSION}_ELF.V99-6-3.tar.gz
 .endif
 
 do-install:
 	${MKDIR} ${PREFIX}/jdk${JDK_VERSION}
 	(cd ${WRKSRC} && tar -c -f - .) \
 		| (cd ${PREFIX}/jdk${JDK_VERSION} && tar fx -)
+
+post-install:
+	tar xzf ${DISTDIR}/${NETPATCH} -C ${PREFIX}
 
 .include <bsd.port.post.mk>
