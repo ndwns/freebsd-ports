@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/incoming/hantermbeta7/ \
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+BROKEN_ELF=	yes
+
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
 USE_IMAKE=	yes
