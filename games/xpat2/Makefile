@@ -1,16 +1,15 @@
 # New ports collection makefile for: xpat2
-# Version required:	1.04
+# Version required:	1.06
 # Date created:		5 March 1997
 # Whom:			Matthew Hunt <mph@pobox.com>
 #
 # $Id$
 #
 
-DISTNAME=	xpat2-1.04
+DISTNAME=	xpat2-1.06
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/solitaires
-EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	mph@freebsd.org
 
