@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mule-2.2
+DISTNAME=	mule-2.2.2
 DISTFILES=	emacs-19.28.tar.gz
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 USE_GMAKE=	yes
@@ -16,9 +16,11 @@ CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
 		  --wnn --wnn-libraries=/usr/X11R6/lib \
 		  --wnn-includes=/usr/X11R6/include/wnn --terminal-face
 WRKSRC=		${WRKDIR}/emacs-19.28
-PATCHFILES=	diff-19.28-2.2.gz
+PATCHFILES=	diff-19.28-2.2.gz patch-2.2.1.gz patch-2.2.2.gz
 .if !defined(MASTER_SITE_OVERRIDE)
+# Use one of these if you are in Japan
 # PATCHSITE=	sh.wide.ad.jp:/JAPAN/mule/
+# PATCHSITE=	etlport.etl.go.jp:/pub/mule/
 PATCHSITE=	ftp.cs.buffalo.edu:/pub/mule/
 .else
 PATCHSITE=	${MASTER_SITE_OVERRIDE}
