@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdelibs-1.1
+DISTNAME=	kdelibs-1.1.1
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
+MASTER_SITE_SUBDIR= stable/1.1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
 
@@ -27,6 +27,7 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--x-lib=$(X11BASE)/lib"
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 USE_GMAKE=	yes
+CFLAGS+=	"-I$(PREFIX)/include"
 
 .include <bsd.port.pre.mk>
 

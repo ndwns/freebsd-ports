@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdebase-1.1
+DISTNAME=	kdebase-1.1.1
 CATEGORIES=	misc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
+MASTER_SITE_SUBDIR= stable/1.1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
 
@@ -24,7 +24,7 @@ USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"
-CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
+CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS) -DHAVE_GETUSERSHELL -DTIME_WITH_SYS_TIME" \
 		INSTALL_SCRIPT="install -c -m 555"
 USE_GMAKE=	yes
 MAKE_ENV=	RM=${RM}

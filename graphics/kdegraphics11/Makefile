@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	kdegraphics-1.1
+DISTNAME=	kdegraphics-1.1.1
 CATEGORIES=	graphics kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
+MASTER_SITE_SUBDIR= stable/1.1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
 
