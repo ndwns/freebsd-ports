@@ -13,8 +13,6 @@ MASTER_SITES=   ftp://ftp.uni-stuttgart.de/pub/unix/comm/sendfile/current/
 
 MAINTAINER=	sec@42.org
 
-BROKEN=		fetch
-
 WRKSRC=		${WRKDIR}/${PKGNAME}
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=makeconfig
