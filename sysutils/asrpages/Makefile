@@ -18,7 +18,7 @@ EXTRACT_ARGS=	-xf
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
-MAN1=		c.1 slave.1 sysadmin.1 think.1 whack.1
+MAN1=		c.1 rtfm.1 slave.1 sysadmin.1 think.1 whack.1
 MAN2=		people.2
 MAN3=		chastise.3
 MAN5=		normality.5
