@@ -23,9 +23,14 @@ pre-configure:
 	cd ${WRKSRC}; yes "" | PREFIX=${PREFIX} ./Count-config
 
 post-build:
+	cd ${WRKSRC}/utils; ${MAKE}
 	cd ${WRKSRC}; ./Gen-conf
 
 do-install:
 	cd ${WRKSRC}; yes "" | ./Count-install
+	cd ${WRKSRC}/utils; \
+		${INSTALL} -s -c -m ${BINMODE} -o ${BINOWN} -g ${BINGRP} mkstrip ${PREFIX}/bin; \
+		${INSTALL} -c -m ${MANMODE} -o ${MANOWN} -g ${MANGRP} mkstrip.1 ${PREFIX}/man/man1; \
+		${INSTALL} -c -m ${BINMODE} -o ${BINOWN} -g ${BINGRP} mkstrip.sh ${PREFIX}/etc/Counter/digits
 
 .include <bsd.port.mk>
