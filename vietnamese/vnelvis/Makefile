@@ -8,7 +8,7 @@
 
 DISTNAME=	vnelvis
 PKGNAME=	vi-vnelvis-1.4
-CATEGORIES=	vietnamese
+CATEGORIES=	vietnamese editors
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/
 EXTRACT_SUFX=	.tar.Z
