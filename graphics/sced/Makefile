@@ -15,11 +15,11 @@ GNU_CONFIGURE=	true
 IS_INTERACTIVE=	true
 
 do-install: all
-	${INSTALL_PROGRAM}  $(WRKSRC)/sced $(PREFIX)/bin
-	${MKDIR} -p $(PREFIX)/share/doc/sced
-	${INSTALL_DATA} $(WRKSRC)/docs/* $(PREFIX)/share/doc/sced
-	${MKDIR} -p $(PREFIX)/lib/sced/tutorials
-	${INSTALL_DATA} $(WRKSRC)/tutorials/* $(PREFIX)/lib/sced/tutorials
-	${INSTALL_DATA} $(WRKSRC)/scenerc $(PREFIX)/lib/sced
+	${INSTALL_PROGRAM}  ${WRKSRC}/sced ${PREFIX}/bin
+	${MKDIR} ${PREFIX}/share/doc/sced
+	${INSTALL_DATA} ${WRKSRC}/docs/* ${PREFIX}/share/doc/sced
+	${MKDIR} ${PREFIX}/lib/sced/tutorials
+	${INSTALL_DATA} ${WRKSRC}/tutorials/* ${PREFIX}/lib/sced/tutorials
+	${INSTALL_DATA} ${WRKSRC}/scenerc ${PREFIX}/lib/sced
 
 .include <bsd.port.mk>

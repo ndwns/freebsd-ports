@@ -17,7 +17,7 @@ USE_IMAKE=	yes
 IS_INTERACTIVE=	yes
 
 pre-install:	
-	cd ${WRKSRC} ; cp XAlarm.ad XAlarm-color.ad
+	(cd ${WRKSRC} ; ${CP} XAlarm.ad XAlarm-color.ad)
 
 .include <bsd.port.mk>
 

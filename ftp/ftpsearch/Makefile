@@ -13,9 +13,9 @@ MASTER_SITES=	ftp://ftpsearch.ntnu.no/pub/ftpsearch/
 MAINTAINER=	tegge@idt.ntnu.no
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV+=	FTPSEARCHROOT=$(PREFIX)/ftpsearch
+CONFIGURE_ENV+=	FTPSEARCHROOT=${PREFIX}/ftpsearch
 
 post-install:
-	cp $(PREFIX)/ftpsearch/bin/gateway $(PREFIX)/bin/ftpsearch
+	${CP} ${PREFIX}/ftpsearch/bin/gateway ${PREFIX}/bin/ftpsearch
 
 .include <bsd.port.mk>

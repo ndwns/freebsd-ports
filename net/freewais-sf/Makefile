@@ -14,16 +14,16 @@ MASTER_SITES=   ftp://ftp.wsct.wsc.com/pub/freeWAIS-sf/freeWAIS-sf-2.1/
 MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
 IS_INTERACTIVE= yes
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=${PREFIX} < ${FILESDIR}/configure.ans
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS+= < ${FILESDIR}/configure.ans
 MAN1=	catalog.1 dictionary.1 inverted_file.1 makedb.1 mkfmt.1 waisindex.1 \
 	waisq.1 waissearch.1 xwais.1 xwaisq.1
 MAN3=	ftw.3 scandir.3
 
 post-install:
 .if !defined(NOPORTDOCS)
-	mkdir -p ${PREFIX}/share/doc/SF
-	cp ${WRKSRC}/doc/SF/fwsf.ps ${PREFIX}/share/doc/SF
+	${MKDIR} ${PREFIX}/share/doc/SF
+	${CP} ${WRKSRC}/doc/SF/fwsf.ps ${PREFIX}/share/doc/SF
 .endif
 
 .include <bsd.port.mk>
