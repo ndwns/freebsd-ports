@@ -23,6 +23,7 @@
     SUBDIR += ewipe
     SUBDIR += expect
     SUBDIR += gawk
+    SUBDIR += gd
     SUBDIR += ghostscript
     SUBDIR += gn-gnspool
     SUBDIR += gn-mnews
