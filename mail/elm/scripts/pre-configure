@@ -307,8 +307,9 @@ CONFIG=true
 EOF
 
 cd ${WrkSrc}
-yes "" | ./Configure -d
-cd ${CurDir}
+# old way:
+# yes "" | ./Configure -d
+./Configure -S
 
 exit 0
 # END
