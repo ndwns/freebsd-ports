@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	tk8.0.4
-PKGNAME=	tk-8.0.4
+DISTNAME=	tk8.0.5
+PKGNAME=	tk-8.0.5
 CATEGORIES=	x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
@@ -16,7 +16,7 @@ MAINTAINER=	cwt@Freebsd.ORG
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 
 USE_XLIB=	yes
-WRKSRC=		${WRKDIR}/tk8.0.4/unix
+WRKSRC=		${WRKDIR}/tk8.0.5/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR} TK_LIB_FILE=${TK_LIB_FILE}
