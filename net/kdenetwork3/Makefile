@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.src.tar.bz2
 
 MAINTAINER=	se@freebsd.org
 
+BROKEN=		upgrade to 1.0 will be committed within the next few days
+
 BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2 \
 		moc:${PORTSDIR}/x11/qt \
 		${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
