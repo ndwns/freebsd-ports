@@ -8,7 +8,7 @@
 
 DISTNAME=	avon-1996
 PKGNAME=	de-phone-1.0
-CATEGORIES=	german missc
+CATEGORIES=	german misc
 MASTER_SITES=	${MASTER_SITE_LOCAL} \
 		http://www.freebsd.org/~wosch/src/
 EXTRACT_SUFX=	.gz
