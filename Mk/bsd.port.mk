@@ -660,7 +660,7 @@ DO_NADA?=		/usr/bin/true
 # Miscellaneous overridable commands:
 GMAKE?=			gmake
 AUTOCONF?=		autoconf
-LIBTOOL?=		libtool
+LIBTOOL?=		${LOCALBASE}/bin/libtool
 XMKMF?=			xmkmf -a
 .if exists(/sbin/md5)
 MD5?=			/sbin/md5
