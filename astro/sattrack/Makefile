@@ -7,7 +7,7 @@
 #
 
 DISTNAME=          sattrack-3.1.4
-CATEGORIES+=       astro
+CATEGORIES=        astro
 MASTER_SITES=      http://ssl.berkeley.edu/isi_www/
 
 MAINTAINER=        nordquist@platinum.com

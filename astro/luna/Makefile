@@ -8,7 +8,7 @@
 
 DISTNAME=	luna19
 PKGNAME=	luna-1.9
-CATEGORIES+=	astro games
+CATEGORIES=	astro games
 MASTER_SITES=	ftp://ftp.nc.nihon-u.ac.jp/pub/MSDOS/games/
 
 MAINTAINER=	pcs51674@asciinet.or.jp

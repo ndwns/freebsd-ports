@@ -14,7 +14,6 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 MAINTAINER=	erich@FreeBSD.org
 
 REQUIRES_MOTIF=	yes
-
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>
