@@ -63,6 +63,7 @@
     SUBDIR += kon
     SUBDIR += kterm
     SUBDIR += less
+    SUBDIR += libslang
     SUBDIR += lipsf
     SUBDIR += magicpoint
     SUBDIR += man
