@@ -45,6 +45,7 @@
     SUBDIR += momspider
     SUBDIR += mozilla
     SUBDIR += netscape3
+    SUBDIR += netscape3-gold
     SUBDIR += netscape4-communicator
     SUBDIR += netscape4-communicator.us
     SUBDIR += netscape4-navigator
