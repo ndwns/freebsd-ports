@@ -10,8 +10,7 @@ DISTNAME=	kcfonts-1.05
 PKGNAME=	zh-kcfonts-1.05
 CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://freebsd.ntu.edu.tw/freebsd/taiwan/ \
-		ftp://freebsd.ee.ntu.edu.tw/freebsd/taiwan/ \
-		ftp://ftp.edu.tw/OS/FreeBSD/00MIRROR/freebsd.ntu.edu.tw/taiwan/
+		ftp://NCTUCCCA.edu.tw/OS/FreeBSD/00MIRROR/freebsd.ntu.edu.tw/taiwan/
 
 MAINTAINER=	PA@FreeBSD.ee.Ntu.edu.TW
 
