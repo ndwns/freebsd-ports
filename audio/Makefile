@@ -9,6 +9,7 @@
    SUBDIR += maplay
    SUBDIR += nas
    SUBDIR += playmidi
+   SUBDIR += radio
    SUBDIR += rplay
    SUBDIR += rsynth
    SUBDIR += s3mod
