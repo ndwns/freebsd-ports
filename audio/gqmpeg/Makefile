@@ -18,8 +18,6 @@ RUN_DEPENDS=	mpg123:${PORTSDIR}/audio/mpg123
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		Imlib.1:${PORTSDIR}/graphics/imlib
 
-BROKEN=		fetch
-
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/gqmpeg-0.4.1
 ALL_TARGET=	gqmpeg
