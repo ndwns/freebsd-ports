@@ -27,3 +27,7 @@ post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
