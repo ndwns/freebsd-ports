@@ -12,7 +12,7 @@ CATEGORIES=	japanese x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/lang/tcl/jp/
-PATCHFILES=	tk8.0.5jp1.5.patch.gz
+PATCHFILES=	tk8.0.5jp1.5fix1.patch.gz
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
