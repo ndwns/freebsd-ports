@@ -171,6 +171,10 @@ clean:
 	@rm -rf ${WRKDIR}
 .endif
 
-.if !target(cleandir)
-cleandir: clean
+# Depend is generally meaningless for arbitrary ports, but if someone wants
+# one they can override this.  This is just to catch people who've gotten into
+# the habit of typing `make depend all install' as a matter of course.
+#
+.if !target(depend)
+depend:
 .endif
