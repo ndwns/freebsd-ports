@@ -1,4 +1,4 @@
-# Ports collection makefile for:  vnlpr
+# New ports collection makefile for:  vnlpr
 # Version required:	2.0
 # Date created:		Sat Dec 7, 1996
 # Whom:			David O'Brien (obrien@cs.ucdavis.edu)
@@ -19,10 +19,10 @@ RUN_DEPENDS=	vn7to8:${PORTSDIR}/vietnamese/vn7to8 \
 		vnpstext:${PORTSDIR}/vietnamese/vnpstext
 
 pre-patch:
-	@/bin/mv ${WRKSRC}/vnlpr ${WRKSRC}/vnlpr.in
+	@${MV} ${WRKSRC}/vnlpr ${WRKSRC}/vnlpr.in
 
 do-build:
-	sed -e "s:^set VNLIB=./:set VNLIB=${PREFIX}/share/vn-fonts:"  \
+	${SED} -e "s:^set VNLIB=./:set VNLIB=${PREFIX}/share/vn-fonts:"  \
 	    -e 's/^set PRINTER="barrons"/#set PRINTER="postscript"/'  \
 		${WRKSRC}/vnlpr.in > ${WRKSRC}/vnlpr
 
