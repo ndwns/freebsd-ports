@@ -18,9 +18,9 @@ MAINTAINER=	dt@FreeBSD.ORG
 MAN8=		smbmount.8
 
 post-extract:
-	@${MKDIR} work/unshlight
+	@${MKDIR} ${WRKDIR}/unshlight
 	@${CP} ${FILESDIR}/unshlight.c ${WRKDIR}/unshlight
-	@${CP} files/Makefile.unshlight ${WRKDIR}/unshlight/Makefile
+	@${CP} ${FILESDIR}/Makefile.unshlight ${WRKDIR}/unshlight/Makefile
 
 post-build:
 	cd ${WRKDIR}/unshlight && make
