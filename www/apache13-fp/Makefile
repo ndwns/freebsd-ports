@@ -6,6 +6,8 @@
 # $Id$
 #
 
+BROKEN=		awaiting upgrade after repository copy
+
 DISTNAME=	apache_1.2.6
 PKGNAME=	apache_fp-1.2.6
 CATEGORIES=	www
