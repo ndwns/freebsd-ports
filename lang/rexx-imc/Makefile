@@ -12,33 +12,34 @@ MASTER_SITES=	http://www.comlab.ox.ac.uk/oucl/users/ian.collier/distribution/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BROKEN_ELF=	yes
-
 NO_WRKSUBDIR=	YES
+
+MAKE_ENV=	MKDIR="${MKDIR}"
+
+# we must patch these files until the author correct misuse of 
+# errno in struct fileinfo
+UGLY_PATCH=	rexx.c rxfn.c util.c
+
+.include <bsd.port.pre.mk>
+
+post-patch:
+.for c in ${UGLY_PATCH}
+	@${ECHO_MSG} "Changing struct fileinfo member errno to ferrno in ${c}"
+	@mv ${WRKSRC}/${c} ${WRKSRC}/${c}.old
+	@${SED} 's/->errno/->ferrno/g;' ${WRKSRC}/${c}.old > ${WRKSRC}/${c}
+	@${RM} ${WRKSRC}/${c}.old
+.endfor
 
 pre-build:
 		@ ${CP} ${FILESDIR}/Makefile ${WRKDIR}
 
-do-install:
-		@strip ${WRKDIR}/librexx.so.1.6.4 ${WRKDIR}/rxmathfn.rxfn
-		@ for file in rexx rxque rxstack; do \
-			${INSTALL_PROGRAM} ${WRKDIR}/$$file ${PREFIX}/bin; \
-		done
-		@ for file in rxmathfn.rxfn rxmathfn.rxlib; do \
-			${INSTALL_DATA} ${WRKDIR}/$$file ${PREFIX}/bin; \
-		done
-		@ for file in librexx.a librexx.so.1.6.4; do \
-			${INSTALL_DATA} ${WRKDIR}/$$file ${PREFIX}/lib; \
-		done
-		@(${INSTALL_DATA} ${WRKDIR}/rexxsaa.h ${PREFIX}/include)
-.ifndef(NOPORTDOCS)
-		@ ${MKDIR} ${PREFIX}/share/doc/rexx-imc/
-		@ for file in README README.avail README.bugreport README.docs README.files README.make README.news README.versions rexx.info rexx.ref rexx.summary rexx.tech; do \
-			${INSTALL_DATA} ${WRKDIR}/$$file ${PREFIX}/share/doc/rexx-imc/; \
-		done
-.endif
-
 post-install:
-		@ ${LDCONFIG} -m ${PREFIX}/lib
+.if ${PORTOBJFORMAT} == "aout"
+	@${ECHO_MSG} "Fixing packing list for a.out"
+	@${MV} ${TMPPLIST} ${TMPPLIST}.new
+	@${GREP} -v '.so$$' ${TMPPLIST}.new > ${TMPPLIST}
+	@${RM} ${TMPPLIST}.new
+.endif
+	@${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
