@@ -5,10 +5,15 @@
 #
 # $Id$
 #
+
 DISTNAME=       arc521e.pl8
-EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+PKGNAME=        arc-5.21e
 CATEGORIES+=	archivers
+MASTER_SITES=   ftp://ftp.kiae.su/unix/arcers/
+EXTRACT_SUFX=   .tar.Z
+
+MAINTAINER=     ache@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
