@@ -24,8 +24,10 @@
     SUBDIR += gwm
     SUBDIR += iv
     SUBDIR += olvwm
+    SUBDIR += p5-Tk400
     SUBDIR += piewm
     SUBDIR += qt
+    SUBDIR += qvwm
     SUBDIR += rxvt
     SUBDIR += specJava
     SUBDIR += swisswatch
@@ -58,8 +60,8 @@
     SUBDIR += xscreensaver
     SUBDIR += xsnow
     SUBDIR += xtacy
+    SUBDIR += xview-clients
     SUBDIR += xview-config
     SUBDIR += xview-lib
-    SUBDIR += xview-clients
 
 .include <bsd.port.subdir.mk>
