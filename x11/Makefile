@@ -1,7 +1,7 @@
 # $Id$
 #
 SUBDIR=	emu fvwm ghostview iv ivs jpeg olvwm pcb tk xanim xarchie \
-	xcdplayer xdvi xearth xpm xtexshell xv
+	xcdplayer xdvi xearth xlockmore xpm xtexshell xv
 
 #
 # imm & nv depends on tk, so might as well build tk first...
