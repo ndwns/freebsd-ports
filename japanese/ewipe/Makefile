@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ewipe0.5.0
-PKGNAME=	ewipe-0.5.0
+PKGNAME=	ja-ewipe-0.5.0
 CATEGORIES=	japanese x11
 MASTER_SITES=	http://al.ei.tuat.ac.jp/~sekisita/ewipe/
 
