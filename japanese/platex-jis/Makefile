@@ -18,7 +18,7 @@ MAINTAINER=	max@FreeBSD.ORG
 
 BUILD_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-jis \
 		platex-common:${PORTSDIR}/japanese/platex-common \
-		nkf:${PORTSDIRS}/japanese/nkf
+		nkf:${PORTSDIR}/japanese/nkf
 RUN_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-jis \
 		platex-common:${PORTSDIR}/japanese/platex-common
 
