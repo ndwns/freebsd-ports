@@ -11,6 +11,6 @@ MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 
 install:
 	@echo "===>  Installing for ${DISTNAME}"
-	@cd ${WRKSRC}; ${MAKE} install-suid
+	@cd ${WRKSRC}; ${MAKE} install-suid install.man
 
 .include <bsd.port.mk>
