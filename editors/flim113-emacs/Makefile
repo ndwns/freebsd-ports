@@ -61,6 +61,10 @@ RUN_DEPENDS+=	${PREFIX}/${EMACS_LIBDIR}/${EMACS_VER}/site-lisp/custom.el:${PORTS
 # depends on apel
 BUILD_DEPENDS+=	${PREFIX}/${EMACS_LIBDIR}/${EMACS_VER}/site-lisp/emu/emu.el:${PORTSDIR}/editors/apel-${EMACS_PORT}
 RUN_DEPENDS+=	${PREFIX}/${EMACS_LIBDIR}/${EMACS_VER}/site-lisp/emu/emu.el:${PORTSDIR}/editors/apel-${EMACS_PORT}
+# depends on mmencode
+.if (${EMACS_NAME} != "xemacs")
+RUN_DEPENDS+=	mmencode:${PORTSDIR}/mail/metamail
+.endif
 .else
 .BEGIN:
 	@${ECHO} "Error: Bad port."
