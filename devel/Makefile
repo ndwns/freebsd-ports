@@ -14,6 +14,7 @@
     SUBDIR += libmalloc
     SUBDIR += libz
     SUBDIR += m4
+    SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += noweb
     SUBDIR += xxgdb
