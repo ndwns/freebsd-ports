@@ -1,5 +1,5 @@
 # New ports collection makefile for:	xdaliclock
-# Version required:			2.11
+# Version required:			2.13
 # Date created:				10th February 1995
 # Whom:					gpalmer
 #
