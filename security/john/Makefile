@@ -8,10 +8,13 @@
 #
 
 DISTNAME=	ucfjohn3
-PKGNAME=	john-1.4
+PKGNAME=	john-1.4.2
 CATEGORIES=	security
 MASTER_SITES=	http://www.false.com/security/john/
 EXTRACT_SUFX=	.zip
+
+PATCH_SITES=	${MASTER_SITES}
+PATCHFILES=	patch142.diff
 
 MAINTAINER=     obrien@NUXI.com
 
