@@ -14,6 +14,8 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
+RUN_DEPENDS=		python:${PORTSDIR}/lang/python
+
 PLIST=			${WRKDIR}/PLIST
 
 .if !defined(NOPORTDOCS)
