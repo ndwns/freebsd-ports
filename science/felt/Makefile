@@ -16,7 +16,7 @@ MAINTAINER=	giffunip@asme.org
 
 LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
-WRKSRC=         ${WRKDIR}/FElt-3.02
+WRKSRC=		${WRKDIR}/FElt-3.02
 GNU_CONFIGURE=	yes
 MAN1=		burlap.1 corduroy.1 felt.1 patchwork.1 velvet.1 yardstick.1
 MAN3=		Drawing.3
