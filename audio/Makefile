@@ -21,6 +21,7 @@
     SUBDIR += kmpg
     SUBDIR += lamer
     SUBDIR += libaudiofile
+    SUBDIR += linux-realplayer
     SUBDIR += maplay
     SUBDIR += mikmod
     SUBDIR += mp3encode
