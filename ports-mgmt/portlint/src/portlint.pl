@@ -40,7 +40,7 @@ $portdir = '.';
 # version variables
 my $major = 2;
 my $minor = 5;
-my $micro = 3;
+my $micro = 4;
 
 sub l { '[{(]'; }
 sub r { '[)}]'; }
@@ -379,7 +379,7 @@ if ($committer) {
 			}
 			close ENTRIES;
 		} else {
-			&perror("WARN: no CVS directories. Use -n to check a new port.");
+			&perror("WARN: no CVS directories. Use -N to check a new port.");
 			return;
 		}
 
@@ -1150,6 +1150,7 @@ ldconfig ln md5 mkdir mv patch perl rm rmdir ruby sed sh touch tr which xargs xm
 				&& $curline !~ /^NO_PACKAGE(.)?=[^\n]+$i/m
 				&& $curline !~ /^NO_CDROM(.)?=[^\n]+$i/m
 				&& $curline !~ /^CATEGORIES(.)?=[^\n]+$i/m
+				&& $curline !~ /^#.+$/m
 				&& $curline !~ /^COMMENT(.)?=[^\n]+$i/m) {
 					&perror("WARN: $file [$lineno]: possible direct use of ".
 						"command \"$i\" found. use ".
@@ -1172,6 +1173,7 @@ ldconfig ln md5 mkdir mv patch perl rm rmdir ruby sed sh touch tr which xargs xm
 				&& $lm !~ /^NO_PACKAGE(.)?=[^\n]+($i\d*)/m
 				&& $lm !~ /^NO_CDROM(.)?=[^\n]+($i\d*)/m
 				&& $lm !~ /^CATEGORIES(.)?=[^\n]+($i\d*)/m
+				&& $lm !~ /^#.+$/m
 				&& $lm !~ /^COMMENT(.)?=[^\n]+($i\d*)/m) {
 					&perror("WARN: $file [$lineno]: possible direct use of ".
 						"command \"$sm\" found. Use $autocmdnames{$i} ".
@@ -1535,7 +1537,7 @@ DISTFILES DIST_SUBDIR EXTRACT_ONLY
 		&perror("FATAL: $file: PORTVERSION must be specified");
 	}
 	if ($portversion =~ /^pl[0-9]*$/
-	|| $portversion =~ /^[0-9]*[A-Za-z]?[0-9]*(\.[0-9]*[A-Za-z]?[0-9]*)*$/) {
+	|| $portversion =~ /^[0-9]*[A-Za-z]?[0-9]*(\.[0-9]*[A-Za-z]?[0-9+]*)*$/) {
 		print "OK: PORTVERSION \"$portversion\" looks fine.\n" if ($verbose);
 	} elsif ($portversion =~ /^[^\-]*\$[{\(].+[\)}][^\-]*$/) {
 		&perror("WARN: $file: using variable, \"$portversion\", as version ".
