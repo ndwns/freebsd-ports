@@ -9,7 +9,7 @@
 DISTNAME=	radius.2.4.21
 PKGNAME=	radius-2.4.21
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.merit.edu/pub/radius/release/
+MASTER_SITES=	ftp://ftp.merit.edu/radius/release/
 
 # Restrictive copyright in src/rlmadmin.c
 RESTRICTED= "use for non-profit, non-commercial purposes on a shareware basis"
