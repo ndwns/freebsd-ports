@@ -26,7 +26,11 @@ DESCR=		${.CURDIR}/pkg-descr
 .include <bsd.port.pre.mk>
 
 PRTYPE?=	800
+.if (${PORTVERSION} == 1.3)
+RUN_DEPENDS+=	/compat/linux/usr/lib/libpm${PRTYPE}c.so:${PORTSDIR}/print/pips${PRTYPE}
+.else
 RUN_DEPENDS+=	/compat/linux/usr/lib/libPrt${PRTYPE}.so:${PORTSDIR}/print/pips${PRTYPE}
+.endif
 
 do-install:     # empty
 
