@@ -14,10 +14,7 @@ MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
 DEPENDS=	${TK_DIR}
 LIB_DEPENDS=	tk41\\.1:${TK_DIR}
 
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
 BROKEN=         "checking macro values from Config.mk... configure: error: Config.mk does not set TK_CONFIG to a valid path to tkConfig.sh"
-.endif
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
