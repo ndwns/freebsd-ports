@@ -15,7 +15,6 @@ RUN_DEPENDS=	${PREFIX}/bin/${BROWSER}-${BROWSER_VERSION}:${PORTSDIR}/www/netscap
 BROWSER_CMD=	ja-${BROWSER}-46
 BROWSER_VERSION=	4.6
 JAPANIZE_KIT=	communicator-ja-euc-v46-export.generic-generic-generic.tar.gz
-PORTKIT=	ja-netscape-portkit.1999.0521.tar.gz
 NETHELP=	nethelp-v451
 
 .include "${MASTERDIR}/Makefile"
