@@ -1,0 +1,11 @@
+--- src/main.c.orig	Thu Nov 25 20:51:39 1999
++++ src/main.c	Thu Nov 25 20:53:30 1999
+@@ -26,6 +26,8 @@
+ 
+ static const char cvs_ident[] = "$Id$";
+ 
++#define NEED_LINUX_HACK 1
++
+ /* includes */
+ #include "main.h"
+ #ifdef USE_ACTIVE_TAGS
