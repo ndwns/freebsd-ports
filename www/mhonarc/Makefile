@@ -12,7 +12,7 @@ CATEGORIES=	www mail
 MASTER_SITES=	http://www.oac.uci.edu/indiv/ehood/tar/ \
 		ftp://hhobel.phl.univie.ac.at/MHonArc/
 
-MAINTAINER=	koshy@india.hp.com
+MAINTAINER=	jkoshy@freebsd.org
 
 USE_PERL5=	YES
 

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.northsea.com/pub/plan9_unix/wily/wily/src/ \
 		ftp://ftp.cs.su.oz.au/gary/wily/src/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	koshy@india.hp.com
+MAINTAINER=	jkoshy@freebsd.org
 
 USE_X11=	YES
 GNU_CONFIGURE=	YES
