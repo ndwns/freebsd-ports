@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ethereal-0.7.1
+DISTNAME=	ethereal-0.7.2
 CATEGORIES=	net
 MASTER_SITES=	http://alpha1.linuxberg.com/files/x11/network/ \
 		http://www.linuxberg.com/files/x11/network/ \
