@@ -14,7 +14,7 @@ MAINTAINER=	mph@freebsd.org
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		Imlib.1:${PORTSDIR}/graphics/imlib \
-		esd\\.0\\.0:${PORTSDIR}/audio/esound
+		esd.0:${PORTSDIR}/audio/esound
 
 USE_GMAKE=	yes
 USE_PERL5=	yes
