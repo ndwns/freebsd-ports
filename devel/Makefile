@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	gmake m4 mprof
+SUBDIR=	gmake m4
 
 .include <bsd.port.subdir.mk>
