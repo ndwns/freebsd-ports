@@ -33,7 +33,7 @@ MANCOMPRESSED=	yes
 
 HAS_CONFIGURE=	yes
 
-XMKMF=		$(X11BASE)/xmkmf
+XMKMF=		$(X11BASE)/bin/xmkmf
 pre-configure:
 	@${ECHO_MSG} "The interactive portion is asking you about languages"
 	@${ECHO_MSG} "and color use by asclock."
