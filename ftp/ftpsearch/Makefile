@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ftpsearch-19961208
+DISTNAME=	ftpsearch-1.0
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftpsearch.ntnu.no/pub/ftpsearch/
 
@@ -16,6 +16,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	FTPSEARCHROOT=${PREFIX}/ftpsearch
 
 post-install:
-	${CP} ${PREFIX}/ftpsearch/bin/gateway ${PREFIX}/bin/ftpsearch
+	ln -sf ${PREFIX}/ftpsearch/bin/gateway ${PREFIX}/bin/ftpsearch
 
 .include <bsd.port.mk>
