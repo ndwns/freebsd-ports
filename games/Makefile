@@ -3,7 +3,7 @@
 # BROKEN = xchomp xmj xpipeman xrobots
 #
 SUBDIR= acm golddig jetpack oneko nethack xasteroids xboard xboing \
-	xemeraldia xinvaders \
+	xemeraldia xevil xinvaders \
 	xjewel xlife xmille xmine xminesweep xmris xsol \
 	xtetris
 
