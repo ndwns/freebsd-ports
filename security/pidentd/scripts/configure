@@ -3,8 +3,7 @@
 # $Id$
 #
 
-mv ${WRKSRC}/src/paths.h ${WRKSRC}/src/paths.h.bak
-sed <${WRKSRC}/src/paths.h.bak >${WRKSRC}/src/paths.h s+!!PREFIX!!+$PREFIX+g
-
-mv ${WRKSRC}/identd.man ${WRKSRC}/identd.man.bak
-sed <${WRKSRC}/identd.man.bak >${WRKSRC}/identd.man s+!!PREFIX!!+$PREFIX+g
+for i in src/paths.h identd.man idecrypt.man ; do
+	mv ${WRKSRC}/$i ${WRKSRC}/$i.bak
+	sed <${WRKSRC}/$i.bak >${WRKSRC}/$i s+!!PREFIX!!+$PREFIX+g
+done
