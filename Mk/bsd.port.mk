@@ -99,8 +99,8 @@ PKGDIR?=		${.CURDIR}/pkg
 
 
 # Change these if you'd prefer to keep the cookies someplace else.
-EXTRACT_COOKIE?=	${.CURDIR}/.extract_done
-CONFIGURE_COOKIE?=	${.CURDIR}/.configure_done
+EXTRACT_COOKIE?=	${WRKDIR}/.extract_done
+CONFIGURE_COOKIE?=	${WRKDIR}/.configure_done
 
 # How to do nothing.  Override if you, for some strange reason, would rather
 # do something.
