@@ -61,6 +61,7 @@
     SUBDIR += sls
     SUBDIR += sma
     SUBDIR += splitvt
+    SUBDIR += tcb
     SUBDIR += team
     SUBDIR += tet
     SUBDIR += tkcron
