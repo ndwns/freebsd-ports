@@ -11,16 +11,16 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://www.optera.com/~invid/emulators/XGS/ \
 		ftp://ftp.apple.asimov.net/pub/apple_II/emulators/rom_images/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${ROMFILE}
-EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	suttonj@interconnect.com.au
 
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 NO_PACKAGE=	${RESTRICTED}
-RESTRICTED=	xgs.rom copyright is owned by Apple and cannot be distributed
+RESTRICTED=	"xgs.rom copyright is owned by Apple and cannot be distributed"
 WRKSRC=		${WRKDIR}/xgs
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-oss-sound --prefix=${PREFIX}
+CONFIGURE_ARGS=	--with-oss-sound
 
 #INSTALL_DATA?=	install -c -o bin -g bin
 ROMFILE=	xgs.rom
