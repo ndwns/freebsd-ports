@@ -20,6 +20,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 WRKSRC=		${WRKDIR}/wine-${DATE}
 GNU_CONFIGURE=	yes
 MAN1=		wine.1
+ONLY_FOR_ARCHS=	i386
 
 pre-configure:
 	@${ECHO} "WINE_INI_GLOBAL \"${PREFIX}/etc/wine.conf\"" \
