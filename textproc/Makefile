@@ -19,6 +19,7 @@
     SUBDIR += latex2html
     SUBDIR += linuxdoc
     SUBDIR += mgdiff
+    SUBDIR += nfbtrans
     SUBDIR += par
     SUBDIR += pilot_makedoc
     SUBDIR += rman
