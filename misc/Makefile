@@ -62,6 +62,7 @@
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
     SUBDIR += p5-Locale-Codes
+    SUBDIR += peq
     SUBDIR += pdmenu
     SUBDIR += psi88
     SUBDIR += qclock
