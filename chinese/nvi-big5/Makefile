@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 .include <${.CURDIR}/../../editors/nvi/Makefile>
 
-PKGNAME=	cn-nvi-big5-1.79-970403
+PKGNAME=	cn-nvi-big5-1.79-970408
 CATEGORIES=	chinese editors
 
 MAINTAINER=	itojun@itojun.org

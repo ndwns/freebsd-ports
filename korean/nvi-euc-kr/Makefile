@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 .include <${.CURDIR}/../../editors/nvi/Makefile>
 
-PKGNAME=	kr-nvi-euckr-1.79-970403
+PKGNAME=	kr-nvi-euckr-1.79-970408
 CATEGORIES=	korean editors
 
 MAINTAINER=	itojun@itojun.org
