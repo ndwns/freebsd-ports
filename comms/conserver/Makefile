@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=	peter@FreeBSD.org
 
+BROKEN=		patch
+
 EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
