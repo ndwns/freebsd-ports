@@ -21,7 +21,8 @@ CONFIGURE_ARGS=	PREFIX=${PREFIX}
 
 MAN1=		dbiproxy.1 \
 		dbish.1
-MAN3=		DBD::Proxy.3 \
+MAN3=		Bundle::DBI.3 \
+		DBD::Proxy.3 \
 		DBI.3 \
 		DBI::DBD.3 \
 		DBI::FAQ.3 \
