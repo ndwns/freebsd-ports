@@ -75,6 +75,7 @@
     SUBDIR += xsnow
     SUBDIR += xtacy
     SUBDIR += xtestpicture
+    SUBDIR += xtoolwait
     SUBDIR += xview-clients
     SUBDIR += xview-config
     SUBDIR += xview-lib
