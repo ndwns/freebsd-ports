@@ -30,6 +30,7 @@
     SUBDIR += ldap
     SUBDIR += libsocket++
     SUBDIR += mirror
+    SUBDIR += mrtg
     SUBDIR += moxftp
     SUBDIR += natd
     SUBDIR += ncftp
