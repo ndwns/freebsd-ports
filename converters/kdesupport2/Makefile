@@ -13,8 +13,6 @@ MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
-BROKEN_ELF=	package
-
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
@@ -25,5 +23,8 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 #		"--with-extra-includes=$(PREFIX)/include/giflib"
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
+
+post-install:
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
