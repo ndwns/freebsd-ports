@@ -5,12 +5,13 @@
 # $FreeBSD$
 #
 
-PORTNAME=	p5-MyObject
+PORTNAME=	MyObject
 PORTVERSION=	1.1
 CATEGORIES=	databases perl5
 MASTER_SITES=	http://www.frontierworld.com/perl/
-EXTRACT_SUFX=
-DISTNAME=	MyObject.pm
+PKGNAMEPREFIX=	p5-
+DISTNAME=	MyObject
+EXTRACT_SUFX=	.pm
 
 MAINTAINER=	jedgar@FreeBSD.org
 
