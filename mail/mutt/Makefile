@@ -53,6 +53,8 @@ CONFIGURE_ARGS+=	--with-curses=${PREFIX}
 WRKSRC=		${WRKDIR}/${PKGNAME}
 MAN1=		mutt.1 mutt_dotlock.1
 
+post-patch:
+	uudecode -p ${FILESDIR}/ru.gmo.uu > ${WRKSRC}/po/ru.gmo
 
 .if !defined(NOPORTDOCS)
 post-build:
