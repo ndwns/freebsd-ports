@@ -23,8 +23,6 @@ RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 MAN3=		Pg.3
 MANPREFIX=	${PREFIX}/lib/perl5
 
-BROKEN=		"Requires update to either postgresql port or p5-Pg distfile"
-
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
 
