@@ -18,10 +18,8 @@ MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 MAINTAINER=	ports@FreeBSD.ORG
 
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
+LIB_DEPENDS=	Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
-LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
-
-BROKEN=		glib.h
 
 GNU_CONFIGURE=	yes
 ALL_TARGET=	sharedmods
