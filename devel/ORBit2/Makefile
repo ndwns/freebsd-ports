@@ -8,8 +8,8 @@
 
 DISTNAME=	ORBit-0.3.91
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ORBit/ \
+		ftp://ftp.gnome.org/pub/GNOME/sources/ORBit/
 #MASTER_SITES=	ftp://ftp.gnome.org/pub/ORBit/
 
 MAINTAINER=	clkao@CirX.ORG
