@@ -15,7 +15,6 @@ MASTER_SITES=	ftp://ftp.dina.kvl.dk/pub/mosml/ \
 
 MAINTAINER=	chuckr@freefall.FreeBSD.org
 
-#BROKEN=		install
 ALL_TARGET=	world MOSMLHOME=$(PREFIX)/moscow_ml
 INSTALL_TARGET=	install MOSMLHOME=$(PREFIX)/moscow_ml
 WRKSRC=		${WRKDIR}/mosml/src
