@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=apps/circuits
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+BROKEN='bad MD5 checksum'
+
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 ALL_TARGET=
