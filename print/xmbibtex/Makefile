@@ -6,6 +6,8 @@
 # $Id$
 #
 
+BROKEN=		distfile unavailable
+
 DISTNAME=	xmbibtex-1.3
 CATEGORIES=	print databases
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
