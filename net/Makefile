@@ -23,6 +23,7 @@
     SUBDIR += ciscoconf
     SUBDIR += citrix_ica
     SUBDIR += clog
+    SUBDIR += clusterit
     SUBDIR += cnet
     SUBDIR += coda5_client
     SUBDIR += coda5_server
