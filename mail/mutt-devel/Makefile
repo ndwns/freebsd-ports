@@ -7,7 +7,7 @@
 # $Id$
 
 DISTNAME=	${PKGNAME}-export
-PKGNAME=	mutt-0.52
+PKGNAME=	mutt-0.53
 CATEGORIES=	mail
 MASTER_SITES=	ftp://cs.hmc.edu/pub/me/mutt/  \
 		ftp://ftp.ibp.fr/pub/unix/mail/mutt/  \
