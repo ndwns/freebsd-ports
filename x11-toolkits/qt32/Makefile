@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	qt-${MAJ}.${MIN}
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.troll.no/qt/source/
 
 MAINTAINER=	andreas@FreeBSD.ORG

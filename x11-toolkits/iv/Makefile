@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	iv-3.1
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/
 DISTFILES=	3.1.tar.Z
 

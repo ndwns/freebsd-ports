@@ -8,7 +8,7 @@
 
 DISTNAME=	tk8.0p2
 PKGNAME=	tk-8.0.2
-CATEGORIES=	x11 tk80
+CATEGORIES=	x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 MAINTAINER=	jkh@Freebsd.ORG

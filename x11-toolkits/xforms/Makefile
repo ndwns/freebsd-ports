@@ -8,7 +8,7 @@
 
 DISTNAME=	bxform-088
 PKGNAME=	xforms-0.88.1
-CATEGORIES=	graphics x11
+CATEGORIES=	graphics x11-toolkits
 MASTER_SITES=	ftp://bragg.phys.uwm.edu/pub/xforms/freeBSD/ \
 		ftp://ftp.via.ecp.fr/pub2/xforms/freeBSD/ \
 		ftp://ftp.st.ryukoku.ac.jp/pub/X11/xforms/freeBSD/

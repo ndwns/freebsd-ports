@@ -8,7 +8,7 @@
 
 DISTNAME=	SlingShot2.1
 PKGNAME=	slingshot-2.1
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 

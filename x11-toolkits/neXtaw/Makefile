@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	neXtaw-0.5.1
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://www.inf.ufrgs.br/~kojima/nextaw/
 EXTRACT_SUFX=	.tar.gz.bin
 

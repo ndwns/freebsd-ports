@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	fwf-4.0
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	${MASTER_SITE_SUNSITE}	\
 		ftp://ftp.let.rug.nl/pub/FWF/
 MASTER_SITE_SUBDIR=libs/X/fwf

@@ -8,7 +8,7 @@
 
 DISTNAME=	BLT2.4c
 PKGNAME=	blt-2.4c
-CATEGORIES=	x11 tk80
+CATEGORIES=	x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.tcltk.com/pub/blt/
 
 MAINTAINER=	kjc@csl.sony.co.jp

@@ -8,11 +8,11 @@
 
 DISTNAME=	xview-clients
 PKGNAME=	xview-clients-3.2.1
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 
-DEPENDS=        ${PORTSDIR}/x11/xview-lib
+DEPENDS=        ${PORTSDIR}/x11-toolkits/xview-lib
 
-WRKSRC=      	${PORTSDIR}/x11/xview-config/work/xview3.2p1-X11R6/clients
+WRKSRC=      	${PORTSDIR}/x11-toolkits/xview-config/work/xview3.2p1-X11R6/clients
 NO_WRKDIR=	yes
 USE_X_PREFIX=	yes
 

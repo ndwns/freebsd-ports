@@ -8,7 +8,7 @@
 
 DISTNAME=	pygtk-0.4.5
 PKGNAME=	py-gtk-0.4.5
-CATEGORIES=	x11 python
+CATEGORIES=	x11-toolkits python
 MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 		ftp://ftp.gimp.org/pub/gtk/python/ \
 		ftp://infosoc.uni-koeln.de/pub/ftp.gimp.org/pub/gtk/python/ \

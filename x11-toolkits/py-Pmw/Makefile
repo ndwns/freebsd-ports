@@ -7,7 +7,7 @@
 
 DISTNAME=	Pmw.0.7
 PKGNAME=	pmw-0.7
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.dscpl.com.au/pub/pmw/
 
 MAINTAINER=	tg@FreeBSD.ORG

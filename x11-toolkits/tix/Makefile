@@ -8,7 +8,7 @@
 
 DISTNAME=	Tix4.1.0.006
 PKGNAME=	tix-4.1.0.006
-CATEGORIES=	x11 tk80
+CATEGORIES=	x11-toolkits tk80
 MASTER_SITES=	ftp://ftp.xpi.com/pub/
 
 MAINTAINER=	ports@FreeBSD.ORG

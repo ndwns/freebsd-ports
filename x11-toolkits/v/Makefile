@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	v-1.19
-CATEGORIES=	x11 devel graphics
+CATEGORIES=	x11-toolkits devel graphics
 MASTER_SITES=	ftp://objectcentral.com/
 
 MAINTAINER=	dburr@FreeBSD.ORG

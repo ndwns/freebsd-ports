@@ -8,7 +8,7 @@
 
 DISTNAME=	tk8.1a2
 PKGNAME=	tk-8.1.a2
-CATEGORIES=	x11 tk81
+CATEGORIES=	x11-toolkits tk81
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 
 MAINTAINER=	jseger@FreeBSD.ORG
