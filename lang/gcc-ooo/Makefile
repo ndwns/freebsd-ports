@@ -53,7 +53,7 @@ CONFIGURE_ARGS=	--with-gnu-as --with-gnu-ld \
 CONFIGURE_ARGS+= --enable-shared
 .endif
 .if defined(WANT_THREADS)
-#	?is his an ObjC only thing?
+#	?is this an ObjC only thing?
 CONFIGURE_ARGS+= --enable-threads=posix
 .endif
 ALL_TARGET=	bootstrap
