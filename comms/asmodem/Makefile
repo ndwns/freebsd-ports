@@ -3,7 +3,7 @@
 # Date created:        11 May 1998
 # Whom:                Sean Cole <scole@aracnet.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       asmodem-0.6

@@ -3,7 +3,7 @@
 # Date created:			24 September, 1998
 # Whom:				kline
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cbb-0.78

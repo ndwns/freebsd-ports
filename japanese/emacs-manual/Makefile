@@ -3,7 +3,7 @@
 # Date created:         14 April 1999
 # Whom:                 OKAZAKI Tetsurou
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	emacs-20.3-man-jp

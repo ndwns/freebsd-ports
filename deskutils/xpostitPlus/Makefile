@@ -3,7 +3,7 @@
 # Date created:		26 Sep 1997
 # Whom:			mi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	XPostitPlus-2.3

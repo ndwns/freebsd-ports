@@ -3,7 +3,7 @@
 # Date created:			03 Feb 1997
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	euc

@@ -3,7 +3,7 @@
 # Date created:		24 June 1996
 # Whom:			ABURAYER Rewsirow <pcs51674@asciinet.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	td210bs

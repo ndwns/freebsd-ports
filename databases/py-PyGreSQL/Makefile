@@ -3,7 +3,7 @@
 # Date created:				2/22/1999
 # Whom:					nectar@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		PyGreSQL-2.4

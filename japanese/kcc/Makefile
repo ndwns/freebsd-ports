@@ -3,7 +3,7 @@
 # Date created:		26 May 1997
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kcc

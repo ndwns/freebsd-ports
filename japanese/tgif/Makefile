@@ -3,7 +3,7 @@
 # Date created:		8 Dec 1995
 # Whom:			Mita Yoshio <mita@jp.FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tgif-3.0.18

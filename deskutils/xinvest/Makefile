@@ -3,7 +3,7 @@
 # Date created:		1 Ag 1997
 # Whom:			Pedro Giffuni (orig)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xinvest-2.5.1

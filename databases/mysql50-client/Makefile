@@ -3,7 +3,7 @@
 # Date created:				Thu Jun 24 00:12:22 CEST 1999
 # Whom:					Dirk Froemberg <dirk@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	${DISTNAME:S/-/-client-/g}

@@ -3,7 +3,7 @@
 # Date created:		7 January 1997
 # Whom:			Yoshiro MIHIRA
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	perl5.005_03

@@ -3,7 +3,7 @@
 # Date created:				14 April 1996
 # Whom:	Daniel Eischen <deischen@iworks.InterWorks.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 #Also update	ports/japanese/plan/ (ja-plan) when this port is updated

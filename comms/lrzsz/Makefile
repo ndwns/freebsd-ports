@@ -4,7 +4,7 @@
 # Date created:         29 Sept 1996
 # Whom:                 David O'Brien <obrien@cs.ucdavis.edu>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	lrzsz-0.12.19
 CATEGORIES=	comms

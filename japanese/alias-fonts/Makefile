@@ -3,7 +3,7 @@
 # Date created:		22 Jun 1998
 # Whom:                 sada
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ja-netscape-fonts-1.0

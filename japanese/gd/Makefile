@@ -3,7 +3,7 @@
 # Date created:				19 Aug 1998
 # Whom:					ichiro@ichiro.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gd1.3

@@ -3,7 +3,7 @@
 # Date created:		28 Jan 1998
 # Whom:			Murata Shuuichirou <mrt@mickey.ai.kyutech.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	skkinput-2.03

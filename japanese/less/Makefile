@@ -3,7 +3,7 @@
 # Date created:		7 March 1995
 # Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	less-332

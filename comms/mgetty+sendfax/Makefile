@@ -3,7 +3,7 @@
 # Date created:         20 April 1998
 # Whom:                 rkw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mgetty1.1.20-Jan17

@@ -3,7 +3,7 @@
 # Date created:		17 Aug. 1998
 # Whom: Toshihiko SHIMOKAWA <toshi@tea.forus.or.jp> & ELISA Font Project
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	elisat10

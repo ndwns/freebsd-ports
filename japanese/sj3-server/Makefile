@@ -3,7 +3,7 @@
 # Date created:		18 Aug 1998
 # Whom:			Hidekazu Kuroki <hidekazu@cs.titech.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sj3-2.0.1.20

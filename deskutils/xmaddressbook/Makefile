@@ -3,7 +3,7 @@
 # Date created:		31 Jul 1996
 # Whom:			shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmaddressbook-1.5.3

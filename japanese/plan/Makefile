@@ -3,7 +3,7 @@
 # Date created:         Sat Jan 31, 1998
 # Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
 #
-# $Id$
+# $FreeBSD$
 #
 
 #BROKEN=		"need JIS libraries in print.c that I do not have"

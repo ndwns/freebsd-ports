@@ -3,7 +3,7 @@
 # Date created:			4 Aug 1998
 # Whom:				Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ndtpd-2.3.2

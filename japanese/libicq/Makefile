@@ -3,7 +3,7 @@
 # Date Created:			22 Oct 1998
 # Whom:				Seiichirou Hiraoka
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libicq-0.33

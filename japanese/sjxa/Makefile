@@ -3,7 +3,7 @@
 # Date created:		10 Aug 1996
 # Whom:			Hidekazu Kuroki <hidekazu@cs.titech.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sjxa-1.5.11

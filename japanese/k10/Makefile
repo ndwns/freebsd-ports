@@ -3,7 +3,7 @@
 # Date created:		25 Feb 1998
 # Whom: Eiji-usagi-MATSUmoto <usagi@ruby.club.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	knj10-1.00

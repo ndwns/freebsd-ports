@@ -3,7 +3,7 @@
 # Date created:         6 May 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       trans120

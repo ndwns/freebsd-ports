@@ -3,7 +3,7 @@
 # Date created:				18th July 1998
 # Whom:					Gary Palmer <gpalmer@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cdb-0.55

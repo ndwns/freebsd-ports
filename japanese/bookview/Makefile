@@ -3,7 +3,7 @@
 # Date created:			2 Oct 1997
 # Whom:				Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bookview-2.4.4

@@ -3,7 +3,7 @@
 # Date created:         22 November 1997
 # Whom:                 Peter Wemm <peter@netplex.com.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	conserver-5.21-Beta

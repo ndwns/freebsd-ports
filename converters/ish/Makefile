@@ -3,7 +3,7 @@
 # Date created:		13 August 1997
 # Whom:			hosokawa
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	ish-1.11
 CATEGORIES=	converters

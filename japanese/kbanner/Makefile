@@ -3,7 +3,7 @@
 # Date created:		Fri Feb 26 15:07:10 PST 1999
 # Whom:			sumikawa
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kbanner-2.1

@@ -3,7 +3,7 @@
 # Date created:		19 Apr 1997
 # Whom:			ports@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hylafax-v4.0pl2

@@ -3,7 +3,7 @@
 # Date created:		6 Dec 1996
 # Whom:			Mita Yoshio <mita@jp.FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lipsf113

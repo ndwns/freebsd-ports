@@ -3,7 +3,7 @@
 # Date created:         Di  29 Sep 1998 15:51:27 CEST
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       yaps-0.96

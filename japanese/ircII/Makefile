@@ -3,7 +3,7 @@
 # Date created:		02 May 1996
 # Whom:			Masafumi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ircii-2.8.2

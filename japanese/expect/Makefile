@@ -3,7 +3,7 @@
 # Date created:		17 Oct 1997
 # Whom:			taguchi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	expect-5.28

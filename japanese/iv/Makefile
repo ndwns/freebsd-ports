@@ -3,7 +3,7 @@
 # Date created:		23.Feb.1996
 # Whom:			sanpei@yy.cs.keio.ac.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	iv-3.1

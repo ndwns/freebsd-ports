@@ -3,7 +3,7 @@
 # Date created:		01 May 1996
 # Whom:			masafumi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pine3.95

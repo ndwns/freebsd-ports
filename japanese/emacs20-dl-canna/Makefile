@@ -3,7 +3,7 @@
 # Date created:		10 October 1998
 # Whom:			shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	emacs-canna-${DLCANNA_VER}

@@ -3,7 +3,7 @@
 # Date created:		7 July 1997
 # Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-mule-canna+sj3-2.3

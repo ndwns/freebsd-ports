@@ -3,7 +3,7 @@
 # Date created:		02 Aug 1997
 # Whom:			joes@seaport.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qpage-3.2

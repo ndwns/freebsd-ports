@@ -3,7 +3,7 @@
 # Date created:		27 April 1999
 # Whom:			Seiichirou Hiraoka
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lyx-1.0.0

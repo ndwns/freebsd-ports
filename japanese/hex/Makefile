@@ -3,7 +3,7 @@
 # Date created:         Nov 5, 1996
 # Whom:                 IMAMURA Tomoaki (yu@pastel.club.or.jp)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hex203

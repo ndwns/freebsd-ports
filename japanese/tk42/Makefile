@@ -3,7 +3,7 @@
 # Date created:		
 # Whom:			taguchi@tohoku.iij.ad.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tk4.2p2

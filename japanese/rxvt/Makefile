@@ -3,7 +3,7 @@
 # Date created:         11 May 1999
 # Whom:                 HONDA Yasuhiro <honda@kashio.info.mie-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rxvt-2.6.1

@@ -3,7 +3,7 @@
 # Date created:		6 October 1997
 # Whom:			WATANABE junya <junya-w@remus.dti.ne.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mtools-3.6

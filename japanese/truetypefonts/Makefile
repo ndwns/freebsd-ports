@@ -3,7 +3,7 @@
 # Date created:		16 November 1998
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ja-truetypefonts-1998.10.20

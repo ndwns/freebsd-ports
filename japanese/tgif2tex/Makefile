@@ -3,7 +3,7 @@
 # Date created:		12 Mar 1998
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-tgif2tex-1.46

@@ -3,7 +3,7 @@
 # Date created:		3 October 1994
 # Whom:			Michael Elbel (me)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Seyon-2.14b

@@ -3,7 +3,7 @@
 # Date created:			17 March 1999
 # Whom:				Seiichirou Hiraoka
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	MHonArc2.3.3

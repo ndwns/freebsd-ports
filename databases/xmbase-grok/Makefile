@@ -3,7 +3,7 @@
 # Date created:		Sat Aug 30 13:29:42 CEST 1997
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmbase-grok-1.4.1

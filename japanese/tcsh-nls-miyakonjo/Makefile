@@ -3,7 +3,7 @@
 # Date created:		6 January 1999
 # Whom:			Issei Suzuki <issei@jp.FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcsh-6.08.05.add2

@@ -3,7 +3,7 @@
 # Date created:		15 July 1997
 # Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	OMRONWnn6

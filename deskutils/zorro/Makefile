@@ -3,7 +3,7 @@
 # Date created:         03 Aug 1996
 # Whom:                 shanee@rabbit.augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zorro-1.1p8

@@ -3,7 +3,7 @@
 # Date created:		15 June 1996
 # Whom:			Mita Yoshio <mita@iis.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	escpf-0.4beta2

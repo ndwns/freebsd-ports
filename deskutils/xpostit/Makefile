@@ -3,7 +3,7 @@
 # Date created:        6 May 1996
 # Whom:                joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      xpostit3.3.1

@@ -3,7 +3,7 @@
 # Date created:         9 May 1997
 # Whom:                 Hironori Ikura <hikura@kaisei.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pgp263i-${PGP_LANGUAGE}

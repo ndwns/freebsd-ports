@@ -3,7 +3,7 @@
 # Date created:		18 August 1997
 # Whom:			Jonathan Hanna
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	edict-19990714

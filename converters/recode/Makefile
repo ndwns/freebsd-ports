@@ -3,7 +3,7 @@
 # Date created:		14 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	recode-3.4

@@ -3,7 +3,7 @@
 # Date created:				2 April 1997
 # Whom:	Andrey Zakhvatov <andy@icc.surw.chel.su>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		cal-3.5

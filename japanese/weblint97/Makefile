@@ -3,7 +3,7 @@
 # Date created:		27 Jun 1997
 # Whom:			Takayuki Ariga <a00821@cc.hc.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	weblint-97-0.12

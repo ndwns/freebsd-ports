@@ -3,7 +3,7 @@
 # Date created:                         June 21th 1997
 # Whom:                                 ache@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       MIME-Base64-2.11

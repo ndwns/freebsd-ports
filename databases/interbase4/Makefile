@@ -3,7 +3,7 @@
 # Date created:				1998-nov-01
 # Whom:					Berend de Boer <berend@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	IB_4.0_FreeBSD

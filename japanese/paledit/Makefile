@@ -3,7 +3,7 @@
 # Date created:		14 Jan 1999
 # Whom:			Shigeyuki FUKUSHIMA <shige@kuis.kyoto-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	paledit-0.91

@@ -4,7 +4,7 @@
 # Date created:         Fri Dec 01, 1995
 # Whom:                 obrien@cs.ucdavis.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	${PKGNAME}.src

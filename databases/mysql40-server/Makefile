@@ -3,7 +3,7 @@
 # Date created:				26 Jan 1998
 # Whom:					Josh Tiefenbach <josh@ican.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mysql-3.22.24

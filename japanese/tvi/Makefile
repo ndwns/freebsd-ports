@@ -3,7 +3,7 @@
 # Date created:		3 Jan 1999
 # Whom:			SUGIMURA Takashi <sugimura@jp.FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tvi-0.9.2

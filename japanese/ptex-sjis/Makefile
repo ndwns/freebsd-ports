@@ -3,7 +3,7 @@
 # Date created:		05 Oct 1997
 # Whom:			max
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ptex218

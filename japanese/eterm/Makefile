@@ -3,7 +3,7 @@
 # Date created:        11th December 1998
 # Whom:                MANTANI Nobutaka <nobutaka@nobutaka.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Eterm-0.8.9

@@ -3,7 +3,7 @@
 # Date created:		2 March 1997
 # Whom:			Yoshiro MIHIRA
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	oleo-1.6

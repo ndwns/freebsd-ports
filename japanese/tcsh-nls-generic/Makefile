@@ -3,7 +3,7 @@
 # Date created:		19 August 1998
 # Whom:			Issei Suzuki <issei@jp.FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 .if !defined(NLSSRC)

@@ -3,7 +3,7 @@
 # Date created:         23 Jun 1997
 # Whom:                 Hironori Ikura <hikura@kaisei.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ebw3-0.2-b4

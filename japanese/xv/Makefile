@@ -3,7 +3,7 @@
 # Date created:		07 Oct 1998
 # Whom:			Shigeyuki FUKUSHIMA (shige@kuis.kyoto-u.ac.jp)
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-xv-3.10a

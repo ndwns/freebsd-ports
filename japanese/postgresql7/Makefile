@@ -3,7 +3,7 @@
 # Date created:		25 Nov 1998
 # Whom:			Ichiro Fukuhara <ichiro@ichiro.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	postgresql-6.4.2

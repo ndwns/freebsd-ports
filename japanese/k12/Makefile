@@ -3,7 +3,7 @@
 # Date created:		24 June 1996
 # Whom:			Mita Yoshio <mita@jp.FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kaname_k12_bdf

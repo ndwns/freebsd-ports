@@ -3,7 +3,7 @@
 # Date created:         4 Aug 1997
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sliderule

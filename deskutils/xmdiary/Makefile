@@ -3,7 +3,7 @@
 # Date created:		29 Sep 1997
 # Whom:			mi@aldan.ziplink.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmdiary-3.0.1

@@ -3,7 +3,7 @@
 # Date created:		29 Dec 1998
 # Whom:			sada@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 MAINTAINER=	sada@FreeBSD.ORG

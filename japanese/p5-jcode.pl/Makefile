@@ -3,7 +3,7 @@
 # Date created:				26 Jun 1998
 # Whom:					SADA Kenji <sada@e-mail.ne.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ja-p5-jcode.pl-2.10

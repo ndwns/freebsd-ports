@@ -3,7 +3,7 @@
 # Date created:		5 February 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nkf-1.62

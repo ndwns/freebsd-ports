@@ -3,7 +3,7 @@
 # Date created:		21 Jul 1998
 # Whom:			Masanori Kiriake <seiken@nbs.co.jp>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	ack139
 PKGNAME=	ja-ack-1.39

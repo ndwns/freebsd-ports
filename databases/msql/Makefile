@@ -3,7 +3,7 @@
 # Date created:		December 17th 1996
 # Whom:			jfitz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	msql-2.0.4.1

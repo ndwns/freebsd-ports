@@ -3,7 +3,7 @@
 # Date created:         16 sept 1995
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       viewfax-2.3

@@ -3,7 +3,7 @@
 # Date created:         Feb 18, 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ecu-4.08

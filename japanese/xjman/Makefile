@@ -5,7 +5,7 @@
 #			japanese/man-doc
 # Whom:			SADA Kenji <sada@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xjman-0.3

@@ -3,7 +3,7 @@
 # Date created:		11 March 1997
 # Whom:			taguchi@tohoku.iij.ad.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tcl7.6p2

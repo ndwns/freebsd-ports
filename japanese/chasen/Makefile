@@ -3,7 +3,7 @@
 # Date created:		21 October 1998
 # Whom:			kuriyama
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	chasen-sys1.51-dic1.5

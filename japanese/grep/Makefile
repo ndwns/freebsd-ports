@@ -3,7 +3,7 @@
 # Date created:		2 April 1995
 # Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	grep-2.0

@@ -3,7 +3,7 @@
 # Date created:         Sep 1, 1996
 # Whom:                 joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xcept-2.1.2

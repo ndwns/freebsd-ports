@@ -3,7 +3,7 @@
 # Date created:			26 May 1997
 # Whom:				Satoshi TAOKA
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	typist2.0

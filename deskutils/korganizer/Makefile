@@ -3,7 +3,7 @@
 # Date created:        23 May 1998
 # Whom:                Hans Petter Bieker <hanspb@persbraten.vgs.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	korganizer-1.1

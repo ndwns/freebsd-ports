@@ -3,7 +3,7 @@
 # Date created:		28 March 1995
 # Whom:			Akito FUJITA <fujita@zoo.ncl.omron.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mh-6.8.4-JP-3.02

@@ -3,7 +3,7 @@
 # Date created:		98/11/17
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-jvim-canna+wnn4-3.0.1.3j

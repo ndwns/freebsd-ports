@@ -3,7 +3,7 @@
 # Date created:		14 April 1995
 # Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	groff-1.10

@@ -3,7 +3,7 @@
 # Date created:			7 Feb 1997
 # Whom:				Kiroh HARADA <kiroh@jp.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mnews120

@@ -3,7 +3,7 @@
 # Date created:				31 Oct 1998
 # Whom:					flathill
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	micq-0.4.0

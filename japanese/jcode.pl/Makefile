@@ -3,7 +3,7 @@
 # Date created:		20 February 1998
 # Whom:			sada
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jcode.pl-2.10

@@ -3,7 +3,7 @@
 # Date created:		29 June 1998
 # Whom:			SADA Kenji <sada@e-mail.ne.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	perl5.000man-j

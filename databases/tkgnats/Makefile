@@ -3,7 +3,7 @@
 # Date created:		Sa  18 Apr 1998 10:12:20 CEST
 # Whom:			andreas
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkgnats-3.0.10

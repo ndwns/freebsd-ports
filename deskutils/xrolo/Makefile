@@ -3,7 +3,7 @@
 # Date created:        17 January 1999
 # Whom:                Lars Koeller <Lars.Koeller@Uni-Bielefeld.DE>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xrolo.v2p6

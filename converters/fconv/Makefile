@@ -3,7 +3,7 @@
 # Date created:		21 April 1999
 # Whom:			Chris Costello <chris@calldei.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fconv-0.1

@@ -3,7 +3,7 @@
 # Date created:		4 January 1999
 # Whom:			shige
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jls-0.1

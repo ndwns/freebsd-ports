@@ -3,7 +3,7 @@
 # Date created:				17 April 1999
 # Whom:					G. Adam Stanislav
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	i18ntools-1.0

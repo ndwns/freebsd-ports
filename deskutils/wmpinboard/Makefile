@@ -3,7 +3,7 @@
 # Date created:			17 January 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmpinboard-0.9.1

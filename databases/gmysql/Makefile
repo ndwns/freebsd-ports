@@ -3,7 +3,7 @@
 # Date created:		Sun Nov 15 22:07:12 CET 1998
 # Whom:			Dirk Froemberg <ibex@physik.TU-Berlin.DE>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gmysql-0.3.3

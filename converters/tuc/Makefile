@@ -3,7 +3,7 @@
 # Date created:				30 March 1999
 # Whom:					G. Adam Stanislav <adam@whizkidtech.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tuc-1.10

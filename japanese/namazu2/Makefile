@@ -3,7 +3,7 @@
 # Date created:		17 March 1998
 # Whom:			Seiichirou Hiraoka
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	namazu-1.3.0.8

@@ -3,7 +3,7 @@
 # Date created:		13 Mar 1998
 # Whom:			sada
 #
-# $Id$
+# $FreeBSD$
 #
 
 MASTERDIR=	${.CURDIR}/../netscape4-communicator

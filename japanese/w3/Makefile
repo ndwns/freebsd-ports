@@ -3,7 +3,7 @@
 # Date created:		31 December 1996
 # Whom:			MITA Yoshio <mita@ee.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-w3-2.2.26

@@ -3,7 +3,7 @@
 # Date created:                         December 3 1997
 # Whom:                                 ache@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       MLDBM-2.00

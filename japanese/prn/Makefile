@@ -3,7 +3,7 @@
 # Date created:		19 Jun 1997
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	prn

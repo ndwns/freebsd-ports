@@ -3,7 +3,7 @@
 # Date created:		26 Jun 1998
 # Whom:			Takashi Mega <mega@minz.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slrn0.9.5.4

@@ -3,7 +3,7 @@
 # Date created:			20 Jan 1999
 # Whom:				Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	eb-2.3.2

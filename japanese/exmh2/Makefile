@@ -3,7 +3,7 @@
 # Date created:		15 Mar 1999
 # Whom:		Takeshi WATANABE <watanabe@komadori.planet.sci.kobe-u.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ja-${DISTNAME}

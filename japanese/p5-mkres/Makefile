@@ -3,7 +3,7 @@
 # Date created:		29 Jun 1998
 # Whom:			Satoshi TAOKA <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mkres.pl-1.4

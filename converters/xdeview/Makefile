@@ -3,7 +3,7 @@
 # Date Created:		9 Feb 1997
 # Whom:			Tim Vanderhoek <ac199@freenet.hamilton.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	uudeview-0.5.13

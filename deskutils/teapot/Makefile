@@ -3,7 +3,7 @@
 # Date created:				7 January 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	teapot-1.03
