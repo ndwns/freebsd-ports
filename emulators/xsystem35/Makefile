@@ -1,7 +1,7 @@
 # ports collection makefile for:	AliceSoft System 3.5 on X
 # Version required:	BETA
 # Date created:		24 Oct 1998
-# Whom:			FUJISHIMA Satsuki
+# Whom:			Seiichirou Hiraoka
 #
 # $Id$
 #
