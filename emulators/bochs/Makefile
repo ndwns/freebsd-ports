@@ -1,5 +1,5 @@
 # New ports collection makefile for:   bochs
-# Version required:    980224a
+# Version required:    980311d
 # Date created:        16 December 1997
 # Whom:                alex
 #
@@ -8,9 +8,9 @@
 
 VGABIOS=	VGABIOS-elpin-2.00A
 BIOS=		BIOS-bochs-980124a
-DATE= 		980224
+DATE= 		980311
 
-DISTNAME=	bochs-${DATE}a
+DISTNAME=	bochs-${DATE}d
 CATEGORIES= 	emulators
 MASTER_SITES= 	ftp://ftp.std.com/pub/bochs/
 
