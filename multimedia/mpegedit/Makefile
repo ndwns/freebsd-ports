@@ -15,7 +15,12 @@ MAINTAINER=	erich@FreeBSD.org
 
 BUILD_DEPENDS=	${PREFIX}/include/pbmplus.h:${PORTSDIR}/graphics/netpbm
 
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} > 400002
+BROKEN=		won\'t build with egcs compiler
+.endif
+
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
