@@ -10,7 +10,7 @@ DISTNAME=       ssh-1.2.13
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
 LIB_DEPENDS=    z\\.1\\.:${PORTSDIR}/devel/libz
-BUILD_DEPENDS+= perl5.001:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS+= perl5.002:${PORTSDIR}/lang/perl5
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
