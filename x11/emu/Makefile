@@ -15,7 +15,8 @@ MASTER_SITE_SUBDIR=	applications
 MAINTAINER=	me@FreeBSD.org
 
 USE_IMAKE=	yes
-IS_INTERACTIVE=	yes
+# only needs to connect to X server to run xrdb
+#IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/emu
 
 pre-configure:
