@@ -16,6 +16,8 @@ MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-07-21/ \
 MAINTAINER=	obrien@FreeBSD.org
 
 EGCS_REV=	egcs-2.91.51
+# XXX
+#GNUHOST=	i386-unknown-freebsd${OSREL}
 GNUHOST=	i386-unknown-freebsd${GNUOSREL}
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
