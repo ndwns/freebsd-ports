@@ -86,6 +86,8 @@
     SUBDIR += ptex-sjis
     SUBDIR += qkc
     SUBDIR += recjis
+    SUBDIR += samba
+    SUBDIR += samba-des
     SUBDIR += sed
     SUBDIR += sj3
     SUBDIR += sjxa
