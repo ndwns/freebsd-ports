@@ -1,10 +1,5 @@
 # $Id$
 #
-SUBDIR=	nas sox
-
-.if make(clean) 
-# tracker is in the moment not compilable, so put it here as a clean target
-SUBDIR+= tracker
-.endif
+SUBDIR=	nas sox tracker
 
 .include <bsd.port.subdir.mk>
