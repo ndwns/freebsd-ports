@@ -951,6 +951,7 @@ do-package:
 			fi; \
 		else \
 			${MAKE} ${.MAKEFLAGS} delete-package; \
+			exit 1; \
 		fi; \
 	fi
 .endif
