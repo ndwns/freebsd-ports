@@ -2,6 +2,7 @@
 #
 
     SUBDIR += agrep
+    SUBDIR += c2html
     SUBDIR += docbook
     SUBDIR += glimpse
     SUBDIR += html
