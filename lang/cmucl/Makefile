@@ -12,7 +12,8 @@ PKGNAME=	cmucl-18b
 CATEGORIES=	lang
 MASTER_SITES=	http://www2.cons.org:8000/freebsd-distfiles/ \
 		ftp://ftp2.cons.org/pub/languages/lisp/cmucl/release/ \
-		http://www2.cons.org:8000/ftp-area/cmucl/release/
+		http://www2.cons.org:8000/ftp-area/cmucl/release/ \
+		http://www.freebsd.org/~cracauer/freebsd-distfiles/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER= 	cracauer@cons.org

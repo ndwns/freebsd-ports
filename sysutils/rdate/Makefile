@@ -8,7 +8,8 @@
 
 DISTNAME=	rdate-1.0
 CATEGORIES=     sysutils
-MASTER_SITES=   http://www2.cons.org:8000/freebsd-distfiles/
+MASTER_SITES=   http://www2.cons.org:8000/freebsd-distfiles/ \
+		http://www.freebsd.org/~cracauer/freebsd-distfiles/
 
 MAINTAINER=	cracauer@cons.org
 
