@@ -13,7 +13,7 @@ CATEGORIES=	chinese
 MASTER_SITES=	ftp://ftp.funet.fi/pub/TeX/CTAN/language/chinese/ \
 		ftp://ftp.tex.ac.uk/tex-archive/language/chinese/ \
 		ftp://ftp.dante.de/tex-archive/language/chinese/ \
-		http://member.gcn.net.tw/jtjang/ \
+		http://member.gcn.net.tw/web/jtjang/ \
 		ftp://ftp.ctan.org/tex-archive/language/chinese/
 MASTER_SITE_SUBDIR=	language/chinese
 DISTFILES=	CJK.tar.gz
