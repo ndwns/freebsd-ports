@@ -14,6 +14,11 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	giffunip@asme.org
 
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} >= 400004
+MAKE_ENV+=	HAVE_G2C=yes
+.endif
+
 DIST_SUBDIR=	kaskade
 WRKSRC=         ${WRKDIR}/3.1
 MAKEFILE=	makefile
@@ -31,4 +36,4 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/*.mat ${PREFIX}/share/examples/kaskade
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
