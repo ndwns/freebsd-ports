@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	linux_lib-2.6
+DISTNAME=	linux_lib-2.6.1
 CATEGORIES=	emulators
-MASTER_SITES=	${MASTER_SITE_LOCAL}
+MASTER_SITES=	${MASTER_SITE_LOCAL} \
+		ftp://relay.nuxi.com/pub/FreeBSD/
 
 MAINTAINER=	erich@FreeBSD.org
 
