@@ -6,13 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	splitvt-1.6.1
+DISTNAME=	splitvt-1.6.3
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	utils/console
-EXTRACT_SUFX=	.tgz
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
