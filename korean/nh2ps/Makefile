@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/nh2ps/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+BROKEN_ELF=	yes
+
 RUN_DEPENDS=    ${PREFIX}/share/ghostscript/5.10ft/hangul:${PORTSDIR}/korean/ftghostscript5
 
 MAN1=		nh2ps.1
