@@ -11,9 +11,9 @@ PKGNAME=	enlightenment-0.12.3
 CATEGORIES=	x11
 MASTER_SITES=	http://www.rasterman.com/ftp/ \
 		ftp://cthulhu.mandrake.net/pub/enlightenment/
-  
+
 MAINTAINER=	vanilla@MinJe.com.TW
-  
+
 LIB_DEPENDS=	Im\\.3\\.:${PORTSDIR}/graphics/imlib
 RUN_DEPENDS=	djpeg:${PORTSDIR}/graphics/jpeg \
 		tgatoppm:${PORTSDIR}/graphics/netpbm \
