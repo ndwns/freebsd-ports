@@ -10,7 +10,7 @@ DISTNAME=	ezmlm-0.53
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.ezmlm.org/pub/qmail/ \
 		ftp://ftp.ntnu.no/pub/unix/mail/qmail/ \
-		ftp://ftp.pipex.net/mirrors/qmail/ \
+		ftp://mirror.pipex.net/pub/qmail/ \
 		ftp://ftp.jp.qmail.org/qmail/ \
 		ftp://ftp.rifkin.technion.ac.il/pub/qmail/ \
 		ftp://ftp.mira.net.au/unix/mail/qmail/
