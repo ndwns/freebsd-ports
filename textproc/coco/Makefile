@@ -62,7 +62,7 @@ EMACS_EXECUTABLE =	mule
 CONFIGURE_ARGS=	i386--freebsd --with-executable=${EMACS_EXECUTABLE} \
 		--with-emacs-prefix=${EMACS_PREFIX} \
 		--with-terminal-face \
-		--x-includes=${X11BASE}/include --x-libraries=${X11BASE}/lib \
+		--x-includes=${X11BASE}/include --x-libraries=${X11BASE}/lib
 STRIP=
 MAN1=		coco.1 ctags.1 etags.1 m2ps.1 emacs.1 mule.1
 
