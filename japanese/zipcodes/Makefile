@@ -9,12 +9,11 @@
 DISTNAME=	ken_all
 PKGNAME=	ja-zipcodes-19980130
 CATEGORIES=	japanese misc
-MASTER_SITES=	http://www.postal.mpt.go.jp/lzh/
+MASTER_SITES=	http://www.postal.mpt.go.jp/lzh/ \
+		http://freefall.freebsd.org/~itojun/distfiles/
 EXTRACT_SUFX=	.lzh
 
 MAINTAINER=	itojun@itojun.org
-
-BROKEN=		"Post office stopped supplying the original distribution"
 
 BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 		nkf:${PORTSDIR}/japanese/nkf
