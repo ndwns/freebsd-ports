@@ -6,7 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	mswordview-0.5.14
+DISTNAME=	mswordview-0.5.14-bw2
+PKGNAME=	mswordview-0.5.14.2
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.csn.ul.ie/~caolan/publink/mswordview/
 
