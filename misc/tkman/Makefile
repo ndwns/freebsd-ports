@@ -11,8 +11,8 @@ CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
 
-EXEC_DEPENDS=	wish4.0:${PORTSDIR}/x11/tk4 \
-		rman:${PORTSDIR}/utils/rman
+LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4
+RUN_DEPENDS=	rman:${PORTSDIR}/utils/rman
 
 # Restrictive copyright
 NO_PACKAGE=	yes
