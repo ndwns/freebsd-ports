@@ -18,8 +18,12 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.de
 
 REQUIRES_MOTIF= YES
 USE_IMAKE=	YES
+MAN3=		XbaeCaption.3 XbaeMatrix.3
 
 post-install:
-	@${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libXbae.so.6.2 ${PREFIX}/lib/libXbae.so; \
+	fi
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
