@@ -23,7 +23,7 @@ USE_X_PREFIX=		yes
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400003
-RUN_DEPENDS=		eg++:${PORTSDIR}/lang/egcs
+BUILD_DEPENDS=		eg++:${PORTSDIR}/lang/egcs
 CXX=			eg++
 .endif
 

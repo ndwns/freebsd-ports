@@ -22,6 +22,13 @@ EXTRACT_ONLY=		${DISTNAME}.tar.gz
 
 FLIGHTGEAR_VERSION=	0.6.1
 
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} < 400003
+BUILD_DEPENDS=		eg++:${PORTSDIR}/lang/egcs
+CXX=			eg++
+.endif
+
 .if defined(BUILD_SCENERY_TOOLS)
 MASTER_SITES+=		ftp://ftp.cs.man.ac.uk/pub/amurta/
 DISTFILES+=		gfc-0.8.8.1b.tar.gz gpc231.tar.Z
@@ -66,4 +73,4 @@ pre-install:
 post-install:
 	${MV} ${PREFIX}/FlightGear/bin/runfgfs ${PREFIX}/bin
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
