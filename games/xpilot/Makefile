@@ -9,7 +9,7 @@
 DISTNAME=       xpilot-4.1.0
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.xpilot.org/pub/xpilot/ \
-		${MASTER_SITE_XCONTRIB}  \
+		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games/multiplayer
 
 MAINTAINER=	sheldonh@iafrica.com
