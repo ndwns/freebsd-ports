@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/
 
 .if !defined(NOXIMSUPPORT)
 PATCH_SITES=	http://www.kashio.info.mie-u.ac.jp/~honda/rxvt/
-PATCHFILES=	rxvt-2.4.10-JP-XIM.patch.gz
+PATCHFILES=	rxvt-2.4.11-JP-XIM.patch.gz
 PATCH_DIST_STRIP=	-p1
 .endif
 
@@ -33,6 +33,8 @@ post-install:
 	@${MKDIR} ${DOCDIR}
 	@${INSTALL_MAN} ${FILESDIR}/README.ja ${DOCDIR}
 .endif
+.if !defined(NOXIMSUPPORT)
 	@${CAT} ${PKGDIR}/MESSAGE
+.endif
 
 .include <bsd.port.mk>
