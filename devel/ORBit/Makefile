@@ -13,7 +13,8 @@ MASTER_SITE_SUBDIR=	sources/ORBit
 
 MAINTAINER=	clkao@CirX.ORG
 
-LIB_DEPENDS=	glib12.2:${PORTSDIR}/devel/glib12
+LIB_DEPENDS=	glib12.2:${PORTSDIR}/devel/glib12 \
+		intl.1:${PORTSDIR}/devel/gettext
 
 GLIB_CONFIG?=	${LOCALBASE}/bin/glib12-config
 
