@@ -13,6 +13,8 @@ DISTFILES=      navigator-v407-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     sada@FreeBSD.ORG
 
+BROKEN=		"'Netscape removed the 4.07 distfiles to make space'"
+
 WRKSRC=		${WRKDIR}/navigator-v407.x86-unknown-freebsd
 NO_BUILD=       Yes
 STRIP=
