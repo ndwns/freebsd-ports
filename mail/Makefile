@@ -77,6 +77,7 @@
     SUBDIR += tkrat
     SUBDIR += wanderlust-emacs
     SUBDIR += wanderlust-emacs20
+    SUBDIR += wanderlust-mule
     SUBDIR += wmmail
     SUBDIR += wmpop3
     SUBDIR += xbuffy
