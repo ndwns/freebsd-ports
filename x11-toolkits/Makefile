@@ -6,7 +6,6 @@
     SUBDIR += Xaw3d
     SUBDIR += auis
     SUBDIR += blt
-    SUBDIR += gtk
     SUBDIR += gtk--
     SUBDIR += gtk-engines
     SUBDIR += gtk11
