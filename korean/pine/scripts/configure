@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# $Id$
+#
+
+rm -f ${WRKSRC}/makefile
+cp ${FILESDIR}/Makefile ${WRKSRC}/Makefile
