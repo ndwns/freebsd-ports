@@ -8,7 +8,7 @@
 
 DISTNAME=	linbot-0.9
 CATEGORIES=	www python
-MASTER_SITES=	http://starship.skyport.net/crew/marduk/linbot/
+MASTER_SITES=	http://starship.skyport.net/crew/marduk/linbot/download/
 
 MAINTAINER=	billf@FreeBSD.org
 
