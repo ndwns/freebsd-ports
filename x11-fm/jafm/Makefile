@@ -12,6 +12,8 @@ MASTER_SITES=	http://www-personal.usyd.edu.au:/~rlittlew/jafm/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
+BROKEN=		fetch
+
 USE_QT=		yes
 USE_GMAKE=	yes
 ALL_TARGET=	jafm
