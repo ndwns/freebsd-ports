@@ -4,8 +4,8 @@
     SUBDIR += bash1
     SUBDIR += bash2
     SUBDIR += es
-    SUBDIR += scsh
     SUBDIR += pdksh
+    SUBDIR += scsh
     SUBDIR += tcsh
     SUBDIR += zsh
 

@@ -72,8 +72,8 @@
     SUBDIR += xgas
     SUBDIR += xless
     SUBDIR += xpns
-    SUBDIR += xtar
     SUBDIR += xquote
+    SUBDIR += xtar
     SUBDIR += ytree
 
 .include <bsd.port.subdir.mk>
