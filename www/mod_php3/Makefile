@@ -10,7 +10,12 @@ DISTNAME=	apache_${VERSION_APACHE}
 PKGNAME=	apache-php${VERSION_PHP3}-${VERSION_APACHE}
 CATEGORIES=	www
 MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
-		ftp://www.php.net/pub/distributions/
+		http://www.rge.com/pub/infosystems/apache/dist/ \
+		http://www.apache.de/dist/ \
+		http://www.php.net/distributions/ \
+		ftp://www.php.net/pub/distributions/ \
+		http://php.he.net/distributions/ \
+		http://www.php3.de/distributions/
 DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP3}.tar.gz
 
 MAINTAINER=	Dirk Froemberg <ibex@physik.TU-Berlin.DE>
