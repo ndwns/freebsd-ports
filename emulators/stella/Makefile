@@ -9,7 +9,7 @@
 DISTNAME=	stella-0.6-src
 PKGNAME=	stella-0.6
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://ftp.ncsu.edu/pub/eos/pub/bsvc/st/
+MASTER_SITES=	ftp://ftp.ucpel.tche.br/pub/msdos/emulator/atari/
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
