@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	zircon-1.18.44
+DISTNAME=	zircon-1.18.56
 CATEGORIES=	net tk80
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
