@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.isc.org/isc/inn/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+Y2K=		http://www.isc.org/y2k.html
+
 # If you want PGP verification of control messages set PGPVERIFY to "DO"
 PGPVERIFY?=	DONT
 

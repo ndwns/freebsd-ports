@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+Y2K=		http://netwinsite.com/dnews_y2k.htm
+
 WRKSRC=         ${WRKDIR}/dnews
 NO_CDROM=	"no answer yet, if we are allowed to put it onto CDROM"
 RESTRICTED=	"only free for non-profit organisations"
