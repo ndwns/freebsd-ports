@@ -367,9 +367,10 @@ pre-patch:
 .endif
 
 .if !target(patch)
-patch: pre-patch ${PATCH_COOKIE}
+patch: ${PATCH_COOKIE}
 
 ${PATCH_COOKIE}:
+	@${MAKE} ${.MAKEFLAGS} pre-patch
 .if defined(PATCH_DEBUG)
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
