@@ -15,6 +15,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 USE_IMAKE=		yes
 MAN1=			xwpick.1
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xwpick ${PREFIX}/bin

@@ -17,5 +17,6 @@ LIB_DEPENDS=    Xaw3d\\.:${PORTSDIR}/x11-toolkits/Xaw3d
 
 USE_IMAKE=      yes
 MAN6=		xmine.6
+MANCOMPRESSED=	no
 
 .include <bsd.port.mk>

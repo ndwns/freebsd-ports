@@ -16,8 +16,8 @@ MAINTAINER=		andy@icc.surw.chel.su
 LIB_DEPENDS=		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=		yes
-
 MAN1=			xmailbox.1
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xmailbox ${PREFIX}/bin

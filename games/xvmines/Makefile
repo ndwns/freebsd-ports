@@ -20,6 +20,7 @@ LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11-toolkits/xview-lib \
 
 USE_IMAKE=	yes
 MAN6=		xvmines.6
+MANCOMPRESSED=	no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xvmines ${PREFIX}/bin

@@ -19,8 +19,8 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 WRKSRC=		${WRKDIR}/mlvwm086
 USE_IMAKE=	yes
 EXTRACT_ONLY=	mlvwm-0.8.6.tar.gz
-
 MAN1=		mlvwm.1
+MANCOMPRESSED=	no
 
 post-install:
 	${MKDIR} ${PREFIX}/lib/X11/mlvwm/pixmap

@@ -16,6 +16,7 @@ REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 
 MAN1=		cddbcmd.1 wm2xmcd.1
+MANCOMPRESSED=	no
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE

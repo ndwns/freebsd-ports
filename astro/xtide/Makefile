@@ -20,6 +20,7 @@ EXTRACT_ONLY=	xtide-1.6.2.tar.gz
 USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes
 MAN1=		xtide.1
+MANCOMPRESSED=	no
 
 post-extract:
 	@gzip -dc ${DISTDIR}/harmonics.gz > ${WRKSRC}/harmonics

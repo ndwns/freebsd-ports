@@ -18,6 +18,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 USE_IMAKE=		yes
 NO_WRKSUBDIR=		yes
 MAN6=			xlaby.6
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xlaby ${PREFIX}/bin

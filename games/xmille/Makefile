@@ -18,5 +18,6 @@ MAINTAINER=	swallace@FreeBSD.org
 
 USE_IMAKE=      yes
 NO_WRKSUBDIR=	yes
+MANCOMPRESSED=	no
 
 .include <bsd.port.mk>

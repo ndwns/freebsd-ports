@@ -16,6 +16,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 USE_IMAKE=	yes
 MAN1=		xmail.1
+MANCOMPRESSED=	no
 
 do-install:
 	$(INSTALL_PROGRAM) $(WRKSRC)/xmail $(PREFIX)/bin/xmail

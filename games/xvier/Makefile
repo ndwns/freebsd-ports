@@ -17,8 +17,8 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
 USE_IMAKE=		yes
-
 MAN6=			xvier.6
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xvier ${PREFIX}/bin

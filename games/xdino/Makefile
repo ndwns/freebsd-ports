@@ -16,6 +16,7 @@ MAINTAINER=	Nakai@technologist.com
 WRKSRC=		${WRKDIR}/xdino
 USE_IMAKE=	yes
 MAN1=		xdino.1
+MANCOMPRESSED=	no
 
 post-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/xdino ${PREFIX}/bin

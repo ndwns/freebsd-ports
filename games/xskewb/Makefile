@@ -16,6 +16,7 @@ MAINTAINER=		andy@icc.surw.chel.su
 WRKSRC=			${WRKDIR}/xskewb
 USE_IMAKE=		yes
 MAN1=			xskewb.1
+MANCOMPRESSED=		no
 
 # Not configured to use Motif.
 # Optionally edit ${WRKSRC}/Imakefile before build.

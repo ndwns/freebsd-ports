@@ -16,6 +16,7 @@ MAINTAINER=	Nakai@technologist.com
 WRKSRC=		${WRKDIR}/xcubes
 USE_IMAKE=	yes
 MAN1=		xcubes.1
+MANCOMPRESSED=	no
 
 post-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/xcubes ${PREFIX}/bin

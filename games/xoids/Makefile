@@ -17,6 +17,7 @@ LIB_DEPENDS=		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=		yes
 MAN6=			xoids.6
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xoids ${PREFIX}/bin

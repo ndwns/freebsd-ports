@@ -16,6 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/koules1.4
 MAN6=		xkoules.6
+MANCOMPRESSED=	no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xkoules ${PREFIX}/bin

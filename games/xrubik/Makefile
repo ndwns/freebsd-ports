@@ -16,6 +16,7 @@ MAINTAINER=	nakai@technologist.com
 WRKSRC=		${WRKDIR}/xrubik
 USE_IMAKE=	yes
 MAN1=		xrubik.1
+MANCOMPRESSED=	no
 
 post-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/xrubik ${PREFIX}/bin

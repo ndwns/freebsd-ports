@@ -15,8 +15,8 @@ EXTRACT_SUFX=		.tgz
 MAINTAINER=		andy@icc.surw.chel.su
 
 USE_IMAKE=		yes
-
 MAN6=			xdigger.6
+MANCOMPRESSED=		no
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xdigger ${PREFIX}/bin

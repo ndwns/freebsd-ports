@@ -30,6 +30,7 @@ MAN3= 	RkRgnBun.3 RkDefineDic.3 RkDeleteDic.3 RkEndBun.3 \
 	RkUnmountDic.3 RkXfer.3 cannalib.3 uilib.3 RkCloseRoma.3 \
 	RkCvtEuc.3 RkCvtHan.3 RkCvtHira.3 RkCvtKana.3 RkCvtRoma.3 \
 	RkCvtZen.3 RkMapPhonogram.3 RkMapRoma.3 RkOpenRoma.3
+MANCOMPRESSED=	no
 
 STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/canna.sh
 

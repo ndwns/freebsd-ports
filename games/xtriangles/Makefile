@@ -16,6 +16,7 @@ MAINTAINER=	Nakai@technologist.com
 WRKSRC=		${WRKDIR}/xtriangles
 USE_IMAKE=	yes
 MAN1=		xtriangles.1
+MANCOMPRESSED=	no
 
 post-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/xtriangles ${PREFIX}/bin
