@@ -165,7 +165,7 @@ checksubdir:
 	done
 	@for s in ${SUBDIR}; do \
 	  if ! [ -d ${.CURDIR}/$$s ]; then \
-	    ${ECHO} "Warning: directory $s in SUBDIR does not exist"; \
+	    ${ECHO} "Warning: directory $$s in SUBDIR does not exist"; \
 	  fi \
 	done
 .endif
