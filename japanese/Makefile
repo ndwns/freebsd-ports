@@ -27,6 +27,7 @@
     SUBDIR += ptex2
     SUBDIR += sed
     SUBDIR += tcl
+    SUBDIR += tgif
     SUBDIR += tk
     SUBDIR += xdvi
 
