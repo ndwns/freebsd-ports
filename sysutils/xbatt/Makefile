@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.clave.gr.jp/~eto/xbatt/
 
 MAINTAINER=	nobu@psrc.isac.co.jp
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
