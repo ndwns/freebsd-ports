@@ -8,7 +8,7 @@
 
 DISTNAME=	lyx-0.12.0
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/beta_stable/ \
+MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/stable/ \
 		ftp://la1ad.uio.no/pub/lyx/                
 
 MAINTAINER=	andreas@FreeBSD.ORG
