@@ -13,9 +13,9 @@ MASTER_SITES=	ftp://ftp.omronsoft.co.jp/pub/misc/gn/
 
 MAINTAINER=	kiroh@kh.rim.or.jp
 
+# The program ``configur'' sometimes issue questions and
+# batch-mode build would fail.
 IS_INTERACTIVE=	yes
-	# The program ``configur'' sometimes issue questions and
-	# batch-mode build would fail.
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
 pre-configure:
