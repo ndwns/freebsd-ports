@@ -18,6 +18,6 @@ PATCH_DIST_STRIP=	-p1
 MAINTAINER=	asami@FreeBSD.ORG
 
 post-install:
-	@${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
