@@ -2,6 +2,7 @@
 #
 
     SUBDIR += btoa
+    SUBDIR += ish
     SUBDIR += mimepp
     SUBDIR += mpack
     SUBDIR += p5-Convert-UU
