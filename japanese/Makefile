@@ -4,6 +4,6 @@
 #
 # doesn't compile: mh
 #
-SUBDIR= Canna Wnn kterm less nkf tcl tk
+SUBDIR= Canna Wnn grep kterm less nkf sed tcl tk
 
 .include <bsd.port.subdir.mk>
