@@ -6,21 +6,19 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.8.1dev.22
-PKGNAME=        ja-lynx-2.8.1.22
+DISTNAME=	lynx2.8.2dev.1
+PKGNAME=	ja-lynx-2.8.2.1
 CATEGORIES=	japanese www
-MASTER_SITES=   ftp://sol.slcc.edu/pub/lynx/current/
+MASTER_SITES=	ftp://sol.slcc.edu/pub/lynx/current/
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
-BROKEN=		fetch
-
 NO_LATEST_LINK=	YES
-WRKSRC=         ${WRKDIR}/lynx2-8-1
-GNU_CONFIGURE=  YES
-CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
-MAKEFILE=       makefile
-INSTALL_TARGET= install install-help
+WRKSRC=		${WRKDIR}/lynx2-8-1
+GNU_CONFIGURE=	YES
+CONFIGURE_ARGS=	--with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
+MAKEFILE=	makefile
+INSTALL_TARGET=	install install-help install-doc
 MAN1=		lynx.1
 
 post-install:
