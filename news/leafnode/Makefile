@@ -1,17 +1,16 @@
 # New ports collection makefile for:	leafnode
-# Version required:	1.0.1
+# Version required:	1.0.2
 # Date created:		10 April 1996
-# Whom:			Patrick Yu <pyu@rogidi.com>
-#			Brian Somers <brian@awfulhak.org>
+# Whom:			Brian Somers <brian@awfulhak.org>
 #
 # $Id$
 #
 
-DISTNAME=	leafnode-1.0.1
+DISTNAME=	leafnode-1.0.2
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	system/news/readers
-EXTRACT_SUFX=	.ELF.tgz
+EXTRACT_SUFX=	.src.elf.tgz
 
 MAINTAINER=	brian@awfulhak.org
 
