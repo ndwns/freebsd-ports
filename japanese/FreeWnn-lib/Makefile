@@ -16,10 +16,7 @@ PKG_ARGS?=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.
 pre-build:
-	@echo "===>  Building for ${DISTNAME}"
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} Makefile.inst World)
-build: configure pre-build depends ${BUILD_COOKIE}
-	@${TOUCH} ${TOUCH_FLAGS} ${BUILD_COOKIE}
 
 pre-install:
 	@PREFIX=${PREFIX} ${SCRIPTDIR}/pre-install
