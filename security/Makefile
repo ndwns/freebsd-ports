@@ -34,6 +34,7 @@
     SUBDIR += pidentd
     SUBDIR += portscanner
     SUBDIR += portsentry
+    SUBDIR += raproxy
     SUBDIR += rsaref
     SUBDIR += skip
     SUBDIR += smurflog
