@@ -11,6 +11,7 @@
     SUBDIR += hanyangfonts
     SUBDIR += hcode
     SUBDIR += helvis
+    SUBDIR += hmconv
     SUBDIR += johabfonts
     SUBDIR += nhpf
     SUBDIR += nvi-euc-kr
