@@ -15,6 +15,7 @@ SUBDIR += deskutils
 SUBDIR += devel
 SUBDIR += editors
 SUBDIR += emulators
+SUBDIR += ftp
 SUBDIR += games
 SUBDIR += german
 SUBDIR += graphics
