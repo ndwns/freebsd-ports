@@ -45,7 +45,7 @@ post-install:
 .endif
 		@ chown -R postgres:postgres ${PREFIX}/postgres95
 		@ echo 'Initializing Postgres95 Databases - this may take a few minutes...'
-		@ su -l posgres -c ${PREFIX}/postgres95/bin/initdb
+		@ su -l postgres -c ${PREFIX}/postgres95/bin/initdb
 		@ ${MKDIR} ${PREFIX}/etc/rc.d
 		@ if [ ! -f ${PREFIX}/etc/rc.d/postgres95.sh ]; then \
 			echo "Installing ${PREFIX}/etc/rc.d/postgres95.sh startup file."; \
