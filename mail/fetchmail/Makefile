@@ -1,5 +1,5 @@
 # New ports collection makefile for:	fetchmail
-# Version required:     5.0
+# Version required:     5.0.4
 # Date created:		26 Oct 1996
 # Whom:			Ville Eerola <ve@sci.fi>
 #
@@ -11,7 +11,7 @@
 # does not need Python, so there is no RUN_DEPENDS for Python in
 # this Makefile.
 
-DISTNAME=       fetchmail-5.0.3
+DISTNAME=       fetchmail-5.0.4
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.ccil.org/pub/esr/fetchmail/
 
@@ -33,7 +33,7 @@ CONFIGURE_ARGS += --with-kerberos5=${KRB5_HOME}
 
 FDOC=   ${PREFIX}/share/doc/fetchmail
 
-post-patch:
+pre-patch:
 	@${CP} -f  /usr/include/md5.h ${WRKSRC}
 	@perl -pi.bak -e 's|^#!/.*/python|#!${PREFIX}/bin/python|;' ${WRKSRC}/fetchmailconf
 	@${SED} -e "s|@PREFIX@|${PREFIX}|" ${FILESDIR}/fetchmailconf > ${WRKDIR}/fetchmailconf
