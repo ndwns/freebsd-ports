@@ -8,6 +8,7 @@
     SUBDIR += bb
     SUBDIR += chord
     SUBDIR += colorls
+    SUBDIR += crosspad
     SUBDIR += ctk
     SUBDIR += cwish
     SUBDIR += deco
