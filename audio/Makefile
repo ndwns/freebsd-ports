@@ -17,6 +17,7 @@
     SUBDIR += gmixer
     SUBDIR += gnomeaudio
     SUBDIR += gnomemedia
+    SUBDIR += gogo
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += icecast
