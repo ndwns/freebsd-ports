@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	WMPop3-0.5.0a
-PKGNAME=	wmpop3-0.5.0a
+DISTNAME=	WMPop3-0.5.5a
+PKGNAME=	wmpop3-0.5.5a
 CATEGORIES=	mail windowmaker
 MASTER_SITES=	http://www.cs.mun.ca/~scotth/download/
 EXTRACT_SUFX=	.tgz
