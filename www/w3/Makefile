@@ -13,8 +13,8 @@ MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/network/WWW/w3/ \
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
-BUILD_DEPENDS?=	emacs:${PORTSDIR}/editors/emacs
-RUN_DEPENDS?=	emacs:${PORTSDIR}/editors/emacs
+BUILD_DEPENDS?=	emacs-19.34:${PORTSDIR}/editors/emacs
+RUN_DEPENDS?=	emacs-19.34:${PORTSDIR}/editors/emacs
 
 WRKSRC=		${WRKDIR}/w3
 MAKE_ENV+=	EMACSCMD=${EMACSCMD} ELISPDIR=${ELISPDIR} \
@@ -23,7 +23,7 @@ MAKE_ENV+=	EMACSCMD=${EMACSCMD} ELISPDIR=${ELISPDIR} \
 		INSTALL_DATA="${INSTALL_DATA}"
 
 VERSION=	2.2.26
-EMACSCMD?=	emacs
+EMACSCMD?=	emacs-19.34
 PORTSDOCDIR=	${PREFIX}/share/doc/w3
 SAMPLEDIR=	${PREFIX}/share/examples/w3
 ELISPDIR?=	${PREFIX}/share/emacs/site-lisp
