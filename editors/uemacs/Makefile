@@ -1,5 +1,5 @@
 # New ports collection makefile for:	MicroEmacs
-# Version required:     3.12
+# Version required:     4.0
 # Date created:         16 Jan 1995
 # Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
@@ -7,18 +7,18 @@
 #
 
 DISTNAME=	uemacs
-PKGNAME=	uemacs-3.12
+PKGNAME=	uemacs-4.0
 CATEGORIES=	editors
-MASTER_SITES=	ftp://midas.mgmt.purdue.edu/dist/uemacs312/ \
-		ftp://ftp.th-darmstadt.de/pub/editors/MicroEMACS/uemacs312/
-DISTFILES=	ue312dev.zip
+MASTER_SITES=	ftp://aquest.com/pub/uemacs400/disk2/ \
+		ftp://informatik.hu-berlin.de/pub/pc/msdos/editors/ \
+		ftp://ftp.biomath.jussieu.fr/pub/editors/memacs400/disk2/
+DISTFILES=	ue400dev.zip
 
 MAINTAINER=	ports@freebsd.org
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 NO_WRKSUBDIR=	yes
-PATCH_STRIP=	-p1
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-Laq
 EXTRACT_AFTER_ARGS=	-d ${WRKDIR}
