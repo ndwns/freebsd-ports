@@ -22,20 +22,20 @@ USE_GMAKE=	YES
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 pre-install:
-	@${MKDIR} ${X11BASE}/share/hex
-	@${MKDIR} ${X11BASE}/share/hex/levels
-	@${MKDIR} ${X11BASE}/share/hex/graphics
+	@${MKDIR} ${PREFIX}/share/hex
+	@${MKDIR} ${PREFIX}/share/hex/levels
+	@${MKDIR} ${PREFIX}/share/hex/graphics
 
 do-install:
-	@${INSTALL_PROGRAM} ${WRKSRC}/hex ${X11BASE}/bin/hex
-	@${INSTALL_DATA} ${WRKSRC}/HISTORY ${X11BASE}/share/hex/HISTORY
-	@${INSTALL_DATA} ${WRKSRC}/README ${X11BASE}/share/hex/README
-	@${INSTALL_DATA} ${WRKSRC}/TODO ${X11BASE}/share/hex/TODO
+	@${INSTALL_PROGRAM} ${WRKSRC}/hex ${PREFIX}/bin/hex
+	@${INSTALL_DATA} ${WRKSRC}/HISTORY ${PREFIX}/share/hex/HISTORY
+	@${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/hex/README
+	@${INSTALL_DATA} ${WRKSRC}/TODO ${PREFIX}/share/hex/TODO
 .for i in 0 1 2 3 4 5 6 7 8
 	@${INSTALL_DATA} ${WRKSRC}/graphics/ball${i}.png \
-			 ${X11BASE}/share/hex/graphics/ball${i}.png
+			 ${PREFIX}/share/hex/graphics/ball${i}.png
 .endfor
 	@${INSTALL_DATA} ${WRKSRC}/levels/Level1 \
-			 ${X11BASE}/share/hex/levels/Level1
+			 ${PREFIX}/share/hex/levels/Level1
 
 .include <bsd.port.mk>
