@@ -83,6 +83,8 @@ pre-install:
 # install the readme and license file of the hp8xxx driver as well
 post-install:
 	strip ${PREFIX}/bin/gs
+	${INSTALL_SCRIPT} ${WRKSRC}/unix-lpr.sh ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/lprsetup.sh ${PREFIX}/bin
 	${INSTALL_DATA} ${DISTDIR}/${DECRYPT_PDF} \
 		${PREFIX}/share/ghostscript/5.50
 	${INSTALL_DATA} ${WRKSRC}/license.hp8 \
