@@ -69,6 +69,7 @@
     SUBDIR += xco
     SUBDIR += xcoloredit
     SUBDIR += xcolors
+    SUBDIR += xcolorsel
     SUBDIR += xdtm
     SUBDIR += xfedor
     SUBDIR += xfishtank
