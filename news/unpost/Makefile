@@ -3,7 +3,7 @@
 # Date created:		14 october 1997
 # Whom:			volf@oasis.IAEhv.nl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	unpost-2.3.4

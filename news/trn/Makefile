@@ -3,7 +3,7 @@
 # Date created:		21 October 1994
 # Whom:			smace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	trn-3.6

@@ -3,7 +3,7 @@
 # Date created:		21 July 1996
 # Whom:			Tim Vanderhoek <ac199@freenet.hamilton.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slnr-2.3.0

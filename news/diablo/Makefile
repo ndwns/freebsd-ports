@@ -3,7 +3,7 @@
 # Date created:					June 2nd 1997
 # Whom:						jfitz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	diablo-1.15-rel

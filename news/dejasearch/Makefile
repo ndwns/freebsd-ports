@@ -3,7 +3,7 @@
 # Date created:        15 March 1999
 # Whom:                Kris Kennaway <kris@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dejasearch163

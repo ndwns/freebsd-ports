@@ -3,7 +3,7 @@
 # Date created:		29 September 1994
 # Whom:			adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nntp-t5

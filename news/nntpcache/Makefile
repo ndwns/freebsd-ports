@@ -3,7 +3,7 @@
 # Date created:		6 January 1997
 # Whom:			proff@suburbia.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nntpcache-2.3.2

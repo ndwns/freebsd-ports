@@ -3,7 +3,7 @@
 # Date created:			July 17 1997
 # Whom:				Nick Sayer <nsayer@quack.kfu.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcopilot-0.6.6

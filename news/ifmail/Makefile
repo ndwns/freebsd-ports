@@ -3,7 +3,7 @@
 # Date created:         19 Feb 1997
 # Whom:                 dirk.meyer@dinoex.sub.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ifmail-2.14

@@ -4,7 +4,7 @@
 # Date created:		25 July 1996
 # Whom:			obrien@cs.ucdavis.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tinpre-1.4-19990805

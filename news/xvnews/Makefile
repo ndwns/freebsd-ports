@@ -3,7 +3,7 @@
 # Date created:		31 Jul 1996
 # Whom:			shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xvnews-2.3.2

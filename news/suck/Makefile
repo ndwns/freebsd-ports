@@ -3,7 +3,7 @@
 # Date created:		30 Mar 1996
 # Whom:			graphite@taurus.bekkoame.or.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	suck-4.2.1

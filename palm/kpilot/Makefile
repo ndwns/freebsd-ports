@@ -3,7 +3,7 @@
 # Date created:        09 April 1998
 # Whom:                Stefan Eßer <se@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kpilot-3.0.2

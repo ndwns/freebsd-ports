@@ -3,7 +3,7 @@
 # Date created:				May 10th 1997
 # Whom:					jfitz@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	pilot_makedoc-0.7

@@ -3,7 +3,7 @@
 # Date created:		03 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rkive3.1

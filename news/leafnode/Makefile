@@ -3,7 +3,7 @@
 # Date created:		10 April 1996
 # Whom:			Brian Somers <brian@Awfulhak.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	leafnode-1.9.2

@@ -3,7 +3,7 @@
 # Date created:		22 November 1998
 # Whom:			Denis Shaposhnikov <dsh@vlink.ru>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gup-0.4

@@ -3,7 +3,7 @@
 # Date Created:		30 Dec 1996
 # Whom:			Tim Vanderhoek <ac199@freenet.hamilton.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	plor-0.3.1

@@ -3,7 +3,7 @@
 # Date created:		27 July 1999
 # Whom:			Kelly Yancey <kbyanc@posi.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bgrab

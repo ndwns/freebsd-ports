@@ -3,7 +3,7 @@
 # Date created:        28 March 1997
 # Whom:                Carey Jones <mcj@acquiesce.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slrn-0.9.5.7

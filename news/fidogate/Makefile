@@ -3,7 +3,7 @@
 # Date created:         02 Dez 1997
 # Whom:                 dirk.meyer@dinoex.sub.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fidogate-4.2.9

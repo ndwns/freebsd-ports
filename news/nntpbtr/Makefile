@@ -3,7 +3,7 @@
 # Date created:         1 July 1996
 # Whom:                 dk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       nntpbtr-1.7

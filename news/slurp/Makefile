@@ -3,7 +3,7 @@
 # Date created:		30 Jun 1996
 # Whom:			jraynard
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	slurp-1.10
