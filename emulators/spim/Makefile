@@ -10,7 +10,7 @@
 DISTNAME=	spim5.9
 PKGNAME=	spim-5.9
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://ftp.cs.wisc.edu/pub/spim/
+MASTER_SITES=	ftp://ftp.cs.wisc.edu/pub/spim/Old_Versions/
 
 MAINTAINER=	obrien@cs.ucdavis.edu
 
