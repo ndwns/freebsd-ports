@@ -12,16 +12,18 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.utah.edu/pub/
 DISTFILES=	urt-3.1b.tar.Z urt-doc.tar urt-img.tar
 
+PATCH_SITES=	ftp://ptolemy.berkeley.edu/pub/misc/urt/
+PATCHFILES=	urt-3.1b-3.1b1.patch
+PATCH_DIST_STRIP=-p1
+
 MAINTAINER=	giffunip@asme.org
 
 LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff34
 BUILD_DEPENDS=	${X11BASE}/lib/libpbm.a:${PORTSDIR}/graphics/netpbm
 
 EXTRACT_ONLY=	urt-3.1b.tar.Z
-PATCH_SITES=	ftp://ptolemy.berkeley.edu/pub/misc/urt/
-PATCHFILES=	urt-3.1b-3.1b1.patch
-PATCH_DIST_STRIP=-p1
 
+USE_XLIB=	yes
 NO_WRKSUBDIR=   yes
 CONFIGURE_SCRIPT=Configure
 CONFIGURE_ARGS=	config/urt
