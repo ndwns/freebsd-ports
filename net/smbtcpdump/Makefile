@@ -7,14 +7,14 @@
 # $Id$
 #
 
-DISTNAME=	tcpdump-3.2.1
-PKGNAME=	smbtcpdump-3.2.1
+DISTNAME=	tcpdump-3.4
+PKGNAME=	smbtcpdump-3.4
 CATEGORIES=	net security
-MASTER_SITES=	ftp://ftp.ee.lbl.gov/old/
+MASTER_SITES=	ftp://ftp.ee.lbl.gov/
 EXTRACT_SUFX=	.tar.Z
 
-PATCH_SITES=	ftp://samba.anu.edu.au/pub/samba/tcpdump-smb/
-PATCHFILES=	tcpdump-3.2.1-smb-diffs.gz
+PATCH_SITES=	ftp://ftp.samba.org/pub/samba/tcpdump-smb/
+PATCHFILES=	tcpdump-3.4a5-smb.patch
 
 MAINTAINER=	obrien@FreeBSD.org
 
