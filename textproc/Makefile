@@ -44,6 +44,7 @@
     SUBDIR += texi2html
     SUBDIR += textutils
     SUBDIR += tth
+    SUBDIR += tuc
     SUBDIR += txt2html
     SUBDIR += unroff
     SUBDIR += urlview
