@@ -71,6 +71,8 @@ post-install:
 .endif
 .if ${PORTOBJFORMAT} == "aout"
 	${LN} -sf libtiff.so.4.0 ${PREFIX}/lib/libtiff.so
+.else
+	${LN} -sf libtiff.so.4 ${PREFIX}/lib/libtiff.so
 .endif
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
