@@ -23,6 +23,7 @@
     SUBDIR += git
     SUBDIR += gnuls
     SUBDIR += gone
+    SUBDIR += gyvescm
     SUBDIR += ical
     SUBDIR += iselect
     SUBDIR += jive
@@ -48,6 +49,7 @@
     SUBDIR += plan
     SUBDIR += rpm
     SUBDIR += screen
+    SUBDIR += scriptkit
     SUBDIR += sls
     SUBDIR += sma
     SUBDIR += splitvt
