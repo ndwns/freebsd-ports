@@ -9,7 +9,7 @@
 DISTNAME=	enscript_fonts-0.75
 PKGNAME=	enscriptfonts-0.75
 CATEGORIES=	print
-MASTER_SITES=	ftp://peloton.physics.montana.edu/pub/distfiles/
+MASTER_SITES=	ftp://magnesium.net/pub/FreeBSD/xenscript/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	kline@thought.org
