@@ -16,6 +16,6 @@ MAKEFILE=       makefile
 MAINTAINER=     ache@FreeBSD.org
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
