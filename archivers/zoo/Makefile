@@ -3,7 +3,7 @@
 # Date created:         18 October 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       zoo-2.10pl1

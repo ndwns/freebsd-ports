@@ -4,7 +4,7 @@
 # Date created:         28 Dec 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       unrar-2.50

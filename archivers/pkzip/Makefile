@@ -3,7 +3,7 @@
 # Date created:         17 Mar 1999
 # Whom:                 xxx
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pklin251

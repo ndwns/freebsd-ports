@@ -3,7 +3,7 @@
 # Date created:         7 Jan 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       hpack79src

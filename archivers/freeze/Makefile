@@ -3,7 +3,7 @@
 # Date created:         20 Jul 1996
 # Whom:                 lukin@okbmei.msk.su
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       freeze-2.5

@@ -3,7 +3,7 @@
 # Date created:         28 Dec 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       unarj-2.43

@@ -4,7 +4,7 @@
 # Date created:		30 April 1999
 # Whom:			FUJISHIMA Satsuki <k5@respo.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rarlnx25

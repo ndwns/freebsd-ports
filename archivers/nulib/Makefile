@@ -3,7 +3,7 @@
 # Date created:         Thu May  8 00:14:31 PDT 1997
 # Whom:                 Steven Wallace <swallace@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nulib325

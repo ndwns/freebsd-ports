@@ -3,7 +3,7 @@
 # Date created:         31 Dec 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       arc521e.pl8
