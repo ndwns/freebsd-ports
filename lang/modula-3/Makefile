@@ -18,6 +18,10 @@ WRKSRC=		${PORTSDIR}/lang/modula-3-lib/work
 NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
+MAN1=		analyze_coverage.1 formsedit.1 m3browser.1 \
+		m3build.1 m3bundle.1 m3pp.1 m3ship.1 m3tohtml.1 \
+		m3totex.1 m3where.1 quake.1 recordheap.1 \
+		replayheap.1 showheap.1 shownew.1 showthread.1
 
 # Keep these in sync with the PLIST and with the library version numbers
 # in the modula-3-lib port.
@@ -81,15 +85,12 @@ do-install:
 	@cd ${PREFIX}/bin; \
 	    ln -f m3build m3build-${major}; \
 	    ln -f m3build m3build-${major}.${minor}
-.if !defined(NOMANCOMPRESS)
-	@echo "Compressing manual pages"
-	@cd ${temp_prefix}; \
-	    find man -type f | (cd ${PREFIX}; xargs gzip -9nf)
-.endif
 	@echo "Fixing file permissions"
 	@cd ${PREFIX}; \
-	    grep -v "^@" ${PKGDIR}/PLIST | xargs chown ${BINOWN}.${BINGRP}; \
-	    grep -v "^@" ${PKGDIR}/PLIST | xargs chmod go=u-w; \
+	    sed -e "/^@/d" -e "s/\.gz$$//" ${PKGDIR}/PLIST |\
+		xargs chown ${BINOWN}.${BINGRP}; \
+	    sed -e "/^@/d" -e "s/\.gz$$//" ${PKGDIR}/PLIST |\
+		xargs chmod go=u-w; \
 	    find -X lib/m3 -type d | xargs chown ${BINOWN}.${BINGRP}; \
 	    find -X lib/m3 -type d | xargs chmod 755
 	@echo "Running ldconfig"
