@@ -1,13 +1,13 @@
 # New ports collection makefile for:    xvile
-# Version required:     5.2
-# Date created:         Tue Feb 21, 1995
+# Version required:     6.0
+# Date created:         Fri Jun 21, 1996
 # Whom:                 pgf
 #
 # $Id$
 #
 
-DISTNAME=       vile-5.2
-PKGNAME=	xvile-5.2
+DISTNAME=       vile-6.0
+PKGNAME=	xvile-6.0
 CATEGORIES+=	editors
 MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
 
