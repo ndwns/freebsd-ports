@@ -9,7 +9,7 @@
 DISTNAME=	mpeg_encode-1.5b-src
 PKGNAME=	mpeg_encode-1.5b
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://s2k-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/encode/
+MASTER_SITES=	ftp://mm-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/encode/
 
 MAINTAINER=	erich@FreeBSD.org
 

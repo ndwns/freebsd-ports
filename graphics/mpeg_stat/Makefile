@@ -9,7 +9,7 @@
 DISTNAME=	mpeg_stat-2.2b-src
 PKGNAME=	mpeg_stat-2.2b
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://s2k-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/stat/
+MASTER_SITES=	ftp://mm-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/stat/
 
 MAINTAINER=	erich@FreeBSD.org
 
