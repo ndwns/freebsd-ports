@@ -1,7 +1,7 @@
 # New ports collection makefile for:	xgammon
 # Version required:	0.98-14
 # Date created:		02 January 1997
-# Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
+# Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
@@ -15,9 +15,9 @@ EXTRACT_SUFX=	-14.src.rpm
 
 PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	tg@FreeBSD.ORG
+MAINTAINER=	tg@FreeBSD.org
 
-BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
+BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm2cpio
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
