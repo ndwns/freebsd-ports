@@ -15,7 +15,7 @@ PKGNAME=        wwwcount-2.4
 CATEGORIES=     www
 MASTER_SITES=   http://www.fccc.edu/users/muquit/src/wwwcount2.4/
 
-MAINTAINER=     ports@FreeBSD.ORG
+MAINTAINER=     dervish@ikhala.tcimet.net
 
 GNU_CONFIGURE=  yes
 IS_INTERACTIVE= yes
