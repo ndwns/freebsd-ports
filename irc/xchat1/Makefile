@@ -13,7 +13,7 @@ MASTER_SITES=	http://users.mentasm.com/~zed/xchat/files/
 MAINTAINER=	jim@phrantic.phear.net
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		gnomeui.0:${PORSDIR}/x11/gnomelibs
+		gnomeui.0:${PORTSDIR}/x11/gnomelibs
 
 USE_GMAKE=	yes
 USE_PERL5=	yes
