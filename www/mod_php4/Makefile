@@ -109,6 +109,8 @@ pre-configure:
 	&& ${ECHO_MSG} "===>  Configuring for Apache-${VERSION_APACHE}"
 
 post-install:
+	@${RM} -f ${PREFIX}/etc/apache/access.conf*
+	@${RM} -f ${PREFIX}/etc/apache/srm.conf*
 	@if [ ! -f ${PREFIX}/etc/rc.d/apache.sh ]; then \
 		${ECHO} "Installing ${PREFIX}/etc/rc.d/apache.sh startup file."; \
 		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/apache.sh; \
