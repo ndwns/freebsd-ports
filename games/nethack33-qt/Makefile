@@ -9,8 +9,7 @@
 DISTNAME=	nethack-3.2.2
 PKGNAME=	nethack-qt-3.2.2
 CATEGORIES=	games x11
-MASTER_SITES=	ftp://ftp.uu.net/pub/games/nethack/sources/ \
-		http://www.troll.no/~warwick/nethack/ \
+MASTER_SITES=	http://www.troll.no/warwick/nethack/ \
 		${MASTER_SITE_GNU}
 QT_PATCH=	nhqt0.93.tar.gz
 QT_SOUND=	nhs.tar.gz
