@@ -15,12 +15,14 @@ MAKEFILE=	makefile
 
 .if ${DISTNAME} != ${VERSION}
 pre-fetch:
-	mkdir -p ${DISTDIR}/${DISTNAME}
-	${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
-		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch
-	mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFFIX} \
-		${DISTDIR}/${DISTFILES}
-	rmdir ${DISTDIR}/${DISTNAME}
+	if [ -f ${DISTDIR}/${DISTNAME} ] ; then \
+	    mkdir -p ${DISTDIR}/${DISTNAME} ; \
+	    ${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
+		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch ; \
+	    mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFFIX} \
+		${DISTDIR}/${DISTFILES} ; \
+	    rmdir ${DISTDIR}/${DISTNAME} ; \
+	fi
 .endif
 
 .include <bsd.port.mk>
