@@ -1,19 +1,19 @@
 # New ports collection makefile for:   astime
-# Version required:    1.2
+# Version required:    1.5
 # Date created:        21 Nov 1998
 # Whom:                Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	astime-1.2
+DISTNAME=	astime-1.5
 CATEGORIES=	x11-clocks
 MASTER_SITES=	http://bewoner.dma.be/Albert/linux/software/ \
 		ftp://ftp.tux.org/pub/x/afterstep/apps/astime/ \
 		ftp://ftp.digex.net/.2/wm/AfterStep/apps/astime/ \
 		ftp://ftp.bse.bg/pub/Unix/X11/wm/afterstep/apps/astime/
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	kkennawa@physics.adelaide.edu.au
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
