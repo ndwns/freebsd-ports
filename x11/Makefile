@@ -35,6 +35,7 @@
     SUBDIR += XttXF98srv-WABEP
     SUBDIR += XttXF98srv-WABS
     SUBDIR += XttXF98srv-WSNA
+    SUBDIR += aterm
     SUBDIR += bgrot
     SUBDIR += blast
     SUBDIR += bricons
