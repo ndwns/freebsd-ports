@@ -40,4 +40,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/../examples_cxx/${example} ${PREFIX}/share/examples/db
 .endfor
 
+MANUAL_PACKAGE_BUILD=	incompatible with libc version
+
 .include <bsd.port.mk>
