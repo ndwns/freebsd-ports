@@ -1,6 +1,7 @@
 # $Id$
 #
 
+RESTRICTED += ashe		# requires motif
     SUBDIR += axe
     SUBDIR += e93
     SUBDIR += emacs
@@ -13,7 +14,5 @@
     SUBDIR += xcoral
     SUBDIR += xemacs
     SUBDIR += xvile
-
-    NOBUILD += ashe		# requires motif
 
 .include <bsd.port.subdir.mk>
