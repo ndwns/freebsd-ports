@@ -76,6 +76,7 @@
     SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xautolock
+    SUBDIR += xballoon
     SUBDIR += xbanner
     SUBDIR += xcb
     SUBDIR += xco
