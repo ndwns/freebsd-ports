@@ -2,7 +2,7 @@
 #
 
     SUBDIR += amanda
-    SUBDIR += beav
+    SUBDIR += astrolog
     SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
@@ -17,6 +17,7 @@ RESTRICTED += mmv               # restrictive copyright
     SUBDIR += recode
     SUBDIR += rman
     SUBDIR += screen
+    SUBDIR += team
     SUBDIR += tkinfo
     SUBDIR += tkman
 
