@@ -149,6 +149,7 @@
     SUBDIR += wais
     SUBDIR += wget
     SUBDIR += wide-dhcp
+    SUBDIR += wxftp
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
     SUBDIR += xchat
