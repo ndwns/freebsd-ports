@@ -9,7 +9,7 @@
 
 DISTNAME=	crafty-open-rock-19980707
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.cis.uab.edu/pub/hyatt/common/
+MASTER_SITES=	ftp://ftp.cis.uab.edu/pub/hyatt/common/rock/
 DISTFILES=	rock.01 rock.02 rock.03 rock.04 rock.05 rock.06 rock.07 \
 		rock.08 rock.09 rock.10
 
