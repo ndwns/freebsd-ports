@@ -18,7 +18,9 @@ USE_GMAKE=	yes
 DOCDIR=		${PREFIX}/share/doc/libwww
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/Library/src/*.h ${PREFIX}/include
+	@${MKDIR} ${PREFIX}/include/www
+	${INSTALL_DATA} ${WRKSRC}/Library/src/*.h ${PREFIX}/include/www
+	${INSTALL_DATA} ${WRKSRC}/config.h ${PREFIX}/include/www
 	@${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${DOCDIR}/User
