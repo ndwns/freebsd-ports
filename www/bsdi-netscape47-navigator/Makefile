@@ -13,6 +13,7 @@ DISTFILES=      navigator-v45b2-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+BROKEN=		needs upgrade.
 NO_LATEST_LINK=	yes
 WRKSRC=         ${WRKDIR}/navigator-v45b2.x86-unknown-freebsd
 NO_BUILD=       Yes
