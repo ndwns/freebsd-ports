@@ -11,7 +11,7 @@ DISTNAME=       WebMagick-1.44
 CATEGORIES=     www
 MASTER_SITES=   http://www.cyberramp.net/~bfriesen/webmagick/dist/
 
-LIB_DEPENDS=    Magick\\.:${PORTSDIR}/graphics/ImageMagick
+LIB_DEPENDS=    Magick.4:${PORTSDIR}/graphics/ImageMagick
 
 MAINTAINER=     ache@freebsd.org
 
