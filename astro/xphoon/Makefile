@@ -7,10 +7,13 @@
 #
 
 DISTNAME=	xphoon
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11//R5-contrib/
+PKGNAME=	xphoon-91.9.18
 CATEGORIES+=	x11
-MAINTAINER=	asami@FreeBSD.ORG
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11//R5-contrib/
 EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	asami@FreeBSD.ORG
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>
