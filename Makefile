@@ -15,6 +15,7 @@ SUBDIR += emulators
 SUBDIR += games
 SUBDIR += graphics
 SUBDIR += japanese
+SUBDIR += korean
 SUBDIR += lang
 SUBDIR += mail
 SUBDIR += math
