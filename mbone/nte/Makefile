@@ -30,9 +30,9 @@ MAKE_ENV=	TK_SRC=${TK_SRC}
 #Although nte includes an hsearch.c for those who don't have it in
 # libc, there's no way to get the default Makefile to build it.
 # So we build it here.
-pre-build:	${WRKSRC}/freebsd/hsearch.o
+pre-build:	work/freebsd/hsearch.o
 
-${WRKSRC}/freebsd/hsearch.o:	work/src/hsearch.c
+work/freebsd/hsearch.o:	work/src/hsearch.c
 		${CC} -Iwork/src ${CFLAGS} -c -o $@ work/src/hsearch.c
 
 .include <bsd.port.mk>
