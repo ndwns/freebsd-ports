@@ -22,6 +22,8 @@ BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
 		${PREFIX}/share/sgml/docbook/3.0/catalog:${PORTSDIR}/textproc/docbook
 RUN_DEPENDS=	${PREFIX}/share/sgml/docbook/3.0/catalog:${PORTSDIR}/textproc/docbook
 
+BROKEN=		fetch
+
 EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -q -L
 NO_MTREE=	yes
