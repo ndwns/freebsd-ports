@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0o
+DISTNAME=	vim-5.0p
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
@@ -20,7 +20,6 @@ MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAKE_FLAGS=	CONF_ARGS=--prefix=${PREFIX} -f
-USE_GMAKE=	yes
 ALL_TARGET=	
 MAN1=		vim.1 xxd.1 ctags.1
 
