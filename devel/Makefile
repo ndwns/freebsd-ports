@@ -11,6 +11,7 @@
     SUBDIR += dmake
     SUBDIR += gcc11
     SUBDIR += gdb
+    SUBDIR += gdbtk
     SUBDIR += gmake
     SUBDIR += id-utils
     SUBDIR += lclint
