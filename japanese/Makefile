@@ -10,6 +10,7 @@
     SUBDIR += ack
     SUBDIR += bookview
     SUBDIR += camltk41
+    SUBDIR += canuum
     SUBDIR += cdrom2
     SUBDIR += chasen
     SUBDIR += chimera
