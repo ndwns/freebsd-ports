@@ -14,8 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	tg@freebsd.org
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
-RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman \
-		glimpse:${PORTSDIR}/misc/glimpse
+RUN_DEPENDS=	rman:${PORTSDIR}/textproc/rman \
+		glimpse:${PORTSDIR}/textproc/glimpse
 
 NO_CDROM=	"Don't sell for profit"
 MAN1=		tkman.1
