@@ -41,12 +41,12 @@ post-patch:
 post-install:
 .if !defined(NOPORTDOCS)
 	@if [ 'x${DOCFILES}' != x ] ; \
-	then; \
+	then \
 		${ECHO_MSG} "===>  Copying documents to ${PREFIX}/${PORTDOCDIR}"; \
 	fi;
 	mkdir -p ${PREFIX}/${PORTDOCDIR};
 	@for l in ${DOCFILES}; \
-	do; \
+	do \
 		cp ${WRKSRC}/$$l ${PREFIX}/${PORTDOCDIR}; \
 	done
 .else
