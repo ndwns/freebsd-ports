@@ -25,7 +25,7 @@ PLIST_SUB=	DISTNAME=${DISTNAME}
 
 post-install:
 .for f in pl pl-bite plld plrc
-	@strip ${PREFIX}/lib/${DISTNAME}/bin/${ARCH}-freebsd/$f
+	@strip ${PREFIX}/lib/${DISTNAME}/bin/${PERL_ARCH}/$f
 .endfor
 
 .include <bsd.port.mk>
