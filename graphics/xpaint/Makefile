@@ -8,7 +8,7 @@
 
 DISTNAME=       xpaint-2.5.6
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.danbbs.dk/~torsten/xpaint/ \
+MASTER_SITES=	http://www.image.dk/~torsten/xpaint/ \
 		ftp://ftp.win.or.jp/pub/graphics/
 
 MAINTAINER=	jseger@FreeBSD.org
