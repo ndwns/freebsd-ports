@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://sunsite.sut.ac.jp/pub/asia-info/japanese-src/packages/ \
 		ftp://sh.wide.ad.jp/JAPAN/mule/contrib/ \
 		ftp://ftp.funet.fi/pub/gnu/funet/emacs/mule/contrib/ \
 		ftp://ftp.iij.ad.jp/pub/misc/mule/contrib/
-DISTFILES =	${DISTNAME}${EXTRACT_SUFX} kakasidict.940620.gz \
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} kakasidict.940620.gz \
 		kakasi-ext.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG
