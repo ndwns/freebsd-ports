@@ -9,10 +9,10 @@
 DISTNAME=	gnome-libs-0.99.3
 PKGNAME=	gnomelibs-0.99.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.geo.net/pub/gnome/sources/ \
-		ftp://gnomeftp.wgn.net/pub/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/latest/ \
+		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
+		ftp://gnomeftp.wgn.net/pub/gnome/sources/latest/ \
+		ftp://ftp.gnome.org/pub/GNOME/sources/latest/
 
 MAINTAINER=	nacai@iname.com
 
