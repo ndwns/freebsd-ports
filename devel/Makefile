@@ -37,6 +37,7 @@
     SUBDIR += makedepend
     SUBDIR += mkmf
     SUBDIR += mprof
+    SUBDIR += nana
     SUBDIR += noweb
     SUBDIR += omniBroker
     SUBDIR += omniORB
