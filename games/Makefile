@@ -49,6 +49,7 @@
     SUBDIR += tank
     SUBDIR += tksol
     SUBDIR += tvp
+    SUBDIR += xabacus
     SUBDIR += xasteroids
     SUBDIR += xbat
     SUBDIR += xbattle
