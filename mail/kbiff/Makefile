@@ -12,8 +12,8 @@ MASTER_SITES=	http://www.geocities.com/SiliconValley/Hills/2651/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-LIB_DEPENDS=	kdeui\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 FETCH_BEFORE_ARGS=-t

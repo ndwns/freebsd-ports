@@ -15,8 +15,8 @@ MAINTAINER=	hanspb@persbraten.vgs.no
 
 LIB_DEPENDS=	gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
-		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
+		kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 BROKEN=		build
 

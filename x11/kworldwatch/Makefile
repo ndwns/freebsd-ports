@@ -14,9 +14,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	scrappy@freebsd.org
 
-LIB_DEPENDS=	kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
-		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kfm\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 BROKEN=		upgrade
 

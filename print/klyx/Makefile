@@ -13,10 +13,10 @@ MASTER_SITE_SUBDIR= /unstable/apps/office
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
-LIB_DEPENDS=	kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
-		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		kfile\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kfm\\.1\\.:${PORTSDIR}/x11/kdelibs \
+		kfile\\.1\\.:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes
