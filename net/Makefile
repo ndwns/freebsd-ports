@@ -31,6 +31,7 @@
     SUBDIR += tintin++
     SUBDIR += tinyfugue
     SUBDIR += tkined
+    SUBDIR += trafshow
     SUBDIR += vic
     SUBDIR += wais
     SUBDIR += wu-ftpd
