@@ -34,6 +34,7 @@
     SUBDIR += windowmaker
     SUBDIR += windowmaker-i18n
     SUBDIR += wm2
+    SUBDIR += wmakerconf
     SUBDIR += wmx
     SUBDIR += xfce
 
