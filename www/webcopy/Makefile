@@ -12,11 +12,11 @@ DISTNAME=       webcopy-0.98b7
 CATEGORIES+=    www
 MASTER_SITES=   ftp://ftp.inf.utfsm.cl/pub/utfsm/perl/
 DISTFILES=      webcopy.tgz
-ALL_TARGET=
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-NO_PACKAGE=     yes     # See License at the start of the script
+ALL_TARGET=
+NO_CDROM=	yes     # Don't sell for profit without written permission
 
 do-install:
 	cd ${WRKSRC}; ${INSTALL_SCRIPT} webcopy ${PREFIX}/bin
