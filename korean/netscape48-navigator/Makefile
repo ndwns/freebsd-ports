@@ -15,10 +15,10 @@ DISTFILES=	netscape-ko-v301.alpha-dec-osf2.0.tar.gz NLS.tar.gz
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-RUN_DEPENDS+=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
-		${X11BASE}/lib/X11/fonts/misc/hgm12.pcf.gz:${PORTSDIR}/korean/hanyangfonts
+RUN_DEPENDS=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
+		${X11BASE}/lib/X11/fonts/local/hgm12.pcf.gz:${PORTSDIR}/korean/hanyangfonts
 
-RESTRICTED=	"Commercial Software"
+DIST_SUBDIR=	netscape3
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
