@@ -9,7 +9,7 @@
 DISTNAME=	nn-6.5.0.b3
 PKGNAME=	nn-6.5.0
 CATEGORIES=	news
-MASTER_SITES=	ftp://uniwa.uwa.edu.au/pub/nn/beta/
+MASTER_SITES=	ftp://uniwa.uwa.edu.au/pub/nn/old/beta/
 MAINTAINER=     ports@FreeBSD.ORG
 
 MAN1=		nn.1 nncheck.1 nngoback.1 nngrab.1  nngrep.1 nnpost.1 \
