@@ -13,4 +13,10 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+MAN1=		mpeg_musicin.1 mpeg_musicout.1
+
+post-install:
+	${INSTALL_MAN} ${FILESDIR}/mpeg_musicin.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${FILESDIR}/mpeg_musicout.1 ${PREFIX}/man/man1
+
 .include <bsd.port.mk>
