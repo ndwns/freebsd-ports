@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=		java2html-0.5
+DISTNAME=		java2html-0.6.1
 CATEGORIES=		textproc www
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/www/converters
