@@ -13,6 +13,7 @@
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
+    SUBDIR += hex
     SUBDIR += ircII
     SUBDIR += jtex209-ascii
     SUBDIR += jtex209-both
