@@ -19,6 +19,7 @@
     SUBDIR += ircII
     SUBDIR += isc-dhcp
     SUBDIR += ivs
+    SUBDIR += ldap
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += ncftp
