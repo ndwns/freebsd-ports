@@ -1,4 +1,4 @@
-# New ports collection makefile for:    byte
+# New ports collection makefile for:    bytebench
 # Version required:     
 # Date created:         28 December 1995
 # Whom:                 se
@@ -13,6 +13,12 @@ MASTER_SITES=   ftp://ftp.inria.fr/system/benchmark/
 
 MAINTAINER=	se@FreeBSD.org
 
-CFLAGS+=	-static
+do-install:
+		-mkdir -p $(PREFIX)/lib/bytebench
+		for f in Makefile README Run doc pgms results testdir; \
+			do cp -R $(WRKSRC)/$$f $(PREFIX)/lib/bytebench; done
+		echo "!#/bin/sh"		   >  $(PREFIX)/bin/bytebench
+		echo "$(PREFIX)/lib/bytebench/Run" >> $(PREFIX)/bin/bytebench
+		chmod 755 $(PREFIX)/bin/bytebench
 
 .include <bsd.port.mk>
