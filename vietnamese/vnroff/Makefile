@@ -7,7 +7,7 @@
 # $Id$
 #
 
-PKGNAME=	vn-vnroff-2.0
+PKGNAME=	vi-vnroff-2.0
 CATEGORIES=	vietnamese
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Troff/
 DISTFILES=	vnroff.c.Z vnroff.1.Z

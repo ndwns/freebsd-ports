@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	vnterm3.3
-PKGNAME=	vn-vnterm-3.3
+PKGNAME=	vi-vnterm-3.3
 CATEGORIES=	vietnamese x11
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/

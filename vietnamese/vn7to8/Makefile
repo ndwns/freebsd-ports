@@ -1,4 +1,3 @@
-# ex:ts=8
 # New ports collection makefile for:    vn7to8
 # Version required:     1.1.1
 # Date created:         Tue Dec 3, 1996
@@ -9,7 +8,7 @@
 #	version # is VISCII version supported + .<edit_revision>
 
 DISTNAME=	vn7to8
-PKGNAME=	vn-vn7to8-1.1.1
+PKGNAME=	vi-vn7to8-1.1.1
 CATEGORIES=	vietnamese
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/

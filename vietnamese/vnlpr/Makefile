@@ -1,4 +1,3 @@
-# ex:ts=8
 # Ports collection makefile for:  vnlpr
 # Version required:	2.0
 # Date created:		Sat Dec 7, 1996
@@ -8,7 +7,7 @@
 #
 
 DISTNAME=	vnlpr
-PKGNAME=	vn-vnlpr-2.0
+PKGNAME=	vi-vnlpr-2.0
 CATEGORIES=	vietnamese
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/

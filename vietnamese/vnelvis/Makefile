@@ -1,4 +1,3 @@
-# ex:ts=8
 # New ports collection makefile for:    vnelvis
 # Version required:     1.4
 # Date created:         Tue Dec 3, 1996
@@ -8,7 +7,7 @@
 #
 
 DISTNAME=	vnelvis
-PKGNAME=	vn-vnelvis-1.4
+PKGNAME=	vi-vnelvis-1.4
 CATEGORIES=	vietnamese
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Unix/  \
 		ftp://ftp.monash.edu.au/pub/vietnam/unix/
