@@ -14,6 +14,8 @@ MAINTAINER=	nobu@psrc.isac.co.jp
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+ONLY_FOR_ARCHS=	i386
+
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 

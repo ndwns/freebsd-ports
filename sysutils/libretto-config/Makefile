@@ -13,6 +13,8 @@ MASTER_SITES=	http://club.pep.ne.jp/~ishioka/Software/Linux/libapm/
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
+ONLY_FOR_ARCHS=	i386
+
 WRKSRC=		${WRKDIR}/libapm
 PROGRAM_NAME=	libretto-config
 DOCDIR=		${PREFIX}/share/doc/${PROGRAM_NAME}

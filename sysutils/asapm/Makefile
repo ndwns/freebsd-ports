@@ -14,6 +14,8 @@ MAINTAINER=	handy@physics.montana.edu
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+ONLY_FOR_ARCHS=	i386
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install install.man
