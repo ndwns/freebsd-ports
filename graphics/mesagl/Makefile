@@ -7,7 +7,6 @@
 #
 
 DISTNAME=       Mesa-2.0
-PKGNAME=	Mesa-2.0
 CATEGORIES=	graphics
 MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/
 
