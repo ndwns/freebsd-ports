@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.lzh
 
 MAINTAINER=	itojun@itojun.org
 
+BROKEN=		"Post office stopped supplying the original distribution"
+
 BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 		nkf:${PORTSDIR}/japanese/nkf
 
