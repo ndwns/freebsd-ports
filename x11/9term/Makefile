@@ -13,6 +13,9 @@ MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org
 
+# needs library and private header
+DEPENDS=	${PORTSDIR}/plan9/sam
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
