@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.bostic.com/pub/ \
 
 MAINTAINER=	itojun@itojun.org
 
+BROKEN=		perl upgrade
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes
 USE_PERL5=	yes
