@@ -25,7 +25,7 @@ MD5_FILE=	${FILESDIR}/md5.SSL
 PATCHDIR=	${.CURDIR}/patches.SSL
 PKGDIR=		${.CURDIR}/pkg.SSL
 CONFIGURE_SCRIPT=	configure.SSL
-#DEPENDS=	${PORTSDIR}/security/SSLeay
+DEPENDS=	${PORTSDIR}/security/SSLeay
 
 post-extract:
 	@cd ${WRKSRC} && tar xzf ${DISTDIR}/${SSL_EXTRAS}
