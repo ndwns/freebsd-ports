@@ -30,5 +30,13 @@ CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include \
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	chown root.kmem ${PREFIX}/bin/cpuload_applet
+	chown root.kmem ${PREFIX}/bin/cpumemusage_applet
+	chown root.kmem ${PREFIX}/bin/diskusage_applet
+	chown root.kmem ${PREFIX}/bin/multiload_applet
+	chmod 2555 ${PREFIX}/bin/cpuload_applet
+	chmod 2555 ${PREFIX}/bin/cpumemusage_applet
+	chmod 2555 ${PREFIX}/bin/diskusage_applet
+	chmod 2555 ${PREFIX}/bin/multiload_applet
 
 .include <bsd.port.mk>
