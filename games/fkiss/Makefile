@@ -11,7 +11,7 @@ PKGNAME=	fkiss-0.28
 CATEGORIES=	games
 MASTER_SITES=	http://www2s.biglobe.ne.jp/~yav/soft/fkiss/
 
-MAINTAINER=	flathill@flathill.gr.jp
+MAINTAINER=	flathill@FreeBSD.ORG
 
 RUN_DEPENDS=	lha:${PORTSDIR}/archivers/lha
 

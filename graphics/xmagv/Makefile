@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.vector.co.jp/pack/unix/art/graphics/loader/mag/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	flathill@flathill.gr.jp
+MAINTAINER=	flathill@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/xmagv
 GNU_CONFIGURE=	yes
