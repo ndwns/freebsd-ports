@@ -2,6 +2,7 @@
 #
 
     SUBDIR += amanda
+    SUBDIR += asrpages
     SUBDIR += astrolog
     SUBDIR += buffer
     SUBDIR += cal
