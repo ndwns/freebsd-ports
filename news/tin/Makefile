@@ -16,10 +16,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ache@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
 GNU_CONFIGURE=	yes
+USE_GMAKE=	yes
 
 # Curses support too buggy to activate
 #                 --enable-curses \
