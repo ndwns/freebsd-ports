@@ -15,7 +15,7 @@ DISTFILES=	TypeHack-19980625.tar.gz watanabe-vf.tar.Z
 MAINTAINER=	mita@jp.FreeBSD.org
 
 BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
-LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
+LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
 
 EXTRACT_ONLY=	TypeHack-19980625.tar.gz
 WRKSRC=		${WRKDIR}/TypeHack-19980625/VFlib2-2.23.1

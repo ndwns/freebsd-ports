@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR= apps/editors/X
 
 MAINTAINER=	rch@WriteMe.Com
 
-LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
+LIB_DEPENDS=	ttf.3:${PORTSDIR}/print/freetype
 
 CONFIGURE_ENV=	LC_ALL=C
 GNU_CONFIGURE=	YES
