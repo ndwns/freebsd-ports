@@ -6,6 +6,6 @@
 #
 
 SUBDIR= amanda chord colorls cpm hfs iozone ispell less mmv mshell mtools \
-	pcemu rman screen top tua xdu xsysstats 
+	pcemu rman screen top tua xbatt xdu xsysstats 
 
 .include <bsd.port.subdir.mk>
