@@ -1,15 +1,13 @@
 # New ports collection makefile for:	yafc
-# Version required:	0.4.4
+# Version required:	0.4.5
 # Date created:		10 June 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=	yafc-0.4.4
+DISTNAME=	yafc-0.4.5
 CATEGORIES=	net
-# http master site has a corrupted distfile
-#MASTER_SITES=	http://www.stacken.kth.se/~mhe/yafc/ \
 MASTER_SITES=	ftp://mayer.physto.se/pub/yafc/
 
 MAINTAINER=	cpiazza@FreeBSD.org
