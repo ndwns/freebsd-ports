@@ -5,6 +5,7 @@
     SUBDIR += afio
     SUBDIR += asapm
     SUBDIR += asrpages
+    SUBDIR += bchunk
     SUBDIR += bkpupsd
     SUBDIR += cd-write
     SUBDIR += cdrecord
