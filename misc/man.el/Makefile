@@ -15,8 +15,8 @@ MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
 RUN_DEPENDS=	jman:${PORTSDIR}/japanese/man
 
-NO_WRKDIR=	yes
-NO_EXTRACT=	yes
+EXTRACT_ONLY=	# empty
+NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
 ELISPDIR=	${PREFIX}/share/emacs/site-lisp
