@@ -20,8 +20,10 @@ pkgdir=lib/m3/pkg
 cd ${newpath}/${pkgdir}
 for i in `cd ${oldpath}/${pkgdir}; \
   find . -type f \( -name .M3IMPTAB -o -name FreeBSD2 \)`; do
-    test -f ${i}.bak || cp -p ${i} ${i}.bak
-    rm -f ${i}
-    sed -e "s|/[^ 	]*/work/installed/|${newpath}/|g" ${i}.bak >${i} && \
-      rm -f ${i}.bak
+    if [ -f ${i} ]; then
+	test -f ${i}.bak || cp -p ${i} ${i}.bak
+	rm -f ${i}
+	sed -e "s|/[^ 	]*/work/installed/|${newpath}/|g" ${i}.bak >${i} && \
+	  rm -f ${i}.bak
+    fi
 done

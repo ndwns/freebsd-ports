@@ -19,17 +19,17 @@ LIB_DEPENDS=	m3.6:${PORTSDIR}/lang/modula-3-lib
 MAN1=		cvsup.1
 MAN8=		cvsupd.8
 
-# Support building on systems with or without X11 installed.  The
-# modula-3-lib port only supports X11R6 in the standard location,
-# so we don't bother using the X11BASE macro.  It's not defined yet
-# at this point in the Makefile anyway.
-.if !exists(/usr/X11R6/lib/libX11.a)
+# Support building on systems with or without X11 installed.
+.ifdef NO_X11
 M3FLAGS+=	-DNOGUI
+.else
+pre-fetch:
+	@echo -n "To build this port without X11 (and without the GUI),"
+	@echo " define \"NO_X11\"."
+
 .endif
 
 # Build options.  Uncomment the desired ones.
-# To build the client without GUI support (automatic if X11R6 is not found):
-#M3FLAGS+=	-DNOGUI
 # To link the programs statically:
 #M3FLAGS+=	-DSTATIC
 # To link just the Modula-3 libraries statically:
