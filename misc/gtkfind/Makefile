@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.oz.net/~mattg/
 
 MAINTAINER=	billf@FreeBSD.org
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
 MAN1=		gtkfind.1 mktmp.1
 
