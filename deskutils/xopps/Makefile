@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://devvax.jpl.nasa.gov/pub/xopps/
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN_ELF=	yes
+
 ALL_TARGET=
 USE_X_PREFIX=	yes
 REQUIRES_MOTIF=	yes
