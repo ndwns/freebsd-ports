@@ -33,6 +33,7 @@
     SUBDIR += ircII
     SUBDIR += iv
     SUBDIR += japaneseAFM
+    SUBDIR += jcode-pl
     SUBDIR += jtex209-ascii
     SUBDIR += jtex209-both
     SUBDIR += jtex209-ntt
