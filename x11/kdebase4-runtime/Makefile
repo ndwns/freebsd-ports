@@ -29,5 +29,3 @@ MAKE_ENV=	RM=${RM}
 CFLAGS+=	"-I$(PREFIX)/include"
 
 .include <bsd.port.mk>
-
-#CONFIGURE_ARGS+="--with-install-root=/data/kde"

@@ -28,5 +28,3 @@ CONFIGURE_ENV= CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
 
 .include <bsd.port.mk>
-
-#CONFIGURE_ARGS+="--with-install-root=/data/kde"

@@ -26,5 +26,3 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 USE_GMAKE=	yes
 
 .include <bsd.port.mk>
-
-#CONFIGURE_ARGS+="--with-install-root=/data/kde"

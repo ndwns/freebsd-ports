@@ -36,5 +36,3 @@ pre-configure:
 		${LN} -sf $(PREFIX)/include/uu.h $(WRKSRC)/krn/uudeview.h
 
 .include <bsd.port.mk>
-
-#CONFIGURE_ARGS+="--with-install-root=/data/kde"

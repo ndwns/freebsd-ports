@@ -27,5 +27,3 @@ CFLAGS+=	"-I${PREFIX}/include"
 USE_GMAKE=	yes
 
 .include <bsd.port.mk>
-
-#CONFIGURE_ARGS+="--with-install-root=/data/kde"
