@@ -79,6 +79,7 @@
     SUBDIR += unclutter
     SUBDIR += us-zipcodes
     SUBDIR += viz
+    SUBDIR += wmcp
     SUBDIR += wmweather
     SUBDIR += xd
     SUBDIR += xdelta
