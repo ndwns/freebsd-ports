@@ -13,7 +13,6 @@ CATEGORIES=     sysutils
 MASTER_SITES=	ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller/ \
 		ftp://ftp.u-aizu.ac.jp/pub/misc/tools/xperfmon/ \
 		ftp://ftp.ibank.ru/pub/unix_src/benchmarks/
-
 DISTFILES=	xperfmon++v1.1.tar.Z
 
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
