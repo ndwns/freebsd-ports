@@ -1,12 +1,12 @@
 # New ports collection makefile for:	DOC++
 # Date created:		20 Dec 1998
 # Whom:			Ruslan@Shevchenko.Kiev.UA
-# Version required:	3.3.11
+# Version required:	3.3.13
 #
 # $Id$
 #
 
-DISTNAME=	doc++-3.3.11
+DISTNAME=	doc++-3.3.13
 CATEGORIES=	devel
 MASTER_SITES=	http://www.imaginator.com/doc++/
 
