@@ -12,6 +12,7 @@
     SUBDIR += rclock
     SUBDIR += swisswatch
     SUBDIR += t3d
+    SUBDIR += wmcalclock
     SUBDIR += wmitime
     SUBDIR += wmtime
     SUBDIR += xalarm
