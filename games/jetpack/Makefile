@@ -11,6 +11,7 @@ PKGNAME=	jetpack-1.0
 CATEGORIES+=	games
 MASTER_SITES=	ftp://qiclab.scn.rain.com/pub/games/
 DISTFILES=	jetpack.tar.Z
+MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
 MAKE_FLAGS=	PREFIX=${PREFIX} -f

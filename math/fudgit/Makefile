@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.physics.mcgill.ca/pub/Fudgit/
 DISTFILES=	fudgit_2.41.tar.gz
 
 USE_GMAKE=	yes
+MAINTAINER=	jmz@FreeBSD.org
 
 pre-install:
 	@mkdir -p ${PREFIX}/bin
