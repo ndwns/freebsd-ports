@@ -11,6 +11,7 @@
     SUBDIR += ashe           # requires Motif
     SUBDIR += aswedit
     SUBDIR += cgiparse
+    SUBDIR += checkbot
     SUBDIR += chimera
     SUBDIR += chimera2
     SUBDIR += comline

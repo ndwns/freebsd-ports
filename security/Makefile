@@ -17,6 +17,7 @@
     SUBDIR += p5-MD5
     SUBDIR += p5-PGP
     SUBDIR += pgp
+    SUBDIR += pgp5
     SUBDIR += pidentd
     SUBDIR += rsaref
     SUBDIR += ssh

@@ -40,6 +40,7 @@
     SUBDIR += sokoban
     SUBDIR += spider
     SUBDIR += starlanes
+    SUBDIR += tank
     SUBDIR += tksol
     SUBDIR += tvp
     SUBDIR += xasteroids
