@@ -6,11 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	licq-0.34
+DISTNAME=	licq-0.44
 CATEGORIES=	net
 MASTER_SITES=	http://pages.infinit.net/fairoff/licq/
 
-MAINTAINER=	brianfeldman@hotmail.com
+MAINTAINER=	green@unixhelp.org
+
+FETCH_BEFORE_ARGS=	-b
 
 USE_QT=		yes
 WRKSRC=		${WRKDIR}/${DISTNAME}
@@ -18,5 +20,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-qt-includes=${X11BASE}/include/X11/qt --with-qt-libs=${X11BASE}/lib
+
+MAN1=		licq.1
 
 .include <bsd.port.mk>
