@@ -16,7 +16,10 @@ MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/xc/lib/Xaw3d
 USE_IMAKE=	yes
 
+post-extract:
+	/bin/ln -sf export/include ${WRKSRC}/X11
+
 post-install:
-	/sbin/ldconfig -m ${PREFIX}/lib
+	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
