@@ -1,22 +1,20 @@
 # New ports collection makefile for:	p5-SNMP
-# Version required:			1.6
+# Version required:			1.8b3
 # Date created:				May 5th 1997
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $Id$
 #
 
-DISTNAME=	SNMP-1.6
-PKGNAME=	p5-SNMP-1.6
+DISTNAME=	SNMP-1.8b3
+PKGNAME=	p5-SNMP-1.8b3
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	SNMP
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	${PREFIX}/lib/libsnmp.a:${PORTSDIR}/net/ucd-snmp
-
-BROKEN=		build
+LIB_DEPENDS= 	snmp.3:${PORTSDIR}/net/ucd-snmp
 
 USE_PERL5=	YES
 
