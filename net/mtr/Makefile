@@ -8,7 +8,8 @@
 
 DISTNAME=	mtr-0.28
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/
+MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/ \
+		http://www.FreeBSD.org/~billf/distfiles/
 
 MAINTAINER=	billf@FreeBSD.org
 
