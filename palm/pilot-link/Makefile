@@ -10,13 +10,14 @@ PKGNAME=	pilot-link-0.8.9
 CATEGORIES=	comms pilot tk80
 MASTER_SITES=	ftp://ryeham.ee.ryerson.ca/pub/PalmOS/
 
-MAINTAINER=	pst@freebsd.org
+MAINTAINER=	jkh@freebsd.org
 
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 USE_PERL5=	yes
+PREFIX=		${LOCALBASE}/pilot
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-perl5=${PREFIX}/bin/perl
+CONFIGURE_ARGS=	--with-perl5=${LOCALBASE}/bin/perl5
 
 MAN1=		dlpsh.1 ietf2datebook.1 install-datebook.1 \
 		install-memo.1 install-user.1 pilot-xfer.1 \
