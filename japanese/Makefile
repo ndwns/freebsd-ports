@@ -104,6 +104,7 @@
     SUBDIR += vfxdvi
     SUBDIR += w3
     SUBDIR += weblint97
+    SUBDIR += x0212font
     SUBDIR += xdvi
     SUBDIR += xshodo
 
