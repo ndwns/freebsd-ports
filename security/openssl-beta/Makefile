@@ -1,11 +1,11 @@
 # New ports collection makefile for:	Eric Young's SSL/Crypto Library
-# Version required:	0.8.1
+# Version required:	0.8.1b
 # Date created:		15 Aug 1997
 # Whom:			markm@freebsd.org
 #
 # $Id$
 
-DISTNAME=		SSLeay-0.8.1
+DISTNAME=		SSLeay-0.8.1b
 CATEGORIES=		devel security
 MASTER_SITES=		ftp://psych.psy.uq.oz.au/pub/Crypto/SSL/
 
