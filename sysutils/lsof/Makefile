@@ -7,10 +7,12 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.40_W
-PKGNAME=	lsof-4.40
+DISTNAME=	lsof_4.41G.freebsd
+#DISTNAME=	lsof_4.40_W
+PKGNAME=	lsof-4.40g
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
+		ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/NEW/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
 		ftp://ftp.auscert.org.au/pub/mirrors/vic.cc.purdue.edu/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
@@ -22,6 +24,7 @@ WRKSRC=		${WRKDIR}/${SRCBALL_NAME}
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=	-n freebsd
+CONFIGURE_ENV= LSOF_CC=${CC}
 MAN8=		lsof.8
 
 .if defined(PACKAGE_BUILDING)
@@ -30,6 +33,7 @@ BROKEN=	'please install kernel source for offical package builds'
 .endif
 .endif
 
+.if 0
 SRCBALL_NAME=	${DISTNAME:S/_W$//}
 
 post-extract:
@@ -44,6 +48,9 @@ post-extract:
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS:S/z//} ${SRCBALL_NAME}.tar \
 	)
 	@( cd ${WRKSRC} ; echo "y" | ./Inventory || exit 1 )
+.else
+WRKSRC=${WRKDIR}/lsof_4.41G.freebsd
+.endif
 
 #pre-patch:
 #	@${ECHO_MSG} "===>  Applying distribution patches for ${PKGNAME}"
@@ -58,6 +65,7 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/scripts/* ${PREFIX}/share/lsof
 	@/bin/chmod 0444 ${PREFIX}/share/lsof/00*
 
+.if !exists(/sys/miscfs/fdesc/fdesc.h) && !exists(/usr/src/miscfs/fdesc/fdesc.h)
 post-install:
 	@${ECHO} "************************************************************"
 	@${ECHO} "*                      W a r n i n g                       *"
@@ -66,6 +74,7 @@ post-install:
 	@${ECHO} "* If this is the case, please ensure /sys is consistant    *"
 	@${ECHO} "* with respect to your running kernel (i.e. not new than). *"
 	@${ECHO} "************************************************************"
+.endif
 
 
 .include <bsd.port.mk>
