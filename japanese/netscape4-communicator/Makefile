@@ -25,7 +25,6 @@ MSG_LANG=
 RESOURCE_BASE=	Netscape-us-v404
 MSG_LANG=		-us
 .endif
-# is it REALLY necessery?
 RUN_DEPENDS=	${X11BASE}/lib/X11/k12:${PORTSDIR}/japanese/k12 \
 		${X11BASE}/lib/X11/fonts/misc/5x10B.pcf.Z:${PORTSDIR}/japanese/k10
 
