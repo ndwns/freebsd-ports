@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	tkrat-1.1
+DISTNAME=	tkrat-1.2
 CATEGORIES=	mail tk80
 MASTER_SITES=	ftp://ftp.md.chalmers.se/pub/tkrat/ \
 		ftp://ftp.sunet.se/pub/unix/mail/tkrat/
