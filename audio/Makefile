@@ -18,6 +18,7 @@
     SUBDIR += libaudiofile
     SUBDIR += maplay
     SUBDIR += mikmod
+    SUBDIR += mp3encode
     SUBDIR += mp3info
     SUBDIR += mpegaudio
     SUBDIR += mpg123
