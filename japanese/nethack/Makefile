@@ -11,7 +11,7 @@ PKGNAME=	jp-nethack-1.0.5.3.1
 CATEGORIES=	japanese games
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/jnethack/
+PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/nethack/
 PATCHFILES=	jnethack-1.0.5.3-beta-960925.gz
 
 MAINTAINER=	max@FreeBSD.ORG
