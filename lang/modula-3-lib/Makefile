@@ -50,7 +50,7 @@ DISTFILES+=	m3-fbsd-gcc-3.6.tar.gz
 
 # Startup script, run at boot time
 startup_dir=	${PREFIX}/etc/rc.d
-startup_script=	${startup_dir}/m3.sh
+startup_script=	${startup_dir}/50.m3.sh
 
 # The Modula-3 build process insists on installing each individual
 # component immediately after that component is built.  To avoid having
