@@ -41,5 +41,6 @@
     SUBDIR += xperfmon
     SUBDIR += xsysinfo
     SUBDIR += xsysstats
+    SUBDIR += xwatch
 
 .include <bsd.port.subdir.mk>
