@@ -19,5 +19,8 @@ post-install:
 	gzip -9nf ${PREFIX}/man/man1/emacs.1
 	gzip -9nf ${PREFIX}/man/man1/etags.1
 	gzip -9nf ${PREFIX}/man/man1/ctags.1
+	for file in emacs-19.29 emacsclient etags ctags b2m; do \
+	  strip ${PREFIX}/bin/$$file; \
+	done
 
 .include <bsd.port.mk>
