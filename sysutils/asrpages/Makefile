@@ -12,7 +12,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.winternet.com/users/eric/
 DISTFILES=	asr.pages.tar
 
-MAINTAINER=	axl@iafrica.com
+MAINTAINER=	sheldonh@FreeBSD.org
 
 EXTRACT_CMD=	${TAR}
 EXTRACT_BEFORE_ARGS=	-xf

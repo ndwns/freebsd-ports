@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.cus.cam.ac.uk/pub/software/programs/exim/ \
 		ftp://ftp.is.co.za/networking/mail/transport/exim/
 DISTFILES=	exim-3.02.tar.gz exim-texinfo-3.00.tar.gz
 
-MAINTAINER=	sheldonh@FreeBSD.ORG
+MAINTAINER=	sheldonh@FreeBSD.org
 
 # If USE_XLIB is defined, the eximon monitor, which requires X, will be
 # built.
