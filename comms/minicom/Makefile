@@ -15,8 +15,6 @@ MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/  \
 		http://www.clinet.fi/~walker/
 MASTER_SITE_SUBDIR=	apps/serialcomm/dialout
 
-WWW_SITE=	http://www.pp.clinet.fi/~walker/minicom.html
-
 MAINTAINER=     obrien@FreeBSD.org
 
 RUN_DEPENDS=	lrz:${PORTSDIR}/comms/lrzsz \
