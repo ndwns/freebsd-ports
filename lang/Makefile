@@ -31,7 +31,6 @@
     SUBDIR += moscow_ml
     SUBDIR += ocaml
     SUBDIR += p2c
-    SUBDIR += pTk
     SUBDIR += pbasic
     SUBDIR += perl5
     SUBDIR += pgcc
