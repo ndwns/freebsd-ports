@@ -43,6 +43,7 @@
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += radius
+    SUBDIR += ratoolset
     SUBDIR += rdist6
     SUBDIR += rmsg
     SUBDIR += rsync
