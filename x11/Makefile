@@ -1,9 +1,10 @@
 # $Id$
 #
-SUBDIR=	Xaw3d color_xterm emu fvwm iv ivs jpeg kterm olvwm pcb piewm tk \
-	tkhfs xanim xarchie \
-	xcdplayer xdvi xearth xgraph xli xlockmore xpm xsnow xtexshell xv \
-	ImageMagick ctwm mpeg-lib tiff
+SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
+	jpeg kterm mpeg-lib olvwm \
+	pcb piewm tiff tk tkhfs xanim xarchie \
+	xcdplayer xdvi xearth xfig xgraph xli xlockmore xpm xsnow \
+	xtexshell xv
 
 #
 # imm & nv depends on tk, so might as well build tk first...
