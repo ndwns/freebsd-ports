@@ -40,13 +40,10 @@ EXTRACT_ONLY=	xemacs-20.4.tar.gz xemacs-20.4-elc.tar.gz \
 	japanese/xemacs-canna+wnn6 \
 	japanese/xemacs-wnn4 \
 	japanese/xemacs-wnn6
-.if exists(${WRKDIRPREFIX}${PORTSDIR}/${dir}/work/.install_done)
-WRKDIR=		${WRKDIRPREFIX}${PORTSDIR}/${dir}/work
-.if !exists(${WRKDIR}/.install_done-${PKGNAME})
-rvalue_touch!=	${TOUCH} ${WRKDIR}/.install_done-${PKGNAME}
-.endif
-.elif exists(${WRKDIRPREFIX}${PORTSDIR}/${dir}/work/.build_done)
-WRKDIR?=	${WRKDIRPREFIX}${PORTSDIR}/${dir}/work
+.if exists(${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work/.install_done)
+WRKDIR=		${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work
+.elif exists(${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work/.build_done)
+WRKDIR?=	${WRKDIRPREFIX}${.CURDIR}/../../${dir}/work
 .endif
 .endfor
 WRKSRC= ${WRKDIR}/xemacs-20.4
