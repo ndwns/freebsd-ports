@@ -26,6 +26,7 @@
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
+    SUBDIR += xfsm
     SUBDIR += xloadface
     SUBDIR += xosview
     SUBDIR += xperfmon
