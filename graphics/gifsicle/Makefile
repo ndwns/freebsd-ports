@@ -16,6 +16,7 @@ MAINTAINER=	bradh@iafrica.com
 MAN1=		gifsicle.1
 
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 
 post-install:
 .if !defined(NOPORTDOCS)
