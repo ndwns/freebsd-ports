@@ -5,6 +5,7 @@
     SUBDIR += 3dpong
     SUBDIR += KnightCap
     SUBDIR += acm
+    SUBDIR += actx
     SUBDIR += affenspiel
     SUBDIR += agm
     SUBDIR += an
@@ -61,6 +62,7 @@
     SUBDIR += maelstrom
     SUBDIR += mangband
     SUBDIR += merlin
+    SUBDIR += mindfocus
     SUBDIR += mirrormagic
     SUBDIR += nethack
     SUBDIR += nethack-qt
