@@ -16,8 +16,9 @@ MAINTAINER=		troll@digitalspark.net
 
 MAKEFILE=		Makefile
 WRKSRC=			${WRKDIR}/vMac-0.1.9.3
-USE_GMAKE=		YES
+USE_GMAKE=	 	yes
 HAS_CONFIGURE=		yes
+USE_XLIB=		yes
 
 pre-patch:
 	(cd ${WRKSRC} && sh ${FILESDIR}/dos2unx gemulator.c)
