@@ -16,7 +16,7 @@ MAINTAINER=	lukin@okbmei.msk.su
 
 WRKSRC=		${WRKDIR}/DND/DNDlib
 GNU_CONFIGURE=	yes
-ALL_TARGET=	libC libCpp
+CONFIGURE_ENV+=	CXXFLAGS="${CFLAGS}"
 
 post-install:
 .if !defined(NOPORTDOCS)
