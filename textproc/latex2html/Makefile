@@ -25,6 +25,9 @@ NO_BUILD=	yes
 IS_INTERACTIVE=	yes
 NO_PACKAGE=	An interrogation follows installation
 
+post-patch:
+	@${PERL} -pi -e 's:/usr/local/bin/perl:${PERL}:' ${WRKSRC}/latex2html
+
 do-install:
 	@${MKDIR} ${PREFIX}/share/latex2html
 	@${INSTALL_DATA} ${FILESDIR}/local.pm ${PREFIX}/share/latex2html
