@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/moraes/
 
 MAINTAINER=	obrien@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	installs malloc.h
+
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
 	@(cd ${PREFIX}/include ; ln -sf malloc.h libmalloc.h)
