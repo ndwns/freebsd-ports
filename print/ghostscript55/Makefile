@@ -60,8 +60,8 @@ post-extract:
 	${TOUCH} ${WRKSRC}/adler32.o
 	${TOUCH} ${WRKSRC}/deflate.o
 	${TOUCH} ${WRKSRC}/trees.o
-	ln -s ${PORTSDIR}/graphics/jpeg/work/jpeg-6b ${WRKSRC}/jpeg-6b
-	ln -s ${PORTSDIR}/graphics/png/work/libpng-1.0.2 ${WRKSRC}/libpng
+	ln -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/jpeg/work/jpeg-6b ${WRKSRC}/jpeg-6b
+	ln -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/png/work/libpng-1.0.2 ${WRKSRC}/libpng
 	cd ${WRKSRC} && unzip -Lao ${DISTDIR}/${HP850_DRV}
 
 do-configure:
