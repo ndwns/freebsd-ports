@@ -16,6 +16,7 @@
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
+    SUBDIR += bnetd
     SUBDIR += bogged
     SUBDIR += bs
     SUBDIR += bugsx
