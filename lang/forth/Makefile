@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	pfe099
-PKGNAME=	pfe-0.9.9
+DISTNAME=	pfe-0.9.9
 CATEGORIES=	lang
-MASTER_SITES=	ftp://sunsite.unc.edu/pub/languages/forth/
-DISTFILES=	pfe-0.9.9.tar.gz
+MASTER_SITES=	ftp://sunsite.unc.edu/pub/multimedia/.languages/forth/ \
+		ftp://ftp.lysator.liu.se/pub/languages/forth/ \
+		ftp://ftp.uni-potsdam.de/pub/lang/forth/
 
 MAINTAINER=	ports@FreeBSD.org
 
@@ -20,4 +20,3 @@ pre-install:
 	@${CP} ${WRKSRC}/pfe.1 ${PREFIX}/man/man1/pfe.1
 
 .include <bsd.port.mk>
-
