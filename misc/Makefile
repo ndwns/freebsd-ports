@@ -63,6 +63,7 @@
     SUBDIR += x-files
     SUBDIR += xd
     SUBDIR += xdelta
+    SUBDIR += xenmenu
     SUBDIR += xgas
     SUBDIR += xless
     SUBDIR += xpns
