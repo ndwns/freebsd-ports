@@ -8,7 +8,7 @@
 
 DISTNAME=	msql-1.0.16
 CATEGORIES=	databases
-MASTER_SITES=	ftp://bond.edu.au/pub/Minerva/msql/
+MASTER_SITES=	http://hughes.com.au/software/msql1/
 
 MAINTAINTER=	jfitz@FreeBSD.ORG
 
