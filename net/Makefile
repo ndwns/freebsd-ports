@@ -93,6 +93,7 @@
     SUBDIR += ldap
     SUBDIR += lftp
     SUBDIR += libicq
+    SUBDIR += libnet
     SUBDIR += libsocket++
     SUBDIR += licq
     SUBDIR += llnlxdir
