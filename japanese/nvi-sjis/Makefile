@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 
-PKGNAME=	ja-nvi-sjis-1.79.19970820
+PKGNAME=	ja-nvi-sjis-1.79.19981119
 
 .include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
 

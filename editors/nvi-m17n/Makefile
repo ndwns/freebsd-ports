@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	nvi-1.79
-PKGNAME?=	nvi-m17n-1.79.19970820
+PKGNAME?=	nvi-m17n-1.79.19981119
 CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.bostic.com/pub/\
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
 PATCH_SITES=	ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
-PATCHFILES=	nvi-1.79.m17n-970820-1600.diff.gz
+PATCHFILES=	nvi-1.79.m17n-981119.diff.gz
 
 MAINTAINER=	itojun@itojun.org
 
@@ -21,8 +21,7 @@ MAINTAINER=	itojun@itojun.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes
-# can't say PATCH_DIST_STRIP=-p1 because contains files outside ${WRKSRC}
-PATCH_DIST_ARGS=-d ${WRKSRC}/.. --forward --quiet -E -p0
+PATCH_DIST_ARGS=-d ${WRKSRC}/.. --forward --quiet -E -p1 -f
 CONFIGURE_ENV=	OPTFLAG='-D_PATH_SYSEXRC=\"${PREFIX}/etc/vi.exrc\"'
 CONFIGURE_ARGS=	--enable-multibyte --program-prefix=n
 

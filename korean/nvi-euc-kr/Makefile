@@ -12,7 +12,7 @@ PATCHDIR=	${.CURDIR}/../../editors/nvi-m17n/patches
 PKGDIR=		${.CURDIR}/../../editors/nvi-m17n/pkg
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
-PKGNAME=	ko-nvi-euckr-1.79.19970820
+PKGNAME=	ko-nvi-euckr-1.79.19981119
 
 .include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
 
