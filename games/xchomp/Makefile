@@ -8,7 +8,7 @@
 
 DISTNAME=       xchomp-pl1
 CATEGORIES+=	games
-MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/mirrors/X/R5contrib/
+MASTER_SITES=	ftp://ftp.uoknor.edu/mirrors/X/R5contrib/
 #
 # Original sources in multi-part compressed shell archive
 #
