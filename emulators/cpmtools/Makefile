@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cpm-1.1
-
+MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 MAINTAINER=	joerg@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/cpm
