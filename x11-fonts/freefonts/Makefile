@@ -8,7 +8,7 @@
 
 DISTNAME=	freefonts-0.10
 CATEGORIES=	x11
-MASTER_SITES=	ftp:/ftp.gimp.org/pub/gimp/fonts/
+MASTER_SITES=	ftp://ftp.gimp.org/pub/gimp/fonts/
 
 MAINTAINER=	erich@FreeBSD.org
 
