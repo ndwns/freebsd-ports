@@ -6,6 +6,7 @@
     SUBDIR += cnews
     SUBDIR += diablo
     SUBDIR += dnews
+    SUBDIR += fidogate
     SUBDIR += ifmail
     SUBDIR += inn
     SUBDIR += knews
