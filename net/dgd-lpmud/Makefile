@@ -26,7 +26,7 @@ PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 #		-r ${PKGDIR}/REQ
 
 do-build:
-	@cd ${WRKDIR}/bin; make
+	@cd ${WRKDIR}/mud/bin; make
 
 do-install:
 	@tar -C ${WRKDIR} -cf - `grep '^[a-z]' ${PKGDIR}/PLIST` \
