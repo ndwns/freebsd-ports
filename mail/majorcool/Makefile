@@ -13,10 +13,9 @@ MASTER_SITES=	http://ncrinfo.ncr.com/pub/contrib/unix/MajorCool/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5
-
 NO_BUILD=	yes
 NO_PACKAGE=	"Too many questions"
+USE_PERL5=	yes
 WRKSRC=		${WRKDIR}
 
 do-install:
