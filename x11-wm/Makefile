@@ -3,6 +3,7 @@
 
     SUBDIR += afterstep
     SUBDIR += afterstep-devel
+    SUBDIR += afterstep-i18n
     SUBDIR += amiwm
     SUBDIR += blackbox
     SUBDIR += ctwm
