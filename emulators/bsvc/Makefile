@@ -14,7 +14,7 @@ EXTRACT_SUFX=	-src.tar.z
 
 MAINTAINER=	tenser@spitfire.ecsel.psu.edu
 
-RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11-toolkits/tk41
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 

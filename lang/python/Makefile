@@ -46,7 +46,7 @@ SETUP_FILE=	Setup
 #
 WITH_TK?=	yes
 .if defined(WITH_TK) && $(WITH_TK) == yes
-TK_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
+TK_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11-toolkits/tk80
 SETUP_LOCAL=	Setup.tk
 .endif
 

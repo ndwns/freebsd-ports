@@ -15,7 +15,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Tcl.pm:${PORTSDIR}/lang/p5-Tcl
 RUN_DEPENDS=	perl5.00401:${PORTSDIR}/lang/perl5
-LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11-toolkits/tk41
 
 BROKEN=		tcl
 

@@ -12,8 +12,8 @@ MASTER_SITES=	http://www.geocities.com/SiliconValley/Hills/2651/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
-LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
+LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11-toolkits/qt \
 		kdeui\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
 

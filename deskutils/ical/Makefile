@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.research.digital.com/SRC/personal/Sanjay_Ghemawat/ical/
 
 MAINTAINER=	erich@FreeBSD.ORG
 
-LIB_DEPENDS=    tk80\\.1:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=    tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \

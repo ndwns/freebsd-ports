@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	shanee@augusta.de
 
-LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11-toolkits/xview-lib
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes

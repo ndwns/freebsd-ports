@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	ports@FreeBSD.ORG
 
 RUN_DEPENDS=	amp:${PORTSDIR}/audio/amp \
-		wish8.0:${PORTSDIR}/x11/tk80
+		wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/xmpeg3
 NO_BUILD=	yes

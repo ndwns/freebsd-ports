@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=     dom@myrddin.demon.co.uk
 
-LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11-toolkits/gtk
 
 EXTRACT_BEFORE_ARGS= -xf
 USE_X_PREFIX=	yes

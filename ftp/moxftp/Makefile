@@ -32,7 +32,7 @@ PROGRAM_NAME=xftp
 RESOURCE_NAME=Xftp
 .endif
 
-#LIB_DEPENDS=	Xaw3d\\.6:${PORTSDIR}/x11/Xaw3d
+#LIB_DEPENDS=	Xaw3d\\.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
 .if !defined (NOMANCOMPRESS)
   GZIP_EXT=.gz

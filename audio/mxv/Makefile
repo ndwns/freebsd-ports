@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.funet.fi/pub/sci/audio/mxv/
 
 MAINTAINER=	davidn@blaze.net.au
 
-BUILD_DEPENDS=	${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf:${PORTSDIR}/x11/iv
+BUILD_DEPENDS=	${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf:${PORTSDIR}/x11-toolkits/iv
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes

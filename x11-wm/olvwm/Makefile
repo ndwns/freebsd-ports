@@ -16,7 +16,7 @@ PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	olvwm4.Patch01.Z
 PATCH_DIST_STRIP=	-p1
 
-LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview\\.3\\.:${PORTSDIR}/x11-toolkits/xview-lib
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.informatik.uni-oldenburg.de/pub/tkirc/
 MAINTAINER=	brianfeldman@hotmail.com
 
 RUN_DEPENDS=	irc:${PORTSDIR}/net/ircII \
-		wish8.0:${PORTSDIR}/x11/tk80
+		wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/tkirc
 NO_BUILD=	yes

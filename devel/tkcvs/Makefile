@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.neosoft.com/tcl/ftparchive/sorted/apps/tkcvs-6.0/ \
 
 MAINTAINER=	shanee@augusta.de
 
-LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11-toolkits/tk80
 
 NO_BUILD=	yes
 MAN1=		tkcvs.1 tkdiff.1

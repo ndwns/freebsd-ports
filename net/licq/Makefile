@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	brianfeldman@hotmail.com
 
-LIB_DEPENDS=	qt\\.1\\.33:${PORTSDIR}/x11/qt133
+LIB_DEPENDS=	qt\\.1\\.33:${PORTSDIR}/x11-toolkits/qt133
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 

@@ -39,8 +39,8 @@ post-install:
 		${PREFIX}/share/doc/tkstep
 .endif
 	${LDCONFIG} -m ${PREFIX}/lib
-.if exists(${PORTSDIR}/x11/tk80/pkg/INSTALL.wish)
-	${SH} ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
+.if exists(${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish)
+	${SH} ${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish
 .endif
 
 test:
@@ -48,4 +48,4 @@ test:
 
 .include <bsd.port.mk>
 
-PKG_ARGS+=      -i ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
+PKG_ARGS+=      -i ${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish

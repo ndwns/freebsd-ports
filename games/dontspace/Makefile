@@ -12,7 +12,7 @@ MASTER_SITES=   http://www.isi.edu/~johnh/SOFTWARE/JACOBY/
 
 MAINTAINER=     johnh@isi.edu
 
-RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11-toolkits/tk41
 
 GNU_CONFIGURE=  Yes
 CONFIGURE_ARGS= --bindir=${PREFIX}/bin --datadir=${PREFIX}/share/games \

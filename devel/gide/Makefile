@@ -12,7 +12,7 @@ MASTER_SITES=   http://gide.pn.org/
 
 MAINTAINER=	rom_glsa@ein-hashofet.co.il
 
-LIB_DEPENDS=    gtk\\.1\\.4:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=    gtk\\.1\\.4:${PORTSDIR}/x11-toolkits/gtk
 
 USE_X_PREFIX=   yes
 GNU_CONFIGURE=  yes

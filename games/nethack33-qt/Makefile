@@ -21,7 +21,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	auplay:${PORTSDIR}/audio/nas \
 		xpmtoppm:${PORTSDIR}/graphics/netpbm
-LIB_DEPENDS=	qt\\.1\\.40:${PORTSDIR}/x11/qt140 \
+LIB_DEPENDS=	qt\\.1\\.40:${PORTSDIR}/x11-toolkits/qt140 \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 RUN_DEPENDS=	auplay:${PORTSDIR}/audio/nas
 

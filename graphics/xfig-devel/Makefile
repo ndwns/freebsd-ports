@@ -16,7 +16,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
-		Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
+		Xaw3d\\.6\\.:${PORTSDIR}/x11-toolkits/Xaw3d
 RUN_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig
 
 USE_IMAKE=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=   http://java.inf.tu-dresden.de/X-Files/data/
 
 MAINTAINER=     dmaddox@scsn.net
 
-BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/X-Files
 NO_BUILD=	yes

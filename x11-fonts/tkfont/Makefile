@@ -12,7 +12,7 @@ MASTER_SITES=	http://cdrom.com/pub/linux/tsx-11/sources/usr.bin.X11/
 
 MAINTAINER=     brett@peloton.physics.montana.edu
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 NO_BUILD=	yes
 

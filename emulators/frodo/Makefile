@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://sunsite.unc.edu/pub/micro/commodore/crossplatform/emulators/
 
 MAINTAINER=	dirk.meyer@dinoex.sub.org
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 USE_X_PREFIX=	YES
 ALL_TARGET=	Frodo

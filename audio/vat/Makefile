@@ -20,7 +20,7 @@ GSM_WORK=	${GSM_DIR}/work/gsm-1.0-pl10
 # we can use this first BUILD_DEPENDS and save some work.
 #BUILD_DEPENDS=	${GSM_WORK}/inc/private.h:${GSM_DIR}:patch
 BUILD_DEPENDS=	${GSM_WORK}/lib/libgsm.a:${GSM_DIR}:build
-LIB_DEPENDS=	tk80:${PORTSDIR}/x11/tk80 \
+LIB_DEPENDS=	tk80:${PORTSDIR}/x11-toolkits/tk80 \
 		gsm:${GSM_DIR}
 
 USE_X_PREFIX=	yes

@@ -47,7 +47,7 @@ WITH_RUN=	${PREFIX}/bin/wish4.2jp:${PORTSDIR}/japanese/tk42 \
 DOCDIRNAME=	Doc
 DOCEXT=
 WITH_LIB=	tcl76\\.1\\.:${PORTSDIR}/lang/tcl76
-WITH_RUN=	${PREFIX}/bin/wish4.2:${PORTSDIR}/x11/tk42 \
+WITH_RUN=	${PREFIX}/bin/wish4.2:${PORTSDIR}/x11-toolkits/tk42 \
 		${PREFIX}/bin/a2ps:${PORTSDIR}/print/a2ps \
 		${X11BASE}/bin/xdvi:${PORTSDIR}/print/xdvi \
 		${PREFIX}/bin/dvips:${PORTSDIR}/print/dvips

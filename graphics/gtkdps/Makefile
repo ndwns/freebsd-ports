@@ -13,7 +13,7 @@ MASTER_SITES= 	ftp://ftp.aist-nara.ac.jp/pub/personal/masata-y/gyve/fullkit/gyve
 
 MAINTAINER=	Nakai@technologist.com
 
-LIB_DEPENDS=	gtk\\.1:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1:${PORTSDIR}/x11-toolkits/gtk
 BUILD_DEPENDS=	pswrap:${PORTSDIR}/x11/dgs
 
 CONFIGURE_ARGS=	--with-dps-includes=${X11BASE}/include \

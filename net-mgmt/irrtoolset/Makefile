@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.isi.edu/ra/RAToolSet/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11-toolkits/tk41
 
 GNU_CONFIGURE=	Yes
 CONFIGURE_ENV=	TCL_TK_INCLUDE_DIR="${PREFIX}/include/tcl7.5: \

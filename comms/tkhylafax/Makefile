@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.NeoSoft.com/tcl/ftparchive/sorted/comm/tkhylafax-3.0b2/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11/tk42 \
+RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11-toolkits/tk42 \
 		sendfax:${PORTSDIR}/comms/hylafax \
 		gs:${PORTSDIR}/print/ghostscript4 \
 		gv:${PORTSDIR}/print/gv

@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.elpaso.net/~spoon/yagirc/
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	gtk\\.1\\.\[345\]:${PORTSDIR}/x11/gtk \
+LIB_DEPENDS=	gtk\\.1\\.\[345\]:${PORTSDIR}/x11-toolkits/gtk \
 		Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib
 
 USE_GMAKE=	yes

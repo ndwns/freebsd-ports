@@ -14,9 +14,9 @@ MASTER_SITES=	ftp://ftp.me.umn.edu/pub/finance/ \
 MAINTAINER=	kline@thought.org
 
 #	extern.conf could easily be patched to use `plan' over `ical'
-RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11/tk42 \
+RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11-toolkits/tk42 \
 		ical:${PORTSDIR}/misc/ical
-LIB_DEPENDS=    tk42\\.1\\.:${PORTSDIR}/x11/tk42
+LIB_DEPENDS=    tk42\\.1\\.:${PORTSDIR}/x11-toolkits/tk42
 
 NO_BUILD=       yes
 USE_PERL5=	yes

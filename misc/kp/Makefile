@@ -12,7 +12,7 @@ MASTER_SITES=   ftp://stampede.cs.berkeley.edu/pub/kp/
 
 MAINTAINER=	asami@FreeBSD.org
 
-RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
+RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11-toolkits/tk41
 
 USE_X_PREFIX=	yes
 MAN1=		kp.1

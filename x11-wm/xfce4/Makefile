@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	X11/toolbars
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		xforms\\.0\\.:${PORTSDIR}/x11/xforms
+		xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
 
 WRKSRC=		${WRKDIR}/XFCE-1.2.4
 USE_GMAKE=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.xpi.com/pub/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/Tix4.1.0/unix/tk8.0
 GNU_CONFIGURE=	yes

@@ -12,8 +12,8 @@ MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	jseger@FreeBSD.org
 
-BUILD_DEPENDS=	wish8.1:${PORTSDIR}/x11/tk81
-RUN_DEPENDS=	wish8.1:${PORTSDIR}/x11/tk81
+BUILD_DEPENDS=	wish8.1:${PORTSDIR}/x11-toolkits/tk81
+RUN_DEPENDS=	wish8.1:${PORTSDIR}/x11-toolkits/tk81
 
 IS_INTERACTIVE=	yes
 NO_BUILD=	yes

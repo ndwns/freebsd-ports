@@ -13,7 +13,7 @@ MASTER_SITES=	http://gtcs.com/softdist/ \
 
 MAINTAINER=	bgingery@gtcs.com
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 NO_BUILD=	yes
 

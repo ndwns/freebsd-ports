@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	aw1@stade.co.uk
 
-LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes

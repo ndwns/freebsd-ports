@@ -13,8 +13,8 @@ MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/unstable/apps/games/ \
 
 MAINTAINER=	se@freebsd.org
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
-LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
+LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11-toolkits/qt \
 		kdecore\\.0\\.1[1-9]:${PORTSDIR}/x11/kdelibs
 
 BROKEN=		upgrade

@@ -17,7 +17,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		xforms\\.0\\.:${PORTSDIR}/x11/xforms
+		xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
 
 USE_X_PREFIX=	yes
 

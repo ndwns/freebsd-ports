@@ -15,7 +15,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${EXTRA_FILES}
 MAINTAINER=	sutton@aardvark.apana.org.au
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-LIB_DEPENDS=	xview:${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview:${PORTSDIR}/x11-toolkits/xview-lib
 
 RESTRICTED=	"xf25 contains copyright ROMs and cannot be distributed"
 NO_PACKAGE=	${RESTRICTED}

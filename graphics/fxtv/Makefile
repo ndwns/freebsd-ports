@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	rhh@ct.picker.com
 
 LIB_DEPENDS=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
-		Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d    \
+		Xaw3d\\.6\\.:${PORTSDIR}/x11-toolkits/Xaw3d    \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 # This program does not actually depend on the below, but they are pretty

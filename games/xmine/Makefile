@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	joerg@FreeBSD.org
 
-LIB_DEPENDS=    Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
+LIB_DEPENDS=    Xaw3d\\.:${PORTSDIR}/x11-toolkits/Xaw3d
 
 USE_IMAKE=      yes
 MAN6=		xmine.6

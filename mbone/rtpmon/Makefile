@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://mm-ftp.cs.berkeley.edu/pub/rtpmon/
 
 MAINTAINER=	fenner@FreeBSD.org
 
-LIB_DEPENDS=	tk42\\.1:${PORTSDIR}/x11/tk42
+LIB_DEPENDS=	tk42\\.1:${PORTSDIR}/x11-toolkits/tk42
 BUILD_DEPENDS=	autoconf:${PORTSDIR}/devel/autoconf
 
 GNU_CONFIGURE=	yes

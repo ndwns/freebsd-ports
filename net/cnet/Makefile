@@ -11,7 +11,7 @@ PKGNAME=	cnet-1.4p3
 CATEGORIES=	net
 MASTER_SITES=	http://www.cs.uwa.edu.au/pls/cnet/
 
-LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11-toolkits/xview-lib
 
 WRKSRC=		${WRKDIR}/cnet-1.4
 ALL_TARGET=

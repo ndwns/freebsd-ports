@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/guitools/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 NO_BUILD=	yes
 

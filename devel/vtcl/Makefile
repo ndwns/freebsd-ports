@@ -14,7 +14,7 @@ MASTER_SITES=	http://www.neuron.com/stewart/vtcl/dload/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/vtcl
 NO_BUILD=	yes

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
@@ -29,10 +29,10 @@ post-install:
 	$(INSTALL_MAN) $(WRKSRC)/../doc/Memory.n $(PREFIX)/man/mann
 	$(INSTALL_MAN) $(WRKSRC)/../doc/TclX.n $(PREFIX)/man/mann
 	${LDCONFIG} -m ${PREFIX}/lib
-.if exists(${PORTSDIR}/x11/tk80/pkg/INSTALL.wish)
-	${SH} ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
+.if exists(${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish)
+	${SH} ${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish
 .endif
 
 .include <bsd.port.mk>
 
-PKG_ARGS+=      -i ${PORTSDIR}/x11/tk80/pkg/INSTALL.wish
+PKG_ARGS+=      -i ${PORTSDIR}/x11-toolkits/tk80/pkg/INSTALL.wish

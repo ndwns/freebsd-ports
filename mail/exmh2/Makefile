@@ -37,7 +37,7 @@ MAINTAINER=	peter@FreeBSD.org
 
 DIST_SUBDIR=	${PKGNAME}
 
-RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80
 WISH=		wish8.0
 TCLSH=		tclsh8.0

@@ -12,7 +12,7 @@ MASTER_SITES=	http://people.mainz.netsurf.de/~bolik/tkdesk/
 
 MAINTAINER=	dmlb@ragnet.demon.co.uk
 
-LIB_DEPENDS=	tk42\\.1\\.:${PORTSDIR}/x11/tk42
+LIB_DEPENDS=	tk42\\.1\\.:${PORTSDIR}/x11-toolkits/tk42
 
 USE_GMAKE=	YES
 GNU_CONFIGURE=	YES

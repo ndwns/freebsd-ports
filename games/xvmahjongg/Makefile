@@ -15,8 +15,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib \
-		olgx\\.3\\.2:${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11-toolkits/xview-lib \
+		olgx\\.3\\.2:${PORTSDIR}/x11-toolkits/xview-lib
 
 ALL_TARGET=	mahjongg.swap
 USE_X_PREFIX=	yes

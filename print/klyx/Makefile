@@ -13,8 +13,8 @@ MASTER_SITE_SUBDIR= /unstable/apps/office
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
+LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11-toolkits/qt \
 		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \

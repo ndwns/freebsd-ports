@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.jnet-jp.to/~sekisita/ewipe/
 
 MAINTAINER=	itojun@itojun.org
 
-#RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11/tk42
+#RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11-toolkits/tk42
 
 TCLLIBS=	definefont.tcl edittable.tcl setpointer.tcl viewer.tcl tclIndex
 DOCS=		README Changes dot.ewipe

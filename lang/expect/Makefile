@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://peloton.physics.montana.edu/pub/distfiles/
 
 MAINTAINER=	ports@freebsd.org
 
-LIB_DEPENDS?=	tk80\\.1:${PORTSDIR}/x11/tk80
+LIB_DEPENDS?=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS?= --enable-shared \

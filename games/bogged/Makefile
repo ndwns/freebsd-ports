@@ -14,7 +14,7 @@ EXTRACT_SUFX=		.gz
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-RUN_DEPENDS=		wish8.0:${PORTSDIR}/x11/tk80
+RUN_DEPENDS=		wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 EXTRACT_CMD=		${CP}
 EXTRACT_BEFORE_ARGS=

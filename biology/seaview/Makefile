@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
-LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms
+LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
 
 USE_X_PREFIX=	YES
 NO_WRKSUBDIR=	YES

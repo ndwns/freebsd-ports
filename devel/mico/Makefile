@@ -12,8 +12,8 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	Nakai@technologist.com
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
-LIB_DEPENDS=	gtk\\.1\\.0:${PORTSDIR}/x11/gtk
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
+LIB_DEPENDS=	gtk\\.1\\.0:${PORTSDIR}/x11-toolkits/gtk
 
 WRKSRC=		${WRKDIR}/mico
 

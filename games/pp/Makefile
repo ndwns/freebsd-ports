@@ -14,8 +14,8 @@ DISTFILES=	ppinst-0.01.tar.gz ppsrc-0.01.tar.gz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11/qt
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
+LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11-toolkits/qt
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11-toolkits/qt
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/ppsrc

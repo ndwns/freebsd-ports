@@ -19,7 +19,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
-LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
 
 BROKEN=		glib.h
 

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://cs.ucl.ac.uk/mice/nte/
 
 MAINTAINER=	fenner@FreeBSD.org
 
-TK_DIR=         ${PORTSDIR}/x11/tk42
+TK_DIR=         ${PORTSDIR}/x11-toolkits/tk42
 TK_SRC=		${TK_DIR}/work/tk4.2p2
 
 DEPENDS=	${TK_DIR}
