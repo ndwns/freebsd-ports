@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xmysqladmin-1.0
+DISTNAME=	xmysqladmin-0.4.4
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
