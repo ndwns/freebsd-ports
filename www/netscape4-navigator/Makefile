@@ -31,6 +31,7 @@ RESTRICTED=     "Contains strong cryptography"
 .if !defined(USE_128BIT)
 pre-extract:
 		@${ECHO} "You can make Netscape use 128-bit encryption by defining USE_128BIT"
+		@${ECHO} "and setting USA_RESIDENT to NO"
 .endif
 
 do-configure:
@@ -58,7 +59,7 @@ do-install:
 	${RM} -rf ${NDIR}/movemail-src
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
 	cd ${WRKDIR}/Fortify-1.3.2-unix-x86 && \
-		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/navigator-4.08.bin
+		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) | ./Fortify.sh ${NDIR}/navigator-4.08.bin
 .endif
 	chown -R bin.bin ${NDIR}
 
