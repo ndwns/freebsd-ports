@@ -15,13 +15,13 @@ DISTFILES=	3.1.tar.Z iv3_1j_gamma.tar.gz
 
 PATCH_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 PATCHFILES=	iv-3.1j-gamma-fixcmpfont.patch	
+PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	sanpei@sanpei.org
 
 USE_XLIB=	yes
 DIST_SUBDIR=	iv
 WRKSRC=		${WRKDIR}/iv
-PATCH_DIST_STRIP=	-p1
 MAKE_ENV=	CPU=`make CPU`
 
 MANPREFIX=	${PREFIX}/interviews
