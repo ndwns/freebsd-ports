@@ -23,4 +23,7 @@ STRIP=
 CONFIGURE_ARGS+=--with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
 MAN1=		lyx.1
 
+post-install:
+	@strip ${PREFIX}/bin/lyx
+
 .include <bsd.port.mk>
