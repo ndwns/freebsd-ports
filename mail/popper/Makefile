@@ -14,6 +14,11 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	pst@freebsd.org
 
+#
+# If APOP_ONLY variable present in the environment, popper builds
+# with APOP authentification only
+#
+
 NO_PACKAGE=	"Needs POP UID"
 WRKSRC=		${WRKDIR}/qpopper2.2
 
