@@ -44,6 +44,7 @@
     SUBDIR += ilu
     SUBDIR += jam
     SUBDIR += lclint
+    SUBDIR += libPropListgnome
     SUBDIR += libU77
     SUBDIR += libdlmalloc
     SUBDIR += libffi
