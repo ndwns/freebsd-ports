@@ -27,6 +27,6 @@ do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/cdrecord/OBJ/i386-freebsd-cc/cdrecord \
 	 ${PREFIX}/bin
 	@${INSTALL_MAN} ${WRKSRC}/cdrecord/cdrecord.1 ${PREFIX}/man/man1
-	@cd /dev && ln -sf /dev/rworm0.ctl sgx
+	@cd /dev && ln -sf /dev/rworm0.ctl scgx
 
 .include <bsd.port.mk>
