@@ -24,8 +24,10 @@ post-install:
 		${MKDIR} ${PREFIX}/share/doc/urt
 		cd ${PREFIX}/share/doc/urt; \
 		  tar xf $(DISTDIR)/urt-doc.tar; \
-		  mv doc/* .; \
-		  rmdir doc; \
+		  cd doc; \
+		  find -d . | cpio -dump ..; \
+		  cd ..; \
+		  rm -rf doc; \
 		  tar xf $(DISTDIR)/urt-img.tar; \
 		  chown -R root:wheel . ; \
 		  find . -type d -exec chmod 775 '{}' \; ; \
