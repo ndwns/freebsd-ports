@@ -18,6 +18,7 @@ MAINTAINER=	 	bmah@ca.sandia.gov
 USE_PERL5=		YES
 
 EXTRACT_ONLY=		vnc-3.3.2_unixsrc.tgz
+IGNOREFILES=		${DISTFILES}
 
 NO_WRKSUBDIR=		YES
 
