@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	lyx-0.11.45
+DISTNAME=	lyx-0.12.0
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/devel/0.11/
+MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/beta_stable/ \
+		ftp://la1ad.uio.no/pub/lyx/                
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
