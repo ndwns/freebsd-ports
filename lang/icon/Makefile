@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       icon-9.1
-DISTFILES=	unix.tar.gz
+DISTNAME=       unix
+PKGNAME=	icon-9.1
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.cs.arizona.edu/icon/packages/unix/
 
