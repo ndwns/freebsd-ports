@@ -9,13 +9,23 @@
 DISTNAME=	blas
 PKGNAME=	blas-1.0
 CATEGORIES=	math
-MASTER_SITES=	ftp://netlib.att.com/netlib/blas/
+MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/blas/ \
+		ftp://ftp.netlib.org/blas/
+
+# NOTE:
+# The files [dir]1mach.f were updated on the master site but
+# FreeBSD's f77 can't handle them.  patches/patch-aa reverts
+# these files to a previous revision but should be removed when
+# FreeBSD's f77 gets fixed.
+#
+# The alternative is:
+#BROKEN=		"Our f77 cannot compile d1mach.f"
 
 DIST_SUBDIR=	${DISTNAME}
 
-EXTRACT_CMD=${.CURDIR}/scripts/uncomp
-EXTRACT_SUFX=.Z
-EXTRACT_ARGS= ${WRKDIR}
+EXTRACT_CMD=	${SCRIPTDIR}/uncomp
+EXTRACT_SUFX=	.Z
+EXTRACT_ARGS=	${WRKDIR}
 
 NO_WRKSUBDIR=	yes
 
@@ -44,7 +54,7 @@ pre-build:
 	cp Makefile.lib ${WRKDIR}/Makefile
 
 pre-extract:
-	chmod +x scripts/uncomp
+	chmod +x ${SCRIPTDIR}/uncomp
 
 post-install:
 	ldconfig -m ${PREFIX}/lib
