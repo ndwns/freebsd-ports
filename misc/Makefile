@@ -21,7 +21,6 @@
     SUBDIR += figlet
     SUBDIR += gettext
     SUBDIR += git
-    SUBDIR += gnucash
     SUBDIR += gnuls
     SUBDIR += gone
     SUBDIR += gyvescm

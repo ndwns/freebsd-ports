@@ -3,6 +3,7 @@
 
     SUBDIR += cal
     SUBDIR += cbb
+    SUBDIR += gnucash
     SUBDIR += ical
     SUBDIR += korganizer
     SUBDIR += kproject

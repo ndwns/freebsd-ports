@@ -9,7 +9,7 @@
 
 DISTNAME=	xacc-1.0.17
 PKGNAME=	gnucash-1.0.17
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	http://www.gnucash.org/xacc/download/  \
 		ftp://ftp.gnucash.org/pub/xacc/
 
