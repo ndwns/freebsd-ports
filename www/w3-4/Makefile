@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	w3-2.2.26
-CATEGORIES?=	www
+CATEGORIES?=	www elisp
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/network/WWW/w3/ \
 		ftp://ftp.cs.indiana.edu/pub/elisp/w3/
 

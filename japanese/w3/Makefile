@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	ja-w3-2.2.26
-CATEGORIES=	www japanese
+CATEGORIES=	www japanese elisp
 FILESDIR=	${.CURDIR}/../../www/w3/files
 PATCHDIR=	${.CURDIR}/../../www/w3/patches
 
