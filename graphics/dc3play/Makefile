@@ -1,12 +1,13 @@
 # New ports collection makefile for:	dc3play
-# Version required:	970716
+# Version required:	980321
 # Date created:		15 Jul 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
 # $Id$
 #
 
-DISTNAME=	dc3play-970716
+DISTNAME=	dc3play-980321
+PKGNAME=	dc3play-19980321
 CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.itojun.org/pub/digi-cam/DC-3/unix/ \
 		ftp://ftp.digipri.co.jp/pub/free-software/Ricoh/DC-3/unix/
