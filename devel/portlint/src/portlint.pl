@@ -1466,7 +1466,7 @@ DIST_SUBDIR EXTRACT_ONLY
 
 	# check the items that has to be there.
 	$tmp = "\n" . $tmp;
-	print "OK: checking PORTNAME/PORTVERSION.\n" if ($verbose);
+	print "OK: checking PORTNAME/PORTVERSION/DISTVERSION.\n" if ($verbose);
 	if ($tmp !~ /\nPORTNAME(.)?=/) {
 		&perror("FATAL: $file: PORTNAME has to be there.") unless ($slaveport && $makevar{PORTNAME} ne '');
 	} elsif ($1 ne '') {
@@ -1478,6 +1478,10 @@ DIST_SUBDIR EXTRACT_ONLY
 	} elsif ($2 ne '') {
 		&perror("WARN: $file: unless this is a master port, PORTVERSION has to be set by \"=\", ".
 			"not by \"$2=\".") unless ($masterport);
+	}
+	if ($tmp =~ /\nPORTVERSION.?=/ && $tmp =~ /\nDISTVERSION.?=/) {
+		&perror("FATAL: $file: either PORTVERSION or DISTVERSION must be ".
+			"specified, not both.");
 	}
 	if ($newport) {
 		print "OK: checking for existence of PORTREVISION in new port.\n"
@@ -1653,10 +1657,6 @@ DIST_SUBDIR EXTRACT_ONLY
 	}
 	if ($portversion eq '' && $distversion eq '') {
 		&perror("FATAL: $file: either PORTVERSION or DISTVERSION must be specified");
-	}
-	if ($portversion ne '' && $distversion ne '') {
-		&perror("FATAL: $file: either PORTVERSION or DISTVERSION must be ".
-			"specified, not both");
 	}
 	if ($portversion =~ /^pl[0-9]*$/
 	|| $portversion =~ /^[0-9]*[A-Za-z]?[0-9]*(\.[0-9]*[A-Za-z]?[0-9+]*)*$/) {
