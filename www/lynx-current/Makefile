@@ -20,8 +20,8 @@ BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q -o
 
-PATCH_SITES=    http://www.nyu.edu/pages/wsn/subir/lynx/patches/
-PATCHFILES=     2-6-patch11.txt
+#PATCH_SITES=    http://www.nyu.edu/pages/wsn/subir/lynx/patches/
+#PATCHFILES=     2-6-patch11.txt
 
 MAINTAINER=	ache@FreeBSD.ORG
 
@@ -31,4 +31,4 @@ ALL_TARGET=     freebsd-ncurses
 
 # must be after bsd.port.mk
 
-PATCH_DIST_ARGS+= -d ${WRKSRC}/src
+#PATCH_DIST_ARGS+= -d ${WRKSRC}/src
