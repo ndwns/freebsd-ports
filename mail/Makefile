@@ -25,6 +25,7 @@
     SUBDIR += im
     SUBDIR += imap-uw
     SUBDIR += kbiff
+    SUBDIR += knewmail
     SUBDIR += mailagent
     SUBDIR += mailcrypt
     SUBDIR += maildrop
