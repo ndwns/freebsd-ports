@@ -8,6 +8,6 @@
 
 DISTNAME=	jove4.14.10
 MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
-EXTRAXT_SUFX=	.tar.Z
+EXTRACT_SUFX=	.tar.Z
 
 .include <bsd.port.mk>
