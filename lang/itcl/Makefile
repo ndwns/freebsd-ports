@@ -16,6 +16,7 @@ MAINTAINER=	chuckr@freebsd.org
 BROKEN=		"installation does not DTRT"
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared --exec_prefix=${PREFIX}
+USE_XLIB=	yes
 
 post-extract:
 	@$(RM) -f $(WRKSRC)/tcl7.5/library/*.c
