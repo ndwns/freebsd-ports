@@ -13,6 +13,7 @@ MASTER_SITES=   http://www.cs.man.ac.uk/arch/people/j-seward/
 MAINTAINER=     andreas@klemm.gtn.com
 
 NO_CDROM=       yes     # Restrictive copyright (don't sell for profit)
+MAN1=		bzip.1 bunzip.1
 
 pre-install:
 	@${CAT} ${FILESDIR}/COPYRIGHT
@@ -23,9 +24,5 @@ do-install:
 	ln -s ${PREFIX}/bin/bzip ${PREFIX}/bin/bunzip
 	${INSTALL_MAN} ${WRKSRC}/bzip.1 ${PREFIX}/man/man1/bzip.1
 	${INSTALL_MAN} ${WRKSRC}/bzip.1 ${PREFIX}/man/man1/bunzip.1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/bzip.1
-	gzip -9nf ${PREFIX}/man/man1/bunzip.1
-.endif
 
 .include <bsd.port.mk>
