@@ -49,6 +49,7 @@
     SUBDIR += rdist6
     SUBDIR += ripetools
     SUBDIR += rmsg
+    SUBDIR += rshell
     SUBDIR += rsync
     SUBDIR += rwhois
     SUBDIR += samba
