@@ -54,6 +54,7 @@
     SUBDIR += pine4
     SUBDIR += poppassd
     SUBDIR += popper
+    SUBDIR += postfix
     SUBDIR += premail
     SUBDIR += procmail
     SUBDIR += qmail
