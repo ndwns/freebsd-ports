@@ -13,7 +13,8 @@ MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
 
 PATCH_SITES=	http://www.sunlabs.com/~bwelch/exmh/patches/2.0zeta/
-PATCHFILES=	ispell.patch koir.patch mime.patch seditMime.patch scan.patch
+PATCHFILES=	ispell.patch koir.patch mime.patch seditMime.patch scan.patch \
+		addr.patch html.patch html_dpackage.patch pgpExec.patch
 
 .if defined(PATCH_DEBUG)
 PATCH_DIST_ARGS= -d ${WRKSRC}/lib -E ${PATCH_DIST_STRIP}
