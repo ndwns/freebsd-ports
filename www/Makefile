@@ -4,7 +4,7 @@
     SUBDIR += Mosaic         # requires Motif
     SUBDIR += WebMagick
     SUBDIR += analog
-    SUBDIR += apache
+    SUBDIR += apache12
     SUBDIR += apache13
     SUBDIR += apache-fp
     SUBDIR += apache-php
