@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	FreeBSD-2.2R
-PKGNAME=	jp-Wnn6-lib-97.6.6
+PKGNAME=	ja-Wnn6-lib-97.6.6
 CATEGORIES=	japanese
 MASTER_SITES=	file://localhost${PREFIX}/OMRONWnn6/wnnsdk/sdk/ \
 		ftp://ftp.omronsoft.co.jp/pub/Wnn6/sdk/
