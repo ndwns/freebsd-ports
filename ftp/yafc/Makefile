@@ -9,7 +9,7 @@
 DISTNAME=	yafc-0.4.3
 CATEGORIES=	net
 MASTER_SITES=	http://www.stacken.kth.se/~mhe/yafc/ \
-		ftp://mayer.physto.se/pub/
+		ftp://mayer.physto.se/pub/yafc/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
