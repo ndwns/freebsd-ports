@@ -15,10 +15,14 @@ EXTRACT_SUFX=
 
 MAINTAINER=     ache@freebsd.org
 
-EXTRACT_ONLY=
+EXTRACT_CMD=    $(CP)
+EXTRACT_BEFORE_ARGS=    # empty
+EXTRACT_AFTER_ARGS= ${WRKSRC}
+
 NO_BUILD=       YES
+NO_WRKSUBDIR=   yes
 
 do-install:
-	@${INSTALL_SCRIPT} ${DISTDIR}/${DISTNAME} ${PREFIX}/bin
+	@${INSTALL_SCRIPT} ${WRKSRC}/sar ${PREFIX}/bin
 
 .include <bsd.port.mk>
