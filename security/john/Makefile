@@ -15,9 +15,9 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=     obrien@NUXI.com
 
-RESTRICTED=	"contains crypto (crypt())"
-
 BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
+
+RESTRICTED=	"contains crypto (crypt())"
 
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -oqL
