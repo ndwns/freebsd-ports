@@ -34,6 +34,7 @@
    SUBDIR += xlockmore
    SUBDIR += xperfmon
    SUBDIR += xphoon
+   SUBDIR += xscreensaver
    SUBDIR += xsnow
    SUBDIR += xview-config
    SUBDIR += xview-lib
