@@ -279,40 +279,39 @@ ${EXTRACT_COOKIE}:
 	@echo "===>  Extracting for ${DISTNAME}"
 	@rm -rf ${WRKDIR}
 	@mkdir -p ${WRKDIR}
+.if defined(HOME_LOCATION)
 	@if [ ! -f ${DISTFILE} ]; then \
 	   echo ">> Sorry, I can't seem to find: ${DISTFILE}"; \
 	   echo ">> on this system."; \
-.if defined(HOME_LOCATION)
 	   if [ -f ${NCFTP} ]; then \
-		echo ">> Would you like me to fetch it from: ${HOME_LOCATION}";\
-		echo -n ">> with ncftp? [y/n] "; \
-		read ans; \
-		if [ "$ans" = "y" ]; then \
+		echo ">> Attempting to fetch ${HOME_LOCATION}.";\
+		if [ ! -d `dirname ${DISTFILE}`; then \
 			mkdir -p `dirname ${DISTFILE}`; \
-			if cd `dirname ${DISTFILE}`; then \
-				if ${NCFTP} ${HOME_LOCATION}; then \
-					${EXTRACT_CMD} ${EXTRACT_ARGS}; \
-				else \
-					echo ">> Couldn't fetch it - please retreive ${DISTFILE} manually and try again."; \
-					exit 1; \
-				fi \
+		fi \
+		if cd `dirname ${DISTFILE}`; then \
+			if ${NCFTP} ${HOME_LOCATION}; then \
+				${EXTRACT_CMD} ${EXTRACT_ARGS}; \
 			else \
-				echo ">> Couldn't cd to `dirname ${DISTFILE}`.  Please correct and try again."; \
+				echo ">> Couldn't fetch it - please retreive ${DISTFILE} manually and try again."; \
 				exit 1; \
 			fi \
 		else \
-			echo ">> Please ensure ${DISTFILE} exists before trying again."; \
+			echo ">> Couldn't cd to `dirname ${DISTFILE}`.  Please correct and try again."; \
 			exit 1; \
 		fi \
 	    else \
 		echo ">> Please fetch it from ${HOME_LOCATION} and try again.";\
 		echo ">> Installing ${NCFTP} can also make this easier in the future."; \
+		exit 1; \
 	    fi \
-.else
-	    echo ">>	<original site unknown>"; \
-	    exit 1; \
-.endif
 	fi
+.else
+	@if [ ! -f ${DISTFILE} ]; then \
+	    echo ">> Sorry, I can't seem to find: ${DISTFILE}"; \
+	    echo ">> on this system and the original site is unknown."; \
+	    exit 1; \
+	fi
+.endif
 	@${EXTRACT_CMD} ${EXTRACT_ARGS} ${DISTFILE}
 	@touch -f ${EXTRACT_COOKIE}
 .endif
