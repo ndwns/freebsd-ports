@@ -8,6 +8,7 @@
     SUBDIR += chimera
     SUBDIR += dgd
     BROKEN += dgd-lpmud
+    SUBDIR += dip
     SUBDIR += fspclient
     SUBDIR += gated
     SUBDIR += gn
