@@ -16,7 +16,7 @@ EXTRACT_ONLY=	dhcp-1.3beta.tar.gz
 
 MAINTAINER=     sanpei@yy.cs.keio.ac.jp
 
-MAKE_ENV=	PREFIX=${PREFIX} LOCALBASE=${LOCALBASE} X11BASE=${X11BASE} MOTIFLIB="${MOTIFLIB}" CFLAGS="${CFLAGS}" OSTYPE=`uname`
+MAKE_ENV=	OSTYPE=`uname`
 
 post-patch:
 	if [ ! -f ${WRKSRC}/server/tzfile.h ]; then \
