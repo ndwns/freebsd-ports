@@ -24,7 +24,7 @@ CONFIGURE_ARGS=	--enable-shared --enable-sam \
 		--with-tk="${PREFIX}/include/tk8.0"
 # this should probably be added to bsd.port.mk
 CONFIGURE_ENV=	PREFIX=${PREFIX}
-MAN1=		tixwish.1 
+MAN1=		tixwish.1
 MANN=		BtnBox.n Balloon.n ChkList.n Destroy.n ComboBox.n Control.n \
 		DItem.n DirDlg.n DirList.n DirTree.n FileBox.n EFileBox.n \
 		EFileDlg.n FileDlg.n FileEnt.n Form.n GetBool.n GetInt.n \
@@ -50,9 +50,9 @@ TIXSAM_LIB_FILE=${TIXSAM_LIB}.1.2
 pre-configure:
 	@(cd ${WRKSRC}/.. && \
 	    CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
-            INSTALL="/usr/bin/install -c -o ${BINOWN} -g ${BINGRP}" \
-            INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
-            ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
+	    INSTALL="/usr/bin/install -c -o ${BINOWN} -g ${BINGRP}" \
+	    INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
+	    ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS})
 
 post-install:
 	@(cd ${WRKSRC}/.. && \
