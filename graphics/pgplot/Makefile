@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       pgplot5.1
+PKGNAME=        pgplot-5.1
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://astro.caltech.edu/pub/pgplot/
 
