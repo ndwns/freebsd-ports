@@ -25,7 +25,20 @@ RESTRICTED=	license required for commercial use
 
 DIST_SUBDIR=	dgd
 WRKSRC=		${WRKDIR}/dgd/src
-PATCH_DIST_STRIP=	-p1
+#PATCH_DIST_STRIP=	-p1
+
+pre-patch:
+	@for i in ${WRKSRC}/host/pc/res/*.ico; do \
+		mv $$i $$i.bak; \
+		echo '\ No newline at end of file' >$$i; \
+		done
+	@ln -sf ${WRKDIR}/dgd ${WRKSRC}
+
+post-patch:
+	@for i in ${WRKSRC}/host/pc/res/*.ico; do \
+		rm $$i.orig; \
+		mv $$i.bak $$i; \
+		done
 
 post-build:
 	@cd ${WRKSRC}; ${MAKE} install
