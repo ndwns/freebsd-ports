@@ -72,6 +72,7 @@
     SUBDIR += smail
     SUBDIR += smtpd
     SUBDIR += smtpfeed
+    SUBDIR += spruce
     SUBDIR += tkrat
     SUBDIR += wmmail
     SUBDIR += wmpop3
