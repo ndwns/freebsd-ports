@@ -9,6 +9,7 @@
     SUBDIR += ispell
     SUBDIR += kp
     SUBDIR += less
+    SUBDIR += mc
 RESTRICTED += mmv               # restrictive copyright
     SUBDIR += mshell
     SUBDIR += rman
