@@ -23,8 +23,6 @@ MASTER_SITES=	ftp://koobera.math.uic.edu/pub/software/ \
 
 MAINTAINER=	lioux@gns.com.br
 
-BROKEN=		gid conflict
-
 # A normal qmail installation puts everything into /var/qmail/.
 # If you want to install to /usr/local/, then "/usr/local/qmail" is
 # suggested instead of "/usr/local", but both will work.
