@@ -13,6 +13,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/nethack313
 USE_GMAKE=	yes
 PKGNAME=	nethack-3.1.3
+SHELL=		/bin/sh
 
 pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
