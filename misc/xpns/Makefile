@@ -20,16 +20,16 @@ MAKEFILE=	makefile
 ALL_TARGET=	pns
 
 do-install:
-	$(MKDIR) $(PREFIX)/lib/xpns
-	$(INSTALL_PROGRAM) $(WRKSRC)/pns $(PREFIX)/lib/xpns/
-	$(INSTALL_DATA) $(WRKSRC)/pns.hlp $(PREFIX)/lib/xpns/
-	$(INSTALL_DATA) $(WRKSRC)/pns.shell $(PREFIX)/lib/xpns/
-	$(INSTALL_SCRIPT) $(WRKSRC)/xpns $(PREFIX)/bin/xpns
+	${MKDIR} ${PREFIX}/lib/xpns
+	${INSTALL_PROGRAM} ${WRKSRC}/pns ${PREFIX}/lib/xpns/
+	${INSTALL_DATA} ${WRKSRC}/pns.hlp ${PREFIX}/lib/xpns/
+	${INSTALL_DATA} ${WRKSRC}/pns.shell ${PREFIX}/lib/xpns/
+	${INSTALL_SCRIPT} ${WRKSRC}/xpns ${PREFIX}/bin/xpns
 
 post-install:
 .if !defined(NOPORTDOCS)
-	$(MKDIR) $(PREFIX)/share/doc/xpns
-	$(CP) $(WRKSRC)/*.net $(PREFIX)/share/doc/xpns/
+	${MKDIR} ${PREFIX}/share/doc/xpns
+	${CP} ${WRKSRC}/*.net ${PREFIX}/share/doc/xpns/
 .endif
 
 .include <bsd.port.mk>
