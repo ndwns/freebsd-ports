@@ -16,6 +16,11 @@ LIB_DEPENDS=	tixsam4180.1:${PORTSDIR}/x11-toolkits/tix
 
 WRKSRC=		${WRKDIR}/cd-write
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		scsi.h
+.endif
+
 pre-build:
 	@cd ${WRKSRC}; mv Makefile Makefile~; \
 		sed -e s:/usr/local:${PREFIX}:g <Makefile~ >Makefile;\
