@@ -55,7 +55,7 @@ CONFIGURE_ARGS+= --with-secureid
 .endif
 
 # Don't use IDEA. IDEA can be freely used for non-commercial use. However,
-# commercial use may require a licence in a number of countried
+# commercial use may require a licence in a number of countries
 # Warning: untested !
 .if defined(DONT_USE_IDEA) && ${DONT_USE_IDEA} == YES
 CONFIGURE_ARGS+= --without-idea
