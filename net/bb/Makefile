@@ -67,7 +67,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/etc/$(file) \
 		${PREFIX}/bb/etc
 .endfor
-.for file in	mkbb.bkg mkbb.cols mkbb.sh mkbb2.sh
+.for file in	mkbb.bkg mkbb.cols mkbb.comp mkbb.sh mkbb2.sh
 	${INSTALL_SCRIPT} ${WRKSRC}/web/$(file) \
 		${PREFIX}/bb/web
 .endfor
@@ -77,8 +77,6 @@ do-install:
 .endfor
 	${INSTALL_SCRIPT} ${WRKSRC}/www/bb-pager.sh \
 				${PREFIX}/www/cgi-bin/bb-pager.sh
-	@ln -sf ${PREFIX}/www/cgi-bin/bb-pager.sh \
-				${PREFIX}/bb/www/bb-pager.sh
 .for file in	bb-diag.gif bb.gif bb2.gif bbbut.gif bkg-green.gif \
 		bkg-purple.gif bkg-red.gif bkg-yellow.gif blue.gif \
 		buthelp.gif butinfo.gif butpage.gif butview.gif clear.gif \
@@ -94,9 +92,8 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/www/notes/$(file) \
 		${PREFIX}/bb/www/notes
 .endfor
-	@${RM} -f ${PREFIX}/www/data/bb
-	@ln -sf ${PREFIX}/bb/www ${PREFIX}/www/data/bb
-	@ln -sf bb.html ${PREFIX}/bb/www/index.html
+	@${LN} -fs ${PREFIX}/bb/www ${PREFIX}/www/data/bb
+	@${LN} -fs bb.html ${PREFIX}/bb/www/index.html
 	@echo ""
 	@echo "================================================================"
 	@echo "==== Configuration Notes:                                    ==="
