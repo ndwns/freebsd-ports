@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xgalaga
-# Version required:	1.6b
+# Version required:	1.6c
 # Date created:		27 August 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	xgalaga-1.6b
+DISTNAME=	xgalaga-1.6c
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	games
