@@ -67,6 +67,7 @@
     SUBDIR += tinymux
     SUBDIR += tksol
     SUBDIR += tvp
+    SUBDIR += wmtimebomb
     SUBDIR += xabacus
     SUBDIR += xasteroids
     SUBDIR += xbat
