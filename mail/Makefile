@@ -14,7 +14,6 @@
     SUBDIR += metamail
     SUBDIR += mew
     SUBDIR += mh
-    SUBDIR += mpack
     SUBDIR += mutt
     SUBDIR += mutt.with_pgp
     SUBDIR += p5-Mail-Folder
