@@ -18,6 +18,8 @@ RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
 		ppmtogif:${PORTSDIR}/graphics/netpbm \
 		latex:${PORTSDIR}/print/teTeX
 
+BROKEN=		checksum
+
 NO_WRKSUBDIR=	yes
 MAN1=		tth.1
 
