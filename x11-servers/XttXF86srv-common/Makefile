@@ -24,6 +24,8 @@ PATCHFILES=	3.3.2-patch1 3.3.2-patch2 3.3.2-patch3 \
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
+BROKEN_ELF=	yes
+
 LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
 
 .if !defined(XDM_DES) && defined(USA_RESIDENT)
