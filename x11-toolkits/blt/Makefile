@@ -13,8 +13,7 @@ DISTFILES=	BLT2.1.tar.gz
 
 MAINTAINER=	lukin@okbmei.msk.su
 
-LIB_DEPENDS=	tcl75\\.:${PORTSDIR}/lang/tcl75 \
-		tk41\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.:${PORTSDIR}/x11/tk41
 
 WRKSRC=		${WRKDIR}/blt2.1
 GNU_CONFIGURE=	yes
