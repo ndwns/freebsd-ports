@@ -8,7 +8,7 @@
 
 DISTNAME=       hanyang-font-pcf
 PKGNAME=        ko-hanyangfonts-1.0
-CATEGORIES=     korean x11
+CATEGORIES=     korean x11-fonts
 MASTER_SITES=   ftp://ftp.kaist.ac.kr/pub/hangul/fonts/ \
 		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/fonts/
 

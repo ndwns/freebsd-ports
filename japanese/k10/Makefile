@@ -8,7 +8,7 @@
 
 DISTNAME=	knj10-1.00
 PKGNAME=	ja-naga10-1.0
-CATEGORIES=	japanese x11
+CATEGORIES=	japanese x11-fonts
 MASTER_SITES=	http://gondow-www.cs.titech.ac.jp/~snagao/fonts/
 
 MAINTAINER=	usagi@clave.gr.jp

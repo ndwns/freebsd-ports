@@ -8,7 +8,7 @@
 
 DISTNAME=       pinetree.precomposed-1.0
 PKGNAME=	ko-pinetreefonts-1.0
-CATEGORIES=	korean x11
+CATEGORIES=	korean x11-fonts
 MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/fonts/ \
 		ftp://cglab.snu.ac.kr/pub/hangul/n3f/fonts/ \
 		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/fonts/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	sharefonts-0.10
-CATEGORIES=	x11
+CATEGORIES=	x11-fonts
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gimp/fonts/
 
 MAINTAINER=	dburr@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ko-kaistfonts-ksc-1.0
-CATEGORIES=	korean x11
+CATEGORIES=	korean x11-fonts
 MASTER_SITES=	ftp://sensor.kaist.ac.kr/pub/fonts/newones/
 DISTFILES=	kaist-newmj18.bdf.gz ks_philgi16.bdf.gz \
 		kaist-newmj16.bdf.gz ks_iyagi16.bdf.gz

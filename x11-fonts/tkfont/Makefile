@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkfont-1.1
-CATEGORIES=     x11 tk80
+CATEGORIES=     x11-fonts tk80
 MASTER_SITES=	http://cdrom.com/pub/linux/tsx-11/sources/usr.bin.X11/
 
 MAINTAINER=     brett@peloton.physics.montana.edu

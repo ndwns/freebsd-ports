@@ -8,7 +8,7 @@
 
 DISTNAME=	Kappa20-0.2
 PKGNAME=	ja-kappa20-0.2
-CATEGORIES=	japanese x11
+CATEGORIES=	japanese x11-fonts
 MASTER_SITES=	ftp://ftp.st.ryukoku.ac.jp/pub/X11/fonts/ \
 		ftp://ftp.win.or.jp/pub/doc-sources/fj.sources/1997/aug/
 

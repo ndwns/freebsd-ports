@@ -8,7 +8,7 @@
 
 DISTNAME=       getbdf
 PKGNAME=        getbdf-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-fonts
 MASTER_SITES=   ftp://ftp.ipa.fhg.de/pub/X/
 EXTRACT_SUFX=   .tar.Z
 

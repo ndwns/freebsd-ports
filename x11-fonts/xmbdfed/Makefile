@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xmbdfed-2.7
-CATEGORIES=	x11
+CATEGORIES=	x11-fonts
 MASTER_SITES=	ftp://crl.nmsu.edu/CLR/multiling/General/
 
 MAINTAINER=	jfieber@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ja-elisa8-1.0
-CATEGORIES=	japanese x11
+CATEGORIES=	japanese x11-fonts
 MASTER_SITES=	ftp://ftp.tut.ac.jp/X11/Fonts/ \
 		ftp://ftp.iij.ad.jp/pub/X/X11R6.3/%SUBDIR%/ \
 		ftp://ftp.eu.net/X11/R6.3/%SUBDIR%/

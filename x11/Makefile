@@ -20,13 +20,10 @@
     SUBDIR += emu
     SUBDIR += enlightenment
     SUBDIR += eterm
-    SUBDIR += etlfonts
     SUBDIR += fbsd-icons
-    SUBDIR += freefonts
     SUBDIR += fvwm
     SUBDIR += fvwm2
     SUBDIR += fvwm95
-    SUBDIR += getbdf
     SUBDIR += gtk
     SUBDIR += gwm
     SUBDIR += icewm
@@ -60,7 +57,6 @@
     SUBDIR += qt140
     SUBDIR += qvwm
     SUBDIR += rxvt
-    SUBDIR += sharefonts
     SUBDIR += slingshot
     SUBDIR += sxpc
     SUBDIR += tix
@@ -68,7 +64,6 @@
     SUBDIR += tk42
     SUBDIR += tk80
     SUBDIR += tk81
-    SUBDIR += tkfont
     SUBDIR += tkgoodstuff
     SUBDIR += tkstep80
     SUBDIR += tvtwm
@@ -88,7 +83,6 @@
     SUBDIR += xcolors
     SUBDIR += xdtm
     SUBDIR += xfce
-    SUBDIR += xfed
     SUBDIR += xfedor
     SUBDIR += xfishtank
     SUBDIR += xforms
@@ -97,7 +91,6 @@
     SUBDIR += xloadimage
     SUBDIR += xlockmore
     SUBDIR += xmascot
-    SUBDIR += xmbdfed
     SUBDIR += xmold
     SUBDIR += xmove
     SUBDIR += xprompt

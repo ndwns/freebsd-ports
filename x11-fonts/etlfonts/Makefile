@@ -8,7 +8,7 @@
 
 DISTNAME=	non-cjk
 PKGNAME=	etlfonts-noncjk-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-fonts
 MASTER_SITES=	ftp://ftp.etl.go.jp/pub/mule/fonts/
 EXTRACT_SUFX=	.tar
 

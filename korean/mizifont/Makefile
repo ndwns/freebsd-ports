@@ -8,7 +8,7 @@
 
 DISTNAME=	xfntmizi-1.1-1.noarch
 PKGNAME=	ko-mizifonts-1.1
-CATEGORIES=	korean x11
+CATEGORIES=	korean x11-fonts
 MASTER_SITES=	http://www.mizi.co.kr/packages/
 EXTRACT_SUFX=	.rpm
 
