@@ -16,6 +16,9 @@ MAINTAINER=	yoshiaki@kt.rim.or.jp
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
+# depends on xforms
+ONLY_FOR_ARCHS=	i386
+
 WRKSRC=		${WRKDIR}/dap
 USE_X_PREFIX=	yes
 

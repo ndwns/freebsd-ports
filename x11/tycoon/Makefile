@@ -16,6 +16,9 @@ MAINTAINER=	steve@farrell.org
 LIB_DEPENDS=	xforms:${PORTSDIR}/x11-toolkits/xforms \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
+# depends on xforms
+ONLY_FOR_ARCHS=	i386
+
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 

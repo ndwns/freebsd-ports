@@ -19,6 +19,9 @@ BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
+# depends on xforms
+ONLY_FOR_ARCHS=	i386
+
 WRKSRC=		${WRKDIR}/xmysqladmin
 USE_X_PREFIX=	yes
 ALL_TARGET=	xmysqladmin

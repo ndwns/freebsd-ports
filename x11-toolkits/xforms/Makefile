@@ -25,6 +25,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gena@NetVision.net.il
 
+ONLY_FOR_ARCHS=	i386
+
 PATCH_STRIP=	-p0 -t
 WRKSRC=		${WRKDIR}/xforms
 MAN1=		fdesign.1 fd2ps.1

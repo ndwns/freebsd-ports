@@ -16,6 +16,9 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
+# depends on xforms
+ONLY_FOR_ARCHS=	i386
+
 USE_IMAKE=	YES
 NO_INSTALL_MANPAGES=	YES
 

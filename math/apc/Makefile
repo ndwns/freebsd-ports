@@ -14,6 +14,9 @@ MAINTAINER= 	eagriff@global2000.net
 
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
+# depends on xforms
+ONLY_FOR_ARCHS=	i386
+
 USE_X_PREFIX=	yes
 MAN1=		apc.1
 MANCOMPRESSED=	yes
