@@ -50,6 +50,7 @@
     SUBDIR += swisswatch
     SUBDIR += sxpc
     SUBDIR += tix
+    SUBDIR += tk41
     SUBDIR += tk42
     SUBDIR += tk80
     SUBDIR += tkdesk
