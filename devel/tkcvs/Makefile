@@ -1,7 +1,7 @@
 # New ports collection makefile for:	tkcvs
 # Version required:     6.0
 # Date created:         02 Aug 1996
-# Whom:                 shanee@rabbit.augusta.de
+# Whom:                 shanee@augusta.de
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	tkcvs-6.0
 CATEGORIES=	devel tk41
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/apps/
 
-MAINTAINER=	shanee@rabbit.augusta.de
+MAINTAINER=	shanee@augusta.de
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 

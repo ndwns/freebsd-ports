@@ -1,7 +1,7 @@
 # New ports collection makefile for:	bricons
 # Version required:	3.0 with colour icons
 # Date created:		31 Jul 1996
-# Whom:			shanee@rabbit.augusta.de
+# Whom:			shanee@augusta.de
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.uni-paderborn.de/unix/X11/ftp.x.org/R5contrib/ \
 		ftp://ftp.pasteur.fr/pub/computing/unix/X11/R5contrib/
 EXTRACT_SUFX=	-athena-3.0.tar.gz
 
-MAINTAINER=     shanee@rabbit.augusta.de
+MAINTAINER=     shanee@augusta.de
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 

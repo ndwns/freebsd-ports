@@ -2,7 +2,7 @@
 # Version required:			1.3.2
 # Date created:				28 Jul 1996
 #
-# Whom:	Andreas Kohout <shanee@rabbit.augusta.de>
+# Whom:	Andreas Kohout <shanee@augusta.de>
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	editors
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	shanee@rabbit.augusta.de
+MAINTAINER=	shanee@augusta.de
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
