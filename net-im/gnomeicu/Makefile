@@ -13,12 +13,13 @@ MASTER_SITES=		ftp://gnomeicu.gdev.net/pub/gnomeicu/          \
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
-LIB_DEPENDS=		panel_applet.1:${PORTSDIR}/x11/gnomecore       \
-			gdk_imlib.3:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=		panel_applet.1:${PORTSDIR}/x11/gnomecore
+
+GTK_CONFIG?=		${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=		YES
 GNU_CONFIGURE=		YES
-CONFIGURE_ENV=		GTK_CONFIG="${X11BASE}/bin/gtk12-config"
+CONFIGURE_ENV=		GTK_CONFIG="${GTK_CONFIG}"
 CONFIGURE_ARGS=		--datadir=${PREFIX}/share/gnome
 
 .include <bsd.port.mk>
