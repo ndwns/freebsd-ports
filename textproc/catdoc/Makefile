@@ -16,6 +16,7 @@ EXTRACT_SUFX=	.tar
 MAINTAINER=	brion@queeg.com
 
 EXTRACT_BEFORE_ARGS=	-xf
+CFLAGS+=	-DLATIN1=1
 
 MAN1=		catdoc.1
 
