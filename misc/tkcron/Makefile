@@ -7,14 +7,13 @@
 #
 
 DISTNAME=	tkcron-2.12
-DISTFILES=	tkcron-2.12.tcl.gz
-CATEGORIES=	misc tk41
+CATEGORIES=	misc tk80
 MASTER_SITES=	ftp://ftp.neosoft.com/languages/tcl/alcatel/code/
 EXTRACT_SUFX=	.tcl.gz
 
 MAINTAINER=	sander@haldjas.folklore.ee
 
-RUN_DEPENDS=	wish4\.1:${PORTSDIR}/x11/tk41
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
 EXTRACT_CMD=	${GZIP_CMD}
 EXTRACT_BEFORE_ARGS= -cd
