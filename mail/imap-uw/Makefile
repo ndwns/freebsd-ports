@@ -9,7 +9,7 @@
 DISTNAME=	imap-4.4
 PKGNAME=	imap-uw-4.4
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
+MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/old/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
