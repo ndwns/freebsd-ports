@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	xview-config
-PKGNAME=	xview-config-3.2.1
-CATEGORIES+=	x11
-MASTER_SITES=	ftp://ftp.x.org/contrib/libraries/
+DISTNAME=	xview-config-3.2.1
+CATEGORIES=	x11
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	libraries
 DISTFILES=	xview3.2p1-X11R6.tar.gz
 
 WRKSRC=      	${WRKDIR}/xview3.2p1-X11R6/config
