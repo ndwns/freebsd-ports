@@ -13,6 +13,7 @@ MASTER_SITE_SUBDIR= biblio/bibtex/utils/bibview-2.0
 
 MAINTAINER=	dbader@umiacs.umd.edu
 
+BROKEN=		build
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/bibview-2.2
 
