@@ -4,6 +4,7 @@
     SUBDIR += elm
     SUBDIR += exim
     SUBDIR += exmh
+    SUBDIR += faces
     SUBDIR += fetchmail
     SUBDIR += mailagent
     SUBDIR += majordomo
@@ -22,6 +23,7 @@
     SUBDIR += popper
     SUBDIR += procmail
     SUBDIR += smail
+    SUBDIR += xfaces
     SUBDIR += xfmail
     SUBDIR += xlbiff
     SUBDIR += youbin
