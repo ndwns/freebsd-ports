@@ -50,6 +50,7 @@
     SUBDIR += squeak
     SUBDIR += sr
     SUBDIR += swi-pl
+    SUBDIR += tcl75
     SUBDIR += tcl76
     SUBDIR += tcl80
     SUBDIR += xpl
