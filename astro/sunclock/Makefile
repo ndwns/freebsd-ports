@@ -11,6 +11,7 @@ PKGNAME=	sunclock-1.3
 CATEGORIES=	astro
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.org
 
