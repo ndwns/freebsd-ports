@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	nas-1.2p1
+PKGNAME=	nas-1.2.1
+CATEGORIES+=	audio
+MASTER_SITES=	ftp://ftp.x.org/contrib/audio/nas/
+
 USE_IMAKE=	yes
 ALL_TARGET=	World
-MASTER_SITES=	ftp://ftp.x.org/contrib/audio/nas/
-CATEGORIES+=	audio
 
 .include <bsd.port.mk>

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	sox10p11
-MASTER_SITES=	ftp://nic.switch.ch/software/sources/audio/
+PKGNAME=	sox-10.11
 CATEGORIES+=	audio
+MASTER_SITES=	ftp://nic.switch.ch/software/sources/audio/
 EXTRACT_SUFX=	.tar.Z
 
 pre-install:
