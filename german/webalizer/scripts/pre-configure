@@ -1,0 +1,10 @@
+#! /bin/sh
+
+#
+# $Id$
+#
+
+# only one central config file in $PREFIX/etc
+# -andreas
+
+perl -pi -e "s=!!PREFIX!!=$PREFIX=" ${WRKSRC}/webalizer.c
