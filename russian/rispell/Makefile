@@ -11,11 +11,11 @@ CATEGORIES=     textproc russian
 MASTER_SITES=   http://www.ispras.ru/~knizhnik/ \
 		ftp://ftp.kiarchive.ru/pub/unix/text/ispell/
 
+MAINTAINER=     ache@FreeBSD.org
+
 BUILD_DEPENDS=  ispell:${PORTSDIR}/textproc/ispell
 
 WRKSRC=         ${WRKDIR}/russian-ispell
-
-MAINTAINER=     ache@FreeBSD.org
 
 do-install:
 	cd ${WRKSRC} && \
