@@ -553,16 +553,16 @@ MANLANG?=	""	# english only by default
 
 .for sect in 1 2 3 4 5 6 7 8 9
 .if defined(MAN${sect})
-_MANPAGES+=	${MAN${sect}:S.^.${MAN${sect}PREFIX}/man/${lang}/man${sect}/.}
+_MANPAGES+=	${MAN${sect}:S%^%${MAN${sect}PREFIX}/man/${lang}/man${sect}/%}
 .endif
 .endfor
 
 .if defined(MANL)
-_MANPAGES+=	${MANL:S.^.${MANLPREFIX}/man/${lang}/manl/.}
+_MANPAGES+=	${MANL:S%^%${MANLPREFIX}/man/${lang}/manl/%}
 .endif
 
 .if defined(MANN)
-_MANPAGES+=	${MANN:S.^.${MANNPREFIX}/man/${lang}/mann/.}
+_MANPAGES+=	${MANN:S%^%${MANNPREFIX}/man/${lang}/mann/%}
 .endif
 
 .endfor
