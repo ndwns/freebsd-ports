@@ -14,6 +14,8 @@ EXTRACT_SUFX=	1.0.tgz
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
+
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 MAN6=		xawele.6
