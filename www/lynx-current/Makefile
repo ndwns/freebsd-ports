@@ -13,8 +13,8 @@ PKGNAME=        lynx-2.6
 CATEGORIES=	www
 MASTER_SITES=   ftp://ftp2.cc.ukans.edu/pub/lynx/lynx2-6/ \
 		ftp://ftp.more.net/pub/mirrors/lynx/ \
-		http://www.mtsu.edu/~ripa0003/
-DISTFILES=      ${DISTNAME}.zip 2-6update.zip
+		http://www.wfbr.edu/lynx/
+DISTFILES=      ${DISTNAME}.zip lynx2-6mods.zip
 
 #PATCH_SITES=    http://www.nyu.edu/pages/wsn/subir/lynx/patches/
 #PATCHFILES=     2-6-patch11.txt
