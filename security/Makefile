@@ -35,6 +35,7 @@
     SUBDIR += sniff
     SUBDIR += ssh
     SUBDIR += ssh2
+    SUBDIR += stunnel
     SUBDIR += sudo
     SUBDIR += super
     SUBDIR += swatch
