@@ -55,6 +55,7 @@
     SUBDIR += glib12
     SUBDIR += gmake
     SUBDIR += gnustep
+    SUBDIR += gtksheet
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
@@ -151,6 +152,7 @@
     SUBDIR += shtool
     SUBDIR += stlport
     SUBDIR += swarm
+    SUBDIR += t1lib
     SUBDIR += tclcheck
     SUBDIR += tclcl
     SUBDIR += tclgetopts
