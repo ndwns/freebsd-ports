@@ -22,7 +22,7 @@ MAN1=		cless.1 clesskey.1
 
 post-install:
 .if !defined(NOPORTDOCS)
-	${MKDIR} -p ${PREFIX}/share/doc/cless
+	${MKDIR} ${PREFIX}/share/doc/cless
 	${INSTALL_DATA} ${WRKSRC}/README.CLESS ${PREFIX}/share/doc/cless
 .endif
 
