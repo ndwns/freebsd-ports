@@ -21,6 +21,7 @@
     SUBDIR += kbiff
     SUBDIR += mailagent
     SUBDIR += mailcrypt
+    SUBDIR += maildrop
     SUBDIR += majorcool
     SUBDIR += majordomo
     SUBDIR += mbx2mbox
