@@ -31,6 +31,7 @@
     SUBDIR += par
     SUBDIR += prag
     SUBDIR += rman
+    SUBDIR += sar
     SUBDIR += sgmlformat
     SUBDIR += sgrep
     SUBDIR += sp
