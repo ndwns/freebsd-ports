@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/development/CVSup/ \
 		ftp://ftp.cs.tu-berlin.de/pub/FreeBSD/development/CVSup/
 DISTFILES=	cvsupd-bin-16.0.tar.gz
 
-MAINTAINER=	axl@iafrica.com
+MAINTAINER=	jdp@freebsd.org
 
 NO_BUILD=	yes
 
