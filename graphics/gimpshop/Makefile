@@ -20,7 +20,7 @@ LIB_DEPENDS+=	aa\\.1\\.:${PORTSDIR}/graphics/aalib
 LIB_DEPENDS+=	jpeg.9:${PORTSDIR}/graphics/jpeg
 LIB_DEPENDS+=	gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk
 LIB_DEPENDS+=	mpeg\\.1\\.2:${PORTSDIR}/graphics/mpeg-lib
-LIB_DEPENDS+=	png\\.2\\.:${PORTSDIR}/graphics/png
+LIB_DEPENDS+=	png.3:${PORTSDIR}/graphics/png
 LIB_DEPENDS+=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
 #LIB_DEPENDS+=	xdelta\\.0\\.18:${PORTSDIR}/misc/xdelta
 

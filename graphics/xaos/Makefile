@@ -16,7 +16,7 @@ MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	jkoshy@freebsd.org
 
-LIB_DEPENDS=	png:${PORTSDIR}/graphics/png
+LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 
 # This port will benefit from all-stops-out optimization of the code
 

@@ -17,7 +17,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png\\.2\\.:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34 \
 		PropList\\.0\\.8:${PORTSDIR}/x11-wm/windowmaker
 

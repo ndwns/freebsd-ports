@@ -26,7 +26,7 @@ MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
 LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff34.1:${PORTSDIR}/graphics/tiff34 \
-		png.2:${PORTSDIR}/graphics/png
+		png.3:${PORTSDIR}/graphics/png
 
 USE_IMAKE=	yes
 
