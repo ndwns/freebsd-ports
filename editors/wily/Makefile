@@ -18,6 +18,8 @@ MAINTAINER=	jkoshy@freebsd.org
 USE_X11=	YES
 GNU_CONFIGURE=	YES
 
+BROKEN_ELF=	yes
+
 WILYDOCDIR=	${PREFIX}/share/doc/wily
 WILYTUTEDIR=	${WILYDOCDIR}/tute
 WILYDOCFILES=	index.html intro.html download.html credits.html FAQ.html \
