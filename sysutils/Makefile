@@ -9,6 +9,7 @@
     SUBDIR += cd-write
     SUBDIR += cdrecord
     SUBDIR += cfengine
+    SUBDIR += comconsole
     SUBDIR += contool
     SUBDIR += copytape
     SUBDIR += daemontools
