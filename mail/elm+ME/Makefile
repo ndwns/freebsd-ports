@@ -22,7 +22,6 @@ MAINTAINER=	ache@FreeBSD.ORG
 #PATCH_DIST_STRIP= -p1
 
 pre-patch:
-	rm -f ${WRKSRC}/src/state.c
 	-patch -d ${WRKSRC} -s -p -N -S + < ${PORTSDIR}/distfiles/elm2.4.p25
 
 post-install:
