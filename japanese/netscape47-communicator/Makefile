@@ -6,8 +6,6 @@
 # $Id$
 #
 
-BROKEN=		REPOSITORY COPIED
-
 MASTERDIR=	${.CURDIR}/../netscape4-communicator
 
 MAINTAINER=	sada@FreeBSD.ORG
