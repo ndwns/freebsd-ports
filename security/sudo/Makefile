@@ -8,8 +8,8 @@
 
 DISTNAME=	cu-sudo.v1.5
 PKGNAME=	sudo-1.5
-CATEGORIES+=	sysutils
-MASTER_SITES=	ftp://freestuff.cs.colorado.edu//pub/sysadmin/sudo/
+CATEGORIES=	security
+MASTER_SITES=	ftp://freestuff.cs.colorado.edu/pub/sysadmin/sudo/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@rrnet.com
