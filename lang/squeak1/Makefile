@@ -13,6 +13,8 @@ MASTER_SITES=  ftp://ftp.create.ucsb.edu/pub/Smalltalk/Squeak/unix/
 
 MAINTAINER=    jesse@cs.uni-magdeburg.de
 
+BROKEN=		upgrade
+
 USE_XLIB=	yes
 WRKSRC=         $(WRKDIR)/Squeak-1.18/src
 
