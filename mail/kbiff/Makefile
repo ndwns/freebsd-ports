@@ -18,6 +18,6 @@ LIB_DEPENDS=	kdeui.2:${PORTSDIR}/x11/kdelibs11 \
 USE_QT=		yes
 USE_BZIP2=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 
 .include <bsd.port.mk>
+
