@@ -40,5 +40,5 @@ post-install:
 #	for i in ${MAN8}; do \
 #		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man8/; \
 #	done
-	@(cd ${WRKDIR}/doc/man && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
+	@(cd ${WRKDIR}/doc/man && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} clean all ${INSTALL_TARGET})
 .include <bsd.port.mk>
