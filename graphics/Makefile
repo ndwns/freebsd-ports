@@ -5,6 +5,7 @@
     BROKEN += Mesa              # doesn't install
     SUBDIR += aero
     SUBDIR += dore
+    SUBDIR += hpscan
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
     SUBDIR += mpeg_play
