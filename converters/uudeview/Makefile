@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.informatik.uni-frankfurt.de/~fp/uudeview/Apps/frank/ \
 
 MAINTAINER=	hoek@FreeBSD.ORG
 
-LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
+LIB_DEPENDS=	uu.1:${PORTSDIR}/converters/uulib
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-inews=${PREFIX}/news/lib/inews \
