@@ -54,6 +54,8 @@
     SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
+    SUBDIR += mendexk-euc
+    SUBDIR += mendexk-sjis
     SUBDIR += mew
     SUBDIR += mh
     SUBDIR += mimekit
