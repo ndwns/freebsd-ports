@@ -196,7 +196,7 @@ install: ${INSTALL_COOKIE}
 
 ${INSTALL_COOKIE}:
 	@echo "===>  Installing for ${DISTNAME}"
-	${MAKE} pre-install
+	@${MAKE} pre-install
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} install)
 .else defined(USE_GMAKE)
@@ -267,7 +267,7 @@ configure: extract ${CONFIGURE_COOKIE}
 
 ${CONFIGURE_COOKIE}:
 	@echo "===>  Configuring for ${DISTNAME}"
-	${MAKE} pre-configure
+	@${MAKE} pre-configure
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; do \
