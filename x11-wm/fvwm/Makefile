@@ -12,6 +12,8 @@ CATEGORIES+=	x11
 
 MAINTAINER=	me@FreeBSD.org
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 
