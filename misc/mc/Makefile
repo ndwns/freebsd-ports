@@ -18,4 +18,7 @@ CONFIGURE_ARGS=	--with-ncurses --without-edit --without-subshell
 MAN1=		mc.1 mcedit.1
 MAN8=		mcserv.8
 
+post-install:
+	@ ${RMDIR} ${PREFIX}/lib/mc/icons
+
 .include <bsd.port.mk>
