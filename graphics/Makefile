@@ -17,6 +17,7 @@
     SUBDIR += mpeg_stat
     SUBDIR += mplex
     SUBDIR += netpbm
+    SUBDIR += p5-Image-Size
     SUBDIR += pixmap
     SUBDIR += png
     SUBDIR += povray
