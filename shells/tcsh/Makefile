@@ -8,7 +8,7 @@
 
 DISTNAME=       tcsh-6.06
 CATEGORIES+=	shells
-MASTER_SITES=	ftp://tesla.ee.cornell.edu/pub/tcsh/
+MASTER_SITES=   ftp://ee.cornell.edu/pub/tcsh/
 
 ALL_TARGET=     all catalogs
 INSTALL_TARGET= install install.man
