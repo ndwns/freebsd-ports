@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       PGPLOT-2.06
-PKGNAME=	pgperl-2.06
+DISTNAME=       PGPLOT-2.08
+PKGNAME=	pgperl-2.08
 CATEGORIES=     graphics perl5
 MASTER_SITES=   ftp://ftp.ast.cam.ac.uk/pgperl/
 
