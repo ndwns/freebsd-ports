@@ -65,6 +65,7 @@
     SUBDIR += tk41
     SUBDIR += tk42
     SUBDIR += tk80
+    SUBDIR += tk81
     SUBDIR += tkdesk
     SUBDIR += tkgoodstuff
     SUBDIR += tkstep80

@@ -56,6 +56,7 @@
     SUBDIR += tcl75
     SUBDIR += tcl76
     SUBDIR += tcl80
+    SUBDIR += tcl81
     SUBDIR += tclX75
     SUBDIR += tclplugin
     SUBDIR += xpl
