@@ -6,16 +6,13 @@
 # $Id$
 #
 
-DISTNAME=		aalib-1.2
-CATEGORIES=		graphics
-MASTER_SITES=		ftp://ftp.ta.jcu.cz/pub/aa/
+DISTNAME=	aalib-1.2
+CATEGORIES=	graphics
+MASTER_SITES=	ftp://ftp.ta.jcu.cz/pub/aa/
 
-MAINTAINER=		andy@icc.surw.chel.su
+MAINTAINER=	andy@icc.surw.chel.su
 
-GNU_CONFIGURE=		yes
-
-pre-configure:
-	@${RM} ${WRKSRC}/config.cache
+GNU_CONFIGURE=	yes
 
 pre-install:
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
