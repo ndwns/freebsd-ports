@@ -10,6 +10,7 @@
     SUBDIR += cops
     SUBDIR += crack
     SUBDIR += donkey
+    SUBDIR += fakebo
     SUBDIR += fwtk
     SUBDIR += gnupg
     SUBDIR += john
