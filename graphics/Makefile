@@ -15,6 +15,7 @@
     SUBDIR += tiff
     SUBDIR += vcg
     SUBDIR += xanim
+    SUBDIR += xbmbrowser
     SUBDIR += xdl
     SUBDIR += xfig
     SUBDIR += xfractint
