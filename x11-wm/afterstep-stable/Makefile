@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	as-b23a
-PKGNAME=	afterstep-0.98b23a
+DISTNAME=	as-b24a
+PKGNAME=	afterstep-0.98b24a
 CATEGORIES+=	x11
 MASTER_SITES=	ftp://oak.sfasu.edu/pub/AfterStep/
 
@@ -17,7 +17,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 RUN_DEPENDS=	fvwm:${PORTSDIR}/x11/fvwm
 
 USE_X11=	yes
-WRKSRC=		${WRKDIR}/AfterStep-0.98aBETA23a
+WRKSRC=		${WRKDIR}/AfterStep-0.98aBETA24a
 
 pre-build:
 		@cd ${WRKSRC}; sh MakeMakefiles
