@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	lyx-0.10.6
+DISTNAME=	lyx-0.10.7
 CATEGORIES+=	print
 MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/
 
