@@ -8,7 +8,7 @@
 
 DISTNAME=	trafshow-2.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.kiae.su/unix/tcpip/netmaint/
+MASTER_SITES=	ftp://ftp.kiae.su/pub/unix/tcpip/netmaint/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     igor@zynaps.ru
