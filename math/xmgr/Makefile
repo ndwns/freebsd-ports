@@ -15,8 +15,6 @@ MASTER_SITES=	ftp://ftp.uni-bielefeld.de/pub/systems/FreeBSD/lkoeller/ \
 
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 
-BROKEN_ELF=	build
-
 BUILD_DEPENDS=	${X11BASE}/lib/libhlpclient.a:${PORTSDIR}/x11/libhelp \
 		${LOCALBASE}/lib/libmfhdf.a:${PORTSDIR}/graphics/hdf
 LIB_DEPENDS=	Xbae.6:${PORTSDIR}/x11-toolkits/xbae
@@ -31,5 +29,11 @@ CONFIGURE_ARGS=	-prefix=${X11BASE} \
 
 ALL_TARGET=
 INSTALL_TARGET=	install links
+
+post-patch:
+	mv ${WRKSRC}/configure ${WRKSRC}/configure.input
+	sed "s%__MOTIFLIB__%${MOTIFLIB}%" ${WRKSRC}/configure.input > ${WRKSRC}/configure
+	rm -f ${WRKSRC}/configure.input
+	chmod 755 ${WRKSRC}/configure
 
 .include <bsd.port.mk>
