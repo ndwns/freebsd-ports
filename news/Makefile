@@ -25,6 +25,7 @@
     SUBDIR += p5-Gateway
     SUBDIR += p5-News-Article
     SUBDIR += p5-News-Newsrc
+    SUBDIR += pan
     SUBDIR += pgpmoose
     SUBDIR += plor
     SUBDIR += rkive
