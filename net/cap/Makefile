@@ -25,8 +25,6 @@ PATCH_SITES=	ftp://ftp-ns.rutgers.edu/pub/cap/cap.patches/ \
 PATCHFILES=	cap60.patch193 cap60.patch194 cap60.patch195 cap60.patch196 \
 		cap60.patch197 cap60.patch198
 
-MAINTAINER=	max@FreeBSD.ORG
-
 NO_CDROM=	"Don't sell for profit"
 WRKSRC=		${WRKDIR}/cap60
 DIST_SUBDIR=	cap60
