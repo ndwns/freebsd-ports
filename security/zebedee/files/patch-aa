@@ -1,5 +1,5 @@
---- Makefile.orig	Tue Feb  6 15:43:58 2001
-+++ Makefile	Tue Feb  6 15:44:36 2001
+--- Makefile.orig	Wed Jul  4 17:16:33 2001
++++ Makefile	Wed Jul  4 17:16:54 2001
 @@ -3,7 +3,7 @@
  #
  # $Id$
@@ -9,7 +9,19 @@
  
  ###
  ### Locations of tools, libraries and installation directories.
-@@ -24,7 +24,7 @@
+@@ -12,19 +12,16 @@
+ 
+ # Chose your C compiler
+ 
+-CC_$(OS) = gcc
+-
+ CC_win32 = c:/gcc-2.95.2/bin/gcc
+ CC_linux = gcc -pthread
+ CC_solaris = gcc
+ CC_freebsd = gcc -pthread
+ CC_tru64 = cc
+-CC = $(CC_$(OS))
+ 
  # Optimise/debug compilation
  
  #OPTIM = -Wall -g
@@ -18,7 +30,7 @@
  
  # Location of gmp include and library
  #
-@@ -36,19 +36,19 @@
+@@ -36,19 +33,19 @@
  
  # Location of Blowfish include and library
  
@@ -44,13 +56,13 @@
  
  #
  # Tools needed for Perl "POD"-format documentation conversion.
-@@ -133,7 +133,8 @@
+@@ -133,7 +130,8 @@
  #### You REALLY shouldn't have to modify anything beyond here ...
  ####
  
 -CFLAGS = $(OPTIM) $(DEFINES) -I. $(GMPINC) $(BFINC) $(ZINC) $(BZINC)
 +CFLAGS ?= -O3
-+CFLAGS += $(OPTIM) $(DEFINES) -I. $(GMPINC) $(BFINC) $(ZINC) $(BZINC)
++CFLAGS += ${PTHREAD_LIBS} ${PTHREAD_CFLAGS} $(OPTIM) $(DEFINES) -I. $(GMPINC) $(BFINC) $(ZINC) $(BZINC)
  
  LIBS = $(GMPLIB) $(BFLIB) $(ZLIB) $(BZLIB) $(OSLIBS)
  
