@@ -11,4 +11,6 @@ CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.ics.uci.edu/pub/mh/tar/
 EXTRACT_SUFX=	.tar.Z
 
+MAINTAINER=	markm@FreeBSD.ORG
+
 .include <bsd.port.mk>
