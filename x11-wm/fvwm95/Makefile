@@ -27,5 +27,6 @@ MAN1=		fvwm95.1
 post-install:
 		@${INSTALL_MAN}	$(WRKSRC)/fvwm/fvwm95.man \
 				$(PREFIX)/man/man1/fvwm95.1
+		(cd ${PREFIX}/icons; tar xzf ${FILESDIR}/fbsd-icons.tar.gz)
 
 .include <bsd.port.mk>
