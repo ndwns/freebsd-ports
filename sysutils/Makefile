@@ -3,6 +3,7 @@
 
     SUBDIR += LPRng
     SUBDIR += afio
+    SUBDIR += cdrecord
     SUBDIR += cd-write
     SUBDIR += contool
     SUBDIR += idled
