@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	ghostscript
+SUBDIR=	ghostscript psutils
 
 .include <bsd.port.subdir.mk>
