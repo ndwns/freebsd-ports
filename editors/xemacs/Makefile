@@ -34,6 +34,7 @@ CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} \
 		--site-includes=${PREFIX}/include \
 		--site-libraries=${PREFIX}/lib \
 		--sitelispdir="${PREFIX}/lib/xemacs/site-lisp ${PREFIX}/share/emacs/site-lisp" \
+		--with-xface=no \
 		${WITH_MULE} ${WITH_DIALOGS}
 MAN1=		ctags.1 etags.1 gnuattach.1 gnuclient.1 gnudoit.1 \
 		gnuserv.1 xemacs.1
