@@ -1,12 +1,12 @@
 # New ports collection makefile for:    mkisofs
-# Version required:     1.10
+# Version required:     1.11.1
 # Date created:         07 Aug 1996
 # Whom:                 jkh
 #
 # $Id$
 #
 
-DISTNAME=       mkisofs-1.10
+DISTNAME=       mkisofs-1.11.1
 CATEGORIES=	sysutils
 MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/packages/mkisofs/
 
