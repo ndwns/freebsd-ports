@@ -14,4 +14,7 @@ MASTER_SITES=	ftp://spcot.sanders.com/pub/fvwm/
 USE_IMAKE=	yes
 DEPENDS=	x11/xpm
 
+pre-install:
+	@cp ${FILESDIR}/configure2.h ${WRKSRC}
+
 .include <bsd.port.mk>
