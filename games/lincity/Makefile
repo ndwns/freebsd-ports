@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       lincity104
-PKGNAME=	lincity-1.04
+DISTNAME=       lincity109
+PKGNAME=	lincity-1.09
 CATEGORIES=	games
-MASTER_SITES=	http://www.floot.demon.co.uk/
+MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/linux/games/
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	proff@iq.org
