@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xinvest-2.5.1
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	http://sunsite.auc.dk/xinvest/	\
 		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR= applications

@@ -9,7 +9,7 @@
 #	Also update	ports/japanese/plan/ (ja-plan) when this port is updated
 
 DISTNAME=	plan-1.7.1
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		ftp://ftp.fu-berlin.de/pub/unix/graphics/plan/
 MASTER_SITE_SUBDIR=	applications

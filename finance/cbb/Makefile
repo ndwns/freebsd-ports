@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cbb-0.73
-CATEGORIES=	misc tk42
+CATEGORIES=	deskutils tk42
 MASTER_SITES=	ftp://ftp.me.umn.edu/pub/finance/ \
 		ftp://ftp.fifi.org/pub/cbb/
 

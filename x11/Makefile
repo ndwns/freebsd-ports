@@ -74,7 +74,6 @@
     SUBDIR += rclock
     SUBDIR += rxvt
     SUBDIR += sharefonts
-    SUBDIR += sliderule
     SUBDIR += slingshot
     SUBDIR += swisswatch
     SUBDIR += sxpc
@@ -122,8 +121,6 @@
     SUBDIR += xmbdfed
     SUBDIR += xmold
     SUBDIR += xmove
-    SUBDIR += xpostit
-    SUBDIR += xpostitPlus
     SUBDIR += xprompt
     SUBDIR += xscreensaver
     SUBDIR += xskyroot

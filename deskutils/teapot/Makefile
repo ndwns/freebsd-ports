@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	teapot-1.01
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	ftp://cantor.informatik.rwth-aachen.de/pub/unix/
 
 MAINTAINER=	andy@icc.surw.chel.su

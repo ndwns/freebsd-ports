@@ -8,7 +8,7 @@
 
 DISTNAME=	xopps.1.13
 PKGNAME=	xopps-1.13
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	ftp://devvax.jpl.nasa.gov/pub/xopps/
 
 MAINTAINER=	ports@FreeBSD.org

@@ -8,7 +8,7 @@
 
 DISTNAME=	sliderule
 PKGNAME=	sliderule-1.0
-CATEGORIES=	x11
+CATEGORIES=	deskutils
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	joerg@FreeBSD.org

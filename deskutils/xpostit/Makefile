@@ -8,7 +8,7 @@
 
 DISTNAME=      xpostit3.3.1
 PKGNAME=       xpostit-3.3.1
-CATEGORIES=    x11
+CATEGORIES=    deskutils
 #
 # Not all servers archie could find actually still have it.  Alas, some
 # servers only have the comp.sources.x version, with its distfile named

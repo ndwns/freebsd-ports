@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	korganizer-0.9
-CATEGORIES=	misc kde
+CATEGORIES=	deskutils kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= unstable/apps/office
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	Trash-2.4
 PKGNAME=	offix-trash-2.4
-CATEGORIES=	x11 offix
+CATEGORIES=	deskutils offix
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	desktop_managers/OffiX
 

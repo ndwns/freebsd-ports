@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xmdiary-3.0.1
-CATEGORIES=	misc
+CATEGORIES=	deskutils
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	office
 DISTFILES=      ${DISTNAME}.tar.gz xmdfix.gz
