@@ -9,10 +9,11 @@
 #
 
 DISTNAME=       lynx2-7-1
-PKGNAME=        lynx-2.7.1
+PKGNAME=        lynx-2.7.1+fotemods
 CATEGORIES=	www
-MASTER_SITES=   http://www.slcc.edu/lynx/fote/
-EXTRACT_SUFX=   .zip
+MASTER_SITES=   http://www.slcc.edu/lynx/fote/ \
+		http://www.slcc.edu/lynx/fote/patches/
+DISTFILES=      lynx2-7-1.zip fotemods.zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
