@@ -43,6 +43,7 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/readme.port ${PREFIX}/quakeserver
 		${INSTALL} -c -o nobody -g nobody -m 0500 ${WRKSRC}/qserver.sh ${PREFIX}/quakeserver
 		${INSTALL} -c -o nobody -g nobody -m 0500 ${WRKSRC}/stopserver.sh ${PREFIX}/quakeserver
+		@ ${RM} -f ${PREFIX}/quakeserver/quakeserver.in
 		/usr/bin/mkfifo ${PREFIX}/quakeserver/quakeserver.in
 		/usr/bin/touch ${PREFIX}/quakeserver/quakeserver.log
 		@ /bin/chmod 700 ${PREFIX}/quakeserver/quakeserver.in ${PREFIX}/quakeserver/quakeserver.log
