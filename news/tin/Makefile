@@ -10,6 +10,8 @@ DISTNAME=	tin-1.22
 CATEGORIES+=	news
 MASTER_SITES=	ftp://ftp.germany.eu.net/pub/news/newsreader/unix/tin/
 
+ALL_TARGET=     freebsd
+
 post-install:
 	gzip -9nf ${PREFIX}/man/man1/tin.1
 
