@@ -17,6 +17,7 @@
     SUBDIR += xinvest
     SUBDIR += xmaddressbook
     SUBDIR += xmdiary
+    SUBDIR += xmulti
     SUBDIR += xopps
     SUBDIR += xpostit
     SUBDIR += xpostitPlus
