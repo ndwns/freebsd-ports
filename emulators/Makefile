@@ -2,6 +2,7 @@
 #
 
     SUBDIR += aftp
+    SUBDIR += atari800
     SUBDIR += bsvc
     SUBDIR += cpmemu
     SUBDIR += cpmtools
