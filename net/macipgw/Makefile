@@ -16,6 +16,4 @@ BUILD_DEPENDS=	${PREFIX}/lib/libatalk.a:${PORTSDIR}/net/netatalk \
 		${PREFIX}/include/atalk/ddp.h:${PORTSDIR}/net/netatalk
 RUN_DEPENDS=	${PREFIX}/libexec/atalkd:${PORTSDIR}/net/netatalk
 
-NO_PATCH=	yes
-
 .include <bsd.port.mk>
