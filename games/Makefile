@@ -2,6 +2,7 @@
 #
 
     SUBDIR += acm
+    SUBDIR += agm
     SUBDIR += an
     SUBDIR += angband
     SUBDIR += block
