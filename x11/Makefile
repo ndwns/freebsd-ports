@@ -6,6 +6,7 @@
     SUBDIR += Xaw3d
     SUBDIR += afterstep
     SUBDIR += auis
+    SUBDIR += blast
     SUBDIR += blt
     SUBDIR += color_xterm
     SUBDIR += ctwm
