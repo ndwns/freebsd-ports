@@ -36,6 +36,7 @@
     SUBDIR += tiff34
     SUBDIR += txtmerge
     SUBDIR += vcg
+    SUBDIR += whirlgif
     SUBDIR += xanim
     SUBDIR += xbmbrowser
     SUBDIR += xdl
