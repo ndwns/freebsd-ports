@@ -53,6 +53,7 @@
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += mpd
+    SUBDIR += mpich
     SUBDIR += mrtg
     SUBDIR += ncftp
     SUBDIR += ncftp2
