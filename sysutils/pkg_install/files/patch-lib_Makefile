@@ -1,16 +1,14 @@
---- lib/Makefile.orig	Wed Jul 28 03:19:15 2004
-+++ lib/Makefile	Mon Aug  2 16:37:51 2004
-@@ -1,13 +1,17 @@
+--- lib/Makefile.orig	Sun Oct 24 11:33:07 2004
++++ lib/Makefile	Sat Feb 26 17:03:27 2005
+@@ -1,11 +1,15 @@
  # $FreeBSD$
  
  LIB=	install
--INTERNALLIB= YES
+-INTERNALLIB=
  SRCS=	file.c msg.c plist.c str.c exec.c global.c pen.c match.c \
  	deps.c version.c pkgwrap.c url.c
 +NOPROFILE=	yes
 +NOPIC=		yes
- 
- CFLAGS+= ${DEBUG}
  
  WARNS?=	3
  WFORMAT?=	1
