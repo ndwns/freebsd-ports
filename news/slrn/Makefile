@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	slrn0.9.5.4
-PKGNAME=	slrn-0.9.5.4
+DISTNAME=	slrn0.9.5.5
+PKGNAME=	slrn-0.9.5.5
 CATEGORIES=	news
 MASTER_SITES=	ftp://space.mit.edu/pub/davis/slrn/
 
