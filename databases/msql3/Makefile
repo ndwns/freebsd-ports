@@ -13,6 +13,8 @@ MASTER_SITES=	http://www2.nerosworld.com/msql/ \
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN=yes
+
 # Not free for commercial use.  Must create a user on the local system
 NO_PACKAGE=	YES
 RESTRICTED=	"restrictive copyright (no commercial use)"
