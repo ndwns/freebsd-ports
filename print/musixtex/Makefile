@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       musixtex-T76
+DISTNAME=       musixtex-T77
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.tex.ac.uk//tex-archive/macros/musixtex/taupin/
-DISTFILES=      musixtex-T76.tar.gz musixexa-T74.tar.gz
+DISTFILES=      musixtex-T77.tar.gz musixexa-T74.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
