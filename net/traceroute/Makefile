@@ -7,14 +7,14 @@
 #
 
 DISTNAME=	traceroute_${RELEASEDATE}
-PKGNAME=	traceroute-${RELEASEDATE}
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.nikhef.nl/pub/network/
+MASTER_SITES=	ftp://ftp.nikhef.nl/pub/network/	\
+	  	http://www.chg.ru/~dima/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	chris@vader.org
+MAINTAINER=	dima@Chg.RU
 
-RELEASEDATE=	980831
+RELEASEDATE=	990207
 NO_WRKSUBDIR=	yes
 MAN8=		traceroute.8
 
