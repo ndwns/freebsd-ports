@@ -20,15 +20,32 @@
 
 PATH=/sbin:/bin:/usr/bin
 
+cleanup() {
+	rm -f $FN_RESULTS_SCRIPT $FN_PORTS $FN_DISTFILES
+	echo "Terminated."
+	exit 1
+}
+
 echo "Distfiles clean utility by Maxim Sobolev <sobomax@FreeBSD.org>."
 echo "Assumes that your ports in /usr/ports and distfiles in /usr/ports/distfiles."
 echo ""
+
+if [ x"$1" = x"-f" ]; then
+	RM_FLAG="-f"	
+else
+	RM_FLAG="-i"
+	echo "Use \"`basename $0` -f\" to remove the files without prompting for confirmation."
+	echo ""
+fi
 
 umask 077
 
 FN_PORTS=`mktemp -t dclean` || exit 1
 FN_DISTFILES=`mktemp -t dclean` || exit 1
 FN_RESULTS_SCRIPT=`mktemp -t dclean` || exit 1
+
+trap cleanup 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 20 21 22 23 24 25 26 27 28 \
+	     29 30 21
 
 echo -n "Building ports md5 index..."
 find /usr/ports/ -name "distinfo" -or -name "distinfo.i386" -or -name "distinfo.alpha" -type f | xargs cat | grep "^MD5 ("| sort | uniq > $FN_PORTS
