@@ -9,7 +9,7 @@
 DISTNAME=	xphoon
 PKGNAME=	xphoon-91.9.18
 CATEGORIES=	astro x11
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11//R5-contrib/
+MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	asami@FreeBSD.ORG
