@@ -8,9 +8,9 @@
 
 DISTNAME=		HTMLgen
 PKGNAME=		py-HTMLgen-2.1
-CATEGORIES=		www
+CATEGORIES=		www python
 MASTER_SITES=		http://starship.skyport.net/crew/friedrich/ \
-			http://www.nectar.com/distfiles/
+			http://www.nectar.cc/distfiles/
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
