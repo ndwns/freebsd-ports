@@ -8,7 +8,7 @@
 
 DISTNAME=	metis-4.0
 CATEGORIES=	math
-MASTER_SITES=	http://www.cs.umn.edu/~karypis/metis/metis/files/
+MASTER_SITES=	http://www-users.cs.umn.edu/~karypis/metis/metis/files/
 
 MAINTAINER=	ports@FreeBSD.org
 
