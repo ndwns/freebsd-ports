@@ -21,7 +21,7 @@ RESTRICTED=	"License prohibites distribute."
 NO_BUILD=	YES
 PLIST_SUB=	JAVASUBDIR=${JAVASUBDIR}
 
-JAVASUBDIR=	jdk1.1.7
+JAVASUBDIR=	jdk1.1.8
 JFCSUBDIR=	swing-1.1
 DIR=		${PREFIX}/share/java
 
