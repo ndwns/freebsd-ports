@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       xcdplayer-2.2
-MASTER_SITES=   ftp://sunsite.unc.edu/pub/X11/contrib/
+MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Sun/
 USE_IMAKE=      yes
 MAN1=		xcdplayer.1
 
