@@ -10,17 +10,17 @@ DISTNAME=	ical-2.2
 CATEGORIES=	misc
 MASTER_SITES=	http://www.research.digital.com/SRC/personal/Sanjay_Ghemawat/ical/icalbins/
 
-MAINTAINER=	erich@FreeBSD.org
+MAINTAINER=	erich@FreeBSD.ORG
 
 LIB_DEPENDS=    tk80\\.1:${PORTSDIR}/x11/tk80
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=${PREFIX} \
+CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--with-tclconfig=${PREFIX}/lib/tcl8.0 \
 		--with-tclhdir=${PREFIX}/include/tcl8.0 \
 		--with-tclsh=${PREFIX}/bin/tclsh8.0 \
 		--with-tkconfig=${PREFIX}/lib/tk8.0 \
-		--with-tkhdir=${PREFIX}/include/tk8.0 
+		--with-tkhdir=${PREFIX}/include/tk8.0
 
 MAN1=		ical.1
 
