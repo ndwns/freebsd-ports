@@ -16,12 +16,12 @@
     SUBDIR += fep
     SUBDIR += figlet
     SUBDIR += git
+    SUBDIR += gnuls
     SUBDIR += ical
     SUBDIR += jive
     SUBDIR += kp
     SUBDIR += less
     SUBDIR += lile
-    SUBDIR += linuxls
     SUBDIR += logsurfer
     SUBDIR += mc
     SUBDIR += mmv
