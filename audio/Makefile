@@ -77,6 +77,7 @@
     SUBDIR += xmcd
     SUBDIR += xmix
     SUBDIR += xmmix
+    SUBDIR += xmms
     SUBDIR += xmpeg3
     SUBDIR += xmradio
     SUBDIR += xtuner
