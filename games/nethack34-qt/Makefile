@@ -23,7 +23,6 @@ LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 RUN_DEPENDS=	auplay:${PORTSDIR}/audio/nas
 
-BROKEN=		As long as nas is broken in -current which is needed for sound
 EXTRACT_ONLY=	nethack-3.2.2.tar.gz
 USE_GMAKE=	yes
 SHELL=		/bin/sh
