@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-NO_CDROM=	yes	# don't make money from it
+NO_CDROM=	"Don't make money from it"
 
 pre-patch:
 	@cp ${WRKSRC}/Makefile.dst ${WRKSRC}/Makefile

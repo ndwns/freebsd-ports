@@ -14,6 +14,6 @@ MASTER_SITE_SUBDIR=	games/x11/video
 
 USE_IMAKE=	yes
 
-NO_CDROM=	yes	# "don't sell for profit"
+NO_CDROM=	"don't sell for profit"
 
 .include <bsd.port.mk>

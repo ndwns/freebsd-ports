@@ -15,8 +15,8 @@ DISTFILES=      JDK-1_0_2-solaris2-sparc.tar.Z
 
 MAINTAINER=	smpatel@freebsd.org
 
+NO_CDROM=	"Put copyright on packaging, etc."
 NO_WRKSUBDIR=	yes
-NO_CDROM=	yes	# put copyright on packaging etc.
 
 post-install:
 	@cat ${PKGDIR}/DESCR

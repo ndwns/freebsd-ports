@@ -15,9 +15,9 @@ DISTFILES=      webcopy.tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+NO_PACKAGE= "This program cannot be distributed if modified in any way"
+NO_CDROM= "Don't sell for profit without written permission"
 ALL_TARGET=
-NO_PACKAGE= yes # This program cannot be distributed if modified in any way
-NO_CDROM= yes   # Don't sell for profit without written permission
 
 do-install:
 	cd ${WRKSRC}; ${INSTALL_SCRIPT} webcopy ${PREFIX}/bin

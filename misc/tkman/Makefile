@@ -17,7 +17,7 @@ LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman \
 		glimpse:${PORTSDIR}/misc/glimpse
 
-NO_CDROM=	yes	# Don't sell for profit
+NO_CDROM=	"Don't sell for profit"
 MAN1=		tkman.1
 
 .include <bsd.port.mk>

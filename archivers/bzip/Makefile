@@ -12,7 +12,7 @@ MASTER_SITES=   http://www.cs.man.ac.uk/arch/people/j-seward/
 
 MAINTAINER=     andreas@klemm.gtn.com
 
-NO_CDROM=       yes     # Restrictive copyright (don't sell for profit)
+NO_CDROM=       "Restrictive copyright (don't sell for profit)"
 MAN1=		bzip.1 bunzip.1
 
 pre-install:

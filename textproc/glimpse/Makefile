@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	chuckr@freebsd.org
 
-NO_CDROM=	yes	# Restrictive copyright (don't sell for profit)
+NO_CDROM=	"Restrictive copyright (don't sell for profit)"
 GNU_CONFIGURE=	yes
 MAN1=		glimpse.1 glimpseindex.1 glimpseserver.1 agrep.1
 

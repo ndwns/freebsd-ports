@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.huie.hokudai.ac.jp/pub/tool/graphics/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-NO_CDROM=	yes	#shareware
+NO_CDROM=	"Shareware"
 
 NO_WRKSUBDIR=	yes
 ALL_TARGET=	giftool
