@@ -48,8 +48,6 @@ do-patch:
 		> ${WRKSRC}/sirc
 .endif
 
-NO_CONFIGURE=	"There is no configure or makefile in the source"
-
 do-build:
 	${CC} ${CFLAGS} ${WRKSRC}/ssfe.c -o ${WRKSRC}/ssfe -ltermcap
 
