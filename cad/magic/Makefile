@@ -9,6 +9,7 @@
 DISTNAME=       magic-6.4.4
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
+USE_GMAKE=	yes
 
 install:
 	@echo "===>  Installing for ${DISTNAME}"
