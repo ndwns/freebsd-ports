@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=     MLDBM
 
 MAINTAINER=     ports@FreeBSD.ORG
 
-BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Data/Dumper.pm:${PORTSDIR}/devel/p5-Data-Dumper \
-		${PREFIX}/lib/perl5/site_perl/FreezeThaw.pm:${PORTSDIR}/devel/p5-FreezeThaw \
+BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/FreezeThaw.pm:${PORTSDIR}/devel/p5-FreezeThaw \
 		${PREFIX}/lib/perl5/site_perl/Storable.pm:${PORTSDIR}/devel/p5-Storable
 
 USE_PERL5=	YES
