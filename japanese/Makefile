@@ -166,6 +166,8 @@
     SUBDIR += xklock
     SUBDIR += xnetmaj
     SUBDIR += xshodo
+    SUBDIR += yatex
+    SUBDIR += yatex-xemacs
     SUBDIR += zipcodes
 
 .include <bsd.port.subdir.mk>
