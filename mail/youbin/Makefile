@@ -1,4 +1,5 @@
 # New ports collection makefile for:	youbin
+# http://www.agusa.nuie.nagoya-u.ac.jp/software/youbin/youbin-e.html
 # Version required:		2.13
 # Date created:			09 Aug 1996
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
