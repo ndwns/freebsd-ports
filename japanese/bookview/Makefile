@@ -1,13 +1,13 @@
 # New ports collection makefile for:	bookview
-# Version required:		2.4.1
+# Version required:		2.4.3
 # Date created:			2 Oct 1997
 # Whom:				Motoyuki Kasahara <m-kasahr@sra.co.jp>
 #
 # $Id$
 #
 
-DISTNAME=	bookview-2.4.1
-PKGNAME=	ja-bookview-2.4.1
+DISTNAME=	bookview-2.4.3
+PKGNAME=	ja-bookview-2.4.3
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/net/ndtp/bookview/ \
 		ftp://ftp.sra.co.jp/pub/net/ndtp/bookview/old/ \
@@ -22,11 +22,4 @@ CONFIGURE_ENV=	WISH=${PREFIX}/bin/wish8.0jp \
 		INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		INSTALL_DATA="${INSTALL_DATA}"
 
-.include <bsd.port.pre.mk>
-
-pre-install:
-.if !exists(${PREFIX}/info/dir)
-	${CP} -p ${INFODIR}/dir-tmpl ${PREFIX}/info/dir
-.endif
-
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
