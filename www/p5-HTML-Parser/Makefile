@@ -23,7 +23,7 @@ MAN3=		HTML::Entities.3 \
 		HTML::Parser.3 \
 		HTML::TokeParser.3
 
-MAN3PREFIX=	${PREFIX}/lib/perl5
+MAN3PREFIX=	${PREFIX}/lib/perl5/5.00501
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

@@ -14,14 +14,14 @@ MASTER_SITE_SUBDIR=	Chart
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/GD.pm:${PORTSDIR}/graphics/p5-GD
+BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/5.005/i386-freebsd/GD.pm:${PORTSDIR}/graphics/p5-GD
 
 WRKSRC=		${WRKDIR}/Chart-0.94
 
 USE_PERL5=	YES
 
 MAN3=		Chart.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/5.00501
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL

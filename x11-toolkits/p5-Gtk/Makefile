@@ -19,7 +19,7 @@ LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 USE_PERL5=	YES
 
 MAN3=		GtkColorSelectButton.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/5.00501
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
