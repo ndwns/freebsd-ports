@@ -1,13 +1,13 @@
 # New ports collection makefile for:	pygtk
-# Version required:	0.4.3
+# Version required:	0.4.4
 # Date created:		30 May 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	pygtk-0.4.3
-PKGNAME=	py-gtk-0.4.3
+DISTNAME=	pygtk-0.4.4
+PKGNAME=	py-gtk-0.4.4
 CATEGORIES=	x11 python
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/python/ \
 		ftp://infosoc.uni-koeln.de/pub/ftp.gimp.org/pub/gtk/python/ \
