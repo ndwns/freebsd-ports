@@ -1,4 +1,5 @@
 #-*- mode: Fundamental; tab-width: 4; -*-
+# ex:ts=4
 #
 #	$NetBSD: $
 #
