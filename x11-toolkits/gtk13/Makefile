@@ -11,7 +11,7 @@ PKGNAME=	gtk-1.1.2
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.1/ \
-		http://www.ameth.org/gimp/pub/gtk/v1.1/
+		http://www.ameth.org/gimp/gtk/v1.1/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 

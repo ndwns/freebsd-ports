@@ -11,7 +11,7 @@ PKGNAME=	gtkstep-1.0.6
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.0/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.0/ \
-		http://www.ameth.org/gimp/pub/gtk/v1.0/
+		http://www.ameth.org/gimp/gtk/v1.0/
 
 PATCH_SITES=	http://www-info2.informatik.uni-wuerzburg.de/mitarbeiter/ulli/gtkstep/source/
 PATCHFILES=	gtkstep-1.0.6-2.patch.gz

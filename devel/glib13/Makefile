@@ -10,7 +10,7 @@ DISTNAME=	glib-1.1.3
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.1/ \
-		http://www.ameth.org/gimp/pub/gtk/v1.1/
+		http://www.ameth.org/gimp/gtk/v1.1/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
