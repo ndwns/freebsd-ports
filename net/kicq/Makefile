@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.cn.ua/~denis/kde/
 
 MAINTAINER=	paxvel@iname.com
 
-LIB_DEPENDS=	icq.1:${PORTSDIR}/devel/icqlib \
+LIB_DEPENDS=	icq.1:${PORTSDIR}/net/icqlib \
 		kdecore.2:${PORTSDIR}/x11/kdelibs11 \
 		kdeui.2:${PORTSDIR}/x11/kdelibs11 \
 		kfm.2:${PORTSDIR}/x11/kdelibs11

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	icqlib-0.1.3
-CATEGORIES=	devel
+CATEGORIES=	net
 MASTER_SITES=	http://www.cn.ua/~denis/kde/
 
 MAINTAINER=	paxvel@iname.com
