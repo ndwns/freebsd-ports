@@ -11,10 +11,11 @@ PKGNAME=	imap-uw-4.1b
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
 EXTRACT_SUFX=	.tar.Z
+NO_CHECKSUM=	yes
 
 MAINTAINER=	pst@freebsd.org
 
-ALL_TARGET=	fbd
+ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
 pre-build:
