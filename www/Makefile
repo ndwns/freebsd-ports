@@ -14,6 +14,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += libwww
     SUBDIR += linemode
     SUBDIR += lynx
+    SUBDIR += mapedit
     SUBDIR += netscape
     SUBDIR += netscape2
     SUBDIR += tkHTML
