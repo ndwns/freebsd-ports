@@ -23,7 +23,7 @@ pre-fetch:
 	@${ECHO} ""
 	@${ECHO} "You must set variable USA_RESIDENT to YES, if you are USA resident"
 	@${ECHO} "or to NO, if you aren't USA resident to build this package."
-	@${ECHO} "You must also have installed RSAREF if you are USA resident."
+	@${ECHO} "You must also have installed rsaref port if you are USA resident."
 	@${FALSE}
 .elif defined(USA_RESIDENT)
 .if ${USA_RESIDENT} == YES && !defined(I_HAVE_AN_RSA_LICENSE)
