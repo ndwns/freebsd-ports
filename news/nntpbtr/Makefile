@@ -8,7 +8,7 @@
 
 DISTNAME=       nntpbtr-1.7
 CATEGORIES=	news
-MASTER_SITES=   ftp://ftp.kiae.su/unix/news/
+MASTER_SITES=   ftp://ftp.kiae.su/pub/unix/news/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	dk@farm.org
