@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
 EXTRACT_SUFX=	.tar.Z
 
 PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/OLD/
-PATCHFILES=	select-loop-bug.patch innxmit-long-lines
+PATCHFILES=	select-loop-bug.patch innxmit-long-lines.patch
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
