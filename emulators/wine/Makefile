@@ -9,7 +9,7 @@
 DATE=		950706
 DISTNAME=       Wine-${DATE}
 PKGNAME=	Wine-95.06.06
-CATEGORIES+=	utilities x11 emulation
+CATEGORIES+=	emulation x11
 MASTER_SITES=   ftp://sunsite.unc.edu/pub/Linux/ALPHA/wine/ \
 		ftp://aris.com/pub/linux/ALPHA/Wine/development/ \
 		ftp://tsx-11.mit.edu/pub/linux/ALPHA/Wine/development/ \

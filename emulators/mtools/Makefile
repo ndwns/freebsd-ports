@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mtools-2.0.7
-CATEGORIES+=	utilities
+CATEGORIES+=	emulation
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 MAINTAINER=	jmz@FreeBSD.org

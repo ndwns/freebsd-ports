@@ -8,7 +8,7 @@
 
 DISTNAME=	hfs0_37
 PKGNAME=	hfs-0.37
-CATEGORIES+=	utilities
+CATEGORIES+=	emulation
 MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org
