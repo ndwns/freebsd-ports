@@ -1,15 +1,15 @@
 # New ports collection Makefile for: rxvt
-# Version required:     2.4.4
+# Version required:     2.4.5
 # Date created:         Nov 16 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
 # $Id$
 #
 
-DISTNAME=       rxvt-2.4.4
-PKGNAME=        zh-rxvt-2.4.4
+DISTNAME=       rxvt-2.4.5
+PKGNAME=        zh-rxvt-2.4.5
 CATEGORIES=     chinese x11
-MASTER_SITES=   ftp://ftp.math.fu-berlin.de/pub/rxvt/devel/
+MASTER_SITES=   ftp://ftp.math.fu-berlin.de/pub/rxvt/
 
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
