@@ -1,12 +1,12 @@
 # New ports collection makefile for:	gqmpeg
-# Version required:	0.4.6
+# Version required:	0.5.1
 # Date Created:		28 Oct 1998
 # Whom:			Vanilla Pooh Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	gqmpeg-0.4.6
+DISTNAME=	gqmpeg-0.5.1
 CATEGORIES=	audio
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Haven/5235/
 EXTRACT_SUFX=	.src.tgz
@@ -18,6 +18,9 @@ LIB_DEPENDS=	Imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=	yes
 ALL_TARGET=	gqmpeg
+
+BINGRP=		kmem
+BINMODE=	2555
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gqmpeg ${PREFIX}/bin
