@@ -75,7 +75,7 @@ post-patch:
 	@${CAT} ${WRKSRC}/mjc.dev >> ${WRKSRC}/unix-gcc.mak
 
 pre-install:
-	@${MKDIR} -p ${PREFIX}/share/ghostscript
+	@${MKDIR} ${PREFIX}/share/ghostscript
 	@tar -C ${PREFIX}/share/ghostscript -xzf ${DISTDIR}/${GS_FONTS_STD}
 	@tar -C ${PREFIX}/share/ghostscript -xzf ${DISTDIR}/${GS_FONTS_OTHER}
 
