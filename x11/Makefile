@@ -42,6 +42,7 @@
     SUBDIR += sxpc
     SUBDIR += tkgoodstuff
     SUBDIR += tycoon
+    SUBDIR += wdm
     SUBDIR += x3270
     SUBDIR += xaniroc
     SUBDIR += xantfarm
