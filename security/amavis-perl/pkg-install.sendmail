@@ -84,12 +84,6 @@ if ( ! -d "/var/spool/mqamavis" ) {
 my $gid=getgrnam('daemon');
 chown 0, $gid, "/var/spool/mqamavis";
 
-print "===> Creating /var/spool/quarantine directory\n";
-if ( ! -d "/var/spool/quarantine" ) {
-  mkdir "/var/spool/quarantine",0755 || die "Can't create /var/spool/quarantine\n";
-}
-chown 0, $gid, "/var/spool/quarantine";
-
 die "There's already a $cf.pre-amavis, is amavis already installed?\n"
   if -f "$cf.pre-amavis";
 $result=system("cp $cf $cf.pre-amavis");
