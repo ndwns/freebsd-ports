@@ -1,14 +1,14 @@
 # New ports collection makefile for:    lynx
-# Version required:     2.3.6
+# Version required:     2.3.7
 # Date created:         15 Dec 1994
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       lynx2-3-6
+DISTNAME=       lynx2-3-7
 EXTRACT_SUFX=   .tar.Z
-MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-3-6/
+MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-3-7/
 ALL_TARGET=     freebsd
 DEPENDS=        ${PORTSDIR}/devel/gmake
 
