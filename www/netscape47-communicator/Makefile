@@ -15,7 +15,7 @@ MASTERDIR=	${.CURDIR}/../netscape4-communicator
 NO_LATEST_LINK=	yes
 WRKSRC?=	${WRKDIR}/${BROWSER}-v461.x86-unknown-freebsd
 
-BROWSER_VER=	4.61
+BROWSER_VER?=	4.61
 INFILE_HEAD?=	'Communicator,4.61.0.99147'
 NO_AUTOADMIN=	yes
 
