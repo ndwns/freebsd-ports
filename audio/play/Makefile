@@ -14,5 +14,5 @@ MAINTAINER=	seiken@nbs.co.jp
 
 MANLANG=	ja
 MAN1=		play.1
-MANCOMPRESSED = YES
+MANCOMPRESSED = yes
 .include <bsd.port.mk>

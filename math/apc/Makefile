@@ -14,8 +14,8 @@ MAINTAINER= 	eagriff@global2000.net
 
 LIB_DEPENDS=	xforms\\.0\\.88:${PORTSDIR}/x11-toolkits/xforms
 
-USE_X_PREFIX=	YES
+USE_X_PREFIX=	yes
 MAN1=		apc.1
-MANCOMPRESSED=	YES
+MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
