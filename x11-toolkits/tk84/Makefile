@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
-LIB_DEPENDS=	tcl81\\.1\\.0:${PORTSDIR}/lang/tcl81
+LIB_DEPENDS=	tcl81.1:${PORTSDIR}/lang/tcl81
 
 NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
