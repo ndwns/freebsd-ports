@@ -11,6 +11,8 @@ PKGNAME=        tcp_wrappers-7.2
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 ALL_TARGET=	freebsd
 
 post-install:
