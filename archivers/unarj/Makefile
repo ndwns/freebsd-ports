@@ -14,7 +14,7 @@ DISTFILES=      unarj241.tar.Z
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-install:
+install: build
 	cd ${WRKSRC}; install -cs -o bin -g bin -m755 ${DISTNAME} ${PREFIX}/bin
 
 .include <bsd.port.mk>
