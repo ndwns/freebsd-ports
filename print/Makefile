@@ -48,7 +48,6 @@
     SUBDIR += virtualpaper
     SUBDIR += xdvi
     SUBDIR += xmbibtex
-    SUBDIR += xmgr
     SUBDIR += xtem
 
 .include <bsd.port.subdir.mk>
