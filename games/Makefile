@@ -81,6 +81,7 @@
     SUBDIR += xcubes
     SUBDIR += xdeblock
     SUBDIR += xdemineur
+    SUBDIR += xdigger
     SUBDIR += xdino
     SUBDIR += xemeraldia
     SUBDIR += xevil
