@@ -2,6 +2,7 @@
 #
 
     SUBDIR += archie
+RESTRICTED += dhcp	     # license issues for distribution
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dip
