@@ -18,6 +18,5 @@ PATCH_STRIP=	-p1
 do-install:
 	install -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/LineMode/unix/www ${PREFIX}/bin
-	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>

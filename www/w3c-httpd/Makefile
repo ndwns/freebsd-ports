@@ -28,6 +28,5 @@ do-install:
 		${WRKSRC}/Daemon/unix/cgiparse ${WWW_ROOT}/cgi-bin
 	install -c -s -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/Daemon/unix/cgiutils ${WWW_ROOT}/cgi-bin
-	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>

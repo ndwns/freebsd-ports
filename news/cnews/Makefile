@@ -52,6 +52,5 @@ do-install:
 	@echo "	to suit your local system and news topology."
 	@echo "!!!!!!!!"
 	@echo ""
-	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>
