@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	rxvt-2.6.PRE2
-PKGNAME=	zh-rxvt-2.6.PRE2
+PKGNAME=	zh-rxvt-2.6.pre2
 CATEGORIES=	chinese x11
 MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/ \
 		ftp://ftp.math.fu-berlin.de/pub/rxvt/
