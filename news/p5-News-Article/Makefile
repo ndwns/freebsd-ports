@@ -9,8 +9,8 @@
 DISTNAME=	News-Article-1.21
 PKGNAME=	p5-News-Article-1.21
 CATEGORIES=	news perl5
-MASTER_SITES=	http://www.erlenstar.demon.co.uk/perl/
-#		http://www.freebsd.org/~mph/distfiles/
+MASTER_SITES=	http://www.erlenstar.demon.co.uk/perl/ \
+		http://www.infonex.com/~dacroyle/freebsd/
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
