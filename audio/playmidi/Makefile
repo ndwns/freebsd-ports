@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	apps/sound/players
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-IS_INTERACTIVE= YES
+IS_INTERACTIVE= YES	# asks what devices you want to support
 HAS_CONFIGURE=  YES
 CONFIGURE_SCRIPT=       Configure
 CONFIGURE_ENV=  PREFIX=${PREFIX}
