@@ -9,7 +9,7 @@
 
 DISTNAME=	bibcard.6.4
 PKGNAME=	bibcard-0.6.4
-CATEGORIES=	print
+CATEGORIES=	print database
 MASTER_SITES=	ftp://crl.nmsu.edu/pub/misc/
 EXTRACT_SUFX=	.tar.Z
 
