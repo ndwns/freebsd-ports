@@ -105,6 +105,7 @@
     SUBDIR += tkcvs
     SUBDIR += tkref
     SUBDIR += tvision
+    SUBDIR += ups-debug
     SUBDIR += vtcl
     SUBDIR += xmake
     SUBDIR += xwpe
