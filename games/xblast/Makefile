@@ -13,7 +13,7 @@ CATEGORIES=	games
 # MASTER_SITES= ${MASTER_SITE_XCONTRIB}
 # MASTER_SITE_SUBDIR= games/multiplayer
 # but right now only available from:
-MASTER_SITES=	http://hamlet.ikp.uni-koeln.de/~vogel/archive/
+MASTER_SITES=	http://www.ikp.uni-koeln.de/~vogel/archive/
 
 MAINTAINER=	se@FreeBSD.ORG
 
