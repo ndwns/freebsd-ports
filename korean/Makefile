@@ -24,6 +24,8 @@
     SUBDIR += mizifont
     SUBDIR += mule-wnn4
     SUBDIR += netscape3
+    SUBDIR += netscape4-communicator
+    SUBDIR += netscape4-navigator
     SUBDIR += nh2ps
     SUBDIR += nhpf
     SUBDIR += nhppf
