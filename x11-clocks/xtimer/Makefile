@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xtimer-8087
-pkgNAME=	xtimer-0.8087
+PKGNAME=	xtimer-0.8087
 CATEGORIES=	misc
 MASTER_SITES=	http://spock.vector.co.jp/authors/VA004959/xtimer/
 
