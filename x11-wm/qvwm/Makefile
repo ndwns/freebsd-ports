@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       qvwm-1.0b9h
+DISTNAME=       qvwm-1.0b10
 CATEGORIES=     x11
 MASTER_SITES=   http://www-masuda.is.s.u-tokyo.ac.jp/~kourai/qvwm/program/
 
