@@ -18,13 +18,13 @@ IS_INTERACTIVE=	yes
 MAN1=		dvips.1 afm2tfm.1
 
 pre-install:
-	@${MKDIR} ${PREFIX}/lib/texmf
+	@${MKDIR} ${PREFIX}/share/texmf
 
 post-install:
-	@${MKDIR} ${PREFIX}/lib/texmf/fonts/vf
-	@install -c  -m 644 ${WRKDIR}/dvips562/PSlatex/*.sty ${PREFIX}/lib/texmf/tex
-	@install -c  -m 644 ${WRKDIR}/dvips562/PStfms/*.tfm ${PREFIX}/lib/texmf/fonts/tfm
-	@install -c  -m 644 ${WRKDIR}/dvips562/PSvfs/*.vf ${PREFIX}/lib/texmf/fonts/vf
+	@${MKDIR} ${PREFIX}/share/texmf/fonts/vf  ${PREFIX}/share/texmf/tex/latex
+	@install -c  -m 644 ${WRKDIR}/dvips562/PSlatex/*.sty ${PREFIX}/share/texmf/tex/latex
+	@install -c  -m 644 ${WRKDIR}/dvips562/PStfms/*.tfm ${PREFIX}/share/texmf/fonts/tfm
+	@install -c  -m 644 ${WRKDIR}/dvips562/PSvfs/*.vf ${PREFIX}/share/texmf/fonts/vf
 
 pre-clean:
 	@rm -f ${SCRIPTDIR}/post-install
