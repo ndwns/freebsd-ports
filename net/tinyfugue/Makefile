@@ -13,6 +13,10 @@ MASTER_SITES=	ftp://tf.tcp.com/pub/tinyfugue/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+.if defined(PARALLEL_PACKAGE_BUILD)
+BROKEN=		tries to cd to directory that do not exist yet
+.endif
+
 PLIST_SUB=	DISTNAME=${DISTNAME}
 
 MAKEFILE=	${WRKSRC}/unix/Makefile
