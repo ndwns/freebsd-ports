@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	ircii-2.9-roof
-PKGNAME=	ircii-2.9
+DISTNAME=	ircii-4.4
+PKGNAME=	ircii-4.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 
