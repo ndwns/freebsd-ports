@@ -15,8 +15,6 @@ MASTER_SITES=	http://www.tcx.se/Contrib/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BROKEN_ELF=	xforms is a.out only
-
 BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms
