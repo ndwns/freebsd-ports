@@ -9,10 +9,8 @@
 DISTNAME=	cku192src
 PKGNAME=        kermit-6.0.192
 CATEGORIES=	comms
-
 MASTER_SITES=	ftp://kermit.columbia.edu/kermit/archives/ \
-		ftp://ftp.th-darmstadt.de/pub/networking/kermit/ \
-		ftp://ftp.std.com/customers2/src/telcom/
+		ftp://ftp.th-darmstadt.de/pub/networking/kermit/
 
 MAINTAINER=	ports@FreeBSD.org
 
