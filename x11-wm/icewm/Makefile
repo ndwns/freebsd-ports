@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.src.tar.gz
 MAINTAINER=	nacai@iname.com
 
 .if defined(GNOME)
-LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs
+LIB_DEPENDS=	gnome.2:${PORTSDIR}/x11/gnomelibs
 .endif
 LIB_DEPENDS+=	Xpm.4:${PORTSDIR}/graphics/xpm
 
