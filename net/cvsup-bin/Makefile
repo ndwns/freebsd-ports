@@ -13,6 +13,8 @@ DISTFILES=	cvsup-bin-16.0.tar.gz
 
 MAINTAINER=	jdp@freebsd.org
 
+ONLY_FOR_ARCHS=	i386
+
 NO_BUILD=	yes
 
 MAN1=	cvpasswd.1 cvsup.1
