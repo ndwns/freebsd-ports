@@ -17,6 +17,11 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--without-shadow --without-motif
+# kerberos support doesn't work for 2.2-stable
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} < 300000
+CONFIGURE_ARGS+= --without-kerberos
+.endif
 USE_X11=	yes
 MAN1=		attraction.1 blitspin.1 bouboule.1 braid.1 bubbles.1 \
 		decayscreen.1 deco.1 drift.1 flag.1 flame.1 forest.1 \
