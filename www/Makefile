@@ -20,6 +20,7 @@
     SUBDIR += mapedit
     SUBDIR += netscape2
     SUBDIR += netscape3
+    SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += tkHTML
     SUBDIR += tkWWW
