@@ -15,6 +15,7 @@ MAINTAINER=	cwt@freebsd.org
 
 Y2K=            http://www.scriptics.com/Y2K.html
 
+NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/tcl8.0.5/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared

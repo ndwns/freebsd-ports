@@ -15,6 +15,7 @@ MAINTAINER=	cwt@Freebsd.ORG
 
 LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 
+NO_LATEST_LINK=	yes
 USE_XLIB=	yes
 WRKSRC=		${WRKDIR}/tk8.0.5/unix
 GNU_CONFIGURE=	yes
