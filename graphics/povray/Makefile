@@ -18,6 +18,8 @@ MAINTAINER=	ports@freebsd.org
 
 LIB_DEPENDS=    png\\.2\\.:${PORTSDIR}/graphics/png
 
+BROKEN=		checksum
+
 MAN1=		povray.1
 
 POVLIB=		${PREFIX}/lib/povray3
