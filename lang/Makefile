@@ -17,6 +17,7 @@
     SUBDIR += itcl
     SUBDIR += logo
     SUBDIR += mit-scheme
+    SUBDIR += modula-3
     SUBDIR += p2c
     SUBDIR += pTk
     SUBDIR += pbasic
