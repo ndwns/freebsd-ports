@@ -10,10 +10,11 @@ DISTNAME=	xmfract_1.4
 PKGNAME=	xmfract-1.4
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.x.org/contrib/graphics/
-USE_X11=	yes
-REQUIRES_MOTIF=	yes
-GNU_CONFIGURE=	yes
 
 MAINTAINER=	erich@FreeBSD.org
+
+REQUIRES_MOTIF=	yes
+USE_X11=	yes
+GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
