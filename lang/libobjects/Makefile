@@ -15,4 +15,9 @@ MAINTAINER=	nacai@iname.com
 
 GNU_CONFIGURE=	yes
 
-.include <bsd.port.mk>
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} > 400002
+BROKEN=		no objc header files
+.endif
+
+.include <bsd.port.post.mk>
