@@ -88,6 +88,7 @@
     SUBDIR += uk-postcodes
     SUBDIR += unclutter
     SUBDIR += us-zipcodes
+    SUBDIR += vbidecode
     SUBDIR += vera
     SUBDIR += viz
     SUBDIR += wmcp
