@@ -10,7 +10,7 @@ PKGNAME=        apacheSSL-1.2.4
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/ \
 		ftp://ftp.ox.ac.uk/pub/crypto/SSL/
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} apache_1.2.4+ssl_1.9.tar.gz
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} apache_1.2.4+ssl_1.11.tar.gz
 
 MAINTAINER=	markm@freebsd.org
 
@@ -21,7 +21,7 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 RESTRICTED=     "Contains cryptography"
 
 post-extract:
-	@cd ${WRKSRC} && tar xzf ${DISTDIR}/apache_1.2.4+ssl_1.9.tar.gz
+	@cd ${WRKSRC} && tar xzf ${DISTDIR}/apache_1.2.4+ssl_1.11.tar.gz
 
 pre-patch:
 	@cd ${WRKSRC} && ${PATCH} ${PATCH_DIST_ARGS} < SSLpatch
