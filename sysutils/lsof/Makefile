@@ -1,7 +1,7 @@
 # New ports collection makefile for:    lsof
 # Version required:     3.87
 # Date created:         Sat July 20, 1996
-# Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
+# Whom:                 David O'Brien (obrien@FreeBSD.org)
 #
 # $Id$
 #
@@ -15,7 +15,12 @@ MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
 		ftp://ftp.sunet.se/pub/unix/admin/lsof/
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@NUXI.com
+
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		"outdated WRT -CURRENT's headers"
+.endif
 
 WRKSRC=		${WRKDIR}/${SRCBALL_NAME}
 HAS_CONFIGURE=	yes
