@@ -4,6 +4,7 @@
     SUBDIR += bitchx
     SUBDIR += blackened
     SUBDIR += bnc
+    SUBDIR += epic4
     SUBDIR += ezbounce
     SUBDIR += irc
     SUBDIR += ircII

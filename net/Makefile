@@ -47,7 +47,6 @@
     SUBDIR += domtools
     SUBDIR += downloader
     SUBDIR += echoping
-    SUBDIR += epic4
     SUBDIR += etherboot
     SUBDIR += ethereal
     SUBDIR += fping
