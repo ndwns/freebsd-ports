@@ -24,6 +24,8 @@ do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xlines ${PREFIX}/bin
 	@ ${MKDIR} ${PREFIX}/share/xlines
 	@ ${INSTALL_DATA} ${WRKSRC}/trolltech.gif ${PREFIX}/share/xlines
+
+post-install:
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/xlines
 	@ ${INSTALL_DATA} ${WRKSRC}/readme.lines ${PREFIX}/share/doc/xlines
