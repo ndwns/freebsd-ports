@@ -378,10 +378,11 @@ ${PATCH_COOKIE}:
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; \
-			do ${PATCH} {$PATCH_ARGS} < $$i; \
+			do ${PATCH} ${PATCH_ARGS} < $$i; \
 		done;\
 	fi
 	@${TOUCH} ${TOUCH_FLAGS} ${PATCH_COOKIE}
+.endif
 .endif
 
 .if !target(pre-configure)
