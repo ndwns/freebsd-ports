@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	nvi-1.79
-PKGNAME=	nvi-m17n-1.79-970408
+PKGNAME=	nvi-m17n-1.79-970617
 CATEGORIES=	japanese editors
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/4bsd/\
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
-PATCHFILES=	nvi-1.79.m17n-970408-2300.diff.gz
+PATCHFILES=	nvi-1.79.m17n-970617-2330.diff.gz
 PATCH_SITES=	ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
 MAINTAINER=	itojun@itojun.org
