@@ -26,6 +26,7 @@
     SUBDIR += specJava
     SUBDIR += stars
     SUBDIR += sunclock
+    SUBDIR += swisswatch
     SUBDIR += sxpc
     SUBDIR += tk
     SUBDIR += tk4
