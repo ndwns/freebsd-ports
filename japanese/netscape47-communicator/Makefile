@@ -17,7 +17,7 @@ PATCHDIR=	${.CURDIR}/../netscape46-communicator/patches
 
 BROWSER_CMD=	ja-${BROWSER}-46
 BROWSER_VERSION=	4.61
-JAPANIZE_KIT=	communicator-ja-euc-v46-export.generic-generic-generic.tar.gz
+JAPANIZE_KIT=	communicator-ja-euc-v461-export.generic-generic-generic.tar.gz
 NETHELP=	nethelp-v451
 
 .include "${MASTERDIR}/Makefile"

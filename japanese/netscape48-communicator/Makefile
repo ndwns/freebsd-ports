@@ -46,21 +46,21 @@ NETHELP?=	nethelp-v406
 
 .SILENT:
 
-post-patch:
-.if defined(PATCHDIRS)
-	for dir in ${PATCHDIRS}; do \
-		for patch in $$dir/patch-*; do \
-			${PATCH} ${PATCH_DIST_ARGS} < $$patch; \
-		done; \
-	done
-.endif
-
 do-configure:
 	${MAKESCRIPT} ${MASTERDIR}/files/start.sh.in >${WRKDIR}/start.sh
-	${MAKESCRIPT} ${WRKSRC}/Netscape.ad-ja_euc >${WRKDIR}/Netscape
+	${MAKESCRIPT} ${WRKSRC}/Netscape.ad-ja_euc \
+	 | ${SED} "s/-dt-interface system-medium-\*-\*-S\*-\*-\*-\*-\*-\*-\*-\*-\*:/-misc-fixed-medium-r-normal--14-\*-\*-\*-\*-\*-iso8859-1; -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1983-0; -misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-0:/;" \
+	 >${WRKDIR}/Netscape
 	${MAKESCRIPT} ${MASTERDIR}/files/INSTALL >${PKGINSTALL}
 	${CP} ${WRKSRC}/about ${WRKDIR}/about
-	${CP} ${WRKSRC}/about ${WRKDIR}/splash
+.if (${BROWSER} == navigator)
+	${CP} ${WRKDIR}/Netscape ${WRKDIR}/Netscape.orig
+	${SED} "s/Communicator/Navigator/g" ${WRKDIR}/Netscape.orig \
+	 > ${WRKDIR}/Netscape
+	${SED} "s/Communicator/Navigator/g" ${WRKSRC}/about \
+	 > ${WRKDIR}/about
+.endif
+	${CP} ${WRKDIR}/about ${WRKDIR}/splash
 
 do-install:
 	${INSTALL_DATA} ${MASTERDIR}/files/preferences.js ${NDIR}

@@ -12,6 +12,5 @@ FILESDIR=	${BASEDIR}/files
 
 BASEDIR=	${.CURDIR}/../netscape46-communicator
 BROWSER=	navigator
-PATCHDIRS=	${.CURDIR}/../netscape46-navigator/patches
 
 .include	"${BASEDIR}/Makefile"
