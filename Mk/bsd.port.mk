@@ -280,16 +280,8 @@ package: pre-package
 	fi
 .endif
 
-.if !target(pre-build)
-pre-build:
-	@${DO_NADA}
-.endif
-
-.if !target(build)
-build: configure pre-build ${BUILD_COOKIE}
-
-${BUILD_COOKIE}:
-	@echo "===>  Building for ${DISTNAME}"
+.if !target(depends)
+depends:
 .if defined(DEPENDS)
 	@echo "===>  ${DISTNAME} depends on:  ${DEPENDS}"
 .if !defined(NO_DEPENDS)
@@ -304,6 +296,18 @@ ${BUILD_COOKIE}:
 	@echo "===>  Returning to build of ${DISTNAME}"
 .endif
 .endif
+.endif
+
+.if !target(pre-build)
+pre-build:
+	@${DO_NADA}
+.endif
+
+.if !target(build)
+build: configure pre-build depends ${BUILD_COOKIE}
+
+${BUILD_COOKIE}:
+	@echo "===>  Building for ${DISTNAME}"
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
 .else defined(USE_GMAKE)
