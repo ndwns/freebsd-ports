@@ -71,6 +71,7 @@
     SUBDIR += wm2
     SUBDIR += x3270
     SUBDIR += xalarm
+    SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xautolock
     SUBDIR += xbuffy
