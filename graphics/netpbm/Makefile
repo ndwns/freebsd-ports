@@ -14,7 +14,7 @@ DISTFILES=	netpbm-1mar1994.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
+LIB_DEPENDS=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
 
 USE_IMAKE=	yes
 
