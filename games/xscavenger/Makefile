@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=	xscavenger-1.3.2
 DISTNAME=	xscavenger-132
+PKGNAME=	xscavenger-1.3.2
 CATEGORIES=	games
 MASTER_SITES=	http://epyx.com/dash/
 EXTRACT_SUFX=	.tgz
