@@ -22,10 +22,10 @@ MAN4=		corduroy.4 felt.4
 #DOCS= 		ftp://cs.ucsd.edu/pub/felt/felt-3.02.ps.gz
 
 post-patch:
-	${RM} -f $(WRKSRC)/lib/Geompack/*.c
+	${RM} -f ${WRKSRC}/lib/Geompack/*.c
 
 post-install:
-	$(MKDIR) $(PREFIX)/share/examples/FElt
-	$(CP) $(WRKSRC)/examples/* $(PREFIX)/share/examples/FElt
+	${MKDIR} ${PREFIX}/share/examples/FElt
+	${CP} ${WRKSRC}/examples/* ${PREFIX}/share/examples/FElt
 
 .include <bsd.port.mk>
