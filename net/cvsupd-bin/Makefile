@@ -27,6 +27,6 @@ STRIP=
 do-install:
 	cd ${WRKSRC}; \
 	    ${INSTALL_PROGRAM} cvsupd ${PREFIX}/sbin; \
-	    ${INSTALL_MAN} ${MAN8} ${PREFIX}/man/man8
+	    ${INSTALL_MAN} ${MAN8}.gz ${PREFIX}/man/man8
 
 .include <bsd.port.mk>
