@@ -1,16 +1,16 @@
-# New ports collection makefile for:	beav-1.40.3
-# Version required:	1.40-4 (debian)
+# New ports collection makefile for:	beav
+# Version required:	1.40-7 (debian)
 # Date created:		01 July 1995
 # Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=	beav-140-6
-PKGNAME=	beav-1.40.6
+DISTNAME=	beav_140-7
+PKGNAME=	beav-1.40.7
 CATEGORIES=	editors
-MASTER_SITES=	ftp://ftp.debian.org/debian/buzz/source/editors/ \
-		ftp://theta.iis.u-tokyo.ac.jp/pub2/Linux/distributions/debian/buzz/source/editors/
+MASTER_SITES=	ftp://ftp.debian.org/debian/bo/source/editors/ \
+		ftp://theta.iis.u-tokyo.ac.jp/pub2/Linux/distributions/debian/bo/source/editors/
 
 MAINTAINER=	tg@FreeBSD.org
 
