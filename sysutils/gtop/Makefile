@@ -26,7 +26,7 @@ CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include \
 		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib -lxpg4"
 
 post-install:
-		chowm root.kmem ${PREFIX}/bin/gtop
+		chown root.kmem ${PREFIX}/bin/gtop
 		chmod 2555 ${PREFIX}/bin/gtop
 
 .include <bsd.port.mk>
