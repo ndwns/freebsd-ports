@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.parc.xerox.com/pub/gc/ \
 
 MAINTAINER=	mmcg@cs.monash.edu.au
 
-BROKEN_ELF=	fbsd-libgc.a
+FETCH_BEFORE_ARGS=	-b
 
 WRKSRC=		${WRKDIR}/gc
 MAN3=		gc.3
