@@ -16,6 +16,8 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		glib.1 xgrasp.1
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

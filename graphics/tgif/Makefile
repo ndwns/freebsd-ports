@@ -22,5 +22,6 @@ RUN_DEPENDS=	giftopnm:${PORTSDIR}/graphics/netpbm \
 		xpmtoppm:${PORTSDIR}/graphics/netpbm
 
 USE_IMAKE=      yes
+MAN1=		prtgif.1 tgif.1
 
 .include <bsd.port.mk>

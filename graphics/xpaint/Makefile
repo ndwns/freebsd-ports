@@ -19,5 +19,6 @@ LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 
 WRKSRC=		${WRKDIR}/xpaint
 USE_IMAKE=      yes
+MAN1=		xpaint.1
 
 .include <bsd.port.mk>

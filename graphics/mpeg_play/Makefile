@@ -15,6 +15,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/mpeg_play
 USE_IMAKE=	yes
+MAN1=		mpeg_play.1
 
 pre-patch:
 	cp ${WRKSRC}/Imakefile.proto ${WRKSRC}/Imakefile

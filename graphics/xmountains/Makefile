@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	proff@iq.org
 
 USE_IMAKE=	yes
+MAN6=		xmountains.6
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

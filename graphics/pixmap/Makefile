@@ -18,5 +18,6 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/pixmap
 USE_IMAKE=	yes
+MAN1=		pixmap.1
 
 .include <bsd.port.mk>

@@ -15,6 +15,8 @@ MASTER_SITE_SUBDIR=	applications
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xli.1 xlito.1
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

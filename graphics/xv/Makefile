@@ -29,6 +29,7 @@ LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png
 
 USE_IMAKE=	yes
+MAN1=		bggen.1 vdcomp.1 xcmap.1 xv.1 xvpictoppm.1
 
 XVDIST=		${DISTDIR}/${DIST_SUBDIR}
 

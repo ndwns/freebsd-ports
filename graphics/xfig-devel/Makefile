@@ -20,6 +20,8 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 RUN_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig
 
 USE_IMAKE=	yes
+MAN1=		xfig.1
+
 MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \
 		XAPPLOADDIR=${PREFIX}/lib/X11/app-defaults  \
 		XFIGLIBDIR=${PREFIX}/lib/X11/xfig  -f
