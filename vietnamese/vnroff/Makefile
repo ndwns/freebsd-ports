@@ -7,6 +7,7 @@
 # $Id$
 #
 
+DISTNAME=	vnroff
 PKGNAME=	vi-vnroff-2.0
 CATEGORIES=	vietnamese
 MASTER_SITES=	ftp://ftp.media.mit.edu/pub/Vietnet/Viscii/Troff/
@@ -21,11 +22,11 @@ do-extract:
 	@${RM} -rf ${WRKDIR}
 	@${MKDIR} ${WRKDIR}
 	@(cd ${WRKDIR} && ${GZCAT} ${DISTDIR}/vnroff.c.Z  \
-		| /usr/bin/sed -e '1,/-cut here-/d'    \
+		| ${SED} -e '1,/-cut here-/d'    \
 		> vnroff.c)
 	@(cd ${WRKDIR} && ${GZCAT} ${DISTDIR}/vnroff.1.Z  \
-		| /usr/bin/sed -e '1,/Status:/d' -e '//,//d'  \
-		| /usr/bin/sed -e '1,1d'  \
+		| ${SED} -e '1,/Status:/d' -e '//,//d'  \
+		| ${SED} -e '1,1d'  \
 		> vnroff.1)
 
 do-build:

@@ -25,7 +25,7 @@ post-patch:
 	@/bin/ln ${WRKSRC}/vnterm.1V ${WRKSRC}/vnterm.man
 
 post-install:
-	@${INSTALL_SCRIPT} ${WRKDIR}/VNterm.sh ${PREFIX}/bin/VNterm 
+	@${INSTALL_SCRIPT} ${WRKDIR}/VNterm.sh ${PREFIX}/bin/VNterm
 	@${MKDIR} ${PREFIX}/lib/X11/fonts/vietnamese
 	@(cd ${WRKSRC}/../fonts/X ; \
 	${INSTALL_DATA} fonts.dir *.pcf.Z  \
