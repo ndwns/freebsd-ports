@@ -18,6 +18,8 @@ DISTFILES=	code_crusader_source-2.1.3.tar.gz \
 
 MAINTAINER=	davec@unforgettable.com
 
+BROKEN=		'installs files during build'
+
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/JX-1.5.2
