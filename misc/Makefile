@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= calc dialog mshell iozone
+SUBDIR= calc mshell iozone
 
 .include <bsd.port.subdir.mk>
