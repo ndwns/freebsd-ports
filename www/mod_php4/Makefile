@@ -21,7 +21,7 @@ DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP3}.tar.gz
 MAINTAINER=	dirk@FreeBSD.ORG
 
 VERSION_APACHE=	1.3.3
-VERSION_PHP3=	3.0.5
+VERSION_PHP3=	3.0.6
 
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
