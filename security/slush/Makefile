@@ -6,11 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	slush-0_1_0
-PKGNAME=	slush-0.1.0
+DISTNAME=	slush-0.1.1
 CATEGORIES=	security net
-MASTER_SITES=	ftp://www.dis.org/pub/Security/
-EXTRACT_SUFX=	_tar.gz
+MASTER_SITES=	http://violet.ibs.com.au/slush/files/ \
+		ftp://www.dis.org/pub/Security/
 
 MAINTAINER=	shipley@dis.org
 
@@ -27,7 +26,6 @@ GNU_CONFIGURE=	yes
 BROKEN=		does not build
 .endif
 
-WRKSRC=		${WRKDIR}/slush-0.1.0
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} == YES
 MAKE_ENV+=	EXTRA_SSL_LIBS="-lRSAglue -lrsaref"
 .endif
