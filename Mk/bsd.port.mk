@@ -122,6 +122,9 @@ PREFIX?=		${X11BASE}
 .else
 PREFIX?=		/usr/local
 .endif
+.if defined(USE_GMAKE)
+DEPENDS+=               ${PORTSDIR}/devel/gmake
+.endif
 
 .if exists(${PORTSDIR}/../Makefile.inc)
 .include "${PORTSDIR}/../Makefile.inc"
