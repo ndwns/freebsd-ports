@@ -1,15 +1,15 @@
 # New ports collection makefile for:	ssystem
-# Version required:			1.5
+# Version required:			1.6
 # Date created:				4 August 1998
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=		ssystem-1.5
+DISTNAME=		ssystem-1.6
 CATEGORIES=		astro
-MASTER_SITES=		http://www1.las.es/~amil/ssystem/ \
-			http://www.msu.edu/~kamelkev/
+MASTER_SITES=		http://www.geocities.com/SiliconValley/Station/6492/ \
+			http://www.msu.edu/user/kamelkev/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
