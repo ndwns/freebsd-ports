@@ -14,5 +14,6 @@
     SUBDIR += suck
     SUBDIR += tin
     SUBDIR += trn
+    SUBDIR += xvnews
 
 .include <bsd.port.subdir.mk>
