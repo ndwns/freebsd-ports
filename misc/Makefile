@@ -9,6 +9,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
+    SUBDIR += dejagnu
     SUBDIR += ecc
     SUBDIR += fd
     SUBDIR += fep
