@@ -21,6 +21,7 @@ NEWSLIB=	${PREFIX}/lib/news
 MANDIR=		${PREFIX}/man
 
 do-install:
+	rm -f ${PREFIX}/bin/inews
 	cp ${WRKSRC}/libdbz/dbz.h ${PREFIX}/include
 	cp ${WRKSRC}/libcnews.a ${PREFIX}/lib
 	mkdir -p ${NEWSSPOOL}
@@ -40,9 +41,9 @@ do-install:
 	chown news.news ${NEWSBIN}/input/newsspool
 	chmod 6755 ${NEWSBIN}/input/newsspool
 	mkdir -p ${MANDIR}/man1 ${MANDIR}/man5 ${MANDIR}/man8
-	install -o bin -g bin -m 444 ${WRKSRC}/man/*.1* ${MANDIR}/man1
-	install -o bin -g bin -m 444 ${WRKSRC}/man/*.5* ${MANDIR}/man5
-	install -o bin -g bin -m 444 ${WRKSRC}/man/*.8* ${MANDIR}/man8
+	install -c -o bin -g bin -m 444 ${WRKSRC}/man/*.1* ${MANDIR}/man1
+	install -c -o bin -g bin -m 444 ${WRKSRC}/man/*.5* ${MANDIR}/man5
+	install -c -o bin -g bin -m 444 ${WRKSRC}/man/*.8* ${MANDIR}/man8
 	@echo ""
 	@echo "!!!!!!!!"
 	@echo "you MUST change the configuration of this news setup:"
