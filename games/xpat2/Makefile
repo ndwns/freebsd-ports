@@ -14,6 +14,8 @@ EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	mph@freebsd.org
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_X_PREFIX=	yes
 MAN6=		xpat2.6
 
