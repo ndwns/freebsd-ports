@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	${PKGNAME}.src
-PKGNAME=	minicom-1.78
+PKGNAME=	minicom-1.80
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/
 
@@ -19,6 +19,7 @@ RUN_DEPENDS=	lrz:${PORTSDIR}/comms/lrzsz \
 		kermit:${PORTSDIR}/comms/kermit
 
 WRKSRC=		${WRKDIR}/${PKGNAME}/src
+#USE_GMAKE=	"for ``po'' dir stuff"
 MAN1=		minicom.1 runscript.1 ascii-xfr.1
 
 .if !defined(BATCH)
