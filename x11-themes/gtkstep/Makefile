@@ -11,7 +11,7 @@ CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://www-info2.informatik.uni-wuerzburg.de/mitarbeiter/ulli/gtkstep/ \
 		ftp://sunshine.informatik.uni-wuerzburg.de/pub/wmaker/gtkstep/
 
-MAINTAINER=     rom_glsa@ein-hashofet.co.il
+MAINTAINER=     ports@FreeBSD.org
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
