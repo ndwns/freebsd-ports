@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	apache_1.0.0
-PKGNAME=	apache-1.0.0
+DISTNAME=	apache_1.0.2
+PKGNAME=	apache-1.0.2
 CATEGORIES+=	www
 MASTER_SITES=	ftp://www.apache.org/apache/dist/
 MASTER_SITES+=	ftp://gd.tuwien.ac.at/pub/infosys/servers/http/apache/dist/
