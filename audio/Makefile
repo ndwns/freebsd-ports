@@ -7,6 +7,7 @@
     SUBDIR += gsm
     SUBDIR += maplay
     SUBDIR += mpegaudio
+    SUBDIR += mpg123
     SUBDIR += mxv
     SUBDIR += nas
     SUBDIR += nspmod
