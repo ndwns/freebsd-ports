@@ -17,13 +17,15 @@ MAINTAINER=	billf@FreeBSD.org
 GNU_CONFIGURE=	yes
 BUILD_TARGET=	depends all
 
-BROKEN=		package
-
 post-patch:
 
 	${MV} ${WRKSRC}/CONFIG.in ${WRKSRC}/CONFIG.in.old
 	${CAT} ${WRKSRC}/CONFIG.in.old | \
-	${SED} -e 's#/opt/www/#${PREFIX}/www/#g' | \
-	${SED} -e 's#htdocs#data#g' >> ${WRKSRC}/CONFIG.in
+	${SED} -e 's#/opt/www/#${PREFIX}/www/#g' \
+		-e 's#htdocs#data#g' \
+		-e 's#/conf#/etc#' \
+		-e 's#/common#/share/htdig#' \
+		-e 's#/db#/share/htdig#' \
+	>> ${WRKSRC}/CONFIG.in
 
 .include <bsd.port.mk>
