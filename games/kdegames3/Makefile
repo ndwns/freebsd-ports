@@ -25,7 +25,8 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		jscript\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		khtmlw\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		mediatool\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
+		mediatool\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
+		QwSpriteField\\.5\\.[2-9]:${PORTSDIR}/x11/kdesupport
 
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS= -cd
