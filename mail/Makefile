@@ -18,12 +18,12 @@
     SUBDIR += pgpsendmail
     SUBDIR += pine
     SUBDIR += popclient
-    SUBDIR += popper
     SUBDIR += poppassd
+    SUBDIR += popper
     SUBDIR += procmail
     SUBDIR += smail
-    SUBDIR += youbin
     SUBDIR += xfmail
     SUBDIR += xlbiff
+    SUBDIR += youbin
 
 .include <bsd.port.subdir.mk>
