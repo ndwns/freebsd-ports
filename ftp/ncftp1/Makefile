@@ -1,4 +1,4 @@
-# New ports collection makefile for:    ncftp2
+# New ports collection makefile for:    ncftp
 # Version required:     1.9.5
 # Date created:         20 Jun 1996
 # Whom:                 jkh
@@ -9,7 +9,6 @@
 DISTNAME=       ncftp-1.9.5
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
-EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	obrien@FreeBSD.org
 
