@@ -15,6 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
+DIST_SUBDIR=	xdvi	# to share distfiles with japanese/xdvi
 USE_IMAKE=	yes
 USE_GMAKE=	yes
 IS_INTERACTIVE=	yes
