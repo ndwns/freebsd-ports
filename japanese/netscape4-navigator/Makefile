@@ -11,5 +11,6 @@ MASTERDIR=	${.CURDIR}/../netscape4-communicator
 MAINTAINER=	sada@FreeBSD.ORG
 
 BROWSER=	navigator
+PATCHDIRS=	${.CURDIR}/patches
 
 .include	"${MASTERDIR}/Makefile"
