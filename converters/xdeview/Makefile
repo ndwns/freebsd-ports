@@ -21,7 +21,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-tcl="${PREFIX}" --enable-tk="${PREFIX}"
 # Season to taste --- anything over tcl7.5
 CONFIGURE_ENV=	CPPFLAGS="-I${PREFIX}/include/tcl8.0 -I${PREFIX}/include/tk8.0"
-FETCH_BEFORE_ARGS=	-t
 
 ALL_TARGET=	xdeview
 INSTALL_TARGET=	install-tcl

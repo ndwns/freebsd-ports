@@ -15,7 +15,6 @@ MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
 MAINTAINER=	hoek@FreeBSD.ORG
 
 GNU_CONFIGURE=		yes
-FETCH_BEFORE_ARGS=	-t
 
 MAN3=		uulib.3
 

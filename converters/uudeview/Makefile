@@ -18,7 +18,6 @@ LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/converters/uulib
 GNU_CONFIGURE=	Yes
 CONFIGURE_ARGS=	--enable-inews=${PREFIX}/news/lib/inews \
 		--disable-tcl
-FETCH_BEFORE_ARGS=	-t
 
 MAN1=		uudeview.1 uuenview.1
 
