@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	LLNLPython5
+DISTNAME=	LLNLPython6
 PKGNAME=	py-gist-1.5
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
@@ -22,13 +22,13 @@ RUN_DEPENDS=	python:${PORTSDIR}/lang/python \
 		${SITEPYDIR}/Numeric.py:${PORTSDIR}/math/numpy \
 		${SITEPYDIR}/Ranf.py:${PORTSDIR}/math/rng
 
-WRKSRC=		${WRKDIR}/LLNLPython5/Graphics
+WRKSRC=		${WRKDIR}/${DISTNAME}/Graphics
 CONFIGURE_ENV=	PREFIX=${PREFIX}
 ALL_TARGET=	sharedmods
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
 PYTHONSCRIPTDIR=	${PREFIX}/lib/python1.5
-SITEPYDIR=	${PREFIX}/lib/python1.5/site-packages
+SITEPYDIR=	${PYTHONSCRIPTDIR}/site-packages
 EXAMPLEDIR=	${PREFIX}/share/examples/PyGist
 
 do-configure:
