@@ -110,8 +110,10 @@ post-install:
 		ln -sf $${file}1.1.gz ${PREFIX}/man/man1/$${file}.1.gz; \
 	done
 	rm -f ${PREFIX}/man/man1/slogin.1
+	rm -f ${PREFIX}/man/man1/slogin1.1
 	rm -f ${PREFIX}/man/man8/sshd.8
 	ln -sf ssh.1.gz ${PREFIX}/man/man1/slogin.1.gz
+	ln -sf ssh1.1.gz ${PREFIX}/man/man1/slogin1.1.gz
 	ln -sf sshd1.8.gz ${PREFIX}/man/man8/sshd.8.gz
 .endif
 	@if [ ! -f ${PREFIX}/etc/rc.d/sshd.sh ]; then \
