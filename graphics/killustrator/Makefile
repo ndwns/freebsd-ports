@@ -12,7 +12,7 @@ MASTER_SITES=	http://wwwiti.cs.uni-magdeburg.de/~sattler/pub/killustrator/
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kde
+LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kde11
 
 BROKEN=		upgrade
 
