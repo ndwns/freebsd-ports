@@ -16,6 +16,6 @@ JAPANESE_EXMH=	yes
 MASTERDIR=	${.CURDIR}/../../mail/exmh2
 COMMENT=	${.CURDIR}/pkg/COMMENT
 DESCR=		${.CURDIR}/pkg/DESCR
-WRKDIR=		${.CURDIR}/work
+WRKDIR=		${WRKDIRPREFIX}${.CURDIR}/work
 
 .include	"${MASTERDIR}/Makefile"
