@@ -19,10 +19,9 @@ USE_X_PREFIX=	yes
 MAN6=		xpat2.6
 
 post-install:
-	touch $(PREFIX)/lib/X11/xpat/xpat.log
+	${TOUCH} $(PREFIX)/lib/X11/xpat/xpat.log
 	chown root.games $(PREFIX)/lib/X11/xpat/xpat.log $(PREFIX)/bin/xpat2
 	chmod 2555 $(PREFIX)/bin/xpat2
 	chmod 664 $(PREFIX)/lib/X11/xpat/xpat.log
 
 .include <bsd.port.mk>
-
