@@ -238,6 +238,7 @@
     SUBDIR += weblint97
     SUBDIR += wine
     SUBDIR += x0212fonts
+    SUBDIR += xdvik-vflib
     SUBDIR += xemacs
     SUBDIR += xemacs-canna
     SUBDIR += xemacs-canna+wnn4
