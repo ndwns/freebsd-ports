@@ -16,6 +16,7 @@
     SUBDIR += jetpack
     SUBDIR += lincity
     SUBDIR += nethack
+    SUBDIR += nethack-qt
     SUBDIR += oneko
     SUBDIR += qcc
     SUBDIR += quakeserver
