@@ -104,7 +104,6 @@
     SUBDIR += xtacy
     SUBDIR += xtattr
     SUBDIR += xtestpicture
-    SUBDIR += xtide
     SUBDIR += xtoolwait
     SUBDIR += xview-clients
     SUBDIR += xview-config
