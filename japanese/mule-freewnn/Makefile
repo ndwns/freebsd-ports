@@ -16,9 +16,7 @@ MASTER_SITES=	ftp://etlport.etl.go.jp/pub/mule/ \
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-.if !exists(/usr/X11R6/lib/libwnn.a)
-DEPENDS=	${PORTSDIR}/japanese/Wnn
-.endif
+BUILD_DEPENDS=	${PREFIX}/bin/Wnn4/jserver:${PORTSDIR}/japanese/Wnn
 
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes

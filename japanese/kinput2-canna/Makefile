@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.sra.co.jp/pub/x11/kinput2/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
+LIB_DEPENDS=	canna16\\.1\\.:${PORTSDIR}/japanese/Canna
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
