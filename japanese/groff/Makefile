@@ -12,7 +12,7 @@ CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 PATCH_SITES=	ftp://ftp.ae.keio.ac.jp/pub/GNU/ \
-		ftp://ftp.iij.ad.jp/pub/linux-j/JF/misc/
+		ftp://ftp.tohoku.ac.jp/pub/GNU/japanese/
 PATCHFILES=	jgroff-0.99.diff.gz
 PATCH_DIST_STRIP=	-p1
 
