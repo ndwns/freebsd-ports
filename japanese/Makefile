@@ -6,6 +6,7 @@
     SUBDIR += chimera
     SUBDIR += elvis
     SUBDIR += gawk
+    SUBDIR += ghostcript
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
@@ -25,5 +26,6 @@
     SUBDIR += sed
     SUBDIR += tcl
     SUBDIR += tk
+    SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
