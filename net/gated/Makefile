@@ -1,13 +1,13 @@
 # Makefile for:		gated
-# Version required:     3.5.8
+# Version required:     3.5.9
 # Date created:		29 October 1994
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=       gated-3-5-8
-PKGNAME=        gated-3.5.8
+DISTNAME=       gated-3-5-9
+PKGNAME=        gated-3.5.9
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.gated.merit.edu/net-research/gated/
 
