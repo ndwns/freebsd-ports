@@ -1,18 +1,21 @@
 # New ports collection makefile for:    splay
-# Version required:     0.3
+# Version required:     0.8.2
 # Date created:         1 Apr 1997
 # Whom:                 junker@jazz.snu.ac.kr
 #
 # $Id$
 #
+# pthread library can be used, but sound quality is buggy
+#
 
-DISTNAME=		splay-0.5
+DISTNAME=		splay-0.8.2
 CATEGORIES=		audio
-MASTER_SITES=		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	apps/sound/players
+MASTER_SITES=		http://cain.kaist.ac.kr/~jwj95/
 
 MAINTAINER=		junker@jazz.snu.ac.kr
 
 GNU_CONFIGURE=		yes
+CONFIGURE_ARGS=		i386--freebsd --without-xsplay --without-pthread
+MAN1=			splay.1
 
 .include <bsd.port.mk>
