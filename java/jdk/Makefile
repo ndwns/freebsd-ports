@@ -21,7 +21,7 @@ NO_BUILD=       yes
 
 do-install:
 	${MKDIR} ${PREFIX}/jdk1.1.7
-	(cd ${WRKSRC} && tar -c -f - --exclude '*.class' .) \
+	(cd ${WRKSRC} && tar -c -f - .) \
 		| (cd ${PREFIX}/jdk1.1.7 && tar fx -)
 
 .include <bsd.port.mk>
