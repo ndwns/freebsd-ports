@@ -12,7 +12,7 @@ CATEGORIES=	math cad
 MASTER_SITES=	ftp://ftp.ann.jussieu.fr/pub/soft/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINIR=     pgiffuni@FPS.biblos.unal.edu.co
+MAINTAINER=     pgiffuni@FPS.biblos.unal.edu.co
 
 USE_X11=	yes
 USE_GMAKE=	yes
