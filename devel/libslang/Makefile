@@ -20,6 +20,6 @@ ALL_TARGET=	all elf
 INSTALL_TARGET=	install install-elf
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
