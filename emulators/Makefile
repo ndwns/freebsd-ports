@@ -6,6 +6,7 @@
     SUBDIR += hfs
     SUBDIR += mtools
     SUBDIR += pcemu
+    SUBDIR += sim6811
     SUBDIR += tkhfs
     SUBDIR += vmsbackup
     SUBDIR += wine
