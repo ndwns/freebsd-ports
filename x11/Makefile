@@ -60,6 +60,7 @@
     SUBDIR += xautolock
     SUBDIR += xbuffy
     SUBDIR += xcb
+    SUBDIR += xco
     SUBDIR += xcolors
     SUBDIR += xdaliclock
     SUBDIR += xdtm
