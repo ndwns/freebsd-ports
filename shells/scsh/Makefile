@@ -8,7 +8,9 @@
 
 DISTNAME=	scsh-0.5.1
 CATEGORIES=	shells lang
-MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/su/scsh/
+MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/su/scsh/ \
+		http://www2.cons.org:8000/freebsd-distfiles/ \
+		http://www.freebsd.org/~cracauer/freebsd-distfiles/
 
 MAINTAINER= 	cracauer@cons.org
 
