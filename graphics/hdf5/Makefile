@@ -15,6 +15,8 @@ MAINTAINER=	mi@aldan.ziplink.net
 
 LIB_DEPENDS=	jpeg:${PORTSDIR}/graphics/jpeg
 
+MAN1=		hdf.1 hdfunpac.1 ncdump.1 ncgen.1
+
 GNU_CONFIGURE=	yes
 FC?=		f77 # Can also be g77 for the newer one
 MAKE_FLAGS=	CC="$(CC)" FC="${FC}" -f
@@ -58,12 +60,6 @@ pre-build:
 	-ln -s /usr/include/zconf.h /usr/include/zlib.h ${WRKSRC}/hdf/zlib/
 
 post-install:
-.if !defined(NOMANCOMPRESS)
-	@for man_page in `grep man./ ${PKGDIR}/PLIST` ; do \
-		mp=`echo $${man_page} | ${SED} s/\.gz//` ;\
-		${ECHO} Compressing ${PREFIX}/$$mp ;\
-		${GZIP_CMD} ${PREFIX}/$$mp ; done
-.endif
 	@for binary in `grep ^bin/ ${PKGDIR}/PLIST` ; do strip ${PREFIX}/$$binary; done
 	${LDCONFIG} -m ${PREFIX}/lib
 
