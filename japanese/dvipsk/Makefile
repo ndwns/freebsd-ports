@@ -96,8 +96,8 @@ post-install:
 	@${LN} -fs ${DVIPSDIR}/contrib ${PREFIX}/share/doc/dvips/contrib
 .endif
 .if defined(BATCH)
-	@${SETENV} PKG_PREFIX=${PREFIX} \
-	  ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL BATCH
+	@${SETENV} PKG_PREFIX=${PREFIX} BATCH=yes \
+	  ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 .else
 	@${SETENV} PKG_PREFIX=${PREFIX} \
 	  ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
