@@ -7,11 +7,12 @@
 #
 
 DISTNAME=	xmorph-12jul96
-PKGNAME=	xmorph-120796
+PKGNAME=	xmorph-96.07.12
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.x.org/contrib/graphics/
-USE_X11=	yes
 
 MAINTAINER=	erich@FreeBSD.org
+
+USE_X11=	yes
 
 .include <bsd.port.mk>
