@@ -8,7 +8,7 @@
 
 DISTNAME=	gv-2.9.4
 CATEGORIES=	print
-MASTER_SITES=	ftp://thep.physik.uni-mainz.de/pub/gv/
+MASTER_SITES=	ftp://thep.physik.uni-mainz.de/pub/gv/unix/
 
 MAINTAINER=	tg@freebsd.org
 
