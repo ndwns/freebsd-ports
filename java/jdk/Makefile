@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	jdk1.1.6.V98-7-21
+DISTNAME=	jdk1.1.6.V98-8-14
 PKGNAME=	jdk-1.1.6
 CATEGORIES=	lang devel
 MASTER_SITES=	http://www.freebsd.org/java/
