@@ -14,8 +14,9 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	nacai@iname.com
 
+RUN_DEPENDS=	panel:${PORTSDIR}/x11/gnomecore
 LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
-		gtop.0:${PORTSDIR}/devel/libgtop
+		gtop.1:${PORTSDIR}/devel/libgtop
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
