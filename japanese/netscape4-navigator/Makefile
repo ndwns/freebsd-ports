@@ -6,9 +6,9 @@
 # $Id$
 #
 
-MAINTAINER=	sada@FreeBSD.ORG
-
 MASTERDIR=	${.CURDIR}/../netscape4-communicator
+
+MAINTAINER=	sada@FreeBSD.ORG
 
 BROWSER=	navigator
 
