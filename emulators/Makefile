@@ -13,7 +13,7 @@
     SUBDIR += hfs
     SUBDIR += hfsutils
     SUBDIR += ines
-    SUBDIR += linux-base-5.2
+    SUBDIR += linux-base
     SUBDIR += linux_glide
     SUBDIR += linux_lib
     SUBDIR += linux_mesa
