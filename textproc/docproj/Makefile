@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	docproj
+PKGNAME=	docproj-1.0
 CATEGORIES=	textproc
 MASTER_SITES=	# empty
 DISTFILES=	# empty
