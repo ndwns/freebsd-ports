@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	XaoS-2.2
-PKGNAME=	xaos-2.2
+DISTNAME=	XaoS-3.0
+PKGNAME=	xaos-3.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
 		ftp://ftp.ta.jcu.cz/pub/linux/hubicka/XaoS/2.2/ \
@@ -16,27 +16,24 @@ MASTER_SITE_SUBDIR=	graphics
 
 MAINTAINER=	jkoshy@freebsd.org
 
+LIB_DEPENDS=	png:${PORTSDIR}/graphics/png
+
 # This port will benefit from all-stops-out optimization of the code
 
 GNU_CONFIGURE=	yes
-CFLAGS+=	-DHAVE_SYS_PARAM_H \
-		-O6 -fstrength-reduce -ffast-math -fomit-frame-pointer\
-		-fforce-mem -fforce-addr -funroll-loops
+CONFIGURE_ENV=  LDFLAGS=-L${LOCALBASE}/lib
 
+CFLAGS=		-DHAVE_SYS_PARAM_H \
+		-I${PREFIX}/include \
+		-pipe -O6 -fstrength-reduce -ffast-math -fomit-frame-pointer\
+		-fforce-mem -fforce-addr -funroll-loops
 MAN6=		xaos.6
 
-# We need to supply our own install target as the distribution doesn't
-# supply one by default
-
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/xaos ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/doc/xaos.6 ${PREFIX}/man/man6
-
 post-install:
-.if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/XaoS
-	${INSTALL_DATA} ${WRKSRC}/doc/tutorial.txt ${PREFIX}/share/doc/XaoS
-	${INSTALL_DATA} ${WRKSRC}/doc/algorithm.txt ${PREFIX}/share/doc/XaoS
-.endif
+	strip ${PREFIX}/bin/xaos
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	fi
+	install-info ${PREFIX}/info/xaos.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
