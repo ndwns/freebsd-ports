@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:	3.6
+# Version required:	3.6.2
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	ImageMagick-3.6
+DISTNAME=	ImageMagick-3.6.2
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/ImageMagick/
 
