@@ -76,6 +76,7 @@
     SUBDIR += okphone
     SUBDIR += oleo
     SUBDIR += perl5
+    SUBDIR += pgp.language
     SUBDIR += pine
     SUBDIR += pkfonts
     SUBDIR += plain2
