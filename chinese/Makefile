@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Wnn
+    SUBDIR += bg5ps
     SUBDIR += big5con
     SUBDIR += big5fonts
     SUBDIR += c2t
