@@ -55,7 +55,6 @@
     SUBDIR += nasm
     SUBDIR += ncurses
     SUBDIR += noweb
-    SUBDIR += omniBroker
     SUBDIR += omniORB
     SUBDIR += p5-B
     SUBDIR += p5-BSD-Resource
