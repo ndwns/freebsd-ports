@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       gimp-devel
+DISTNAME=       gimp
 PKGNAME=        gimp-devel-96.10.01
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.xcf.berkeley.edu/pub/gimp/developers/
