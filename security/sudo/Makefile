@@ -6,14 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	cu-sudo.v1.5.8p2
-PKGNAME=	sudo-1.5.8.2
+DISTNAME=	cu-sudo.v1.5.9p1
+PKGNAME=	sudo-1.5.9.1
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/sysadmin/sudo/
 
-MAINTAINER=	erich@FreeBSD.ORG
+MAINTAINER=	mharo@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/sudo.v1.5.8p2
+WRKSRC=		${WRKDIR}/sudo.v1.5.9p1
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS=	--with-skey \
