@@ -70,7 +70,6 @@
     SUBDIR += ircII
     SUBDIR += ircd-hybrid-5
     SUBDIR += ircii-epic
-    SUBDIR += isc-dhcp
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
     SUBDIR += kdenetwork
