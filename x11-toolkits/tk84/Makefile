@@ -6,16 +6,16 @@
 # $Id$
 #
 
-DISTNAME=	tk8.0
-PKGNAME=	tk-8.0
+DISTNAME=	tk8.0p1
+PKGNAME=	tk-8.0.1
 CATEGORIES=	x11 tk80
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
 
 MAINTAINER=	jkh@Freebsd.ORG
 
-LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=	tcl80\\.1\\.1:${PORTSDIR}/lang/tcl80
 
-WRKSRC=		${WRKDIR}/${DISTNAME}/unix
+WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
