@@ -9,7 +9,7 @@
 
 DISTNAME=       timidity-0.2i
 CATEGORIES=     audio
-MASTER_SITES=   ftp://ftp.planix.com/pub/misc/ \
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/misc/hardware/soundcard/gus/ \
 		http://www.cgs.fi/~tt/timidity/
 TIINS=          dgguspat.zip
 DISTFILES=      ${TIINS} ${DISTNAME}.tar.gz
