@@ -17,8 +17,8 @@
 # FILESDIR 	- A directory containing any miscellaneous additional files.
 # PKGDIR 	- Package creation files.
 #
-# USE_GMAKE	- Says that the package uses gmake (*).
-# HAS_CONFIGURE	- Says that the package has its own configure script (*).
+# USE_GMAKE	- Says that the package uses gmake.
+# HAS_CONFIGURE	- Says that the package has its own configure script.
 # CONFIGURE_ARGS - Pass these args to configure, if $HAS_CONFIGURE.
 # HOME_LOCATION	- site/path name (or user's email address) describing
 #		  where this package came from or can be obtained if the
@@ -90,7 +90,7 @@ package:
 # install, require or deinstall scripts.  Override this rule if your
 # package is anything but run-of-the-mill (or show me a way to do this
 # more generally).
-	@if [ -d ${PKGDIR} ]; then
+	@if [ -d ${PKGDIR} ]; then \
 	   echo "===>  Building package for ${DISTNAME}"; \
 	   pkg_create -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR \
 	     -f ${PKGDIR}/PLIST ${DISTNAME}; \
