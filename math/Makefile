@@ -1,6 +1,6 @@
 
 # $Id$
 #
-SUBDIR=	blas gnuplot oleo
+SUBDIR=	blas eispack gnuplot linpack oleo
 
 .include <bsd.port.subdir.mk>
