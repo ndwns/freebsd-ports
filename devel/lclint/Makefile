@@ -6,14 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	lclint-2.2a.src
-PKGNAME=	lclint-2.2a
+DISTNAME=	lclint-2.2a
 CATEGORIES=	devel
 MASTER_SITES=	ftp://larch.lcs.mit.edu/pub/Larch/lclint/
+EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	moeding@bn.DeTeMobil.de
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
