@@ -21,13 +21,13 @@ do-install:
 	(cd $(WRKSRC)/tkcvs; sh ./doinstall)
 
 post-extract:
-	cp ${WRKDIR}/tkcvs-6.0/tkcvs/tkcvs.n ${WRKDIR}/tkcvs-6.0/tkcvs/tkcvs.1
-	cp ${WRKDIR}/tkcvs-6.0/tkdiff/tkdiff.n ${WRKDIR}/tkcvs-6.0/tkdiff/tkdiff.1
+	cp ${WRKSRC}/tkcvs/tkcvs.n ${WRKSRC}/tkcvs/tkcvs.1
+	cp ${WRKSRC}/tkdiff/tkdiff.n ${WRKSRC}/tkdiff/tkdiff.1
 
 post-install:
 .if !defined(NOPORTDOCS)
-	cp ${WRKDIR}/tkcvs-6.0/README.tkcvs $(PREFIX)/lib/tkcvs/
-	cp ${WRKDIR}/tkcvs-6.0/tkdiff/README $(PREFIX)/lib/tkcvs/README.tkdiff
+	install -c ${WRKSRC}/README.tkcvs $(PREFIX)/lib/tkcvs/
+	install -c ${WRKSRC}/tkdiff/README $(PREFIX)/lib/tkcvs/README.tkdiff
 .endif
 .if !defined(NOMANCOMPRESS)
 	gzip -9nf $(PREFIX)/man/man1/tkcvs.1
