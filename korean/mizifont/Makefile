@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xfntmizi-1.1-1.noarch
+DISTNAME=	xfntmizi-1.1-2.noarch
 PKGNAME=	ko-mizifonts-1.1
 CATEGORIES=	korean x11-fonts
 MASTER_SITES=	http://www.mizi.co.kr/packages/
