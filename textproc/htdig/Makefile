@@ -1,5 +1,5 @@
 # New ports collection makefile for:   htdig
-# Version required:    3.1.1
+# Version required:    3.1.2
 # Date created:        18 August 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
@@ -9,8 +9,12 @@
 DISTNAME=	htdig-3.1.2
 CATEGORIES=	textproc www
 MASTER_SITES=	http://www.htdig.org/files/ \
+		${MASTER_SITE_SUNSITE} \
 		ftp://ftp.ntua.gr/pub/www/htdig/ \
-		ftp://ftp.htdig.org/pub/htdig/ \
+		ftp://ftp.max.irk.ru/unix/net/www/ \
+		ftp://ftp.loxinfo.co.th/pub/unix/www/ \
+		ftp://ftp.htdig.org/pub/htdig/
+MASTER_SITE_SUBDIR=	apps/www/indexing
 
 MAINTAINER=	billf@FreeBSD.org
 
