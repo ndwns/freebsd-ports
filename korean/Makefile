@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Wnn
+    SUBDIR += acroread-korfont
     SUBDIR += afterstep
     SUBDIR += elm
     SUBDIR += engdic
