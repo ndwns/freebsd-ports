@@ -67,8 +67,8 @@ post-extract:
 .else
 DISTNAME=       pgp263is
 PKGNAME=        pgp-2.6.3ia
-MASTER_SITES=   ftp://ftp.ifi.uio.no/pub/pgp/src/ \
-		ftp://ftp.relcom.ru/unix/crypto/pgp/
+MASTER_SITES=   ftp://ftp.ifi.uio.no/pub/pgp/2.x/src/ \
+		ftp://ftp.kiarchive.ru/pub/unix/crypto/pgp/
 WRKSRC=         ${WRKDIR}/src
 FILESDIR=       ${.CURDIR}/files.non_usa
 PATCHDIR=       ${.CURDIR}/patches.non_usa
