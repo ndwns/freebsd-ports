@@ -57,6 +57,7 @@
     SUBDIR += gnushogi
     SUBDIR += golddig
     SUBDIR += gtkballs
+    SUBDIR += hex
     SUBDIR += icbm3d
     SUBDIR += ifm
     SUBDIR += imaze
