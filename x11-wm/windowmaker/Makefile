@@ -29,14 +29,29 @@ CONFIGURE_ENV=	X11BASE=${X11BASE} LIBS=-L${LOCALBASE}/lib \
 		CPPFLAGS=-I${LOCALBASE}/include
 CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
 	--with-nlsdir=${LOCALBASE}/lib/locale \
-	--with-gfx-libs="-L${LOCALBASE}/lib" \
-	--with-gfx-incs="-I${LOCALBASE}/include" \
+	--with-libs-from="-L${LOCALBASE}/lib" \
+	--with-incs-from="-I${LOCALBASE}/include" \
 	--disable-debug
 
 MAN1=	geticonset.1x getstyle.1x seticons.1x setstyle.1x \
 	wdwrite.1x wmaker.1x wmsetbg.1x wxcopy.1x wxpaste.1x
 
 DATAFILES=	WindowMaker-extra-0.1.tar.bz2
+
+.if defined(USE_GNOME)
+CONFIGURE_ARGS+=	--enable-gnome
+.endif
+
+.if defined(USE_KDE)
+CONFIGURE_ARGS+=	--enable-kde
+.endif
+
+.SILENT:
+
+.if !defined(USE_KDE) && !defined(USE_GNOME)
+pre-extract:
+	${ECHO} "You can add hooks for Gnome and KDE by defining USE_GNOME and/or USE_KDE"
+.endif
 
 post-patch:
 	@perl -pi -e "s|%%PREFIX%%|${PREFIX}|g" ${WRKSRC}/WPrefs.app/Paths.c \
