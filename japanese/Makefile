@@ -3,6 +3,7 @@
 
     SUBDIR += Canna
     SUBDIR += Wnn
+    SUBDIR += camltk41
     SUBDIR += chimera
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
@@ -35,6 +36,7 @@
     SUBDIR += mew
     SUBDIR += mh
     SUBDIR += mimekit
+    SUBDIR += mmm
     SUBDIR += mnews
     SUBDIR += mule-canna
     SUBDIR += mule-sj3
