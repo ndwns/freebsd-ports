@@ -37,7 +37,7 @@ SBIN=		snmpd snmptrapd
 post-install:
 	( cd ${PREFIX}/bin; strip ${BIN} )
 	( cd ${PREFIX}/sbin; strip ${SBIN} )
-	(cd ${PREFIX}/lib && ${LN} libsnmp.so libsnmp.so.3.5)
+	(cd ${PREFIX}/lib && ${LN} -f libsnmp.so libsnmp.so.3.5)
 	@${MKDIR} ${PREFIX}/share/examples/ucd-snmp
 	@for F in ${WRKSRC}/etc/* ; do \
 		${INSTALL_DATA} $$F ${PREFIX}/share/examples/ucd-snmp ; done
