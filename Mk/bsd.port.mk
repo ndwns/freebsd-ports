@@ -1,4 +1,4 @@
- -*- mode: Fundamental; tab-width: 4; -*-
+#-*- mode: Fundamental; tab-width: 4; -*-
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
 #	This file is in the public domain.
@@ -265,7 +265,8 @@ PKGNAME?=		${DISTNAME}
 # Documentation
 MAINTAINER?=	ports@FreeBSD.ORG
 CATEGORIES?=	orphans
-KEYWORDS?=		${CATEGORIES}
+CATEGORIES+=	all
+KEYWORDS+=		${CATEGORIES}
 
 PKGREPOSITORYSUBDIR?=	.package
 PKGREPOSITORY?=		${PACKAGES}/${PKGREPOSITORYSUBDIR}
