@@ -17,7 +17,6 @@ IS_INTERACTIVE=	"Requires manual fetch"
 VERSION=	1.1.8
 WRKSRC=		${WRKDIR}/jdk${VERSION}
 NO_BUILD=	yes
-PKGMESSAGE=	${WRKDIR}/MESSAGE
 PLIST_SUB+=	VERSION=${VERSION}
 
 .include <bsd.port.pre.mk>
@@ -34,14 +33,18 @@ do-fetch:
 	@echo 'as described in'
 	@echo '    http://java.sun.com/feedback/faq/downloading.html'
 	@echo ''
-	@exit 1
+	@${FALSE}
 .endif
+
+pre-install:
+	@if [ !`id -u` ]; then \
+	/usr/sbin/chown -R root:wheel ${WRKDIR}/*; \
+	fi
 
 do-install:
 	${MKDIR} ${PREFIX}/jdk${VERSION}
 	(cd ${WRKSRC} && ${TAR} -cf - docs) \
 		| (cd ${PREFIX}/jdk${VERSION} && ${TAR} -xf -)
-	@${SED} s+!!PREFIX!!+${PREFIX}+g < ${PKGDIR}/MESSAGE > ${PKGMESSAGE}
-	@${CAT} ${PKGMESSAGE}
+	@${CAT} ${PKGMESSAGE} | ${SED} s+!!PREFIX!!+${PREFIX}+g
 
 .include <bsd.port.post.mk>
