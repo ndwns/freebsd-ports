@@ -1,5 +1,5 @@
 # New ports collection makefile for:    fep
-# Version required:     
+# Version required:     1.0
 # Date created:         20 Feb 1996
 # Whom:                 Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
