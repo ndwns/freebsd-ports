@@ -18,8 +18,6 @@ BUILD_DEPENDS=	${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql3
 		${PREFIX}/lib/perl5/site_perl/${PERL_VER}/Data/ShowTable.pm:${PORTSDIR}/devel/p5-Data-ShowTable \
 		${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/DBI.pm:${PORTSDIR}/databases/p5-DBI
 
-BROKEN_ELF=	depends on mysql-3.21.33
-
 CONFIGURE_ENV=	PREFIX=${PREFIX} MYSQL_HOME=${PREFIX} IN_MYSQL_DISTRIBUTION=1
 USE_PERL5=	YES
 
