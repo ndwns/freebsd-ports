@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	cdrecord-1.8a22
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils audio
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
 
 MAINTAINER=	jmz@FreeBSD.org
