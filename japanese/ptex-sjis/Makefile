@@ -29,14 +29,14 @@ ALL_TARGET=	default
 BINARIES=	iniptex jbibtex pdvitype pltotf ptex tftopl virptex
 
 pre-extract:
-.if !exists(${.CURDIR}/../ptex-common/work/.build_done)
+.if !exists(${WRKDIRPREFIX}${.CURDIR}/../ptex-common/work/.build_done)
 	@(cd ${.CURDIR}/../ptex-common; \
 	  ${SETENV} ${MAKE_ENV} ${MAKE})
 .endif
 
 post-extract:
 	@${RM} -rf ${WRKSRC}
-	@${MV} ${WRKDIR}/${DISTNAME} ${.CURDIR}/../ptex-common/work/web2c-7.2/web2c
+	@${MV} ${WRKDIR}/${DISTNAME} ${WRKDIRPREFIX}${.CURDIR}/../ptex-common/work/web2c-7.2/web2c
 
 pre-patch:
 	@/usr/bin/uudecode -p ${DISTDIR}/${DIST_SUBDIR}/Makefile.in.patch.txt | \
