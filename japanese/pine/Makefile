@@ -18,6 +18,8 @@ PATCH_SITES=	ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/pine3.95/
 
 MAINTAINER=	max@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 BUILD_DEPENDS=	${PREFIX}/lib/libcanna.a:${PORTSDIR}/japanese/Canna
 
