@@ -11,7 +11,7 @@ PKGNAME=	xtacy-1.13
 CATEGORIES=	x11
 MASTER_SITES=	ftp://sidehack.gweep.net/pub/gweep_progs/ \
 		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	X11/toys
+MASTER_SITE_SUBDIR=	apps/graphics/hacks/X
 
 MAINTAINER=	matt@bdd.net
 
