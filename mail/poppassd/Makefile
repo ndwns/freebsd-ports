@@ -6,11 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	poppassd
+DISTNAME=	pwserve-4
 PKGNAME=	poppassd-4.0
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/password/
-DISTFILES=	pwserve-4
+MASTER_SITES=	ftp://ftp.qualcomm.com/eudora/servers/unix/password/
 
 MAINTAINER=	andrew@ugh.net.au
 
@@ -18,6 +17,7 @@ EXTRACT_CMD=	/bin/cat
 EXTRACT_SUFX=	
 EXTRACT_BEFORE_ARGS=	
 EXTRACT_AFTER_ARGS=	| /usr/bin/sed -e '1,16d' | /bin/sh
+WRKSRC=			${WRKDIR}/poppassd
 ALL_TARGET=	poppassd
 MAN8=		poppassd.8
 
