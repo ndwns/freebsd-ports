@@ -10,7 +10,6 @@ DISTNAME=	xicq-062398-snapshot
 PKGNAME=	xicq-062398
 CATEGORIES=	net
 MASTER_SITES=	http://www.xtrophy.dk/xicq/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	scrappy@freebsd.org
 
