@@ -2,6 +2,7 @@
 #
 
     SUBDIR += bash
+    SUBDIR += bash2
     SUBDIR += es
     SUBDIR += pdksh
     SUBDIR += tcsh
