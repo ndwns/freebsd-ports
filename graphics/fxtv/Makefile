@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	fxtv-0.44
+DISTNAME=	fxtv-0.45
 CATEGORIES=	x11
 MASTER_SITES=	http://multiverse.com/~rhh/fxtv/
 EXTRACT_SUFX=	.tgz
