@@ -9,7 +9,7 @@
 DISTNAME=	xgammon-0.98
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.redhat.com/pub/redhat/current/SRPMS/
-EXTRACT_SUFX=	-7.src.rpm
+EXTRACT_SUFX=	-10.src.rpm
 
 PATCH_DIST_STRIP=	-p1
 
