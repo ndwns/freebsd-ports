@@ -12,6 +12,7 @@
     SUBDIR += mc
 RESTRICTED += mmv               # restrictive copyright
     SUBDIR += mshell
+    SUBDIR += recode
     SUBDIR += rman
     SUBDIR += screen
 
