@@ -1,11 +1,11 @@
 # New ports collection makefile for:    gshar+gunshar
-# Version required:     4.1.3
+# Version required:     4.1.4
 # Date created:         28 Dec 1994
 # Whom:                 ache
 #
 # $Id$
 #
-DISTNAME=       sharutils-4.1.3
+DISTNAME=       sharutils-4.1.4
 MASTER_SITES=   ftp://ftp.iro.umontreal.ca/pub/contrib/pinard/
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --program-prefix=g --disable-uucode --prefix=${PREFIX}
