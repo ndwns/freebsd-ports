@@ -20,6 +20,8 @@ BUILD_DEPENDS+=	${LOCALBASE}/lib/libintl.a:${PORTSDIR}/devel/gettext
 .endif
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+BROKEN=		fetch
+
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 
