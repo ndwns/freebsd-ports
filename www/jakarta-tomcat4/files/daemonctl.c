@@ -322,7 +322,7 @@ void start(void) {
 		result = existsProcess(pid);
 		if (result == 1) {
 			printf(" [ FAILED ]\n");
-			fprintf(stderr, "%%CONTROL_SCRIPT_NAME%%: %%APP_TITLE%% %%PORTREVISION%% is already running, PID is %d.\n", pid);
+			fprintf(stderr, "%%CONTROL_SCRIPT_NAME%%: %%APP_TITLE%% %%PORTVERSION%% is already running, PID is %d.\n", pid);
 			exit(ERR_ALREADY_RUNNING);
 		}
 	}
