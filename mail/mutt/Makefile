@@ -25,9 +25,14 @@ PATCHFILES=
 
 MAINTAINER=     obrien@FreeBSD.org
 
-LIB_DEPENDS=	ncurses\\.4\\.:${PORTSDIR}/devel/ncurses
 .if defined(BATCH)
+LIB_DEPENDS=	slang\\.1\\.:${PORTSDIR}/devel/libslang
+BUILD_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell
 RUN_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell
+.elif defined(USE_NCURSES_PORT)
+LIB_DEPENDS=	ncurses\\.4\\.:${PORTSDIR}/devel/ncurses
+.elif defined(USE_SLANG)
+LIB_DEPENDS=	slang\\.1\\.:${PORTSDIR}/devel/libslang
 .endif
 
 DIST_SUBDIR=	mutt
@@ -36,8 +41,12 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --enable-dsn --enable-pop --enable-imap --enable-flock \
 		--disable-fcntl --enable-hidden-host \
 		--with-sharedir=${PREFIX}/share/misc \
-		--with-docdir=${PREFIX}/share/doc/mutt \
-		--with-curses=${PREFIX}
+		--with-docdir=${PREFIX}/share/doc/mutt
+.if defined(BATCH) || defined(USE_SLANG)
+CONFIGURE_ARGS+=	--with-slang=${PREFIX}
+.elif defined(USE_NCURSES_PORT)
+CONFIGURE_ARGS+=	--with-curses=${PREFIX}
+.endif
 MAN1=		mutt.1
 
 post-patch:
