@@ -24,8 +24,11 @@ post-install:
 
 update:
 	@cd ${FILESDIR} ; co -f $(CVSROOT)/src/etc/inetd.conf,v
-	@${SED} 's:/usr/libexec/[a-zA-Z]*:${PREFIX}/libexec/tcpd:g'  \
+	@${SED} -e 's:/usr/libexec/[a-zA-Z]*:${PREFIX}/libexec/tcpd:g'  \
+		-e 's:/usr/local/libexec/[a-zA-Z]*:${PREFIX}/libexec/tcpd:g'  \
+		-e 's:/usr/local/sbin/[a-zA-Z]*:${PREFIX}/libexec/tcpd:g'  \
 		< ${FILESDIR}/inetd.conf  > ${FILESDIR}/inetd.conf.wrapped.sample
 	@${RM} -f ${FILESDIR}/inetd.conf
+	@${ECHO} "Now manually fixup deamon paths from the /usr/local tree."
 
 .include <bsd.port.mk>
