@@ -66,6 +66,7 @@
     SUBDIR += libU77
     SUBDIR += libcii
     SUBDIR += libdlmalloc
+    SUBDIR += libdockapp
     SUBDIR += libffi
     SUBDIR += libgetline
     SUBDIR += libgnugetopt
