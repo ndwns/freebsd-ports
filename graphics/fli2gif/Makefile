@@ -8,7 +8,7 @@
 
 DISTNAME=       fli2gif
 PKGNAME=	fli2gif-1.1
-CATEGORIES=	graphics misc
+CATEGORIES=	graphics
 MASTER_SITES=   ftp://ftp.sco.com/skunkware/src/misc/ \
 		ftp://ftp.doc.ic.ac.uk/Mirrors/ftp.sco.com/skunkware/src/misc/ \
 		ftp://ftp.vse.cz/pub/.ccd0c/SCO/ftp.sco.com/skunkware/src/misc/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bbjd-1.01
-CATEGORIES=	misc math
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/strategy
 
