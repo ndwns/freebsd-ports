@@ -32,8 +32,6 @@ do-install:
 	cd ${WRKSRC}/${manpages}; \
 	${EXTRACT_CMD} cf - . | \
 		(cd ${mandir}; ${EXTRACT_CMD} xf - )
-
-post-install:
 	find ${WRKSRC}/${manpages} -type f -print | \
 		 ${SED} "s%${WRKSRC}/${manpages}%man/${LANG}%" > \
 	   ${WRKSRC}/PLIST
