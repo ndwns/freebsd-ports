@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@FreeBSD.ORG
 
+BROKEN=		fetch
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-C2 --with-skey --with-fbsdops
 WRKSRC=		${WRKDIR}/sudo.v1.5.6p3
