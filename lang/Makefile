@@ -19,7 +19,7 @@
     SUBDIR += mit-scheme
     SUBDIR += modula-3
     SUBDIR += moscow_ml
-    SUBDIR =+ msqlperl
+    SUBDIR += msqlperl
     SUBDIR += p2c
     SUBDIR += pTk
     SUBDIR += pbasic
