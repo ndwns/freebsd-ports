@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       xpilot-3.6.1
+DISTNAME=       xpilot-4.1.0
 CATEGORIES=	games
-MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
-		ftp://ftp.cs.uit.no/pub/games/xpilot/
+MASTER_SITES=	ftp://ftp.xpilot.org/pub/xpilot/ \
+		${MASTER_SITE_XCONTRIB}  \
 MASTER_SITE_SUBDIR=	games/multiplayer
 
 MAINTAINER=	jmacd@FreeBSD.org
