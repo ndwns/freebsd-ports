@@ -10,10 +10,10 @@ DISTNAME=	squid-2.1.PATCH2
 PKGNAME=	squid-2.1
 CATEGORIES=	www
 MASTER_SITES=  \
-	ftp://squid.nlanr.net/pub/squid-2/ \
-	ftp://www.unimelb.edu.au/pub/cwis/servers/unix/squid/squid-2/ \
-	ftp://sunsite.auc.dk/pub/infosystems/squid/squid-2/ \
-	ftp://ftp.net.lut.ac.uk/squid/squid-2/
+	ftp://squid.nlanr.net/pub/squid-2/STABLE/ \
+	ftp://www.unimelb.edu.au/pub/cwis/servers/unix/squid/squid-2/STABLE/ \
+	ftp://sunsite.auc.dk/pub/infosystems/squid/squid-2/STABLE/ \
+	ftp://ftp.net.lut.ac.uk/squid/squid-2/STABLE/
 EXTRACT_SUFX=	-src.tar.gz
 
 PATCH_SITES=	http://squid.nlanr.net/Squid/v2/2.1/
