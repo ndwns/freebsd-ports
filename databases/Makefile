@@ -1,5 +1,6 @@
 # $Id$
 #
+    SUBDIR += cdb
     SUBDIR += db
     SUBDIR += gdbm
     SUBDIR += gnats
