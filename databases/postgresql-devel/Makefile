@@ -77,6 +77,8 @@ post-install:
 			>> ${PREFIX}/pgsql/.profile; \
 		${ECHO} "PGLIB=${PREFIX}/pgsql/lib" \
 			>> ${PREFIX}/pgsql/.profile; \
+		${ECHO} "# note: PGDATA overwrites the -D startup option" \
+			>> ${PREFIX}/pgsql/.profile; \
 		${ECHO} "PGDATA=${PREFIX}/pgsql/data" \
 			>> ${PREFIX}/pgsql/.profile; \
 		${ECHO} "DISPLAY=:0" \
