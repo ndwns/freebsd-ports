@@ -1,4 +1,4 @@
-# New ports collection makefile for:    mp
+# New ports collection makefile for:    mp (letter)
 # Version required:     3.0.1
 # Date created:         11 July 1996
 # Whom:                 David O'Brien <obrien@cs.ucdavis.edu>
@@ -14,17 +14,14 @@ MASTER_SITES=	ftp://ftp.NUXI.com/pub/misc/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
-LOOP_VAR=	PAPERSIZE
-LOOP_OPTIONS=	letter a4
 WRKSRC=		${WRKDIR}/mp
 MAN1=		mp.1
 MLINKS=		mp.1 digestp.1	- filep.1	- filofaxp.1 \
 		- franklinp.1	- mailp.1	- newsp.1 \
 		- timemanp.1	- timesysp.1
 
-.if !defined(PAPERSIZE)
-PAPERSIZE=letter
-.elif ${PAPERSIZE} == A4 || ${PAPERSIZE} == a4
+PAPERSIZE?=	letter
+.if ${PAPERSIZE} == a4
 INSTALL_TARGET= install-a4
 .endif
 

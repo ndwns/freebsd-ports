@@ -25,7 +25,9 @@
     SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
-    SUBDIR += gimp-manual
+    SUBDIR += gimp-manual-html
+    SUBDIR += gimp-manual-pdf
+    SUBDIR += gimp-manual-ps
     SUBDIR += gimp1
     SUBDIR += gplot
     SUBDIR += gqview

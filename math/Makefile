@@ -1,6 +1,8 @@
 # $Id$
 #
 
+    SUBDIR += R-a4
+    SUBDIR += R-letter
     SUBDIR += Scilab
     SUBDIR += add
     SUBDIR += apc
@@ -28,7 +30,6 @@
     SUBDIR += pari
     SUBDIR += plplot
     SUBDIR += pygist
-    SUBDIR += r
     SUBDIR += rng
     SUBDIR += sc
     SUBDIR += siag

@@ -13,15 +13,14 @@ MASTER_SITES=	ftp://manual.gimp.org/pub/manual/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
-LOOP_VAR=	DOCFORMAT
-LOOP_OPTIONS=	HTML PDF PS
-
 .if !defined(DOCFORMAT)
 DOCFORMAT=HTML
-DOCFORMAT_UNSPECIFIED=YES
 .else
 .if ${DOCFORMAT} != "HTML" && ${DOCFORMAT} != "PDF" && ${DOCFORMAT} != "PS"
-DOCFORMAT_INVALID=YES
+.BEGIN:
+	@${ECHO} "ERROR: invalid value for DOCFORMAT: \"${DOCFORMAT}\""
+	@${ECHO} "Possible values are:  HTML, PDF, PS."
+	@${FALSE}
 .endif
 .endif
 
@@ -33,16 +32,6 @@ pre-fetch:
 	@${ECHO} "The gzip'ed PS version is 44 MB (unpacks to 173 MB),"
 	@${ECHO} "the PDF version is 14 MB and the HTML tar-bzip'ed"
 	@${ECHO} "version is 16 MB (unpacks to 18.7 MB)."
-
-.if defined(DOCFORMAT_UNSPECIFIED)
-	@${ECHO} "(DOCFORMAT not specified: defaulting to HTML format.)"
-	@${ECHO} "To choose the one you want, type:"
-	@${ECHO} "     make DOCFORMAT={HTML,PDF,PS} [install]"
-.elif defined(DOCFORMAT_INVALID)
-	@echo "ERROR: invalid value for DOCFORMAT: \"${DOCFORMAT}\""
-	@echo "Possible values are:  HTML (default), PDF, PS."
-	@${FALSE}
-.endif
 
 .if ${DOCFORMAT} == "HTML"
 EXTRACT_SUFX=	-html.tar.bz2
