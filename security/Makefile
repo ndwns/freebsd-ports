@@ -16,6 +16,7 @@
     SUBDIR += p5-Crypt-IDEA
     SUBDIR += p5-MD5
     SUBDIR += p5-PGP
+    SUBDIR += p5-PGP-Sign
     SUBDIR += pgp
     SUBDIR += pgp5
     SUBDIR += pidentd
