@@ -78,21 +78,23 @@ pre-install:
 post-install:
 .if !defined(PACKAGE_BUILDING)
 	${PREFIX}/bin/mysql_install_db
+	@${SH} ${PKGINSTALL} ${PKGNAME} POST-INSTALL
 .endif
 	@${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "if [ -x ${PREFIX}/bin/safe_mysqld ]" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "then" >> ${PREFIX}/etc/rc.d/mysql-server.sh
-	@${ECHO} "	${PREFIX}/bin/safe_mysqld > /dev/null & && ${ECHO} -n ' mysql'" >> ${PREFIX}/etc/rc.d/mysql-server.sh
+	@${ECHO} "	${PREFIX}/bin/safe_mysqld --user=mysql > /dev/null & && ${ECHO} -n ' mysql'" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@${ECHO} "fi" >> ${PREFIX}/etc/rc.d/mysql-server.sh
 	@/bin/chmod 750 ${PREFIX}/etc/rc.d/mysql-server.sh
 
 .if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/mysql
+	${MKDIR} ${PREFIX}/share/doc/mysql/Img
 .for doc in manual.html manual.ps manual_toc.html manual.txt manual.texi include.texi
 	${INSTALL_DATA} ${WRKSRC}/Docs/${doc} ${PREFIX}/share/doc/mysql
 .endfor
+	${INSTALL_DATA} ${WRKSRC}/Docs/Img/*.gif ${PREFIX}/share/doc/mysql/Img
 	${INSTALL_DATA} ${WRKSRC}/Docs/mysql.info ${PREFIX}/info
 	@install-info ${PREFIX}/info/mysql.info ${PREFIX}/info/dir
 .endif

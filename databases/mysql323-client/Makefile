@@ -10,6 +10,7 @@ PKGNAME=	${DISTNAME:S/-/-client-/g}
 
 MASTERDIR=	${.CURDIR}/../mysql322-server
 COMMENT=	${PKGDIR}/COMMENT.client
+PKGINSTALL=	mustnotexist
 PLIST=		${PKGDIR}/PLIST.client
 
 CLIENT_ONLY=	yes
