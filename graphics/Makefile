@@ -78,6 +78,7 @@
     SUBDIR += png
     SUBDIR += pnmtopng
     SUBDIR += povray
+    SUBDIR += povray31
     SUBDIR += ppm2fli
     SUBDIR += pstoedit
     SUBDIR += py-imaging
