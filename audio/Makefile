@@ -6,6 +6,7 @@
     SUBDIR += gsm
     SUBDIR += maplay
     SUBDIR += mpegaudio
+    SUBDIR += mxv
     SUBDIR += nas
     SUBDIR += playmidi
     SUBDIR += radio
