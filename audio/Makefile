@@ -6,6 +6,16 @@
 # BROKEN: rsynth (can't find a master site)
 #
 
-SUBDIR= gsm maplay nas playmidi rplay s3mod sox tracker xcd xcdplayer
+   SUBDIR += gsm
+   SUBDIR += maplay
+   SUBDIR += nas
+   SUBDIR += playmidi
+   SUBDIR += rplay
+   SUBDIR += s3mod
+   SUBDIR += sox
+   SUBDIR += tracker
+   SUBDIR += xcd
+   SUBDIR += xcdplayer
+   SUBDIR += xmix
 
 .include <bsd.port.subdir.mk>
