@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	hugs-January1998-source
+DISTNAME=	hugs-June98-source
 PKGNAME=	hugs-1.4
 CATEGORIES=	lang
-MASTER_SITES=	ftp://haskell.org/pub/haskell/hugs/January1998/
+MASTER_SITES=	ftp://haskell.org/pub/haskell/hugs/LATEST/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	Torsten.Grust@uni-konstanz.de
