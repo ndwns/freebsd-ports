@@ -4,6 +4,6 @@
 #
 # BROKEN= gmod
 #
-SUBDIR= gsm maplay nas playmidi sox tracker xcd xcdplayer
+SUBDIR= gsm maplay nas playmidi rsynth sox tracker xcd xcdplayer
 
 .include <bsd.port.subdir.mk>
