@@ -13,8 +13,6 @@ MASTER_SITES=	ftp://ftp.tcltk.com/pub/blt/
 
 MAINTAINER=	kjc@csl.sony.co.jp
 
-BROKEN_ELF=	library version numbers
-
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 WRKSRC=		${WRKDIR}/blt2.4f
@@ -25,6 +23,13 @@ MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
 		beep.n cutbuffer.n
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${LN} -sf libBLT.so.${SO_VERSION} ${PREFIX}/lib/libBLT.so
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SO_VERSION=	2
+.else
+SO_VERSION=	2.4
+.endif
