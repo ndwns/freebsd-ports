@@ -38,6 +38,8 @@ MAINTAINER=     Adam Laurie \<adam@algroup.co.uk\>
 
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 
+BROKEN=		fails on patch
+
 EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 RESTRICTED=     "Contains cryptography"
