@@ -1,15 +1,14 @@
 # New ports collection makefile for:	nkf
-# Version required:	1.5 pl 1
+# Version required:	1.6
 # Date created:		5 February 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	nkf-1.5pl1
-PKGNAME=	nkf-1.5.1
+DISTNAME=	nkf-1.6
 CATEGORIES+=	japanese
-MASTER_SITES=	ftp://www.hitachi-sk.co.jp/pub/Japanese/filter/
+MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
