@@ -12,16 +12,7 @@ MASTER_SITES=	ftp://ftp.cityline.net/pub/radiusclient/
 
 MAINTAINER=	maurice@serc.rmit.edu.au
 
-BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/devel/libtool:patch
-
 USE_GMAKE=	yes
-GNU_CONFIGURE=	yes
-
-pre-configure:
-	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.3/ltconfig ${WRKSRC}
-	${CP} ${WRKDIRPREFIX}${PORTSDIR}/devel/libtool/work/libtool-1.3/ltmain.sh ${WRKSRC}
-
-post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+USE_LIBTOOL=	yes
 
 .include <bsd.port.mk>
