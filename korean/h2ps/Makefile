@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://cglab.snu.ac.kr/pub/hangul/n3f/tar/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+BROKEN=		fetch
+
 pre-build:
 	@(cd ${WRKSRC}; make clean)
 
