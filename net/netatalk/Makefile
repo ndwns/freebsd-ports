@@ -19,8 +19,6 @@ PATCHFILES=	afpd-macos8.diff afpd-bfree.diff
 
 MAINTAINER=	stb@freebsd.org
 
-WWW_SITE=	http://www.umich.edu/~rsug/netatalk/
-
 MAN1=		aecho.1 getzones.1 megatron.1 nbp.1 pap.1 psorder.1
 MAN3=		atalk_aton.3 nbp_name.3
 MAN4=		atalk.4
