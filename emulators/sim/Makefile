@@ -31,7 +31,9 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKDIR}/pdp9 ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKDIR}/pdp11 ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKDIR}/pdp15 ${PREFIX}/bin
+.if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/sim && ${INSTALL_DATA} ${WRKDIR}/simh_doc.txt \
 		${PREFIX}/share/doc/sim
+.endif
 
 .include <bsd.port.mk>
