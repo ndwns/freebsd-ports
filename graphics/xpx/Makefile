@@ -9,7 +9,7 @@
 DISTNAME=	xpx141
 PKGNAME=	xpx-1.41
 CATEGORIES=	graphics
-MASTER_SITES=	http://www2s.biglobe.ne.jp/~yav/soft/xpx/
+MASTER_SITES=	http://www.oersted.co.jp/~yav/soft/xpx/
 
 MAINTAINER=	flathill@FreeBSD.ORG
 
