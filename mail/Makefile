@@ -4,6 +4,7 @@
     SUBDIR += adcomplain
     SUBDIR += asmail
     SUBDIR += balsa
+    SUBDIR += bbmail
     SUBDIR += bulk_mailer
     SUBDIR += cmail
     SUBDIR += coolmail
