@@ -9,7 +9,7 @@
 DISTNAME=	kcc
 PKGNAME=	ja-kcc-1.0
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/incoming/distfiles/
+MASTER_SITES=	ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
