@@ -1055,7 +1055,7 @@ fake-pkg:
 	@if [ ! -d ${PKG_DBDIR}/${PKGNAME} ]; then \
 		${ECHO_MSG} "===> Registering installation for ${PKGNAME}"; \
 		mkdir -p ${PKG_DBDIR}/${PKGNAME}; \
-		cp ${PKGDIR}/PLIST ${PKG_DBDIR}/${PKGNAME}/+CONTENTS; \
+		${PKG_CMD} ${PKG_ARGS} -O ${PKGFILE} > ${PKG_DBDIR}/${PKGNAME}/+CONTENTS; \
 		cp ${PKGDIR}/DESCR ${PKG_DBDIR}/${PKGNAME}/+DESC; \
 		cp ${PKGDIR}/COMMENT ${PKG_DBDIR}/${PKGNAME}/+COMMENT; \
 	else \
