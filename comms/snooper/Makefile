@@ -5,8 +5,8 @@
 # $Id$
 #
 
-DISTNAME=	snooper.970212
-PKGNAME=	snooper-970212
+DISTNAME=	snooper.980813
+PKGNAME=	snooper-980813
 CATEGORIES=	comms
 MASTER_SITES=   ftp://ftp.foretune.co.jp/pub/tools/snooper/
 
