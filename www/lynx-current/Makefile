@@ -10,6 +10,7 @@ DISTNAME=       lynx2-3-7
 EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-3-7/
 ALL_TARGET=     freebsd
-USES_GMAKE=	yes
+# Do not put USE_GMAKE here
+EXEC_DEPENDS+=               gmake:${PORTSDIR}/devel/gmake
 
 .include <bsd.port.mk>
