@@ -11,8 +11,6 @@ MASTER_SITES=		ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/
 
 MAINTAINER=		issei@jp.FreeBSD.ORG
 
-BROKEN=			does not work with openssl-0.9.2b at the moment
-
 .if defined(USA_RESIDENT) && ${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO
 pre-fetch:
 	@echo
