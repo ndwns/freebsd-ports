@@ -997,7 +997,7 @@ pre-clean:
 clean: pre-clean
 	@${ECHO_MSG} "===>  Cleaning for ${PKGNAME}"
 .if !defined(NO_WRKDIR) && !exists(${.CURDIR}/obj)
-	${RM} -rf ${WRKDIR}
+	@${RM} -rf ${WRKDIR}
 .else
 	@${RM} -f ${WRKDIR}/.*_done
 .endif
