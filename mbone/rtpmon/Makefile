@@ -1,12 +1,12 @@
 # New ports collection makefile for:	rtpmon
-# Version required:			1.0a5
+# Version required:			1.0a7
 # Date created:				1 November 1996
 # Whom:	      Bill Fenner <fenner@FreeBSD.ORG>
 #
 #   $Id$
 #
 
-DISTNAME=	rtpmon-1.0a5
+DISTNAME=	rtpmon-1.0a7
 CATEGORIES=	mbone tk41
 MASTER_SITES=	ftp://mm-ftp.cs.berkeley.edu/pub/rtpmon/
 
