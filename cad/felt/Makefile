@@ -14,7 +14,6 @@ EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	giffunip@asme.org
 
-OSVERSION!=	sysctl -n kern.osreldate
 BROKEN=		too few arguments to function error
 
 WRKSRC=         ${WRKDIR}/FElt-3.02
