@@ -23,7 +23,7 @@ BUILD_DEPENDS=  ssleay:${PORTSDIR}/security/SSLeay
 CONFIGURE_ENV+=	CPPFLAGS='-I${PREFIX}/include' LDFLAGS='-L${PREFIX}/lib'
 .endif
 
-USE_AUTOCONF=	yes
+GNU_CONFIGURE=	yes
 MAKEFILES=	Makefile src/Makefile
 
 post-configure:
