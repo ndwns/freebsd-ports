@@ -9,9 +9,8 @@
 DISTNAME=       gd1.2
 PKGNAME=        gd-1.2
 CATEGORIES=	graphics
-EXTRACT_SUFX=   .tar.Z
-
 MASTER_SITES=   http://www.boutell.com/gd/
+EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=     jeff@cetlink.net
 
