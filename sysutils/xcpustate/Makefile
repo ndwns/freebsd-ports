@@ -6,9 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	xcpustate-2.1
+DISTNAME=	xcpustate-2.2beta
+PKGNAME=	xcpustate-2.2b
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/xcpustate/  \
+		ftp://ftp.vector.co.za/pub/FAQS/FAQs/mirrors/ftp.cdf.toronto.edu/xcpustate/  \
+		ftp://ftp.csie.nctu.edu.tw/Vendors/sun/sun-faq/FAQs/mirrors/ftp.cdf.toronto.edu/xcpustate/  \
+
 		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities/xcpustate
 EXTRACT_SUFX=	.shar.gz
