@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	erich@rrnet.com
 
-HAS_CONFIGURE=	yes
+GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-C2 --with-fbsdops
 WRKSRC=		${WRKDIR}/sudo.v1.5.3
 MAN5=		sudoers.5
