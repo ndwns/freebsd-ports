@@ -1,13 +1,13 @@
 # New ports collection makefile for:    mendexk-euc
-# Version required:     2.4b
+# Version required:     2.4c
 # Date created:         1 Dec 1997
 # Whom:                 Makoto WATANABE <watanabe@zlab.phys.nagoya-u.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	mendexk2.4b
-PKGNAME=	ja-mendexk-euc-2.4b
+DISTNAME=	mendexk2.4c
+PKGNAME=	ja-mendexk-euc-2.4c
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex218/ \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ptex218/web2c/
