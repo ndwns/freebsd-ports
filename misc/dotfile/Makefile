@@ -20,5 +20,8 @@ MAN1=		dotfile.1
 
 do-build:
 	@${DO_NADA}
+
+post-install:
+	@${CAT} ${PKGDIR}/MESSAGE
 	
 .include <bsd.port.mk>
