@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	seahaven-1.04
+DISTNAME=	seahaven-1.41
 CATEGORIES=	games
 MASTER_SITES=	http://www.cinenet.net/users/spitzak/seahaven/
 EXTRACT_SUFX=	.tgz
