@@ -14,13 +14,12 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		EZ.1:${PORTSDIR}/graphics/EZWGL
 
 WRKSRC=		${WRKDIR}/EZFM-0.1
 USE_X_PREFIX=	yes
+USE_GMAKE=	yes
 
 MAN1=		ezfm.1
 
