@@ -1,12 +1,12 @@
 # New ports collection makefile for:    xdtm
-# Version required:     		2.5.5
+# Version required:     		2.5.8
 # Date created:         		26th April 1995
 # Whom:                 		gpalmer
 #
 # $Id$
 #
 
-DISTNAME=		xdtm-2.5.5
+DISTNAME=		xdtm-2.5.8
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/xdtm
