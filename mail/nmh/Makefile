@@ -31,7 +31,7 @@
 
 DISTNAME=	nmh-1.0
 CATEGORIES=	mail
-MASTER_SITES=   ftp://ftp.math.gatech.edu/pub/nmh/ \
+MASTER_SITES=	ftp://ftp.mhost.com/pub/nmh/ \
 		http://www.freebsd.org/~jkoshy/PORTS/
 
 MAINTAINER=     Scott.Blachowicz@seaslug.org
