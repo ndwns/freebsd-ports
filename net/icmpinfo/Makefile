@@ -9,8 +9,7 @@
 
 DISTNAME=	icmpinfo-1.11
 CATEGORIES=	net sysutil
-MASTER_SITES=	ftp://hplyot.obspm.fr/net/  \
-		ftp.leo.org:/pub/comp/networking/net-tools/icmpinfo/
+MASTER_SITES=	ftp://hplyot.obspm.fr/net/
 
 MAINTAINER=     obrien@NUXI.com
 
