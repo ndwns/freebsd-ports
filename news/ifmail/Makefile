@@ -17,6 +17,7 @@ MASTER_SITE_SUBDIR=	fido/mail/
 
 MAINTAINER=     dirk.meyer@dinoex.sub.org
 
+BROKEN=		package
 MAN3=		parsedate.3
 MAN8=		ifmail.8 iftoss.8
 
