@@ -15,6 +15,7 @@
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
     SUBDIR += libslang
+    SUBDIR += linux_devel
     SUBDIR += m4
     SUBDIR += mkmf
     SUBDIR += mprof
