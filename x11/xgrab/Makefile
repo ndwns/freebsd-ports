@@ -23,7 +23,7 @@ XMKMF=		xmkmf
 # Needs to actually *run* xrdb
 #IS_INTERACTIVE=	yes
 .if !defined(DISPLAY)
-BROKEN=		requires X session to run xrdb
+BROKEN=		Requires an active X session to run xrdb.  Please compile this while running X.
 .endif
 
 MAN1=		xgrab.1 xgrabsc.1
