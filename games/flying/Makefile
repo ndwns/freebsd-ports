@@ -9,7 +9,7 @@
 DISTNAME=	flying-6.20
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	games/x11
+MASTER_SITE_SUBDIR=	games/arcade
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	searle@longacre.demon.co.uk
