@@ -12,4 +12,6 @@ MASTER_SITES=	ftp://ftp.tu-clausthal.de/pub/unix/audio/
 
 MAINTAINER=	oliver.fromme@heim3.tu-clausthal.de
 
+MAN1=		pcmfade.1 pcmplay.1 tosha.1
+
 .include <bsd.port.mk>
