@@ -57,7 +57,7 @@
 # USE_GMAKE		- Says that the port uses gmake.
 # USE_IMAKE		- Says that the port uses imake.
 # NO_INSTALL_MANPAGES - For imake ports that don't like the install.man
-						target.
+#						target.
 # HAS_CONFIGURE	- Says that the port has its own configure script.
 # GNU_CONFIGURE	- Set if you are using GNU configure (optional).
 # CONFIGURE_ARGS - Pass these args to configure, if $HAS_CONFIGURE.
