@@ -25,6 +25,12 @@ CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=	-n freebsd
 MAN8=		lsof.8
 
+.if defined(PACKAGE_BUILDING)
+.if !exists(/usr/src/sys/miscfs/fdesc/fdesc.h)
+BROKEN=	'please install kernel source for offical package builds'
+.endif
+.endif
+
 SRCBALL_NAME=	${DISTNAME:S/_W$//}
 
 post-extract:
