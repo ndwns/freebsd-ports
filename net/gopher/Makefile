@@ -1,13 +1,13 @@
 # New ports collection makefile for:	gopher
-# Version required:	2.1
+# Version required:	2.1.3
 # Date created:		11 Dec 1994
 # Whom:			ats
 #
 # $Id$
 #
 
-DISTNAME=	gopher2.1
-PKGNAME=	gopher-2.1
+DISTNAME=	gopher2_1_3
+PKGNAME=	gopher-2.1.3
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/
 EXTRACT_SUFX=	.tar.Z
