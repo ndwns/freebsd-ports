@@ -128,7 +128,7 @@ EXTRACT_SUFX?=	.tar.gz
 EXTRACT_ARGS?=	-C ${WRKDIR} -xzf
 
 PKG_CMD?=		pkg_create
-PKG_ARGS?=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST
+PKG_ARGS?=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX}
 PKG_SUFX?=		.tgz
 
 # I guess we're in the master distribution business! :)  As we gain mirror
