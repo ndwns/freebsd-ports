@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	acroread_linux_b1106
+DISTNAME=	acroread_linux_30
 PKGNAME=	acroread-3.0
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.adobe.com/pub/adobe/acrobatreader/unix/3.x/ \
-		ftp://nic.switch.ch/mirror/Acrobat/unix/3.x/
+		ftp://sunsite.cnlab-switch.ch/mirror/acrobatreader/unix/3.x/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
