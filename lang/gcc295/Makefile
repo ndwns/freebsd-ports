@@ -16,14 +16,17 @@ MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-09-14/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
+.include <bsd.port.pre.mk>
+
 EGCS_REV=	egcs-2.92.07
 LIBSTDCPP_REV=	2.9.0
-ARE_WE_ELF!=	test -x /usr/bin/objformat && /usr/bin/objformat || echo aout
-.if ${ARE_WE_ELF} == "elf"
+
+.if ${PORTOBJFORMAT} == "elf"
 GNUHOST=	${ARCH}-unknown-freebsdelf
 .else
 GNUHOST=	${ARCH}-unknown-freebsd
 .endif
+
 PLIST_SUB=	EGCS_REV=${EGCS_REV} GNU_HOST=${GNUHOST}
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
@@ -72,4 +75,4 @@ post-install:
 	install-info ${PREFIX}/info/${info}.info ${PREFIX}/info/dir
 .endfor
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
