@@ -10,12 +10,15 @@ DISTNAME=	gaim-19990311
 PKGNAME=	gaim-0.1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.marko.net/pub/gaim/ \
+		http://www.freebsd.org/~mharo/distfiles/ \
 		ftp://ftp.netmug.org/pub/FreeBSD/distfiles/
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} logo.xpm
 
 MAINTAINER=	jim@phrantic.phear.net
 
 LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 ALL_TARGET=	gaim
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
@@ -23,7 +26,7 @@ USE_X_PREFIX=	yes
 CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
 
 post-patch:
-	${CP} ${FILESDIR}/logo.xpm ${WRKSRC}/pixmaps
+	${CP} ${DISTDIR}/logo.xpm ${WRKSRC}/pixmaps
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gaim ${PREFIX}/bin
