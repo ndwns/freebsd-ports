@@ -18,9 +18,9 @@ pre-install:
 	@cat ${FILESDIR}/COPYRIGHT
 
 do-install:
-	rm -f ${PREFIX}/bin/bzip ${PREFIX}/bin/bzip
+	rm -f ${PREFIX}/bin/bzip ${PREFIX}/bin/bunzip
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip ${PREFIX}/bin/bzip
-	ln ${PREFIX}/bin/bzip ${PREFIX}/bin/bunzip
+	ln -s ${PREFIX}/bin/bzip ${PREFIX}/bin/bunzip
 	${INSTALL_MAN} ${WRKSRC}/bzip.1 ${PREFIX}/man/man1/bzip.1
 	${INSTALL_MAN} ${WRKSRC}/bzip.1 ${PREFIX}/man/man1/bunzip.1
 .if !defined(NOMANCOMPRESS)
