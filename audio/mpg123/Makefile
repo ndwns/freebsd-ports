@@ -11,7 +11,7 @@ CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
 		http://homepages.uni-tuebingen.de/student/michael.hipp/mpg123/
 
-MAINTAINER=	mcj@acquiesce.org
+MAINTAINER=	ports@freebsd.org
 
 ALL_TARGET=	freebsd
 MAN1=		mpg123.1
