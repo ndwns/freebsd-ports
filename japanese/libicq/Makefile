@@ -8,7 +8,7 @@
 
 DISTNAME=	libicq-0.33
 PKGNAME=	ja-libicq-0.33
-CATEGORIES=	japanese devel
+CATEGORIES=	japanese net
 MASTER_SITES=	ftp://ftp.korsoft.com/pub/gicq/
 
 PATCH_SITES=	http://www.freebsd.org/~flathill/distfiles/ \
