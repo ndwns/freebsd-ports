@@ -1,8 +1,11 @@
 # $Id$
 #
-# RESTRICTED: rzsz
-#
 
-SUBDIR= ecu hylafax kermit mgetty+sendfax seyon
+    SUBDIR += ecu
+    SUBDIR += hylafax
+    SUBDIR += kermit
+    SUBDIR += mgetty+sendfax
+    SUBDIR += rzsz
+    SUBDIR += seyon
 
 .include <bsd.port.subdir.mk>
