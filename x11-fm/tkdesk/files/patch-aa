@@ -31,10 +31,10 @@ Index: Makefile
  # Location of the Tcl include files:
  
 -TCLINCDIR = /usr/include/tcl       # Linux with Slackware 3.0
--#TCLINCDIR = /usr/local/include
+ #TCLINCDIR = /usr/local/include
 +#TCLINCDIR = /usr/include/tcl       # Linux with Slackware 3.0
-+TCLINCDIR = /usr/local/include
- #TCLINCDIR = /usr/local/include/tcl7.5
+-#TCLINCDIR = /usr/local/include/tcl7.5
++TCLINCDIR = /usr/local/include/tcl7.5
  #TCLINCDIR = $(HOME)/include
  
  # Location of the Tcl library:
@@ -62,7 +62,7 @@ Index: Makefile
 -TKINCDIR = /usr/include/tcl        # Linux with Slackware 3.0
 -#TKINCDIR = /usr/local/include
 +#TKINCDIR = /usr/include/tcl        # Linux with Slackware 3.0
-+TKINCDIR = /usr/local/include
++TKINCDIR = /usr/local/include/tk4.1
  #TKINCDIR = /usr/local/include/tcl7.5
  #TKINCDIR = $(HOME)/include
  
