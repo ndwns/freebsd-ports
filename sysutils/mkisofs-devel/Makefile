@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mkisofs-1.12b4
+DISTNAME=	mkisofs-1.12b5
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/mkisofs/ \
 		ftp://ftp.gwdg.de/pub/linux/misc/cdrecord/mkisofs/ \
