@@ -33,6 +33,7 @@ BROKEN=		"requires patched gcc compiler"
 # if you have one, if you have one put it here, otherwise,
 # you will need to install from a package first
 
+USE_GMAKE=	yes
 MAN1=		adagcc.1 cccp.1
 
 # Make sure we use the patched gcc compiler
