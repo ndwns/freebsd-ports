@@ -19,7 +19,7 @@ PATCHFILES=	olvwm4.Patch01.Z \
 		olvwm4.Patch02.Z
 PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	brianfeldman@hotmail.com
+MAINTAINER=	green@FreeBSD.org
 
 LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview \
 		Xpm.4:${PORTSDIR}/graphics/xpm
