@@ -20,13 +20,13 @@ MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 MAINTAINER=	jseger@FreeBSD.org
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
-		mpeg.1:${PORTSDIR}/graphics/mpeg-lib \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
 		png.2:${PORTSDIR}/graphics/png \
 		jbig.1:${PORTSDIR}/graphics/jbigkit \
 		ttf.3:${PORTSDIR}/print/freetype
 BUILD_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig \
 		picttoppm:${PORTSDIR}/graphics/netpbm \
+		mpeg2decode:${PORTSDIR}/graphics/mpeg2codec \
 		gs:${PORTSDIR}/print/ghostscript5
 
 MAN1=	ImageMagick.1 animate.1 combine.1 convert.1 display.1 identify.1 import.1 mogrify.1 montage.1 xtp.1
