@@ -33,6 +33,7 @@
     SUBDIR += recode
     SUBDIR += rman
     SUBDIR += screen
+    SUBDIR += splitvt
     SUBDIR += team
     SUBDIR += tkinfo
     SUBDIR += tkman
