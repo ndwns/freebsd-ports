@@ -14,6 +14,9 @@
     SUBDIR += groff
     SUBDIR += gxditview
     SUBDIR += ircII
+    SUBDIR += jtex209-ascii
+    SUBDIR += jtex209-both
+    SUBDIR += jtex209-ntt
     SUBDIR += kakasi
     SUBDIR += kinput2-canna
     SUBDIR += kinput2-canna+sj3
@@ -38,7 +41,6 @@
     SUBDIR += pine
     SUBDIR += pkfonts
     SUBDIR += platex
-    SUBDIR += ptex
     SUBDIR += ptex2
     SUBDIR += qkc
     SUBDIR += sed
