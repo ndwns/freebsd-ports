@@ -10,7 +10,7 @@ PKGNAME=	snooper-970212
 CATEGORIES=	comms
 MASTER_SITES=   ftp://ftp.foretune.co.jp/pub/tools/snooper/
 
-MAINTAINER=	itojun.itojun.org
+MAINTAINER=	itojun@itojun.org
 
 WRKSRC=		${WRKDIR}/snooper/build
 HAS_CONFIGURE=	yes
