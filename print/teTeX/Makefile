@@ -15,8 +15,6 @@ DISTFILES=	${TETEX_SRC} ${TETEX_LIB}
 
 MAINTAINER=	br@netland.inka.de
 
-BROKEN=		package
-
 DIST_SUBDIR=	teTeX
 PATCH_DIST_STRIP=	-p1
 USE_GMAKE=	yes
