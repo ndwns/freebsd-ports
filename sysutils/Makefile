@@ -15,6 +15,7 @@
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += gnomeadmin
+    SUBDIR += gnomecontrolcenter
     SUBDIR += glload
     SUBDIR += gtar
     SUBDIR += gtop
