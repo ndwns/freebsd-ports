@@ -8,7 +8,7 @@
 
 DISTNAME=       tripwire-1.2
 CATEGORIES=	security net
-MASTER_SITES=   ftp://info.cert.org/pub/tools/tripwire/
+MASTER_SITES=   ftp://coast.cs.purdue.edu/pub/COAST/Tripwire/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jgreco@ns.sol.net
