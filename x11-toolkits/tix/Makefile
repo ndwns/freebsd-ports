@@ -9,7 +9,7 @@
 DISTNAME=	Tix4.1.0.006
 PKGNAME=	tix-4.1.0.006
 CATEGORIES=	x11-toolkits tk80
-MASTER_SITES=	ftp://ftp.xpi.com/pub/ \
+MASTER_SITES=	http://www.neosoft.com/tcl/ftparchive/sorted/devel/ \
 		ftp://ftp.gwdg.de/pub/x11/tcl/ftp.xpi.com/ \
 		ftp://ftp.riken.go.jp/pub/lang/tcl/netsoft/sorted/packages-7.6/devel/
 
