@@ -20,8 +20,6 @@ LIB_DEPENDS=		tk80\\.1:${PORTSDIR}/x11/tk80
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
 
-NO_CONFIGURE=		YES
-
 CHOWN?=chown
 CHMOD?=chmod
 FIND?=find
@@ -30,9 +28,6 @@ GREP?=grep
 
 do-build:
 	${PYTHON} -c 'from compileall import compile_dir; compile_dir("${WRKSRC}")'
-
-post-extract:
-	(cd ${WRKSRC} && find . -name '.cvsignore' -delete)
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/grail && \
