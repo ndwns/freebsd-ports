@@ -18,6 +18,7 @@ WRKSRC=         ${WRKDIR}/webglimpse-1.6.edu
 
 MAINTAINER=     ache@freebsd.org
 
+NO_CDROM=	depends on glimpse
 USE_PERL5=      YES
 NO_BUILD=       YES
 
