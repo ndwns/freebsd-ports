@@ -15,7 +15,6 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-WRKSRC=			${WRKDIR}/ptoc
 MAKEFILE=		makefile
 
 pre-build:
