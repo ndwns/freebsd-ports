@@ -186,6 +186,7 @@
     SUBDIR += tkirc
     SUBDIR += traceroute
     SUBDIR += trafshow
+    SUBDIR += ttcp
     SUBDIR += ttt
     SUBDIR += ucd-snmp
     SUBDIR += vnc
