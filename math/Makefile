@@ -31,6 +31,7 @@
     SUBDIR += wingz
     SUBDIR += xgfe
     SUBDIR += xgraph
+    SUBDIR += xldlas
     SUBDIR += xlispstat
     SUBDIR += xplot
     SUBDIR += xspread
