@@ -41,7 +41,6 @@
     SUBDIR += libtool
     SUBDIR += linux_devel
     SUBDIR += linux_kdump
-    SUBDIR += linuxgdb
     SUBDIR += m4
     SUBDIR += m68kgdb
     SUBDIR += makedepend
