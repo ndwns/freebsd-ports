@@ -10,7 +10,6 @@ DISTNAME=       netscape-3.01
 CATEGORIES=	www
 .if defined(GOLD)
 MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/gold/3.01/unix/
-MD5_FILE=       ${FILESDIR}/md5.gold
 DIST_SUBDIR=    gold
 .else
 MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/3.01/unix/
