@@ -18,6 +18,22 @@ PATCHFILES=	jgroff-0.98.diff.gz
 DISTPATCHES=	950414.01.Z 950414.02.Z
 PATCH_DIST_STRIP=	-p1
 
+pre-fetch: 
+	@(cd ${DISTDIR}; \
+	 if [ ! -f ${PATCHFILES} ]; then \
+	    ${ECHO_MSG} ">> ${PATCHFILES} doesn't seem to exist on this system."; \
+	    for file in ${DISTPATCHES} ; do \
+		for site in ${PATCH_SITES} ; do \
+		    if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
+			break; \
+		    fi \
+		done; \
+	    done; \
+	    for file in ${DISTPATCHES} ; do zcat $${file}; done | \
+		sed '/^END -----/,/^BEGIN ----/d' | uudecode; \
+	    rm -f ${DISTPATCHES};\
+	 fi)
+
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS= --prefix=/usr/local
