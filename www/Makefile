@@ -5,6 +5,7 @@
     SUBDIR += analog
     SUBDIR += apache
     SUBDIR += apache-current
+    SUBDIR += apache-php
     SUBDIR += apache-ssl
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
