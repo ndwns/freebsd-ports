@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Apache + mod_ssl
-# Version required:	1.3.4 + 2.2.2
+# Version required:	1.3.4 + 2.2.3
 # Date created:		Sat Aug 22 12:00:00 CDT 1998
 # Whom:			rse@engelschall.com
 #
@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://www.apache.org/apache/dist/ \
 		http://www.engelschall.com/sw/mod_ssl/distrib/ \
 		ftp://ftp.engelschall.com/sw/mod_ssl/ \
 		ftp://ftp.pca.dfn.de/pub/tools/net/mod_ssl/ \
+		ftp://ftp.ecrc.net/pub/security/mod_ssl/ \
 		ftp://ftp.nvg.ntnu.no/pub/unix/mod_ssl/ \
 		ftp://ftp.ulpgc.es/pub/mod_ssl/ \
 		ftp://glock.missouri.edu/pub/mod_ssl/ \
@@ -32,7 +33,7 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl \
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
 
 VERSION_APACHE=	1.3.4
-VERSION_MODSSL=	2.2.2
+VERSION_MODSSL=	2.2.3
 
 Y2K=		http://www.engelschall.com/sw/mod_ssl/docs/2.2/ssl_faq.html#y2k
 RESTRICTED=	"Contains cryptography"
