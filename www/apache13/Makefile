@@ -1,13 +1,13 @@
 # New ports collection makefile for:    apache HTTPD
-# Version required:     1.3b2
+# Version required:     1.3b3
 # Date created:         Fri Aug 25 16:42:36 CDT 1995
 # Whom:                 ache@nagual.pp.ru
 #
 # $Id$
 #
 
-DISTNAME=       apache_1.3b2
-PKGNAME=        apache-1.3b2
+DISTNAME=       apache_1.3b3
+PKGNAME=        apache-1.3b3
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
@@ -35,7 +35,7 @@ post-patch:
 .endif
 
 CONF_DIR=   ${PREFIX}/etc/apache
-MAN1=   htpasswd.1
+MAN1=   apachectl.1 htpasswd.1
 MAN8=   httpd.8
 
 do-install:
@@ -52,6 +52,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/src/support/httpd.8 \
 		${PREFIX}/man/man8
 	${INSTALL_MAN} ${WRKSRC}/src/support/htpasswd.1 \
+		       ${WRKSRC}/src/support/apachectl.1 \
 		${PREFIX}/man/man1
 	cd ${WRKSRC} && \
 	for file in httpd.conf srm.conf access.conf ; do \
