@@ -12,7 +12,7 @@ CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.nicoh.com/pub/figlet/program/unix/  \
 		ftp://ftp.wwa.com/pub/Scarecrow/Figlet/Unix/
 
-MAINTAINER=     obrien@cs.ucdavis.edu
+MAINTAINER=     obrien@FreeBSD.org
 
 MAN6=		figlet.6
 
