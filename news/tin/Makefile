@@ -23,6 +23,7 @@ CONFIGURE_ARGS+= --with-nntp-default-server=news  \
 		 --with-libdir=${PREFIX}/news/lib \
 		 --with-mime-default-charset=US-ASCII \
 		 --enable-forgery \
+		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
 		 --with-metamail=${PREFIX}/bin/metamail
