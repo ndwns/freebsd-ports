@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	ircii-2.8
+DISTNAME=	ircii-2.8.2
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
-DISTFILES=	ircii-2.8.tar.gz ircii-2.8help.tar.gz
+DISTFILES=	ircii-2.8.2.tar.gz ircii-2.8help.tar.gz
+MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
