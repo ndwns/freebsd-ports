@@ -7,6 +7,6 @@
 #
 
 DISTNAME=       bash-1.14.3
-MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/hidden/
+MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
 
 .include <bsd.port.mk>
