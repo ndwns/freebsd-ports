@@ -513,6 +513,15 @@
     SUBDIR += pfflowd
     SUBDIR += pfinger
     SUBDIR += phex
+    SUBDIR += php4-ldap
+    SUBDIR += php4-sockets
+    SUBDIR += php4-xmlrpc
+    SUBDIR += php4-yp
+    SUBDIR += php5-ldap
+    SUBDIR += php5-soap
+    SUBDIR += php5-sockets
+    SUBDIR += php5-xmlrpc
+    SUBDIR += php5-yp
     SUBDIR += phpldapadmin
     SUBDIR += pim6dd
     SUBDIR += pim6sd

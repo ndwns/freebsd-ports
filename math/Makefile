@@ -162,6 +162,8 @@
     SUBDIR += parmetis
     SUBDIR += php4-bcmath
     SUBDIR += php4-gmp
+    SUBDIR += php5-bcmath
+    SUBDIR += php5-gmp
     SUBDIR += physcalc
     SUBDIR += ploticus
     SUBDIR += ploticus-nox11
