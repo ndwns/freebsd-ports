@@ -16,7 +16,6 @@
     SUBDIR += pidentd
     SUBDIR += rsaref
     SUBDIR += safe-tcl
-    SUBDIR += socks4
     SUBDIR += ssh
     SUBDIR += sudo
     SUBDIR += super
