@@ -22,6 +22,8 @@ the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.  */
    This was taken from the NetBSD configuration, and modified
    for FreeBSD/alpha by Hidetoshi Shimokawa <simokawa@FreeBSD.ORG> */
 
+/* $FreeBSD$ */
+
 
 /* Get generic FreeBSD definitions.  */
 #include <freebsd.h>
