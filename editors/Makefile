@@ -28,6 +28,7 @@
     SUBDIR += nvi-m17n
     SUBDIR += nvi-perl
     SUBDIR += offix-editor
+    SUBDIR += psgml-emacs
     SUBDIR += sam
     SUBDIR += semi-emacs20
     SUBDIR += semi-emacs20-current
