@@ -49,6 +49,7 @@
     SUBDIR += tgif
     SUBDIR += tk
     SUBDIR += tk41
+    SUBDIR += today
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
