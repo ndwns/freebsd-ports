@@ -23,6 +23,6 @@ do-build:
 	cc $(WRKSRC)/main.o $(WRKSRC)/xwin.o -L$(PREFIX)/lib -lX11 -lm -o $(WRKSRC)/stars
 
 do-install:
-	install -c $(WRKSRC)/stars $(PREFIX)/bin/stars
+	$(INSTALL_PROGRAM) $(WRKSRC)/stars $(PREFIX)/bin/stars
 
 .include <bsd.port.mk>
