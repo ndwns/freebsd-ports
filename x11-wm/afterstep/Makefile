@@ -20,6 +20,18 @@ INSTALL_TARGET=	install install.man
 MANCOMPRESSED=	yes
 MAN1=		afterstep.1 asclock.1 Animate.1 Audio.1 Auto.1 Banner.1 Pager.1 Wharf.1
 
+SRCDIRS=	afterstep \
+		modules/Animate modules/Audio modules/Auto \
+		modules/Banner modules/Pager modules/Wharf \
+		modules/Wharf/ASSound
+
+post-patch:
+		@ for i in ${SRCDIRS}; do \
+			cd ${WRKSRC}/$$i; \
+			mv Imakefile Imakefile.orig; \
+			sed -e 's/#ifdef AlphaArchitecture/#if defined(AlphaArchitecture) \&\& !defined(FreeBSDArchitecture)/' < Imakefile.orig  >  Imakefile; \
+		done
+
 pre-build:
 		@ cd ${WRKSRC}; sh MakeMakefiles
 

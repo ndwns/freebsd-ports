@@ -34,12 +34,22 @@ MAN1=		afterstep.1 asclock.1 Animate.1 Audio.1 Auto.1 Banner.1 \
 AFTERSTEPDIR=	${PREFIX}/lib/X11/afterstep
 ICONDIR=	${PREFIX}/include/X11/pixmaps
 
+SRCDIRS=	afterstep \
+		modules/Animate modules/Audio modules/Auto \
+		modules/Banner modules/Pager modules/Wharf \
+		modules/Wharf/ASSound
+
 pre-patch:
 	@ ${PATCH} ${PATCH_DIST_ARGS} < ${WRKDIR}/as10+I18N.98Feb27.diff
 
 post-patch:
 	@ ${CP} ${WRKSRC}/sample.steprc ${WRKSRC}/sample.steprc.ja_JP.EUC
 	@ ${PATCH} ${PATCH_DIST_ARGS} < ${FILESDIR}/steprc.ja.diff
+	@ for i in ${SRCDIRS}; do \
+		cd ${WRKSRC}/$$i; \
+		mv Imakefile Imakefile.orig; \
+		sed -e 's/#ifdef AlphaArchitecture/#if defined(AlphaArchitecture) \&\& !defined(FreeBSDArchitecture)/' < Imakefile.orig  >  Imakefile; \
+	done
 
 pre-build:
 	@ cd ${WRKSRC}; ${SH} MakeMakefiles
