@@ -29,7 +29,6 @@ SUBDIR += russian
 SUBDIR += shells
 SUBDIR += security
 SUBDIR += sysutils
-SUBDIR += textproc
 SUBDIR += vietnamese
 SUBDIR += www
 SUBDIR += x11
