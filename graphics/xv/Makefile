@@ -17,6 +17,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 PATCH_SITES=    ftp://ftp.cis.upenn.edu/pub/xv/
 PATCHFILES=     xv-3.10a.JPEG-patch # xv-3.10a.TIFF-patch (for tiff3.4)
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
 		tiff\\.3\\.3:${PORTSDIR}/graphics/tiff
 
