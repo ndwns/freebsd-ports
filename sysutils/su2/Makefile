@@ -15,4 +15,7 @@ MAINTAINER=	jmg@freebsd.org
 NO_CDROM=	"Don't sell for profit"
 MAN1=		su2.1
 
+post-patch:
+	${PERL} -pi -e 's,/etc/super,${PREFIX}/etc/super,g' ${WRKSRC}/su2.man
+
 .include <bsd.port.mk>
