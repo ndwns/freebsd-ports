@@ -9,7 +9,7 @@
 DISTNAME=       pgp26ru
 PKGNAME=        ru-pgp-2.6.3ia
 CATEGORIES=     russian
-MASTER_SITES=   ftp://ftp.relcom.ru/unix/crypto/pgp/
+MASTER_SITES=   ftp://ftp.relcom.ru/pub/unix/crypto/pgp/
 EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
