@@ -50,6 +50,9 @@ pre-install:
 post-install:
 	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} install
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libtk42jp.so.1.0 ${PREFIX}/lib/libtk42jp.so; \
+	fi
 	@echo "**********"
 	@echo "IMPORTANT:"
 	@echo "**********"
