@@ -29,6 +29,7 @@
     SUBDIR += nvi-iso-2022-kr
     SUBDIR += pine
     SUBDIR += pinetreefonts
+    SUBDIR += vim
     SUBDIR += ztelnet
 
 .include <bsd.port.subdir.mk>
