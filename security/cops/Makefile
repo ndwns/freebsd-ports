@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=	cops-1.04
 DISTNAME=	cops_104
+PKGNAME=	cops-1.04
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.cert.org/pub/tools/cops/1.04/
 EXTRACT_SUFX=	.tar.Z
