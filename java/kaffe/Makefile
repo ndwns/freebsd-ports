@@ -6,12 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	kaffe-0.9.1
+DISTNAME=	kaffe-0.9.2
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/
+MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/ \
+		ftp://ftp.cs.columbia.edu/pub/kaffe/ \
+		http://www.webcity.co.jp/info/andoh/java/kaffe/
 EXTRACT_SUFX=	.tgz
-DISTFILES=	${DISTNAME}.tgz kaffe-0.9.1-package-biss-net.com.tgz \
-		kaffe-0.9.1-package-javasoft.com.tgz
+DISTFILES=	${DISTNAME}.tgz kaffe-0.9.2-package-javasoft.com.tgz \
 
 MAINTAINER=	xaa@stack.nl
 
