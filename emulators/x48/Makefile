@@ -9,7 +9,7 @@
 DISTNAME=	x48-0.4.0
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	system/Emulators
+MASTER_SITE_SUBDIR=	system/emulators
 
 MAINTAINER=	erich@FreeBSD.org
 
