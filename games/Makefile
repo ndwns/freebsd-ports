@@ -12,6 +12,7 @@
     SUBDIR += golddig
     SUBDIR += imaze
     SUBDIR += jetpack
+    SUBDIR += lincity
     SUBDIR += nethack
     SUBDIR += oneko
     SUBDIR += qcc
