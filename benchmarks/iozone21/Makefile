@@ -8,7 +8,7 @@
 
 DISTNAME=       iozone
 PKGNAME=	iozone-2.01
-CATEGORIES+=	benchmarking
+CATEGORIES+=	benchmarks
 MASTER_SITES=   ftp://ftp.cs.uni-sb.de/pub/others/
 DISTFILES=      iozone-2.01.shar.gz
 
