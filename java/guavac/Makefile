@@ -17,5 +17,9 @@ MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 MAN1=		guavac.1
+STRIP=
+
+post-install:
+	@strip ${PREFIX}/bin/guavac ${PREFIX}/bin/guavad
 
 .include <bsd.port.mk>
