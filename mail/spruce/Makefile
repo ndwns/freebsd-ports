@@ -1,12 +1,12 @@
 # New ports collection makefile for:	spruce
-# Version required:   	0.4.7b
+# Version required:   	0.4.8
 # Date created:		05 June 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=	spruce-0.4.7b
+DISTNAME=	spruce-0.4.8
 CATEGORIES=	mail
 MASTER_SITES=	http://www.xtorshun.org/spruce/
 
@@ -20,7 +20,5 @@ USE_GMAKE=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/spruce ${PREFIX}/bin
-	@ ${MKDIR} ${PREFIX}/share/spruce
-	${INSTALL_DATA} ${WRKSRC}/xpm/* ${PREFIX}/share/spruce
 
 .include <bsd.port.mk>
