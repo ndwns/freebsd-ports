@@ -12,8 +12,6 @@ CATEGORIES+=	audio
 MASTER_SITES=	ftp://nic.switch.ch/software/sources/audio/
 EXTRACT_SUFX=	.tar.Z
 
-pre-install:
-	mkdir -p ${PREFIX}/bin
-	mkdir -p ${PREFIX}/man
+MAINTAINER=	torstenb@FreeBSD.ORG
 
 .include <bsd.port.mk>
