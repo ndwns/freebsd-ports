@@ -11,8 +11,7 @@
 DISTNAME=       lynx2-7-1
 PKGNAME=        lynx-2.7.1
 CATEGORIES=	www
-MASTER_SITES=   http://www.slcc.edu/lynx/fote/ \
-		http://www.wfbr.edu/lynx/
+MASTER_SITES=   http://www.slcc.edu/lynx/fote/
 EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
