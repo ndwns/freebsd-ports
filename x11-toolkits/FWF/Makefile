@@ -10,8 +10,6 @@ DISTNAME=	fwf-3.8
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.let.rug.nl/pub/FWF/
 
-MAINTAINER=	jkh@FreeBSD.ORG
-
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes

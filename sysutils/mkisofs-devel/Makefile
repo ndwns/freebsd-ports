@@ -10,8 +10,6 @@ DISTNAME=       mkisofs-1.05
 CATEGORIES=	sysutils
 MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/BETA/cdrom/
 
-MAINTAINER=	jkh@FreeBSD.org
-
 NO_WRKSUBDIR=   yes     
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure

@@ -11,8 +11,6 @@ PKGNAME=	tclX-7.5.2
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
 
-MAINTAINER=	jkh@FreeBSD.org
-
 DEPENDS=	${TK_DIR}
 LIB_DEPENDS=	tk41\\.1:${TK_DIR}
 

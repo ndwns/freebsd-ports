@@ -11,8 +11,6 @@ PKGNAME=	guile-iii
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.cygnus.com/pub/lord/guile-iii/
 
-MAINTAINER=	jkh@FreeBSD.ORG
-
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/guile-src

@@ -11,8 +11,6 @@ CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.probe.net/pub/ncftp/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	jkh@FreeBSD.ORG
-
 MAN1=		ncftp.1
 
 do-install:

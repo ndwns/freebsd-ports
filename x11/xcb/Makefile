@@ -11,7 +11,6 @@ CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
 
-MAINTAINER=	jkh@FreeBSD.ORG
 USE_IMAKE=	yes
 
 .include <bsd.port.mk>
