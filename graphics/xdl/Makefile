@@ -8,8 +8,7 @@
 
 DISTNAME=	xdl-2.1
 CATEGORIES+=	graphics x11
-# supposed to be ftp.uoknor.edu, but the new machine doesn't have it
-MASTER_SITES=	ftp://romulus.ucs.uoknor.edu/src/X11R5/
+MASTER_SITES=	ftp://ftp.uoknor.edu/src/X11R5/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
