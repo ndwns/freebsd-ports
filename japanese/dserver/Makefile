@@ -18,7 +18,7 @@ MAINTAINER=	mita@jp.FreeBSD.org
 
 RUN_DEPENDS=	jless:${PORTSDIR}/japanese/less \
 		${X11BASE}/lib/X11/fonts/non-cjk/fonts.dir:${PORTSDIR}/x11/etlfonts
-BUILD_DEPENDS=	mule:${PORTSDIR}/japanese/mule-wnn
+BUILD_DEPENDS=	mule:${PORTSDIR}/japanese/mule-wnn4
 
 EXTRACT_ONLY=	dserver2.2betapl2.tar.gz dserver2.2betapl2.addtable.tar.gz
 WRKSRC=		${WRKDIR}/dserver
