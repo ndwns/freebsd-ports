@@ -10,7 +10,7 @@ DISTNAME=	LAPACK
 PKGNAME=	lapack-2.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.netlib.org/lapack/
-DISTFILES=	lapack.tar.gz manpages.tar.gz
+DISTFILES=	lapack.tgz manpages.tgz
 
 MAINTAINER=	jmz@FreeBSD.org
 
