@@ -13,8 +13,6 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	obrien@FreeBSD.org
 
-BROKEN=		build
-
 GNUOSREL!=	uname -r | sed -e 's/[-(].*//'
 
 PLIST=          ${WRKDIR}/PLIST.fixedup
