@@ -1,14 +1,13 @@
 # ex:ts=8
 # New ports collection makefile for:	netscape (full communicator version)
-# Version required:     4.04
-# Date created:         24 Feb 1997
-# Whom:                 ache
+# Version required:     4.04-us
+# Date created:         14 Feb 1998
+# Whom:                 obrien@cs.ucdavis.edu
 #
 # $Id$
 #
 
 DISTNAME=	communicator-v404-us.x86-unknown-linux2.0
-#PKGNAME=	linux-netscape4-us
 PKGNAME=	netscape-communicator-4.04.us
 CATEGORIES=	www
 
@@ -47,10 +46,6 @@ pre-fetch:
 	@false
 .endif
 .endif
-
-##post-configure:
-##	${PATCH} -d ${WRKSRC} --forward --quiet -E ${PATCH_STRIP} \
-##		< ${PATCHDIR}/secondary.patch-ab
 
 do-install:
 	cd ${WRKSRC} && yes "" | \
