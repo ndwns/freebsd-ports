@@ -14,10 +14,13 @@ DISTFILES=	mnews119.tar.gz mnews119_119PL1.tar.gz mnews119PL1_PL2.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG
 
-NO_WRKSUBDIR=yes
+NO_WRKSUBDIR=	yes
 PATCH_DIST_STRIP= -p1
-DOCS=		FAQ.doc board.doc mnews.doc mnews.1 prerel.doc		\
-	present.doc		read1ST.doc readme.doc update.doc 
+MAN1=		mnews.1
+MANLANG=	ja_JP.EUC
+
+DOCS=		FAQ.doc board.doc mnews.doc prerel.doc		\
+		present.doc read1ST.doc readme.doc update.doc 
 SAMPLES=	jnames.fj jnames.jp jnames.smp jnames.tnn
 
 pre-patch:
@@ -32,14 +35,17 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mnews ${PREFIX}/bin
 	${MKDIR} ${PREFIX}/lib/mnews
 	${INSTALL_DATA} ${WRKSRC}/jnames.fj ${PREFIX}/lib/mnews/jnames
-	${MKDIR} ${PREFIX}/share/doc/mnews
-.for f in ${DOCS}
-	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/doc/mnews
-.endfor
 	${MKDIR} ${PREFIX}/share/examples/mnews
 .for f in ${SAMPLES}
 	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/examples/mnews
 .endfor
+	${INSTALL_MAN} ${WRKSRC}/mnews.1 ${PREFIX}/man/ja_JP.EUC/man1
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/mnews
+.for f in ${DOCS}
+	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/doc/mnews
+.endfor
+.endif
 
 post-install:
 .if !defined(BATCH)
