@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.vix.com/guests/ssigala/pub/tvision/
 
 MAINTAINER=	ssigala@globalnet.it
 
+BROKEN_ELF=	library names
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)"
 
