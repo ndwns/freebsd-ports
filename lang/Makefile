@@ -14,7 +14,6 @@
     SUBDIR += cmucl
     SUBDIR += dylan
     SUBDIR += egcs
-    SUBDIR += egcs-devel
     SUBDIR += eiffel
     SUBDIR += elisp-manual
     SUBDIR += elk
@@ -26,6 +25,7 @@
     SUBDIR += f77
     SUBDIR += forth
     SUBDIR += gawk
+    SUBDIR += gcc-devel
     SUBDIR += gcc28
     SUBDIR += gcl
     SUBDIR += glibstdc++28
