@@ -80,6 +80,7 @@
     SUBDIR += mimekit
     SUBDIR += mmm
     SUBDIR += mnews
+    SUBDIR += mnews-gnspool
     SUBDIR += mtools
     SUBDIR += mule-canna
     SUBDIR += mule-canna+sj3
