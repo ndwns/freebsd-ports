@@ -63,5 +63,6 @@ post-install:
 
 pre-clean:
 	@${RM} -f ${PATCHDIR}/patch-aa ${FILESDIR}/patch-xpg4
+	-@${RMDIR} ${PATCHDIR}
 
 .include <bsd.port.mk>
