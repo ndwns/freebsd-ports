@@ -9,7 +9,7 @@
 #
 
 PORTNAME=	lilypond
-PORTVERSION=	2.0.1
+PORTVERSION=	2.0.2
 CATEGORIES=	print audio
 MASTER_SITES=	http://lilypond.org/download/v2.0/ \
 		http://www.atabersk.de/lilypond/
@@ -66,11 +66,6 @@ PLIST_SUB+=	PORTVERSION=${PORTVERSION}
 
 #IGNORING portlint 2.5.0 WARN: possible direct use of command "install" found at line 64. use ${INSTALL_foobaa} instead.
 INSTALL_INFO?=	install-info
-
-pre-everything::
-	@${CAT} ${PKGMESSAGE}
-	@${ECHO_CMD} Pausing ten seconds--press control-C to cancel the build.
-	@sleep 10
 
 pre-configure:
 	${SED} -e "s=%%LOCALBASE%%=${LOCALBASE}=g;s=%%DATADIRVERSION%%=${DATADIR}/${PORTVERSION}=g" \
