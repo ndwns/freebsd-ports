@@ -1,12 +1,12 @@
 # New ports collection makefile for:    ifmail
-# Version required:     2.13
+# Version required:     2.14
 # Date created:         19 Feb 1997
 # Whom:                 dirk.meyer@dinoex.sub.org
 #
 # $Id$
 #
 
-DISTNAME=       ifmail-2.13
+DISTNAME=       ifmail-2.14
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/ \
