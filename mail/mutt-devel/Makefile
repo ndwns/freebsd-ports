@@ -20,7 +20,14 @@ PATCH_SITES=	http://www.frmug.org/mutt/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.math.fu-berlin.de/~leitner/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.efrei.fr/~parmelan/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://www.frmug.org/pub/mutt/mutt/${PKGNAME:S/^mutt-//}/
-#PATCHFILES=
+PATCHFILES=	02.redraw.PATCH  \
+		03.pager.PATCH  \
+		08.deletethread.PATCH  \
+		09.comments.PATCH
+#		04.syntaxcolor.PATCH  \
+#		05.pipemessage.PATCH  \
+#		06.altpgp.PATCH  \
+#		07.altpgp+syntaxcolor.PATCH  \
 
 MAINTAINER=     obrien@FreeBSD.org
 
