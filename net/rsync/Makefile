@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	rsync-1.7.1
+DISTNAME=	rsync-1.7.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
 		ftp://sunsite.auc.dk/pub/unix/rsync/  \
@@ -15,8 +15,6 @@ MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
 		ftp://ftp.fu-berlin.de/pub/unix/network/rsync/
 
 MAINTAINER=     obrien@FreeBSD.org
-
-BROKEN=		fetch
 
 GNU_CONFIGURE=	yes
 MAN1=		rsync.1
