@@ -23,11 +23,11 @@ WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd3.0
 .elif ${SYSNAME} == "2.2-RELEASE"
 DISTFILES=	objc1.1.12-i386-unknown-freebsd2.2.tar.gz
 WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd2.2
-.elif ${SYSNAME} == "2.1.7-RELEASE"
+.elif (${SYSNAME} == "2.1.7-RELEASE" || ${SYSNAME} == "2.1.6-RELEASE" || ${SYSNAME} == "2.1.5-RELEASE")
 DISTFILES=	objc1.1.12-i386-unknown-freebsd2.1.7.tar.gz
 WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd2.1.7
 .else
-BROKEN=		Only suppports current, 2.2, and 2.1.7.  Sorry!
+BROKEN=		Only suppports FreeBSD current, 2.2, and 2.1.{7,6,5}.  Sorry!
 .endif
 
 MAKE_ENV=	env OBJCDIR=${WRKSRC} CFLAGS=-O
