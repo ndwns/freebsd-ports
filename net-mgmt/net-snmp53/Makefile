@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ucd-snmp-4.0
+DISTNAME=	ucd-snmp-4.0.1
 CATEGORIES=	net
 MASTER_SITES= 	ftp://ucd-snmp.ucdavis.edu/ \
 		ftp://sunsite.cnlab-switch.ch/mirror/ucd-snmp/ \

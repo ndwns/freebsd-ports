@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	SNMP-1.8b5
-PKGNAME=	p5-SNMP-1.8b5
+DISTNAME=	SNMP-1.8.1
+PKGNAME=	p5-SNMP-1.8.1
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	SNMP
@@ -15,6 +15,8 @@ MASTER_SITE_SUBDIR=	SNMP
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 LIB_DEPENDS= 	snmp.3:${PORTSDIR}/net/ucd-snmp
+
+BROKEN=		'incompatible with the latest version of ucd-snmp'
 
 USE_PERL5=	YES
 
