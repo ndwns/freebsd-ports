@@ -22,6 +22,7 @@
     SUBDIR += giftool
     SUBDIR += giftrans
     SUBDIR += gimp-devel
+    SUBDIR += gimp-manual
     SUBDIR += gimp1
     SUBDIR += gplot
     SUBDIR += graphviz
