@@ -14,6 +14,7 @@
     SUBDIR += automake
     SUBDIR += avltree
     SUBDIR += bcc
+    SUBDIR += binutils-m68k
     SUBDIR += bison
     SUBDIR += boehm-gc
     SUBDIR += bonobo
@@ -62,6 +63,8 @@
     SUBDIR += ftnchek
     SUBDIR += gaa
     SUBDIR += gcc-6811
+    SUBDIR += gcc-m68k
+    SUBDIR += gdb-m68k
     SUBDIR += gettext
     SUBDIR += gide
     SUBDIR += gindent
@@ -111,10 +114,6 @@
     SUBDIR += linuxthreads
     SUBDIR += lwp
     SUBDIR += m4
-    SUBDIR += m68kbinutils
-    SUBDIR += m68kgcc
-    SUBDIR += m68kgdb
-    SUBDIR += m68knewlib
     SUBDIR += makedepend
     SUBDIR += mico
     SUBDIR += mkcmd
@@ -125,6 +124,7 @@
     SUBDIR += nana
     SUBDIR += nasm
     SUBDIR += ncurses
+    SUBDIR += newlib-m68k
     SUBDIR += newt
     SUBDIR += noweb
     SUBDIR += omniORB
