@@ -960,11 +960,6 @@ do-build:
 
 .if !target(do-install)
 do-install:
-	@if [ `/bin/sh -c umask` != 0022 ]; then \
-		${ECHO_MSG} "===>  Warning: your umask is \"`/bin/sh -c umask`"\".; \
-		${ECHO_MSG} "      If this is not desired, set it to an appropriate value"; \
-		${ECHO_MSG} "      and install this port again by \`\`make reinstall''."; \
-	fi
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
 .if defined(USE_IMAKE) && !defined(NO_INSTALL_MANPAGES)
@@ -1054,6 +1049,11 @@ _PORT_USE: .USE
 		exit 1; \
 	fi
 .endif
+	@if [ `/bin/sh -c umask` != 0022 ]; then \
+		${ECHO_MSG} "===>  Warning: your umask is \"`/bin/sh -c umask`"\".; \
+		${ECHO_MSG} "      If this is not desired, set it to an appropriate value"; \
+		${ECHO_MSG} "      and install this port again by \`\`make reinstall''."; \
+	fi
 	@cd ${.CURDIR} && ${MAKE} ${.MAKEFLAGS} run-depends lib-depends
 .endif
 .if make(real-install)
