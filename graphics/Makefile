@@ -3,6 +3,7 @@
 
     SUBDIR += ImageMagick
     BROKEN += Mesa              # doesn't install
+    SUBDIR += aero
     SUBDIR += dore
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
