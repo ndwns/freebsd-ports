@@ -10,7 +10,6 @@
    SUBDIR += emiclock
    SUBDIR += emu
    SUBDIR += fvwm
-   SUBDIR += g3view
    SUBDIR += iv
    SUBDIR += olvwm
    SUBDIR += piewm
@@ -19,6 +18,7 @@
    SUBDIR += tk
    SUBDIR += tk4
    SUBDIR += tvtwm
+   SUBDIR += viewfax
    SUBDIR += x3270
    SUBDIR += xbuffy
    SUBDIR += xcb
