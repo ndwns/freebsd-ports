@@ -6,30 +6,28 @@
 # $Id$
 #
 
-DISTNAME=	x11amp-0.7-FreeBSD
-PKGNAME=	x11amp-0.7
+DISTNAME=	x11amp-freebsd-0.8
+PKGNAME=	x11amp-0.8
 CATEGORIES=	audio
-MASTER_SITES=	http://x11amp.ml.org/files/0.7/ \
-		ftp://x11amp.bz.nu/x11amp/0.7/
-EXTRACT_SUFX=	.tgz
+MASTER_SITES=	ftp://www.se.opensound.com/pub/oss/ossapps/
+EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/x11amp
-
-USE_X_PREFIX=	YES
-NO_BUILD=	YES
+NO_BUILD=		YES
+NO_FILTER_SHLIBS=	YES
 
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
 STRIP=
+DISTNAME=	x11amp-freebsd-0.8-elf
+ROOT=		${WRKDIR}/usr/local
+.else
+ROOT=		${WRKDIR}/x11amp
 .endif
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/x11amp ${PREFIX}/bin/x11amp
-
-post-install:
-	@${CAT} ${PKGDIR}/MESSAGE
+	@tar -cpf - -C ${ROOT} . | tar -xpf - -C ${PREFIX}
 
 .include <bsd.port.post.mk>
