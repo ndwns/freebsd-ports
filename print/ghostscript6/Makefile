@@ -55,8 +55,10 @@ do-configure:
 
 pre-install:
 	@${MKDIR} ${PREFIX}/share/ghostscript ${PREFIX}/bin ${PREFIX}/man/man1
-	(cd ${PREFIX}/share/ghostscript ; tar -xzf ${DISTDIR}/${GS_FONTS_STD})
-	(cd ${PREFIX}/share/ghostscript ; tar -xzf ${DISTDIR}/${GS_FONTS_OTHER})
+	(cd ${PREFIX}/share/ghostscript ; \
+			tar -xzf ${DISTDIR}/${GS_FONTS_STD})
+	(cd ${PREFIX}/share/ghostscript/fonts ; \
+			tar -xzf ${DISTDIR}/${GS_FONTS_OTHER})
 
 post-install:
 	strip ${PREFIX}/bin/gs
