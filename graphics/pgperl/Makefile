@@ -24,6 +24,16 @@ SCRIPTS_ENV=	PERL=${PERL}
 MAN3=	ExtUtils::F77.3 PGPLOT.3
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
+.if ${OSVERSION} >= 400005
+F2CLIB=	-lg2c
+.else
+F2CLIB=	-lf2c
+.endif
+
+post-patch:
+	(cd ${WRKSRC}/ExtUtils; mv -f F77.pm F77.pm~; ${SED} -e \
+	    's/@F2CLIB@/${F2CLIB}/g' F77.pm~ > F77.pm)
+
 post-install:
 	@${MKDIR} ${PREFIX}/share/doc/pgperl
 	@(cd ${WRKSRC}; ${INSTALL_DATA} LICENSE test* \
