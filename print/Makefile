@@ -7,6 +7,7 @@
     SUBDIR += dvips
     SUBDIR += dviselect
     SUBDIR += ghostscript
+    SUBDIR += ghostscript3
     SUBDIR += ghostview
     SUBDIR += latex
     SUBDIR += latex209
