@@ -12,13 +12,12 @@ MASTER_SITES=	http://www.math.kth.se/~mjo/games/xquarto/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 MAN6=		xquarto.6
 
-do-install:
-	@ ${INSTALL_PROGRAM} ${WRKSRC}/src/xquarto ${PREFIX}/bin
-	@ ${INSTALL_DATA} ${WRKSRC}/src/xquarto.man ${PREFIX}/man/man6/xquarto.6
+pre-configure:
+	@echo "MANSUFFIX=6" >>${WRKSRC}/src/Imakefile
 
 .include <bsd.port.mk>

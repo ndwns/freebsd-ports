@@ -13,7 +13,7 @@ MASTER_SITES=   http://www.netcomuk.co.uk/~cannam/
 
 MAINTAINER=	sec@42.org
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
 ALL_TARGET=	depend wmx

@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.xs4all.nl/~warp/files/
 
 MAINTAINER=	rneswold@mcs.net
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/wmtime.app/wmtime
 USE_IMAKE=	yes

@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	apps/editors/X
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
-LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-mail-author --disable-static

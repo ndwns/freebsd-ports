@@ -18,7 +18,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
-LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm
 
 WRKSRC=         ${WRKDIR}/AfterStep
 

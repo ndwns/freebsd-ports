@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	X11/toolbars
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
+LIB_DEPENDS=    Xpm.5:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
 
 WRKSRC=		${WRKDIR}/XFCE-1.2.4

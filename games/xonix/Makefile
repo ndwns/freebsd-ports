@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.inf.tu-dresden.de/pub/people/wunsch/xonix/
 
 MAINTAINER=	joerg@FreeBSD.org
 
-LIB_DEPENDS=	Xpm\\.4:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=      yes
 

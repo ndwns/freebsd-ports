@@ -14,7 +14,7 @@ DISTFILES=	mlvwm-0.8.6.tar.gz mini-icons.tar.gz
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/mlvwm086
 USE_IMAKE=	yes

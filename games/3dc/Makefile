@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	games/strategy
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-LIB_DEPENDS=		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
+LIB_DEPENDS=		Xpm.5:${PORTSDIR}/graphics/xpm \
 			Xaw3d\\.6\\.:${PORTSDIR}/x11-toolkits/Xaw3d
 
 USE_X_PREFIX=		yes

@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.trends.net/~mu/srcs/
 
 MAINTAINER=	handy@physics.montana.edu
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 BROKEN=		fetch
 

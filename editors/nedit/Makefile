@@ -14,7 +14,7 @@ DISTFILES=	nedit_source.tar.gz nedit.app-defaults
 
 MAINTAINER=	deischen@iworks.InterWorks.org
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 REQUIRES_MOTIF=	yes
 USE_X_PREFIX=	yes

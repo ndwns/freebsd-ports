@@ -12,7 +12,7 @@ MASTER_SITES=   ftp://ftp.pmg.lcs.mit.edu/pub/xsokoban/
 
 MAINTAINER=     Nakai@technologist.com
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xsokoban

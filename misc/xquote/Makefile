@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR= applications
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm
 
 REQUIRES_MOTIF=		yes
 
