@@ -28,6 +28,11 @@ KRB5_KRB4_COMPAT?=	YES
 CONFIGURE_ARGS+=	--without-krb4
 .endif
 
+.if defined(KRB5_HOME)
+PREFIX=			${KRB5_HOME}
+.endif
+
+
 RESTRICTED=		"Crypto; export-controlled"
 # Set USA_RESIDENT appropriately in /etc/make.conf if you like
 
