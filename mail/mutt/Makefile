@@ -42,8 +42,7 @@ LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 DIST_SUBDIR=	mutt
 PATCH_DIST_STRIP=	-p1
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS= --enable-dsn --enable-pop --enable-imap --enable-flock \
-		--disable-fcntl --enable-hidden-host \
+CONFIGURE_ARGS= --enable-pop --enable-imap --enable-flock --disable-fcntl  \
 		--with-sharedir=${PREFIX}/share/mutt \
 		--with-docdir=${PREFIX}/share/doc/mutt
 .if defined(BATCH) || defined(USE_SLANG)
