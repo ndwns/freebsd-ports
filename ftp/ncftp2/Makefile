@@ -17,7 +17,10 @@ GNU_CONFIGURE=  yes
 CONFIGURE_ENV=  ac_cv_func_getmaxyx=yes
 
 do-install:
-	cd ${WRKSRC}; $(INSTALL) -c $(STRIP) -o $(BINOWN) -g $(BINGRP) -m $(BINMODE) ncftp $(PREFIX)/bin/ncftp2
-	cd ${WRKSRC}; $(INSTALL) -c -o $(BINOWN) -g $(BINGRP) -m 644 ncftp.1 $(PREFIX)/man/man1/ncftp2.1
+	$(INSTALL_PROGRAM) $(WRKSRC)/ncftp $(PREFIX)/bin/ncftp2
+	$(INSTALL_MAN) $(WRKSRC)/ncftp.1 $(PREFIX)/man/man1/ncftp2.1
+.if !defined(NOMANCOMPRESS)
+	gzip -9nf ${PREFIX}/man/man1/ncftp2.1
+.endif
 
 .include <bsd.port.mk>
