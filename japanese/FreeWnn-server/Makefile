@@ -18,7 +18,7 @@ IS_INTERACTIVE=	yes
 
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.
-pre-build:
+do-build:
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} Makefile.inst World)
 
 post-install:
