@@ -18,6 +18,7 @@
     SUBDIR += nedit
     SUBDIR += nvi-m17n
     SUBDIR += nvi-perl
+    SUBDIR += offix-editor
     SUBDIR += staroffice
     SUBDIR += textedit
     SUBDIR += thoteditor
