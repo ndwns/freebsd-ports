@@ -120,7 +120,9 @@
     SUBDIR += htmlsection
     SUBDIR += htmltolatex
     SUBDIR += iiimf-client-lib
+    SUBDIR += iiimf-csconv
     SUBDIR += iiimf-headers
+    SUBDIR += iiimf-le-unit
     SUBDIR += iiimf-protocol-lib
     SUBDIR += iiimf-server
     SUBDIR += info2html
