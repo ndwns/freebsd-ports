@@ -8,8 +8,8 @@
 
 DISTNAME=       psmisc-17
 CATEGORIES=     sysutils
-MASTER_SITES=   ftp://ftp.cdrom.com/pub/NetBSD/packages/distfiles/ \
-		ftp://ftp.bitcon.no/pub/NetBSD/packages/distfiles/
+MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/slackware-3.6/source/a/procps/ \
+		ftp://ftp.bitcon.no/pub/linux/slackware/source/a/procps/
 
 MAINTAINER=     rantapaa@uswest.net
 
