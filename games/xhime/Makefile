@@ -33,7 +33,7 @@ post-install:
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/ja/xhime
 	@(cd ${WRKSRC};\
-	${INSTALL_MAN} xhime-doc.euc xhime.doc rh110.xhm rh110-doc.euc \
+	${INSTALL_MAN} xhime-doc.euc xhime.doc rh110-doc.euc \
 		${PREFIX}/share/doc/ja/xhime; \
 	)
 .endif
