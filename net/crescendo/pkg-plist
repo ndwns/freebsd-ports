@@ -7,7 +7,6 @@ share/gnome/apps/Internet/crescendo.desktop
 share/gnome/pixmaps/crescendo.png
 @dirrm share/gnome/crescendo
 %%PORTDOCS%%%%DOCDIR%%/AUTHORS
-%%PORTDOCS%%%%DOCDIR%%/COPYING
 %%PORTDOCS%%%%DOCDIR%%/ChangeLog
 %%PORTDOCS%%%%DOCDIR%%/HACKING
 %%PORTDOCS%%%%DOCDIR%%/INSTALL
