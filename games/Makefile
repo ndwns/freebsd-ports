@@ -13,6 +13,7 @@
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
+    SUBDIR += bogged
     SUBDIR += bs
     SUBDIR += cgoban
     SUBDIR += connect4
