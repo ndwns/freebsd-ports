@@ -19,7 +19,7 @@ EXTRACT_BEFORE_ARGS=	-xf
 EXTRACT_AFTER_ARGS=
 
 .if !defined(OSRELEASE)
-OSRELEASE!=	uname -r | ${SED} -e 's/^\(^[^-]*\)-.*/\1/'
+OSRELEASE!=	uname -r | sed -e 's/^\(^[^-]*\)-.*/\1/'
 .endif
 
 .if (${OSRELEASE} == 2.2.6)
