@@ -17,6 +17,7 @@ MAINTAINER=	jkoshy@freebsd.org
 
 ALL_TARGET=	NPtcp
 MAN1=		netpipe.1
+MLINKS=		netpipe.1 NPtcp.1
 MANCOMPRESSED=	no
 
 do-install:
