@@ -101,7 +101,7 @@ afterinstall: realinstall
 realinstall: beforeinstall _SUBDIRUSE
 .endif
 
-IGNOREDIR=	CVS distfiles packages pkg templates
+IGNOREDIR=	CVS Mk Templates Tools distfiles packages pkg
 
 .if !target(checksubdirs)
 .if defined(PORTSTOP)
@@ -144,7 +144,7 @@ PORTSDIR ?= /usr/opt
 .else
 PORTSDIR ?= /usr/ports
 .endif
-TEMPLATES ?= ${PORTSDIR}/templates
+TEMPLATES ?= ${PORTSDIR}/Templates
 .if defined(PORTSTOP)
 README=	${TEMPLATES}/README.top
 .else
