@@ -27,7 +27,6 @@
     SUBDIR += mshell
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
-    SUBDIR += p5-Convert-UU
     SUBDIR += p5-Search
     SUBDIR += plan
     SUBDIR += rpm

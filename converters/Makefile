@@ -3,6 +3,7 @@
 
     SUBDIR += btoa
     SUBDIR += mpack
+    SUBDIR += p5-Convert-UU
     SUBDIR += recode
     SUBDIR += trans
     SUBDIR += uudeview
