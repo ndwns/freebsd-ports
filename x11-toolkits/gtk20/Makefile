@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=      gtk+-0.99.2
-PKGNAME=       gtk-0.99.2
+DISTNAME=      gtk+-0.99.3
+PKGNAME=       gtk-0.99.3
 CATEGORIES=    x11
 MASTER_SITES=  ftp://ftp.gimp.org/pub/gtk/
 
