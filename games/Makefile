@@ -30,6 +30,7 @@
     SUBDIR += icbm3d
     SUBDIR += imaze
     SUBDIR += jetpack
+    SUBDIR += jzip
     SUBDIR += kdegames
     SUBDIR += klondike
     SUBDIR += ktamaga
