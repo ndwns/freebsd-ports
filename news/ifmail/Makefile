@@ -9,8 +9,6 @@
 DISTNAME=       ifmail-2.14
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
-		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/ \
-		ftp://ftp.demos.su/unix/linux/source/fido/ \
 		ftp://ftp.average.org/ifmail/ \
 		ftp://ftp.dinoex.sub.de/pub/approved/
 MASTER_SITE_SUBDIR=	system/fido
