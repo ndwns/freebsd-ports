@@ -76,7 +76,8 @@ PLIST_GMP=	lib/python1.5/lib-dynload/mpzmodule.so
 
 post-extract:
 	cd ${WRKSRC}/Lib; ${SH} ${FILESDIR}/plat-freebsd2.sh; \
-		${SH} ${FILESDIR}/plat-freebsd3.sh
+		${SH} ${FILESDIR}/plat-freebsd3.sh;	      \
+		${SH} ${FILESDIR}/plat-freebsd4.sh
 
 post-configure:
 	${CP} ${FILESDIR}/${SETUP_FILE} ${WRKSRC}/Modules/Setup
@@ -91,14 +92,20 @@ LDFLAGS+=	-rdynamic
 CONFIGURE_ENV?=	LDFLAGS="${LDFLAGS}"
 .endif
 
-pre-install:
-.if ${OSVERSION} < 300000
-	${MKDIR} ${PREFIX}/lib/python1.5/plat-freebsd3
-	${INSTALL_DATA} ${WRKSRC}/Lib/plat-freebsd3/* ${PREFIX}/lib/python1.5/plat-freebsd3
-.else
-	${MKDIR} ${PREFIX}/lib/python1.5/plat-freebsd2
-	${INSTALL_DATA} ${WRKSRC}/Lib/plat-freebsd2/* ${PREFIX}/lib/python1.5/plat-freebsd2
+.if ${OSVERSION} >= 400000
+PLATFORMS=plat-freebsd2 plat-freebsd3
+.elif ${OSVERSION} >= 300000
+PLATFORMS=plat-freebsd2 plat-freebsd4
+.else	
+PLATFORMS=plat-freebsd3 plat-freebsd4
 .endif
+
+pre-install:
+	for platform in ${PLATFORMS}; do                     \
+		${MKDIR} ${PREFIX}/lib/python1.5/$$platform; \
+		${INSTALL_DATA} ${WRKSRC}/Lib/$$platform/*   \
+			${PREFIX}/lib/python1.5/$$platform/; \
+	done
 	@${ECHO} ${PLIST_GMP} | sort -r -o ${PLIST} - ${PKGDIR}/PLIST
 
 post-install:
