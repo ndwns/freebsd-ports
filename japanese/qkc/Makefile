@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	qkcc100
-PKGNAME=	qkc-1.0
+PKGNAME=	jp-qkc-1.0
 CATEGORIES+=	japanese
 MASTER_SITES=	ftp://ftp.lab.kdd.co.jp/Usenet/fj.sources/1995/oct/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/pub1/unix/Kanji/

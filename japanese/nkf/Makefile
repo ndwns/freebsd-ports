@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	nkf-1.6
+PKGNAME=	jp-nkf-1.6
 CATEGORIES+=	japanese
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 
