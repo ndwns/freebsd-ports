@@ -9,7 +9,7 @@
 DISTNAME=	xmmix-1.2
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	applications/xmmix
+MASTER_SITE_SUBDIR=	applications/
 
 MAINTAINER=	erich@FreeBSD.org
 
