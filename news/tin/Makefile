@@ -11,8 +11,8 @@ DISTNAME=       tinpre-1.4-19990413
 PKGNAME=        tinpre-1.4.19990413
 CATEGORIES=	news
 MASTER_SITES=   ftp://ftp.tin.org/pub/news/clients/tin/current/ \
-		ftp://nuxi.ucdavis.edu/pub/tin/pre-v1.4/ \
-		ftp://ftp.nuxi.com/pub/tin/pre-v1.4/
+		ftp://nuxi.ucdavis.edu/pub/tin/current/ \
+		ftp://ftp.nuxi.com/pub/tin/current/
 USE_BZIP2=      yes
 
 MAINTAINER=     ache@FreeBSD.org
