@@ -22,6 +22,7 @@ RESTRICTED += ivs            # crypto, export controlled
     SUBDIR += nv
     SUBDIR += pcnfsd
     SUBDIR += pmf
+    SUBDIR += rdist6
     SUBDIR += samba
     SUBDIR += scotty
     BROKEN += slirp          # upgraded
