@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	pgaccess-0.88
+DISTNAME=	pgaccess-0.91
 CATEGORIES=	databases
 MASTER_SITES=	http://www.flex.ro/pgaccess/
 
@@ -14,8 +14,8 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	${PREFIX}/pgsql/bin/postmaster:${PORTSDIR}/databases/postgresql
 
+WRKSRC=		${WRKDIR}/pgaccess
 NO_BUILD=		yes
-NO_WRKSUBDIR=		yes
 FETCH_BEFORE_ARGS=	-b
 
 do-install:
