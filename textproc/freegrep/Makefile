@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	grep-0.10
-PKGNAME=	freegrep-0.10
+DISTNAME=	grep-0.11
+PKGNAME=	freegrep-0.11
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.ofug.org/pub/grep/ \
 		http://www.freebsd.org/~des/software/
