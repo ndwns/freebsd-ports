@@ -31,7 +31,7 @@ USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-static=yes \
 		--without-gnome
-CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}" CC="${CC}" CXX="${CXX}"
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 MAN3=	G_IntList.3 G_IntList_Iterator.3 G_List.3 G_List_Cpp_Iterator.3 \
 	G_List_Iterator.3 G_SList_Iterator.3 GtkBase.3 GtkBaseClass.3 \
