@@ -8,8 +8,8 @@
 
 DISTNAME=       bash-2.02
 CATEGORIES=	shells
-MASTER_SITES=	ftp://slc2.ins.cwru.edu/pub/dist/  \
-		${MASTER_SITE_GNU}
+MASTER_SITES=   ${MASTER_SITE_GNU} \
+		ftp://slc2.ins.cwru.edu/pub/dist/
 .if !defined(NOPORTDOCS)
 DISTFILES=      bash-2.02.tar.gz bash-doc-2.02.tar.gz
 .endif
