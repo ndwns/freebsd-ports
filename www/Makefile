@@ -72,6 +72,7 @@
     SUBDIR += web500gw
     SUBDIR += webalizer
     SUBDIR += webcopy
+    SUBDIR += webglimpse
     SUBDIR += weblint
     SUBDIR += webstone
     SUBDIR += wml
