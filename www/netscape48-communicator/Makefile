@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME?=	netscape-${BROWSER}-${BROWSER_VER}
+DISTNAME=	netscape-${BROWSER}-${BROWSER_VER}
 CATEGORIES=	www
 MASTER_SITES?=	ftp://ftp.netscape.com/pub/communicator/4.08/english/unix/unsupported/freebsd/professional_edition/
 DISTFILES?=	communicator-v408-export.x86-unknown-freebsd.tar.gz
@@ -35,7 +35,7 @@ NSUBDIR?=	lib/netscape
 BINDIR=		${PREFIX}/bin
 INFILE_HEAD?=	'Communicator,4.08.0.98306'
 WRAPPER_TEMPLATE= ${MASTERDIR}/files/netscape.sh
-MAILCAP=	${MASTERDIR}/files/mailcap
+MAILCAP?=	${MASTERDIR}/files/mailcap
 
 PLIST_SUB=	BROWSER=${BROWSER} BROWSER_VER=${BROWSER_VER} \
 		NSUBDIR=${NSUBDIR}
