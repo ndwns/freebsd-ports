@@ -90,6 +90,7 @@
     SUBDIR += us-zipcodes
     SUBDIR += vbidecode
     SUBDIR += vera
+    SUBDIR += videotext
     SUBDIR += viz
     SUBDIR += wmcp
     SUBDIR += wmmand
