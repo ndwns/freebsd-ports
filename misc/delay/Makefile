@@ -6,18 +6,17 @@
 # $Id$
 #
 
-DISTNAME=  delay-1.3
-CATEGORIES=    misc
-MASTER_SITES=  http://onegeek.org/~tom/software/delay/dl/
+DISTNAME=	delay-1.3
+CATEGORIES=	misc
+MASTER_SITES=	http://onegeek.org/~tom/software/delay/dl/
 
-MAINTAINER=    freebsd@scotty.masternet.it
+MAINTAINER=	freebsd@scotty.masternet.it
 
-HAS_CONFIGURE=      yes
+HAS_CONFIGURE=	yes
 
 MAN1=	delay.1
 
 do-install:
-
 	${INSTALL_PROGRAM} ${WRKSRC}/delay ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/delay.1 ${PREFIX}/man/man1
 
