@@ -11,7 +11,8 @@ PKGNAME=	xmahjongg-1.0
 CATEGORIES=	games
 # Most Usenet archive sites don't store it as a .tar.gz, but Slackware
 # and it's mirrors do.
-MASTER_SITES=	ftp://wcarchive.cdrom.com/pub/linux/slackware/source/xap/xgames/
+MASTER_SITES=	ftp://ftp.digex.net/pub/os/linux/slackware/source/xap/xgames/ \
+		ftp://wcarchive.cdrom.com/pub/linux/slackware/source/xap/xgames/
 
 MAINTAINER=	joerg@freebsd.org
 

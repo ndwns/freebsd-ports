@@ -9,7 +9,7 @@
 DISTNAME=	xeyes-g
 PKGNAME=	xgolgo-1.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.cc.saga-u.ac.jp/pub/X/xeyes/
+MASTER_SITES=	ftp://ftp.netlab.is.tsukuba.ac.jp/pub/X/our_collections/misc/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 

@@ -9,7 +9,7 @@
 DISTNAME=	xripple
 PKGNAME=	xripple-1.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://www.cse.unsw.edu.au/pub/users/s2154962/
+MASTER_SITES=	ftp://ftp.easynet.net/pub/X/wm/enlightenment/enlightenment/misc/
 
 MAINTAINER=	oly@world.std.com
 

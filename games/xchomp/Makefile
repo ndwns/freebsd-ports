@@ -8,9 +8,8 @@
 
 DISTNAME=       xchomp-pl1
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.uoknor.edu/mirrors/X/R5contrib/ \
-		${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	../../R5contrib
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	../R5contrib
 #
 # Original sources in multi-part compressed shell archive
 #

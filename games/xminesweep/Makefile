@@ -9,7 +9,7 @@
 DISTNAME=	xminesweep3.0
 PKGNAME=	xminesweep-3.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.icm.edu.pl/pub/X11/contrib/games/
+MASTER_SITES=	ftp://ftp.sw.ru/pub/x11/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	janek@gaja.ipan.lublin.pl

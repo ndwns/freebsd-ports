@@ -9,7 +9,8 @@
 DISTNAME=	xmine-1.0.3-Xaw
 PKGNAME=	xmine-1.0.3
 CATEGORIES=	games
-MASTER_SITES=	${MASTER_SITE_LOCAL}
+MASTER_SITES=	ftp://ftp.sw.ru/pub/x11/ \
+		${MASTER_SITE_LOCAL}
 
 MAINTAINER=	joerg@FreeBSD.org
 
