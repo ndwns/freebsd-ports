@@ -34,6 +34,8 @@
     SUBDIR += xfaces
     SUBDIR += xfmail
     SUBDIR += xlbiff
+    SUBDIR += xpbiff
+    SUBDIR += xpbiff-youbin
     SUBDIR += youbin
 
 .include <bsd.port.subdir.mk>
