@@ -10,11 +10,7 @@ DISTNAME=	superlu_1.1
 PKGNAME=	superlu-1.1
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/pub/lapack/SuperLU/	\
-		ftp://ftp.u-aizu.ac.jp/pub/SciEng/numanal/cs.berkeley.edu/lapack/SuperLu/ \
-		ftp://ftp.ntua.gr/pub/netlib/scalapack/prototype/ \
-		ftp://ftp.uow.edu.au/pub/netlib/scalapack/prototype/ \
-		ftp://ftp.zib.de/pub/netlib/scalapack/prototype/ \
-		ftp://ftp.riken.go.jp/pub/netlib/scalapack/prototype/
+		ftp://ftp.u-aizu.ac.jp/pub/SciEng/numanal/cs.berkeley.edu/lapack/SuperLU/
 
 MAINTAINER=	ports@FreeBSD.org
 
