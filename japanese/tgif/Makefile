@@ -16,7 +16,6 @@ DISTFILES=	tgif-3.0-p13.tar.gz tgif-3.0J0.12-p13-JIS-patch.gz
 
 PATCH_SITES=	ftp://ftp.mei.co.jp/free/X11/X/applications/drawing/tgif/
 PATCHFILES=	tgif-3.0J0.12-p13-patch.gz
-PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
@@ -28,9 +27,9 @@ RUN_DEPENDS=	giftopnm:${PORTSDIR}/graphics/netpbm \
 		xpmtoppm:${PORTSDIR}/graphics/netpbm
 
 USE_IMAKE=	yes
-MAN1=			tgif.1 prtgif.1
-MANCOMPRESSED=		yes
 EXTRACT_ONLY=	tgif-3.0-p13.tar.gz
+PATCH_DIST_STRIP=	-p1
+MAN1=			tgif.1 prtgif.1
 
 post-patch:
 	 ${SETENV} DISTDIR="${DISTDIR}" GZCAT="${GZCAT}" \

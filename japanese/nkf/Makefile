@@ -13,8 +13,10 @@ MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 
 MAINTAINER=	max@FreeBSD.ORG
 
+MAN1=		nkf.1
+
 post-extract:
-	@echo "===>  Installing custom Makefile for ${DISTNAME}"
+	@${ECHO} "===>  Installing custom Makefile for ${DISTNAME}"
 	@(${CP} ${FILESDIR}/Makefile ${WRKSRC})
 
 .include <bsd.port.mk>

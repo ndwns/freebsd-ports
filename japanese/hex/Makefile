@@ -18,8 +18,7 @@ USE_IMAKE=	yes
 PREFIX?=	${LOCALBASE}
 MTREE_FILE?=	/etc/mtree/BSD.local.dist
 ALL_TARGET=	hex
-MAN1=		hex.1
-MANCOMPRESSED=	yes
 MANLANG=	ja
+MAN1=		hex.1
 
 .include <bsd.port.mk>
