@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	obrien@NUXI.com
 
-LIB_DEPENDS=    xview.3:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=    xview.3:${PORTSDIR}/x11-toolkits/xview
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
@@ -26,7 +26,6 @@ pre-configure:
 		>> ${WRKSRC}/Imakefile
 	@${ECHO} "EXTRA_DEFINES= -DHAVE_STRCASECMP -DHAVE_STRSTR"  \
 		>> ${WRKSRC}/Imakefile
-	@/bin/ln -f ${WRKSRC}/bibcard.1 ${WRKSRC}/bibcard.man
+	@${LN} -f ${WRKSRC}/bibcard.1 ${WRKSRC}/bibcard.man
 
 .include <bsd.port.mk>
-

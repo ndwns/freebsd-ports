@@ -20,9 +20,9 @@ EXTRACT_SUFX=		tar.Z
 
 MAINTAINER=		archie@whistle.com
 
-BUILD_DEPENDS=	${X11BASE}/lib/libxview.a:${PORTSDIR}/x11-toolkits/xview-lib \
-		${X11BASE}/lib/X11/config/XView.cf:${PORTSDIR}/x11-toolkits/xview-config
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
+BUILD_DEPENDS=	${X11BASE}/lib/libxview.a:${PORTSDIR}/x11-toolkits/xview \
+		${X11BASE}/lib/X11/config/XView.cf:${PORTSDIR}/x11-toolkits/xview
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview
 
 # The SKIP code is restricted from export from the United States and Canada.
 # See the file doc/00README for legal details.

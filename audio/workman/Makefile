@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	applications/WorkMan
 
 MAINTAINER=	d_burr@ix.netcom.com
 
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview
 
 WRKSRC=		${WRKDIR}/workman
 USE_IMAKE=	yes

@@ -14,7 +14,7 @@ DISTFILES=	Ftptool4.6.tar.gz
 
 MAINTAINER=	janek@gaja.ipan.lublin.pl
 
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/Ftptool4.6

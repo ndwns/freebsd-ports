@@ -23,7 +23,7 @@ MAINTAINER=	kuehn@rz.tu-clausthal.de
 #
 .if !(defined(HAVE_MOTIF) && defined(FORCE_MOTIF) && ${FORCE_MOTIF} == "yes") \
 	|| defined(PACKAGE_BUILDING)
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview
 .endif
 
 EXTRACT_ONLY=	imaze1.3.tar.Z

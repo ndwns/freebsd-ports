@@ -15,8 +15,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib \
-		olgx.3:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview \
+		olgx.3:${PORTSDIR}/x11-toolkits/xview
 
 USE_IMAKE=	yes
 MAN6=		xvmines.6

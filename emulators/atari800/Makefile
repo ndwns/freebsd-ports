@@ -17,7 +17,7 @@ MAINTAINER=	jsutton@webnet.com.au
 
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 .if defined(ATARI) && (${ATARI} == "freebsd-xview")
-LIB_DEPENDS=	xview:${PORTSDIR}/x11-toolkits/xview-lib
+LIB_DEPENDS=	xview:${PORTSDIR}/x11-toolkits/xview
 .endif
 DIST_SUBDIR=	atari
 EXTRA_FILES=	xf25.zip

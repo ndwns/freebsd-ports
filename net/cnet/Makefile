@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.cs.uwa.edu.au/pls/cnet/
 
 MAINTAINER=	ports@FreeBSD.org
 
-LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib \
+LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/cnet-1.4
