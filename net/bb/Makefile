@@ -35,7 +35,7 @@ do-install:
 	@${MKDIR} ${PREFIX}/share/doc/bb
 	@${TOUCH} ${PREFIX}/bb/tmp/.keep_me
 	${INSTALL_SCRIPT} ${WRKSRC}/runbb.sh \
-				${PREFIX}/etc/rc.d
+				${PREFIX}/bb
 	${INSTALL_DATA} ${WRKSRC}/README \
 				${PREFIX}/bb/README
 .for file in	bb-local.sh bb-network.sh bb-page.sh sendmsg
