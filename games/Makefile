@@ -12,6 +12,7 @@
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
+    SUBDIR += empire
     SUBDIR += flying
     SUBDIR += gnuchess
     SUBDIR += gnugo
