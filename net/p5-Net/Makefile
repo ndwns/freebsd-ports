@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-Net
-# Version required:			1.0505
+# Version required:                     1.0602
 # Date created:				September 30th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 #   $Id$
 #
 
-DISTNAME=	libnet-1.0505
-PKGNAME=	p5-Net-1.0505
+DISTNAME=       libnet-1.0602
+PKGNAME=        p5-Net-1.0602
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Net
