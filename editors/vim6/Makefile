@@ -7,14 +7,14 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0x
+DISTNAME=	vim-5.0
 CATEGORIES=	editors
-MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
-		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
-		ftp://ftp.oce.nl/pub/misc/vim/beta-test/unix/  \
-		ftp://ftp.prz.tu-berlin.de/pub/unix/editors/vim/beta-test/unix/  \
-		ftp://ftp.is.co.za/applications/editors/beta-test/vim/  \
-		ftp://ftp.progsoc.uts.edu.au/pub/beta-test/vim/
+MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/unix/ \
+		ftp://ftp.nuxi.com/pub/vim/unix/ \
+		ftp://ftp.oce.nl/pub/misc/vim/unix/  \
+		ftp://ftp.prz.tu-berlin.de/pub/unix/editors/vim/unix/  \
+		ftp://ftp.is.co.za/applications/editors/vim/  \
+		ftp://ftp.progsoc.uts.edu.au/pub/vim/
 
 MAINTAINER=     obrien@FreeBSD.org
 
