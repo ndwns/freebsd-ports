@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.ast.cam.ac.uk/pgperl/
 
 MAINTAINER=	jmz@FreeBSD.org
 
-LIB_DEPENDS=    pgplot\\.5\\.:${PORTSDIR}/graphics/pgplot
+LIB_DEPENDS=    pgplot.5:${PORTSDIR}/graphics/pgplot
 
 USE_PERL5=	yes
 ALL_TARGET=	dynamic
