@@ -22,7 +22,7 @@ USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 DIST_SUBDIR=	ptex
 CONFIGURE_ARGS=	sjis
-WRKSRC=		${.CURDIR}/../ptex-common/work/web2c-7.2/web2c/${DISTNAME}
+WRKSRC=	${WRKDIRPREFIX}${.CURDIR}/../ptex-common/work/web2c-7.2/web2c/${DISTNAME}
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 ALL_TARGET=	default
 

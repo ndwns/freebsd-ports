@@ -14,7 +14,7 @@ MAINTAINER=	jdp@polstra.com
 
 DEPENDS=	${PORTSDIR}/lang/modula-3-lib
 
-WRKSRC=		${PORTSDIR}/lang/modula-3-lib/work
+WRKSRC=		${WRKDIRPREFIX}${PORTSDIR}/lang/modula-3-lib/work
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
 MAN1=		analyze_coverage.1 m3browser.1 m3build.1 \

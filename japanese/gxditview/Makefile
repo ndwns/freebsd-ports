@@ -19,7 +19,7 @@ DISTPATCHES=	950414.01.Z 950414.02.Z
 PATCH_DIST_ARGS?=	-d ${WRKSRC}/.. --forward --quiet -E -p1
 
 USE_IMAKE=	yes
-WRKSRC=${.CURDIR}/work/${DISTNAME}/xditview
+WRKSRC=		${WRKDIRPREFIX}${.CURDIR}/work/${DISTNAME}/xditview
 
 pre-fetch: 
 	@(cd ${DISTDIR}; \
