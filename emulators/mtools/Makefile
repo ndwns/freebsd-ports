@@ -9,10 +9,12 @@
 DISTNAME=	mtools-3.9.1
 PKGNAME=	mtools-3.9.1.3110
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://linux.wauug.org/pub/knaff/mtools/
+MASTER_SITES=	ftp://ftp.tux.org/pub/knaff/mtools/  \
+		http://mtools.linux.lu/
 
 PATCHFILES=	mtools-3.9.1-3110.diff.gz
-PATCH_SITES=	ftp://linux.wauug.org/pub/knaff/mtools/
+PATCH_SITES=	ftp://ftp.tux.org/pub/knaff/mtools/  \
+		http://mtools.linux.lu/
 PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	jmz@FreeBSD.org
