@@ -1,6 +1,7 @@
 # $Id$
 #
     SUBDIR += exodus
+    SUBDIR += gdbm
     SUBDIR += gnats
     SUBDIR += msql
 
