@@ -9,12 +9,12 @@
 DISTNAME=	nvi-1.79
 PKGNAME?=	nvi-perl-1.79
 CATEGORIES=	editors
-MASTER_SITES=	ftp://ftp.bostic.com/pub/ \
+MASTER_SITES=	ftp://sleepy.vwh.net/pub/ \
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
 MAINTAINER=	itojun@itojun.org
 
-BROKEN=		perl upgrade
+BROKEN=		original distribution is incompatible with perl5
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes
