@@ -8,7 +8,8 @@
 
 DISTNAME=	ImageMagick-3.7.7
 CATEGORIES+=	graphics
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/ImageMagick/
+MASTER_SITES=	${MASTER_SITE_XCONTRIB}
+MASTER_SITE_SUBDIR=	applications/ImageMagick
 
 MAINTAINER=	ports@freebsd.org
 
