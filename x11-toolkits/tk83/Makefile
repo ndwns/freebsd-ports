@@ -8,7 +8,7 @@
 
 DISTNAME=	tk8.0
 PKGNAME=	tk-8.0
-CATEGORIES=	x11
+CATEGORIES=	x11 tk80
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
 
 MAINTAINER=	jkh@Freebsd.ORG
