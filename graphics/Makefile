@@ -93,6 +93,7 @@
     SUBDIR += spigot
     SUBDIR += splitmpg
     SUBDIR += stamp
+    SUBDIR += tgd
     SUBDIR += tgif
     SUBDIR += tiff34
     SUBDIR += txtmerge
