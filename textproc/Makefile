@@ -13,6 +13,7 @@
     SUBDIR += mgdiff
     SUBDIR += pilot_makedoc
     SUBDIR += rman
+    SUBDIR += sgmlformat
     SUBDIR += sp
     SUBDIR += unroff
 
