@@ -11,13 +11,13 @@ CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.rxvt.org/pub/rxvt/ \
 		ftp://mason.primenet.com.au/pub/rxvt/ \
 		${MASTER_SITE_SUNSITE}
-
 MASTER_SITE_SUBDIR=	X11/terms
 
 MAINTAINER=	andrews@technologist.com
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=  yes
+CONFIGURE_ARGS=	--enable-utmp --enable-wtmp
 USE_BZIP2=	yes
 MAN1=		rxvt.1
 
