@@ -15,6 +15,8 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
 
+BROKEN=		gtk update
+
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
 
