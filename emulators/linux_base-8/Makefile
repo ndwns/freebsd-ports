@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	linux_lib-2.4
+DISTNAME=	linux_lib-2.5
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
