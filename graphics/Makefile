@@ -9,6 +9,7 @@
     SUBDIR += camediaplay
     SUBDIR += dc3play
     SUBDIR += dore
+    SUBDIR += fli2gif
     SUBDIR += fxtv
     SUBDIR += gd
     SUBDIR += geomview
