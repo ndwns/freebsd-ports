@@ -7,13 +7,13 @@
 #
 
 DISTNAME=       slang0.99-33
-PKGNAME=        libslang-0.99-33
+PKGNAME=        libslang-0.99.33
 CATEGORIES+=	devel
 MASTER_SITES=   ftp://space.mit.edu/pub/davis/slang/
-GNU_CONFIGURE=  yes
 
 MAINTAINER=     ache@FreeBSD.org
 
+GNU_CONFIGURE=  yes
 ALL_TARGET=     all elf
 INSTALL_TARGET= install install-elf
 WRKSRC=         ${WRKDIR}/slang
