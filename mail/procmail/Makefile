@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       procmail-3.10pre5
+DISTNAME=       procmail-3.10
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 IS_INTERACTIVE=	yes
 
