@@ -19,5 +19,6 @@ WRKSRC=		${WRKDIR}/bttv/apps/vbidecode
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/vbidecode ${PREFIX}/bin
+	@strip ${PREFIX}/bin/vbidecode
 
 .include <bsd.port.mk>
