@@ -8,7 +8,10 @@
 
 DISTNAME=	rxvt-2.4.11
 CATEGORIES=	x11
-MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/old/
+MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/old/ \
+		http://wm.current.nu/files/ \
+		ftp://ftp.nstu.ru/pub/sources/x/
+
 
 MAINTAINER=	ports@FreeBSD.ORG
 
