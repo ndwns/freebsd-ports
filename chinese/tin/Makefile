@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       tinpre-1.4-971127
-PKGNAME=        zh-tin-1.4.971127
+DISTNAME=       tinpre-1.4-971204
+PKGNAME=        zh-tin-1.4.971204
 CATEGORIES=	chinese news
 MASTER_SITES=   ftp://nuxi.ucdavis.edu/pub/tin/ \
 		ftp://ftp.akk.uni-karlsruhe.de/pub/tin/ \
@@ -26,7 +26,8 @@ CONFIGURE_ARGS=  --with-nntp-default-server=news  \
 		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
-		 --with-metamail=${PREFIX}/bin/metamail
+		 --with-metamail=${PREFIX}/bin/metamail \
+		 --disable-locale
 MAKEFILE=	makefile
 ALL_TARGET=     build
 MAN1=		tin.1
