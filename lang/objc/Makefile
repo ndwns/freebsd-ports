@@ -15,15 +15,15 @@ MAINTAINER=     chuckr@freebsd.org
 
 HAS_CONFIGURE=	yes
 
-SYSNAME!=	uname -r
+SYSNAME!=	uname -r | /usr/bin/sed -e 's/-.*$$//g'
 
-.if ${SYSNAME} == "3.0-CURRENT"
+.if ${SYSNAME} == "3.0"
 DISTFILES=	objc1.1.12-i386-unknown-freebsd3.0.tar.gz
 WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd3.0
-.elif ${SYSNAME} == "2.2-RELEASE"
+.elif ${SYSNAME} == "2.2"
 DISTFILES=	objc1.1.12-i386-unknown-freebsd2.2.tar.gz
 WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd2.2
-.elif (${SYSNAME} == "2.1.7-RELEASE" || ${SYSNAME} == "2.1.6-RELEASE" || ${SYSNAME} == "2.1.5-RELEASE")
+.elif (${SYSNAME} == "2.1.7" || ${SYSNAME} == "2.1.6" || ${SYSNAME} == "2.1.5")
 DISTFILES=	objc1.1.12-i386-unknown-freebsd2.1.7.tar.gz
 WRKSRC=		$(WRKDIR)/objc1.1.12-i386-unknown-freebsd2.1.7
 .else
