@@ -20,7 +20,9 @@ PATCHFILES =	ftpsearch-1.0.patch1 \
 		ftpsearch-1.0.patch3 \
 		ftpsearch-1.0.patch4 \
 		ftpsearch-1.0.patch5 \
-		ftpsearch-1.0.patch6
+		ftpsearch-1.0.patch6 \
+		ftpsearch-1.0.patch7 \
+		ftpsearch-1.0.patch8
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	FTPSEARCHROOT=${PREFIX}/ftpsearch
