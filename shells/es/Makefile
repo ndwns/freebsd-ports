@@ -6,11 +6,16 @@
 # $Id$
 #
 
-DISTNAME=       es-0.9-alpha1
-PKGNAME=	es-0.9a1
+DISTNAME=       es-0.9-beta1
+PKGNAME=	es-0.9b1
 CATEGORIES=	shells
 MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/es/
 
 MAINTAINER=	erich@FreeBSD.org
+
+GNU_CONFIGURE=	yes
+
+ALL_TARGET=	es
+MAN1=		es.1
 
 .include <bsd.port.mk>
