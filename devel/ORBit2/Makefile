@@ -14,8 +14,6 @@ MAINTAINER=	clkao@CirX.ORG
 
 LIB_DEPENDS=	glib11\\.0\\.:${PORTSDIR}/devel/glib
 
-BROKEN=		patch
-
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
