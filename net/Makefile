@@ -159,6 +159,7 @@
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
     SUBDIR += xchat
+    SUBDIR += xgirc
     SUBDIR += xicq
     SUBDIR += xipmsg
     SUBDIR += yagirc
