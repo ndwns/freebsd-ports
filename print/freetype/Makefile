@@ -20,5 +20,6 @@ GNU_CONFIGURE=	YES
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tools/ttf2bdf/ttf2bdf ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/lib/libttf.a ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/lib/*.h ${PREFIX}/include
 	${LDCONFIG} -m ${PREFIX}/lib
 .include <bsd.port.mk>
