@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	majorcool-1.20
-PKGNAME=	majorcool-1.2.0
+DISTNAME=	majorcool-1.30
+PKGNAME=	majorcool-1.3.0
 CATEGORIES=	mail
 MASTER_SITES=	http://ncrinfo.ncr.com/pub/contrib/unix/MajorCool/
 
