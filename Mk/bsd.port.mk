@@ -416,6 +416,26 @@ ${INSTALL_COOKIE}:
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 .endif
 
+# package-name and package-depends are internal targets and really
+# shouldn't be touched by anybody but the release engineers.
+
+# Nobody should want to override this unless PKGNAME is simply bogus.
+.if !target(package-name)
+package-name:
+.if !defined(NO_PACKAGE)
+	@echo ${PKGNAME}
+.endif
+.endif
+
+# Show (recursively) all the packages this package depends on.
+.if !target(package-depends)
+package-depends:
+	@for i in ${EXEC_DEPENDS} ${LIB_DEPENDS}; do \
+		dir=`echo $$i | sed -e 's/.*://'`; \
+		(cd $$dir ; ${MAKE} package-name package-depends); \
+	done
+.endif
+
 .if !target(pre-package)
 pre-package:
 	@${DO_NADA}
