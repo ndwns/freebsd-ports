@@ -15,5 +15,6 @@ EXTRACT_SUFX=	..tar.Z
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		hexcalc.1
 
 .include <bsd.port.mk>
