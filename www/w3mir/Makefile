@@ -20,8 +20,9 @@ USE_PERL5=	Yes
 MAN1=           w3mir.1 w3mfix.1
 
 do-configure:
-		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
-
+		@ cd ${WRKSRC}; \
+		${SETENV} ${MAKE_ENV} ${PERL} Makefile.PL PREFIX=${PREFIX} \
+				     INSTALLMAN1DIR=${PREFIX}/man/man1
 post-install:
 		${INSTALL} -d -o ${SHAREOWN} -g ${SHAREGRP} -m 755 \
 			${PREFIX}/share/doc/w3mir
