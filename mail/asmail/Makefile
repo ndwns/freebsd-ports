@@ -29,6 +29,8 @@ PIXMAPS=	e/e-no.xpm e/e0.xpm e/e1.xpm e/e10.xpm e/e11.xpm e/e2.xpm \
 		std/newmail_s.xpm std/nomail.xpm std/nomail_s.xpm \
 		std/oldmail.xpm std/oldmail_s.xpm
 
+MAN1=		asmail.1
+
 post-install:
 .for pixmap in ${PIXMAPS}
 	${INSTALL_DATA} ${WRKSRC}/pixmaps/${pixmap} ${PREFIX}/include/X11/pixmaps
