@@ -1,15 +1,15 @@
 # New ports collection makefile for:    objc compiler
-# Version required:     1.8.17
-# Date created:         14 May 1998
+# Version required:     1.8.18
+# Date created:         16 May 1998
 # Whom:                 chuckr@freebsd.org
 #
 # $Id$
 #
 
-DISTNAME=       objc-1.8.17
+DISTNAME=       objc-1.8.18
 CATEGORIES=     lang
 MASTER_SITES=   http://www.can.nl/~stes/Software/
-DISTFILES=	objc-1.8.17.tar.gz bootstrap-1.8.17.tar.gz
+DISTFILES=	objc-1.8.18.tar.gz bootstrap-1.8.17.tar.gz
 
 MAINTAINER=     chuckr@freebsd.org
 
@@ -29,7 +29,7 @@ CONFIGURE_ENV=	PATH=$(WRKDIR)/bootstrap/bin:$(PATH)
 CONFIGURE_ARGS=	--prefix=$(PREFIX) --gcprefix=$(PREFIX)
 
 pre-configure:
-	(cd $(WRKDIR)/bootstrap;configure --prefix=$(WRKDIR)/bootstrap --gcprefix=$(PREFIX);$(MKDIR) $(WRKDIR)/bootstrap/bin;make default install)
+	(cd $(WRKDIR)/bootstrap;./configure --prefix=$(WRKDIR)/bootstrap --gcprefix=$(PREFIX);$(MKDIR) $(WRKDIR)/bootstrap/bin;make default install)
 
 post-build:
 	(cd $(WRKSRC); env PATH=$(WRKDIR)/bootstrap/bin:$(PATH) OBJCDIR=$(WRKSRC) ./moreLibs -boehm)
