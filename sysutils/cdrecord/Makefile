@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	cdrecord-1.6
+DISTNAME=	cdrecord-1.6.1a4
+PKGNAME=	cdrecord-1.6
 CATEGORIES=	sysutils
-MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/
+MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
 
 MAINTAINER=	jmz@FreeBSD.org
 
@@ -16,7 +17,7 @@ RUN_DEPENDS=	mkisofs:${PORTSDIR}/sysutils/mkisofs
 
 MAN1=		cdrecord.1
 USE_GMAKE=	yes
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/cdrecord-1.6.1
 
 do-build:
 	@cd ${WRKSRC}/lib && ../Gmake
