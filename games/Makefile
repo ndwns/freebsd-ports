@@ -34,6 +34,7 @@
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xrisk
+    SUBDIR += xrubik
     SUBDIR += xroach
     SUBDIR += xrobots
     SUBDIR += xskat
