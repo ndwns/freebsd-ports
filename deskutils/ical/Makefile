@@ -20,4 +20,7 @@ CONFIGURE_ARGS=	--with-tclsh=/usr/bin/tclsh \
 		--with-tkconfig=${PREFIX}/lib
 MAN1=		ical.1
 
+post-install:
+	@strip ${PREFIX}/bin/${DISTNAME}
+
 .include <bsd.port.mk>
