@@ -30,16 +30,13 @@ do-configure:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mnews ${PREFIX}/bin
-	if [ ! -d ${PREFIX}/lib/mnews ]	;				\
-	  then ${MKDIR} -p ${PREFIX}/lib/mnews ; fi
+	${MKDIR} -p ${PREFIX}/lib/mnews
 	${INSTALL_DATA} ${WRKSRC}/jnames.fj ${PREFIX}/lib/mnews/jnames
-	if [ ! -d ${PREFIX}/share/doc/mnews ] ;				\
-	  then ${MKDIR} -p ${PREFIX}/share/doc/mnews; fi
+	${MKDIR} -p ${PREFIX}/share/doc/mnews
 .for f in ${DOCS}
 	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/doc/mnews
 .endfor
-	if [ ! -d ${PREFIX}/share/examples/mnews ] ;			\
-	  then ${MKDIR} -p ${PREFIX}/share/examples/mnews; fi
+	${MKDIR} -p ${PREFIX}/share/examples/mnews
 .for f in ${SAMPLES}
 	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/examples/mnews
 .endfor
