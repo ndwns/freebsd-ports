@@ -28,5 +28,6 @@
     SUBDIR += team
     SUBDIR += tkinfo
     SUBDIR += tkman
+    SUBDIR += trans
 
 .include <bsd.port.subdir.mk>
