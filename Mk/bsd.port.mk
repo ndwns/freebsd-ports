@@ -249,6 +249,10 @@ is_depended:	all install
 .if defined(NO_EXTRACT) && !target(extract)
 extract:
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
+check-md5:
+	@${DO_NADA}
+make-md5:
+	@${DO_NADA}
 .endif
 .if defined(NO_CONFIGURE) && !target(configure)
 configure:
