@@ -63,6 +63,7 @@
     SUBDIR += qvwm
     SUBDIR += rclock
     SUBDIR += rxvt
+    SUBDIR += sharefonts
     SUBDIR += sliderule
     SUBDIR += slingshot
     SUBDIR += swisswatch
