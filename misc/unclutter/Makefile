@@ -10,6 +10,7 @@ DISTNAME=	unclutter-8
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	shanee@rabbit.augusta.de
 
