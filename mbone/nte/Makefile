@@ -20,16 +20,6 @@ RESTRICTED=	"Contains DES encryption"
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 
+MAKE_ENV=	LOCALBASE="${LOCALBASE}"
+
 .include <bsd.port.mk>
-
-#DISGUSTING HACK ALERT
-#Although nte includes an hsearch.c for those who don't have it in
-# libc, there's no way to get the default Makefile to build it.
-# So we build it here.
-#This is below the .include <bsd.port.mk> since variable names in
-# targets or dependencies are evaluated when they are read so
-# bsd.port.mk must have defined ${WRKSRC} already.
-pre-build:	${WRKSRC}/freebsd/hsearch.o
-
-${WRKSRC}/freebsd/hsearch.o:	${WRKSRC}/src/hsearch.c
-		${CC} -I${WRKSRC}/src ${CFLAGS} -c -o $@ ${WRKSRC}/src/hsearch.c
