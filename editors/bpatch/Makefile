@@ -5,10 +5,6 @@
 #
 # $Id$
 #
-# Note:
-# The file lacks any redistribution notice, but I know that it has
-# been posted to comp.sources.unix ages ago, and the README mentions
-# the word "public domain". -- Jörg
 
 DISTNAME=	bpatch
 PKGNAME=	bpatch-1.0
