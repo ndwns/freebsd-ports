@@ -27,6 +27,7 @@
     SUBDIR += nfbtrans
     SUBDIR += p5-XML-Parser
     SUBDIR += par
+    SUBDIR += prag
     SUBDIR += rman
     SUBDIR += sgmlformat
     SUBDIR += sgrep
