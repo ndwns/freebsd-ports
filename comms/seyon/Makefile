@@ -16,5 +16,6 @@ MAINTAINER=	me@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/seyon
 USE_IMAKE=	yes
+BROKEN=		Installs file in ${HOME}/.seyon
 
 .include <bsd.port.mk>
