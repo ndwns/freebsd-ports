@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       xrus_bin
+DISTNAME=       xrus-1.0-bin
 PKGNAME=        ru-X11-3.1.2
 CATEGORIES+=    russian x11
 MASTER_SITES=   ftp://ftp.kiae.su/misc/fonts/cyrillic/xwindows/
