@@ -1,12 +1,12 @@
 # New ports collection makefile for:   slrn
-# Version required:    0.9.5.3
+# Version required:    0.9.5.7
 # Date created:        28 March 1997
 # Whom:                Carey Jones <mcj@acquiesce.org>
 #
 # $Id$
 #
 
-DISTNAME=	slrn-0.9.5.6
+DISTNAME=	slrn-0.9.5.7
 CATEGORIES=	news
 MASTER_SITES=	ftp://space.mit.edu/pub/davis/slrn/
 
@@ -14,6 +14,7 @@ MAINTAINER=	xaa@xaa.iae.nl
 
 LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 
+USE_BZIP2=	yes
 GNU_CONFIGURE=	yes
 ALL_TARGET=	all slrnpull
 MAN1=		slrn.1
