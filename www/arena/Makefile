@@ -18,6 +18,7 @@ LIB_DEPENDS+=   png.3:${PORTSDIR}/graphics/png
 
 BROKEN=		png upgrade
 
+USE_XLIB=	yes
 WRKSRC=         ${WRKDIR}/WWW
 
 do-build:
