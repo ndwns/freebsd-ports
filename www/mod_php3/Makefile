@@ -87,7 +87,8 @@ CFLAGS+=	-O6 -funroll-loops -fstrength-reduce -fomit-frame-pointer \
 .endif
 
 CONFIGURE_ENV=	OPTIM='${OPTIM}' LIBS='-L${PREFIX}/lib'
-SCRIPTS_ENV=	WRKDIRPREFIX="${WRKDIRPREFIX}"
+SCRIPTS_ENV=	WRKDIRPREFIX="${WRKDIRPREFIX}" \
+		TOUCH="${TOUCH}"
 
 INSTALL_TARGET=	install-quiet
 
@@ -103,12 +104,11 @@ PHP_CONF_ARGS=	--prefix=${PREFIX} \
 		--with-apache=${WRKSRC} \
 		--with-config-file-path=${PREFIX}/etc \
 		--disable-debug \
-		--enable-track-vars
+		--enable-track-vars \
+		--without-gd
 
-.if !defined(BATCH)
 pre-fetch:
 	@${SETENV} ${SCRIPTS_ENV} ${SH} ${SCRIPTDIR}/configure.php
-.endif
 
 post-extract:
 	@${LN} -s php-${VERSION_PHP} ${WRKDIR}/php
