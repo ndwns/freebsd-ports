@@ -6,7 +6,7 @@
 #	$Id$
 #
 
-DISTNAME=	mrtg-2.7.2
+DISTNAME=	mrtg-2.8.6
 CATEGORIES=	net
 MASTER_SITES=	http://ee-staff.ethz.ch/~oetiker/webtools/mrtg/pub/
 
