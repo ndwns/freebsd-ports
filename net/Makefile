@@ -109,5 +109,6 @@
     SUBDIR += ytalk
     SUBDIR += zephyr
     SUBDIR += zircon
+    SUBDIR += ztelnet
 
 .include <bsd.port.subdir.mk>

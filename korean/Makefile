@@ -29,6 +29,5 @@
     SUBDIR += pine
     SUBDIR += pinetreefonts
     SUBDIR += vim
-    SUBDIR += ztelnet
 
 .include <bsd.port.subdir.mk>
