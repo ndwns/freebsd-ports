@@ -14,9 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rvb@cs.cmu.edu
 
-#NO_DEPENDS=
-#NO_CONFIGURE=
-
 do-build:
 	@${ECHO} "These are simple text files.  We are copying them to share/doc/coda-doc-.../info"
 

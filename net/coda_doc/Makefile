@@ -14,9 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rvb@cs.cmu.edu
 
-#NO_DEPENDS=
-#NO_CONFIGURE=
-
 do-build:
 	@${ECHO} "At present, Coda documentation is distributed in html, man, ps, and ppt forms"
 	@${ECHO} "but documentation source is not available.  It should appear in a release"
