@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	amanda-2.4.0-980222
-PKGNAME=	amanda-2.4.0.980222
+DISTNAME=	amanda-2.4.0-980319
+PKGNAME=	amanda-2.4.0.980319
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.amanda.org/pub/amanda/
 
