@@ -25,6 +25,27 @@ ALL_TARGET=	World
 INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
+.if defined(XDM_DES) && (${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO)
+pre-fetch:
+	@${ECHO}
+	@${ECHO} You must set variable USA_RESIDENT to YES or NO.
+	@false
+.elif defined(USA_RESIDENT)
+.if ${USA_RESIDENT} == NO
+pre-fetch:
+MASTER_SITES+=	ftp://psych.psy.uq.oz.au/pub/X11R5/ \
+		ftp://ftp.internat.freebsd.org/pub/FreeBSD/X11-Crypto/ \
+		ftp://ftp3.za.freebsd.org/pub/FreeBSD/X11-Crypto/
+DISTFILES+=	Wraphelp.c
+IGNOREFILES=	Wraphelp.c
+.endif
+.if ${USA_RESIDENT} == YES
+pre-fetch:
+	@${ECHO}
+	@${ECHO} Assuming that you have fetched a USA-Legal Wraphelp.c.
+.endif
+.endif
+
 pre-install:
 	${MKDIR} /usr/X11R6
 post-install:
