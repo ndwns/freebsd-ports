@@ -20,7 +20,7 @@ post-extract:
 	@${CP} ${FILESDIR}/o2 ${WRKSRC}
 
 post-patch:
-	@/usr/bin/perl -pi -e "s|@PREFIX@|${PREFIX}|g;" ${WRKSRC}/system/o2c.red.template
+	@/usr/bin/perl -pi -e "s|\@PREFIX\@|${PREFIX}|g;" ${WRKSRC}/system/o2c.red.template
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/system/o2c.red.template ${PREFIX}/lib/o2c-1.16
