@@ -15,8 +15,8 @@ DISTFILES=	${GS_SOURCES} ${GS_FONTS_STD} ${GS_FONTS_OTHER} \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg \
-		/nonexistent:${PORTSDIR}/graphics/png \
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg:extract \
+		/nonexistent:${PORTSDIR}/graphics/png:extract \
 		unzip:${PORTSDIR}/archivers/unzip
 
 MAKE_ENV=	PORTSDIR=${PORTSDIR}
