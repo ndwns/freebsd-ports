@@ -42,4 +42,7 @@ do-fetch:
 	fi
 .endif
 
+pre-clean:
+	-rm -rf ${.CURDIR}/src
+
 .include <bsd.port.mk>
