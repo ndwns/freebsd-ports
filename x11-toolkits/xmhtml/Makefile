@@ -17,6 +17,9 @@ PATCHFILES=	patch-102697.gz
 
 MAINTAINER=	thepish@freebsd.org
 
+LIB_DEPENDS=    png.3:${PORTSDIR}/graphics/png \
+		jpeg.9:${PORTSDIR}/graphics/jpeg
+
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
 
