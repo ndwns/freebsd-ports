@@ -10,7 +10,7 @@ DISTNAME=	mailagent-3.0pl54
 PKGNAME=	mailagent-3.0.54
 CATEGORIES=	mail
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/ \
-		ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS
+		ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	max@FreeBSD.ORG
 
