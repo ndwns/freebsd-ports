@@ -51,6 +51,7 @@
     SUBDIR += xbloody
     SUBDIR += xboard
     SUBDIR += xboing
+    SUBDIR += xbomb
     SUBDIR += xchomp
     SUBDIR += xcubes
     SUBDIR += xdeblock
