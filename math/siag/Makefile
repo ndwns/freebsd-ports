@@ -13,8 +13,6 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tsiag-2.80.tar.gz
 
 MAINTAINER=	ports@freebsd.org
 
-BROKEN=		build
-
 LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
 USE_X_PREFIX=	yes
