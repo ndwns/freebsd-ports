@@ -12,17 +12,10 @@ MASTER_SITES=	http://www.oz.net/~mattg/
 
 MAINTAINER=	billf@FreeBSD.org
 
-LIB_DEPENDS=	gtk.1.6:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
-USE_GMAKE=	yes
-ALL_TARGET=
+ALL_TARGET=	gtkfind
 
 MAN1=		gtkfind.1
-
-post-patch:
-
-	${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.pre_sed
-	${CAT} ${WRKSRC}/Makefile.pre_sed | \
-	${SED} -e 's#/usr/local#${PREFIX}#g' >> ${WRKSRC}/Makefile
 
 .include <bsd.port.mk>
