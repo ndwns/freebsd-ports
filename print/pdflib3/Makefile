@@ -17,6 +17,7 @@ RUN_DEPENDS=	${PREFIX}/lib/afm/Courier:${PORTSDIR}/print/afm
 LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff34 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
+FETCH_BEFORE_ARGS=	-b
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-perl5=${PERL} \
 		--with-tiff=${PREFIX} \
