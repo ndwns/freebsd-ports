@@ -17,7 +17,7 @@ MAINTAINER=	sada@e-mail.ne.jp
 
 DIST_SUBDIR=	${PKGNAME}
 NO_BUILD=	yes
-RESTRICTED=	Redistribution is forbidden.
+RESTRICTED=	Redistribution is forbidden
 
 INSTALL_DIR=	${PREFIX}/vje
 DOC_DIR=	${PREFIX}/share/doc/${PKGNAME}
