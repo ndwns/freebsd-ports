@@ -9,5 +9,6 @@
 DISTNAME=	xpm-3.4d
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
+XMKMF=		xmkmf
 
 .include <bsd.port.mk>
