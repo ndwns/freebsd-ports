@@ -18,6 +18,8 @@ MAINTAINER=	keith@email.gcn.net.tw
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 
+BROKEN=		patching during install
+
 USE_GMAKE=	yes
 WRKSRC=		${WRKDIR}/CJK
 
