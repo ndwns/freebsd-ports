@@ -15,6 +15,6 @@ USE_IMAKE=	yes
 DEPENDS=	x11/xpm
 
 pre-install:
-	@cp ${FILESDIR}/configure2.h ${WRKSRC}
+	@cp ${FILESDIR}/configure2.h ${WRKSRC}/configure.h
 
 .include <bsd.port.mk>
