@@ -76,6 +76,8 @@
     SUBDIR += p5-Penguin
     SUBDIR += p5-Penguin-Easy
     SUBDIR += p5-Proc-Simple
+    SUBDIR += p5-ReadLine-Gnu
+    SUBDIR += p5-ReadLine-Perl
     SUBDIR += p5-Religion
     SUBDIR += p5-Resources
     SUBDIR += p5-Sort-Versions
