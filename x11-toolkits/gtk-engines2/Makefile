@@ -8,8 +8,7 @@
 
 DISTNAME=	gtk-engines-0.1
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	ftp://freebsd.csie.nctu.edu.tw/Upload/  \
-		${MASTER_SITE_GNOME}
+MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	gtk-engines
 
 MAINTAINER=	vanilla@FreeBSD.ORG
