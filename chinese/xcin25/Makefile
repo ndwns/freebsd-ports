@@ -9,14 +9,13 @@
 DISTNAME=       xcin-2.3.02
 PKGNAME=        zh-xcin-2.3.02
 CATEGORIES=	chinese x11
-MASTER_SITES=   ftp://ftp.ncu.edu.tw/OS/linux/chinese/xcin/ \
+MASTER_SITES=	http://www.freebsd.org/~vanilla/ \
+		ftp://ftp.ncu.edu.tw/OS/linux/chinese/xcin/ \
 		ftp://linux.cis.nctu.edu.tw/packages/chinese/xcin/
 
 MAINTAINER=     yssu@CCCA.NCTU.edu.tw
 
 RUN_DEPENDS=	${X11BASE}/lib/X11/fonts/chinese/kc15f.pcf.gz:${PORTSDIR}/chinese/kcfonts
-
-BROKEN=		fetch
 
 USE_X11=	yes
 HAS_CONFIGURE=	yes
