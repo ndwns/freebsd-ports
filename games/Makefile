@@ -140,6 +140,7 @@
     SUBDIR += xsoldier
     SUBDIR += xspacewarp
     SUBDIR += xspringies
+    SUBDIR += xteddy
     SUBDIR += xtic
     SUBDIR += xtriangles
     SUBDIR += xtris
