@@ -18,6 +18,7 @@
     SUBDIR += metamail
     SUBDIR += mew
     SUBDIR += mh
+    SUBDIR += mmr
     SUBDIR += movemail
     SUBDIR += mutt
     SUBDIR += mutt.with_pgp
