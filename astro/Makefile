@@ -10,6 +10,7 @@
     SUBDIR += sunclock
     SUBDIR += xearth
     SUBDIR += xephem
+    SUBDIR += xglobe
     SUBDIR += xphoon
     SUBDIR += xtide
 
