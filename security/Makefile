@@ -8,6 +8,7 @@
     SUBDIR += donkey
     SUBDIR += fwtk
     SUBDIR += libident
+    SUBDIR += p5-Authen-Radius
     SUBDIR += p5-Crypt-DES
     SUBDIR += p5-Crypt-IDEA
     SUBDIR += p5-MD5
