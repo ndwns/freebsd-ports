@@ -15,7 +15,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=  /nonexistent:${PORTSDIR}/lang/tcl80:build \
 		/nonexistent:${PORTSDIR}/x11/tk80:build
-RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4
+RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 
 NO_PACKAGE=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
