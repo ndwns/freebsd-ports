@@ -14,7 +14,7 @@ MAINTAINER=	nacai@iname.com
 
 CC=		gcc28
 CXX=		g++28
-BUILD_DEPENDS=	${LOCALBASE}/i386-unknown-freebsd${OSREL}/lib/libiberty.a:${PORTSDIR}/lang/glibstdc++28
+BUILD_DEPENDS=	${LOCALBASE}/i386-portbld-freebsd${OSREL}/lib/libiberty.a:${PORTSDIR}/lang/glibstdc++28
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
