@@ -67,6 +67,7 @@
     SUBDIR += hesiod
     SUBDIR += icb
     SUBDIR += icmpinfo
+    SUBDIR += icmpquery
     SUBDIR += ipw
     SUBDIR += irc
     SUBDIR += ircII
