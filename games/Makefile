@@ -28,6 +28,7 @@
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
+    SUBDIR += doomsrc
     SUBDIR += empire
     SUBDIR += fkiss
     SUBDIR += flying
