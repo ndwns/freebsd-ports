@@ -17,6 +17,7 @@ MAINTAINER=	ibex@physik.TU-Berlin.DE
 
 BROKEN_ELF=	build
 
+MANUAL_PACKAGE_BUILD=	incompatible with mysql321
 NO_LATEST_LINK=	yes
 MAN1=		mysql.1
 
