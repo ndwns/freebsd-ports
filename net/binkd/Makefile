@@ -12,16 +12,11 @@ CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.sut.ru/pub/FidoNet/BinkD/092/ \
 			ftp://ftp.aanet.ru/pub/Linux/system/Fido/ \
 			http://www.corbina.net/~maloff/binkd/
-EXTRACT_SUFX=		.zip
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-BUILD_DEPENDS=		unzip:${PORTSDIR}/archivers/unzip
-
 WRKSRC=			${WRKDIR}/${PKGNAME}
-EXTRACT_CMD=		unzip
-EXTRACT_BEFORE_ARGS=	# empty
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=		yes
 GNU_CONFIGURE=		yes
 MAN8=			binkd.8
 
