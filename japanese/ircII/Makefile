@@ -23,7 +23,7 @@ GNU_CONFIGURE=	yes
 
 post-install:
 	cp -R ${WRKDIR}/help ${PREFIX}/lib/irc/
-	install -c ${WRKSRC}/doc/ircII.1 ${PREFIX}/man/man1/irc.1
+	${INSTALL_MAN} ${WRKSRC}/doc/ircII.1 ${PREFIX}/man/man1/irc.1
 .if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/irc.1
 .endif
