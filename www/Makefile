@@ -12,6 +12,7 @@
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
     SUBDIR += aswedit
+    SUBDIR += cgihtml
     SUBDIR += cgiparse
     SUBDIR += checkbot
     SUBDIR += chimera
