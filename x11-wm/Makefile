@@ -11,6 +11,7 @@
     SUBDIR += fvwm
     SUBDIR += fvwm2
     SUBDIR += fvwm95
+    SUBDIR += fvwm95-i18n
     SUBDIR += gwm
     SUBDIR += icewm
     SUBDIR += iconmaker
