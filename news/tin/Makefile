@@ -20,7 +20,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME:S/tin1.3-unoff-BETA-//}
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+= --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
-		 --with-libdir=${PREFIX}/lib/news \
+		 --with-libdir=${PREFIX}/news/lib \
 		 --with-mime-default-charset=US-ASCII \
 		 --enable-forgery \
 		 --with-pgp=${PREFIX}/bin/pgp \
