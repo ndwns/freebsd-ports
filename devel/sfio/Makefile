@@ -18,6 +18,8 @@ NO_WRKSUBDIR=	yes
 IS_INTERACTIVE=	yes
 MAN3=		sfio.3 sfdisc.3
 
+RESTRICTED=	Requires user to register with AT&T.
+
 do-fetch:
 	@if [ ! -f ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ]; then \
 	  ${ECHO} ""; \
