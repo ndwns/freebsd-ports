@@ -27,6 +27,7 @@
     SUBDIR += lesstif
     SUBDIR += libsx
     SUBDIR += lupe
+    SUBDIR += neXtaw
     SUBDIR += olvwm
     SUBDIR += p5-Tk400
     SUBDIR += piewm
