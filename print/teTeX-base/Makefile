@@ -1,7 +1,7 @@
 # New ports collection makefile for:	teTeX
 # Version required:	0.4
 # Date created:		5 December 1996
-# Whom:			Bernd Rosauer <br@schiele-ct.de>
+# Whom:			Bernd Rosauer <br@netland.inka.de>
 #
 # $Id$
 #
