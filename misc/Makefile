@@ -29,6 +29,7 @@
     SUBDIR += korganizer
     SUBDIR += kp
     SUBDIR += kproject
+    SUBDIR += kwatch
     SUBDIR += less
     SUBDIR += lile
     SUBDIR += logsurfer
