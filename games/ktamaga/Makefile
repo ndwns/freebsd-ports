@@ -8,7 +8,8 @@
 
 DISTNAME=	ktamaga-0.2
 CATEGORIES=	games kde
-MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/apps/games/
+MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/unstable/apps/games/ \
+		ftp://ftp.kde.org/pub/kde/unstable/apps/games/
 
 MAINTAINER=	se@freebsd.org
 
