@@ -38,6 +38,9 @@ LIB_DEPENDS=	ncurses.4:${PORTSDIR}/devel/ncurses
 .elif defined(USE_SLANG)
 LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 .endif
+.if defined(PACKAGE_BUILDING)
+RUN_DEPENDS+=	urlview:${PORTSDIR}/textproc/urlview
+.endif
 
 DIST_SUBDIR=	mutt
 PATCH_DIST_STRIP=	-p1
