@@ -8,7 +8,8 @@
 
 DISTNAME=	blackbox-0.50.0
 CATEGORIES=	x11-wm
-MASTER_SITES=	ftp://balance.wiw.org/pub/blackbox/
+MASTER_SITES=	ftp://balance.wiw.org/pub/blackbox/ \
+		ftp://ftp.aist.com.ua/pub/unix/window_managers/blackbox/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
