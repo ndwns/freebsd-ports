@@ -14,6 +14,7 @@
    SUBDIR += octave
    SUBDIR += oleo
    SUBDIR += xgraph
+   SUBDIR += xlispstat
    SUBDIR += xspread
 
 .include <bsd.port.subdir.mk>
