@@ -8,7 +8,7 @@
 
 DISTNAME=	nte-1.5a29
 CATEGORIES=	mbone tk80
-MASTER_SITES=	ftp://cs.ucl.ac.uk/mice/nte/1.5a29/
+MASTER_SITES=	http://www-mice.cs.ucl.ac.uk/multimedia/software/nte/1.5a29/
 
 MAINTAINER=	fenner@FreeBSD.org
 
