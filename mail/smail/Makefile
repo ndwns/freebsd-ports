@@ -12,9 +12,9 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-#.if defined(USE_IDENT)
-#DEPENDS=	${PORTSDIR}/security/libident
-#.endif
+.if defined(USE_IDENT)
+DEPENDS=	${PORTSDIR}/security/libident
+.endif
 
 INSTALL_TARGET=	install installman
 
