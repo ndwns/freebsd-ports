@@ -16,6 +16,8 @@ MAINTAINER=	xaa@stack.nl
 
 RUN_DEPENDS=	${PREFIX}/share/java/classes.zip:${PORTSDIR}/lang/jdk
 
+BROKEN=		not compatible with latest jdk port
+
 GNU_CONFIGURE=	yes
 MAN1=		kaffe.1
 
