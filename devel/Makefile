@@ -32,6 +32,7 @@
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gdbtk
+    SUBDIR += gide
     SUBDIR += gindent
     SUBDIR += glade
     SUBDIR += glib
