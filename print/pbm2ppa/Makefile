@@ -33,7 +33,7 @@ pre-configure:
 .endif
 .if !defined(PAPERSIZE)
 	@${ECHO}
-	@${ECHO} "No PAPERSIZE environment variable found, will default to enscript-A4"
+	@${ECHO} "No PAPERSIZE environment variable found, will default to enscript-letter"
 	@${ECHO}
 .endif
 
