@@ -10,6 +10,8 @@ DISTNAME=	communicator-v45-export.x86-unknown-freebsd
 PKGNAME=	netscape-communicator-4.5
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.netscape.com/pub/communicator/4.5/english/unix/unsupported/freebsd/complete_install/
+# DISTFILES must be set to begin with so USE_128BIT can add on to it.
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	thepish@FreeBSD.ORG
 
