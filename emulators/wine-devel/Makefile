@@ -13,7 +13,7 @@ CATEGORIES+=	emulation x11
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/ALPHA/wine/ \
 		ftp://aris.com/pub/linux/ALPHA/Wine/development/ \
 		ftp://tsx-11.mit.edu/pub/linux/ALPHA/Wine/development/ \
-		ftp://ftp.funet.fi/pub/OS/Linux/ALPHA/Wine/ \
+		ftp://ftp.dfv.rwth-aachen.de/pub/linux/sunsite/ALPHA/wine/ \
 		ftp://ftp.infomagic.com/pub/mirrors/linux/wine/development/
 
 MAINTAINER=	se@FreeBSD.ORG
