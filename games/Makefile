@@ -42,6 +42,7 @@
     SUBDIR += flightgear
     SUBDIR += flying
     SUBDIR += freeciv
+    SUBDIR += freesweep
     SUBDIR += frotz
     SUBDIR += galaxis
     SUBDIR += garith
