@@ -4,6 +4,7 @@
     SUBDIR += elm
     SUBDIR += exim
     SUBDIR += exmh
+    SUBDIR += fetchmail
     SUBDIR += mailagent
     SUBDIR += majordomo
     SUBDIR += metamail
