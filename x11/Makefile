@@ -62,6 +62,7 @@
     SUBDIR += xkeycaps
     SUBDIR += xloadimage
     SUBDIR += xlockmore
+    SUBDIR += xlogout
     SUBDIR += xmascot
     SUBDIR += xmold
     SUBDIR += xmove
