@@ -10,6 +10,7 @@
     SUBDIR += ghostscript
     SUBDIR += ghostscript3
     SUBDIR += ghostview
+    SUBDIR += html2latex
     SUBDIR += latex
     SUBDIR += latex209
     SUBDIR += makeindex
