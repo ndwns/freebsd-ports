@@ -1,5 +1,5 @@
---- lib/Makefile.orig	Tue Jun 29 15:06:42 2004
-+++ lib/Makefile	Mon Jul  5 20:14:05 2004
+--- lib/Makefile.orig	Wed Jul 28 03:19:15 2004
++++ lib/Makefile	Mon Aug  2 16:37:51 2004
 @@ -1,13 +1,17 @@
  # $FreeBSD$
  
@@ -12,7 +12,7 @@
  
  CFLAGS+= ${DEBUG}
  
- WARNS?=	6
+ WARNS?=	3
  WFORMAT?=	1
 +
 +install:
