@@ -9,7 +9,7 @@
 # $Id$
 
 APACHE= 	1.3.6
-APACHE-SSL=	1.32
+APACHE-SSL=	1.35
 
 DISTNAME=       apache_${APACHE}
 PKGNAME=        apache-${APACHE}+ssl_${APACHE-SSL}
@@ -45,6 +45,7 @@ BUILD_DEPENDS=	${PREFIX}/lib/libcrypto.a:${PORTSDIR}/security/openssl \
 RUN_DEPENDS=	openssl:${PORTSDIR}/security/openssl
 
 HAS_CONFIGURE=	yes
+CFLAGS+=	-I${PREFIX}/include/openssl
 CONFIGURE_ARGS=	\
 		--prefix=${PREFIX} \
 		--with-layout=GNU \
