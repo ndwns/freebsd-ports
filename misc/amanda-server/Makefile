@@ -15,6 +15,8 @@ MAINTAINER=	cwt@FreeBSD.ORG
 BUILD_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
+BROKEN=		gtk11.m4
+
 WRKSRC=		${WRKDIR}/amanda-2.4.0p1
 NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
