@@ -11,9 +11,9 @@ PKGNAME=        http-analyze-1.9
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.rent-a-guru.de/pub/
 
-BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
-
 MAINTAINER=	andreas@FreeBSD.ORG
+
+BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 
 MAN1=		http-analyze.1
 
