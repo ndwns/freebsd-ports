@@ -13,7 +13,7 @@ DISTFILES=	mei153s.tgz mei153d.tgz
 
 MAINTAINER=	itojun@itojun.org
 
-BUILD_DEPENDS=	nkf:${PORTSDIR}/nkf
+BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 
 MAN1=	mei.1 moe.1
 MANLANG=	"" ja_JP.EUC
