@@ -20,7 +20,7 @@ USE_IMAKE=	yes
 #  we have the cookie anyway and it's much easier this way
 #  than modifying the Imakefile.
 post-build:
-	cd ${WRKSRC}; gcc -o xxgdbiowin -m486 -O2 xxgdbiowin.c
+	cd ${WRKSRC}; gcc -o xxgdbiowin -O2 xxgdbiowin.c
 
 post-install:
 	install -c -s ${WRKSRC}/xxgdbiowin ${PREFIX}/bin
