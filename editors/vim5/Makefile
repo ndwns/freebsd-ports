@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	vim-5.0r
+DISTNAME=	vim-5.0s
 CATEGORIES=	editors
 MASTER_SITES=	ftp://nuxi.ucdavis.edu/pub/vim/beta-test/unix/ \
 		ftp://ftp.nuxi.com/pub/vim/beta-test/unix/ \
@@ -37,6 +37,5 @@ post-install:
 	[ -e ${PREFIX}/bin/gvim ] || /bin/ln -s ${PREFIX}/bin/vim ${PREFIX}/bin/gvim
 	@${RM} -f ${PREFIX}/man/man1/etags.1
 	@/bin/ln -sf ${PREFIX}/man/man1/ctags.1.gz ${PREFIX}/man/man1/etags.1.gz
-
 
 .include <bsd.port.mk>
