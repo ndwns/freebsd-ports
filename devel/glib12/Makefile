@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
+BROKEN=		upgrade
+
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
