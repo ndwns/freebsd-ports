@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Xserver for 3DLabs with X True Type
-# Version required:	1.1
+# Version required:	1.2.1
 # Date created:		13 Dec 1998
 # Whom:			Taguchi Takeshi <taguchi@tohoku.iij.ad.jp>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xc
-PKGNAME=	xtt-3DLabs-1.1
+PKGNAME=	xtt-3DLabs-${VERSION}.${PATCHLEVEL}
 CATEGORIES=	x11
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
