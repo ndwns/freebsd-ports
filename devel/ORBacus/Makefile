@@ -9,7 +9,7 @@
 DISTNAME=	OB-1.0
 PKGNAME=	omniBroker-1.0
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.ooc.com/pub/OmniBroker/
+MASTER_SITES=	ftp://ftp.ooc.com/pub/OmniBroker/1.0/
 
 MAINTAINER=	ejc@bazzle.com
 
