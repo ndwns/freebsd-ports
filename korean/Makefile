@@ -9,7 +9,6 @@
     SUBDIR += han
     SUBDIR += hanmutt
     SUBDIR += hanterm
-    SUBDIR += hanterm-autofont
     SUBDIR += hanterm-xf86
     SUBDIR += hanyangfonts
     SUBDIR += hcode
