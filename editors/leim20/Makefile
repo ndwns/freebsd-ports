@@ -1,24 +1,24 @@
 # New ports collection makefile for:	LEIM for emacs20
-# Version required:	20.3
+# Version required:	20.4
 # Date created:		10 September 1998
 # Whom:			Shigeyuki FUKUSHIMA <shige@kuis.kyoto-u.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	leim-20.3
+DISTNAME=	leim-20.4
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU}
 MASTER_SITE_SUBDIR=	emacs
 
 MAINTAINER=	shige@FreeBSD.ORG
 
-BUILD_DEPENDS=	emacs-20.3:${PORTSDIR}/editors/emacs20
-RUN_DEPENDS=	emacs-20.3:${PORTSDIR}/editors/emacs20
+BUILD_DEPENDS=	emacs-20.4:${PORTSDIR}/editors/emacs20
+RUN_DEPENDS=	emacs-20.4:${PORTSDIR}/editors/emacs20
 
 USE_GMAKE=	yes
 
-EMACS_VER=	20.3
+EMACS_VER=	20.4
 WRKSRC=		${WRKDIR}/emacs-${EMACS_VER}/leim
 PLIST_SUB=	EMACS_VER=${EMACS_VER}
 SCRIPTS_ENV=	EMACS_VER=${EMACS_VER}
