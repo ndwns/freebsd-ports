@@ -5,7 +5,8 @@
     SUBDIR += gdbm
     SUBDIR += gnats
     SUBDIR += msql
-    SUBDIR += mysql
+    SUBDIR += mysql321
+    SUBDIR += mysql322
     SUBDIR += p5-DBD-Pg
     SUBDIR += p5-DBI
     SUBDIR += p5-MLDBM
