@@ -9,9 +9,9 @@
 DISTNAME=	WWW
 PKGNAME=        comline-4.0D
 CATEGORIES=	www
-MASTER_SITES=   ftp://ftp.w3.org/pub/comline/ \
-		ftp://ftp.w3.org/pub/libwww/
-DISTFILES=      libwww_4.0D_src.tar.gz \
+MASTER_SITES=   ftp://ftp.w3.org/pub/old/comline/ \
+		ftp://ftp.w3.org/pub/libwww/old/
+DISTFILES=      w3c-libwww-4.0D.tar.gz \
 		w3c_4.0D_src.tar.gz
 
 MAINTAINER=     ache@freebsd.org
