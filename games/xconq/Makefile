@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.cygnus.com/pub/xconq/
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
-BROKEN_ELF=	does not link
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
