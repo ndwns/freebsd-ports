@@ -1,12 +1,12 @@
 # New ports collection makefile for:	gtksamba
-# Version required:			0.1.2
+# Version required:			0.1.4
 # Date created:				4 November 1998
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=	gtksamba-0.1.2
+DISTNAME=	gtksamba-0.1.4
 CATEGORIES=	net
 MASTER_SITES=	http://www.open-systems.com/gtksamba/
 
