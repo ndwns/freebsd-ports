@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	2.3
-PKGNAME=	squeak-2.3
+DISTNAME=	2.4
+PKGNAME=	squeak-2.4
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.cs.uni-magdeburg.de/pub/Smalltalk/Smalltalk/Squeak/unix/ \
 		ftp://ftp.cs.uni-magdeburg.de/pub/Smalltalk/Smalltalk/Squeak/unix/image/ \
@@ -35,9 +35,9 @@ do-build:
 
 do-install:
 	@(cd ${WRKSRC}/${VMBUILD} && \
-	${INSTALL_PROGRAM} SqueakVM-2.3-${VMBUILD} ${PREFIX}/bin/SqueakVM)
+	${INSTALL_PROGRAM} SqueakVM-2.4-${VMBUILD} ${PREFIX}/bin/SqueakVM)
 	${MKDIR} ${PREFIX}/share/squeak
-.for f in Squeak2.3.changes Squeak2.3.image
+.for f in Squeak2.4.changes Squeak2.4.image
 	(cd ${WRKSRC}/image && ${INSTALL_DATA} $f ${PREFIX}/share/squeak/$f)
 .endfor
 	${INSTALL_DATA} ${DISTDIR}/${DIST_SUBDIR}/${SQUEAK_SRC} \
