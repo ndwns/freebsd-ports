@@ -6,11 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	grap-0.9a
+DISTNAME=	grap-0.91a
 CATEGORIES=	textproc graphics
 MASTER_SITES=	http://www.lunabase.org/~faber/Vault/software/grap/
 
 MAINTAINER=	faber@lunabase.org
+
+GNU_CONFIGURE=yes
 
 MAN1=		grap.1
 
