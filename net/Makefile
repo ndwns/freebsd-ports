@@ -146,6 +146,7 @@
     SUBDIR += wide-dhcp
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
+    SUBDIR += xchat
     SUBDIR += xicq
     SUBDIR += xipmsg
     SUBDIR += yagirc
