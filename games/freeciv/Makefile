@@ -9,11 +9,17 @@
 DISTNAME=	freeciv-1.7.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ada@bsd.org
 
+BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
-HAS_CONFIGURE=	yes
+EXTRACT_CMD=	bzip2
+EXTRACT_BEFORE_ARGS= -cd
+EXTRACT_AFTER_ARGS= | tar xf -
+
+GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
