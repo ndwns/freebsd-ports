@@ -91,14 +91,16 @@ package:
 build: configure
 	@echo "===>  Building for ${DISTNAME}"
 .if defined(DEPENDS)
+	@echo "===>  ${DISTNAME} depends on:  ${DEPENDS}"
 	@for i in $(DEPENDS); do \
-		echo "===>    ${DISTNAME} depends on $$i - submaking"; \
+		echo "===>  Verifying build for $$i"; \
 		if [ ! -d ${PORTSDIR}/$$i ]; then \
-			echo "	No directory ${PORTSDIR}/$$i.  Skipping.."; \
+			echo ">> No directory for ${PORTSDIR}/$$i.  Skipping.."; \
 		else \
 			(cd ${PORTSDIR}/$$i; ${MAKE}) ; \
 		fi \
 	done
+	@echo "===>  Returning to build of ${DISTNAME}"
 .endif
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} all)
