@@ -26,3 +26,6 @@ post-install:
 	@strip ${PREFIX}/bin/rdistd
 
 .include <bsd.port.mk>
+
+# Stupid GNU Make 2.5!!!
+PATCH:=		env POSIXLY_CORRECT=yes ${PATCH}
