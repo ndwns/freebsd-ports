@@ -17,7 +17,6 @@
     SUBDIR += lynx
     SUBDIR += mapedit
     SUBDIR += mmm
-    SUBDIR += netscape2
     SUBDIR += netscape3
     SUBDIR += netscape4
     SUBDIR += p5-Apache
