@@ -12,7 +12,7 @@ CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.netwinsite.com/pub/netwinsite/dnews/
 DISTFILES=	dnews46n_freebsd.tar.Z
 
-MAINTAINER=	andreas@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 BROKEN='fetch, distfile not avail. (version 4.7k is the latest)'
 
