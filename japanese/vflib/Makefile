@@ -21,16 +21,16 @@ do-build:
 	@(cd ${WRKSRC}/tools; xmkmf; make)
 
 do-install:
-	${MKDIR} /usr/local/lib/VFlib
+	${MKDIR} ${PREFIX}/lib/VFlib
 	@(cd ${WRKSRC}/src; make install)
 	@(cd ${WRKSRC}/tools; \
 	  ${INSTALL_PROGRAM} fmtest disol kban ktest vfperf vftest \
-	    /usr/local/lib/VFlib)
+	    ${PREFIX}/lib/VFlib)
 	@(cd ${WRKSRC}; \
-	  cp -R doc jTeX COPYING README.txt.JP_EUC vfontcap \
-	    /usr/local/lib/VFlib)
-	${MKDIR} /usr/local/share/fonts/watanabe_font
-	tar -C /usr/local/share/fonts/watanabe_font \
-	  -xvzf ${DISTDIR}/watanabe-vf.tar.Z
+	  ${CP} -R doc jTeX COPYING README.txt.JP_EUC vfontcap \
+	    ${PREFIX}/lib/VFlib)
+	${MKDIR} ${PREFIX}/share/fonts/watanabe_font
+	tar -C ${PREFIX}/share/fonts/watanabe_font \
+	  -xzf ${DISTDIR}/watanabe-vf.tar.Z
 
 .include <bsd.port.mk>
