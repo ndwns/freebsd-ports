@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       unix
+EXTRACT_SUFX=	.tgz
 PKGNAME=	icon-9.3
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.cs.arizona.edu/icon/packages/unix/
