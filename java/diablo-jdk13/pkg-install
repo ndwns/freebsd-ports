@@ -4,6 +4,11 @@
 # Set up a standard path
 PATH=/usr/bin:/bin
 
+# Hack to prevent licensing from breaking bento.
+if [ "x${PACKAGE_BUILDING}" != "x" ]; then
+	exit 0
+fi
+
 # Attempt to install a link for the browser plugin during post-install
 if [ "$2" = "POST-INSTALL" ]; then
 	# Plugin location variables
