@@ -18,4 +18,7 @@ EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
 
+MAN1=		9menu.1
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

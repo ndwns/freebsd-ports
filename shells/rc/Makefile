@@ -14,5 +14,7 @@ MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/rc/
 MAINTAINER=	erich@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
+MAN1=		history.1 rc.1
+MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
