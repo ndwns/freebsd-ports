@@ -18,7 +18,7 @@ MAINTAINER=	se@freebsd.org
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 		kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		jscript\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \

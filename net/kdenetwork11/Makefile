@@ -19,7 +19,7 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
 		${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 		uu\\.1\\.:${PORTSDIR}/converters/uulib \
 		kdecore\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \

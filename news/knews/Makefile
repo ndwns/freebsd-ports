@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.matematik.su.se/~kjj/
 MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
-		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 		png\\.2\\.:${PORTSDIR}/graphics/png
 RUN_DEPENDS=    newsp:${PORTSDIR}/print/mp
 

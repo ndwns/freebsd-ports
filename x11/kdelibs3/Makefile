@@ -19,7 +19,7 @@ BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2 \
 		moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg
+		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
 
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS= -cd
