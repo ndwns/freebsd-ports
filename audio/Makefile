@@ -15,6 +15,7 @@
     SUBDIR += gnomemedia
     SUBDIR += gqmpeg
     SUBDIR += gsm
+    SUBDIR += icecast
     SUBDIR += kdemultimedia
     SUBDIR += kdemultimedia11
     SUBDIR += kmpg
