@@ -12,7 +12,7 @@ MASTER_SITES=	http://hem.passagen.se/osk/
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	gtk\\.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
 USE_XLIB=	yes
 GNU_CONFIGURE=	yes

@@ -18,7 +18,7 @@ LIB_DEPENDS=    png.2:${PORTSDIR}/graphics/png \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff34.1:${PORTSDIR}/graphics/tiff34 \
 		gif.3:${PORTSDIR}/graphics/giflib \
-		gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11
+		gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.mostang.com/pub/sane/ \
 
 MAINTAINER=	gary@hotlava.com
 
-LIB_DEPENDS=	gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes

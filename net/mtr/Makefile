@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.mkimball.org/
 
 MAINTAINER=	billf@chc-chimes.com
 
-LIB_DEPENDS=    gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=    gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
 FETCH_BEFORE_ARGS= -b
 USE_AUTOCONF=	yes

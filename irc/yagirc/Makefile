@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.elpaso.net/~spoon/yagirc/
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11 \
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		Imlib\\.1\\.7:${PORTSDIR}/graphics/imlib \
 		esd\\.0\\.0:${PORTSDIR}/audio/esound
 

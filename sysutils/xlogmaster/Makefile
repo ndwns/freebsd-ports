@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://sunsite.doc.ic.ac.uk/packages/gnu/\
 
 MAINTAINER=	aw1@stade.co.uk
 
-LIB_DEPENDS=	gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}" GTK_CONFIG="${PREFIX}/bin/gtk11-config"

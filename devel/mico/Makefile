@@ -12,7 +12,7 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	scrappy@freebsd.org
 
-LIB_DEPENDS=	gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 BUILD_DEPENDS=	g++28:${PORTSDIR}/lang/gcc28 \
 		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${OSREL}/2.8.1/libstdc++.a:${PORTSDIR}/lang/glibstdc++28
 

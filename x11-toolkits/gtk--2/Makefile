@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/gtk--/
 
 MAINTAINER=	Nakai@technologist.com
 
-LIB_DEPENDS=	gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 # Why gtk11 port renames gtk-config to gtk11-config? (patch-ae)

@@ -13,7 +13,7 @@ MASTER_SITES=	http://www2.osk.3web.ne.jp/~hideki70/src/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
