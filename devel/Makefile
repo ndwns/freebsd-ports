@@ -49,6 +49,7 @@
     SUBDIR += libdlmalloc
     SUBDIR += libffi
     SUBDIR += libgtop
+    SUBDIR += libicq
     SUBDIR += libmalloc
     SUBDIR += libslang
     SUBDIR += libtool
