@@ -16,7 +16,7 @@ MASTER_SITES=   http://www.statslab.cam.ac.uk/~sret1/analog/ \
 		http://www.monash.edu.au/mirror/analog/ \
 		http://analog.gsp.com/ \
 		http://analog.technomancer.com/ \
-		ftp://ftp.netcasting.net/pub/packages/analog \
+		ftp://ftp.netcasting.net/pub/packages/analog/ \
 		ftp://download.netvision.net.il/pub/mirrors/analog/ \
 		ftp://mabuse.phil.uni-passau.de/pub/mirrors/analog/
 
