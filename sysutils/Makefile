@@ -14,6 +14,7 @@
     SUBDIR += comconsole
     SUBDIR += contool
     SUBDIR += copytape
+    SUBDIR += cpbk
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += gnomeadmin
