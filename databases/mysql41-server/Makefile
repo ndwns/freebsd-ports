@@ -17,7 +17,6 @@ MASTER_SITES=	http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/My
 MAINTAINER=	dirk@FreeBSD.ORG
 
 Y2K=            http://www.tcx.se/Manual_chapter/manual_Introduction.html#Year_2000_compliance
-WWW_SITE=       http://www.tcx.se/
 
 MAN1=		mysql.1
 

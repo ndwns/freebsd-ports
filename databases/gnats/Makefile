@@ -13,7 +13,6 @@ MASTER_SITES=	ftp://sourceware.cygnus.com/pub/gnats/snapshots/
 MAINTAINER=	pst@FreeBSD.org
 
 Y2K=		http://sourceware.cygnus.com/gnats/
-WWW_SITE=	http://sourceware.cygnus.com/gnats/
 
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
