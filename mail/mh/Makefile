@@ -1,5 +1,5 @@
 # New ports collection makefile for:	mh
-# Version required:	6.8.3
+# Version required:	6.8.4
 # Date created:		Oct 4, 1994
 # Whom:			pst
 #
@@ -7,9 +7,13 @@
 #
 
 DISTNAME=	mh-6.8.3
+PKGNAME=	mh-6.8.4
 CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.ics.uci.edu/pub/mh/tar/
 EXTRACT_SUFX=	.tar.Z
+
+PATCHSITES=	ftp://ftp.ics.uci.edu/pub/mh/updates/
+PATCHFILES=	MH.6.8.4.Z
 
 MAINTAINER=	markm@FreeBSD.ORG
 
