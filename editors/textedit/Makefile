@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	textedit-1.0
-CATEGORIES=	x11
+CATEGORIES=	editors
 MASTER_SITES=	http://www.freebsd.org/~jraynard/ports/distfiles/
 
 MAINTAINER=	jraynard@@freebsd.org
