@@ -55,29 +55,32 @@ pre-fetch:
 	@/usr/bin/false
 .endif
 
-pre-install:
-	-test -d ${PREFIX}/share/lprps || ${MKDIR} ${PREFIX}/share/lprps
-
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/psif ${PREFIX}/libexec
-	${INSTALL_PROGRAM} ${WRKSRC}/lprps ${PREFIX}/libexec
-	${INSTALL_PROGRAM} ${WRKSRC}/psof ${PREFIX}/libexec
-	${INSTALL_PROGRAM} ${WRKSRC}/textps ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/psrev ${PREFIX}/bin
-	${INSTALL_SCRIPT} ${WRKSRC}/psif-text ${PREFIX}/libexec
-	${INSTALL_SCRIPT} ${WRKSRC}/psif-ps ${PREFIX}/libexec
-	${INSTALL_DATA} ${WRKSRC}/banner.ps ${PREFIX}/share/lprps
-	${INSTALL_MAN} ${WRKSRC}/textps.n ${PREFIX}/man/man1/textps.1
-	${INSTALL_MAN} ${WRKSRC}/psrev.n ${PREFIX}/man/man1/psrev.1
-	${INSTALL_MAN} ${WRKSRC}/lprps.n ${PREFIX}/man/man8/lprps.8
-	${INSTALL_MAN} ${WRKSRC}/psif.n ${PREFIX}/man/man8/psif.8
-	${INSTALL_MAN} ${WRKSRC}/psof.n ${PREFIX}/man/man8/psof.8
-	@${ECHO} Now edit /etc/printcap
+.for f in textps psrev
+	@${INSTALL_PROGRAM} ${WRKSRC}/${f} ${PREFIX}/bin
+.endfor
+.for f in psif lprps psof
+	@${INSTALL_PROGRAM} ${WRKSRC}/${f} ${PREFIX}/libexec
+.endfor
+.for f in psif-text psif-ps
+	@${INSTALL_SCRIPT} ${WRKSRC}/${f} ${PREFIX}/libexec
+
+.endfor
+	@-test -d ${PREFIX}/share/lprps || ${MKDIR} ${PREFIX}/share/lprps
+	@${INSTALL_DATA} ${WRKSRC}/banner.ps ${PREFIX}/share/lprps
+	@${INSTALL_MAN} ${WRKSRC}/textps.n ${PREFIX}/man/man1/textps.1
+	@${INSTALL_MAN} ${WRKSRC}/psrev.n ${PREFIX}/man/man1/psrev.1
+	@${INSTALL_MAN} ${WRKSRC}/lprps.n ${PREFIX}/man/man8/lprps.8
+	@${INSTALL_MAN} ${WRKSRC}/psif.n ${PREFIX}/man/man8/psif.8
+	@${INSTALL_MAN} ${WRKSRC}/psof.n ${PREFIX}/man/man8/psof.8
+	@${ECHO} ""
+	@${ECHO} Now edit your /etc/printcap
+	@${ECHO} ""
 
 post-install:
 .if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/lprps
-	${INSTALL_DATA} ${WRKSRC}/INSTALL ${PREFIX}/share/doc/lprps
+	@${MKDIR} ${PREFIX}/share/doc/lprps
+	@${INSTALL_DATA} ${WRKSRC}/INSTALL ${PREFIX}/share/doc/lprps
 .endif
 
 .include <bsd.port.mk>
