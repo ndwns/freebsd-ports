@@ -59,7 +59,7 @@ post-install:
 		echo '		find $${DB_POOL} -newer $${DB_BIND} -exec rm $${DB_BIND} \;'\
 			>> ${STARTUP_SCRIPT};				\
 		echo '	fi' >> ${STARTUP_SCRIPT};			\
-		echo "	${PREFIX}/sbin/dhcps [Intarface Name]"		\
+		echo "	${PREFIX}/sbin/dhcps [Interface Name]"		\
 			>> ${STARTUP_SCRIPT};				\
 		echo "	echo -n ' dhcps'"				\
 			>> ${STARTUP_SCRIPT};				\
