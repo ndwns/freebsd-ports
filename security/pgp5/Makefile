@@ -20,6 +20,7 @@ MAINTAINER=	markm@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS= --prefix=${PREFIX}
+RESTRICTED=     "Crypto"
 MAN1=		pgp.1 pgpe.1 pgpk.1 pgps.1 pgpv.1
 MAN5=		pgp.cfg.5
 MAN7=		pgp-integration.7 pgp-intro.7
