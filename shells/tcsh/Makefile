@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=        tcsh-6.07.02
 DISTNAME=       tcsh-6.07
+PKGNAME=        tcsh-6.07.02
 CATEGORIES=	shells
 MASTER_SITES=   ftp://ftp.deshaw.com/pub/tcsh/
 
