@@ -8,11 +8,12 @@
 DISTNAME=	word2x
 PKGNAME=	word2x-0.003
 CATEGORIES=	textproc
-MASTER_SITES=	ftp://word2x.astra.co.uk/pub/word2x/
+MASTER_SITES=	ftp://ftp.gu.net/pub/unix/viewers/ \
+		ftp://ftp.afti.nsu.ru/pub/source/utils/word2x/ \
+		http://www.FreeBSD.ORG/~billf/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	billf@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
