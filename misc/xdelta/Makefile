@@ -10,6 +10,8 @@ DISTNAME=       xdelta-0.14
 CATEGORIES=     misc
 MASTER_SITES=   ftp://scam.xcf.berkeley.edu/pub/jmacd/
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 
 GNU_CONFIGURE=	yup

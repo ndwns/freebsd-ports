@@ -10,6 +10,8 @@ DISTNAME=	mpeg_lib-1.2.1
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.mni.mcgill.ca/pub/mpeg/
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 WRKSRC=		${WRKDIR}/mpeg_lib
 
 GNU_CONFIGURE= yup
