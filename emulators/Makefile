@@ -18,6 +18,7 @@
     SUBDIR += sim6811
     SUBDIR += spim
     SUBDIR += stella
+    SUBDIR += stonx
     SUBDIR += tkhfs
     SUBDIR += vgb
     SUBDIR += vmsbackup
