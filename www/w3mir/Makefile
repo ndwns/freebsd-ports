@@ -22,4 +22,11 @@ MAN1=           w3mir.1 w3mfix.1
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
 
+post-install:
+		${INSTALL} -d -o ${SHAREOWN} -g ${SHAREGRP} -m 755 \
+			${PREFIX}/share/doc/w3mir
+		cd ${WRKSRC} && ${INSTALL_DATA} \
+			README Artistic w3mir-HOWTO.html \
+			${PREFIX}/share/doc/w3mir
+
 .include <bsd.port.mk>
