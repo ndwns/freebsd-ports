@@ -17,7 +17,7 @@ MASTER_SITES=	ftp://cs.hmc.edu/pub/me/mutt/  \
 
 PATCH_SITES=	ftp://nuxi.cs.ucdavis.edu/pub/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.frmug.org/mutt/mutt/${PKGNAME:S/^mutt-//}/  \
-		http://www.math.fu-berlin.fr/~leitner/mutt/${PKGNAME:S/^mutt-//}/  \
+		http://www.math.fu-berlin.de/~leitner/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.efrei.fr/~parmelan/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://www.frmug.org/pub/mutt/mutt/${PKGNAME:S/^mutt-//}/
 PATCHFILES=	02.keys.PATCH  \
@@ -29,10 +29,16 @@ PATCHFILES=	02.keys.PATCH  \
 		10.noop.PATCH  \
 		11.external.PATCH  \
 		12.tagged.PATCH  \
-		13.random.PATCH
+		13.random.PATCH  \
+		15.mallocline.PATCH  \
+		16.defaultcolor.PATCH  \
+		17.variables.PATCH  \
+		19.fdleak.PATCH
 #		don't apply cleanly:
 #		06.setgid.PATCH  \
 #		07.configure.in.PATCH  \
+#		14.mallocline.PATCH  \
+#		18.buffy.PATCH  \
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
