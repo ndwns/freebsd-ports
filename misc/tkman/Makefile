@@ -14,7 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
 LIB_DEPENDS=	tk40\\.1\\.:${PORTSDIR}/x11/tk4
-RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman
+RUN_DEPENDS=	rman:${PORTSDIR}/misc/rman \
+		glimpse:${PORTSDIR}/misc/glimpse
 
 # Restrictive copyright
 NO_PACKAGE=	yes
