@@ -13,8 +13,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-OSVERSION!=	sysctl -n kern.osreldate
-
 WRKSRC=		${WRKDIR}/mpd-1.0b5/src
 ALL_TARGET=	depend all
 MAN1=		mpd.1
