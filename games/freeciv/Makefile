@@ -8,8 +8,7 @@
 
 DISTNAME=	freeciv-1.8.0
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/ \
-		ftp://ftp.pvv.ntnu.no/pub/freeciv/ \
+MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/stable_version/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
 MAINTAINER=	ada@bsd.org
