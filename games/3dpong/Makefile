@@ -9,7 +9,7 @@
 DISTNAME=	3dpong.0.3
 PKGNAME=	3dpong-0.3
 CATEGORIES=	games
-MASTER_SITES=	http://zippy.sonoma.edu/kendrick/nbs/unix/x/3dpong/
+MASTER_SITES=	ftp://ftp.sonic.net/pub/users/nbs/unix/x/3dpong/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
@@ -21,7 +21,9 @@ do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/3dpong ${PREFIX}/bin
 	@ ${MKDIR} ${PREFIX}/share/3dpong
 	@ ${INSTALL_DATA} ${WRKSRC}/sounds/*.au ${PREFIX}/share/3dpong
+.if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/3dpong
 	@ ${INSTALL_DATA} ${WRKSRC}/README.txt ${PREFIX}/share/doc/3dpong
+.endif
 
 .include <bsd.port.mk>
