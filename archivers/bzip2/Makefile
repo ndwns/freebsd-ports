@@ -22,6 +22,7 @@ do-install:
 	${LN} -sf ${PREFIX}/bin/bzip2 ${PREFIX}/bin/bunzip2
 	${LN} -sf ${PREFIX}/bin/bzip2 ${PREFIX}/bin/bzcat
 	${INSTALL_PROGRAM} ${WRKSRC}/bzip2recover ${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/bzlib.h ${PREFIX}/include
 	${INSTALL_DATA} ${WRKSRC}/libbz2.a ${PREFIX}/lib
 	${INSTALL_MAN} ${WRKSRC}/bzip2.1 ${PREFIX}/man/man1
 .if !defined(NOPORTDOCS)
