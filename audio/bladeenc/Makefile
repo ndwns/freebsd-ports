@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bladeenc-082-src-stable
-PKGNAME=	bladeenc-082
+PKGNAME=	bladeenc-0.82
 CATEGORIES=	audio
 MASTER_SITES=	http://home8.swipnet.se/~w-82625/encoder/binaries/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
