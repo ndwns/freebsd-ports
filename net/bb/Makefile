@@ -31,6 +31,8 @@ post-configure:
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 do-install:
+	@${MKDIR} ${PREFIX}/www/cgi-bin
+	@${MKDIR} ${PREFIX}/www/data
 	@${MKDIR} ${PREFIX}/bb/bin
 	@${MKDIR} ${PREFIX}/bb/etc
 	@${MKDIR} ${PREFIX}/bb/web
