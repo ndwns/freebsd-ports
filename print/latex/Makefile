@@ -27,7 +27,7 @@ do-build:
 		tex --ini latex.ltx </dev/null)
 	(cd ${WRKSRC}/packages/tools; TEXFORMATS=${WRKSRC}/base:; \
 		TEXINPUTS=${WRKSRC}/base: export TEXFORMATS TEXINPUTS;\
-		 ln -sf /usr/local/bin/tex latex; ./latex tools.ins)
+		 ln -sf ${PREFIX}/bin/tex latex; ./latex tools.ins)
 
 do-install: 
 	@(/usr/bin/install -c -m 644 ${WRKSRC}/base/latex.fmt \
