@@ -1,5 +1,5 @@
 # New ports collection makefile for:	colorls
-# Version required:	FreeBSD-current (around January '97)
+# Version required:	FreeBSD-2.2-stable (around October '97)
 # Date created:		8 March 1995
 # Whom:			Satoshi Asami
 #
@@ -7,10 +7,10 @@
 #
 
 DISTNAME=	colorls
-PKGNAME=	colorls-2.2
+PKGNAME=	colorls-2.2.5
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_LOCAL}
-DISTFILES=	ls.tar.gz
+DISTFILES=	ls-2.2.5.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
