@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://bond.edu.au/pub/Minerva/msql/
 
 IS_INTERACTIVE=	yes
 PREFIX=		/usr/local/Minerva
+NO_MTREE=	yes
 # restrictive copyright (no commercial use)
 NO_PACKAGE=	yes
 
