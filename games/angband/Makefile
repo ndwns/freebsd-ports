@@ -15,4 +15,8 @@ MAINTAINER=	mph@pobox.com
 
 USE_X11=	yes
 
+post-install:
+	@${CAT} ${PKGDIR}/MESSAGE
+	@${INSTALL_DATA} ${FILESDIR}/CHANGES-2.8.2 ${PREFIX}/lib/X11/angband
+
 .include <bsd.port.mk>
