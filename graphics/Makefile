@@ -24,8 +24,9 @@
     SUBDIR += mplex
     SUBDIR += netpbm
     SUBDIR += p5-Image-Size
-    SUBDIR += pixmap
+    SUBDIR += pgperl
     SUBDIR += pgplot
+    SUBDIR += pixmap
     SUBDIR += png
     SUBDIR += povray
     SUBDIR += spigot
