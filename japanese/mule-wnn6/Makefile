@@ -34,7 +34,7 @@ pre-patch:
 # I took these two files from emacs-19.28 and added -lcrypt
 	cp ${FILESDIR}/unexsunos4.c ${WRKSRC}/src
 	cp ${FILESDIR}/freebsd.h ${WRKSRC}/src/s
-	@echo "===> Applying emacs -> mule patch"
+	@echo "===>  Applying emacs -> mule patch"
 	@for file in ${PATCHFILES}; do \
 		gzip -c -d ${DISTDIR}/$$file | patch -d ${WRKSRC} -p1 -s; \
 	done
