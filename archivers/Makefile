@@ -2,6 +2,7 @@
 #
 
     SUBDIR += arc
+    SUBDIR += freeze
     SUBDIR += gshar+gunshar
     SUBDIR += ha
     SUBDIR += hpack.non-usa.only
