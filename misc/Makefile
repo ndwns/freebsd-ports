@@ -18,7 +18,6 @@
     SUBDIR += bbjd
     SUBDIR += buffer
     SUBDIR += chord
-    SUBDIR += cls
     SUBDIR += cmatrix
     SUBDIR += colorls
     SUBDIR += colortail
