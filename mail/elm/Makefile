@@ -1,19 +1,19 @@
 # New ports collection makefile for:    elm
-# Version required:     2.4.25.ME+.12
+# Version required:     2.4.25.ME+.13
 # Date created:         26 June 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       elm-2.4ME+12
+DISTNAME=       elm-2.4ME+13
 CATEGORIES+=	mail
 MASTER_SITES=   ftp://dionysos.fmi.fi/KEH/ \
 		ftp://ftp.kiae.su/unix/mail/
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-WRKSRC=         ${WRKDIR}/elm2.4.ME+.12
+WRKSRC=         ${WRKDIR}/elm2.4.ME+.13
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install
