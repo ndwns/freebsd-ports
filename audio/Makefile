@@ -46,6 +46,7 @@
     SUBDIR += timidity
     SUBDIR += tosha
     SUBDIR += tracker
+    SUBDIR += waveplay
     SUBDIR += wmcdplay
     SUBDIR += wmmixer
     SUBDIR += wmsound
