@@ -17,7 +17,7 @@ CONFIGURE_ENV=	X11BASE=${X11BASE}
 MAN1=		giftrans.1
 
 do-build:
-	(cd ${WRKSRC}; cc -O2 -m486 giftrans.c -o giftrans)
+	(cd ${WRKSRC}; cc -O2 giftrans.c -o giftrans)
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/giftrans ${PREFIX}/bin
