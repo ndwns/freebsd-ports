@@ -7,12 +7,10 @@
 #
 # based on japanese/netscape4-*
 
-MAINTAINER=	junker@jazz.snu.ac.kr
-
-FILESDIR=	${MASTER_DIR}/files
-PATCHDIR=	${MASTER_DIR}/patches
-
-BROWSER_NAME=	navigator
 MASTER_DIR=	${.CURDIR}/../netscape4-communicator
+
+MAINTAINER=	cjh@kr.freebsd.org
+
+BROWSER=	navigator
 
 .include "${MASTER_DIR}/Makefile"
