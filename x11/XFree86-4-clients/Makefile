@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3/source/ \
 		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.3/source/ \
 		ftp://ftp.uni-stuttgart.de/pub/X11/Xfree86/3.3/source/ \
 		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.3/source/
-DISTFILES=	X33src-1.tgz X32src-2.tgz
+DISTFILES=	X33src-1.tgz X33src-2.tgz
 
 MAINTAINER=	jmz@FreeBSD.ORG
 
