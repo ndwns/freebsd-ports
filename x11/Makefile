@@ -33,6 +33,7 @@
     SUBDIR += getbdf
     SUBDIR += gtk
     SUBDIR += gwm
+    SUBDIR += icewm
     SUBDIR += iv
     SUBDIR += kde
     SUBDIR += kdebase
