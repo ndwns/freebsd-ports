@@ -12,9 +12,6 @@ DISTFILES=	navigator-v408-export.x86-unknown-freebsd.tar.gz
 MAINTAINER=     sada@FreeBSD.ORG
 
 MASTERDIR=	${.CURDIR}/../netscape4-communicator
-FILESDIR=	${.CURDIR}/files
-PKGDIR=		${.CURDIR}/pkg
-PKGREQ=		${MASTERDIR}/pkg/REQ
 
 BROWSER=	navigator
 INFILE_HEAD=	'Navigator,4.08.0.98306'
