@@ -9,7 +9,7 @@
 DISTNAME=	isoENTS
 PKGNAME=	iso8879-1986
 CATEGORIES=	textproc
-MASTER_SITES=	${MASTER_SITE_BACKUP}
+MASTER_SITES=	ftp://fallout.campusview.indiana.edu/pub/sgml/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jfieber@FreeBSD.ORG
