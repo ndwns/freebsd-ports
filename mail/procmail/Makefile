@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 
 IS_INTERACTIVE=	yes
 
-install:
+install: build
 .if !defined(BATCH)
 	@echo "===>  Installing for ${DISTNAME}"
 	@cd ${WRKSRC}; ${MAKE} install-suid install.man
