@@ -8,8 +8,7 @@
 
 DISTNAME=	kaffe-0.9.1
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/ \
-		ftp://alterego.stack.nl/pub/kaffe/
+MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/
 EXTRACT_SUFX=	.tgz
 DISTFILES=	${DISTNAME}.tgz kaffe-0.9.1-package-biss-net.com.tgz \
 		kaffe-0.9.1-package-javasoft.com.tgz
