@@ -1,5 +1,5 @@
 # New ports collection makefile for: Netscape browser with Japanese resources
-# Version required:	4.06
+# Version required:	4.07
 # Date created:		13 Mar 1998
 # Whom:			sada
 #

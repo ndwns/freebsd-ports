@@ -1,5 +1,5 @@
 # New ports collection makefile for: Netscape browser with Japanese resources
-# Version required:	4.06
+# Version required:	4.07
 # Date created:		13 Mar 1998
 # Whom:			sada
 #
@@ -9,7 +9,7 @@
 DISTNAME=	ja-netscape-${BROWSER}
 CATEGORIES=	japanese www
 MASTER_SITES=	http://www.bres.tsukuba.ac.jp/~yohta/netscape/
-DISTFILES=	communicator-ja-euc-v406-export.generic-generic-generic.tar.gz
+DISTFILES=	communicator-ja-euc-v407-export.generic-generic-generic.tar.gz
 
 MAINTAINER?=	sada@e-mail.ne.jp
 
@@ -25,7 +25,7 @@ WRKSRC=		${WRKDIR}/netscape-ja_euc
 
 BROWSER=	${BROWSER_NAME}-${BROWSER_VER}
 BROWSER_NAME?=	communicator
-BROWSER_VER=	4.06
+BROWSER_VER=	4.07
 LANG=		ja_JP.EUC
 NDIR=		${PREFIX}/lib/netscape
 MAKESCRIPT=	${SED} -e "s;@X11BASE@;${X11BASE};g" \
