@@ -19,8 +19,8 @@ MANUAL_PACKAGE_BUILD=	do not want to install during interactive build
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=  yes
-CONFIGURE_ARGS+=  --enable-static --enable-shared --with-xdnd \
-	--enable-production --disable-debug
+CONFIGURE_ARGS+=--enable-static --enable-shared --with-xdnd \
+		--enable-production --disable-debug
 
 MAN1 =	lesstif.1 mwm.1 xmbind.1
 
