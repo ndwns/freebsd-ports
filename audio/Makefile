@@ -7,6 +7,7 @@
     SUBDIR += cam
     SUBDIR += cdd
     SUBDIR += cdplay
+    SUBDIR += cdrdao
     SUBDIR += cmp3
     SUBDIR += dagrab
     SUBDIR += dap
