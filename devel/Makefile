@@ -136,6 +136,7 @@
     SUBDIR += sawt
     SUBDIR += scogdb
     SUBDIR += sfio
+    SUBDIR += shtool
     SUBDIR += stlport
     SUBDIR += swarm
     SUBDIR += tclcheck
