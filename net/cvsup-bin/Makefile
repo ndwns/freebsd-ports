@@ -8,8 +8,7 @@
 
 DISTNAME=	cvsup-bin-16.0
 CATEGORIES=	devel net
-MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/development/CVSup/ \
-		ftp://ftp.cs.tu-berlin.de/pub/FreeBSD/development/CVSup/
+MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/development/CVSup/
 DISTFILES=	cvsup-bin-16.0.tar.gz
 
 MAINTAINER=	jdp@freebsd.org
