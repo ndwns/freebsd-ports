@@ -58,7 +58,7 @@ pre-fetch:
 
 post-extract:
 	${LN} -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/jpeg/work/jpeg-6b ${WRKSRC}/jpeg
-	${LN} -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/png/work/libpng-1.0.2 ${WRKSRC}/libpng
+	${LN} -s ${WRKDIRPREFIX}${PORTSDIR}/graphics/png/work/libpng-1.0.3 ${WRKSRC}/libpng
 	${MV} ${WRKSRC}/devs.mak ${WRKSRC}/devs.mak.bak
 	cd ${WRKSRC} && unzip -Lao ${DISTDIR}/${HP850_DRV}
 	${MV} ${WRKSRC}/devs.mak.bak ${WRKSRC}/devs.mak
