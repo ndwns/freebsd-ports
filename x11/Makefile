@@ -82,6 +82,7 @@
     SUBDIR += xmbdfed
     SUBDIR += xmold
     SUBDIR += xpostit
+    SUBDIR += xpostitPlus
     SUBDIR += xprompt
     SUBDIR += xscreensaver
     SUBDIR += xsnow
