@@ -11,6 +11,8 @@ PKGNAME=	isc-dhcp-b5.16
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
+MAINTAINER=	ports@FreeBSD.org
+
 HAS_CONFIGURE=	yes
 
 MAN5=		dhcpd.conf.5${ZEXTENSION}
