@@ -12,6 +12,11 @@ MASTER_SITES=	ftp://ftp.mcs.anl.gov/pub/mpi/
 
 MAINTAINER=	dbader@eece.unm.edu
 
+SVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         MOUNT_NFS undeclared
+.endif
+
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--cflags="$(CFLAGS)"
 WRKSRC=		${WRKDIR}/mpich
