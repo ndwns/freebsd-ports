@@ -5,8 +5,8 @@
 #
 # $Id$
 
-DISTNAME=	pilot-link.0.8.12
-PKGNAME=	pilot-link-0.8.12
+DISTNAME=	pilot-link.0.8.13
+PKGNAME=	pilot-link-0.8.13
 CATEGORIES=	comms pilot tk80
 MASTER_SITES=	ftp://ryeham.ee.ryerson.ca/pub/PalmOS/
 
