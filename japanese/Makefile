@@ -3,6 +3,7 @@
 
     SUBDIR += Canna
     SUBDIR += Wnn
+    SUBDIR += a2ps
     SUBDIR += camltk41
     SUBDIR += cdrom2
     SUBDIR += chimera
@@ -48,6 +49,7 @@
     SUBDIR += mule-wnn
     SUBDIR += nethack
     SUBDIR += netscape.language
+    SUBDIR += newosaka
     SUBDIR += nkf
     SUBDIR += okphone
     SUBDIR += perl5
