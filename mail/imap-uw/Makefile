@@ -9,7 +9,7 @@
 DISTNAME=	imap-4.2
 PKGNAME=	imap-uw-4.2
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/old \
+MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/old/ \
 		http://www.freebsd.org/~steve/
 EXTRACT_SUFX=	.tar.Z
 
