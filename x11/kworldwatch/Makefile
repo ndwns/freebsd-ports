@@ -20,6 +20,8 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs
 
+BROKEN=		upgrade
+
 HAS_CONFIGURE=	yes
 
 .include <bsd.port.mk>
