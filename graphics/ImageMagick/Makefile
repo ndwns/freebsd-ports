@@ -33,7 +33,7 @@ MAN1=	ImageMagick.1 animate.1 combine.1 convert.1 display.1 identify.1 import.1 
 MAN4=	miff.4
 MAN5=	quantize.5
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--enable-lzw
+CONFIGURE_ARGS=	--enable-lzw --enable-shared
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
