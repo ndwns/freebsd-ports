@@ -15,7 +15,7 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
 		http://www.paru.cas.cz/~hubicka/XaoS/dist/
 MASTER_SITE_SUBDIR=	graphics
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	koshy@india.hp.com
 
 # This port will benefit from all-stops-out optimization of the code
 

@@ -12,7 +12,7 @@ CATEGORIES=	www mail
 MASTER_SITES=	http://www.oac.uci.edu/indiv/ehood/tar/ \
 		ftp://hhobel.phl.univie.ac.at/MHonArc/
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	koshy@india.hp.com
 
 INSTALL_TARGET=	install-batch
 
