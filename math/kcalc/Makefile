@@ -27,8 +27,6 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		mediatool\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
 
-BROKEN=		package
-
 EXTRACT_CMD=	bzip2
 EXTRACT_BEFORE_ARGS= -cd
 EXTRACT_AFTER_ARGS= | tar -xf -
