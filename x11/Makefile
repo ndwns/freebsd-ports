@@ -54,6 +54,7 @@
     SUBDIR += props
     SUBDIR += pythonqt
     SUBDIR += qt
+    SUBDIR += qt133
     SUBDIR += qvwm
     SUBDIR += rclock
     SUBDIR += rxvt
