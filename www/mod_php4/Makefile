@@ -113,7 +113,9 @@ post-install:
 	find ${APACHEDOCDIR} -type d -exec chmod a+rx {} \; ; \
 	find ${APACHEDOCDIR} -type f -exec chmod a+r {} \;
 .for i in apache_pb.gif index.html manual
-	${LN} -s ${PREFIX}/share/doc/apache/$i ${PREFIX}/www/data/$i
+	if [ ! -e ${PREFIX}/www/data/$i ] ; then \
+		${LN} -s ${PREFIX}/share/doc/apache/$i ${PREFIX}/www/data/$i; \
+	fi
 .endfor
 .for i in CODING_STANDARDS EXTENSION_STATUS LICENSE
 	${INSTALL_DATA} ${WRKDIR}/php-${VERSION_PHP3}/$i ${PHP3DOCDIR}
