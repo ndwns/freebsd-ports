@@ -75,5 +75,8 @@
     SUBDIR += xmbibtex
     SUBDIR += xtem
     SUBDIR += yatex
+    SUBDIR += yatex-mule
+    SUBDIR += yatex-xemacs
+    SUBDIR += yatex-xemacs-mule
 
 .include <bsd.port.subdir.mk>
