@@ -23,8 +23,8 @@ MAN8=		cnewsdo.8cn expire.8cn explode.8cn mergeactive.8 \
 		rnews.8cn
 
 NEWSSPOOL=	${PREFIX}/newsspool
-NEWSBIN=	${PREFIX}/libexec/news
-NEWSLIB=	${PREFIX}/lib/news
+NEWSBIN=	${PREFIX}/news/cnewsbin
+NEWSLIB=	${PREFIX}/news/lib
 MANDIR=		${PREFIX}/man
 
 do-install:
