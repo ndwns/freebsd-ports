@@ -39,6 +39,7 @@
     SUBDIR += drm
     SUBDIR += empire
     SUBDIR += fkiss
+    SUBDIR += flightgear
     SUBDIR += flying
     SUBDIR += freeciv
     SUBDIR += frotz
