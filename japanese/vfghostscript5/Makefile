@@ -127,12 +127,12 @@ post-install:
 	  ${CP} ${PRINTER}/gdev10v/gdev10v.jis ${DOC_DIR} ; \
 	  ${CP} ${PRINTER}/gdevlips-2.3.2-510/Gdevlips.htm ${DOC_DIR} ; \
 	  ${CP} ${PRINTER}/gdevlips-2.3.2-510/gs_statd.dif ${DOC_DIR} ; \
-	  ${MKDIR} ${DOC_DIR}/gdevmjc-0.8
+	  ${MKDIR} ${DOC_DIR}/gdevmjc-0.8; \
 	  ${CP} ${PRINTER}/gdevmjc-0.8/README.mjc ${DOC_DIR}/gdevmjc-0.8/ ; \
 	  ${CP} ${PRINTER}/gdevmjc-0.8/README.noz ${DOC_DIR}/gdevmjc-0.8/ ; \
 	  ${CP} ${PRINTER}/gdevmjc-0.8/README.mje ${DOC_DIR}/gdevmjc-0.8/ ; \
 	  ${CP} ${PRINTER}/gdevmjc-0.8/cpem.doc ${DOC_DIR}/gdevmjc-0.8/ ; \
-	  ${CP} ${PRINTER}/gdevmjc-0.8/MJ700V2C.FAQ ${DOC_DIR}/gdevmjc.0.8/ ; \
+	  ${CP} ${PRINTER}/gdevmjc-0.8/MJ700V2C.FAQ ${DOC_DIR}/gdevmjc-0.8/ ; \
 	  ${CP} ${PRINTER}/gdevalps-0.2/README.gdevalps ${DOC_DIR}/README.gdevalps ; \
 	  ${CP} ${PRINTER}/gdevmd2k-0.2a/README.jis ${DOC_DIR}/gdevmd2k.jis ; \
 	  ${CP} ${PRINTER}/gdevrpdl-1.2-510/gdevrpdl.doc ${DOC_DIR} ; \
