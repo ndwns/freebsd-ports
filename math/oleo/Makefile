@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 HAS_CONFIGURE=yes
 
 post-install:
-	install -c $(FILESDIR)/oleo.1 $(PREFIX)/man/man1
+	$(INSTALL_MAN) $(FILESDIR)/oleo.1 $(PREFIX)/man/man1
 .if !defined(NOMANCOMPRESS)
 	gzip -9nf $(PREFIX)/man/man1/oleo.1
 .endif
