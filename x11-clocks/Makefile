@@ -19,6 +19,7 @@
     SUBDIR += wmdate
     SUBDIR += wmitime
     SUBDIR += wmtime
+    SUBDIR += wmtz
     SUBDIR += xalarm
     SUBDIR += xdaliclock
     SUBDIR += xtimer
