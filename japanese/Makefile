@@ -5,6 +5,7 @@
     SUBDIR += Wnn
     SUBDIR += chimera
     SUBDIR += dvi2tty
+    SUBDIR += ejdict
     SUBDIR += elvis
     SUBDIR += gawk
     SUBDIR += ghostscript
