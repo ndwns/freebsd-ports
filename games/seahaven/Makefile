@@ -14,5 +14,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	imp@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
+MAN6?=		seahaven.6
 
 .include <bsd.port.mk>
