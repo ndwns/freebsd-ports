@@ -57,6 +57,7 @@
     SUBDIR += p5-Search
     SUBDIR += pdmenu
     SUBDIR += qclock
+    SUBDIR += quotes
     SUBDIR += rc5des
     SUBDIR += rpm
     SUBDIR += screen
