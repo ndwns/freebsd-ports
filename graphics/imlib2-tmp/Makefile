@@ -28,7 +28,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS=-I${LOCALBASE}/include \
 		GTK_CONFIG="${X11BASE}/bin/gtk11d-config" \
 		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
-		LIBS=-L${LOCALBASE}/lib \
+		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib" \
 		INSTALL="$${INSTALL} -c"
 
 post-install:

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	clkao@CirX.ORG
 
-LIB_DEPENDS=	glib11d.1:${PORTSDIR}/devel/glib11-devel
+LIB_DEPENDS=	glib11d.2:${PORTSDIR}/devel/glib11-devel
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
