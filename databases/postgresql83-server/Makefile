@@ -17,7 +17,7 @@ DISTFILES=	postgres95-1.08.tar.gz \
 		
 MAINTAINER=	matt@bdd.net
 
-NO_PACKAGE=	yes
+NO_PACKAGE=	"Requires postgres uid"
 WRKSRC=		${WRKDIR}/postgres95/src/
 MAKE_ENV+=	WRKSRC=${WRKSRC} WRKDIR=${WRKDIR}
 USE_GMAKE=	yes
