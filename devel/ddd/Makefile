@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	ddd-3.1.4
+DISTNAME=	ddd-3.1.5
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/src/  \
 		ftp://uiarchive.cso.uiuc.edu/pub/packages/ddd/src/  \
@@ -21,10 +21,17 @@ MAINTAINER=     obrien@FreeBSD.org
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-motif-libraries="${MOTIFLIB} -lXt -lXext"
+CONFIGURE_TARGET=	${ARCH}-portbld-freebsd${OSREL}
+CONFIGURE_ARGS=	--with-motif-libraries="${LIBXMDIR}"
 USE_GMAKE=	yes
 REQUIRES_MOTIF=	yes
 MAN1=		ddd.1
+
+.if defined(MOTIF_STATIC)
+LIBXMDIR!=	${ECHO} ${MOTIFLIB} | sed -e 's/\/libXm\.a//g' | awk '{print $$1}'
+.else
+LIBXMDIR!=	${ECHO} ${MOTIFLIB} | sed -e 's/-L//g' | awk '{print $$1}'
+.endif
 
 post-configure:
 	${ECHO} "LIBXM = ${MOTIFLIB}" >> ${WRKSRC}/ddd/Makefile
