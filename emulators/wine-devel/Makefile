@@ -15,8 +15,6 @@ MASTER_SITE_SUBDIR=	ALPHA/wine/development
 
 MAINTAINER=	se@FreeBSD.ORG
 
-BROKEN=		treeview.c
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/wine-${DATE}
