@@ -10,7 +10,7 @@ DISTNAME=	rxvt-2.4.5
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/
 
-MAINTAINER=	winter@jurai.net
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_X11=	yes
 GNU_CONFIGURE=  yes
