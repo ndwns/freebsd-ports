@@ -18,6 +18,7 @@ BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/DBI.pm:${PORTSDIR}/databases/p5-DBI
 		${PREFIX}/pgsql/lib/libpq.so.1.1:${PORTSDIR}/databases/postgresql
 
 BROKEN_ELF=	depends on postgresql
+BROKEN=		build
 
 USE_PERL5=	YES
 
