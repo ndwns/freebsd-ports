@@ -60,6 +60,7 @@
     SUBDIR += killustrator
     SUBDIR += lfview
     SUBDIR += libimg
+    SUBDIR += libwmf
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
     SUBDIR += mpeg2play
