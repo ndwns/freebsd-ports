@@ -150,6 +150,7 @@
     SUBDIR += rinfo
     SUBDIR += sawt
     SUBDIR += scogdb
+    SUBDIR += sdl
     SUBDIR += sfio
     SUBDIR += shtool
     SUBDIR += stlport
