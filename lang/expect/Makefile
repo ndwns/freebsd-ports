@@ -1,18 +1,21 @@
 # New ports collection makefile for:	expect
-# Version required:	5.12
+# Version required:	5.18
 # Date created:		20 November 1994
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=	expect-5.16
+DISTNAME=	expect-5.18
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
 
 LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
 		tk\\.3\\.:${PORTSDIR}/x11/tk
+
+test:
+	@(cd ${WRKSRC}; make test)
 
 HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
