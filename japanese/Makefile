@@ -124,6 +124,12 @@
     SUBDIR += wine
     SUBDIR += x0212fonts
     SUBDIR += xdvi
+    SUBDIR += xemacs
+    SUBDIR += xemacs-canna
+    SUBDIR += xemacs-canna+wnn4
+    SUBDIR += xemacs-canna+wnn6
+    SUBDIR += xemacs-wnn4
+    SUBDIR += xemacs-wnn6
     SUBDIR += xfig
     SUBDIR += xklock
     SUBDIR += xnetmaj
