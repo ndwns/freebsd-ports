@@ -22,7 +22,7 @@ if [ "${BATCH}" ]; then
 	if [ ${TODAY} -lt 20010801 ]; then
 		OPTIONS="\"MAPS_RBL\" \"MAPS_DUL\" \"MAPS_RSS\""
 	else
-		OPTIONS="ORBZ"
+		OPTIONS="\"ORBZ\""
 	fi
 	if [ "x${OPTIONS}" != "x" ]; then
 		set ${OPTIONS}
