@@ -52,6 +52,7 @@
     SUBDIR += tk41
     SUBDIR += today
     SUBDIR += vfghostscript
+    SUBDIR += vfghostscript4
     SUBDIR += vflib
     SUBDIR += vfxdvi
     SUBDIR += xbakuzan
