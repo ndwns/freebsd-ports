@@ -7,6 +7,8 @@
     SUBDIR += jetpack
     SUBDIR += nethack
     SUBDIR += oneko
+    SUBDIR += qcc
+    SUBDIR += quakeserver
     SUBDIR += spider
     SUBDIR += tksol
     SUBDIR += xasteroids
