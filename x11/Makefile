@@ -7,6 +7,7 @@
     SUBDIR += Xaw3d
     SUBDIR += afterstep
     SUBDIR += auis
+    SUBDIR += bclock
     SUBDIR += blast
     SUBDIR += blt
     SUBDIR += bricons
