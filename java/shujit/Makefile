@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PREFIX}/jdk1.1.8/bin/java:${PORTSDIR}/lang/jdk
 
 .include <bsd.port.pre.mk>
 .if ${OSVERSION} < 400002
-BUILD_DEPENDS=	${PREFIX}/bin/egcc:${PORTSDIR}/lang/egcs
+BUILD_DEPENDS+=	${PREFIX}/bin/egcc:${PORTSDIR}/lang/egcs
 .endif
 
 WRKSRC=		${WRKDIR}/shujit
