@@ -14,6 +14,7 @@
     SUBDIR += dvi2tty
     SUBDIR += elvis
     SUBDIR += escpf
+    SUBDIR += ewipe
     SUBDIR += expect
     SUBDIR += gawk
     SUBDIR += ghostscript
