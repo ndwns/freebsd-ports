@@ -19,6 +19,7 @@ LIB_DEPENDS=	Imlib.2:${PORTSDIR}/graphics/imlib
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib"
 
 MAN1=		Eterm.1
 
