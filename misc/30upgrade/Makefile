@@ -28,4 +28,8 @@ do-install:
 	${SED} -e "s/%%VERSION%%/${BSDPORTMKVERSION}/" ${PKGDIR}/INSTALL \
 		> ${PKGINSTALL}
 
+deinstall:
+	@${ECHO} "You can't delete this port."
+	@${FALSE}
+
 .include <bsd.port.post.mk>
