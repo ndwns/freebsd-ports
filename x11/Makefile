@@ -67,6 +67,7 @@
     SUBDIR += tkgoodstuff
     SUBDIR += tvtwm
     SUBDIR += viewfax
+    SUBDIR += windowmaker
     SUBDIR += wm2
     SUBDIR += x3270
     SUBDIR += xalarm
