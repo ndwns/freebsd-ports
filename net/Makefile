@@ -54,6 +54,7 @@
     SUBDIR += netcat
     SUBDIR += netpipes
     SUBDIR += nettest
+    SUBDIR += nslint
     SUBDIR += p5-Archie
     SUBDIR += p5-Net
     SUBDIR += p5-Net-DNS
