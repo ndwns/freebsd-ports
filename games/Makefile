@@ -58,6 +58,7 @@
     SUBDIR += libshhcards
     SUBDIR += lincity
     SUBDIR += maelstrom
+    SUBDIR += mangband
     SUBDIR += merlin
     SUBDIR += nethack
     SUBDIR += nethack-qt
