@@ -1,14 +1,14 @@
 # New ports collection makefile for:	mgv
-# Version required:	mgv-2.3.1
+# Version required:	mgv-2.4.3
 # Date created:		4 Mar 1998
 # Whom:			handy@physics.montana.edu
 #
 # $Id$
 #
 
-DISTNAME=	mgv-2.3.1
+DISTNAME=	mgv-2.4.3
 CATEGORIES=	print
-MASTER_SITES=	http://home.echo-on.net/~mu/srcs/
+MASTER_SITES=	http://www.trends.net/~mu/srcs/
 
 MAINTAINER=	ports@freebsd.org
 
