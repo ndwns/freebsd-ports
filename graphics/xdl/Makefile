@@ -8,7 +8,7 @@
 
 DISTNAME=	xdl-2.1
 CATEGORIES=	graphics x11
-MASTER_SITES=	ftp://ftp.uoknor.edu/src/X11R5/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	asami@FreeBSD.ORG
 
