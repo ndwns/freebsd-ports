@@ -15,8 +15,6 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
 
-BROKEN_ELF=	yes
-
 HAS_CONFIGURE=	YES
 CONFIGURE_ARGS=	--prefix=${PREFIX}/lib/rwhois
 INSTALL_TARGET=	install install-sample-data install-chroot
