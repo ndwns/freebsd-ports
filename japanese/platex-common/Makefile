@@ -30,7 +30,6 @@ MAINTAINER=	max@sfc.wide.ad.jp
 BUILD_DEPENDS=  ptex:${PORTSDIR}/japanese/ptex2
 RUN_DEPENDS=    ptex:${PORTSDIR}/japanese/ptex2
 
-IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/9509b
 
 pre-fetch:
@@ -80,24 +79,6 @@ do-build:
 	@(cd ${WRKDIR}/base ; yes | initex unpack.ins ; initex latex.ltx)
 	@(cd ${WRKSRC} ; TEXINPUTS=".:${WRKDIR}/base" ; export TEXINPUTS ; \
 	yes | iniptex plcore.ins ; iniptex platex.ltx) 
-
-pre-install:
-	@echo "*************************************************************"
-	@echo "*                      W a r n i n g                        *"
-	@echo "* This port will overwrite the existing latex installation. *"
-	@echo "*************************************************************"
-	@echo -n "Is this ok? (y/n) ==> "
-	@(read ans; \
-	  case x"$$ans" in \
-	    xy*|xY*) \
-	        return 0; \
-	        ;; \
-	    *) \
-	        echo "Okay, I won't install it then...."; \
-	        echo "(Don't worry about the following \"*** Error code 1\"s)"; \
-	        return 1; \
-	        ;; \
-	  esac)
 
 do-install:
 	@rm -rf /usr/local/lib/texmf/tex/latex2e/base/*
