@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       tin1.3-unoff-BETA-970731
-PKGNAME=        tin-1.3.970731
+DISTNAME=       tin1.3-unoff-BETA-970826
+PKGNAME=        tin-1.3.970826
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.akk.uni-karlsruhe.de/pub/tin/  \
 		ftp://nuxi.ucdavis.edu/pub/tin/  \
@@ -24,6 +24,8 @@ CONFIGURE_ARGS+= --with-nntp-default-server=news  \
 		 --with-libdir=${PREFIX}/news/lib \
 		 --with-mime-default-charset=US-ASCII \
 		 --enable-forgery \
+		 --enable-curses \
+		 --with-ncurses \
 		 --enable-break-long-lines \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
