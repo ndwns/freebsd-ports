@@ -20,6 +20,7 @@
     SUBDIR += numpy
     SUBDIR += octave
     SUBDIR += oleo
+    SUBDIR += p5-MatrixReal
     SUBDIR += pari
     SUBDIR += plplot
     SUBDIR += simpack
