@@ -15,6 +15,7 @@ MAINTAINER=	JBD01226@niftyserve.ne.jp
 
 RUN_DEPENDS=    mf:${PORTSDIR}/print/tex
 
+USE_XLIB=	yes
 GNU_CONFIGURE=YES
 #CONFIGURE_ARGS=--enable-shared=yes
 USE_GMAKE=YES
