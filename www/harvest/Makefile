@@ -9,8 +9,7 @@
 DISTNAME=	harvest-1.4.pl2
 PKGNAME=	harvest-1.4.2
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.town.hall.org/pub/harvest/ \
-		ftp://ftp.cs.colorado.edu/pub/distribs/harvest/ \
+MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/distribs/harvest/ \
 		ftp://ftp.ask.uni-karlsruhe.de/pub/infosystems/harvest/ \
 		ftp://ftp.sunet.se/pub/nir/harvest/
 EXTRACT_SUFX=	-src.tar.gz
