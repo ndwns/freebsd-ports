@@ -13,7 +13,7 @@ MASTER_SITES=	http://metalab.unc.edu/kevina/aspell/ \
 		ftp://ftp.kddlabs.co.jp/pub/Tools/aspell/ \
 		ftp://maroon.webmaster.com/pub/aspell/
 
-MAINTAINER=	josh@quick.net
+MAINTAINER=	ade@lovett.com
 
 .include <bsd.port.pre.mk>
 .if ${OSVERSION} < 400004
