@@ -6,7 +6,7 @@
     SUBDIR += chimera
     SUBDIR += elvis
     SUBDIR += gawk
-    SUBDIR += ghostcript
+    SUBDIR += ghostscript
     SUBDIR += grep
     SUBDIR += groff
     SUBDIR += gxditview
