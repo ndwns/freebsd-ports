@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=		pavuk-0.9pl3
-PKGNAME=		pavuk-0.9.3
+DISTNAME=		pavuk-0.9pl5
+PKGNAME=		pavuk-0.9.5
 CATEGORIES=		net www
 MASTER_SITES=		ftp://ftp.idata.sk/pub/unix/www/ \
 			ftp://ftp.max.irk.ru/pub/unix/net/www/wget/ \
