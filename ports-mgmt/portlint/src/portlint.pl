@@ -40,7 +40,7 @@ $portdir = '.';
 # version variables
 my $major = 2;
 my $minor = 5;
-my $micro = 2;
+my $micro = 3;
 
 sub l { '[{(]'; }
 sub r { '[)}]'; }
@@ -90,6 +90,7 @@ usage: $prog [-AabchvtN] [-M ENV] [-B#] [port_directory]
 	-a	additional check for scripts/* and pkg-*
 	-A	turn on all additional checks (equivalent to -abcNt)
 	-b	warn \$(VARIABLE)
+	-C	pedantic committer mode (equivalent to -abct)
 	-c	committer mode
 	-h	show summary of command line options
 	-v	verbose mode
@@ -107,16 +108,16 @@ sub version {
 	exit $major;
 }
 
-getopts('AabchtvB:M:NV');
+getopts('AabCchtvB:M:NV');
 
 &usage if $opt_h;
 &version if $opt_V;
-$extrafile = 1 if $opt_a || $opt_A;
-$parenwarn = 1 if $opt_b || $opt_A;
-$committer = 1 if $opt_c || $opt_A;
+$extrafile = 1 if $opt_a || $opt_A || $opt_C;
+$parenwarn = 1 if $opt_b || $opt_A || $opt_C;
+$committer = 1 if $opt_c || $opt_A || $opt_C;
 $verbose = 1 if $opt_v;
 $newport = 1 if $opt_N || $opt_A;
-$usetabs = 1 if $opt_t || $opt_A;
+$usetabs = 1 if $opt_t || $opt_A || $opt_C;
 $contblank = $opt_B if $opt_B;
 $makeenv = $opt_M if $opt_M;
 
