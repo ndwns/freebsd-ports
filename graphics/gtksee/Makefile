@@ -9,7 +9,7 @@
 DISTNAME=	gtksee-0.2.1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
-		http://www.zg169.net/~hotaru/download/ \
+		http://www.zg169.net/~hotaru/gtksee/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
 MAINTAINER=	ibex@physik.TU-Berlin.DE
