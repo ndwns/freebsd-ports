@@ -11,11 +11,15 @@ PKGNAME=	aero-1.5.2
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.povray.org/pub/povray/modellers/aero/
 
+MAINTAINER=	erich@FreeBSD.org
+
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-EXEC_DEPENDS=	povray:${PORTSDIR}/graphics/povray
+RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
 .if !exists(${X11BASE}/lib/libfwf.a)
 DEPENDS=	${PORTSDIR}/x11/FWF
 .endif
+
+
 
 USE_X11=	yes
 WRKSRC=		work/aero/src
