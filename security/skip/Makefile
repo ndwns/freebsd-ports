@@ -12,7 +12,8 @@ CATEGORIES=		security
 #    http://skip.incog.com/src-form.html
 # The site below is outside of the U.S.
 
-MASTER_SITES=		ftp://ftp.replay.com/pub/replay/crypto/APPS/skip/
+MASTER_SITES=		ftp://ftp.asfkasdf.com/pub/replay/crypto/APPS/skip/ \
+			ftp://ftp.internat.freebsd.org/pub/FreeBSD/distfiles/
 
 DISTFILES=		skipsrc-1.0.tar.Z
 EXTRACT_SUFX=		tar.Z
