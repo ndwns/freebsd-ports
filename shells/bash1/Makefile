@@ -8,5 +8,6 @@
 
 GNU_MAKE=	yes
 DISTNAME=	bash-1.14.2
+MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 .include <bsd.port.mk>
