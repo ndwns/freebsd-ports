@@ -25,7 +25,7 @@ PKGNAME=	${DISTNAME}-gold
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
 MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
 		ftp://ftp.za.freebsd.org/pub/Fortify/
-DISTFILES+=	Fortify-1.2.6-unix-x86.tar.gz
+DISTFILES+=	Fortify-1.3.0-unix-x86.tar.gz
 RESTRICTED=     "Contains strong cryptography"
 .endif
 
@@ -37,7 +37,7 @@ pre-extract:
 
 post-install:
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
-	cd ${WRKSRC}/Fortify-1.2.6-unix-x86 && \
+	cd ${WRKSRC}/Fortify-1.3.0-unix-x86 && \
 		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${PREFIX}/lib/netscape/netscape.bin
 .endif
 	@${CAT} ${PKGDIR}/DESCR
