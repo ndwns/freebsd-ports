@@ -22,6 +22,6 @@ PATCH_STRIP=	-p1
 
 post-extract:
 	@echo "===>  Removing object files for ${DISTNAME}"
-	@(cd ${WRKDIR}/luna19/iprintf; rm -fr *.o)
+	@(cd ${WRKDIR}/luna19/iprintf; ${RM} -fr *.o)
 
 .include <bsd.port.mk>
