@@ -11,7 +11,7 @@ For more information, visit http://www.cs.princeton.edu/software/cii/.
 -----
 David R. Hanson
 drh@microsoft.com / http://www.research.microsoft.com/~drh/
-$Id$
+$FreeBSD$
 ---
 FreeBSD note: in /usr/local
 lib/libcii.a	->	lib/cii/1/libcii.a

@@ -13,7 +13,7 @@
 # bsd.port.mk.  There are significant differences in those so you'll have
 # hard time upgrading this...
 #
-# $Id$
+# $FreeBSD$
 #
 
 $err = $warn = 0;

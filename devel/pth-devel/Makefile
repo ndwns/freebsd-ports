@@ -3,7 +3,7 @@
 # Date Created:			17 Aug 1999
 # Whom:				Ralf S. Engelschall
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pth-1.1b7
