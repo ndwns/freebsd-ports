@@ -35,7 +35,8 @@ PILINCDIR=	${PREFIX}/include/python1.5
 TKINTERORIG=	${PYTHONSCRIPTDIR}/lib-dynload/_tkinter.so
 
 post-extract:
-	@(cd ${WRKDIR}; ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/pyth151.tgz \
+	@(cd ${WRKDIR}; ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
+	    ${_DISTDIR}/pyth151.tgz ${EXTRACT_AFTER_ARGS} \
 	    Python-1.5.1/Modules/_tkinter.c Python-1.5.1/Modules/tkappinit.c)
 	@${MV} ${WRKDIR}/Python-1.5.1/Modules/* ${WRKSRC}/..
 	@${CP} ${FILESDIR}/Setup ${WRKSRC}/..
