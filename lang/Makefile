@@ -1,10 +1,9 @@
 # $Id$
 #
 # BROKEN: expect (no package file yet)
-# BROKEN: gnat (needs gnat1 somewhere on system)
 #
 
-SUBDIR=	Gofer STk Sather elk forth g77 gcl guile-ii \
+SUBDIR=	Gofer STk Sather elk forth g77 gcl gnat guile-ii \
 	icon itcl logo mit-scheme nTk p2c perl5 \
 	scheme48 schemetoc scm smalltalk tcl tclX
 
