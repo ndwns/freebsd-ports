@@ -17,6 +17,7 @@
    SUBDIR += rxvt
    SUBDIR += sxpc
    SUBDIR += tk
+   SUBDIR += tk4
    SUBDIR += tkhfs
    SUBDIR += tkinfo
    BROKEN += tkman
