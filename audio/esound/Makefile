@@ -20,6 +20,6 @@ GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/esound
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
