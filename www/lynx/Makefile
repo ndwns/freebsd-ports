@@ -14,6 +14,7 @@ MASTER_SITES=   http://sol.slcc.edu/lynx/current/
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+BROKEN=		"doesn't build on -current"
 WRKSRC=         ${WRKDIR}/lynx2-7-1
 GNU_CONFIGURE=  YES
 CONFIGURE_ARGS= --with-screen=ncurses
