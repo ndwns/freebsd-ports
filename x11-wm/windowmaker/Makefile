@@ -30,7 +30,7 @@ CONFIGURE_ENV=	X11BASE=${X11BASE} LIBS=-L${LOCALBASE}/lib \
 CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
 	--with-nlsdir=${LOCALBASE}/lib/locale \
 	--with-gfx-libs="-L${LOCALBASE}/lib" \
-	--with-gfx-incs="-I${LOCALBASE}/include -I${LOCALBASE}/include/giflib" \
+	--with-gfx-incs="-I${LOCALBASE}/include" \
 	--disable-debug
 
 MAN1=	geticonset.1x getstyle.1x seticons.1x setstyle.1x \

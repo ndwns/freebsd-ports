@@ -24,9 +24,7 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 USE_QT=		yes
 KDEDIR?=	$(PREFIX)
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	"--with-extra-includes=$(PREFIX)/include/giflib"
 USE_GMAKE=	yes
-
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555" \
 		KDEDIR="${KDEDIR}"

@@ -22,9 +22,7 @@ LIB_DEPENDS=	qt.2:${PORTSDIR}/x11-toolkits/qt142 \
 		kdeui.2:${PORTSDIR}/x11/kdelibs11
 
 HAS_CONFIGURE=	yes
-CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
-		"--with-extra-includes=$(PREFIX)/include/giflib"
-
+CONFIGURE_ARGS=	"--prefix=$(PREFIX)"
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
 

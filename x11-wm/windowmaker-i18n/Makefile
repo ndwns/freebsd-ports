@@ -34,7 +34,6 @@ CONFIGURE_ENV=	X11BASE=${X11BASE}  LOCALBASE=${LOCALBASE} \
 		LINGUAS="de es fi fr hr it ja_JP.EUC ko nl no pl pt ru"
 CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
 	--with-nlsdir=${PREFIX}/share/locale \
-	--with-gfx-incs="-I${LOCALBASE}/include/giflib" \
 	--disable-debug --enable-kanji --disable-shared
 
 MAN1=	geticonset.1x getstyle.1x seticons.1x setstyle.1x \

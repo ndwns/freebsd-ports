@@ -21,8 +21,7 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE= yes
-CONFIGURE_ARGS= "--prefix=$(PREFIX)" \
-		"--with-extra-includes=$(PREFIX)/include/giflib"
+CONFIGURE_ARGS= "--prefix=$(PREFIX)"
 USE_GMAKE=	yes
 
 CONFIGURE_ENV= CXXFLAGS="$(CFLAGS)" \
