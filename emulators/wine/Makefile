@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DATE=		951003
+DATE=		951105
 DISTNAME=       Wine-${DATE}
-PKGNAME=	wine-95.10.03
+PKGNAME=	wine-95.11.05
 CATEGORIES+=	emulation x11
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/ALPHA/wine/ \
 		ftp://aris.com/pub/linux/ALPHA/Wine/development/ \
