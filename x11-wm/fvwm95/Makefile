@@ -22,7 +22,10 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--includedir=/usr/local/include \
 		--libdir=/usr/local/lib
 
-post-configure:
-	@${ECHO} "See the sample.fvwm95rc file in the files directory"
+MAN1=		fvwm95.1
+
+post-install:
+		@${INSTALL_MAN}	$(WRKSRC)/fvwm/fvwm95.man \
+				$(PREFIX)/man/man1/fvwm95.1
 
 .include <bsd.port.mk>
