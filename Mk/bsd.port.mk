@@ -517,16 +517,23 @@ checksum: fetch
 	@if [ ! -f ${MD5_FILE} ]; then \
 		echo ">> No MD5 checksum file."; \
 	else \
-		(cd ${DISTDIR}; \
+		(cd ${DISTDIR}; OK="true"; \
 	for file in ${DISTFILES}; do \
 		CKSUM=`${MD5} $$file | awk '{print $$4}'`; \
 		CKSUM2=`grep "($$file)" ${MD5_FILE} | awk '{print $$4}'`; \
-		if [ "$$CKSUM" != "$$CKSUM2" ]; then \
+		if [ "$$CKSUM2" = "" ]; then \
+			echo ">> No checksum recorded for $$file"; \
+			OK="false"; \
+		elif [ "$$CKSUM" != "$$CKSUM2" ]; then \
 			echo ">> Checksum mismatch for $$file"; \
 			exit 1; \
 		fi; \
 		done); \
-		echo "Checksums OK."; \
+		if [ "$$OK" = "true" ]; then \
+			echo "Checksums OK."; \
+		else \
+			echo "Checksums OK for files that have them."; \
+        fi; \
 	fi
 .endif
 
