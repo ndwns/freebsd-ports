@@ -9,6 +9,7 @@
     SUBDIR += nntp
     SUBDIR += nntpbtr
     SUBDIR += rkive
+    SUBDIR += slurp
     SUBDIR += suck
     SUBDIR += tin
     SUBDIR += trn
