@@ -2,6 +2,7 @@
 #
 
     SUBDIR += archie
+    SUBDIR += cvsup
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dgd-net
