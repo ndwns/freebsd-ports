@@ -7,6 +7,7 @@
     SUBDIR += rtpmon
     SUBDIR += rtptools
     SUBDIR += sdr
+    SUBDIR += sdr25
     SUBDIR += speak_freely
     SUBDIR += vat
     SUBDIR += vic
