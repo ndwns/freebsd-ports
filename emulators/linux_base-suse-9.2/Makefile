@@ -31,6 +31,14 @@ do-install:
 post-install:
 	-/compat/linux/sbin/ldconfig
 	${MKDIR} ${PREFIX}/usr/lib/zoneinfo
-	ln -sf /etc/localtime /${PREFIX}/usr/lib/zoneinfo/localtime
+	${LN} -sf /etc/localtime /${PREFIX}/usr/lib/zoneinfo/localtime
+	${MKDIR} ${PREFIX}/dev
+	${LN} -sf /dev/console ${PREFIX}/dev/tty0
+	${LN} -sf /dev/ttyv0 ${PREFIX}/dev/tty1
+	${LN} -sf /dev/ttyv1 ${PREFIX}/dev/tty2
+	${LN} -sf /dev/ttyv2 ${PREFIX}/dev/tty3
+	${LN} -sf /dev/ttyv3 ${PREFIX}/dev/tty4
+	${LN} -sf /dev/sysmouse ${PREFIX}/dev/mouse
+	${LN} -sf /dev/psm0 ${PREFIX}/dev/psaux
 
 .include <bsd.port.mk>
