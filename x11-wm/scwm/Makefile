@@ -1,7 +1,7 @@
 # New ports collection makefile for:   scwm
 # Version required:    0.8a
 # Date created:        26 December 1997
-# Whom:                Yukihiro Nakai <Nakai@technologist.com
+# Whom:                Yukihiro Nakai <nacai@iname.com>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	scwm-0.8a
 CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://huis-clos.mit.edu/pub/scwm/
 
-MAINTAINER=	Nakai@technologist.com
+MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS=	guile.4:${PORTSDIR}/lang/guile \
 		Xpm.4:${PORTSDIR}/graphics/xpm
