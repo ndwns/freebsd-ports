@@ -6,8 +6,8 @@
 #
 # $Id$
 
-DISTNAME=	mutt-0.95.3i
-PKGNAME=	mutt-0.95.3
+DISTNAME=	mutt-0.95.4i
+PKGNAME=	mutt-0.95.4
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.guug.de/pub/mutt/  \
 		ftp://ftp.uib.no/pub/mutt/  \
