@@ -24,6 +24,6 @@ pre-configure:
 		@${CP} ${WRKSRC}/Authen/Radius.pm ${WRKSRC}
 
 do-configure:
-		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PREFIX}/bin/perl Makefile.PL
+		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PERL5} Makefile.PL
 
 .include <bsd.port.mk>

@@ -28,7 +28,7 @@ RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
 
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
-CONFIGURE_ARGS= --with-perl=${PREFIX}/bin/perl
+CONFIGURE_ARGS= --with-perl=${PERL5}
 
 MAN1=	eperl.1
 

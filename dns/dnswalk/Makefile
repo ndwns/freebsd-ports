@@ -24,7 +24,7 @@ DOC_DIR=	${PREFIX}/share/doc/dnswalk
 
 pre-configure:
 	${MV} -f ${WRKDIR}/dnswalk ${WRKDIR}/dnswalk.orig
-	${SED} -e "s#/usr/contrib/bin/perl#${PREFIX}/bin/perl#"\
+	${SED} -e "s#/usr/contrib/bin/perl#${PERL5}#"\
 		 < ${WRKDIR}/dnswalk.orig > ${WRKDIR}/dnswalk
 
 do-install:

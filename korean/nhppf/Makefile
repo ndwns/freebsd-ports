@@ -20,7 +20,7 @@ RUN_DEPENDS=    ${PREFIX}/share/fonts/HLaTeX-0.95-pfb:$(PORTSDIR)/korean/hlatexp
 
 do-configure:
 	@cd ${WRKSRC}; \
-	${ECHO_MSG} "#!${PREFIX}/bin/perl5.003" > scriptheader; \
+	${ECHO_MSG} "#!${PERL5}" > scriptheader; \
 	${CAT} scriptheader nhppf > nhppf.new
 
 do-install:

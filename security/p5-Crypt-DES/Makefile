@@ -22,6 +22,6 @@ MAN3=		Crypt::DES.3
 MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
-		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
+		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
 
 .include <bsd.port.mk>

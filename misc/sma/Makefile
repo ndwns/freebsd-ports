@@ -25,7 +25,7 @@ do-extract:
 	@${MKDIR} ${WRKDIR}
 
 pre-configure:
-	@${SED} -e '1,1s:/usr/bin/perl:${PREFIX}/bin/perl5.00404:' \
+	@${SED} -e '1,1s:/usr/bin/perl:${PERL5}:' \
 		-e '/\$debug = 3/s//\$debug = 0/' \
 		${DISTDIR}/SMA.pl > ${WRKDIR}/sma
 

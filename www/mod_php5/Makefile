@@ -40,7 +40,7 @@ CONFIGURE_ARGS= \
 		 --enable-module=most \
 		 --enable-module=auth_db \
 		 --disable-module=auth_dbm \
-		 --with-perl=${PREFIX}/bin/perl5 \
+		 --with-perl=${PERL5} \
 		 --activate-module=src/modules/php3/libphp3.a
 
 OPTIM=-DHARD_SERVER_LIMIT=512 \

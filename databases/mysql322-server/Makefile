@@ -25,8 +25,8 @@ CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-debug \
 		--without-readline \
 		--without-bench
-CONFIGURE_ENV+=	PERL=${PREFIX}/bin/perl \
-		PERL5=${PREFIX}/bin/perl5 \
+CONFIGURE_ENV+=	PERL=${PERL5} \
+		PERL5=${PERL5} \
 		INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 
 OSVERSION!=	sysctl -n kern.osreldate
@@ -62,7 +62,7 @@ pre-install:
 .if defined(PACKAGE_BUILDING)
 	@ ${RM} -rf /var/db/mysql
 .endif
-	@ ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl ${SCRIPTDIR}/check_old_version
+	@ ${SETENV} ${MAKE_ENV} ${PERL5} ${SCRIPTDIR}/check_old_version
 
 post-install:
 	${MKDIR} ${PREFIX}/share/mysql/mysql

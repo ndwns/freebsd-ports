@@ -30,6 +30,6 @@ MAN1=		html2ps.1
 MAN5=		html2psrc.5
 
 do-install:
-	@cd ${WRKSRC}; ${PREFIX}/bin/perl5 install
+	@cd ${WRKSRC}; ${PERL5} install
 
 .include <bsd.port.mk>

@@ -20,6 +20,7 @@ LIB_DEPENDS=    tk42\\.1\\.:${PORTSDIR}/x11-toolkits/tk42
 
 NO_BUILD=       yes
 USE_PERL5=	yes
+MAKE_ENV=	PERL5=${PERL5}
 
 pre-configure:
 	${MV} ${WRKSRC}/install.pl ${WRKSRC}/install.pl.in
