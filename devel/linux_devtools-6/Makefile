@@ -19,8 +19,7 @@ NO_FILTER_SHLIBS=	yes
 PREFIX=		/compat/linux
 NO_MTREE=	yes
 NO_BUILD=	yes
-NO_EXTRACT=	yes
-NO_WRKDIR=	yes
+EXTRACT_ONLY=	# empty
 
 MANPREFIX=	${PREFIX}/usr
 MANCOMPRESSED=	yes
