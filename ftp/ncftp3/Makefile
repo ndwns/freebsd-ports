@@ -16,7 +16,7 @@ MAINTAINER=	obrien@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/-src//}
 GNU_CONFIGURE=	yes
-#CONFIGURE_ARGS=	--disable-curses
+CONFIGURE_ARGS=	--disable-curses
 MAN1=		ncftp3.1 ncftpbatch.1 ncftpget.1 ncftpls.1 ncftpput.1
 MAN3=		Strn.3
 NO_LATEST_LINK=	yes
