@@ -19,6 +19,7 @@ INSTALL_TARGET= install install-elf
 WRKSRC=         ${WRKDIR}/slang
 
 post-install:
+	rm -f ${PREFIX}/lib/libslang.so.99.34
 	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
