@@ -21,7 +21,7 @@ USE_IMAKE=	yes
 
 
 pre-install:
-	@${MKDIR} ${PREFIX}/share/help
+	@${MKDIR} ${PREFIX}/lib/help
 
 post-install:
 	@${CAT} ${PKGDIR}/MESSAGE
