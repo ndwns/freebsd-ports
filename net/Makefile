@@ -125,6 +125,7 @@
     SUBDIR += xarchie
     SUBDIR += xicq
     SUBDIR += xipmsg
+    SUBDIR += yagirc
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
     SUBDIR += zebra
