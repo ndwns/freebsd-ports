@@ -7,7 +7,6 @@
     SUBDIR += Xaw3d
     SUBDIR += afterstep
     SUBDIR += asfiles
-    SUBDIR += asmail
     SUBDIR += auis
     SUBDIR += bclock
     SUBDIR += blast
