@@ -10,6 +10,7 @@
     SUBDIR += pib
     SUBDIR += rtty
     SUBDIR += socket
+    SUBDIR += star
     SUBDIR += stat
     SUBDIR += su2
     SUBDIR += tcplist
