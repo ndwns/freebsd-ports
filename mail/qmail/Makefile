@@ -16,6 +16,7 @@ MASTER_SITES=	ftp://koobera.math.uic.edu/pub/software/ \
 		ftp://ftp.id.wustl.edu/pub/qmail/ \
 		ftp://ftp.pipex.net/mirrors/qmail/ \
 		ftp://ftp.jp.qmail.org/qmail/
+# These patches may not apply to versions after 1.02
 #PATCH_SITES=	http://hippo.ail-inc.co.jp/air/ports/patches/
 #PATCHFILES=	patch-qmail-date-localtime.gz \
 #		patch-qmail-smtpd.gz
