@@ -51,6 +51,7 @@
     SUBDIR += rmsg
     SUBDIR += rshell
     SUBDIR += rsync
+    SUBDIR += rumba
     SUBDIR += rwhois
     SUBDIR += samba
     SUBDIR += scotty
