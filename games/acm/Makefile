@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.warwick.ac.uk/pub/x11/
 
 MAINTAINER=	joerg@FreeBSD.org
 
+BROKEN_ELF=	build
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	${SH} -x	# don't ask me why, will fail otherwise
 STRIP=
@@ -25,6 +27,6 @@ MAN6=		acm.6
 .if defined(USE_SOUND) && ${USE_SOUND} == YES || \
     exists(${PREFIX}/lib/libaudio.a) && \
     (!defined(USE_SOUND) || ${USE_SOUND} != NO)
-LIB_DEPENDS+=   audio\\.7\\.:${PORTSDIR}/audio/nas
+LIB_DEPENDS+=   audio.7:${PORTSDIR}/audio/nas
 .endif
 
