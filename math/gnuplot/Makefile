@@ -14,6 +14,7 @@ DISTFILES=	gnuplot-beta336.tar.gz
 
 MAINTAINER=	chuckr@FreeBSD.org
 
+LIB_DEPENDS=	png\\.0\\.[7-9]:${PORTSDIR}/graphics/png
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} --exec-prefix=${PREFIX} --with-x --without-linux-vga --with-gnu-readline --with-lasergnu --with-png --includedir=/usr/local/include
 
