@@ -18,6 +18,9 @@ MAN1=		fetchmail.1
 
 FDOC=   ${PREFIX}/share/doc/fetchmail
 
+post-patch:
+	cp /usr/include/md5.h ${WRKSRC}
+
 post-install:
 	install -d -m 555 -o ${DOCOWN} -g ${DOCGRP} ${FDOC}
 	cd ${WRKSRC} && ${INSTALL_DATA} \
