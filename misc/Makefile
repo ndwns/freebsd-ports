@@ -57,7 +57,6 @@
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
     SUBDIR += p5-Locale-Codes
-    SUBDIR += p5-Search
     SUBDIR += pdmenu
     SUBDIR += qclock
     SUBDIR += quotes
