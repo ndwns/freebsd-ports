@@ -13,6 +13,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	imp@FreeBSD.ORG
 
+USE_XLIB=	yes
 GNU_CONFIGURE=	yes
 MAN6?=		seahaven.6
 
