@@ -1,5 +1,5 @@
 # New ports collection makefile for:    tth
-# Version required:     2.20
+# Version required:     2.22
 # Date created:         19 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
@@ -7,9 +7,10 @@
 #
 
 DISTNAME=       tth_C
-PKGNAME=	tth-2.20
+PKGNAME=	tth-2.22
 CATEGORIES=	textproc
-MASTER_SITES=	http://hutchinson.belmont.ma.us/tth/tth-noncom/
+MASTER_SITES=	http://www.freebsd.org/~tg/ \
+		http://hutchinson.belmont.ma.us/tth/tth-noncom/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
