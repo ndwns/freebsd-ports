@@ -1,5 +1,5 @@
 # New ports collection makefile for:    xpilot
-# Version required:	3.6.1
+# Version required:	4.1.0
 # Date created:         18 July 1995
 # Whom:                 jmacd
 #
