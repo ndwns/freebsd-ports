@@ -19,8 +19,8 @@ MAN1=		gmake.1
 
 # joerg@freebsd.org says our getloadavg() no longer requires setgid kmem
 post-install:
-	/bin/chmod g-s ${PREFIX}/bin/gmake
-	/usr/bin/chgrp ${BINGRP} ${PREFIX}/bin/gmake
+	chmod g-s ${PREFIX}/bin/gmake
+	chgrp ${BINGRP} ${PREFIX}/bin/gmake
 	${INSTALL_MAN} ${WRKSRC}/make.man ${PREFIX}/man/man1/gmake.1
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
