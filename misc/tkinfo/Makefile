@@ -9,9 +9,8 @@
 DISTNAME=	tkinfo-0.6
 CATEGORIES+=	misc
 MASTER_SITES=	ftp://ptolemy.eecs.berkeley.edu/pub/misc/
-EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@freebsd.org
 
 RUN_DEPENDS=	wish:${PORTSDIR}/x11/tk
 
