@@ -80,6 +80,7 @@
     SUBDIR += tinyfugue
     SUBDIR += traceroute
     SUBDIR += trafshow
+    SUBDIR += ttt
     SUBDIR += ucd-snmp
     SUBDIR += wais
     SUBDIR += wget
