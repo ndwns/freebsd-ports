@@ -6,6 +6,7 @@
     SUBDIR += bb
     SUBDIR += cap
     SUBDIR += cvsup
+    SUBDIR += cvsup-mirror
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dgd-net
