@@ -47,6 +47,7 @@
     SUBDIR += squid11
     SUBDIR += squid11-novm
     SUBDIR += squid12
+    SUBDIR += transproxy
     SUBDIR += vrweb
     SUBDIR += w3
     SUBDIR += w3c-httpd
