@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       ru-d1489-1.2
-CATEGORIES+=    russian utilities
+CATEGORIES+=    russian utils
 MASTER_SITES=   ftp://ftp.kiae.su/unix/convert/char/
 EXTRACT_SUFX=   .tgz
 
