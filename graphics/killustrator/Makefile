@@ -14,6 +14,8 @@ MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	kdecore\\.0\\.91:${PORTSDIR}/x11/kde
 
+BROKEN=		upgrade
+
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
