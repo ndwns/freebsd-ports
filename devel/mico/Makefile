@@ -12,8 +12,6 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	scrappy@freebsd.org
 
-WWW_SITE=	http://diamant.vsb.cs.uni-frankfurt.de/~mico/
-
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"

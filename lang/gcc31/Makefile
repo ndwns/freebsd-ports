@@ -28,8 +28,6 @@ DISTFILES=	egcs-chill-${SNAPVER}${EXTRACT_SUFX} \
 
 MAINTAINER=	obrien@FreeBSD.org
 
-WWW_SITE=	http://egcs.cygnus.com
-
 NO_CDROM=	'dated material'
 
 .include <bsd.port.pre.mk>

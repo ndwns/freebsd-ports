@@ -18,8 +18,6 @@ PATCHFILES=	openssl-0.9.2b-rsaoaep.patch
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-WWW_SITE=	http://www.openssl.org/
-
 ONLY_FOR_ARCHS=	i386
 RESTRICTED=	"Cryptography"
 USE_PERL5=	yes

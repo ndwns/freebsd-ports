@@ -17,8 +17,6 @@ MASTER_SITES=	ftp://ftp.netlab.co.jp/pub/lang/ruby/${BRANCH_NAME}/ \
 
 MAINTAINER=	yasuf@big.or.jp
 
-WWW_SITE=	http://www.netlab.co.jp/ruby/
-
 GNU_CONFIGURE=	yes
 #USE_AUTOCONF=	yes
 MAN1=		ruby.1

@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.big.or.jp/pub/usr2/jam/leafnode/
 
 MAINTAINER=	tom@eborcom.com
 
-WWW_SITE=	http://www.io.com/~kazushi/freeware/leafnode+.html
-
 MAN8=		checkgroups.8 fetchnews.8 leafnode.8 texpire.8
 
 .if defined(NOPORTDOCS)

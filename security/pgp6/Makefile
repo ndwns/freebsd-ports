@@ -18,7 +18,6 @@ EXTRACT_SUFX=   -unix-src.tar.gz
 MAINTAINER=	markm@FreeBSD.ORG
 
 Y2K=		http://www.pgpi.com/faq/pgpi.shtml#Year2000
-WWW_SITE=	http://www.pgpi.com/
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 HAS_CONFIGURE=	yes
