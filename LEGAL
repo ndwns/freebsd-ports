@@ -33,6 +33,7 @@ rkive3.1.tar.gz		ports/news/rkive	Restrictive copyright
 rman-2.4.tar.Z		ports/utils/rman	Restrictive copyright
 rzsz3_36.zip		ports/comms/rzsz	Restrictive copyright
 sattrack-3.1.4		ports/misc/sattrack	Don't sell for profit
+socks5-*		ports/net/socks5	No commercial use
 ssh-*			ports/security/ssh	Crypto; export-controlled
 SSLeay-0.5.1b.tar.gz	ports/security/SSLeay	Crypto; export-controlled
 spice-3f4		ports/cad/spice		Export restrictions
