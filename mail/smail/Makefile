@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	smail-3.2.0.97
+DISTNAME=	smail-3.2.0.101
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.uu.net/networking/mail/smail/ \
+		ftp://ftp.planix.com/pub/Smail/ \
 		ftp://ftp.fu-berlin.de/unix/mail/smail/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
