@@ -10,7 +10,7 @@ DISTNAME=		display
 PKGNAME=		display-1.0
 CATEGORIES=		misc
 MASTER_SITES=		ftp://ftp.uu.net/usenet/comp.sources.unix/volume8/
-EXTRACT_SUFX=
+EXTRACT_SUFX=		.Z
 
 PATCH_SITES=		${MASTER_SITES}
 PATCHFILES=		display.pch.Z
@@ -20,8 +20,9 @@ MAINTAINER=		ports@FreeBSD.ORG
 BUILD_DEPENDS=		gunshar:${PORTSDIR}/archivers/gshar+gunshar
 
 NO_WRKSUBDIR=		yes
-EXTRACT_CMD=		gunshar
+EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
+EXTRACT_AFTER_ARGS=	| gunshar -d ${WRKDIR}
 
 MAN1=			display.1
 
