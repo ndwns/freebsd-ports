@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://nuis.nuie.nagoya-u.ac.jp/info/nagoya-u/ \
 
 MAINTAINER=	max@FreeBSD.ORG
 
-BROKEN=		see PR# 6180 about exploitable security hole
+FORBIDDEN=	see PR# 6180 about exploitable security hole
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
