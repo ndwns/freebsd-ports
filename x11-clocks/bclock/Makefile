@@ -8,7 +8,8 @@
 
 DISTNAME=	bclock-1.0
 CATEGORIES=	x11-clocks
-MASTER_SITES=	http://dutian.twi.tudelft.nl/~vgeel/bclock/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	X11/clocks
 
 MAINTAINER=	ports@FreeBSD.ORG
 
