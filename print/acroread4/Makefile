@@ -15,6 +15,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+BROKEN_ELF=	library version numbers
+
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
 WRKSRC=		${WRKDIR}/ILINXR.install
