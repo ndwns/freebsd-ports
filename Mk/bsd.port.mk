@@ -561,9 +561,6 @@ do-install:
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
 .endif
 .endif
-.if !defined(NO_PACKAGE)
-	@${MAKE} ${.MAKEFLAGS} fake-pkg
-.endif
 .endif
 
 ################################################################
@@ -754,6 +751,9 @@ ${INSTALL_COOKIE}:
 		  DEPENDS="${DEPENDS}" \
 			sh ${SCRIPTDIR}/post-install; \
 	fi
+.if !defined(NO_PACKAGE)
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
+.endif
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 .endif
 
