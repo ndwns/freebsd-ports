@@ -2,6 +2,7 @@
 #
 
     SUBDIR += afio
+    SUBDIR += contool
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mkisofs
