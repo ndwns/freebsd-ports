@@ -36,6 +36,7 @@
     SUBDIR += dict
     SUBDIR += dip
     SUBDIR += dnswalk
+    SUBDIR += dnsutl
     SUBDIR += echoping
     SUBDIR += epic4
     SUBDIR += ethereal
