@@ -1,12 +1,12 @@
 # New ports collection makefile for:	Blackbox
-# Version required:	0.40.6
+# Version required:	0.40.7
 # Date created:		June 15, 1998
 # Whom:			Brian Handy <handy@physics.montana.edu>
 #
 # $Id$
 #
 
-DISTNAME=	blackbox-0.40.6
+DISTNAME=	blackbox-0.40.7
 CATEGORIES=	x11-wm
 MASTER_SITES=	http://linux.wiw.org/blackbox/sources/
 
