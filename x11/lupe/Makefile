@@ -6,17 +6,22 @@
 # $Id$
 #
 
-DISTNAME=	lupe007
-PKGNAME=	lupe-0.07
+DISTNAME=	lupe008
+PKGNAME=	lupe-0.08
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/X11/contrib/misc/
+MASTER_SITES=	http://www2s.biglobe.ne.jp/~yav/soft/
 
 MAINTAINER=	kazu@jp.freebsd.org
 
 WRKSRC=		${WRKDIR}/lupe
-USE_GMAKE=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 MAN1=		lupe.1
+
+post-install:
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/lupe
+	${INSTALL_MAN} ${WRKSRC}/lupe.doc ${PREFIX}/share/doc/lupe
+.endif
 
 .include <bsd.port.mk>
