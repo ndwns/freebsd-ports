@@ -192,6 +192,7 @@
     SUBDIR += tk80
     SUBDIR += today
     SUBDIR += truetypefonts
+    SUBDIR += tvi
     SUBDIR += typist
     SUBDIR += vfghostscript
     SUBDIR += vfghostscript5
