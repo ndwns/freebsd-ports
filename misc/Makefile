@@ -54,6 +54,7 @@
     SUBDIR += sma
     SUBDIR += splitvt
     SUBDIR += team
+    SUBDIR += tet
     SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
