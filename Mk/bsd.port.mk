@@ -290,6 +290,9 @@ ${INSTALL_COOKIE}:
 	@${MAKE} ${.MAKEFLAGS} pre-install
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
+.if defined(USE_IMAKE) && !defined(NO_INSTALL_MANPAGES)
+	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
+.endif
 .else defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
 .if defined(USE_IMAKE) && !defined(NO_INSTALL_MANPAGES)
