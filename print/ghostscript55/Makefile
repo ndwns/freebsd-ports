@@ -21,6 +21,8 @@ BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg:extract \
 		unzip:${PORTSDIR}/archivers/unzip
 LIB_DEPENDS=	png.2:${PORTSDIR}/graphics/png
 
+BROKEN=		upgrade
+
 USE_XLIB=	yes
 EXTRACT_ONLY=	${GS_SOURCES}
 WRKSRC=		${WRKDIR}/gs5.50
