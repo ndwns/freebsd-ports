@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 		ftp://ftp.demos.su/unix/linux/source/fido/ \
 		ftp://ftp.average.org/ifmail/ \
 		ftp://ftp.dinoex.sub.de/pub/approved/
-MASTER_SITE_SUBDIR=	fido/mail/
+MASTER_SITE_SUBDIR=	fido/mail
 
 MAINTAINER=     dirk.meyer@dinoex.sub.org
 

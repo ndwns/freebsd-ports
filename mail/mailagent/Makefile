@@ -10,7 +10,7 @@ DISTNAME=		mailagent-3.0@58
 PKGNAME=		mailagent-3.0.58
 CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN}
-MASTER_SITE_SUBDIR=	../../authors/id/RAM/
+MASTER_SITE_SUBDIR=	../../authors/id/RAM
 
 MAINTAINER=	max@FreeBSD.ORG
 

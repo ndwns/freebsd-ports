@@ -8,7 +8,7 @@
 
 DISTNAME=       nulib-3.25
 CATEGORIES=	archivers
-MASTER_SITES=	ftp://apple2.caltech.edu//Zocalo/pub/apple2/ARCHIVERS/
+MASTER_SITES=	ftp://apple2.caltech.edu/%2FZocalo/pub/apple2/ARCHIVERS/
 DISTFILES=	nulib325.tar.Z
 WRKSRC=		${WRKDIR}/nulib
 

@@ -9,7 +9,7 @@
 DISTNAME=	psutils-p17
 PKGNAME=	psutils-${PAPERSIZE}-1.17
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.dcs.ed.ac.uk//pub/ajcd/
+MASTER_SITES=	ftp://ftp.dcs.ed.ac.uk/pub/ajcd/
 
 MAINTAINER=	jmz@FreeBSD.org
 

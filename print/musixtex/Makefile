@@ -8,7 +8,7 @@
 
 DISTNAME=       musixtex-T80
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.tex.ac.uk//tex-archive/macros/musixtex/taupin/
+MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/macros/musixtex/taupin/
 DISTFILES=      musixtex-T80.tar.gz musixexa-T79.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org

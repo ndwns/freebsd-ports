@@ -10,7 +10,7 @@ DISTNAME=	XFrisk-0.99c0pl9
 PKGNAME=	xfrisk-0.99c09
 CATEGORIES=	games
 MASTER_SITES=	$(MASTER_SITE_XCONTRIB)
-MASTER_SITE_SUBDIR=	games/multiplayer/
+MASTER_SITE_SUBDIR=	games/multiplayer
 
 MAINTAINER=	mph@pobox.com
 

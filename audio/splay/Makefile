@@ -9,7 +9,7 @@
 DISTNAME=		splay-0.5
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	apps/sound/players/
+MASTER_SITE_SUBDIR=	apps/sound/players
 
 MAINTAINER=		junker@jazz.snu.ac.kr
 
