@@ -16,6 +16,7 @@
     SUBDIR += cccc
     SUBDIR += cflow
     SUBDIR += clig
+    SUBDIR += cons
     SUBDIR += crossgo32
     SUBDIR += crossgo32-djgpp2
     SUBDIR += crossgo32-djgpp2-pdcurses
