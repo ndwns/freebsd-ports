@@ -33,7 +33,7 @@ do-fetch:
 	  echo ">> Fetching files from remote site...";  \
 	  for file in ${SOURCEFILES}; do \
 	    (cd ${.CURDIR}/src/xfed; \
-	      ${NCFTP} ${NCFTPFLAGS} ${SOURCESITE}\{$$file\}); \
+	      ${FETCH_CMD} ${FETCH_BEFORE_ARGS} ${SOURCESITE}\{$$file\} ${FETCH_AFTER_ARGS}); \
 	  done; \
 	  echo ">> Now creating a tarball ${DISTDIR}/${TARFILE}..."; \
 	  tar -C ${.CURDIR}/src -cf - xfed | \
