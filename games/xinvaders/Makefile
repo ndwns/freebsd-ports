@@ -13,7 +13,6 @@ MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/games/x11/video/
 
 USE_IMAKE=	yes
 
-# "don't sell for profit" copyright
-NO_PACKAGE=	yes
+NO_CDROM=	yes	# "don't sell for profit"
 
 .include <bsd.port.mk>
