@@ -8,6 +8,7 @@
     SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
     SUBDIR += glimpse
+    SUBDIR += gxditview
     SUBDIR += html
     SUBDIR += info2html
     SUBDIR += isearch
