@@ -15,9 +15,9 @@ RUN_DEPENDS += ${X11BASE}/lib/X11/nls/ru_SU.KOI8-R:${PORTSDIR}/russian/X.languag
 RUN_DEPENDS += netscape:${PORTSDIR}/www/netscape3
 
 RESTRICTED=     "Includes a copyrighted file from Netscape"
-NO_EXTRACT=     YES
+EXTRACT_ONLY=   # empty
 NO_BUILD=       YES
-NO_WRKDIR=      YES
+NO_WRKSUBDIR=   YES
 USE_X_PREFIX=   YES
 
 APPDEF = ${X11BASE}/lib/X11/app-defaults
