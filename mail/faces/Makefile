@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/faces/ \
 		ftp://odie.physik2.uni-rostock.de/pub/
 EXTRACT_SUFX=	.tar.Z
 		
-MAINTAINER=	Lars_Koeller@odie.physik2.uni-rostock.de
+MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 
 WRKSRC=		$(WRKDIR)/faces
 MAN1=		compface.1 faces.1 face_update.1
