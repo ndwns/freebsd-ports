@@ -97,6 +97,7 @@
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xbomb
+    SUBDIR += xchadance
     SUBDIR += xchain
     SUBDIR += xchomp
     SUBDIR += xcogitate
@@ -143,6 +144,7 @@
     SUBDIR += xoct
     SUBDIR += xoids
     SUBDIR += xonix
+    SUBDIR += xosmulti
     SUBDIR += xothello
     SUBDIR += xpacman
     SUBDIR += xpanex
