@@ -1,5 +1,5 @@
 # New ports collection Makefile for: rxvt
-# Version required:	2.16
+# Version required:	2.20
 # Date created:         5th December 1994
 # Whom:                 gpalmer@FreeBSD.org
 #
