@@ -107,6 +107,7 @@
     SUBDIR += p5-SNMP
     SUBDIR += p5-pRPC
     SUBDIR += pathchar
+    SUBDIR += pavuk
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += portscanner
