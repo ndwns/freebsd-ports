@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/X11/wm/amiwm/
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN=		build
+
 #WRKSRC=		${WRKDIR}/amiwm
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
