@@ -37,6 +37,7 @@
     SUBDIR += tua
     SUBDIR += ucspi-tcp
     SUBDIR += upsd
+    SUBDIR += wmavgload
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
