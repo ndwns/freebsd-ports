@@ -9,8 +9,7 @@
 DISTNAME=	pcb-1.2.patch_02
 MASTER_SITES=	ftp://pluto.medizin.uni-ulm.de/pub/pcb-1.2/
 EXTRACT_SUFX=.tar.gz
-DEPENDS=        /devel/m4
-#DEPENDS=        ${PORTSDIR}/devel/m4
+DEPENDS=        ${PORTSDIR}/devel/m4
 MAKE_FLAGS=	-f
 MAKEFILE=	makefile
 USE_IMAKE=
