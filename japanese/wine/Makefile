@@ -17,6 +17,8 @@ MAINTAINER=	Takashi Uozu <j1594016@ed.kagu.sut.ac.jp>
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		fetch
+
 WRKSRC=		${WRKDIR}/wine971130
 PATCH_STRIP=	-p1
 GNU_CONFIGURE=	yes
