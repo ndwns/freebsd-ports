@@ -1,14 +1,15 @@
 # New ports collection makefile for:    rsync
-# Version required:     0.37
+# Version required:     1.6.2
 # Date created:         Sat Aug 3, 1996
 # Whom:                 David O'Brien (obrien@cs.ucdavis.edu)
 #
 # $Id$
 #
 
-DISTNAME=	rsync-1.5.1
+DISTNAME=	rsync-1.6.2
 CATEGORIES+=	net
-MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/
+MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
+		ftp://sunsite.auc.dk/pub/unix/rsync/
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
