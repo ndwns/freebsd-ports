@@ -11,8 +11,8 @@ HAS_CONFIGURE=	yes
 CATEGORIES+=	languages
 MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
 
-LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
-		tk\\.3\\.:${PORTSDIR}/x11/tk
+DEPENDS=	${PORTSDIR}/lang/tcl
+LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 
 PATCH_STRIP=	-p1
 
