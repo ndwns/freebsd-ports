@@ -10,7 +10,7 @@ DISTNAME=	gnome-audio-1.0.0
 PKGNAME=	gnomeaudio-1.0.0
 CATEGORIES=	audio gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-audio
+MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
@@ -24,6 +24,6 @@ NO_BUILD=	yes
 INSTALL_TARGET=	INSTALL_DATA="${INSTALL_DATA}" install
 
 post-extract:
-	@${RM} -r ${WRKSRC}/sounds/sounds
+	@${RM} -fr ${WRKSRC}/sounds/sounds
 
 .include <bsd.port.mk>
