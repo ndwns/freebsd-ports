@@ -5,6 +5,7 @@
     SUBDIR += cam
     SUBDIR += cddbd
     SUBDIR += cdplay
+    SUBDIR += esound
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += kdemultimedia
