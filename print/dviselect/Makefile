@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	dviselect
+PKGNAME=	dviselect-1.3
 CATEGORIES+=	printing
 MASTER_SITES=	ftp://ftp.cs.umn.edu/pub/latex/software/
 
