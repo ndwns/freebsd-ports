@@ -37,6 +37,7 @@
     SUBDIR += xmahjongg
     SUBDIR += xmille
     SUBDIR += xmine
+    SUBDIR += xminehunter
     SUBDIR += xminesweep
     SUBDIR += xmj
     SUBDIR += xmris
