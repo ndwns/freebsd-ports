@@ -54,7 +54,7 @@ diff -rc ./mk/freebsd_3.0.mk ../omniORB_2.2.0.freebsd/mk/freebsd_3.0.mk
 + #
 + 
 + CC		= g++
-+ CFLAGS		= -fhandle-exceptions
++ CFLAGS		= -fhandle-exceptions -pipe
 + 
 + OMNITHREAD_POSIX_CPPFLAGS = -DPthreadDraftVersion=8
 + OMNITHREAD_CPPFLAGS = -I$(TOP)/include
