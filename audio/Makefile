@@ -3,6 +3,7 @@
 
     SUBDIR += 8hz-mp3
     SUBDIR += amp
+    SUBDIR += ascd
     SUBDIR += cam
     SUBDIR += cddbd
     SUBDIR += cdplay
