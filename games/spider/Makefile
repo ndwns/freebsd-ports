@@ -9,7 +9,8 @@
 DISTNAME=	spider
 PKGNAME=	spider-1.1
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.uni-koeln.de/windows/xcontrib/
+MASTER_SITES=	ftp://ftp.uni-koeln.de/windows/xcontrib/ \
+		http://www.lovett.com/~ade/FreeBSD/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
