@@ -1005,16 +1005,34 @@ _DEPENDS_USE:	.USE
 	@for i in ${DEPENDS_TMP}; do \
 		prog=`/bin/echo $$i | /usr/bin/sed -e 's/:.*//'`; \
 		dir=`/bin/echo $$i | /usr/bin/sed -e 's/.*://'`; \
-		${ECHO_MSG} "===>  ${PKGNAME} depends on executable:  $$prog ($$dir)"; \
+		if expr "$$prog" : \\/ >/dev/null; then \
+			${ECHO_MSG} "===>  ${PKGNAME} depends on file:  $$prog ($$dir)"; \
+		else \
+			${ECHO_MSG} "===>  ${PKGNAME} depends on executable:  $$prog ($$dir)"; \
+		fi; \
 	done
 .else
 	@for i in ${DEPENDS_TMP}; do \
 		prog=`/bin/echo $$i | /usr/bin/sed -e 's/:.*//'`; \
 		dir=`/bin/echo $$i | /usr/bin/sed -e 's/.*://'`; \
-		if which -s "$$prog"; then \
-			${ECHO_MSG} "===>  ${PKGNAME} depends on executable: $$prog - found"; \
+		if expr "$$prog" : \\/ >/dev/null; then \
+			if [ -e "$$prog" ]; then \
+				${ECHO_MSG} "===>  ${PKGNAME} depends on file: $$prog - found"; \
+				notfound=0; \
+			else \
+				${ECHO_MSG} "===>  ${PKGNAME} depends on file: $$prog - not found"; \
+				notfound=1; \
+			fi; \
 		else \
-			${ECHO_MSG} "===>  ${PKGNAME} depends on executable: $$prog - not found"; \
+			if which -s "$$prog"; then \
+				${ECHO_MSG} "===>  ${PKGNAME} depends on executable: $$prog - found"; \
+				notfound=0; \
+			else \
+				${ECHO_MSG} "===>  ${PKGNAME} depends on executable: $$prog - not found"; \
+				notfound=1; \
+			fi; \
+		fi; \
+		if [ $$notfound != 0 ]; then \
 			${ECHO_MSG} "===>  Verifying build for $$prog in $$dir"; \
 			if [ ! -d "$$dir" ]; then \
 				${ECHO_MSG} ">> No directory for $$prog.  Skipping.."; \
