@@ -12,8 +12,6 @@ MASTER_SITES=	ftp://ftp.uni-kl.de/pub/informatik/software/ \
 
 MAINTAINER=	ob@seicom.NET
 
-BROKEN=		attempts to install file to home directory
-
 MAKE_ENV= 	MAKEOBJDIR=.
 
 MAN1=	o2b.1 o2c.1 o2ef.1 o2whereis.1
@@ -23,5 +21,9 @@ post-extract:
 
 post-patch:
 	@/usr/bin/perl -pi -e "s|@PREFIX@|${PREFIX}|g;" ${WRKSRC}/system/o2c.red.template
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/system/o2c.red.template ${PREFIX}/lib/o2c-1.16
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
