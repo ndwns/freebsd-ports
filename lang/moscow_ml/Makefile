@@ -15,6 +15,7 @@ MASTER_SITES=	ftp://ftp.dina.kvl.dk/pub/mosml/ \
 
 MAINTAINER=	chuckr@freefall.FreeBSD.org
 
+BROKEN=		install
 ALL_TARGET=	world
 WRKSRC=		${WRKDIR}/mosml/src
 
