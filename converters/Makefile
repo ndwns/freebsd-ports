@@ -8,6 +8,7 @@
     SUBDIR += trans
     SUBDIR += uudeview
     SUBDIR += uudx
+    SUBDIR += uulib
     SUBDIR += xdeview
 
 .include <bsd.port.subdir.mk>
