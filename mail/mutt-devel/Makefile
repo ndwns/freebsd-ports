@@ -7,7 +7,7 @@
 # $Id$
 
 DISTNAME=	${PKGNAME}i
-PKGNAME=	mutt-0.89
+PKGNAME=	mutt-0.89.1
 CATEGORIES=	mail
 MASTER_SITES=	ftp://riemann.iam.uni-bonn.de/pub/mutt/  \
 		ftp://ftp.gbnet.net/pub/mutt-international/  \
