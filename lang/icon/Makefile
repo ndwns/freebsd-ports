@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
+
 DIST_SUBDIR=	icon
 NO_WRKSUBDIR=	true
 ALL_TARGET=	Icon Icon-iconc
