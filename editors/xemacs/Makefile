@@ -25,7 +25,8 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 USE_GMAKE=	yes
 STRIP=
 HAS_CONFIGURE=	yes
-CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} \
+XEMACS_ARCH=	${MACHINE_ARCH}--freebsd
+CONFIGURE_ARGS=	${XEMACS_ARCH} --prefix=${PREFIX} \
 		--with-clash-detection \
 		--lockdir=/var/run/emacs/lock \
 		--with-sound=native \
@@ -37,6 +38,7 @@ CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} \
 MAN1=		ctags.1 etags.1 gnuattach.1 gnuclient.1 gnudoit.1 \
 		gnuserv.1 xemacs.1
 ALL_TARGET=	all dist
+PLIST_SUB=	XEMACS_VER=20.4 XEMACS_ARCH=${XEMACS_ARCH}
 
 # Have
 pre-configure:
