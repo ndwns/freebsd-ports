@@ -9,6 +9,7 @@
 PKGNAME=	mew-emacs-1.93
 
 EMACS_NAME=	Emacs-19.34b
+DIRSECTION=	The Emacs editor and associated tools
 DIRENTRY=	"* Mew: (mew).	Messaging in the Emacs World."
 INFOFILE=	mew.info
 

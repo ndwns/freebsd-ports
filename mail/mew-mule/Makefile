@@ -9,6 +9,7 @@
 PKGNAME=	mew-mule-1.93
 
 EMACS_NAME=	Mule-2.3
+DIRSECTION=	The Emacs editor and associated tools
 DIRENTRY=	"* Mew: (mew).	Messaging in the Emacs World (English)." \
 		"* Mew.jis: (mew.jis).	Messaging in the Emacs World (Japanese)."
 INFOFILE=	mew.info \
