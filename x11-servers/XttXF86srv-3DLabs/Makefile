@@ -12,7 +12,7 @@ CATEGORIES=	x11
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
-RUN_DEPENDS=	mkfontdir.pl:${.CURDIR}/../XttXF86srv-common
+LIB_DEPENDS=	font.1:${.CURDIR}/../XttXF86srv-common
 
 SERVER=		XF86_3DLabs
 

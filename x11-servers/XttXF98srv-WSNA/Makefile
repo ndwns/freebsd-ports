@@ -12,7 +12,7 @@ CATEGORIES=	x11
 
 MAINTAINER=	nakaji@zeisei.dpri.kyoto-u.ac.jp
 
-RUN_DEPENDS=	mkfontdir.pl:${.CURDIR}/../XttXF86srv-common
+LIB_DEPENDS=	font.1:${.CURDIR}/../XttXF86srv-common
 
 SERVER=		XF98_WSNA
 
