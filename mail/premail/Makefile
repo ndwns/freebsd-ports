@@ -12,11 +12,11 @@ DISTNAME=       premail-0.45
 CATEGORIES=     security mail
 MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/remailer/
 
-BUILD_DEPENDS=  perl5.004:${PORTSDIR}/lang/perl5
 BUILD_DEPENDS+= pgp:${PORTSDIR}/security/pgp
 
 MAINTAINER=	ache@FreeBSD.ORG
 
+USE_PERL5=      Yes
 NO_BUILD=       Yes
 RESTRICTED=     "Author treats it as ITAR subject"
 
