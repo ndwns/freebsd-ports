@@ -42,10 +42,18 @@ ALL_TARGET=	all dist
 # Have 
 pre-configure:
 	@echo "To compile in the MULE features, set the environment variable USE_MULE"
+.if defined(HAVE_MOTIF)
+	@echo 
+	@echo "If your MOTIF library is actually lesstif, you might occasionally"
+	@echo "experience locked-up frames."
+	@echo "In this case, set the environment variable MOTIF_STATIC and recompile, "
+	@echo "which will force the use of athena widgets for dialogs."
+.endif
 
 .if defined(USE_MULE)
 WITH_MULE=	--with-mule
 MULEDISTFILE=	${DISTNAME}-mule.tar.gz
+PLIST=		${PKGDIR}/PLIST.mule
 .endif
 
 # hack to avoid shipping binaries linked with Motif
