@@ -16,8 +16,6 @@ DISTFILES=	gcc-6811-fsf.tar.gz gcc-2.6.3.tar.gz
 
 MAINTAINER=	erich@FreeBSD.ORG
 
-BUILD_DEPENDS=	bison:${PORTSDIR}/devel/bison
-
 NO_WRKSUBDIR=	yes
 
 post-extract:

@@ -14,7 +14,6 @@ EXTRACT_SUFX=	.tar.gz
 MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4 \
-		bison:${PORTSDIR}/devel/bison \
 		${LOCALBASE}/bin/flex:${PORTSDIR}/devel/flex
 
 USE_IMAKE=	yes

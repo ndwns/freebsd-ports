@@ -27,8 +27,6 @@ EXTRACT_ONLY=	ptex-2.1.4.tar.gz web-6.1.tar.gz web2c-6.1.tar.gz \
 
 MAINTAINER=	max@sfc.wide.ad.jp
 
-BUILD_DEPENDS=	bison:${PORTSDIR}/devel/bison
-
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/kpathsea-2.6
 STRIP=		# some shell scripts
