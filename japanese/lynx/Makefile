@@ -9,9 +9,9 @@
 DISTNAME=       lynx2-8-1
 PKGNAME=        ja-lynx-2.8.1
 CATEGORIES=	japanese www
-MASTER_SITES=   ftp://sol.slcc.edu/pub/lynx/release2-8-1/
+MASTER_SITES=   http://sol.slcc.edu/lynx/release2-8-1/
 
-MAINTAINER=	shige@kuis.kyoto-u.ac.jp
+MAINTAINER=	shige@FreeBSD.ORG
 
 NO_LATEST_LINK=	YES
 GNU_CONFIGURE=  YES
