@@ -10,6 +10,7 @@
     SUBDIR += xcpustate
     SUBDIR += xdu
     SUBDIR += xperfmon
+    SUBDIR += xsysinfo
     SUBDIR += xsysstats
 
 .include <bsd.port.subdir.mk>
