@@ -775,7 +775,12 @@ install: build ${INSTALL_COOKIE}
 ${INSTALL_COOKIE}:
 	@${ECHO_MSG} "===>  Installing for ${PKGNAME}"
 .if !defined(NO_MTREE)
-	@${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/;
+	@if [ `id -u` = 0 ]; then \
+		${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/; \
+	else \
+		echo "Warning: not superuser, can't run mtree."; \
+		echo "Become root and try again to ensure correct permissions."; \
+	fi
 .endif
 .if target(pre-install)
 	@${MAKE} ${.MAKEFLAGS} pre-install
