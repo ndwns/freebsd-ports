@@ -15,6 +15,7 @@
     SUBDIR += gnat
     SUBDIR += guile-iii
     SUBDIR += icon
+    SUBDIR += idl4
     SUBDIR += itcl
     SUBDIR += lcc
     SUBDIR += logo
