@@ -1,13 +1,13 @@
 # New ports collection makefile for:	gnats
-# Version required:     3.97-beta
+# Version required:     3.102-beta
 # Date created:		10 November 1995
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=       gnats-3.101-beta
-PKGNAME=	gnats-3.101b
+DISTNAME=       gnats-3.102-beta
+PKGNAME=	gnats-3.102b
 CATEGORIES=	databases
 MASTER_SITES=   ftp://ftp.cygnus.com/pub/
 
