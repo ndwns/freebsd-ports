@@ -16,8 +16,6 @@ LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
 		qt.1:${PORTSDIR}/x11-toolkits/qt140 \
 		tcl80.1:${PORTSDIR}/lang/tcl80
 
-BROKEN=		build
-
 USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
