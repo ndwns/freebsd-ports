@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	imm-3.3
-CATEGORIES+=	net
+CATEGORIES+=	mbone
 MASTER_SITES=	ftp://ftp.ucs.ed.ac.uk/pub/videoconference/imm/
 DISTFILES=	imm.src.tar.Z
 
