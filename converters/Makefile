@@ -3,6 +3,7 @@
 
     SUBDIR += aish
     SUBDIR += btoa
+    SUBDIR += fconv
     SUBDIR += i18ntools
     SUBDIR += ish
     SUBDIR += kdesupport11
