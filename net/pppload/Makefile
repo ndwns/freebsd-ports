@@ -12,8 +12,6 @@ MASTER_SITES=	http://sunsite.unc.edu/pub/Linux/system/network/serial/ppp/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-BROKEN_ELF=	yes
-
 USE_QT=		yes
 USE_GMAKE=	yes
 
