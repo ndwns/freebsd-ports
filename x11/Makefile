@@ -41,6 +41,7 @@
     SUBDIR += libdnd
     SUBDIR += libsx
     SUBDIR += lupe
+    SUBDIR += lwm
     SUBDIR += mlclock
     SUBDIR += mlvwm
     SUBDIR += mouseclock
