@@ -28,6 +28,7 @@ RESTRICTED += ivs            # crypto, export controlled
     SUBDIR += sup
     SUBDIR += tclDP
     SUBDIR += tintin++
+    SUBDIR += tinyfugue
     SUBDIR += tkined
     SUBDIR += vic
     BROKEN += wais           # for XFree3.x
