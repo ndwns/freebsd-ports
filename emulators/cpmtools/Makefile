@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	cpm-1.1
+CATEGORIES+=	utils emulators
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 MAINTAINER=	joerg@FreeBSD.org
 
