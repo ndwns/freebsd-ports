@@ -27,6 +27,10 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		mediatool\\.0\\.[6-9]:${PORTSDIR}/x11/kdelibs
 
+EXTRACT_CMD=    bzip2
+EXTRACT_BEFORE_ARGS= -cd
+EXTRACT_AFTER_ARGS= | tar -xf -
+
 BROKEN=		upgrade
 
 HAS_CONFIGURE=	yes
@@ -36,6 +40,6 @@ CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		INSTALL_SCRIPT="install -c -m 555"
 
-WRKSRC=		${WRKDIR}/kdemultimedia
+WRKSRC=		${WRKDIR}/kdemultimedia-1.0pre2
 
 .include <bsd.port.mk>
