@@ -10,6 +10,7 @@
     SUBDIR += crack
     SUBDIR += donkey
     SUBDIR += fwtk
+    SUBDIR += gnupg
     SUBDIR += john
     SUBDIR += krb5
     SUBDIR += libident
