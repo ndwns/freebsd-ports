@@ -1,7 +1,7 @@
 # New ports collection makefile for:	texi2html
-# Version required:	1.51
-# Date created:		5 Nov 1997
-# Whom:			Ian Vaudrey <i.vaudrey@cableinet.co.uk>
+# Version required:			1.51
+# Date created:				5 Nov 1997
+# Whom:					Ian Vaudrey <i.vaudrey@bigfoot.com>
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ MASTER_SITES=	http://wwwcn.cern.ch/dci/texi2html/ \
 		ftp://ftp.scc.ru/pub/unix/
 EXTRACT_SUFX=	.shar.Z
 
-MAINTAINER=	i.vaudrey@cableinet.co.uk
+MAINTAINER=	i.vaudrey@bigfoot.com
 
 EXTRACT_CMD=	uncompress
 EXTRACT_BEFORE_ARGS=	-c
