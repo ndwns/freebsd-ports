@@ -8,7 +8,7 @@
 
 DISTNAME=       glimpse-4.0.src
 PKGNAME=	glimpse-4.0
-CATEGORIES=	misc databases
+CATEGORIES=	textproc databases
 MASTER_SITES=   ftp://ftp.cs.arizona.edu/glimpse/
 EXTRACT_SUFX=	.tar.Z
 

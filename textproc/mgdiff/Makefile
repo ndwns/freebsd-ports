@@ -8,7 +8,7 @@
 
 DISTNAME=	mgdiff
 PKGNAME=	mgdiff-1.0
-CATEGORIES=	misc
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
