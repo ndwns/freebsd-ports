@@ -7,7 +7,7 @@
 
 DISTNAME=	uudx_299
 PKGNAME=	uudx-2.99
-CATEGORIES=	archivers
+CATEGORIES=	converters
 MASTER_SITES=	ftp://ftp.ae.keio.ac.jp/pub/msdos/archivers/uu/
 
 MAINTAINER=	pcs51674@asciinet.or.jp

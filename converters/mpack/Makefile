@@ -8,7 +8,7 @@
 
 DISTNAME=       mpack-1.5-src
 PKGNAME=        mpack-1.5
-CATEGORIES=     mail news
+CATEGORIES=     converters mail news
 MASTER_SITES=   ftp://ftp.andrew.cmu.edu/pub/mpack/
 EXTRACT_SUFX=   .tar.Z
 

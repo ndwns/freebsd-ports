@@ -8,7 +8,7 @@
 
 DISTNAME=       trans111
 PKGNAME=        trans-1.11
-CATEGORIES=     misc russian
+CATEGORIES=     converters russian
 MASTER_SITES=   ftp://ftp.informatik.uni-erlangen.de/pub/doc/ISO/charsets/
 
 MAINTAINER=     ache@FreeBSD.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	recode-3.4
-CATEGORIES=	misc
+CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	torstenb@FreeBSD.ORG

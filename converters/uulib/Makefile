@@ -8,7 +8,7 @@
 
 DISTNAME=       uudeview-0.5.13
 PKGNAME=        uulib-0.5.13
-CATEGORIES=	devel
+CATEGORIES=	converters
 MASTER_SITES=	ftp://ftp.uni-frankfurt.de/pub/dist/frank/ \
 		http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/         

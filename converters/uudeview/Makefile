@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       uudeview-0.5.13
-CATEGORIES=	archivers mail
+CATEGORIES=	converters
 MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/  \
 		ftp://ftp.uni-frankfurt.de/pub/dist/frank/  \
 		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/
