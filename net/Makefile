@@ -66,6 +66,7 @@
     SUBDIR += netpipes
     SUBDIR += nettest
     SUBDIR += nslint
+    SUBDIR += ntimelord
     SUBDIR += ntp
     SUBDIR += omi
     SUBDIR += p5-Archie
