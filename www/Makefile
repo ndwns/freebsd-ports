@@ -70,6 +70,7 @@
     SUBDIR += p5-WWW-Search
     SUBDIR += p5-libwww
     SUBDIR += py-HTMLgen
+    SUBDIR += roxen
     SUBDIR += ruboard
     SUBDIR += sitecopy
     SUBDIR += snarf
