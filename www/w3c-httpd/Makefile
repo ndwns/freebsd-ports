@@ -14,7 +14,7 @@ CATEGORIES+=	networking
 
 WWW_ROOT=	${PREFIX}/www
 
-install:
+install: build
 	-mkdir ${WWW_ROOT} \
 	       ${WWW_ROOT}/data ${WWW_ROOT}/cgi-bin ${WWW_ROOT}/htbin
 	cd ${WRKSRC}/server_root; pax -rw * ${WWW_ROOT}
