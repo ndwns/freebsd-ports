@@ -41,12 +41,14 @@
     SUBDIR += libsocket++
     SUBDIR += llnlxdir
     SUBDIR += llnlxftp
+    SUBDIR += macipgw
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += mpd
     SUBDIR += mrtg
     SUBDIR += ncftp
     SUBDIR += ncftp2
+    SUBDIR += ncftp3
     SUBDIR += netatalk
     SUBDIR += netcat
     SUBDIR += netpipes
