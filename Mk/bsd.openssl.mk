@@ -123,7 +123,7 @@ CFLAGS+=		-Wl,-rpath,${OPENSSLRPATH}
 .endif
 OPENSSL_LDFLAGS+=	-rpath=${OPENSSLRPATH}
 
-.if defined(LDFLAGS) && !empty(LDFLAGS)
+.if defined(LDFLAGS)
 LDFLAGS+=${OPENSSL_LDFLAGS}
 .else
 LDFLAGS=${OPENSSL_LDFLAGS}
