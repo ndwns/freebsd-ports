@@ -1,14 +1,15 @@
 # New ports collection makefile for:	maildrop
-# Version required:	0.62
+# Version required:	0.63
 # Date created:		16 November 1998
 # Whom:			Tom Hukins <tom@eborcom.com>
 #
 # $Id$
 #
 
-DISTNAME=	maildrop-0.62
+DISTNAME=	maildrop-0.63
 CATEGORIES=	mail
-MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITES=	http://www.flounder.net/~mrsam/maildrop/ \
+		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR= system/mail/mailhandlers
 
 MAINTAINER=	tom@eborcom.com
