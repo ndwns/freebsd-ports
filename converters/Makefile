@@ -2,6 +2,7 @@
 #
 
     SUBDIR += btoa
+    SUBDIR += c2html
     SUBDIR += ish
     SUBDIR += kdesupport
     SUBDIR += mimepp
