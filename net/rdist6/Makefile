@@ -12,13 +12,18 @@ MASTER_SITES=	ftp://usc.edu/pub/rdist/
 
 MAINTAINER=	peter@FreeBSD.org
 
-INSTALL_TARGET+=install.man
+# To avoid confusion with /usr/bin/rdist, you may prefer otherwise.
+# Do not forget to deal with pkg/PLIST if you change this.
+RDIST_NAME=	rdist6
+
+INSTALL_TARGET=	install install.man
+MAKE_ENV+=	BUILD_OPT="${CFLAGS}" BUILD_CLIENT=${RDIST_NAME}
 
 post-install:
-	strip ${PREFIX}/bin/rdist6
+	strip ${PREFIX}/bin/${RDIST_NAME}
 	strip ${PREFIX}/bin/rdistd
 .if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/rdist6.1
+	gzip -9nf ${PREFIX}/man/man1/${RDIST_NAME}.1
 	gzip -9nf ${PREFIX}/man/man8/rdistd.8
 .endif
 
