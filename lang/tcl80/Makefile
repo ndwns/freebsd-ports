@@ -11,7 +11,7 @@ PKGNAME=	tcl-8.0.4
 CATEGORIES=	lang tcl80
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
-MAINTAINER=	jkh@freebsd.org
+MAINTAINER=	cwt@freebsd.org
 
 WRKSRC=		${WRKDIR}/tcl8.0.4/unix
 GNU_CONFIGURE=	yes
