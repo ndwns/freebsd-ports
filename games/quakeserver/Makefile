@@ -29,7 +29,7 @@ FETCH_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip \
 		lha:${PORTSDIR}/archivers/lha
 
 RUN_DEPENDS=	expect:${PORTSDIR}/lang/expect \
-		/compat/linux/lib/libc.so.5.0.9:${PORTSDIR}/emulators/linux_lib
+		/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
 # Uncomment the next line to include the QuakeC compiler port as well
 #RUN_DEPENDS+=	qcc:${PORTSDIR}/games/qcc
