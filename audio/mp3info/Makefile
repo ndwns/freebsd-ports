@@ -8,7 +8,9 @@
 
 DISTNAME=		mp3info-0.2.16
 CATEGORIES=		audio
-MASTER_SITES=		ftp://bimbo.hive.no/pub/mp3info/
+MASTER_SITES=		ftp://bimbo.hive.no/pub/mp3info/ \
+			${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/audio/editors
 
 MAINTAINER=		andy@icc.surw.chel.su
 
