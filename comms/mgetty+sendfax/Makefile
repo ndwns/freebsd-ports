@@ -9,7 +9,7 @@
 DISTNAME=	mgetty1.1.11-Dec16
 PKGNAME=	mgetty-1.1.11
 CATEGORIES=	comms
-MASTER_SITES=	ftp://ftp.leo.org/pub/comp/networking/communication/modem/mgetty/
+MASTER_SITES=	ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/
 
 MAINTAINER=	jmz@FreeBSD.org
 

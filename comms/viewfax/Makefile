@@ -7,7 +7,7 @@
 #
 DISTNAME=        viewfax-2.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.leo.org/pub/comp/networking/communication/modem/mgetty/
+MASTER_SITES=	ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/
 
 USE_IMAKE=	yes
 
