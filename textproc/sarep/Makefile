@@ -10,7 +10,7 @@ CATEGORIES=	textproc
 MASTER_SITES=   http://tarp.linuxos.org/software/
 EXTRACT_SUFX=
 
-MAINTAINER=     ache@nagual.pp.ru
+MAINTAINER=     ache@freebsd.org
 
 EXTRACT_ONLY=
 NO_BUILD=       YES
