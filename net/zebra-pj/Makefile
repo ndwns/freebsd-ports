@@ -6,15 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	zebra-19990416
+DISTNAME=	zebra-19990420
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 # you might need debugging, it's a developer release !
 #CFLAGS+=	-g
 
 MAINTAINER=	andreas@FreeBSD.ORG
-
-BROKEN=		"bug: waiting for a fix from author"
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc/zebra
