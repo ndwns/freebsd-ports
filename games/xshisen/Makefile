@@ -15,7 +15,6 @@ MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-IS_INTERACTIVE=	YES	# Has to create an app-defaults file
 USE_X11=	YES
 GNU_CONFIGURE=	YES
 #CONFIGURE_ARGS=--enable-japanese=euc	#Japanese char set euc, jis sjis
