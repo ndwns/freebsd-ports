@@ -9,7 +9,7 @@
 DISTNAME=	kproject-0.1
 CATEGORIES=	deskutils kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= /unstable/apps/office
+MASTER_SITE_SUBDIR= unstable/apps/office
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	hanspb@persbraten.vgs.no
