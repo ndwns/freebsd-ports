@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.xs4all.nl/~graaff/checkbot/
 
 MAINTAINER=	wosch@FreeBSD.ORG
 
+BROKEN=		manpage gets installed in /usr/share/ in -current
+
 site_perl=${PREFIX}/lib/perl5/site_perl
 BUILD_DEPENDS=  \
 		${site_perl}/Net/FTP.pm:${PORTSDIR}/net/p5-Net \
