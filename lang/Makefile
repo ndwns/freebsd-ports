@@ -29,6 +29,7 @@
     SUBDIR += gnomeobjc
     SUBDIR += guavac
     SUBDIR += guile
+    SUBDIR += guileobjc
     SUBDIR += hugs
     SUBDIR += icon
     SUBDIR += intercal
@@ -38,6 +39,7 @@
     SUBDIR += kaffe
     SUBDIR += kawk
     SUBDIR += lcc
+    SUBDIR += libobjects
     SUBDIR += logo
     SUBDIR += mit-scheme
     SUBDIR += mixal
