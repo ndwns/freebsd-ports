@@ -26,7 +26,7 @@ IGNORE='Please fill out the form at http://service.real.com/firewall/index.html 
 .endif
 
 do-install:
-	${INSTALL-PROGRAM} ${WRKSRC}/raproxy ${PREFIX}/libexec/raproxy
-	${INSTALL-MAN} ${WRKSRC}/raproxy.man ${PREFIX}/man/man8/raproxy.8
+	${INSTALL_PROGRAM} ${WRKSRC}/raproxy ${PREFIX}/libexec/raproxy
+	${INSTALL_MAN} ${WRKSRC}/raproxy.man ${PREFIX}/man/man8/raproxy.8
 
 .include <bsd.port.post.mk>
