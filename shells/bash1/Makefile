@@ -7,12 +7,12 @@
 #
 
 DISTNAME=       bash-1.14.7
-WRKSRC=         ${WRKDIR}/bash-1.14.7
 CATEGORIES=	shells
 MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+WRKSRC=         ${WRKDIR}/${DISTNAME}
 # Don't compress manpages or .so not works.
 
 .include <bsd.port.mk>
