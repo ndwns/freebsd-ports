@@ -26,6 +26,7 @@ USE_GMAKE=	yes
 STRIP=
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} \
+		--with-clash-detection \
 		--lockdir=/var/run/emacs/lock \
 		--with-sound=native \
 		--site-includes=${PREFIX}/include \
