@@ -1,8 +1,8 @@
---- Makefile.orig	Sun Jan 17 20:33:42 1999
-+++ Makefile	Sun Jan 17 20:34:29 1999
+--- Makefile.orig	Thu May 20 00:34:31 1999
++++ Makefile	Thu May 20 00:53:45 1999
 @@ -1,6 +1,6 @@
  # $Id$
--CFLAGS=		-Wall -g -DDEBUG
+-CFLAGS=		-Wall -g
 -LDFLAGS=	
 +CFLAGS+=	-DNDEBUG
 +LDFLAGS+=	-s
