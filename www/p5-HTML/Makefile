@@ -20,7 +20,7 @@ NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
 
 do-install:
-		@ ${MKDIR} -p ${PREFIX}/lib/perl5/site_perl/HTML/
+		@ ${MKDIR} ${PREFIX}/lib/perl5/site_perl/HTML/
 		@ ${INSTALL_DATA} ${WRKDIR}/HTML/Base.pm ${PREFIX}/lib/perl5/site_perl/HTML/
 		@ ${INSTALL_DATA} ${WRKDIR}/html_base.pod ${PREFIX}/lib/perl5/site_perl/
 
