@@ -16,8 +16,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 CFLAGS+=	-I../../include
