@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xlockmore
-# Version required:     4.13.1
+# Version required:     4.14
 # Date created:		9 November 1994
 # Whom:			smace
 #
 # $Id$
 #
 
-DISTNAME=       xlockmore-4.13.1
+DISTNAME=       xlockmore-4.14
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.tux.org/pub/tux/bagleyd/xlockmore/ \
 		${MASTER_SITE_XCONTRIB}
