@@ -3,7 +3,7 @@
 # Date created:		31 Nov 97
 # Whom:			Pedro Giffuni <giffunip@asme.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xwpl-1.3-freebsd

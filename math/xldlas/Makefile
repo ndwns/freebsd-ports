@@ -3,7 +3,7 @@
 # Date created:         20 Dec 97
 # Whom:                 Pedro Giffuni <giffunip@asme.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xldlas-0.85

@@ -3,7 +3,7 @@
 # Date created:		So   2 Mär 1997 12:11:43 MET
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmgr-4.1.1

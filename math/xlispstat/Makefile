@@ -3,7 +3,7 @@
 # Date created:         Tue Aug 15 17:57:48 CDT 1995
 # Whom:                 erich@rrnet.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xlispstat-3-44
