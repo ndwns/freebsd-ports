@@ -26,7 +26,7 @@ USE_IMAKE=	yes
 PATCH_FIXIT=	kits/patch/fix-2.0.45
 PATCH_I18N=	kits/patch/PATCH.I18N
 
-USE_PATCHFILES=	${PATCH_FIXES} ${PATCH_I18N}
+USE_PATCHFILES=	${PATCH_FIXIT} ${PATCH_I18N}
 
 pre-patch:
 	@for i in ${USE_PATCHFILES}; do \
