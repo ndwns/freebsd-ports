@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	OB-3.1.2
-PKGNAME=	ORBacus-3.1.2
+DISTNAME=	OB-3.1.3
+PKGNAME=	ORBacus-3.1.3
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.ooc.com/pub/OB/3.1/
 
