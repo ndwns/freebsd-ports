@@ -26,6 +26,7 @@
     SUBDIR += plplot
     SUBDIR += pygist
     SUBDIR += r
+    SUBDIR += rng
     SUBDIR += siag
     SUBDIR += simpack
     SUBDIR += ss
