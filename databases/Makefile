@@ -6,6 +6,7 @@
     SUBDIR += gdbm
     SUBDIR += gmysql
     SUBDIR += gnats
+    SUBDIR += gtksql
     SUBDIR += interbase4
     SUBDIR += msql
     SUBDIR += mysql321
