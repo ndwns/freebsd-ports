@@ -18,8 +18,6 @@ MAINTAINER=	andy@icc.surw.chel.su
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11/qt
 
-BROKEN=		fetch
-
 USE_GMAKE=	yes
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/qtez
