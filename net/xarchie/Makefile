@@ -13,8 +13,7 @@ MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	ports@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 USE_IMAKE=	yes
+USE_GMAKE=	yes
 
 .include <bsd.port.mk>
