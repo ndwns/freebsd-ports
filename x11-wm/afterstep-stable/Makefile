@@ -9,10 +9,10 @@
 DISTNAME=	AfterStep-1.4.5.0
 PKGNAME=	afterstep-1.4.5.3
 CATEGORIES=     x11
-MASTER_SITES=   ftp://ftp.afterstep.org/pub/attic/
+MASTER_SITES=   ftp://peloton.physics.montana.edu/pub/distfiles/
 EXTRACT_SUFX=   .tgz
 
-PATCH_SITES=    ftp://ftp.afterstep.org/pub/attic/
+PATCH_SITES=    ftp://peloton.physics.montana.edu/pub/distfiles/
 PATCHFILES=	AfterStep1450-to-1451.patch.gz AfterStep1451-to-1453.patch.gz
 PATCH_DIST_STRIP=	-p1
 
