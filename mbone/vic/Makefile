@@ -6,20 +6,22 @@
 # $Id$
 #
 
-DISTNAME=	vic-2.6
+DISTNAME=	vic-2.8
 CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/conferencing/vic/
-DISTFILES=	vicsrc-2.6.tar.Z
+DISTFILES=	vicsrc-2.8.tar.gz
 
-MAINTAINER=	wollman@FreeBSD.ORG
+MAINTAINER=	fenner@FreeBSD.ORG
 
-LIB_DEPENDS=	BLT\\.1\\.:${PORTSDIR}/x11/blt
+LIB_DEPENDS=	tk41:${PORTSDIR}/x11/tk41
 
-HAS_CONFIGURE=	yes
-INSTALL_TARGET=	MANDIR=${PREFIX}/man/manl install
+GNU_CONFIGURE=	yes
+USE_X11=	yes
 
-pre-install:
-	mkdir -p ${PREFIX}/man/manl
-
+install:
+	${INSTALL_PROGRAM} ${WRKSRC}/vic ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/histtolut ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/vic.1 ${PREFIX}/man/man1
+	${COMPRESS_MAN} ${PREFIX/man/man1/vic.1
+	
 .include <bsd.port.mk>
-
