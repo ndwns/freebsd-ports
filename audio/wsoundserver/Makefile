@@ -6,21 +6,20 @@
 # $Id$
 #
 
-DISTNAME=	wmsound-0.9.0
+DISTNAME=	wmsound-0.9.2
 CATEGORIES=	audio windowmaker
-MASTER_SITES=	http://www.frontiernet.net/~southgat/wmsound/download/
+MASTER_SITES=	ftp://shadowmere.student.utwente.nl/pub/WindowMaker/
 
 MAINTAINER=	gljohns@bellsouth.net
 
 BUILD_DEPENDS=	wmaker:${PORTSDIR}/x11-wm/windowmaker
-
-FETCH_BEFORE_ARGS=	-b
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
 
 post-install:
 	${SH} ${FILESDIR}/configure > ${WRKDIR}/WMSound
+	${MKDIR} ${PREFIX}/share/WindowMaker/Defaults
 	${INSTALL_DATA} ${WRKDIR}/WMSound \
 		${PREFIX}/share/WindowMaker/Defaults/WMSound
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
