@@ -1,5 +1,5 @@
 # New ports collection makefile for:	p5-MyObject
-# Version required:			1.0
+# Version required:			1.1
 # Date created:				14 November 1999
 # Whom:					Chris D. Faulhaber <jedgar@fxp.org>
 #
@@ -7,12 +7,12 @@
 #
 
 DISTNAME=	MyObject.pm
-PKGNAME=	p5-MyObject-1.0
+PKGNAME=	p5-MyObject-1.1
 CATEGORIES=	databases perl5
 MASTER_SITES=	http://www.frontierworld.com/perl/
 EXTRACT_SUFX=
 
-MAINTAINER=	jedgar@fxp.org
+MAINTAINER=	jedgar@FreeBSD.org
 
 BUILD_DEPENDS=	${LOCALBASE}/lib/perl5/site_perl/${PERL_VER}/${PERL_ARCH}/Mysql.pm:${PORTSDIR}/databases/p5-Mysql
 
