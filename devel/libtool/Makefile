@@ -16,9 +16,10 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		INSTALL_DATA="${INSTALL_DATA}"
 
-pre-install:
+post-install:
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	 fi
+	@install-info ${PREFIX}/info/libtool.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
