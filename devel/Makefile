@@ -34,6 +34,7 @@
     SUBDIR += flick
     SUBDIR += fpp
     SUBDIR += ftnchek
+    SUBDIR += gaa
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gdbtk
