@@ -12,6 +12,11 @@ MASTER_SITES=   ftp://ftp.cygnus.com:/pub/green/
 
 MAINTAINER=     horance@freedom.ie.cycu.edu.tw
 
+VERSION!=	sysctl -n kern.osreldate
+.if ${VERSION} < 300000
+BROKEN=		undefined symbol in ffitest
+.endif
+
 GNU_CONFIGURE=  yes
 WRKSRC=         ${WRKDIR}/${PKGNAME}
 ALL_TARGET=     test
