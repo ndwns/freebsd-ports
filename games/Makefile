@@ -16,6 +16,7 @@
     SUBDIR += cgoban
     SUBDIR += connect4
     SUBDIR += cosmo
+    SUBDIR += crafty
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
