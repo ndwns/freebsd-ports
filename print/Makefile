@@ -39,6 +39,8 @@
     SUBDIR += mpage
     SUBDIR += musixtex
     SUBDIR += offix-printer
+    SUBDIR += p5-FreeType
+    SUBDIR += p5-FreeTypeWrapper
     SUBDIR += pkfonts
     SUBDIR += psutils
     SUBDIR += rtf2latex
