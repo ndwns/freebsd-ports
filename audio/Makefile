@@ -22,7 +22,9 @@
     SUBDIR += kdemultimedia
     SUBDIR += kdemultimedia11
     SUBDIR += kmikmod
+    SUBDIR += kmp3
     SUBDIR += kmpg
+    SUBDIR += juke
     SUBDIR += lamer
     SUBDIR += libaudiofile
     SUBDIR += linux-realplayer
@@ -42,6 +44,7 @@
     SUBDIR += replay
     SUBDIR += rio
     SUBDIR += ripenc
+    SUBDIR += ripit
     SUBDIR += rosegarden
     SUBDIR += rplay
     SUBDIR += rsynth
