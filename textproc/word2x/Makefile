@@ -10,9 +10,11 @@ PKGNAME=	word2x-0.002
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://word2x.astra.co.uk/pub/word2x/
 
-WRKSRC=		${WRKDIR}/word2x-0.002
 MAINTAINER=	ports@FreeBSD.ORG
 
+BROKEN=		build
+
+WRKSRC=		${WRKDIR}/word2x-0.002
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
