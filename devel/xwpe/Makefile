@@ -20,9 +20,9 @@ MAINTAINER=     obrien@FreeBSD.org
 # LD_LIBRARY_PATH is to deal with a braindead libX11.a search in configure
 # (once again author assumes too many Linux'isms)
 # it is not exptected to be set at runtime.
-MAKE_ENV+=	LD_LIBRARY_PATH="${X11BASE}/lib"
+MAKE_ENV=	LD_LIBRARY_PATH="${X11BASE}/lib"
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV+=	LD_LIBRARY_PATH="${X11BASE}/lib"
+CONFIGURE_ENV=	LD_LIBRARY_PATH="${X11BASE}/lib"
 USE_GMAKE=	yes
 ALL_TARGET=
 MAN1=		xwpe.1
