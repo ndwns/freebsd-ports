@@ -17,11 +17,11 @@ MAINTAINER=     brian@awfulhak.demon.co.uk
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--quiet
 MAKE_FLAGS+=	CCOPT="-O2 -DPATH_SENDMAIL=\\\"/usr/sbin/sendmail\\\""
+INSTALL_TARGET= install install-man
 MAN8=           arpwatch.8 arpsnmp.8
 
 
 post-install:
-	cd ${WRKSRC}; make install-man
 	if [ ! -d ${PREFIX}/arpwatch ]; then	\
 		${MKDIR} ${PREFIX}/arpwatch;	\
 		chmod 775 ${PREFIX}/arpwatch;	\
