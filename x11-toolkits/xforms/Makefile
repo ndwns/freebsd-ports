@@ -1,5 +1,5 @@
 # New ports collection makefile for:	xforms
-# Version required:	0.86
+# Version required:	0.88
 # Date created:		28 March 1997
 # Whom:			gena
 #
