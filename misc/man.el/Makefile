@@ -8,7 +8,7 @@
 
 DISTNAME=	i18n-man-1.1
 CATEGORIES=	misc elisp
-MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
+MASTER_SITES=	ftp://daemon.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp

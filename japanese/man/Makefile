@@ -9,10 +9,10 @@
 DISTNAME=	jp-man-1.1g
 PKGNAME=	ja-man-1.1g
 CATEGORIES=	japanese
-MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
+MASTER_SITES=	ftp://daemon.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
 
-MAINTAINER=	kuriyama@opt.phys.waseda.ac.jp
+MAINTAINER=	kuriyama@FreeBSD.ORG
 
 RUN_DEPENDS=	${PREFIX}/bin/groff:${PORTSDIR}/japanese/groff \
 		jless:${PORTSDIR}/japanese/less
