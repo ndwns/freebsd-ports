@@ -24,7 +24,7 @@ DOCFILES=	${FILESDIR}/porting.notes other/soup12.doc other/slnr.doc \
 do-install:
 .if !defined{NOPORTDOCS}
 	@${ECHO_MSG} "===>  Copying documents to ${PREFIX}/share/doc/slnr"
-	@${MKDIR} -p ${PREFIX}/share/doc/slnr
+	@${MKDIR} ${PREFIX}/share/doc/slnr
 	@cd ${WRKSRC}; \
 		${INSTALL_DATA} ${DOCFILES} ${PREFIX}/share/doc/slnr
 .endif
