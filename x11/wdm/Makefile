@@ -27,7 +27,7 @@ USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	X11BASE=${X11BASE} CPPFLAGS=-I${PREFIX}/include \
 		CFLAGS="${CFLAGS} -DHAS_SETUSERCONTEXT"
-CONFIGURE_ARGS=	--with-gfx-libs="-L${PREFIX}/lib -L${LOCALBASE}/lib -lgif" \
+CONFIGURE_ARGS=	--with-gfx-libs="-L${PREFIX}/lib -L${LOCALBASE}/lib -lgif -lXpm -lpng -ltiff" \
 	--with-gfx-incs="-I${LOCALBASE}/include" \
 	--with-tiff-libs="-ljpeg" \
 	--with-logdir=/var/log --with-runlockdir=/var/run \
