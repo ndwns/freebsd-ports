@@ -25,7 +25,7 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay \
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 
 VERSION_APACHE=	1.3.1
-VERSION_MODSSL=	2.0.8
+VERSION_MODSSL=	2.0.9
 
 RESTRICTED=	"Contains cryptography"
 
