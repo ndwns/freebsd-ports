@@ -7,6 +7,7 @@
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
     SUBDIR += elvis
+    SUBDIR += escpf
     SUBDIR += gawk
     SUBDIR += ghostscript
     SUBDIR += grep
@@ -28,6 +29,7 @@
     SUBDIR += kon
     SUBDIR += kterm
     SUBDIR += less
+    SUBDIR += lipsf
     SUBDIR += man
     SUBDIR += man-doc
     SUBDIR += mew
