@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	jpman-${VERSION}e
-PKGNAME=	jp-man-doc-${VERSION}e
+PKGNAME=	ja-man-doc-${VERSION}e
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/
 
