@@ -11,6 +11,9 @@ PKGNAME=	tcpblast-1.0
 CATEGORIES=	net benchmarks
 DISTFILES=	# empty
 
+MAINTAINER=	ports@FreeBSD.org
+
+NO_CHECKSUM=	"port's source files are part of this portball"
 WRKSRC=		${WRKDIR}/src
 
 do-extract:
