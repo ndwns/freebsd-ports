@@ -19,10 +19,24 @@ LIB_DEPENDS=	gtk11\\.1\\.:${PORTSDIR}/x11-toolkits/gtk11
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
-MAN1=		scanimage.1 xscanimage.1 saned.1
-MAN5=		sane-dll.5 sane-hp.5 sane-mustek.5 sane-net.5 sane-pnm.5 \
-		sane-pint.5 sane-qcam.5 sane-umax.5 sane-scsi.5 sane-dmc.5 \
-		sane-epson.5 sane-microtek.5 sane-microtek2.5
+MAN1=		scanimage.1 \
+		xscanimage.1 \
+		saned.1
+MAN5=		sane-apple.5 \
+		sane-dc25.5 \
+		sane-dll.5 \
+		sane-dmc.5 \
+		sane-epson.5 \
+		sane-hp.5 \
+		sane-microtek.5 \
+		sane-microtek2.5 \
+		sane-mustek.5 \
+		sane-net.5 \
+		sane-pint.5 \
+		sane-pnm.5 \
+		sane-qcam.5 \
+		sane-scsi.5 \
+		sane-umax.5
 
 pre-configure:
 	@${ECHO} "*** Note: SANE can be built with an X scanner interface"
