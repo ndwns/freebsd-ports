@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.lesstif.org/pub/hungry/lesstif/srcdist/  \
 		ftp://ftp.fu-berlin.de/unix/X11/gui/lesstif/srcdist/ \
 		ftp://ftp.win.or.jp/pub/X11/misc/lesstif/srcdist/
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	kargl@troutmask.apl.washington.edu
 
 MANUAL_PACKAGE_BUILD=	do not want to install during interactive build
 
