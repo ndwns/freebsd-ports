@@ -8,7 +8,7 @@
 
 DISTNAME=	Isearch-1.14
 PKGNAME=	isearch-1.14	
-CATEGORIES=	misc
+CATEGORIES=	misc databases
 MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/Isearch/
 
 MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
