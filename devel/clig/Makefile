@@ -10,7 +10,7 @@ DISTNAME=	clig-1.0.2
 CATEGORIES=	devel tcl80
 MASTER_SITES=	http://wsd.iitb.fhg.de/~kir/clighome/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 # This should work with any version of tcl.  See also ${MAKE_ENV}.
 BUILD_DEPENDS=	${PREFIX}/bin/tclsh8.0:${PORTSDIR}/lang/tcl80

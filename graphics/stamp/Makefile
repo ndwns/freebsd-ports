@@ -11,7 +11,7 @@ PKGNAME=	stamp-0.61
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.telepath.com/booger/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 

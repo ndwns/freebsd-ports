@@ -10,7 +10,7 @@ DISTNAME=	mtr-0.28
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 LIB_DEPENDS=    gtk.1:${PORTSDIR}/x11-toolkits/gtk
 

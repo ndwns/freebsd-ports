@@ -11,7 +11,7 @@ PKGNAME=	bnc-2.4.3
 CATEGORIES=	net
 MASTER_SITES=	http://www.bridgenet.net/bnc/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/bnc2.4.3
 HAS_CONFIGURE=	YES

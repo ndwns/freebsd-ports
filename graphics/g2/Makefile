@@ -11,7 +11,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	libs/graphics
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 BUILD_DEPENDS=  ${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 

@@ -10,7 +10,7 @@ DISTNAME=	linbot-0.9
 CATEGORIES=	www python
 MASTER_SITES=	http://starship.skyport.net/crew/marduk/linbot/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.org
 
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
