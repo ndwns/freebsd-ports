@@ -18,8 +18,8 @@ MAINTAINER=	alexis@ww.net
 WRKSRC=		${WRKDIR}/upsd-2.0
 
 pre-build:
-	@${MV} ${WRKSRC}/config.h ${WRKSRC}/config.h.orig
-	@sed -e "s!@prefix@!${PREFIX}!g" ${WRKSRC}/config.h.orig > ${WRKSRC}/config.h
+	@${MV} ${WRKSRC}/config.h ${WRKSRC}/conf.h.orig
+	@sed -e "s!@prefix@!${PREFIX}!g" ${WRKSRC}/conf.h.orig > ${WRKSRC}/conf.h
 
 post-install:
 	if [ ! -f ${PREFIX}/etc/upsd.conf ] ; then \
