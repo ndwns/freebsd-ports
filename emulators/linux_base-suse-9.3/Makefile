@@ -22,6 +22,8 @@ DISTFILES=		${RPMSET1} ${RPMSET2} ${RPMSET3}
 
 MAINTAINER=		marcel@FreeBSD.org
 
+BROKEN=		'ldconfig does not install properly'
+
 RUN_DEPENDS=		rpm:${PORTSDIR}/misc/rpm
 
 ONLY_FOR_ARCHS=		i386 alpha
