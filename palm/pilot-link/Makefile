@@ -14,15 +14,9 @@ MAINTAINER=	pst@freebsd.org
 
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
-.if exists(${PREIFX}/lib/libreadline.so.2.0) || \
-    exists(${PREFIX}/lib/libreadline.a)
-BROKEN=WARNING: Nonstandard/obsolete libreadline in ${PREFIX}/lib. \
-       Please remove it before building.
-.endif
-
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=--with-perl5
+CONFIGURE_ARGS+=--with-perl5
 
 MAN1=		dlpsh.1 ietf2datebook.1 install-datebook.1 \
 		install-memo.1 install-user.1 pilot-xfer.1 \
