@@ -16,6 +16,7 @@ MAINTAINER=	gpalmer@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+WRKSRC=		${WRKDIR}/tvtwm
 USE_IMAKE=	yes
 MAN1=		tvtwm.1
 
