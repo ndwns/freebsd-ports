@@ -17,6 +17,8 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
 		gtop.0:${PORTSDIR}/devel/libgtop
 
+BROKEN=		build
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
