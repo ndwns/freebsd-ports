@@ -8,7 +8,7 @@
 
 DISTNAME=       irsim-9.2
 CATEGORIES+=	cad
-MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/magic/6.4/
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/WRL/projects/magic/6.4/
 EXTRACT_SUFX=   .tar.Z
 
 WRKSRC=		${.CURDIR}/work/irsim
