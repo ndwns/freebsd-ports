@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=		PyGreSQL-2.3
-PKGNAME=		py-PyGreSQL-2.3
-CATEGORIES=		databases
-MASTER_SITES=		ftp://ftp.druid.net/pub/distrib/
+DISTNAME=		PyGreSQL-2.4
+PKGNAME=		py-PyGreSQL-2.4
+CATEGORIES=		databases python
+MASTER_SITES=		ftp://ftp.druid.net/pub/distrib/               \
+			http://www.nectar.cc/distfiles/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		nectar@FreeBSD.ORG
