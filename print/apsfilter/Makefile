@@ -22,4 +22,10 @@ NO_PACKAGE=	yes	# too many questions
 IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/apsfilter
 
+pre-clean:
+	@(cd ${PORTSDIR}/print/ghostscript4	; ${MAKE} clean)
+	@(cd ${PORTSDIR}/print/transfig		; ${MAKE} clean)
+	@(cd ${PORTSDIR}/graphics/jpeg		; ${MAKE} clean)
+	@(cd ${PORTSDIR}/graphics/netpbm	; ${MAKE} clean)
+
 .include <bsd.port.mk>
