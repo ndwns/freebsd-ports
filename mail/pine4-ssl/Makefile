@@ -35,7 +35,7 @@ MASTERDIR=	${.CURDIR}/../pine4
 
 FILESDIR=	${.CURDIR}/files
 
-.if exists(${DISTDIR}/${DISTNAME}${EXTRACT_SUFX})
+.if !exists(${DISTDIR}/${DISTNAME}${EXTRACT_SUFX})
 IGNORE='Please fill out the form at http://www.kfu.com/~nsayer/encryption/pine.html and place the sources at ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} then run make again'
 .endif
 
