@@ -275,5 +275,11 @@ LANG_EXT=       28
 LANG_CONFIGURE_ARG=     ZULU
 .endif
 ################################################################
+.if defined(LANG_PKGNAME)
+PKGNAMEPREFIX=		${LANG_PKGNAME}-
+.endif
+.if defined(LANG_SUFFIX)
+PKGNAMESUFFIX?=		-${LANG_SUFFIX}
+.endif
 .endif
 
