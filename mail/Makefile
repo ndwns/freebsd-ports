@@ -38,7 +38,8 @@
     SUBDIR += p5-Mail-POP3Client
     SUBDIR += p5-Mail-Tools
     SUBDIR += pgpsendmail
-    SUBDIR += pine
+    SUBDIR += pine3
+    SUBDIR += pine4
     SUBDIR += popclient
     SUBDIR += poppassd
     SUBDIR += popper
