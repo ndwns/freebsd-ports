@@ -16,7 +16,7 @@ EXTRACT_SUFX=   .exe
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-RESTRICTED=     "only unmodified original SFX can be distributed"
+NO_PACKAGE=     yes # only unmodified original package can be distributed
 
 NO_WRKSUBDIR=   yes
 EXTRACT_CMD=
