@@ -7,14 +7,12 @@
 # $Id$
 #
 
-DISTNAME=	ncftp-3.0beta13-src
-PKGNAME=	ncftp-3.0b13
+DISTNAME=	ncftp-3.0beta14-src
+PKGNAME=	ncftp-3.0b14
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ncftp.com/ncftp/3.0BETA/
 
 MAINTAINER=	obrien@FreeBSD.ORG
-
-BROKEN=		fetch
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/-src//}
 GNU_CONFIGURE=	yes
