@@ -35,6 +35,7 @@
     SUBDIR += piewm
     SUBDIR += qt
     SUBDIR += qvwm
+    SUBDIR += rclock
     SUBDIR += rxvt
     SUBDIR += specJava
     SUBDIR += swisswatch
