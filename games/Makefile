@@ -29,6 +29,7 @@
     SUBDIR += doom
     SUBDIR += empire
     SUBDIR += flying
+    SUBDIR += fkiss
     SUBDIR += freeciv
     SUBDIR += frotz
     SUBDIR += galaxis
