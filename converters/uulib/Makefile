@@ -18,15 +18,16 @@ GNU_CONFIGURE=		yes
 
 MAN3=		uulib.3
 
-ALL_TARGET=	libuu.a	libuu.so.1.0
+ALL_TARGET=	libuu.a	libuu.so.${VERSION}
 
 DOCFILES=	HISTORY doc/Makefile doc/README doc/binhex.fig \
 		doc/library.ltx doc/structure.fig doc/td-v1.c doc/td-v2.c \
 		doc/td-v3.c doc/test.txt
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.1.0 ${PREFIX}/lib
-	@${LDCONFIG} -m ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.${VERSION} ${PREFIX}/lib
+	${LN} -sf libuu.so.${VERSION} ${PREFIX}/lib/libuu.so
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib
 	@/usr/bin/ranlib ${PREFIX}/lib/libuu.a
 	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h
@@ -42,3 +43,9 @@ do-install:
 .endif
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	1
+.else
+VERSION=	1.0
+.endif
