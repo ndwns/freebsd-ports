@@ -10,6 +10,7 @@
     SUBDIR += cfengine
     SUBDIR += contool
     SUBDIR += daemontools
+    SUBDIR += doconfig
     SUBDIR += gtar
     SUBDIR += idled
     SUBDIR += lsof
