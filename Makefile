@@ -13,4 +13,4 @@ ${.CURDIR}/INDEX:
 	@echo " Done."
 
 print-index:	${.CURDIR}/INDEX
-	awk -F@ '{ printf("Port:\t%s\nPath:\t%s\nInfo:\t%s\n\n", $$1, $$2, $$4); }' < ${.CURDIR}/INDEX
+	awk -F\| '{ printf("Port:\t%s\nPath:\t%s\nInfo:\t%s\nMaint:\t%s\n\n", $$1, $$2, $$4, $$6); }' < ${.CURDIR}/INDEX
