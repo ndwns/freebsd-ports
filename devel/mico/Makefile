@@ -12,16 +12,16 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	scrappy@freebsd.org
 
-LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk \
-		qt\\.1\\.33:${PORTSDIR}/x11/qt133
+LIB_DEPENDS=	gtk\\.1\\.5:${PORTSDIR}/x11-toolkits/gtk
+BUILD_DEPENDS=	g++28:${PORTSDIR}/lang/gcc28 \
+		${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${OSREL}/2.8.1/libstdc++.a:${PORTSDIR}/lang/glibstdc++28
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
-		g++28:${PORTSDIR}/lang/gcc28 \
-		${PREFIX}/${GCC28DIR}/libstdc++.a:${PORTSDIR}/lang/glibstdc++28
+BROKEN=		build
 
 CXX=		g++28
 CC=		gcc28
 
+USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
@@ -41,6 +41,3 @@ post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
-
-GNUOSREL!=      uname -r | ${SED} -e 's/[-(].*//'
-GCC28DIR=       lib/gcc-lib/i386-unknown-freebsd${GNUOSREL}/2.8.1
