@@ -19,6 +19,7 @@
     SUBDIR += mit-scheme
     SUBDIR += modula-3
     SUBDIR += modula-3-lib
+    SUBDIR += modula-3-socks
     SUBDIR += moscow_ml
     SUBDIR += p2c
     SUBDIR += pTk
