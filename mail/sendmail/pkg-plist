@@ -24,7 +24,7 @@ sbin/praliases
 sbin/sendmail
 @group
 @comment (overwritten by pkg_add) chown root:smmsp sbin/sendmail
-@exec chmod 2555 sbin/sendmail
+@exec chmod 2555 %D/sbin/sendmail
 %%PORTDOCS%%share/doc/sendmail/op.ps
 %%PORTDOCS%%share/doc/sendmail/op.txt
 %%PORTDOCS%%share/doc/sendmail/DEVTOOLS
