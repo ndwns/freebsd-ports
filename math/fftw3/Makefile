@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	fftw-2.1.1
+DISTNAME=	fftw-2.1.2
 CATEGORIES=	math
 MASTER_SITES=	ftp://theory.lcs.mit.edu/pub/fftw/	\
 		ftp://pm.cse.rmit.edu.au/pub/dsp/fftw/
