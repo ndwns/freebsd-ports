@@ -19,6 +19,7 @@
     SUBDIR += mprof
     SUBDIR += noweb
     SUBDIR += tkcvs
+    SUBDIR += uulib
     SUBDIR += xxgdb
 
 .include <bsd.port.subdir.mk>
