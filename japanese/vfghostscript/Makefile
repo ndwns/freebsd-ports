@@ -22,6 +22,7 @@ DISTFILES=	ghostscript-2.6.2.tar.gz ghostscript-fonts-2.6.2.tar.gz \
 MAINTAINER=	mita@jp.FreeBSD.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libVFlib.a:${PORTSDIR}/japanese/vflib
+RUN_DEPENDS=	${PREFIX}/lib/libVFlib.a:${PORTSDIR}/japanese/vflib
 
 WRKSRC=		${WRKDIR}/gs262
 EXTRACT_ONLY=	ghostscript-2.6.2.tar.gz
