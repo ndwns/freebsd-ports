@@ -17,6 +17,8 @@ MAINTAINER=	andreas@klemm.gtn.com
 BUILD_DEPENDS=	${PREFIX}/sbin/httpd:${PORTSDIR}/www/apache
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape3
 
+NO_CDROM=	"It can't be sold"
+
 post-configure:
 	( cd ${WRKSRC}/doc; /bin/sh bbconfig freebsd )
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
