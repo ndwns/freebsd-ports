@@ -370,7 +370,7 @@ pre-build:
 .endif
 
 .if !target(build)
-build: configure depends ${BUILD_COOKIE}
+build: depends configure ${BUILD_COOKIE}
 
 ${BUILD_COOKIE}:
 	@echo "===>  Building for ${DISTNAME}"
