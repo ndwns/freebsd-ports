@@ -92,6 +92,7 @@
     SUBDIR += kterm
     SUBDIR += kterm16c
     SUBDIR += less
+    SUBDIR += lesw
     SUBDIR += libicq
     SUBDIR += libslang
     SUBDIR += lipsf
