@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://freefall.FreeBSD.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=	andreas@klemm.gtn.com
 
-RUN_DEPENDS=	gs4:${PORTSDIR}/print/ghostscript4 \
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript4 \
 		transfig:${PORTSDIR}/print/transfig \
 		cjpeg:${PORTSDIR}/graphics/jpeg \
 		anytopnm:${PORTSDIR}/graphics/netpbm
