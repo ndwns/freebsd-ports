@@ -14,10 +14,10 @@ MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/Yorick/		\
 
 PATCH_SITES=	ftp://ftp-icf.llnl.gov/pub/Yorick/
 PATCHFILES=	yorick-1.4.diff.gz
+PATCH_DIST_STRIP=-p1
 
 MAINTAINER=	giffunip@asme.org
 
-PATCH_DIST_STRIP=-p1
 HAS_CONFIGURE=	yes
 ALL_TARGET=
 MAN1=		yorick.1 gist.1
