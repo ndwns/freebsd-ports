@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SSLeay
+    SUBDIR += donkey
     SUBDIR += fwtk
     SUBDIR += libident
     SUBDIR += pgp
