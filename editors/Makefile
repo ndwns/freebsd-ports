@@ -28,6 +28,7 @@
     SUBDIR += vilearn
     SUBDIR += vim4
     SUBDIR += vim5
+    SUBDIR += vim5beta
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
