@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	tgif-4.0.2
+DISTNAME=	tgif-4.0.12
 CATEGORIES=	graphics x11
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		ftp://ftp.cs.ucla.edu/pub/tgif/
