@@ -16,8 +16,6 @@ PATCHFILES=	jnethack-1.0.5.19970924.gz
 
 MAINTAINER=	max@FreeBSD.ORG
 
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_GMAKE=	yes
