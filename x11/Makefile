@@ -86,6 +86,7 @@
     SUBDIR += xscreensaver
     SUBDIR += xskyroot
     SUBDIR += xsnow
+    SUBDIR += xstarroll
     SUBDIR += xtacy
     SUBDIR += xtattr
     SUBDIR += xtestpicture
