@@ -5,6 +5,7 @@
     SUBDIR += acroread-korfont
     SUBDIR += afterstep
     SUBDIR += ami
+    SUBDIR += bitchx
     SUBDIR += elm
     SUBDIR += engdic
     SUBDIR += ftghostscript5
