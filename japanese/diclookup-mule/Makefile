@@ -8,7 +8,7 @@
 
 DISTNAME=	diclookup-mule-2.3.3
 PKGNAME=	ja-diclookup-mule-2.3.3
-CATEGORIES=	japanese
+CATEGORIES=	japanese elisp
 MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tools/diclookup-mule/
 
 PATCH_SITES=	${MASTER_SITES}

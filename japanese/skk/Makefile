@@ -8,7 +8,7 @@
 
 DISTNAME=	skk9.6
 PKGNAME=	ja-skk-9.6
-CATEGORIES=	japanese
+CATEGORIES=	japanese elisp
 MASTER_SITES=	ftp://skk.kuis.kyoto-u.ac.jp/skk/9.6/
 
 MAINTAINER=	matusita@jp.freebsd.org

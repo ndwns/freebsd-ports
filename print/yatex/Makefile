@@ -8,7 +8,7 @@
 
 DISTNAME=	yatex9805062331
 PKGNAME?=	yatex-1.65.6
-CATEGORIES?=	print
+CATEGORIES?=	print elisp
 MASTER_SITES=	http://www.comp.ae.keio.ac.jp/~yuuji/yatex/ \
 		http://www.comp.ae.keio.ac.jp/~yuuji/tmp/
 

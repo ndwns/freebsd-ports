@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	ja-yatex-1.65.6
-CATEGORIES=	japanese print
+CATEGORIES=	japanese print elisp
 
 MULE=		yes
 
