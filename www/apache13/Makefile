@@ -15,8 +15,6 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
 MAINTAINER=     ache@freebsd.org
 
-NO_LATEST_LINK=	yes
-
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= \
 		 --logfiledir=/var/log \
