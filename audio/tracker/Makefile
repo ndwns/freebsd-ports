@@ -1,5 +1,5 @@
 # New ports collection makefile for:    tracker
-# Version required:     4.19
+# Version required:     4.21
 # Date created:         2 Oct 1994
 # Whom:                 swallace
 #
@@ -7,9 +7,10 @@
 #
 
 DISTNAME=       tracker
-DISTFILES=      tracker-4.19.tar.Z
+DISTFILES=      tracker-4.21.tar.Z
 MASTER_SITES=   ftp://ftp.ens.fr/pub/dmi/users/espie/beta/
 USE_GMAKE=      YES
+MAKE_FLAGS=     MACHINE=freebsd CC=cc -f
 INSTALL_TARGET= install install.man
 
 .include <bsd.port.mk>
