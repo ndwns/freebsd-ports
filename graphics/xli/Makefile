@@ -12,10 +12,11 @@ CATEGORIES=	graphics x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	jkoshy@FreeBSD.ORG
 
 USE_IMAKE=	yes
-MAN1=		xli.1 xlito.1
+MANN=		xli.n xlito.n
+MANCOMPRESSED=	no
 
 NO_WRKSUBDIR=	yes
 
