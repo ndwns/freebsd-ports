@@ -16,11 +16,7 @@ PATCHFILES=	1.0.37-1.0.41.gz
 
 MAINTAINER=	adam@veda.is
 
-.ifdef PATCHFILES
-.if ${PATCHFILES} != ""
-PATCH_PRFX!=	echo ${DISTFILES} | sed 's/^\(.*\)\.tar\.gz$$/\1\//'
-.endif
-.endif
+DIST_SUBDIR=	dgd
 WRKSRC=		${WRKDIR}/dgd/src
 
 pre-patch:
