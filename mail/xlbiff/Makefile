@@ -9,9 +9,7 @@
 DISTNAME=	xlbiff-3.0
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/  \
-		ftp://ftp.pacbell.com/mirror/ftp.x.org/X11/R5contrib/  \
-		ftp://ftp.funet.fi/pub/X11/R5contrib/  \
-		ftp://ftp.hitachi.co.jp/pub/X/R5contrib/
+		ftp://ftp.funet.fi/pub/X11/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
