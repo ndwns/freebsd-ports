@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://gsoft.com.au/pub/pib/
 MAINTAINER=	msmith@freebsd.org
 
 BUILD_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
+RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/pib
