@@ -31,7 +31,7 @@ PATCHFILES=	patches_1.3.6rusPL${RA_VERSION}.tar.gz
 MAINTAINER=	vns@delta.odessa.ua
 
 Y2K=		http://www.apache.org/docs/misc/FAQ.html#year2000
-RA_VERSION=	28.14
+RA_VERSION=	28.16
 
 #
 # Small hack for alternate processing patchfiles
