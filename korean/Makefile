@@ -30,6 +30,7 @@
     SUBDIR += nhppf
     SUBDIR += nvi-euc-kr
     SUBDIR += nvi-iso-2022-kr
+    SUBDIR += pgp.language
     SUBDIR += pine
     SUBDIR += pinetreefonts
     SUBDIR += vim
