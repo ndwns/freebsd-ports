@@ -26,7 +26,8 @@ USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS=-I${LOCALBASE}/include \
-		GTK_CONFIG="${X11BASE}/bin/gtk11-config" \
+		GTK_CONFIG="${X11BASE}/bin/gtk11d-config" \
+		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
 		LIBS=-L${LOCALBASE}/lib \
 		INSTALL="$${INSTALL} -c"
 
