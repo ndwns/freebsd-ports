@@ -20,7 +20,15 @@ PATCH_SITES=	ftp://nuxi.cs.ucdavis.edu/pub/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.math.fu-berlin.fr/~leitner/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.efrei.fr/~parmelan/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://www.frmug.org/pub/mutt/mutt/${PKGNAME:S/^mutt-//}/
-#PATCHFILES=
+PATCHFILES=	02.keys.PATCH  \
+		03.configure.PATCH  \
+		04.mbox-hook.PATCH  \
+		05.bind.PATCH  \
+		08.undisclosed.PATCH  \
+		09.attach.PATCH  \
+		10.noop.PATCH
+#		06.setgid.PATCH  \
+#		07.configure.in.PATCH  \
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
@@ -30,6 +38,14 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 PATCH_DIST_STRIP=	
 GNU_CONFIGURE=	yes
 MAN1=		mutt.1
+
+
+#	distpatches weren't made relative to ${WRKSRC}
+pre-patch:
+	@ln ${WRKSRC}/doc/manual.sgml ${WRKSRC}
+
+post-patch:
+	@${CP} ${WRKSRC}/manual.sgml ${WRKSRC}/doc
 
 
 post-install:
