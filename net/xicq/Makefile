@@ -15,9 +15,8 @@ MAINTAINER=	scrappy@freebsd.org
 
 WRKSRC=		${WRKDIR}/xicq-071298
 
-BROKEN=		build
-
 USE_GMAKE=	yes
+MAKE_ENV=	OPT="${CFLAGS}"
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/src/xicq/main ${PREFIX}/bin/xicq
