@@ -18,6 +18,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ecfonts-1.0.tar.gz tfm.tar \
 MAINTAINER=	max@FreeBSD.ORG
 
 BUILD_DEPENDS=	ptex-common:${PORTSDIR}/japanese/ptex-common
+RUN_DEPENDS=	ptex-common:${PORTSDIR}/japanese/ptex-common
 
 WRKSRC=		${WRKDIR}/base
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX} ecfonts-1.0.tar.gz  \
