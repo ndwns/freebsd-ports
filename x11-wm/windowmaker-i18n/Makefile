@@ -29,9 +29,4 @@ CONFIGURE_ARGS=	--with-pixmapdir=${PREFIX}/include/X11/pixmaps \
 	--with-gfx-libs=-L${LOCALBASE}/lib \
 	--with-gfx-incs="-I${LOCALBASE}/include/tiff34 -I${LOCALBASE}/include"
 
-post-patch:
-.for file in wmmacros Defaults/WindowMaker
-	@/usr/bin/perl -pi -e "s|@@PREFIX@@|${PREFIX}|g;" ${WRKSRC}/WindowMaker/${file}
-.endfor
-
 .include <bsd.port.mk>
