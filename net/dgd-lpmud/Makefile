@@ -8,15 +8,23 @@
 
 DISTNAME=	dgd-lpmud
 PKGNAME=	dgd-lpmud-2.4.5
-CATEGORIES+=	networking
+CATEGORIES+=	networking development games
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/ \
 		ftp://ftp.lysator.liu.se/pub/lpmud/mudlibs/other/
 DISTFILES=	sim-2.4.5.tar.gz 2.4.5.tar.gz
 
-DEPENDS=	${PORTSDIR}/net/dgd
+RUN_DEPENDS=	${PREFIX}/dgd/bin/driver:${PORTSDIR}/net/dgd
 
 NO_WRKSUBDIR=
 PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
-		-r ${PKGDIR}/REQ
+		-p ${PREFIX}/dgd
+#		-r ${PKGDIR}/REQ
+
+do-build:
+	@cd ${WRKDIR}/bin; make
+
+do-install:
+	@tar -C ${WRKDIR} -cf - `grep '^[a-z]' pkg/PLIST` \
+		| tar -C ${PREFIX}/dgd -xpf -
 
 .include <bsd.port.mk>
