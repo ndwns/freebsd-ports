@@ -16,13 +16,14 @@
     SUBDIR += emacs
     SUBDIR += emacs20
     SUBDIR += emacs20-dl
-    SUBDIR += gnotepad+
     SUBDIR += flim-emacs
     SUBDIR += flim-emacs-current
     SUBDIR += flim-emacs20
     SUBDIR += flim-emacs20-current
     SUBDIR += flim-mule
     SUBDIR += flim-mule-current
+    SUBDIR += gedit
+    SUBDIR += gnotepad+
     SUBDIR += gxedit
     SUBDIR += hexedit
     SUBDIR += jed
