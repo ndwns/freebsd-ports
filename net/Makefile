@@ -27,6 +27,7 @@
     SUBDIR += radius
     SUBDIR += rdist6
     SUBDIR += rmsg
+    SUBDIR += rsync
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += slirp
