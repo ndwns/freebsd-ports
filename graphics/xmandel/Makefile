@@ -18,6 +18,7 @@ EXTRACT_CMD=    sh
 EXTRACT_BEFORE_ARGS=
 USE_IMAKE=      yes
 NO_WRKSUBDIR=   yes
+MAN1=		xmandel.1
 
 MAINTAINER=	andreas@marvin.robin.de
 
