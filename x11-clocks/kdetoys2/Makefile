@@ -28,21 +28,14 @@ EXTRACT_AFTER_ARGS=	| ${TAR} -xf - ${DISTNAME}
 USE_BZIP2=	yes
 USE_GMAKE=	yes
 USE_LIBTOOL=	yes
+USE_NEWGCC=	yes
 CONFIGURE_ENV=	X_EXTRA_LIBS="-lxpg4"
 CXXFLAGS?=	${CFLAGS}
-
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} < 400004
-CC=	gcc295
-CXX=	g++295
-BUILD_DEPENDS= gcc295:${PORTSDIR}/lang/egcs
-.endif
 
 .if defined(QT_GIF_AVAILABLE)
 RESTRICTED=	requires Qt compiled with gif reading support
 .else
-BROKEN=		requires Qt compiled with gif reading support
+FORBIDDEN=	requires Qt compiled with gif reading support
 .endif
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
