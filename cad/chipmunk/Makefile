@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	chipmunk-5.10
-CATEGORIES+=	cad
+CATEGORIES=	cad
 MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/chipmunk/
 DISTFILES=	psys-1.10.tar.Z log-5.10.tar.Z netcmpbeta.tar.Z \
 		mosisbeta.tar.Z wolbeta.tar.Z wolcompbeta.tar.Z \
@@ -21,6 +21,6 @@ USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
 
 post-extract:
-	cp ${DISTDIR}/Makefile ${WRKSRC}/Makefile
+	${CP} ${DISTDIR}/Makefile ${WRKSRC}/Makefile
 
 .include <bsd.port.mk>

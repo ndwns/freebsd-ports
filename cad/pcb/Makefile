@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pcb-1.4.0
-CATEGORIES+=	cad
+CATEGORIES=	cad
 MASTER_SITES=	ftp://ftp.uni-ulm.de/pub/pcb/1.4/
 EXTRACT_SUFX=	.tar.gz
 
