@@ -15,10 +15,6 @@ MAINTAINER=	ve@sci.fi
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	LDFLAGS="${CFLAGS}"
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/fetchmail.1
-.endif
+MAN1=		fetchmail.1
 
 .include <bsd.port.mk>
