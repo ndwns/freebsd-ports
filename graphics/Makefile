@@ -7,8 +7,8 @@
     SUBDIR += camediaplay
     SUBDIR += dc3play
     SUBDIR += dore
-    SUBDIR += geomview
     SUBDIR += gd
+    SUBDIR += geomview
     SUBDIR += giflib
     SUBDIR += gifmerge
     SUBDIR += giftool
@@ -29,8 +29,8 @@
     SUBDIR += mpegedit
     SUBDIR += mplex
     SUBDIR += netpbm
-    SUBDIR += p5-Image-Size
     SUBDIR += p5-GD
+    SUBDIR += p5-Image-Size
     SUBDIR += pgperl
     SUBDIR += pgplot
     SUBDIR += pixmap
