@@ -31,7 +31,6 @@
     SUBDIR += plan
     SUBDIR += recode
     SUBDIR += rman
-    SUBDIR += sattrack
     SUBDIR += screen
     SUBDIR += team
     SUBDIR += tkinfo
