@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= dgd gn irc pmf sup tcpblast wais
+SUBDIR= chimera dgd gn irc pcnfsd pmf sup tcpblast wais yale-tftpd
 
 .include <bsd.port.subdir.mk>
