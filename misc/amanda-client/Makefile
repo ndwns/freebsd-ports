@@ -14,6 +14,8 @@ MAINTAINER=	cwt@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/amanda-2.4.0
 
+BROKEN=		package
+
 NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --libexecdir=${PREFIX}/libexec/amanda \
