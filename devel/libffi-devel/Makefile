@@ -6,6 +6,11 @@
 # $Id$
 #
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "aout"
+PATCHDIR=	${.CURDIR}/patches.aout
+.endif
 DISTNAME=       libffi-1.20
 CATEGORIES=	devel
 MASTER_SITES=   ftp://ftp.cygnus.com/pub/green/
