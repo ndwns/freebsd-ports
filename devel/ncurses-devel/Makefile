@@ -14,9 +14,9 @@ MAINTAINER=		andy@icc.surw.chel.su
 
 WRKSRC=			${WRKDIR}/ncurses_1.9.9g
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--with-shared --datadir=${PREFIX}/share/misc
+CONFIGURE_ARGS=	--with-shared --datadir=${PREFIX}/share/misc
 USE_GMAKE=		yes
-MAKE_FLAGS+=		ABI_VERSION=3.4 -f
+MAKE_FLAGS=		ABI_VERSION=3.4 -f
 
 post-install:
 	@ ${MKDIR} ${PREFIX}/include/ncurses
