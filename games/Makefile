@@ -103,9 +103,9 @@
     SUBDIR += tksol
     SUBDIR += tvp
     SUBDIR += uox3
+    SUBDIR += wmeyes
     SUBDIR += wmtictactoe
     SUBDIR += wmtimebomb
-    SUBDIR += wmeyes
     SUBDIR += xabacus
     SUBDIR += xasteroids
     SUBDIR += xataxx
