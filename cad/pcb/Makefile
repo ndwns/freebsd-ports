@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	pcb-1.2.patch_02
+DISTNAME=	pcb-1.2.patch_03
 MASTER_SITES=	ftp://pluto.medizin.uni-ulm.de/pub/pcb-1.2/
 EXTRACT_SUFX=	.tar.gz
 EXEC_DEPENDS=	gm4:${PORTSDIR}/devel/m4
