@@ -69,7 +69,7 @@
     SUBDIR += gicq
     SUBDIR += greed
     SUBDIR += gtksamba
-    SUBDIR += gwget
+    SUBDIR += gtm
     SUBDIR += h2n
     SUBDIR += hesiod
     SUBDIR += icb
