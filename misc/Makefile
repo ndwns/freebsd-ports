@@ -3,6 +3,7 @@
 
     SUBDIR += amanda
     SUBDIR += astrolog
+    SUBDIR += btoa
     SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
