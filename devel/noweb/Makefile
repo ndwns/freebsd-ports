@@ -25,8 +25,8 @@ MAN1=		htmltoc.1 nodefs.1 noindex.1 noroots.1 notangle.1 \
 post-install:
 	@rm ${PREFIX}/man/man1/noweave.1*
 	@rm ${PREFIX}/man/man1/nountangle.1*
-	ln ${PREFIX}/man/man1/notangle.1.gz ${PREFIX}/man/man1/noweave.1.gz
-	ln ${PREFIX}/man/man1/notangle.1.gz ${PREFIX}/man/man1/nountangle.1.gz
+	ln -sf ${PREFIX}/man/man1/notangle.1.gz ${PREFIX}/man/man1/noweave.1.gz
+	ln -sf ${PREFIX}/man/man1/notangle.1.gz ${PREFIX}/man/man1/nountangle.1.gz
 .endif
 
 .include <bsd.port.mk>
