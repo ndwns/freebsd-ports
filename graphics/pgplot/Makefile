@@ -15,6 +15,11 @@ MAINTAINER=	jmz@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/pgplot
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         makehtml not found
+.endif
+
 post-install:
 .for f in libcpgplot.so libpgplot.so
 	${LN} -sf $f.${VERSION} ${PREFIX}/lib/$f
