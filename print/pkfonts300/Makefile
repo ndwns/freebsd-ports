@@ -14,8 +14,6 @@ MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/TeX/fonts/ \
 DISTFILES=	pk${RESOLUTION}.tar.gz
 # see below for RESOLUTION definition
 
-MAINTAINER=	ohmon@tom.sfc.keio.ac.jp
-
 MANUAL_PACKAGE_BUILD=	RESOLUTION has to be set to 118 240 300 360 400 600
 DIST_SUBDIR=	pkfonts
 EXTRACT_CMD=	/usr/bin/true # extracted directly in install target
