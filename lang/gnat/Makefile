@@ -18,9 +18,7 @@ DISTNAME=       gcc-2.8.1
 PKGNAME=        gnat-3.11p
 CATEGORIES=	lang
 MASTER_SITES=   ftp://cs.nyu.edu/pub/gnat/ \
-		${MASTER_SITE_GNU} \
-		ftp://ftp.pcnet.com/users/eischen/GNAT/ \
-		http://axl.noc.iafrica.com/~sheldonh/
+		${MASTER_SITE_GNU}
 DISTFILES=      gnat-3.11p-src.tar.gz gcc-2.8.1.tar.gz
 
 MAINTAINER=	eischen@vigrid.com
