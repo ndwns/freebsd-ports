@@ -12,6 +12,7 @@
     SUBDIR += dvi2tty
     SUBDIR += elvis
     SUBDIR += escpf
+    SUBDIR += expect
     SUBDIR += gawk
     SUBDIR += ghostscript
     SUBDIR += gn-gnspool
