@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://ee.lbl.gov/  \
 MAINTAINER=     obrien@NUXI.com
 
 WRKSRC=		${WRKDIR}/bro-0.3
-CONFIGURE_ARGS+=        --libdir=${PREFIX}/share
+CONFIGURE_ARGS= --libdir=${PREFIX}/share
 GNU_CONFIGURE=	yes
 
 post-patch:
