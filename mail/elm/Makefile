@@ -1,5 +1,5 @@
 # New ports collection makefile for:    elm
-# Version required:     2.4 ME8b
+# Version required:     2.4 pl25 ME8b
 # Date created:         26 June 1995
 # Whom:                 ache
 #
@@ -7,19 +7,22 @@
 #
 
 DISTNAME=       elm-2.4pl24me8
-VERSION=        2.4m8b          # allows to not edit elm+* Makefiles
+VERSION=        2.4.25m8b          # allows to not edit elm+* Makefiles
 PKGNAME=        elm-${VERSION}
 CATEGORIES+=	mail
-MASTER_SITES=   ftp://cs.hmc.edu/pub/me/
+MASTER_SITES=   ftp://cs.hmc.edu/pub/me/ ftp://ftp.myxa.com/pub/elm/
+DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} elm2.4.p25
+EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-PATCH_SITES=    ${MASTER_SITES}
+PATCH_SITES=    ftp://cs.hmc.edu/pub/me/
 PATCHFILES=     elm-2.4pl24me8a.diffs.Z elm-2.4pl24me8b.diffs.Z
 PATCH_DIST_STRIP= -p1
 
 pre-patch:
 	rm -f ${WRKSRC}/src/state.c
+	-patch -d ${WRKSRC} -s -p -N -S + < ${PORTSDIR}/distfiles/elm2.4.p25
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install
