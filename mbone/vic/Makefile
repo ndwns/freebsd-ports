@@ -18,10 +18,9 @@ LIB_DEPENDS=	tk41:${PORTSDIR}/x11/tk41
 GNU_CONFIGURE=	yes
 USE_X11=	yes
 
-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/vic ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/histtolut ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/vic.1 ${PREFIX}/man/man1
-	${COMPRESS_MAN} ${PREFIX/man/man1/vic.1
+post-install:
+	strip ${PREFIX}/bin/vic
+	strip ${PREFIX}/bin/histtolut
+	${COMPRESS_MAN} ${PREFIX}/man/man1/vic.1
 	
 .include <bsd.port.mk>
