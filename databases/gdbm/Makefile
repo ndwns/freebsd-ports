@@ -1,7 +1,7 @@
 # New ports collection makefile for: gdbm
 # Version required:	1.7.3
 # Date created:		8 Apr 1996
-# Whom:			Brent J. Nordquist <nordquist@platinum.com>
+# Whom:			Brent J. Nordquist <bjn@visi.com>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=          gdbm-1.7.3
 CATEGORIES=        databases
 MASTER_SITES=      ${MASTER_SITE_GNU}
 
-MAINTAINER=        nordquist@platinum.com
+MAINTAINER=        bjn@visi.com
 
 GNU_CONFIGURE=     yes
 MAKE_FLAGS=        CFLAGS="${CFLAGS}" LDFLAGS=-s -f

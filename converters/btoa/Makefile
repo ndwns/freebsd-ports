@@ -1,7 +1,7 @@
 # New ports collection makefile for: btoa
 # Version required:                  5.2
 # Date created:                      4 Apr 1996
-# Whom:                              Brent J. Nordquist <nordquist@platinum.com>
+# Whom:                              Brent J. Nordquist <bjn@visi.com>
 #
 # $Id$
 #
@@ -14,7 +14,7 @@ MASTER_SITES=      ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 PATCH_SITES=       ${MASTER_SITES}
 PATCHFILES=        btoa-5.2-patch1.gz
 
-MAINTAINER=        nordquist@platinum.com
+MAINTAINER=        bjn@visi.com
 
 MAKE_FLAGS=        DESTDIR=${PREFIX} -f
 MAKEFILE=          Makefile.sun
