@@ -1,7 +1,7 @@
 # New ports collection makefile for:	trafshow
 # Version required:     2.0
 # Date created:         17 January 1996
-# Whom:                 igor@pkaub.ru
+# Whom:			Igor Vinokurov <igor@zynaps.ru>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ CATEGORIES+=	net
 MASTER_SITES=	ftp://ftp.kiae.su/unix/tcpip/netmaint/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=     igor@pkaub.ru
+MAINTAINER=	igor@zynaps.ru
 
 post-install:
 	strip ${PREFIX}/bin/trafshow
