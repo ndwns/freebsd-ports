@@ -6,10 +6,10 @@
 # $Id$
 #
 
-PKGNAME=	libwww-5.1m1
+PKGNAME=	libwww-5.2
 DISTNAME=	w3c-${PKGNAME}
 CATEGORIES=	www devel
-MASTER_SITES=	ftp://ftp.w3.org/pub/libwww/
+MASTER_SITES=	http://www.w3.org/Library/Distribution/
 
 MAINTAINER=	jseger@FreeBSD.org
 
@@ -18,7 +18,6 @@ USE_GMAKE=	yes
 CONFIGURE_ARGS=	--enable-shared --enable-static
 DOCDIR=		${PREFIX}/share/doc/libwww
 
-WRKSRC=		${WRKDIR}/w3c-libwww-5.1m
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOPORTDOCS)
