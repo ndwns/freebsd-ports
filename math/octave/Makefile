@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	octave-2.0.9
-CATEGORIES=	math 
+CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.che.wisc.edu/pub/octave/
 
 MAINTAINER=	chuckr@FreeBSD.ORG
@@ -15,7 +15,7 @@ MAINTAINER=	chuckr@FreeBSD.ORG
 RUN_DEPENDS=	gnuplot:${PORTSDIR}/math/gnuplot
 
 HAS_CONFIGURE=	yes
-CONFIGURE_ENV=	/usr/bin/env "INSTALL_DATA=$(INSTALL_DATA)" "INSTALL_PROGRAM=$(INSTALL_SCRIPT)"
+CONFIGURE_ENV=	${SETENV} "INSTALL_DATA=$(INSTALL_DATA)" "INSTALL_PROGRAM=$(INSTALL_SCRIPT)"
 CONFIGURE_ARGS=	--prefix=${PREFIX} --exec-prefix=${PREFIX} --with-f2c --enable-info --enable-shared --host=i386-unknown-freebsd
 USE_GMAKE=	yes
 MAN1=		octave.1
@@ -27,13 +27,13 @@ OCTAVE-INFO= octave.info octave.info-1 octave.info-10 octave.info-11 octave.info
 LIBOCTAVE-INFO= liboctave.info liboctave.info-1 liboctave.info-2 liboctave.info-3
 
 post-install:
-	mv ${PREFIX}/lib/libcruft.so ${PREFIX}/lib/libcruft.so.2.0
-	mv ${PREFIX}/lib/liboctave.so ${PREFIX}/lib/liboctave.so.2.0
-	mv ${PREFIX}/lib/liboctinterp.so ${PREFIX}/lib/liboctinterp.so.2.0
-	mv ${PREFIX}/lib/libtinst.so ${PREFIX}/lib/libtinst.so.2.0
-	mv ${PREFIX}/lib/libreadline.so ${PREFIX}/lib/libreadline.so.2.0
-	mv ${PREFIX}/lib/libhistory.so ${PREFIX}/lib/libhistory.so.2.0
-	mv ${PREFIX}/lib/libkpathsea.so ${PREFIX}/lib/libkpathsea.so.2.0
+	${MV} ${PREFIX}/lib/libcruft.so ${PREFIX}/lib/libcruft.so.2.0
+	${MV} ${PREFIX}/lib/liboctave.so ${PREFIX}/lib/liboctave.so.2.0
+	${MV} ${PREFIX}/lib/liboctinterp.so ${PREFIX}/lib/liboctinterp.so.2.0
+	${MV} ${PREFIX}/lib/libtinst.so ${PREFIX}/lib/libtinst.so.2.0
+	${MV} ${PREFIX}/lib/libreadline.so ${PREFIX}/lib/libreadline.so.2.0
+	${MV} ${PREFIX}/lib/libhistory.so ${PREFIX}/lib/libhistory.so.2.0
+	${MV} ${PREFIX}/lib/libkpathsea.so ${PREFIX}/lib/libkpathsea.so.2.0
 	${LDCONFIG} -m $(PREFIX)/lib
 .ifndef NOPORTDOCS
 .for file in $(OCTAVE-INFO)
