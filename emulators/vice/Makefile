@@ -14,6 +14,7 @@ MAINTAINER=	dchapes@ddm.on.ca
 WRKSRC=		${WRKDIR}/vice-0.14.1/src
 
 RESTRICTED=	ROMs are copyrighted by Commodore Business Machines
+NO_PACKAGE=	${RESTRICTED}
 
 GNU_CONFIGURE=	YES
 CONFIGURE_ENV=	CFLAGS="${CFLAGS} -O3 -Wall -fomit-frame-pointer -funroll-loops -finline-functions -fno-strength-reduce"
