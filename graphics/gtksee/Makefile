@@ -6,10 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	gtksee-0.2.2
+DISTNAME=	gtksee-0.3.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
-		http://www.zg169.net/~hotaru/gtksee/ \
+MASTER_SITES=	http://www.zg169.net/~hotaru/gtksee/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
 MAINTAINER=	dirk@FreeBSD.ORG
