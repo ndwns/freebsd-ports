@@ -29,6 +29,13 @@ MAN3=		libexpect.3
 .endif
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${LN} -sf ${SOLIB} ${PREFIX}/lib/libexpect526.so
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+SOLIB=	libexpect526.so.1
+.else
+SOLIB=	libexpect526.so.1.2
+.endif
