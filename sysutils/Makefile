@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += LPRng
     SUBDIR += afio
     SUBDIR += cd-write
     SUBDIR += contool
