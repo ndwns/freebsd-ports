@@ -8,7 +8,7 @@
 
 DISTNAME=       pmf-1.13.1
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/clients/
+MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/clients/pmf/
 
 WRKSRC=		${WRKDIR}/pmfdir/src
 
