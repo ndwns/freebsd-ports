@@ -10,16 +10,11 @@ DISTNAME=       elm-2.4pl24me8b
 VERSION=        2.4.25m8b          # allows to not edit elm+* Makefiles
 PKGNAME=        elm-${VERSION}
 CATEGORIES+=	mail
-MASTER_SITES=   ftp://cs.hmc.edu/pub/me/ ftp://ftp.myxa.com/pub/elm/
+MASTER_SITES=   ftp://ftp.kiae.su/unix/mail/ ftp://ftp.myxa.com/pub/elm/
 DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} elm2.4.p25
 EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	ache@FreeBSD.ORG
-
-# future hooks
-#PATCH_SITES=    ftp://cs.hmc.edu/pub/me/
-#PATCHFILES=
-#PATCH_DIST_STRIP= -p1
 
 pre-patch:
 	-patch -d ${WRKSRC} -s -p -N -S + < ${PORTSDIR}/distfiles/elm2.4.p25
