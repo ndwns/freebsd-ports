@@ -38,7 +38,6 @@ XCDRDAO=		yes
 
 .if defined(XCDRDAO)
 LIB_DEPENDS+=		gtkmm-1.0.5:${PORTSDIR}/x11-toolkits/gtk--
-PLIST=          	${PKGDIR}/PLIST.xcdrdao
 .else
 CONFIGURE_ARGS= 	--disable-gtkmmtest
 .endif
