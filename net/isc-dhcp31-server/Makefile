@@ -13,6 +13,11 @@ MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
 MAINTAINER=	ports@FreeBSD.org
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		"currently doesn't compile for -current"
+.endif
+
 HAS_CONFIGURE=	yes
 
 MAN5=		dhcpd.conf.5
