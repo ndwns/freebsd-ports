@@ -15,6 +15,7 @@ MAINTAINER=	ports@FreeBSD.org
 
 #	see below for shared lib version information
 
+MANUAL_PACKAGE_BUILD=	do not want to install during interactive build
 GNU_CONFIGURE=  yes
 USE_X11=	yes
 # change this and remove the strip statement in post-install for debugging
