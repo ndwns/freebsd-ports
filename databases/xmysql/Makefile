@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	xmysql-1.8
+DISTNAME=	xmysql-1.9
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
-                http://web.tryc.on.ca/mysql/Contrib/
+		http://web.tryc.on.ca/mysql/Contrib/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
