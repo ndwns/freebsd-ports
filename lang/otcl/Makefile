@@ -12,7 +12,7 @@ MASTER_SITES=	http://www-mash.cs.berkeley.edu/dist/
 
 MAINTAINER=	obonilla@fisicc-ufm.edu
 
-LIB_DEPENDS=    tcl80.1:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=    tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 USE_XLIB=	yes
 
