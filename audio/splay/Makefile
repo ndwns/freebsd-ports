@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=		splay-0.3
+DISTNAME=		splay-0.5
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/sound/players/
