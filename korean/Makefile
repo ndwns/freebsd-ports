@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += Wnn
     SUBDIR += nvi-euc-kr
     SUBDIR += nvi-iso-2022-kr
 
