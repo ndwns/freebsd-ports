@@ -8,6 +8,7 @@
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += kdemultimedia
+    SUBDIR += kmpg
     SUBDIR += maplay
     SUBDIR += mikmod
     SUBDIR += mpegaudio
