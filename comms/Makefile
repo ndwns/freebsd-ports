@@ -5,6 +5,7 @@
     SUBDIR += hylafax
     SUBDIR += kermit
     SUBDIR += mgetty+sendfax
+    SUBDIR += minicom
     SUBDIR += rzsz
     SUBDIR += seyon
 
