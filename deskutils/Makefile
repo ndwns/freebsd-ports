@@ -4,6 +4,7 @@
     SUBDIR += abacus
     SUBDIR += cal
     SUBDIR += cbb
+    SUBDIR += gnomepim
     SUBDIR += gnucash
     SUBDIR += ical
     SUBDIR += korganizer
