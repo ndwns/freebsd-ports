@@ -9,6 +9,5 @@
 RESOLUTION=	600
 FILESDIR=	${.CURDIR}/../pkfonts300/files
 PKGDIR=		${.CURDIR}/../pkfonts300/pkg
-PLIST=		${.CURDIR}/pkg/PLIST
 
 .include "${.CURDIR}/../pkfonts300/Makefile"
