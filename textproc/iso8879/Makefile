@@ -17,13 +17,13 @@ MAINTAINER=	jfieber@FreeBSD.ORG
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 NO_MTREE=       yes
-NO_EXTRACT=     yes
+EXTRACT_ONLY=	# empty
 NO_BUILD=       yes
 NO_PATCH=	yes
 NO_CONFIGURE=	yes
-NO_WRKDIR=      yes
+NO_WRKSUBDIR=	yes
 
-INSTDIR=	${PREFIX}/share/sgml/iso8879/
+INSTDIR=	${PREFIX}/share/sgml/iso8879
 
 pre-install:
 	@[ -d ${INSTDIR} ] || ${MKDIR} ${INSTDIR}
