@@ -21,12 +21,21 @@ MAINTAINER=	graphite@taurus.bekkoame.or.jp
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
-DNDP=		${WRKSRC}/devnippon/DESC.proto
+DESCS=		${WRKSRC}/devnippon/DESC.proto ${WRKSRC}/devps/DESC.in
 
 #for not writing "/usr/local" explicitly in the patch
 post-patch:
-	/bin/mv -f ${DNDP} ${DNDP}.tmp
-	/usr/bin/sed -e '$$d' ${DNDP}.tmp > ${DNDP}
-	/bin/echo "postpro ${PREFIX}/bin/grotty" >> ${DNDP}
+	@for f in ${DESCS}; do \
+	  /bin/mv -f $${f} $${f}.tmp; \
+	  ${SED} -e '$$d' $${f}.tmp > $${f}; \
+	  case $${f} in \
+  	    */devnippon/*) \
+		${ECHO} "postpro ${PREFIX}/bin/grotty" >> $${f}; \
+		;; \
+	    */devps/*) \
+		${ECHO} "postpro ${PREFIX}/bin/grops" >> $${f}; \
+		;; \
+	  esac; \
+	done
 
 .include <bsd.port.mk>
