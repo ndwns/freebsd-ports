@@ -9,13 +9,16 @@
 DISTNAME=	eispack
 PKGNAME=	eispack-1.0
 CATEGORIES=	math
-MASTER_SITES=	ftp://netlib.att.com/netlib/eispack/
+MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/eispack/ \
+		ftp://ftp.netlib.org/eispack/
 
 DIST_SUBDIR=	${DISTNAME}
 
-EXTRACT_CMD=${.CURDIR}/scripts/uncomp
-EXTRACT_SUFX=.Z
-EXTRACT_ARGS= ${WRKDIR}
+RUN_DEPENDS=	${PREFIX}/lib/libcor.so.1.0:${PORTSDIR}/math/blas
+
+EXTRACT_CMD=	${SCRIPTDIR}/uncomp
+EXTRACT_SUFX=	.Z
+EXTRACT_ARGS=	${WRKDIR}
 
 NO_WRKSUBDIR=	yes
 
@@ -36,7 +39,7 @@ pre-build:
 	cp Makefile.lib ${WRKDIR}/Makefile
 
 pre-extract:
-	chmod +x scripts/uncomp
+	chmod +x ${SCRIPTDIR}/uncomp
 
 post-install:
 	ldconfig -m ${PREFIX}/lib
