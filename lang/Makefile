@@ -18,6 +18,9 @@
     SUBDIR += icon
     SUBDIR += idl4
     SUBDIR += itcl
+    SUBDIR += javac_netscape
+    SUBDIR += jdk
+    SUBDIR += kaffe
     SUBDIR += lcc
     SUBDIR += logo
     SUBDIR += mit-scheme

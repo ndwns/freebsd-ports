@@ -41,6 +41,7 @@
     SUBDIR += p5-Resources
     SUBDIR += p5-Time
     SUBDIR += prcs
+    SUBDIR += sawt
     SUBDIR += tkcvs
     SUBDIR += uulib
     SUBDIR += xwpe
