@@ -17,7 +17,6 @@ LIB_DEPENDS=	qt:${PORTSDIR}/x11/qt
 
 MAN1=		pppload.1
 
-BROKEN=		install
 USE_GMAKE=	yes
 
 .include <bsd.port.mk>
