@@ -54,6 +54,10 @@ do-install:
 	    sed -e "/^@/d" -e "/m3build-/d" -e "s/\.gz$$//" \
 		-e "/^share/d" ${PLIST} | \
 		cpio -dump -R ${BINOWN}.${BINGRP} ${PREFIX}
+	@cd ${temp_prefix}/man/man1; \
+	    umask 022; \
+	    ${ECHO} ${MAN1} | perl -pe 's/ /\n/g' | \
+		cpio -dump -R ${MANOWN}.${MANGRP} ${PREFIX}/man/man1
 	@echo "Fixing absolute pathnames in installed files"
 	@${SH} ${SCRIPTDIR}/fix_pathnames ${temp_prefix} ${PREFIX}
 	@echo "Rebuilding and shipping m3build with correct pathnames"
