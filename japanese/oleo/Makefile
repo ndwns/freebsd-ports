@@ -15,10 +15,10 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} oleo-doc.tar.gz
 
 PATCH_SITES=	http://www.hh.iij4u.or.jp/%7Ehayasida/oleo/
 PATCHFILES=	oleo-1.6-1.6jb2.diff.gz
+PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	sanpei@yy.cs.keio.ac.jp
 
-PATCH_DIST_STRIP=	-p1
 GNU_CONFIGURE=yes
 
 post-install:
