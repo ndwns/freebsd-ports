@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	libident-0.21
+DISTNAME=	libident-0.22
 CATEGORIES=	devel net security
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/libs/
 
