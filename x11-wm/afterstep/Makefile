@@ -9,7 +9,7 @@
 DISTNAME=	AfterStep-1.0
 PKGNAME=	afterstep-1.0
 CATEGORIES=	x11-wm
-MASTER_SITES=	ftp://afterstep.foo.net/pub/AfterStep/
+MASTER_SITES=	ftp://ftp.cs.tu-berlin.de/pub/X/afterstep/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
