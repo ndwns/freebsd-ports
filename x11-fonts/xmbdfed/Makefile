@@ -15,6 +15,8 @@ MAINTAINER=	jfieber@FreeBSD.ORG
 PATCH_SITES=	${MASTER_SITES}
 #PATCHFILES=	xmbdfed-2.3.patch1 xmbdfed-2.3.patch2
 
+BROKEN=		old version not available, new version needs debugging
+
 USE_X11=	yes
 REQUIRES_MOTIF=	yes
 
