@@ -24,6 +24,7 @@
     SUBDIR += logsurfer
     SUBDIR += mc
     SUBDIR += mmv
+    SUBDIR += most
     SUBDIR += mshell
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
