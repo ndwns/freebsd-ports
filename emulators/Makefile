@@ -13,6 +13,7 @@
     SUBDIR += mastergear
     SUBDIR += mtools
     SUBDIR += pcemu
+    SUBDIR += prodosemu
     SUBDIR += sim6811
     SUBDIR += spim
     SUBDIR += tkhfs
