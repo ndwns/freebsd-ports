@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	emu fvwm iv jetpack tk xarchie xmris xpm
+SUBDIR=	emu fvwm iv tk xarchie xpm
 
 .include <bsd.port.subdir.mk>
