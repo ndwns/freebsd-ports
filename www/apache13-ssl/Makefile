@@ -1,13 +1,13 @@
 # New ports collection makefile for:    apache HTTPD and HTTPSD
-# Version required:     1.2b10
+# Version required:     1.2b11
 # Date created:         Fri Aug 25 16:42:36 CDT 1995
 # Whom:                 erich@rrnet.com
 #
 # $Id$
 #
 
-DISTNAME=       apache_1.2b10
-PKGNAME=        apache-1.2b10
+DISTNAME=       apache_1.2b11
+PKGNAME=        apache-1.2b11
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
@@ -23,7 +23,7 @@ MAINTAINER=	markm@freebsd.org
 # SECURE_SERVER - build Apache with SSL
 
 .if defined(DIR_ACHE)
-PATCH_SITES+=   http://www.nagual.ru/~ache/
+PATCH_SITES+=   http://www.nagual.pp.ru/~ache/
 PATCHFILES+=    dir.patch
 VERS_ID=        dir/ache
 .endif
