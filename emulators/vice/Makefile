@@ -11,7 +11,7 @@ MASTER_SITES=	ftp://ftp.funet.fi/pub/cbm/crossplatform/emulators/VICE/
 
 MAINTAINER=	dchapes@ddm.on.ca
 
-LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11-toolkits/Xaw3d
+LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 USE_XLIB=	yes
 
 WRKSRC=		${WRKDIR}/vice-0.14.1/src

@@ -13,7 +13,7 @@ EXTRACT_SUFX=	-sources.tgz
 
 MAINTAINER=	shanee@augusta.de
 
-LIB_DEPENDS=	Xaw3d\\.6\\.:$(PORTSDIR)/x11-toolkits/Xaw3d
+LIB_DEPENDS=	Xaw3d.6:$(PORTSDIR)/x11-toolkits/Xaw3d
 RUN_DEPENDS=	playmidi:${PORTSDIR}/audio/playmidi
 
 ALL_TARGET=	all ROSEGARDEN=$(WRKSRC) SYSLIBS="\"-lXaw3d -lXext -lXmu -lXt -lX11\"" SYSEXTRALIBS=""
