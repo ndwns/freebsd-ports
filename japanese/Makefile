@@ -4,6 +4,7 @@
     SUBDIR += Canna
     SUBDIR += Wnn
     SUBDIR += chimera
+    SUBDIR += elvis
     SUBDIR += gawk
     SUBDIR += grep
     SUBDIR += groff
