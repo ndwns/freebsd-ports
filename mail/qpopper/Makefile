@@ -35,7 +35,10 @@ P_LIBS+=        -lmd -lutil
 
 GNU_CONFIGURE=          yes
 CONFIGURE_ARGS=         --enable-apop=${PREFIX}/etc/popper/pop.auth \
-			--with-apopuid=pop --enable-debugging
+			--with-apopuid=pop
+.if defined(FULL_POP_DEBUG)
+CONFIGURE_ARGS+=        --enable-debugging
+.endif
 CONFIGURE_ENV=          LIBS="${P_LIBS}" O_DEFS="${O_DEFS}"
 
 MAN8=   popauth.8 popper.8
