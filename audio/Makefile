@@ -7,6 +7,7 @@
     SUBDIR += cam
     SUBDIR += cdd
     SUBDIR += cdplay
+    SUBDIR += cmp3
     SUBDIR += dagrab
     SUBDIR += dap
     SUBDIR += esound
