@@ -28,6 +28,7 @@ CONFIGURE_ARGS=	--bindir=${PREFIX}/sbin  --sysconfdir=${PREFIX}/etc/squid \
 		--localstatedir=${PREFIX}/squid
 STRIP=		# won't install scripts correctly othervise.
 MAKEFILE=	makefile
+NO_LATEST_LINK=	yes
 
 # Some other configure options..
 #  - Compile and use the malloc package from Doug Lea
