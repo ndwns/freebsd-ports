@@ -1,5 +1,5 @@
 # New ports collection makefile for:	exim
-# Version required:	2.02
+# Version required:	2.05
 # Date created:		23 June 1996
 # Whom:			axl@iafrica.com
 #
