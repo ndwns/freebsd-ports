@@ -5,6 +5,7 @@
     SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += dore
+    SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
     SUBDIR += gimp
