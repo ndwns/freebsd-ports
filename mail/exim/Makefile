@@ -22,6 +22,8 @@ USE_XLIB=	YES
 
 USE_PERL5=	YES
 
+MAKE_ENV+=	OSTYPE=${OPSYS} ARCHTYPE=${MACHINE_ARCH}
+
 do-configure:
 	${MKDIR} ${WRKSRC}/Local
 .if defined(USE_XLIB) && ${USE_XLIB} == YES
