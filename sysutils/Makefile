@@ -37,6 +37,7 @@
     SUBDIR += tua
     SUBDIR += ucspi-tcp
     SUBDIR += upsd
+    SUBDIR += upsmon
     SUBDIR += webmin
     SUBDIR += wmavgload
     SUBDIR += xbatt
