@@ -10,29 +10,20 @@
 DISTNAME=       timidity-0.2i
 CATEGORIES=     audio
 MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/misc/hardware/soundcard/gus/ \
-		http://www.cgs.fi/~tt/timidity/
-TIINS=          dgguspat.zip
+		http://www.goice.co.jp/member/mo/timidity/dist/
+TIINS=          goemon.tgz
 DISTFILES=      ${TIINS} ${DISTNAME}.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-BROKEN=		fetch
-
 NO_CDROM=       "Uses copyrighted patches"
-
-BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 
 EXTRACT_ONLY=   ${DISTNAME}.tar.gz
 INSTALL_TARGET= install.all
 MAN1=           timidity.1
 
-do-configure:
-	@cd ${WRKSRC} && \
-	sed "s=%PREFIX%=${PREFIX}=" < gravis.cfg > gravis.cfg.new && \
-	mv gravis.cfg.new gravis.cfg
-
 post-install:
-	cd ${PREFIX}/lib/timidity/patch && \
-	unzip -o -q -L ${DISTDIR}/${TIINS}
+	cd ${PREFIX}/lib/timidity && \
+	tar zxf ${DISTDIR}/${TIINS}
 
 .include <bsd.port.mk>
