@@ -5,6 +5,7 @@
     SUBDIR += c2html
     SUBDIR += catdoc
     SUBDIR += docbook
+    SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
     SUBDIR += glimpse
     SUBDIR += html
