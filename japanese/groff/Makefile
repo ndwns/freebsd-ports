@@ -11,12 +11,12 @@ PKGNAME=	jp-groff-0.99
 CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	graphite@taurus.bekkoame.or.jp
-
 PATCH_SITES=	ftp://ftp.ae.keio.ac.jp/pub/GNU/ \
 		ftp://ftp.iij.ad.jp/pub/linux-j/JF/misc/
 PATCHFILES=	jgroff-0.99.diff.gz
 PATCH_DIST_STRIP=	-p1
+
+MAINTAINER=	graphite@taurus.bekkoame.or.jp
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
