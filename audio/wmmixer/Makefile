@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmmixer
-PKGNAME=	wmmixer-0.8
+PKGNAME=	wmmixer-1.0b1
 CATEGORIES=	audio
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
 EXTRACT_SUFX=	.tgz
@@ -17,7 +17,7 @@ MAINTAINER=	rneswold@mcs.net
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 FETCH_BEFORE_ARGS=	-t
-NO_INSTALL_MANPAGES=	1
 USE_IMAKE=		yes
+NO_INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>
