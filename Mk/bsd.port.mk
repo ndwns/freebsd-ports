@@ -826,7 +826,7 @@ build:
 	@${IGNORECMD}
 install:
 	@${IGNORECMD}
-deinstall:
+reinstall:
 	@${IGNORECMD}
 package:
 	@${IGNORECMD}
@@ -1189,6 +1189,7 @@ _PORT_USE: .USE
 .if make(real-install)
 .if !defined(NO_MTREE)
 	@if [ `id -u` = 0 ]; then \
+		${MKDIR} ${PREFIX}; \
 		if [ ! -f ${MTREE_FILE} ]; then \
 			${ECHO_MSG} "Error: mtree file \"${MTREE_FILE}\" is missing."; \
 			${ECHO_MSG} "Copy it from a suitable location (e.g., /usr/src/etc/mtree) and try again."; \
