@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:     4.2.5
+# Version required:     4.2.6
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=       ImageMagick-4.2.5
+DISTNAME=       ImageMagick-4.2.6
 CATEGORIES=	graphics perl5
 MASTER_SITES=	ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
 		ftp://ftp.cci.fr/pub/unix/gfx/ImageMagick/ \
