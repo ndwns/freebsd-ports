@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.muraroa.demon.co.uk/
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN=		fetch
+
 FETCH_BEFORE_ARGS=	-b
 MAN1=		bzip2.1
 MLINKS=		bzip2.1 bunzip2.1
