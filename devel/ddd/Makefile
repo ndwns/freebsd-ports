@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	ddd-2.1
+DISTNAME=	ddd-2.1.1
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.ips.cs.tu-bs.de/pub/local/softech/ddd/  \
 		ftp://richb-pc.acc.qc.edu/pub/ddd/  \
