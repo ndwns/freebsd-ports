@@ -27,6 +27,7 @@
     SUBDIR += kdegames
     SUBDIR += klondike
     SUBDIR += ktamaga
+    SUBDIR += ladder
     SUBDIR += lincity
     SUBDIR += nethack
     SUBDIR += nethack-qt
