@@ -8,7 +8,7 @@
 
 DISTNAME=	tk4.2p2
 PKGNAME=	ja-tk-4.2
-CATEGORIES=	japanese x11
+CATEGORIES=	japanese x11-toolkits
 MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl7_6/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/lang/tcl/jp/
