@@ -7,7 +7,7 @@
 #
 
 DISTNAME= 	ninja-src
-PKGNAME=	ninja-1.0.7
+PKGNAME=	ninja-1.0.8
 CATEGORIES=	net
 MASTER_SITES=	http://ninja.pimped.org/
 
