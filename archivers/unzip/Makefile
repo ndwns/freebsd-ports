@@ -27,5 +27,8 @@ do-install:
 		${INSTALL_SCRIPT} zipgrep ${PREFIX}/bin
 	cd ${WRKSRC}/unix && \
 		${INSTALL_MAN} ${MAN1} ${PREFIX}/man/man1
+	install -d -m 555 -o ${SHAREOWN} -g ${SHAREGRP} ${PREFIX}/share/doc/unzip
+	cd ${WRKSRC} && \
+		${INSTALL_DATA} README Where COPYING ${PREFIX}/share/doc/unzip
 
 .include <bsd.port.mk>
