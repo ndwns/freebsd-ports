@@ -52,7 +52,8 @@ WITH_OPENSSL_PORT=yes
 #	Security: version in base must be 0.9.7a
 OPENSSLVER!=	${AWK} '/OPENSSL_VERSION_NUMBER/ { print $$3 }' \
 		/usr/include/openssl/opensslv.h
-.if ${OPENSSLVER} == 0x0090701fL || ${OPENSSLVER} == 0x0090702fL
+# check for safe versions in the base
+.if ${OPENSSLVER} == 0x0090701fL || ${OPENSSLVER} == 0x0090702fL || ${OPENSSLVER} == 0x0090609fL
 WITH_OPENSSL_BASE=yes
 .endif
 .endif
