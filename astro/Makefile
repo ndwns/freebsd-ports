@@ -2,6 +2,7 @@
 #
 
     SUBDIR += luna
+    SUBDIR += sattrack
     SUBDIR += stars
     SUBDIR += sunclock
     SUBDIR += xearth
