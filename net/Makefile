@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += SSLtelnet
     SUBDIR += archie
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
