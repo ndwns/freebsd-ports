@@ -15,7 +15,6 @@
     SUBDIR += gv
     SUBDIR += html2latex
     SUBDIR += latex
-    SUBDIR += latex209
     SUBDIR += lout
     SUBDIR += lprps
     SUBDIR += lyx
