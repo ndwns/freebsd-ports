@@ -1,18 +1,14 @@
 # New ports collection Makefile for: rxvt
-# Version required:	2.20
+# Version required:	2.45
 # Date created:         5th December 1994
 # Whom:                 gpalmer@FreeBSD.org
 #
 # $Id$
 #
 
-DISTNAME=	rxvt-2.20
+DISTNAME=	rxvt-2.4.5
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_SUNSITE}  \
-		ftp://ftp.nuclecu.unam.mx/linux/local/rxvt/  \
-		ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin.X11/
-MASTER_SITE_SUBDIR=	utils/file/managers/mc/rxvt
-#MASTER_SITE_SUBDIR=	X11/xutils/terms
+MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/
 
 MAINTAINER=	winter@jurai.net
 
