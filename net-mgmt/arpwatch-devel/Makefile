@@ -8,7 +8,8 @@
 
 DISTNAME=	arpwatch-2.1a4
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.ee.lbl.gov/ \
+MASTER_SITES=	http://www.Awfulhak.org/arpwatch/ \
+		ftp://ftp.ee.lbl.gov/ \
 		ftp://ftp.cso.uiuc.edu/pub/security/coast/unix/arpwatch/
 EXTRACT_SUFX=	.tar.Z
 
