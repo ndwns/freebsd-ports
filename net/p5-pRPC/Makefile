@@ -18,6 +18,11 @@ BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/Storable.p
 
 USE_PERL5=	yes
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         perl
+.endif
+
 MAN3=		Bundle::pRPC-modules.3 \
 		RPC::pClient.3 \
 		RPC::pServer.3
