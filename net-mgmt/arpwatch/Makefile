@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	arpwatch-2.0.2a1
+DISTNAME=	arpwatch-2.0.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ee.lbl.gov/ \
 		ftp://ftp.cso.uiuc.edu/pub/security/coast/unix/arpwatch/
