@@ -2004,8 +2004,8 @@ generate-plist:
 	@${SED} -e 's,\(/lib.*\.so\.[0-9]*\)$$,\1.0,' ${TMPPLIST} > ${TMPPLIST}.tmp
 .else
 	@${SED} -e 's,\(/lib.*\.so\.[0-9]*\)\.[0-9]*$$,\1,' ${TMPPLIST} > ${TMPPLIST}.tmp
-	@${MV} -f ${TMPPLIST}.tmp ${TMPPLIST}
 .endif
+	@${MV} -f ${TMPPLIST}.tmp ${TMPPLIST}
 .endif
 
 ${TMPPLIST}:
