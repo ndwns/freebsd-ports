@@ -27,9 +27,9 @@
     SUBDIR += cvslines
     SUBDIR += cweb
     SUBDIR += cxref
-    SUBDIR += doc++
     SUBDIR += ddd
     SUBDIR += dmake
+    SUBDIR += doc++
     SUBDIR += f77flow
     SUBDIR += fpp
     SUBDIR += ftnchek
