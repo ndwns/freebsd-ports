@@ -40,6 +40,7 @@
     SUBDIR += lynx
     SUBDIR += lynx-current
     SUBDIR += mapedit
+    SUBDIR += marc-search
     SUBDIR += mhonarc
     SUBDIR += mmm
     SUBDIR += momspider
