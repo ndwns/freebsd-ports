@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       tin1.3-unoff-BETA-961020
-PKGNAME=        tin-1.3.961020
+DISTNAME=       tin1.3-unoff-BETA-961022
+PKGNAME=        tin-1.3.961022
 CATEGORIES+=	news
 MASTER_SITES=	ftp://ftp.akk.uni-karlsruhe.de/pub/tin/  \
 		ftp://nuxi.cs.ucdavis.edu/pub/tin/
@@ -18,10 +18,10 @@ MAINTAINER=     ache@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/tin1.3-unoff-BETA-//}
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV+=  cf_cv_corefile=yes
 CONFIGURE_ARGS+= --with-nntp-default-server=news  \
 		 --with-spooldir=/var/news  \
 		 --with-libdir=${PREFIX}/lib/news \
+		 --with-mime-default-charset=US-ASCII \
 		 --enable-forgery \
 		 --with-pgp=${PREFIX}/bin/pgp \
 		 --with-ispell=${PREFIX}/bin/ispell \
