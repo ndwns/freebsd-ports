@@ -17,6 +17,7 @@
     SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
+    SUBDIR += colortail
     SUBDIR += crosspad
     SUBDIR += cstream
     SUBDIR += ctk
