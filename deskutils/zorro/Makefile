@@ -9,9 +9,9 @@
 DISTNAME=	zorro-1.1p8
 PKGNAME=	zorro-1.1.8
 CATEGORIES=	misc tk41
-MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
+MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/sorted/apps/zorro-1.1p8/
 
-MAINTAINER=	shanee@rabbit.augusta.de
+MAINTAINER=	shanee@augusta.de
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
