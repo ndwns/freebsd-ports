@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=	ups-3.33-03
-PKGNAME=	ups-3.33.3
+DISTNAME=	ups-3.34beta
+PKGNAME=	ups-3.34b
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}  \
 		ftp://unix.hensa.ac.uk/pub/misc/unix/ups/  \
