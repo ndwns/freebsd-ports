@@ -23,7 +23,7 @@ PATCH_DIST_STRIP=	-p1
 MAINTAINER=	asami@FreeBSD.ORG
 
 .if !exists(/usr/X11R6/lib/libwnn.a)
-DEPENDS=	${PORTSDIR}/utils/Wnn
+DEPENDS=	${PORTSDIR}/japanese/Wnn
 .endif
 
 WRKSRC=		${WRKDIR}/emacs-19.28
