@@ -1,12 +1,12 @@
 # New ports collection makefile for:	GNU emacs
-# Version required:	19.27
+# Version required:	19.28
 # Date created:		29 October 1994
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=	emacs-19.27
+DISTNAME=	emacs-19.28
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX}
