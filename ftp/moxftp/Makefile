@@ -13,8 +13,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-BROKEN_ELF=	yes
-
 HAS_CONFIGURE=	yes
 USE_X_PREFIX=	yes
 MAN1=		${PROGRAM_NAME}.1
@@ -36,8 +34,6 @@ CONFIGURE_ARGS=	athena
 PROGRAM_NAME=xftp
 RESOURCE_NAME=Xftp
 .endif
-
-#LIB_DEPENDS=	Xaw3d.6:${PORTSDIR}/x11-toolkits/Xaw3d
 
 post-install:
 	@strip ${PREFIX}/bin/${PROGRAM_NAME}
