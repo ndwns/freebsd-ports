@@ -16,6 +16,7 @@
     SUBDIR += gimp-devel
     SUBDIR += hobbes-icons-xpm
     SUBDIR += hpscan
+    SUBDIR += imlib
     SUBDIR += jbigkit
     SUBDIR += jpeg
     SUBDIR += mpeg-lib
