@@ -10,7 +10,7 @@ DISTNAME=	jp-man-1.1g
 PKGNAME=	ja-man-1.1g
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://daemon.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
-		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
+		${MASTER_SITE_PORTS_JP}
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
