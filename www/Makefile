@@ -6,7 +6,6 @@
     SUBDIR += apache
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
-    SUBDIR += cached
     SUBDIR += cgiparse
     SUBDIR += chimera
     SUBDIR += comline
