@@ -59,6 +59,7 @@
     SUBDIR += ftptool
     SUBDIR += gated
     SUBDIR += gaim
+    SUBDIR += generic-nqs
     SUBDIR += gftp
     SUBDIR += ggsd
     SUBDIR += gnome-icu

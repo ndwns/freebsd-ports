@@ -38,7 +38,6 @@
     SUBDIR += fep
     SUBDIR += figlet
     SUBDIR += fortuneit
-    SUBDIR += generic-nqs
     SUBDIR += git
     SUBDIR += gnomeutils
     SUBDIR += gnuls
