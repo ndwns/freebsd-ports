@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS+=	i386--freebsd --with-x-toolkit
+CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit
 STRIP=
 
 post-install:
