@@ -13,7 +13,7 @@ MASTER_SITES=	http://step.polymtl.ca/~coyote/tank/
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
-LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS=	MesaGL.13:${PORTSDIR}/graphics/Mesa2
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 

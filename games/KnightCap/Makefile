@@ -13,9 +13,9 @@ MASTER_SITES=	ftp://samba.anu.edu.au/pub/KnightCap/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa2 \
-		MesaGLU\\.13\\.:${PORTSDIR}/graphics/Mesa2 \
-		glut\\.3\\.:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS=	MesaGL.13:${PORTSDIR}/graphics/Mesa2 \
+		MesaGLU.13:${PORTSDIR}/graphics/Mesa2 \
+		glut.3:${PORTSDIR}/graphics/Mesa2
 
 FETCH_BEFORE_ARGS=	-P
 ALL_TARGET=	KnightCap

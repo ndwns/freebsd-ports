@@ -38,7 +38,7 @@ CONFIGURE_ARGS+= --with-libraries=/usr/lib/aout
 WITH_MESAGL?=	no
 .if ${WITH_MESAGL} == yes
 CONFIGURE_ARGS+=	--with-mesagl
-LIB_DEPENDS+=		GL\\.13:${PORTSDIR}/graphics/Mesa2
+LIB_DEPENDS+=		GL.13:${PORTSDIR}/graphics/Mesa2
 .else
 CONFIGURE_ARGS+=	--without-mesagl
 .endif
