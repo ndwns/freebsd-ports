@@ -9,7 +9,8 @@
 DISTNAME=	mpg123-0.59o
 CATEGORIES=	audio
 MASTER_SITES=	ftp://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
-		http://homepages.uni-tuebingen.de/student/michael.hipp/mpg123/
+		http://ftp.tu-clausthal.de/pub/unix/audio/mpg123/ \
+		http://www-ti.informatik.uni-tuebingen.de/~hippm/mpg123/
 
 MAINTAINER=	jkoshy@freebsd.org
 
