@@ -26,6 +26,7 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/backgrounds/* ${PREFIX}/lib/X11/afterstep/backgrounds/
 		@ ${MKDIR} -p ${PREFIX}/lib/X11/afterstep/sounds/
 		${INSTALL_DATA} ${WRKSRC}/sounds/* ${PREFIX}/lib/X11/afterstep/sounds/
+		@ ${MKDIR} -p ${PREFIX}/include/X11/pixmaps/
 		${INSTALL_DATA} ${WRKSRC}/icons/*.xpm ${PREFIX}/include/X11/pixmaps/
 		${INSTALL_DATA} ${WRKSRC}/icons/8bit/*.xpm ${PREFIX}/include/X11/pixmaps/
 		@ ${MKDIR} -p ${PREFIX}/lib/X11/afterstep/doc/
