@@ -4,6 +4,7 @@ DESTDIR=/usr/local/
 LIBDIR= lib/
 
 CFLAGS+=-D_PTHREADS -I../
+CFLAGS+=-I../sysdeps/i386 -I../sysdeps/pthread -I../sysdeps/unix/sysv/linux
 
 .include "/usr/src/gnu/lib/libgcc/Makefile"
 
