@@ -77,6 +77,48 @@
 with Interfaces.C; use Interfaces.C;
 package body System.OS_Interface is
 
+   function Errno return int is
+      type int_ptr is access all int;
+
+      function internal_errno return int_ptr;
+      pragma Import (C, internal_errno, "__error");
+   begin
+      return (internal_errno.all);
+   end Errno;
+
+
+   type sigset_t_ptr is access all sigset_t;
+
+   function pthread_sigmask_set
+     (how  : int;
+      set  : access sigset_t)
+     return int
+   is
+      function sigmask_set
+        (how  : int;
+         set  : access sigset_t;
+         oset : sigset_t_ptr)
+        return int;
+      pragma Import (C, sigmask_set, "pthread_sigmask");
+   begin
+      return sigmask_set (how, set, null);
+   end pthread_sigmask_set;
+
+   function pthread_sigmask_oset
+     (how  : int;
+      oset : access sigset_t)
+     return int
+   is
+      function sigmask_oset
+        (how  : int;
+         set  : sigset_t_ptr;
+         oset : access sigset_t)
+        return int;
+      pragma Import (C, sigmask_oset, "pthread_sigmask");
+   begin
+      return sigmask_oset (how, null, oset);
+   end pthread_sigmask_oset;
+
    -----------------
    -- To_Duration --
    -----------------
