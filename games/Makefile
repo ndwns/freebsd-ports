@@ -2,6 +2,7 @@
 #
 
     SUBDIR += acm
+    SUBDIR += angband
     SUBDIR += cgoban
     SUBDIR += crossfire
     SUBDIR += doom
