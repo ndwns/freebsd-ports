@@ -6,6 +6,7 @@
     SUBDIR += cam
     SUBDIR += cddbd
     SUBDIR += cdplay
+    SUBDIR += dap
     SUBDIR += esound
     SUBDIR += gmod
     SUBDIR += gsm
