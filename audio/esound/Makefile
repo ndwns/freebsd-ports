@@ -8,9 +8,11 @@
 
 DISTNAME=	esound-0.2.7
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
-		ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
-		ftp://ftp.labs.redhat.com/pub/imlib/TAR/
+MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
+		ftp://ftp.gnome.org/pub/GNOME/sources/
+#MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
+#		ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
+#		ftp://ftp.labs.redhat.com/pub/imlib/TAR/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
