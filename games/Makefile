@@ -69,6 +69,7 @@
     SUBDIR += xjewel
     SUBDIR += xjig
     SUBDIR += xkobo
+    SUBDIR += xlaby
     SUBDIR += xlife
     SUBDIR += xlines
     SUBDIR += xmahjongg
