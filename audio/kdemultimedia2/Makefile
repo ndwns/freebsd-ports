@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	kdemultimedia-Beta3-1
+PKGNAME=	kdemultimedia-3.1b
 CATEGORIES=	x11
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= stable/Beta3/distribution/tgz/source
