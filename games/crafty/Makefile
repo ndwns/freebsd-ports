@@ -6,26 +6,24 @@
 # $Id$
 #
 
-DISTNAME=	crafty-15.10
+DISTNAME=	crafty-15.14
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.cis.uab.edu/pub/hyatt/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/common/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/v15/
-DISTFILES=	crafty-15.10.tar.gz crafty.doc crafty.faq read.me start.zip
+DISTFILES=	crafty-15.14.tar.gz crafty.doc crafty.faq read.me start.zip
 
 MAINTAINER=	seggers@semyam.dinoco.de
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
-
 ALL_TARGET=	crafty
 DIST_SUBDIR=	crafty
-EXTRACT_ONLY=	crafty-15.10.tar.gz
+EXTRACT_ONLY=	crafty-15.14.tar.gz
 
 MAN6=		crafty.6
 NO_WRKSUBDIR=	yes
 
 post-extract:
-	(cd ${WRKDIR}; unzip ${DISTDIR}/${DIST_SUBDIR}/start.zip)
+	(cd ${WRKDIR}; gunzip <${DISTDIR}/${DIST_SUBDIR}/start.zip >${WRKDIR}/start.pgn)
 
 post-build:
 	(cd ${WRKDIR}; ./crafty <${FILESDIR}/books-building)
