@@ -12,6 +12,7 @@ CATEGORIES=		net
 MASTER_SITES=   	http://www.orl.co.uk/vnc/dist/
 DISTFILES=		vnc-3.3.1_unixsrc.tgz \
 			vnc-3.3.1_doc.tgz
+IGNOREFILES=		${DISTFILES}
 
 MAINTAINER=	 	msmith@FreeBSD.ORG
 
