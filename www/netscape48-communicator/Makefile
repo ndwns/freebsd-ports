@@ -28,6 +28,7 @@ PKGREQ=		${MASTERDIR}/pkg/REQ
 AUTOADMIN?=	autoadmin-v408.x86-unknown-freebsd.tar.gz
 BROWSER?=	communicator
 BROWSER_VER?=	4.08
+FORTIFY=	Fortify-1.4.2-unix-x86
 NDIR=		${PREFIX}/${NSUBDIR}
 NSUBDIR=	lib/netscape
 BINDIR=		${PREFIX}/bin
@@ -45,7 +46,7 @@ DISTFILES+=	${AUTOADMIN}
 .if defined(USE_128BIT) && !defined(NO_FORTIFY)
 MASTER_SITES+=	ftp://ftp.fortify.net/pub/Fortify/ \
 		ftp://ftp.za.freebsd.org/pub/Fortify/
-DISTFILES+=	Fortify-1.4.1-unix-x86.tar.gz
+DISTFILES+=	${FORTIFY}.tar.gz
 RESTRICTED=     "Contains strong cryptography"
 .endif
 
@@ -89,7 +90,7 @@ do-install:
 .endif
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO \
  && !defined(NO_FORTIFY)
-	cd ${WRKDIR}/Fortify-1.4.1-unix-x86 && \
+	cd ${WRKDIR}/${FORTIFY} && \
 		(${ECHO} yes ; ${ECHO} no ; ${ECHO} no) \
 		| ./Fortify.sh ${NDIR}/${BROWSER}-${BROWSER_VER}.bin
 .endif
