@@ -22,6 +22,6 @@ pre-install:
 	@[ -d ${PREFIX} ] || ${MKDIR} ${PREFIX}
 
 do-install:
-	@zcat ${DISTDIR}${DISTNAME}.tar.gz |(cd ${PREFIX}; pax -r)
+	@zcat ${DISTDIR}/${DISTNAME}.tar.gz |(cd ${PREFIX}; pax -r)
 
 .include <bsd.port.mk>
