@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=       Sather-1.0.1
+DISTNAME=       Sather-1.0.2
 MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
-DISTFILES=      Sather-1.0.1.tar.Z
+DISTFILES=      Sather-1.0.2.tar.Z
 WRKSRC=		${WRKDIR}/Sather
+ALL_TARGET=	testall
 
 install:
 	@if [ ! -e ${PREFIX}/bin ]; then mkdir -p ${PREFIX}/bin; fi
