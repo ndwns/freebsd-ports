@@ -103,13 +103,6 @@ configure: extract
 			patch -d ${WRKSRC} --quiet -E -p0 < $$i; \
 		done; \
 	fi
-.if defined(GNU_CONFIGURE)
-.if !defined(GNU_CONFIGURE_ARGS)
-	@(cd ${WRKSRC}; ./configure i386--freebsd)
-.else !defined(GNU_CONFIGURE_ARGS)
-	@(cd ${WRKSRC}; ./configure ${GNU_CONFIGURE_ARGS})
-.endif
-.endif
 # We have a small convention for our local configure scripts, which
 # is that ${.CURDIR} and the package working directory get passed as
 # command-line arguments since all other methods are a little
@@ -117,6 +110,13 @@ configure: extract
 	@if [ -f ${SCRIPTDIR}/configure ]; then \
 		sh ${SCRIPTDIR}/configure ${.CURDIR} ${WRKSRC}; \
 	fi
+.if defined(GNU_CONFIGURE)
+.if !defined(GNU_CONFIGURE_ARGS)
+	@(cd ${WRKSRC}; ./configure i386--freebsd)
+.else !defined(GNU_CONFIGURE_ARGS)
+	@(cd ${WRKSRC}; ./configure ${GNU_CONFIGURE_ARGS})
+.endif
+.endif
 .endif
 
 .if !target(extract)
