@@ -5,6 +5,6 @@
 # BROKEN: flexfax
 #
 
-SUBDIR= ecu kermit mgetty+sendfax seyon
+SUBDIR= ecu hylafax kermit mgetty+sendfax seyon
 
 .include <bsd.port.subdir.mk>
