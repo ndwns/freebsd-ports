@@ -28,6 +28,7 @@ INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
 post-install:
+	chmod u-s ${PREFIX}/bin/SuperProbe
 	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
