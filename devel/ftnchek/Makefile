@@ -17,6 +17,10 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 MAN1=		dcl2inc.1 ftnchek.1
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	ac_cv_dir_lispdir=${PREFIX}/share/emacs/site-lisp
+
+pre-install:
+	${MKDIR} ${PREFIX}/share/emacs/site-lisp
 
 post-install:
 	strip ${PREFIX}/bin/ftnchek
