@@ -1041,7 +1041,7 @@ lib-depends:
 	@for i in ${LIB_DEPENDS}; do \
 		lib=`/bin/echo $$i | /usr/bin/sed -e 's/:.*//'`; \
 		dir=`/bin/echo $$i | /usr/bin/sed -e 's/.*://'`; \
-		if ldconfig -r | grep -q -e "-l$$lib"; then \
+		if /sbin/ldconfig -r | grep -q -e "-l$$lib"; then \
 			${ECHO_MSG} "===>  ${PKGNAME} depends on shared library: $$lib - found"; \
 		else \
 			${ECHO_MSG} "===>  ${PKGNAME} depends on shared library: $$lib - not found"; \
