@@ -3,6 +3,7 @@
 
     SUBDIR += blas
     SUBDIR += calc
+    SUBDIR += calctool
     SUBDIR += eispack
     SUBDIR += fudgit
     SUBDIR += gnuplot
