@@ -14,14 +14,12 @@ MAINTAINER=	dima@freebsd.org
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		jscript\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
-		khtmlw\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		kfm\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		mediatool\\.1\\.:${PORTSDIR}/x11/kdelibs
-
-BROKEN_ELF=	depends on kdelibs
+		kdecore.1:${PORTSDIR}/x11/kdelibs \
+		kdeui.1:${PORTSDIR}/x11/kdelibs \
+		jscript.0:${PORTSDIR}/x11/kdelibs \
+		khtmlw.1:${PORTSDIR}/x11/kdelibs \
+		kfm.1:${PORTSDIR}/x11/kdelibs \
+		mediatool.1:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 KDEDIR?=	$(PREFIX)
@@ -34,11 +32,6 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		KDEDIR="${KDEDIR}"
 
 MAKE_ENV=	KDEDIR="${KDEDIR}"
-
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN= "Fails build"
-.endif
 
 pre-configure:
 		${CP} ${FILESDIR}/libtool ${FILESDIR}/ltmain.sh $(WRKSRC)/kpilot/libpilot

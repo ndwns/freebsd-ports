@@ -15,10 +15,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	hanspb@persbraten.vgs.no
 
 BUILD_DEPENDS=	libtool:${PORTSDIR}/devel/libtool
-LIB_DEPENDS=	kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
-
-BROKEN_ELF=	depends on kdelibs
+LIB_DEPENDS=	kdecore.1:${PORTSDIR}/x11/kdelibs \
+		kdeui.1:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 WRKSRC=		${WRKDIR}/kproject

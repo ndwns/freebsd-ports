@@ -14,10 +14,8 @@ MASTER_SITE_SUBDIR= stable/1.0/apps/utils
 MAINTAINER=	zerium@webindex.no
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
-		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
-
-BROKEN_ELF=	depends on kdelibs
+		kdecore.1:${PORTSDIR}/x11/kdelibs \
+		kdeui.1:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes
