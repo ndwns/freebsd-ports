@@ -10,7 +10,7 @@
     SUBDIR += blast
     SUBDIR += blt
     SUBDIR += bricons
-    SUBDIR += camltk41
+    SUBDIR += camltk
     SUBDIR += ctwm
     SUBDIR += dclock
     SUBDIR += etlfonts

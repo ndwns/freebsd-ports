@@ -3,7 +3,7 @@
 
     SUBDIR += Canna
     SUBDIR += Wnn
-    SUBDIR += camltk41
+    SUBDIR += camltk
     SUBDIR += chimera
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
