@@ -35,7 +35,7 @@ post-patch:
 		${WRKSRC}/xtem
 
 post-install:
-	@${CP} ${FILESDIR}/xtem_locals_german/* \
+	@${CP} ${FILESDIR}/xtem_locals_german/[a-z]* \
 		${PREFIX}/share/xtem_locals_german
 # clean up left-overs...
 	@${RM} ${PREFIX}/share/xtem_locals_*/.nfs*
