@@ -7,8 +7,7 @@
 #
 
 DISTNAME=	uudeview-0.5.4
-CATEGORIES+=	archivers
-CATEGORIES+=	mail
+CATEGORIES+=	archivers mail
 MASTER_SITES=	http://www.uni-frankfurt.de/~fp/uudeview/Apps/frank/
 
 MAINTAINER=	ac199@freenet.hamilton.on.ca
@@ -22,7 +21,7 @@ GNU_CONFIGURE=	Yes
 # NOTE further that all you'll really do is cause uudeview to install
 # its own minews do-hicky.
 CONFIGURE_ARGS=		--disable-minews
-CONFIGURE_ARGS+=	--prefix=${PREFIX} --disable-tcl
+CONFIGURE_ARGS+=	--disable-tcl
 
 EXTRAFILES+=	porting.notes
 
