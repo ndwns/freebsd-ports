@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	perl5.004_01
-PKGNAME=	perl-5.004001
+PKGNAME=	perl-5.00401
 CATEGORIES=	lang devel perl5
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/src/5.0/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/src/5.0/
