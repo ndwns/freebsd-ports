@@ -26,8 +26,8 @@ post-install:
 		echo "#!/bin/sh" > ${STARTUP_SCRIPT} ;\
 		echo "if [ -f ${PREFIX}/sbin/youbind ]; then" >> \
 			${STARTUP_SCRIPT} ;\
-		echo "    ${PREFIX}/sbin/youbind &; echo -n ' youbind'" >> \
-			${STARTUP_SCRIPT} ;\
+		echo "    ${PREFIX}/sbin/youbind &" >> ${STARTUP_SCRIPT} ;\
+		echo "    echo -n ' youbind'" >> ${STARTUP_SCRIPT} ;\
 		echo "fi" >> ${STARTUP_SCRIPT} ;\
 		chmod 755 ${STARTUP_SCRIPT} ;\
 	fi
