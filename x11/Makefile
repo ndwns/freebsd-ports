@@ -50,6 +50,7 @@
     SUBDIR += p5-Tcl-Tk
     SUBDIR += p5-Tk
     SUBDIR += piewm
+    SUBDIR += props
     SUBDIR += pythonqt
     SUBDIR += qt
     SUBDIR += qvwm
@@ -59,6 +60,7 @@
     SUBDIR += slingshot
     SUBDIR += swisswatch
     SUBDIR += sxpc
+    SUBDIR += textedit
     SUBDIR += tix
     SUBDIR += tk41
     SUBDIR += tk42
