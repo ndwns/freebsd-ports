@@ -51,6 +51,7 @@
     SUBDIR += pnmtopng
     SUBDIR += povray
     SUBDIR += ppm2fli
+    SUBDIR += qgl
     SUBDIR += qvplay
     SUBDIR += sane
     SUBDIR += sced
