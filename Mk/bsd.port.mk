@@ -491,7 +491,7 @@ do-fetch:
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${MASTER_SITES}; do \
 			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
-				(${NCFTP} ${NCFTPFLAGS} $${site}$${file} || true); \
+				(${NCFTP} ${NCFTPFLAGS} $${site}$${file} ${NCFTPTAIL} || true); \
 				if [ -f $$file -o -f `/usr/bin/basename $$file` ]; then \
 					continue 2; \
 				fi \
@@ -509,7 +509,7 @@ do-fetch:
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${PATCH_SITES}; do \
 			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
-				(${NCFTP} ${NCFTPFLAGS} $${site}$${file} || true); \
+				(${NCFTP} ${NCFTPFLAGS} $${site}$${file} ${NCFTPTAIL} || true); \
 				if [ -f $$file -o -f `/usr/bin/basename $$file` ]; then \
 					continue 2; \
 				fi \
@@ -890,7 +890,7 @@ fetch-list:
 	 for file in ${DISTFILES}; do \
 		if [ ! -f $$file -a ! -f `/usr/bin/basename $$file` ]; then \
 			for site in ${MASTER_SITES}; do \
-				/bin/echo -n ${NCFTP} ${NCFTPFLAGS} $${site}$${file} '||' ; \
+				/bin/echo -n ${NCFTP} ${NCFTPFLAGS} $${site}$${file} "${NCFTPTAIL}" '||' ; \
 					break; \
 			done; \
 			/bin/echo "echo $${file} not fetched" ; \
@@ -901,7 +901,7 @@ fetch-list:
 	 for file in ${PATCHFILES}; do \
 		if [ ! -f $$file -a ! -f `/usr/bin/basename $$file` ]; then \
 			for site in ${PATCH_SITES}; do \
-				/bin/echo -n ${NCFTP} ${NCFTPFLAGS} $${site}$${file} ${PATCH_PRFX}$${file} '||' ; \
+				/bin/echo -n ${NCFTP} ${NCFTPFLAGS} $${site}$${file} ${PATCH_PRFX}$${file} "${NCFTPTAIL}" '||' ; \
 					break; \
 			done; \
 			/bin/echo "echo $${file} not fetched" ; \
