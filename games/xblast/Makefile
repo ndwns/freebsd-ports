@@ -7,7 +7,6 @@
 #
 
 DISTNAME=       xblast-2.2
-#PKGNAME=	xlife-3.0
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR= games/multiplayer
