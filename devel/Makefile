@@ -51,6 +51,7 @@
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
+    SUBDIR += java-cup
     SUBDIR += lclint
     SUBDIR += libPropList
     SUBDIR += libU77
