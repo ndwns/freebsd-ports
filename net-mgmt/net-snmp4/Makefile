@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	ucd-snmp-3.1
+DISTNAME=	ucd-snmp-3.1.3
 CATEGORIES=	net
 MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
