@@ -19,10 +19,9 @@ MAINTAINER=	dburr@FreeBSD.ORG
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 DIST_SUBDIR=		uox3
-#EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX}
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-qa
-EXTRACT_AFTER_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# This space left intentionally blank.
 
 NO_WRKSUBDIR=	YES
 
