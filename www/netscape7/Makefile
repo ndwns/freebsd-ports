@@ -18,6 +18,7 @@ MAINTAINER=	tom@eborcom.com
 
 RUN_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 
+BROKEN=		"Repository copied, not truth contents yet"
 ONLY_FOR_ARCHS=	i386
 
 WRKSRC=		${WRKDIR}/communicator-v408.x86-unknown-linux2.0
