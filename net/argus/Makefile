@@ -9,13 +9,15 @@
 DISTNAME=	argus-1.7.beta.1e
 PKGNAME=	argus-1.7.b.1e
 CATEGORIES=	net security
-MASTER_SITES=	ftp://ftp.sei.cmu.edu/pub/argus-1.5/argus-1.7/
+MASTER_SITES=	ftp://ftp.sei.cmu.edu/pub/argus/argus-1.7/
 
 MAINTAINER=	jhanna@home.com
 
+.if !exists(/usr/include/tcpd.h)
 LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
+.endif
 
-HAS_CONFIGURE=	true
+GNU_CONFIGURE=	true
 CONFIGURE_ARGS=	--with-pcap=bpf
 
 MAN1=	connections.1 ra.1 rasort.1 services.1
