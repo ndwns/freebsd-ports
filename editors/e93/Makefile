@@ -17,8 +17,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 MAKEFILE=	makefile
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/e93
-# The license is a little scary, so disable packaging for now
-NO_PACKAGE=	yes
+RESTRICTED=	"Restrictive license."
 
 do-install:
 	if ! [ -d ${PREFIX}/lib/e93 ]; then mkdir ${PREFIX}/lib/e93; fi
