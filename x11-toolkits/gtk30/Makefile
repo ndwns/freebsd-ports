@@ -22,4 +22,7 @@ pre-install:
 	${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	fi
 
+post-install:
+	${LDCONFIG} -m ${PREFIX}/lib
+
 .include <bsd.port.mk>
