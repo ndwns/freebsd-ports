@@ -12,7 +12,7 @@
 DISTNAME=       xfedor
 PKGNAME=        xfedor-1.0
 CATEGORIES=	x11
-MASTER_SITES=   ftp://ftp.uni-trier.de/pub/unix/X11/R6/contrib/programs/
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/x11/util/
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
@@ -32,9 +32,6 @@ do-install:
 	cd ${WRKSRC}/help; \
 	${INSTALL_DATA} * ${XFHELP}
 	${INSTALL_DATA} ${FILESDIR}/default.sos ${XFHELP}
-	-mkdir -p ${XCAT1}
-	chown ${MANOWN}.${MANGRP} ${XCAT1}
-	chmod 755 ${XCAT1}
 	cd ${WRKSRC}; \
 	${INSTALL_MAN} xfedor.txt ${XCAT1}/xfedor.1
 
