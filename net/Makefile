@@ -11,6 +11,7 @@
     SUBDIR += bing
     SUBDIR += bitchx
     SUBDIR += cap
+    SUBDIR += cftp
     SUBDIR += choparp
     SUBDIR += clog
     SUBDIR += cnet
