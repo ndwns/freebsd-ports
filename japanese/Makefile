@@ -150,6 +150,7 @@
     SUBDIR += vfghostscript5
     SUBDIR += vflib
     SUBDIR += vftool
+    SUBDIR += vftool-misc
     SUBDIR += vfxdvi
     SUBDIR += vfxdvik
     SUBDIR += w3
