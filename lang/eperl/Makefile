@@ -25,6 +25,8 @@ MAINTAINER=	rse@engelschall.com
 RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
 .endif
 
+BROKEN=		cannot find ./etc/asc2c
+
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-perl=${PREFIX}/bin/perl
