@@ -9,7 +9,7 @@
 DISTNAME=	libxml-1.0.0
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	sources/libxml
 
 MAINTAINER=	nacai@iname.com
 

@@ -10,7 +10,7 @@ DISTNAME=	gnome-print-0.0.3
 PKGNAME=	gnomeprint-0.0.3
 CATEGORIES=	print gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-print
+MASTER_SITE_SUBDIR=	sources/gnome-print
 
 MAINTAINER=	nacai@iname.com
 

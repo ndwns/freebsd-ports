@@ -10,7 +10,7 @@ DISTNAME=	ee-0.3.8
 PKGNAME=	electriceyes-0.3.8
 CATEGORIES=	graphics gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	gnome-1.0/sources
+MASTER_SITE_SUBDIR=	sources/ee
 
 MAINTAINER=	nacai@iname.com
 

@@ -9,7 +9,7 @@
 DISTNAME=	ggv-0.26
 CATEGORIES=	print gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	ggv
+MASTER_SITE_SUBDIR=	sources/ggv
 
 MAINTAINER=	nacai@iname.com
 
