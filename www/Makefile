@@ -25,6 +25,7 @@
     SUBDIR += chimera2
     SUBDIR += comline
     SUBDIR += evg
+    SUBDIR += fcgi
     SUBDIR += fxhtml
     SUBDIR += gn
     SUBDIR += grail
@@ -83,7 +84,9 @@
     SUBDIR += squid22
     SUBDIR += squidclients
     SUBDIR += squidtimes
+    SUBDIR += squirm
     SUBDIR += swish-e
+    SUBDIR += thttpd
     SUBDIR += tidy
     SUBDIR += transproxy
     SUBDIR += vrweb
