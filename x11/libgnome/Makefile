@@ -25,7 +25,7 @@ LIB_DEPENDS+=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=	--localstatedir=${PREFIX}/share/gnome \
+CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
 		--datadir=${PREFIX}/share/gnome
 CONFIGURE_ENV=	CPPFLAGS="${CFLAGS} -I${LOCALBASE}/include" \
 		LIBS="-L${LOCALBASE}/lib -lxpg4"
