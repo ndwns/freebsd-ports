@@ -18,10 +18,9 @@ EXTRACT_SUFX=	-src.tar.gz
 PATCH_SITES+=   http://squid.nlanr.net/Squid/1.1/1.1.4/
 PATCHFILES+=    ftpget.c.patch icp.c.patch ipcache.c.patch neighbors.c.patch
 
-DIST_SUBDIR=	squid
-
 MAINTAINER=	peter@freebsd.org
 
+DIST_SUBDIR=	squid
 GNU_CONFIGURE=	yes
 # Follow the apache port's lead...
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/squid --bindir=${PREFIX}/sbin \
