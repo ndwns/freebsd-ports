@@ -34,7 +34,7 @@ MySQL		"MySQL map lookups" OFF \
 OpenLDAP	"OpenLDAP map lookups" OFF \
 Test		"SMTP/LMTP test server and generator" OFF \
 TLS		"Secure Sockets Layer and Transport Layer Security" OFF \
-IPv6		"IPv6 support" OFF
+IPv6		"IPv6 support" OFF \
 2> $tempfile
 	fi
 
