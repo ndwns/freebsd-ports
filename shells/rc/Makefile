@@ -6,15 +6,14 @@
 # $Id$
 #
 
-DISTNAME=       rc-1.5betadev-1
-PKGNAME=	rc-1.5b1
+DISTNAME=	rc-1.5b2
 CATEGORIES=	shells plan9
 MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/rc/
 
 MAINTAINER=	erich@FreeBSD.org
 
-NO_WRKSUBDIR=	yes
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS= --enable-history
 MAN1=		history.1 rc.1
-MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
