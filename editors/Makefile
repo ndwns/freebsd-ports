@@ -1,13 +1,12 @@
 # $Id$
 #
 
-RESTRICTED += ashe		# requires motif
     SUBDIR += axe
+    SUBDIR += beav
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += jove
     SUBDIR += mule
-    SUBDIR += tkHTML
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
