@@ -32,6 +32,7 @@
     SUBDIR += ctags
     SUBDIR += cutils
     SUBDIR += cvslines
+    SUBDIR += cvsweb
     SUBDIR += cweb
     SUBDIR += cxref
     SUBDIR += ddd
