@@ -26,6 +26,16 @@ MAN1=		cccp28.1 g++28.1 gcc28.1
 pre-fetch:
 	@${ECHO} "GCC 2.8 for ${OSNAME} ${GNUOSREL}"
 
+post-patch:
+	@(cd ${WRKSRC}/config/i386/ ; \
+	MAJ=`sysctl -n kern.osreldate | ${SED} -e '/.....$$/s///'` ; \
+	${MV} freebsd.h freebsd.h.in ; \
+	${SED} -e "s:__FreeBSD__:__FreeBSD__=$${MAJ}:" freebsd.h.in \
+		>freebsd.h ; \
+	${MV} freebsd-elf.h freebsd-elf.h.in ; \
+	${SED} -e "s:__FreeBSD__:__FreeBSD__=$${MAJ}:" freebsd-elf.h.in \
+		>freebsd-elf.h)
+
 pre-install:
 	@${SED} -e 's:%GNUHOST%:${GNUHOST}:' ${PKGDIR}/PLIST \
 		> ${PLIST}
