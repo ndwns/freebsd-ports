@@ -37,6 +37,7 @@
     SUBDIR += nicetext
     SUBDIR += p5-XML-Parser
     SUBDIR += par
+    SUBDIR += perl2html
     SUBDIR += prag
     SUBDIR += py-mxTextTools
     SUBDIR += py-xml
