@@ -1,14 +1,15 @@
 # New ports collection makefile for:    ecu
-# Version required:     3.40
+# Version required:     3.44
 # Date created:         Feb 18, 1995
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       ecu-3.40
+DISTNAME=       ecu-3.44
 CATEGORIES+=	comms
-MASTER_SITES=   ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/Communications/
+MASTER_SITES=   ftp://ftp.relcom.ru/unix/comm/
+#MASTER_SITES=   ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/Communications/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
