@@ -9,11 +9,10 @@
 DISTNAME=		xzip170
 PKGNAME=		xzip-1.7.0
 CATEGORIES=		games
-MASTER_SITES=   	http://www.cfug.org/infocom/
+MASTER_SITES=   	ftp://ftp.gmd.de/if-archive/infocom/interpreters/zip/
+EXTRACT_SUFX=		.tar.Z
 
 MAINTAINER=		mph@freebsd.org
-
-BROKEN=			fetch
 
 WRKSRC=			${WRKDIR}/xzip
 ALL_TARGET=

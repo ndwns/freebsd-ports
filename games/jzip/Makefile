@@ -9,7 +9,7 @@
 DISTNAME=		jzip201g
 PKGNAME=		jzip-2.0.1g
 CATEGORIES=		games
-MASTER_SITES=   	http://www.cfug.org/infocom/
+MASTER_SITES=   	http://www.freebsd.org/~mph/distfiles/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		mph@freebsd.org
