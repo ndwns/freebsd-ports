@@ -8,7 +8,7 @@
 
 DISTNAME=       Bonnie
 PKGNAME=	bonnie-1.0
-CATEGORIES+=	utilities benchmarking
+CATEGORIES+=	benchmarking
 MASTER_SITES=   ftp://ftp.sunet.se/pub/benchmark/Bonnie/ \
 		ftp://swedishchef.lerc.nasa.gov/drlabs/io/
 EXTRACT_SUFX=   .tar.Z

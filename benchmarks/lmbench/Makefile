@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	lmbench-1.0
-CATEGORIES+=	utilities benchmarking
+CATEGORIES+=	benchmarking
 MASTER_SITES=	ftp://forte.mathematik.uni-bremen.de/pub/unix/benchmarks/
 
 MAINTAINER=	asami@FreeBSD.ORG

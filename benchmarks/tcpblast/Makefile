@@ -8,7 +8,7 @@
 
 DISTNAME=	tcpblast
 PKGNAME=	tcpblast-1.0
-CATEGORIES=	networking
+CATEGORIES=	networking benchmarking
 
 NO_EXTRACT=	yes
 NO_WRKDIR=	yes
