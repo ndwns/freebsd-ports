@@ -23,6 +23,9 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/doc/ranlib
 	@${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/doc/* ${PREFIX}/share/doc/ranlib
 .endif
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libranlib.so.1.0 ${PREFIX}/lib/libranlib.so; \
+	fi
 	@${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
