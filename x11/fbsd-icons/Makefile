@@ -19,7 +19,7 @@ NO_CONFIGURE=	yes
 NO_WRKSUBDIR=	yes
 
 do-install:
-		mkdir -p ${X11BASE}/icons
-		( cd ${X11BASE}/icons; tar xzf ${DISTDIR}/fbsd-icons.tar.gz )
+		${MKDIR} ${X11BASE}/icons
+		( cd ${X11BASE}/icons; ${EXTRACT_CMD} xzf ${DISTDIR}/fbsd-icons.tar.gz )
 
 .include <bsd.port.mk>
