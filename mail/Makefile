@@ -30,6 +30,9 @@
     SUBDIR += emil
     SUBDIR += evolution
     SUBDIR += exim
+    SUBDIR += exim-ldap
+    SUBDIR += exim-mysql
+    SUBDIR += exim-postgresql
     SUBDIR += exmh2
     SUBDIR += ezmlm
     SUBDIR += ezmlm-idx
