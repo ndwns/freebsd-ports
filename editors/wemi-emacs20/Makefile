@@ -66,9 +66,10 @@ post-install:
 	done)
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/${WEMIDOCDIR}
-	@for i in ChangeLog NEWS README.* TODO VERSION ; do \
-		${INSTALL_DATA} ${WRKSRC}/$${i} ${PREFIX}/${WEMIDOCDIR}/ ; \
-	done
+	@(cd ${WRKSRC} ; \
+	for i in ChangeLog NEWS README.* TODO VERSION ; do \
+		${INSTALL_DATA} $${i} ${PREFIX}/${WEMIDOCDIR}/ ; \
+	done)
 .endif
 
 .include <bsd.port.post.mk>
