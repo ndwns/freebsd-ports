@@ -160,6 +160,8 @@
     SUBDIR += pari
     SUBDIR += pari-devel
     SUBDIR += parmetis
+    SUBDIR += php4-bcmath
+    SUBDIR += php4-gmp
     SUBDIR += physcalc
     SUBDIR += ploticus
     SUBDIR += ploticus-nox11
