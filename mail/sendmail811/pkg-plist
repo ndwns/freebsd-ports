@@ -15,4 +15,3 @@ sbin/sendmail
 %%PORTDOCS%%share/doc/sendmail/SENDMAIL
 %%PORTDOCS%%share/doc/sendmail/MAIL.LOCAL
 %%PORTDOCS%%share/doc/sendmail/SMRSH
-%%PORTDOCS%%@dirrm share/doc/sendmail
