@@ -9,10 +9,11 @@
 DISTNAME=	msql-1.0.5
 CATEGORIES+=	databases
 MASTER_SITES=	ftp://bond.edu.au/pub/Minerva/msql/
-EXTRACT_SUFX=	.tar.gz
 
-IS_INTERACTIVE=	YES
+IS_INTERACTIVE=	yes
 PREFIX=		/usr/local/Minerva
+# restrictive copyright (no commercial use)
+NO_PACKAGE=	yes
 
 .include <bsd.port.mk>
 
