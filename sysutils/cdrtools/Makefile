@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cdrecord-1.8a19
+DISTNAME=	cdrecord-1.8a20
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
 
