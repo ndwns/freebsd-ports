@@ -16,6 +16,8 @@ MAINTAINER=	cracauer@cons.org
 BUILD_DEPENDS=	/compat/linux/usr/lib/libglide2x.so:${PORTSDIR}/emulators/linux_glide \
 		/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devel
 
+ONLY_FOR_ARCHS=	i386
+
 ALL_TARGET=	linux-glide
 MAKE_ENV=	PATH=${PREFIX}/usr/bin:$$PATH
 NO_FILTER_SHLIBS=yes

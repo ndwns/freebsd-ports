@@ -14,6 +14,8 @@ MAINTAINER=	msmith@FreeBSD.org
 
 BUILD_DEPENDS=	/compat/linux/usr/bin/cpp:${PORTSDIR}/devel/linux_devel
 
+ONLY_FOR_ARCHS=	i386
+
 .include <bsd.port.pre.mk>
 
 .if !exists(/sys/i386/linux/syscalls.master)

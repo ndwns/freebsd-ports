@@ -12,6 +12,8 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	erich@FreeBSD.org
 
+ONLY_FOR_ARCHS=	i386
+
 PREFIX=		/compat/linux
 NO_MTREE=	yes
 NO_BUILD=	yes

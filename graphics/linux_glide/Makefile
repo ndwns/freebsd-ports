@@ -17,6 +17,8 @@ MAINTAINER= 	cracauer@cons.org
 
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+
 PREFIX=		/compat/linux/usr
 NO_MTREE=	yes
 NO_BUILD=	yes
