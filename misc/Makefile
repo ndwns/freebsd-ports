@@ -53,6 +53,7 @@
     SUBDIR += us-zipcodes
     SUBDIR += viz
     SUBDIR += xcalendar
+    SUBDIR += xdelta
     SUBDIR += xgas
     SUBDIR += xinvest
     SUBDIR += xless
