@@ -9,7 +9,7 @@
 DISTNAME=	ruby-1.0-971225
 PKGNAME=	ruby-1.0
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.netlab.co.jp/pub/lang/ruby/
+MASTER_SITES=	ftp://ftp.netlab.co.jp/pub/lang/ruby/1.0
 
 MAINTAINER=	usagi@clave.gr.jp
 
