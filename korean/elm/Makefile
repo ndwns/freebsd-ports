@@ -6,17 +6,17 @@
 # $Id$
 #
 
-DISTNAME=       elm2.4h4.1
+DISTNAME=	elm2.4h4.1
 PKGNAME=	ko-elm-2.4h4.1
 CATEGORIES=	korean mail
-MASTER_SITES=   ftp://ftp.kaist.ac.kr/pub/hangul/mail/Others/ \
-		ftp://sunsite.kren.nm.kr/pub/packages/hangul/mail/Others/
+MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/mail/old/Others/ \
+		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/mail/old/Others/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-MAN1=           answer.1 checkalias.1 elm.1 elmalias.1 fastmail.1 filter.1\
+MAN1=		answer.1 checkalias.1 elm.1 elmalias.1 fastmail.1 filter.1\
 		frm.1 listalias.1 messages.1 newalias.1 printmail.1 readmsg.1\
-	newmail.1
+		newmail.1
 
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT= elm-config
