@@ -1,5 +1,5 @@
 # New ports collection makefile for:	iso8879
-# Version required:	1.0
+# Version required:	1986
 # Date created:		June 19, 1997
 # Whom:			jfieber
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	isoENTS
-PKGNAME=	iso8879-1.0
+PKGNAME=	iso8879-1986
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.sil.org/sgml/
 EXTRACT_SUFX=	.zip
