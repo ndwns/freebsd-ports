@@ -39,5 +39,6 @@ RESTRICTED += ivs            # crypto, export controlled
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
     SUBDIR += zircon
+    SUBDIR += zephyr
 
 .include <bsd.port.subdir.mk>
