@@ -9,7 +9,7 @@
 # All rights reserved.
 # Freely redistributable.  Absolutely no warranty.
 #
-# Pleae note that this perl code MUST be able to handle (Open|Net|Free)BSD
+# Please note that this perl code MUST be able to handle (Open|Net|Free)BSD
 # bsd.port.mk.  There are significant differences in those so you'll have
 # hard time upgrading this...
 #
@@ -224,7 +224,7 @@ sub checkdescr {
 	}
 	if ($longlines > 0) {
 		&perror("WARN: $i includes lines that exceed $maxchars{$file} ".
-			"charactors.");
+			"characters.");
 	}
 	if ($tmp =~ /[\033\200-\377]/) {
 		&perror("WARN: pkg/DESCR includes iso-8859-1, or ".
