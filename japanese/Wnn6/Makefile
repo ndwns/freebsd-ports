@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
 MAINTAINER=	asami@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/Xsi
-IS_INTERACTIVE=	yes
+IS_INTERACTIVE=	yes	# needs "wnn" user
 
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.
