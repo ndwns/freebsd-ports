@@ -16,6 +16,8 @@ MAINTAINER=     obrien@FreeBSD.org
 
 RESTRICTED=	"Author wishes Alpha releases not to be distrubted."
 
+.include <bsd.port.pre.mk>
+
 .if !exists(${DISTDIR}/vp-bro-0.4-alpha${EXTRACT_SUFX})
 IGNORE='Please contact Vern Paxson <vern@ee.lbl.gov> to obtain the obtain the Bro source.  Put it in ${DISTDIR} as vp-bro-0.4-alpha${EXTRACT_SUFX} and run make again'
 .endif
@@ -42,4 +44,4 @@ post-install:
 	@${GZIP_CMD} ${PREFIX}/share/doc/bro/bro-usenix98-revised.ps
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
