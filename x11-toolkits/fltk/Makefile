@@ -17,6 +17,8 @@ MASTER_SITES=	ftp://ftp.easysw.com/pub/fltk/ \
 
 MAINTAINER=	dima@chg.ru
 
+LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--enable-shared
 USE_X_PREFIX=	yes
