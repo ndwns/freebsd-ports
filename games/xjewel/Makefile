@@ -19,7 +19,7 @@ pre-install:
 	@${MKDIR} ${PREFIX}/bin
 	@${MKDIR} ${PREFIX}/lib/xjewel.font
 	@${MKDIR} ${PREFIX}/man/man6
-	@(cd ${WRKSRC}/bitmaps/; ${INSTALL_DATA} seven_seg.pcf.Z fonts.dir \
+	@(cd ${WRKSRC}/bitmaps/; ${INSTALL_DATA} seven_seg.pcf.gz fonts.dir \
 		${PREFIX}/lib/xjewel.font)
 
 post-install:
