@@ -61,6 +61,8 @@ MANL=		abort.l alter_table.l alter_user.l begin.l close.l cluster.l \
 MANPREFIX=	${PREFIX}/pgsql
 
 pre-fetch:
+	@${ECHO_MSG} "To install and run postgresql you need to compile kernel with:"
+	@${ECHO_MSG} "        options    \"SYSVSHM, SYSVSEM, SYSVMSG\""
 .if !defined(USE_TCL)
 	@${ECHO_MSG} "To build the \"PostgreSQL to Tcl interface library\", libpgtcl, type:"
 	@${ECHO_MSG} "    make USE_TCL=yes"
