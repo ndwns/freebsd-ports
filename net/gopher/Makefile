@@ -8,14 +8,10 @@
 
 DISTNAME=	gopher2_1_3
 PKGNAME=	gopher-2.1.3
-CATEGORIES+=	net
-MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/
+CATEGORIES=	net
+MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/old-versions/
 EXTRACT_SUFX=	.tar.Z
 
 USE_GMAKE=	yes
-
-pre-install:
-	mkdir -p ${PREFIX}/bin
-	mkdir -p ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
