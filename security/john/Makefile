@@ -14,6 +14,9 @@ MASTER_SITES=	http://www.false.com/security/john/ \
 
 MAINTAINER=     obrien@FreeBSD.org
 
+PATCH_SITES=	${MASTER_SITES}
+PATCHFILES=	john-1.5-bugfix.diff
+
 RESTRICTED=	"contains crypto (crypt())"
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
@@ -24,8 +27,8 @@ ALL_TARGET=	${OSNAME}-${ARCHNAME}-any
 .endif
 
 do-configure:
-	${MV} ${WRKDIR}/${DISTNAME}/run/john.ini ${WRKDIR}/${DISTNAME}/run/john.ini.in
-	${SED} -e "s:~/all.chr:${PREFIX}/share/john/all.chr:" \
+	@${MV} ${WRKDIR}/${DISTNAME}/run/john.ini ${WRKDIR}/${DISTNAME}/run/john.ini.in
+	@${SED} -e "s:~/all.chr:${PREFIX}/share/john/all.chr:" \
 	    -e "s:~/alpha.chr:${PREFIX}/share/john/alpha.chr:" \
 	    -e "s:~/digits.chr:${PREFIX}/share/john/digits.chr:" \
 	    ${WRKDIR}/${DISTNAME}/run/john.ini.in > ${WRKDIR}/${DISTNAME}/run/john.ini
