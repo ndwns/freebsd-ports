@@ -14,6 +14,8 @@ MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11-toolkits/gtk
 
+BROKEN=		gtk and tcl path
+
 WRKSRC=		${WRKDIR}/mico
 
 CONFIGURE_ARGS=	--with-qt=${X11BASE}/include/X11/qt \
