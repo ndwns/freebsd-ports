@@ -30,6 +30,7 @@
     SUBDIR += fd
     SUBDIR += fep
     SUBDIR += figlet
+    SUBDIR += fortuneit
     SUBDIR += git
     SUBDIR += gnomeutils
     SUBDIR += gnuls
