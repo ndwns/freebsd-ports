@@ -28,7 +28,7 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/ \
 		ftp://apache-ssl.raver.net/pub/ftp.apache-ssl.org/Apache-SSL/ \
 		http://mirror.aarnet.edu.au/www/servers/apache-ssl/ \
 		http://ftp.it.net.au/mirrors/crypto/SSL/Apache-SSL/ \
-		http://www.asap.cs.nott.ac.uk/SSL
+		http://www.asap.cs.nott.ac.uk/SSL/
 
 DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} \
 		apache_${APACHE}+ssl_${APACHE-SSL}${EXTRACT_SUFX}
