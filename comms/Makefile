@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += bpl+
     SUBDIR += ecu
     SUBDIR += hylafax
     SUBDIR += kermit
