@@ -66,6 +66,8 @@
     SUBDIR += mirrormagic
     SUBDIR += nethack
     SUBDIR += nethack-qt
+    SUBDIR += netrek-BRMH-bin
+    SUBDIR += netrek-COW3-bin
     SUBDIR += netris
     SUBDIR += oneko
     SUBDIR += oonsoo
