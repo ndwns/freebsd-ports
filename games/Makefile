@@ -2,6 +2,7 @@
 #
 
     SUBDIR += acm
+    SUBDIR += gnuchess
     SUBDIR += golddig
     SUBDIR += jetpack
     SUBDIR += nethack
