@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	gtksamba-0.3.1
+DISTNAME=	gtksamba-0.3.2pl1
 CATEGORIES=	net
 MASTER_SITES=	http://www.open-systems.com/gtksamba/
 
@@ -16,6 +16,6 @@ LIB_DEPENDS=	gnomeui.1:${PORTSDIR}/x11/gnomelibs
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk11d-config"
+CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
 
 .include <bsd.port.mk>
