@@ -11,6 +11,7 @@
     SUBDIR += rzsz
     SUBDIR += seyon
     SUBDIR += snooper
+    SUBDIR += tkhylafax
     SUBDIR += xcept
     SUBDIR += zmtx-zmrx
 
