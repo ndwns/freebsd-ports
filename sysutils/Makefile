@@ -12,6 +12,7 @@
     SUBDIR += xbatt
     SUBDIR += xcpustate
     SUBDIR += xdu
+    SUBDIR += xloadface
     SUBDIR += xperfmon
     SUBDIR += xsysinfo
     SUBDIR += xsysstats
