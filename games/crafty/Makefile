@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.cis.uab.edu/pub/hyatt/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/common/ \
 		ftp://ftp.cis.uab.edu/pub/hyatt/v16/
 DISTFILES=	crafty-16.2.tar.gz crafty.doc crafty.faq read.me start.zip
+IGNOREFILES=	crafty.doc crafty.faq read.me
 
 MAINTAINER=	seggers@semyam.dinoco.de
 
