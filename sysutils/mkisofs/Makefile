@@ -14,6 +14,7 @@ NO_WRKSUBDIR=   yes
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 ALL_TARGET=
+MAKE_FLAGS=	CFLAGS='-c ${CFLAGS} -DSYSTEM_ID_DEFAULT=\"FREEBSD\"' -f
 MAN8=		mkisofs.8
 
 .include <bsd.port.mk>
