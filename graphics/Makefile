@@ -27,6 +27,10 @@
     SUBDIR += gimp1
     SUBDIR += gplot
     SUBDIR += graphviz
+    SUBDIR += gtkdps
+    SUBDIR += gyvefigs
+    SUBDIR += gyvegui
+    SUBDIR += gyvekernel
     SUBDIR += hdf
     SUBDIR += hobbes-icons-xpm
     SUBDIR += hpscan
