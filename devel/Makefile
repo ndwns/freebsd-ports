@@ -160,7 +160,6 @@
     SUBDIR += tkcvs
     SUBDIR += tkref
     SUBDIR += tvision
-    SUBDIR += tya
     SUBDIR += ups-debug
     SUBDIR += vtcl
     SUBDIR += xmake
