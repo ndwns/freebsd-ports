@@ -20,7 +20,7 @@ MASTER_SITES=ftp://gatekeeper.dec.com/archive/.b/usenet/comp.sources.unix/
 
 DISTFILES= part01.Z part02.Z mmv.pch.Z
 SITE_DISTFILES= volume21/mmv/part01.Z volume21/mmv/part02.Z volume22/mmv.pch.Z
-
+MAINTAINER=	me@FreeBSD.org
 NO_WRKSUBDIR=true
 
 # targets shamelessly hacked from the bsd.ports.mk file
