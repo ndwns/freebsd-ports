@@ -2,7 +2,7 @@
 #
 # $FreeBSD$
 
-IAM=`basename "$0"`
+IAM="`basename "$0"`"
 
 if [ "${IAM}" = "saxon-xquery" ]
 then
