@@ -5,7 +5,9 @@ SUBDIR= archivers audio cad comms databases devel editors games graphics \
 
 .include <bsd.port.subdir.mk>
 
-index:	${.CURDIR}/INDEX
+index:
+	@rm -f ${.CURDIR}/INDEX
+	@make ${.CURDIR}/INDEX
 
 ${.CURDIR}/INDEX:
 	@echo -n "Generating INDEX - please wait.."
