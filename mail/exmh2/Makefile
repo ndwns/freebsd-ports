@@ -6,8 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	exmh-2.0
-PKGNAME=	exmh-2.0.1
+DISTNAME=	exmh-2.0.1
 CATEGORIES=	mail tk80
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
@@ -16,7 +15,6 @@ MAINTAINER=	peter@FreeBSD.org
 
 # There are likely to be distributed patches again.
 DIST_SUBDIR=	${PKGNAME}
-WRKSRC=		${WRKDIR}/${PKGNAME}
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80
