@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	mgetty-0.98
+DISTNAME=	mgetty-0.99
 CATEGORIES+=	comms
 MASTER_SITES=	ftp://ftp.leo.org/pub/comp/networking/communication/modem/mgetty/
-DISTFILES=	mgetty+sendfax-0.98.tar.gz
+DISTFILES=	mgetty099-Aug07.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
