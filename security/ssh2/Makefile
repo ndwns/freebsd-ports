@@ -89,6 +89,12 @@ post-install:
 	@echo "If you are installing for the first time, do not forget to run:"
 	@echo "   ssh-keygen -b 1024 -f $(PREFIX)/etc/ssh_host_key -N '' "
 	@echo "---------------------------------------------------------------"
+	@if [ ! -f ${PREFIX}/etc/rc.d/sshd.sh ]; then \
+		echo "Installing ${PREFIX}/etc/rc.d/sshd.sh startup file."; \
+		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/sshd.sh; \
+		echo "[ -x /usr/local/sbin/sshd ] && /usr/local/sbin/sshd && echo -n ' sshd'" >> ${PREFIX}/etc/rc.d/sshd.sh; \
+		chmod 751 ${PREFIX}/etc/rc.d/sshd.sh; \
+	fi
 
 .include <bsd.port.mk>
 
