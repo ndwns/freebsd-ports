@@ -15,7 +15,6 @@ MAINTAINER=	jseger@FreeBSD.org
 USE_IMAKE=	yes
 
 MAN1=		cxpm.1 sxpm.1
-NOMANCOMPRESS=	yes
 
 .include <bsd.port.pre.mk>
 
