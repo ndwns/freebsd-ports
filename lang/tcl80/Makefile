@@ -17,7 +17,7 @@ WRKSRC=		${WRKDIR}/tcl8.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
-EXTRA_PKG_ARGS=	-i ${PKGDIR}/INSTALL.tclsh
+PKGINSTALL=	${PKGDIR}/INSTALL.tclsh
 
 SHLIB_MAJOR=	1
 SHLIB_MINOR=	2
@@ -43,8 +43,8 @@ pre-build:
 post-install:
 	${LN} -sf ${TCL_LIB_FILE} ${PREFIX}/lib/${TCL_LIB}
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-.if exists(${PKGDIR}/INSTALL.tclsh)
-	${SH} ${PKGDIR}/INSTALL.tclsh
+.if exists(${PKGINSTALL})
+	${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL}
 .endif
 
 test:

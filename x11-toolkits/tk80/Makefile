@@ -20,7 +20,7 @@ WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
-EXTRA_PKG_ARGS=	-i ${PKGDIR}/INSTALL.wish
+PKGINSTALL=	${PKGDIR}/INSTALL.wish
 
 SHLIB_MAJOR=    1
 SHLIB_MINOR=    2
@@ -46,8 +46,8 @@ pre-build:
 post-install:
 	${LN} -sf ${TK_LIB_FILE} ${PREFIX}/lib/${TK_LIB}
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-.if exists(${PKGDIR}/INSTALL.wish)
-	${SH} ${PKGDIR}/INSTALL.wish
+.if exists(${PKGINSTALL})
+	${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGINSTALL}
 .endif
 
 test:
