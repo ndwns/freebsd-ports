@@ -2,7 +2,6 @@
 #
 
     SUBDIR += elm
-    SUBDIR += elm.with_pgp
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
