@@ -1,15 +1,15 @@
 # New ports collection makefile for:	netscape
-# Version required:     4.02b7
+# Version required:     4.03b8
 # Date created:         24 Feb 1997
 # Whom:                 ache
 #
 # $Id$
 #
 
-DISTNAME=       netscape-4.02b7
+DISTNAME=       netscape-4.03b8
 CATEGORIES=	www
-MASTER_SITES=   ftp://ftp23.netscape.com/pub/communicator/4.02/4.02b7/english/unix/freebsd/base_install/
-DISTFILES=      communicator-v402b7-export.x86-unknown-freebsd.tar.gz
+MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/navigator_standalone/
+DISTFILES=      navigator-v403b8-export.x86-unknown-freebsd.tar.gz
 NO_WRKSUBDIR=   Yes
 NO_BUILD=       Yes
 
