@@ -17,7 +17,7 @@ MAINTAINER=	kuriyama@opt.phys.waseda.ac.jp
 USE_PERL5=	YES
 
 MAN3=		Net::Telnet.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
