@@ -8,8 +8,8 @@
 
 DISTNAME=		mmr-1.5.1
 CATEGORIES=		mail
-MASTER_SITE_SUBDIR=	system/mail/mua
 MASTER_SITES=		${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/mail/mua
 
 MAINTAINER=		andy@icc.surw.chel.su
 
