@@ -21,7 +21,7 @@ do-install:
 	${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/src/mpeg2${i}/mpeg2${i}ode ${PREFIX}/bin
 .endfor
-	${MKDIR} -p ${PREFIX}/share/mpeg2
+	${MKDIR} ${PREFIX}/share/mpeg2
 	${CP} ${WRKSRC}/doc/mpeg2enc.doc ${PREFIX}/share/mpeg2
 	${CP} ${WRKSRC}/par/* ${PREFIX}/share/mpeg2
 
