@@ -20,6 +20,8 @@ MAINTAINER=	ichiro@ichiro.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libVFlib2.so:${PORTSDIR}/japanese/vflib
 
+RESTRICTED=	unavailable from master site due to legal problems
+
 FETCH_BEFORE_ARGS=	-b
 
 .include <bsd.port.pre.mk>

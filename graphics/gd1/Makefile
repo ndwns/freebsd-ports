@@ -14,6 +14,8 @@ MASTER_SITES=   http://www.boutell.com/gd/http/ \
 
 MAINTAINER=     jeff@cetlink.net
 
+RESTRICTED=	unavailable from master site due to legal problems
+
 FETCH_BEFORE_ARGS=	-b
 
 pre-install:
