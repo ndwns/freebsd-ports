@@ -14,8 +14,6 @@ MASTER_SITES=	ftp://sleepy.vwh.net/pub/ \
 
 MAINTAINER=	itojun@itojun.org
 
-BROKEN=		original distribution is incompatible with perl5
-
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes
 USE_PERL5=	yes
