@@ -19,18 +19,27 @@ prefix=%%PREFIX%%
 #	/etc/rc.conf.local
 #	/etc/rc.conf.d/saslauthd
 #
-# DO NOT CHANGE THESE DEFAULT VALUES HERE 
+# DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
-[ -z "$saslauthd_enable" ] && saslauthd_enable="YES"	# Enable saslauthd
+saslauthd_enable=${saslauthd_enable:-"NO"}	# Enable saslauthd
+saslauthd_flags=${saslauthd_flags:-"-a pam"}	# Flags to saslauthd program
+#saslauthd_runpath="/var/state/saslauthd"	# Working directory
 #saslauthd_program="${prefix}/sbin/saslauthd"	# Location of saslauthd
-[ -z "$saslauthd_flags" ] && saslauthd_flags="-a pam"	# Flags to saslauthd program
 
 . %%RC_SUBR%%
 
 name="saslauthd"
 rcvar=`set_rcvar`
 command="${prefix}/sbin/${name}"
-pidfile="/var/state/${name}/${name}.pid"
 
 load_rc_config $name
+
+if [ -z "$saslauthd_runpath" ]; then
+	pidfile="/var/state/${name}/${name}.pid"
+	flags="${saslauthd_flags}"
+else
+	pidfile="${saslauthd_runpath}/${name}.pid"
+	flags="${saslauthd_flags} -m ${saslauthd_runpath}"
+fi
+
 run_rc_command "$1"
