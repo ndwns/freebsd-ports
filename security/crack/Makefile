@@ -26,8 +26,8 @@ pre-configure:
 	@/bin/mv -f ${WRKSRC}/src/libdes ${WRKSRC}/src/libdes.notused
 	@/bin/mv -f ${WRKSRC}/src/util/elcid.c ${WRKSRC}/src/util/elcid.c.orig
 	@${CP} -p ${WRKSRC}/src/util/elcid.c,bsd ${WRKSRC}/src/util/elcid.c
-	@echo "XLIB+= -lcrypt" >> ${WRKSRC}/src/util/Makefile
 .endif
+	@echo "XLIB+= -lcrypt" >> ${WRKSRC}/src/util/Makefile
 
 pre-build:
 	@(if [ ! -f /usr/share/dict/words ];then \
