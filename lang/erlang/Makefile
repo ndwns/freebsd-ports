@@ -13,6 +13,8 @@ MASTER_SITES=	http://www.erlang.org/download/
 
 MAINTAINER=	ruslan@shevchenko.kiev.ua
 
+BROKEN='single fetch site, which is currently behind a routing loop'
+
 WRKSRC=		${WRKDIR}/erlang-47.4.0
 
 USE_GMAKE=	yes
