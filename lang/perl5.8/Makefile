@@ -31,7 +31,7 @@ MAN1= 	perlbook.1 perlbot.1 perlcall.1 perldata.1 perldebug.1 perldiag.1  \
 	perlembed.1 perlform.1 perlfunc.1 perlguts.1 perlipc.1 perllol.1   \
 	perlmod.1 perlobj.1 perlop.1 perlovl.1 perlpod.1 perlre.1 perlref.1 \
 	perlrun.1 perlsec.1 perlstyle.1 perlsub.1 perlsyn.1 perltie.1  \
-	perltoc.1 perltrap.1 perlvar.1 perlxs.1 perlxstut.1
+	perltoc.1 perltrap.1 perlvar.1 perlxs.1 perlxstut.1 perl.1
 MAN1+=	a2p.1 s2p.1
 
 test:
