@@ -14,6 +14,8 @@ DISTFILES=	urt-3.1b.tar.Z urt-doc.tar urt-img.tar
 
 MAINTAINER=	giffunip@asme.org
 
+BROKEN=		not reinstall friendly
+
 LIB_DEPENDS=	tiff34.1:${PORTSDIR}/graphics/tiff34
 BUILD_DEPENDS=	${X11BASE}/lib/libpbm.a:${PORTSDIR}/graphics/netpbm
 
