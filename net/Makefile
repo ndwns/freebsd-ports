@@ -1,7 +1,8 @@
 # $Id$
 #
 #
-SUBDIR= archie cern_httpd chimera dgd fspclient gn irc ircII lynx ncftp2 \
+SUBDIR= archie cern_httpd chimera dgd dgd-lpmud fspclient gn gopher irc \
+	ircII lynx ncftp2 \
 	pcnfsd pidentd pmf sup tcp_wrapper tcpblast tkWWW tintin++ wais \
 	wu-ftpd yale-tftpd
 
