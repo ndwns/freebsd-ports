@@ -59,6 +59,8 @@ check-depends::
 	@${ECHO_CMD} "Dependency warning: used OpenSSL version contains known vulnerabilities"
 	@${ECHO_CMD} "Please update or define either WITH_OPENSSL_BASE or WITH_OPENSSL_PORT"
 	@${FALSE}
+.else
+WITH_OPENSSL_BASE=yes
 .endif
 .endif
 
