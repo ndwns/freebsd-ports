@@ -24,9 +24,6 @@ GNU_CONFIGURE=	yes
 INFOFILES=	wget.info
 
 post-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for i in ${INFOFILES}
 	install-info ${PREFIX}/info/${i} ${PREFIX}/info/dir
 .endfor

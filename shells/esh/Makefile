@@ -23,10 +23,6 @@ do-install:
 	  ${ECHO} ${PREFIX}/bin/esh) > /etc/shells
 	@${RM} /etc/shells.bak
 .if !defined(NOPORTDOCS)
-	if [ -f ${PREFIX}/info/dir ]; then                             \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir >                \
-	    ${PREFIX}/info/dir;                                        \
-	fi
 	${INSTALL_DATA} ${WRKSRC}/doc/esh.info ${PREFIX}/info/esh.info
 	install-info ${PREFIX}/info/esh.info ${PREFIX}/info/dir
 .endif

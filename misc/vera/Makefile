@@ -20,9 +20,6 @@ do-install:
 		@ ${INSTALL_DATA} ${WRKSRC}/vera.info* ${PREFIX}/info
 
 post-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then	\
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	@ install-info ${PREFIX}/info/vera.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

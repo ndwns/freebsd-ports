@@ -48,9 +48,4 @@ post-build:
 	${TOUCH} ${WRKSRC}/build-FreeBSD-i386/eximon.bin
 	${TOUCH} ${WRKSRC}/build-FreeBSD-i386/eximon
 
-pre-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
-
 .include <bsd.port.mk>

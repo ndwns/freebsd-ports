@@ -96,9 +96,6 @@ post-install:
 	${MV} -f ${PREFIX}/lib/libstdc++.so*  \
 		${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/${EGCS_REV}
 .endif
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for info in cpp g77 gcc
 	install-info ${PREFIX}/info/${info}.info ${PREFIX}/info/dir
 .endfor

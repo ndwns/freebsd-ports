@@ -21,9 +21,6 @@ CONFIGURE_ARGS= --program-prefix=g
 post-install:
 	@${MKDIR} ${PREFIX}/share/examples/gm4
 	${INSTALL_DATA} ${WRKSRC}/examples/*.m4 ${PREFIX}/share/examples/gm4
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 	@install-info ${PREFIX}/info/m4.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

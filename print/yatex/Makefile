@@ -116,9 +116,6 @@ do-install:
 .endif
 
 post-install:
-	if [ ! -f ${INFODIR}/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${INFODIR}/dir; \
-	fi
 	@${SETENV} TOUCH=${TOUCH} INFODIR=${INFODIR} \
 		ELISPDIR=${ELISPDIR} DIRSECTION="${DIRSECTION}" \
 		INFOFILES="${INFOFILES}" \

@@ -28,9 +28,6 @@ IS_INTERACTIVE=	Maybe_interactive_at_install_stage
 .endif
 
 post-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for info in ndtpd ndtpd-ja
 	install-info ${PREFIX}/info/${info}.info ${PREFIX}/info/dir
 .endfor

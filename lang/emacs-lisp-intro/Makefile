@@ -13,9 +13,4 @@ MASTER_SITE_SUBDIR=	emacs
 
 MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 
-pre-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
-
 .include <bsd.port.mk>

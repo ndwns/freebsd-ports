@@ -183,10 +183,6 @@ post-install:
 	${CHOWN} ${SUPERUSER} ${PREFIX}/${setuid}
 .endfor
 # handle info files
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > \
-			${PREFIX}/info/dir; \
-	fi
 .for info in ${INFO_FILES}
 	${INSTALL_MAN} ${WRKSRC}/../doc/${info} ${PREFIX}/info/${info}
 .endfor

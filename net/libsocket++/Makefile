@@ -23,11 +23,6 @@ GNU_CONFIGURE=	yes
 post-configure:
 	@${CP} ${FILESDIR}/Makefile.lib ${WRKSRC}/Makefile
 
-pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	 ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
-
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOPORTDOCS)

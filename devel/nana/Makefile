@@ -18,9 +18,4 @@ USE_GMAKE=	yes
 MAN1=		nana.1 nana-clg.1
 MAN3= 		nana.3 I.3 DI.3 L.3 DL.3 Q.3 Qstl.3
 
-pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
-
 .include <bsd.port.mk>

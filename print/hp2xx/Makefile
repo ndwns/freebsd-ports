@@ -22,9 +22,6 @@ MAKEFILE=	makefile
 MAN1=		hp2xx.1
 
 post-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for info in hp2xx.info
 	install-info ${PREFIX}/info/${info} ${PREFIX}/info/dir
 .endfor

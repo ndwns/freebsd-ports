@@ -45,9 +45,6 @@ pre-install:
 post-install:
 	(cd ${WRKSRC}/gnats;   ${MAKE} install-info)
 	(cd ${WRKSRC}/send-pr; ${MAKE} install-info)
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	install-info ${PREFIX}/info/gnats.info   ${PREFIX}/info/dir
 	install-info ${PREFIX}/info/send-pr.info ${PREFIX}/info/dir
 

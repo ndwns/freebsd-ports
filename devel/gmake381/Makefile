@@ -21,11 +21,6 @@ CONFIGURE_ARGS=	--program-prefix=g
 MAN1=		gmake.1
 
 # joerg@freebsd.org says our getloadavg() no longer requires setgid kmem
-pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${MKDIR} ${PREFIX}/info; \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 
 post-install:
 	chmod g-s ${PREFIX}/bin/gmake

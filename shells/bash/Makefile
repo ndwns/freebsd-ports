@@ -21,11 +21,6 @@ GNU_CONFIGURE=	Yes
 CONFIGURE_ARGS= --with-installed-readline
 MAN1=		bash.1 bashbug.1
 
-pre-install:
-	if [ ! -s ${PREFIX}/info/dir -a -f /usr/share/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
-
 post-install:
 	${CP} /etc/shells /etc/shells.bak
 	(${GREP} -v ${PREFIX}/bin/bash /etc/shells.bak; echo ${PREFIX}/bin/bash) >/etc/shells

@@ -20,13 +20,6 @@ post-install:
 	@strip ${PREFIX}/bin/indent
 	@test -d ${PREFIX}/info || ${MKDIR} ${PREFIX}/info  \
 		&& chmod a+rx ${PREFIX}/info
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  if [ -f /usr/share/info/dir ]; then \
-	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	  else \
-	    touch ${PREFIX}/info/dir ; \
-	  fi ; \
-	fi
 	@install-info ${PREFIX}/info/indent.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

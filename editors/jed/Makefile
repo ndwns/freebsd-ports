@@ -50,9 +50,6 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/jed
 	${INSTALL_DATA} ${WRKSRC}/doc/README ${WRKSRC}/doc/*.txt \
 		${PREFIX}/share/doc/jed
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	install-info --section="Miscellaneous" \
 		--entry="* JED: (jed).			JED editor documentation." \
 		${PREFIX}/info/jed.info ${PREFIX}/info/dir

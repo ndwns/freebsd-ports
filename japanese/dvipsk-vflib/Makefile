@@ -58,9 +58,6 @@ post-build:
 	)
 
 pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ] ; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir ; \
-	fi
 	@for i in ${BACKUP_FILES} ; do \
 	  if [ -f ${DVIPSDIR}/$$i ] ; then \
 	    ${MV} ${DVIPSDIR}/$$i ${DVIPSDIR}/$$i.bak ; \

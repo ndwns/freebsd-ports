@@ -29,9 +29,6 @@ post-install:
 	strip ${PREFIX}/bin/${file}
 .endfor
 	cd ${WRKSRC}/doc && make install-info
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for info in xconq xcdesign
 	install-info ${PREFIX}/info/${info}.info ${PREFIX}/info/dir
 .endfor

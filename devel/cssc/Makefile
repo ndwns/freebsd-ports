@@ -16,12 +16,6 @@ MAINTAINER=	olli@fromme.com
 GNU_CONFIGURE=	yes
 MAN1=		sccs.1
 
-#
-#   NOTE:
-#   portlint will warn about the absolute pathname "/usr/share/info/dir",
-#   although it is OK in this case (see the FreeBSD Handbook, section
-#   "Making a port yourself", subsection "Info files").
-#
 post-install:
 	@strip ${PREFIX}/bin/sccs
 	@for FILE in ${PREFIX}/libexec/cssc/*; do \
@@ -29,9 +23,6 @@ post-install:
 		strip $$FILE; \
 	    fi; \
 	done
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	@install-info ${PREFIX}/info/cssc.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

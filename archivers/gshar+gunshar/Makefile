@@ -25,9 +25,6 @@ post-install:
 .for file in gshar gunshar
 	strip ${PREFIX}/bin/${file}
 .endfor
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 .for info in remsync.info sharutils.info
 	install-info ${PREFIX}/info/${info} ${PREFIX}/info/dir
 .endfor

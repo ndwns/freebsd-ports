@@ -28,9 +28,6 @@ MAN1=		zsh.1 zshbuiltins.1 zshcompctl.1 zshexpn.1 zshmisc.1 \
 #LDFLAGS+=-static
 
 post-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 	@install-info ${PREFIX}/info/zsh.info ${PREFIX}/info/dir
 	@${ECHO} "Updating /etc/shells"
 	@${CP} /etc/shells /etc/shells.bak

@@ -21,9 +21,6 @@ pre-configure:
 	${RM} ${WRKSRC}/doc/gettext.info*
 
 post-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 	@install-info ${PREFIX}/info/gettext.info ${PREFIX}/info/dir
 	${INSTALL_DATA} ${WRKSRC}/misc/po-mode.el \
 		${PREFIX}/share/gettext/po-mode.el

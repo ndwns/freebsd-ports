@@ -25,9 +25,6 @@ MAN1=	gcat.1 gcksum.1 gcomm.1 gcsplit.1 gcut.1 gexpand.1\
 		gtail.1 gtr.1 gunexpand.1 guniq.1 gwc.1
 
 post-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 	@install-info ${PREFIX}/info/textutils.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

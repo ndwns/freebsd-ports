@@ -57,9 +57,6 @@ post-install:
 	    (cd ${APPENDIXDIR} && ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
 		${DISTDIR}/${DIST_SUBDIR}/$$i ${EXTRACT_AFTER_ARGS}); \
 	done
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	    ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	${INSTALL_DATA} ${FILESDIR}/LIST ${APPENDIXDIR}/LIST
 	${INSTALL_DATA} ${FILESDIR}/LIST-ja ${APPENDIXDIR}/LIST-ja
 .for info in eb ebinfo ebfont ebrefile ebzip

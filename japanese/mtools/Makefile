@@ -40,9 +40,6 @@ post-patch:
 
 post-install:
 	@install -c ${WRKSRC}/mtools.conf ${PREFIX}/etc
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 	@install-info ${PREFIX}/info/mtools.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>

@@ -18,9 +18,4 @@ MAINTAINER=	ports@FreeBSD.ORG
 GNU_CONFIGURE= 	yes
 MAN1=		cim.1
 
-pre-install:
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
-
 .include <bsd.port.mk>

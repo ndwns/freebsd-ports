@@ -126,9 +126,6 @@ post-install:
 .for file in b2m coco ctags emacsclient etags m2ps
 	strip ${PREFIX}/bin/${file}
 .endfor
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	if [ ! -f ${PREFIX}/share/mule/19.34/info/dir ]; then \
 	  ${MKDIR} ${PREFIX}/share/mule/19.34/info; \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/share/mule/19.34/info/dir; \

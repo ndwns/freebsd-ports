@@ -33,9 +33,6 @@ MAN6=		xaos.6
 
 post-install:
 	strip ${PREFIX}/bin/xaos
-	if [ ! -f ${PREFIX}/info/dir ]; then \
-		${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
 	install-info ${PREFIX}/info/xaos.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
