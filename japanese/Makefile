@@ -165,8 +165,12 @@
     SUBDIR += sj3
     SUBDIR += sjxa
     SUBDIR += skk
+    SUBDIR += skk-elisp
+    SUBDIR += skk-jisyo
+    SUBDIR += skk-tools
     SUBDIR += skkfep
     SUBDIR += skkinput
+    SUBDIR += skkserv
     SUBDIR += slrn
     SUBDIR += tcl76
     SUBDIR += tcl80
