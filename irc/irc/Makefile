@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
+# Restrictive copyright in irc2.8.21/ircd/res.c
+NO_PACKAGE=	yes
+
 pre-install:
 	mkdir -p ${PREFIX}/lib/ircd
 
