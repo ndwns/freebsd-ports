@@ -2,6 +2,7 @@
 #
 
     SUBDIR += BBBike
+    SUBDIR += cheapcall
     SUBDIR += dict
     SUBDIR += manpages
     SUBDIR += phone
