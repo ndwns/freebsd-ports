@@ -15,7 +15,7 @@ MAINTAINER=	chuckr@FreeBSD.ORG
 GNU_CONFIGURE=	yes
 
 .ifdef HAVE_MOTIF
-CONFIGURE_ARGS+=--with-motif
+CONFIGURE_ARGS=	--with-motif
 .endif
 
 post-install:
