@@ -8,8 +8,8 @@
 
 DISTNAME=	w3-2.2.26
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/network/WWW/w3/ \
-		ftp://ftp.cs.indiana.edu/pub/elisp/w3/
+MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/elisp/w3/ \
+		ftp://ftp.iij.ad.jp/pub/network/WWW/w3/
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
