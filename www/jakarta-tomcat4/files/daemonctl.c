@@ -78,6 +78,10 @@ int main(int argc, char *argv[]) {
 		return 0;
 	}
 
+	/* XXX: Fix for setting up the environment for the java wrapper script */
+	setuid(geteuid());
+	setgid(getegid());
+
 	argument = argv[1];
 	if (strcmp("start", argument) == 0) {
 		start();
