@@ -12,4 +12,9 @@ MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     wosch@FreeBSD.org
 
+post-install:
+.if !defined(NOMANCOMPRESS)
+	gzip -9nf ${PREFIX}/man/man1/socket.1
+.endif
+
 .include <bsd.port.mk>
