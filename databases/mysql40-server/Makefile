@@ -66,7 +66,7 @@ pre-fetch:
 pre-fetch:
 	@${ECHO}
 	@${ECHO} "Sorry, native FreeBSD threads (libc_r) in 2.2-branch"
-	@${ECHO} "are still to buggy to use with mysql."
+	@${ECHO} "are still too buggy to use with mysql."
 	@${ECHO} "Using mit-pthreads."
 	@${ECHO}
 .endif
