@@ -11,6 +11,7 @@ PKGNAME=	libsx-1.1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	libraries
+EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	pgiffuni@FPS.biblos.unal.edu.co
 
