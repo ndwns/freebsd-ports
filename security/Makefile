@@ -17,6 +17,7 @@
     SUBDIR += libident
     SUBDIR += nbaudit
     SUBDIR += nmap
+    SUBDIR += openssl
     SUBDIR += p5-Authen-Radius
     SUBDIR += p5-Crypt-DES
     SUBDIR += p5-Crypt-IDEA
