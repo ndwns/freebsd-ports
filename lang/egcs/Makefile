@@ -7,12 +7,12 @@
 # $Id$
 #
 
-DISTNAME=	egcs-1.1a
-PKGNAME=	egcs-1.1.1
+DISTNAME=	egcs-1.1b
+PKGNAME=	egcs-1.1.0.2
 CATEGORIES=	lang
-MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/releases/egcs-1.1a/ \
-		ftp://cambridge.cygnus.com/pub/egcs/releases/egcs-1.1a/ \
-		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/egcs-1.1a/
+MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
+		ftp://cambridge.cygnus.com/pub/egcs/releases/${DISTNAME}/ \
+		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/${DISTNAME}/
 
 MAINTAINER=	obrien@FreeBSD.org
 
