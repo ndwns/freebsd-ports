@@ -78,7 +78,11 @@ pre-build:
 .endif
 
 certificate:
-	cd ${WRKSRC}; ${MAKE} ${MAKE_ENV} $@
-	${CP} ${WRKSRC}/SSLconf/conf/httpsd.pem ${PREFIX}/certs/cert.pem
+	@if [ -f ${PREFIX}/etc/ssleay.cnf ]; then \
+		cd ${WRKSRC}; ${MAKE} ${MAKE_ENV} $@; \
+		${CP} ${WRKSRC}/SSLconf/conf/httpsd.pem ${PREFIX}/certs/cert.pem; \
+	else \
+		${ECHO} "You must create the file ${PREFIX}/etc/ssleay.cnf first."; \
+	fi
 
 .include <bsd.port.mk>
