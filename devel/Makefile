@@ -8,6 +8,7 @@
     SUBDIR += cflow
     SUBDIR += crossgo32
     SUBDIR += crosssco
+    SUBDIR += cs
     SUBDIR += cutils
     SUBDIR += cxref
     SUBDIR += ddd
