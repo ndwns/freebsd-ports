@@ -8,7 +8,9 @@
 
 DISTNAME=       tua-4.0
 CATEGORIES+=	utilities
-MASTER_SITES=   ftp://itnsg1.cineca.it/local/tua/
+MASTER_SITES=   ftp://itnsg1.cineca.it/pub/local/tua/
+
+MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
