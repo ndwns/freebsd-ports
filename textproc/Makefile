@@ -20,6 +20,7 @@
     SUBDIR += latex2html
     SUBDIR += libxml
     SUBDIR += linuxdoc
+    SUBDIR += lv
     SUBDIR += man2html
     SUBDIR += mgdiff
     SUBDIR += mswordview
