@@ -1,5 +1,5 @@
 # New ports collection makefile for:	squid
-# Version required:	1.1.910
+# Version required:	1.1.10
 # Date created:		Thu Nov  7 00:53:18 WST 1996
 # Whom:			Peter Wemm <peter@freebsd.org>
 #
