@@ -317,7 +317,7 @@ pre-install:
 .endif
 
 .if !target(install)
-install: ${INSTALL_COOKIE}
+install: build ${INSTALL_COOKIE}
 
 ${INSTALL_COOKIE}:
 	@echo "===>  Installing for ${DISTNAME}"
@@ -376,7 +376,7 @@ pre-build:
 .endif
 
 .if !target(build)
-build: depends configure ${BUILD_COOKIE}
+build: configure ${BUILD_COOKIE}
 
 ${BUILD_COOKIE}:
 	@echo "===>  Building for ${DISTNAME}"
@@ -402,7 +402,7 @@ pre-patch:
 .endif
 
 .if !target(patch)
-patch: ${PATCH_COOKIE}
+patch: extract ${PATCH_COOKIE}
 
 ${PATCH_COOKIE}:
 	@${MAKE} ${.MAKEFLAGS} pre-patch
@@ -432,7 +432,7 @@ pre-configure:
 .endif
 
 .if !target(configure)
-configure: extract patch ${CONFIGURE_COOKIE}
+configure: depends patch ${CONFIGURE_COOKIE}
 
 ${CONFIGURE_COOKIE}:
 	@echo "===>  Configuring for ${DISTNAME}"
