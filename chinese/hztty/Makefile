@@ -9,10 +9,10 @@
 DISTNAME=	hztty-2.0
 PKGNAME=	zh-hztty-2.0
 CATEGORIES=	chinese
-MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/convert/  \
-		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/convert/ \
-		ftp://ftp.edu.tw/Chinese/ifcss/software/convert/  \
-		ftp://ftp.mpi-sb.mpg.de/pub/chinese/mirror/ftp.ifcss.org/software/convert/
+MASTER_SITES=	ftp://ftp.ifcss.org/pub/software/unix/convert/  \
+		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/unix/convert/ \
+		ftp://ftp.edu.tw/Chinese/ifcss/software/unix/convert/  \
+		ftp://ftp.mpi-sb.mpg.de/pub/chinese/mirror/ftp.ifcss.org/software/unix/convert/
 
 MAINTAINER=     ada@bsd.org
 
