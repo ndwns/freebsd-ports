@@ -25,15 +25,14 @@ pre-build:
 	@ ${CP} ${WRKSRC}/Makefiles/Makefile.freebsd ${WRKSRC}
 
 do-install:
-	@ ${MKDIR} ${PREFIX}/lib/FileRunner
 	@ ${MKDIR} ${PREFIX}/lib/FileRunner/bitmaps
 	@ ${INSTALL_SCRIPT} ${WRKSRC}/fr ${PREFIX}/lib/FileRunner
 	@ ln -sf ${PREFIX}/lib/FileRunner/fr ${PREFIX}/bin
-	@ for file in FAQ QuickStart.txt Users_Guide.txt chmod.tcl cmd.tcl config.tcl dialog_about.tcl ext.so font.tcl frcolor frftp ftp.tcl palette.tcl tclIndex; do \
-		${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/lib/FileRunner; \
-	done
-	@ for map in cross.bit frterm.bit larger.bit left.bit max.bit pgdown.bit pgup.bit right.bit smaller.bit toggle.bit up.bit update.bit xterm.bit; do \
-		${INSTALL_DATA} ${WRKSRC}/bitmaps/$$map ${PREFIX}/lib/FileRunner/bitmaps; \
-	done
+.for file in FAQ QuickStart.txt Users_Guide.txt chmod.tcl cmd.tcl config.tcl dialog_about.tcl ext.so font.tcl frcolor frftp ftp.tcl palette.tcl tclIndex HISTORY
+		@ ${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/lib/FileRunner
+.endfor
+.for map in cross.bit frterm.bit larger.bit left.bit max.bit pgdown.bit pgup.bit right.bit smaller.bit toggle.bit up.bit update.bit xterm.bit
+		@ ${INSTALL_DATA} ${WRKSRC}/bitmaps/${map} ${PREFIX}/lib/FileRunner/bitmaps
+.endfor
 
 .include <bsd.port.mk>
