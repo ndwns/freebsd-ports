@@ -6,20 +6,18 @@
 # $Id$
 #
 
-DISTNAME=       par-1.50
-DISTFILES=	Par150.tar.gz
+DISTNAME=       Par150
+PKGNAME=        par-1.50
 CATEGORIES=	textproc
 MASTER_SITES=   http://www.cs.berkeley.edu/~amc/Par/
-WRKSRC=		${WRKDIR}/Par150
-
-ALL_TARGET=
 
 MAINTAINER=	mark@grondar.za
 
+ALL_TARGET=
 MAN1=		par.1
 
 do-configure:
-	(cd ${WRKSRC}; cp protoMakefile Makefile)
+	(cd ${WRKSRC}; ${CP} protoMakefile Makefile)
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/par ${PREFIX}/bin
