@@ -15,10 +15,7 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 IS_INTERACTIVE=	yes
 
-install: build
-.if !defined(BATCH)
-	@echo "===>  Installing for ${DISTNAME}"
+do-install:
 	@cd ${WRKSRC}; ${MAKE} install-suid install.man
-.endif
 
 .include <bsd.port.mk>
