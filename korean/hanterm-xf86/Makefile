@@ -13,8 +13,6 @@ MASTER_SITES=	http://pseudo.snu.ac.kr/~hwang/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
-BROKEN_ELF=	yes
-
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/misc/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
 USE_X_PREFIX=		yes
