@@ -9,7 +9,7 @@
 DISTNAME=	xgraph-11
 PKGNAME=	xgraph-11.3.2
 CATEGORIES=	math print
-MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/Xclients.local/
+MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	asami@FreeBSD.ORG
