@@ -18,9 +18,11 @@ MAINTAINER=	chuckr@glue.umd.edu
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-gzip --enable-japanese
-USE_X_PREFIX=	yes
+CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
+
 MAN1=		pdfimages.1 \
 		pdfinfo.1 \
 		pdftopbm.1 \
