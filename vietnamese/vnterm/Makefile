@@ -31,9 +31,6 @@ post-install:
 	${INSTALL_DATA} fonts.dir *.pcf.Z  \
 		${PREFIX}/lib/X11/fonts/vietnamese ; \
 	)
-			/bin/false
-			need to put below line in pkg/INSTALL?
-	@(cd ${PREFIX}/lib/X11/fonts/vietnamese ; mkfontdir >/dev/null 2>&1)
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/vnterm \
 		&& chmod a+rx ${PREFIX}/share/doc/vnterm
