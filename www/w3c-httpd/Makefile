@@ -11,11 +11,9 @@ CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.w3.org/pub/httpd/ \
 		ftp://ftp-eu.w3.org/pub/httpd/
 
-MAINTAINER=	giffunip@asme.org
+MAINTAINER=	ports@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
-
-BROKEN_ELF=	yes
 
 WWW_ROOT=	${PREFIX}/www
 
