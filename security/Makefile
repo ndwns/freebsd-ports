@@ -47,6 +47,7 @@
     SUBDIR += slush
     SUBDIR += smurflog
     SUBDIR += sniff
+    SUBDIR += snort
     SUBDIR += ssh
     SUBDIR += ssh2
     SUBDIR += sslproxy
