@@ -8,7 +8,7 @@
 
 DISTNAME=	wemi-${WEMI_VER}
 CATEGORIES=	editors elisps
-MASTER_SITES=	MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/semi/semi-1.08-for-flim-1.9/
+MASTER_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/semi/semi-1.08-for-flim-1.9/
 
 MAINTAINER?=	shige@kuis.kyoto-u.ac.jp
 
