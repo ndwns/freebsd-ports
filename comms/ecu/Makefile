@@ -8,7 +8,7 @@
 
 DISTNAME=       ecu-4.07
 CATEGORIES=	comms
-MASTER_SITES=   ftp://ftp.kiarchive.ru/unix/comm/
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/comm/
 #MASTER_SITES=   ftp://tsx-11.mit.edu/pub/linux/sources/usr.bin/Communications/
 
 MAINTAINER=     ache@FreeBSD.ORG
