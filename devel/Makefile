@@ -53,7 +53,6 @@
     SUBDIR += glib11-devel
     SUBDIR += glib12
     SUBDIR += gmake
-    SUBDIR += icqlib
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
