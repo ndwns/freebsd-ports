@@ -37,6 +37,7 @@
     SUBDIR += spider
     SUBDIR += starlanes
     SUBDIR += tksol
+    SUBDIR += tvp
     SUBDIR += xasteroids
     SUBDIR += xbat
     SUBDIR += xbattle
