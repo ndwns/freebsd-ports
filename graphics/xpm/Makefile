@@ -23,5 +23,6 @@ post-install:
 	${LN} -sf libXpm.so.4.11 ${PREFIX}/lib/libXpm.so
 .endif
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	@ranlib ${PREFIX}/lib/libXpm.a
 
 .include <bsd.port.post.mk>
