@@ -49,6 +49,6 @@ post-install:
 		chmod 755 ${STARTUP_SCRIPT} ;				\
 		chown bin.bin ${STARTUP_SCRIPT};			\
 	fi
-	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>

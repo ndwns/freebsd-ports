@@ -43,7 +43,7 @@ do-install:
 		-e "/^share/d" ${PKGDIR}/PLIST | \
 		cpio -dump -R ${BINOWN}.${BINGRP} ${PREFIX}
 	@echo "Fixing absolute pathnames in installed files"
-	@/bin/sh ${SCRIPTDIR}/fix_pathnames ${temp_prefix} ${PREFIX}
+	@${SH} ${SCRIPTDIR}/fix_pathnames ${temp_prefix} ${PREFIX}
 	@echo "Rebuilding and shipping m3build with correct pathnames"
 	@cd ${WRKSRC}/m3/m3build; \
 	    LD_LIBRARY_PATH=${PREFIX}/lib/m3/FreeBSD2:$$LD_LIBRARY_PATH; \

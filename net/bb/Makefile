@@ -22,7 +22,7 @@ BUILD_DEPENDS=	${PREFIX}/sbin/httpd:${PORTSDIR}/www/apache
 #NO_CDROM=	"It can't be sold"
 
 post-configure:
-	( cd ${WRKSRC}/doc; /bin/sh bbconfig freebsd )
+	( cd ${WRKSRC}/doc; ${SH} bbconfig freebsd )
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 do-install:

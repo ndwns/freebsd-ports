@@ -56,10 +56,10 @@ post-extract:
 do-configure:
 .if defined(BATCH)
 	@${SETENV} PORTSDIR=${PORTSDIR} WRKSRC=${WRKSRC} \
-		/bin/sh ${SCRIPTDIR}/configure.batch
+		${SH} ${SCRIPTDIR}/configure.batch
 .else
 	@${SETENV} PORTSDIR=${PORTSDIR} WRKSRC=${WRKSRC} \
-		/bin/sh ${SCRIPTDIR}/configure
+		${SH} ${SCRIPTDIR}/configure
 .endif
 
 pre-install:

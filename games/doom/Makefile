@@ -27,7 +27,7 @@ pre-install:
 	@sed 's,@PREFIX@,${PREFIX},' ${PKGDIR}/INSTALL.in > ${PKGDIR}/INSTALL
 
 post-install:
-	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 pre-clean:
 	@rm -f ${PKGDIR}/INSTALL

@@ -22,7 +22,7 @@ DISTFILES=      ${EXTRACT_ONLY} ${EPHEM}
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-EXTRACT_CMD=    /bin/sh
+EXTRACT_CMD=    ${SH}
 EXTRACT_ARGS=
 DIST_SUBDIR=    astrolog
 ALL_TARGET=     astrolog

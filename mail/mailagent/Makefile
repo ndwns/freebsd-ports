@@ -34,7 +34,7 @@ MAN1=			edusers.1 mailagent.1 maildist.1  \
 PERLPATH?=		${PREFIX}/bin
 
 pre-extract:
-	@if [ `/bin/sh -c umask` != 0022 ]; then \
+	@if [ `${SH} -c umask` != 0022 ]; then \
 	  echo "Please set umask to 022 before running make,"; \
 	  echo "or mailagent will not build successfully."; \
 	  false; fi

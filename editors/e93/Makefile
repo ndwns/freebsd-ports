@@ -21,7 +21,7 @@ USE_X11=	yes
 IS_INTERACTIVE=	yes	# asks "ok?" about license
 
 pre-install:
-	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
+	@${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
 .endif
 
 do-install:

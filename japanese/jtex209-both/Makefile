@@ -38,12 +38,12 @@ pre-build:
 .if defined(BATCH)
 	@(\
 	  cd ${WRKSRC} ; \
-	  /bin/sh ${FILESDIR}/select.sh ${FILESDIR} ${DISTDIR} ${PKGDIR} ${BATCH_TEX}; \
+	  ${SH} ${FILESDIR}/select.sh ${FILESDIR} ${DISTDIR} ${PKGDIR} ${BATCH_TEX}; \
 	)
 .else
 	@(\
 	  cd ${WRKSRC} ; \
-	  /bin/sh ${FILESDIR}/select.sh ${FILESDIR} ${DISTDIR} ${PKGDIR} SELECT ; \
+	  ${SH} ${FILESDIR}/select.sh ${FILESDIR} ${DISTDIR} ${PKGDIR} SELECT ; \
 	)
 .endif
 
@@ -51,7 +51,7 @@ post-install:
 .if !defined(BATCH)
 	@(\
 	  if [ -e /usr/local/share/tex/BOTH ] ;  \
-	    then /bin/sh ${FILESDIR}/linkselect.sh ; \
+	    then ${SH} ${FILESDIR}/linkselect.sh ; \
 	  fi \
 	)
 .endif

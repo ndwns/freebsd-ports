@@ -99,7 +99,7 @@ do-build:
 
 pre-install:
 .if !defined(BATCH)
-	@/bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL || \
+	@${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL || \
 	(echo "(Don't worry about the following \"*** Error code 1\"s)" ; \
 	 exit 1)
 .endif

@@ -27,7 +27,7 @@ pre-patch:
 	@${MKDIR} ${PATCHDIR}
 	@${SETENV} FILESDIR=${FILESDIR} PATCHDIR=${PATCHDIR} \
 		PREFIX=${PREFIX} SED=${SED} X11BASE=${X11BASE} \
-		/bin/sh ${FILESDIR}/pr-setup.sh
+		${SH} ${FILESDIR}/pr-setup.sh
 
 do-install:
 	@${MKDIR} ${PREFIX}/etc/GP-jp

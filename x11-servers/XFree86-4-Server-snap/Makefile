@@ -25,7 +25,7 @@ INSTALL_TARGET=	install install.man
 DIST_SUBDIR=	xc
 
 pre-install:
-	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/INSTALL \
+	@${SETENV} PKG_PREFIX=${PREFIX} ${SH} ${PKGDIR}/INSTALL \
 		${PKGNAME} PRE-INSTALL
 
 post-install:

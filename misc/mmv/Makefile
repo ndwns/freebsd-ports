@@ -33,7 +33,7 @@ do-extract:
 	 uncompress ${WRKDIR}/tmp/*; \
 	 cd ${WRKDIR}; \
 	 for file in tmp/part0* ; do \
-	     /bin/sh ${SCRIPTDIR}/unshar $$file; \
+	     ${SH} ${SCRIPTDIR}/unshar $$file; \
 	 done ; \
 	 ${CAT} mmv.c.? >mmv.c ; ${RM} mmv.c.? )
 

@@ -30,7 +30,7 @@ do-configure:
 post-install:
 	@${MKDIR} ${PREFIX}/share/doc/jp-elvis
 	${INSTALL_DATA} ${WRKSRC}/README.j18 ${PREFIX}/share/doc/jp-elvis
-	@/bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
+	@${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
 	@if [ ! -f ${STARTUP_SCRIPT} ]; then				\
 		echo "Installing ${STARTUP_SCRIPT} startup file.";	\
 		echo '#!/bin/sh' > ${STARTUP_SCRIPT};			\

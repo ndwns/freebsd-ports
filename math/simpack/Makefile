@@ -20,7 +20,7 @@ post-build: create-libs create-scripts
 do-install: do-install-bin do-install-include do-install-lib do-install-doc
 
 post-install:
-	@/bin/sh ${PKGDIR}/REQ
+	@${SH} ${PKGDIR}/REQ
 	@${LDCONFIG} -m ${PREFIX}/lib
 
 do-install-bin:

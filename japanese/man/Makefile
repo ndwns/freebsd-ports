@@ -59,7 +59,7 @@ post-install:
 	@${MKDIR} ${JMANELDIR}
 	@${INSTALL_DATA} ${FILESDIR}/jman.el ${JMANELDIR}
 	@${SETENV} CP=${CP} PKG_PREFIX=${PREFIX} \
-		/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
+		${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 pre-clean:
 	@${RM} -f ${PATCHDIR}/patch-aa ${FILESDIR}/patch-xpg4

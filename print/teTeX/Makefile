@@ -51,6 +51,6 @@ pre-install:
 post-install:
 	@(cd ${PREFIX}/bin ; /bin/ln -sf virtex latex)
 	@(cd ${PREFIX}/bin ; /bin/ln -sf virtex tex)
-	@${SETENV} PREFIX=${PREFIX} /bin/sh files/install-note
+	@${SETENV} PREFIX=${PREFIX} ${SH} ${FILESDIR}/install-note
 
 .include <bsd.port.mk>

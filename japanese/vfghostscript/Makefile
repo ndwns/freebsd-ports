@@ -63,11 +63,11 @@ pre-patch:
 	@${CP} ${WRKSRC}/unix-gcc.mak ${WRKSRC}/Makefile
 .if defined(BATCH)
 	@(cd ${WRKSRC} ; \
-	  /bin/sh ${FILESDIR}/printer.sh BATCH; \
+	  ${SH} ${FILESDIR}/printer.sh BATCH; \
 	 )
 .else
 	@(cd ${WRKSRC} ; \
-	  /bin/sh ${FILESDIR}/printer.sh; \
+	  ${SH} ${FILESDIR}/printer.sh; \
 	 )
 .endif
 	@${CAT} ${WRKSRC}/kfvflib.mak >> ${WRKSRC}/Makefile

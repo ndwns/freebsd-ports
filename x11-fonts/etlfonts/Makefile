@@ -21,6 +21,6 @@ post-extract:
 	@gunzip ${WRKSRC}/*.gz
 
 post-install:
-	@/bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
+	@${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
 
 .include <bsd.port.mk>
