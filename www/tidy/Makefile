@@ -6,15 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	tidy01sep98
-PKGNAME=	tidy-0.1.98.9
+DISTNAME=	tidy17dec98
+PKGNAME=	tidy-0.1.98.12
 CATEGORIES=	www
 MASTER_SITES=	http://www.w3.org/People/Raggett/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	saken@rmta.ml.org
 
 ALL_TARGET=	tidy
-WRKSRC=		${WRKDIR}/tidy01sep98
+WRKSRC=		${WRKDIR}/tidy17dec98
 
 DOCFILES=	Overview.html tidy.gif
 
