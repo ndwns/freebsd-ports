@@ -21,5 +21,6 @@
     SUBDIR += smail
     SUBDIR += xfmail
     SUBDIR += youbin
+    SUBDIR += xlbiff
 
 .include <bsd.port.subdir.mk>
