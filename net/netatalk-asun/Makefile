@@ -15,7 +15,9 @@ MASTER_SITES=   ftp://ftp.u.washington.edu/public/asun/ \
 
 MAINTAINER=	stb@freebsd.org
 
+.if !exists(/usr/include/tcpd.h)
 LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
+.endif
 
 MAKE_ARGS=	INSTALL="${INSTALL} ${COPY}"
 
