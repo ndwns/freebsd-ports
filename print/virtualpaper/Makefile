@@ -13,8 +13,8 @@ DISTFILES=	sources.tar.Z
 
 MAINTAINER=	jdp@FreeBSD.org
 
-BUILD_DEPENDS=	m3build-5:${PORTSDIR}/lang/modula-3
-LIB_DEPENDS=	m3\\.5\\.:${PORTSDIR}/lang/modula-3-lib
+BUILD_DEPENDS=	m3build-6:${PORTSDIR}/lang/modula-3
+LIB_DEPENDS=	m3\\.6\\.:${PORTSDIR}/lang/modula-3-lib
 
 DIST_SUBDIR=	virtualpaper-1.4
 MAN1=		LecternClient.1 Lectern.1 BuildLectern.1 EditLectern.1
