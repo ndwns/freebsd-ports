@@ -19,6 +19,10 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--disable-mail-author --disable-static
 USE_GMAKE= 	yes
 
+post-extract:
+	@${CP} ${FILESDIR}/ltconfig-1.2 ${WRKSRC}/ltconfig
+	@${CP} ${FILESDIR}/ltmain.sh-1.2 ${WRKSRC}/ltmain.sh
+
 pre-install:
 	@${ECHO_MSG} "Installing in ${PREFIX}/bin"
 
