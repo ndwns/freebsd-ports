@@ -8,7 +8,7 @@
 SUBDIR= archie cern_httpd cern_linemode chimera dgd fspclient gated \
 	imm irc \
 	ircII lynx ncftp2 nv pcnfsd pidentd pmf samba scotty sup tclDP \
-	tcp_wrapper tcpblast tkined tkWWW tintin++ wu-ftpd xarchie \
+	tcp_wrapper tcpblast tkined tkWWW tintin++ wu-ftpd wwwish xarchie \
 	yale-tftpd ytalk zircon
 
 # RESTRICTED: ivs (crypto)
