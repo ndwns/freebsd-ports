@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://cns-ftp.bu.edu/pub/xbattle/
 MAINTAINER=	giffunip@asme.org
 
 USE_IMAKE=	yes
+MAN1=		xbattle.1
 
 post-install:
 	$(MKDIR) $(PREFIX)/etc/xbattle
