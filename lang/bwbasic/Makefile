@@ -10,24 +10,23 @@ DISTNAME=	bwbasic-2.20
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.rahul.net/pub/rhn/
 DISTFILES=	bwbasic-2.20.tar.Z bwb-2.20-patch01.tar.Z.uu.txt
-EXTRACT_ONLY=	bwbasic-2.20.tar.Z
 
 MAINTAINER=	msmith@gsoft.com.au
 
-HAS_CONFIGURE=	yes
 GNU_CONFIGURE=	yes
+EXTRACT_ONLY=	bwbasic-2.20.tar.Z
 
 # The patches come in a totally bizarre format; we have to 
 # uudecode them, unpack the resulting tarfile, and then replace
 # some of the original files.
-#
-# This method pollutes the port directory temporarily. 
 
 pre-patch:
-	uudecode ${DISTDIR}/bwb-2.20-patch01.tar.Z.uu.txt
-	tar xzf bwb-2.20-patch01.tar.Z
+	${MKDIR} ${WRKSRC}/tmp
+	cd ${WRKSRC}/tmp; \
+	uudecode ${DISTDIR}/bwb-2.20-patch01.tar.Z.uu.txt; \
+	tar xzf bwb-2.20-patch01.tar.Z; \
 	mv bwb-2.20-patch01/* ${WRKSRC}
-	rm -rf bwb-2.20-patch01 bwb-2.20-patch01.tar.Z
+	${RM} -rf ${WRKSRC}/tmp
 
 # This puts the documentation in ${PREFIX}/share/bwbasic, and the 
 # test programs in ${PREFIX}/share/bwbasic/bwbtest.
