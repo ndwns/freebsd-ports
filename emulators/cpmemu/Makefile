@@ -14,4 +14,6 @@ MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/distributions/slackware/source/ext
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN=		fetch
+
 .include <bsd.port.mk>
