@@ -15,7 +15,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11-toolkits/tk42 \
 		sendfax:${PORTSDIR}/comms/hylafax \
-		gs:${PORTSDIR}/print/ghostscript4 \
+		gs:${PORTSDIR}/print/ghostscript5 \
 		gv:${PORTSDIR}/print/gv
 
 WRKSRC=		${WRKDIR}/tkhylafax-3.0
