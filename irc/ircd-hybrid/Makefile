@@ -8,7 +8,7 @@
 
 DISTNAME=	ircd-hybrid-5.3
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.vol.com/pub/ircd/
+MASTER_SITES=	ftp://ftp.blackened.com/pub/irc/hybrid/
 
 MAINTAINER=	desmo@bandwidth.org
 
