@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 MAINTAINER=	Nakai@technologist.com
 
 BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-LIB_DEPENDS=	gdk_Imlib.1:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	gdk_imlib.1:${PORTSDIR}/graphics/imlib
 LIB_DEPENDS+=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 LIB_DEPENDS+=	tiff34.1:${PORTSDIR}/graphics/tiff34
 LIB_DEPENDS+=	jpeg.9:${PORTSDIR}/graphics/jpeg
