@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       tin1.3-unoff-BETA-970911
-PKGNAME=        tin-1.3.970911
+DISTNAME=       tin1.3-unoff-BETA-970916
+PKGNAME=        tin-1.3.970916
 CATEGORIES=	news
 MASTER_SITES=   ftp://nuxi.ucdavis.edu/pub/tin/ \
 		ftp://ftp.akk.uni-karlsruhe.de/pub/tin/ \
