@@ -28,8 +28,7 @@ LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		mediatool\\.0\\.[6-9]:${PORTSDIR}/x11/kdelibs
 
 HAS_CONFIGURE=	yes
-#CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
-CONFIGURE_ARGS=	"--prefix=$(PREFIX)/kde" \
+CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--x-inc=$(X11BASE)/include -I$(PREFIX)/include -I$(PREFIX)/include/giflib" \
 		"--x-lib=$(X11BASE)/lib -L$(PREFIX)/lib"
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)"
