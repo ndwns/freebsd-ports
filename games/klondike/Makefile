@@ -6,18 +6,18 @@
 # $Id$
 #
 
-DISTNAME=       klondike-1.8
-CATEGORIES=     games tk41
+DISTNAME=       klondike-1.9
+CATEGORIES=     games tk42
 MASTER_SITES=   http://www.isi.edu/~johnh/SOFTWARE/JACOBY/
 
-MAINTAINER=     johnh@isi.edu
+MAINTAINER=     faber@isi.edu
 
-RUN_DEPENDS=    wish4.1:${PORTSDIR}/x11-toolkits/tk41
+RUN_DEPENDS=    wish4.2:${PORTSDIR}/x11-toolkits/tk42
 
 GNU_CONFIGURE=  Yes
 CONFIGURE_ARGS= --bindir=${PREFIX}/bin --datadir=${PREFIX}/share/games \
 		--mandir=${PREFIX}/man
-CONFIGURE_ENV=  WISHX=${PREFIX}/bin/wish4.1
+CONFIGURE_ENV=  WISHX=${PREFIX}/bin/wish4.2
 MAN6=           klondike.6
 
 .include <bsd.port.mk>
