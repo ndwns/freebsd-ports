@@ -10,7 +10,6 @@
     SUBDIR += blast
     SUBDIR += blt
     SUBDIR += bricons
-    SUBDIR += color_xterm
     SUBDIR += ctwm
     SUBDIR += dclock
     SUBDIR += emiclock
