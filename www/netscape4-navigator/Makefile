@@ -13,8 +13,6 @@ DISTFILES=      navigator-v404-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     asami@FreeBSD.ORG
 
-RESTRICTED=	"Commercial software"
-
 NO_WRKSUBDIR=   Yes
 NO_BUILD=       Yes
 

@@ -11,6 +11,7 @@ CATEGORIES=	www
 .if defined(GOLD)
 MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/3.04/shipping/english/unix/bsdi11/navigator_gold_complete/
 DIST_SUBDIR=    gold
+PKGNAME=	${DISTNAME}-gold
 .else
 MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/3.04/shipping/english/unix/bsdi11/navigator_complete/
 .endif
@@ -18,7 +19,6 @@ DISTFILES=      netscape-v304-export.x86-unknown-bsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
-RESTRICTED=	"Commercial software"
 NO_WRKSUBDIR=	yes
 
 pre-fetch:
