@@ -19,6 +19,8 @@ MASTER_SITES=	ftp://ftp.optera.com/pub/xgs/ \
 		ftp://ftp.apple.asimov.net/pub/apple_II/emulators/rom_images/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} xgs.rom
 
+BROKEN='fetch'
+
 MAINTAINER=	sutton@aardvark.apana.org.au
 
 DIST_SUBDIR=	xgs

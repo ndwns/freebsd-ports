@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.ucpel.tche.br/pub/msdos/emulator/atari/
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
+BROKEN="fetch"
+
 MANUAL_PACKAGE_BUILD=	installs bin/elk
 
 DIST_SUBDIR=	atari

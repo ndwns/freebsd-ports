@@ -14,6 +14,8 @@ DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} tos.img
 
 MAINTAINER=     tr@freebsd.mayn.de
 
+BROKEN="fetch"
+
 RESTRICTED=     "tos.img is Copyrighted"
 NO_PACKAGE=	${RESTRICTED}
 
