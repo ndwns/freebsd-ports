@@ -22,4 +22,8 @@ post-install:
 	cp ${WRKSRC}/docs/xvdocs.ps ${PREFIX}/share/doc/xv
 .endif
 
+pre-clean:
+	@(cd ${PORTSDIR}/graphics/jpeg ; ${MAKE} clean)
+	@(cd ${PORTSDIR}/graphics/tiff ; ${MAKE} clean)
+
 .include <bsd.port.mk>
