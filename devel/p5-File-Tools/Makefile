@@ -14,8 +14,8 @@ MASTER_SITE_SUBDIR=	File
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN3=		File::Tools.3 File::Recurse.3 File::Copy.3
 MANPREFIX=	${PREFIX}/lib/perl5

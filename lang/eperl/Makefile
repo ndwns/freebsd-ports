@@ -24,12 +24,12 @@ MAINTAINER=	rse@engelschall.com
 INSTALL_ALSO_AS_SSSL=	yes
 #ENABLE_UID_SWITCHING=	yes
 
-BUILD_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 .if defined(INSTALL_ALSO_AS_SSSL)
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5 \
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5 \
 		${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
 .else
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 .endif
 
 GNU_CONFIGURE=	yes

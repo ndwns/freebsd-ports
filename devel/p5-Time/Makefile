@@ -14,8 +14,8 @@ MASTER_SITE_SUBDIR=	Time
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN3=		Time::CTime.3 Time::JulianDay.3 Time::ParseDate.3 \
 		Time::Timezone.3 Time::DaysInMonth.3

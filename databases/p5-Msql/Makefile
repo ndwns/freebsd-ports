@@ -27,8 +27,8 @@ BUILD_DEPENDS=	${PREFIX}/Minerva/lib/libmsql.a:${PORTSDIR}/databases/msql/
 
 CONFIGURE_ENV+=	PREFIX=${PREFIX}
 
-BUILD_DEPENDS+=	perl5.003:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS+=	perl5.004:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN1=		pmsql.1
 MAN3=		Msql.3

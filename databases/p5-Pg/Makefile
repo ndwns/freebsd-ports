@@ -16,9 +16,9 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/pg95perl5
 
-BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
 		${PREFIX}/pgsql/lib/libpq.a:${PORTSDIR}/databases/postgresql
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN3=		Pg.3
 MANPREFIX=	${PREFIX}/lib/perl5

@@ -16,8 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/ExtUtils/Embed.pm:${PORTSDIR}/devel/p5-ExtUtils-Embed \
 		${PREFIX}/lib/perl5/site_perl/CGI.pm:${PORTSDIR}/www/p5-CGI.pm \
-		perl5.003:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+		perl5.004:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 CONFIGURE_ENV+=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
 

@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	perl5.003
+DISTNAME=	perl5.004
 PKGNAME=	jp-perl-5.003
 CATEGORIES=	japanese perl5
 MASTER_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0/ \
@@ -21,7 +21,7 @@ MASTER_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0/ \
 		ftp://ftp.delphi.com/pub/mirrors/packages/perl/CPAN/src/5.0/ \
 		ftp://uiarchive.cso.uiuc.edu/pub/lang/perl/CPAN/src/5.0/
 
-PATCHFILES=	jperl5.003.patch7_1.gz
+PATCHFILES=	jperl5.004.patch7_1.gz
 PATCH_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/authors/id/WATANABE/ \
 		ftp://ftp.is.co.za/pub/perl/CPAN/authors/id/WATANABE/ \
 		ftp://dong.math.ncu.edu.tw/perl/CPAN/authors/id/WATANABE/ \

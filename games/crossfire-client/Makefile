@@ -22,7 +22,7 @@ MAINTAINER=	andreas@klemm.gtn.com
 
 BUILD_DEPENDS=	rplay:${PORTSDIR}/audio/rplay
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 EXTRACT_ONLY=	${CF_SOURCES} ${CF_DOC}
 USE_IMAKE=	yes

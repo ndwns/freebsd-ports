@@ -23,7 +23,6 @@
     SUBDIR += netscape4
     SUBDIR += p5-Apache
     SUBDIR += p5-CGI
-    SUBDIR += p5-CGI.pm
     SUBDIR += p5-CGI_Lite
     SUBDIR += p5-HTML
     SUBDIR += p5-HTML-QuickCheck

@@ -14,10 +14,10 @@ MASTER_SITE_SUBDIR=	URI
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
+BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
 		${PREFIX}/lib/perl5/site_perl/MD5.pm:${PORTSDIR}/security/p5-MD5 \
 		${PREFIX}/lib/perl5/site_perl/Net/FTP.pm:${PORTSDIR}/net/p5-Net
-RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
 
 MAN1=		lwp-mirror.1 lwp-request.1 lwp-rget.1 lwp-download.1
 MAN3=		File::CounterFile.3 File::Listing.3 Font::AFM.3 \

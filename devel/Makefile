@@ -36,7 +36,6 @@
     SUBDIR += p5-Data-Dumper
     SUBDIR += p5-Data-Flow
     SUBDIR += p5-Date-Manip
-    SUBDIR += p5-ExtUtils-Embed
     SUBDIR += p5-File-BasicFlock
     SUBDIR += p5-File-Lock
     SUBDIR += p5-File-Slurp

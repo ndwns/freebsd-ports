@@ -14,9 +14,9 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
-BUILD_DEPENDS=  perl5.003:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS=  perl5.004:${PORTSDIR}/lang/perl5
 LIB_DEPENDS=    pgplot\\.5\\.:${PORTSDIR}/graphics/pgplot
-RUN_DEPENDS=    perl5.003:${PORTSDIR}/lang/perl5
+RUN_DEPENDS=    perl5.004:${PORTSDIR}/lang/perl5
 
 WRKSRC=		${WRKDIR}/PGPLOT
 ALL_TARGET=	dynamic
