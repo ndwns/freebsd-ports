@@ -371,8 +371,8 @@ GNU_CONFIGURE=	yes
 BUILD_DEPENDS+=		autoconf:${PORTSDIR}/devel/autoconf
 .endif
 .if defined(USE_PERL5)
-BUILD_DEPENDS+=		perl5.00404:${PORTSDIR}/lang/perl5
-RUN_DEPENDS+=		perl5.00404:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS+=		perl5.00501:${PORTSDIR}/lang/perl5
+RUN_DEPENDS+=		perl5.00501:${PORTSDIR}/lang/perl5
 .endif
 .if defined(USE_X11)
 LIB_DEPENDS+=	X11\\.6:${PORTSDIR}/x11/XFree86
