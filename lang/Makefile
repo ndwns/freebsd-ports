@@ -64,6 +64,7 @@
     SUBDIR += pbasic
     SUBDIR += perl5
     SUBDIR += pgcc
+    SUBDIR += pike
     SUBDIR += ptoc
     SUBDIR += python
     SUBDIR += python-beta
