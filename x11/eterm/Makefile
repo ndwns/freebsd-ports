@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://cthulhu.mandrake.net/pub/Eterm/
 
 MAINTAINER=	murray@cdrom.com
 
-LIB_DEPENDS=	Im\\.3\\.:${PORTSDIR}/graphics/imlib
+LIB_DEPENDS=	Im\\.4\\.:${PORTSDIR}/graphics/imlib
 
 BROKEN=		R_OK undefined
 WRKSRC=		$(WRKDIR)/Eterm-DR-0.6a
