@@ -13,8 +13,6 @@ MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/alpha/
 
 MAINTAINER=	jmz@FreeBSD.org
 
-RUN_DEPENDS=	mkisofs:${PORTSDIR}/sysutils/mkisofs
-
 MAN1=		cdrecord.1
 USE_GMAKE=	yes
 WRKSRC=		${WRKDIR}/cdrecord-1.6.1
