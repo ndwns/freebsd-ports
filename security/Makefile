@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SSLeay
+    SUBDIR += cfs
     SUBDIR += cops
     SUBDIR += crack
     SUBDIR += donkey
