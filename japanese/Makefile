@@ -132,6 +132,7 @@
     SUBDIR += sjxa
     SUBDIR += skk
     SUBDIR += skkinput
+    SUBDIR += slrn
     SUBDIR += tcl76
     SUBDIR += tcl80
     SUBDIR += tcsh
