@@ -40,6 +40,9 @@ post-install:
 		${ECHO} "	;;" >> ${STARTUP_SCRIPT}; \
 		${ECHO} "*)" >> ${STARTUP_SCRIPT}; \
 		${ECHO} '	echo "usage: $$0 {start|stop}" 1>&2' >> ${STARTUP_SCRIPT}; \
+		${ECHO} "	;;" >> ${STARTUP_SCRIPT}; \
+		${ECHO} 'esac' >> ${STARTUP_SCRIPT}; \
+		chmod ${BINMODE} ${STARTUP_SCRIPT}; \
 	fi
 
 .include <bsd.port.mk>
