@@ -13,6 +13,7 @@ MASTER_SITES=		${MASTER_SITE_GNU} \
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+MANUAL_PACKAGE_BUILD=	conflicts with system ncurses
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=	--datadir=${PREFIX}/share/misc --disable-overwrite \
 		--disable-termcap --includedir=${PREFIX}/include/ncurses \
