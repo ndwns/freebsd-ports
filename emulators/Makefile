@@ -16,6 +16,7 @@
     SUBDIR += pcemu
     SUBDIR += prodosemu
     SUBDIR += sim6811
+    SUBDIR += snes9x
     SUBDIR += spim
     SUBDIR += stella
     SUBDIR += stonx
