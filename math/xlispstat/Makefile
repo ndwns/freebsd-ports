@@ -15,6 +15,6 @@ MAINTAINER=	erich@FreeBSD.org
 
 HAS_CONFIGURE=	yes
 # needs to connect to X server while build
-IS_INTERACTIVE=	yes
+#IS_INTERACTIVE=	yes
 
 .include <bsd.port.mk>
