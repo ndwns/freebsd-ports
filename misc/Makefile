@@ -66,6 +66,7 @@
     SUBDIR += p5-Locale-Codes
     SUBDIR += peq
     SUBDIR += pdmenu
+    SUBDIR += pinfo
     SUBDIR += qclock
     SUBDIR += quotes
     SUBDIR += rc5des
