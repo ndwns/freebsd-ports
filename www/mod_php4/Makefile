@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.apache.org/dist/ \
 		http://www.rge.com/pub/infosystems/apache/dist/ \
 		http://www.apache.de/dist/ \
 		http://www.php.net/distributions/ \
-		ftp://www.php.net/pub/distributions/ \
+		http://us.php.net/distributions/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://apache.compuex.com/pub/apache/dist/ \
 		http://php.he.net/distributions/ \
