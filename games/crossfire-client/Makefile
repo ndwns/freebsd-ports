@@ -36,7 +36,7 @@ WANT_CF_ARCH=	NO
 
 MAJ=		0
 MIN=		94
-PL=		1
+PL=		3
 CF_SOURCES=	crossfire-${MAJ}.${MIN}.${PL}.tar.gz
 CF_MAPS=	crossfire-${MAJ}.${MIN}.${PL}.maps.tar.gz
 # crossfire doc ready for use
