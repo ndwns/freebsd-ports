@@ -1,12 +1,12 @@
 # New ports collection makefile for:	cutils
-# Version required:		1.3.1
+# Version required:		1.3.2
 # Date created:			26 November 1996
 # Whom:				Sandro Sigala
 #
 # $Id$
 #
 
-DISTNAME=	cutils-1.3.1
+DISTNAME=	cutils-1.3.2
 CATEGORIES=	devel
 MASTER_SITES=	ftp://freefall.FreeBSD.ORG/pub/FreeBSD/LOCAL_PORTS/
 
