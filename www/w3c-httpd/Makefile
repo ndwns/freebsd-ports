@@ -8,7 +8,7 @@
 
 DISTNAME=	WWW
 PKGNAME=	cern_httpd-3.0
-CATEGORIES+=	networking
+CATEGORIES+=	www
 MASTER_SITES=	ftp://www0.cern.ch/pub/www/src/
 DISTFILES=	WWWDaemon_3.0.tar.Z WWWLibrary_2.17.tar.Z
 

@@ -8,7 +8,7 @@
 
 DISTNAME=       lynx2-4-2
 PKGNAME=        lynx-2.4.2
-CATEGORIES+=	networking
+CATEGORIES+=	www
 MASTER_SITES=   ftp://ukanaix.cc.ukans.edu/pub/lynx/lynx2-4-2/
 EXTRACT_SUFX=   .tar.Z
 

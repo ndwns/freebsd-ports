@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	Mosaic-src-2.6
-CATEGORIES=	networking
+CATEGORIES=	www
 
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 

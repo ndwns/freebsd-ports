@@ -8,7 +8,7 @@
 
 DISTNAME=	apache_0.8.14
 PKGNAME=	apache-0.8.14
-CATEGORIES+=	networking
+CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.ast.cam.ac.uk/pub/WWW/apache/
 
 MAINTAINER=	pst@freebsd.org

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       gn-2.23
-CATEGORIES+=	networking
+CATEGORIES+=	www net
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 
 WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.3

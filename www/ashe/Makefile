@@ -9,7 +9,7 @@
 #
 
 DISTNAME=	ashe-1.1.2
-CATEGORIES+=	editors
+CATEGORIES+=	www
 MASTER_SITES=	ftp://ftp.cs.rpi.edu/pub/puninj/ASHE/ASHE-1.1.2/src/ \
 		ftp://ftp.cs.rpi.edu/pub/puninj/ASHE/ASHE-1.1.2/libcci/ \
 		ftp://ftp.cs.rpi.edu/pub/puninj/ASHE/ASHE-1.1.2/libhtmlw/
