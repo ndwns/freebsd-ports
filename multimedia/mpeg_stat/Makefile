@@ -10,8 +10,9 @@ DISTNAME=	mpeg_stat-2.2b-src
 PKGNAME=	mpeg_stat-2.2b
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://s2k-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/stat/
-WRKSRC=		${WRKDIR}/mpeg_stat
 
 MAINTAINER=	erich@FreeBSD.org
+
+WRKSRC=		${WRKDIR}/mpeg_stat
 
 .include <bsd.port.mk>
