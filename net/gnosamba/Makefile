@@ -12,10 +12,12 @@ MASTER_SITES=	http://www.open-systems.com/gtksamba/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	gnomeui.1:${PORTSDIR}/x11/gnomelibs
+LIB_DEPENDS=	gnomeui.2:${PORTSDIR}/x11/gnomelibs
+
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config"
+CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 .include <bsd.port.mk>
