@@ -27,6 +27,7 @@
     SUBDIR += vmsbackup
     SUBDIR += wine
     SUBDIR += x48
+    SUBDIR += xcopilot
     SUBDIR += xgs
     SUBDIR += xzx
 
