@@ -10,7 +10,7 @@ DISTNAME=       gn-2.13
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 INETD_CONF=	/etc/inetd.conf
 CONF=	'	stream	tcp	nowait	nobody	/usr/local/etc/gn	gn'
-DEPENDS=	net/wais
+DEPENDS=	${PORTSDIR}/net/wais
 
 pre-build:
 	@ln -s ../../../../wais/work/freeWAIS-0.3/ir work/${DISTNAME}/waisgn
