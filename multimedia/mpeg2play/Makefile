@@ -8,16 +8,20 @@
 
 DISTNAME=	mpeg2play-1.1b
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.netcom.com/pub/cf/cfogg/mpeg2/
-DISTFILES=	mpeg2play_v1.1b.tar.gz
+MASTER_SITES=	ftp://ftp.funet.fi/pub/graphics/packages/mpeg/mpeg2play/
+DISTFILES=	mpeg2play-1.1b.tar.gz
 
 MAINTAINER=	charnier@lirmm.fr
 
 USE_X11=	yes
-WRKSRC=		${WRKDIR}/mpeg2play
+USE_IMAKE=	yes
+REQUIRES_MOTIF=	yes
+ALL_TARGET=	mpeg2play
 
 do-install:
 	${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 		${WRKSRC}/mpeg2play ${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/Mpeg2play ${PREFIX}/lib/X11/app-defaults
+
 
 .include <bsd.port.mk>
