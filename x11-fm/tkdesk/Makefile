@@ -16,12 +16,10 @@ LIB_DEPENDS=	tk42.1:${PORTSDIR}/x11-toolkits/tk42
 
 USE_GMAKE=	YES
 GNU_CONFIGURE=	YES
+CONFIGURE_ENV+=	TCLCONF_PATH=${LOCALBASE}/lib/tcl7.6
+CONFIGURE_ENV+=	TKCONF_PATH=${LOCALBASE}/lib/tk4.2
 
 MAN1=		tkdesk.1 cd-tkdesk.1 ed-tkdesk.1 od-tkdesk.1
-
-.ifndef DISPLAY
-BROKEN=		Requires an X Display to install
-.endif
 
 post-install:
 	strip ${PREFIX}/bin/tkdesksh
