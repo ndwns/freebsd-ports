@@ -3,6 +3,7 @@
 
     SUBDIR += FWF
     SUBDIR += XFree86
+    SUBDIR += XFree86-contrib
     SUBDIR += Xaw3d
     SUBDIR += afterstep
     SUBDIR += auis
