@@ -18,8 +18,6 @@ BUILD_DEPENDS=	${JFMDIR}/goth10.tfm:${PORTSDIR}/japanese/ptex-${JACODE} \
 		${GOTTFMDIR}/dgjgreek10.tfm:${PORTSDIR}/japanese/jtex209-${JTEX} \
 		${PKDIR}/dmjsy10.${RESOLUTION}pk:${PORTSDIR}/japanese/pkfonts
 
-BROKEN=		build
-
 ALL_TARGET=	n2a a2n a2bk p2pn tjsy tjsypk rot
 SCRIPTS_ENV=	SED=${SED} \
 		PKDIR=${PKDIR} WRKSRC=${WRKSRC} \
