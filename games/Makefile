@@ -76,6 +76,7 @@
     SUBDIR += xgalaga
     SUBDIR += xgammon
     SUBDIR += xgolgo
+    SUBDIR += xinfocom
     SUBDIR += xinvaders
     SUBDIR += xjewel
     SUBDIR += xjig
