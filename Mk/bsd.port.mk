@@ -313,8 +313,8 @@ MASTER_SITE_OVERRIDE=  ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/
 MASTER_SITES+=	ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/
 PATCH_SITES+=	ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/${PATCH_PRFX}
 .else
-MASTER_SITES=	${MASTER_SITE_OVERRIDE}
-PATCH_SITES=	${MASTER_SITE_OVERRIDE}${PATCH_PRFX}
+MASTER_SITES:=	${MASTER_SITE_OVERRIDE} ${MASTER_SITES}
+PATCH_SITES:=	${MASTER_SITE_OVERRIDE}${PATCH_PRFX} ${PATCH_SITES}
 .endif
 
 .if defined(PATCH_PRFX)
