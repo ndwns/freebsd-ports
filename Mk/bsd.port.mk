@@ -259,6 +259,8 @@ pre-configure:
 	@${DO_NADA}
 configure:
 	@${DO_NADA}
+package:
+	@${DO_NADA}
 .endif
 
 .if !target(all)
