@@ -14,7 +14,7 @@ MASTER_SITES=   ftp://ftp.vr.net/pub/wu-ftpd/wu-ftpd/
 
 MAINTAINER=     ache@FreeBSD.org
 
-Y2K=		http://www.cetis.hvu.nl/~koos/wu-ftpd-faq.html#QA31
+Y2K=		http://www.cetis.hvu.nl/~koos/wu-ftpd-faq.html#QA35
 
 MAN1=		ftpcount.1 ftpwho.1
 MAN5=		ftpaccess.5 ftphosts.5 ftpconversions.5 xferlog.5
