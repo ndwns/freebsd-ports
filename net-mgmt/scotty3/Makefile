@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	scotty-2.1.3
+DISTNAME=	scotty-2.1.5
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
-MAINTAINER=	gena@netvision.net.il
+MAINTAINER=	phk@freebsd.org
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
