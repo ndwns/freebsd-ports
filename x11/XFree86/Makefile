@@ -21,7 +21,7 @@ PATCH_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.2/fixes/ \
 		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.3.2/fixes/ \
 		ftp://ftp.uni-stuttgart.de/pub/X11/Xfree86/3.3.2/fixes/ \
 		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.3.2/fixes/
-PATCHFILES=	3.3.2-patch1
+PATCHFILES=	3.3.2-patch1 3.3.2-patch2
 
 MAINTAINER=	jmz@FreeBSD.ORG
 
