@@ -18,6 +18,8 @@ ALL_TARGET=	enough
 MAN1=		scsh.1
 STRIP=
 
+BROKEN_ELF=	build
+
 post-install:
 	@strip ${PREFIX}/bin/scsh
 	(cd ${WRKSRC} ; \
