@@ -11,7 +11,7 @@ CATEGORIES=	sysutils x11
 MASTER_SITES=	ftp://ftp.arl.mil/pub/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes

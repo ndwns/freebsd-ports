@@ -15,7 +15,7 @@ PATCH_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/www/chimera/old/
 PATCHFILES=	chimera-1.65-kanji.patch
 PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 

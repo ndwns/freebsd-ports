@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://omrongw.wg.omron.co.jp/pub/net/mail/
 CATEGORIES=	japanese mail
 DISTFILES=	mh-6.8.3-JP.2c.tar.gz
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 RUN_DEPENDS=	jless:${PORTSDIR}/japanese/less
 

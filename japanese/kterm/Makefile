@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	applications
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/x11/kterm/
 PATCHFILES=	kterm-6.2.0.NFS-xauth.patch
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 

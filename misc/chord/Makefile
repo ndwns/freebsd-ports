@@ -11,6 +11,6 @@ PKGNAME=	chord-3.6
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 .include <bsd.port.mk>

@@ -11,7 +11,7 @@ PKGNAME=	ja-gxditview-0.98
 CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 PATCH_SITES=	ftp://ftp.iij.ad.jp/pub/NetNews/fj.sources/volume95/Apr/
 PATCHFILES=	jgroff-0.98.diff.gz

@@ -12,7 +12,7 @@ CATEGORIES=	math print
 MASTER_SITES=	ftp://ftp.iis.u-tokyo.ac.jp/pub/X/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.cdrom.com/pub/X11/R5contrib/	\
 MASTER_SITE_SUBDIR=	../../R5contrib
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=      yes
 

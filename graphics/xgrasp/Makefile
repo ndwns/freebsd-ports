@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://qiclab.scn.rain.com/pub/X11/	\
 		ftp://ftp.cs.ubc.ca/mirror1/x-contrib.R5/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes

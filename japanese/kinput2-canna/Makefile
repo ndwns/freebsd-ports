@@ -11,7 +11,7 @@ PKGNAME=	ja-ckinput2-2.0.1
 CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/x11/kinput2/
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	canna16\\.1\\.:${PORTSDIR}/japanese/Canna
 
