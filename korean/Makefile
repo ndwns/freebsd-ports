@@ -4,6 +4,7 @@
     SUBDIR += Wnn
     SUBDIR += afterstep
     SUBDIR += elm
+    SUBDIR += engdic
     SUBDIR += ftghostscript5
     SUBDIR += fvwm95
     SUBDIR += gau
