@@ -41,7 +41,7 @@ do-install:
 		for file in ${WRKSRC}/images/*.gif; do \
 			${INSTALL_DATA} $$file ${PREFIX}/share/mrtg/; \
 		done
-		for file in SNMP_Session.pm SNMP_util.pm BER.pm; do \
+		for file in SNMP_Session.pm SNMP_util.pm BER.pm locales_mrtg.pm; do \
 			${INSTALL_DATA} ${WRKSRC}/run/$$file ${PREFIX}/lib/perl5/site_perl/${PERL_VER}; \
 		done
 		${INSTALL_PROGRAM} ${WRKSRC}/run/rateup ${PREFIX}/bin/
