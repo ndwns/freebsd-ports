@@ -19,6 +19,8 @@ DISTFILES=	big5con-0.92d.tgz b5cbin-pa.tgz
 
 MAINTAINER=	woju@freebsd.ee.ntu.edu.tw
 
+ONLY_FOR_ARCHS=	i386
+
 EXTRACT_ONLY=	${DISTNAME}.tgz
 
 # With the help from pa@freebsd.ee.ntu.edu.tw

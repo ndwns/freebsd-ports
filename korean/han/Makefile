@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/FreeBSD-kr/source/han/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
+ONLY_FOR_ARCHS=	i386
+
 USE_GMAKE=	yes
 
 post-configure:

@@ -19,6 +19,8 @@ DISTFILES=	kon2-0.3.tar.gz \
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
+ONLY_FOR_ARCHS=	i386
+
 MAN1=		kon.1
 MANLANG=	ja
 EXTRACT_ONLY=	kon2-0.3.tar.gz
