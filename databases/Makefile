@@ -1,6 +1,7 @@
 # $Id$
 #
 
-SUBDIR= msql
+    SUBDIR += msql
+    SUBDIR += exodus
 
 .include <bsd.port.subdir.mk>
