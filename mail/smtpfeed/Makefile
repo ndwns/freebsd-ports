@@ -22,7 +22,7 @@ NO_PACKAGE=	"complex configuration for sendmail.cf needed"
 
 SENDMAIL=	sendmail.8.8.8
 SENDMAILDIR=	sendmail-8.8.8
-SENDMAILPATCH=	sendmail888+3.0Wb11
+SENDMAILPATCH=	sendmail888+3.0Wb13
 WRKSRC_SMTPFEED=	${WRKSRC}
 WRKSRC_SENDMAIL=	${WRKDIR}/${SENDMAILDIR}/src
 
