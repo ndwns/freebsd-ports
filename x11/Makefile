@@ -1,8 +1,8 @@
 # $Id$
 #
 SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
-	jpeg kterm mpeg-lib mpeg_play olvwm \
-	pcb piewm rxvt tiff tk tkhfs tvtwm xanim xarchie \
+	jpeg kterm magic mpeg-lib mpeg_play olvwm \
+	pcb piewm rxvt tiff tk tkhfs tvtwm xanim xarchie xcd \
 	xcdplayer xdvi xearth xfed xfig xgraph xli xlockmore xpm xsnow \
 	xtexshell xv \
 	xview-config xview-lib xview-clients
