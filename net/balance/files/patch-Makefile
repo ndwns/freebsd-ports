@@ -1,5 +1,5 @@
---- Makefile.orig	Tue Oct  2 09:53:26 2001
-+++ Makefile	Tue Oct  2 09:53:52 2001
+--- Makefile.orig	Mon Jan 27 09:26:14 2003
++++ Makefile	Mon Jan 27 09:26:21 2003
 @@ -1,12 +1,12 @@
  # $Id$
  
@@ -12,6 +12,6 @@
  
 -CC=gcc
 +#CC=gcc
- RELEASE=2.33
+ RELEASE=3.6
  
- balance:	balance.c
+ balance:	balance.c butils.o balance.h
