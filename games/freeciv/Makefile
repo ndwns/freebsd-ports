@@ -1,25 +1,19 @@
 # New ports collection makefile for:	freeciv
-# Version required:	1.7.1
+# Version required:	1.7.2
 # Date created:		Jun 20 1997
 # Whom:			ada@bsd.org
 #
 # $Id$
 #
 
-DISTNAME=	freeciv-1.7.1
+DISTNAME=	freeciv-1.7.2
 CATEGORIES=	games
-MASTER_SITES=	ftp://www.freeciv.org/pub/freeciv/
+MASTER_SITES=	ftp://ftp.freeciv.org/pub/freeciv/
 
 MAINTAINER=	ada@bsd.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
-USE_IMAKE=      	yes
-NO_INSTALL_MANPAGES=	yes
-
-post-install:
-	${MKDIR} ${PREFIX}/share/freeciv
-	${INSTALL_DATA} $(WRKSRC)/data/helpdata.txt $(WRKSRC)/data/Freeciv \
-		$(WRKSRC)/data/*.xpm ${PREFIX}/share/freeciv
+HAS_CONFIGURE=	yes
 
 .include <bsd.port.mk>
