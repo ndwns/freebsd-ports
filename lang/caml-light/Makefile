@@ -17,6 +17,8 @@ MASTER_SITES=	ftp://ftp.inria.fr/lang/caml-light/ \
 
 MAINTAINER=	jkoshy@freebsd.org
 
+BROKEN_ELF=	cp: bignum/libbignum.a: No such file or directory
+
 WRKSRC=		${WRKDIR}/cl74
 ALL_TARGET=	configure world bootstrap
 MAN1=	camlc.1 camllex.1 camllibr.1 camllight.1 camlmktop.1 camlrun.1 camlyacc.1 mletags.1 camllorder.1 camlsearch.1
