@@ -22,6 +22,7 @@
     SUBDIR += empire
     SUBDIR += flying
     SUBDIR += freeciv
+    SUBDIR += frotz
     SUBDIR += galaxis
     SUBDIR += gemdropx
     SUBDIR += gnuchess
