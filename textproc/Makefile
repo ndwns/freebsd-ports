@@ -33,5 +33,6 @@
     SUBDIR += urlview
     SUBDIR += wdiff
     SUBDIR += word2x
+    SUBDIR += yodl
 
 .include <bsd.port.subdir.mk>
