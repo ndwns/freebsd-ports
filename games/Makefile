@@ -59,6 +59,7 @@
     SUBDIR += quakeserver
     SUBDIR += seabattle
     SUBDIR += sokoban
+    SUBDIR += spellcast
     SUBDIR += spider
     SUBDIR += starlanes
     SUBDIR += tank
