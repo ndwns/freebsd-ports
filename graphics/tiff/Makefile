@@ -67,6 +67,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/html/*.html ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/html/images/* ${DOCDIR}/images
 .endif
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
