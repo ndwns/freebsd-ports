@@ -3,6 +3,8 @@
 
     SUBDIR += CJK
     SUBDIR += Wnn
+    SUBDIR += acroread-chsfont
+    SUBDIR += acroread-chtfont
     SUBDIR += aterm
     SUBDIR += bg5ps
     SUBDIR += big5con
