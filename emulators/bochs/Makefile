@@ -14,7 +14,7 @@ DISTNAME=	bochs-${DATE}b
 CATEGORIES= 	emulators
 MASTER_SITES= 	ftp://ftp.bochs.com/pub/
 
-MAINTAINER=	alex@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 USE_XLIB=	yes
 GNU_CONFIGURE=	YES
