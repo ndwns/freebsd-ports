@@ -23,6 +23,7 @@
     SUBDIR += texinfo
     SUBDIR += tr2latex
     SUBDIR += transfig
+    SUBDIR += unroff
     SUBDIR += xdvi
     SUBDIR += xtexshell
 
