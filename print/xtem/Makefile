@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.iwd.uni-bremen.de/pub/tex/xtem/
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+BROKEN_ELF=	patch
+
 RUN_DEPENDS=	wishx:${PORTSDIR}/lang/tclX80
 .if defined(BUILD_IT_ALL)
 RUN_DEPENDS+=	gv:${PORTSDIR}/print/gv \
