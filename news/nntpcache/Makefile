@@ -6,18 +6,21 @@
 # $Id$
 #
 
-DISTNAME=	nntpcache-1.0.7.1
+DISTNAME=	nntpcache-2.2b4
 CATEGORIES=	news
 MASTER_SITES=	ftp://nntpcache.org/pub/nntpcache/ \
 		ftp://ftp.ntnu.no/pub/unix/news/ \
 		ftp://ftp.nethelp.no/pub/unix/news/ \
 		ftp://suburbia.net/pub/nntpcache/
 
+BUILD_DEPENDS=	pgp:${PORTSDIR}/security/pgp
 MAINTAINER=	nntpcache@nntpcache.org
 
 GNU_CONFIGURE=	TRUE
 CONFIGURE_ARGS=	--localstatedir=/var/spool
-MAN8=		nntpcache.8
+MAN8=		nntpcached.8
+
+USE_GMAKE=	TRUE
 
 post-configure:
 	@sed -e "s:%%PREFIX%%:${PREFIX}:g"  \
@@ -25,6 +28,5 @@ post-configure:
 
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/nntpcached.sh ${PREFIX}/etc/rc.d
-	@-${RM} ${PREFIX}/etc/nntpcache/*.bak
 
 .include <bsd.port.mk>
