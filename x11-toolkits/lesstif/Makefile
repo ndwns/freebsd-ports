@@ -6,8 +6,6 @@
 # $Id$
 #
 
-PREFIX=/local/lesstif
-
 DISTNAME=	lesstif-0.76
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.hungry.com/pub/hungry/lesstif/
@@ -45,7 +43,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/clients/mwm/alt.map ${PREFIX}/lib/X11/mwm
 	${INSTALL_DATA} ${WRKSRC}/clients/mwm/Mwm \
 		${PREFIX}/lib/X11/app-defaults/Mwm
-	/usr/bin/strip ${PREFIX}/lib/libXm.so.0.76 ${PREFIX}/lib/libMrm.so.0.76
+	/usr/bin/strip ${PREFIX}/lib/libXm.so.0.0 ${PREFIX}/lib/libMrm.so.0.0
 	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
