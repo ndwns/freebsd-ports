@@ -4,6 +4,7 @@
     SUBDIR += abacus
     SUBDIR += cal
     SUBDIR += cbb
+    SUBDIR += genius
     SUBDIR += gnomepim
     SUBDIR += gnucash
     SUBDIR += gtimer
