@@ -3,6 +3,7 @@
 
     SUBDIR += elm
     SUBDIR += exim
+    SUBDIR += majordomo
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
