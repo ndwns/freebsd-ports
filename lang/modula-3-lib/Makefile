@@ -117,7 +117,7 @@ do-install:
 	@cd ${temp_prefix}; \
 	    umask 022; \
 	    grep '^lib/m3/' ${PKGDIR}/PLIST | \
-		${CP} -dump -R ${BINOWN}.${BINGRP} ${PREFIX}
+		cpio -dump -R ${BINOWN}.${BINGRP} ${PREFIX}
 	@cd ${PREFIX}; \
 	    grep '^lib/m3/' ${PKGDIR}/PLIST | xargs chmod go=u-w; \
 	    find -X lib/m3 -type d | xargs chown ${BINOWN}.${BINGRP}; \
