@@ -18,6 +18,7 @@ MAINTAINER=	vanilla@MinJe.com.TW
 
 LIB_DEPENDS=	Im\\.4\\.:${PORTSDIR}/graphics/imlib
 
+BROKEN=		checksum and patch
 USE_GMAKE=	yes
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
