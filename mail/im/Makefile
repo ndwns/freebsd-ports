@@ -18,7 +18,7 @@ USE_PERL5=	yes
 
 GNU_CONFIGURE=	yes
 
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		imali.1 imget.1 imsetup.1 imstore.1
 
 PORTDOCDIR=	${PREFIX}/share/doc/im
@@ -36,7 +36,7 @@ post-install:
 .endif
 .for f in ${MANFILES}
 	@${INSTALL_MAN} ${WRKSRC}/man/${f} \
-		${PREFIX}/man/ja_JP.EUC/man1/`${BASENAME} ${f} .jis`.1
+		${PREFIX}/man/ja/man1/`${BASENAME} ${f} .jis`.1
 .endfor
 
 .include <bsd.port.mk>
