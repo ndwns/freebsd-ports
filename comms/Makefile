@@ -5,6 +5,7 @@
     SUBDIR += ecu
     SUBDIR += hylafax
     SUBDIR += kermit
+    SUBDIR += lrzsz
     SUBDIR += mgetty+sendfax
     SUBDIR += minicom
     SUBDIR += rzsz
