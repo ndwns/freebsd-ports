@@ -16,6 +16,8 @@ DISTFILES=	sim-2.4.5.tar.gz 2.4.5.tar.gz
 PATCH_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
 PATCHFILES=	sim-diffs
 
+MAINTAINER=	adam@veda.is
+
 RUN_DEPENDS=	${PREFIX}/dgd/bin/driver:${PORTSDIR}/net/dgd
 
 NO_WRKSUBDIR=
