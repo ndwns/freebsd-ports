@@ -59,6 +59,7 @@
     SUBDIR += xinvest
     SUBDIR += xless
     SUBDIR += xmaddressbook
+    SUBDIR += xmdiary
     SUBDIR += xopps
     SUBDIR += xpns
     SUBDIR += xtar
