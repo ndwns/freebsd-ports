@@ -18,7 +18,7 @@ MAINTAINER=     obrien@FreeBSD.org
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} <= 300000
-BROKEN=	'/usr/include/prot.h parse error'         
+BROKEN=	'/usr/include/prot.h parse error'
 .endif
 
 GNU_CONFIGURE=	yes
