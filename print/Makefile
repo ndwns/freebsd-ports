@@ -25,6 +25,7 @@
     SUBDIR += ghostscript4
     SUBDIR += ghostscript5
     SUBDIR += ghostview
+    SUBDIR += gp
     SUBDIR += gv
     SUBDIR += html2latex
     SUBDIR += latex
