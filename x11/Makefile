@@ -47,6 +47,9 @@
     SUBDIR += mlvwm
     SUBDIR += mouseclock
     SUBDIR += neXtaw
+    SUBDIR += offix-clipboard
+    SUBDIR += offix-execute
+    SUBDIR += offix-files
     SUBDIR += olvwm
     SUBDIR += p5-Gtk
     SUBDIR += p5-Tcl-Tk
