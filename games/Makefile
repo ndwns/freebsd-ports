@@ -14,6 +14,7 @@
     SUBDIR += awele
     SUBDIR += battalion
     SUBDIR += battleball
+    SUBDIR += biorythm
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
