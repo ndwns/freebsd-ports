@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += aftp
     SUBDIR += bsvc
     SUBDIR += cpmemu
     SUBDIR += cpmtools
