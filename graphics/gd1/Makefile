@@ -16,7 +16,9 @@ MAINTAINER=     jeff@cetlink.net
 LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 
 FETCH_BEFORE_ARGS=	-b
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=		yes
+CONFIGURE_ENV+=		CFLAGS="${CFLAGS} -I${LOCALBASE}/include"
+CONFIGURE_ARGS+=	--includedir=${PREFIX}/include/gd
 
 pre-install:
 	${MKDIR} ${PREFIX}/include/gd
