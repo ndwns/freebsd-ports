@@ -2,6 +2,7 @@
 #
 
     SUBDIR += a2ps
+    SUBDIR += acroread
     SUBDIR += afm
     SUBDIR += apsfilter
     SUBDIR += dvi2xx
