@@ -2,6 +2,7 @@
 #
 
     SUBDIR += archie
+    SUBDIR += arpwatch
     SUBDIR += ascend-radius
     SUBDIR += bb
     SUBDIR += bing
