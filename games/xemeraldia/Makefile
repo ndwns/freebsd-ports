@@ -1,13 +1,13 @@
 # New ports collection makefile for:    xemeraldia
-# Version required:     0.2
+# Version required:     0.3
 # Date created:         22 Mar 1995
 # Whom:                 asami
 #
 # $Id$
 #
 
-DISTNAME=       xemeraldia-0.2
-DISTFILES=	250.gz
+DISTNAME=       xemeraldia-0.3
+DISTFILES=	271.gz
 MASTER_SITES=	ftp://ftp.kuis.kyoto-u.ac.jp/News.Archives/fj.sources/1995/
 MAINTAINER=	asami@FreeBSD.ORG
 USE_IMAKE=      yes
