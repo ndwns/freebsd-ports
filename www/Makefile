@@ -11,6 +11,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += gn
     SUBDIR += harvest
     SUBDIR += javac_netscape
+    SUBDIR += jdk
     SUBDIR += kaffe
     SUBDIR += libwww
     SUBDIR += linemode
