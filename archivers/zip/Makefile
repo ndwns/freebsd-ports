@@ -13,6 +13,9 @@ MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+Y2K=		http://www.cdrom.com/pub/infozip/FAQ.html#Y2K
+WWW_SITE=	http://www.cdrom.com/pub/infozip/Zip.html
+
 WRKSRC=         ${WRKDIR}/zip-2.2
 MAKEFILE=       unix/Makefile
 MAKE_FLAGS=     LOCAL_ZIP="${CFLAGS}" -f

@@ -13,6 +13,9 @@ MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+Y2K=		http://www.cdrom.com/pub/infozip/FAQ.html#Y2K
+WWW_SITE=	http://www.cdrom.com/pub/infozip/UnZip.html
+
 WRKSRC=         ${WRKDIR}/unzip-5.40
 MAKEFILE=       unix/Makefile
 MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS} -DUSE_UNSHRINK" -f
