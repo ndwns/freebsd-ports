@@ -56,6 +56,7 @@
     SUBDIR += qmail
     SUBDIR += rblcheck
     SUBDIR += rftp
+    SUBDIR += serialmail
     SUBDIR += sigrot
     SUBDIR += smail
     SUBDIR += smtpd
