@@ -63,7 +63,7 @@ diff -d -u -I\$FreeBSD$ -I\$NetBSD:.*\$ -I\$OpenBSD:.*\$ -I\$DragonFly:.*\$ -I\$
 +TEXMFMAIN_X!=	kpsewhich -expand-var '$$TEXMFMAIN'
 +TEXMFLOCAL?=	${TEXMFLOCAL_X}
 +TEXMFMAIN?=	${TEXMFMAIN_X}
-+WEB2CDIR?=	${TEXMFMAIN}/web2c-ptex
++WEB2CDIR?=	${TEXMFMAIN}/web2c/ptex
 +JADETEXDIR?=	${TEXMFLOCAL}/ptex/jadetex
 +
 +install: ${PROGNAME_JADETEX}.ltx dsssl-ptex.def
