@@ -77,6 +77,7 @@
     SUBDIR += mule-wnn6
     SUBDIR += ndtpd
     SUBDIR += nethack
+    SUBDIR += netscape3.language
     SUBDIR += netscape4
     SUBDIR += newosaka
     SUBDIR += nkf
