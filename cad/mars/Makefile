@@ -32,8 +32,6 @@ MAN1=		mars.1
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mars ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/man/man1/mars.1 ${PREFIX}/man/man1
-
-post-install:
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/mars
 	@chmod a+rx ${PREFIX}/share/doc/mars
