@@ -11,6 +11,8 @@ PKGNAME=	cpmemu-0.2
 CATEGORIES=	emulators
 MASTER_SITES=	ftp://ftp.cdrom.com/pub/linux/slackware-3.2/source/extra-stuff/CPM-80-emulator/
 
+BROKEN_ELF=	yes
+
 MAINTAINER=	ports@FreeBSD.org
 
 .include <bsd.port.mk>
