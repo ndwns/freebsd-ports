@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	xautolock-pl14
-PKGNAME=	xautolock-1.14
+DISTNAME=	xautolock-pl15
+PKGNAME=	xautolock-1.15
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
