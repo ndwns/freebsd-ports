@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:	4.0.6
+# Version required:	4.0.7
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	ImageMagick-4.0.6
+DISTNAME=	ImageMagick-4.0.7
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.freebsd.org/~jseger/ \
 		ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
@@ -24,7 +24,7 @@ LIB_DEPENDS=    jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
 		png\\.2\\.:${PORTSDIR}/graphics/png \
 		jbig\\.0\\.9:${PORTSDIR}/graphics/jbigkit \
-		ttf\\.1\\.:${PORTSDIR}/print/freetype
+		ttf\\.2\\.:${PORTSDIR}/print/freetype
 BUILD_DEPENDS=	fig2dev:${PORTSDIR}/print/transfig \
 		picttoppm:${PORTSDIR}/graphics/netpbm \
 		gs:${PORTSDIR}/print/ghostscript5
