@@ -198,8 +198,8 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 .endif
 
 .else
-.BEGIN:
-	@${ECHO} "Error: Bad value of EMACS_PORT_NAME: ${EMACS_PORT_NAME}."
+check-makevars::
+	@${ECHO} "Makefile error: Bad value of EMACS_PORT_NAME: ${EMACS_PORT_NAME}."
 	@${ECHO} "Valid values are:"
 	@${ECHO} "	Emacs  family: emacs mule emacs20"
 	@${ECHO} "	XEmacs family: xemacs xemacs20 xemacs21 xemacs21-mule"
