@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       glimpse-3.6.src
-PKGNAME=	glimpse-3.6
+DISTNAME=       glimpse-4.0.src
+PKGNAME=	glimpse-4.0
 CATEGORIES=	misc
 MASTER_SITES=   ftp://ftp.cs.arizona.edu/glimpse/
 EXTRACT_SUFX=	.tar.Z
