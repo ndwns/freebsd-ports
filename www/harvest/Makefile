@@ -9,7 +9,10 @@
 DISTNAME=	harvest-1.5
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.tardis.ed.ac.uk/pub/harvest/ \
-		ftp://ftp.nlanr.net/Mirror/Harvest/develop/snapshots/
+		ftp://nic.nasa.gov/software/harvest-dist/ \
+		ftp://ftp.sunet.se/pub/nir/harvest-uk/ \
+		ftp://gd.tuwien.ac.at/infosys/indexers/uk-harvest/ \
+		http://www3.uniovi.es/~mirror/harvest-net/
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andreas@FreeBSD.ORG
