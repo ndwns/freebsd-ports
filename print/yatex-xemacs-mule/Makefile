@@ -6,12 +6,12 @@
 # $Id$
 #
 
-PKGNAME=	ja-yatex-xemacs-1.66
-CATEGORIES=	japanese print elisp
+PKGNAME=	yatex-xemacs-mule-1.66
 
 XEMACS-MULE=	yes
 
-MASTERDIR=	${.CURDIR}/../../print/yatex
+MASTERDIR=	${.CURDIR}/../yatex
+COMMENT=	${.CURDIR}/pkg/COMMENT
 PLIST=		${.CURDIR}/pkg/PLIST
 
 .include	"${MASTERDIR}/Makefile"
