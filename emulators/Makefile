@@ -8,6 +8,7 @@
     SUBDIR += cpmemu
     SUBDIR += cpmtools
     SUBDIR += fmsx
+    SUBDIR += frodo
     SUBDIR += hfs
     SUBDIR += hfsutils
     SUBDIR += ines
