@@ -52,3 +52,10 @@ post-install:
 	@${MV} ${PREFIX}/man/man1/gcc.1 ${PREFIX}/man/man1/gcc28.1
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+BROKEN=		"/usr/lib/aout/crt0.o: file not recognized: File format not recognized"
+GNUHOST=	i386-unknown-freebsdelf
+.else
+GNUHOST=	i386-unknown-freebsd
+.endif
