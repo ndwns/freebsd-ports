@@ -30,6 +30,7 @@
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += noweb
+    SUBDIR += omniBroker
     SUBDIR += p5-BSD-Resource
     SUBDIR += p5-C-Scan
     SUBDIR += p5-ConfigReader
