@@ -42,6 +42,7 @@
     SUBDIR += xdtm
     SUBDIR += xearth
     SUBDIR += xfed
+    SUBDIR += xfedor
     SUBDIR += xfm
     SUBDIR += xforms
     SUBDIR += xgrab
