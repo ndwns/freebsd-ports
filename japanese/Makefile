@@ -18,6 +18,7 @@
     SUBDIR += mule-canna
     SUBDIR += mule-wnn
     SUBDIR += nethack
+    SUBDIR += netscape.language
     SUBDIR += nkf
     SUBDIR += ptex
     SUBDIR += sed
