@@ -10,7 +10,7 @@ DISTNAME=	nkf-1.6
 CATEGORIES+=	japanese
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 
-MAINTAINER=	asami@FreeBSD.ORG
+MAINTAINER=	max@sfc.wide.ad.jp
 
 pre-patch:
 	@echo "===>  Installing custom Makefile for ${DISTNAME}"
