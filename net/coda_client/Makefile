@@ -9,7 +9,8 @@
 DISTNAME=	coda-4.6.6
 PKGNAME=	coda-client-4.6.6.1
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.coda.cs.cmu.edu/pub/coda/src/
+#MASTER_SITES=	ftp://ftp.coda.cs.cmu.edu/pub/coda/src/
+MASTER_SITES=	${MASTER_SITE_LOCAL}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rvb@cs.cmu.edu
