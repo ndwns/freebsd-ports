@@ -14,6 +14,8 @@ MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	font.1:${.CURDIR}/../XttXF86srv-common
 
+ONLY_FOR_ARCHS=	i386
+
 SERVER=		XF86_VGA16
 
 MASTERDIR=	${.CURDIR}/../XttXF86srv-common
