@@ -53,7 +53,7 @@ MAN5=	mwmrc.5
 
 .if defined(HAVE_MOTIF)
 IS_INTERACTIVE=	yes
-pre-fetch:
+pre-extract:
 	@${ECHO} "***********************************************************"
 	@${ECHO} "*                      W a r n i n g                      *"
 	@${ECHO} "* This port will overwrite your Motif installation.       *"
