@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	xmcd-2.3
+DISTNAME=	xmcd-2.4
 CATEGORIES=	audio
 MASTER_SITES=	http://mercury.hypersurf.com/~amb/download/xmcd/src/
 
-MAINTAINER=	deischen@iworks.InterWorks.org
+MAINTAINER=	eischen@vigrid.com
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 MAN1=		cddbcmd.1 wm2xmcd.1 xmcd.1 cda.1
 
 post-install:
-.for man in cddbcmd.1 wm2xmcd.1
+.for man in cddbcmd.1 wm2xmcd.1 xmcd.1 cda.1
 	${GZIP_CMD} ${PREFIX}/man/man1/${man}
 .endfor
 	@${CAT} ${PKGDIR}/MESSAGE
