@@ -40,12 +40,13 @@ post-extract:
 	@cd ${WRKDIR} && tar xfz ${DISTDIR}/${DIST_SUBDIR}/${TETEX_LIB}
 
 pre-install:
+	@${RM} -f ${PREFIX}/share/texmf/ls-R
 	@chown -R bin:bin ${WRKLIB}/info ${WRKLIB}/man
 	@chmod 444 ${WRKLIB}/info/* ${WRKLIB}/man/man1/* ${WRKLIB/man/man5/*
 	@find ${WRKLIB}/texmf/fonts -type d -perm 1755 -exec chmod 755 {} \; 
 	@ (cd ${WRKLIB}; tar cf - info man/man1 man/man5) | (cd ${PREFIX}; tar --unlink -xpf -)
 	@ (cd ${WRKLIB}; tar cf - texmf) | (cd ${PREFIX}/share; tar --unlink -xpf -)
-	@install -c -m 644 -o bin -g bin ${WRKLIB}/texmf.cnf ${PREFIX}/share/texmf/web2c
+	@${INSTALL_DATA} ${WRKLIB}/texmf.cnf ${PREFIX}/share/texmf/web2c
 	
 post-install:
 	@${SETENV} PREFIX=${PREFIX} /bin/sh files/install-note
