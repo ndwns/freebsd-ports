@@ -8,14 +8,13 @@
 
 DISTNAME=	xmysql-1.8
 CATEGORIES=	databases
-MASTER_SITES=	http://mysql.acer.net/Contrib/ \
+MASTER_SITES=	http://www.tcx.se/Contrib/ \
 		http://www.buoy.com/mysql/Contrib/ \
-		http://www.tcx.se/Contrib/ \
                 http://web.tryc.on.ca/mysql/Contrib/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql
+BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 		xforms\\.0\\.:${PORTSDIR}/x11-toolkits/xforms
 
