@@ -115,6 +115,7 @@
 #				  use in INDEX files and the like.
 # checksum		- Use files/md5 to ensure that your distfiles are valid
 # makesum		- Generate files/md5 (only do this for your own ports!)
+# index			- Generate an INDEX file of port short desriptions.
 #
 # Default sequence for "all" is:  fetch extract configure build
 
