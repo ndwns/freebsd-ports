@@ -6,6 +6,7 @@
     SUBDIR += angband
     SUBDIR += cgoban
     SUBDIR += crossfire
+    SUBDIR += dontspace
     SUBDIR += doom
     SUBDIR += flying
     SUBDIR += gnuchess
@@ -14,6 +15,7 @@
     SUBDIR += golddig
     SUBDIR += imaze
     SUBDIR += jetpack
+    SUBDIR += klondike
     SUBDIR += lincity
     SUBDIR += nethack
     SUBDIR += nethack-qt
