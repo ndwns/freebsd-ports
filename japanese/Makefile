@@ -5,6 +5,7 @@
     SUBDIR += Wnn
     SUBDIR += camltk41
     SUBDIR += chimera
+    SUBDIR += dserver
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
     SUBDIR += elvis
