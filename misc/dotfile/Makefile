@@ -15,6 +15,8 @@ MAINTAINER=	oly@world.std.com
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11/tk80
 
+BROKEN=		package
+
 GNU_CONFIGURE=	yes
 MAN1=		dotfile.1
 
