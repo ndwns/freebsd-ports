@@ -43,6 +43,7 @@
     SUBDIR += ijb
     SUBDIR += libghttp
     SUBDIR += libwww
+    SUBDIR += libxpg4-ns
     SUBDIR += linbot
     SUBDIR += linemode
     SUBDIR += linux-netscape4
