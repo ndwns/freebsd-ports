@@ -8,7 +8,9 @@
 
 DISTNAME=	doc++-3.3.13
 CATEGORIES=	devel
-MASTER_SITES=	http://www.imaginator.com/doc++/
+MASTER_SITES=	${MASTER_SITE_SUNSITE} \
+		http://www.imaginator.com/doc++/
+MASTER_SITE_SUBDIR=	apps/doctools
 
 MAINTAINER=	Ruslan@Shevchenko.Kiev.UA
 
