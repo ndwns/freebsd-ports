@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       portlint-1.49
+DISTNAME=       portlint-1.51
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.foretune.co.jp/pub/tools/portlint/
 EXTRACT_SUFX=	.shar
