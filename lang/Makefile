@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	Sather expect logo p2c tcl tclX
+SUBDIR=	Sather expect itcl logo p2c scm tcl tclX
 
 .include <bsd.port.subdir.mk>
