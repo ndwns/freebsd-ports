@@ -8,20 +8,16 @@
 
 DISTNAME=	linpack
 PKGNAME=	linpack-1.0
-
-DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 CATEGORIES+=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/linpack/
-.if defined(MASTER_SITE_OVERRIDE)
-MASTER_SITES:= ${MASTER_SITE_OVERRIDE}/linpack/
-.undef MASTER_SITE_OVERRIDE
-.endif
+
+DIST_SUBDIR=	${DISTNAME}
 
 EXTRACT_CMD=${.CURDIR}/scripts/uncomp
 EXTRACT_SUFX=.Z
 EXTRACT_ARGS= ${WRKDIR}
 
-WRKSRC=${WRKDIR}
+NO_WRKSUBDIR=	yes
 
 SRCS =	cchdc.f cchdd.f cchex.f cchud.f cgbco.f cgbdi.f cgbfa.f cgbsl.f \
 	cgeco.f cgedi.f cgefa.f cgesl.f cgtsl.f chico.f chidi.f chifa.f \

@@ -8,21 +8,16 @@
 
 DISTNAME=	eispack
 PKGNAME=	eispack-1.0
-
-DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
-
 CATEGORIES+=	math
 MASTER_SITES=	ftp://netlib.att.com/netlib/eispack/
-.if defined(MASTER_SITE_OVERRIDE)
-MASTER_SITES:= ${MASTER_SITE_OVERRIDE}/eispack/
-.undef MASTER_SITE_OVERRIDE
-.endif
+
+DIST_SUBDIR=	${DISTNAME}
 
 EXTRACT_CMD=${.CURDIR}/scripts/uncomp
 EXTRACT_SUFX=.Z
 EXTRACT_ARGS= ${WRKDIR}
 
-WRKSRC=${WRKDIR}
+NO_WRKSUBDIR=	yes
 
 SRCS =	csroot.f epslon.f pythag.f bakvec.f balanc.f balbak.f bandr.f \
 	bandv.f bisect.f bqr.f cbabk2.f cbal.f cg.f ch.f cinvit.f combak.f \
