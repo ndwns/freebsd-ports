@@ -25,9 +25,9 @@ RUN_DEPENDS=	gcc28:${PORTSDIR}/lang/gcc28 \
 CC=		gcc28
 CXX=		g++28
 .if ${PORTOBJFORMAT} == "elf"
-GNUHOST=        i386-unknown-freebsdelf${OSREL}
-.else
 GNUHOST=        i386-unknown-freebsd${OSREL}
+.else
+GNUHOST=        i386-unknown-freebsdaout${OSREL}
 .endif
 GCC28DIR=	lib/gcc-lib/${GNUHOST}/2.8.1
 CONFIGURE_ARGS= --host=${GNUHOST}
