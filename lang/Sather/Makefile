@@ -13,11 +13,9 @@ MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
 
-install: build
-	@if [ ! -e ${PREFIX}/bin ]; then mkdir -p ${PREFIX}/bin; fi
-	@if [ ! -e ${PREFIX}/man/man1 ]; then mkdir -p ${PREFIX}/man/man1; fi
+do-install:
 	install -c -m 555 ${WRKSRC}/Compiler/cs ${PREFIX}/bin
 	install -c -m 555 ${WRKSRC}/Doc/man/man1/cs.1 ${PREFIX}/man/man1
-	-gzip -9 -f ${PREFIX}/man/man1/cs.1
+	-gzip -9nf ${PREFIX}/man/man1/cs.1
 
 .include <bsd.port.mk>

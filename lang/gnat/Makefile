@@ -29,45 +29,28 @@ USE_GMAKE= true
 # as /usr/libexec/gnat1, the rest in /usr/local/{bin,adainclude,adalib}.
 PREFIX		= /usr
 
-WRKDIR          = ${.CURDIR}/work
-CONFIGURE_COOKIE= ${WRKDIR}/.configure_done
-PREBUILD_COOKIE = ${WRKDIR}/.prebuild_done
-BUILD_COOKIE    = ${WRKDIR}/.build_done
-INSTALL_COOKIE  = ${WRKDIR}/.install_done
-
-pre-build: ${PREBUILD_COOKIE}
-${PREBUILD_COOKIE}:
+pre-build:
 	@echo "===>  Building patched gcc library for ${DISTNAME}"
 	cd ${WRKSRC}/gcc && \
 	   ${MAKE} CC="${CC} -I. -I${COMPILERSOURCE}/include" \
 		   COMPILERSOURCE="${COMPILERSOURCE}" 
-	@${TOUCH} ${TOUCHFLAGS} ${PREBUILD_COOKIE}
 
-build: configure pre-build ${BUILD_COOKIE}
-${BUILD_COOKIE}:
-	@echo "===>  Building for ${DISTNAME}"
+do-build:
 	cd ${WRKSRC}/ada; \
 	   ${GMAKE} CC="${CC}" COMPILERSOURCE="${COMPILERSOURCE}"
-	@${TOUCH} ${TOUCH_FLAGS} ${BUILD_COOKIE}
 
-configure: extract patch ${CONFIGURE_COOKIE}
-${CONFIGURE_COOKIE}:
-	@echo "===>  Configuring for ${DISTNAME}"
+do-configure:
 	@env CURDIR=${.CURDIR} DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} \
 	     WRKSRC=${WRKSRC} PATCHDIR=${PATCHDIR} SCRIPTDIR=${SCRIPTDIR} \
 	     FILESDIR=${FILESDIR} PORTSDIR=${PORTSDIR} PREFIX=${PREFIX} \
 	     DEPENDS="${DEPENDS}" \
 	     COMPILERSOURCE="${COMPILERSOURCE}" CCVERSION="${CCVERSION}" \
 	       ${SHELL} ${SCRIPTDIR}/configure; 
-	@${TOUCH} ${TOUCH_FLAGS} ${CONFIGURE_COOKIE}
 
-install: build ${INSTALL_COOKIE}
-${INSTALL_COOKIE}:
-	@echo "===>  Installing for ${DISTNAME}"
+do-install:
 	@${MAKE} ${.MAKEFLAGS} pre-install
 	@(cd ${WRKSRC}/ada; \
 	${MAKE} PREFIX_DIR=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} \
 		${INSTALL_TARGET})
-	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 
 .include <bsd.port.mk>

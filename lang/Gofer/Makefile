@@ -14,10 +14,8 @@ MASTER_SITES =	ftp://cs.nott.ac.uk/nott-fp/languages/haskell/gofer/
 WRKSRC = ${WRKDIR}/src
 LIBDIR = ${PREFIX}/lib/Gofer
 
-install: build
+do-install:
 	-mkdir -p ${LIBDIR}
-	-mkdir -p ${PREFIX}/man/man1
-	-mkdir -p ${PREFIX}/bin
 	install -c -m 444 ${WRKDIR}/*.prelude ${LIBDIR}
 	install -c -m 444 ${WRKDIR}/src/prelude.h ${LIBDIR}
 	install -c -m 444 ${WRKDIR}/src/gofc.h ${LIBDIR}
