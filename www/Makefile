@@ -35,7 +35,6 @@
     SUBDIR += p5-HTTPD-Tools
     SUBDIR += p5-WWW-Search
     SUBDIR += p5-libwww
-    SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += squid11
     SUBDIR += squid11-novm
