@@ -240,7 +240,7 @@ HAS_CONFIGURE=		yes
 # and do _only_ the interactive ones that required your intervention.
 # This allows you to do both.
 #
-.if (defined(IS_INTERACTIVE) && defined(BATCH)) || (!defined(IS_INTERACTIVE) && defined(INTERACTIVE))
+.if defined(NO_${DISTNAME}) || (defined(IS_INTERACTIVE) && defined(BATCH)) || (!defined(IS_INTERACTIVE) && defined(INTERACTIVE))
 all:
 	@${DO_NADA}
 pre-build:
