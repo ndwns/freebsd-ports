@@ -28,6 +28,8 @@
     SUBDIR += kon
     SUBDIR += kterm
     SUBDIR += less
+    SUBDIR += man
+    SUBDIR += man-doc
     SUBDIR += mh
     SUBDIR += mimekit
     SUBDIR += mnews
