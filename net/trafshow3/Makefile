@@ -15,12 +15,4 @@ MAINTAINER=     igor@zynaps.ru
 
 MAN1=		trafshow.1
 
-EXTRA_PATCH=    patch-ae
-
-OSVERSION!=	sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-post-patch:
-	@${PATCH} ${PATCH_ARGS} < ${FILESDIR}/${EXTRA_PATCH}
-.endif
-
 .include <bsd.port.mk>
