@@ -15,7 +15,7 @@ EXTRACT_SUFX=	_tar.gz
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
 RUN_DEPENDS=	${PREFIX}/${JAVASUBDIR}/bin/java:${PORTSDIR}/lang/jdk \
-		${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/devel/jfc
+		${PREFIX}/${JFCSUBDIR}/swing.jar:${PORTSDIR}/lang/jfc
 
 RESTRICTED=	"License prohibites distribute."
 NO_BUILD=	YES
