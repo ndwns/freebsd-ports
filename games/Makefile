@@ -7,6 +7,7 @@
     SUBDIR += agm
     SUBDIR += an
     SUBDIR += angband
+    SUBDIR += awele
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
