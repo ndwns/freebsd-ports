@@ -86,7 +86,7 @@ while [ "$1" ]; do
                                 echo "POSTFIX_AUXLIBS+= \${LOCALBASE}/lib/mysql/libmysqlclient.a -lm -lz"
                         fi
                         echo ".if exists(/usr/lib/libkrb.a)"
-                        echo "POSTFIX_AUXLIBS+= -lkrb -ldes -lcom_err"
+                        echo "POSTFIX_AUXLIBS+= -lkrb -lcrypto -lcom_err"
                         echo ".endif"
                         SUB_SASL=""
                         ;;
@@ -105,7 +105,7 @@ while [ "$1" ]; do
 				echo "POSTFIX_AUXLIBS+= \${LOCALBASE}/lib/mysql/libmysqlclient.a -lm -lz"
 			fi
 			echo ".if exists(/usr/lib/libkrb.a)"
-			echo "POSTFIX_AUXLIBS+=	-lkrb -ldes -lcom_err"
+			echo "POSTFIX_AUXLIBS+=	-lkrb -lcrypto -lcom_err"
 			echo ".endif"
 			SUB_SASL=""
 			;;
