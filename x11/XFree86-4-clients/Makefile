@@ -30,6 +30,7 @@ NO_PACKAGE	=	yes
 #######################################################################
 DISTNAME	=	xc
 PKGNAME		= 	XFree86-3.1.2
+CATEGORIES      =	x11
 IS_INTERACTIVE=		yes
 
 MAINTAINER=		jmz@FreeBSD.ORG
