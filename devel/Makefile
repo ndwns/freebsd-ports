@@ -120,6 +120,7 @@
     SUBDIR += portcheckout
     SUBDIR += portlint
     SUBDIR += prcs
+    SUBDIR += py-kjbuckets
     SUBDIR += qtarch
     SUBDIR += qtez
     SUBDIR += re2c
