@@ -14,8 +14,6 @@ MASTER_SITE_SUBDIR=libs/X/fwf
 
 MAINTAINER=	jseger@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 REQUIRES_MOTIF=	yes
