@@ -2,6 +2,7 @@
 #
 
     SUBDIR += axe
+    SUBDIR += asedit
     SUBDIR += beav
     SUBDIR += bpatch
     SUBDIR += e93
