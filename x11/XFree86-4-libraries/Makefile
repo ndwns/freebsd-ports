@@ -32,6 +32,7 @@ WRKDIR?=                ${.CURDIR}/work
 BUILD_COOKIE?=		${WRKDIR}/.build_done
 EXTRACT_COOKIE?=	${WRKDIR}/.extract_done
 IS_INTERACTIVE=		yes
+MAINTAINER=		jmz@FreeBSD.ORG
 
 .if defined(X11_ON_X_CDROM) || defined(X11_ON_OR_CDROM)
 X11_ON_CDROM	=	yes
