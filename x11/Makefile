@@ -6,6 +6,7 @@
     SUBDIR += XFree86-contrib
     SUBDIR += Xaw3d
     SUBDIR += afterstep
+    SUBDIR += asfiles
     SUBDIR += auis
     SUBDIR += bclock
     SUBDIR += blast
