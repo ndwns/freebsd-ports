@@ -8,8 +8,7 @@
 
 DISTNAME=	rxvt-2.4.11
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/devel/ \
-		ftp://mason.primenet.com.au/pub/rxvt/
+MASTER_SITES=	ftp://mason.primenet.com.au/pub/rxvt/old/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
