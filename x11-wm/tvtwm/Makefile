@@ -6,12 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	tvtwm
+DISTNAME=	tvtwm.pl11
 PKGNAME=	tvtwm-pl11
 CATEGORIES=	x11-wm
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	window_managers
-DISTFILES=	tvtwm.pl11.tar.gz
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
