@@ -36,6 +36,7 @@ post-install:
 	${PREFIX}/man/man5/newsfeeds.5 ${PREFIX}/man/man5/newslog.5 \
 	${PREFIX}/man/man5/nnrp.access.5 ${PREFIX}/man/man5/nntpsend.ctl.5 \
 	${PREFIX}/man/man5/overview.fmt.5 \
+	${PREFIX}/man/man5/distrib.pats.5 ${PREFIX}/man/man5/passwd.nntp.5 \
 	${PREFIX}/man/man8/archive.8 ${PREFIX}/man/man8/batcher.8 \
 	${PREFIX}/man/man8/buffchan.8 ${PREFIX}/man/man8/ctlinnd.8 \
 	${PREFIX}/man/man8/cvtbatch.8 ${PREFIX}/man/man8/expire.8 \
