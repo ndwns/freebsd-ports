@@ -16,7 +16,7 @@ PATCHFILES=	tk8.0p2jp1.1b0.patch.gz
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
-LIB_DEPENDS=	tcl80jp\\.1\\.2:${PORTSDIR}/japanese/tcl80
+LIB_DEPENDS=	tcl80jp.1:${PORTSDIR}/japanese/tcl80
 
 VERSION=	8.0
 TOPDIR=		${WRKDIR}/tk${VERSION}
