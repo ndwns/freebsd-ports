@@ -60,6 +60,6 @@ pre-fetch:
 pre-install:
 	${MKDIR} /usr/X11R6
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
