@@ -231,7 +231,7 @@ install: ${INSTALL_COOKIE}
 
 ${INSTALL_COOKIE}:
 	@echo "===>  Installing for ${DISTNAME}"
-	@${MAKE} pre-install
+	@${MAKE} ${.MAKEFLAGS} pre-install
 .if defined(USE_GMAKE)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} install)
 .else defined(USE_GMAKE)
@@ -272,7 +272,7 @@ build: configure pre-build
 		if [ ! -d $$i ]; then \
 			echo ">> No directory for $$i.  Skipping.."; \
 		else \
-			(cd $$i; ${MAKE} is_depended) ; \
+			(cd $$i; ${MAKE} ${.MAKEFLAGS} is_depended) ; \
 		fi \
 	done
 	@echo "===>  Returning to build of ${DISTNAME}"
@@ -302,7 +302,7 @@ configure: extract ${CONFIGURE_COOKIE}
 
 ${CONFIGURE_COOKIE}:
 	@echo "===>  Configuring for ${DISTNAME}"
-	@${MAKE} pre-configure
+	@${MAKE} ${.MAKEFLAGS} pre-configure
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
 		for i in ${PATCHDIR}/patch-*; do \
