@@ -12,8 +12,7 @@ CATEGORIES=	emulators
 MASTER_SITES=   ftp://ftp.apple.asimov.net/pub/apple_II/emulators/prodosemu/ \
 		ftp://apple2.caltech.edu/pub/apple2/emulators/ \
 		ftp://apple.cabi.net/pub/apple_II/emulators/prodosemu/ \
-		ftp://ftp.aarnet.edu.au/pub/apple/apple_II/emulators/prodosemu/ \
-		ftp://ftp.recherche.enac.fr/pub/MIRRORS/apple_II/emulators/prodosemu/
+		ftp://ftp.aarnet.edu.au/pub/apple/apple_II/emulators/prodosemu/
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
