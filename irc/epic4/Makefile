@@ -17,6 +17,8 @@ DISTFILES=	epic4pre2.001-NR14.tar.gz epic4pre2-help.tar.gz
 
 MAINTAINER=	benhutch@xfiles.org.uk
 
+BROKEN=	'distfiles missing from all MASTER_SITES'
+
 DIST_SUBDIR=	epic4
 
 EXTRACT_ONLY=	epic4pre2.001-NR14.tar.gz
