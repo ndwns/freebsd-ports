@@ -9,16 +9,16 @@
 DISTNAME=	xview-clients
 PKGNAME=	xview-clients-3.2.1
 
-DEPENDS=        ../xview-lib
-WRKDIR=      	../xview-config/work/xview3.2p1-X11R6/clients
-WRKSRC=      	../xview-config/work/xview3.2p1-X11R6/clients
+DEPENDS=        ${PORTSDIR}/x11/xview-lib
+WRKSRC=      	${PORTSDIR}/x11/xview-config/work/xview3.2p1-X11R6/clients
+NO_WRKDIR=	yes
 NO_EXTRACT=     yes
 PREFIX=		${X11BASE}
 #USE_IMAKE=	yes
 
-fetch:
+do-fetch:
 
-depend:
+post-configure:
 	(cd $(WRKSRC)/..; $(MAKE) SUBDIRS=clients depend)
 
 pre-install:

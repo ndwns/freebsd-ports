@@ -12,9 +12,12 @@ CATEGORIES+=	x11
 MASTER_SITES=	ftp://ftp.x.org/contrib/libraries/
 DISTFILES=	xview3.2p1-X11R6.tar.gz
 
-WRKSRC=      	work/xview3.2p1-X11R6/config
+WRKSRC=      	${WRKDIR}/xview3.2p1-X11R6/config
 USE_IMAKE=	yes
 
-build:
+post-extract:
+	@chmod -R go+rX ${WRKDIR}
+
+do-build:
 
 .include <bsd.port.mk>
