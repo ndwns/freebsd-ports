@@ -115,6 +115,7 @@
     SUBDIR += portscanner
     SUBDIR += ppp-nt
     SUBDIR += pppload
+    SUBDIR += ppxp
     SUBDIR += proftpd
     SUBDIR += queso
     SUBDIR += radius
