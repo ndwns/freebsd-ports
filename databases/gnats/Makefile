@@ -10,6 +10,8 @@ DISTNAME=       gnats-3.97-beta
 CATEGORIES+=	databases
 MASTER_SITES=   ftp://ftp.cygnus.com/pub/
 
+NO_PACKAGE=	"Requires gnats UID"
+
 # we've got some .elc and info files to compile (yuck)
 BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs \
 		gm4:${PORTSDIR}/devel/m4
