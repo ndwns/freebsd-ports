@@ -10,9 +10,9 @@
 DISTNAME=	egcs-1.1a
 PKGNAME=	egcs-1.1.1
 CATEGORIES=	lang
-MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/releases/ \
-		ftp://cambridge.cygnus.com/pub/egcs/releases/ \
-		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/
+MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/releases/egcs-1.1a/ \
+		ftp://cambridge.cygnus.com/pub/egcs/releases/egcs-1.1a/ \
+		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/egcs-1.1a/
 
 MAINTAINER=	obrien@FreeBSD.org
 
