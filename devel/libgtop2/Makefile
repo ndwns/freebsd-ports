@@ -7,20 +7,23 @@
 #
 
 DISTNAME=	libgtop-0.99.2
-CATEGORIES=	devel
+CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME} \
 		ftp://ftp.home-of-linux.org/pub/libgtop/0.99.2/
 MASTER_SITE_SUBDIR=	libgtop
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	glib11d.2:${PORTSDIR}/devel/glib11-devel \
-		gnome.1:${PORTSDIR}/x11/gnomelibs \
+LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
 
+# implicit dependencies:
+# gettext, glib11-devel
+
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-nls
-CONFIGURE_ENV=	GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config"
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
+		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
+		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib -lxpg4"
 USE_GMAKE=	yes
 
 post-install:
