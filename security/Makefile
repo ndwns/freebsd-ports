@@ -13,6 +13,7 @@
     SUBDIR += fakebo
     SUBDIR += fwtk
     SUBDIR += gnupg
+    SUBDIR += gtkportscan
     SUBDIR += john
     SUBDIR += krb5
     SUBDIR += l0pht-watch
