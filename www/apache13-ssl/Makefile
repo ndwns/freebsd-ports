@@ -36,7 +36,7 @@ DISTFILES=      ${DISTNAME}${EXTRACT_SUFX} \
 MAINTAINER=     adam@algroup.co.uk
 
 
-RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
+RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
 
 EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 

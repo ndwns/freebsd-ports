@@ -24,8 +24,8 @@ pre-fetch:
 LIB_DEPENDS=		rsaref.2:${PORTSDIR}/security/rsaref
 .endif
 .endif
-BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
-RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
+BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
+RUN_DEPENDS=	ssleay:${PORTSDIR}/security/openssl
 
 RESTRICTED=	"Cryptography"
 

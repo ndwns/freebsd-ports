@@ -27,8 +27,8 @@ pre-configure:
 .endif
 .endif
 
-BUILD_DEPENDS=		ssleay:${PORTSDIR}/security/SSLeay
-RUN_DEPENDS=		ssleay:${PORTSDIR}/security/SSLeay
+BUILD_DEPENDS=		ssleay:${PORTSDIR}/security/openssl
+RUN_DEPENDS=		ssleay:${PORTSDIR}/security/openssl
 
 RESTRICTED=		"Cryptography"
 
@@ -39,4 +39,5 @@ INSTALL_TARGET=		install certificate
 post-install:
 	strip $(PREFIX)/bin/telnet
 	strip $(PREFIX)/libexec/telnetd
+
 .include <bsd.port.mk>
