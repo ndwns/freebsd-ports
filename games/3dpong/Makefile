@@ -21,6 +21,8 @@ do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/3dpong ${PREFIX}/bin
 	@ ${MKDIR} ${PREFIX}/share/3dpong
 	@ ${INSTALL_DATA} ${WRKSRC}/sounds/*.au ${PREFIX}/share/3dpong
+
+post-install:
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/3dpong
 	@ ${INSTALL_DATA} ${WRKSRC}/README.txt ${PREFIX}/share/doc/3dpong
