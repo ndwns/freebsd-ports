@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += apache
     SUBDIR += archie
     SUBDIR += cern_httpd
     SUBDIR += cern_linemode
