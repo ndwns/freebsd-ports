@@ -9,8 +9,9 @@
 
 DISTNAME=       lynx2-4-fm
 PKGNAME=        lynx-2.4fm
-WRKSRC=         ${WRKDIR}/lynx2-4-FM
 CATEGORIES+=	www
+MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/nidr/www/
+EXTRACT_SUFX=   .zip
 
 # Original location, lynx changes too often there
 #MASTER_SITES=   http://www.wfbr.edu/lynx/
@@ -23,16 +24,13 @@ CATEGORIES+=	www
 #MASTER_SITES=   ftp://ftp.hhs.dk//fote_mirror/
 #NCFTPTAIL=      > ${DISTFILES}
 
-MASTER_SITES=   ftp://ftp.kiae.su/unix/tcpip/nidr/www/
-
-EXTRACT_CMD=    unzip
-EXTRACT_ARGS=   -q
-EXTRACT_SUFX=   .zip
-
 MAINTAINER=	ache@FreeBSD.ORG
 
 BUILD_DEPENDS=  ${EXTRACT_CMD}:${PORTSDIR}/archivers/unzip
 
+WRKSRC=         ${WRKDIR}/lynx2-4-FM
+EXTRACT_CMD=    unzip
+EXTRACT_ARGS=   -q
 ALL_TARGET=     freebsd-ncurses
 
 .include <bsd.port.mk>
