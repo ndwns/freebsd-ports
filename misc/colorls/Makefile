@@ -14,6 +14,9 @@ DISTFILES=	ls-2.2.5.tar.gz
 
 MAINTAINER=	asami@FreeBSD.ORG
 
+MAN1=		colorls.1
+MANCOMPRESSED=	maybe
+
 WRKSRC=		${WRKDIR}/ls
 
 pre-patch:
