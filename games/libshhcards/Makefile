@@ -14,6 +14,8 @@ MASTER_SITES=	http://www.computas.no/users/shh/pub-unix/files/ \
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
 SOLIB=		libshhcards.so
