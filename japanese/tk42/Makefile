@@ -16,10 +16,11 @@ PATCHFILES=	tk4.2jp-patch.gz
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
-BUILD_DEPENDS=	${LOCALBASE}/lib/libtcl76jp.so\.1\.0:${PORTSDIR}/japanese/tcl76
+LIB_DEPENDS=	tcl76jp.1:${PORTSDIR}/japanese/tcl76
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
+USE_XLIB=	yes
 CONFIGURE_ARGS=	--enable-shared
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 
@@ -48,7 +49,7 @@ pre-install:
 
 post-install:
 	cd ${WRKSRC} && ${MAKE} -f Makefile.lib PREFIX=${PREFIX} VERSION=${VERSION} install
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	@echo "**********"
 	@echo "IMPORTANT:"
 	@echo "**********"
@@ -59,6 +60,9 @@ post-install:
 	@echo "conflicting with another version of Tcl/Tks."
 
 test:
-	cd ${WRKSRC}; make test
+	cd ${WRKSRC}; ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} test
+
+install-man:
+	cd ${WRKSRC} && ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} install-man
 
 .include <bsd.port.mk>
