@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       qvwm-1.0b10a
-CATEGORIES=     x11
+CATEGORIES=     x11-wm
 MASTER_SITES=   http://www-masuda.is.s.u-tokyo.ac.jp/~kourai/qvwm/program/
 
 MAINTAINER=     Nakai@technologist.com

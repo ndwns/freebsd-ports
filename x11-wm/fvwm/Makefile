@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	fvwm-1.24r
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://ftp.hpc.uh.edu/pub/fvwm/version-1/ \
 		ftp://ftp.ics.es.osaka-u.ac.jp/pub/CFAN/sources/1.x/
 

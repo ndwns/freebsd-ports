@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mlvwm-0.8.6
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/mlvwm/ \
 		http://www.bioele.nuee.nagoya-u.ac.jp/member/tak/
 DISTFILES=	mlvwm-0.8.6.tar.gz mini-icons.tar.gz

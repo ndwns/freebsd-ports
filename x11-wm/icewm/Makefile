@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	icewm-0.9.10
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	http://berta.fri.uni-lj.si/~markom/icewm/devel/
 EXTRACT_SUFX=	.src.tar.gz
 

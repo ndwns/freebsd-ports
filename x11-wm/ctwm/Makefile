@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ctwm-3.5
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://slhp1.epfl.ch/pub/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

@@ -8,7 +8,7 @@
 
 DISTNAME=	piewm
 PKGNAME=	piewm-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 EXTRACT_SUFX=	.tar.Z
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	enlightenment-0.14
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
 		ftp://www.rasterman.com/pub/enlightenment/enlightenment/ \
 		ftp://ftp.labs.redhat.com/pub/imlib/TAR/

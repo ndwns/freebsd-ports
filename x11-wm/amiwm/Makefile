@@ -8,7 +8,7 @@
 
 DISTNAME=	amiwm0.20pl28
 PKGNAME=	amiwm-0.20p28
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/X11/wm/amiwm/
 
 MAINTAINER=	ports@FreeBSD.org

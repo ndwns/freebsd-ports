@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	blackbox-0.34.4
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	http://linux.wiw.org/blackbox/sources/
 
 MAINTAINER=	ports@FreeBSD.ORG

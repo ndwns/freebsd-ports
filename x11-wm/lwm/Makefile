@@ -8,7 +8,7 @@
 
 DISTNAME=	lwm
 PKGNAME=	lwm-0.06
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	http://users.ch.genedata.com/~enh/
 EXTRACT_SUFX=	.tar.Z
 

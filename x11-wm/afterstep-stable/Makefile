@@ -8,7 +8,7 @@
 
 DISTNAME=	AfterStep-1.4.5.0
 PKGNAME=	afterstep-1.4.5.3
-CATEGORIES=     x11
+CATEGORIES=     x11-wm
 MASTER_SITES=   ftp://peloton.physics.montana.edu/pub/distfiles/
 EXTRACT_SUFX=   .tgz
 

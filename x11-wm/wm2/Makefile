@@ -8,7 +8,7 @@
 
 DISTNAME=	wm2-3
 PKGNAME=        wm2-3.0
-CATEGORIES=    x11
+CATEGORIES=     x11-wm
 MASTER_SITES=   http://www.netcomuk.co.uk/~cannam/
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp

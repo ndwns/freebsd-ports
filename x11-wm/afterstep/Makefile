@@ -8,7 +8,7 @@
 
 DISTNAME=	AfterStep-1.0
 PKGNAME=	afterstep-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://afterstep.foo.net/pub/AfterStep/
 
 MAINTAINER=	jfitz@FreeBSD.ORG

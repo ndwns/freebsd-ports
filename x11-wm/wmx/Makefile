@@ -8,7 +8,7 @@
 
 DISTNAME=	wmx-4
 PKGNAME=        wmx-4.0
-CATEGORIES=	x11
+CATEGORIES=	x11-wm
 MASTER_SITES=   http://www.netcomuk.co.uk/~cannam/
 
 MAINTAINER=	sec@42.org
