@@ -1,24 +1,16 @@
 # New ports collection makefile for:	rdist
-# Version required:	rdist-6.1.0
+# Version required:	rdist-6.1.2
 # Date created:		19 August 1995
 # Whom:			peter
-# Based on patches by:  Deborah Bennett <deborah@microunity.com>
 #
 # $Id$
 #
 
-DISTNAME=	rdist-6.1.0
+DISTNAME=	rdist-6.1.2
 CATEGORIES+=	net
 MASTER_SITES=	ftp://usc.edu/pub/rdist/
 
 MAINTAINER=	peter@FreeBSD.org
-
-NO_WRKSUBDIR=	yes
-
-# Copy the list of FreeBSD sites
-pre-patch:
-	cp ${FILESDIR}/mf.freebsd2 ${WRKSRC}/config
-	cp ${FILESDIR}/os-freebsd2.h ${WRKSRC}/config
 
 post-install:
 	strip ${PREFIX}/bin/rdist6
