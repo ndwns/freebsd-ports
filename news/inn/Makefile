@@ -12,6 +12,9 @@ CATEGORIES+=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
 EXTRACT_SUFX=	.tar.Z
 
+# to many compile-time options
+NO_PACKAGE=	yes
+
 PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/
 PATCHFILES=	select-loop-bug.patch innxmit-long-lines
 
