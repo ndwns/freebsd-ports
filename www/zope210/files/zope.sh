@@ -39,7 +39,7 @@ if checkyesno zope_enable; then
 			echo "Restarting Zope"
 		;;
 		*)
-			echo "Unknown aktion \"$1\""
+			echo "Unknown action \"$1\""
 		;;
 	esac
 
