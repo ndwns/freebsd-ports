@@ -29,8 +29,8 @@ HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} \
 		--statedir=/var/run \
 		--with-sound=native \
-		--site-includes=/usr/local/include \
-		--site-libraries=/usr/local/lib \
+		--site-includes=${PREFIX}/include \
+		--site-libraries=${PREFIX}/lib \
 		--sitelispdir="${PREFIX}/lib/xemacs/site-lisp ${PREFIX}/share/emacs/site-lisp" \
 		${WITH_MULE} ${WITH_DIALOGS}
 MAN1=		ctags.1 etags.1 gnuattach.1 gnuclient.1 gnudoit.1 \
