@@ -11,4 +11,8 @@ CATEGORIES+=	games
 MASTER_SITES=   ftp://geocub.greco-prog.fr/pub/Games/
 EXTRACT_SUFX=   .tar.Z
 
+# We can't distribute the source or the package because of 
+# the restrictive copyright.
+NO_PACKAGE=	yes
+
 .include <bsd.port.mk>
