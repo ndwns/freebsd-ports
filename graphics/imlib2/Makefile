@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	imlib-0.5.1
+DISTNAME=	imlib_DR-0.5.1
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://cthulhu.mandrake.net/pub/enlightenment/
+MASTER_SITES=	ftp://cthulhu.mandrake.net/pub/imlib/
 
 MAINTAINER=	vanilla@MinJe.com.TW
 
