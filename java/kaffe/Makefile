@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	kaffe-1.0.b1
+DISTNAME=	kaffe-1.0.b2
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.transvirtual.com/pub/kaffe/
 DISTFILES=	${DISTNAME}.tar.gz
