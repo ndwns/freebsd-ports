@@ -34,6 +34,20 @@ yesno() {
     done
 }
 
+replace() {
+    local orig repl
+    
+    orig=$1
+    repl=$2
+    if [ -e ${orig} ]; then
+        mv -f ${orig} ${orig}.OFF
+        chmod 0 ${orig}.OFF
+    fi
+    if [ -e ${repl} ]; then
+        ln -s ${repl} ${orig}
+    fi
+}
+
 if [ x"$2" = xPRE-INSTALL ]; then
     USER=courier;	UID=62
     GROUP=courier;	GID=62
@@ -67,20 +81,6 @@ if [ x"$2" = xPRE-INSTALL ]; then
         fi
     fi
 fi
-
-replace() {
-    local orig repl
-    
-    orig=$1
-    repl=$2
-    if [ -e ${orig} ]; then
-        mv -f ${orig} ${orig}.OFF
-        chmod 0 ${orig}.OFF
-    fi
-    if [ -e ${repl} ]; then
-        ln -s ${repl} ${orig}
-    fi
-}
 
 if [ x"$2" = xPOST-INSTALL -a -z "${PACKAGE_BUILDING}" ]; then
     if [ -x /sbin/sysctl ]; then

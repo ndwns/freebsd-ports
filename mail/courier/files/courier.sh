@@ -124,6 +124,19 @@ start)	# First time after install create aliases.dat and makesmtpaccess.dat
 		esac
 	fi
 
+	ESMTPDSSLSTART=""
+	if [ -f ${sysconfdir}/esmtpd-ssl ]; then
+		. ${sysconfdir}/esmtpd-ssl
+		case $ESMTPDSSLSTART in
+		[Yy]*)
+			if [ -x $COURIERTLS \
+			  -a -x ${sbindir}/esmtpd-ssl ]; then
+				${sbindir}/esmtpd-ssl start && echo -n " esmtpd-ssl"
+			fi
+			;;
+		esac
+	fi
+
 	IMAPDSTART=""
 	if [ -f ${sysconfdir}/imapd ]; then
 		. ${sysconfdir}/imapd
@@ -203,10 +216,14 @@ stop)	# kill courier services in the reverse order of starting them
 		${sbindir}/imapd stop && echo -n " imapd"
 	fi
 
+	if [ -x ${sbindir}/esmtpd-ssl ]; then
+		${sbindir}/esmtpd-ssl stop && echo -n " esmtpd-ssl"
+	fi
+
 	if [ -x ${sbindir}/esmtpd-msa ]; then
 		${sbindir}/esmtpd-msa stop && echo -n " esmtpd-msa"
 	fi
-	
+
 	if [ -x ${sbindir}/esmtpd ]; then
 		${sbindir}/esmtpd stop && echo -n " esmtpd"
 	fi
