@@ -8,9 +8,9 @@
 
 DISTNAME=	smurflog-2.1
 CATEGORIES=	net security
-MASTER_SITES=	http://www.nectar.com/distfiles/
-#		http://www.sy.net/security/ \
-#		http://www.bitchx.com/~humble/files/
+MASTER_SITES=	ftp://ftp.bitchx.org/pub/bitchx/files/                 \
+		ftp://ftp.buk.net/pub/software/bitchx/files/           \
+		http://www.nectar.cc/distfiles/
 
 MAINTAINER=	nectar@FreeBSD.ORG
 
