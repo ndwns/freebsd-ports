@@ -33,7 +33,8 @@ post-install:
 	${INSTALL_PROGRAM} ${WRKDIR}/Xvnc/programs/Xserver/Xvnc ${PREFIX}/bin/Xvnc
 	${INSTALL_PROGRAM} ${WRKDIR}/vncviewer/vncviewer ${PREFIX}/bin/vncviewer
 	${INSTALL_PROGRAM} ${WRKDIR}/vncpasswd/vncpasswd ${PREFIX}/bin/vncpasswd
-	${SED} -e s%/usr/local/vnc/classes%${PREFIX}/share/vnc/classes% \
+	${SED}  -e s%/usr/local/vnc/classes%${PREFIX}/share/vnc/classes% \
+		-e s%^\#!/usr/bin/perl%\#!${PERL}% \
 		< ${WRKDIR}/vncserver \
 		> ${WRKDIR}/vncserver.local
 	${INSTALL_SCRIPT} ${WRKDIR}/vncserver.local ${PREFIX}/bin/vncserver
