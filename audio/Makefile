@@ -2,6 +2,7 @@
 #
 
     SUBDIR += cam
+    SUBDIR += cddbd
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += maplay
