@@ -11,6 +11,8 @@ MASTER_SITES=	ftp://sherilyn.ne.mediaone.net/pub/
 
 MAINTAINER=	mi@aldan.algebra.com
 
+LIB_DEPENDS=	intl.1:${PORTSDIR}/devel/gettext
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CPPFLAGS="-I${PREFIX}/include" LDFLAGS="-L${PREFIX}/lib -lintl"
 CONFIGURE_ARGS=	--with-catgets
