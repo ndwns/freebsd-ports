@@ -12,6 +12,7 @@
     SUBDIR += s3mod
     SUBDIR += sox
     SUBDIR += tracker
+    SUBDIR += workman
     SUBDIR += xcd
     SUBDIR += xcdplayer
 RESTRICTED += xmcd       # needs Motif, xmcd itself isn't restricted
