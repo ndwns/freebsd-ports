@@ -19,6 +19,7 @@ MAINTAINER=	kiri@pis.toba-cmt.ac.jp
 
 LIB_DEPENDS=	tcl80jp.1:${PORTSDIR}/japanese/tcl80
 
+USE_XLIB=	yes
 USE_AUTOCONF=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-gcc --enable-shared --enable-step \
