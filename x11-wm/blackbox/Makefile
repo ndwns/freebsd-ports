@@ -9,15 +9,14 @@
 DISTNAME=	blackbox-0.50.4
 CATEGORIES=	x11-wm
 MASTER_SITES=	ftp://balance.wiw.org/pub/blackbox/ \
-		ftp://ftp.aist.com.ua/pub/unix/window_managers/blackbox/
+	 	ftp://ftp.dti.ad.jp/pub/X/blackbox/ \
+		ftp://ftp.max.irk.ru/unix/x/wm/
 
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 USE_BZIP2=	yes
-
-CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 
 .if !defined(USE_KDE)
 pre-fetch:
