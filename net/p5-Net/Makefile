@@ -20,7 +20,7 @@ USE_PERL5=	YES
 
 MAN3=		Net::Time.3 Net::DummyInetd.3 Net::NNTP.3 Net::SNPP.3 \
 		Net::POP3.3 Net::Cmd.3 Net::SMTP.3 Net::Domain.3 \
-		Net::FTP.3 Net::Netrc.3 Net::Telnet.3 Net::PH.3
+		Net::FTP.3 Net::Netrc.3 Net::PH.3
 MANPREFIX=	${PREFIX}/lib/perl5
 
 do-configure:
