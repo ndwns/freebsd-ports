@@ -6,9 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	rxvt-2.4.5
+DISTNAME=	rxvt-2.4.7
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/
+MASTER_SITES=	ftp://ftp.math.fu-berlin.de/pub/rxvt/  \
+		${MASTER_SITE_SUNSITE}  \
+		ftp://ftp.math.fu-berlin.de/pub/rxvt/devel/
+MASTER_SITE_SUBDIR= X11/terms
 
 MAINTAINER=	ports@FreeBSD.ORG
 
