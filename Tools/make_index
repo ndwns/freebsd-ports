@@ -83,8 +83,8 @@ while (<>) {
     my $pkg = {
 	'bdep'		=> [split(/ /, $f[7])],
 	'rdep'		=> [split(/ /, $f[8])],
-	'text'		=> join('|', splice(@f, 0, 7)),
-	'rest'		=> join('|', splice(@f, 9))
+	'rest'		=> join('|', splice(@f, 9)),
+	'text'		=> join('|', splice(@f, 0, 7))
     };
     $index{$name} = $pkg;
 
