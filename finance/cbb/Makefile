@@ -15,7 +15,7 @@ MAINTAINER=	kline@thought.org
 
 #	extern.conf could easily be patched to use `plan' over `ical'
 RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11-toolkits/tk42 \
-		ical:${PORTSDIR}/misc/ical
+		ical:${PORTSDIR}/deskutils/ical
 LIB_DEPENDS=    tk42\\.1\\.:${PORTSDIR}/x11-toolkits/tk42
 
 NO_BUILD=       yes

@@ -11,20 +11,20 @@ BROKEN=		"doesn't build properly from version 1.7.1"
 
 MAKE_ENV+=	JAPANESE=yes
 
-.include	"${.CURDIR}/../../misc/plan/Makefile"
+.include	"${.CURDIR}/../../deskutils/plan/Makefile"
 
 PKGNAME=	ja-${DISTNAME}
 
 MAINTAINER=     obrien@FreeBSD.org
 
-FILESDIR=	${.CURDIR}/../../misc/plan/files
-PATCHDIR=	${.CURDIR}/../../misc/plan/patches
-PKGDIR=		${.CURDIR}/../../misc/plan/pkg
+FILESDIR=	${.CURDIR}/../../deskutils/plan/files
+PATCHDIR=	${.CURDIR}/../../deskutils/plan/patches
+PKGDIR=		${.CURDIR}/../../deskutils/plan/pkg
 
 pre-install:
 	${ECHO}	"share/doc/plan/plan_calSJ.ps" > ${PKGDIR}/PLIST
-	${CAT}	${.CURDIR}/../../misc/plan/pkg/PLIST \
+	${CAT}	${.CURDIR}/../../deskutils/plan/pkg/PLIST \
 		>> ${PKGDIR}/PLIST
-	${CP} ${.CURDIR}/../../misc/plan/pkg/DESCR  \
-		${.CURDIR}/../../misc/plan/pkg/COMMENT  \
+	${CP} ${.CURDIR}/../../deskutils/plan/pkg/DESCR  \
+		${.CURDIR}/../../deskutils/plan/pkg/COMMENT  \
 		${PKGDIR}/PLIST
