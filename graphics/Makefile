@@ -3,6 +3,7 @@
 
     SUBDIR += ImageMagick
     SUBDIR += Mesa
+    SUBDIR += aalib
     SUBDIR += aero
     SUBDIR += camediaplay
     SUBDIR += dc3play
