@@ -8,6 +8,7 @@
     SUBDIR += e93
     SUBDIR += emacs
     SUBDIR += gvim
+    SUBDIR += jed
     SUBDIR += joe
     SUBDIR += jove
     SUBDIR += mule
