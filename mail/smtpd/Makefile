@@ -1,7 +1,7 @@
 # Ports collection makefile for:  smtpd
 # Version required:		2.0
 # Date created:			06 Feb 1998
-# Whom:				Joao Carlos Mendes Luis <jonny@coppe.ufrj.br>
+# Whom:				Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ MASTER_SITES=  ftp://ftp.obtuse.com/pub/smtpd/
 PATCH_SITES=   ${MASTER_SITES}
 PATCHFILES=    patch-smtpd-2.0-RBL.gz
 
-MAINTAINER=    jonny@coppe.ufrj.br
+MAINTAINER=    jonny@jonny.eng.br
 
 #  Directory where smtpd will chroot to, and put the received mail
 #  If you change it here, change also patches/patch-aa
