@@ -2,10 +2,10 @@
 #
 # portlint - lint for port directory
 # implemented by:
-#	Jun-ichiro itojun Itoh <itojun@itojun.org>
+#	Jun-ichiro itojun Hagino <itojun@itojun.org>
 #	Yoshishige Arai <ryo2@on.rim.or.jp>
 #
-# Copyright(c) 1997 by Jun-ichiro Itoh <itojun@itojun.org>.
+# Copyright(c) 1997 by Jun-ichiro Hagino <itojun@itojun.org>.
 # All rights reserved.
 # Freely redistributable.  Absolutely no warranty.
 #
