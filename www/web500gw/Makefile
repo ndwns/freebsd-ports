@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	bjn@visi.com
 
+BROKEN_ELF=	yes
+
 BUILD_DEPENDS=	${PREFIX}/lib/libldap.a:${PORTSDIR}/net/ldap
 
 INSTDIR=	${PREFIX}/bin
