@@ -3,6 +3,7 @@
 
     SUBDIR += acm
     SUBDIR += crossfire
+    SUBDIR += doom
     SUBDIR += flying
     SUBDIR += gnuchess
     SUBDIR += gnushogi
