@@ -11,7 +11,7 @@ PKGNAME?=	xtt-common-${VERSION}.${PATCHLEVEL}
 CATEGORIES=	x11-servers
 MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.3/source/ \
 		ftp://xfree86.cdrom.com/pub/XFree86/3.3.3/source/ \
-		http://hawk.ise.chuo-u.ac.jp/student/person/tshiozak/x-tt/dists/1.x/1.2/
+		http://X-TT.dsl.gr.jp/dists/1.x/1.2/
 DISTFILES=	X333src-1.tgz X333src-2.tgz \
 		xtt-1.2.tar.gz \
 		xtt-1.2-to-1.2.1.tar.gz
@@ -134,7 +134,7 @@ pre-extract:
 	 ${ECHO} "ERROR:" ; \
 	 ${ECHO} "Xtt ${SERVER} ports have already extracted with" ; \
 	 ${ECHO} "\"USE_SHARED_WRKSRC\" option." ; \
-	 false )
+	 ${FALSE} )
 .endif
 
 pre-patch:
@@ -153,7 +153,7 @@ pre-configure:
 	@( \
 	${CP} ${FILESDIR}/Imakefile ${WRKDIR} ; \
 	(cd ${WRKDIR} ; ${XMKMF} ; \
-          ${SETENV} ${MAKE_ENV} DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} \
+	  ${SETENV} ${MAKE_ENV} DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} \
 		FILESDIR=${FILESDIR} ${MAKE}) ; \
 	${CAT} ${HOSTDEFLOCAL} ${HOSTDEFSRV} > ${HOSTDEFDST} )
 
@@ -173,12 +173,12 @@ do-install:
 .elif ${SERVER} == xfs
 do-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${INSTALL_PROGRAM} \
-          ${WRKSRC}/programs/xfs/xfs ${PREFIX}/bin/xfs.xtt
+	  ${WRKSRC}/programs/xfs/xfs ${PREFIX}/bin/xfs.xtt
 .else
 do-install:
 	@( \
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${INSTALL_PROGRAM} \
-          ${WRKSRC}/programs/Xserver/${SERVER} ${PREFIX}/bin/${SERVER}.xtt; \
+	  ${WRKSRC}/programs/Xserver/${SERVER} ${PREFIX}/bin/${SERVER}.xtt; \
 	${LN} -fs ${PREFIX}/bin/${SERVER}.xtt ${PREFIX}/bin/X )
 .endif
 
