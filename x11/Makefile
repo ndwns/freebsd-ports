@@ -6,7 +6,7 @@
     SUBDIR += XFree86-contrib
     SUBDIR += Xaw3d
     SUBDIR += afterstep
-    SUBDIR += afterstep144
+    SUBDIR += afterstep-devel
     SUBDIR += amiwm
     SUBDIR += asclock
     SUBDIR += asfiles
