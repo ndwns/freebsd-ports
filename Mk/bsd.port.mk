@@ -98,11 +98,11 @@
 # install		- Install the results of a build.
 # reinstall		- Install the results of a build, ignoring "already installed"
 #				  flag.
-# package		- Create a package from a build.
+# package		- Create a package from an _installed_ port.
 # describe		- Try to generate a one-line description for each port for
 #				  use in INDEX files and the like.
 # checksum		- Use files/md5 to ensure that your distfiles are valid
-# makesum		- Generate files/md5
+# makesum		- Generate files/md5 (only do this for your own ports!)
 #
 # Default sequence for "all" is:  fetch extract configure build
 
@@ -382,9 +382,9 @@ ${BUILD_COOKIE}:
 	@echo "===>  Building for ${DISTNAME}"
 	@${MAKE} ${.MAKEFLAGS} pre-build
 .if defined(USE_GMAKE)
-	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
+	@(cd ${WRKSRC}; ${GMAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
 .else defined(USE_GMAKE)
-	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
+	@(cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${ALL_TARGET})
 .endif
 	@if [ -f ${SCRIPTDIR}/post-build ]; then \
 		env CURDIR=${.CURDIR} DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} \
