@@ -1,6 +1,9 @@
 #
 # $Id$
 #
-SUBDIR= elm metamail mh pine pgpsendmail popper procmail smail
+# BROKEN= popper (doesn't fetch)
+#
+
+SUBDIR= elm metamail mh pine pgpsendmail procmail smail
 
 .include <bsd.port.subdir.mk>
