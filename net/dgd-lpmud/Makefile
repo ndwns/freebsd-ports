@@ -9,12 +9,9 @@
 DISTNAME=	dgd-lpmud
 PKGNAME=	dgd-lpmud-2.4.5
 CATEGORIES+=	net devel games
-MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/ \
-		ftp://ftp.lysator.liu.se/pub/lpmud/mudlibs/other/
-DISTFILES=	sim-2.4.5.tar.gz 2.4.5.tar.gz
-
-PATCH_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
-PATCHFILES=	sim-diffs
+MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
+DISTFILES=	2.4.5-for-1.0.37.tgz
+#DISTFILES=	sim-2.4.5.tar.gz
 
 MAINTAINER=	adam@veda.is
 
@@ -24,9 +21,6 @@ NO_WRKSUBDIR=
 PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 		-p ${PREFIX}/dgd
 #		-r ${PKGDIR}/REQ
-
-pre-patch:
-	@cd ${WRKDIR}; patch -s <2.4.5/diffs; mv 2.4.5/dgd .
 
 do-build:
 	@cd ${WRKDIR}/bin; make
