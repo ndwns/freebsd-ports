@@ -22,5 +22,4 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/jive ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/${MAN1} ${PREFIX}/man/man1
 
-
 .include <bsd.port.mk>
