@@ -12,6 +12,7 @@
     SUBDIR += p5-PGP
     SUBDIR += pgp
     SUBDIR += pidentd
+    SUBDIR += safe-tcl
     SUBDIR += ssh
     SUBDIR += sudo
     SUBDIR += tcp_wrapper
