@@ -1,12 +1,12 @@
 # New ports collection makefile for:	libwww
-# Version required:	5.1m1
+# Version required:	5.2.6
 # Date created:		18 Feb 1996
 # Whom:			torstenb
 #
 # $Id$
 #
 
-PKGNAME=	libwww-5.2.1
+PKGNAME=	libwww-5.2.6
 DISTNAME=	w3c-${PKGNAME}
 CATEGORIES=	www devel
 MASTER_SITES=	http://www.w3.org/Library/Distribution/
