@@ -15,41 +15,25 @@ MASTER_SITES=	ftp://ftp.univ-evry.fr/.04/system/OpenBSD/distfiles/pkfonts/ \
 DISTFILES=	pk${RESOLUTION}.tar.gz
 # see below for RESOLUTION definition
 
-LOOP_VAR=	RESOLUTION
-LOOP_OPTIONS=	118 240 300 360 400 600
 DIST_SUBDIR=	pkfonts
-EXTRACT_CMD=	/usr/bin/true # extracted directly in install target
+EXTRACT_ONLY=	# extracted directly in install target
 NO_BUILD=	yes
 
 .if !defined(RESOLUTION)
-RESOLUTION=     300
-RESOLUTION_UNSPECIFIED=	yes
+RESOLUTION=	300
 .else
 .if ${RESOLUTION} != 118 && ${RESOLUTION} != 240 && \
 	${RESOLUTION} != 300 && ${RESOLUTION} != 360 && \
 	${RESOLUTION} != 400 && ${RESOLUTION} != 600
-RESOLUTION_INVALID=	yes
-.endif
-.endif
-
 pre-fetch:
-.if defined(RESOLUTION_UNSPECIFIED)
-	@echo "Using ${RESOLUTION}dpi English PK fonts."
-	@echo "Set the environment variable RESOLUTION if you want"
-	@echo "it to use other resolutions."
-	@echo "Possible values are: 118, 240, 300 (default), 360, 400 and 600."
-.elif defined(RESOLUTION_INVALID)
-	@echo "Error: invalid value for RESOLUTION: \"${RESOLUTION}\"" 
-	@echo "Possible values are: 118, 240, 300 (default), 360, 400 and 600."
-	@/usr/bin/false
+	@${ECHO} "Error: invalid value for RESOLUTION: \"${RESOLUTION}\""
+	@${ECHO} "Possible values are: 118, 240, 300 (default), 360, 400 and 600."
+	@${FALSE}
+.endif
 .endif
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/fonts
 	tar -C ${PREFIX}/lib/fonts -xzf ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES}
-	@${CP} ${PKGDIR}/${RESOLUTION}.list ${PKGDIR}/PLIST 
-
-pre-clean:
-	@rm -f ${PKGDIR}/PLIST  # created by do-install above
 
 .include <bsd.port.mk>

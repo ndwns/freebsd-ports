@@ -41,7 +41,12 @@
     SUBDIR += offix-printer
     SUBDIR += p5-FreeType
     SUBDIR += p5-FreeTypeWrapper
-    SUBDIR += pkfonts
+    SUBDIR += pkfonts118
+    SUBDIR += pkfonts240
+    SUBDIR += pkfonts300
+    SUBDIR += pkfonts360
+    SUBDIR += pkfonts400
+    SUBDIR += pkfonts600
     SUBDIR += psutils
     SUBDIR += rtf2latex
     SUBDIR += teTeX

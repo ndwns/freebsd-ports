@@ -126,7 +126,10 @@
     SUBDIR += perl5
     SUBDIR += pgp.language
     SUBDIR += pine
-    SUBDIR += pkfonts
+    SUBDIR += pkfonts118
+    SUBDIR += pkfonts240
+    SUBDIR += pkfonts300
+    SUBDIR += pkfonts400
     SUBDIR += plain2
     SUBDIR += plan
     SUBDIR += platex-common
