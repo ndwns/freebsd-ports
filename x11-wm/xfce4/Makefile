@@ -15,9 +15,6 @@ MAINTAINER=	nacai@iname.com
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 USE_IMAKE=	yes
 
 MAN1=	xfce.1 xfmouse.1 xfpager.1 xfsound.1 xfwm.1
