@@ -12,7 +12,7 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.merit.edu/radius/releases/
 DISTFILES=	radius.23c.basic.tar.gz
 
-MAINTAINER=	torstenb@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.org
 
 # restrictive copyright in several files, e.g., "src/sendserver.c"
 RESTRICTED=	redistribution in binary only
