@@ -1,3 +1,7 @@
+# New ports collection makefile for:	scotty
+# Version required:	2.1.9
+# Date created:		18 February 1995
+# Whom:			Gennady Sorokopud <gena@netvisions.net.il>
 #
 # $Id$
 #
@@ -11,7 +15,7 @@ MAINTAINER=	phk@freebsd.org
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 GNU_CONFIGURE=  yes
-CONFIGURE_ARGS= --with-tcl-config=/usr/local/lib/tcl8.0 \
+CONFIGURE_ARGS=	--with-tcl-config=/usr/local/lib/tcl8.0 \
 		--with-tk-config=/usr/local/lib/tk8.0
 
 
