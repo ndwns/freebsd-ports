@@ -10,7 +10,8 @@ DISTNAME=	linpack
 PKGNAME=	linpack-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/linpack/ \
-		ftp://ftp.netlib.org/linpack/
+		ftp://www.hensa.ac.uk/mirrors/linpack/ \
+		ftp://elib.zib-berlin.de/pub/linpack/
 
 DIST_SUBDIR=	${DISTNAME}
 
