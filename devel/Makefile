@@ -4,6 +4,7 @@
     SUBDIR += ElectricFence
     SUBDIR += SWIG
     SUBDIR += SpecTcl
+    SUBDIR += a2dev
     SUBDIR += amulet
     SUBDIR += asl
     SUBDIR += autoconf
