@@ -6,17 +6,18 @@
 # $Id$
 #
 
-DISTNAME=	kbiff-0.8
+DISTNAME=	kbiff-2.0
 CATEGORIES=	mail kde
-MASTER_SITES=	http://www.geocities.com/SiliconValley/Hills/2651/
+MASTER_SITES=	http://home.sprintmail.com/~granroth/kbiff/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BUILD_DEPENDS=	msgfmt:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	kdeui.1:${PORTSDIR}/x11/kdelibs \
 		kdecore.1:${PORTSDIR}/x11/kdelibs
 
 USE_QT=		yes
-FETCH_BEFORE_ARGS=-t
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	CXXFLAGS="${CFLAGS}"
 
 .include <bsd.port.mk>
