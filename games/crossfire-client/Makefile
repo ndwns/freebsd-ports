@@ -8,7 +8,8 @@
 
 DISTNAME=	crossfire-${MAJ}.${MIN}.${PL}
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.real-time.com/pub/games/crossfire/ \
+MASTER_SITES=	http://www.FreeBSD.org/~andreas/download/ \
+		ftp://ftp.real-time.com/pub/games/crossfire/ \
 		ftp://ftp.ifi.uio.no/pub/crossfire/ \
 		ftp://ftp.pyramid.com/pub/crossfire/ \
 		ftp://ftp.sunet.se/pub/unix/games/crossfire/ \
