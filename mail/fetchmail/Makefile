@@ -27,7 +27,7 @@ post-patch:
 	@${CP} -f  /usr/include/md5.h ${WRKSRC}
 
 post-install:
-	${INSTALL} -d -m 555 -o ${DOCOWN} -g ${DOCGRP} ${FDOC}
+	install -d -m 555 -o ${DOCOWN} -g ${DOCGRP} ${FDOC}
 	cd ${WRKSRC} && ${INSTALL_DATA} \
 	   sample.rcfile FAQ NOTES FEATURES README COPYING \
 	   fetchmail-FAQ.html fetchmail-features.html \
