@@ -21,6 +21,6 @@ dict=		ger-eng.txt
 
 post-extract: ${dict}
 ${dict}:
-	${GZIP_CMD} -d < ${DISTDIR}/${dict}.gz > ${WRKSRC}/${.TARGET}
+	${GZCAT} < ${DISTDIR}/${dict}.gz > ${WRKSRC}/${.TARGET}
 
 .include <bsd.port.mk>
