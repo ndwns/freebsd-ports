@@ -1,12 +1,12 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:	3.8.6
+# Version required:	3.9.0
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	ImageMagick-3.8.6
+DISTNAME=	ImageMagick-3.9.0
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
 		ftp://ftp.cci.fr/pub/unix/gfx/ImageMagick/ \
