@@ -18,6 +18,7 @@
     SUBDIR += logo
     SUBDIR += mit-scheme
     SUBDIR += modula-3
+    SUBDIR += modula-3-lib
     SUBDIR += moscow_ml
     SUBDIR += p2c
     SUBDIR += pTk
