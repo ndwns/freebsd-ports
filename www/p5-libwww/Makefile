@@ -58,7 +58,7 @@ MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; \
-		${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL PREFIX=${PREFIX} \
+		${SETENV} ${MAKE_ENV} ${PERL} Makefile.PL PREFIX=${PREFIX} \
 				     INSTALLMAN1DIR=${PREFIX}/man/man1
 
 .include <bsd.port.mk>
