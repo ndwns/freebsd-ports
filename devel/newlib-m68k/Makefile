@@ -11,7 +11,7 @@ PKGNAME=	m68knewlib-1.8.1
 CATEGORIES=	devel
 MASTER_SITES=   ftp://ftp.cygnus.com/pub/newlib/
 
-MAINTAINER=	jhicks@glenatl.glenayre.com
+MAINTAINER=	Jerry.Hicks@Glenayre.com
 
 BUILD_DEPENDS=	m68k-coff-gcc:${PORTSDIR}/devel/m68kgcc
 

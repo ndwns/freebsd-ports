@@ -11,7 +11,7 @@ PKGNAME=	m68kbinutils-2.9.1
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
 
-MAINTAINER=	jhicks@glenatl.glenayre.com
+MAINTAINER=	Jerry.Hicks@Glenayre.com
 
 NO_PACKAGE=	limited audience
 USE_GMAKE=	yes

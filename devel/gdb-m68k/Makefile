@@ -11,7 +11,7 @@ PKGNAME=	m68kgdb-4.17
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	jhicks@glenatl.glenayre.com
+MAINTAINER=	Jerry.Hicks@Glenayre.com
 
 NO_PACKAGE=	limited audience
 GNU_CONFIGURE=	yes

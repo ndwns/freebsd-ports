@@ -11,7 +11,7 @@ PKGNAME=	m68kgcc-2.8.1
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
 
-MAINTAINER=	jhicks@glenatl.glenayre.com
+MAINTAINER=	Jerry.Hicks@Glenayre.com
 
 BUILD_DEPENDS=	m68k-coff-as:${PORTSDIR}/devel/m68kbinutils \
 		m68k-coff-ld:${PORTSDIR}/devel/m68kbinutils
