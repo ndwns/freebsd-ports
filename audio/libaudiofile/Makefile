@@ -14,9 +14,6 @@ MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-GNU_CONFIGURE=	yes
-
-post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+USE_LIBTOOL=	yes
 
 .include <bsd.port.mk>
