@@ -28,6 +28,7 @@
     SUBDIR += skip
     SUBDIR += smurflog
     SUBDIR += ssh
+    SUBDIR += ssh2
     SUBDIR += sudo
     SUBDIR += super
     SUBDIR += swatch
