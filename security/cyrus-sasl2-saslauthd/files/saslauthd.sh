@@ -36,10 +36,9 @@ load_rc_config $name
 
 if [ -z "$saslauthd_runpath" ]; then
 	pidfile="%%SASLAUTHD_RUNPATH%%/${name}.pid"
-	flags="${saslauthd_flags}"
 else
 	pidfile="${saslauthd_runpath}/${name}.pid"
-	flags="${saslauthd_flags} -m ${saslauthd_runpath}"
+	command_args="-m ${saslauthd_runpath}"
 fi
 
 run_rc_command "$1"
