@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	LLNLPython8
+DISTNAME=	LLNLDistribution11
 PKGNAME=	py-gist-1.5
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
@@ -29,7 +29,7 @@ MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
 PYTHONSCRIPTDIR=	${PREFIX}/lib/python1.5
 GISTDIR=	${PYTHONSCRIPTDIR}/site-packages/PyGist
-NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages/NumPy
+NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages/numerical
 RNGDIR=		${PYTHONSCRIPTDIR}/site-packages/RNG
 EXAMPLEDIR=	${PREFIX}/share/examples/PyGist
 
