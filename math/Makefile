@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += Scilab
     SUBDIR += apc
     SUBDIR += blas
     SUBDIR += calc
