@@ -13,6 +13,7 @@ MASTER_SITES=	http://www.domix.de/fbsd/ports/distfiles/
 MAINTAINER=	dr@domix.de
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	"--with-ansi-colours"
 MAKE_FLAGS=	CONF_ARGS="--prefix=${PREFIX}"
 MAN1=		tirc.1
 
