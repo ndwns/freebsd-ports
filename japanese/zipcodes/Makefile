@@ -8,7 +8,7 @@
 
 DISTNAME=	ken_all
 PKGNAME=	ja-zipcodes-1.0
-CATEGORIES=	japanese
+CATEGORIES=	japanese misc
 MASTER_SITES=	http://www.postal.mpt.go.jp/lzh/
 EXTRACT_SUFX=	.lzh
 
