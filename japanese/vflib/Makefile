@@ -18,7 +18,7 @@ MAINTAINER=	mita@jp.FreeBSD.org
 EXTRACT_ONLY=	VFlib-2.22.tar.gz
 
 post-patch:
-	(cd ${WRKSRC}; \
+	@(cd ${WRKSRC}; \
 	 uudecode ${DISTDIR}/VFlib-2.22-PATCH-1 ; \
 	 cd tools ; \
 	 tar xzf ../ktestdiff.tar.gz ; \
@@ -43,5 +43,6 @@ do-install:
 	${MKDIR} ${PREFIX}/share/fonts/watanabe_font
 	tar -C ${PREFIX}/share/fonts/watanabe_font \
 	  -xzf ${DISTDIR}/watanabe-vf.tar.Z
+	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
