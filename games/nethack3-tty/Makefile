@@ -22,6 +22,7 @@ pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
 
 post-install:
+	@cd ${WRKSRC}/doc; chmod 644 *.6
 	@cd ${WRKSRC}/doc; PREFIX=${PREFIX} ${MAKE} manpages
 .if !defined(NOMANCOMPRESS)
 	for file in dgn_comp dlb lev_comp nethack recover; do \
