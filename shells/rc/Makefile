@@ -10,6 +10,9 @@ DISTNAME=       rc-1.5betadev-1
 PKGNAME=	rc-1.5b1
 CATEGORIES+=	plan9
 MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/rc/
+
+MAINTAINER=	erich@FreeBSD.org
+
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>

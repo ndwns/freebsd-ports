@@ -12,6 +12,8 @@ CATEGORIES+=	plan9
 MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 EXTRACT_SUFX=	.msg.gz
 
+MAINTAINER=	erich@FreeBSD.org
+
 NO_WRKSUBDIR=	yes
 EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=

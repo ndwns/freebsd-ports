@@ -11,6 +11,9 @@ PKGNAME=	libXgFonts-1.0
 CATEGORIES+=	plan9
 MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 EXTRACT_SUFX=	.tar.Z
+
+MAINTAINER=	erich@FreeBSD.org
+
 NO_WRKSUBDIR=	yes
 USE_X11=	yes
 

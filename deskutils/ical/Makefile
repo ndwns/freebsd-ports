@@ -10,6 +10,8 @@ DISTNAME=	ical-1.9
 CATEGORIES+=	utilities
 MASTER_SITES=	ftp://ftp.sterling.com/programming/languages/tcl/code/ical/
 
+MAINTAINER=	erich@FreeBSD.org
+
 LIB_DEPENDS=    tcl\\.7\\.:${PORTSDIR}/lang/tcl \
                 tk\\.3\\.:${PORTSDIR}/x11/tk 
 

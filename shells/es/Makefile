@@ -11,4 +11,6 @@ PKGNAME=	es-0.9a1
 CATEGORIES+=	plan9
 MASTER_SITES=   ftp://ftp.sys.toronto.edu/pub/es/
 
+MAINTAINER=	erich@FreeBSD.org
+
 .include <bsd.port.mk>
