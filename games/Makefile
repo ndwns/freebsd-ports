@@ -39,6 +39,7 @@
     SUBDIR += gnushogi
     SUBDIR += golddig
     SUBDIR += icbm3d
+    SUBDIR += ifm
     SUBDIR += imaze
     SUBDIR += inform
     SUBDIR += ishido
