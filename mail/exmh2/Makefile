@@ -40,7 +40,12 @@ WISH=		wish8.0
 TCLSH=		tclsh8.0
 
 # exmh is pretty useless without this, but it's not needed to build it.
+.if defined(USE_NMH)
+RUN_DEPENDS+=	repl:${PORTSDIR}/mail/nmh
+SCRIPTS_ENV+=	USE_NMH=YES
+.else
 RUN_DEPENDS+=	repl:${PORTSDIR}/mail/mh
+.endif
 
 # full mime support needs mmencode/mmdecode from metamail
 RUN_DEPENDS+=	mmencode:${PORTSDIR}/mail/metamail
@@ -57,7 +62,7 @@ MAN1=		exmh.1
 do-build:
 	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} TCLSH=${TCLSH} \
 		WISH=${PREFIX}/bin/${WISH} WRKSRC=${WRKSRC} \
-		FILESDIR=${FILESDIR} ${SH} ${SCRIPTDIR}/build
+		${SCRIPTS_ENV} ${SH} ${SCRIPTDIR}/build
 
 do-install:
 	@cd ${WRKSRC} && ${SETENV} PREFIX=${PREFIX} \
