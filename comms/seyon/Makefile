@@ -16,7 +16,6 @@ MAINTAINER=	me@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/seyon
 USE_IMAKE=	yes
-BROKEN=		Installs file in \$${HOME}/.seyon
 
 MAN1=		seyon.1
 
