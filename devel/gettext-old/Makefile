@@ -13,6 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	Nakai@technologist.com
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS=	--with-gnu-gettext
 
 pre-configure:
 	${RM} ${WRKSRC}/doc/gettext.info*
