@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	zebra-0.76
+DISTNAME=	zebra-0.77
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 # you might need debugging, it's a developer release !
