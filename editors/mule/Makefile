@@ -37,4 +37,11 @@ STRIP=
 pre-build:
 	find ${WRKSRC} -name \*.orig -exec /bin/rm -f \{} \;
 
+post-install:
+# note that any2ps is a script
+	strip ${PREFIX}/bin/mule-19.28
+	strip ${PREFIX}/bin/m2ps
+	strip ${PREFIX}/bin/b2m
+	strip ${PREFIX}/bin/coco
+
 .include <bsd.port.mk>
