@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	gtk+-1.1.13
-PKGNAME=	gtk-1.1.13
+DISTNAME=	gtk+-1.1.14
+PKGNAME=	gtk-1.1.14
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.1/ \
@@ -22,11 +22,10 @@ LIB_DEPENDS=	glib11d.2:${PORTSDIR}/devel/glib11-devel
 USE_X_PREFIX=	yes
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	INSTALL='$${INSTALL} -c' \
-		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
-		CPPFLAGS="-I${LOCALBASE}/include" \
-		LIBS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11d
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
+		GLIB_CONFIG="${LOCALBASE}/bin/glib11d-config" \
+		LIBS="-L${LOCALBASE}/lib"
 
 MAN1=		gtk-config.1
 
