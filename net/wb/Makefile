@@ -17,8 +17,8 @@ NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 USE_X11=	yes
 
-# XXX ghostscript, ghostscript3 or ghostscript4 will all do.
-RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript4
+# XXX ghostscript, ghostscript3, ghostscript4 or ghostscript5 will all do.
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wb ${PREFIX}/bin
