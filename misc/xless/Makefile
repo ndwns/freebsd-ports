@@ -8,8 +8,9 @@
       
 DISTNAME=	xless-1.7
 CATEGORIES=	misc	
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/ \
+MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
 		ftp://ftp.cs.berkeley.edu/ucb/people/dglo/xless/
+MASTER_SITE_SUBDIR=     applications
 
 MAINTAINER=	conrads@neosoft.com
       
