@@ -11,10 +11,10 @@ PKGNAME=	qpop-2.2
 CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.qualcomm.com/quest/unix/servers/popper/
 EXTRACT_SUFX=	.tar.Z
-NO_PACKAGE=	"Needs POP UID"
 
 MAINTAINER=	pst@freebsd.org
 
+NO_PACKAGE=	"Needs POP UID"
 WRKSRC=		${WRKDIR}/qpopper2.2
 
 .include <bsd.port.mk>
