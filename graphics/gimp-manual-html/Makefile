@@ -58,9 +58,6 @@ EXTRACT_ONLY=	#empty
 NO_BUILD=	yes
 USE_X_PREFIX=	yes
 
-post-fetch:
-	@${MKDIR} ${WRKDIR}
-
 do-install:
 	@${MKDIR} ${PREFIX}/share/doc/gimp
 	@${CP} ${DISTDIR}/GimpUserManual-1.0.0-pdf ${PREFIX}/share/doc/gimp
