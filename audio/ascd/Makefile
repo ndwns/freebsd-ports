@@ -12,6 +12,8 @@ MASTER_SITES=	http://slashdot.org/linux/dl/
 
 MAINTAINER=	jim@phrantic.phear.net
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_IMAKE=	yes
 MAN1=		ascd.1
 

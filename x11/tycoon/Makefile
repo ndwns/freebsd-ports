@@ -13,7 +13,8 @@ MASTER_SITE_SUBDIR=	X11/desktop
 
 MAINTAINER=	steve@farrell.org
 
-LIB_DEPENDS=	xforms:${PORTSDIR}/x11-toolkits/xforms
+LIB_DEPENDS=	xforms:${PORTSDIR}/x11-toolkits/xforms \
+		Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes

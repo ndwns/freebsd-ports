@@ -18,6 +18,8 @@ PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	xklock-2.7+lx.diff.gz
 PATCH_DIST_STRIP=	-p1
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 MAINTAINER=	nkazushi@highway.or.jp
 
 BROKEN_ELF=	yes
