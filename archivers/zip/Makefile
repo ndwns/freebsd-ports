@@ -9,7 +9,7 @@
 DISTNAME=       zip21
 PKGNAME=        zip-2.1
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://quest.jpl.nasa.gov/pub/
+MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
 EXTRACT_SUFX=   .zip
 
 MAINTAINER=     ache@FreeBSD.ORG
