@@ -54,6 +54,7 @@
     SUBDIR += xfmail
     SUBDIR += xlbiff
     SUBDIR += xmail
+    SUBDIR += xmailbox
     SUBDIR += xpbiff
     SUBDIR += xpbiff-youbin
     SUBDIR += youbin
