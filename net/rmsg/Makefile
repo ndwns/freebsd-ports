@@ -8,7 +8,7 @@
 
 DISTNAME=	rmsg-1.64
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/tcpip/ \
+MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/tcpip/ \
 		ftp://proton.elka.pw.edu.pl/pub/unix/network/
 
 MAINTAINER=	torstenb@FreeBSD.org
