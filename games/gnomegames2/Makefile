@@ -1,13 +1,13 @@
 # New ports collection makefile for:   gnomegames
-# Version required:    0.99.0
+# Version required:    0.99.1
 # Date created:        03 July 1998
 # Whom:                Yukihiro Nakai <Nakai@technologist.com>
 #
 # $Id$
 #
 
-DISTNAME=	gnome-games-0.99.0
-PKGNAME=        gnomegames-0.99.0
+DISTNAME=	gnome-games-0.99.1
+PKGNAME=        gnomegames-0.99.1
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 		ftp://ftp.gnome.org/pub/GNOME/sources/
