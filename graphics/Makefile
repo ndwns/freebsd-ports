@@ -5,6 +5,7 @@
     SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += camediaplay
+    SUBDIR += dc3play
     SUBDIR += dore
     SUBDIR += geomview
     SUBDIR += gd
