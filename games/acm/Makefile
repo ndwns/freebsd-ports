@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.websimulations.com/download/
 
 MAINTAINER=	se@FreeBSD.org
 
+BROKEN='acm-5.0.tar.gz is all that is available' 
+
 GNU_CONFIGURE=	yes
 MAN6=		acm.6
 
