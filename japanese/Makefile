@@ -22,7 +22,9 @@
     SUBDIR += nethack
     SUBDIR += netscape.language
     SUBDIR += nkf
+    SUBDIR += platex
     SUBDIR += ptex
+    SUBDIR += ptex2
     SUBDIR += sed
     SUBDIR += tcl
     SUBDIR += tk
