@@ -69,6 +69,7 @@
     SUBDIR += xmascot
     SUBDIR += xmold
     SUBDIR += xpostit
+    SUBDIR += xprompt
     SUBDIR += xscreensaver
     SUBDIR += xsnow
     SUBDIR += xtacy
