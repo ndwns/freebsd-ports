@@ -24,6 +24,6 @@ EXTRACT_ONLY=	nedit_source.tar.gz
 MAN1=		nedit.1 nc.1
 
 post-extract:
-	${CP} ${DISTDIR}/nedit.app-defaults ${WRKSRC}/NEdit
+	${CP} ${DISTDIR}/nedit.app-defaults ${WRKSRC}/NEdit.ad
 
 .include <bsd.port.mk>
