@@ -34,12 +34,14 @@
     SUBDIR += gindent
     SUBDIR += glade
     SUBDIR += gmake
+    SUBDIR += guileobjc
     SUBDIR += id-utils
     SUBDIR += ilu
     SUBDIR += jam
     SUBDIR += lclint
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
+    SUBDIR += libobjects
     SUBDIR += libproplist
     SUBDIR += libslang
     SUBDIR += libtool
