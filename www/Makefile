@@ -24,6 +24,7 @@
     SUBDIR += chimera
     SUBDIR += chimera2
     SUBDIR += comline
+    SUBDIR += evg
     SUBDIR += fxhtml
     SUBDIR += gn
     SUBDIR += grail
@@ -41,6 +42,7 @@
     SUBDIR += linux-netscape4
     SUBDIR += lynx
     SUBDIR += lynx-current
+    SUBDIR += lynx-ssl
     SUBDIR += mapedit
     SUBDIR += marc-search
     SUBDIR += mhonarc
