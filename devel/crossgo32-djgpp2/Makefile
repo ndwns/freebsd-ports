@@ -12,18 +12,15 @@ PKGNAME=	crossgo32-djgpp2-2.01
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.tas.gov.au/pc/simtelnet/gnu/djgpp/v2/ \
 		ftp://ftp.cdrom.com/pub/simtelnet/gnu/djgpp/v2/
-EXTRACT_SUFX=	.zip
 
 MAINTAINER=	sutton@aardvark.apana.org.au
 
-BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS=	i386-go32-gcc:${PORTSDIR}/devel/crossgo32
 
 BROKEN=		install
 
-EXTRACT_CMD=		unzip
-EXTRACT_BEFORE_ARGS=	-La
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=	yes
+EXTRACT_BEFORE_ARGS=	-qLa
 
 # Source directories
 #
