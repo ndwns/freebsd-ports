@@ -507,6 +507,7 @@ get_interrupts(void)
 static void
 get_nfsstat(void)
 {
+#if __FreeBSD_version < 400001
     int name[3];
     size_t size = sizeof(nfsstats);
 
@@ -514,6 +515,10 @@ get_nfsstat(void)
     name[1] = vfc.vfc_typenum;
     name[2] = NFS_NFSSTATS;
     if (sysctl(name, 3, &nfsstats, &size, (void *)0, (size_t)0) < 0) {
+#else
+    size_t size = sizeof(nfsstats);
+    if (sysctlbyname("vfs.nfs.nfsstats", &nfsstats, &size, (void *)0, (size_t)0) < 0) {
+#endif
 	fprintf(stderr, "xperfmon++: get_nfsstat(): Can?%t get NFS statistics with sysctl()\n");
 	return;
     }
