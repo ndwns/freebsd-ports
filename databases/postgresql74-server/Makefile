@@ -8,7 +8,9 @@
 
 DISTNAME=	postgresql-6.4.2
 CATEGORIES=	databases
-MASTER_SITES=	ftp://ftp.postgresql.org/pub/
+MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
+		ftp://ftp.iodynamics.com/pub/mirror/postgresql/
+
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
