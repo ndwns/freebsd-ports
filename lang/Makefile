@@ -68,6 +68,7 @@
     SUBDIR += smalltalk
     SUBDIR += sml-nj
     SUBDIR += squeak
+    SUBDIR += squeak2
     SUBDIR += sr
     SUBDIR += swi-pl
     SUBDIR += tcl75
