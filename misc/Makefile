@@ -20,6 +20,7 @@
     SUBDIR += gnuls
     SUBDIR += ical
     SUBDIR += jive
+    SUBDIR += kdeutils
     SUBDIR += kp
     SUBDIR += less
     SUBDIR += lile

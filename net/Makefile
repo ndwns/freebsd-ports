@@ -30,6 +30,7 @@
     SUBDIR += ircii-epic
     SUBDIR += isc-dhcp
     SUBDIR += ivs
+    SUBDIR += kdenetwork
     SUBDIR += ldap
     SUBDIR += libsocket++
     SUBDIR += mirror

@@ -7,7 +7,8 @@
 #
 
 DISTNAME=	kdesupport-Beta1-2
-CATEGORIES=	x11
+PKGNAME=	kdesupport-1.2b
+CATEGORIES=	converters kde
 MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/stable/Beta1/distribution/tgz/source/ \
  		ftp://ftp.uni-erlangen.de/pub/Linux/MIRROR.KDE/stable/Beta1/distribution/tgz/source/ \
  		ftp://ftp.caldera.com/pub/mirrors/kde/stable/Beta1/distribution/tgz/source/
@@ -15,7 +16,7 @@ EXTRACT_SUFX=	.src.tgz
 
 MAINTAINER=	se@freebsd.org
 
-BUILD_DEPENDS=	${X11BASE}/bin/moc:${PORTSDIR}/x11/qt
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.[0-9]:${PORTSDIR}/x11/qt
 
 HAS_CONFIGURE=	yes

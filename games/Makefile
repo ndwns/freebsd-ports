@@ -24,6 +24,7 @@
     SUBDIR += golddig
     SUBDIR += imaze
     SUBDIR += jetpack
+    SUBDIR += kdegames
     SUBDIR += klondike
     SUBDIR += lincity
     SUBDIR += nethack

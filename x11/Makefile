@@ -34,11 +34,7 @@
     SUBDIR += gwm
     SUBDIR += iv
     SUBDIR += kdebase
-    SUBDIR += kdegames
     SUBDIR += kdelibs
-    SUBDIR += kdenetwork
-    SUBDIR += kdesupport
-    SUBDIR += kdeutils
     SUBDIR += lesstif
     SUBDIR += libdnd
     SUBDIR += libsx
