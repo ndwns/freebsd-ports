@@ -27,11 +27,15 @@ pre-patch:
 	${CP} ${FILESDIR}/patch-kanji ${PATCHDIR}
 .endif
 
+post-patch:
+	@find ${WRKSRC} -name '*.orig' | xargs ${RM} -f
+
 post-install:
 	chown root.wheel ${PREFIX}/bin/Eterm
 	chmod 4755 ${PREFIX}/bin/Eterm
-
+	${INSTALL_DATA} ${WRKSRC}/ReleaseNotes ${PREFIX}/share/Eterm
 .ifndef NOPORTDOCS
+	${INSTALL_DATA} ${WRKSRC}/doc/Eterm.help ${PREFIX}/share/Eterm
 	${INSTALL_DATA} ${WRKSRC}/doc/Eterm.ref ${PREFIX}/share/Eterm
 	${INSTALL_DATA} ${WRKSRC}/doc/Eterm.tcap ${PREFIX}/share/Eterm
 	${INSTALL_DATA} ${WRKSRC}/doc/Eterm.ti ${PREFIX}/share/Eterm
