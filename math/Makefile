@@ -47,5 +47,6 @@
     SUBDIR += xmgr
     SUBDIR += xplot
     SUBDIR += xspread
+    SUBDIR += xwpl
 
 .include <bsd.port.subdir.mk>
