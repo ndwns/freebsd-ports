@@ -1,9 +1,23 @@
 # $Id$
 #
-# BROKEN: Mesa (doesn't install)
-#
 
-SUBDIR=	ImageMagick dore jpeg mpeg-lib mpeg_play netpbm \
-	pixmap povray tiff vcg xanim xfig xli xpaint xpm xv
+    SUBDIR += ImageMagick
+    BROKEN += Mesa              # doesn't install
+    SUBDIR += dore
+    SUBDIR += jpeg
+    SUBDIR += mpeg-lib
+    SUBDIR += mpeg_play
+    SUBDIR += netpbm
+    SUBDIR += pixmap
+    SUBDIR += povray
+    SUBDIR += tiff
+    SUBDIR += vcg
+    SUBDIR += xanim
+    SUBDIR += xdl
+    SUBDIR += xfig
+    SUBDIR += xli
+    SUBDIR += xpaint
+    SUBDIR += xpm
+    SUBDIR += xv
 
 .include <bsd.port.subdir.mk>
