@@ -6,14 +6,36 @@
 # $Id$
 #
 
-DISTNAME=       bash-2.0
+DISTNAME=	bash-2.0
 CATEGORIES=	shells
-MASTER_SITES=   ftp://slc2.ins.cwru.edu/pub/dist/
+MASTER_SITES=	ftp://slc2.ins.cwru.edu/pub/dist/  \
+		${MASTER_SITE_GNU}
+.if !defined(NOPORTDOCS)
+DISTFILES=	bash-2.0.tar.gz bash-doc-2.0.tar.gz
+.endif
 
-MAINTAINER=     ache@FreeBSD.ORG
+MAINTAINER=	ache@FreeBSD.ORG
 
-GNU_CONFIGURE=  Yes
+GNU_CONFIGURE=	Yes
+MAN1=		bash.1 bashbug.1
 
-MAN1=           bash.1 bashbug.1
+
+post-install:
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/bash
+	${INSTALL_MAN}  \
+		${WRKDIR}/bash-doc-2.0/doc/article.ps  \
+		${WRKDIR}/bash-doc-2.0/doc/bashref.ps  \
+		${PREFIX}/share/doc/bash
+	${INSTALL_MAN}  \
+		${WRKDIR}/bash-doc-2.0/doc/bash.html  \
+		${WRKDIR}/bash-doc-2.0/doc/bashref.html  \
+		${WRKDIR}/bash-doc-2.0/doc/bashref_toc.html  \
+		${PREFIX}/share/doc/bash
+	${INSTALL_MAN}  \
+		${WRKDIR}/bash-doc-2.0/doc/article.txt  \
+		${PREFIX}/share/doc/bash
+	${GZIP_CMD} ${PREFIX}/share/doc/bash/*.ps
+.endif
 
 .include <bsd.port.mk>
