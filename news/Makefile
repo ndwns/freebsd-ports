@@ -16,8 +16,9 @@
     SUBDIR += nntp
     SUBDIR += nntpbtr
     SUBDIR += nntpcache
-    SUBDIR += p5-News-Article
     SUBDIR += p5-Gateway
+    SUBDIR += p5-News-Article
+    SUBDIR += p5-News-Newsrc
     SUBDIR += pgpmoose
     SUBDIR += plor
     SUBDIR += rkive
