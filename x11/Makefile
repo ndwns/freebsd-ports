@@ -29,6 +29,7 @@
     SUBDIR += gwm
     SUBDIR += iv
     SUBDIR += lesstif
+    SUBDIR += libdnd
     SUBDIR += libsx
     SUBDIR += lupe
     SUBDIR += mlvwm
