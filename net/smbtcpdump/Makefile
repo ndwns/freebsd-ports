@@ -20,10 +20,6 @@ MAINTAINER=	obrien@FreeBSD.org
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
-BROKEN=         T_GID undeclared
-.endif
-
 GNU_CONFIGURE=	yes
 ALL_TARGET=	depend tcpdump
 MAN1=		smbtcpdump.1
