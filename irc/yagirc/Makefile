@@ -16,6 +16,8 @@ LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		Imlib.1:${PORTSDIR}/graphics/imlib \
 		esd.0:${PORTSDIR}/audio/esound
 
+BROKEN=		build
+
 USE_GMAKE=	yes
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
