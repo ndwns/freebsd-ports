@@ -12,6 +12,8 @@ MASTER_SITES=	http://earthspace.net/~esr/giflib/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+USE_XLIB=	yes
+
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"

@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
+USE_XLIB=	yes
 MAKEFILE=	Makefile.Linux
 MAN1=		xjig.1
 

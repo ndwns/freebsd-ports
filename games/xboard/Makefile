@@ -12,6 +12,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	xaa@xaa.iae.nl
 
+USE_XLIB=	yes
 GNU_CONFIGURE=  yes
 STRIP=
 MAN6=		xboard.6 cmail.6 zic2xpm.6
