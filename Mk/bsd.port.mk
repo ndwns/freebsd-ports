@@ -734,7 +734,7 @@ install: build ${INSTALL_COOKIE}
 ${INSTALL_COOKIE}:
 	@${ECHO_MSG} "===>  Installing for ${PKGNAME}"
 .if !defined(USE_X11) && !defined(USE_IMAKE) && defined(MTREE_LOCAL)
-	${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/;
+	@${MTREE_CMD} ${MTREE_ARGS} ${PREFIX}/;
 .endif
 .if target(pre-install)
 	@${MAKE} ${.MAKEFLAGS} pre-install
