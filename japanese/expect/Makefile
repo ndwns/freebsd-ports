@@ -6,17 +6,17 @@
 # $Id$
 #
 
-FILESDIR=	${.CURDIR}/../../lang/expect/files
-
-NO_MAN_INSTALL=	yes
-.include "${.CURDIR}/../../lang/expect/Makefile"
-
 PKGNAME=	ja-expect-5.25
 CATEGORIES=	japanese lang
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	tk42jp\\.1\\.:${PORTSDIR}/japanese/tk42
+
+FILESDIR=	${.CURDIR}/../../lang/expect/files
+
+NO_MAN_INSTALL=	yes
+.include "${.CURDIR}/../../lang/expect/Makefile"
 
 CFLAGS+=	-DKANJI -DKINPUT2
 CONFIGURE_ARGS=	--enable-shared --with-tclconfig=${PREFIX}/lib/tcl7.6jp \
