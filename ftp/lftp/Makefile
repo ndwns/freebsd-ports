@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	system/network/file-transfer
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+BROKEN=		fetch
+
 GNU_CONFIGURE=	yes
 MAN1=		lftp.1 ftpget.1
 
