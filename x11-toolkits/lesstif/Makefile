@@ -24,24 +24,23 @@ USE_X11=	yes
 .if defined(HAVE_MOTIF)
 IS_INTERACTIVE=	yes
 pre-fetch:
-	@echo "***********************************************************"
-	@echo "*                      W a r n i n g                      *"
-	@echo "* This port will overwrite your Motif installation.       *"
-	@echo "***********************************************************"
-	@echo -n "Is this ok? (y/n) ==> "
+	@${ECHO} "***********************************************************"
+	@${ECHO} "*                      W a r n i n g                      *"
+	@${ECHO} "* This port will overwrite your Motif installation.       *"
+	@${ECHO} "***********************************************************"
+	@${ECHO} -n "Is this ok? (y/n) ==> "
 	@(read ans; \
 	  case x"$$ans" in \
 	    xy*|xY*) \
 	        return 0; \
 	        ;; \
 	    *) \
-	        echo "Okay, I won't install it then...."; \
-	        echo "(Don't worry about the following \"*** Error code 1\"s)"; \
+	        ${ECHO} "Okay, I won't install it then...."; \
+	        ${ECHO} "(Don't worry about the following \"*** Error code 1\"s)"; \
 	        return 1; \
 	        ;; \
 	  esac)
 .endif
-
 
 post-install:
 	${MKDIR} ${PREFIX}/lib/X11/mwm ${PREFIX}/lib/X11/app-defaults
@@ -54,7 +53,6 @@ post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
-
 
 #	Shared lib versions
 #	dist version		BSD shared lib version
