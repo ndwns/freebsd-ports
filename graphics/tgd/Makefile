@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://dendrome.ucdavis.edu/pub/tgd/ \
 		ftp://probe.nalusda.gov/pub/treegenes/
 
-MAINTAINER=	mharo@area51.fremont.ca.us
+MAINTAINER=	mharo@FreeBSD.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 
