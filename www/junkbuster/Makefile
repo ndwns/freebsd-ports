@@ -6,7 +6,7 @@
 # $Id$
 
 DISTNAME=	ijb20
-PKGNAME=	ijb-2.0
+PKGNAME=	ijb-2.0.2
 CATEGORIES=	www
 MASTER_SITES=	http://www.junkbusters.com/ht/en/
 EXTRACT_SUFX=	.tar.Z
