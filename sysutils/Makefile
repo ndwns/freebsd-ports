@@ -12,6 +12,7 @@
     SUBDIR += socket
     SUBDIR += stat
     SUBDIR += su2
+    SUBDIR += tcplist
     SUBDIR += top
     SUBDIR += tua
     SUBDIR += xbatt
