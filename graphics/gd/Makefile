@@ -1,5 +1,5 @@
 # New ports collection makefile for: gd
-# Version required:     1.3
+# Version required:     1.6.2
 # Date created:         27 Mar 1998
 # Whom:                 jeff@cetlink.net
 #
