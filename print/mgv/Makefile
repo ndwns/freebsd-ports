@@ -21,7 +21,7 @@ MAKEFILE=	GNUmakefile
 MAN1=		mgv.1
 
 pre-build:
-		@ ${CP} -f ${WRKSRC}/make/sys.freebsd3.mk ${WRKSRC}/make/sys.mk
+		@ ${CP} -f ${WRKSRC}/make/sys.freebsd.mk ${WRKSRC}/make/sys.mk
 
 post-install:
 		@ ${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
