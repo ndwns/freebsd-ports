@@ -14,6 +14,8 @@ DISTFILES=	ispell-3.1.20.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
+BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
+
 MAKE_FLAGS=	TMPDIR=${.CURDIR} -f 
 MAN1=		buildhash.1 findaffix.1 ispell.1 munchlist.1 \
 		sq.1 tryaffix.1 unsq.1
