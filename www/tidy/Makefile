@@ -10,6 +10,7 @@ DISTNAME=	tidy17dec98
 PKGNAME=	tidy-0.1.98.12
 CATEGORIES=	www
 MASTER_SITES=	http://www.w3.org/People/Raggett/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	saken@budoir.net
 
