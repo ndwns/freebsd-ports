@@ -33,6 +33,8 @@ post-configure:
 .endif
 
 post-install:
+	# needed to build apache-ssl port
+	${CP} ${WRKSRC}/libRSAglue.a ${PREFIX}/lib
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/SSLeay
 	@${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/SSLeay
