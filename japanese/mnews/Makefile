@@ -11,7 +11,7 @@ PKGNAME?=	ja-mnews-1.21
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.mei.co.jp/free/Network/news/readers/
 
-MAINTAINER=	kiroh@kh.rim.or.jp
+MAINTAINER=	seiken@os.rim.or.jp
 
 WRKSRC=		${WRKDIR}/mnews-1.21/build
 MAN1=		mnews.1
