@@ -24,6 +24,7 @@
     SUBDIR += suck
     SUBDIR += tin
     SUBDIR += trn
+    SUBDIR += trn4
     SUBDIR += unpost
     SUBDIR += xmitbin
     SUBDIR += xvnews
