@@ -128,6 +128,7 @@
     SUBDIR += xsokoban
     SUBDIR += xsol
     SUBDIR += xsoldier
+    SUBDIR += xspacewarp
     SUBDIR += xspringies
     SUBDIR += xtic
     SUBDIR += xtriangles
