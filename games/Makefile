@@ -110,6 +110,7 @@
     SUBDIR += xtriangles
     SUBDIR += xtris
     SUBDIR += xtruco
+    SUBDIR += xvmines
     SUBDIR += yahtzee
     SUBDIR += yamsweeper
     SUBDIR += ztrack
