@@ -17,7 +17,7 @@ MANCOMPRESSED=	yes
 MAN1=		xsysinfo.1
 
 pre-configure:
-	if [ -e /usr/lib/libdevstat.a ]; then \
+	if [ -e /usr/lib/libdevstat.a -o -e /usr/lib/aout/libdevstat.a ]; then \
 		cd ${WRKSRC} ; \
 		${MV} Imakefile Imakefile.in ; \
 		${SED} -e "s:DEFINES =:DEFINES = -DHAVE_DEVSTAT:" Imakefile.in > Imakefile.i1 ; \

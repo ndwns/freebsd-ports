@@ -20,7 +20,7 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 USE_IMAKE=	yes
 
 pre-configure:
-	if [ -e /usr/lib/libdevstat.a ]; then \
+	if [ -e /usr/lib/libdevstat.a -o -e /usr/lib/aout/libdevstat.a ]; then \
 		cd ${WRKSRC} ; \
 		${MV} Imakefile Imakefile.in ; \
 		${SED} -e "s:EXTRA_DEFINES=:EXTRA_DEFINES= -DHAVE_DEVSTAT:" Imakefile.in > Imakefile.i1 ; \
