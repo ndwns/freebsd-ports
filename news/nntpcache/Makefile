@@ -13,6 +13,15 @@ MASTER_SITES=	ftp://nntpcache.org/pub/nntpcache/
 MAINTAINER=	nntpcache@nntpcache.org
 
 GNU_CONFIGURE=	TRUE
+CONFIGURE_ARGS+=	--localstatedir=/var/spool
 MAN8=		nntpcache.8
+
+post-configure:
+	@sed -e "s:%%PREFIX%%:${PREFIX}:g"  \
+		${FILESDIR}/nntpcached.rc > ${WRKSRC}/nntpcached.sh
+
+post-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/nntpcached.sh ${PREFIX}/etc/rc.d
+	@${RM} ${PREFIX}/etc/nntpcache/*.bak
 
 .include <bsd.port.mk>
