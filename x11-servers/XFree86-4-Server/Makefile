@@ -28,10 +28,8 @@ X11FIXES = /usr/ports/distfiles/xc
 #######################################################################
 DISTNAME	=	xc
 PKGNAME		= 	XFree86-3.1.1
-WRKDIR?=                ${.CURDIR}/work
-BUILD_COOKIE?=		${WRKDIR}/.build_done
-EXTRACT_COOKIE?=	${WRKDIR}/.extract_done
 IS_INTERACTIVE=		yes
+
 MAINTAINER=		jmz@FreeBSD.ORG
 
 .if defined(X11_ON_X_CDROM) || defined(X11_ON_OR_CDROM)
@@ -40,10 +38,7 @@ X11_ON_CDROM	=	yes
 
 .if defined(X11_ON_CDROM) || defined(X11_VIA_FTP)
 
-build: configure ${BUILD_COOKIE}
-
-${BUILD_COOKIE}:
-	@echo "===>  Building for ${DISTNAME}"
+do-build:
 .if defined(REMOVE_NOT_ESSENTIAL)
 	@rm -rf ${WRKSRC}/test ${WRKSRC}/doc/hardcopy ${WRKSRC}/doc/specs
 	@find ${WRKSRC}/ -name '*.orig' -exec rm -f {} ';'
@@ -61,13 +56,13 @@ install:
 
 .if defined(X11_ON_CDROM)
 .if !defined (X11FIXES)
-configure:
+do-configure:
 	@echo Edit the makefile and set X11FIXES !!!!
 	@exit 1;
 .endif
-fetch:
+do-fetch:
 	@echo -n
-${EXTRACT_COOKIE}:
+do-extract:
 	@rm -rf ${WRKDIR}
 	@mkdir -p ${WRKDIR}
 	@echo ${X11FIXES} > ${WRKDIR}/.cdrom
@@ -84,15 +79,15 @@ ${EXTRACT_COOKIE}:
 .else
 all:
 	@echo -n
-fetch:
+do-fetch:
 	@echo -n
-extract:
+do-extract:
 	@echo -n
-configure:
+do-configure:
 	@echo -n
-build:
+do-build:
 	@echo -n
-install:
+do-install:
 	@echo -n
 .endif
 
