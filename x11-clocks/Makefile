@@ -13,6 +13,7 @@
     SUBDIR += swisswatch
     SUBDIR += t3d
     SUBDIR += wmcalclock
+    SUBDIR += wmdate
     SUBDIR += wmitime
     SUBDIR += wmtime
     SUBDIR += xalarm
