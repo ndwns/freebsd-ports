@@ -38,7 +38,7 @@ MAN1=		vim.1 xxd.1 ectags.1
 REQUIRES_MOTIF=	yes
 MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=motif" MOTIFHOME=${X11BASE} ${MAKE_FLAGS}
 .else
-MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=yes" ${MAKE_FLAGS}
+MAKE_FLAGS:=	CONF_OPT_GUI="--enable-gui=athena" ${MAKE_FLAGS}
 .endif
 
 .if defined(BATCH)
