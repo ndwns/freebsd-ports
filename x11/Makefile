@@ -38,6 +38,7 @@
     SUBDIR += gwm
     SUBDIR += icewm
     SUBDIR += iv
+    SUBDIR += kb2mb2
     SUBDIR += kde
     SUBDIR += kdebase
     SUBDIR += kdelibs
