@@ -8,13 +8,14 @@
 
 DISTNAME=	sox-12.16
 CATEGORIES=	audio
-MASTER_SITES=	http://home.sprynet.com/~cbagwell/
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/sound/convert
 
 MAINTAINER=	dnelson@emsphone.com
 
 MAN1=		sox.1 play.1
 MLINKS=		play.1 rec.1
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--enable-fast-ulaw --enable-fast-alaw
+CONFIGURE_ARGS=	--enable-fast-ulaw --enable-fast-alaw --with-oss-dsp
 
 .include <bsd.port.mk>
