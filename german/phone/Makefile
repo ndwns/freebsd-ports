@@ -19,11 +19,10 @@ phone=	avon-1996
 phoneout= de.phone
 
 do-install:
-	${INSTALL} ${COPY} -o ${SHAREOWN} -g ${SHAREGRP} -m ${SHAREMODE} \
-		${WRKSRC}/${phone} ${PREFIX}/share/misc/${phoneout}
+	${INSTALL_DATA} ${WRKSRC}/${phone} ${PREFIX}/share/misc/${phoneout}
 
 post-extract: ${phone}
 ${phone}:
-	${GZIP_CMD} -d < ${DISTDIR}/${phone}.gz > ${WRKSRC}/${.TARGET}
+	${GZCAT} < ${DISTDIR}/${phone}.gz > ${WRKSRC}/${.TARGET}
 
 .include <bsd.port.mk>
