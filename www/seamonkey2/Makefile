@@ -9,25 +9,26 @@
 # $Id$
 #
 
+DISTNAME=       netscape-4.04
 CATEGORIES=	www
 .if !defined(NAVIGATOR)
-DISTNAME=       netscape-4.04
 MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.04/development/english/unix/freebsd/professional_edition/
 DISTFILES=      communicator-v404-export.x86-unknown-freebsd.tar.gz
-MAINTAINER=     ache@FreeBSD.ORG
 .else
-DISTNAME=       netscape-4.03b8
-MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.03/4.03b8/english/unix/freebsd/navigator_standalone/
-DISTFILES=      navigator-v403b8-export.x86-unknown-freebsd.tar.gz
-MAINTAINER=     ports@FreeBSD.ORG
+MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.04/development/english/unix/freebsd/navigator_standalone/
+DISTFILES=      navigator-v404-export.x86-unknown-freebsd.tar.gz
 .endif
+
+# responsible for communicator only
+MAINTAINER=     ache@FreeBSD.ORG
+
+RESTRICTED=	"Commercial software"
+
 NO_WRKSUBDIR=   Yes
 NO_BUILD=       Yes
 
 NDIR=           ${PREFIX}/lib/netscape
 BINDIR=		${PREFIX}/bin
-
-RESTRICTED=	"Commercial software"
 
 do-install:
 	cd ${WRKSRC} && yes "" | \
