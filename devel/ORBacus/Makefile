@@ -25,8 +25,7 @@ LIBSTDC=	${PREFIX}/lib/gcc-lib/i386-unknown-freebsdelf${OSREL}/egcs-2.91.62/libs
 LIBSTDC=	${PREFIX}/lib/gcc-lib/i386-unknown-freebsd${OSREL}/egcs-2.91.62/libstdc++.a
 .endif
 
-BUILD_DEPENDS=  eg++:${PORTSDIR}/lang/egcs \
-		eg++:${PORTSDIR}/lang/egcs \
+BUILD_DEPENDS=  eg++:${PORTSDIR}/lang/egcs
 CONFIGURE_ENV=	CXX=eg++ CXXFLAGS="-O -pipe"
 .endif
 
