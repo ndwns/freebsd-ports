@@ -20,6 +20,7 @@
     SUBDIR += giftool
     SUBDIR += giftrans
     SUBDIR += gimp-devel
+    SUBDIR += gplot
     SUBDIR += graphviz
     SUBDIR += hdf
     SUBDIR += hobbes-icons-xpm
