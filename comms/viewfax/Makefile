@@ -5,8 +5,9 @@
 #
 # $Id$
 #
-DISTNAME=        viewfax-2.3
-CATEGORIES=	x11
+
+DISTNAME=       viewfax-2.3
+CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.leo.org/pub/comp/os/unix/networking/mgetty/
 
 USE_IMAKE=	yes

@@ -91,7 +91,6 @@
     SUBDIR += tvtwm
     SUBDIR += tycoon
     SUBDIR += v
-    SUBDIR += viewfax
     SUBDIR += windowmaker
     SUBDIR += workplace
     SUBDIR += wm2

@@ -16,6 +16,7 @@
     SUBDIR += seyon
     SUBDIR += snooper
     SUBDIR += tkhylafax
+    SUBDIR += viewfax
     SUBDIR += xcept
     SUBDIR += zmtx-zmrx
 
