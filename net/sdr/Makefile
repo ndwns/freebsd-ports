@@ -8,12 +8,12 @@
 
 DISTNAME=	sdr.V2.3a1
 PKGNAME=	sdr-2.3a1
-CATEGORIES=	mbone tk41
+CATEGORIES=	mbone tk80
 MASTER_SITES=	ftp://cs.ucl.ac.uk/mice/sdr/
 
 MAINTAINER=	fenner@FreeBSD.org
 
-LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 RESTRICTED=	"Contains DES encryption"
 NO_WRKSUBDIR=	yes
