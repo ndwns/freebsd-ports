@@ -100,6 +100,7 @@
     SUBDIR += proftpd
     SUBDIR += queso
     SUBDIR += radius
+    SUBDIR += radiusclient
     SUBDIR += radiusd-cistron
     SUBDIR += ratoolset
     SUBDIR += rdist6
