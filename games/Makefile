@@ -71,6 +71,7 @@
     SUBDIR += xinvaders
     SUBDIR += xjewel
     SUBDIR += xjig
+    SUBDIR += xjumpjump
     SUBDIR += xkobo
     SUBDIR += xkoules
     SUBDIR += xlaby
