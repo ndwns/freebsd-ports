@@ -35,9 +35,6 @@ RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80 \
 		tclsh8.0:${PORTSDIR}/lang/tcl80
 .endif
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 WRKSRC=		${WRKDIR}/ppxp
 USE_GMAKE=	yes
 MAKEFILE=	makefile

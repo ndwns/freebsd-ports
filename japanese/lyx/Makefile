@@ -26,9 +26,6 @@ RUN_DEPENDS+=	ispell:${PORTSDIR}/textproc/ispell
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		Xpm.4:${PORTSDIR}/graphics/xpm
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	LYX_LIBS="-lxpg4" CXXFLAGS="${CFLAGS}"

@@ -16,8 +16,6 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
 NO_CDROM=	Possible trademark infringement
 
 USE_X_PREFIX=	yes

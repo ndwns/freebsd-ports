@@ -16,9 +16,6 @@ MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 USE_X_PREFIX=	YES
 NO_WRKSUBDIR=	YES
 EXTRACT_CMD=		${TAR}

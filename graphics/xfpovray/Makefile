@@ -18,9 +18,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms
 RUN_DEPENDS=	povray:${PORTSDIR}/graphics/povray
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 USE_IMAKE=	yes
 USE_GMAKE=	yes
 NO_INSTALL_MANPAGES=	yes

@@ -17,9 +17,6 @@ LIB_DEPENDS=	xforms.0:${PORTSDIR}/x11-toolkits/xforms \
 		MesaGL.14:${PORTSDIR}/graphics/Mesa3 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-# depends on xforms
-ONLY_FOR_ARCHS=	i386
-
 WRKSRC=		${WRKDIR}/Geomview
 REQUIRES_MOTIF=	yes
 USE_X_PREFIX=	yes
