@@ -11,8 +11,7 @@ PKGNAME=	doom-1.8
 CATEGORIES=	games
 MASTER_SITES?=	ftp://ftp.idsoftware.com/idstuff/source/ \
 		ftp://ftp.stomped.com/pub/idmirror/idstuff/source/ \
-		ftp://ftp.cdrom.com/pub/idgames/idstuff/source/ \
-		ftp://ftp.gamesnet.net/idsoftware/source/
+		ftp://ftp.cdrom.com/pub/idgames/idstuff/source/
 
 MAINTAINER=	jmz@FreeBSD.org
 
