@@ -6,6 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	jove-4.14.6
+DISTNAME=	jove-4.14.10
+MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
 
 .include <bsd.port.mk>
