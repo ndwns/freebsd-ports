@@ -8,7 +8,7 @@
 
 DISTNAME=       fwtk-1.3
 CATEGORIES+=    security net
-MASTER_SITES=   ftp://ftp.tis.com/pub/firewalls/toolkit
+MASTER_SITES=   ftp://ftp.tis.com/pub/firewalls/toolkit/
 DISTFILES=	fwtk-v1.3.tar.Z fwtk-doc-only.tar.Z
 
 MAINTAINER=     gpalmer@FreeBSD.ORG
