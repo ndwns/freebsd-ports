@@ -3,6 +3,7 @@
 
 SUBDIR += archivers
 SUBDIR += audio
+SUBDIR += benchmarks
 SUBDIR += cad
 SUBDIR += comms
 SUBDIR += databases
@@ -20,6 +21,8 @@ SUBDIR += news
 SUBDIR += print
 SUBDIR += russian
 SUBDIR += shells
+SUBDIR += security
+SUBDIR += sysutils
 SUBDIR += utils
 SUBDIR += x11
 
