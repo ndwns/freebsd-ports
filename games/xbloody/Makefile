@@ -3,7 +3,7 @@
 # Date created:		10 February 1998
 # Whom:			FURUSAWA,Kazuhisa <kazu@jp.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbloody

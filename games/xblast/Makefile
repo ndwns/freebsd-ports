@@ -3,7 +3,7 @@
 # Date created:         Sat Nov 08 09:47:12 CET 1997
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xblast-2.6.beta

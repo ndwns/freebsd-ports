@@ -3,7 +3,7 @@
 # Date created:				2 July 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		sokoban-src

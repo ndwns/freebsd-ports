@@ -3,7 +3,7 @@
 # Date created:				26 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xpyraminx-5.4.4

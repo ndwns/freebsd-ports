@@ -3,7 +3,7 @@
 # Date created:				27 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xpanex-5.4.4

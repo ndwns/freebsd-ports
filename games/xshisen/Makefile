@@ -3,7 +3,7 @@
 # Date created:               9 Oct 1996
 # Whom:                 Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xshisen-1.36

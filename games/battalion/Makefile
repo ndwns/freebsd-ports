@@ -3,7 +3,7 @@
 # Date created:				17 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	battalion-1.4

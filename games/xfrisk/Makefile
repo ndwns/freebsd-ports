@@ -3,7 +3,7 @@
 # Date created:        20 April 1997
 # Whom:                Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	XFrisk-1.00

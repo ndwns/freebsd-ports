@@ -4,7 +4,7 @@
 # Whom:					Matthew Hunt <mph@FreeBSD.org>
 # Based on ports by:			Stefan Eggers <seggers@semyam.dinoco.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	crafty-open-rock-19980707

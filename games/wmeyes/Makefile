@@ -3,7 +3,7 @@
 # Date created:        18 March 1999
 # Whom:                Zenin <zenin@archive.rhps.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmeyes-1.0

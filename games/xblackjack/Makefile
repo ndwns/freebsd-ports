@@ -3,7 +3,7 @@
 # Date created:         
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xblackjack-2.2

@@ -3,7 +3,7 @@
 # Date created:				9 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xquarto-1.0

@@ -3,7 +3,7 @@
 # Date created:         So  27 Okt 1996 12:25:55 MET
 # Whom:                 Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	crossfire-${MAJ}.${MIN}.${PL}

@@ -3,7 +3,7 @@
 # Date created:		27 May 1999
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rocksndiamonds-1.2.0

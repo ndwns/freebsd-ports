@@ -3,7 +3,7 @@
 # Date created:        13 November 1997
 # Whom:                Stefan Eßer <se@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ktamaga-0.2

@@ -3,7 +3,7 @@
 # Date created:         4 Mar 1998
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tank-0.4a-src

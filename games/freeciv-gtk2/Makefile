@@ -3,7 +3,7 @@
 # Date created:		Jun 20 1997
 # Whom:			ada@bsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	freeciv-1.8.1

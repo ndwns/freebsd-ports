@@ -3,7 +3,7 @@
 # Date created:				28 June 1998
 # Whom:					Matthew Hunt <mph@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xzip181

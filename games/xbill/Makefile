@@ -3,7 +3,7 @@
 # Date created:		12 September 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbill-2.0

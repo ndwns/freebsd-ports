@@ -3,7 +3,7 @@
 # Date created:		27 March 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nethack-3.2.2

@@ -3,7 +3,7 @@
 # Date created:         2 Jan 1995
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xpipeman

@@ -3,7 +3,7 @@
 # Date created:				21 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xvmahjongg2.1

@@ -3,7 +3,7 @@
 # Date created:		31 January 1995
 # Whom:			janek
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xboing2.4
 PKGNAME=	xboing-2.4

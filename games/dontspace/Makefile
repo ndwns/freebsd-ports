@@ -3,7 +3,7 @@
 # Date created:         26-Apr-97
 # Whom:                 johnh@isi.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       dontspace-1.2

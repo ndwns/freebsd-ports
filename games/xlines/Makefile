@@ -3,7 +3,7 @@
 # Date created:				11 February 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xlines

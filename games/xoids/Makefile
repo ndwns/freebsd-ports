@@ -3,7 +3,7 @@
 # Date created:				16 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xoids-1.5

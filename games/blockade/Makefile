@@ -3,7 +3,7 @@
 # Date created:		29 May 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	blockade-1_00-linux

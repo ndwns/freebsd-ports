@@ -3,7 +3,7 @@
 # Date created:		04 July 1996
 # Whom:			markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnuchess-4.0.pl79

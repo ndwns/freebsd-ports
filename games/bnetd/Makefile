@@ -3,7 +3,7 @@
 # Date created:		24 April 1999
 # Whom:			Ying-Chieh Liao <ijliao@csie.nctu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bnetd-0.4.16

@@ -3,7 +3,7 @@
 # Date created:        28 May 1998
 # Whom:                Daniel O'Connor <darius@dons.net.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qstat23d

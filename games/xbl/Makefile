@@ -3,7 +3,7 @@
 # Date created:		May 25 1997
 # Whom:			pgs (original)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbl-1.0j

@@ -3,7 +3,7 @@
 # Date created:		5 March 1995
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	acm-5.0

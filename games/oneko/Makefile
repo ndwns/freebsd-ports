@@ -3,7 +3,7 @@
 # Date created:		5 December 1994
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	oneko-1.2

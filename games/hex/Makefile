@@ -3,7 +3,7 @@
 # Date created:		9 Aug 1999
 # Whom:			Will Andrews <andrews@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hex-0.0.2

@@ -3,7 +3,7 @@
 # Date created:				16 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		UnixFrotz232R2Std10

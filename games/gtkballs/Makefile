@@ -3,7 +3,7 @@
 # Date created:				11 November 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		gtkballs-1.04

@@ -3,7 +3,7 @@
 # Date created:		3 May 1995
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xonix-1.4

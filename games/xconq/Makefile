@@ -3,7 +3,7 @@
 # Date created:         2 Jun 1998
 # Whom:                 Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xconq-7.2.2

@@ -3,7 +3,7 @@
 # Date created:         13 Feb 1997
 # Whom:                 Julian Assange
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       lincity109

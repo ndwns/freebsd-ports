@@ -3,7 +3,7 @@
 # Date created:		23 February 1998
 # Whom:			Peter Mutsaers
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	blackjack-1.1

@@ -3,7 +3,7 @@
 # Date created:        12 October 1996
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcubes-5.4.4

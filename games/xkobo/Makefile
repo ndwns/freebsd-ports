@@ -3,7 +3,7 @@
 # Date created:         18 Jul 1995
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xkobo-1.11

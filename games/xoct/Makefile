@@ -3,7 +3,7 @@
 # Date created:				28 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xoct-5.4.4

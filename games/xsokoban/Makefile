@@ -3,7 +3,7 @@
 # Date created:        16 November 1996
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsokoban-3.3c

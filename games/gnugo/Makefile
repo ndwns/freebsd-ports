@@ -3,7 +3,7 @@
 # Date created:		29 December 1996
 # Whom:			jseger@scds.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnugo-1.2

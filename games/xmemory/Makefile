@@ -3,7 +3,7 @@
 # Date Created:		Sat Feb  7 21:37:09 EST 1998
 # Whom:			Dave Chapeskie <dchapes@ddm.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmemory-3.7

@@ -3,7 +3,7 @@
 # Date created:		27 Apr 1996
 # Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xskat-3.1

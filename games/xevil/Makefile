@@ -3,7 +3,7 @@
 # Date created:         6 May 1995
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	xevil-1.5

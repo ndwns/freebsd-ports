@@ -3,7 +3,7 @@
 # Date created:		09 January 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xminehunter-0.4

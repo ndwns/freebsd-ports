@@ -3,7 +3,7 @@
 # Date created:		10 August 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	wmtimebomb.20
 PKGNAME=	wmtimebomb-0.2.0

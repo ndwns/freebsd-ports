@@ -3,7 +3,7 @@
 # Date created:         3 Jan 1995
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xinvaders

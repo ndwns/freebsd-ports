@@ -3,7 +3,7 @@
 # Date created:				6 Oct 1996
 # Whom:					oly
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xripple

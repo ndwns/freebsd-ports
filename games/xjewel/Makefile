@@ -3,7 +3,7 @@
 # Date created:         22 November 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xjewel-1.6

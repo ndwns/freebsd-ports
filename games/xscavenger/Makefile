@@ -3,7 +3,7 @@
 # Date created:		19 Feb 1998
 # Whom:			eivind
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xscavenger-135

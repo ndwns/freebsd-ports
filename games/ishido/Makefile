@@ -4,7 +4,7 @@
 # Date created:         Wed June 24, 1998
 # Whom:                 Steven H. Samorodin (samorodi@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ishido-1.1

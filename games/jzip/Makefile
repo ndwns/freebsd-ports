@@ -3,7 +3,7 @@
 # Date created:				7 May 1998
 # Whom:					Matthew Hunt <mph@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		jzip201g

@@ -3,7 +3,7 @@
 # Date created:				2 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		affenspiel-1.0

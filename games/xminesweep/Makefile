@@ -3,7 +3,7 @@
 # Date created:		31 Januar 1995
 # Whom:			janek
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xminesweep3.0

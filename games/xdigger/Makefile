@@ -3,7 +3,7 @@
 # Date created:				29 June 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xdigger-1.0.9

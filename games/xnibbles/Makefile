@@ -3,7 +3,7 @@
 # Date created:				2 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xnibbles-1.0BETA3

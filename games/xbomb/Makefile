@@ -3,7 +3,7 @@
 # Date created:         20 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xbomb-2.1

@@ -3,7 +3,7 @@
 # Date created:				4 July 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		agm-1.4

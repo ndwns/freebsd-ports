@@ -3,7 +3,7 @@
 # Date created:         11 September 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pysol-2.14

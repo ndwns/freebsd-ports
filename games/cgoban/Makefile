@@ -3,7 +3,7 @@
 # Date created:        28 October 1996
 # Whom:                simonm@dcs.gla.ac.uk
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cgoban-1.9.5

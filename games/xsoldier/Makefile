@@ -3,7 +3,7 @@
 # Date created:		22 January 1997
 # Whom:			Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsoldier-0.96

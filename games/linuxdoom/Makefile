@@ -3,7 +3,7 @@
 # Date created:         Mon Dec  9 09:42:37 CST 1996
 # Whom:                 erich@rrnet.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	doom-1.8

@@ -3,7 +3,7 @@
 # Date created:				20 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	icbm3d.0.4

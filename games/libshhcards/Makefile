@@ -3,7 +3,7 @@
 # Date created:				12 April 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		shhcards-1.0.4

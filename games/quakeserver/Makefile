@@ -3,7 +3,7 @@
 # Date created:				October 26th 1996
 # Whom:					jfitz@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	quakeserver-1.0

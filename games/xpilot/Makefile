@@ -3,7 +3,7 @@
 # Date created:         18 July 1995
 # Whom:                 jmacd
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xpilot-4.1.0

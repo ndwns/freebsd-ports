@@ -3,7 +3,7 @@
 # Date created:  7 December 1997
 # Whom:  Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bugsx108

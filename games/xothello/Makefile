@@ -3,7 +3,7 @@
 # Date created:				31 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xothello

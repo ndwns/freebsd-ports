@@ -3,7 +3,7 @@
 # Date created:				9 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xisola-1.0

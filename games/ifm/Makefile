@@ -3,7 +3,7 @@
 # Date created:				Mon Oct 12 12:32:07 EDT 1998
 # Whom:					Dave Chapeskie <dchapes@ddm.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ifm41

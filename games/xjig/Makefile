@@ -3,7 +3,7 @@
 # Date Created:		17 Sep 1997
 # Whom:			Vanilla I. Shu <vanilla@MinJe.com.TW>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xjig-2.4

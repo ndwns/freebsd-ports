@@ -3,7 +3,7 @@
 # Date created:         22 Mar 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xemeraldia-0.3

@@ -3,7 +3,7 @@
 # Date created:         2 Oct 1995
 # Whom:                 se
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	spider

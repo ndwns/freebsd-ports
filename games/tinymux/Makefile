@@ -3,7 +3,7 @@
 # Date created:		1998/05/28
 # Whom:			cjohnson
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tinymux-1.4p13

@@ -3,7 +3,7 @@
 # Date created:		22 December 1995
 # Whom:			markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xneko

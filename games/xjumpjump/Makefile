@@ -3,7 +3,7 @@
 # Date created:				9 April 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xjumpjump

@@ -3,7 +3,7 @@
 # Date created:				17 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xvier

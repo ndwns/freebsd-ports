@@ -3,7 +3,7 @@
 # Date created:         07 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xsok-1.02

@@ -3,7 +3,7 @@
 # Date created:        18 Feb 1998
 # Whom:                Stefan Zehl <sec@42.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ladder

@@ -3,7 +3,7 @@
 # Date created:        21 Feb 1997
 # Whom:                Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	angband-283

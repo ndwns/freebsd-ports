@@ -3,7 +3,7 @@
 # Date created:		27 August 1995
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xgalaga-2.0

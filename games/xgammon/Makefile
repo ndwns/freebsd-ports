@@ -3,7 +3,7 @@
 # Date created:		02 January 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xgammon-0.98

@@ -3,7 +3,7 @@
 # Date created:		16 Aug 1996
 # Whom:			joerg@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmahjongg

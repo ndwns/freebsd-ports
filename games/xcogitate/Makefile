@@ -3,7 +3,7 @@
 # Date created:				15 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xcogitate-1.02

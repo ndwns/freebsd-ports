@@ -3,7 +3,7 @@
 # Date created:        3 June 1998
 # Whom:                Eckart "Isegrim" Hofmann
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xteddy-1.0

@@ -3,7 +3,7 @@
 # Date created:         4 Jan 1995
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xrisk-2.13

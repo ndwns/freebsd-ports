@@ -3,7 +3,7 @@
 # Date created:			28 Apr 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmtictactoe-1.0

@@ -3,7 +3,7 @@
 # Date created:        4 Jun 1998
 # Whom:                Toru YANO <toru@s-fine.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmul200b4

@@ -3,7 +3,7 @@
 # Date created:				18 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		bogged-1.0.0

@@ -3,7 +3,7 @@
 # Date created:				5 August 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	garith-2.1

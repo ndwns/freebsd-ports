@@ -3,7 +3,7 @@
 # Date created:        25 August 1998
 # Whom:                Seiichirou Hiraoka
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xhime151

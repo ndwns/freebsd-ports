@@ -3,7 +3,7 @@
 # Date created:				18 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xvmines-1.0

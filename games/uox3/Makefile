@@ -3,7 +3,7 @@
 # Date created:         24 Feb 1999
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	uox3v6902-linux

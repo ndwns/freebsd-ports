@@ -3,7 +3,7 @@
 # Date created:        9 October 1996
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnushogi-1.2p03

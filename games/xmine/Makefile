@@ -3,7 +3,7 @@
 # Date created:		25 December 1994
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmine-1.0.3-Xaw

@@ -3,7 +3,7 @@
 # Date created:		23rd June, 1997
 # Whom:			Joel Sutton <sutton@aardvark.apana.org.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	oonsoo-1.1

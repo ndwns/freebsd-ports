@@ -3,7 +3,7 @@
 # Date created:				9 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gemdropx.0.4

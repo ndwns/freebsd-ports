@@ -3,7 +3,7 @@
 # Date created:         13 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xdemineur-2.1.1

@@ -3,7 +3,7 @@
 # Date created:         24. Sep 97
 # Whom:                 sec@42.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xtris-1.15

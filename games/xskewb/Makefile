@@ -3,7 +3,7 @@
 # Date created:				25 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xskewb-5.4.4

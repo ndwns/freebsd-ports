@@ -3,7 +3,7 @@
 # Date created:         5 Jan 1997
 # Whom:                 xaa@stack.nl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xboard-4.0.2

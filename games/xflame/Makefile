@@ -3,7 +3,7 @@
 # Date created:        2 January 1999
 # Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xflame-1.1.1

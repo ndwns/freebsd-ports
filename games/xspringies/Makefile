@@ -3,7 +3,7 @@
 # Date created:				12 January 1997
 # Whom:					jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xspringies-1.1

@@ -3,7 +3,7 @@
 # Date created:				1 April 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		mirrormagic-1.3

@@ -3,7 +3,7 @@
 # Date created:         15 March 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xlife

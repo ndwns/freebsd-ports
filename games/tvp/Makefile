@@ -3,7 +3,7 @@
 # Date Created:		3 Jul 1996
 # Whom:			Tim Vanderhoek <ac199@hwcn.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tvp-0.9.7.1

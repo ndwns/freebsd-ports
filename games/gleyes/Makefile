@@ -3,7 +3,7 @@
 # Date created:		2 December 1998
 # Whom:			Malte Lance <malte.lance@gmx.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gleyes-0.2

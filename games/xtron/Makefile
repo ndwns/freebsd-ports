@@ -3,7 +3,7 @@
 # Date created:				29 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xtron-1.1a

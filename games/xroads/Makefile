@@ -3,7 +3,7 @@
 # Date created:				21 June 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xroads-v0.3

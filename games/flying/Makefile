@@ -3,7 +3,7 @@
 # Date created:				12 Jul 1996
 # Whom:					searle
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	flying-6.20

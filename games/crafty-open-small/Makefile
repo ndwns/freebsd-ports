@@ -3,7 +3,7 @@
 # Date created:				1 June 1998
 # Whom:					Stefan Eggers <seggers@semyam.dinoco.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	small

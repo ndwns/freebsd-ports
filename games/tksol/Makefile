@@ -3,7 +3,7 @@
 # Date created:         26 June 1995
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tksol-1.0

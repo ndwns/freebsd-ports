@@ -3,7 +3,7 @@
 # Date created:         21 September 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xmris.4.04
 PKGNAME=	xmris-4.04

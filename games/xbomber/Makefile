@@ -3,7 +3,7 @@
 # Date created:        28 June 1998
 # Whom:                marcus
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xbomber.0.8

@@ -3,7 +3,7 @@
 # Date created:				13 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xchain_1.0-2

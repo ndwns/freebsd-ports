@@ -3,7 +3,7 @@
 # Date created:         22 June 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xtic1.12

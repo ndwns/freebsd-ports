@@ -3,7 +3,7 @@
 # Date created:		21 August 1998
 # Whom:			issei <issei@jp.FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xchada01

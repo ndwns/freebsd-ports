@@ -3,7 +3,7 @@
 # Date created:				14 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xtruco

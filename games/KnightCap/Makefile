@@ -3,7 +3,7 @@
 # Date created:				10 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	KnightCap-3.5

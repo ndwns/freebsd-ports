@@ -3,7 +3,7 @@
 # Date created:         20 November 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	golddig2

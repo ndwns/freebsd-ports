@@ -3,7 +3,7 @@
 # Date created:				31 May 1998
 # Whom:					Stefan Eggers <seggers@semyam.dinoco.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	crafty-16.16

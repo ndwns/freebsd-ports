@@ -3,7 +3,7 @@
 # Date created:				10 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	3dpong.0.3

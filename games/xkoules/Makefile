@@ -3,7 +3,7 @@
 # Date created:				11 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	koules1.4-src

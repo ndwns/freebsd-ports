@@ -3,7 +3,7 @@
 # Date created:				28 June 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		spellcast-1.1

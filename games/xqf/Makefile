@@ -3,7 +3,7 @@
 # Date created:				08 February 1999
 # Whom:					steve farrell
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xqf-0.9.0

@@ -3,7 +3,7 @@
 # Date created:				3 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xlaby-2.0.1

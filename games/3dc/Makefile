@@ -3,7 +3,7 @@
 # Date created:				2 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		3Dc-0.8.1

@@ -3,7 +3,7 @@
 # Date created:				14 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	omega-0.90-pa4

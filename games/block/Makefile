@@ -3,7 +3,7 @@
 # Date created:				10 May 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		block-0.6

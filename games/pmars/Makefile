@@ -3,7 +3,7 @@
 # Date created:        15 Feb 1999
 # Whom:                gmarco@scotty.masternet.it
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pmars08s

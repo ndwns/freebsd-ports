@@ -3,7 +3,7 @@
 # Date created:		01 May 1998
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	awele

@@ -3,7 +3,7 @@
 # Date created:			16 May 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dopewars-1.4.3

@@ -3,7 +3,7 @@
 # Date created:				23 March 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xmastermind-0.1

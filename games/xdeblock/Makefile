@@ -3,7 +3,7 @@
 # Date created:        28 December 1996
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdeblo_v1.0
