@@ -21,7 +21,7 @@
     SUBDIR += mapedit
     SUBDIR += netscape2
     SUBDIR += netscape3
-    SUBDIR += netscape3.01
+    SUBDIR += netscape301
     SUBDIR += slang-lynx
     SUBDIR += squid
     SUBDIR += tkHTML
