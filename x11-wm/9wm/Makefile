@@ -8,7 +8,7 @@
 
 DISTNAME=	9wm-1.1
 CATEGORIES=	plan9
-MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/arnold/
+MASTER_SITES=	ftp://ftp.mathcs.emory.edu/pub/arnold/
 EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=	erich@FreeBSD.org
