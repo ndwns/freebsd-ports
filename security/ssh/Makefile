@@ -147,7 +147,7 @@ CONFIGURE_ENV+= PERL=/replace_it_with_PERL_path
     (!defined(USE_TCPWRAP) || ${USE_TCPWRAP} != NO)
 CONFIGURE_ENV+= LDFLAGS=-L${PREFIX}/lib CFLAGS="${CFLAGS} -I${PREFIX}/include"
 CONFIGURE_ARGS+= --with-libwrap
-LIB_DEPENDS+=   wrap\\.7\\.:${PORTSDIR}/security/tcp_wrapper
+LIB_DEPENDS+=   wrap.7:${PORTSDIR}/security/tcp_wrapper
 .endif
 
 # Include SOCKS firewall support

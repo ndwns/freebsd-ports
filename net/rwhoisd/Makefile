@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.rwhois.net/pub/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-LIB_DEPENDS=	wrap\\.7\\.:${PORTSDIR}/security/tcp_wrapper
+LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
 
 HAS_CONFIGURE=	YES
 CONFIGURE_ARGS=	--prefix=${PREFIX}/lib/rwhois
