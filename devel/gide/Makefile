@@ -1,13 +1,13 @@
 # New ports collection makefile for:	gIDE
-# Version required:			0.1.1
+# Version required:			0.1.2
 # Date created:				29 Jul 1998
 # Whom:					rom
 #
 # $Id$
 #
 
-DISTNAME= 	gIDE-0.1.1
-PKGNAME= 	gide-0.1.1
+DISTNAME= 	gIDE-0.1.2
+PKGNAME= 	gide-0.1.2
 CATEGORIES=	devel gnome
 MASTER_SITES=	http://gide.gdev.net/ \
 		http://gide.pn.org/
@@ -21,7 +21,7 @@ GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 FETCH_BEFORE_ARGS=	-b
 
-USE_X_PREFIX=   yes
+USE_X_PREFIX=	yes
 USE_GMAKE= 	yes
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
