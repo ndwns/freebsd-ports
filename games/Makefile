@@ -3,9 +3,11 @@
 
     SUBDIR += acm
     SUBDIR += crossfire
+    SUBDIR += flying
     SUBDIR += gnuchess
     SUBDIR += gnushogi
     SUBDIR += golddig
+    SUBDIR += imaze
     SUBDIR += jetpack
     SUBDIR += nethack
     SUBDIR += oneko
@@ -23,6 +25,7 @@
     SUBDIR += xdino
     SUBDIR += xemeraldia
     SUBDIR += xevil
+    SUBDIR += xeyesplus
     SUBDIR += xgalaga
     SUBDIR += xinvaders
     SUBDIR += xjewel
@@ -40,8 +43,8 @@
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xpuyo
-    SUBDIR += xrisk
     SUBDIR += xripple
+    SUBDIR += xrisk
     SUBDIR += xroach
     SUBDIR += xrobots
     SUBDIR += xrubik
