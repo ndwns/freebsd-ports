@@ -15,7 +15,12 @@ MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+.if ${MACHINE_ARCH} == "alpha"
+PLIST=		${PKGDIR}/PLIST.alpha
+.endif
+
 USE_IMAKE=	yes
 WRKSRC= ${WRKDIR}/xboing
+MAN1=		xboing.1
 
 .include <bsd.port.mk>
