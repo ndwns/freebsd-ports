@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://pascal.math.yale.edu/pub/wavelets/software/xwpl/other-versio
 
 MAINTAINER=	giffunip@asme.org
 
+ONLY_FOR_ARCHS=	i386
+
 NO_CDROM=	"Free for Non-Commercial Use Only"
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/xwpl
