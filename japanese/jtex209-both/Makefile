@@ -11,7 +11,7 @@ CATEGORIES=	japanese print
 MASTER_SITES=	ftp://bash.cc.keio.ac.jp/pub/TeX/ASCII/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/TeX/NTT-JTeX/:old/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/TeX/fonts/pk/ \
-		ftp://ftp.waseda.ac.jp/pub3/tex/ascii/
+		ftp://ftp.waseda.ac.jp/pub/tex/ascii-OLD/
 DISTFILES=	jtex-1.52.tar.gz tfm-files.tar.Z jtex1.7.tar.gz pTeX-JIS-patch
 
 MAINTAINER=	mita@jp.FreeBSD.org
