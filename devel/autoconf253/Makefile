@@ -1,12 +1,12 @@
 # New ports collection makefile for:	autoconf
-# Version required:     2.10
+# Version required:     2.12
 # Date created:		7 October 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
 # $Id$
 #
 
-DISTNAME=       autoconf-2.10
+DISTNAME=       autoconf-2.12
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
 
