@@ -8,6 +8,7 @@
     SUBDIR += bitchx
     SUBDIR += elm
     SUBDIR += engdic
+    SUBDIR += eterm
     SUBDIR += ftghostscript5
     SUBDIR += fvwm95
     SUBDIR += gau
