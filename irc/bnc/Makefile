@@ -9,10 +9,11 @@
 DISTNAME=	bnc2.6.2
 PKGNAME=	bnc-2.6.2
 CATEGORIES=	irc
-MASTER_SITES=	http://irc.themes.org/downloads/misc/
+MASTER_SITES=	http://www.psn.net/~andrews/dist/
 
 MAINTAINER=	billf@FreeBSD.org
 
+FETCH_BEFORE_ARGS=	-b
 GNU_CONFIGURE=	YES
 
 post-patch:
