@@ -10,7 +10,7 @@
 
 DISTNAME=	vbidecode-1.1.3
 CATEGORIES=	misc
-MASTER_SITES=	http://www.ipass.net/~dbhopper/aa8vb/fxtv/
+MASTER_SITES=	http://www.thp.Uni-Koeln.DE/~rjkm/linux/
 DISTFILES=	bttv-0.6.4.tar.gz
 
 MAINTAINER=	roger@freebsd.org
