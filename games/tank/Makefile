@@ -15,7 +15,7 @@ MAINTAINER=	dburr@FreeBSD.ORG
 
 LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
 
-BROKEN=	can\'t find libaux.h
+BROKEN=	can\'t find glaux.h
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
