@@ -8,7 +8,7 @@
 
 DISTNAME=       xcopilot-v0.4
 PKGNAME=	xcopilot-0.4.8
-CATEGORIES=     emulators pilot
+CATEGORIES=     palm emulators
 MASTER_SITES=   ftp://uiarchive.cso.uiuc.edu/pub/systems/PalmOS/
 
 PATCH_SITES=	http://www.isaac.cs.berkeley.edu/pilot/

@@ -27,7 +27,6 @@
     SUBDIR += nfbtrans
     SUBDIR += p5-XML-Parser
     SUBDIR += par
-    SUBDIR += pilot_makedoc
     SUBDIR += rman
     SUBDIR += sgmlformat
     SUBDIR += sgrep

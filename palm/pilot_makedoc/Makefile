@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	pilot_makedoc-0.7
-CATEGORIES=	textproc pilot
+CATEGORIES=	palm textproc
 MASTER_SITES=	http://www.concentric.net/~rbram/
 DISTFILES=	makedoc7.cpp
 

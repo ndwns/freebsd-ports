@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kpilot-3.0.2
-CATEGORIES=	comms pilot kde
+CATEGORIES=	palm comms kde
 MASTER_SITES=	http://www.slac.com/pilone/kpilot_home/download/
 
 MAINTAINER=	dima@freebsd.org

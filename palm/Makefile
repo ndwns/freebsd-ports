@@ -3,7 +3,7 @@
 
     SUBDIR += kpilot
     SUBDIR += pilot-link
-    SUBDIR += pilot-makedoc
+    SUBDIR += pilot_makedoc
     SUBDIR += prc-tools
     SUBDIR += xcopilot
 

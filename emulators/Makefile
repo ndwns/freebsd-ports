@@ -34,7 +34,6 @@
     SUBDIR += vpce
     SUBDIR += wine
     SUBDIR += x48
-    SUBDIR += xcopilot
     SUBDIR += xgs
     SUBDIR += xmame
     SUBDIR += xsystem35

@@ -115,7 +115,6 @@
     SUBDIR += pmake
     SUBDIR += portcheckout
     SUBDIR += portlint
-    SUBDIR += prc-tools
     SUBDIR += prcs
     SUBDIR += qtarch
     SUBDIR += qtez

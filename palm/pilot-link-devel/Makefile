@@ -7,7 +7,7 @@
 
 DISTNAME=	pilot-link.0.9.0
 PKGNAME=	pilot-link-0.9.0
-CATEGORIES=	comms pilot tk80
+CATEGORIES=	palm comms tk80
 MASTER_SITES=	ftp://ryeham.ee.ryerson.ca/pub/PalmOS/
 
 MAINTAINER=	dima@freebsd.org

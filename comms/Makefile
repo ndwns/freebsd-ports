@@ -6,11 +6,9 @@
     SUBDIR += ecu
     SUBDIR += hylafax
     SUBDIR += kermit
-    SUBDIR += kpilot
     SUBDIR += lrzsz
     SUBDIR += mgetty+sendfax
     SUBDIR += minicom
-    SUBDIR += pilot-link
     SUBDIR += qpage
     SUBDIR += rzsz
     SUBDIR += seyon
