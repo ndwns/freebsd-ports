@@ -14,8 +14,6 @@ MAINTAINER=	erich@FreeBSD.org
 
 LIB_DEPENDS=    tk42\\.1:${PORTSDIR}/x11/tk42
 
-BROKEN=		tclsh
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tclsh=${PREFIX}/bin/tclsh7.6 \
 		--with-tclconfig=${PREFIX}/lib/tcl7.6 \
