@@ -2,6 +2,7 @@
 #
 
     SUBDIR += bulk_mailer
+    SUBDIR += cucipop
     SUBDIR += cyrus
     SUBDIR += elm
     SUBDIR += exim
