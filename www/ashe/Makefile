@@ -15,6 +15,7 @@ MASTER_SITES=	ftp://ftp.cs.rpi.edu/pub/puninj/ASHE/ASHE-1.1.2/src/ \
 		ftp://ftp.cs.rpi.edu/pub/puninj/ASHE/ASHE-1.1.2/libhtmlw/
 DISTFILES=	ashe_cci.tar.Z cci.tar.Z libhtmlw.tar.Z
 
+REQUIRES_MOTIF=	yes
 NO_WRKSUBDIR=	yes
 USE_X11=	yes
 
