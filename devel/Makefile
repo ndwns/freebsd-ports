@@ -18,6 +18,7 @@
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += noweb
+    SUBDIR += tkcvs
     SUBDIR += xxgdb
 
 .include <bsd.port.subdir.mk>
