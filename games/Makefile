@@ -47,6 +47,7 @@
     SUBDIR += xbl
     SUBDIR += xblackjack
     SUBDIR += xblast
+    SUBDIR += xbloody
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xchomp
