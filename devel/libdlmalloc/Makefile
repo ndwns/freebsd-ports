@@ -7,10 +7,10 @@
 #
 
 DISTNAME=	dlmalloc
-PKGNAME=	dlmalloc-2.6.4
+PKGNAME=	dlmalloc-2.6.5
 CATEGORIES=	devel
 MASTER_SITES=	ftp://gee.cs.oswego.edu/pub/misc/
-DISTFILES=	malloc-2.6.4.c
+DISTFILES=	malloc-2.6.5.c
 
 MAINTAINER=	roberto@FreeBSD.ORG
 
