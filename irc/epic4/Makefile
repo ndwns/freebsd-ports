@@ -21,7 +21,7 @@ WRKSRC=		${WRKDIR}/ircii-EPIC4pre2.001-NR8
 
 do-install:
 		( cd ${WRKSRC} && make INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
-		INSTALL_DATA="${INSTALL_DATA}" ${INSTALL} )
+		INSTALL_DATA="${INSTALL_DATA}" install )
 
 post-install:
 		( cd ${PREFIX}/lib/irc && tar zxf ${DISTDIR}/epic4pre2-help.tar.gz)
