@@ -1,14 +1,5 @@
 --- conf.c.orig	Fri Apr  2 17:06:52 2004
 +++ conf.c	Mon May 31 16:58:06 2004
-@@ -34,7 +34,7 @@
- #ifdef HAVE_SYS_CDEFS_H
- #include <sys/cdefs.h>
- #ifdef __RCSID
--__RCSID("$Id$");
-+__RCSID("$Id$");
- #endif
- #endif
- 
 @@ -83,6 +83,8 @@
  conf_load(void) 	/* exceptlist must be write-locked */
  {
