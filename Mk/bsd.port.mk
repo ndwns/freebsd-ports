@@ -938,8 +938,9 @@ _PORT_USE: .USE
 			/bin/sh ${SCRIPTDIR}/${.TARGET:S/^real-/post-/}; \
 	fi
 .if make(real-install) && defined(_MANPAGES) && !defined(NOMANCOMPRESS)
+	@${ECHO_MSG} "===> Compressing the manual pages for ${PKGNAME}"
 .for manpage in ${_MANPAGES}
-	${GZIP_CMD} ${MANPREFIX}/${manpage}
+	@${GZIP_CMD} ${MANPREFIX}/${manpage}
 .endfor
 .endif
 .if make(real-install) && !defined(NO_PKG_REGISTER)
