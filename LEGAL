@@ -72,6 +72,8 @@ mikmod-2.14.tar.gz	ports/audio/mikmod	Registration required for
 mmv/*			ports/misc/mmv		Restrictive/unclear copyright
 msql-*			ports/databases/msql	Not free for commercial org.
 netscape-*		ports/net/netscape	Commercial product
+netscape-*.us		ports/net/netscape	Commercial product
+						& Crypto export-controlled
 nte-1.5a23		ports/mbone/nte		Crypto; export-controlled
 pgp262s.zip		ports/security/pgp*	Various locality restrictions
 prodosemu.*		ports/emulators/prodosemu	Restrictive copyright on the ROM image
