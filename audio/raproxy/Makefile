@@ -21,7 +21,7 @@ MAN8=		raproxy.8
 
 .include <bsd.port.pre.mk>
 
-.if !exists(${DISTDIR}/{$DISTNAME}${EXTRACT_SUFX})
+.if !exists(${DISTDIR}/${DISTNAME}${EXTRACT_SUFX})
 IGNORE='Please fill out the form at http://service.real.com/firewall/index.html and place the sources at ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} then run make again'
 .endif
 
