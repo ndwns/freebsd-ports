@@ -22,6 +22,7 @@
     SUBDIR += git
     SUBDIR += gnuls
     SUBDIR += ical
+    SUBDIR += iselect
     SUBDIR += jive
     SUBDIR += kdeutils
     SUBDIR += kp
