@@ -9,6 +9,7 @@
 DISTNAME=	ghostview-1.5
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	ghostview
 
 MAINTAINER=	ports@FreeBSD.org
 

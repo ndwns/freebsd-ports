@@ -9,6 +9,7 @@
 DISTNAME=	leim-20.3
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	emacs
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 

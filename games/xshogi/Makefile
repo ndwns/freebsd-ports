@@ -10,6 +10,7 @@ DISTNAME=	xshogi-1.2p03
 PKGNAME=	xshogi-1.2.3
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	xshogi
 
 MAINTAINER=	nacai@iname.com
 

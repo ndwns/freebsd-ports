@@ -9,6 +9,7 @@
 DISTNAME=	libobjects-0.1.19
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	libobjects
 
 MAINTAINER=	nacai@iname.com
 

@@ -10,6 +10,7 @@ DISTNAME=       gcl-2.2.2
 CATEGORIES=	lang
 MASTER_SITES=   ftp://ftp.ma.utexas.edu/pub/gcl/ \
 		${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	gcl
 
 MAINTAINER=	jseger@freebsd.org
 

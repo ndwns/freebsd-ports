@@ -9,6 +9,7 @@
 DISTNAME=      indent-1.9.1
 CATEGORIES=    devel
 MASTER_SITES=  ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	indent
 
 MAINTAINER=    kchowksey@hss.hns.com
         

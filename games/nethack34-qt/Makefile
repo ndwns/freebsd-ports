@@ -13,6 +13,7 @@ MASTER_SITES=	http://www.troll.no/warwick/nethack/ \
 		http://trolls.troll.no/warwick/nethack/ \
 		ftp://ftp.troll.no/contrib/ \
 		${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	nethack
 QT_PATCH=	qnethack-3.2.2.1.0.1.src.tar.gz
 QT_SOUND=	nhs.tar.gz
 DISTFILES=	nethack-3.2.2.tar.gz ${QT_PATCH} ${QT_SOUND}

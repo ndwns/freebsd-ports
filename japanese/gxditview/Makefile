@@ -10,6 +10,7 @@ DISTNAME=	groff-1.09
 PKGNAME=	ja-gxditview-0.98
 CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	groff
 
 MAINTAINER=	ports@FreeBSD.ORG
 

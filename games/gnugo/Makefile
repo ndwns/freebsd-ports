@@ -9,6 +9,7 @@
 DISTNAME=	gnugo-1.2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	gnugo
 
 MAINTAINER=	jseger@freebsd.org
 

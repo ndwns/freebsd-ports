@@ -9,6 +9,7 @@
 DISTNAME=	textutils-1.22
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	textutils
 
 MAINTAINER=	aw1@stade.co.uk
 

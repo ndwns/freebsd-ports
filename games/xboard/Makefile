@@ -9,6 +9,7 @@
 DISTNAME=       xboard-4.0.0
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	xboard
 
 MAINTAINER=	xaa@xaa.iae.nl
 

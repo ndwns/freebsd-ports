@@ -9,6 +9,7 @@
 DISTNAME=	libtool-1.2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	libtool
 
 MAINTAINER=	m-kasahr@sra.co.jp
 

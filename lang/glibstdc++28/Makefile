@@ -11,6 +11,7 @@ DISTNAME=	libstdc++-2.8.1.1
 PKGNAME=	glibstdc++-2.8.1.1
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	libstdc++
 
 MAINTAINER=	obrien@FreeBSD.org
 

@@ -9,6 +9,7 @@
 DISTNAME=	wdiff-0.5
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	wdiff
 
 MAINTAINER=	sanpei@yy.cs.keio.ac.jp
 

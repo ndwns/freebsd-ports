@@ -9,6 +9,7 @@
 DISTNAME=       sharutils-4.2
 CATEGORIES=	archivers
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	sharutils
 
 MAINTAINER=	ports@FreeBSD.org
 

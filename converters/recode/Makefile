@@ -9,6 +9,7 @@
 DISTNAME=	recode-3.4
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	recode
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 

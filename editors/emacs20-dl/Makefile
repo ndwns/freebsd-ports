@@ -10,6 +10,7 @@ DISTNAME=	emacs-20.3
 PKGNAME=	emacs-dl-20.3
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	emacs
 
 PATCH_SITES=	ftp://ftp.jaist.ac.jp/pub/GNU/elisp/emacs-20-dl/
 PATCHFILES=	emacs-20.3-dl.diff

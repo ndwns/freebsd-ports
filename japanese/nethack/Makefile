@@ -10,6 +10,7 @@ DISTNAME=	nethack-3.2.2
 PKGNAME=	ja-nethack-1.0.5.19970924
 CATEGORIES=	japanese games
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	nethack
 
 PATCH_SITES=	ftp://mitsuko.jaist.ac.jp/pub/nethack/
 PATCHFILES=	jnethack-1.0.5.19970924.gz

@@ -9,6 +9,7 @@
 DISTNAME=	smalltalk-1.1.5
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	smalltalk
 
 MAINTAINER=	jraynard@FreeBSD.ORG
 

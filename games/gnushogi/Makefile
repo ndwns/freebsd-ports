@@ -10,6 +10,7 @@ DISTNAME=	gnushogi-1.2p03
 PKGNAME=	gnushogi-1.2.3
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	gnushogi
 
 MAINTAINER=	nacai@iname.com
 

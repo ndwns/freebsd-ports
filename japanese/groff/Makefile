@@ -10,6 +10,7 @@ DISTNAME=	groff-1.10
 PKGNAME=	ja-groff-0.99
 CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	groff
 
 PATCH_SITES=	ftp://ftp.ae.keio.ac.jp/pub/GNU/ \
 		ftp://ftp.tohoku.ac.jp/pub/GNU/japanese/

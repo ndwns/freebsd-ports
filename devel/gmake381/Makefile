@@ -10,6 +10,7 @@ DISTNAME=       make-3.77
 PKGNAME=        gmake-3.77
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	make
 
 MAINTAINER=	jseger@freebsd.org
 

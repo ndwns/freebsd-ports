@@ -10,6 +10,7 @@ DISTNAME=	binutils-2.9.1
 PKGNAME=	m68kbinutils-2.9.1
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	binutils
 
 MAINTAINER=	Jerry.Hicks@Glenayre.com
 

@@ -13,6 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.informatik.hu-berlin.de/gnu/wget/ \
 		ftp://ftp.uni-mainz.de/pub/gnu/wget/ \
 		ftp://ftp.max.irk.ru/pub/unix/net/www/wget/
+MASTER_SITE_SUBDIR=	wget
 
 MAINTAINER=	ports@FreeBSD.ORG
 

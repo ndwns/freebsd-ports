@@ -9,6 +9,7 @@
 DISTNAME=	automake-1.3
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	automake
 
 MAINTAINER=	fujimoto@oscar.elec.waseda.ac.jp
 

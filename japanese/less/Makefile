@@ -11,6 +11,7 @@ PKGNAME=	ja-less-332
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.big.or.jp/pub/usr2/jam/less/contrib/
+MASTER_SITE_SUBDIR=	less
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		regex_cs-lwp9k.shar.gz
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}

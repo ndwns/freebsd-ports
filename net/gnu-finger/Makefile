@@ -10,6 +10,7 @@ DISTNAME=       finger-1.37
 PKGNAME=        gnu-finger-1.37
 CATEGORIES=     net
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	finger
 
 MAINTAINER=     sanpei@yy.cs.keio.ac.jp
 

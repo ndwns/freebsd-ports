@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://sunsite.doc.ic.ac.uk/packages/gnu/\
 		${MASTER_SITE_GNU}\
 		http://www.fusebox.hanse.de/xlogmaster/development/\
 		http://porter.desy.de/~greve/xlogmaster/development/
+MASTER_SITE_SUBDIR=	xlogmaster
 
 MAINTAINER=	aw1@stade.co.uk
 

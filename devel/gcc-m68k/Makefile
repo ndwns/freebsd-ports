@@ -10,6 +10,7 @@ DISTNAME=	gcc-2.8.1
 PKGNAME=	m68kgcc-2.8.1
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	gcc
 
 MAINTAINER=	Jerry.Hicks@Glenayre.com
 

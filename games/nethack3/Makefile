@@ -10,6 +10,7 @@ DISTNAME=	nethack-3.2.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.wtower.com/nethack/sources/ \
 		${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	nethack
 
 MAINTAINER=	ports@FreeBSD.ORG
 

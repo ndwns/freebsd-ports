@@ -10,6 +10,7 @@ DISTNAME=		ncurses-4.2
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNU} \
 			ftp://ftp.clark.net/pub/dickey/ncurses/
+MASTER_SITE_SUBDIR=	ncurses
 
 MAINTAINER=		andy@icc.surw.chel.su
 

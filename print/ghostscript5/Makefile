@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.pdb.sni.de/pub/utilities/misc/	\
 		http://www.ozemail.com.au/~geoffk/pdfencrypt/	\
 		ftp://ftp.cs.wisc.edu/ghost/gnu/gs510/	\
 		$(MASTER_SITE_GNU)
+MASTER_SITE_SUBDIR=	ghostscript
 DISTFILES=	${PCL3_DRV} ${DECRYPT_PDF} ghostscript-5.10.tar.gz
 
 MAINTAINER=	ports@FreeBSD.org

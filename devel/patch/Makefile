@@ -9,6 +9,7 @@
 DISTNAME=       patch-2.5
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	patch
 
 MAINTAINER=     ache@FreeBSD.org
 

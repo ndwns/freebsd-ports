@@ -10,6 +10,7 @@ DISTNAME=       enscript-1.6.1
 PKGNAME=        enscript-${PAPERSIZE}-1.6.1
 CATEGORIES=	print
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	enscript
 
 MAINTAINER=	kline@thought.org
 

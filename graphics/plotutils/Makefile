@@ -9,6 +9,7 @@
 DISTNAME=	plotutils-2.1.1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	plotutils
 
 MAINTAINER=	chuckr@FreeBSD.ORG
 

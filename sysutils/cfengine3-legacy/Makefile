@@ -9,6 +9,7 @@
 DISTNAME=       cfengine-1.4.12
 CATEGORIES=	sysutils
 MASTER_SITES=   ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	cfengine
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
