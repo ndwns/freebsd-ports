@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	gcc-2.95
-CATEGORIES=	lang
+CATEGORIES=	lang java
 MASTER_SITES=	ftp://go.cygnus.com/pub/sourceware.cygnus.com/pub/egcs/releases/gcc-2.95/ \
 		ftp://egcs.cygnus.com/pub/egcs/releases/gcc-2.95/ \
 		ftp://ftp.nluug.nl/pub/languages/egcs/releases/gcc-2.95/ \
