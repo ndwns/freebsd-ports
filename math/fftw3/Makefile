@@ -1,5 +1,5 @@
 # New ports collection makefile for: fftw
-# Version required:	2.1.1
+# Version required:	2.1.2
 # Date created:		Dec 28 1998
 # Whom:			Lars Koeller <lkoeller@cc.fh-lippe.de>
 #
