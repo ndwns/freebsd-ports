@@ -1,4 +1,4 @@
-@comment $Id$
+@comment $FreeBSD$
 bin/minicom
 bin/xminicom
 bin/runscript
