@@ -10,6 +10,9 @@ DISTNAME=	pl19980217e
 PKGNAME=	ja-platex2e-euc-1998.02.17.0
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/platex/1998-02-17/
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
+		pl980227.patch.gz.txt pl980323.patch.gz.txt \
+		pl980409.patch.gz.txt pl980413.patch.gz.txt
 
 MAINTAINER=	max@FreeBSD.ORG
 
@@ -19,10 +22,20 @@ RUN_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-euc \
 		platex-common:${PORTSDIR}/japanese/platex-common
 
 MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 WRKSRC=		${WRKDIR}/19980217
 DIST_SUBDIR=	platex2e
 
 TEXMF=		${PREFIX}/share/texmf
+
+do-patch:
+.for f in 0227 0323 0413
+	@/usr/bin/uudecode -p ${DISTDIR}/${DIST_SUBDIR}/pl98${f}.patch.gz.txt \
+	  | ${GZCAT} | ${PATCH} ${PATCH_DIST_ARGS}
+.endfor
+	@/usr/bin/uudecode -p ${DISTDIR}/${DIST_SUBDIR}/pl980409.patch.gz.txt \
+	  | ${GZCAT} | ${SED} 3,33d | ${PATCH} ${PATCH_DIST_ARGS}
+	@${RM} -f ${WRKSRC}/*.orig
 
 do-build:
 	@(cd ${WRKSRC}; ptex -ini plcore.ins; ptex -ini platex.ltx)
