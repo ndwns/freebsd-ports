@@ -1,5 +1,5 @@
 # New ports collection makefile for:	xbl
-# Version required:	1.0h
+# Version required:	1.0i
 # Date created:		May 25 1997
 # Whom:			pgs (original)
 #
