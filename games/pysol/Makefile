@@ -14,6 +14,8 @@ MAINTAINER=	tg@FreeBSD.ORG
 
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
+BROKEN=		fetch
+
 do-build:
 
 do-install:
