@@ -9,9 +9,11 @@
 DISTNAME=	kdesupport-1.1
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source
+MASTER_SITE_SUBDIR= stable/1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	se@freebsd.org
+
+USE_BZIP2=	yes
 
 USE_QT=		yes
 HAS_CONFIGURE=	yes
