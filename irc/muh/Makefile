@@ -13,6 +13,8 @@ MASTER_SITES=	http://mind.riot.org/download/
 
 MAINTAINER=	billf@FreeBSD.org
 
+BROKEN='md5 checksum mismatch'
+
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
