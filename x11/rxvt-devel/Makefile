@@ -14,7 +14,6 @@ MAINTAINER=	gpalmer@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/rxvt
 USE_IMAKE=	yes
-PREFIX=		/usr/X11R6
 
 # Get rid of the rclock directory until I can figure out how to patch
 # that up also and make it!
