@@ -11,7 +11,7 @@ PKGNAME=	dmake-4.0
 CATEGORIES=     devel
 MASTER_SITES=   ftp://plg.uwaterloo.ca/pub/dmake/
 
-MAINTAINER=	nils@guru.ims.uni-stuttgart.de
+MAINTAINER=	ports@FreeBSD.ORG
 
 WRKSRC=		$(WRKDIR)/dmake
 USE_GMAKE=	yes

@@ -12,7 +12,7 @@ PKGNAME=        gnat-2.03
 CATEGORIES=	lang
 MASTER_SITES=   ftp://cs.nyu.edu/pub/gnat/
 
-MAINTAINER=	nils@guru.ims.uni-stuttgart.de
+MAINTAINER=	ports@FreeBSD.ORG
 
 BROKEN=		"Not updated for gcc-2.7.x"
 # following three lines commented out because BROKEN is already defined
