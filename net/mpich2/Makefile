@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.mcs.anl.gov/pub/mpi/
 MAINTAINER=	dbader@eece.unm.edu
 
 HAS_CONFIGURE=	yes
+CONFIGURE_ARGS=	--cflags="$(CFLAGS)"
 WRKSRC=		${WRKDIR}/mpich
 ALL_TARGET=
 MANPREFIX=	$(PREFIX)/mpich
