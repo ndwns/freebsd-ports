@@ -5,7 +5,7 @@
 #
 # $Id$
 #
-# Note this file is included from japanese/extract/Makefile
+# Note this file is included from japanese/expect/Makefile
 
 DISTNAME=	expect-5.26
 CATEGORIES=	lang tcl80 tk80
