@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	applications
 
 MAINTAINER=	jkoshy@FreeBSD.ORG
 
+BROKEN=		manpages
+
 USE_IMAKE=	yes
 MANN=		xli.n xlito.n
 MANCOMPRESSED=	no
