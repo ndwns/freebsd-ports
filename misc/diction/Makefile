@@ -10,7 +10,7 @@ DISTNAME=		diction-0.6
 CATEGORIES=		misc
 MASTER_SITES=		ftp://cantor.informatik.rwth-aachen.de/pub/unix/
 
-MAINTAINER=		hjh@best.com
+MAINTAINER=		ports@freebsd.org
 
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes

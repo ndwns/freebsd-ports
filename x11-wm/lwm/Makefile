@@ -1,7 +1,7 @@
 # New ports collection makefile for:	lwm
 # Version required:	0.06
 # Date created:		17 March 1998
-# Whom:			J Han <hjh@best.com>
+# Whom:			J Han <hjh@photino.com>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	x11-wm
 MASTER_SITES=	http://users.ch.genedata.com/~enh/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	hjh@best.com
+MAINTAINER=	hjh@photino.com
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
