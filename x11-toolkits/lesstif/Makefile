@@ -16,6 +16,8 @@ MAINTAINER=	ports@FreeBSD.org
 
 #	see below for shared lib version information
 
+BROKEN=		"Sorry, distfile is gone from the master site"
+
 GNU_CONFIGURE=  yes
 USE_X11=	yes
 # change this and remove the strip statement in post-install for debugging
