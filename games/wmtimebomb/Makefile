@@ -7,7 +7,7 @@
 
 DISTNAME=	wmtimebomb.6
 PKGNAME=	wmtimebomb-0.1.6
-CATEGORIES=	games
+CATEGORIES=	games windowmaker
 MASTER_SITES=	http://www.gpf.or.th/~mhz/wmtimebomb/
 
 MAINTAINER=	ports@FreeBSD.ORG

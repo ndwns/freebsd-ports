@@ -8,7 +8,7 @@
 
 DISTNAME=	ASFiles-1.0
 PKGNAME=	asfiles-1.0
-CATEGORIES=	x11-fm
+CATEGORIES=	x11-fm windowmaker
 MASTER_SITES=	ftp://ftp.okbmei.msk.su/pub/os/unix/X11/fileman/
 
 MAINTAINER=	lukin@okbmei.msk.su

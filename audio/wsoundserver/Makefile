@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmsound-0.9.0
-CATEGORIES=	audio
+CATEGORIES=	audio windowmaker
 MASTER_SITES=	http://www.frontiernet.net/~southgat/wmsound/download/
 
 MAINTAINER=	gljohns@bellsouth.net

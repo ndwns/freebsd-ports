@@ -8,7 +8,7 @@
 
 DISTNAME=	wmcdplay
 PKGNAME=	wmcdplay-1.0b1
-CATEGORIES=	audio
+CATEGORIES=	audio windowmaker
 MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
 EXTRACT_SUFX=	.tgz
 

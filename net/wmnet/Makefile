@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmnet-1.1
-CATEGORIES=	net
+CATEGORIES=	net windowmaker
 MASTER_SITES=	ftp://ftp.mcs.net/mcsnet.users/rneswold/
 
 MAINTAINER=	rneswold@mcs.net

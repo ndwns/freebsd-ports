@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmmon-1.0b2
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils windowmaker
 MASTER_SITES=	ftp://ftp.mezaway.org/pub/ \
 		http://www.physics.adelaide.edu.au/~kkennawa/ \
 		ftp://ftp.tecnogi.com/pub/linux/WindowMaker/ \

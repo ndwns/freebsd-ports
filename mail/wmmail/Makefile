@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmmail-0.59
-CATEGORIES=	mail
+CATEGORIES=	mail windowmaker
 MASTER_SITES=	http://earth.gaianet.net/~scorpio/
 
 MAINTAINER=	jim@phrantic.phear.net

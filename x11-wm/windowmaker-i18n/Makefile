@@ -7,7 +7,7 @@
 
 DISTNAME=	WindowMaker-0.50.2
 PKGNAME=	windowmaker-i18n-0.50.2
-CATEGORIES=	x11-wm
+CATEGORIES=	x11-wm windowmaker
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/beta/srcs/ \
 		ftp://ftp.io.com/pub/mirror/windowmaker/beta/srcs/ \
 		http://jgo.local.net/cool_downloads/wm/ \

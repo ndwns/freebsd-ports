@@ -6,7 +6,7 @@
 # $Id$
 
 DISTNAME=	wdm-1.0
-CATEGORIES=	x11
+CATEGORIES=	x11 windowmaker
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/contrib/srcs/utils/ \
 		ftp://ftp.io.com/pub/mirror/windowmaker/contrib/srcs/utils/ \
 		http://www.de.freebsd.org/de/gif/bsd/

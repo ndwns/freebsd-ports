@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmtime-1.0b2
-CATEGORIES=	x11-clocks
+CATEGORIES=	x11-clocks windowmaker
 MASTER_SITES=	ftp://ftp.mezaway.org/pub/
 
 MAINTAINER=	rneswold@mcs.net

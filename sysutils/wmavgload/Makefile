@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wmavgload-0.7.0
-CATEGORIES=	sysutils
+CATEGORIES=	sysutils windowmaker
 MASTER_SITES=	ftp://ftp.windowmaker.org/pub/contrib/srcs/utils/
 
 MAINTAINER=	kushn@mail.kar.net

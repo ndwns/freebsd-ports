@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ascd-0.7
-CATEGORIES=	audio afterstep
+CATEGORIES=	audio afterstep windowmaker
 MASTER_SITES=	http://slashdot.org/linux/dl/
 
 MAINTAINER=	jim@phrantic.phear.net

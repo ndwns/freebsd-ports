@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	astime-1.5
-CATEGORIES=	x11-clocks
+CATEGORIES=	x11-clocks windowmaker
 MASTER_SITES=	http://bewoner.dma.be/Albert/linux/software/ \
 		ftp://ftp.tux.org/pub/x/afterstep/apps/astime/ \
 		ftp://ftp.digex.net/.2/wm/AfterStep/apps/astime/ \
