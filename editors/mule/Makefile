@@ -25,6 +25,7 @@ RUN_DEPENDS=	${PREFIX}/share/${EMACS_PREFIX}/19.34/lisp/mule.el:${PORTSDIR}/edit
 LIB_DEPENDS=	${LIB_INPUT_METHOD}
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
 
+USE_XLIB=	yes
 EXTRACT_ONLY=	emacs-19.34b.tar.gz
 WRKSRC=		${WRKDIR}/emacs-19.34
 PATCHDIR=	${.CURDIR}/../../editors/mule-common/patches
