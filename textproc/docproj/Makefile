@@ -18,7 +18,6 @@ RUN_DEPENDS=	instant:${PORTSDIR}/textproc/sgmlformat \
 		${PREFIX}/share/sgml/docbook/dsssl/modular:${PORTSDIR}/textproc/dsssl-docbook-modular
 
 EXTRACT_ONLY=	# empty
-NO_PATCH=	yes
 NO_BUILD=	yes
 
 do-install:	# empty
