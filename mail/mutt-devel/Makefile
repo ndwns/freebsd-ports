@@ -20,7 +20,7 @@ PATCH_SITES=	ftp://nuxi.cs.ucdavis.edu/pub/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.math.fu-berlin.fr/~leitner/mutt/${PKGNAME:S/^mutt-//}/  \
 		http://www.efrei.fr/~parmelan/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://www.frmug.org/pub/mutt/mutt/${PKGNAME:S/^mutt-//}/
-PATCHFILES=
+#PATCHFILES=
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
