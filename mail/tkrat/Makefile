@@ -11,7 +11,7 @@ CATEGORIES=	mail tk80
 MASTER_SITES=	ftp://ftp.md.chalmers.se/pub/tkrat/ \
 		ftp://ftp.sunet.se/pub/unix/mail/tkrat/
 
-MAINTAINER=	bgingery@gtcs.com
+MAINTAINER=	appleseed@his.com
 
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80
 LIB_DEPENDS=	tcl80\\.1\\.2:${PORTSDIR}/lang/tcl80 \
