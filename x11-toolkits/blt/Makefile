@@ -15,8 +15,6 @@ MAINTAINER=	lukin@okbmei.msk.su
 
 LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
 
-BROKEN=		tcl.h
-
 WRKSRC=		${WRKDIR}/blt2.1
 GNU_CONFIGURE=	yes
 MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
