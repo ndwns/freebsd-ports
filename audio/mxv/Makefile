@@ -9,12 +9,7 @@
 DISTNAME=	mxv-v1.10-source
 PKGNAME=	mxv-1.10
 CATEGORIES=	audio
-MASTER_SITES=	ftp://ftp.ccmrc.ucsb.edu/pub/MixViews/source/
-
-#PATCH_SITES=	ftp://ftp.ccmrc.ucsb.edu/pub/MixViews/source/
-#PATCHFILES=	mxv-v1.10-patch01
-#Unfortunately, the above vendor patch does not apply cleanly,
-#and and a hand-edited version is supplied in the patches subdir
+MASTER_SITES=	ftp://ftp.funet.fi/pub/sci/audio/mxv/
 
 MAINTAINER=	davidn@blaze.net.au
 
