@@ -18,13 +18,9 @@ MAINTAINER=        nordquist@platinum.com
 
 MAKE_FLAGS=        DESTDIR=${PREFIX} -f
 MAKEFILE=          Makefile.sun
+MAN1=		   btoa.1
 
 # Turn off the default from bsd.port.mk (-p0), which screws things up
 PATCH_DIST_STRIP=  
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/btoa.1
-.endif
 
 .include <bsd.port.mk>
