@@ -1,15 +1,14 @@
 # New ports collection makefile for:	ImageMagick
-# Version required:     4.2.2
+# Version required:     4.2.5
 # Date created:		15 November 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=       ImageMagick-4.2.2
+DISTNAME=       ImageMagick-4.2.5
 CATEGORIES=	graphics perl5
-MASTER_SITES=	http://www.freebsd.org/~jseger/ \
-		ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
+MASTER_SITES=	ftp://ftp.wizards.dupont.com/pub/ImageMagick/ \
 		ftp://ftp.cci.fr/pub/unix/gfx/ImageMagick/ \
 		ftp://ftp.u-aizu.ac.jp/pub/graphics/image/ImageMagick/ \
 		ftp://ftp.fifi.org/pub/ImageMagick/ \
@@ -35,8 +34,8 @@ MAN4=	miff.4
 MAN5=	quantize.5
 
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
-GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--enable-lzw --enable-shared --with-perl=${PERL5}
+HAS_CONFIGURE=	YES
+CONFIGURE_ARGS=	--prefix=${PREFIX} --enable-lzw --enable-shared --with-perl=${PERL5}
 USE_PERL5=	YES
 CONFIGURE_ENV=  LDFLAGS="$(LDFLAGS) -L${WRKSRC}/magick/.libs"
 post-install:
