@@ -25,6 +25,7 @@
     SUBDIR += tin
     SUBDIR += trn
     SUBDIR += unpost
+    SUBDIR += xmitbin
     SUBDIR += xvnews
 
 .include <bsd.port.subdir.mk>
