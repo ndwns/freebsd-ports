@@ -11,22 +11,24 @@ BINGRP?=	bin
 BINOWN?=	bin
 BINMODE?=	555
 
+ECHO_MSG?=	echo
+
 _SUBDIRUSE: .USE
 	@for entry in ${SUBDIR}; do \
 		OK=""; \
 		for dud in $$DUDS; do \
 			if [ $${dud} = $${entry} ]; then \
 				OK="false"; \
-				echo "===> ${DIRPRFX}$${entry} skipped"; \
+				${ECHO_MSG} "===> ${DIRPRFX}$${entry} skipped"; \
 			fi; \
 		done; \
 		if [ "$$OK" = "" ]; then \
 			if test -d ${.CURDIR}/$${entry}.${MACHINE}; then \
-				echo "===> ${DIRPRFX}$${entry}.${MACHINE}"; \
+				${ECHO_MSG} "===> ${DIRPRFX}$${entry}.${MACHINE}"; \
 				edir=$${entry}.${MACHINE}; \
 				cd ${.CURDIR}/$${edir}; \
 			else \
-				echo "===> ${DIRPRFX}$$entry"; \
+				${ECHO_MSG} "===> ${DIRPRFX}$$entry"; \
 				edir=$${entry}; \
 				cd ${.CURDIR}/$${edir}; \
 			fi; \
@@ -49,6 +51,10 @@ all: _SUBDIRUSE
 
 .if !target(fetch)
 fetch: _SUBDIRUSE
+.endif
+
+.if !target(fetch-list)
+fetch-list: _SUBDIRUSE
 .endif
 
 .if !target(package)
