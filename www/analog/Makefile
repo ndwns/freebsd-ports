@@ -11,10 +11,12 @@ DISTNAME=       analog3.11
 PKGNAME=        analog-3.11
 CATEGORIES=	www
 MASTER_SITES=   http://www.statslab.cam.ac.uk/~sret1/analog/ \
-		http://www.lightside.net/analog/ \
-		http://www.gamesdomain.com/analog/ \
+		http://brendanr.simplenet.com/analog/ \
+		http://www.magma.ca/~brendanr/analog/ \
 		http://www.monash.edu.au/mirror/analog/ \
-		http://www.gamesdomain.co.uk/analog/ \
+		http://analog.gsp.com/ \
+		http://analog.technomancer.com/ \
+		ftp://ftp.netcasting.net/pub/packages/analog \
 		ftp://download.netvision.net.il/pub/mirrors/analog/ \
 		ftp://mabuse.phil.uni-passau.de/pub/mirrors/analog/
 
