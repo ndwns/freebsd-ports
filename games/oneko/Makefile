@@ -13,7 +13,6 @@ MASTER_SITES=	http://www.asahi-net.or.jp/~ZW6T-KND/oneko/
 MAINTAINER=	candy@fct.kgc.co.jp
 
 USE_IMAKE=	yes
-MANCOMPRESSED=	yes
 MAN6=		oneko.6
 
 pre-configure:
