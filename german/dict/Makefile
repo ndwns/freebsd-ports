@@ -14,7 +14,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${dict}.gz
 
 MAINTAINER=     wosch@FreeBSD.org
 
-RUN_DEPENDS=	${PORTSDIR}/textproc/agrep
+RUN_DEPENDS=	agrep:${PORTSDIR}/textproc/agrep
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
