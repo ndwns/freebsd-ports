@@ -1,6 +1,6 @@
---- Makefile.orig	Tue Aug 15 10:23:51 2000
-+++ Makefile	Tue Aug 15 10:24:42 2000
-@@ -1,11 +1,11 @@
+--- Makefile.orig	Tue Aug 29 14:59:10 2000
++++ Makefile	Thu Sep 21 17:51:17 2000
+@@ -1,12 +1,12 @@
  # $Id$
  
  # Installation prefix -- modify to your preferences
@@ -10,7 +10,9 @@
  
  # NOTE: Normally nothing below this point need to be changed
 -PYTHON=/usr/bin/env python
+-PYTHONLIBPATH=`$(PYTHON) -c 'import sys; print sys.prefix'`/lib/python1.5
 +PYTHON=${LOCALBASE}/bin/python
- PYTHONLIBPATH=`$(PYTHON) -c 'import sys; print sys.prefix'`/lib/python1.5
++PYTHONLIBPATH=`$(PYTHON) -c 'import sys; print sys.prefix'`/lib/$(PYTHON_VERSION)
  COMPILEPROG=compileall.py
  COMPILEPROGOPT=-l .
+ SH=/bin/sh
