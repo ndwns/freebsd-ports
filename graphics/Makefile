@@ -103,6 +103,7 @@
     SUBDIR += txtmerge
     SUBDIR += urt
     SUBDIR += vcg
+    SUBDIR += vtk
     SUBDIR += whirlgif
     SUBDIR += wmicons
     SUBDIR += xanim
