@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	linux-ar-40
-PKGNAME=	acroread-40
+PKGNAME=	acroread-4.0b
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.adobe.com/pub/adobe/acrobatreader/unix/4.x/beta/
 
