@@ -7,7 +7,6 @@
     SUBDIR += bladeenc
     SUBDIR += cam
     SUBDIR += cdd
-    SUBDIR += cddbd
     SUBDIR += cdplay
     SUBDIR += dagrab
     SUBDIR += dap
