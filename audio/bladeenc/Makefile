@@ -14,6 +14,7 @@ MASTER_SITES=	http://home8.swipnet.se/~w-82625/encoder/binaries/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
+ONLY_FOR_ARCHS=	i386
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
