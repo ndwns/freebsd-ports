@@ -12,11 +12,10 @@ MASTER_SITES=		ftp://ftp.netcom.com/pub/zm/zmbenhal/ncurses/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-BROKEN=			compile
-
 WRKSRC=			${WRKDIR}/ncurses_1.9.9g
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=	--with-shared --datadir=${PREFIX}/share/misc
+CONFIGURE_ENV=		gnat_exists="no"
 USE_GMAKE=		yes
 MAKE_FLAGS=		ABI_VERSION=3.4 -f
 
