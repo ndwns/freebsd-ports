@@ -10,8 +10,9 @@ PKGNAME=	ko-Wnn-4.2
 CATEGORIES=	korean
 
 ## COMMENT, DESCR, PLIST is used in a local 'pkg' directory
+MASTERDIR=	${.CURDIR}/../../japanese/Wnn
 COMMENT=	${.CURDIR}/pkg/COMMENT
 DESCR=		${.CURDIR}/pkg/DESCR
 PLIST=		${.CURDIR}/pkg/PLIST
 
-.include "${.CURDIR}/../../japanese/Wnn/Makefile"
+.include "${MASTERDIR}/Makefile"

@@ -10,4 +10,7 @@ PKGNAME=	ja-xemacs-wnn4-20.4
 
 WNN4=		yes
 
-.include "${.CURDIR}/../../japanese/xemacs/Makefile"
+MASTERDIR=	${.CURDIR}/../../japanese/xemacs
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

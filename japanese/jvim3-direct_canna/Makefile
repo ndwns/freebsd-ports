@@ -10,4 +10,7 @@ PKGNAME=	ja-jvim--direct_canna-3.0.1.3i
 
 DIRECT_CANNA=	yes
 
-.include "${.CURDIR}/../jvim3/Makefile"
+MASTERDIR=	${.CURDIR}/../jvim3
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

@@ -12,4 +12,7 @@ BROKEN_ELF=	Wnn6 has not yet corresponded to ELF
 
 WNN6=		yes
 
-.include "${.CURDIR}/../../japanese/xemacs/Makefile"
+MASTERDIR=	${.CURDIR}/../../japanese/xemacs
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

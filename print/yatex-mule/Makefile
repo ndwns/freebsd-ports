@@ -11,4 +11,7 @@ CATEGORIES=	japanese print elisp
 
 MULE=		yes
 
-.include "${.CURDIR}/../../print/yatex/Makefile"
+MASTERDIR=	${.CURDIR}/../../print/yatex
+PLIST=		${.CURDIR}/pkg/PLIST
+
+.include	"${MASTERDIR}/Makefile"

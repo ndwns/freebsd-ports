@@ -9,4 +9,7 @@
 PKGNAME=	ja-kinput2-sj3-2.0.4
 SJ3=		yes
 
-.include "${.CURDIR}/../kinput2-wnn4/Makefile"
+MASTERDIR=	${.CURDIR}/../kinput2-wnn4/
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

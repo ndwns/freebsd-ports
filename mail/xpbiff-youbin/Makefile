@@ -12,10 +12,11 @@ PKGNAME=	xpbiff-youbin-1.27
 MAINTAINER=	sanpei@yy.cs.keio.ac.jp
 
 YOUBIN=		yes
-FILESDIR=	${.CURDIR}/../xpbiff/files
-PATCHDIR=	${.CURDIR}/../xpbiff/patches
-PLIST=		${.CURDIR}/../xpbiff/pkg/PLIST
+MASTERDIR=	${.CURDIR}/../xpbiff
+PKGDIR=		${.CURDIR}/pkg
+PLIST=		${MASTERDIR/pkg/PLIST
 
 RUN_DEPENDS=	youbin:${PORTSDIR}/mail/youbin
 
-.include "${.CURDIR}/../xpbiff/Makefile"
+
+.include	"${MASTERDIR}/Makefile"

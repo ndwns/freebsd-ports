@@ -14,10 +14,6 @@ MASTER_SITES=	http://www.comp.ae.keio.ac.jp/~yuuji/yatex/ \
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
-PATCHDIR=	${.CURDIR}/../../print/yatex/patches
-FILESDIR=	${.CURDIR}/../../print/yatex/files
-PKGDIR=		${.CURDIR}/../../print/yatex/pkg
-PLIST=		${.CURDIR}/pkg/PLIST
 WRKSRC=		${WRKDIR}/yatex${VERSION}
 .if defined(XEMACS-MULE)
 BUILD_DEPENDS=	xemacs:${PORTSDIR}/editors/xemacs-mule \

@@ -13,7 +13,9 @@ MASTER_SITES=	http://www2.wbs.ne.jp/~znc/tcsh/
 
 MAINTAINER=	issei@jp.FreeBSD.ORG
 
-PLIST=		../tcsh-nls-generic/pkg/PLIST
+MASTERDIR=	${.CURDIR}/../tcsh-nls-generic
+PKGDIR=		${.CURDIR}/pkg
+PLIST=		${MASTERDIR}/pkg/PLIST
 NLSSRC=		${DISTNAME}/nls/ja.ruri2
 
-.include "../tcsh-nls-generic/Makefile"
+.include	"${MASTERDIR}/Makefile"

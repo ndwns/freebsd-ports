@@ -11,4 +11,7 @@ PKGNAME=	ja-xemacs-canna+wnn4-20.4
 CANNA=		yes
 WNN4=		yes
 
-.include "${.CURDIR}/../../japanese/xemacs/Makefile"
+MASTERDIR=	${.CURDIR}/../../japanese/xemacs
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

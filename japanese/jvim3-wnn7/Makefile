@@ -10,4 +10,7 @@ PKGNAME=	ja-jvim-wnn6-3.0.1.3i
 
 WNN6=		yes
 
-.include "${.CURDIR}/../jvim3/Makefile"
+MASTERDIR=	${.CURDIR}/../jvim3
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

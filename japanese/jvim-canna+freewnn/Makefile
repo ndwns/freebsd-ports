@@ -10,4 +10,7 @@ PKGNAME=	ja-jvim-canna+wnn4-2.0r
 CANNA=		yes
 WNN4=		yes
 
-.include "${.CURDIR}/../jvim/Makefile"
+MASTERDIR=	${.CURDIR}/../jvim
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

@@ -9,4 +9,6 @@
 PKGNAME=	ja-onew-wnn6-2.2.10
 WNN6=		yes
 
-.include "${.CURDIR}/../onew-wnn4/Makefile"
+MASTERDIR=	${.CURDIR}/../onew-wnn4
+
+.include	"${MASTERDIR}/Makefile"

@@ -12,4 +12,7 @@ EMACS_NAME=	Emacs-19.34b
 DIRENTRY=	"* Mew: (mew).	Messaging in the Emacs World."
 INFOFILE=	mew.info
 
-.include "${.CURDIR}/../../mail/mew-common/Makefile"
+MASTERDIR=	${.CURDIR}/../../mail/mew-common
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

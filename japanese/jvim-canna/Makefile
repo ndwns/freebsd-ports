@@ -9,4 +9,7 @@
 PKGNAME=	ja-jvim-canna-2.0r
 CANNA=		yes
 
-.include "${.CURDIR}/../jvim/Makefile"
+MASTERDIR=	${.CURDIR}/../jvim
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

@@ -10,4 +10,7 @@ PKGNAME=	ja-kinput2-canna+wnn6-2.0.4
 CANNA=		yes
 WNN6=		yes
 
-.include "${.CURDIR}/../kinput2-wnn4/Makefile"
+MASTERDIR=	${.CURDIR}/../kinput2-wnn4/
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

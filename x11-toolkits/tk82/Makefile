@@ -1,4 +1,4 @@
-# New ports collection makefile for:	tk8.0
+# New ports collection makefile for:	tk8.1
 # Version required:	8.1a2
 # Date created:		19 August 1997
 # Whom:			jkh
@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 MAINTAINER=	jseger@FreeBSD.ORG
 
 LIB_DEPENDS=	tcl81.1:${PORTSDIR}/lang/tcl81
+FILE_DEPENDS=	${PORTSDIR}/x11-toolkits/tk80
 
 USE_XLIB=	yes
 NO_LATEST_LINK=	yes

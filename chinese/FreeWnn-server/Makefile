@@ -14,4 +14,6 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 DESCR=		${.CURDIR}/pkg/DESCR
 PLIST=		${.CURDIR}/pkg/PLIST
 
-.include "${.CURDIR}/../../japanese/Wnn/Makefile"
+MASTERDIR=	${.CURDIR}/../../japanese/Wnn
+
+.include "${MASTERDIR}/Makefile"

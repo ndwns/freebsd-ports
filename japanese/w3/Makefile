@@ -8,8 +8,6 @@
 
 PKGNAME=	ja-w3-2.2.26
 CATEGORIES=	www japanese elisp
-FILESDIR=	${.CURDIR}/../../www/w3/files
-PATCHDIR=	${.CURDIR}/../../www/w3/patches
 
 # Don't RUN_DEPENDS on mule because we don't know which version the
 # user would want.  We can't omit the BUILD_DEPENDS because it needs
@@ -20,4 +18,7 @@ RUN_DEPENDS=
 EMACSCMD=	mule
 ELISPDIR=	${PREFIX}/lib/mule/site-lisp
 
-.include "${.CURDIR}/../../www/w3/Makefile"
+MASTERDIR=	${.CURDIR}/../../www/w3
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

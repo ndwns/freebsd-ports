@@ -10,10 +10,9 @@ PKGNAME=	ja-mnews-gnspool-1.21
 
 RUN_DEPENDS=	gnspool:${PORTSDIR}/japanese/gn-gnspool
 
-FILESDIR=	${.CURDIR}/../mnews/files
-PKGDIR=		${.CURDIR}/../mnews/pkg
+MASTERDIR=	${.CURDIR}/../mnews
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
 GNSPOOL=	1
 
-.include "../mnews/Makefile"
+.include "${MASTERDIR}/Makefile"

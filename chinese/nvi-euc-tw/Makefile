@@ -6,15 +6,12 @@
 # $Id$
 #
 
-# can't use PORTSDIR here, since we haven't included bsd.port.mk
-FILESDIR=	${.CURDIR}/../../editors/nvi-m17n/files
-PATCHDIR=	${.CURDIR}/../../editors/nvi-m17n/patches
-PKGDIR=		${.CURDIR}/../../editors/nvi-m17n/pkg
-COMMENT=	${.CURDIR}/pkg/COMMENT
-
 PKGNAME=	zh-nvi-euctw-1.79.19981119
 
-.include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
+MASTERDIR=	${.CURDIR}/../../editors/nvi-m17n
+COMMENT=	${.CURDIR}/pkg/COMMENT
+
+.include "${MASTERDIR}/Makefile"
 
 CATEGORIES=	chinese editors
 

@@ -6,17 +6,14 @@
 # $Id$
 #
 
-# can't use PORTSDIR here, since we haven't included bsd.port.mk
-FILESDIR=	${.CURDIR}/../../misc/magicpoint/files
-PATCHDIR=	${.CURDIR}/../../misc/magicpoint/patches
-PKGDIR=		${.CURDIR}/../../misc/magicpoint/pkg
+MASTERDIR=	${.CURDIR}/../../misc/magicpoint
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
 LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
 
 PKGNAME=	ja-magicpoint-1.04a
 
-.include <${.CURDIR}/../../misc/magicpoint/Makefile>
+.include "${MASTERDIR}/Makefile"
 
 CATEGORIES=	japanese misc
 

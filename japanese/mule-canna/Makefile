@@ -11,4 +11,7 @@ CATEGORIES=	japanese editors
 
 CANNA=		yes
 
-.include "${.CURDIR}/../../editors/mule/Makefile"
+MASTERDIR=	${.CURDIR}/../../editors/mule
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

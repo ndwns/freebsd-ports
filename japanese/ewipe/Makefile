@@ -6,16 +6,14 @@
 # $Id$
 #
 
-# can't use PORTSDIR here, since we haven't included bsd.port.mk
-FILESDIR=	${.CURDIR}/../../misc/ewipe/files
-PKGDIR=		${.CURDIR}/../../misc/ewipe/pkg
-SCRIPTDIR=	${.CURDIR}/../../misc/ewipe/scripts
+MASTERDIR=	${.CURDIR}/../../misc/ewipe
+PATCHDIR=	${.CURDIR}/patches
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
 PKGNAME=	ja-ewipe-1.0.0
 KANJI=		yes
 
-.include <${.CURDIR}/../../misc/ewipe/Makefile>
+.include "${MASTERDIR}/Makefile"
 
 CATEGORIES=	japanese misc tk42
 

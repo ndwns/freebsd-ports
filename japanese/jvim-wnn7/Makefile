@@ -9,4 +9,7 @@
 PKGNAME=	ja-jvim-wnn6-2.0r
 WNN6=		yes
 
-.include "${.CURDIR}/../jvim/Makefile"
+MASTERDIR=	${.CURDIR}/../jvim
+PKGDIR=		${.CURDIR}/pkg
+
+.include "${MASTERDIR}/Makefile"

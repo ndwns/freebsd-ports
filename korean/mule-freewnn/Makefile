@@ -10,4 +10,7 @@ PKGNAME=	ko-mule-wnn4-2.3
 CATEGORIES=	korean editors
 KWNN4=		yes
 
-.include "${.CURDIR}/../../editors/mule/Makefile"
+MASTERDIR=	${.CURDIR}/../../editors/mule
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"

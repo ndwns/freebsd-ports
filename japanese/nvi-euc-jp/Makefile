@@ -6,17 +6,14 @@
 # $Id$
 #
 
-# can't use PORTSDIR here, since we haven't included bsd.port.mk
-FILESDIR=	${.CURDIR}/../../editors/nvi-m17n/files
-PATCHDIR=	${.CURDIR}/../../editors/nvi-m17n/patches
-PKGDIR=		${.CURDIR}/../../editors/nvi-m17n/pkg
+PKGNAME=	ja-nvi-eucjp-1.79.19981119
+
+MASTERDIR=	${.CURDIR}/../../editors/nvi-m17n
 COMMENT=	${.CURDIR}/pkg/COMMENT
 
 LIB_DEPENDS=	canna.1:${PORTSDIR}/japanese/Canna
 
-PKGNAME=	ja-nvi-eucjp-1.79.19981119
-
-.include <${.CURDIR}/../../editors/nvi-m17n/Makefile>
+.include	"${MASTERDIR}/Makefile"
 
 CATEGORIES=	japanese editors
 

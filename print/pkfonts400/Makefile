@@ -7,7 +7,6 @@
 #
 
 RESOLUTION=	400
-FILESDIR=	${.CURDIR}/../pkfonts300/files
-PKGDIR=		${.CURDIR}/../pkfonts300/pkg
+MASTERDIR=	${.CURDIR}/../pkfonts300
 
-.include "${.CURDIR}/../pkfonts300/Makefile"
+.include	"${MASTERDIR}/Makefile"

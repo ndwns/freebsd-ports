@@ -14,4 +14,7 @@ DIRENTRY=	"* Mew: (mew).	Messaging in the Emacs World (English)." \
 INFOFILE=	mew.info \
 		mew.jis.info
 
-.include "${.CURDIR}/../../mail/mew-common/Makefile"
+MASTERDIR=	${.CURDIR}/../../mail/mew-common
+PKGDIR=		${.CURDIR}/pkg
+
+.include	"${MASTERDIR}/Makefile"
