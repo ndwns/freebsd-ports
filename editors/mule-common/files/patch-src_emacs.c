@@ -1,13 +1,11 @@
-
-$FreeBSD$
-
---- src/emacs.c.orig	Wed May 24 15:58:54 2000
-+++ src/emacs.c	Mon Jul 29 23:23:20 2002
-@@ -602,7 +602,6 @@
+--- src/emacs.c.~1~	Tue Aug 18 14:48:38 1998
++++ src/emacs.c	Fri Sep 20 23:04:16 2002
+@@ -510,8 +510,6 @@
+ {
    char stack_bottom_variable;
    int skip_args = 0;
-   extern int errno;
--  extern int sys_nerr;
- #ifdef HAVE_SETRLIMIT
-   struct rlimit rlim;
- #endif
+-  extern int errno;
+-  extern sys_nerr;
+ 
+ #ifdef LINUX_SBRK_BUG
+   __sbrk (1);
