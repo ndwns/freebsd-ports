@@ -8,8 +8,12 @@
 
 DISTNAME=		xml-0.5.1
 PKGNAME=		py-xml-0.5.1
-CATEGORIES=		textproc
-MASTER_SITES=		http://www.python.org/sigs/xml-sig/files/
+CATEGORIES=		textproc python
+MASTER_SITES=		http://www.python.org/sigs/xml-sig/files/      \
+			ftp://ftp.cdrom.com/pub/python/www.python.org/sigs/xml-sig/files/ \
+			ftp://ftp.kddlabs.co.jp/pub/lang/python/www.python.org/sigs/xml-sig/files/ \
+			ftp://unix.hensa.ac.uk/mirrors/ftp.python.org/pub/www.python.org/sigs/xml-sig/files/ \
+			http://www.nectar.cc/distfiles/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		nectar@FreeBSD.ORG
