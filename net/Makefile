@@ -10,6 +10,7 @@
     SUBDIR += cap
     SUBDIR += choparp
     SUBDIR += clog
+    SUBDIR += cnet
     SUBDIR += cvsup
     SUBDIR += cvsup-bin
     SUBDIR += cvsup-mirror
