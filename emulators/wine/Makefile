@@ -6,16 +6,16 @@
 # $Id$
 #
 
-DATE=		970329
+DATE=		970415
 DISTNAME=	Wine-${DATE}
-PKGNAME=	wine-97.03.29
+PKGNAME=	wine-97.04.15
 CATEGORIES=	emulators x11
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	ALPHA/wine/development
 
 MAINTAINER=	se@FreeBSD.ORG
 
-LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+#LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 WRKSRC=		${WRKDIR}/wine${DATE}
 GNU_CONFIGURE=	yes
