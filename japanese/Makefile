@@ -95,6 +95,7 @@
     SUBDIR += lesw
     SUBDIR += libicq
     SUBDIR += libslang
+    SUBDIR += libxpg4-ns
     SUBDIR += lipsf
     SUBDIR += lynx
     SUBDIR += lynx-current
