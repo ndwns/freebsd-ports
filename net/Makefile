@@ -18,6 +18,7 @@
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dgd-net
+    SUBDIR += dict
     SUBDIR += dip
     SUBDIR += echoping
     SUBDIR += fping
