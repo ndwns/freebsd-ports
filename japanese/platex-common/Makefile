@@ -62,6 +62,8 @@ DISTFILES+=	pl9702j.tar.gz pl9702s.tar.gz pl9702e.tar.gz
 EXTRACT_ONLY=	${PLIB_FILE}
 
 do-install:
+	@${RM} -f ${PREFIX}/lib/texmf/tex/latex2e/base/*
+	@${RM} -f ${PREFIX}/lib/texmf/tex/platex2e/base/*
 	@tar -C ${PREFIX}/lib/texmf/fonts/public -zx \
 	  -f ${DISTDIR}/${DIST_SUBDIR}/ecfonts-1.0.tar.gz
 	@tar -C ${PREFIX}/lib/texmf/tex/latex2e -zx \
