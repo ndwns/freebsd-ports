@@ -24,6 +24,7 @@ MAINTAINER=	mita@jp.FreeBSD.org
 
 LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
 
+NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/gs262
 EXTRACT_ONLY=	ghostscript-2.6.2.tar.gz
 MAN1=		gs.1

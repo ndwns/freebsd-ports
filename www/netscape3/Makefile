@@ -13,6 +13,7 @@ DISTFILES=      netscape-v304-export.x86-unknown-bsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+NO_LATEST_LINK=	yes
 NO_WRKSUBDIR=	yes
 
 .if defined(GOLD)

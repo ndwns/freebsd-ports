@@ -15,6 +15,7 @@ MAINTAINER=	me@FreeBSD.org
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+NO_LATEST_LINK=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 ALL_TARGET=	Makefiles all

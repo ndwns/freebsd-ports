@@ -12,6 +12,7 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=	obrien@NUXI.com
 
+NO_LATEST_LINK=	yes
 WRKSRC=         ${WRKDIR}/${DISTNAME}
 # Don't compress manpages or .so not works.
 

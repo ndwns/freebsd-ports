@@ -12,6 +12,7 @@ MASTER_SITES=   ftp://ftp.ncftp.com/ncftp/
 
 MAINTAINER=	obrien@FreeBSD.org
 
+NO_LATEST_LINK=	yes
 MAN1=		ncftp.1
 
 do-install:
