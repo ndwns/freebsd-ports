@@ -9,12 +9,10 @@
 DISTNAME=	xperfmon++
 PKGNAME=	xperfmon++-1.40
 CATEGORIES=     sysutils x11
-# In Germany try this
-#MASTER_SITES=	ftp://odie.physik2.uni-rostock.de/pub/
 MASTER_SITES=	ftp://proteus.arc.nasa.gov/pub/
 DISTFILES=	xperfmon++v1.1.tar.Z
 
-MAINTAINER=	Lars_Koeller@odie.physik2.uni-rostock.de
+MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 
 USE_IMAKE=	yes
 
