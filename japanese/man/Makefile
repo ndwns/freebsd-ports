@@ -13,9 +13,10 @@ MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/ \
 
 MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 
+#do not run-depend on mule because dependency will be pulled in to package
+#and we don't know which one the user wants
 RUN_DEPENDS=	${PREFIX}/bin/groff:${PORTSDIR}/japanese/groff \
-		jless:${PORTSDIR}/japanese/less \
-		mule:${PORTSDIR}/editors/mule
+		jless:${PORTSDIR}/japanese/less
 
 JMANELDIR=	${PREFIX}/lib/mule/site-lisp/jman
 
