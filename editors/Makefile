@@ -15,6 +15,7 @@
     SUBDIR += joe
     SUBDIR += jove
     SUBDIR += le
+    SUBDIR += leim20
     SUBDIR += mule
     SUBDIR += mule-common
     SUBDIR += nedit
