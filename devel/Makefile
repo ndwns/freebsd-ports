@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += ElectricFence
     SUBDIR += SWIG
     SUBDIR += SpecTcl
     SUBDIR += asl
