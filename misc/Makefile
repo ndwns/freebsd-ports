@@ -19,7 +19,7 @@
     SUBDIR += less
     SUBDIR += linuxls
     SUBDIR += mc
-RESTRICTED += mmv               # restrictive copyright
+    SUBDIR += mmv
     SUBDIR += mshell
     SUBDIR += recode
     SUBDIR += rman
