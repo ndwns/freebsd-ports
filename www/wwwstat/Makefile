@@ -16,11 +16,10 @@ PATCHFILES=	patch-2.01.txt
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BROKEN=		perl5 upgrade
-
 RUN_DEPENDS=    ${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache13
 
 USE_PERL5=	yes
+MAKE_ENV+=	PERL5=${PERL5}
 DIST_SUBDIR=	wwwstat
 WRKSRC=		${WRKDIR}/wwwstat-2.0
 MAN1=		wwwstat.1 splitlog.1
