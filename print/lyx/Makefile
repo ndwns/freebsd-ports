@@ -6,14 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	lyx-0.12.1pre6
+DISTNAME=	lyx-1.0.0pre2
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.via.ecp.fr/pub/lyx/stable/ \
 		ftp://la1ad.uio.no/pub/lyx/                
 
 MAINTAINER=	andreas@FreeBSD.ORG
-
-BROKEN_ELF=	xforms is a.out only
 
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX
