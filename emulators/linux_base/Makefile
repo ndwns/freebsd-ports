@@ -17,6 +17,7 @@ NO_MTREE=	yes
 NO_BUILD=	yes
 EXTRACT_ONLY=	# empty
 NO_WRKSUBDIR=	yes
+NO_FILTER_SHLIBS=	yes
 
 pre-install:
 	@[ -d ${PREFIX} ] || ${MKDIR} ${PREFIX}
