@@ -170,7 +170,7 @@ DO_NADA?=		echo -n
 # Miscellaneous overridable commands:
 GMAKE?=			gmake
 XMKMF?=			xmkmf
-MD5?=			md5
+MD5?=			/sbin/md5
 MD5_FILE?=		${FILESDIR}/md5
 MAKE_FLAGS?=	-f
 MAKEFILE?=		Makefile
