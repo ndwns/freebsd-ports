@@ -10,6 +10,7 @@
     SUBDIR += nntp
     SUBDIR += nntpbtr
     SUBDIR += nntpcache
+    SUBDIR += plor
     SUBDIR += rkive
     SUBDIR += slnr
     SUBDIR += slurp
