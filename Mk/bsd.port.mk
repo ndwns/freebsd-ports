@@ -277,6 +277,15 @@ patch:
 
 # More standard targets start here.
 
+.if !target(describe)
+describe:
+	@if [ -f ${PKGDIR}/COMMENT ]; then \
+		echo "${.CURDIR}/${DISTNAME}:	`cat ${PKGDIR}/COMMENT`"; \
+	else \
+		echo "${.CURDIR}/${DISTNAME}:	** No Description"; \
+	fi
+.endif
+
 .if !target(reinstall)
 reinstall: pre-reinstall install
 
