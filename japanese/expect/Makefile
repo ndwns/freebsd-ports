@@ -14,6 +14,8 @@ MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
 LIB_DEPENDS=	tk80jp\\.1\\.:${PORTSDIR}/japanese/tk80
 
+BROKEN=		patch
+
 FILESDIR=	${.CURDIR}/../../lang/expect/files
 GNU_CONFIGURE=	yes
 USE_AUTOCONF=	yes
