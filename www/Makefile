@@ -18,6 +18,7 @@
     SUBDIR += linemode
     SUBDIR += lynx
     SUBDIR += mapedit
+    SUBDIR += mmm
     SUBDIR += netscape2
     SUBDIR += netscape3
     SUBDIR += p5-CGI
