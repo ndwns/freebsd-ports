@@ -7,6 +7,7 @@
     SUBDIR += dore
     SUBDIR += geomview
     SUBDIR += gd
+    SUBDIR += giflib
     SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
