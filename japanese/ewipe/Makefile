@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ewipe
-# Version required:	0.6.0
+# Version required:	0.7.0
 # Date created:		17 October 1997
 # Whom:			itojun@itojun.org
 #
@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 .include <${.CURDIR}/../../misc/ewipe/Makefile>
 
-PKGNAME=	ja-ewipe-0.6.0
+PKGNAME=	ja-ewipe-0.7.0
 CATEGORIES=	japanese misc
 
 MAINTAINER=	itojun@itojun.org
