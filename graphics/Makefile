@@ -46,6 +46,7 @@
     SUBDIR += xmandel
     SUBDIR += xmfract
     SUBDIR += xmorph
+    SUBDIR += xmountains
     SUBDIR += xpaint
     SUBDIR += xpdf
     SUBDIR += xpm
