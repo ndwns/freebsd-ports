@@ -4,6 +4,7 @@
     SUBDIR += SSLtelnet
     SUBDIR += am-utils
     SUBDIR += archie
+    SUBDIR += arla
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
     SUBDIR += bb
@@ -15,6 +16,7 @@
     SUBDIR += cap
     SUBDIR += cftp
     SUBDIR += choparp
+    SUBDIR += citrix_ica
     SUBDIR += clog
     SUBDIR += cnet
     SUBDIR += coda_client
