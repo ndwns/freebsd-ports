@@ -4,7 +4,6 @@
     SUBDIR += 4va
     SUBDIR += EZWGL
     SUBDIR += ImageMagick
-    SUBDIR += Mesa2
     SUBDIR += Mesa3
     SUBDIR += aalib
     SUBDIR += aero
