@@ -25,6 +25,7 @@
     SUBDIR += xbat
     SUBDIR += xbill
     SUBDIR += xblackjack
+    SUBDIR += xblast
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xchomp
