@@ -12,6 +12,8 @@ MASTER_SITES=		ftp://ftp.netcom.com/pub/zm/zmbenhal/ncurses/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
+BROKEN=			compile
+
 WRKSRC=			${WRKDIR}/ncurses_1.9.9g
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=	--with-shared --datadir=${PREFIX}/share/misc
