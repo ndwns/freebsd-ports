@@ -13,6 +13,9 @@ MASTER_SITES=	ftp://ftp.redhat.com/pub/redhat/code/rpm/ \
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+
+BROKEN_ELF=	yes
+
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 
 GNU_CONFIGURE=	yes
