@@ -13,6 +13,7 @@ bin/purgestat
 bin/rmail
 bin/vacation
 etc/rc.d/sm-client.sh.sample
+etc/rc.d/sendmail.sh.sample
 libexec/mail.local
 libexec/smrsh
 sbin/editmap

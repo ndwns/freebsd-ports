@@ -12,11 +12,20 @@ start)
 	echo -n ' sm-msp-queue'
 	;;
 stop)
-	kill `head -1 /var/spool/clientmqueue/sm-client.pid`
-	rm -f /var/spool/clientmqueue/sm-client.pid
+	if test -e /var/spool/clientmqueue/sm-client.pid
+	then
+		kill `head -1 /var/spool/clientmqueue/sm-client.pid`
+		rm -f /var/spool/clientmqueue/sm-client.pid
+	fi
+	;;
+restart)
+	if test -e /var/spool/clientmqueue/sm-client.pid
+	then
+		kill -1 `head -1 /var/spool/clientmqueue/sm-client.pid`
+	fi
 	;;
 *)
-	echo "Usage: ${0##*/}: { start | stop }" 2>&1
+	echo "Usage: ${0##*/}: { start | stop | restart }" 2>&1
 	exit 65
 	;;
 esac
