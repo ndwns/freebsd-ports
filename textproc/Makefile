@@ -5,6 +5,7 @@
     SUBDIR += aspell
     SUBDIR += c2html
     SUBDIR += catdoc
+    SUBDIR += dict
     SUBDIR += docbook
     SUBDIR += docproj
     SUBDIR += dsssl-docbook-modular
