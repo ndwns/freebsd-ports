@@ -8,6 +8,7 @@
     SUBDIR += dmake
     SUBDIR += flex
     SUBDIR += gcc11
+    SUBDIR += gdb
     SUBDIR += gmake
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
