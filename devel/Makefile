@@ -9,6 +9,7 @@
     SUBDIR += cutils
     SUBDIR += cxref
     SUBDIR += dmake
+    SUBDIR += fdd
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gdbtk
