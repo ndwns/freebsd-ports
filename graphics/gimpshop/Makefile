@@ -18,18 +18,17 @@ MAINTAINER=	erich@FreeBSD.org
 LIB_DEPENDS+=	Xpm.4:${PORTSDIR}/graphics/xpm
 LIB_DEPENDS+=	aa.1:${PORTSDIR}/graphics/aalib
 LIB_DEPENDS+=	jpeg.9:${PORTSDIR}/graphics/jpeg
-LIB_DEPENDS+=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
+LIB_DEPENDS+=	gtk10.1:${PORTSDIR}/x11-toolkits/gtk10
 LIB_DEPENDS+=	mpeg.1:${PORTSDIR}/graphics/mpeg-lib
-LIB_DEPENDS+=	png.2:${PORTSDIR}/graphics/png
+LIB_DEPENDS+=	png.3:${PORTSDIR}/graphics/png
 LIB_DEPENDS+=	tiff.4:${PORTSDIR}/graphics/tiff34
-LIB_DEPENDS+=	xdelta.0:${PORTSDIR}/misc/xdelta
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-CONFIGURE_ARGS=	--with-xdelta=yes
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include \
 		-I${LOCALBASE}/include" \
+		GTK_CONFIG="${X11BASE}/bin/gtk10-config" \
 		LIBS=-L${LOCALBASE}/lib INSTALL_SCRIPT='$${INSTALL} -m 755'
 
 MAN1=		gimp.1 gimptool.1

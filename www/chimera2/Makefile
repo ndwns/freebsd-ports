@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera-alpha/
 MAINTAINER=	bgingery@gtcs.com
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png
+		png.3:${PORTSDIR}/graphics/png
 
 USE_IMAKE=	yes
 

@@ -14,7 +14,7 @@ MAINTAINER=	xaa@xaa.iae.nl
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		gif.3:${PORTSDIR}/graphics/giflib \
-		png.2:${PORTSDIR}/graphics/png
+		png.3:${PORTSDIR}/graphics/png
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	LDFLAGS="-L/usr/local/lib"

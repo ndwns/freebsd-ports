@@ -14,7 +14,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png
+		png.3:${PORTSDIR}/graphics/png
 RUN_DEPENDS=    newsp:${PORTSDIR}/print/mp-letter
 
 USE_IMAKE=	yes

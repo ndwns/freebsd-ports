@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	nacai@iname.com
 
 LIB_DEPENDS= 	jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/dgs

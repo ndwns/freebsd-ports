@@ -14,7 +14,7 @@ MAINTAINER=	paterno@dsi.unifi.it
 
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
-		png.2:${PORTSDIR}/graphics/png
+		png.3:${PORTSDIR}/graphics/png
 
 MAKE_FLAGS=	-DUSE_JPEG -DUSE_TIFF -DUSE_PNG
 

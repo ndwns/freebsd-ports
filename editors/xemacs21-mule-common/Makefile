@@ -23,7 +23,7 @@ MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 # from xemacs-mule
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		compface.1:${PORTSDIR}/mail/faces
 USE_AUTOCONF=	yes
 

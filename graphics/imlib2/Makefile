@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	imlib
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=    png.2:${PORTSDIR}/graphics/png \
+LIB_DEPENDS=    png.3:${PORTSDIR}/graphics/png \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
 		gif.3:${PORTSDIR}/graphics/giflib \

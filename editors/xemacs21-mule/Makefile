@@ -23,7 +23,7 @@ MAINTAINER?=	kiri@kiri.toba-cmt.ac.jp
 BUILD_DEPENDS=	${BUILD_INPUT_METHOD}
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		compface.1:${PORTSDIR}/mail/faces \
 		${LIB_INPUT_METHOD}
 RUN_DEPENDS=	${PREFIX}/lib/${XEMACS_DIR}/lisp/x11/x-win-xfree86.elc:${PORTSDIR}/editors/xemacs-mule-common

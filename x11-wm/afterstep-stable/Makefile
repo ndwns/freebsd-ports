@@ -17,7 +17,7 @@ MASTER_SITES=   ftp://ftp.afterstep.org/stable/ \
 MAINTAINER=	dima@chg.ru
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
-		png.2:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		jpeg.9:${PORTSDIR}/graphics/jpeg
 
 INSTALL_TARGET=	install install.man

@@ -17,7 +17,7 @@ DISTFILES=	povuni_s.tgz povuni_d.tgz
 
 MAINTAINER=	kkennawa@physics.adelaide.edu.au
 
-LIB_DEPENDS=	png.2:${PORTSDIR}/graphics/png
+LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 
 USE_XLIB=	yes
 MAN1=		povray.1

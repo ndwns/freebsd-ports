@@ -14,7 +14,7 @@ MASTER_SITES=   ftp://ftp-eu.w3.org/pub/Arena/beta-3/
 MAINTAINER=     ache@FreeBSD.ORG
 
 LIB_DEPENDS+=   jpeg.9:${PORTSDIR}/graphics/jpeg
-LIB_DEPENDS+=   png.2:${PORTSDIR}/graphics/png
+LIB_DEPENDS+=   png.3:${PORTSDIR}/graphics/png
 
 BROKEN=		png upgrade
 

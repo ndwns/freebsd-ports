@@ -18,7 +18,7 @@ BUILD_DEPENDS=	${PREFIX}/lib/libPropList.a:${PORTSDIR}/x11-wm/windowmaker
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		png.2:${PORTSDIR}/graphics/png \
+		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
