@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.whizkidtech.net/fports/
 
 MAINTAINER=	adam@whizkidtech.net
 
-BUILD_DEPENDS=	tuc:${PORTSDIR}/textproc/tuc
+BUILD_DEPENDS=	tuc:${PORTSDIR}/converters/tuc
 
 USE_ZIP=	yes
 DIST_SUBDIR=	tifmerge

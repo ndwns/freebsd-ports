@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.whizkidtech.net/unix/ \
 MAINTAINER=	adam@whizkidtech.net
 
 LIB_DEPENDS=	utf-8:${PORTSDIR}/converters/libutf-8
-RUN_DEPENDS=	tuc:${PORTSDIR}/textproc/tuc
+RUN_DEPENDS=	tuc:${PORTSDIR}/converters/tuc
 
 BINARIES=	hutrans mbm ptrans uhtrans utrans
 CHARMAPS=	ANSI_X3.110-1983 ANSI_X3.4-1968 ASMO_449 BALTIC BS_4730 \

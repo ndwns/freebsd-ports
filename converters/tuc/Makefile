@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tuc-1.10
-CATEGORIES=	textproc
+CATEGORIES=	converters
 MASTER_SITES=	http://www.whizkidtech.net/fports/
 
 MAINTAINER=	adam@whizkidtech.net

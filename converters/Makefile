@@ -15,6 +15,7 @@
     SUBDIR += p5-MIME-Base64
     SUBDIR += recode
     SUBDIR += trans
+    SUBDIR += tuc
     SUBDIR += unix2dos
     SUBDIR += uudeview
     SUBDIR += uudx
