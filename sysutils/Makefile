@@ -10,6 +10,7 @@
     SUBDIR += mkisofs
     SUBDIR += pib
     SUBDIR += rtty
+    SUBDIR += skill
     SUBDIR += socket
     SUBDIR += star
     SUBDIR += stat
