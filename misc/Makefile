@@ -32,6 +32,7 @@
     SUBDIR += mmv
     SUBDIR += most
     SUBDIR += mshell
+    SUBDIR += na-zipcodes
     SUBDIR += nwrite
     SUBDIR += p5-Array-PrintCols
     SUBDIR += p5-Business-CreditCard
