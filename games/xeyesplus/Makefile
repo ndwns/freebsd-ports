@@ -9,7 +9,7 @@
 DISTNAME=		xeyes+2.01
 PKGNAME=		xeyes+-2.01
 CATEGORIES=		games
-MASTER_SITES=		ftp://ftp.eos.hokudai.ac.jp/pub/X/contrib/misc/
+MASTER_SITES=		ftp://ftp.eos.hokudai.ac.jp/pub/X11/contrib/misc/
 
 MAINTAINER=		nakai@mlab.t.u-tokyo.ac.jp
 
