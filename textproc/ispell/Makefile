@@ -37,6 +37,9 @@ pre-configure:
 	@echo -n
 .endif
 
+post-configure:
+	@echo "#define CFLAGS \"${CFLAGS}\"" >> ${WRKSRC}/local.h
+
 british:
 	@echo "Okay, making a british version of ispell...."
 	@${MAKE} ${.MAKEFLAGS} LANG=british all 
