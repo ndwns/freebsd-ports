@@ -45,6 +45,7 @@
     SUBDIR += sniff
     SUBDIR += ssh
     SUBDIR += ssh2
+    SUBDIR += sslproxy
     SUBDIR += strobe
     SUBDIR += stunnel
     SUBDIR += sudo
