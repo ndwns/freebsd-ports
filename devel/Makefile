@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += SWIG
     SUBDIR += autoconf
     SUBDIR += bcc
     SUBDIR += bison
