@@ -64,6 +64,7 @@
     SUBDIR += xmascot
     SUBDIR += xmold
     SUBDIR += xmove
+    SUBDIR += xmx
     SUBDIR += xprompt
     SUBDIR += xscreensaver
     SUBDIR += xskyroot
