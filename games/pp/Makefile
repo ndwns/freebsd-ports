@@ -31,6 +31,8 @@ do-install:
 	@ ${INSTALL_DATA} ${WRKDIR}/ppinst/*.gif ${PREFIX}/share/pp/pic
 	@ ${MKDIR} ${PREFIX}/share/pp/level
 	@ ${INSTALL_DATA} ${WRKDIR}/ppinst/*.map1 ${PREFIX}/share/pp/level
+
+post-install:
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/pp
 .for file in INSTALL LICENSE RULES WARRANTY free-license.html
