@@ -6,13 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	ndtpd-2.2
-PKGNAME=	ja-ndtpd-2.2
+DISTNAME=	ndtpd-2.2.2
+PKGNAME=	ja-ndtpd-2.2.2
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/net/ndtp/ndtpd/ \
 		ftp://ftp.sra.co.jp/pub/net/ndtp/ndtpd/old/
 
-MAINTAINER=	m-kasahr@sra.co.jp
+MAINTAINER=	takamune@avrl.mei.co.jp
 
 LIB_DEPENDS=	eb.2:${PORTSDIR}/japanese/eb
 
