@@ -16,6 +16,7 @@
     SUBDIR += unzip.with_encryption
     SUBDIR += uudeview
     SUBDIR += uudx
+    SUBDIR += xdeview
     SUBDIR += zip
     SUBDIR += zip.with_encryption
     SUBDIR += zoo
