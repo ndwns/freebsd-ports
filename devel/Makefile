@@ -49,6 +49,7 @@
     SUBDIR += m68kgdb
     SUBDIR += makedepend
     SUBDIR += mico
+    SUBDIR += mico-latest
     SUBDIR += mkmf
     SUBDIR += mprof
     SUBDIR += nana

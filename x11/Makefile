@@ -41,6 +41,7 @@
     SUBDIR += kde
     SUBDIR += kdebase
     SUBDIR += kdelibs
+    SUBDIR += kworldwatch
     SUBDIR += lesstif
     SUBDIR += libdnd
     SUBDIR += libhelp
