@@ -22,6 +22,7 @@
     SUBDIR += libmalloc
     SUBDIR += libslang
     SUBDIR += linux_devel
+    SUBDIR += linuxgdb
     SUBDIR += m4
     SUBDIR += mkmf
     SUBDIR += mprof
@@ -44,6 +45,7 @@
     SUBDIR += p5-Time
     SUBDIR += prcs
     SUBDIR += sawt
+    SUBDIR += scogdb
     SUBDIR += tkcvs
     SUBDIR += tvision
     SUBDIR += uulib
