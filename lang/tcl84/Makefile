@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	tcl8.0p1
-PKGNAME=	tcl-8.0.1
+DISTNAME=	tcl8.0p2
+PKGNAME=	tcl-8.0.2
 CATEGORIES=	lang tcl80
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
 
