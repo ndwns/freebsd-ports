@@ -10,7 +10,7 @@ DISTNAME=	vftool-1.2
 PKGNAME=	ja-vftool-1.2
 CATEGORIES=	print japanese
 MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/ \
-		ftp://bash.cc.keio.ac.jp/pub/TeX/ASCII/ \
+		ftp://bash.cc.keio.ac.jp/pub/TeX/ascii-ptex/ptex215/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/TeX/NTT-JTeX/:old/ \
 		ftp://ftp.iis.u-tokyo.ac.jp/TeX/fonts/pk/ \
 		ftp://ftp.waseda.ac.jp/pub/tex/ascii-OLD/
