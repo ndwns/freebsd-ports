@@ -16,7 +16,6 @@
     SUBDIR += lapack
     SUBDIR += libranlib
     SUBDIR += linpack
-    SUBDIR += maxima
     SUBDIR += numpy
     SUBDIR += octave
     SUBDIR += oleo
