@@ -10,7 +10,8 @@ DISTNAME=       Mesa-1.1.3beta
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/misc/
 CATEGORIES+=	graphics
 WRKSRC=		${WRKDIR}/Mesa
-USE_GMAKE=
+USE_GMAKE=	yes
+USE_X11=	yes
 ALL_TARGET=	freebsd
 # won't install until I convert the Makefiles to Imakefiles
 NO_INSTALL=	yes
