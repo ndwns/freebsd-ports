@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	linux_devel-0.1
+DISTNAME=	linux_devel-0.2
 CATEGORIES=	devel
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
