@@ -80,6 +80,7 @@
     SUBDIR += xroach
     SUBDIR += xrobots
     SUBDIR += xrubik
+    SUBDIR += xscrabble
     SUBDIR += xshisen
     SUBDIR += xshogi
     SUBDIR += xskat
