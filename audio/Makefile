@@ -30,6 +30,7 @@
     SUBDIR += tosha
     SUBDIR += tracker
     SUBDIR += workman
+    SUBDIR += x11amp
     SUBDIR += xcd
     SUBDIR += xcdplayer
     SUBDIR += xmcd
