@@ -28,10 +28,10 @@ EXTRACT_ONLY=	kon-0.99.4e.tgz
 USE_GMAKE=	yes
 
 post-configure:
-	sed -e 's%%CURDIR%%${.CURDIR}' \
+	${SED} -e 's%%CURDIR%%${.CURDIR}' \
 	  -e 's%%PREFIX%%${PREFIX}' \
 	  -e 's%%DISTDIR%%${DISTDIR}' \
-	  files/dotconfig > ${WRKSRC}/.config
+	  ${FILESDIR}/dotconfig > ${WRKSRC}/.config
 
 post-install:
 	@echo

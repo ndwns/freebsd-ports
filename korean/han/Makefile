@@ -16,13 +16,13 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 USE_GMAKE=	yes
 
 post-configure:
-	sed -e 's%%WRKSRC%%${WRKSRC}' \
+	${SED} -e 's%%WRKSRC%%${WRKSRC}' \
 	  -e 's%%PREFIX%%${PREFIX}' \
 	  -e 's%%DISTDIR%%${DISTDIR}' \
-	  files/dotconfig > ${WRKSRC}/.config
-	sed -e 's%%WRKSRC%%${WRKSRC}' \
+	  ${FILESDIR}/dotconfig > ${WRKSRC}/.config
+	${SED} -e 's%%WRKSRC%%${WRKSRC}' \
 	  -e 's%%PREFIX%%${PREFIX}' \
 	  -e 's%%DISTDIR%%${DISTDIR}' \
-	  files/han.sh > ${WRKSRC}/han.sh
+	  ${FILESDIR}/han.sh > ${WRKSRC}/han.sh
 
 .include <bsd.port.mk>

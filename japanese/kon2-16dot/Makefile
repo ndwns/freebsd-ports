@@ -23,9 +23,9 @@ EXTRACT_ONLY=	kon2-0.3.tar.gz
 DOCDIR=		${PREFIX}/share/doc/kon2
 
 pre-build:
-	sed -e 's,%%PREFIX%%,${PREFIX},' \
+	${SED} -e 's,%%PREFIX%%,${PREFIX},' \
 	  -e 's,%%DISTDIR%%,${DISTDIR},' \
-	  files/dotconfig > ${WRKSRC}/.config
+	  ${FILESDIR}/dotconfig > ${WRKSRC}/.config
 	@(cd ${WRKSRC}; ${MAKE} -f Makefile.FreeBSD config)
 
 post-install:
