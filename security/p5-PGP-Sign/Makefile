@@ -19,7 +19,7 @@ RUN_DEPENDS=	${PREFIX}/bin/pgp:${PORTSDIR}/security/pgp
 USE_PERL5=	yes
 
 MAN3=		PGP::Sign.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 	@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
