@@ -8,7 +8,10 @@
 
 DISTNAME=       mkisofs-1.11.3
 CATEGORIES=	sysutils
-MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/packages/mkisofs/
+MASTER_SITES=   ftp://ftp.cdrom.com/pub/linux/tsx-11/packages/mkisofs/ \
+		ftp://ftp.fokus.gmd.de/pub/unix/cdrecord/mkisofs/
+
+MAINTAINER=	ports@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 MAKE_FLAGS=	XCFLAGS='-c -I. ${CFLAGS} -DSYSTEM_ID_DEFAULT=\"FREEBSD\"' -f
