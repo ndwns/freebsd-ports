@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# $Id$
+# $FreeBSD$
 #
 # Written to speed-up INDEX file generation.  The new scheme
 # basically visits each port once and writes out each port's
