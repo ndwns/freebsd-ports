@@ -16,6 +16,10 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 do-install:
 	${MKDIR} ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/nhpf ${PREFIX}/bin
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/nhpf
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/nhpf
+.endif
 	@strip ${PREFIX}/bin/nhpf
 
 .include <bsd.port.mk>
