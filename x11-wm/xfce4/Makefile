@@ -18,7 +18,8 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 # depends on xforms
 ONLY_FOR_ARCHS=	i386
 
-USE_GMAKE=	yes
 USE_IMAKE=	yes
+
+MAN1=	xfce.1 xfmouse.1 xfpager.1 xfsound.1 xfwm.1
 
 .include <bsd.port.mk>
