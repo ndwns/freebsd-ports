@@ -13,6 +13,7 @@
     SUBDIR += dclock
     SUBDIR += emiclock
     SUBDIR += emu
+    SUBDIR += freefonts
     SUBDIR += fvwm
     SUBDIR += fvwm2
     SUBDIR += fvwm95

@@ -19,5 +19,6 @@
     SUBDIR += xcdplayer
     SUBDIR += xmcd
     SUBDIR += xmix
+    SUBDIR += xmmix
 
 .include <bsd.port.subdir.mk>

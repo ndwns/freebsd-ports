@@ -13,6 +13,7 @@
     SUBDIR += mpegedit
     SUBDIR += mpeg_encode
     SUBDIR += mpeg_play
+    SUBDIR += mpeg_stat
     SUBDIR += mplex
     SUBDIR += netpbm
     SUBDIR += pixmap

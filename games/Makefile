@@ -11,6 +11,7 @@
     SUBDIR += tksol
     SUBDIR += xasteroids
     SUBDIR += xbill
+    SUBDIR += xblackjack
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xchomp
