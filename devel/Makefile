@@ -2,6 +2,7 @@
 #
 
     SUBDIR += SWIG
+    SUBDIR += asl
     SUBDIR += autoconf
     SUBDIR += automake
     SUBDIR += bcc
