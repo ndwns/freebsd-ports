@@ -52,6 +52,7 @@
     SUBDIR += p5-FreeType
     SUBDIR += p5-FreeTypeWrapper
     SUBDIR += pbm2ppa
+    SUBDIR += perlftlib
     SUBDIR += pkfonts118
     SUBDIR += pkfonts240
     SUBDIR += pkfonts300
