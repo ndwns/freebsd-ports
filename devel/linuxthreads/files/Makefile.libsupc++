@@ -5,7 +5,8 @@ LIBDIR=		${PREFIX:S,^${DESTDIR},,}/lib
 
 CFLAGS+=-D_PTHREADS -I../
 CFLAGS+=-I../sysdeps/i386 -I../sysdeps/pthread -I../sysdeps/unix/sysv/linux
-CXXFLAGS=	${CXXINCLUDES} ${CFLAGS}
+CXXFLAGS=	${CXXINCLUDES} ${CFLAGS:C/-std=[a-z:0-9]+//}
+LDADD=../libgcc_r/liblgcc_r.a
 
 installincludes:
 
