@@ -17,6 +17,6 @@ MAINTAINER=	shanee@rabbit.augusta.de
 LIB_DEPENDS=	Xaw3d\\.6\\.:$(PORTSDIR)/x11/Xaw3d
 RUN_DEPENDS=	playmidi:${PORTSDIR}/audio/playmidi
 
-ALL_TARGET=	all ROSEGARDEN=$(WRKSRC) SYSLIBS="\"-lXaw3d -lXext -lXmu -lXt -lX11\""
+ALL_TARGET=	all ROSEGARDEN=$(WRKSRC) SYSLIBS="\"-lXaw3d -lXext -lXmu -lXt -lX11\"" SYSEXTRALIBS=""
 
 .include <bsd.port.mk>
