@@ -17,6 +17,7 @@
     SUBDIR += dsssl-docbook-modular
     SUBDIR += dtd-catalogs
     SUBDIR += freegrep
+    SUBDIR += gdict
     SUBDIR += glimpse
     SUBDIR += grap
     SUBDIR += gxditview
