@@ -12,7 +12,6 @@ DISTNAME=	crack5.0
 PKGNAME=	crack-5.0
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/  \
-		ftp://ftp.lerc.nasa.gov/security/  \
 		ftp://ftp.ox.ac.uk/pub/comp/security/software/crackers/  \
 		ftp://ftp.auscert.org.au/pub/coast/mirrors/cert.org/tools/crack/ \
 		ftp://ftp.riken.go.jp/pub/net/cert_security_tools/crack/
