@@ -8,8 +8,8 @@
 
 DISTNAME=	teTeX-1.0.5
 CATEGORIES=	print
-MASTER_SITES=	ftp://sunsite.informatik.rwth-aachen.de/pub/comp/tex/teTeX/1.0/distrib/sources/ \
-		${MASTER_SITE_CTAN}
+MASTER_SITES=	${MASTER_SITE_CTAN} \
+		ftp://sunsite.informatik.rwth-aachen.de/pub/comp/tex/teTeX/1.0/distrib/sources/
 MASTER_SITE_SUBDIR=     systems/unix/teTeX/1.0/distrib/sources/
 DISTFILES=	${TETEX_SRC} ${TETEX_TEXMF}
 
