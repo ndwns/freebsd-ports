@@ -68,6 +68,9 @@ STRIP=		build-prc \
 post-patch:
 		(cd ${WRKSRC} ; make patch)
 
+pre-install:
+		${MKDIR} ${PREFIX}
+
 # the info files are redundant
 post-install:
 		${RM} -rf ${PREFIX}/info
