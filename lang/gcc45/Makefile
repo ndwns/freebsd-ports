@@ -6,6 +6,7 @@
 # $Id$
 #
 
+#	1998-03-08
 DISTNAME=	egcs-980221
 CATEGORIES=	lang
 MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-02-21/ \
