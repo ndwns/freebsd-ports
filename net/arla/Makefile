@@ -14,7 +14,6 @@ MAINTAINER=	thepish@freebsd.org
 
 #BUILD_DEPENDS=	/usr/lib/libkafs.a:/usr/src/kerberosIV/lib/libkafs
 
-CONFIGURE_ARGS=	--prefix=$(PREFIX)
-HAS_CONFIGURE=	YES
+GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
