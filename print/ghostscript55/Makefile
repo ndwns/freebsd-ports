@@ -84,9 +84,9 @@ post-install:
 	strip ${PREFIX}/bin/gs
 	${INSTALL_DATA} ${DISTDIR}/${DECRYPT_PDF} \
 		${PREFIX}/share/ghostscript/5.10
-	${INSTALL_DATA} ${DISTDIR}/license.hp8 \
+	${INSTALL_DATA} ${WRKSRC}/license.hp8 \
 		${PREFIX}/share/ghostscript/5.10/doc
-	${INSTALL_DATA} ${DISTDIR}/readme.hp8 \
+	${INSTALL_DATA} ${WRKSRC}/readme.hp8 \
 		${PREFIX}/share/ghostscript/5.10/doc
 
 .include <bsd.port.mk>
