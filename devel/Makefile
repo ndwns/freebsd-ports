@@ -6,7 +6,6 @@
     SUBDIR += bcc
     SUBDIR += cflow
     SUBDIR += dmake
-    SUBDIR += flex
     SUBDIR += gcc11
     SUBDIR += gdb
     SUBDIR += gmake
