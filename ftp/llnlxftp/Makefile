@@ -9,7 +9,7 @@
 
 DISTNAME=	latest_xftp
 PKGNAME=	llnlxftp-2.1
-CATEGORIES=	x11 net
+CATEGORIES=	net
 MASTER_SITES=	ftp://k2.llnl.gov/pub/ia/llnlxftp/
 EXTRACT_SUFX=	.tar.Z
 
