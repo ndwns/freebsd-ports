@@ -42,6 +42,7 @@
     SUBDIR += lcc
     SUBDIR += libobjects
     SUBDIR += logo
+    SUBDIR += lua
     SUBDIR += m3gdb
     SUBDIR += mawk
     SUBDIR += mit-scheme
