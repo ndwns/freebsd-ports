@@ -16,6 +16,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=     ache@FreeBSD.org
 
+BROKEN_ELF=	yes
+
 WRKSRC=         ${WRKDIR}/${DISTNAME:S/pre-1.4//}
 GNU_CONFIGURE=	yes
 
