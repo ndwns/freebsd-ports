@@ -1709,12 +1709,12 @@ describe:
 	${ECHO} -n "|${MAINTAINER}|${CATEGORIES}|"; \
 	case "A${FETCH_DEPENDS}B${BUILD_DEPENDS}C${LIB_DEPENDS}D${DEPENDS}E" in \
 		ABCDE) ;; \
-		*) cd ${.CURDIR} && ${ECHO} -n `make depends-list|sort -u`;; \
+		*) cd ${.CURDIR} && ${ECHO} -n `${MAKE} depends-list|sort -u`;; \
 	esac; \
 	${ECHO} -n "|"; \
 	case "A${RUN_DEPENDS}B${LIB_DEPENDS}C${DEPENDS}D" in \
 		ABCD) ;; \
-		*) cd ${.CURDIR} && ${ECHO} -n `make package-depends|sort -u`;; \
+		*) cd ${.CURDIR} && ${ECHO} -n `${MAKE} package-depends|sort -u`;; \
 	esac; \
 	${ECHO} ""
 .endif
@@ -1745,7 +1745,7 @@ print-depends-list:
 .if defined(FETCH_DEPENDS) || defined(BUILD_DEPENDS) || \
 	defined(LIB_DEPENDS) || defined(DEPENDS)
 	@${ECHO} -n 'This port requires package(s) "'
-	@${ECHO} -n `make depends-list | sort -u`
+	@${ECHO} -n `${MAKE} depends-list | sort -u`
 	@${ECHO} '" to build.'
 .endif
 .endif
@@ -1754,7 +1754,7 @@ print-depends-list:
 print-package-depends:
 .if defined(RUN_DEPENDS) || defined(LIB_DEPENDS) || defined(DEPENDS)
 	@${ECHO} -n 'This port requires package(s) "'
-	@${ECHO} -n `make package-depends | sort -u`
+	@${ECHO} -n `${MAKE} package-depends | sort -u`
 	@${ECHO} '" to run.'
 .endif
 .endif
@@ -1788,7 +1788,7 @@ fake-pkg:
 		if [ -f ${PKGDIR}/MESSAGE ]; then \
 			${CP} ${PKGDIR}/MESSAGE ${PKG_DBDIR}/${PKGNAME}/+DISPLAY; \
 		fi; \
-		for dep in `make package-depends ECHO_MSG=/usr/bin/true | sort -u`; do \
+		for dep in `${MAKE} package-depends ECHO_MSG=/usr/bin/true | sort -u`; do \
 			if [ -d ${PKG_DBDIR}/$$dep ]; then \
 				if ! ${GREP} ^${PKGNAME}$$ ${PKG_DBDIR}/$$dep/+REQUIRED_BY \
 					>/dev/null 2>&1; then \
