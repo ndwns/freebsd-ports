@@ -22,7 +22,7 @@ do-install:
 	${MKDIR} ${PREFIX}/share/doc/roxirc
 	${INSTALL_DATA} ${WRKSRC}/config ${PREFIX}/share/doc/roxirc/config-example
 	${INSTALL_DATA} ${WRKSRC}/menus ${PREFIX}/share/doc/roxirc/menus-example
-	${INSTALL_DATA} ${WRKSRC}/prefs ${PREFIX}/share/doc/roxirc/prefs-intial
+	${INSTALL_DATA} ${WRKSRC}/prefs ${PREFIX}/share/doc/roxirc/prefs-initial
 
 post-patch:
 	/usr/bin/perl -pi -e 's,/usr/local,${PREFIX},g' ${WRKSRC}/roxirc
