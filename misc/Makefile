@@ -79,6 +79,7 @@
     SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
+    SUBDIR += tkrunit
     SUBDIR += uk-phone
     SUBDIR += uk-postcodes
     SUBDIR += unclutter
