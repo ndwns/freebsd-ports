@@ -17,9 +17,11 @@ GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--enable-shared --enable-static
 DOCDIR=		${PREFIX}/share/doc/libwww
+MAKE_ENV=	objformat=${PORTOBJFORMAT}
 
 post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/modules/expat/xmlparse/xmlparse.h \
+		${PREFIX}/include/w3c-libwww/
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${DOCDIR}/User
 	${CP} -R ${WRKSRC}/Library/User/* ${DOCDIR}/User
