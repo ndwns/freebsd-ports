@@ -7,6 +7,7 @@
     SUBDIR += exmh2
     SUBDIR += faces
     SUBDIR += fetchmail
+    SUBDIR += imap-uw
     SUBDIR += mailagent
     SUBDIR += majordomo
     SUBDIR += metamail
