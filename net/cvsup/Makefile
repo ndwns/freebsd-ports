@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
 
 MAINTAINER=	jdp@FreeBSD.org
 
-BUILD_DEPENDS=	m3build:${PORTSDIR}/lang/modula-3
+BUILD_DEPENDS=	m3build-4:${PORTSDIR}/lang/modula-3
 LIB_DEPENDS=	m3\\.4\\.:${PORTSDIR}/lang/modula-3-lib
 
 # To build the client without GUI support:
