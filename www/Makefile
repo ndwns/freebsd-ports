@@ -59,6 +59,7 @@
     SUBDIR += p5-ParallelUA
     SUBDIR += p5-WWW-Search
     SUBDIR += p5-libwww
+    SUBDIR += ruboard
     SUBDIR += squid11
     SUBDIR += squid11-novm
     SUBDIR += squid20
