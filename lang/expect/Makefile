@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	expect-5.13
+DISTNAME=	expect-5.16
 CATEGORIES+=	languages
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
