@@ -10,7 +10,7 @@ DISTNAME=       bash-1.14.7
 CATEGORIES=	shells
 MASTER_SITES=   ${MASTER_SITE_GNU}
 
-MAINTAINER=	obrien@NUXI.com.
+MAINTAINER=	obrien@NUXI.com
 
 WRKSRC=         ${WRKDIR}/${DISTNAME}
 # Don't compress manpages or .so not works.
