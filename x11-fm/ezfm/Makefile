@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		EZ\\.1\\.:${PORTSDIR}/graphics/EZWGL
 
 WRKSRC=		${WRKDIR}/EZFM-0.1

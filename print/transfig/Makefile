@@ -16,7 +16,7 @@ DISTFILES=	transfig.3.2.tar.gz transfig.3.2.ja_JP.EUC.ps.gz
 MAINTAINER=	chuckr@freebsd.org
 
 LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm \
-		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
+		jpeg.9:${PORTSDIR}/graphics/jpeg
 RUN_DEPENDS=	ppmtogif:${PORTSDIR}/graphics/netpbm
 
 USE_IMAKE=	yes

@@ -17,7 +17,7 @@ MAINTAINER=	handy@physics.montana.edu
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 LIB_DEPENDS=	Xpm.5:${PORTSDIR}/graphics/xpm \
 		gif\\.3\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png\\.2\\.:${PORTSDIR}/graphics/png \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34
 

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/HDF/HDF4.1r2/tar/
 
 MAINTAINER=	mi@aldan.ziplink.net
 
-LIB_DEPENDS=	jpeg:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 MAN1=		hdf.1 hdfunpac.1 ncdump.1 ncgen.1
 

@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	Nakai@technologist.com
 
-LIB_DEPENDS= 	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
+LIB_DEPENDS= 	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png\\.2\\.:${PORTSDIR}/graphics/png \
 		tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
 

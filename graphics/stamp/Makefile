@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.telepath.com/booger/
 
 MAINTAINER=	billf@chc-chimes.com
 
-LIB_DEPENDS=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 ALL_TARGET=
 

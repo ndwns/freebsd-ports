@@ -13,7 +13,7 @@ DISTFILES=	${DISTNAME}-src.tgz ${DISTNAME}-doc.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 ALL_TARGET=	shared clean static
 USE_X_PREFIX=	yes

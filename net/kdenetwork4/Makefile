@@ -15,7 +15,7 @@ MAINTAINER=	se@freebsd.org
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 LIB_DEPENDS=	gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		uu\\.1\\.:${PORTSDIR}/converters/uulib \
 		kdecore\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.1\\.[0-9]:${PORTSDIR}/x11/kdelibs \

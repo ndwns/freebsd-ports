@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR= unstable/apps/office
 MAINTAINER=	hanspb@persbraten.vgs.no
 
 LIB_DEPENDS=	gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		kdecore\\.1\\.:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.1\\.:${PORTSDIR}/x11/kdelibs
 

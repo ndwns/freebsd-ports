@@ -13,7 +13,7 @@ DISTFILES=	${DISTNAME}.tar.gz
 
 MAINTAINER=	xaa@xaa.iae.nl
 
-LIB_DEPENDS=	jpeg\\.9\\.0:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 GNU_CONFIGURE=	yes
 MAN1=		kaffe.1

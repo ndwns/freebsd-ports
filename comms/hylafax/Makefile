@@ -22,7 +22,7 @@ BUILD_DEPENDS=	bash:${PORTSDIR}/shells/bash2 \
 # version the user prefers
 RUN_DEPENDS=	bash:${PORTSDIR}/shells/bash2
 LIB_DEPENDS=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
-		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
+		jpeg.9:${PORTSDIR}/graphics/jpeg
 
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--with-INSTALL="" \
