@@ -12,4 +12,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	joerg@FreeBSD.org
 
+MAN1=		team.1
+MANCOMPRESSED=	maybe
+
 .include <bsd.port.mk>
