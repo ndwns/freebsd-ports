@@ -8,7 +8,7 @@
 
 DISTNAME=	xcpustate-2.4
 CATEGORIES=	sysutils
-MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/xcpustate/  \
+MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/jdd/xcpustate/  \
 		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	utilities
 EXTRACT_SUFX=	.shar.gz
