@@ -8,7 +8,8 @@
 
 DISTNAME=	libmikmod-3.1.6
 CATEGORIES=	audio
-MASTER_SITES=	http://www.multimania.com/miodrag/mikmod/
+MASTER_SITES=	http://www.multimania.com/miodrag/mikmod/libmikmod/ \
+		http://mikmod.darkorb.net/libmikmod/
 
 MAINTAINER=	mharo@FreeBSD.ORG
 
