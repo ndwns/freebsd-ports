@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	irc2.9.2p3
-PKGNAME=	irc-2.9.2.3
+DISTNAME=	irc2.9.4
+PKGNAME=	irc-2.9.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/services/irc/server/
 
@@ -23,18 +23,20 @@ SYSLOG_FACILITY=LOG_LOCAL5
 EXTRACT_SUFX=	.tgz
 SCRIPTS_ENV=	SYSLOG_FACILITY="${SYSLOG_FACILITY}"
 
-MAN8=		ircd.8
+MAN8=		ircd.8 irc.1
 
-do-configure:
-	@(cd ${WRKSRC} && make CONFIGARGS=--prefix=${PREFIX})
+GNU_CONFIGURE=	YES
+CONFIGURE_ARGS=	--without-ncurses
 
 do-build:
-	@(cd ${WRKSRC}/`${WRKSRC}/support/rev.sh` && make all)
+	@(cd ${WRKSRC}/`${WRKSRC}/support/config.guess` && make all)
 
 do-install:
-	@(cd ${WRKSRC}/`${WRKSRC}/support/rev.sh` && make install)
+	@(cd ${WRKSRC}/`${WRKSRC}/support/config.guess` && make install)
 
 pre-install:
 	@${MKDIR} ${PREFIX}/lib/ircd
+	@${TOUCH} ${PREFIX}/lib/ircd/users ${PREFIX}/lib/ircd/opers \
+		${PREFIX}/lib/ircd/rejects
 
 .include <bsd.port.mk>

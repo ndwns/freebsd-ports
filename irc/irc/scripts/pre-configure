@@ -3,14 +3,5 @@
 # $Id$
 #
 
-set >/tmp/footest
-
-if [ $ENABLE_NOTE ];
-then
-	mv ${WRKSRC}/include/config.h.dist ${WRKSRC}/include/config.h.dist.bak
-	sed <${WRKSRC}/include/config.h.dist.bak s/\#ifdef\ ENABLE_NOTE/\#ifdef\ DISABLE_NOTE/g >${WRKSRC}/include/config.h.dist
-
-fi
-
-mv ${WRKSRC}/include/config.h.dist ${WRKSRC}/include/config.h.dist.bak.2
-sed <${WRKSRC}/include/config.h.dist.bak.2 >${WRKSRC}/include/config.h.dist s+!!SYSLOGFACILITY!!+$SYSLOG_FACILITY+g
+mv ${WRKSRC}/support/config.h.dist ${WRKSRC}/support/config.h.dist.bak.2
+sed <${WRKSRC}/support/config.h.dist.bak.2 >${WRKSRC}/support/config.h.dist s+!!SYSLOG_FACILITY!!+$SYSLOG_FACILITY+g
