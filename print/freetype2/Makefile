@@ -13,9 +13,12 @@ MASTER_SITES=	ftp://ftp.physiol.med.tu-muenchen.de/pub/freetype/
 MAINTAINER=	jseger@FreeBSD.org
 
 USE_GMAKE=	YES
+USE_AUTOCONF=	YES
 GNU_CONFIGURE=	YES
+CONFIGURE_ARGS=	--disable-nls
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/lib/ttcommon.h ${PREFIX}/include
 	${INSTALL_DATA} ${WRKSRC}/lib/tterror.h ${PREFIX}/include
+
 .include <bsd.port.mk>
