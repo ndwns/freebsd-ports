@@ -6,15 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	xbl-1.0h
+DISTNAME=	xbl-1.0i
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp710.univ-lyon1.fr/pub/xbl/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	giffunip@asme.org
+MAINTAINER=	ports@FreeBSD.org
 
 USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
-MANN=		xbl.n
+MANn=		xbl.n
 
 .include <bsd.port.mk>
