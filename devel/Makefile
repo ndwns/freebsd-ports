@@ -43,6 +43,7 @@
     SUBDIR += prcs
     SUBDIR += sawt
     SUBDIR += tkcvs
+    SUBDIR += tvision
     SUBDIR += uulib
     SUBDIR += xwpe
     SUBDIR += xxgdb
