@@ -18,6 +18,7 @@ MAINTAINER=	axl@iafrica.com
 NO_BUILD=	yes
 
 MAN8=	cvsupd.8
+STRIP=
 
 do-configure:
 	cd ${WRKSRC}; gunzip cvsupd.8.gz

@@ -18,6 +18,7 @@ MAINTAINER=	axl@iafrica.com
 NO_BUILD=	yes
 
 MAN1=	cvsup.1
+STRIP=
 
 do-configure:
 	cd ${WRKSRC}; gunzip cvsup.1.gz
