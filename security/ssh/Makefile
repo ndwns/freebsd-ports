@@ -39,12 +39,6 @@ CONFIGURE_ARGS= --prefix=${PREFIX} --with-etcdir=${PREFIX}/etc
 CONFIGURE_ARGS+= --with-rsaref
 .endif
 
-# Include SOCKS firewall support
-# Warning: untested !
-.if defined(USE_SOCKS) && ${USE_SOCKS} == YES
-CONFIGURE_ARGS+= --with-socks
-.endif
-
 # Include support for the SecureID card
 # Warning: untested !
 .if defined(USE_SECUREID) && ${USE_SECUREID} == YES
@@ -114,3 +108,7 @@ CONFIGURE_ARGS+= --with-libwrap
 LIB_DEPENDS+=   wrap\\.7\\.:${PORTSDIR}/security/tcp_wrapper
 .endif
 
+# Include SOCKS firewall support
+.if defined(USE_SOCKS) && ${USE_SOCKS} == YES
+CONFIGURE_ARGS+= --with-socks="-L${PREFIX}/lib -lsocks5"
+.endif
