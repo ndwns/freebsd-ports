@@ -14,6 +14,8 @@ EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+BROKEN=		fetch
+
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.:${PORTSDIR}/x11/qt
 
