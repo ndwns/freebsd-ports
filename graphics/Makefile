@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += EZWGL
     SUBDIR += ImageMagick
     SUBDIR += Mesa
     SUBDIR += aalib
