@@ -1147,7 +1147,10 @@ package-links:
 
 .if !target(delete-package-links)
 delete-package-links:
-	@${RM} -f ${PACKAGES}/[a-z]*/${PKGNAME}${PKG_SUFX} ${PKGLATESTFILE}
+	@${RM} -f ${PACKAGES}/[a-z]*/${PKGNAME}${PKG_SUFX}
+.if !defined(NO_LATEST_LINK)
+	@${RM} -f ${PKGLATESTFILE}
+.endif
 .endif
 
 .if !target(delete-package)
