@@ -16,7 +16,7 @@ LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--with-perl5
+CONFIGURE_ARGS=--with-perl5
 
 MAN1=		dlpsh.1.gz ietf2datebook.1.gz install-datebook.1.gz \
 		install-memo.1.gz install-user.1.gz pilot-xfer.1.gz \
