@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xwhois-0.3.5
+DISTNAME=	xwhois-0.3.6
 CATEGORIES=	net
 MASTER_SITES=	http://c64.org/~nr/ \
 		http://www.goatnet.ml.org/ \
