@@ -24,6 +24,7 @@
     SUBDIR += git
     SUBDIR += gnomeutils
     SUBDIR += gnuls
+    SUBDIR += gnumeric
     SUBDIR += gone
     SUBDIR += gyvescm
     SUBDIR += iselect
