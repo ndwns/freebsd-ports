@@ -2,7 +2,7 @@
 #
 SUBDIR=	ImageMagick Xaw3d color_xterm ctwm emu fvwm ghostview iv ivs \
 	jpeg kterm mpeg-lib olvwm \
-	pcb piewm tiff tk tkhfs xanim xarchie \
+	pcb piewm rxvt tiff tk tkhfs xanim xarchie \
 	xcdplayer xdvi xearth xfig xgraph xli xlockmore xpm xsnow \
 	xtexshell xv
 
