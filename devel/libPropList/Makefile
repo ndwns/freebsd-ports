@@ -14,9 +14,6 @@ MASTER_SITE_SUBDIR=	sources/libPropList
 
 MAINTAINER=    gljohns@bellsouth.net
 
-GNU_CONFIGURE=	yes
-
-post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+USE_LIBTOOL=	yes
 
 .include <bsd.port.mk>
