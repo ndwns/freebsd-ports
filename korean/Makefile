@@ -9,6 +9,7 @@
     SUBDIR += hanterm-autofont
     SUBDIR += hanterm-xf86
     SUBDIR += hanyangfonts
+    SUBDIR += hcode
     SUBDIR += helvis
     SUBDIR += johabfonts
     SUBDIR += nhpf
