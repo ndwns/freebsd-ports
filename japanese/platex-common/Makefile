@@ -48,6 +48,6 @@ do-install:
 	${MKDIR} ${TEXMF}/fonts/source/public/ec
 	${CP} ${WRKDIR}/ec/src/* ${TEXMF}/fonts/source/public/ec
 	@/bin/ln -fs tex ${PREFIX}/bin/latex
-	@/bin/ln -s latex ${PREFIX}/bin/platex-common
+	@/bin/ln -fs latex ${PREFIX}/bin/platex-common
 
 .include <bsd.port.mk>
