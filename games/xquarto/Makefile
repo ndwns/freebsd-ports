@@ -8,7 +8,7 @@
 
 DISTNAME=	xquarto-1.0
 CATEGORIES=	games
-MASTER_SITES=	http://www.math.kth.se/~mjo/games/xquarto/
+MASTER_SITES=	http://www.math.lsa.umich.edu/~mattiasj/games/xquarto/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
