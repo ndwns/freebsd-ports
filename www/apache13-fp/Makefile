@@ -88,7 +88,7 @@ CONFIGURE_ARGS+= --enable-suexec \
 MAN8+=	suexec.8
 .endif
 
-pre-fetch:
+pre-extract:
 	@if ! ${LDCONFIG} -r | ${GREP} -q -e "-ldescrypt"; then \
 	   ${ECHO} ; \
 	   ${ECHO} "WARNING: MS FrontPage Extentions require the DES Library"; \
