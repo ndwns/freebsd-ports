@@ -19,7 +19,7 @@ CONFIGURE_ENV=  X11BASE=${X11BASE}
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/gblist ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/libexec/VGB ${PREFIX}/share/VGB
+	@${MKDIR} ${PREFIX}/libexec/VGB ${PREFIX}/share/VGB
 	@${INSTALL_PROGRAM} ${WRKSRC}/vgb ${PREFIX}/libexec/VGB
 	@${INSTALL_DATA} ${WRKSRC}/CART.GB ${PREFIX}/share/VGB
 	@${INSTALL_SCRIPT} ${WRKSRC}/vgb.sh ${PREFIX}/bin/vgb

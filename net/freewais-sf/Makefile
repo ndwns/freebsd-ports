@@ -27,10 +27,10 @@ MAN3=	ftw.3 scandir.3
 pre-configure:
 	sed "s,PREFIX,${PREFIX},g" \
 	${FILESDIR}/configure.ans.skel > ${WRKDIR}/configure.ans
-	mkdir -p ${PREFIX}
-	mkdir -p ${PREFIX}/bin
-	mkdir -p ${PREFIX}/lib
-	mkdir -p ${PREFIX}/man/man1
+	${MKDIR} ${PREFIX}
+	${MKDIR} ${PREFIX}/bin
+	${MKDIR} ${PREFIX}/lib
+	${MKDIR} ${PREFIX}/man/man1
 
 pre-install:
 	${MKDIR} ${PREFIX}/lib/freeWAIS-sf

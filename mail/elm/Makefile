@@ -27,7 +27,7 @@ CONFIGURE_ENV=  PREFIX="${PREFIX}"
 CONFIGURE_ARGS= -S
 
 post-configure:
-	cp ${FILESDIR}/elm.mimecharsets ${WRKSRC}/bin
+	${CP} ${FILESDIR}/elm.mimecharsets ${WRKSRC}/bin
 
 post-install:
 	perl -pi -e 's,/usr/local,${PREFIX},' ${WRKSRC}/nls/LANGS

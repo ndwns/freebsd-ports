@@ -20,7 +20,7 @@ DIST_SUBDIR=	tifmerge
 MAN3=		tifmerge.3
 
 post-extract:
-	@mkdir -p ${WRKSRC}
+	@${MKDIR} ${WRKSRC}
 	@tuc ${WRKDIR}/TIFMERGE.H ${WRKSRC}/tifmerge.h
 	@tuc ${WRKDIR}/TIFMERGE.C ${WRKSRC}/tifmerge.c
 	@${CP} ${FILESDIR}/Makefile ${WRKSRC}

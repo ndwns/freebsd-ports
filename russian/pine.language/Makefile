@@ -20,7 +20,7 @@ do-fetch:
 
 do-install:
 	grep -q -i koi8 ${PREFIX}/etc/pine.conf || \
-		cat ${FILESDIR}/pine.add >> \
+		${CAT} ${FILESDIR}/pine.add >> \
 		${PREFIX}/etc/pine.conf
 
 .include <bsd.port.mk>

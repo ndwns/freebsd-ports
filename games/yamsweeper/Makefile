@@ -17,7 +17,7 @@ MAN1=		yamsweeper.1
 
 pre-configure:
 	@mv ${WRKSRC}/Imakefile ${WRKSRC}/Imakefile.old
-	@cp ${FILESDIR}/Imakefile ${WRKSRC}
+	@${CP} ${FILESDIR}/Imakefile ${WRKSRC}
 
 post-install:
 	@${CHOWN} ${BINOWN}.${BINGRP} ${PREFIX}/man/man1/yamsweeper.1.gz

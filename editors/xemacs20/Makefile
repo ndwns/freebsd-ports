@@ -79,7 +79,7 @@ post-install:
 	${CHMOD} 755 ${PREFIX}/share/emacs/site-lisp
 	${RM} -f ${PREFIX}/bin/send-pr
 # install xemacs20.sh into ${PREFIX}/etc/rc.d
-	@if [ ! -d ${PREFIX}/etc/rc.d ]; then mkdir -p ${PREFIX}/etc/rc.d; fi
+	@if [ ! -d ${PREFIX}/etc/rc.d ]; then ${MKDIR} ${PREFIX}/etc/rc.d; fi
 	${INSTALL_SCRIPT} ${FILESDIR}/xemacs20.sh ${PREFIX}/etc/rc.d
 
 .include <bsd.port.mk>

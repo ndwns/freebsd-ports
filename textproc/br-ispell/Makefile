@@ -19,6 +19,6 @@ BUILD_DEPENDS=	buildhash:${PORTSDIR}/textproc/ispell
 NO_WRKSUBDIR=	YES
 
 pre-build:
-	@cp ${FILESDIR}/Makefile ${WRKDIR}
+	@${CP} ${FILESDIR}/Makefile ${WRKDIR}
 
 .include <bsd.port.mk>

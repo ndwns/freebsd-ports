@@ -29,8 +29,8 @@ do-extract:
 
 do-install:
 	@echo "Installing files"
-	@test -d ${base} || mkdir -p ${base}
-	@test -d ${rc} || mkdir -p ${rc}
+	@test -d ${base} || ${MKDIR} ${base}
+	@test -d ${rc} || ${MKDIR} ${rc}
 	@${INSTALL_DATA} ${WRKSRC}/config.sh ${base}
 	@${INSTALL_SCRIPT} ${FILESDIR}/update.sh ${base}
 	@${INSTALL_DATA} ${FILESDIR}/supfile ${base}

@@ -18,8 +18,8 @@ USE_IMAKE=	yes
 MAN6=		xsnow.6
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/man/man6
+	@${MKDIR} ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/man/man6
 	@(cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install.man)
 
 .include <bsd.port.mk>

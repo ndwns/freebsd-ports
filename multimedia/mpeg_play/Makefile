@@ -18,7 +18,7 @@ USE_IMAKE=	yes
 MAN1=		mpeg_play.1
 
 pre-patch:
-	cp ${WRKSRC}/Imakefile.proto ${WRKSRC}/Imakefile
-	cp ${WRKSRC}/mpeg_play.1 ${WRKSRC}/mpeg_play.man
+	${CP} ${WRKSRC}/Imakefile.proto ${WRKSRC}/Imakefile
+	${CP} ${WRKSRC}/mpeg_play.1 ${WRKSRC}/mpeg_play.man
 
 .include <bsd.port.mk>

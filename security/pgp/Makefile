@@ -26,7 +26,7 @@ do-install:
 	cd ${WRKSRC}; install -c -o bin -g bin -m 555 pgp ${PREFIX}/bin
 	cd ${WRKSRC}/../doc; \
 		  install -c -o bin -g bin -m 444 pgp.1 ${PREFIX}/man/man1
-	-mkdir -p ${PGPLIB}
+	-${MKDIR} ${PGPLIB}
 	${CHMOD} 555 ${PGPLIB}
 	cd ${WRKSRC}/..; \
 	    install -c -o bin -g bin -m 444 pgp.hlp \

@@ -25,7 +25,7 @@ MAN1=		FvwmAudio.1 FvwmAuto.1 FvwmBacker.1 FvwmBanner.1 FvwmClean.1 \
 		xpmroot.1
 
 post-install:
-	@mkdir -p ${PREFIX}/include/X11/pixmaps
+	@${MKDIR} ${PREFIX}/include/X11/pixmaps
 	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} -m 444 \
 	${WRKSRC}/fvwm_icons/*.xpm ${PREFIX}/include/X11/pixmaps
 

@@ -18,6 +18,6 @@ USE_IMAKE=	yes
 NO_INSTALL_MANPAGES= yes
 
 pre-install:
-	-mkdir -p ${PREFIX}/lib/X11/fonts/local
+	-${MKDIR} ${PREFIX}/lib/X11/fonts/local
 
 .include <bsd.port.mk>

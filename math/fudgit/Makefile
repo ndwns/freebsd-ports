@@ -18,9 +18,9 @@ USE_GMAKE=	yes
 MAN1=		fudgit.1
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin
-	@mkdir -p ${PREFIX}/lib/fudgit
-	@mkdir -p ${PREFIX}/man/man1
-	@(cd ${WRKSRC}/examples; cp * ${PREFIX}/lib/fudgit)
+	@${MKDIR} ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/lib/fudgit
+	@${MKDIR} ${PREFIX}/man/man1
+	@(cd ${WRKSRC}/examples; ${CP} * ${PREFIX}/lib/fudgit)
 
 .include <bsd.port.mk>

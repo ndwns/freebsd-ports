@@ -28,7 +28,7 @@ post-extract:
 .endfor
 .for i in ${MANSECS}
 	@cd ${WRKSRC}/man$i; \
-	ls *.$ix|awk 'BEGIN{printf"MAN$i ="}{printf"\\\n\t%s",$$0}' >Makefile; \
+	ls *.$ix|${AWK} 'BEGIN{printf"MAN$i ="}{printf"\\\n\t%s",$$0}' >Makefile; \
 	${ECHO} >>Makefile; \
 	${ECHO} pages-list: >>${WRKSRC}/man$i/Makefile; \
 	${ECHO} "	@\$${ECHO} \$${MAN$i}" >>${WRKSRC}/man$i/Makefile; \

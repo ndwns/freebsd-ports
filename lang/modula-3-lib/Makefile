@@ -154,7 +154,7 @@ do-install:
 	    test -d ${startup_dir} || ${MKDIR} ${startup_dir}; \
 	    echo "#!/bin/sh" > ${startup_script}; \
 	    echo "echo -n ' Modula-3'" >> ${startup_script}; \
-	    echo "/sbin/ldconfig -m ${PREFIX}/lib/m3/FreeBSD2" \
+	    echo "${LDCONFIG} -m ${PREFIX}/lib/m3/FreeBSD2" \
 		>> ${startup_script}; \
 	    ${CHMOD} 755 ${startup_script}; \
 	fi

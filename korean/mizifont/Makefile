@@ -42,13 +42,13 @@ do-build:
 	done
 
 do-install:
-	@mkdir -p ${PREFIX}/lib/X11/fonts/local
+	@${MKDIR} ${PREFIX}/lib/X11/fonts/local
 	for i in ${WRKDIR}/*.gz; do \
 		${INSTALL_DATA} $$i ${PREFIX}/lib/X11/fonts/local/; \
 	done
 	cd ${PREFIX}/lib/X11/fonts/local/ ; mkfontdir
 
 post-install:
-	@cat ${PKGDIR}/MESSAGE
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>

@@ -74,7 +74,7 @@ do-install:
 	@for file in ${DICTFILES}; do \
 		case $$file in \
 		*.gz) \
-			instfile=`basename $$file .gz` ; \
+			instfile=`${BASENAME} $$file .gz` ; \
 			if ${GZIP_CMD} -cd ${_DISTDIR}/$$file > ${DATADIR}/$$instfile ; \
 			then \
 				true ; \
@@ -83,7 +83,7 @@ do-install:
 			fi \
 			;; \
 		*.Z) \
-			instfile=`basename $$file .Z` ; \
+			instfile=`${BASENAME} $$file .Z` ; \
 			if ${GZIP_CMD} -cd ${_DISTDIR}/$$file > ${DATADIR}/$$instfile ; \
 			then \
 				true ; \
@@ -92,7 +92,7 @@ do-install:
 			fi \
 			;; \
 		*.zip) \
-			instfile=`basename $$file .zip` ; \
+			instfile=`${BASENAME} $$file .zip` ; \
 			if unzip -o ${_DISTDIR}/$$file $$instfile -d ${DATADIR} ; \
 			then \
 				true ; \
@@ -101,7 +101,7 @@ do-install:
 			fi \
 			;; \
 		*) \
-			instfile=`basename $$file` ; \
+			instfile=`${BASENAME} $$file` ; \
 			${CP} ${_DISTDIR}/$$file ${DATADIR} ; \
 			;; \
 		esac ; \

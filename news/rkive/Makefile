@@ -17,7 +17,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 NO_CDROM=	"Don't make money from it"
 
 pre-patch:
-	@cp ${WRKSRC}/Makefile.dst ${WRKSRC}/Makefile
-	@cp ${WRKSRC}/rkive.h.dst ${WRKSRC}/rkive.h
+	@${CP} ${WRKSRC}/Makefile.dst ${WRKSRC}/Makefile
+	@${CP} ${WRKSRC}/rkive.h.dst ${WRKSRC}/rkive.h
 
 .include <bsd.port.mk>

@@ -20,6 +20,6 @@ MAN1=		nntpxmit.1
 MAN8=		nntpd.8c mkgrdates.8c
 
 post-extract:
-	@cp ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h
+	@${CP} ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h
 
 .include <bsd.port.mk>

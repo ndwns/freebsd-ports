@@ -34,9 +34,9 @@ do-install:
 	-if [ ! -d ${CYRF}.old ]; then \
 		mv ${CYRF} ${CYRF}.old; \
 	fi
-	-mkdir -p ${CYRF}/100dpi
-	-mkdir -p ${CYRF}/75dpi
-	-mkdir -p ${CYRF}/misc
+	-${MKDIR} ${CYRF}/100dpi
+	-${MKDIR} ${CYRF}/75dpi
+	-${MKDIR} ${CYRF}/misc
 	cd ${WRKSRC}; \
 	${INSTALL_DATA} *.pfb ${XLIB}/fonts/Type1
 	cd ${WRKSRC}/cyrillic; \
@@ -46,7 +46,7 @@ do-install:
 	done
 #       ${INSTALL_DATA} ${FILESDIR}/xmodmap ${XLIB}/xinit/.Xmodmap
 	if [ ! -d ${XLIB}/nls ] ; then \
-		mkdir ${XLIB}/nls; \
+		${MKDIR} ${XLIB}/nls; \
 		${CHOWN} ${BINOWN}.${BINGRP} ${XLIB}/nls; \
 		${CHMOD} 755 ${XLIB}/nls; \
 	fi
@@ -61,7 +61,7 @@ do-install:
 	${MAKE} post-package
 
 pre-package:
-	-mkdir -p ${PKGTMP}
+	-${MKDIR} ${PKGTMP}
 	cd ${FILESDIR}; \
 	$(CP) nls_dir_list nls_alias_list replace_nls_list ${PKGTMP}
 	cd ${WRKSRC}; \

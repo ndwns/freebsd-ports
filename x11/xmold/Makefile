@@ -16,7 +16,7 @@ MAINTAINER=	nacai@iname.com
 USE_IMAKE=	yes
 
 do-install:
-	@mkdir -p ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/bin
 	@install -c -s ${WRKSRC}/xmold ${PREFIX}/bin
 	@${CHMOD} 755 ${PREFIX}/bin/xmold
 	@${CHOWN} bin.bin ${PREFIX}/bin/xmold

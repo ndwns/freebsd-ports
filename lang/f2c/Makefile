@@ -17,7 +17,7 @@ MAINTAINER=	kargl@troutmask.apl.washington.edu
 
 .if (${ARCH} == "alpha")
 pre-configure:
-	@cp ${FILESDIR}/f2c.h.alpha ${WRKSRC}/f2c/f2c.h
+	@${CP} ${FILESDIR}/f2c.h.alpha ${WRKSRC}/f2c/f2c.h
 .endif
 
 ALL_TARGET=   depend all

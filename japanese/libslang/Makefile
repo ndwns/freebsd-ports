@@ -22,7 +22,7 @@ WRKSRC=		${WRKDIR}/slang
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	${ECHO} "===> Installing documents in ${PREFIX}/share/doc/slang"
-	@mkdir -p ${PREFIX}/share/doc/slang
+	@${MKDIR} ${PREFIX}/share/doc/slang
 	${CP} -R ${WRKSRC}/doc/* ${PREFIX}/share/doc/slang
 	${CP} ${WRKSRC}/slang-j.doc ${PREFIX}/share/doc/slang
 

@@ -52,7 +52,7 @@ do-install:
 	done
 	@${INSTALL} -C -o root -g wheel -m 755 ${WRKSRC}/conf/postfix-script-sgid \
 		${PREFIX}/etc/postfix/postfix-script
-	@mkdir -p -m 0755 ${PREFIX}/libexec/postfix
+	@${MKDIR} -m 0755 ${PREFIX}/libexec/postfix
 	@for f in bounce cleanup error fsstone local master pickup pipe qmgr \
 		 showq smtp smtpd trivial-rewrite ; do \
 		${INSTALL} -C -o root -g wheel -m 0755 ${WRKSRC}/libexec/$$f \
@@ -76,7 +76,7 @@ do-install:
 		${INSTALL} -C -o root -g wheel -m 0755 ${WRKSRC}/man/man8/$$f \
 			${PREFIX}/man/man8/$$f ;\
 	done
-	@mkdir -p -m 0755 /var/spool/postfix
+	@${MKDIR} -m 0755 /var/spool/postfix
 	@if [ ! -e ${PREFIX}/etc/postfix/main.cf ]; then \
 		${CP} -p ${PREFIX}/etc/postfix/sample-main.cf \
 			${PREFIX}/etc/postfix/main.cf; \

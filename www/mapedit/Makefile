@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PREFIX}/java/bin/java:${PORTSDIR}/java/jdk
 NO_BUILD=	yes
 
 pre-install:
-	@cat ${WRKSRC}/README.TXT
+	@${CAT} ${WRKSRC}/README.TXT
 	@echo ""
 
 do-install:

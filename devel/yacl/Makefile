@@ -28,18 +28,18 @@ post-build:
 
 do-install:
 # don't split up base directory; keep compilation semantics.
-	@mkdir -p ${PREFIX}/lib/yacl ${PREFIX}/share/yacl \
+	@${MKDIR} ${PREFIX}/lib/yacl ${PREFIX}/share/yacl \
 	${PREFIX}/share/yacl/apps ${PREFIX}/share/yacl/base \
 	${PREFIX}/include/yacl ${PREFIX}/include/yacl/io \
 	${PREFIX}/include/yacl/ui
-	@cp -R ${WRKSRC}/lib/* ${PREFIX}/lib/yacl
-	@cp -R ${WRKSRC}/basedemo ${WRKSRC}/contrib ${WRKSRC}/doc \
+	@${CP} -R ${WRKSRC}/lib/* ${PREFIX}/lib/yacl
+	@${CP} -R ${WRKSRC}/basedemo ${WRKSRC}/contrib ${WRKSRC}/doc \
 	${WRKSRC}/control ${WRKSRC}/readme.txt ${WRKSRC}/uidemo \
 	${PREFIX}/share/yacl
-	@cp ${WRKSRC}/base/*.h ${WRKSRC}/base/*.cxx ${PREFIX}/share/yacl/base
-	@cp ${WRKSRC}/io/*.h ${PREFIX}/include/yacl/io
-	@cp ${WRKSRC}/ui/*.h ${PREFIX}/include/yacl/ui
-	@cp ${WRKSRC}/apps/bmpview/bmpview ${WRKSRC}/apps/dlged/dlged \
+	@${CP} ${WRKSRC}/base/*.h ${WRKSRC}/base/*.cxx ${PREFIX}/share/yacl/base
+	@${CP} ${WRKSRC}/io/*.h ${PREFIX}/include/yacl/io
+	@${CP} ${WRKSRC}/ui/*.h ${PREFIX}/include/yacl/ui
+	@${CP} ${WRKSRC}/apps/bmpview/bmpview ${WRKSRC}/apps/dlged/dlged \
 	${PREFIX}/share/yacl/apps
 	@( cd ${PREFIX}/share/yacl; ln -s ${PREFIX}/lib/yacl lib; \
 	ln -s ${PREFIX}/include/yacl/io; ln -s ${PREFIX}/include/yacl/ui )

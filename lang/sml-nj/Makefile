@@ -70,7 +70,7 @@ do-install:
 		tar -C ${SML_BASE} -xf -
 	for file in ${WRKDIR}/lib/*; do\
 		${SED} -e "s,${WRKDIR},${SML_BASE}," < $$file > \
-			${SML_LIBDIR}/`basename $$file`; \
+			${SML_LIBDIR}/`${BASENAME} $$file`; \
 	done
 .for file in ${SML_EXES}
 	-${LN} -s ${SML_BINDIR}/${file} ${PREFIX}/bin/${file}

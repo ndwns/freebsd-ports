@@ -17,7 +17,7 @@ MAN3=           libpng.3 libpngpf.3
 MAN5=           png.5
 
 do-configure:
-	cd ${WRKSRC} && cp scripts/makefile.std Makefile
+	cd ${WRKSRC} && ${CP} scripts/makefile.std Makefile
 
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib

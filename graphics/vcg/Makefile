@@ -16,10 +16,10 @@ USE_X_PREFIX=	yes
 MANL=		pbmrot90.l pbmshift.l pbm2hp.l vcgdemomaker.l vcg.l xvcg.l
 
 pre-patch:
-	@mkdir -p ${WRKSRC}/preconf/X11ccFreeBSD
-	@cp ${FILESDIR}/conf ${WRKSRC}/preconf/X11ccFreeBSD
-	@cp ${FILESDIR}/demo.csh ${WRKSRC}/preconf/X11ccFreeBSD
-	@cp ${FILESDIR}/globals.h ${WRKSRC}/preconf/X11ccFreeBSD
-	@cp ${FILESDIR}/tMakefile ${WRKSRC}/preconf/X11ccFreeBSD
+	@${MKDIR} ${WRKSRC}/preconf/X11ccFreeBSD
+	@${CP} ${FILESDIR}/conf ${WRKSRC}/preconf/X11ccFreeBSD
+	@${CP} ${FILESDIR}/demo.csh ${WRKSRC}/preconf/X11ccFreeBSD
+	@${CP} ${FILESDIR}/globals.h ${WRKSRC}/preconf/X11ccFreeBSD
+	@${CP} ${FILESDIR}/tMakefile ${WRKSRC}/preconf/X11ccFreeBSD
 
 .include <bsd.port.mk>

@@ -26,7 +26,7 @@ pre-build:
 	@ln -fs ${WAISDIR}/bin ${WRKSRC}/waisgn
 
 pre-install:
-	@mkdir -p ${WRKSRC}/etc ${WRKSRC}/libexec ${WRKSRC}/gnroot
+	@${MKDIR} ${WRKSRC}/etc ${WRKSRC}/libexec ${WRKSRC}/gnroot
 	@cd ${WRKSRC}/gnroot; \
 		tar -cf - -C ${WRKSRC} docs | tar xpf - && \
 			mv docs/sample.root.menu menu
@@ -45,7 +45,7 @@ post-install:
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \
-	  awk '$$1 ~ /#*gopher/ && $$6 == "${PREFIX}/libexec/gn" { exit 1 }' \
+	  ${AWK} '$$1 ~ /#*gopher/ && $$6 == "${PREFIX}/libexec/gn" { exit 1 }' \
 		${INETD_CONF} || { \ echo '#'gopher${CONF} >>${INETD_CONF}
 	  }
 

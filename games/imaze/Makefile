@@ -53,10 +53,10 @@ do-install:
 	@(cd ${WRKSRC}/man6 && for f in *.6;\
 		do ${INSTALL_MAN} $$f ${PREFIX}/man/man6;\
 		${compresscommand} ${PREFIX}/man/man6/$$f; done)
-	@mkdir -p ${PREFIX}/share/imaze/labs
+	@${MKDIR} ${PREFIX}/share/imaze/labs
 	@(cd ${WRKSRC}/labs && for f in *.lab;\
 		do ${INSTALL_DATA} $$f ${PREFIX}/share/imaze/labs; done)
-	@mkdir -p ${SOUNDDIR}
+	@${MKDIR} ${SOUNDDIR}
 	@(cd ${WRKSRC}/sounds && for f in *.au;\
 		do ${INSTALL_DATA} $$f ${SOUNDDIR}; done)
 	@(cd ${WRKSRC} && for f in Xdefaults.Motif Xdefaults.OpenWindows;\

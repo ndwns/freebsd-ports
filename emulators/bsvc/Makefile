@@ -21,7 +21,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/src
 WISH=		wish4.1
 
 pre-patch:
-	@awk ' \
+	@${AWK} ' \
 	{ \
 		if (/^## Makefile/) { \
 			print "## Makefile.FreeBSD - System Dependent Makefile for FreeBSD" \
@@ -31,7 +31,7 @@ pre-patch:
 	}' < ${WRKSRC}/Makefile.ULTRIX > ${WRKSRC}/Makefile
 
 post-patch:
-	@awk ' \
+	@${AWK} ' \
 	{ \
 		if (/PROJECT_BASE/ && /AWK_CHANGE_ME/) { \
 			print "PROJECT_BASE='"${WRKDIR}/${DISTNAME}"'" \

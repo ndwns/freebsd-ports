@@ -58,5 +58,5 @@ CONFIGURE_ENV=  LIBS=-lcrypt
 
 .if ${OPSYS} != "OpenBSD" || ${ARCH} != "arc"
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .endif

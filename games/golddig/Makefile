@@ -19,7 +19,7 @@ MAN6=		golddig.6
 
 pre-patch:
 	@(cd ${WRKSRC}; for i in 245 244 246 247; do \
-	    awk '{if (/^#!/) x++} {if(x) print $$0'} $$i| /bin/sh; \
+	    ${AWK} '{if (/^#!/) x++} {if(x) print $$0'} $$i| /bin/sh; \
 	  done; mv golddig2/* .)
 
 pre-install:

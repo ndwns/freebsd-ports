@@ -53,7 +53,7 @@ DISTFILES=	${SRCS:.f=.f.gz}
 .include <bsd.port.pre.mk>
 
 pre-build:
-	cp Makefile.lib ${WRKDIR}/Makefile
+	${CP} Makefile.lib ${WRKDIR}/Makefile
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib

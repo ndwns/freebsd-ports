@@ -22,7 +22,7 @@ pre-patch:
 	@${CP} ${WRKSRC}/config.h.dist ${WRKSRC}/config.h
 
 post-install:
-	@mkdir -p ${PREFIX}/wn/wnlogs ${PREFIX}/wn/bin
+	@${MKDIR} ${PREFIX}/wn/wnlogs ${PREFIX}/wn/bin
 	@${CP} -PR ${WRKSRC}/docs ${PREFIX}/wn
 	@install -c -o bin -g bin  ${WRKSRC}/bin/wn ${PREFIX}/libexec
 	@install -c -o bin -g bin  ${WRKSRC}/bin/swn ${PREFIX}/sbin

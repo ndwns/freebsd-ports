@@ -36,7 +36,7 @@ RA_VERSION=	28.16
 #
 # Small hack for alternate processing patchfiles
 #
-GZCAT=sh -c 'tar -zxf $$0 -C ${WRKSRC};cat ${WRKSRC}/RA-1.3rusPL${RA_VERSION}.patch'
+GZCAT=sh -c 'tar -zxf $$0 -C ${WRKSRC};${CAT} ${WRKSRC}/RA-1.3rusPL${RA_VERSION}.patch'
 
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance

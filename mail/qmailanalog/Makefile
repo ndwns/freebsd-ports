@@ -51,6 +51,6 @@ pre-install:
 	@echo ${QMAIL_DIR} >> ${WRKDIR}/.IPREFIX
 	@diff ${WRKDIR}/.[PI]PREFIX > /dev/null \
 	|| (echo ${DIFF_MSG} && exit 1)
-	@mkdir -p ${QMPREFIX}
+	@${MKDIR} ${QMPREFIX}
 
 .include <bsd.port.mk>

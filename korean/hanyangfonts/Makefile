@@ -28,7 +28,7 @@ do-build:
 	done; \
 
 do-install:
-	-mkdir -p ${PREFIX}/lib/X11/fonts/local
+	-${MKDIR} ${PREFIX}/lib/X11/fonts/local
 	@cd ${WRKSRC}; \
 	for file in ${FONTS}; do \
 		${INSTALL_DATA} "$$file".pcf.gz ${PREFIX}/lib/X11/fonts/local; \

@@ -92,7 +92,7 @@ create-lib-sim++:
 	@(cd ${WRKDIR}/temp;                                   \
 	for i in `${CAT} ${FILESDIR}/FILES-SRC-SIMPP` ; do        \
 	  gcc -fpic -DPIC -I${WRKSRC}/func/event/include -c -O \
-		 -o `basename $$i cpp`.so                      \
+		 -o `${BASENAME} $$i cpp`.so                      \
                  ${WRKSRC}/func/event/src/$$i ;                \
 	done;                                   \
 	if [ "${PORTOBJFORMAT}" = "elf" ]; then \

@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	luigi@iet.unipi.it
 
 post-extract:
-	${cp}cp ${FILESDIR}/cdd_atapicmds.[ch] ${WRKSRC}
+	${CP} ${FILESDIR}/cdd_atapicmds.[ch] ${WRKSRC}
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/cdd ${PREFIX}/bin

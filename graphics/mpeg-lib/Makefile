@@ -17,7 +17,7 @@ WRKSRC=		${WRKDIR}/mpeg_lib
 GNU_CONFIGURE= yup
 
 pre-install:
-	@mkdir -p ${PREFIX}/bin ${PREFIX}/lib ${PREFIX}/include
+	@${MKDIR} ${PREFIX}/bin ${PREFIX}/lib ${PREFIX}/include
 
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib

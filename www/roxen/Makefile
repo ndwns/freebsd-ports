@@ -22,7 +22,7 @@ pre-build:
 	(cd ${WRKDIR}/roxen_1.2.46 ; ./configure)
 
 post-install:
-	@cp ${FILESDIR}/roxen.sh ${PREFIX}/etc/rc.d/
+	@${CP} ${FILESDIR}/roxen.sh ${PREFIX}/etc/rc.d/
 	@echo "Installation of Roxen Challenger finished!"
 	@echo ""
 	@echo "Now perform the following steps to initialize"
