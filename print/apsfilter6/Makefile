@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=	apsfilter-4.9.3
+DISTNAME=	apsfilter-4.9.4
 CATEGORIES=	print
-MASTER_SITES=	${MASTER_SITE_LOCAL}
+MASTER_SITES=	http://www.FreeBSD.ORG/~andreas/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
