@@ -13,8 +13,6 @@ MASTER_SITES=	ftp://ftp.uu.net/pub/games/nethack/sources/ \
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-BROKEN_ELF=	build
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_GMAKE=	yes
