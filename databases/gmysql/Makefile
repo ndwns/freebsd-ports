@@ -18,5 +18,6 @@ LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-mysql=${PREFIX}
 CONFIGURE_ENV=	GTK_CONFIG=${X11BASE}/bin/gtk11-config
+FETCH_BEFORE_ARGS=	-b
 
 .include <bsd.port.mk>
