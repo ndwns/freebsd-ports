@@ -31,6 +31,7 @@
     SUBDIR += simpack
     SUBDIR += ss
     SUBDIR += umatrix
+    SUBDIR += umfpack
     SUBDIR += wingz
     SUBDIR += xgfe
     SUBDIR += xgraph
