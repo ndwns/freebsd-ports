@@ -5,6 +5,7 @@
     SUBDIR += Mesa
     SUBDIR += aero
     SUBDIR += dore
+    SUBDIR += geomview
     SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
