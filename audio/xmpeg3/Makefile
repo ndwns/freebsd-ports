@@ -18,6 +18,7 @@ RUN_DEPENDS=	amp:${PORTSDIR}/audio/amp \
 		wish4.2:${PORTSDIR}/x11/tk42
 
 WRKSRC=		${WRKDIR}/xmpeg3
+NO_BUILD=	yes
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/xmpeg3 ${PREFIX}/bin
