@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.comlab.ox.ac.uk/oucl/users/ian.collier/distribution/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN_ELF=	yes
+
 NO_WRKSUBDIR=	YES
 
 pre-build:
