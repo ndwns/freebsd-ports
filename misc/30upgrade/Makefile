@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	30upgrade-1998.05.20
+DISTNAME=	30upgrade-1999.05.20
 CATEGORIES=	misc
 DISTFILES=	# empty
 
