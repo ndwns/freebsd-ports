@@ -9,7 +9,7 @@
 DISTNAME=	lupe008
 PKGNAME=	lupe-0.08
 CATEGORIES=	x11
-MASTER_SITES=	http://www2s.biglobe.ne.jp/~yav/soft/
+MASTER_SITES=	http://www.oersted.co.jp/~yav/soft/
 
 MAINTAINER=	kazu@jp.freebsd.org
 
