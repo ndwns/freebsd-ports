@@ -204,6 +204,7 @@ MASTER_SITES=	${MASTER_SITE_OVERRIDE}
 # Derived names so that they're easily overridable.
 DISTFILES?=		${DISTNAME}${EXTRACT_SUFX}
 PKGNAME?=		${DISTNAME}
+MAINTAINER?=	FreeBSD-Ports@FreeBSD.ORG
 
 .if exists(${PACKAGES})
 PKGFILE?=		${PACKAGES}/${PKGNAME}${PKG_SUFX}
