@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=     	lpe-1.1.8
+DISTNAME=     	lpe-1.1.9
 CATEGORIES=	editors
 MASTER_SITES=	http://cdsmith.twu.net/lpe/
 
