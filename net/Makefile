@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += IglooFTP
     SUBDIR += SSLtelnet
     SUBDIR += archie
     SUBDIR += argus
