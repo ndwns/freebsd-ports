@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.multimania.com/miodrag/mikmod/
 
 MAINTAINER=	yoshiaki@kt.rim.or.jp
 
+BROKEN=		patch
+
 pre-patch:
 	@(cd ${WRKSRC} ;\
 	 ${CP} ${FILESDIR}/config.sh ${WRKSRC}; \
