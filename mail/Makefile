@@ -75,6 +75,8 @@
     SUBDIR += smtpfeed
     SUBDIR += spruce
     SUBDIR += tkrat
+    SUBDIR += wanderlust-emacs
+    SUBDIR += wanderlust-emacs20
     SUBDIR += wmmail
     SUBDIR += wmpop3
     SUBDIR += xbuffy
