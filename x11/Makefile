@@ -91,6 +91,7 @@
     SUBDIR += xskyroot
     SUBDIR += xsnow
     SUBDIR += xtacy
+    SUBDIR += xtattr
     SUBDIR += xtestpicture
     SUBDIR += xtoolwait
     SUBDIR += xview-clients
