@@ -35,8 +35,8 @@ post-patch:
 	@${CP} ${WRKDIR}/wmmon/Makefile.FreeBSD-2.2 ${WRKSRC}/Makefile
 .endif
 
-post-install:
-	@strip ${PREFIX}/bin/wmmon
+do-install:
+	${INSTALL_PROGRAM} ${WRKSRC}/wmmon ${PREFIX}/bin/wmmon
 
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/wmmon
