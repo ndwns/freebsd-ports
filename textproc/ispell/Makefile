@@ -18,7 +18,7 @@ PATCHFILES=     ispell-html-mode.patch
 
 MAINTAINER=	jmz@FreeBSD.org
 
-MAKE_FLAGS=	TMPDIR=${WRKDIRPREFIX}${.CURDIR} -f 
+MAKE_FLAGS=	TMPDIR=${WRKDIR} -f 
 MAN1=		buildhash.1 findaffix.1 ispell.1 munchlist.1 \
 		sq.1 tryaffix.1 unsq.1
 MAN4=		ispell.4 english.4
