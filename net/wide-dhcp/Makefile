@@ -19,6 +19,8 @@ EXTRACT_ONLY=	dhcp-1.3beta.tar.gz
 IGNOREFILES=	tzfile.h
 MAKE_ENV=	OSTYPE=`uname`
 
+STARTUP_SCRIPT=	${PREFIX}/etc/rc.d/wide-dhcps.sh.sample
+
 post-patch:
 	if [ ! -f ${WRKSRC}/server/tzfile.h ]; then \
 		${CP} ${DISTDIR}/tzfile.h ${WRKSRC}/server/; \
@@ -34,6 +36,21 @@ post-install:
 	@${CP} ${WRKSRC}/db_sample/dhcpdb.relay ${PREFIX}/share/dhcp/dhcpdb.relay.sample
 	@${CP} ${WRKSRC}/db_sample/dhcpdb.server ${PREFIX}/share/dhcp/dhcpdb.server.sample
 	@${CP} ${WRKSRC}/db_sample/intro.dhcp ${PREFIX}/share/dhcp/
+	@if [ ! -f ${STARTUP_SCRIPT} ]; then				\
+		echo "Installing ${STARTUP_SCRIPT} startup file.";	\
+		echo '#!/bin/sh' > ${STARTUP_SCRIPT};			\
+		echo 'if [ -f /etc/dhcpdb.pool -a -f /etc/dhcpdb.relay \'\
+			>> ${STARTUP_SCRIPT};				\
+		echo '		-a -x /usr/local/sbin/dhcps ]; then'	\
+			>> ${STARTUP_SCRIPT};				\
+		echo "	${PREFIX}/sbin/dhcps [Intarface Name]"		\
+			>> ${STARTUP_SCRIPT};				\
+		echo "	echo -n ' dhcps'"				\
+			>> ${STARTUP_SCRIPT};				\
+		echo 'fi' >> ${STARTUP_SCRIPT};				\
+		chmod 755 ${STARTUP_SCRIPT};				\
+		chown bin.bin ${STARTUP_SCRIPT};                        \
+	fi
 	@if [ ! -c /dev/bpf1 ]; then \
 	    echo "**********************************************************";\
 	    echo "*                      W a r n i n g                     *";\
