@@ -1,5 +1,5 @@
 # New ports collection makefile for:	apel for emacs20
-# Version required:	9.18
+# Version required:	9.19
 # Date created:		22 September 1998
 # Whom:			Shigeyuki FUKUSHIMA <shige@FreeBSD.ORG>
 #
@@ -17,7 +17,8 @@ MASTERDIR=	${.CURDIR}/../../editors/apel-emacs
 EMACS_NAME=	emacs
 EMACS_PORT=	emacs20
 EMACS_VER=	20.3
-EMACS_LIBDIR=	share/${EMACS_NAME}
+EMACS_LIBDIR=		share/${EMACS_NAME}
+EMACS_LIBDIR_WITH_VER=	${EMACS_LIBDIR}/${EMACS_VER}
 
 # use pkg/* files in ${.CURDIR}
 PKGDIR=		${.CURDIR}/pkg
