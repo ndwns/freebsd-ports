@@ -21,6 +21,6 @@ do-extract:
 	@rm -rf ${WRKDIR}
 	@${MKDIR} ${WRKDIR}
 	zcat ${DISTDIR}/${DISTFILES} |(cd ${WRKDIR}; \
-	awk '{if (/^#!/) x++} {if(x) print $$0'}| /bin/sh)
+	${AWK} '{if (/^#!/) x++} {if(x) print $$0'}| ${SH})
 
 .include <bsd.port.mk>
