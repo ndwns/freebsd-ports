@@ -13,7 +13,7 @@ MASTER_SITES=		ftp://gnomeicu.gdev.net/pub/gnomeicu/          \
 
 MAINTAINER=		nectar@FreeBSD.ORG
 
-LIB_DEPENDS=		gnome.1:${PORTSDIR}/x11/gnomelibs              \
+LIB_DEPENDS=		panel_applet.1:${PORTSDIR}/x11/gnomecore       \
 			gdk_imlib.3:${PORTSDIR}/graphics/imlib
 
 USE_X_PREFIX=		YES
