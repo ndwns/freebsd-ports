@@ -21,6 +21,8 @@ MAINTAINER=	max@FreeBSD.ORG
 LIB_DEPENDS=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
 BUILD_DEPENDS=	${PREFIX}/lib/libcanna.a:${PORTSDIR}/japanese/Canna
 
+MAN1=		pine.1 pilot.1 pico.1
+MAN8=		imapd.8c ipopd.8c
 EXTRACT_ONLY=	pine3.95.tar.gz
 
 pre-patch:
@@ -52,12 +54,5 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/imap/systype/imapd/imapd.8c ${PREFIX}/man/man8
 	${INSTALL_MAN} ${WRKSRC}/imap/systype/ipopd/ipopd.8c ${PREFIX}/man/man8
 	ldconfig -vm /usr/local/lib
-
-post-install:
-	${COMPRESS_MAN} ${PREFIX}/man/man1/pine.1
-	${COMPRESS_MAN} ${PREFIX}/man/man1/pilot.1
-	${COMPRESS_MAN} ${PREFIX}/man/man1/pico.1
-	${COMPRESS_MAN} ${PREFIX}/man/man8/imapd.8c
-	${COMPRESS_MAN} ${PREFIX}/man/man8/ipopd.8c
 
 .include <bsd.port.mk>

@@ -17,14 +17,11 @@ LIB_DEPENDS=	tk41\\.:${PORTSDIR}/x11/tk41
 
 WRKSRC=		${WRKDIR}/blt2.1
 GNU_CONFIGURE=	yes
+MANN=		BLT.n barchart.n bgexec.n bitmap.n bltdebug.n busy.n \
+		dragdrop.n graph.n htext.n spline.n table.n tile.n \
+		vector.n watch.n winop.n
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
-.if !defined(NOMANCOMPRESS)
-.for man in BLT barchart bgexec bitmap bltdebug busy dragdrop graph \
-	htext spline table tile vector watch winop
-	gzip -9nf ${PREFIX}/man/mann/${man}.n
-.endfor
-.endif
 
 .include <bsd.port.mk>

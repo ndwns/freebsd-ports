@@ -18,16 +18,13 @@ EXTRACT_ONLY=	kon-0.99.4e.tgz
 MAINTAINER=	asami@FreeBSD.ORG
 
 USE_GMAKE=	yes
+MAN1=		kon.1
+MANLANG=	ja_JP.ujis
 
 post-configure:
 	sed -e 's%%CURDIR%%${.CURDIR}' \
 	  -e 's%%PREFIX%%${PREFIX}' \
 	  -e 's%%DISTDIR%%${DISTDIR}' \
 	  files/dotconfig > ${WRKSRC}/.config
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/ja_JP.ujis/man1/kon.1
-.endif
 
 .include <bsd.port.mk>

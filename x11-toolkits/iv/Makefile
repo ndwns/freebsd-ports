@@ -31,7 +31,7 @@ pre-fetch:
 
 post-install:
 .if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/interviews/man/mann/*.n
+	${GZIP_CMD} ${PREFIX}/interviews/man/mann/*.n
 .endif
 # need these in ${PREFIX}/lib so that ldconfig can find them
 	ln -fs ../interviews/lib/FREEBSD/libIV.so.3.1 ${PREFIX}/lib

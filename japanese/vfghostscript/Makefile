@@ -26,6 +26,7 @@ RUN_DEPENDS=	${PREFIX}/lib/libVFlib.a:${PORTSDIR}/japanese/vflib
 
 WRKSRC=		${WRKDIR}/gs262
 EXTRACT_ONLY=	ghostscript-2.6.2.tar.gz
+MAN1=		gs.1
 
 DOC_DIR=${PREFIX}/lib/ghostscript/doc 
 
@@ -106,7 +107,6 @@ post-install:
 	  )
 	@(${MKDIR} ${PREFIX}/man/man1 ; \
 	  ${CP} ${WRKSRC}/gs.1 ${PREFIX}/man/man1/ ; \
-	  ${COMPRESS_MAN} ${PREFIX}/man/man1/gs.1 ; \
 	  ${CP} ${WRKSRC}/gs261j.jis ${DOC_DIR} ; \
 	  ${CP} ${WRKSRC}/printers.jis ${DOC_DIR} ; \
 	  ${CP} ${WRKSRC}/gdevmjc-0.7/README.jis ${DOC_DIR}/gdevmjc.jis ; \

@@ -19,12 +19,10 @@ MAINTAINER=     obrien@cs.ucdavis.edu
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT=	Configure
 ALL_TARGET=
+MAN1=		splitvt.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/splitvt ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/splitvt.1 ${PREFIX}/man/man1
-
-post-install:
-	${COMPRESS_MAN} ${PREFIX}/man/man1/splitvt.1
 
 .include <bsd.port.mk>

@@ -35,7 +35,7 @@ BINARIES=kpsewhich dvicopy dvitype pdvitype gftodvi gftopk \
 	virtex patgen iniptex virptex inimf virmf bibtex jbibtex \
 	tangle weave pooltype
 
-MANPAGES=amslatex.1 amstex.1 bibtex.1 dvitype.1 etex.1 gftodvi.1 \
+MAN1=	amslatex.1 amstex.1 bibtex.1 dvitype.1 etex.1 gftodvi.1 \
 	gftopk.1 gftype.1 initex.1 lamstex.1 latex.1 mf.1 mft.1 \
 	patgen.1 pktogf.1 pktype.1 pltotf.1 pooltype.1 slitex.1 \
 	tangle.1 tex.1 tftopl.1 vftovp.1 virtex.1 vptovf.1 weave.1
@@ -108,11 +108,6 @@ post-install:
 	@echo -n "Stripping the binary files...."
 .for bin in ${BINARIES}
 	@strip ${PREFIX}/bin/${bin}
-.endfor
-	@echo "done."
-	@echo -n "Compressing the man pages...."
-.for man in ${MANPAGES}
-	@${COMPRESS_MAN} ${PREFIX}/man/man1/${man}
 .endfor
 	@echo "done."
 

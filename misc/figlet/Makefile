@@ -15,7 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
-post-install:
-	${COMPRESS_MAN} ${PREFIX}/man/man6/figlet.6
+MAN6=		figlet.6
 
 .include <bsd.port.mk>

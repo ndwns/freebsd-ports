@@ -18,14 +18,13 @@ RUN_DEPENDS=	rz:${PORTSDIR}/comms/rzsz
 RUN_DEPENDS+=	bp:${PORTSDIR}/comms/bpl+
 RUN_DEPENDS+=	kermit:${PORTSDIR}/comms/kermit/
 
-WRKSRC=	${WRKDIR}/telnetx
-
+WRKSRC=		${WRKDIR}/telnetx
+MAN1=		telnetx.1
 ALL_TARGET=	bsdi
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/telnet/telnet ${PREFIX}/bin/telnetx
 	${INSTALL_PROGRAM} ${WRKSRC}/transit/transit ${PREFIX}/bin/transit
 	${INSTALL_MAN} ${WRKSRC}/telnet/telnet.1 ${PREFIX}/man/man1/telnetx.1
-	${COMPRESS_MAN} ${PREFIX}/man/man1/telnetx.1
 
 .include <bsd.port.mk>

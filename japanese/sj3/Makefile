@@ -14,19 +14,14 @@ MASTER_SITES=	ftp://ftp.sony.co.jp/pub/unsupported/src/ \
 
 MAINTAINER=	hidekazu@cs.titech.ac.jp
 
+MAN1=		sj3.1 sj3dic.1 sj3mkdic.1 sj3serv.1
+MANLANG=	ja_JP.EUC
+
 # This port requires xmkmf but installs in /usr/local
 #
 # NOTE : You must not use 'xmkmf -a', because the running 'make depend' caused a error.
 
 do-configure:
 	( cd $(WRKDIR)/sj3-2.0.1.13 ; xmkmf ; make Makefiles )
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/ja_JP.EUC/man1/sj3.1
-	gzip -9nf ${PREFIX}/man/ja_JP.EUC/man1/sj3dic.1
-	gzip -9nf ${PREFIX}/man/ja_JP.EUC/man1/sj3mkdic.1
-	gzip -9nf ${PREFIX}/man/ja_JP.EUC/man1/sj3serv.1
-.endif
 
 .include <bsd.port.mk>

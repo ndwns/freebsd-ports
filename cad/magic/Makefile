@@ -32,30 +32,18 @@ post-install:
 .for f in ${MAN1}
 	@chmod ${MANMODE} ${PREFIX}/man/man1/$f
 	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/$f
-.if !defined(NOMANCOMPRESS)
-	@gzip -9nf ${PREFIX}/man/man1/$f
-.endif
 .endfor
 .for f in ${MAN3}
 	@chmod ${MANMODE} ${PREFIX}/man/man3/$f
 	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man3/$f
-.if !defined(NOMANCOMPRESS)
-	@gzip -9nf ${PREFIX}/man/man3/$f
-.endif
 .endfor
 .for f in ${MAN5}
 	@chmod ${MANMODE} ${PREFIX}/man/man5/$f
 	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man5/$f
-.if !defined(NOMANCOMPRESS)
-	@gzip -9nf ${PREFIX}/man/man5/$f
-.endif
 .endfor
 .for f in ${MAN8}
 	@chmod ${MANMODE} ${PREFIX}/man/man8/$f
 	@chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man8/$f
-.if !defined(NOMANCOMPRESS)
-	@gzip -9nf ${PREFIX}/man/man8/$f
-.endif
 .endfor
 	@chmod -R a+rX,go-w ${PREFIX}/lib/magic
 	@chown -R ${SHAREOWN}.${SHAREGRP} ${PREFIX}/lib/magic

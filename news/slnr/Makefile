@@ -23,6 +23,7 @@ ALL_TARGET=	slnr
 EXTRACT_CMD=		${GZCAT}
 EXTRACT_BEFORE_ARGS=	
 EXTRACT_AFTER_ARGS=	| sed -ne '/^\#!\/bin\/sh/,$$p' | sh
+MAN1=		slnr.1
 
 EXTRAFILES=	default.dot.slnrrc \
  		porting.notes slnr.1 LICENSE
@@ -42,7 +43,6 @@ do-install:
 		${INSTALL_DATA} ${DOCFILES} ${PREFIX}/share/doc/slnr
 .endif
 	${INSTALL_MAN} ${WRKSRC}/slnr.1 ${PREFIX}/man/man1/slnr.1
-	${COMPRESS_MAN} ${PREFIX}/man/man1/slnr.1
 	${INSTALL_PROGRAM} ${WRKSRC}/slnr ${PREFIX}/bin
 
 .include <bsd.port.mk>

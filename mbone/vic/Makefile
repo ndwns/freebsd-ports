@@ -13,14 +13,14 @@ DISTFILES=	vicsrc-2.8.tar.gz
 
 MAINTAINER=	fenner@FreeBSD.ORG
 
-LIB_DEPENDS=	tk41:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk41\\.1:${PORTSDIR}/x11/tk41
 
 GNU_CONFIGURE=	yes
 USE_X11=	yes
+MAN1=		vic.1
 
 post-install:
 	strip ${PREFIX}/bin/vic
 	strip ${PREFIX}/bin/histtolut
-	${COMPRESS_MAN} ${PREFIX}/man/man1/vic.1
-	
+
 .include <bsd.port.mk>

@@ -20,7 +20,7 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_GMAKE=	yes
 SHELL=		/bin/sh
-FETCH_BEFORE_ARGS=	-NP
+MAN6=		dlb.6 dgn_comp.6 lev_comp.6 nethack.6 recover.6
 
 pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
@@ -28,12 +28,5 @@ pre-configure:
 pre-install:
 	@cd ${WRKSRC}/doc; chmod 644 *.6
 	@cd ${WRKSRC}/doc; ${MAKE} PREFIX=${PREFIX} manpages
-
-post-install:
-	${COMPRESS_MAN} ${PREFIX}/man/man6/dlb.6
-	${COMPRESS_MAN} ${PREFIX}/man/man6/dgn_comp.6
-	${COMPRESS_MAN} ${PREFIX}/man/man6/lev_comp.6
-	${COMPRESS_MAN} ${PREFIX}/man/man6/nethack.6
-	${COMPRESS_MAN} ${PREFIX}/man/man6/recover.6
 
 .include <bsd.port.mk>

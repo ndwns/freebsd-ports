@@ -18,13 +18,11 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386-freebsd
 STRIP=
 MAKE_FLAGS+=	CIFLAGS=-DRTLD_LAZY -f
+MAN1=		pl.1 chpl.1 plld.1
 
 post-install:
 .for f in pl pl-bite chpl
 	@strip ${PREFIX}/lib/${DISTNAME}/bin/i386-freebsd/$f
-.endfor
-.for f in pl.1 chpl.1 plld.1
-	${COMPRESS_MAN} ${PREFIX}/man/man1/$f
 .endfor
 
 .include <bsd.port.mk>
