@@ -15,6 +15,7 @@ DISTFILES=	base-9612.tar.gz ecfonts-1.0.tar.gz
 
 MAINTAINER=	max@FreeBSD.ORG
 
+BROKEN=		"This port is out of date and must be modified to use the latest pTeX"
 BUILD_DEPENDS=  ptex:${PORTSDIR}/japanese/ptex2
 RUN_DEPENDS=    ptex:${PORTSDIR}/japanese/ptex2
 
