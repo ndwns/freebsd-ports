@@ -10,7 +10,7 @@ DISTNAME=	socks5-v1.0r3
 PKGNAME=	socks5-1.0.3
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.astec.co.jp/pub/security/socks/  \
-		ftp://ftp.ualg.pt/Linux/net/proxies/
+		ftp://ftp.ualg.pt/Linux/net/proxies/socks5/
 EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	imp@freebsd.org
