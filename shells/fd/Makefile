@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	FD-1.03i
-PKGNAME=	fd-1.03i
+DISTNAME=	FD-1.03j
+PKGNAME=	fd-1.03j
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.ics.es.osaka-u.ac.jp/pub/FDclone/
 
