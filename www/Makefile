@@ -9,6 +9,7 @@
     SUBDIR += cached
     SUBDIR += chimera
     SUBDIR += comline
+    SUBDIR += eperl
     SUBDIR += gn
     SUBDIR += harvest
     SUBDIR += javac_netscape
