@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_TEX_CTAN}
 MASTER_SITE_SUBDIR=	systems/unix/teTeX/distrib/sources
 DISTFILES=	${TETEX_SRC} ${TETEX_LIB}
 
-MAINTAINER=	br@schiele-ct.de
+MAINTAINER=	br@netland.inka.de
 
 DIST_SUBDIR=	teTeX
 PATCH_DIST_STRIP=	-p1
