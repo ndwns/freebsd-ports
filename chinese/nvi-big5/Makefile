@@ -7,20 +7,16 @@
 #
 
 # can't use PORTSDIR here, since we haven't included bsd.port.mk
+FILESDIR=	${.CURDIR}/../../editors/nvi/files
+PATCHDIR=	${.CURDIR}/../../editors/nvi/patches
+PKGDIR=		${.CURDIR}/../../editors/nvi/pkg
+COMMENT=	${.CURDIR}/pkg/COMMENT
+
 .include <${.CURDIR}/../../editors/nvi/Makefile>
-# bsd.port.mk has been included in the above statement, so we don't need to
-# include it again.
 
 PKGNAME=	cn-nvi-big5-1.79-970306
 CATEGORIES=	chinese editors
 
 MAINTAINER=	itojun@itojun.org
-
-#LIB_DEPENDS+=	canna\\.1\\.:${PORTSDIR}/japanese/Canna
-
-FILESDIR=	${PORTSDIR}/editors/nvi/files
-PATCHDIR=	${PORTSDIR}/editors/nvi/patches
-PKGDIR=		${PORTSDIR}/editors/nvi/pkg
-COMMENT=	${.CURDIR}/pkg/COMMENT
 
 CONFIGURE_ARGS=	--enable-multibyte=big5 --program-prefix=n

@@ -11,6 +11,7 @@ PKGNAME=	nvi-m17n-1.79-970306
 CATEGORIES=	japanese editors
 MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/4bsd/\
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
+
 PATCHFILES=	nvi-1.79.m17n-970306.diff.gz
 PATCH_SITES=	ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
@@ -20,6 +21,7 @@ MAINTAINER=	itojun@itojun.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/build
 GNU_CONFIGURE=	yes
+# can't say PATCH_DIST_STRIP=-p1 because contains files outside ${WRKSRC}
 PATCH_DIST_ARGS=-d ${WRKSRC}/.. --forward --quiet -E -p0
 CONFIGURE_ENV=	OPTFLAG='-D_PATH_SYSEXRC=\"/usr/local/etc/vi.exrc\"'
 CONFIGURE_ARGS=	--enable-multibyte --program-prefix=n
