@@ -18,7 +18,6 @@ RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
 		ppmtogif:${PORTSDIR}/graphics/netpbm \
 		latex:${PORTSDIR}/print/teTeX
 
-NO_CDROM=	"Don't sell for profit until we have an OK from the author"
 NO_WRKSUBDIR=	yes
 MAN1=		tth.1
 
