@@ -15,6 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	giffunip@asme.org
 
+DIST_SUBDIR=	kaskade
 WRKSRC=         ${WRKDIR}/3.1
 MAKEFILE=	makefile
 ALL_TARGET=	k6
