@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	gftp-2.0.1
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	http://www.newwave.net/~masneyb/
 
 MAINTAINER=	dmarion@open.hr

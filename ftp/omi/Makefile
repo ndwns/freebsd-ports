@@ -8,7 +8,7 @@
 #
 
 DISTNAME=       omi-alpha-9
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=   http://dorifer.heim3.tu-clausthal.de/~olli/omi/
 
 MAINTAINER=     ache@FreeBSD.org

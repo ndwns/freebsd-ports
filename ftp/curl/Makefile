@@ -6,7 +6,7 @@
 # $Id$
 
 DISTNAME=	curl-5.9
-CATEGORIES=	net www
+CATEGORIES=	ftp www
 MASTER_SITES=	http://www.fts.frontec.se/~dast/stuff/ \
 		ftp://ftp.rhrz.uni-bonn.de/pub-koeln/net/inet/ \
 		ftp://ftp.win.or.jp/pub/network/www/misc/ \

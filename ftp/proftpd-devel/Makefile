@@ -8,7 +8,7 @@
 
 DISTNAME=	proftpd-1.2.0pre3
 PKGNAME=	proftpd-1.2.0
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp.proftpd.org/distrib/ \
 		ftp://ftp3.proftpd.org/distrib/
 

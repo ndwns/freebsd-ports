@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ftpsearch-1.0
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftpsearch.ntnu.no/pub/ftpsearch/
 
 MAINTAINER=	Tor.Egge@idi.ntnu.no

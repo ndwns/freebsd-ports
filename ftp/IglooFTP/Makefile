@@ -8,7 +8,7 @@
 
 DISTNAME=		IglooFTP-0.6.1.src
 PKGNAME=		IglooFTP-0.6.1
-CATEGORIES=		net
+CATEGORIES=		ftp
 MASTER_SITES=		${MASTER_SITE_SUNSITE} \
 			ftp://littleigloo.org/pub/iglooftp/
 MASTER_SITE_SUBDIR=	system/network/file-transfer

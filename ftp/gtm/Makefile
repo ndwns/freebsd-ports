@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		gtm-0.3.1
-CATEGORIES=		net gnome
+CATEGORIES=		ftp gnome
 MASTER_SITES=		http://www.rnl.ist.utl.pt/~bapm/gtm/files/     \
 			http://www.nectar.cc/distfiles/
 

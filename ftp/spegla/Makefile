@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	spegla-1.04
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp.luth.se/pub/unix/mirror/ \
 		ftp://subzero.campus.luth.se/pub/spegla/
 

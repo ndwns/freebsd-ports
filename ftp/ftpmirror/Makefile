@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ftpmirror-1.95
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp.intec.co.jp/pub/utils/ftpmirror/alpha/
 
 MAINTAINER=	yasuf@big.or.jp

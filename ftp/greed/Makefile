@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	greed-0.801
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	http://www.public.asu.edu/~arturner/greed/
 
 MAINTAINER=	cpiazza@FreeBSD.org

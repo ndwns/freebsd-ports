@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	yafc-0.4.5
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://mayer.physto.se/pub/yafc/
 
 MAINTAINER=	cpiazza@FreeBSD.org

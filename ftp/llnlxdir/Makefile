@@ -9,7 +9,7 @@
 
 DISTNAME=	latest_xdir
 PKGNAME=	llnlxdir-2.1
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp-lc.llnl.gov/pub/ia/llnlxdir/
 EXTRACT_SUFX=	.tar.Z
 

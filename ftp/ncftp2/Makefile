@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       ncftp-2.4.3
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=   ftp://ftp.ncftp.com/ncftp/
 
 MAINTAINER=	ache@FreeBSD.ORG

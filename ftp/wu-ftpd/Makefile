@@ -9,7 +9,7 @@
 # it is changed from previous versions
 
 DISTNAME=       wu-ftpd-2.5.0
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=   ftp://ftp.vr.net/pub/wu-ftpd/wu-ftpd/
 
 MAINTAINER=     ache@FreeBSD.org

@@ -9,7 +9,7 @@
 
 DISTNAME=       ncftp-3.0beta19-src
 PKGNAME=        ncftp-3.0b19
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp.ncftp.com/ncftp/3.0BETA/
 
 MAINTAINER=	obrien@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	jmirror-1.0b
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://ftp.ruin.org/pub/All/
 
 MAINTAINER=	jmrobins@jmirror.ruin.org

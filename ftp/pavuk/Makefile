@@ -8,7 +8,7 @@
 
 DISTNAME=		pavuk-0.9pl15
 PKGNAME=		pavuk-0.9.15
-CATEGORIES=		net www
+CATEGORIES=		ftp www
 MASTER_SITES=		${MASTER_SITE_SUNSITE} \
 			ftp://ftp.idata.sk/pub/unix/www/ \
 			ftp://ftp.phacka.sk/pub/pavuk/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	moxftp-2.2
-CATEGORIES=	net
+CATEGORIES=	ftp
 MASTER_SITES=	ftp://metalab.unc.edu/pub/X11/contrib/applications/ \
 	  	ftp://ftp.inria.fr/X/contrib-R5/applications/ \
 		ftp://ftp.tk.mesh.ad.jp/pub/X/contrib/applications/
