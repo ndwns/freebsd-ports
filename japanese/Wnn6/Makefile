@@ -28,6 +28,8 @@ IS_INTERACTIVE=	yes
 
 do-fetch:
 	@${DO_NADA}
+fetch-list:
+	@${DO_NADA}
 
 # If ${.CURDIR}/work/.build_done (which will be ${BUILD_COOKIE}) exists,
 # we do nothing in a 'do-fetch' stage.
