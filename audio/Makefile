@@ -34,5 +34,6 @@
     SUBDIR += xmix
     SUBDIR += xmmix
     SUBDIR += xmpeg3
+    SUBDIR += xtuner
 
 .include <bsd.port.subdir.mk>
