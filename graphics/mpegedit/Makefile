@@ -13,10 +13,9 @@ MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/tools/
 
 MAINTAINER=	erich@FreeBSD.org
 
-BROKEN_ELF=	missing libraries
-
 BUILD_DEPENDS=	${PREFIX}/include/pbmplus.h:${PORTSDIR}/graphics/netpbm
 
 USE_X_PREFIX=	yes
+USE_GMAKE=	yes
 
 .include <bsd.port.mk>

@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://mm-ftp.CS.Berkeley.EDU/pub/multimedia/mpeg/encode/
 
 MAINTAINER=	erich@FreeBSD.org
 
-BROKEN_ELF=	jpeg/libjpeg.a
+USE_GMAKE=	yes
 
 MAN1=		mpeg_encode.1
 MANCOMPRESSED=	yes
