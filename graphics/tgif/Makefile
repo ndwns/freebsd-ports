@@ -1,12 +1,12 @@
 # New ports collection makefile for:    tgif
-# Version required:     4.0.18
+# Version required:     4.1.1
 # Date created:         30 Jan 1999
 # Whom:                 bmc@WillsCreek.COM
 #
 # $Id$
 #
 
-DISTNAME=	tgif-4.0.18
+DISTNAME=	tgif-4.1.1
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		ftp://ftp.cs.ucla.edu/pub/tgif/
