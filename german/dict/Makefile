@@ -4,20 +4,23 @@
 # Whom:                 wosch
 #
 # $Id$
-
+#
 
 DISTNAME=       dict-1.0
 CATEGORIES=	german
 MASTER_SITES=   http://www.apfel.de/~wosch/src/
-dict=		eng2germ.dict
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${dict}.gz
-RUN_DEPENDS=	${PORTSDIR}/textproc/agrep
-EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=     wosch@FreeBSD.org
 
+RUN_DEPENDS=	${PORTSDIR}/textproc/agrep
+
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
+
+dict=		eng2germ.dict
+
 post-extract: ${dict}
 ${dict}:
-	gzip -d < ${DISTDIR}/${dict}.gz > ${WRKSRC}/${.TARGET}
+	${GZIP_CMD} -d < ${DISTDIR}/${dict}.gz > ${WRKSRC}/${.TARGET}
 
 .include <bsd.port.mk>
