@@ -51,6 +51,7 @@
     SUBDIR += xkeycaps
     SUBDIR += xloadimage
     SUBDIR += xlockmore
+    SUBDIR += xmold
     SUBDIR += xpostit
     SUBDIR += xscreensaver
     SUBDIR += xsnow
