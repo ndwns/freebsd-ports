@@ -9,7 +9,7 @@
 DISTNAME=	kworldwatch-0.6
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/latest/apps/utils/
+MASTER_SITE_SUBDIR= stable/latest/apps/utils
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	scrappy@freebsd.org
