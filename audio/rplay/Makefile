@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	rplay-3.2.0b3
+DISTNAME=	rplay-3.2.0b5
 CATEGORIES+=	audio
 MASTER_SITES=	ftp://ftp.sdsu.edu/pub/rplay/
 
