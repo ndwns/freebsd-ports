@@ -17,7 +17,7 @@ MAINTAINER=	sada@FreeBSD.ORG
 ALL_TARGET=	it
 INSTALL_TARGET=	setup
 MAN8=		checkpassword.8
-RESTRICTED=	Unsure of djb's license
+RESTRICTED=	"Unsure of djb's license"
 
 DOCDIR=		${PREFIX}/share/doc/checkpassword
 
