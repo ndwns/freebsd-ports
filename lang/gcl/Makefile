@@ -11,7 +11,18 @@ CATEGORIES=	lang
 MASTER_SITES=   ftp://ftp.ma.utexas.edu/pub/gcl/ \
 		${MASTER_SITE_GNU}
 
-MAINTAINER=	jseger@freebsd.scds.com
+MAINTAINER=	jseger@freebsd.org
 
 MAKEFILE=	makefile
+
+pre-build:
+	${RM} -rf ${WRKSRC}/info/gcl-si.info*
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/info/gcl-si.info ${PREFIX}/info
+	@if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	 fi
+	@install-info ${PREFIX}/info/gcl-si.info ${PREFIX}/info/dir
+
 .include <bsd.port.mk>
