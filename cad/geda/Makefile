@@ -11,7 +11,6 @@ PKGNAME=	geda-19981117
 CATEGORIES=	cad
 MASTER_SITES=	http://www.geda.seul.org/dist/  \
 		ftp://ftp.geda.seul.org/pub/geda/dist/ \
-		ftp://ftp.inet.cz/pub/Mirrors/GtkApps/geda/ \
 		ftp://ftp.infodrom.north.de/pub/unix/gtk-etc/apps/geda/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
