@@ -6,15 +6,16 @@
 # $Id$
 #
 
-DISTNAME =	gofer230a
-PKGNAME =	gofer-2.30a
+DISTNAME=	gofer230a
+PKGNAME=	gofer-2.30a
 CATEGORIES=	lang
-MASTER_SITES =	ftp://cs.nott.ac.uk/nott-fp/languages/haskell/gofer/
+MASTER_SITES=	ftp://cs.nott.ac.uk/nott-fp/languages/haskell/gofer/
 
 MAINTAINER=	hsu@FreeBSD.org
 
-WRKSRC = ${WRKDIR}/src
-LIBDIR = ${PREFIX}/lib/Gofer
+WRKSRC=		${WRKDIR}/src
+LIBDIR=		${PREFIX}/lib/Gofer
+MAN1=		gofer.1
 
 do-install:
 	${MKDIR} ${LIBDIR}
@@ -28,9 +29,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKDIR}/src/gofer ${LIBDIR}
 	${INSTALL_PROGRAM} ${WRKDIR}/src/gofc ${LIBDIR}
 	${INSTALL_MAN} ${WRKDIR}/docs/gofer.1 ${PREFIX}/man/man1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/gofer.1
-.endif
 	${MKDIR} ${LIBDIR}/docs
 	${INSTALL_DATA} ${WRKDIR}/docs/* ${LIBDIR}/docs
 

@@ -17,6 +17,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 ALL_TARGET=	freebsd
 MAKEFILE=	makefile
+MAN1=		pbasic.1
 
 do-configure:
 	-cd ${WRKSRC} ; rm -rf termio m68000 msdos vax pyramid ns32000 \
@@ -25,8 +26,6 @@ do-configure:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/basic ${PREFIX}/bin/pbasic
 	${INSTALL_MAN} ${WRKSRC}/docs/basic.1 ${PREFIX}/man/man1/pbasic.1
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/pbasic.1
 .endif
 
 .include <bsd.port.mk>

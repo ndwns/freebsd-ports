@@ -15,11 +15,11 @@ MAINTAINER=	ports@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
+MAN1=		cs.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/Compiler/cs ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/Doc/man/man1/cs.1 ${PREFIX}/man/man1
-	-gzip -9nf ${PREFIX}/man/man1/cs.1
 	${MKDIR} ${PREFIX}/share/doc/sather
 	${INSTALL_DATA} ${WRKSRC}/Doc/License ${PREFIX}/share/doc/sather
 .if !defined(NOPORTDOCS)

@@ -27,20 +27,18 @@ HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=		-sde -Dprefix=${PREFIX}
 
-PERLMAN= "" book bot call data debug diag embed form func guts ipc lol mod \
-	obj op ovl pod re ref run sec style sub syn tie toc trap var xs \
-	xstut
+MAN1= 	perlbook.1 perlbot.1 perlcall.1 perldata.1 perldebug.1 perldiag.1  \
+	perlembed.1 perlform.1 perlfunc.1 perlguts.1 perlipc.1 perllol.1   \
+	perlmod.1 perlobj.1 perlop.1 perlovl.1 perlpod.1 perlre.1 perlref.1 \
+	perlrun.1 perlsec.1 perlstyle.1 perlsub.1 perlsyn.1 perltie.1  \
+	perltoc.1 perltrap.1 perlvar.1 perlxs.1 perlxstut.1
+MAN1+=	a2p.1 s2p.1
 
 test:
 	@(cd ${WRKSRC}; make test)
 
 
 post-install:
-.if !defined(NOMANCOMPRESS)
-	@for m in ${PERLMAN}; do gzip -9nf ${PREFIX}/man/man1/perl$$m.1; done
-	@gzip -9nf ${PREFIX}/man/man1/a2p.1
-	@gzip -9nf ${PREFIX}/man/man1/s2p.1
-.endif
 	@strip ${PREFIX}/bin/perl ${PREFIX}/bin/suidperl
 
 .include <bsd.port.mk>

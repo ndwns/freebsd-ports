@@ -14,6 +14,8 @@ DISTFILES=	p2c-1.21alpha2.tar.gz
 
 MAINTAINER=	jmz@FreeBSD.org
 
+MAN1=		p2cc.1
+
 pre-install: build
 	@${MKDIR} ${PREFIX}/bin
 	@${MKDIR} ${PREFIX}/lib
@@ -22,4 +24,3 @@ pre-install: build
 	@${INSTALL_MAN} ${WRKSRC}/src/p2cc.man ${PREFIX}/man/man1/p2cc.1
 
 .include <bsd.port.mk>
-

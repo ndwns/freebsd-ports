@@ -21,14 +21,12 @@ HAS_CONFIGURE=	yes
 
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 INSTALL_TARGET=	install
+MAN1=		python.1
 
 post-configure:
 	${CP} ${FILESDIR}/Setup ${WRKSRC}/Modules
 
 post-install:
 	strip ${PREFIX}/bin/python
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/python.1
-.endif
 
 .include <bsd.port.mk>
