@@ -1,7 +1,6 @@
 # $Id$
 #
 
-    SUBDIR += CGI
     SUBDIR += Mosaic         # requires Motif
     SUBDIR += analog
     SUBDIR += apache
