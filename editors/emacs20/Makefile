@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	emacs
 
 MAINTAINER=	jseger@FreeBSD.org
 
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
 USE_XLIB=	yes
 USE_GMAKE=	yes
 EMACS_ARCH=	${MACHINE_ARCH}--freebsd
