@@ -18,7 +18,7 @@ MAINTAINER=	sada@e-mail.ne.jp
 
 RUN_DEPENDS+=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
 		${X11BASE}/lib/X11/k12:${PORTSDIR}/japanese/k12 \
-		${X11BASE}/lib/X11/fonts/misc/elisau10.pcf.Z:${PORTSDIR}/japanese/k8
+		${X11BASE}/lib/X11/fonts/misc/elisau10.pcf.Z:${PORTSDIR}/japanese/elisa10x8
 
 RESTRICTED=	"Includes a copyrighted file from Netscape"
 NO_WRKSUBDIR=	YES
