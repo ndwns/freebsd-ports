@@ -14,7 +14,9 @@ MAINTAINER=	asami@Freebsd.ORG
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} >= 300000
+.if !defined(PACKAGE_BUILDING)
+BROKEN=		this \"port\" is for building packages for distribution only
+.elif ${OSVERSION} >= 300000
 IGNORE=		this needs to be built on a 2.2-stable system
 .endif
 NO_MTREE=	yes

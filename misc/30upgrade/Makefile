@@ -1,4 +1,4 @@
-# New ports collection makefile for:	3.1R to 3.1-stable upgrade kit
+# New ports collection makefile for:	3.0R to 3.1-stable upgrade kit
 # Version required:	n/a
 # Date created:		17 Dec 1998
 # Whom:			asami
@@ -14,7 +14,9 @@ MAINTAINER=	asami@Freebsd.ORG
 
 .include <bsd.port.pre.mk>
 
-.if ${OSVERSION} < 300000
+.if !defined(PACKAGE_BUILDING)
+BROKEN=		this \"port\" is for building packages for distribution only
+.elif ${OSVERSION} < 300000
 IGNORE=		this needs to be built on a 3.x-stable system
 .endif
 NO_MTREE=	yes
