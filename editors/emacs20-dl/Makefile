@@ -20,6 +20,7 @@ MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 RUN_DEPENDS=	emacs-20.3:${PORTSDIR}/editors/emacs20
 
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit --with-pop
 MAKE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"

@@ -13,6 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	jseger@FreeBSD.org
 
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit --with-pop
 MAKE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"

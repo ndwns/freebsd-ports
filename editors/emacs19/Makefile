@@ -17,6 +17,7 @@ PLIST_SUB=	EMACS_VERSION=${EMACS_VERSION}
 NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/emacs-19.34
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	i386--freebsd --with-x-toolkit \
 		--sharedstatedir=/var/run
