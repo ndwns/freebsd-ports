@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 MAINTAINER=	jkh@Freebsd.ORG
 
-LIB_DEPENDS=	tcl80\\.1\\.2:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 
 WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
@@ -23,6 +23,7 @@ CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 SHLIB_MAJOR=    1
 SHLIB_MINOR=    2
 MAKEFILE=       makefile
+TK_LIB=		libtk80.so
 
 post-configure:
 	@${CP} ${FILESDIR}/Makefile.lib ${WRKSRC}
@@ -33,7 +34,8 @@ pre-build:
 	    SHLIB_MAJOR=${SHLIB_MAJOR} SHLIB_MINOR=${SHLIB_MINOR}
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${LN} -sf ${TK_LIB_FILE} ${PREFIX}/lib/${TK_LIB}
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if exists(${PKGDIR}/INSTALL.wish)
 	${SH} ${PKGDIR}/INSTALL.wish
 .endif
@@ -44,3 +46,9 @@ test:
 .include <bsd.port.mk>
 
 PKG_ARGS+=	-i ${PKGDIR}/INSTALL.wish
+
+.if ${PORTOBJFORMAT} == "elf"
+TK_LIB_FILE=  ${TK_LIB}.${SHLIB_MAJOR}
+.else
+TK_LIB_FILE=  ${TK_LIB}.${SHLIB_MAJOR}.${SHLIB_MINOR}
+.endif
