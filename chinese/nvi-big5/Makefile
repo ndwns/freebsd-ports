@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	zh-nvi-big5-1.79.19981119
+PKGNAME=	zh-nvi-big5-1.79.19990331
 
 MASTERDIR=	${.CURDIR}/../../editors/nvi-m17n
 COMMENT=	${.CURDIR}/pkg/COMMENT

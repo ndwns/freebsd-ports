@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	ko-nvi-iso2022kr-1.79.19981119
+PKGNAME=	ko-nvi-iso2022kr-1.79.19990331
 
 MASTERDIR=	${.CURDIR}/../../editors/nvi-m17n
 COMMENT=	${.CURDIR}/pkg/COMMENT
