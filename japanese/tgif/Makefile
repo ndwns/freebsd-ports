@@ -10,9 +10,9 @@ DISTNAME=	tgif-3.0-p13
 PKGNAME=	ja-tgif-3.0.13
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
-		http://www.jp.freebsd.org/~mita/LOCAL_PORTS/
+		http://www.sunbit.or.jp/users/shin/software/
 MASTER_SITE_SUBDIR=	applications/tgif
-DISTFILES=	tgif-3.0-p13.tar.gz tgif-3.0J0.12-p13-JIS-patch.gz
+DISTFILES=	tgif-3.0-p13.tar.gz tgif-3.0J0.12-p13-PSJISr1.gz
 
 PATCH_SITES=	ftp://ftp.mei.co.jp/free/X11/X/applications/drawing/tgif/
 PATCHFILES=	tgif-3.0J0.12-p13-patch.gz
