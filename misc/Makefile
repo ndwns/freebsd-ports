@@ -10,6 +10,7 @@
     SUBDIR += 32upgrade
     SUBDIR += Howto
     SUBDIR += acron
+    SUBDIR += alevt
     SUBDIR += amanda
     SUBDIR += amanda24
     SUBDIR += astrolog
