@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	msql-1.0
+DISTNAME=	msql-1.0.5
 EXTRACT_SUFX=	.tar.gz
 MASTER_SITES=		ftp://bond.edu.au/pub/Minerva/msql/
 IS_INTERACTIVE=		YES
