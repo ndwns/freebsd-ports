@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME= 	ninja-src
+DISTNAME= 	ninja-1.1-src
 PKGNAME=	ninja-1.1
 CATEGORIES=	irc
-MASTER_SITES=	http://ninja.pimped.org/
+MASTER_SITES=	http://ninja.pimped.org/ftp/unstable/ \
+		ftp://ninja.qoop.org/unstable/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
