@@ -33,6 +33,13 @@ pre-install:
 		@ ${CP} ${WRKSRC}/sample.cf ${WRKSRC}/majordomo.cf
 
 post-install:
+.for file in ${MAN1}
+	@ ${INSTALL_MAN} ${WRKSRC}/Doc/man/${file} ${PREFIX}/man/man1
+.endfor
+.for file in ${MAN8}
+	@ ${INSTALL_MAN} ${WRKSRC}/Doc/man/${file} ${PREFIX}/man/man8
+.endfor
+
 		@ ln -sf archive2.pl ${PREFIX}/majordomo/archive
 		@ for dir in tmp lists/test-l.archive lists/test-l-digest.archive digests/test-l-digest doc; do \
 			${MKDIR} ${PREFIX}/majordomo/$$dir; \
