@@ -11,7 +11,7 @@ PKGNAME=	jp-chimera-1.65
 CATEGORIES=	japanese www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
 
-PATCH_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/www/chimera/
+PATCH_SITES=	ftp://ftp.tohoku.ac.jp/pub/net/www/chimera/old/
 PATCHFILES=	chimera-1.65-kanji.patch
 PATCH_DIST_STRIP=	-p1
 
