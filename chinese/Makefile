@@ -21,6 +21,7 @@
     SUBDIR += hztty
     SUBDIR += kcfonts
     SUBDIR += lunar
+    SUBDIR += moettf
     SUBDIR += mule-wnn4
     SUBDIR += muni
     SUBDIR += nvi-big5
