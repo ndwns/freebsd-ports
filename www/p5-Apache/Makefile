@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	Apache
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/www/apache12:patch
+
 USE_PERL5=	YES
 CONFIGURE_ENV=	PORTSDIR=${PORTSDIR} INSTALL_PROGRAM="${INSTALL_PROGRAM}"
 MAN3=		Apache.3 Apache::Constants.3  Apache::Options.3 \
@@ -23,9 +25,6 @@ MAN3=		Apache.3 Apache::Constants.3  Apache::Options.3 \
 		Apache::PerlSections.3 cgi_to_mod_perl.3 mod_perl_traps.3 \
 		mod_perl_tuning.3
 MANPREFIX=	${PREFIX}/lib/perl5
-
-pre-configure:
-		@ cd ${PORTSDIR}/www/apache && ${MAKE} clean patch
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${CONFIGURE_ENV} ${PREFIX}/bin/perl Makefile.PL
