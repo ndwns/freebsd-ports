@@ -15,6 +15,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS=	makedepend:${PORTSDIR}/devel/makedepend
 
+BROKEN=		tcl
+
 HAS_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-cyrus-prefix=${PREFIX}/cyrus \
 		--with-cyrus-group=cyrus

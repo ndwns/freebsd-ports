@@ -15,10 +15,12 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
+BROKEN=		tcl
+
 HAS_CONFIGURE=	YES
 ALL_TARGET=	depend all
 
-CONFIGURE_ENV+=	TCL_TK_INCLUDE_DIR=/usr/include/tcl:${PREFIX}/include \
+CONFIGURE_ENV=	TCL_TK_INCLUDE_DIR=/usr/include/tcl:${PREFIX}/include \
 		TCL_TK_LIBRARY_DIR=${PREFIX}/lib \
 		LD_TCL_TK_LIBS="-ltcl -ltk41"
 
