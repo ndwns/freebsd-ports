@@ -9,8 +9,7 @@
 
 DISTNAME=	faces-1.6.1
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/faces/ \
-		ftp://odie.physik2.uni-rostock.de/pub/
+MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/faces/
 EXTRACT_SUFX=	.tar.Z
 		
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
