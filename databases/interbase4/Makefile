@@ -17,6 +17,7 @@ NO_WRKSUBDIR=
 NO_BUILD=
 NO_FILTER_SHLIBS=
 RESTRICTED=	"Please get distfile manually."
+IS_INTERACTIVE=	"manual fetch"
 
 IB_PATH=	${PREFIX}/interbase
 ARCHIVE=	${WRKSRC}/interbase.tar
