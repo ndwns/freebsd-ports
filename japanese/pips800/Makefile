@@ -9,7 +9,7 @@ PORTNAME=	pips${PRTYPE}
 PORTVERSION?=	1.2
 CATEGORIES=	japanese print linux
 MASTER_SITES=	# empty
-DISTFILES=      # empty
+DISTFILES=	# empty
 
 MAINTAINER=	taoka@FreeBSD.org
 
