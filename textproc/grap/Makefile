@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	grap-0.8a
+DISTNAME=	grap-0.9a
 CATEGORIES=	textproc graphics
 MASTER_SITES=	http://www.lunabase.org/~faber/Vault/software/grap/
 
