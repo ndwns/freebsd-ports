@@ -15,8 +15,6 @@ MAINTAINER=	axl@iafrica.com
 
 USE_PERL5=	YES
 
-BROKEN_ELF=	yes
-
 do-configure:
 	${MKDIR} ${WRKSRC}/Local
 	if [ ! -d ${X11BASE} ] ; then \

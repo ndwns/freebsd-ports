@@ -14,8 +14,6 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	Udo.Schweigert@mchp.siemens.de
 
-BROKEN_ELF=	yes
-
 PATCH_STRIP=	-p1
 
 MAN1=		coolmail.1
