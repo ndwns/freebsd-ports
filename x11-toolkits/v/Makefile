@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://objectcentral.com/
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
+BROKEN=		fetch
+
 WRKSRC=		${WRKDIR}/v
 
 USE_X11=	YES
