@@ -104,14 +104,17 @@
     SUBDIR += xneko
     SUBDIR += xnibbles
     SUBDIR += xoids
+    SUBDIR += xoct
     SUBDIR += xonix
     SUBDIR += xothello
     SUBDIR += xpacman
+    SUBDIR += xpanex
     SUBDIR += xpat2
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xpuyo
     SUBDIR += xpuzzletama
+    SUBDIR += xpyraminx
     SUBDIR += xquarto
     SUBDIR += xripple
     SUBDIR += xrisk
