@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       dhcp-1.4.0p1
-PKGNAME=        wide-dhcp-1.4.0p1
+DISTNAME=       dhcp-1.4.0p3
+PKGNAME=        wide-dhcp-1.4.0p3
 CATEGORIES=     net
 MASTER_SITES=   ftp://sh.wide.ad.jp/WIDE/free-ware/dhcp/
 
