@@ -42,7 +42,10 @@ GP_DOCS=	${WRKSRC}/Copyright.plus \
 		${WRKSRC}/INSTALL.unx.plus \
 		${WRKSRC}/INSTALL.win.plus \
 		${WRKSRC}/README-J.plus \
-		${WRKSRC}/README.plus
+		${WRKSRC}/README.plus \
+		${WRKSRC}/gp+/plus-asc.dvi \
+		${WRKSRC}/gp+/plus-ntt.dvi \
+		${WRKSRC}/gp+/plus.tex
 
 post-extract:
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/gnuplot3.7+1.1.8.patch.tar.gz ${EXTRACT_AFTER_ARGS} -C ${WRKSRC}
@@ -57,9 +60,15 @@ post-patch:
 pre-build:
 	find ${WRKSRC} \( -name \*.orig -o -name \*~ \) -exec ${RM} -f \{} \;
 
+post-build:
+	cd ${WRKSRC}/docs; ${GMAKE} info
+	cd ${WRKSRC}/docs; ${PATCH} --quiet -E -p1 < ${FILESDIR}/gnuplot.info.diff
+
 post-install:
 	@test -d ${PREFIX}/share/doc/gnuplot+ || ${MKDIR} ${PREFIX}/share/doc/gnuplot+
-	@${INSTALL_DATA} ${GP_DOCS} ${PREFIX}/share/doc/gnuplot+
+	${INSTALL_DATA} ${GP_DOCS} ${PREFIX}/share/doc/gnuplot+
+	${INSTALL_DATA} ${WRKSRC}/docs/gnuplot.info ${PREFIX}/info
+	install-info ${PREFIX}/info/gnuplot.info ${PREFIX}/info/dir
 	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
