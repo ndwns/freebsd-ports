@@ -15,5 +15,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	searle@longacre.demon.co.uk
 
 USE_IMAKE=	yes
+MAN1=		flying.1
 
 .include <bsd.port.mk>

@@ -23,6 +23,8 @@ LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
 EXTRACT_ONLY=	imaze1.3.tar.Z
 USE_X_PREFIX=	yes
+MAN6=		genlab.6 imaze.6 imazesrv.6 ninja.6
+MANCOMPRESSED=	yes
 
 post-extract:
 	@${CP} ${FILESDIR}/Makefile ${WRKDIR}/imaze/Makefile

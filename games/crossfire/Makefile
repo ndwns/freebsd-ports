@@ -27,6 +27,7 @@ EXTRACT_ONLY=	${CF_SOURCES} ${CF_DOC}
 USE_PERL5=	yes
 USE_IMAKE=	yes
 PREFIX=		${LOCALBASE}
+MAN6=		crossfire.6 crossedit.6
 
 # Do you want to be able to rebuild documentation after installing the game
 # to produce Postscript documentation with colored icons ?! You have to go

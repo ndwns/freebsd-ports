@@ -19,6 +19,7 @@ USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/bugsx
 # isn't really gzipped
 EXTRACT_BEFORE_ARGS=	-xf
+MAN1=		bugsx.1
 
 post-install:
 	strip ${PREFIX}/bin/bugsx

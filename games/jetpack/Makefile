@@ -16,6 +16,7 @@ MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
 MAKE_FLAGS=	PREFIX=${PREFIX} -f
+MAN6=		jetpack.6
 
 post-install:
 	@/usr/sbin/chown games ${PREFIX}/bin/jetpack
