@@ -12,7 +12,7 @@ CATEGORIES=	mail
 MASTER_SITES=   ftp://ftp.qualcomm.com/eudora/servers/unix/popper/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	pst@freebsd.org
+MAINTAINER=	ache@freebsd.org
 
 #
 # If APOP_ONLY variable present in the environment, popper builds
