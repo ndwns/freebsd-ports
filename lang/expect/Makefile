@@ -6,11 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	expect-5.18
+DISTNAME=	expect-5.19
 CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
 
+DEPENDS=        ${PORTSDIR}/lang/tcl ${PORTSDIR}/x11/tk
 LIB_DEPENDS=	tcl\\.7\\.:${PORTSDIR}/lang/tcl \
 		tk\\.3\\.:${PORTSDIR}/x11/tk
 
