@@ -28,6 +28,7 @@
     SUBDIR += py-gnome
     SUBDIR += qt-i18n
     SUBDIR += qt142
+    SUBDIR += ruby-gtk
     SUBDIR += rubytk
     SUBDIR += slingshot
     SUBDIR += tix
