@@ -56,6 +56,10 @@ post-patch:
 	  mv $$FILE.new $$FILE; \
 	done
 
-BROKEN=		Needs to be updated wrt. new device registration
+.include <bsd.port.pre.mk>
 
-.include <bsd.port.mk>
+.if ${OSVERSION} >= 400006
+BROKEN=		New character device registration issues
+.endif
+
+.include <bsd.port.post.mk>
