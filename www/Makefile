@@ -19,6 +19,7 @@
     SUBDIR += mmm
     SUBDIR += netscape2
     SUBDIR += netscape3
+    SUBDIR += netscape4
     SUBDIR += p5-CGI
     SUBDIR += p5-CGI_Lite
     SUBDIR += p5-HTML
