@@ -17,7 +17,7 @@ PATCH_SITES=    ${MASTER_SITES}
 MAINTAINER=	ache@FreeBSD.ORG
 
 IS_INTERACTIVE=	yes
-NO_PACKAGE=     yes     # I don't know, why
+NO_PACKAGE=     yes      # domain name compiled in
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install
