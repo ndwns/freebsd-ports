@@ -26,7 +26,7 @@ do-extract:
 	@${MKDIR} ${WRKDIR}
 
 pre-patch:
-	@${SED} -e '1,1s:/usr/local/bin/perl:!/usr/bin/perl:' \
+	@${SED} -e '1,1s:/usr/local/bin/perl:!${PERL5}:' \
 		-e 's:$SUM = "/bin/sum":$SUM = "/usr/bin/sum":' \
 		-e 's:/usr/tmp:/var/tmp:' \
 		${DISTDIR}/${DIST_SUBDIR}/aub > ${WRKDIR}/aub
