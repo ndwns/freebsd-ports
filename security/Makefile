@@ -21,6 +21,7 @@
     SUBDIR += krb5
     SUBDIR += l0pht-watch
     SUBDIR += libident
+    SUBDIR += libmcrypt
     SUBDIR += libparanoia
     SUBDIR += mhash
     SUBDIR += nbaudit
