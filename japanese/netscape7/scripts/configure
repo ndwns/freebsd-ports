@@ -45,7 +45,7 @@ esac
 echo "$choice" \
 	| sed -e "s/\"//g" \
 	| sed -e "s/mail/mail browser/g" \
-	| sed -e "s/browser/AIM browser psm xpcom/g" \
+	| sed -e "s/browser/browser psm xpcom/g" \
 	| sort -u \
 	| sed -e "s/ /.xpi /g" \
 	| sed -e "s/$/.xpi/g" \
