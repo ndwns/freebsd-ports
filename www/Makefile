@@ -31,6 +31,7 @@
     SUBDIR += mhonarc
     SUBDIR += mmm
     SUBDIR += momspider
+    SUBDIR += mozilla
     SUBDIR += netscape3
     SUBDIR += netscape4-communicator
     SUBDIR += netscape4-communicator.us
