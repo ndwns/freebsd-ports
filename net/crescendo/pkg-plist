@@ -5,14 +5,14 @@ share/gnome/crescendo/cr-splash1.jpg
 share/gnome/crescendo/startup2.wav
 share/gnome/apps/Internet/crescendo.desktop
 share/gnome/pixmaps/crescendo.png
-%%DOCDIR%%/AUTHORS
-%%DOCDIR%%/COPYING
-%%DOCDIR%%/ChangeLog
-%%DOCDIR%%/HACKING
-%%DOCDIR%%/INSTALL
-%%DOCDIR%%/NEWS
-%%DOCDIR%%/README
-%%DOCDIR%%/README.BINARY
-%%DOCDIR%%/TODO
-@dirrm %%DOCDIR%%
 @dirrm share/gnome/crescendo
+%%PORTDOCS%%%%DOCDIR%%/AUTHORS
+%%PORTDOCS%%%%DOCDIR%%/COPYING
+%%PORTDOCS%%%%DOCDIR%%/ChangeLog
+%%PORTDOCS%%%%DOCDIR%%/HACKING
+%%PORTDOCS%%%%DOCDIR%%/INSTALL
+%%PORTDOCS%%%%DOCDIR%%/NEWS
+%%PORTDOCS%%%%DOCDIR%%/README
+%%PORTDOCS%%%%DOCDIR%%/README.BINARY
+%%PORTDOCS%%%%DOCDIR%%/TODO
+%%PORTDOCS%%@dirrm %%DOCDIR%%
