@@ -1,12 +1,12 @@
 # New ports collection makefile for:	scotty
-# Version required:	2.1.6
+# Version required:	2.1.8
 # Date created:		18 Februar 1995
 # Whom:			Gennady Sorokopud <gena@netvision.net.il>
 #
 # $Id$
 #
 
-DISTNAME=	scotty-2.1.6
+DISTNAME=	scotty-2.1.8
 CATEGORIES=	net tk80
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
