@@ -18,6 +18,8 @@ LIB_DEPENDS=	gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
 
+BROKEN=		build
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
