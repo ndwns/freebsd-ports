@@ -8,7 +8,7 @@
 
 DISTNAME=	bwbasic-2.10
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.eng.umd.edu/pub/basic/
+MASTER_SITES=	ftp://locke.ccil.org/pub/retro/bwbasic-2.10.tar.gz
 
 MAINTAINER=	msmith@atrad.adelaide.edu.au
 
