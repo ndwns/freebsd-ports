@@ -15,8 +15,6 @@ MAINTAINER=	pjm@cs.ntu.edu.au
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
-RUN_DEPENDS=	gdb:${PORTSDIR}/devel/gdb
-
 MAN1=		nana.1 nana-clg.1
 MAN3= 		nana.3 I.3 DI.3 L.3 DL.3 Q.3 Qstl.3
 
