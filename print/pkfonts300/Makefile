@@ -9,7 +9,8 @@
 DISTNAME=	pkfonts
 PKGNAME=	pkfonts${RESOLUTION}-1.0
 CATEGORIES+=	print
-MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/TeX/fonts/
+MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/TeX/fonts/ \
+		ftp://ftp.wg.omron.co.jp/pub/tex/
 DISTFILES=	pk${RESOLUTION}.tar.gz
 # see below for RESOLUTION definition
 
@@ -24,7 +25,8 @@ RESOLUTION=     300
 RESOLUTION_UNSPECIFIED=	yes
 .else
 .if ${RESOLUTION} != 118 && ${RESOLUTION} != 240 && \
-	${RESOLUTION} != 300 && ${RESOLUTION} != 400
+	${RESOLUTION} != 300 && ${RESOLUTION} != 360 && \
+	${RESOLUTION} != 400 && ${RESOLUTION} != 600
 RESOLUTION_INVALID=	yes
 .endif
 .endif
@@ -34,10 +36,10 @@ pre-fetch:
 	@echo "Using ${RESOLUTION}dpi English PK fonts."
 	@echo "Set the environment variable RESOLUTION if you want"
 	@echo "it to use other resolutions."
-	@echo "Possible values are: 118, 240, 300 (default) and 400."
+	@echo "Possible values are: 118, 240, 300 (default), 360, 400 and 600."
 .elif defined(RESOLUTION_INVALID)
 	@echo "Error: invalid value for RESOLUTION: \"${RESOLUTION}\"" 
-	@echo "Possible values are: 118, 240, 300 (default) and 400." 
+	@echo "Possible values are: 118, 240, 300 (default), 360, 400 and 600."
 	@/usr/bin/false
 .endif
 
