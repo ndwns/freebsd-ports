@@ -11,6 +11,7 @@ PKGNAME=	xed-1.3
 CATEGORIES+=	editors x11
 MASTER_SITES=	ftp://ftp.x.org/contrib/editors/
 EXTRACT_SUFX=	.tar.Z
+
 MAINTAINER=	shanee@rabbit.augusta.de
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
