@@ -12,7 +12,7 @@ CATEGORIES=	net games
 MASTER_SITES=	ftp://tf.tcp.com/pub/tinyfugue/ \
 		ftp://laurel.actlab.utexas.edu/pub/tinyfugue/
 
-MAINTAINER=	jseger@scds.com
+MAINTAINER=	jseger@freebsd.org
 
 MAN1=		tf.1
 MAKEFILE=	${WRKSRC}/unix/Makefile

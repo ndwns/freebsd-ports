@@ -10,7 +10,7 @@ DISTNAME=	gnugo-1.2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-MAINTAINER=	jseger@scds.com
+MAINTAINER=	jseger@freebsd.org
 
 WRKSRC=		${WRKDIR}/gnugo
 ALL_TARGET=	gnugo

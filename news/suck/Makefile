@@ -10,7 +10,7 @@ DISTNAME=	suck-3.6.0
 CATEGORIES=	news
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/system/news/transport/
 
-MAINTAINER=	jseger@scds.com
+MAINTAINER=	jseger@freebsd.org
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
