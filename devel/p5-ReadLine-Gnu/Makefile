@@ -23,6 +23,6 @@ MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 # automatically.  There is sometimes an old libreadline in /usr/local/lib
 # and this module won't work with it.
 do-configure:
-		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL LDDLFLAGS=-Bshareable LDFLAGS=-L/usr/lib
+		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL LDDLFLAGS=-shared LDFLAGS=-L/usr/lib
 
 .include <bsd.port.mk>
