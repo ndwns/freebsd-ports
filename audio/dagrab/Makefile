@@ -16,8 +16,6 @@ PATCHFILES=	dagrab-freebsd.patch.gz
 
 MAINTAINER=	clkao@CirX.ORG
 
-USE_GMAKE=	yes
-
 MAN1=		dagrab.1
 
 do-install:
