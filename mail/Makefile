@@ -10,6 +10,7 @@
     SUBDIR += metamail
     SUBDIR += mh
     SUBDIR += mpack
+    SUBDIR += mutt
     SUBDIR += p5-Mail-Folder
     SUBDIR += p5-Mail-POP3Client
     SUBDIR += p5-Mail-Tools
