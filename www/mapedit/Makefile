@@ -6,26 +6,25 @@
 # $Id$
 #
 
-DISTNAME=	mapedit2.24
-PKGNAME=	mapedit-2.24
+DISTNAME=	mapedit2.3
+PKGNAME=	mapedit-2.3
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.boutell.com/pub/boutell/mapedit/
-EXTRACT_SUFX=	.freebsd.tar.Z
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-USE_X11=		yes
-NO_BUILD=		yes
-DOCDIR=		${PREFIX}/lib/X11/mapedit
+RUN_DEPENDS=	${PREFIX}/java/bin/java:${PORTSDIR}/lang/jdk
+
+NO_BUILD=	yes
 
 pre-install:
 	@cat ${WRKSRC}/README.TXT
 	@echo ""
 
 do-install:
-	${MKDIR} ${DOCDIR}
-	${INSTALL_DATA} ${WRKSRC}/README.TXT ${DOCDIR}
-	${INSTALL_DATA} ${WRKSRC}/help.html ${DOCDIR}
-	${INSTALL_PROGRAM} ${WRKSRC}/mapedit ${PREFIX}/bin
+	${MKDIR} ${PREFIX}/lib/mapedit
+	${CP} -r ${WRKSRC}/* ${PREFIX}/lib/mapedit
+	${INSTALL_SCRIPT} ${PREFIX}/lib/mapedit/mapedit ${PREFIX}/bin
+	${RM} -f ${PREFIX}/lib/mapedit/mapedit
 
 .include <bsd.port.mk>
