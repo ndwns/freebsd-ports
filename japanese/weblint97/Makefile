@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://ftp.win.or.jp/pub/network/www/weblint/ \
 
 MAINTAINER=	a00821@cc.hc.keio.ac.jp
 
+RUN_DEPENDS=   ${PREFIX}/lib/perl/jcode.pl:${PORTSDIR}/japanese/jcode.pl
+
 WRKSRC=         ${WRKDIR}/weblint-97
 MANLANG=	ja
 MAN1=		jweblint.1
