@@ -9,7 +9,7 @@
 DISTNAME=       tcp_wrappers_7.6
 PKGNAME=        tcp_wrappers-7.6
 CATEGORIES=	security net
-MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
+MASTER_SITES=	ftp://ftp.porcupine.org/pub/security/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
