@@ -7,6 +7,7 @@
     SUBDIR += nv
     SUBDIR += rtpmon
     SUBDIR += sdr
+    SUBDIR += speak_freely
     SUBDIR += vat
     SUBDIR += vic
     SUBDIR += wb
