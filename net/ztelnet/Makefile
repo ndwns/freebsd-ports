@@ -20,6 +20,7 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 
 NO_WRKSUBDIR=	yes
 PATCH_STRIP=	-p1
+MAN1=			ztelnet.1
 
 post-patch:
 	@( cd ${WRKSRC}/ztelnet && \
@@ -35,5 +36,6 @@ do-install:
 	@cd ${WRKSRC}/ztelnet; \
 	${MKDIR} ${PREFIX}/bin; \
 	${INSTALL_PROGRAM} telnet/telnet ${PREFIX}/bin/ztelnet
+	${INSTALL_MAN} ${WRKDIR}/ztelnet/telnet/telnet.1 ${PREFIX}/man/man1/ztelnet.1
 
 .include <bsd.port.mk>
