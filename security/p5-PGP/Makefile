@@ -3,7 +3,7 @@
 # Date created:				October 21st 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $Id$
 #
 
 DISTNAME=	PGP-0.3a
@@ -16,12 +16,10 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	pgp:${PORTSDIR}/security/pgp
 
-BROKEN=		perl5 upgrade
-
 USE_PERL5=	YES
 
 MAN3=		PGP::Pipe.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 pre-configure:
 		@${CP} ${WRKSRC}/PGP/Pipe.pm ${WRKSRC}
