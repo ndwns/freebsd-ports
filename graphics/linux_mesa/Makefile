@@ -14,7 +14,7 @@ MASTER_SITES= 	ftp://iris.ssec.wisc.edu/pub/Mesa/old-versions/
 MAINTAINER=	cracauer@cons.org
 
 BUILD_DEPENDS=	/compat/linux/usr/lib/libglide2x.so:${PORTSDIR}/emulators/linux_glide \
-		/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devel
+		/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devtools
 
 ONLY_FOR_ARCHS=	i386
 

@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.gsoft.com.au/misc/
 
 MAINTAINER=	msmith@FreeBSD.org
 
-BUILD_DEPENDS=	/compat/linux/usr/bin/cpp:${PORTSDIR}/devel/linux_devel
+BUILD_DEPENDS=	/compat/linux/usr/bin/gcc:${PORTSDIR}/devel/linux_devtools
 
 ONLY_FOR_ARCHS=	i386
 
