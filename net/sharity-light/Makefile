@@ -6,12 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	Sharity-Light.1.0.s
-PKGNAME=	sharity-light-1.0
+DISTNAME=	Sharity-Light.1.2
+PKGNAME=	sharity-light-1.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.obdev.at/pub/Products/Sharity-Light/	\
-		ftp://ftp.rhrz.uni-bonn.de/pub-koeln/net/samba/	\
-		ftp://ftp.warpnet.ro/mirrors/ftp.obdev.at/pub/Products/Sharity-Light/
+		ftp://ftp.warpnet.ro/mirrors/ftp.obdev.at/pub/Products/Sharity-Light/ \
+		http://www.freebsd.org/~dt/distfiles/
 
 MAINTAINER=	dt@FreeBSD.ORG
 
