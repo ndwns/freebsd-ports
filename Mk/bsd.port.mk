@@ -782,6 +782,7 @@ reinstall: pre-reinstall install
 
 pre-reinstall:
 	@rm -f ${INSTALL_COOKIE}
+	@rm -f ${PACKAGE_COOKIE}
 .endif
 
 ################################################################
