@@ -12,6 +12,7 @@
     SUBDIR += asfiles
     SUBDIR += auis
     SUBDIR += bclock
+    SUBDIR += blackbox
     SUBDIR += blast
     SUBDIR += blt
     SUBDIR += bricons
