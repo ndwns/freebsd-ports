@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	fetchmail-1.9
-PKGNAME=	fetchmail-1.9.9
+DISTNAME=	fetchmail-2.0
+PKGNAME=	fetchmail-2.0.0
 CATEGORIES=	mail
 MASTER_SITES=	ftp://locke.ccil.org/pub/esr/
 
