@@ -14,8 +14,8 @@ EXTRACT_SUFX=   .zip
 
 MAINTAINER=	ache@FreeBSD.ORG
 
-EXEC_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
-EXEC_DEPENDS += pgp:${PORTSDIR}/security/pgp
+BUILD_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
+RUN_DEPENDS += pgp:${PORTSDIR}/security/pgp
 
 EXTRACT_CMD=    unzip
 EXTRACT_ARGS=   -q
