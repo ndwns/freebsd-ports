@@ -29,7 +29,7 @@ MASTER_SITES+=	ftp://ftp.freebsd.org/pub/FreeBSD/distfiles/
 MASTER_SITES+=	ftp://ftp.interface-business.de/pub/outgoing/
 #
 # This is the original master site, but better use a well-connected server
-MASTER_SITES+=	ftp://ftp.cs.bris.ac.uk/users/hedley/
+MASTER_SITES+=	ftp://ftp.cs.bris.ac.uk/pub/users/hedley/
 
 MAINTAINER=	joerg@FreeBSD.org
 
