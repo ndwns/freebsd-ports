@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ktranslator-0.4.0
-CATEGORIES=	x11 kde
+CATEGORIES=	devel kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR= stable/1.1/apps/utils
 
