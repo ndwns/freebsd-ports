@@ -11,14 +11,13 @@ PKGNAME=	xmbase-grok-1.3.2
 CATEGORIES=	databases x11
 MASTER_SITES=\
 	ftp://ftp.leo.org/pub/comp/os/linux/sunsite/X11/xapps/databases/
-WRKSRC=		${WRKDIR}/${PKGNAME}
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
 LIB_DEPENDS=      Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+WRKSRC=		${WRKDIR}/${PKGNAME}
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
-USE_X11=	yes
 
 .include <bsd.port.mk>
