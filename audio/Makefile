@@ -18,6 +18,7 @@
     SUBDIR += mxv
     SUBDIR += nas
     SUBDIR += nspmod
+    SUBDIR += play
     SUBDIR += playmidi
     SUBDIR += radio
     SUBDIR += rosegarden
