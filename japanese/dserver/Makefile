@@ -42,7 +42,7 @@ post-install:
 	  > ${PREFIX}/lib/dserver/setup.sh
 	@${SED} s!PREFIX_DIR!${PREFIX}!g ${WRKSRC}/deinstall.sh.template \
 	  > ${PREFIX}/lib/dserver/deinstall.sh
-	@${INSTALL_DATA} ${FILESDIR}/README.FreeBSD-setup ${PREFIX}/lib/dserver/doc/
+	@${INSTALL_DATA} ${FILESDIR}/README.FreeBSD-setup.euc ${PREFIX}/lib/dserver/doc/
 	@${SETENV} PKG_PREFIX=${PREFIX} /bin/sh ${PKGDIR}/REQ ${PKGNAME} INSTALL
 
 .include <bsd.port.mk>
