@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	asmail-0.50
-CATEGORIES=	mail
+CATEGORIES=	mail afterstep
 MASTER_SITES=	ftp://afterstep.foo.net/pub/AfterStep/apps/asmail/ \
 		ftp://ftp.cs.tu-berlin.de/pub/X/afterstep/apps/asmail/
 

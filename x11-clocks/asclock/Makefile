@@ -8,7 +8,7 @@
 
 DISTNAME=	asclock
 PKGNAME=	asclock-1.0
-CATEGORIES=	x11-clocks
+CATEGORIES=	x11-clocks afterstep
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=		applications
 EXTRACT_SUFX=	.tgz

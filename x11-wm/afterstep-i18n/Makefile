@@ -8,7 +8,7 @@
 
 DISTNAME=	AfterStep-1.0
 PKGNAME=	afterstep-i18n-1.0
-CATEGORIES=	x11-wm
+CATEGORIES=	x11-wm afterstep
 MASTER_SITES=	ftp://ftp.afterstep.org/archives/ \
 		http://www.freebsd.org/~kuriyama/distfiles/ \
 		http://www.itlb.te.noda.sut.ac.jp/~manome/afterstep/archive/ \
