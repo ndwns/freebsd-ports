@@ -5,12 +5,14 @@
 #
 # $Id$
 #
+# Maximal ssh package requires YES values for
+# USE_PERL, USE_WISH, USE_TCPWRAP
+#
 
 DISTNAME=       ssh-1.2.13
 CATEGORIES=	security net
 MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/snapshots/
 LIB_DEPENDS=    z\\.1\\.:${PORTSDIR}/devel/libz
-BUILD_DEPENDS+= perl5.002:${PORTSDIR}/lang/perl5
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
@@ -93,9 +95,17 @@ BUILD_DEPENDS+= wish4.0:${PORTSDIR}/x11/tk4
 CONFIGURE_ENV+= WISH=${PREFIX}/bin/wish4.0
 .else
 BUILD_DEPENDS+= wish:${PORTSDIR}/x11/tk
+CONFIGURE_ENV+= WISH=${PREFIX}/bin/wish
 .endif
 .else
 CONFIGURE_ENV+= WISH=/replace_it_with_WISH_path
+.endif
+
+.if defined(USE_PERL) && ${USE_PERL} == YES
+BUILD_DEPENDS+= perl5.002:${PORTSDIR}/lang/perl5
+CONFIGURE_ENV+= PERL=${PREFIX}/bin/perl5.002
+.else
+CONFIGURE_ENV+= PERL=/replace_it_with_PERL_path
 .endif
 
 # Include tcp-wrapper support (call remote identd)
