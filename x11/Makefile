@@ -4,6 +4,7 @@
     SUBDIR += XFree86
     SUBDIR += XFree86-contrib
     SUBDIR += Xfstt
+    SUBDIR += XttXF86srv-3DLabs
     SUBDIR += XttXF86srv-8514
     SUBDIR += XttXF86srv-AGX
     SUBDIR += XttXF86srv-I128
