@@ -29,5 +29,6 @@ do-install:
 	  echo "xset +fp ${PREFIX}/lib/xjewel.font" >>${PREFIX}/bin/xjewel; \
 	  echo "xjewel_" >>${PREFIX}/bin/xjewel; \
 	  chmod ugo+x ${PREFIX}/bin/xjewel)
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>

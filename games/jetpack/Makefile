@@ -11,6 +11,7 @@ PKGNAME=	jetpack-1.0
 CATEGORIES+=	games
 MASTER_SITES=	ftp://qiclab.scn.rain.com/pub/games/
 DISTFILES=	jetpack.tar.Z
+
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
@@ -21,5 +22,6 @@ do-install:
 	@chmod u+s ${PREFIX}/bin/jetpack
 	@chown games ${PREFIX}/lib/X11/jetpack
 	@chmod go+r ${PREFIX}/lib/X11/jetpack/jetpack.lev000
+	@${MAKE} ${.MAKEFLAGS} fake-pkg
 
 .include <bsd.port.mk>
