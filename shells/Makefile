@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	bash
+SUBDIR=	bash tcsh
 
 .include <bsd.port.subdir.mk>
