@@ -9,6 +9,7 @@
 DISTNAME=          gdbm-1.7.3
 CATEGORIES=        databases
 MASTER_SITES=      ${MASTER_SITE_GNU}
+MASTER_SITE_SUBDIR=	gdbm
 
 MAINTAINER=        bjn@visi.com
 
