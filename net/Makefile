@@ -45,6 +45,7 @@
     SUBDIR += radius
     SUBDIR += ratoolset
     SUBDIR += rdist6
+    SUBDIR += ripetools
     SUBDIR += rmsg
     SUBDIR += rsync
     SUBDIR += rwhois
