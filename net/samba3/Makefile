@@ -11,7 +11,7 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 
-MAINTAINER=	gpalmer@FreeBSD.ORG
+MAINTAINER=	ports@FreeBSD.ORG
 
 MAN1=		smbstatus.1 smbclient.1 smbrun.1 smbtar.1 testparm.1 testprns.1
 MAN5=		smb.conf.5
