@@ -28,7 +28,8 @@ do-extract:
 pre-configure:
 	@${SED} -e '1,1s:/usr/local/bin/perl:!/usr/bin/perl:' \
 		-e 's:$SUM = "/bin/sum":$SUM = "/usr/bin/sum":' \
-		${DISTDIR}/aub > ${WRKDIR}/aub
+		-e 's:/usr/tmp:/var/tmp:' \
+		${DISTDIR}/${DIST_SUBDIR}/aub > ${WRKDIR}/aub
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/aub ${PREFIX}/bin
