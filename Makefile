@@ -2,6 +2,7 @@
 #
 
 SUBDIR += archivers
+SUBDIR += astro
 SUBDIR += audio
 SUBDIR += benchmarks
 SUBDIR += cad
