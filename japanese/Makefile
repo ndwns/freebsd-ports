@@ -20,6 +20,7 @@
     SUBDIR += handbook
     SUBDIR += hex
     SUBDIR += ircII
+    SUBDIR += iv
     SUBDIR += jtex209-ascii
     SUBDIR += jtex209-both
     SUBDIR += jtex209-ntt
