@@ -21,6 +21,7 @@ DISTFILES=	xdvi-17.tar.gz xdvi-17miyu.patch-beta6.gz \
 MAINTAINER=	mita@jp.FreeBSD.org
 
 LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
+RUN_DEPENDS=	${LOCALBASE}/lib/fonts/pk${RESOLUTION}:${PORTSDIR}/print/pkfonts
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	xdvi
