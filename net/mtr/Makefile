@@ -17,7 +17,7 @@ HAS_CONFIGURE=	yes
 
 MAN8=	mtr.8
 
-pre-fetch:
+pre-patch:
 .if !defined(USE_GTK)
 	@${ECHO} ""
 	@${ECHO} "If you want to compile with GTK support,"
