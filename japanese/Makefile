@@ -36,8 +36,10 @@
     SUBDIR += qkc
     SUBDIR += sed
     SUBDIR += tcl
+    SUBDIR += tcl75
     SUBDIR += tgif
     SUBDIR += tk
+    SUBDIR += tk41
     SUBDIR += xdvi
 
 .include <bsd.port.subdir.mk>
