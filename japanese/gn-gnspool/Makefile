@@ -6,18 +6,20 @@
 # $Id$
 #
 
-DISTNAME=	gn-1.35
-PKGNAME=	ja-gn-gnspool-1.35
+DISTNAME=	gn-1.36
+PKGNAME=	ja-gn-gnspool-1.36
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.omronsoft.co.jp/pub/misc/gn/
 
 MAINTAINER=	kiroh@kh.rim.or.jp
 
-WRKSRC=		${WRKDIR}/gn-1.35/src
+WRKSRC=		${WRKDIR}/gn-1.36/src
 
 pre-configure:
-	@${CP} ${WRKDIR}/${DISTNAME}/mkfiles/unix/freebsd ${WRKSRC}/Makefile
-	@${SED} s+@PREFIX@+${PREFIX}+ ${FILESDIR}/site.def.in > ${WRKSRC}/site.def
+	@${CP} ${WRKDIR}/${DISTNAME}/mkfiles/unix/common ${WRKSRC}/Makefile
+	@${PATCH} -d ${WRKSRC} < ${FILESDIR}/Makefile.patch
+	@${SED} s+@PREFIX@+${PREFIX}+ ${FILESDIR}/site.def.in \
+		> ${WRKSRC}/site.def
 	@(cd ${WRKSRC}; ${MAKE} configur)
 
 do-configure:
