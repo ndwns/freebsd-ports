@@ -29,6 +29,7 @@
     SUBDIR += pgperl
     SUBDIR += pgplot
     SUBDIR += pixmap
+    SUBDIR += plotmtv
     SUBDIR += png
     SUBDIR += povray
     SUBDIR += sced
