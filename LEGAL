@@ -107,6 +107,8 @@ sdr-2.5*		ports/mbone/sdr25	Crypto; export-controlled
 sharefonts-*		ports/x11-fonts/sharefonts	Shareware.  Cannot be
 						distributed w/o prior
 						authorization.
+shorten-*		ports/audio/shorten	May not be sold. May not be
+						distributed if modified.
 sim-2.3.tar.gz		ports/emulators/sim	No commercial use
 socks5-*		ports/net/socks5	No commercial use
 ssh-*			ports/security/ssh*	Crypto; export-controlled
