@@ -1,16 +1,18 @@
 # New ports collection makefile for:	eterm
-# Version required:    0.8.7
+# Version required:    0.8.8
 # Date created:        11th December 1998
 # Whom:                MANTANI Nobutaka <nobutaka@nobutaka.com>
 #
 # $Id$
 #
 
-DISTNAME=	Eterm-0.8.7
-PKGNAME=	ja-eterm-0.8.7
+DISTNAME=	Eterm-0.8.8
+PKGNAME=	ja-eterm-0.8.8
 CATEGORIES=	japanese x11
-MASTER_SITES=	ftp://ftp.enlightenment.org/pub/Eterm/ \
+MASTER_SITES=	http://www.eterm.org/download/ \
+		ftp://ftp.eterm.org/pub/Eterm/ \
 		http://www.tcserv.com/archive/E/ \
+		http://eterm.is.nontoxic.org/download/ \
 		http://www.tcserv.com/archive/E/old/
 
 MAINTAINER=	nobutaka@nobutaka.com
