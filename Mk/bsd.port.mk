@@ -1172,7 +1172,7 @@ fake-pkg:
 	else \
 		${ECHO_MSG} "===> ${PKGNAME} is already installed - perhaps an older version?"; \
 		${ECHO_MSG} "     If so, you may wish to \`\`pkg_delete ${PKGNAME}'' and install"; \
-		${ECHO_MSG} "     this port again to upgrade it properly."; \
+		${ECHO_MSG} "     this port again by \`\`make reinstall'' to upgrade it properly."; \
 	fi
 .endif
 
