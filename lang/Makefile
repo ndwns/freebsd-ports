@@ -26,6 +26,7 @@
     SUBDIR += gcl
     SUBDIR += glibstdc++28
     SUBDIR += gnat
+    SUBDIR += gnomeobjc
     SUBDIR += guavac
     SUBDIR += guile
     SUBDIR += hugs
