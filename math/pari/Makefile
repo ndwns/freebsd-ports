@@ -13,8 +13,6 @@ MASTER_SITES=   ftp://megrez.math.u-bordeaux.fr/pub/pari/unix/ \
 
 MAINTAINER=     yoshiaki@kt.rim.or.jp
 
-BROKEN_ELF=	yes
-
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 MAN1=		gp.1
 
