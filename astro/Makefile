@@ -12,7 +12,6 @@
     SUBDIR += wmmoonclock
     SUBDIR += wmspaceweather
     SUBDIR += wmsun
-    SUBDIR += wmmoonclock
     SUBDIR += x3arth
     SUBDIR += xearth
     SUBDIR += xephem
