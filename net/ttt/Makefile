@@ -1,12 +1,12 @@
 # New ports collection makefile for:    ttt
-# Version required:     1.2
-# Date created:         15 July 1998
+# Version required:     1.3
+# Date created:         22 September 1998
 # Whom:                 Kenjiro Cho <kjc@csl.sony.co.jp>
 #
 # $Id$
 #
 
-DISTNAME=       ttt-1.2
+DISTNAME=       ttt-1.3
 CATEGORIES=	net tk80
 MASTER_SITES=   ftp://ftp.csl.sony.co.jp/pub/kjc/
 
