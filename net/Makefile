@@ -54,6 +54,7 @@
     SUBDIR += ftpsearch
     SUBDIR += ftptool
     SUBDIR += gated
+    SUBDIR += gftp
     SUBDIR += ggsd
     SUBDIR += gnome-icu
     SUBDIR += gnomenetwork
