@@ -46,7 +46,6 @@ post-install:
 	@${CP} -p /usr/share/tmac/tmac.vgrind ${PREFIX}/share/groff/tmac
 	@${CP} -p /usr/share/tmac/eqnrc ${PREFIX}/share/groff/tmac
 	@${CP} -p /usr/share/tmac/hyphen.us-ru ${PREFIX}/share/groff/tmac
-	@${CP} -p /usr/share/tmac/tcl.macros ${PREFIX}/share/groff/tmac
 	@${CP} -p /usr/share/tmac/troffrc ${PREFIX}/share/groff/tmac
 	@${CP} -p /usr/share/tmac/mdoc/doc-common ${PREFIX}/share/groff/tmac/mdoc
 	@${CP} -p /usr/share/tmac/mdoc/doc-syms ${PREFIX}/share/groff/tmac/mdoc
