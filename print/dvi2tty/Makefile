@@ -11,7 +11,7 @@ PKGNAME=	dvi2tty-1.0
 CATEGORIES=	print
 MASTER_SITES=	ftp://ctan.unsw.edu.au/ctan/tex-archive/dviware/
 
-MAINTAINER=	sutton@aardvark.apana.org.au
+MAINTAINER=	jsutton@webnet.com.au
 
 IGNOREFILES=	${DISTFILES}
 MAN1=		dvi2tty.1
