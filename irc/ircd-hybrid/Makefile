@@ -13,7 +13,8 @@ MASTER_SITES=	ftp://ftp.vol.com/pub/ircd/
 MAINTAINER=	desmo@bandwidth.org
 
 GNU_CONFIGURE=	yes
-IS_INTERACTIVE=	yes
+
+MAN8=		ircd.8
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 ${MANPREFIX}/man/man8
