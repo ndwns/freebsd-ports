@@ -10,7 +10,7 @@ DISTNAME=	TenDRA-4.1.2
 CATEGORIES=	lang
 MASTER_SITES=	ftp://alph.dera.gov.uk/pub/TenDRA/
 
-MAINTAINER=	rnordier@iafrica.com
+MAINTAINER=	rnordier@FreeBSD.ORG
 
 OSREL!=		uname -r
 PLIST=		${WRKDIR}/PLIST
