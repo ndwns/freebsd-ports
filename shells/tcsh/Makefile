@@ -9,7 +9,7 @@
 DISTNAME=       tcsh-6.07
 PKGNAME=        tcsh-6.07.02
 CATEGORIES=	shells
-MASTER_SITES=   ftp://ftp.deshaw.com/pub/tcsh/
+MASTER_SITES=   ftp://ftp.astron.com/pub/tcsh/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
