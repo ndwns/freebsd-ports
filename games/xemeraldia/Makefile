@@ -30,4 +30,7 @@ post-install:
 	touch ${PREFIX}/lib/X11/.xemeraldia.scores
 	chmod 666 ${PREFIX}/lib/X11/.xemeraldia.scores
 
+pre-clean:
+	@rm -f ${DISTDIR}/${DISTNAME}.tar.gz
+
 .include <bsd.port.mk>
