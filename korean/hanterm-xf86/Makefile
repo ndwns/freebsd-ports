@@ -6,12 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	hanterm-xf-p15
-PKGNAME=	ko-hanterm-xf15
+DISTNAME=	hanterm-xf-p16
+PKGNAME=	ko-hanterm-xf-16
 CATEGORIES=	korean x11
 MASTER_SITES=	http://pseudo.snu.ac.kr/~hwang/
 
-MAINTAINER=	junker@jazz.snu.ac.kr
+MAINTAINER=	cjh@kr.freebsd.org
 
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/local/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
