@@ -24,6 +24,7 @@
     SUBDIR += crosssco
     SUBDIR += cs
     SUBDIR += cutils
+    SUBDIR += cvslines
     SUBDIR += cweb
     SUBDIR += cxref
     SUBDIR += ddd
