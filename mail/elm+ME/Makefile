@@ -21,8 +21,8 @@ MAN1=           answer.1 checkalias.1 elm.1 elmalias.1 fastmail.1 \
 
 HAS_CONFIGURE=  Yes
 CONFIGURE_SCRIPT= Configure
-CONFIGURE_ENV+= PREFIX="${PREFIX}"
-CONFIGURE_ARGS+= -S
+CONFIGURE_ENV=  PREFIX="${PREFIX}"
+CONFIGURE_ARGS= -S
 
 post-install:
 	cd ${WRKSRC}/nls; ${MAKE} install

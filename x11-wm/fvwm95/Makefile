@@ -20,7 +20,7 @@ RUN_DEPENDS=	${X11BASE}/icons/chuck.xpm:${PORTSDIR}/x11/fbsd-icons
 
 USE_X11=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--includedir=${LOCALBASE}/include \
+CONFIGURE_ARGS= --includedir=${LOCALBASE}/include \
 		--libdir=${LOCALBASE}/lib
 
 MAN1=		fvwm95.1

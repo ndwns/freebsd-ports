@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://nntpcache.org/pub/nntpcache/ \
 MAINTAINER=	nntpcache@nntpcache.org
 
 GNU_CONFIGURE=	TRUE
-CONFIGURE_ARGS+=	--localstatedir=/var/spool
+CONFIGURE_ARGS=	--localstatedir=/var/spool
 MAN8=		nntpcache.8
 
 post-configure:

@@ -18,7 +18,7 @@ MAINTAINER=	hoek@FreeBSD.ORG
 LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--enable-tcl-dir=${PREFIX}/lib \
+CONFIGURE_ARGS=		--enable-tcl-dir=${PREFIX}/lib \
 			--enable-carddir=${PREFIX}/share/games/tvp
 
 MAN6=	tvp.6

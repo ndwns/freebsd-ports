@@ -20,7 +20,7 @@ LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
 
 GNU_CONFIGURE=	yes
 STRIP=
-CONFIGURE_ARGS+=--with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
+CONFIGURE_ARGS= --with-extra-lib=${X11BASE}/lib --with-extra-inc="${X11BASE}/include ${X11BASE}/include/X11"
 MAN1=		lyx.1
 
 post-install:

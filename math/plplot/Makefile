@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://dino.ph.utexas.edu/plplot/distrib/alpha/
 MAINTAINER=	tg@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+= --with-gcc=yes --with-double=yes
+CONFIGURE_ARGS= --with-gcc=yes --with-double=yes
 
 post-patch:
 	@perl -pi.bak -e "s|/usr/local/plplot/lib|${PREFIX}/lib/plplot|g;" \

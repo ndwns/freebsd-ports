@@ -17,8 +17,8 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/unix
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+= --enable-shared --with-tk
-CONFIGURE_ENV+=	PREFIX=${PREFIX}
+CONFIGURE_ARGS= --enable-shared --with-tk
+CONFIGURE_ENV=	PREFIX=${PREFIX}
 MAN3=		CmdWrite.3 Handles.3 Keylist.3 TclCommandWriting.3 \
 		TclXInit.3 Tcl_HandleAlloc.3 Tcl_HandleFree.3 \
 		Tcl_HandleTblInit.3 Tcl_HandleTblRelease.3 \

@@ -34,9 +34,9 @@ O_DEFS+=        -DAPOP_ONLY
 P_LIBS+=        -lmd -lutil
 
 GNU_CONFIGURE=          yes
-CONFIGURE_ARGS+=        --with-apop=${PREFIX}/etc/popper/pop.auth \
+CONFIGURE_ARGS=         --with-apop=${PREFIX}/etc/popper/pop.auth \
 			--with-apopuid=pop
-CONFIGURE_ENV+=         LIBS="${P_LIBS}" O_DEFS="${O_DEFS}"
+CONFIGURE_ENV=          LIBS="${P_LIBS}" O_DEFS="${O_DEFS}"
 
 MAN8=   popauth.8 popper.8
 

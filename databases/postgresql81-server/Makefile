@@ -15,7 +15,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 # if you want to use the tcl/tk frontend pgaccess, then you need to build
 # postgresql with tcl support by typing: make USE_TCL=yes
 .if defined(USE_TCL)
-MAKE_ENV+=	USE_TCL=true TCL_INCDIR=${PREFIX}/include/tcl8.0
+MAKE_ENV=	USE_TCL=true TCL_INCDIR=${PREFIX}/include/tcl8.0
 LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
 .endif
 
@@ -25,7 +25,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_GMAKE=	YES
 MAKEFILE=	GNUmakefile
 HAS_CONFIGURE=	YES
-CONFIGURE_ARGS+=--prefix=${PREFIX}/pgsql \
+CONFIGURE_ARGS= --prefix=${PREFIX}/pgsql \
 		--enable-locale \
 		--with-template=`uname -s | ${TR} '[A-Z]' '[a-z]'`
 

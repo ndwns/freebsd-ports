@@ -26,7 +26,7 @@ FETCH_BEFORE_ARGS=	-b
 PATCH_DIST_ARGS=	-p1 -d ${WRKDIR}/tk8.0 -E --quiet
 WRKSRC=		${WRKDIR}/tk8.0/unix
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+= --enable-shared --enable-xpm --enable-step --enable-dnd \
+CONFIGURE_ARGS= --enable-shared --enable-xpm --enable-step --enable-dnd \
 		 --enable-tiff --with-optimize="${CFLAGS} -I${PREFIX}/include -I${PREFIX}/include/tiff34"
 CONFIGURE_ENV=  PORTSDIR=${PORTSDIR}
 

@@ -14,7 +14,7 @@ MASTER_SITES=   ftp://linux.wauug.org/pub/knaff/mtools/ \
 MAINTAINER=	jmz@FreeBSD.org
 
 HAS_CONFIGURE=  yes
-CONFIGURE_ARGS+=--enable-xdf --prefix=${PREFIX}
+CONFIGURE_ARGS= --enable-xdf --prefix=${PREFIX}
 
 USE_GMAKE=	yes
 
