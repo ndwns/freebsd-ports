@@ -12,7 +12,11 @@ MASTER_SITES=	ftp://ftp.jclark.com/pub/sp/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
+# The shared libsp only works on post 2.1.x systems.
+.if exists(/usr/lib/libstdc++.a)
+PLIST=		${PKGDIR}/PLIST-shared
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+.endif
 
 .include <bsd.port.mk>
