@@ -11,6 +11,7 @@
     SUBDIR += netpbm
     SUBDIR += pixmap
     SUBDIR += povray
+    SUBDIR += spigot
     SUBDIR += tiff
     SUBDIR += vcg
     SUBDIR += xanim
