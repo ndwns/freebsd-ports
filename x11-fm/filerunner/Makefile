@@ -10,12 +10,12 @@ DISTNAME=	FileRunner_2.0
 PKGNAME=	filerunner-2.0
 CATEGORIES+=	x11
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/X11/xutils/managers/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	lukin@okbmei.msk.su
 
 LIB_DEPENDS=	tk41\\.:${PORTSDIR}/x11/tk41
 
-EXTRACT_SUFX=	.tgz
 MAKEFILE=	Makefile.freebsd
 MAKE_ENV+=	X11BASE=${X11BASE}
 
