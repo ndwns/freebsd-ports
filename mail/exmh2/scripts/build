@@ -72,5 +72,5 @@ done
 
 rm -f ${SEDFILE}
 
-echo "cd lib ;  echo 'auto_mkindex . *.tcl ; exit' | tclsh"
-cd lib ;  echo 'auto_mkindex . *.tcl ; exit' | tclsh
+echo "cd lib ;  echo 'auto_mkindex . *.tcl ; exit' | ${TCLSH}"
+cd lib ;  echo 'auto_mkindex . *.tcl ; exit' | ${TCLSH}
