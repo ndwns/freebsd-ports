@@ -18,6 +18,8 @@ Dist			Port			Why
 actx-*			ports/games/actx	contains commercial
 						character data
 aswedit-*		ports/www/aswedit	Commercial software.
+atari800-*		ports/emulators/atari800 xf25 contains copyright ROMs
+						and cannot be distributed.
 bro-*			ports/security/bro	No distribution due to
 						alpha status
 bochs-*			ports/emulators/bochs	Commercial software.
