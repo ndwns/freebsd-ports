@@ -16,8 +16,11 @@ MAINTAINER=		andy@icc.surw.chel.su
 ALL_TARGET=
 WRKSRC=			${WRKDIR}/frotz-2.32
 
+MAN6=			frotz.6
+
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/frotz ${PREFIX}/bin
+	@ ${INSTALL_MAN} ${WRKSRC}/frotz.6 ${PREFIX}/man/man6
 
 .if !defined(NOPORTDOCS)
 	@ ${MKDIR} ${PREFIX}/share/doc/frotz
