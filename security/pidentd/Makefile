@@ -1,18 +1,20 @@
 # New ports collection makefile for:	pidentd
-# Version required:	2.7b3
+# Version required:	2.7b4
 # Date created:		19 Oct 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	pidentd-2.7b3
+DISTNAME=	pidentd-2.7b4
 CATEGORIES+=	security net
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ \
 		ftp://ftp.fu-berlin.de/unix/security/ident/servers/
-ALL_TARGET=     freebsd
 
 MAINTAINER=	torstenb@FreeBSD.ORG
+
+ALL_TARGET=     freebsd
+MAKE_ENV=	REALPREFIX=${PREFIX}
 
 .if !defined(NOMANCOMPRESS)
 post-install:
