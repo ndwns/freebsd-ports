@@ -9,9 +9,7 @@
 
 DISTNAME=	tcplist-2.2
 CATEGORIES=	sysutils net
-MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/tcplist/  \
-		ftp://ftp.ece.uc.edu/pub/sun-faq/FAQs/mirrors/ftp.cdf.toronto.edu/tcplist/  \
-		ftp://ftp.informatik.uni-hamburg.de/pub/os/sun/sun-faq/FAQs/mirrors/ftp.cdf.toronto.edu/tcplist/
+MASTER_SITES=	ftp://ftp.cdf.toronto.edu/pub/jdd/tcplist/
 EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=     obrien@NUXI.com
