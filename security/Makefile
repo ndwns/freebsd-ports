@@ -10,6 +10,7 @@
     SUBDIR += crack
     SUBDIR += donkey
     SUBDIR += fakebo
+    SUBDIR += firewalk
     SUBDIR += fwtk
     SUBDIR += gnupg
     SUBDIR += gtkportscan
