@@ -12,7 +12,6 @@ DISTNAME=	xfaces-3.3
 CATEGORIES=	mail
 # xfaces-sounds.tar.gz only in LOCAL_PORTS
 MASTER_SITES=	ftp://ftp.cs.indiana.edu/pub/faces/xfaces/ \
-		ftp://odie.physik2.uni-rostock.de/pub/ \
 		${MASTER_SITE_LOCAL}
 DISTFILES=	${DISTNAME}.tar.Z xfaces-sounds.tar.gz
 
