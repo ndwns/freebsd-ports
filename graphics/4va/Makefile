@@ -14,6 +14,7 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=	malte.lance@gmx.net
 
+USE_XLIB=	yes
 MAN1=		4va.1
 
 4VA_REL_DATA_DIR=	share/4va-1.21
