@@ -13,6 +13,8 @@ MASTER_SITES=   ftp://ftp.isc.org/isc/dhcp/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN='port installs two files into /etc (dhclient.conf & dhclient-script) rather than PREFIX/etc.  The port does not install required dhclient-script at all.'
+
 Y2K=		http://www.isc.org/y2k.html
 
 HAS_CONFIGURE=	yes
