@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	bnetd-0.4.7
-CATEGORIES=	net game
+CATEGORIES=	games net
 MASTER_SITES=	http://www.bnetd.org/files/
 
 MAINTAINER=	ijliao@csie.nctu.edu.tw
