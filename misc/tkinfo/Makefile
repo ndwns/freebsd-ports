@@ -1,12 +1,12 @@
 # New ports collection makefile for:	tkinfo
-# Version required:     1.2
+# Version required:     1.5
 # Date created:         16 Jan 1995
 # Whom:                 thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	tkinfo-1.2
+DISTNAME=	tkinfo-1.5
 CATEGORIES=	misc tk41
 MASTER_SITES=	http://www.math.ucsb.edu/~boldt/tkinfo/ \
 		http://math-www.uni-paderborn.de/~axel/tkinfo/
