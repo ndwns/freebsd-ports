@@ -1,12 +1,12 @@
 # New ports collection makefile for:	smtpfeed
-# Version required:	0.83
+# Version required:	0.84
 # Date created:		17 January 1998
 # Whom:			itojun@itojun.org
 #
 # $Id$
 #
 
-DISTNAME=	smtpfeed-0.83
+DISTNAME=	smtpfeed-0.84
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.kyoto.wide.ad.jp/pub/mail/smtpfeed/ \
 		ftp://ftp.kyoto.wide.ad.jp/pub/mail/sendmail/ \
@@ -23,7 +23,7 @@ NO_PACKAGE=	"complex configuration for sendmail.cf needed"
 SENDMAILVER=	8.9.1
 SENDMAIL=	sendmail.${SENDMAILVER}
 SENDMAILDIR=	sendmail-${SENDMAILVER}
-SENDMAILPATCH=	sendmail891+3.0W
+SENDMAILPATCH=	sendmail891+3.1W
 WRKSRC_SMTPFEED=	${WRKSRC}
 WRKSRC_SENDMAIL=	${WRKDIR}/${SENDMAILDIR}/src
 
