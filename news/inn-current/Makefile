@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	inn-1.5.1
+DISTNAME=	inn-1.5.1sec2
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.isc.org/isc/inn/
 
