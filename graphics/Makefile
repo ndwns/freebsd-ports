@@ -15,10 +15,10 @@
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
     SUBDIR += mpeg2play
-    SUBDIR += mpegedit
     SUBDIR += mpeg_encode
     SUBDIR += mpeg_play
     SUBDIR += mpeg_stat
+    SUBDIR += mpegedit
     SUBDIR += mplex
     SUBDIR += netpbm
     SUBDIR += p5-Image-Size
