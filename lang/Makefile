@@ -82,6 +82,7 @@
     SUBDIR += scheme48
     SUBDIR += schemetoc
     SUBDIR += scm
+    SUBDIR += shujit
     SUBDIR += siod
     SUBDIR += slib
     SUBDIR += smalltalk
