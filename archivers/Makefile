@@ -13,6 +13,7 @@
     SUBDIR += nulib
     SUBDIR += p5-Compress-Zlib
     SUBDIR += rar
+    SUBDIR += unace
     SUBDIR += unarj
     SUBDIR += unrar
     SUBDIR += unzip
