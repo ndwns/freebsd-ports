@@ -6,6 +6,7 @@
     SUBDIR += buffer
     SUBDIR += chord
     SUBDIR += colorls
+    SUBDIR += ctk
     SUBDIR += git
     SUBDIR += glimpse
     SUBDIR += ical
