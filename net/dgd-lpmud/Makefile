@@ -12,6 +12,7 @@ CATEGORIES+=	net devel games
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/ \
 		ftp://ftp.lysator.liu.se/pub/lpmud/mudlibs/other/
 DISTFILES=	sim-2.4.5.tar.gz 2.4.5.tar.gz
+
 PATCH_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/
 PATCHFILES=	sim-diffs
 
