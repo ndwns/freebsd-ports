@@ -18,6 +18,8 @@ BUILD_DEPENDS=	gm4:${PORTSDIR}/devel/m4
 
 GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
+USE_X_PREFIX=	yes
+
 .include <bsd.port.pre.mk>
 
 .if ${OSVERSION} < 400004
@@ -26,7 +28,6 @@ CC=		egcc
 CXX=		eg++
 .endif
 
-USE_X_PREFIX=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-static=yes \
