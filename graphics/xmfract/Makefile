@@ -7,7 +7,6 @@
 #
 
 DISTNAME=	xmfract_1.4
-#EXTRACT_SUFX=	_1.4.tar.gz
 PKGNAME=	xmfract-1.4
 CATEGORIES+=	graphics
 MASTER_SITES=	ftp://ftp.x.org/contrib/graphics/
