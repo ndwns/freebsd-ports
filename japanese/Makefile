@@ -14,6 +14,7 @@
     SUBDIR += dvi2ps
     SUBDIR += dvi2tty
     SUBDIR += dvipsk
+    SUBDIR += dvipsk-vflib
     SUBDIR += ebw3
     SUBDIR += edict
     SUBDIR += elvis
