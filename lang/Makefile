@@ -98,6 +98,7 @@
     SUBDIR += tclX75
     SUBDIR += tclX80
     SUBDIR += tclplugin
+    SUBDIR += tya
     SUBDIR += xpl
     SUBDIR += yorick
 
