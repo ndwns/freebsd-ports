@@ -19,6 +19,6 @@ do-install:
 	${MKDIR} ${PREFIX}/lib/pib
 	${INSTALL_SCRIPT} ${WRKSRC}/*.tcl ${PREFIX}/lib/pib
 	${INSTALL_DATA} ${WRKSRC}/libTkSteal.so.2* ${PREFIX}/lib/pib
-	ln -fs ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
+	${LN} -fs ${PREFIX}/lib/pib/pib.tcl ${PREFIX}/bin/pib
 
 .include <bsd.port.mk>

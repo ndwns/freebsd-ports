@@ -28,7 +28,7 @@ post-configure:
 	@${ECHO_MSG} "*********************************************************************"
 	@${ECHO_MSG} "* Don't worry about the warning messages above, the port will build *"
 	@${ECHO_MSG} "*********************************************************************"
-	@cd ${WRKSRC}/exports/include/X11/neXtaw; ln -sf ../../../../*.h .
+	@cd ${WRKSRC}/exports/include/X11/neXtaw; ${LN} -sf ../../../../*.h .
 
 post-install:
 .if !defined(NOPORTDOCS)

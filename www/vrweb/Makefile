@@ -22,7 +22,7 @@ USE_X_PREFIX=	yes
 
 do-configure:
 	(cd ${WRKSRC}; \
-	ln -s `which ${GMAKE}` ${WRKSRC}/config/scripts/make; \
+	${LN} -s `which ${GMAKE}` ${WRKSRC}/config/scripts/make; \
 	${WRKSRC}/makeall -r; \
 	${WRKSRC}/makeall -m; )
 

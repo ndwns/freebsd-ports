@@ -23,7 +23,7 @@ post-patch:
 do-install:
 	${MKDIR} ${PREFIX}/lib/bx
 	${INSTALL_PROGRAM} ${WRKSRC}/source/BitchX ${PREFIX}/bin
-	@(ln -sf ${PREFIX}/bin/BitchX ${PREFIX}/bin/bx)
+	@(${LN} -sf ${PREFIX}/bin/BitchX ${PREFIX}/bin/bx)
 	${INSTALL_PROGRAM} ${WRKSRC}/source/scr-bx ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/source/wserv ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/BitchX.help ${PREFIX}/lib/bx

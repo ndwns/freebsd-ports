@@ -36,6 +36,6 @@ do-install:
 	  ${INSTALL_DATA} ${WRKDIR}/lcircle10.tfm \
 				${PREFIX}/share/texmf/fonts/tfm/;\
 	 fi
-	@(cd ${PREFIX}/bin/; ${RM} -f texinfo; ln -s virtex texinfo)
+	@(cd ${PREFIX}/bin/; ${RM} -f texinfo; ${LN} -s virtex texinfo)
 
 .include <bsd.port.mk>

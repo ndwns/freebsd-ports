@@ -23,6 +23,6 @@ WRKSRC=		${WRKDIR}/emu
 MAN1=		emu.1
 
 pre-configure:
-	cd ${WRKSRC}/client ; ln -s ../doc/emu.man .
+	cd ${WRKSRC}/client ; ${LN} -s ../doc/emu.man .
 
 .include <bsd.port.mk>

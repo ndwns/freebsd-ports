@@ -33,11 +33,11 @@ do-install:
 	$(INSTALL_PROGRAM) $(WRKSRC)/upgrade-cache $(PREFIX)/bin
 	$(INSTALL_PROGRAM) $(WRKSRC)/endian-cache $(PREFIX)/bin
 	$(INSTALL_PROGRAM) $(WRKSRC)/wwwoffle-tools $(PREFIX)/bin
-	ln -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-ls
-	ln -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-mv
-	ln -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-rm
-	ln -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-read
-	ln -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-write
+	${LN} -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-ls
+	${LN} -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-mv
+	${LN} -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-rm
+	${LN} -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-read
+	${LN} -sf wwwoffle-tools $(PREFIX)/bin/wwwoffle-write
 	[ -x $(PREFIX)/sbin ] || $(INSTALL) -d $(PREFIX)/sbin
 	$(INSTALL_PROGRAM) $(WRKSRC)/wwwoffled $(PREFIX)/sbin
 	# man pages

@@ -26,7 +26,7 @@ pre-build:
 do-install:
 	@ ${MKDIR} ${PREFIX}/lib/FileRunner/bitmaps
 	@ ${INSTALL_SCRIPT} ${WRKSRC}/fr ${PREFIX}/lib/FileRunner
-	@ ln -sf ${PREFIX}/lib/FileRunner/fr ${PREFIX}/bin
+	@ ${LN} -sf ${PREFIX}/lib/FileRunner/fr ${PREFIX}/bin
 .for file in FAQ HISTORY QuickStart.txt Tips.txt Users_Guide.txt chmod.tcl cmd.tcl config.tcl dialog_about.tcl ext.so font.tcl frcolor frftp ftp.tcl http.tcl tclIndex
 		@ ${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/lib/FileRunner
 .endfor

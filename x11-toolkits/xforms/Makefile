@@ -39,7 +39,7 @@ post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 .if !defined(NOMANCOMPRESS)
 	@${RM} ${PREFIX}/man/man5/forms.5
-	@ln -fs xforms.5.gz ${PREFIX}/man/man5/forms.5.gz
+	@${LN} -fs xforms.5.gz ${PREFIX}/man/man5/forms.5.gz
 .endif
 
 .include <bsd.port.post.mk>

@@ -35,6 +35,6 @@ post-install:
 	(cd ${WRKSRC} ; \
 	 ${INSTALL_DATA} README RELEASE NEWS COPYING ${PREFIX}/lib/scsh/doc)
 	${RM} -f ${PREFIX}/share/doc/scsh
-	ln -fs ${PREFIX}/lib/scsh/doc ${PREFIX}/share/doc/scsh
+	${LN} -fs ${PREFIX}/lib/scsh/doc ${PREFIX}/share/doc/scsh
 
 .include <bsd.port.post.mk>

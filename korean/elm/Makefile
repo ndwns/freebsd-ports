@@ -23,7 +23,7 @@ CONFIGURE_SCRIPT= elm-config
 CONFIGURE_ENV+= PREFIX="${PREFIX}"
 
 post-install:
-	ln -fs ${PREFIX}/man/man1/newmail.1.gz ${PREFIX}/man/man1/wnewmail.1.gz
-	ln -fs ${PREFIX}/man/man1/frm.1.gz ${PREFIX}/man/man1/nfrm.1.gz
+	${LN} -fs ${PREFIX}/man/man1/newmail.1.gz ${PREFIX}/man/man1/wnewmail.1.gz
+	${LN} -fs ${PREFIX}/man/man1/frm.1.gz ${PREFIX}/man/man1/nfrm.1.gz
 
 .include <bsd.port.mk>

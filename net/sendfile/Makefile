@@ -26,6 +26,6 @@ MAN7=		fetchfile.7
 MAN8=		sendfiled.8
 
 post-install:
-	@(cd ${PREFIX}/man/man1; ln -sf utf7encode.1.gz utf7decode.1.gz)
+	@(cd ${PREFIX}/man/man1; ${LN} -sf utf7encode.1.gz utf7decode.1.gz)
 
 .include <bsd.port.mk>

@@ -89,17 +89,17 @@ post-install:
 	@${INSTALL_MAN} ${WRKSRC}/man/${man} ${PREFIX}/man/man${sect}
 .endfor
 .endfor
-	@ln -fs ${PREFIX}/man/man1/cvt2apple.1${GZ} ${PREFIX}/man/man1/cvt2cap.1${GZ}
+	@${LN} -fs ${PREFIX}/man/man1/cvt2apple.1${GZ} ${PREFIX}/man/man1/cvt2cap.1${GZ}
 .for f in atpinger atlooklws
-	@ln -fs ${PREFIX}/man/man1/atlook.1${GZ} ${PREFIX}/man/man1/${f}.1${GZ}
+	@${LN} -fs ${PREFIX}/man/man1/atlook.1${GZ} ${PREFIX}/man/man1/${f}.1${GZ}
 .endfor
 .for f in tlw lwpr isrv iwpr
-	@ln -fs ${PREFIX}/man/man1/atprint.1${GZ} ${PREFIX}/man/man1/${f}.1${GZ}
+	@${LN} -fs ${PREFIX}/man/man1/atprint.1${GZ} ${PREFIX}/man/man1/${f}.1${GZ}
 .endfor
 .for f in libcap libafpc libafp
-	@ln -fs ${PREFIX}/man/man3/CAP.3${GZ} ${PREFIX}/man/man3/${f}.3${GZ}
+	@${LN} -fs ${PREFIX}/man/man3/CAP.3${GZ} ${PREFIX}/man/man3/${f}.3${GZ}
 .endfor
-	@ln -fs ${PREFIX}/man/man8/papif.8${GZ} ${PREFIX}/man/man8/papof.8${GZ}
+	@${LN} -fs ${PREFIX}/man/man8/papif.8${GZ} ${PREFIX}/man/man8/papof.8${GZ}
 	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include "bsd.port.mk"

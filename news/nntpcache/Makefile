@@ -44,7 +44,7 @@ hardlink-pgp-files:
 	for i in ${PREFIX}/etc/nntpcache/*asc-dist ${PREFIX}/etc/nntpcache/*pgp-dist ; do \
 		j=`${ECHO} $$i | sed -e 's/-dist//'`; \
 		if [ \! -f $$j ]; then \
-			ln $$i $$j; \
+			${LN} $$i $$j; \
 		fi; \
 	done
 

@@ -20,7 +20,7 @@ USE_IMAKE=	yes
 
 post-extract:
 	${MKDIR} ${WRKSRC}/X11/Xaw3d
-	cd ${WRKSRC}/X11/Xaw3d; ln -sf ../../*.h .
+	cd ${WRKSRC}/X11/Xaw3d; ${LN} -sf ../../*.h .
 
 # Workaround a bug in egcs on FreeBSD/Alpha.
 .if ${MACHINE_ARCH} == "alpha"

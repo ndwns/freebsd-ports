@@ -23,6 +23,6 @@ MAN8=		fetch.8 applyfilter.8 leafnode.8 texpire.8 checkgroups.8
 MLINKS+=	fetch.8 fetch-news.8
 
 post-install:
-	/bin/ln -sf fetch ${PREFIX}/sbin/fetch-news
+	${LN} -sf fetch ${PREFIX}/sbin/fetch-news
 
 .include <bsd.port.mk>

@@ -29,10 +29,10 @@ do-install:
 	${MKDIR} ${INSTALL_DIR}/lib
 	${INSTALL_DATA} ${OBJDIR}/bin/liblber.so.1.0 \
 						${INSTALL_DIR}/lib/liblber.so.1
-	-(cd ${INSTALL_DIR}/lib; ln -s liblber.so.1 liblber.so)
+	-(cd ${INSTALL_DIR}/lib; ${LN} -s liblber.so.1 liblber.so)
 	${INSTALL_DATA} ${OBJDIR}/bin/libldap.so.1.0 \
 						${INSTALL_DIR}/lib/libldap.so.1
-	-(cd ${INSTALL_DIR}/lib; ln -s libldap.so.1 libldap.so)
+	-(cd ${INSTALL_DIR}/lib; ${LN} -s libldap.so.1 libldap.so)
 	cd ${OBJDIR}/etc && ${TAR} -chf - * | \
 		${TAR} -xf - -C ${INSTALL_DIR}/etc
 	cd ${OBJDIR}/include && ${TAR} -chf - * | \

@@ -22,8 +22,8 @@ INETD_CONF=	/etc/inetd.conf
 CONF=	'	stream	tcp	nowait	nobody	${PREFIX}/libexec/gn	gn'
 
 pre-build:
-	@ln -fs ${WAISDIR}/include ${WRKSRC}/waisgn/ir
-	@ln -fs ${WAISDIR}/bin ${WRKSRC}/waisgn
+	@${LN} -fs ${WAISDIR}/include ${WRKSRC}/waisgn/ir
+	@${LN} -fs ${WAISDIR}/bin ${WRKSRC}/waisgn
 
 pre-install:
 	@${MKDIR} ${WRKSRC}/etc ${WRKSRC}/libexec ${WRKSRC}/gnroot

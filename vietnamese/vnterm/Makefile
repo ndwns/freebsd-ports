@@ -21,8 +21,8 @@ XMKMF=		xmkmf
 CFLAGS+=	-I../../include
 
 post-patch:
-	@/bin/ln ${WRKSRC}/XTerm.ad ${WRKSRC}/VNTerm.ad
-	@/bin/ln ${WRKSRC}/vnterm.1V ${WRKSRC}/vnterm.man
+	@${LN} ${WRKSRC}/XTerm.ad ${WRKSRC}/VNTerm.ad
+	@${LN} ${WRKSRC}/vnterm.1V ${WRKSRC}/vnterm.man
 
 post-install:
 	@${INSTALL_SCRIPT} ${WRKDIR}/VNterm.sh ${PREFIX}/bin/VNterm

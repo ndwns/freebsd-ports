@@ -27,11 +27,11 @@ MAN8=	gopherd.8 gopherindex.8
 
 pre-configure:
 # This ones are for FreeWAIS-0.4 and >
-	ln -s ${WaisTop}/include $(WaisTop)/ir
-	ln -s ${WaisTop}/src/client/ui $(WaisTop)
-	ln -s ${WaisTop}/bin $(WRKSRC)
+	${LN} -s ${WaisTop}/include $(WaisTop)/ir
+	${LN} -s ${WaisTop}/src/client/ui $(WaisTop)
+	${LN} -s ${WaisTop}/bin $(WRKSRC)
 # This is the new configuration method
-	ln -s ${WaisTop} $(WRKSRC)/wais
+	${LN} -s ${WaisTop} $(WRKSRC)/wais
 pre-install:
 	$(MKDIR) $(DATADIR)
 

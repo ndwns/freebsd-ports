@@ -23,7 +23,7 @@ do-install:
 		@ ${CP} ${WRKDIR}/Archie.pm ${WRKDIR}/Archie-1.5.pm
 		@ ${MKDIR} ${PREFIX}/lib/perl5/site_perl
 		@ ${INSTALL_DATA} ${WRKDIR}/Archie-1.5.pm ${PREFIX}/lib/perl5/site_perl/
-		@ ln -sf ${PREFIX}/lib/perl5/site_perl/Archie-1.5.pm ${PREFIX}/lib/perl5/site_perl/Archie.pm
+		@ ${LN} -sf ${PREFIX}/lib/perl5/site_perl/Archie-1.5.pm ${PREFIX}/lib/perl5/site_perl/Archie.pm
 		@ ${INSTALL_DATA} ${WRKDIR}/archie_gateway ${PREFIX}/lib/perl5/site_perl/
 
 .include <bsd.port.mk>

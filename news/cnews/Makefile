@@ -56,7 +56,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/libdbz/dbz.h ${PREFIX}/include
 	${INSTALL_DATA} ${WRKSRC}/libcnews.a ${PREFIX}/lib
 	${MKDIR} ${NEWSSPOOL} ${NEWSBIN} ${NEWSLIB}
-	-ln -s ${NEWSSPOOL} /var/news
+	-${LN} -s ${NEWSSPOOL} /var/news
 	${CHOWN} news.news ${NEWSSPOOL} ${NEWSLIB}
 	${CHOWN} bin.bin ${NEWSBIN}
 	${INSTALL_SCRIPT} ${WRKSRC}/${PGPVERIFY} ${NEWSBIN}/pgpverify
