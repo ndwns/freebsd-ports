@@ -42,6 +42,27 @@ MAN1=		build-prc.1 cccp.1 configure.1 \
 		m68k-palmos-coff-size.1 \
 		m68k-palmos-coff-strings.1 \
 		m68k-palmos-coff-strip.1
+STRIP=		build-prc \
+		m68k-palmos-coff-ar \
+		m68k-palmos-coff-as \
+		m68k-palmos-coff-c++filt \
+		m68k-palmos-coff-exportlist \
+		m68k-palmos-coff-gasp \
+		m68k-palmos-coff-gcc \
+		m68k-palmos-coff-gdb \
+		m68k-palmos-coff-ld \
+		m68k-palmos-coff-nm \
+		m68k-palmos-coff-obj-res \
+		m68k-palmos-coff-objcopy \
+		m68k-palmos-coff-objdump \
+		m68k-palmos-coff-ranlib \
+		m68k-palmos-coff-size \
+		m68k-palmos-coff-strings \
+		m68k-palmos-coff-strip \
+		m68k-palmos-coff-stubgen \
+		pilrc \
+		txt2bitm
+
 
 # after we apply freebsd patches, apply prc-tool's patches to gcc/gdb/...
 post-patch:
@@ -50,5 +71,6 @@ post-patch:
 # the info files are redundant
 post-install:
 		${RM} -rf ${PREFIX}/info
+		(cd ${PREFIX}/bin; strip ${STRIP})
 
 .include <bsd.port.mk>
