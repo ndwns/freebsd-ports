@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DATE=		980927
+DATE=		981211
 DISTNAME=	Wine-${DATE}
-PKGNAME=	wine-98.09.27
+PKGNAME=	wine-98.12.11
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	ALPHA/wine/development
@@ -20,10 +20,6 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 WRKSRC=		${WRKDIR}/wine-${DATE}
 GNU_CONFIGURE=	yes
 MAN1=		wine.1
-
-post-extract:
-	-${MKDIR} ${WRKSRC}/include/asm
-	${CP} ${FILESDIR}/bitops.h ${WRKSRC}/include/asm/bitops.h
 
 pre-configure:
 	@${ECHO} "WINE_INI_GLOBAL \"${PREFIX}/etc/wine.conf\"" \
