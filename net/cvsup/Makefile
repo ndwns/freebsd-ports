@@ -1,12 +1,12 @@
 # New ports collection makefile for:	cvsup
-# Version required:	13.2
+# Version required:	13.3
 # Date created:		7 August 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	cvsup-13.2
+DISTNAME=	cvsup-13.3
 CATEGORIES+=	net
 MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
 
