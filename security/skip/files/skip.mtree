@@ -8,7 +8,7 @@
     ..
     lib
     ..
-    lkm
+    modules
     ..
     etc
         rc.d
