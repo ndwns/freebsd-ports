@@ -15,7 +15,8 @@ DISTFILES=	a2ps.V4.3.tar.gz
 MAINTAINER=	obrien@FreeBSD.org
 
 NO_LATEST_LINK=	yes
-MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to Letter A4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	letter a4
 MAKE_FLAGS?=	WIDTH=${WIDTH} HEIGHT=${HEIGHT} A4_PAPERSIZE=${A4_PAPERSIZE} -f
 NO_WRKSUBDIR=	yes
 MAN1=		a2ps.1
@@ -33,12 +34,16 @@ a4-install::
 	${MAKE} PAPERSIZE=a4 install
 
 
-.if !defined(PAPERSIZE) || ${PAPERSIZE} == letter || ${PAPERSIZE} == LETTER || ${PAPERSIZE} == Letter
+.if !defined(PAPERSIZE)
+PAPERSIZE_UNSPECIFIED=	yes
+PAPERSIZE=letter
+.endif
+
+.if ${PAPERSIZE} == letter || ${PAPERSIZE} == LETTER || ${PAPERSIZE} == Letter
 PAPERSIZE=letter
 WIDTH=8.5
 HEIGHT=11.0
 A4_PAPERSIZE=0
-PAPERSIZE_UNSPECIFIED=	yes
 .elif ${PAPERSIZE} == A4 || ${PAPERSIZE} == a4 
 PAPERSIZE=a4
 WIDTH=8.27
@@ -46,7 +51,7 @@ HEIGHT=11.64
 A4_PAPERSIZE=1
 .else
 PAPERSIZE_INVALID= yes
-.endif	# not defined PAPERSIZE
+.endif
 
 
 pre-fetch:

@@ -13,7 +13,8 @@ MASTER_SITES=	ftp://ftp.dcs.ed.ac.uk/pub/ajcd/
 
 MAINTAINER=	jmz@FreeBSD.org
 
-MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	letter a4
 WRKSRC=		${WRKDIR}/psutils
 MAKE_FLAGS?=	PAPER=${PAPERSIZE} -f
 MAN1=		psbook.1 psselect.1 pstops.1 epsffit.1 psnup.1 psresize.1 \

@@ -8,13 +8,15 @@
 #
 
 DISTNAME=	lprps-2.5
+PKGNAME=	lprps-${PAPERSIZE}-2.5
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.jclark.com/pub/lprps/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
-MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	letter a4
 MAKE_FLAGS?=	PAPERSIZE=${PAPERSIZE} -f
 MAN1=		psrev.1 textps.1
 MAN8=		lprps.8 psif.8 psof.8

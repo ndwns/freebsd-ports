@@ -15,7 +15,8 @@ MASTER_SITES=	ftp://ftp.univ-evry.fr/.04/system/OpenBSD/distfiles/pkfonts/ \
 DISTFILES=	pk${RESOLUTION}.tar.gz
 # see below for RESOLUTION definition
 
-MANUAL_PACKAGE_BUILD=	RESOLUTION has to be set to 118 240 300 360 400 600
+LOOP_VAR=	RESOLUTION
+LOOP_OPTIONS=	118 240 300 360 400 600
 DIST_SUBDIR=	pkfonts
 EXTRACT_CMD=	/usr/bin/true # extracted directly in install target
 NO_BUILD=	yes

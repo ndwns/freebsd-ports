@@ -13,7 +13,8 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 
 MAINTAINER=	kline@thought.org
 
-MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to Letter A4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	A4 Letter Letterdj
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--disable-nls --with-media=${PAPERSIZE}

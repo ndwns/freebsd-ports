@@ -13,7 +13,8 @@ MASTER_SITES=	http://www.cs.technion.ac.il/users/c2ps/
 
 MAINTAINER=	mph@freebsd.org
 
-MANUAL_PACKAGE_BUILD=  PAPERSIZE has to be set to Letter A4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	letter a4
 MAN1=		c2ps.1
 MAKE_ENV=	DEFAULT_PAPER_TYPE=${PAPERSIZE}
 

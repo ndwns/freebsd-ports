@@ -14,7 +14,8 @@ MASTER_SITES=	ftp://ftp.NUXI.com/pub/misc/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
-MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
+LOOP_VAR=	PAPERSIZE
+LOOP_OPTIONS=	letter a4
 WRKSRC=		${WRKDIR}/mp
 MAN1=		mp.1
 MLINKS=		mp.1 digestp.1	- filep.1	- filofaxp.1 \
