@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       libpng-1.0.2
-PKGNAME=        png-1.0.2
+DISTNAME=       libpng-1.0.3
+PKGNAME=        png-1.0.3
 CATEGORIES=     graphics
 MASTER_SITES=   ftp://ftp.uu.net/graphics/png/src/
 
