@@ -14,4 +14,7 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+MANLANG=	ja_JP.EUC
+MAN1=		lha.1
+
 .include <bsd.port.mk>
