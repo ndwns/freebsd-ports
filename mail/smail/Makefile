@@ -18,6 +18,9 @@ DEPENDS=	${PORTSDIR}/shells/bash
 
 MAKE_FLAGS=	"SHELL=/usr/local/bin/bash"
 
+pre-install:
+	mkdir -p ${PREFIX}/lib/smail
+
 post-install:
 	@cp ${WRKSRC}/samples/generic/config ${PREFIX}/lib/smail/config.sample
 	@cp ${WRKSRC}/samples/generic/directors ${PREFIX}/lib/smail/directors.sample
