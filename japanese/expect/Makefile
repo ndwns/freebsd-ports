@@ -14,15 +14,12 @@ MAINTAINER=	taguchi@tohoku.iij.ad.jp
 LIB_DEPENDS=	tk42jp\\.1\\.:${PORTSDIR}/japanese/tk42
 
 FILESDIR=	${.CURDIR}/../../lang/expect/files
-
-NO_MAN_INSTALL=	yes
-.include "${.CURDIR}/../../lang/expect/Makefile"
-
-CFLAGS+=	-DKANJI -DKINPUT2
+CFLAGS=		-DKANJI -DKINPUT2
 CONFIGURE_ARGS=	--enable-shared --with-tclconfig=${PREFIX}/lib/tcl7.6jp \
 		--with-tkconfig=${PREFIX}/lib/tk4.2jp \
 		--with-tclinclude=${PREFIX}/include/tcl7.6jp \
 		--with-tkinclude=${PREFIX}/include/tk4.2jp
 
-test:
-	@(cd ${WRKSRC}; make test)
+NO_MAN_INSTALL=	yes
+
+.include "${.CURDIR}/../../lang/expect/Makefile"
