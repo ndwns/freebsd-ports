@@ -18,6 +18,9 @@ MAINTAINER=	kiri@kiri.toba-cmt.ac.jp
 RUN_DEPENDS=	${PREFIX}/bin/groff:${PORTSDIR}/japanese/groff \
 		jless:${PORTSDIR}/japanese/less
 
+MANLANG=	ja_JP.EUC
+MAN1=		jcatman.1 jman.1 jmanpath.1 japropos.1 jwhatis.1 jmakewhatis.1
+MANCOMPRESSED=	yes
 JMANELDIR=	${PREFIX}/lib/mule/site-lisp/jman
 
 # XPG4LIBPATH specifies the path name of the xpg4 library.
