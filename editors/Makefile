@@ -42,7 +42,6 @@
     SUBDIR += uzap
     SUBDIR += vile
     SUBDIR += vilearn
-    SUBDIR += vim4
     SUBDIR += vim5
     SUBDIR += wemi-emacs20
     SUBDIR += wemi-emacs20-current
