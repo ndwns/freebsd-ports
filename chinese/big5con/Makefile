@@ -15,7 +15,14 @@ CATEGORIES=	chinese
 # fonts are only in the other two directories
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/ \
 		ftp://nctuccca.edu.tw/Chinese/ifcss/software/fonts/misc/bdf/ \
-		ftp://nctuccca.edu.tw/Chinese/ifcss/software/fonts/big5/bdf/
+		ftp://nctuccca.edu.tw/Chinese/ifcss/software/fonts/big5/bdf/ \
+		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/fonts/misc/bdf/ \
+		ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/fonts/big5/bdf/ \
+		ftp://ftp.edu.tw/Chinese/ifcss/software/fonts/misc/bdf/ \
+		ftp://ftp.edu.tw/Chinese/ifcss/software/fonts/big5/bdf/ \
+		ftp://ftp.mpi-sb.mpg.de/pub/chinese/mirror/ftp.ifcss.org/software/fonts/misc/bdf/ \
+		ftp://ftp.mpi-sb.mpg.de/pub/chinese/mirror/ftp.ifcss.org/software/fonts/big5/bdf/
+
 DISTFILES=	kon-0.99.4e.tgz 8x16.bdf.gz taipei16.bdf.gz
 
 MAINTAINER=	hcchu@r350.ee.ntu.edu.tw
