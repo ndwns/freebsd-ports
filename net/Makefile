@@ -4,6 +4,6 @@
 # tcpblast temporarily removed
 #
 SUBDIR= archie cern_httpd chimera dgd fspclient gn irc ircII lynx ncftp2 \
-	pidentd pcnfsd pmf sup tintin++ wu-ftpd tcp_wrapper
+	pcnfsd pidentd pmf sup tcp_wrapper tintin++ wais wu-ftpd yale-tftpd
 
 .include <bsd.port.subdir.mk>
