@@ -9,6 +9,7 @@
 DISTNAME=       Mesa-1.1.2beta
 MASTER_SITES=   ftp://iris.ssec.wisc.edu/pub/misc/
 WRKSRC=		${WRKDIR}/Mesa
+USE_GMAKE=
 ALL_TARGET=	freebsd
 # won't install until I convert the Makefiles to Imakefiles
 NO_INSTALL=	yes
