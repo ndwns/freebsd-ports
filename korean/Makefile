@@ -7,6 +7,7 @@
     SUBDIR += fvwm95
     SUBDIR += h2ps
     SUBDIR += han
+    SUBDIR += hanemacs
     SUBDIR += hanmutt
     SUBDIR += hanterm
     SUBDIR += hanterm-xf86
