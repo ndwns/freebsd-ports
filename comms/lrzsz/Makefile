@@ -6,7 +6,7 @@
 #
 # $Id$
 
-DISTNAME=	lrzsz-0.12.14
+DISTNAME=	lrzsz-0.12.16
 CATEGORIES=	comms
 MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/
 
