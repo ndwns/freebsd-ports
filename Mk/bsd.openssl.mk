@@ -51,7 +51,7 @@ WITH_OPENSSL_PORT=yes
 	exists(/usr/include/openssl/opensslv.h)
 #	Security: version in base must be 0.9.7d or have fixes
 #	http://www.freebsd.org/cgi/cvsweb.cgi/src/crypto/openssl/crypto/opensslv.h
-OPENSSLVER!=	${AWK} '/OPENSSL_VERSION_TEXT/ { print $$4; exit }' \
+OPENSSLVER!=	${AWK} '/OPENSSL_VERSION_TEXT/ { sub(/-fips/, ""); print $$4; exit }' \
 		/usr/include/openssl/opensslv.h
 # check for safe versions in the base
 .if ${OPENSSLVER} != "0.9.7a-p1" && ${OPENSSLVER} != "0.9.7c-p1" && ${OPENSSLVER} != "0.9.7d" && ${OPENSSLVER} != "0.9.7e"
