@@ -16,6 +16,10 @@ MAINTAINER= 	cracauer@cons.org
 
 .include <bsd.port.pre.mk>
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		bus errors on unaligned accesses in scshvm
+.endif
+
 GNU_CONFIGURE=	yes
 
 .if $(PORTOBJFORMAT) == elf
