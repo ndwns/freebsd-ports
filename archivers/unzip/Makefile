@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/unzip-5.32
 MAKEFILE=       unix/Makefile
 ALL_TARGET=     freebsd
 MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS} -DUSE_UNSHRINK" -f
