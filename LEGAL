@@ -24,3 +24,4 @@ tkman-1.6.tar.Z		ports/x11/tkman		Restrictive copyright
 xrisk-2.13.tar.Z	ports/games/xrisk	Copyright/trademark violation?
 xtetris-2.5.2.tar.gz	ports/games/xtetris	Possible trademark violation
 zsh-2.6-*		ports/shells/zsh	Restrictive copyright
+mmv/*			ports/utils/mmv		Restrictive/unclear copyright
