@@ -8,7 +8,7 @@
 
 DISTNAME=	samba-1.9.17p4
 PKGNAME=	ja-samba-1.9.17.4
-CATEGORIES=	japanese net
+CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
 
 MAINTAINER=	hosokawa@jp.FreeBSD.ORG
