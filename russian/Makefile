@@ -10,5 +10,6 @@
     SUBDIR += pgp.language
     SUBDIR += pine.language
     SUBDIR += rispell
+    SUBDIR += xruskb
 
 .include <bsd.port.subdir.mk>
