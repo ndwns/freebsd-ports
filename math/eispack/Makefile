@@ -17,7 +17,7 @@ DIST_SUBDIR=	${DISTNAME}
 
 LIB_DEPENDS=	blas.1:${PORTSDIR}/math/blas
 
-EXTRACT_CMD=	${SCRIPTDIR}/uncomp
+EXTRACT_CMD=	${SH} ${SCRIPTDIR}/uncomp
 EXTRACT_SUFX=	.gz
 EXTRACT_ARGS=	${WRKDIR}
 
@@ -40,9 +40,6 @@ DISTFILES=	${SRCS:.f=.f.gz}
 
 pre-build:
 	cp Makefile.lib ${WRKDIR}/Makefile
-
-pre-extract:
-	chmod +x ${SCRIPTDIR}/uncomp
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
