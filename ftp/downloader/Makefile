@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nt-0.98
-PKGNAME=	download-0.98
+PKGNAME=	downloader-0.98
 CATEGORIES=	net
 MASTER_SITES=	http://www.krasu.ru/soft/chuchelo/ \
 		ftp://linux.ru.net/pub/chuchelo/
