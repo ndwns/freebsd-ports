@@ -1,3 +1,4 @@
+@comment $FreeBSD$
 bin/crescendo
 share/gnome/crescendo/cr-about.jpg
 share/gnome/crescendo/cr-splash1.jpg
