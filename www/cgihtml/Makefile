@@ -8,7 +8,7 @@
 
 DISTNAME=	cgihtml-1.69
 CATEGORIES=	devel www
-MASTER_SITES=	ftp://ftp.eekim.com/users/eekim/cgihtml/
+MASTER_SITES=	ftp://ftp.eekim.com/pub/users/eekim/cgihtml/
 
 MAINTAINER=	i.vaudrey@bigfoot.com
 
@@ -24,5 +24,6 @@ post-install:
 .endfor
 	${INSTALL_DATA} ${WRKSRC}/docs/*.html ${PREFIX}/share/doc/cgihtml/html
 .endif
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
