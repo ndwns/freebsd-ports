@@ -10,7 +10,7 @@ DISTNAME=	XaoS-3.0
 PKGNAME=	xaos-3.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
-		ftp://ftp.ta.jcu.cz/pub/linux/hubicka/XaoS/2.2/ \
+		ftp://ftp.ta.jcu.cz/pub/linux/hubicka/XaoS/3.0/ \
 		http://www.paru.cas.cz/~hubicka/XaoS/dist/
 MASTER_SITE_SUBDIR=	graphics
 
