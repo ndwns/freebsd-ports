@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Mosaic         # requires Motif
+    SUBDIR += WebMagick
     SUBDIR += analog
     SUBDIR += apache
     SUBDIR += apache-current
