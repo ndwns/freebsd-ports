@@ -6,18 +6,17 @@
 # $Id$
 #
 
-DISTNAME=	smurflog-1.0
+DISTNAME=	smurflog-2.1
 CATEGORIES=	net security
-MASTER_SITES=	http://www.sy.net/security/
+MASTER_SITES=	http://www.sy.net/security/ \
+		http://www.bitchx.com/~humble/files/
 
 MAINTAINER=	nectar@FreeBSD.ORG
 
-WRKSRC=		${WRKDIR}/SmurfLog-1.0
+GNU_CONFIGURE=	YES
 
-pre-build:
-	${CP} ${FILESDIR}/Makefile ${WRKSRC}
-
-post-install:
+do-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/README.smurflog
+	${INSTALL_PROGRAM} ${WRKSRC}/smurflog ${PREFIX}/bin/smurflog
 
 .include <bsd.port.mk>
