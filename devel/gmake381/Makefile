@@ -18,5 +18,9 @@ MAN1=		gmake.1
 post-install:
 	/bin/chmod g-s ${PREFIX}/bin/gmake
 	/usr/bin/chgrp ${BINGRP} ${PREFIX}/bin/gmake
+	if [ ! -f ${PREFIX}/info/dir ]; then \
+	  sed -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	 fi
+	install-info ${PREFIX}/info/make.info ${PREFIX}/info/dir
 
 .include <bsd.port.mk>
