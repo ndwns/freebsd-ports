@@ -9,8 +9,8 @@
     SUBDIR += cdd
     SUBDIR += cddbd
     SUBDIR += cdplay
-    SUBDIR += dap
     SUBDIR += dagrab
+    SUBDIR += dap
     SUBDIR += esound
     SUBDIR += gmod
     SUBDIR += gnomeaudio
@@ -35,6 +35,7 @@
     SUBDIR += playmidi
     SUBDIR += radio
     SUBDIR += replay
+    SUBDIR += rio
     SUBDIR += rosegarden
     SUBDIR += rplay
     SUBDIR += rsynth
