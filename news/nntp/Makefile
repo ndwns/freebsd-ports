@@ -7,10 +7,9 @@
 #
 
 DISTNAME=	nntp-t5
-MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
+PKGNAME=	nntp-1.5.11.4
 CATEGORIES+=	news
-#DO_NADA=	echo ${.TARGET}:
-#DEPENDS=	news/cnews
+MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 
 pre-patch:
 	@cp ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h

@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	inn1.4sec
-NO_WRKSUBDIR=	YES
-MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
+PKGNAME=	inn-1.4
 CATEGORIES+=	news
+MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
 EXTRACT_SUFX=	.tar.Z
+
+NO_WRKSUBDIR=	YES
 
 pre-install:
 	mkdir -p ${PREFIX}/etc
