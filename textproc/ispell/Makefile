@@ -13,6 +13,9 @@ CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.cs.ucla.edu/pub/ispell-3.1/
 DISTFILES=	ispell-3.1.20.tar.gz
 
+PATCH_SITES=    ftp://ftp.kiarchive.ru/pub/unix/text/ispell/
+PATCHFILES=     ispell-html-mode.patch
+
 MAINTAINER=	jmz@FreeBSD.org
 
 MAKE_FLAGS=	TMPDIR=${.CURDIR} -f 
