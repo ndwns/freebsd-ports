@@ -13,20 +13,16 @@ MASTER_SITE_SUBDIR=	sources/libgtop
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
+LIB_DEPENDS=	gnome.2:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
 
-# implicit dependencies:
-# gettext, glib12
+GLIB_CONFIG?=	${LOCALBASE}/bin/glib12-config
 
 USE_PERL5=	yes
 USE_GMAKE=	yes
-GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
-		GLIB_CONFIG="${LOCALBASE}/bin/glib12-config" \
-		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib -lxpg4"
-
-post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+USE_LIBTOOL=	yes
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
+		GLIB_CONFIG="${GLIB_CONFIG}" \
+		LIBS="-L${LOCALBASE}/lib"
 
 .include <bsd.port.mk>
