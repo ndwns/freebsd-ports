@@ -50,14 +50,10 @@ DISTNAME=       pgp262s
 PKGNAME=	pgp-2.6.2
 MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/pgp/unix/ \
 		ftp://sable.ox.ac.uk/pub/crypto/pgp/unix/
-EXTRACT_SUFX=   .zip
 WRKSRC=         ${WRKDIR}/src
 BUILD_DEPENDS+= gmake:${PORTSDIR}/devel/gmake
-BUILD_DEPENDS+= unzip:${PORTSDIR}/archivers/unzip
 LIB_DEPENDS+=   rsaref.2:${PORTSDIR}/security/rsaref
-EXTRACT_CMD=    unzip
-EXTRACT_BEFORE_ARGS=	-q
-EXTRACT_AFTER_ARGS=	# empty
+USE_ZIP=	yes
 FILESDIR=       ${.CURDIR}/files.usa
 PATCHDIR=       ${.CURDIR}/patches.usa
 
