@@ -21,8 +21,9 @@ MAKEFILE=		makefile
 WRKSRC=			${WRKDIR}
 
 do-install:
+	${MKDIR} ${PREFIX}/lib/python1.5/site-packages
 	${INSTALL_DATA} ${WRKSRC}/kjbucketsmodule.so                   \
-		${PREFIX}/lib/python1.5/site-packages
+		${PREFIX}/lib/python1.5/site-packages/
 .if !defined(NOPORTDOCS)
 	${INSTALL_DATA} ${WRKSRC}/kjbuckets.html ${PREFIX}/share/doc/
 .endif
