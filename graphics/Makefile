@@ -15,6 +15,7 @@
     SUBDIR += electriceyes
     SUBDIR += fbm
     SUBDIR += fli2gif
+    SUBDIR += fly
     SUBDIR += fnlib
     SUBDIR += fxtv
     SUBDIR += g2
