@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Canna
+    SUBDIR += FAQ
     SUBDIR += Wnn
     SUBDIR += Wnn6
     SUBDIR += Wnn6-lib
