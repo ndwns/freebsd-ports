@@ -13,6 +13,8 @@ EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	imp@freebsd.org
 
+BROKEN=	'socks5-v1.0r7 is not available at NEC's website.  Latest is v1.0r8'
+
 NO_CDROM=	"NEC has a funky license for this software"
 RESTRICTED=	"no commercial use"
 
