@@ -17,6 +17,10 @@ MASTER_SITES=	ftp://ftp.postgresql.org/pub/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		doesn\'t build on the alpha yet
+.endif
+
 Y2K=		http://www.postgresql.org/y2k.html
 
 # if you want to use the tcl/tk frontend pgaccess, then you need to build
