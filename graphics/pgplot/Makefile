@@ -24,6 +24,14 @@ VERSION=	5
 VERSION=	5.2
 .endif
 
+.if ${OSVERSION} < 400004
+FC=	./xf77
+.else
+FC=	f77
+.endif
+
+MAKE_ENV+=	FC=${FC}
+
 post-install:
 .for f in libcpgplot.so libpgplot.so
 	${LN} -sf $f.${VERSION} ${PREFIX}/lib/$f
