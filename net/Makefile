@@ -46,7 +46,7 @@
     SUBDIR += dnsutl
     SUBDIR += echoping
     SUBDIR += epic4
-#    SUBDIR += etherboot
+    SUBDIR += etherboot
     SUBDIR += ethereal
     SUBDIR += ezbounce
     SUBDIR += fping
