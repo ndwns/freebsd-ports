@@ -8,7 +8,7 @@
 
 DISTNAME=	pcb-1.6.3
 CATEGORIES=	cad
-MASTER_SITES=	ftp://ftp.linuxppc.org/users/harry/PCB/
+MASTER_SITES=	ftp://ftp.linuxppc.org/pub/linuxppc/users/harry/PCB/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jseger@FreeBSD.org
