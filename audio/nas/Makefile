@@ -13,5 +13,7 @@ MASTER_SITES=	ftp://ftp.x.org/contrib/audio/nas/
 
 USE_IMAKE=	yes
 ALL_TARGET=	World
+# no need to "xmkmf -a" and create the Makefiles twice -- see above
+XMKMF=		xmkmf
 
 .include <bsd.port.mk>
