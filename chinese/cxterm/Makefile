@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cxterm5.0.p3
+DISTNAME=	cn-cxterm5.0.p3
 PKGNAME=	${DISTNAME:S/cxterm/cxterm-/:S/p//}
 CATEGORIES+=	chinese x11
 MASTER_SITES=	ftp://ftp.cs.purdue.edu/pub/ygz/  \
