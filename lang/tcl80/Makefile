@@ -9,7 +9,7 @@
 DISTNAME=	tcl8.0p2
 PKGNAME=	tcl-8.0.2
 CATEGORIES=	lang tcl80
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 MAINTAINER=	jkh@freebsd.org
 

@@ -9,7 +9,7 @@
 DISTNAME=	tcl7.6p2
 PKGNAME=	ja-tcl-7.6
 CATEGORIES=	japanese lang
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/ 
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl7_6/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/lang/tcl/jp/
 PATCHFILES=	tcl7.6jp-patch.gz

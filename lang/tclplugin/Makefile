@@ -9,7 +9,7 @@
 DISTNAME=	tclplug20-src
 PKGNAME=	tclplugin-2.0
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/plugin/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/plugin/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 

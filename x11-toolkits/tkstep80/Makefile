@@ -9,7 +9,7 @@
 DISTNAME=	tk8.0p2
 PKGNAME=	tkstep-8.0p2
 CATEGORIES=	x11 tk80
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 PATCH_SITES=	http://rhein-zeitung.de/~ograf/files/ \
 		http://www.uni-koblenz.de/~ograf/files/

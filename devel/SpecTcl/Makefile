@@ -9,7 +9,7 @@
 DISTNAME=	SpecTcl1.1
 PKGNAME=	SpecTcl-1.1
 CATEGORIES=	devel tk80
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/SpecTcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/guitools/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 

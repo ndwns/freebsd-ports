@@ -9,7 +9,7 @@
 DISTNAME=	tk8.0p2
 PKGNAME=	ja-tk-8.0.2
 CATEGORIES=	japanese x11 tk80
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_0/
 
 PATCH_SITES=	ftp://ftp.sra.co.jp/pub/lang/tcl/jp/
 PATCHFILES=	tk8.0p2jp_beta3-patch.gz
