@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.cs.arizona.edu/icon/packages/unix/
 
 MAINTAINER=	ports@freebsd.org
 
+DIST_SUBDIR=	icon
 NO_WRKSUBDIR=	true
 ALL_TARGET=	Icon Icon-iconc
 
