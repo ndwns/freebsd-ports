@@ -1,13 +1,13 @@
 # New ports collection makefile for:    workman
-# Version required:     1.3
+# Version required:     1.3a
 # Date created:         25 Now 1995
 # Whom:                 Donald Burr <d_burr@ix.netcom.com>
 #
 # $Id$
 #
 
-DISTNAME=       WorkMan-1.3
-PKGNAME=	workman-1.3
+DISTNAME=       WorkMan-1.3a
+PKGNAME=	workman-1.3a
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/WorkMan
