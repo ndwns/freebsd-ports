@@ -10,7 +10,7 @@
 DISTNAME=       rarlnx25
 PKGNAME=        linux-rar-2.50
 CATEGORIES=	archivers
-MASTER_SITES=	ftp://ftp.rarsoft.com/pub/rar/ \
+MASTER_SITES=	ftp://rarsoft.ti.sk/pub/rar/ \
 		ftp://ftp.cdrom.com/pub/cheats/dlh/rar/
 EXTRACT_SUFX=   .sfx
 
