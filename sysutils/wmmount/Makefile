@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	wmmount
+DISTNAME=	wmmount-1.0-beta1
 PKGNAME=	wmmount-1.0b1
 CATEGORIES=	sysutils windowmaker afterstep
-MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/
+MASTER_SITES=	http://www.geocities.com/SiliconValley/Vista/2471/files/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ozz@FreeBSD.org.ru
