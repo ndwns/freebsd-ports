@@ -7,6 +7,7 @@
     SUBDIR += bsvc
     SUBDIR += cpmemu
     SUBDIR += cpmtools
+    SUBDIR += dlx
     SUBDIR += fmsx
     SUBDIR += frodo
     SUBDIR += hfs
