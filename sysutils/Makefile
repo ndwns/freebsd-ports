@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += manck
     SUBDIR += top
     SUBDIR += tua
     SUBDIR += xbatt
