@@ -8,7 +8,7 @@
 
 DISTNAME=	xprompt-1.4
 CATEGORIES=	x11
-MASTER_SITES=   ftp://ftp.nsg.bc.ca/pub/nsg/src/xprompt/
+MASTER_SITES=   http://www.freebsd.org/~mph/distfiles/
 
 MAINTAINER=	mph@freebsd.org
 
