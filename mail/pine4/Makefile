@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	pine3.90
+DISTNAME=	pine3.91
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 EXTRACT_SUFX=.tar.Z
 
