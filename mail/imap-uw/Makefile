@@ -1,16 +1,15 @@
 # New ports collection makefile for:	imap-uw
-# Version required:	4.1beta
+# Version required:	4.2
 # Date created:		9 Jan 1997
 # Whom:			pst
 #
 # $Id$
 #
 
-DISTNAME=	imap-4.1.FINAL
-PKGNAME=	imap-uw-4.1
+DISTNAME=	imap-4.2
+PKGNAME=	imap-uw-4.2
 CATEGORIES=	mail
-MASTER_SITES=	http://www.freebsd.org/~steve/ \
-		ftp://ftp.cac.washington.edu/imap/
+MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
