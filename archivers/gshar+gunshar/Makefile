@@ -15,4 +15,9 @@ GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --program-prefix=g --disable-uucode --prefix=${PREFIX}
 INSTALL_TARGET= install install-man
 
+post-patch:
+	@touch ${WRKSRC}/stamp-cod
+	@touch ${WRKSRC}/sharutils.cod
+	@touch ${WRKSRC}/locale.c
+
 .include <bsd.port.mk>
