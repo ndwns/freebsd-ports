@@ -10,7 +10,7 @@
 
 # Pick an initial default, else it doesn't get set in the INDEX.
 DISTNAME=	pgp262s
-CATEGORIES+=	security
+CATEGORIES=	security
 
 MAINTAINER=	ache@FreeBSD.ORG
 

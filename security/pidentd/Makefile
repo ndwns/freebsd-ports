@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       pidentd-2.7.2
-CATEGORIES+=	security net
+CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ \
 		ftp://ftp.fu-berlin.de/unix/security/ident/servers/
 
@@ -15,6 +15,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 ALL_TARGET=     freebsd
 MAKE_ENV=	REALPREFIX=${PREFIX}
+MAN8=		identd.8 idecrypt.8
 
 # Uncomment to activate the use of verifiable "cookies".  The idea is to be
 # able to detect fake "logs" intended to get your innocent users in trouble.
@@ -25,12 +26,6 @@ USE_DES=	true
 ADD_GDEFS=	-DINCLUDE_CRYPT
 ADD_GLIBS=	-ldes
 MAKE_ENV+=	ADD_GDEFS="${ADD_GDEFS}" ADD_GLIBS="${ADD_GLIBS}"
-.endif
-
-.if !defined(NOMANCOMPRESS)
-post-install:
-	gzip -9nf ${PREFIX}/man/man8/identd.8
-	gzip -9nf ${PREFIX}/man/man8/idecrypt.8
 .endif
 
 .include <bsd.port.mk>

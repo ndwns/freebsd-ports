@@ -8,7 +8,7 @@
 
 DISTNAME=	vfrb101e
 PKGNAME=	vscan-1.0.2
-CATEGORIES+=	security
+CATEGORIES=	security
 MASTER_SITES=   ftp://ftp.mcafee.com/pub/antivirus/english/unix/freebsd/
 EXTRACT_SUFX=	.taz
 
@@ -18,6 +18,7 @@ NO_WRKSUBDIR=	yes
 RESTRICTED=	"Commercial software."
 
 LIBDIR=	${PREFIX}/lib/mcafee
+MAN1=	uvscan.1
 
 pre-fetch:
 .if defined(PREFIX) && ${PREFIX} != "/usr/local"
@@ -39,11 +40,6 @@ post-install:
 	@/usr/sbin/chown ${BINOWN}.${BINGRP} ${PREFIX}/bin/uvscan
 	@/usr/sbin/chown -R ${SHAREOWN}.${SHAREGRP} ${LIBDIR}
 	@/usr/sbin/chown ${MANOWN}.${MANGRP} ${PREFIX}/man/man1/uvscan.1	
-.if !defined(NOMANCOMPRESS)
-.for mp in uvscan
-	gzip -9nf ${PREFIX}/man/man1/${mp}.1
-.endfor
-.endif
 .if !defined(NOPORTDOCS)
 	${MKDIR} -p ${PREFIX}/share/doc/vscan
 	${INSTALL_DATA} ${WRKSRC}/Whatsnew.txt ${PREFIX}/share/doc/vscan

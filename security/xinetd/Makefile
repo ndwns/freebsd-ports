@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	xinetd.2.1.7.4
-CATEGORIES+=	security
+CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.telebase.com/pub/security/
 DISTFILES=	xinetd.2.1.7-freebsd.4.tar.gz
 
-WRKSRC=		${WRKDIR}/xinetd.2.1.7-freebsd.4
-
 MAINTAINER=	markm@FreeBSD.ORG
+
+WRKSRC=		${WRKDIR}/xinetd.2.1.7-freebsd.4
 
 do-build:
 	cd ${WRKSRC} ; ./compile-src -os freebsd2 -sf has_SB

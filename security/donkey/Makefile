@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	donkey-0.5
-CATEGORIES+=	security
+CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.aist-nara.ac.jp/pub/Security/tool/donkey/
 
 MAINTAINER=	max@FreeBSD.ORG
