@@ -36,7 +36,9 @@ EGCS_REV=	gcc-2.95
 LIBSTDCPP_REV=	4
 
 .if ${PORTOBJFORMAT} == "elf"
+.if ${MACHINE_ARCH} == "i386"
 PLIST=		${WRKDIR}/PLIST
+.endif
 CONFIGURE_TARGET=	${ARCH}-portbld-freebsd${OSREL}
 .else
 CONFIGURE_TARGET=	${ARCH}-portbld-freebsdaout${OSREL}
