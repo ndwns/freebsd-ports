@@ -9,7 +9,7 @@
 DISTNAME=	pstoedit.2.60p1
 PKGNAME=	pstoedit-2.60p1
 CATEGORIES=	graphics print
-MASTER_SITES=	ftp://ftp.denic.net/pub1/dist/
+MASTER_SITES=	http://www.geocities.com/SiliconValley/Network/1958/pstoedit/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ports@FreeBSD.ORG
