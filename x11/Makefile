@@ -58,6 +58,7 @@
     SUBDIR += p5-Tk
     SUBDIR += piewm
     SUBDIR += props
+    SUBDIR += pygtk
     SUBDIR += pythonqt
     SUBDIR += q3dmenu
     SUBDIR += qt
