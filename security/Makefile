@@ -13,6 +13,7 @@
     SUBDIR += pidentd
     SUBDIR += ssh
     SUBDIR += tcp_wrapper
+    SUBDIR += vscan
     SUBDIR += xinetd
 
 .include <bsd.port.subdir.mk>
