@@ -18,9 +18,9 @@ MAINTAINER=	joerg@freebsd.org
 WRKSRC=		${WRKDIR}/xmahjongg
 USE_IMAKE=	yes
 
-NO_CDROM=	"Restrictive copyright."
+NO_CDROM=	"Restrictive copyright"
 
 post-extract:
-	@cp ${WRKSRC}/xmahjongg.6 ${WRKSRC}/xmahjongg.man
+	@${CP} ${WRKSRC}/xmahjongg.6 ${WRKSRC}/xmahjongg.man
 
 .include <bsd.port.mk>
