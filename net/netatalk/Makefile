@@ -20,4 +20,3 @@ NOMANCOMPRESS=	true
 # man pages work.
 
 .include <bsd.port.mk>
-
