@@ -8,7 +8,7 @@
 
 DISTNAME=	grep-2.0
 PKGNAME=	jp-grep-2.0
-CATEGORY+=	japanese
+CATEGORIES+=	japanese
 MASTER_SITES=	ftp://ftp.uu.net/systems/gnu/
 
 MAINTAINER=	asami@FreeBSD.ORG
