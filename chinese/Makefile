@@ -11,5 +11,7 @@
     SUBDIR += gbscript
     SUBDIR += hc
     SUBDIR += lunar
+    SUBDIR += nvi-big5
+    SUBDIR += nvi-euc-cn
 
 .include <bsd.port.subdir.mk>

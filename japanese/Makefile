@@ -51,6 +51,9 @@
     SUBDIR += netscape.language
     SUBDIR += newosaka
     SUBDIR += nkf
+    SUBDIR += nvi-euc-jp
+    SUBDIR += nvi-iso-2022-jp
+    SUBDIR += nvi-sjis
     SUBDIR += okphone
     SUBDIR += perl5
     SUBDIR += pine
