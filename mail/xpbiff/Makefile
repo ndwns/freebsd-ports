@@ -26,14 +26,14 @@ YOUBINBINDIR= ${LOCALBASE}
 .endif
 
 do-extract:
-	@(cd ${DISTDIR}; \
-	  if [ ! -f ${DISTNAME}.tar.gz ]; then \
-	    uudecode ${DISTFILES} ; \
-	  fi)
 	@${RM} -rf ${WRKDIR}
 	@${MKDIR} ${WRKDIR}
-	@(cd ${WRKDIR}; tar -xzf \
-		${DISTDIR}/${DISTNAME}.tar.gz)
+	@(cd ${WRKDIR}; \
+	  if [ ! -f ${DISTDIR}/${DISTNAME}.tar.gz ]; then \
+	    uudecode -p ${DISTDIR}/${DISTFILES} | tar xzf -; \
+	  else \
+	    tar xzf ${DISTDIR}/${DISTNAME}.tar.gz; \
+	  fi)
 
 pre-patch:
 	@(${RM} -rf ${WRKSRC}/LocPixmap.c; \
