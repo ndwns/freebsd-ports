@@ -6,12 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	harvest-1.4.pl2
-PKGNAME=	harvest-1.4.2
+DISTNAME=	harvest-1.5
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/distribs/harvest/ \
-		ftp://ftp.ask.uni-karlsruhe.de/pub/infosystems/harvest/ \
-		ftp://ftp.sunet.se/pub/nir/harvest/
+MASTER_SITES=	ftp://ftp.tardis.ed.ac.uk/pub/harvest/ \
+		ftp://ftp.nlanr.net/Mirror/Harvest/develop/snapshots/
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andreas@FreeBSD.ORG
