@@ -13,10 +13,7 @@ MASTER_SITES=	ftp://freebsd.csie.nctu.edu.tw/pub/jdli/source/
 MAINTAINER=	jdli@csie.nctu.edu.tw
 
 USE_IMAKE=	yes
-
-post-install:
-.if defined(NOMANCOMPRESS)
-		gunzip ${PREFIX}/man/man1/xsysinfo.1.gz
-.endif
+MANCOMPRESSED=	yes
+MAN1=		xsysinfo.1
 
 .include <bsd.port.mk>

@@ -18,6 +18,8 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/AfterStep-1.0pre1
 INSTALL_TARGET=	install install.man
+MANCOMPRESSED=	yes
+MAN1=		afterstep.1 asclock.1 Audio.1 Auto.1 Banner.1 Pager.1 Wharf.1
 
 pre-build:
 		@ cd ${WRKSRC}; sh MakeMakefiles
@@ -34,10 +36,5 @@ post-install:
 		@for file in CHANGES NEW README README.8bit afterstep.faq; do \
 			${INSTALL_DATA} ${WRKSRC}/$$file ${PREFIX}/lib/X11/afterstep/doc/; \
 		done
-.if defined(NOMANCOMPRESS)
-		@ for file in afterstep asclock Audio Auto Banner Pager Wharf; do \
-			gunzip ${PREFIX}/man/man1/$$file.1.gz; \
-		done
-.endif
 
 .include <bsd.port.mk>
