@@ -13,6 +13,7 @@ DEPENDS=        ${PORTSDIR}/devel/m4
 MAKE_FLAGS=	-f
 MAKEFILE=	makefile
 USE_IMAKE=
+NO_INSTALL_MANPAGES=	yes
 PREFIX=/usr/X11R6
 PKG_CMD=	pkg_create -N
 
