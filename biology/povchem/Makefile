@@ -16,12 +16,13 @@ DISTFILES=	povchem.c \
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
 NO_WRKSUBDIR=	yes
+DIST_SUBDIR=	povchem
 
 pre-extract:
 	@${MKDIR} ${WRKSRC}
-	@${CP} ${DISTDIR}/povchem.c ${WRKSRC}
-	@${CP} ${DISTDIR}/povchem.cfg ${WRKSRC}
-	@${CP} ${DISTDIR}/periodic.tab ${WRKSRC}
+	@${CP} ${DISTDIR}/${DIST_SUBDIR}/povchem.c ${WRKSRC}
+	@${CP} ${DISTDIR}/${DIST_SUBDIR}/povchem.cfg ${WRKSRC}
+	@${CP} ${DISTDIR}/${DIST_SUBDIR}/periodic.tab ${WRKSRC}
 
 do-extract:
 	@${TOUCH} ${TOUCH_FLAGS} ${EXTRACT_COOKIE}
