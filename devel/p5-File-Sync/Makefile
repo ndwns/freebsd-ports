@@ -14,8 +14,6 @@ MASTER_SITE_SUBDIR=	File
 
 MAINTAINER=	kuriyama@opt.phys.waseda.ac.jp
 
-NO_PATCH=	yes
-
 USE_PERL5=	YES
 
 MAN3=		File::Sync.3
