@@ -10,6 +10,6 @@ DISTNAME=	emacs-19.26
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	i386--freebsd
-MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu
+MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 .include <bsd.port.mk>

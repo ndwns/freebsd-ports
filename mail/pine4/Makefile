@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pine3.90
-MASTER_SITES=	ftp://ftp.cac.washington.edu/pine
+MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 EXTRACT_SUFX=.tar.Z
 
 .include <bsd.port.mk>
