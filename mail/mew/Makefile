@@ -10,4 +10,7 @@ PKGNAME=	mew-1.92.4
 
 EMACS=		yes
 
+DIRENTRY=	"* Mew: (mew):	Messaging in the Emacs World."
+INFOFILE=	mew.info
+
 .include "${.CURDIR}/../../mail/mew-common/Makefile"
