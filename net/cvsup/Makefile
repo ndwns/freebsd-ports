@@ -8,7 +8,9 @@
 
 DISTNAME=	cvsup-14.1.1
 CATEGORIES=	devel net
-MASTER_SITES=	ftp://freefall.freebsd.org/pub/CVSup/
+MASTER_SITES=	ftp://hub.freebsd.org/pub/CVSup/ \
+		ftp://ftp.cs.tu-berlin.de/pub/FreeBSD/CVSup/ \
+		ftp://ftp.polstra.com/pub/FreeBSD/CVSup/
 
 MAINTAINER=	jdp@FreeBSD.org
 
