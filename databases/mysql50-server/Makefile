@@ -26,8 +26,8 @@ CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-debug \
 		--without-readline \
 		--without-bench
-CONFIGURE_ENV+=	PERL=${PERL5} \
-		PERL5=${PERL5} \
+CONFIGURE_ENV+=	PERL=${PERL} \
+		PERL5=${PERL} \
 		INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 		CXXFLAGS="${CFLAGS}"
 
