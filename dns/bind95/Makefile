@@ -9,7 +9,9 @@
 DISTNAME=	bind-8.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.isc.org/isc/bind/src/8.2/
+PATCH_SITES=	ftp://ftp.isc.org/isc/bind/src/8.2/
 DISTFILES=	${DISTNAME}-src.tar.gz ${DISTNAME}-doc.tar.gz
+PATCHFILES=	patch1
 
 MAINTAINER=	jseger@FreeBSD.org
 
@@ -24,7 +26,8 @@ MAN7=		hostname.7 mailaddr.7
 MAN8=		named-bootconf.8 named-xfer.8 named.8 ndc.8 nslookup.8 \
 		nsupdate.8
 
-PATCH_ARGS?=	-d ${WRKDIR} -E ${PATCH_STRIP}
+PATCH_ARGS=	-d ${WRKDIR}
+PATCH_DIST_ARGS=	-d ${WRKDIR}
 
 post-install:
 	@(cd ${WRKDIR}/doc/man && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} clean all ${INSTALL_TARGET})
