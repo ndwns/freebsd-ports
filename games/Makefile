@@ -108,6 +108,7 @@
     SUBDIR += xemeraldia
     SUBDIR += xevil
     SUBDIR += xeyesplus
+    SUBDIR += xflame
     SUBDIR += xfrisk
     SUBDIR += xgalaga
     SUBDIR += xgammon
