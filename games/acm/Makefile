@@ -12,8 +12,8 @@ MASTER_SITES=	ftp://ftp.warwick.ac.uk/pub/x11/
 
 MAINTAINER=	joerg@FreeBSD.org
 
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=${PREFIX}
+GNU_CONFIGURE=	yes
+CONFIGURE_ENV=	${SH} -x	# don't ask me why, will fail otherwise
 STRIP=
 MAN6=		acm.6
 
