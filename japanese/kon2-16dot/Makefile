@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kon2-0.3
-PKGNAME=	jp-kon2-0.3
+PKGNAME=	ja-kon2-0.3
 CATEGORIES=	japanese
 # note kon is only in first directory and fonts are only in second directory
 MASTER_SITES=	ftp://ftp.tut.ac.jp/Linux/Packages/Utils/ \

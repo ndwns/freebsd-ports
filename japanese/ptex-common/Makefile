@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ptex3.1415.p2.1.4
-PKGNAME=	jp-ptex-2.1.4
+PKGNAME=	ja-ptex-2.1.4
 CATEGORIES=	japanese print
 MASTER_SITES=			ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/ \
 		ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/corresponding-sources/ \

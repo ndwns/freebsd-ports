@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	platex2e
-PKGNAME=	jp-platex2e-97.02.01
+PKGNAME=	ja-platex2e-97.02.01
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.ascii.co.jp/pub/TeX/ascii-ptex/platex2e/1997-02-01/ \
 		${MASTER_SITE_LOCAL}

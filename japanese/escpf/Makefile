@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	escpf-0.4beta2
-PKGNAME=	jp-escpf-0.4b2
+PKGNAME=	ja-escpf-0.4b2
 CATEGORIES=	japanese print
 MASTER_SITES=	http://www.bekkoame.or.jp/~wing/Linux/Escpf/
 

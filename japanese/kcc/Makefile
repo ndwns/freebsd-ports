@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kcc
-PKGNAME=	jp-kcc-1.0
+PKGNAME=	ja-kcc-1.0
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
 

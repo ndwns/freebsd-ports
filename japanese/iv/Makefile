@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	iv-3.1
-PKGNAME=	jp-iv-3.1
+PKGNAME=	ja-iv-3.1
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/ \
 		ftp://ports.jp.freebsd.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	gn-1.35
-PKGNAME=	jp-gn-gnspool-1.35
+PKGNAME=	ja-gn-gnspool-1.35
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.omronsoft.co.jp/pub/misc/gn/
 

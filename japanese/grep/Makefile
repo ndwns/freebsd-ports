@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	grep-2.0
-PKGNAME=	jp-grep-2.0
+PKGNAME=	ja-grep-2.0
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU}
 

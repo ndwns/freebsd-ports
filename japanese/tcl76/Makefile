@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tcl7.6p2
-PKGNAME=	jp-tcl-7.6
+PKGNAME=	ja-tcl-7.6
 CATEGORIES=	japanese lang
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/ 
 

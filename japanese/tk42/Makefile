@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tk4.2p2
-PKGNAME=	jp-tk-4.2
+PKGNAME=	ja-tk-4.2
 CATEGORIES=	japanese x11
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/ 
 

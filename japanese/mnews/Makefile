@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mnews120
-PKGNAME=	jp-mnews-1.20
+PKGNAME=	ja-mnews-1.20
 CATEGORIES=	japanese news
 MASTER_SITES=	ftp://ftp.mei.co.jp/free/Network/news/readers/
 

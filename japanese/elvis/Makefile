@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       elvis-1.8
-PKGNAME=        jp-elvis-1.8.4
+PKGNAME=        ja-elvis-1.8.4
 CATEGORIES=    japanese editors
 MASTER_SITES=   ftp://ftp.cs.pdx.edu/pub/elvis/
 EXTRACT_SUFX=	.tgz

@@ -10,7 +10,7 @@ FILESDIR=	${.CURDIR}/../../lang/expect/files
 
 .include "${.CURDIR}/../../lang/expect/Makefile"
 
-PKGNAME=	jp-expect-5.22.0
+PKGNAME=	ja-expect-5.22.0
 CATEGORIES=	japanese
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	a2ps.pl-1.41
-PKGNAME=	jp-a2ps-1.41
+PKGNAME=	ja-a2ps-1.41
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/IIJ/dist/utashiro/perl/ \
 		ftp://ftp.sra.co.jp/pub/lang/perl/sra-scripts/

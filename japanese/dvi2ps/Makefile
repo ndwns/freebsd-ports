@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	dvi2ps-2.0j-gamma
-PKGNAME=	jp-dvi2ps-2.0g
+PKGNAME=	ja-dvi2ps-2.0g
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.math.s.chiba-u.ac.jp/tex/
 

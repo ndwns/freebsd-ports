@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	dvi2tty5.0
-PKGNAME=	jp-dvi2tty-ascii-5.0
+PKGNAME=	ja-dvi2tty-ascii-5.0
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.ipc.chiba-u.ac.jp/misc/tex/dviwares/dvi2tty/ \
 		ftp://ftp.web.ad.jp/pub/TeX/akiu/dviwares/dvi2tty/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	GP-2.01jp
-PKGNAME=	jp-gp-2.01
+PKGNAME=	ja-gp-2.01
 CATEGORIES=	japanese print
 MASTER_SITES=	http://www.kamome.or.jp/hueda/GP/ \
 		ftp://green.arailab.dnj.ynu.ac.jp/pub/AraiLab/GP/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nkf-1.62
-PKGNAME=	jp-nkf-1.62
+PKGNAME=	ja-nkf-1.62
 CATEGORIES=	japanese
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	newosaka
-PKGNAME=        jp-newosaka-1.0
+PKGNAME=        ja-newosaka-1.0
 CATEGORIES+=    japanese
 MASTER_SITES=   ftp://ports.jp.freebsd.org/pub/incoming/distfiles/
 DISTFILES=	new-osaka.tar.gz

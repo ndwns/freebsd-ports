@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	euc
-PKGNAME=	jp-cdrom2-1996.06.16
+PKGNAME=	ja-cdrom2-1996.06.16
 CATEGORIES=	japanese misc
 MASTER_SITES=	ftp://ftp.nerimadors.or.jp/pub/src/cdrom2/
 

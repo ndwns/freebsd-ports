@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	plain2-2.54
-PKGNAME=	jp-plain2-2.54
+PKGNAME=	ja-plain2-2.54
 CATEGORIES=	textproc
 MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/plain2/
 

@@ -1,4 +1,4 @@
-# New ports collection makefile for:	jp-oleo
+# New ports collection makefile for:	ja-oleo
 # Version required:	1.6
 # Date created:		2 March 1997
 # Whom:			Yoshiro MIHIRA
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	oleo-1.6
-PKGNAME=	jp-oleo-1.6
+PKGNAME=	ja-oleo-1.6
 CATEGORIES=	japanese math
 MASTER_SITES=	http://www.hh.iij4u.or.jp/~hayasida/oleo/ \
 		${MASTER_SITE_GNU}

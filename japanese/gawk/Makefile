@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	gawk-2.15.6
-PKGNAME=	jp-gawk-2.15.6
+PKGNAME=	ja-gawk-2.15.6
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU}
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	sed-1.18
-PKGNAME=	jp-sed-1.18
+PKGNAME=	ja-sed-1.18
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU}
 

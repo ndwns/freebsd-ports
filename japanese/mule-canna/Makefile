@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	jp-mule-canna-2.3
+PKGNAME=	ja-mule-canna-2.3
 CATEGORIES=	japanese editors
 
 CANNA=		yes

@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	Canna32p2
-PKGNAME=	jp-Canna-3.2.2
+PKGNAME=	ja-Canna-3.2.2
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.nec.co.jp/pub/packages/Canna32/ \
 		ftp://ftp.cdrom.com/pub/japanese/titech/Canna32/

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	dserver2.2betapl2
-PKGNAME=	jp-dserver-2.2.2
+PKGNAME=	ja-dserver-2.2.2
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.pu-toyama.ac.jp/pub/misc/ \
 		ftp://ports.jp.FreeBSD.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/

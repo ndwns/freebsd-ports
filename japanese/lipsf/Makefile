@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	lipsf113
-PKGNAME=	jp-lipsf-1.13c
+PKGNAME=	ja-lipsf-1.13c
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
 

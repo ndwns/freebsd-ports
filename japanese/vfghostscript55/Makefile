@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ghostscript-4.03
-PKGNAME=	jp-vfghostscript-4.03
+PKGNAME=	ja-vfghostscript-4.03
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/ \
 		ftp://i1nws2.fukui-u.ac.jp/pub/TeX/dvipr/ \

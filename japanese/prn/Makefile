@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	prn
-PKGNAME=	jp-prn-1.0
+PKGNAME=	ja-prn-1.0
 CATEGORIES=	japanese print
 MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
 

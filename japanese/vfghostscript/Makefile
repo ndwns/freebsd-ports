@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ghostscript2.6.2
-PKGNAME=	jp-vfghostscript-2.6.2
+PKGNAME=	ja-vfghostscript-2.6.2
 CATEGORIES=	japanese print
 MASTER_SITES=	${MASTER_SITE_GNU} \
 		ftp://ftp.iis.u-tokyo.ac.jp/GNU/ \

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	td210bs
-PKGNAME=	jp-today-2.10b
+PKGNAME=	ja-today-2.10b
 CATEGORIES=	japanese games
 MASTER_SITES=	ftp://ftp.waseda.ac.jp/pub/archive/fj.binaries.msdos/
 EXTRACT_SUFX=	.lzh

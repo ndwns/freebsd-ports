@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	chimera-1.65
-PKGNAME=	jp-chimera-1.65
+PKGNAME=	ja-chimera-1.65
 CATEGORIES=	japanese www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
 

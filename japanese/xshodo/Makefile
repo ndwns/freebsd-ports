@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xshodo
-PKGNAME=        jp-xshodo-2.0
+PKGNAME=        ja-xshodo-2.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://cclub.tutcc.tut.ac.jp/pub/xwin/
 DISTFILES=	xshodo2.0.tar.gz

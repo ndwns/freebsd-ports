@@ -6,7 +6,7 @@
 # $Id$
 #
 
-PKGNAME=	jp-mule-sj3+wnn6-2.3
+PKGNAME=	ja-mule-sj3+wnn6-2.3
 CATEGORIES=	japanese editors
 
 SJ3=		yes

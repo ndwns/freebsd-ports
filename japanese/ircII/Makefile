@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ircii-2.8.2
-PKGNAME=	jp-ircii-2.8.2
+PKGNAME=	ja-ircii-2.8.2
 CATEGORIES=	japanese net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/ \
 		ftp://ftp.kyoto.wide.ad.jp/IRC/ircII/

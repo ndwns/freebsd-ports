@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	nethack-3.2.1
-PKGNAME=	jp-nethack-1.0.5.4.1
+PKGNAME=	ja-nethack-1.0.5.4.1
 CATEGORIES=	japanese games
 MASTER_SITES=	${MASTER_SITE_GNU}
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tgif-3.0-p13
-PKGNAME=	jp-tgif-3.0.13
+PKGNAME=	ja-tgif-3.0.13
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications/tgif

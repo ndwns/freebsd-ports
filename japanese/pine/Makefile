@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pine3.95
-PKGNAME=	jp-pine-3.95
+PKGNAME=	ja-pine-3.95
 CATEGORIES=	japanese mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/ \
 		ftp://ftp.noc.titech.ac.jp/pub/tmp/aki/pine/pine3.95/

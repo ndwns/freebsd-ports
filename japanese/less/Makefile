@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	less-332
-PKGNAME=	jp-less-332
+PKGNAME=	ja-less-332
 CATEGORIES=	japanese
 MASTER_SITES=	${MASTER_SITE_GNU}
 

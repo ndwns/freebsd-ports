@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	weblint-97-0.12
-PKGNAME=	jp-weblint97-0.12
+PKGNAME=	ja-weblint97-0.12
 CATEGORIES=	japanese www
 MASTER_SITES=	ftp://ftp.win.or.jp/pub/network/www/weblint/ \
 		ftp://ftp.sra.co.jp/pub/cmd/ \

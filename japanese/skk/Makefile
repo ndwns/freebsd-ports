@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	skk9.6
-PKGNAME=	jp-skk-9.6
+PKGNAME=	ja-skk-9.6
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://skk.kuis.kyoto-u.ac.jp/skk/9.6/
 
