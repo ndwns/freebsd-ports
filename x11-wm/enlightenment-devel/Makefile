@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.enlightenment.org/pub/enlightenment/enlightenment/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-BUILD_DEPENDS=  ${LOCALBASE}/lib/perl5/site_perl/Gtk.pm:${PORTSDIR}/x11/p5-Gtk
+BUILD_DEPENDS=  ${LOCALBASE}/lib/perl5/site_perl/5.005/i386-freebsd/Gtk.pm:${PORTSDIR}/x11/p5-Gtk
 
 LIB_DEPENDS=	esd\\.0\\.0:${PORTSDIR}/audio/esound \
 		Fnlib\\.0\\.3:${PORTSDIR}/graphics/fnlib \
