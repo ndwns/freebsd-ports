@@ -13,10 +13,10 @@ MASTER_SITES=	http://gide.pn.org/
 
 MAINTAINER=	rom_glsa@ein-hashofet.co.il
 
-BROKEN='fetch: reading remote file from gide.pn.org: Connection reset by peer (maybe try -b or -t)'
-
 LIB_DEPENDS=	gnomeui.1:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
+
+FETCH_BEFORE_ARGS=	-b
 
 USE_X_PREFIX=   yes
 USE_GMAKE= 	yes
