@@ -46,6 +46,7 @@
     SUBDIR += jdk-tutorial
     SUBDIR += jfc
     SUBDIR += jikes
+    SUBDIR += jsdk
     SUBDIR += kaffe
     SUBDIR += lcc
     SUBDIR += libobjects
