@@ -340,3 +340,22 @@
       extern char* sprintf();
   #endif
   #endif
+*** graphics/Makefile.ORIG	Mon Sep 19 23:41:05 1994
+--- graphics/Makefile	Sun Jan 22 14:44:19 1995
+***************
+*** 10,16 ****
+  LIB=	${MAGICDIR}/lib
+  SYSLIB=	${CADDIR}/lib/magic/sys
+  BIN=	${CADDIR}/bin
+! IFLAGS=	-I. -I${H} -I/usr/openwin/include
+  #
+  # Configuration for flags and libraries
+  #
+--- 10,16 ----
+  LIB=	${MAGICDIR}/lib
+  SYSLIB=	${CADDIR}/lib/magic/sys
+  BIN=	${CADDIR}/bin
+! IFLAGS=	-I. -I${H} -I/usr/X11R6/include
+  #
+  # Configuration for flags and libraries
+  #
