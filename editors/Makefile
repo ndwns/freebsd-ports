@@ -13,7 +13,6 @@
     SUBDIR += mule
     SUBDIR += nedit
     SUBDIR += nvi
-    SUBDIR += scitext
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
