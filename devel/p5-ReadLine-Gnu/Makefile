@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-ReadLine-Gnu
-# Version required:			1.00
+# Version required:			1.01
 # Date created:				19 February 1998
 # Whom:	      				Matthew Hunt <mph@pobox.com>
 #
 # $Id$
 #
 
-DISTNAME=	Term-ReadLine-Gnu-1.00
-PKGNAME=	p5-ReadLine-Gnu-1.00
+DISTNAME=	Term-ReadLine-Gnu-1.01
+PKGNAME=	p5-ReadLine-Gnu-1.01
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Term
