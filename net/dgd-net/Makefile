@@ -35,6 +35,9 @@ PATCH_DIST_ARGS=	-d ${WRKDIR} -E ${PATCH_DIST_STRIP}
 PATCH_DIST_ARGS=	-d ${WRKDIR} --forward --quiet -E ${PATCH_DIST_STRIP}
 .endif
 
+pre-patch:
+	@ln -s dgd ${WRKSRC}/dgd+net
+
 post-build:
 	@cd ${WRKSRC}; ${MAKE} install
 	@mv ${WRKDIR}/dgd/bin/driver ${WRKDIR}/dgd/bin/driver.net
