@@ -6,6 +6,7 @@
     SUBDIR += analog
     SUBDIR += apache
     SUBDIR += apache-current
+    SUBDIR += apache-fp
     SUBDIR += apache-php
     SUBDIR += apache-ssl
     SUBDIR += arena
