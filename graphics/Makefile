@@ -17,6 +17,7 @@
     SUBDIR += dc3play
     SUBDIR += dore
     SUBDIR += electriceyes
+    SUBDIR += eterm-bg
     SUBDIR += fbm
     SUBDIR += fli2gif
     SUBDIR += fly
