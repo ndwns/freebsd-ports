@@ -12,6 +12,7 @@
     SUBDIR += giftrans
     SUBDIR += gimp
     SUBDIR += gimp-devel
+    SUBDIR += hobbes-icons-xpm
     SUBDIR += hpscan
     SUBDIR += jbigkit
     SUBDIR += jpeg
