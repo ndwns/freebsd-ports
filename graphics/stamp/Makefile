@@ -13,6 +13,8 @@ MASTER_SITES=	http://www.telepath.com/booger/
 
 MAINTAINER=	billf@FreeBSD.org
 
+BROKEN=		"distfile is gone, new distfile requires getopt solution"
+
 LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg
 
 ALL_TARGET=
