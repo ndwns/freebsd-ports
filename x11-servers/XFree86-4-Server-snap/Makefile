@@ -19,7 +19,7 @@
 
 #if you are compiling from a cdrom, set the directory where the
 # the patch files are
-X11FIXES = /usr/ports/distfiles/xc
+X11FIXES = ${DISTDIR}/xc
 
 #define this if you are short of space - save ~28 Mbytes
 #REMOVE_NOT_ESSENTIAL	=	yes
