@@ -1,6 +1,9 @@
 # $Id$
 #
 
+    SUBDIR += apel-emacs
+    SUBDIR += apel-emacs20
+    SUBDIR += apel-mule
     SUBDIR += asedit
     SUBDIR += axe
     SUBDIR += beav
