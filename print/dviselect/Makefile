@@ -15,6 +15,8 @@ MAINTAINER=	jmz@FreeBSD.org
 
 SCRIPTS_ENV=	CFLAGS="${CFLAGS}"
 
+BROKEN_ELF=	lib/lib.a
+
 MAN1=		dviselect.1
 
 
