@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	Mosaic-src-2.6
+PKGNAME=	mosaic-2.6
 CATEGORIES=	www
 
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
