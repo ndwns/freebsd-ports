@@ -165,6 +165,7 @@
     SUBDIR += xmille
     SUBDIR += xmine
     SUBDIR += xminehunter
+    SUBDIR += xmines
     SUBDIR += xminesweep
     SUBDIR += xmj
     SUBDIR += xmlink
