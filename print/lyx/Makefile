@@ -14,7 +14,7 @@ MAINTAINER=	andreas@klemm.gtn.com
 
 BUILD_DEPENDS=	latex:${PORTSDIR}/print/teTeX
 RUN_DEPENDS=	latex:${PORTSDIR}/print/teTeX \
-		ispell:${PORTSDIR}/misc/ispell
+		ispell:${PORTSDIR}/textproc/ispell
 LIB_DEPENDS=	xforms\\.0\\.:${PORTSDIR}/x11/xforms \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm \
 
