@@ -8,7 +8,7 @@
 
 DISTNAME=	RAToolSet-3.5.2
 PKGNAME=	ratoolset-3.5.2
-CATEGORIES=	net
+CATEGORIES=	net tk41
 MASTER_SITES=	ftp://ftp.isi.edu/ra/RAToolSet/
 
 MAINTAINER=	jfitz@FreeBSD.ORG
