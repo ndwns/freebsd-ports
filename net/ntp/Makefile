@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.udel.edu/pub/ntp/testing/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BROKEN=		"structure has no member named \`tv_usec'"
+
 GNU_CONFIGURE=	yes
 
 post-install:
