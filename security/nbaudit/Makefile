@@ -16,14 +16,12 @@ MASTER_SITES=	ftp://ftp.secnet.com/pub/tools/nat10/  \
 MAINTAINER=     obrien@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
-MAN1=		nat.1
+MAN1=		nat.1 nbaudit.1
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/nat ${PREFIX}/bin
 	@ln -f ${PREFIX}/bin/nat ${PREFIX}/bin/nbaudit
 	@${INSTALL_MAN} ${WRKSRC}/nat.1 ${PREFIX}/man/man1
-
-after-install:
-	@ln -f ${PREFIX}/man/man1/nat.1.gz ${PREFIX}/man/man1/nbaudit.1.gz
+	@ln -f ${PREFIX}/man/man1/nat.1 ${PREFIX}/man/man1/nbaudit.1
 
 .include <bsd.port.mk>
