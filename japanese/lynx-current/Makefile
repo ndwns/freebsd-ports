@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       lynx2.8.1dev.20
-PKGNAME=        ja-lynx-2.8.1.20
+DISTNAME=       lynx2.8.1dev.22
+PKGNAME=        ja-lynx-2.8.1.22
 CATEGORIES=	japanese www
 MASTER_SITES=   ftp://sol.slcc.edu/pub/lynx/current/
 
