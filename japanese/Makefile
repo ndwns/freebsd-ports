@@ -122,6 +122,7 @@
     SUBDIR += netscape4-communicator
     SUBDIR += netscape4-navigator
     SUBDIR += netscape45-communicator
+    SUBDIR += netscape45-navigator
     SUBDIR += newosaka
     SUBDIR += ng
     SUBDIR += nkf
