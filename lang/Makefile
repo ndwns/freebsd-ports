@@ -5,6 +5,7 @@
    SUBDIR += STk
    SUBDIR += Sather
    SUBDIR += bwbasic
+   SUBDIR += eiffel
    SUBDIR += elk
    BROKEN += expect      # no package file yet
    SUBDIR += forth
