@@ -9,8 +9,12 @@
 DISTNAME=       elk-3.0
 CATEGORIES+=	lang
 KEYWORDS+=	lang scheme
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/devel_tools/ \
+MASTER_SITES=	ftp://ftp.uni-bremen.de/pub/programming/languages/scheme/elk/ \
+		ftp://crl.dec.com/pub/X11/contrib/devel_tools/ \
 		ftp://ftp.th-darmstadt.de/pub/X11/contrib/devel_tools/
+
+PATCHFILES=	elk-3.0-patch-1
+PATCH_SITES=	ftp://ftp.uni-bremen.de/pub/programming/languages/scheme/elk/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
@@ -34,6 +38,8 @@ post-install:
 	  cp -R include/* ${PREFIX}/include/elk; \
 	  rm -rf bin include)
 	@install -c -o bin -g bin -m 444 ${WRKSRC}/doc/man/elk.1 ${PREFIX}/man/man1
+.if !defined(NOMANCOMPRESS)
 	@gzip -9nf ${PREFIX}/man/man1/elk.1
+.endif
 
 .include <bsd.port.mk>
