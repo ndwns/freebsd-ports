@@ -39,5 +39,6 @@
     SUBDIR += xemacs-mule-common
     SUBDIR += xemacs20
     SUBDIR += xvile
+    SUBDIR += yudit
 
 .include <bsd.port.subdir.mk>
