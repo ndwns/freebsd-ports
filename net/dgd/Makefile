@@ -6,15 +6,20 @@
 # $Id$
 #
 
-DISTNAME=	dgd-1.0.56
+DISTNAME=	dgd-1.0.60
 DISTFILES=	dgd-1.0.37.tar.gz
 CATEGORIES=	net lang
 MASTER_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/
 
-PATCH_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/patches/
+PATCH_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/patches/ \
+		ftp.veda.is:/pub/mud/dgd/patches/
 PATCHFILES=	1.0.37-1.0.39.gz \
 		1.0.39-1.0.40.gz \
-		1.0.40-1.0.56.gz
+		1.0.40-1.0.56.gz \
+		1.0.56-1.0.57.gz \
+		1.0.57-1.0.58.gz \
+		1.0.58-1.0.59.gz \
+		1.0.59-1.0.60.gz
 
 MAINTAINER=	adam@veda.is
 
@@ -23,7 +28,20 @@ RESTRICTED=	license required for commercial use
 
 DIST_SUBDIR=	dgd
 WRKSRC=		${WRKDIR}/dgd/src
-PATCH_DIST_STRIP=	-p1
+#PATCH_DIST_STRIP=	-p1
+
+pre-patch:
+	@for i in ${WRKSRC}/host/pc/res/*.ico; do \
+		mv $$i $$i.bak; \
+		echo '\ No newline at end of file' >$$i; \
+		done
+	@ln -sf ${WRKDIR}/dgd ${WRKSRC}
+
+post-patch:
+	@for i in ${WRKSRC}/host/pc/res/*.ico; do \
+		rm $$i.orig; \
+		mv $$i.bak $$i; \
+		done
 
 post-build:
 	@cd ${WRKSRC}; ${MAKE} install
