@@ -20,6 +20,10 @@ MAN1=		dotfile.1
 
 NO_BUILD=	yes
 
+.if !defined(DISPLAY)
+BROKEN=		requires X display
+.endif
+
 post-configure:
 	@(cd ${WRKSRC}/Modules/procmail && CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
 	INSTALL="${INSTALL} -c -o ${BINOWN} -g ${BINGRP}" \
