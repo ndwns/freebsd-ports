@@ -40,7 +40,6 @@
     SUBDIR += xdaliclock
     SUBDIR += xdtm
     SUBDIR += xearth
-    SUBDIR += xephem
     SUBDIR += xfed
     SUBDIR += xfm
     SUBDIR += xforms
