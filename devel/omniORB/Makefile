@@ -13,8 +13,6 @@ MASTER_SITES=	ftp://ftp.orl.co.uk/pub/omniORB/
 
 MAINTAINER=	ejc@bazzle.com
 
-BROKEN=		posix.cc
-
 MAN1=		omniidl2.1 nameclt.1 omniNames.1 catior.1 genior.1
 
 pre-patch:
