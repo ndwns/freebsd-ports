@@ -10,10 +10,13 @@ DISTNAME=	ee-0.3.5
 PKGNAME=	electriceyes-0.3.5
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
-		ftp://ftp.gnome.org/pub/GNOME/sources/
+		ftp://ftp.geo.net/pub/gnome/sources/latest/ \
+		ftp://gnomeftp.wgn.net/pub/gnome/sources/latest/ \
+		ftp://ftp.gnome.org/pub/GNOME/sources/latest/
 
 MAINTAINER=	nacai@iname.com
 
+RUN_DEPENDS=	panel:${PORTSDIR}/x11/gnomecore
 LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs
 
 USE_X_PREFIX=	yes
