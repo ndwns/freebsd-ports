@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xmradio-0.5
+DISTNAME=	xmradio-0.6
 CATEGORIES=	audio
 MASTER_SITES=	http://www.rostock.zgdv.de/~runge/radio/
 
