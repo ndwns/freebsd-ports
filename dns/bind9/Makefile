@@ -31,20 +31,5 @@ post-configure:
 
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/named/named-bootconf.pl ${PREFIX}/bin/
-#	for i in ${MAN1}; do \
-#		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man1/; \
-#	done
-#	for i in ${MAN3}; do \
-#		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man3/; \
-#	done
-#	for i in ${MAN5}; do \
-#		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man5/; \
-#	done
-#	for i in ${MAN7}; do \
-#		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man7/; \
-#	done
-#	for i in ${MAN8}; do \
-#		${INSTALL_MAN} ${WRKDIR}/doc/man/$$i ${PREFIX}/man/man8/; \
-#	done
 	@(cd ${WRKDIR}/doc/man && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} clean all ${INSTALL_TARGET})
 .include <bsd.port.mk>
