@@ -119,6 +119,7 @@
     SUBDIR += xipmsg
     SUBDIR += yale-tftpd
     SUBDIR += ytalk
+    SUBDIR += zebra
     SUBDIR += zephyr
     SUBDIR += zircon
     SUBDIR += ztelnet
