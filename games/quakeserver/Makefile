@@ -9,8 +9,8 @@
 PKGNAME=	quakeserver-1.01
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.gamesdomain.com/pub/idsoftware/quake/ \
-		ftp://ftp.cssweb.com/pub/games/idstuff/quake/
-		ftp://ftp.feist.com/pub/pc/games/quake/ \
+		ftp://ftp.cssweb.com/pub/games/idstuff/quake/ \
+		ftp://ftp.feist.com/pub/pc/games/quake/
 DISTFILES=	quake101.zip \
 		quake-FreeBSD.tar.gz \
 		intel_linux_quake101.tgz
