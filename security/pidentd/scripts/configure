@@ -5,3 +5,6 @@
 
 mv ${WRKSRC}/src/paths.h ${WRKSRC}/src/paths.h.bak
 sed <${WRKSRC}/src/paths.h.bak >${WRKSRC}/src/paths.h s+!!PREFIX!!+$PREFIX+g
+
+mv ${WRKSRC}/identd.8 ${WRKSRC}/identd.8.bak
+sed <${WRKSRC}/identd.8.bak >${WRKSRC}/identd.8 s+!!PREFIX!!+$PREFIX+g
