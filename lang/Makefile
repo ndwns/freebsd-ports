@@ -38,6 +38,7 @@
     SUBDIR += icon
     SUBDIR += intel2gas
     SUBDIR += intercal
+    SUBDIR += irb
     SUBDIR += itcl
     SUBDIR += lcc
     SUBDIR += libobjects
