@@ -6,8 +6,8 @@
 #
 # $Id$
 
-DISTNAME=	mutt-0.89.1i
-PKGNAME=	mutt-0.89.1.1
+DISTNAME=	mutt-0.91.1i
+PKGNAME=	mutt-0.91.1
 CATEGORIES=	mail
 MASTER_SITES=	ftp://riemann.iam.uni-bonn.de/pub/mutt/  \
 		ftp://ftp.gbnet.net/pub/mutt-international/  \
@@ -21,7 +21,7 @@ PATCH_SITES=	http://www.frmug.org/mutt/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://www.frmug.org/pub/mutt/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://ftp.nuxi.com/pub/mutt/${PKGNAME:S/^mutt-//}/  \
 		ftp://riemann.iam.uni-bonn.de/pub/mutt/
-PATCHFILES=	mutt-0.89.1i.pl1.diff
+PATCHFILES=
 
 MAINTAINER=     obrien@FreeBSD.org
 
