@@ -14,7 +14,7 @@ DISTFILES=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 
 MAINTAINER=	jmz@FreeBSD.org
 
-EXTRACT_ONLY=	web2c.tar.gz web.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
+EXTRACT_ONLY=	web2c-6.1.tar.gz web-6.1.tar.gz tex_base.tar.gz cm_tfm.tar.gz \
 		mf_lib.tar.gz cm_mf.tar.gz
 
 FTPGET=		${FILESDIR}/ftpget
