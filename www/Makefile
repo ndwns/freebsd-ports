@@ -9,7 +9,6 @@
     SUBDIR += apache13
     SUBDIR += apache13-modssl
     SUBDIR += apache13-php3
-    SUBDIR += apache13-php3-modssl
     SUBDIR += apache-fp
     SUBDIR += apache-ssl
     SUBDIR += arena
