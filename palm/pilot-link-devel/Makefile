@@ -14,6 +14,11 @@ MAINTAINER=	ports@freebsd.org
 
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} < 300000
+BROKEN=         libreadline
+.endif
+
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=--with-perl5
