@@ -9,7 +9,7 @@
 DISTNAME=	fidogate-4.2.9
 CATEGORIES=	news
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
-		ftp://ftp.dinoex.sub.org/pub/approved/
+		ftp://ftp.lan-ks.de/pub/approved/
 MASTER_SITE_SUBDIR=	system/fido
 
 MAINTAINER=	dirk.meyer@dinoex.sub.org
