@@ -29,8 +29,7 @@ LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--x-inc=$(X11BASE)/include -I$(PREFIX)/include -I$(PREFIX)/include/giflib" \
 		"--x-lib=$(X11BASE)/lib -L$(PREFIX)/lib" \
-		"--prefix=$(PREFIX)" \
-		"--datadir=$(PREFIX)/share/kde"
+		"--prefix=$(PREFIX)"
 
 WRKSRC=		${WRKDIR}/kdebase
 
