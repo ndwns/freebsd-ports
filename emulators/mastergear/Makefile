@@ -21,8 +21,8 @@ CONFIGURE_ENV+=	X11BASE=${X11BASE}
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mg ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/dasm ${PREFIX}/bin
-	@mkdir ${PREFIX}/share/mastergear
-	cp ${WRKSRC}/MG.doc ${PREFIX}/share/mastergear
+	@${MKDIR} ${PREFIX}/share/mastergear
+	${INSTALL_DATA} ${WRKSRC}/MG.doc ${PREFIX}/share/mastergear
 
 .include <bsd.port.mk>
 
