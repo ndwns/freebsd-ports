@@ -10,7 +10,7 @@ DISTNAME=	eispack
 PKGNAME=	eispack-1.0
 CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/eispack/ \
-		ftp://www.hensa.ac.uk/mirrors/netlib//eispack/ \
+		ftp://www.hensa.ac.uk/mirrors/netlib/eispack/ \
 		ftp://elib.zib-berlin.de/pub/netlib/eispack/
 
 DIST_SUBDIR=	${DISTNAME}
