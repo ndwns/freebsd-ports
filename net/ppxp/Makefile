@@ -82,10 +82,4 @@ post-install:
 	@${MKDIR} ${PREFIX}/share/doc/xppxp
 	@${INSTALL_DATA} ${WRKSRC}/console/xppxp/README ${PREFIX}/share/doc/xppxp
 
-hoge:
-.if defined(USE_TCLJP)
-	echo hoge
-.endif
-
-
 .include <bsd.port.mk>
