@@ -43,9 +43,17 @@ pre-configure:
 	    INSTALL_PROGRAM="${INSTALL_PROGRAM}" \
 	    INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
 	    ${CONFIGURE_ENV} ./${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS}; \
-	    make)
+	    ${MAKE} ${MAKE_ENV})
 
 pre-install:
-	@(cd ${WRKSRC}/libPropList; ${MAKE} install)
+	@(cd ${WRKSRC}/libPropList; ${MAKE} ${MAKE_ENV} install)
+
+post-install:
+	if [ "${PORTOBJFORMAT}" = "elf" ]; then \
+		${LN} -sf libPropList.so.0 ${PREFIX}/lib/libPropList.so; \
+	else \
+		${LN} -sf libPropList.so.0.8 ${PREFIX}/lib/libPropList.so; \
+	fi
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
