@@ -13,7 +13,6 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	jseger@FreeBSD.org
 
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS=	--disable-shared
 MAKE_ENV+=	INSTALL_SCRIPT="${INSTALL_SCRIPT}"
 
 .include <bsd.port.mk>
