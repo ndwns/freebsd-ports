@@ -73,7 +73,9 @@
     SUBDIR += xemacs
     SUBDIR += xemacs-mule
     SUBDIR += xemacs-mule-common
+    SUBDIR += xemacs-packages
     SUBDIR += xemacs20
+    SUBDIR += xemacs21
     SUBDIR += xvile
     SUBDIR += yudit
 
