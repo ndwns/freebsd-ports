@@ -19,7 +19,7 @@ BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/editors/sam:build
 USE_XLIB=	yes
 MAN1=		9term.1
 MANCOMPRESSED=	yes
-MAKE_ENV=	SAMDIR=${WRKDIRPREFIX}${.CURDIR}/../../editors/sam
+MAKE_ENV=	SAMDIR=${WRKDIRPREFIX}${.CURDIR}/../../editors/sam/work
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
