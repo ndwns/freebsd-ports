@@ -39,6 +39,7 @@
     SUBDIR += procmail
     SUBDIR += rblcheck
     SUBDIR += smail
+    SUBDIR += smtpd
     SUBDIR += smtpfeed
     SUBDIR += tkrat
     SUBDIR += xfaces
