@@ -288,7 +288,7 @@ fetch: pre-fetch
 					echo ">> $$file Fetched!" ; \
 					break; \
 				fi \
-			done \
+			done; \
 			if [ ! -f $$file ]; then \
 				echo ">> Couldn't fetch it - please try to retreive this";\
 				echo ">> port manually into ${DISTDIR} and try again."; \
