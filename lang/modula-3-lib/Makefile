@@ -99,7 +99,7 @@ do-build:
 	@test -d ${WRKSRC}/m3cc/FreeBSD2 || ${MKDIR} ${WRKSRC}/m3cc/FreeBSD2
 	@cd ${WRKSRC}/m3cc/FreeBSD2; \
 	    ../gcc/configure i486-unknown-freebsd; \
-	    make m3cgc1 CC=cc CFLAGS=-O; \
+	    make m3cgc1 CC="${CC}" CFLAGS="${CFLAGS}"; \
 	    ${CP} -p m3cgc1 ${temp_prefix}/lib/m3/FreeBSD2
 	@echo "++++++++++ everything else ++++++++++"
 	@cd ${WRKSRC}/m3; \
