@@ -21,7 +21,6 @@ DISTFILES=    110.9.1-bin.x86-unix.tar.Z 110.9.1-cm.tar.Z 110.9.1-cml.tar.Z \
 
 MAINTAINER=   jkoshy@freebsd.org
 
-BROKEN_ELF=   build error
 # Other mirror sites that generally carry only released versions of SML
 # 	ftp://rodin.stanford.edu/pub/smlnj/release/
 # 	ftp://ftp.cl.cam.ac.uk/MIRRORED/smlnj/release/
@@ -46,7 +45,9 @@ post-extract:
 
 # The build target needs to run $WRKDIR/config/install.sh
 do-build:
-	cd ${WRKDIR} && unset PWD && ./config/install.sh
+	cd ${WRKDIR} && unset PWD && \
+	FILESDIR="$(FILESDIR)" PATCH="$(PATCH)" PATCH_ARGS="$(PATCH_ARGS)" \
+		./config/install.sh
 
 # install target
 # 1. create installation directories
