@@ -27,7 +27,7 @@ BUILD_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 RUN_DEPENDS=	wish4.1:${PORTSDIR}/x11/tk41
 .endif
 
-install:
+do-install:
 	(cd ${WRKSRC} && ./installZircon)
 
 .include <bsd.port.mk>
