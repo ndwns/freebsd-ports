@@ -9,7 +9,8 @@
 DISTNAME=	Atari800-0.8.1
 PKGNAME=	atari800-0.8.1
 CATEGORIES=	emulators
-MASTER_SITES=	http://www.signus.demon.co.uk/david/atari/
+MASTER_SITES=	http://www.signus.demon.co.uk/Software/Portable/Atari800e/ \
+		http://cas3.zlin.vutbr.cz/~stehlik/a800/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${EXTRA_FILES}
 
 MAINTAINER=	sutton@aardvark.apana.org.au
