@@ -12,8 +12,7 @@ MASTER_SITES=	http://www-personal.usyd.edu.au:/~rlittlew/jafm/
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
-LIB_DEPENDS=    qt\\.1\\.\\\(33\\\|40\\\):${PORTSDIR}/x11-toolkits/qt140
-
+USE_QT=		yes
 USE_GMAKE=	yes
 ALL_TARGET=	jafm
 
