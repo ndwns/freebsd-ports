@@ -5,7 +5,6 @@
     SUBDIR += calc
     SUBDIR += eispack
     SUBDIR += fudgit
-    SUBDIR += gmp
     SUBDIR += gnuplot
     SUBDIR += hexcalc
     SUBDIR += linpack
