@@ -20,6 +20,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/nethack313
 USE_GMAKE=	yes
 SHELL=		/bin/sh
+NCFTPFLAGS=	-NP
 
 pre-configure:
 	@cd ${WRKSRC}/sys/unix; ${SHELL} setup.sh
