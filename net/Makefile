@@ -22,6 +22,7 @@
     SUBDIR += nv
     SUBDIR += pcnfsd
     SUBDIR += pmf
+    SUBDIR += radius
     SUBDIR += rdist6
     SUBDIR += rmsg
     SUBDIR += samba
@@ -34,6 +35,7 @@
     SUBDIR += tinyfugue
     SUBDIR += tkined
     SUBDIR += trafshow
+    SUBDIR += ucd-snmp
     SUBDIR += vic
     SUBDIR += wais
     SUBDIR += wide-dhcp
