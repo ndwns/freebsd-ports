@@ -16,7 +16,7 @@ DISTFILES=      povuni_s.tgz povuni_d.tgz
 
 MAINTAINER=	ports@freebsd.org
 
-LIB_DEPENDS=	png\\.0\\.:${PORTSDIR}/graphics/png
+LIB_DEPENDS=    png\\.2\\.:${PORTSDIR}/graphics/png
 
 MAN1=		povray.1
 

@@ -13,7 +13,7 @@ MASTER_SITES=	http://www.ipc.chiba-u.ac.jp/~yamaga/gnuplot%2B/3.6base/
 
 MAINTAINER=	chuckr@FreeBSD.org
 
-LIB_DEPENDS=	png\\.0\\.[7-9]:${PORTSDIR}/graphics/png
+LIB_DEPENDS=    png\\.0\\.:${PORTSDIR}/graphics/png
 
 WRKSRC=		${WRKDIR}/gnuplot
 GNU_CONFIGURE=	yes
