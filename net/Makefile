@@ -32,6 +32,7 @@
     SUBDIR += isc-dhcp
     SUBDIR += ivs
     SUBDIR += kdenetwork
+    SUBDIR += kirc
     SUBDIR += ldap
     SUBDIR += libsocket++
     SUBDIR += llnlxdir
