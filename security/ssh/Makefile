@@ -40,9 +40,10 @@ CONFIGURE_ARGS+= --with-rsaref
 CONFIGURE_ARGS+= --with-socks
 .endif
 
-# Include tcp-wrapper support and identd support
-# Warning: untested !
-.if defined(USE_TCPWRAP_AND_IDENTD) && ${USE_TCPWRAP_AND_IDENTD} == YES
+# Include tcp-wrapper support (call remote identd)
+.if defined(USE_TCPWRAP) && ${USE_TCPWRAP} == YES
+CONFIGURE_ENV=  LDFLAGS=-L${PREFIX}/lib CFLAGS="${CFLAGS} -I${PREFIX}/include"
+BUILD_DEPENDS+= safe_finger:${PORTSDIR}/security/tcp_wrapper
 CONFIGURE_ARGS+= --with-libwrap
 .endif
 
