@@ -21,6 +21,7 @@
     SUBDIR += harvest
     SUBDIR += http-analyze
     SUBDIR += hypermail
+    SUBDIR += ijb
     SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linemode
