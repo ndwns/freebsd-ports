@@ -16,8 +16,8 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	gtk\\.1:${PORTSDIR}/x11/gtk
 BUILD_DEPENDS=	pswrap:${PORTSDIR}/x11/dgs
 
-CONFIGURE_ARGS+=	--with-dps-includes=${X11BASE}/include \
-			--with-dps-libraries=${X11BASE}/lib
+CONFIGURE_ARGS=	--with-dps-includes=${X11BASE}/include \
+		--with-dps-libraries=${X11BASE}/lib
 GNU_CONFIGURE=	yes
 USE_X11=	yes
 
