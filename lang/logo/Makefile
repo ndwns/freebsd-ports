@@ -10,6 +10,7 @@ DISTNAME=	ucblogo
 EXTRACT_SUFX=	.tar.Z
 MASTER_SITES=	ftp://anarres.cs.berkeley.edu/pub/ucblogo/
 CATEGORIES+=	languages
+
 MAINTAINER=	jmacd@FreeBSD.ORG
 
 MAKEFILE=	makefile
