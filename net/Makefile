@@ -4,6 +4,7 @@
     SUBDIR += archie
     SUBDIR += ascend-radius
     SUBDIR += bb
+    SUBDIR += cap
     SUBDIR += cvsup
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
