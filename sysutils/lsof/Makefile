@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
 		ftp://ftp.auscert.org.au/pub/mirrors/vic.cc.purdue.edu/lsof/  \
 		ftp://ftp.web.ad.jp/pub/UNIX/tools/lsof/  \
-		ftp://ftp.sunet.se/pub/unix/admin/lsof
+		ftp://ftp.sunet.se/pub/unix/admin/lsof/
 
 MAINTAINER=     obrien@cs.ucdavis.edu
 
