@@ -8,8 +8,6 @@
 
 PKGNAME=	ja-xemacs-wnn6-20.4
 
-BROKEN_ELF=	Wnn6 has not yet corresponded to ELF
-
 WNN6=		yes
 
 MASTERDIR=	${.CURDIR}/../../japanese/xemacs
