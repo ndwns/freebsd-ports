@@ -47,7 +47,7 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/doc/html/* ${PREFIX}/share/doc/cyrus/html
 .endif
 		${INSTALL_DATA} ${FILESDIR}/imapd.conf ${PREFIX}/etc
-		${INSTALL} -d -m 750 -o cyrus -g cyrus /var/spool/imapd \
+		${INSTALL} -d -m 750 -o cyrus -g cyrus /var/spool/imap \
 			${PREFIX}/etc/imap \
 			${PREFIX}/etc/imap/user \
 			${PREFIX}/etc/imap/quota \
