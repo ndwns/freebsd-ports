@@ -8,11 +8,11 @@
 
 DISTNAME=	spruce-0.4.8a
 CATEGORIES=	mail
-MASTER_SITES=	http://www.xtorshun.org/spruce/
+#main master site unreachable: MASTER_SITES=	http://www.xtorshun.org/spruce/
+MASTER_SITES=	http://fundy.linuxberg.com/files/x11/network/ \
+		ftp://ftp.loxinfo.co.th/pub/unix/mail/
 
 MAINTAINER=	cpiazza@FreeBSD.org
-
-BROKEN='single master site is unreachable'
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
