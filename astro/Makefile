@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += dgpsip
     SUBDIR += ephem
     SUBDIR += luna
     SUBDIR += saoimage
