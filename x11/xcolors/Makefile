@@ -16,8 +16,6 @@ MASTER_SITES=	ftp://ftp.x.org/pub/R6untarred/contrib/programs/
 
 MAINTAINER=	asami@FreeBSD.ORG
 
-FETCH_DEPENDS=	ncftp2:${PORTSDIR}/net/ncftp2
-
 WRKSRC=		${WRKDIR}/xcolors
 USE_IMAKE=	yes
 
