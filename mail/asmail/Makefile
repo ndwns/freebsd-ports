@@ -3,7 +3,7 @@
 # Date created:		15 August 1997
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asmail-0.54

@@ -3,7 +3,7 @@
 # Date created:				October 24th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
-#   $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	POP3Client-1_15

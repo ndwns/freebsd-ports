@@ -4,7 +4,7 @@
 # Date created:         26 June 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       elm-2.4ME+54

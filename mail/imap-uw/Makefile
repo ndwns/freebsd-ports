@@ -3,7 +3,7 @@
 # Date created:		9 Jan 1997
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	imap-4.5

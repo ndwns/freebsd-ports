@@ -3,7 +3,7 @@
 # Date created:				23 October 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		mmr-1.5.2

@@ -3,7 +3,7 @@
 # Date created:		Oct 4, 1994
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mh-6.8.3

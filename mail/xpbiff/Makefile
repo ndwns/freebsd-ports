@@ -3,7 +3,7 @@
 # Date created:         2 April 1997
 # Whom:                 Yoshiro MIHIRA <sanpei@yy.cs.keio.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xpbiff
 PKGNAME?=	xpbiff-1.27

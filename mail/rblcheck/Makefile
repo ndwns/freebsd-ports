@@ -3,7 +3,7 @@
 # Date created:		28 January 1998
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rblcheck-1.4

@@ -5,7 +5,7 @@
 # Date created:         31 Jan 1997
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       premail-0.46

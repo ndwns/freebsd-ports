@@ -3,7 +3,7 @@
 # Date created:		So  14 Jun 1998 13:09:18 CEST
 # Whom:			andreas
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kbiff-2.3

@@ -4,7 +4,7 @@
 # Date created: 13 Sep 1997
 # Whom:         ache@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       adcomplain-3.52

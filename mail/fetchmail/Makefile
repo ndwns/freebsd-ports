@@ -3,7 +3,7 @@
 # Date created:		26 Oct 1996
 # Whom:			Ville Eerola <ve@sci.fi>
 #
-# $Id$
+# $FreeBSD$
 #
 # NOTE:  The fetchmailconf program (an interactive program for
 # writing .fetchmailrc files) requires Python, found in the Ports

@@ -3,7 +3,7 @@
 # Date created:		18 June 1995
 # Whom:			dchapes@zeus.leitch.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbuffy3.3

@@ -3,7 +3,7 @@
 # Date created:        7 Jun 1998
 # Whom:                rom
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	WMMail.app-0.63a

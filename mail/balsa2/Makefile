@@ -3,7 +3,7 @@
 # Date created:				02 December 1998
 # Whom:					Glenn Johnson <gljohns@bellsouth.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	balsa-0.4.9

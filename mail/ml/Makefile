@@ -3,7 +3,7 @@
 # Date created:		15 March 1998
 # Whom:			Jeroen Hogeveen <albast@xs4all.nl>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		ml-3.4

@@ -3,7 +3,7 @@
 # Date created:		30 October 1998
 # Whom:			John Saunders <john@nlc.net.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rblsmtpd-0.70

@@ -3,7 +3,7 @@
 # Date created:		1 April 1995
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       qpopper2.53

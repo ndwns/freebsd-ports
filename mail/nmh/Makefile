@@ -3,7 +3,7 @@
 # Date created:		07 Feb 1999
 # Whom:			Scott Blachowicz <Scott.Blachowicz@seaslug.org>
 #
-# $Id$
+# $FreeBSD$
 #
 # Makefile variables of interest:
 #

@@ -3,7 +3,7 @@
 # Date created:				18 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	glbiff-0.2.11

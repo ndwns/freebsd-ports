@@ -3,7 +3,7 @@
 # Date created:		17 January 1998
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	smtpfeed-1.00

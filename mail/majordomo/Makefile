@@ -3,7 +3,7 @@
 # Date created:		23 October 1996
 # Whom:			jfitz@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	majordomo-1.94.4

@@ -3,7 +3,7 @@
 # Date created:		24 September 1994
 # Whom:			adam
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       procmail-3.13.1

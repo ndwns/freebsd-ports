@@ -3,7 +3,7 @@
 # Date created:         20 Jan 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       PGPsendmail-v1.4

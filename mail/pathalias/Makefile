@@ -3,7 +3,7 @@
 # Date created:		03 Dec 1997
 # Whom:			dirk.meyer@dinoex.sub.org
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	pathalias11
 PKGNAME=	pathalias-9.11

@@ -3,7 +3,7 @@
 # Date Created:	21 August 1996
 # Whom:	Andrew Stevenson <andrew@ugh.net.au> based heavily on the changes by Stephen Melvin <melvin@zytek.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pwserve-4

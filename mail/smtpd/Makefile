@@ -3,7 +3,7 @@
 # Date created:			06 Feb 1998
 # Whom:				Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=      smtpd-2.0

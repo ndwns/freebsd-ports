@@ -3,7 +3,7 @@
 # Date created:		15 July 1997
 # Whom:			Stephen Roznowski <sjr1@flash.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmail_1.6

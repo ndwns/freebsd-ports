@@ -3,7 +3,7 @@
 # Date created:		09 July 1998
 # Whom:			Adrian Penisoara <ady@freebsd.ady.ro>
 #
-# $Id$
+# $FreeBSD$
 #
 # The changes to ?= on some of these lines is required for the
 # pine4-ssl port. Also, please mirror changes to the files/

@@ -3,7 +3,7 @@
 # Date created:		7 Jun 1997
 # Whom:			igor@zynaps.ru
 #
-# $Id$
+# $FreeBSD$
 #
 # NOTE: APOP works only for virtual hosts as designed!
 #       Virtual hosts works only with Berkeley DB2.

@@ -3,7 +3,7 @@
 # Date created:		16 November 1998
 # Whom:			Tom Hukins <tom@eborcom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	maildrop-0.63

@@ -3,7 +3,7 @@
 # Date created:	20 March 1997
 # Whom:		dlowe
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bulk_mailer-1.12

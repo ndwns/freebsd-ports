@@ -4,7 +4,7 @@
 # Date created:		23-Aug-1995
 # Whom:                 David O'Brien <obrien@cs.ucdavis.edu>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xlbiff-3.0
 CATEGORIES=	mail

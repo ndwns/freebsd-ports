@@ -3,7 +3,7 @@
 # Date released:		1 Jan 97
 # Whom:				Peter Wemm <peter@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 # "?=" lines are for sharing this Makefile with japanese/exmh2.

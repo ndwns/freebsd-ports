@@ -3,7 +3,7 @@
 # Date created:			Wed Aug 13 18:34:14 CEST 1997
 # Whom:				Andreas Klemm <andreas@klemm.gtn.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	majorcool-1.30

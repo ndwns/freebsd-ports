@@ -4,7 +4,7 @@
 # Date created:		30 June 1996
 # Whom:			gena
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xfmail-1.3

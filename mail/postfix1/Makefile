@@ -3,7 +3,7 @@
 # Date created:		18 Mar 1999
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	postfix-19990601

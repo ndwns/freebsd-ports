@@ -3,7 +3,7 @@
 # Date created:		17 Oct 1994
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mm2.7

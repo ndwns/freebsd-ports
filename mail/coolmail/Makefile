@@ -3,7 +3,7 @@
 # Date created:			Mon  6 Jul 12:00:06 CEST 1998
 # Whom:				Udo Schweigert <ust@cert.siemens.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	coolmail-1.3

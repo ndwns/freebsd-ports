@@ -3,7 +3,7 @@
 # Date created:		2 November 1998
 # Whom:			Tom Hukins <tom@eborcom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	serialmail-0.75

@@ -3,7 +3,7 @@
 # Date created:		23 June 1996
 # Whom:			markm@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	exim-3.03

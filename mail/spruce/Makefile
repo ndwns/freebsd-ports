@@ -3,7 +3,7 @@
 # Date created:		05 June 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	spruce-0.4.8c

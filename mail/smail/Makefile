@@ -3,7 +3,7 @@
 # Date created:		16 Oct 1994
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	smail-3.2.0.106

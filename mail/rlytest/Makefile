@@ -3,7 +3,7 @@
 # Date created:		16 January 1999
 # Whom:			Paul Chvostek <paul@it.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rlytest

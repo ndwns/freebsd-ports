@@ -3,7 +3,7 @@
 # Date created:		25 May 1998
 # Whom:			Mario S F Ferreira <lioux@gns.com.br> et al.
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qmail-1.03

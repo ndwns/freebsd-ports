@@ -3,7 +3,7 @@
 # Date created:			28 Mar 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	WMPop3-0.5.6a

@@ -3,7 +3,7 @@
 # Date created:        29 May 1998
 # Whom:                Murray Stokely <murray@cdrom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mailcrypt-3.4

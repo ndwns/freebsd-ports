@@ -4,7 +4,7 @@
 # Whom:			Lars Koeller <Lars_Koeller@odie.physik2.uni-rostock.de>
 #			Andreas Klemm <andreas@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	faces-1.6.1

@@ -3,7 +3,7 @@
 # Date created:				April 27th 1998
 # Whom:	      				Eivind Eklund <eivind@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	MIME-tools-4.122

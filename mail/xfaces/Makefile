@@ -5,7 +5,7 @@
 # With some 
 # modifications from:	Andreas Klemm <andreas@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xfaces-3.3

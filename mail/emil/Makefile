@@ -3,7 +3,7 @@
 # Date created:		21 April 1998
 # Whom:			Josh Gilliam <josh@quick.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	emil-2.1.0-beta9

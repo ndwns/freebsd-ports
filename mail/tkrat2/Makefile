@@ -3,7 +3,7 @@
 # Date created:		24 October 1997
 # Whom:			Bruce Gingery <bgingery@gtcs.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkrat-1.2

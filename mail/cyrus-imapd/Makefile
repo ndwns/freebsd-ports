@@ -3,7 +3,7 @@
 # Date created:					May 4th 1997
 # Whom:						jfitz@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cyrus-imapd-v1.5.19

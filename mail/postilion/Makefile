@@ -3,7 +3,7 @@
 # Date created:		20 February 1999
 # Whom:			Glenn Johnson <gljohns@bellsouth.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	postilion-0.9.2

@@ -4,7 +4,7 @@
 # Date created:         Thur July 25, 1996
 # Whom:                 David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	mutt-0.95.7i
 PKGNAME=	mutt-0.95.7

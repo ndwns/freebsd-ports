@@ -3,7 +3,7 @@
 # Date created:		13 November 1997
 # Whom:			Kiriyama Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	im-100

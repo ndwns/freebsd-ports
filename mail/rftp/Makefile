@@ -3,7 +3,7 @@
 # Date created:			13 Dec, 1997
 # Whom:				kline
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rftp-1.2

@@ -4,7 +4,7 @@
 # Date created:			09 Aug 1996
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	youbin-2.13
