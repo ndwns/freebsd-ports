@@ -22,7 +22,7 @@ GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS=        i386--freebsd --with-x-toolkit \
 		--canna --canna-libraries=/usr/local/lib \
-		--canna-includes=/usr/local/canna/include --terminal-face \
+		--canna-includes=/usr/local/include --terminal-face \
 		--locallisppath=${PREFIX}/lib/mule/site-lisp:${PREFIX}/share/emacs/site-lisp
 STRIP=
 
