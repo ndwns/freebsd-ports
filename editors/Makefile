@@ -11,6 +11,8 @@
     SUBDIR += asedit
     SUBDIR += axe
     SUBDIR += beav
+    SUBDIR += bitmap-emacs20
+    SUBDIR += bitmap-mule
     SUBDIR += bpatch
     SUBDIR += cooledit
     SUBDIR += custom-emacs

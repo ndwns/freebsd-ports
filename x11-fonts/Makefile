@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Xg
+    SUBDIR += bitmap-font
     SUBDIR += etlfonts
     SUBDIR += freefonts
     SUBDIR += getbdf
