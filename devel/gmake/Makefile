@@ -14,4 +14,9 @@ MASTER_SITES=   ${MASTER_SITE_GNU}
 GNU_CONFIGURE=	yes
 MAN1=		gmake.1
 
+# joerg@freebsd.org says our getloadavg() no longer requires setgid kmem
+post-install:
+	/bin/chmod g-s ${PREFIX}/bin/gmake
+	/usr/bin/chgrp ${BINGRP} ${PREFIX}/bin/gmake
+
 .include <bsd.port.mk>
