@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xsysinfo
-# Version required:	1.3
+# Version required:	1.4
 # Date created:		4 April 1996
 # Whom:			jdli
 #
 # $Id$
 #
 
-DISTNAME=	xsysinfo-1.3
+DISTNAME=	xsysinfo-1.4
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://freebsd.csie.nctu.edu.tw/pub/jdli/source/
 
