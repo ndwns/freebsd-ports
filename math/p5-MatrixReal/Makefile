@@ -13,7 +13,7 @@ MASTER_SITE_SUBDIR=	Math
 
 MAINTAINER=	sander@haldjas.folklore.ee
 
-#USE_PERL5=	YES
+USE_PERL5=	YES
 
 MANPREFIX=	${PREFIX}/lib/perl5
 MAN3=	Math::MatrixReal.3 Math::Kleene.3
