@@ -8,6 +8,7 @@
     SUBDIR += Wnn6-lib
     SUBDIR += a2ps
     SUBDIR += ack
+    SUBDIR += acroread-jpnfont
     SUBDIR += binder
     SUBDIR += bookview
     SUBDIR += camltk41
