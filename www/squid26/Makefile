@@ -65,7 +65,12 @@ MAKEFILE=	makefile
 
 post-install:
 	cd ${WRKSRC}/src; make install-pinger
-.for file in cachemgr.cgi client dnsserver pinger squid
+.for file in client squid
+	if [ -f ${PREFIX}/sbin/${file} ] ; then \
+		strip ${PREFIX}/sbin/${file} ; \
+	fi
+.endfor
+.for file in cachemgr.cgi dnsserver pinger unlinkd
 	if [ -f ${PREFIX}/sbin/${file} ] ; then \
 		strip ${PREFIX}/sbin/${file} ; \
 	fi
