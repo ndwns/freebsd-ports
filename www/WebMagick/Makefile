@@ -21,8 +21,7 @@ CONFIGURE_ENV=  webmagick_cv_rootpath=${PREFIX}/www/data \
 		webmagick_cv_htimage="" \
 		webmagick_cv_maptype=ncsa
 
-RUN_DEPENDS=    ${PREFIX}/lib/libMagick.a:${PORTSDIR}/graphics/ImageMagick \
-		${PREFIX}/lib/perl5/site_perl/i386-freebsd/auto/Image/Magick/Magick.so:${PORTSDIR}/graphics/p5-PerlMagick
+RUN_DEPENDS=    ${PREFIX}/lib/perl5/site_perl/i386-freebsd/auto/Image/Magick/Magick.so:${PORTSDIR}/graphics/p5-PerlMagick
 
 post-install:
 		cd ${WRKSRC}; \
