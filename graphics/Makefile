@@ -13,6 +13,7 @@
     SUBDIR += dore
     SUBDIR += fbm
     SUBDIR += fli2gif
+    SUBDIR += fnlib
     SUBDIR += fxtv
     SUBDIR += gd
     SUBDIR += geomview
