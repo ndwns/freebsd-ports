@@ -17,7 +17,11 @@ RUN_DEPENDS= 	mpg123:${PORTSDIR}/audio/mpg123
 
 USE_GMAKE=	yes
 
-WRKSRC=	${WRKDIR}/cmp3
+WRKSRC=		${WRKDIR}/cmp3
+PKGMESSAGE=	${WRKSRC}/MESSAGE
+.if defined(NOPORTDOCS)
+PLIST=		${PKGDIR}/PLIST.nodocs
+.endif
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cmp3 ${PREFIX}/bin
@@ -28,6 +32,9 @@ do-install:
 .endif
 
 post-install:
-	@${CAT} ${PKGDIR}/MESSAGE
+.if !defined(NOPORTDOCS)
+	@${SED} 's,PREFIX,${PREFIX},' ${PKGDIR}/MESSAGE > ${WRKSRC}/MESSAGE
+	@${CAT} ${WRKSRC}/MESSAGE
+.endif
 
 .include <bsd.port.mk>
