@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	makeindex-3.0.8
-PKGNAME=	makeindex-3.0.8
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.th-darmstadt.de/pub/tex/src/makeindex/BETA/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
 
+WRKSRC=		${WRKDIR}/makeindex
 MAN1=		makeindex.1
 
 do-build: 
@@ -22,8 +22,6 @@ do-build:
 
 do-install: 
 	@${MKDIR} ${PREFIX}/lib/texmf/makeindx
-	@${MKDIR} ${PREFIX}/bin
-	@${MKDIR} ${PREFIX}/man/man1
 	@(cd ${WRKSRC}/src-3.0/regexp; make)
 	@(cd ${WRKSRC}/src-3.0; make install)
 	@(cd ${WRKSRC}/doc; \
