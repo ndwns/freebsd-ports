@@ -17,7 +17,12 @@ USE_IMAKE=	yes
 
 post-extract:
 	@${RM} -rf ${WRKSRC}/X11
-	@ln -sf exports/include ${WRKSRC}/X11
+
+post-configure:
+	@${ECHO_MSG} "*********************************************************************"
+	@${ECHO_MSG} "* Don't worry about the warning messages above, the port will build *"
+	@${ECHO_MSG} "*********************************************************************"
+	@cd ${WRKSRC}/exports/include/X11/neXtaw; ln -sf ../../../../*.h .
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
