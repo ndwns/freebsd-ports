@@ -7,7 +7,7 @@
 #
 
 DISTNAME=     	greed
-PKGNAME=	greed-0.652
+PKGNAME=	greed-0.665
 CATEGORIES=	net
 MASTER_SITES=	http://www.public.asu.edu/~arturner/
 
