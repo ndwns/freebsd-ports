@@ -105,6 +105,7 @@
     SUBDIR += vfghostscript
     SUBDIR += vfghostscript5
     SUBDIR += vflib
+    SUBDIR += vftool
     SUBDIR += vfxdvi
     SUBDIR += w3
     SUBDIR += weblint97
