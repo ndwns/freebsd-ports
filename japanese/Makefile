@@ -2,6 +2,6 @@
 #
 # restricted: none
 #
-SUBDIR= Canna Wnn kterm nkf
+SUBDIR= Canna Wnn kterm less nkf
 
 .include <bsd.port.subdir.mk>
