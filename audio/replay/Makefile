@@ -1,24 +1,22 @@
 # New ports collection makefile for:	replay
-# Version required:		0.58
+# Version required:		0.61
 # Date created:			Oct 27 1998
 # Whom:				Vanilla Pooh Shu <vanilla@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	replay-source-dgtk_0.58
-PKGNAME=	replay-0.58
+DISTNAME=	replay-source-dgtk_0.61
+PKGNAME=	replay-0.61
 CATEGORIES=	audio
 MASTER_SITES=	http://replay.linuxpower.org/files/
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
-		esd.1:${PORTSDIR}/audio/esound
+LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel \
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-esd
 CONFIGURE_ENV=	LIBS="-L${PREFIX}/lib"
 
 do-install:
