@@ -15,5 +15,6 @@ MAINTAINER=	markm@FreeBSD.ORG
 
 USE_X11=	yes
 IGNOREFILES=	${DISTFILES}
+WRKSRC=		${WRKDIR}/pub/bsd-sources/4.4BSD-Lite/usr/src/games/xneko
 
 .include <bsd.port.mk>
