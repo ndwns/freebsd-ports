@@ -88,6 +88,7 @@
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += sendfile
+    SUBDIR += sirc
     SUBDIR += slirp
     SUBDIR += sniffit
     SUBDIR += socks5
