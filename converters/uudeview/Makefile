@@ -16,6 +16,7 @@ MAINTAINER=	ac199@freenet.hamilton.on.ca
 
 BUILD_DEPENDS=	${PREFIX}/lib/libuu.a:${PORTSDIR}/devel/uulib
 
+FILESDIR=	${.CURDIR}/../../devel/uulib/files
 GNU_CONFIGURE=	Yes
 CONFIGURE_ARGS+=        --enable-inews=${PREFIX}/news/lib/inews \
 			--disable-tcl

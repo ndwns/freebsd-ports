@@ -19,6 +19,7 @@ LIB_DEPENDS=    tk41\\.1\\.:${PORTSDIR}/x11/tk41
 BUILD_DEPENDS=	${LOCALBASE}/lib/libuu.a:${PORTSDIR}/devel/uulib
 #LIB_DEPENDS=	uu\\.1\\.:${PORTSDIR}/devel/uulib
 
+FILESDIR=	${.CURDIR}/../../devel/uulib/files
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 ALL_TARGET=	xdeview
