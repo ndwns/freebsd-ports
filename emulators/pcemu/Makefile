@@ -34,5 +34,6 @@ MASTER_SITES+=	ftp://ftp.cs.bris.ac.uk/pub/users/hedley/
 MAINTAINER=	joerg@FreeBSD.org
 
 USE_XLIB=	yes
+MAKE_ENV=	FILESDIR=${FILESDIR}
 
 .include <bsd.port.mk>
