@@ -8,5 +8,6 @@
 DISTNAME=       xmj
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/demos/
 USE_IMAKE=	yes
+NO_INSTALL_MANPAGES= yes
 
 .include <bsd.port.mk>
