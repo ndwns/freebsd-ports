@@ -9,7 +9,7 @@
 DISTNAME=	tcl8.1a2
 PKGNAME=	tcl-8.1.a2
 CATEGORIES=	lang tcl81
-MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/tcl8_1/
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
