@@ -37,6 +37,7 @@
     SUBDIR += oonsoo
     SUBDIR += qcc
     SUBDIR += quakeserver
+    SUBDIR += seabattle
     SUBDIR += sokoban
     SUBDIR += spider
     SUBDIR += starlanes
