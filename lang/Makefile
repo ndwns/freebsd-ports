@@ -35,7 +35,6 @@
     SUBDIR += swi-pl
     SUBDIR += tcl
     SUBDIR += tcl74
-    SUBDIR += tcl75
     SUBDIR += tclX
     SUBDIR += tclX74
     SUBDIR += tclX75
