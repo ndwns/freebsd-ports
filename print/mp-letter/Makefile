@@ -16,7 +16,6 @@ MAINTAINER=	obrien@FreeBSD.org
 
 MANUAL_PACKAGE_BUILD=	PAPERSIZE has to be set to letter a4
 WRKSRC=		${WRKDIR}/mp
-USE_GMAKE=	yes
 MAN1=		mp.1
 
 .if !defined(PAPERSIZE)
