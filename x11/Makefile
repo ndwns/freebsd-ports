@@ -90,7 +90,6 @@
     SUBDIR += xmove
     SUBDIR += xprompt
     SUBDIR += xscreensaver
-    SUBDIR += xshodou
     SUBDIR += xskyroot
     SUBDIR += xsnow
     SUBDIR += xstarroll

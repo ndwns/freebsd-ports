@@ -215,6 +215,7 @@
     SUBDIR += xklock
     SUBDIR += xnetmaj
     SUBDIR += xshodo
+    SUBDIR += xshodou
     SUBDIR += xv
     SUBDIR += yatex
     SUBDIR += yatex-xemacs
