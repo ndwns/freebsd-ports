@@ -6,9 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	cgoban-1.9.2
+DISTNAME=	cgoban-1.9.5
 CATEGORIES=	games
-MASTER_SITES=	ftp://igs.nuri.net/Go/igs_clients/Unix/
+MASTER_SITES=	http://www.hevanet.com/wms/comp/cgoban/ \
+		ftp://igs.joyjoy.net/Go/igs_clients/Unix/
 
 MAINTAINER=	simonm@dcs.gla.ac.uk
 
