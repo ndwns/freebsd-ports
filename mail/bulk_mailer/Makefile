@@ -14,6 +14,8 @@ MAINTAINER=	dlowe@saturn5.com
 
 MAN1=		bulk_mailer.1
 
+BROKEN_ELF=	-s: not found
+
 WRKSRC=	${WRKDIR}/bulk_mailer
 #EXTRACT_BEFORE_ARGS=	-C ${WRKDIR} -xf
 
