@@ -1,12 +1,12 @@
 # New ports collection makefile for:   cim
-# Version required:		1.84
+# Version required:		1.92
 # Date created:			21 Sept 1996
 # Whom:				Pedro
 #
 # $Id$
 #
 
-DISTNAME=	cim-1.84
+DISTNAME=	cim-1.92
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ifi.uio.no/pub/cim/  \
 		ftp://ftp.fenk.wau.nl/pub/lang/simula/compilers/cim/
