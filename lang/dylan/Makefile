@@ -9,8 +9,17 @@
 DISTNAME=	gd-2.2.0
 PKGNAME=	dylan-2.2.0
 CATEGORIES=	lang
-MASTER_SITES=	ftp://berlin.ccc.de/pub/gd/src/ \
-		ftp://berlin.ccc.de/pub/gd/FreeBSD/
+MASTER_SITES=	ftp://berlin.ccc.de/pub/gd/src/                        \
+		ftp://berlin.ccc.de/pub/gd/FreeBSD/                    \
+		http://www.nectar.com/distfiles/                       \
+		ftp://folk.federated.com/pub/gd/src/                   \
+		ftp://folk.federated.com/pub/gd/FreeBSD/               \
+		ftp://ftp.ntua.gr/pub/lang/gwydion/src/                \
+		ftp://ftp.ntua.gr/pub/lang/gwydion/FreeBSD/            \
+		ftp://ftp.infodrom.north.de/pub/unix/language/dylan/gwydion/src/ \
+		ftp://ftp.infodrom.north.de/pub/unix/language/dylan/gwydion/FreeBSD/ \
+		ftp://ftp.fu-berlin.de/pub/unix/languages/dylan/src/   \
+		ftp://ftp.fu-berlin.de/pub/unix/languages/dylan/FreeBSD/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} d2c-2.2.0-FreeBSD.gz
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
