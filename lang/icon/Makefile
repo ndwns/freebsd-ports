@@ -8,7 +8,7 @@
 
 DISTNAME=       icon-9.0
 DISTFILES=	unix_tar.gz
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://cs.arizona.edu/icon/packages/unix/
 
 PATCH_STRIP=	-p1

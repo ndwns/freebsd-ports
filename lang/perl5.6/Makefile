@@ -8,7 +8,7 @@
 
 DISTNAME=		perl5.001m
 PKGNAME=		perl-5.001
-CATEGORIES+=            languages development programming
+CATEGORIES+=            lang devel
 MASTER_SITES=           ftp://ftp.netlabs.com/pub/outgoing/perl5.0/ ftp://ftp.wpi.edu/perl5/
 
 MAINTAINER=	markm@FreeBSD.ORG

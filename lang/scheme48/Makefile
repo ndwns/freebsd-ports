@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	scheme48-0.36
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/s48/
 
 MAINTAINER= 	jmacd@FreeBSD.ORG

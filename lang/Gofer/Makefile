@@ -8,7 +8,7 @@
 
 DISTNAME =	gofer230a
 PKGNAME =	gofer-2.30a
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES =	ftp://cs.nott.ac.uk/nott-fp/languages/haskell/gofer/
 
 WRKSRC = ${WRKDIR}/src

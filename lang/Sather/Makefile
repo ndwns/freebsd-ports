@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       Sather-1.0.5
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/
 
 WRKSRC=		${WRKDIR}/Sather

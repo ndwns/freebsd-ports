@@ -8,7 +8,7 @@
 
 DISTNAME=       python1.2
 PKGNAME=        python-1.2
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://www.python.org/pub/python/src/
 
 MAINTAINER=	jkh@FreeBSD.org

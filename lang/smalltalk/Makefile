@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	smalltalk-1.1.1
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	expect-5.16
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.cme.nist.gov/pub/expect/
 DISTFILES=	expect.tar.gz
 

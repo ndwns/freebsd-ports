@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       STk-2.1.7
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://kaolin.unice.fr/pub/
 
 MAINTAINER=	jmacd@FreeBSD.ORG

@@ -9,7 +9,7 @@
 
 DISTNAME=       gnat-2.03-src
 PKGNAME=        gnat-2.03
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=   ftp://cs.nyu.edu/pub/gnat/
 EXTRACT_SUFX=	.tar.gz
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ucblogo-3.3
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/GNU/
 
 MAINTAINER=	jmacd@FreeBSD.ORG

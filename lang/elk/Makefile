@@ -7,8 +7,8 @@
 #
 
 DISTNAME=       elk-3.0
-CATEGORIES+=	languages
-KEYWORDS+=	languages scheme
+CATEGORIES+=	lang
+KEYWORDS+=	lang scheme
 MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/devel_tools/ \
 		ftp://ftp.th-darmstadt.de/pub/X11/contrib/devel_tools/
 

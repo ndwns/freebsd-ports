@@ -8,7 +8,7 @@
 
 DISTNAME=	itcl-1.5
 HAS_CONFIGURE=	yes
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
 
 DEPENDS=	${PORTSDIR}/lang/tcl

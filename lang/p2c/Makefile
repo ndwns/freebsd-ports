@@ -8,7 +8,7 @@
 
 DISTNAME=	p2c-1.21alpha-07.Dec.93
 PKGNAME=	p2c-1.21a
-CATEGORIES+=	languages
+CATEGORIES+=	lang
 MASTER_SITES=	ftp://src.doc.ic.ac.uk/gnu/hurd/
 DISTFILES=	p2c-1.21alpha2.tar.gz
 
