@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.korsoft.com/pub/gicq/	\
 MAINTAINER=	flathill@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12	\
-		icq.0:${PORTSDIR}/devel/libicq
+		icq.0:${PORTSDIR}/net/libicq
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
