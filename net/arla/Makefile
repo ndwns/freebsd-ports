@@ -14,6 +14,10 @@ MAINTAINER=	thepish@freebsd.org
 
 #BUILD_DEPENDS=	/usr/lib/libkafs.a:/usr/src/kerberosIV/lib/libkafs
 
+.if !exists(/usr/src/sys/kern/vnode_if.src)
+BROKEN=		requires kernel source
+.endif
+
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>
