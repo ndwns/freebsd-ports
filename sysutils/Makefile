@@ -4,8 +4,9 @@
     SUBDIR += LPRng
     SUBDIR += afio
     SUBDIR += asrpages
-    SUBDIR += cdrecord
+    SUBDIR += bkpupsd
     SUBDIR += cd-write
+    SUBDIR += cdrecord
     SUBDIR += contool
     SUBDIR += idled
     SUBDIR += lsof
