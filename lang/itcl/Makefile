@@ -11,6 +11,5 @@ HAS_CONFIGURE=	yes
 MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
 PATCH_STRIP=	-p1
 DEPENDS=	${PORTSDIR}/lang/tcl ${PORTSDIR}/x11/tk
-DISTFILES=	itcl_1.5.tar.gz
 
 .include <bsd.port.mk>
