@@ -9,7 +9,7 @@
 DISTNAME=	tk8.1a2
 PKGNAME=	tk-8.1.a2
 CATEGORIES=	x11 tk81
-MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/
+MASTER_SITES=	ftp://ftp.scriptics.com/pub/tcl/
 
 MAINTAINER=	jseger@FreeBSD.ORG
 
