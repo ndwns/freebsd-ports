@@ -19,6 +19,8 @@ MASTER_SITES+=	ftp://ftp.gmd.de/if-archive/infocom/compilers/inform6/manuals/
 DISTFILES+=	designers_manual_html.zip
 .endif
 
+BROKEN=		fetch
+
 DIST_SUBDIR=	inform
 NO_WRKSUBDIR=	yes
 
