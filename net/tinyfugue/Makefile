@@ -11,9 +11,6 @@ PKGNAME=	tf-4.0s1
 CATEGORIES=	net games
 MASTER_SITES=	ftp://tf.tcp.com/pub/tinyfugue/ \
 		ftp://laurel.actlab.utexas.edu/pub/tinyfugue/ \
-		http://ftp.tcp.com/pub/mud/Clients/tinyfugue \
-		ftp://ftp.progsoc.uts.edu.au/pub/tinyfugue/ \
-		ftp://ftp.minet.uni-jena.de/pub/tf/ \
 		ftp://ftp.ci.uminho.pt/pub/mirrors/tinyfugue/
 
 MAINTAINER=	jseger@FreeBSD.org
