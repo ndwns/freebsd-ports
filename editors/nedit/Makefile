@@ -1,5 +1,5 @@
 # New ports collection makefile for:	nedit
-# Version required:			4.0.1
+# Version required:			5.0
 # Date created:				7 April 1996
 #
 # Whom:	Daniel Eischen <deischen@iworks.InterWorks.org>
@@ -7,10 +7,10 @@
 # $Id$
 #
 
-DISTNAME=	nedit-4.0.3
+DISTNAME=	nedit-5.0
 CATEGORIES=	editors x11
-MASTER_SITES=	ftp://ftp.fnal.gov/KITS/pub/nedit/v4_0_3/ \
-		ftp://ftp.fnal.gov/KITS/pub/nedit/v4_0_3/contrib/
+MASTER_SITES=	ftp://ftp.fnal.gov/KITS/pub/nedit/v5_0/ \
+		ftp://ftp.fnal.gov/KITS/pub/nedit/v5_0/contrib/
 DISTFILES=	nedit_source.tar.gz nedit.app-defaults 
 
 MAINTAINER=	deischen@iworks.InterWorks.org
