@@ -115,6 +115,7 @@
     SUBDIR += xbl
     SUBDIR += xblackjack
     SUBDIR += xblast
+    SUBDIR += xblood
     SUBDIR += xbloody
     SUBDIR += xboard
     SUBDIR += xboing
