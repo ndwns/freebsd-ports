@@ -8,6 +8,7 @@
     SUBDIR += automake
     SUBDIR += bcc
     SUBDIR += boehm-gc
+    SUBDIR += cccc
     SUBDIR += cflow
     SUBDIR += crossgo32
     SUBDIR += crossgo32-djgpp2
