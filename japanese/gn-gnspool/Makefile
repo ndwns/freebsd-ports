@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.omronsoft.co.jp/pub/misc/gn/
 
 MAINTAINER=	kiroh@kh.rim.or.jp
 
+BROKEN=		infinite loop
+
 WRKSRC=		${WRKDIR}/gn-1.36/src
 
 pre-configure:
