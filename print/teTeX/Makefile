@@ -28,7 +28,7 @@ TETEX_LIB=	teTeX-lib-0.4pl3.tar.gz
 WRKLIB=		${WRKDIR}/teTeX
 
 post-extract:
-	@cd ${WRKDIR} && gzip -dc ${DISTDIR}/${TETEX_LIB} | tar xf - 
+	@cd ${WRKDIR} && gzip -dc ${DISTDIR}/${DIST_SUBDIR}/${TETEX_LIB} | tar xf - 
 
 pre-install:
 	@chown -R bin:bin ${WRKLIB}/info ${WRKLIB}/man
