@@ -22,7 +22,18 @@ MAN6=		xmahjongg.6
 
 NO_CDROM=	"Restrictive copyright"
 
+.include <bsd.port.pre.mk>
+
 post-extract:
 	@${CP} ${WRKSRC}/xmahjongg.6 ${WRKSRC}/xmahjongg.man
 
-.include <bsd.port.mk>
+pre-install:
+.if !exists(${X11BASE}/lib/X11/fonts/local)
+	@${ECHO} "*********************************************************"
+	@${ECHO} "Please update your XFree86 to version 3.3.3 or later"
+	@${ECHO} "or add ${X11BASE}/lib/X11/fonts/local to your font path"
+	@${ECHO} "in /etc/XF86Config."
+	@${ECHO} "*********************************************************"
+.endif
+
+.include <bsd.port.post.mk>
