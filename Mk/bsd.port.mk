@@ -653,7 +653,11 @@ MAKEFILE?=		Makefile
 MAKE_ENV+=		PREFIX=${PREFIX} LOCALBASE=${LOCALBASE} X11BASE=${X11BASE} MOTIFLIB="${MOTIFLIB}" CFLAGS="${CFLAGS}" LIBDIR="${LIBDIR}"
 
 .if exists(/usr/bin/fetch)
+.if ${OSVERSION} < 300000
+FETCH_CMD?=		/usr/bin/fetch
+.else
 FETCH_CMD?=		/usr/bin/fetch -A
+.endif
 #FETCH_BEFORE_ARGS+=	$${CKSIZE:+-S $$CKSIZE}
 .else
 FETCH_CMD?=		/usr/bin/ftp
