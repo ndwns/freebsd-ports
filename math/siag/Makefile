@@ -8,12 +8,12 @@
 
 DISTNAME=	siag-2.80
 CATEGORIES=	math
-# Since 2.67 (latest version on 3/7/1998) is seriously broken, I asked
-# asami-san to put 2.80 into ftp.freebsd.org.  Thanks.
 MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tsiag-2.80.tar.gz
 
 MAINTAINER=	itojun@itojun.org
+
+LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11-toolkits/Xaw3d
 
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/siag
