@@ -43,12 +43,10 @@ SAMPLES=	README README.jp cloud.gif dad.eps dad.gif default.mgp \
 		sendmail6.mgp tutorial-jp.mgp tutorial.mgp v6-jp.mgp \
 		v6.mgp v6header.eps v6header.gif
 
+# NOTE: there are some discussions/twists in gzip'ing xmindpath.1.
 post-install:
 	(cd ${WRKSRC}/contrib/xmindpath; make install)
-.if !defined(NOMANCOMPRESS)
-	# why do we need this?
 	${GZIP_CMD} ${PREFIX}/man/man1/xmindpath.1
-.endif
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/mgp
 	for i in $(DOCS); do \
