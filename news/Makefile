@@ -14,6 +14,7 @@
     SUBDIR += plor
     SUBDIR += rkive
     SUBDIR += slnr
+    SUBDIR += slrn
     SUBDIR += slurp
     SUBDIR += suck
     SUBDIR += tin
