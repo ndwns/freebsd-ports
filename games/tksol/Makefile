@@ -1,7 +1,7 @@
 # New ports collection makefile for:    tksol
 # Version required:     1.0
 # Date created:         26 June 1995
-# Whom:                 thomas@ghpc8.ihf.rwth-aachen.de
+# Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ CATEGORIES=	games tk80
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/misc_software/tksol/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	tg@freebsd.org
+MAINTAINER=	tg@FreeBSD.ORG
 
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
