@@ -84,6 +84,7 @@
     SUBDIR += qcc
     SUBDIR += qstat
     SUBDIR += quakeserver
+    SUBDIR += rocksndiamonds
     SUBDIR += seabattle
     SUBDIR += seahaven
     SUBDIR += sokoban
