@@ -10,8 +10,7 @@
 DISTNAME=	dlx
 PKGNAME=	dlx-2.0
 CATEGORIES=	emulators
-MASTER_SITES=	ftp://max.stanford.edu/pub/hennessy-patterson.software/   \
-		ftp://ftp.cs.keio.ac.jp/pub/arch/hennessy-patterson.software/
+MASTER_SITES=	ftp://max.stanford.edu/pub/hennessy-patterson.software/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
