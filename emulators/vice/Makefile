@@ -26,6 +26,8 @@ CONFIGURE_ENV=	CFLAGS="${CFLAGS} -O3 -Wall -fomit-frame-pointer \
 CONFIGURE_ARGS=	--with-xaw3d
 
 MAN1=		vice.1 c1541.1 petcat.1
+MLINKS=		vice.1 x64.1	vice.1 xvic.1	vice.1 xpet.1 \
+		vice.1 recomment.1
 
 pre-build:
 	@${ECHO} "NOTE:  When compiling on FreeBSD some source files cause\
@@ -37,16 +39,5 @@ post-install:
 .for m in ${MAN1}
 	${INSTALL_MAN} ${WRKSRC}/../man/${m:S/.1$/.man/} ${PREFIX}/man/man1/$m
 .endfor
-.if defined(NOMANCOMPRESS)
-	${LN} -sf vice.1 ${PREFIX}/man/man1/x64.1
-	${LN} -sf vice.1 ${PREFIX}/man/man1/xvic.1
-	${LN} -sf vice.1 ${PREFIX}/man/man1/xpet.1
-	${LN} -sf vice.1 ${PREFIX}/man/man1/recomment.1
-.else
-	${LN} -sf vice.1.gz ${PREFIX}/man/man1/x64.1.gz
-	${LN} -sf vice.1.gz ${PREFIX}/man/man1/xvic.1.gz
-	${LN} -sf vice.1.gz ${PREFIX}/man/man1/xpet.1.gz
-	${LN} -sf vice.1.gz ${PREFIX}/man/man1/recomment.1.gz
-.endif
 
 .include <bsd.port.mk>
