@@ -6,10 +6,10 @@
 #   $Id$
 #
 
-DISTNAME=	sdr.V2.4a7n
+DISTNAME=	sdr-2.4a7n
 PKGNAME=	sdr-2.4a7
 CATEGORIES=	mbone tk80
-MASTER_SITES=	http://north.east.isi.edu/sdr/
+MASTER_SITES=	http://www-mice.cs.ucl.ac.uk/multimedia/software/sdr/2.4a7n/
 
 MAINTAINER=	fenner@FreeBSD.org
 
