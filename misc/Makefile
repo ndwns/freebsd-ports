@@ -36,6 +36,7 @@
     SUBDIR += less
     SUBDIR += lile
     SUBDIR += logsurfer
+    SUBDIR += lv
     SUBDIR += magicpoint
     SUBDIR += man.el
     SUBDIR += mc
