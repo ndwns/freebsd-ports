@@ -134,6 +134,7 @@
     SUBDIR += scogdb
     SUBDIR += sfio
     SUBDIR += stlport
+    SUBDIR += swarm
     SUBDIR += tclcheck
     SUBDIR += tkcvs
     SUBDIR += tkref
