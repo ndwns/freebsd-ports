@@ -20,6 +20,8 @@ DISTFILES=	${THOT_SRC} ${EDITOR_SRC}
 
 MAINTAINER=	ports@FreeBSD.org
 
+BROKEN= 'FUBARed'
+
 THOT_SRC=	thot-src-2.1e.tar.gz
 EDITOR_SRC=	thoteditor-src-2.1e.tar.gz
 
