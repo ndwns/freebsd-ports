@@ -93,32 +93,6 @@ EMACS_PORTSDIR=		${PORTSDIR}/editors/mule
 EMACS_COMMON_PORT=	YES
 EMACS_HAS_MULE=		YES
 
-# XEmacs-19.x
-.elif (${EMACS_PORT_NAME} == "xemacs")
-EMACS_NAME=		xemacs
-EMACS_VER=		19.16
-EMACS_MAJOR_VER=	19
-EMACS_LIBDIR?=		lib/${EMACS_NAME}
-EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
-EMACS_PORTSDIR=		${PORTSDIR}/editors/xemacs
-EMACS_COMMON_PORT=	NO
-EMACS_HAS_MULE=		NO
-# subdirectory of emacs core elisp files
-EMACS_CORE_SUBDIR=	prim
-
-# XEmacs-20.x
-.elif (${EMACS_PORT_NAME} == "xemacs20")
-EMACS_NAME=		xemacs
-EMACS_VER=		20.4
-EMACS_MAJOR_VER=	20
-EMACS_LIBDIR?=		lib/${EMACS_NAME}
-EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
-EMACS_PORTSDIR=		${PORTSDIR}/editors/xemacs20
-EMACS_COMMON_PORT=	NO
-EMACS_HAS_MULE=		NO
-# subdirectory of emacs core elisp files
-EMACS_CORE_SUBDIR=	prim
-
 # XEmacs-21.x
 .elif (${EMACS_PORT_NAME} == "xemacs21")
 EMACS_NAME=		xemacs
