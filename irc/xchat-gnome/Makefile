@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xchat
-# Version required:		1.1.0
+# Version required:		1.1.2
 # Date created:			17 Nov 1998
 # Whom:				Jim Mock <jim@phrantic.phear.net>
 #
 # $Id$
 #
 
-DISTNAME=	xchat-1.1.0
+DISTNAME=	xchat-1.1.2
 CATEGORIES=	irc
 MASTER_SITES=	http://xchat.org/files/beta/ \
 		http://xchat.linuxpower.org/files/beta/
@@ -22,7 +22,7 @@ USE_BZIP2=	yes
 USE_GMAKE=	yes
 USE_PERL5=	yes
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--disable-gnome --disable-panel
+CONFIGURE_ARGS=	--disable-gnome --disable-panel --disable-nls
 CONFIGURE_ENV=	GTK_CONFIG="${GTK_CONFIG}"
 
 post-install:
