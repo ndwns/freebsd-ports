@@ -4,7 +4,7 @@
  # $Id$
 -CFLAGS=		-Iutil -Wall -g
 -LDFLAGS=	-Lutil
-+CFLAGS=		-Iutil -DNDEBUG
++CFLAGS+=		-Iutil -DNDEBUG
 +LDFLAGS=	-Lutil -s
  
  # Uncomment the following for non-debug executables
