@@ -13,5 +13,10 @@ MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/moraes/
 
 post-install:
 	/sbin/ldconfig -m ${PREFIX}/lib
+.if !defined(NOPORTDOCS)
+	@${MKDIR} ${PREFIX}/share/doc/libmalloc
+	${INSTALL_DATA} ${WRKSRC}/malloc.doc ${PREFIX}/share/doc/libmalloc
+	${INSTALL_DATA} ${WRKSRC}/NOTE ${PREFIX}/share/doc/libmalloc
+.endif
 
 .include <bsd.port.mk>
