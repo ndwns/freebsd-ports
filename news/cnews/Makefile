@@ -15,16 +15,16 @@ EXTRACT_SUFX=	.tar.Z
 WRKSRC=		${WRKDIR}
 MAKEFILE=	makefile
 
-NEWSSPOOL=	/usr/local/newsspool
-NEWSBIN=	/usr/local/libexec/news
-NEWSLIB=	/usr/local/lib/news
-MANDIR=		/usr/local/man
+NEWSSPOOL=	${PREFIX}/newsspool
+NEWSBIN=	${PREFIX}/libexec/news
+NEWSLIB=	${PREFIX}/lib/news
+MANDIR=		${PREFIX}/man
 
 install: all
 	@echo "===>  installing for ${DISTNAME}"
-	mkdir -p /usr/local/include /usr/local/lib
-	cp {WRKSRC}/libdbz/dbz.h /usr/local/include
-	cp {WRKSRC}/libcnews.a /usr/local/lib
+	mkdir -p ${PREFIX}/include ${PREFIX}/lib
+	cp {WRKSRC}/libdbz/dbz.h ${PREFIX}/include
+	cp {WRKSRC}/libcnews.a ${PREFIX}/lib
 	mkdir -p ${NEWSSPOOL}
 	ln -s ${NEWSSPOOL} /var/news
 	mkdir -p ${NEWSBIN} ${NEWSLIB}
