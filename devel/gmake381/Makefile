@@ -1,17 +1,14 @@
 # New ports collection makefile for:	GNU make
-# Version required:	3.71
+# Version required:     3.73
 # Date created:		11 September 1994
 # Whom:			jkh
 #
 # $Id$
 #
 
-DISTNAME=	make-3.72.1
+DISTNAME=       make-3.73
 GNU_CONFIGURE=	yes
-# Commented out, often busy
-# MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
-# Mirror:
-MASTER_SITES=	ftp://ftp.uu.net/systems/gnu/
+MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
 CATEGORIES+=	development programming
 
 .include <bsd.port.mk>
