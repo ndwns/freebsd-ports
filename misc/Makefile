@@ -5,6 +5,7 @@
     SUBDIR += beav
     SUBDIR += chord
     SUBDIR += colorls
+    SUBDIR += git
     SUBDIR += ispell
     SUBDIR += kp
     SUBDIR += less
