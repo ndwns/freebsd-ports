@@ -35,6 +35,7 @@
     SUBDIR += gmake
     SUBDIR += id-utils
     SUBDIR += ilu
+    SUBDIR += jam
     SUBDIR += lclint
     SUBDIR += libdlmalloc
     SUBDIR += libmalloc
