@@ -5,6 +5,7 @@
    SUBDIR += inn
    SUBDIR += nn
    SUBDIR += nntp
+   SUBDIR += rkive
    SUBDIR += tin
    SUBDIR += trn
 
