@@ -17,7 +17,7 @@ USE_IMAKE=	yes
 XMKMF=		xmkmf
 NO_INSTALL_MANPAGES=yes
 
-RESTRICTED=	"The author ashames the quality of this version"
+RESTRICTED=	"The author\'s ashamed of the quality of this version"
 
 post-install:
 	@chmod 755 ${PREFIX}/bin/xpuyo
