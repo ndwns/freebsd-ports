@@ -86,6 +86,7 @@
     SUBDIR += xpostitPlus
     SUBDIR += xprompt
     SUBDIR += xscreensaver
+    SUBDIR += xskyroot
     SUBDIR += xsnow
     SUBDIR += xtacy
     SUBDIR += xtestpicture
