@@ -24,15 +24,7 @@ CXX=		g++28
 GCC28DIR=	lib/gcc-lib/i386-unknown-freebsd${OSREL}/2.8.1
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-PLIST=          ${WRKDIR}/PLIST.fixedup
-
-pre-install:
-	${SED} -e 's:%%GNUOSREL%%:${OSREL}:' \
-		-e 's:%%GCC28SUBDIR%%:${GCC28DIR}:' \
-		${PKGDIR}/PLIST > ${PLIST}
-	@# allow a boched ``make install'' to be re-tried
-	@${RM} -rf ${PREFIX}/include/g++
-	@${MKDIR} ${PREFIX}/include/g++
+PLIST_SUB=	GCC28SUBDIR=${GCC28DIR}
 
 post-install:
 	${RM} -rf ${PREFIX}/${GCC28DIR}/include/g++
