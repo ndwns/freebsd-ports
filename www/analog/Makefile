@@ -1,13 +1,14 @@
 # New ports collection makefile for: analog
-# Version required:     2.90beta4
+# http://www.statslab.cam.ac.uk/~sret1/analog/
+# Version required:     3.*
 # Date created:		October 21st 1996
 # Whom:			jfitz
 #
 # $Id$
 #
 
-DISTNAME=       analog3.0
-PKGNAME=        analog-3.0
+DISTNAME=       analog3.11
+PKGNAME=        analog-3.11
 CATEGORIES=	www
 MASTER_SITES=   http://www.statslab.cam.ac.uk/~sret1/analog/ \
 		http://www.lightside.net/analog/ \
