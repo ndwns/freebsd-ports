@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.xtorshun.org/spruce/
 
 MAINTAINER=	cpiazza@FreeBSD.org
 
+BROKEN='single master site is unreachable'
+
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 GNU_CONFIGURE=	yes
