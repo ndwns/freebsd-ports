@@ -15,8 +15,6 @@ MAINTAINER=	dburr@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-# WRKSRC=		${WRKDIR}/${PKGNAME}
-
 USE_GMAKE=	YES
 MAKEFILE=	makefile.unix
 
