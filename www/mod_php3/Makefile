@@ -72,6 +72,7 @@ CFLAGS+=	-O6 -funroll-loops -fstrength-reduce -fomit-frame-pointer \
 .endif
 
 CONFIGURE_ENV=	OPTIM='${OPTIM}' LIBS='-L${PREFIX}/lib'
+SCRIPTS_ENV=	WRKDIRPREFIX="${WRKDIRPREFIX}"
 
 INSTALL_TARGET=	install-quiet
 
