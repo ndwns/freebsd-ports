@@ -46,4 +46,7 @@ do-install:
 	tar -C ${PREFIX}/lib/fonts -xzf ${DISTDIR}/${DISTFILES}
 	@cp ${PKGDIR}/${RESOLUTION}.list ${PKGDIR}/PLIST 
 
+pre-clean:
+	@rm -f ${PKGDIR}/PLIST  # created by do-install above
+
 .include <bsd.port.mk>
