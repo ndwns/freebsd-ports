@@ -34,7 +34,6 @@
     SUBDIR += slirp
     SUBDIR += speak_freely
     SUBDIR += sup
-    SUBDIR += tclDP
     SUBDIR += telnetx
     SUBDIR += tintin++
     SUBDIR += tinyfugue
