@@ -9,6 +9,6 @@
 DISTNAME=       xcdplayer-2.2
 MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Sun/
 USE_IMAKE=      yes
-MAN1=		xcdplayer.1
+INSTALL_MANPAGES=     yes
 
 .include <bsd.port.mk>
