@@ -1,5 +1,5 @@
 # New ports collection makefile for:		cyrus
-# Version required:				1.5.2
+# Version required:				1.5.14
 # Date created:					May 4th 1997
 # Whom:						jfitz@FreeBSD.ORG
 #
