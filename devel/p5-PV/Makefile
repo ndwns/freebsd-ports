@@ -23,8 +23,8 @@ NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
 
 do-install:
-	${MKDIR} -p -m 755 ${PREFIX}/lib/perl5/site_perl
-	${INSTALL_DATA} ${WRKDIR}/PV.pm ${PREFIX}/lib/perl5/site_perl
-	${INSTALL_DATA} ${WRKDIR}/PerlVision.doc ${PREFIX}/lib/perl5/site_perl
+	${MKDIR} -m 755 ${PREFIX}/lib/perl5/site_perl/${PERL_VER}
+	${INSTALL_DATA} ${WRKDIR}/PV.pm ${PREFIX}/lib/perl5/site_perl/${PERL_VER}
+	${INSTALL_DATA} ${WRKDIR}/PerlVision.doc ${PREFIX}/lib/perl5/site_perl/${PERL_VER}
 
 .include <bsd.port.mk>
