@@ -13,7 +13,7 @@ MASTER_SITES=	http://replay.linuxpower.org/files/
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gtk11d.1:${PORTSDIR}/x11-toolkits/gtk11-devel
+LIB_DEPENDS=	gtk12.1:${PORTSDIR}/x11-toolkits/gtk12
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
