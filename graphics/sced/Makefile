@@ -10,7 +10,6 @@ DISTNAME=       sced-0.94
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.su.oz.au/stephen/sced/src/
 
-CONFIGURE=	true
 GNU_CONFIGURE=	true
 IS_INTERACTIVE=	true
 
