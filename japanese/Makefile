@@ -178,6 +178,7 @@
     SUBDIR += tcsh-nls-roomi
     SUBDIR += tcsh-nls-ruri2
     SUBDIR += tgif
+    SUBDIR += tgif2tex
     SUBDIR += tk42
     SUBDIR += tk80
     SUBDIR += today
