@@ -14,8 +14,6 @@ MASTER_SITES=	ftp://ftp.jimpick.com/pub/mirrors/gnome/sources/ \
 
 MAINTAINER=	Nakai@technologist.com
 
-BROKEN=	depends on BROKEN gnomelibs
-
 LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
 		guile.4:${PORTSDIR}/lang/guile
 
