@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Apache + mod_ssl
-# Version required:	1.3.3 + 2.0.15
+# Version required:	1.3.3 + 2.1.2
 # Date created:		Sat Aug 22 12:00:00 CDT 1998
 # Whom:			rse@engelschall.com
 #
@@ -32,7 +32,7 @@ BUILD_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay \
 RUN_DEPENDS=	ssleay:${PORTSDIR}/security/SSLeay
 
 VERSION_APACHE=	1.3.3
-VERSION_MODSSL=	2.0.15
+VERSION_MODSSL=	2.1.2
 
 RESTRICTED=	"Contains cryptography"
 
@@ -45,11 +45,11 @@ CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/apache \
 		--proxycachedir=${PREFIX}/www/proxy \
 		--libexecdir=${PREFIX}/libexec/apache \
 		--without-confadjust \
-		--enable-shared=remain \
 		--enable-module=most \
 		--enable-module=auth_db \
 		--disable-module=auth_dbm \
-		--enable-module=ssl
+		--enable-module=ssl \
+		--enable-shared=max
 
 OPTIM=\
 -DHARD_SERVER_LIMIT=512 \
@@ -75,7 +75,7 @@ KEY=
 pre-patch:
 	@cd ${WRKDIR}/mod_ssl-${VERSION_MODSSL}-${VERSION_APACHE} \
 	&& ${ECHO_MSG} "===>  Applying mod_ssl-${VERSION_MODSSL} extension" \
-	&& ./configure --with-apache=../${DISTNAME}
+	&& ./configure --with-apache=../${DISTNAME} --expert
 
 post-patch:
 	@cd ${WRKSRC} \
@@ -83,6 +83,8 @@ post-patch:
 
 post-build:
 	@cd ${WRKSRC} \
+	&& ${ECHO_MSG} "===>  Creating Dummy Certificate for Server (SnakeOil)" \
+	&& ${ECHO_MSG} "      [use 'make certificate' to create a real one]" \
 	&& ${MAKE} certificate TYPE=dummy >/dev/null 2>&1
 
 certificate:
