@@ -13,9 +13,6 @@ MASTER_SITE_SUBDIR=	games
 
 MAINTAINER=	tg@FreeBSD.ORG
 
-
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_X_PREFIX=	yes
