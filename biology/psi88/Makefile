@@ -8,7 +8,7 @@
 
 DISTNAME=	psi88
 PKGNAME=	psi88-1.0
-CATEGORIES=	misc biology
+CATEGORIES=	biology
 MASTER_SITES=	ftp://ccl.osc.edu/pub/chemistry/software/SOURCES/FORTRAN/psi88/
 EXTRACT_SUFX=	.tar.Z
 
