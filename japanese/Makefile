@@ -19,6 +19,7 @@
     SUBDIR += dvipsk-vflib
     SUBDIR += ebw3
     SUBDIR += edict
+    SUBDIR += elisa8x8
     SUBDIR += elvis
     SUBDIR += escpf
     SUBDIR += ewipe
