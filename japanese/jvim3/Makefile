@@ -10,8 +10,8 @@ DISTNAME=	vim
 PKGNAME?=	ja-jvim-3.0.1.3d
 CATEGORIES=	japanese editors
 MASTER_SITES=	ftp://dutepp0.et.tudelft.nl/pub/Unix/Editors/ \
-		http://spock.vector.co.jp/authors/VA003457/vim/vim3/1.3d/ \
-		http://www.freebsd.org/~kuriyama/distfiles/
+		http://www.freebsd.org/~kuriyama/distfiles/ \
+		http://spock.vector.co.jp/authors/VA003457/vim/vim3/1.3d/
 DISTFILES=	vim-3.0.tar.gz jvim.1.3d.tar.gz
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
