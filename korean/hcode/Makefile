@@ -1,16 +1,16 @@
 # New ports collection makefile for:    hcode
-# Version required:     2.1mailpatch2
+# Version required:     2.1mailpatch3
 # Date created:         31 Mar 1997
 # Whom:                 Choi Jun Ho <junker@jazz.snu.ac.kr>
 #
 # $Id$
 #
 
-DISTNAME=	hcode2.1-mailpatch2
-PKGNAME=	ko-hcode-2.1.2
+DISTNAME=	hcode2.1-mailpatch3
+PKGNAME=	ko-hcode-2.1.3
 CATEGORIES=	korean
-MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/code/hcode/ \
-		ftp://sunsite.kren.nm.kr/pub/packages/hangul/code/hcode/
+MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/incoming/ \
+		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/incoming/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
 
