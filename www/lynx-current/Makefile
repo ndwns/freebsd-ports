@@ -17,7 +17,8 @@ MAINTAINER=	ache@FreeBSD.ORG
 NO_LATEST_LINK=	YES
 WRKSRC=         ${WRKDIR}/lynx2-8-1
 GNU_CONFIGURE=  YES
-CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
+CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc" \
+		--enable-nsl-fork
 MAKEFILE=       makefile
 INSTALL_TARGET= install install-help
 MAN1=		lynx.1
