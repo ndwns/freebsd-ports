@@ -2,6 +2,7 @@
 #
 
     SUBDIR += bpl+
+    SUBDIR += conserver
     SUBDIR += ecu
     SUBDIR += hylafax
     SUBDIR += kermit
