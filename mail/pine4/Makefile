@@ -15,5 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 post-install:
 	gzip -9nf ${PREFIX}/man/man1/pine.1
 	gzip -9nf ${PREFIX}/man/man1/pico.1
+	gzip -9nf ${PREFIX}/man/man8/imapd.8c
+	gzip -9nf ${PREFIX}/man/man8/ipopd.8c
 
 .include <bsd.port.mk>
