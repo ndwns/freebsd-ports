@@ -20,8 +20,8 @@ ALL_TARGET=	all slrnpull
 MAN1=		slrn.1
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/objs/slrn ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/src/objs/slrnpull ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/src/${MACHINE_ARCH}objs/slrn ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/src/${MACHINE_ARCH}objs/slrnpull ${PREFIX}/bin
 	@${MKDIR} ${PREFIX}/share/examples/slrn
 	${INSTALL_DATA} ${WRKSRC}/doc/slrn.rc ${PREFIX}/share/examples/slrn
 	@${MKDIR} ${PREFIX}/share/examples/slrn/slrnpull
