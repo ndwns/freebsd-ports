@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	lsof_4.15_W
-PKGNAME=	lsof-4.15
+DISTNAME=	lsof_4.22_W
+PKGNAME=	lsof-4.22
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://vic.cc.purdue.edu/pub/tools/unix/lsof/  \
 		ftp://ftp.cert.dfn.de/pub/tools/admin/lsof/  \
