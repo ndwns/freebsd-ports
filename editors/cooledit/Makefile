@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cooledit-3.7.4
+DISTNAME=	cooledit-3.8.2
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/editors/X
