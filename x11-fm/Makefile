@@ -6,6 +6,7 @@
     SUBDIR += explorer
     SUBDIR += ezfm
     SUBDIR += filerunner
+    SUBDIR += gnomemc
     SUBDIR += jafm
     SUBDIR += offix-files
     SUBDIR += q3dmenu
