@@ -9,7 +9,7 @@
 DISTNAME=	ss_1.3.3
 PKGNAME=	ss-1.3.3
 CATEGORIES=	math
-MASTER_SITES=	http://www.ualberta.ca/~amulder/ss/
+MASTER_SITES=	http://www.irus.rri.on.ca/~amulder/ss/
 
 MAINTAINER=	giffunip@asme.org
 
