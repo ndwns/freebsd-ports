@@ -22,6 +22,8 @@ MAN8=		cnewsdo.8cn expire.8cn explode.8cn mergeactive.8 \
 		newsmaint.8cn newsoverview.8 relaynews.8cn report.8cn \
 		rnews.8cn
 
+BROKEN=		"Fails while installing bin/inews."
+
 NEWSSPOOL=	${PREFIX}/newsspool
 NEWSBIN=	${PREFIX}/news/cnewsbin
 NEWSLIB=	${PREFIX}/news/lib
