@@ -39,7 +39,6 @@
     SUBDIR += hypermail
     SUBDIR += ijb
     SUBDIR += libghttp
-    SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linbot
     SUBDIR += linemode
