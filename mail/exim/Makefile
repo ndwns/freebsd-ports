@@ -1,5 +1,5 @@
 # New ports collection makefile for:	exim
-# Version required:	2.12
+# Version required:	3.02
 # Date created:		23 June 1996
 # Whom:			markm@FreeBSD.ORG
 #
