@@ -9,7 +9,8 @@
 DISTNAME=	jove-4.16
 CATEGORIES+=	editors
 MASTER_SITES=	ftp://relay.cs.toronto.edu/pub/moraes/jove/
-EXTRACT_SUFX=	.tar.gz
+
+MAINTAINER=	erich@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/jove
 
