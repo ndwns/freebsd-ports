@@ -9,7 +9,7 @@ index:	${.CURDIR}/INDEX
 
 ${.CURDIR}/INDEX:
 	@echo -n "Generating INDEX - please wait.."
-	@make describe | sed -e '/===/D' > ${.CURDIR}/INDEX
+	@make describe ECHO_MSG="echo > /dev/null" > ${.CURDIR}/INDEX
 	@echo " Done."
 
 print-index:	${.CURDIR}/INDEX
