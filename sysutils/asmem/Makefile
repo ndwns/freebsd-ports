@@ -14,6 +14,11 @@ MAINTAINER=	jack@germanium.xtalwind.net
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} >= 400000
+BROKEN=		'Sorry, asmem doesn't compile on 4.0+'
+.endif
+
 USE_X_PREFIX=	yes
 
 MAKEFILE=	Makefile.UNIX
@@ -25,4 +30,4 @@ do-install:
 		${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} \
 			-g kmem -m 2755 ${WRKSRC}/asmem ${PREFIX}/bin
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
