@@ -10,6 +10,7 @@
     SUBDIR += an
     SUBDIR += angband
     SUBDIR += awele
+    SUBDIR += battalion
     SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
