@@ -5,6 +5,9 @@
     SUBDIR += apel-emacs
     SUBDIR += apel-emacs20
     SUBDIR += apel-mule
+    SUBDIR += apel-xemacs
+    SUBDIR += apel-xemacs20
+    SUBDIR += apel-xemacs-mule
     SUBDIR += asedit
     SUBDIR += axe
     SUBDIR += beav
