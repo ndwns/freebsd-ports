@@ -9,12 +9,12 @@
 DISTNAME=	xmul200b4
 PKGNAME=	xmulti-2.00b4
 CATEGORIES=	games
-MASTER_SITES=	http://cclub.cc.tut.ac.jp/~go/xmulti/
+MASTER_SITES=	http://www.denpa.org/~go/xmulti/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	toru@s-fine.co.jp
+MAINTAINER=	toru@tenchi.ne.jp
 
-WRKSRC=        ${WRKDIR}/xmulti200beta4
+WRKSRC=		${WRKDIR}/xmulti200beta4
 
 USE_IMAKE=	yes
 
