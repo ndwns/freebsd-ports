@@ -17,6 +17,8 @@ MAINTAINER=	Nakai@technologist.com
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		Imlib.1:${PORTSDIR}/graphics/imlib
 
+BROKEN=		fetch
+
 USE_X_PREFIX=	yes
 WRKSRC=		${WRKDIR}/gqview-0.5.0
 ALL_TARGET=	gqview
