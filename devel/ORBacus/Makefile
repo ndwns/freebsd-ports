@@ -17,20 +17,18 @@ MAINTAINER=	ejc@bazzle.com
 
 .if ${OSVERSION} >= 400000
 LIBSTDC=	/usr/lib/libstdc++.a
-CONFIGURE_ENV=	CXX=c++ CXXFLAGS="-O -pipe"
 .else
 .if ${PORTOBJFORMAT} == "elf"
-LIBSTDC=	${PREFIX}/lib/gcc-lib/${ARCH}-portbld-freebsd${OSREL}/2.95/libstdc++.a
+LIBSTDC=	${PREFIX}/lib/gcc-lib/${ARCH}-portbld-freebsd${OSREL}/2.95.1/libstdc++.a
 .else
-LIBSTDC=	${PREFIX}/lib/gcc-lib/${ARCH}-portbld-freebsdaout${OSREL}/2.95/libstdc++.a
+LIBSTDC=	${PREFIX}/lib/gcc-lib/${ARCH}-portbld-freebsdaout${OSREL}/2.95.1/libstdc++.a
 .endif
-
-BUILD_DEPENDS=  g++295:${PORTSDIR}/lang/egcs
-CONFIGURE_ENV=	CXX=g++295 CXXFLAGS="-O -pipe"
 .endif
 
 USE_XLIB=	yes
 HAS_CONFIGURE=	yes
+USE_NEWGCC=	yes
+CONFIGURE_ENV=	CXX="${CXX}" CXXFLAGS="${CXXFLAGS}"
 MAN1=		idl.1
 MLINKS=		idl.1 hidl.1	- irdel.1	- irfeed.1 \
 		- irgen.1	- irserv.1	- jidl.1
