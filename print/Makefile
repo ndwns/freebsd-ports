@@ -33,6 +33,7 @@
     SUBDIR += gp
     SUBDIR += gsfonts
     SUBDIR += gv
+    SUBDIR += hp2xx
     SUBDIR += html2latex
     SUBDIR += html2ps
     SUBDIR += jadetex
