@@ -19,6 +19,7 @@
     SUBDIR += kterm
     SUBDIR += less
     SUBDIR += mh
+    SUBDIR += mimekit
     SUBDIR += mule-canna
     SUBDIR += mule-wnn
     SUBDIR += nethack
