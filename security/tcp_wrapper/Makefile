@@ -1,12 +1,12 @@
 # New ports collection makefile for:	tcp_wrapper
-# Version required:	7.0
+# Version required:     7.2
 # Date created:		27 Oct 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	tcp_wrappers_7.0
+DISTNAME=       tcp_wrappers_7.2
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
 ALL_TARGET=	freebsd
 
