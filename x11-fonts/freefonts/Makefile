@@ -9,13 +9,13 @@
 DISTNAME=	freefonts-0.10
 CATEGORIES+=	x11
 MASTER_SITES=	ftp://scam.xcf.berkeley.edu/pub/gimp/
-NO_WRKSUBDIR=	yes
-USE_X11=	yes
 
 MAINTAINER=	erich@FreeBSD.org
+
+NO_WRKSUBDIR=	yes
+USE_X11=	yes
 
 post-install:
 	@cat ${PKGDIR}/DESCR
 
 .include <bsd.port.mk>
-
