@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	Convert
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
+BROKEN=		perl upgrade
+
 USE_PERL5=	YES
 
 MAN1=		puuencode.1 puudecode.1
