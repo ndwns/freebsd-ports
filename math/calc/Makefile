@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://ftp.cdrom.com/pub/bsd-sources/4.4BSD-Lite/usr/src/contrib/
 MAINTAINER=	jmz@FreeBSD.org
 
 MAN1=		calc.1
+IGNOREFILES=	${DISTFILES}	# "on-the-fly" creation of tarball
 
 pre-patch:
 	@cd ${WRKDIR} && mv pub/bsd-sources/4.4BSD-Lite/usr/src/contrib/calc-2.9.3t6 .
