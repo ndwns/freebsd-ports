@@ -18,7 +18,8 @@ LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 FETCH_BEFORE_ARGS=	-b
 USE_LIBTOOL=		yes
 CONFIGURE_ENV+=		CFLAGS="${CFLAGS} -I${LOCALBASE}/include"
-CONFIGURE_ARGS+=	--includedir=${PREFIX}/include/gd
+CONFIGURE_ARGS+=	--includedir=${PREFIX}/include/gd \
+			--libdir=${PREFIX}/lib
 
 pre-install:
 	${MKDIR} ${PREFIX}/include/gd
