@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.edu.stockholm.se/pub/siag/
 
 MAINTAINER=	itojun@itojun.org
 
+BROKEN=		fetch
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/siag
 CONF=	siag/data.scm siag/find.scm siag/keytable.scm siag/menu.scm \
