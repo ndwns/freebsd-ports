@@ -3,7 +3,6 @@
 
     SUBDIR += amanda
     SUBDIR += astrolog
-    SUBDIR += btoa
     SUBDIR += buffer
     SUBDIR += cal
     SUBDIR += chord
@@ -35,7 +34,6 @@
     SUBDIR += p5-Convert-UU
     SUBDIR += p5-Search
     SUBDIR += plan
-    SUBDIR += recode
     SUBDIR += rman
     SUBDIR += rpm
     SUBDIR += screen
@@ -44,7 +42,6 @@
     SUBDIR += tkcron
     SUBDIR += tkinfo
     SUBDIR += tkman
-    SUBDIR += trans
     SUBDIR += unclutter
     SUBDIR += xcalendar
     SUBDIR += xgas
