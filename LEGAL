@@ -25,3 +25,5 @@ xrisk-2.13.tar.Z	ports/games/xrisk	Copyright/trademark violation?
 xtetris-2.5.2.tar.gz	ports/games/xtetris	Possible trademark violation
 mmv/*			ports/utils/mmv		Restrictive/unclear copyright
 xv-3.10a.tar.gz		ports/graphics/xv	Restrective copyright
+irc-2.8.21.tar.gz	ports/net/irc		Restrictive copyright
+						in irc2.8.21/ircd/res.c
