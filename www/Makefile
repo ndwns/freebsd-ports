@@ -80,7 +80,6 @@
     SUBDIR += swish-e
     SUBDIR += tidy
     SUBDIR += transproxy
-    SUBDIR += urlget
     SUBDIR += vrweb
     SUBDIR += w3
     SUBDIR += w3c-httpd
