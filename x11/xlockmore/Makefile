@@ -19,6 +19,9 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --without-gl --without-motif --without-sx \
 		--without-editres --without-dtsaver --without-rplay \
 		--without-nas
+.if defined(MAKE_KERBEROS4)
+CONFIGURE_ARGS+= --enable-kerberos4
+.endif
 USE_X11=	yes
 MAN1=		xlock.1
 
