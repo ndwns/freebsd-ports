@@ -17,6 +17,7 @@ LIB_DEPENDS=	kdecore\\.0\\.11:${PORTSDIR}/x11/kdelibs
 RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 		kcalc:${PORTSDIR}/misc/kdeutils \
 		kmahjongg:${PORTSDIR}/games/kdegames \
+		kghostview:${PORTSDIR}/graphics/kdegraphics \
 		kmedia:${PORTSDIR}/audio/kdemultimedia \
 #		kmail:${PORTSDIR}/net/kdenetwork
 
