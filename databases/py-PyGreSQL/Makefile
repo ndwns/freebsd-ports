@@ -8,7 +8,7 @@
 
 DISTNAME=		PyGreSQL-2.1
 PKGNAME=		py-PyGreSQL-2.1
-CATEGORIES=		devel
+CATEGORIES=		databases
 MASTER_SITES=		ftp://ftp.druid.net/pub/distrib/
 EXTRACT_SUFX=		.tgz
 
