@@ -9,6 +9,9 @@
 
 CATEGORIES+=	security
 
+# Pick an initial default, else it doesn't get set in the INDEX.
+DISTNAME=	pgp262s
+
 MAINTAINER=	ache@FreeBSD.ORG
 WRKSRC=         ${WRKDIR}/src
 NO_PACKAGE=     YES
