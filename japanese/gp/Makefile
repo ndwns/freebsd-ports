@@ -7,7 +7,7 @@
 #
 
 PKGNAME=	ja-gp-2.5
-CATEGORIES=	print japanese
+CATEGORIES=	japanese
 
 LANGUAGE=	Japanese
 

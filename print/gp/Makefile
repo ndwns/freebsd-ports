@@ -8,7 +8,7 @@
 
 DISTNAME=	GP-2.5
 PKGNAME?=	gp-2.5
-CATEGORIES=	print tk42
+CATEGORIES+=	print tk42
 MASTER_SITES=	http://www.kamome.or.jp/hueda/GP/ \
 		ftp://www.neosoft.com/pub/tcl/sorted/print/GP-2.5/
 
