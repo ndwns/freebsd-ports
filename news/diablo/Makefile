@@ -65,9 +65,9 @@ post-install:
 	@ ${ECHO} "if [ -x ${PREFIX}/news/rc.news ]" >> \
 		${PREFIX}/etc/rc.d/diablo.sh
 	@ ${ECHO} "then" >> ${PREFIX}/etc/rc.d/diablo.sh
-	@ ${ECHO} "#	${PREFIX}/news/rc.news && echo -n ' diablo'" >> \
+	@ ${ECHO} "#	${PREFIX}/news/rc.news && ${ECHO} -n ' diablo'" >> \
 		${PREFIX}/etc/rc.d/diablo.sh
-	@ ${ECHO} "	echo -n ' diablo(disabled)'" >> \
+	@ ${ECHO} "	${ECHO} -n ' diablo(disabled)'" >> \
 		${PREFIX}/etc/rc.d/diablo.sh
 	@ ${ECHO} "fi" >> ${PREFIX}/etc/rc.d/diablo.sh
 	${CHMOD} 0750 ${PREFIX}/etc/rc.d/diablo.sh

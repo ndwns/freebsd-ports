@@ -48,9 +48,9 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/icons/*.xpm ${PREFIX}/include/X11/pixmaps/
 .else
 .if !defined(BATCH)
-		@echo "===>  Note: to use the hi-color icons,"
-		@echo "      reinstall this port with -DUSE_HICOLOR_ICONS"
-		@echo "      defined"
+		@${ECHO_MSG} "===>  Note: to use the hi-color icons,"
+		@${ECHO_MSG} "      reinstall this port with -DUSE_HICOLOR_ICONS"
+		@${ECHO_MSG} "      defined"
 .endif
 		@for file in AFstep.xpm penguin.xpm monitor_bsd.xpm; do \
 			${CP} ${FILESDIR}/$$file ${WRKSRC}/icons/8bit; \

@@ -57,9 +57,9 @@ LIBWWW_PREFIX?=	${LOCALBASE}
 TEXMF_TREE=	${PREFIX}/share/texmf
 
 pre-configure:
-	@echo
-	@echo "It will be ok if configure will complain about a missing texmf tree!"
-	@echo
+	@${ECHO_MSG}
+	@${ECHO_MSG} "It will be ok if configure will complain about a missing texmf tree!"
+	@${ECHO_MSG}
 
 pre-install:
 	@${MKDIR} ${TEXMF_TREE}
@@ -74,10 +74,10 @@ post-install:
 		${PREFIX}/bin/texconfig font ro > /dev/null 2>&1
 	@${SETENV} TEXMFMAIN=${TEXMF_TREE} \
 		${PREFIX}/bin/texconfig font options appendonlydir varfonts
-	@echo
-	@echo "You may want to run texconfig to configure teTeX for your"
-	@echo "local environment. You will find teTeX's local documentation"
-	@echo "in ${TEXMF_TREE}/doc/."
-	@echo
+	@${ECHO_MSG}
+	@${ECHO_MSG} "You may want to run texconfig to configure teTeX for your"
+	@${ECHO_MSG} "local environment. You will find teTeX's local documentation"
+	@${ECHO_MSG} "in ${TEXMF_TREE}/doc/."
+	@${ECHO_MSG}
 
 .include <bsd.port.mk>

@@ -28,7 +28,7 @@ do-extract:
 	@test -d ${WRKSRC} || ${MKDIR} ${WRKSRC}
 
 do-install:
-	@echo "Installing files"
+	@${ECHO_MSG} "Installing files"
 	@test -d ${base} || ${MKDIR} ${base}
 	@test -d ${rc} || ${MKDIR} ${rc}
 	@${INSTALL_DATA} ${WRKSRC}/config.sh ${base}

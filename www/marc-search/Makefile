@@ -31,8 +31,8 @@ MARC_LIBS= 	Marc.pm Marc/Form.pm Marc/Search.pm
 
 do-configure:
 .if !defined(PUB_HTML) || !defined(DOCROOT) || !defined(SCRIPTDIR)
-	@echo "You must tailor the port Makefile and set PUB_HTML, DOCROOT,"
-	@echo "and SCRIPTDIR to match your site configuration."
+	@${ECHO_MSG} "You must tailor the port Makefile and set PUB_HTML, DOCROOT,"
+	@${ECHO_MSG} "and SCRIPTDIR to match your site configuration."
 	@${FALSE}
 .else
 	${CP} ${FILESDIR}/marc-search.conf ${WRKSRC}/

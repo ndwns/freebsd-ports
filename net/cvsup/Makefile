@@ -24,8 +24,8 @@ MAN8=		cvsupd.8
 M3FLAGS+=	-DNOGUI
 .else
 pre-fetch:
-	@echo -n "To build this port without X11 (and without the GUI),"
-	@echo " define \"NO_X11\"."
+	@${ECHO_MSG} -n "To build this port without X11 (and without the GUI),"
+	@${ECHO_MSG} " define \"NO_X11\"."
 
 .endif
 

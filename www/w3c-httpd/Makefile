@@ -21,12 +21,12 @@ MAKE_ENV+=	PORTSDIR=${PORTSDIR}
 
 pre-configure:
 .if !defined(MD5_PW)
-	@echo ""
-	@echo "Defaulting to DES encrypted passwords."
-	@echo "Set the environment variable MD5_PW if you want MD5 encrypted passwords."
-	@echo ""
+	@${ECHO_MSG} ""
+	@${ECHO_MSG} "Defaulting to DES encrypted passwords."
+	@${ECHO_MSG} "Set the environment variable MD5_PW if you want MD5 encrypted passwords."
+	@${ECHO_MSG} ""
 .else
-	@echo "CFLAGS += -DMD5_PW" >> ${WRKDIR}/All/${OSNAME}/Makefile.include
+	@${ECHO} "CFLAGS += -DMD5_PW" >> ${WRKDIR}/All/${OSNAME}/Makefile.include
 .endif
 
 do-install:

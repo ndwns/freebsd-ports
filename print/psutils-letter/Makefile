@@ -41,11 +41,11 @@ PAPERSIZE_UNSPECIFIED=	yes
 
 pre-fetch:
 .if defined(PAPERSIZE_UNSPECIFIED)
-	@echo "Defaulting to ${PAPERSIZE} sized paper."
-	@echo ""
-	@echo "Set the environment variable PAPERSIZE if you want to use other sizes."
-	@echo "Possible values are:  A3, A4, A5, B5, letter, legal,"
-	@echo "   ledger, tabloid, statement, executive, folio, quarto, and 10x14."
+	@${ECHO_MSG} "Defaulting to ${PAPERSIZE} sized paper."
+	@${ECHO_MSG} ""
+	@${ECHO_MSG} "Set the environment variable PAPERSIZE if you want to use other sizes."
+	@${ECHO_MSG} "Possible values are:  A3, A4, A5, B5, letter, legal,"
+	@${ECHO_MSG} "   ledger, tabloid, statement, executive, folio, quarto, and 10x14."
 .endif
 
 .include <bsd.port.mk>

@@ -39,14 +39,14 @@ post-extract:
 	EXPMD5=`${GREP} MD5 README.${SRCBALL_NAME} | sed 's/^[ ]*//'` ; \
 	CALCMD5=`${MD5} ${SRCBALL_NAME}.tar` ; \
 	if [ "$${EXPMD5}"X != "$${CALCMD5}"X ]; then \
-		echo "Expected and calculated MD5 signatures don't agree." ; \
-		echo "($$EXPMD5 != $$CALCMD5)" ; \
+		${ECHO} "Expected and calculated MD5 signatures don't agree." ; \
+		${ECHO} "($$EXPMD5 != $$CALCMD5)" ; \
 		exit 1 ; \
 	fi ; \
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS:S/z//} ${SRCBALL_NAME}.tar \
 	${EXTRACT_AFTER_ARGS} \
 	)
-	@( cd ${WRKSRC} ; echo "y" | ./Inventory || exit 1 )
+	@( cd ${WRKSRC} ; ${ECHO} "y" | ./Inventory || exit 1 )
 
 #pre-patch:
 #	@${ECHO_MSG} "===>  Applying distribution patches for ${PKGNAME}"

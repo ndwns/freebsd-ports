@@ -32,7 +32,7 @@ pre-install:
 do-install:
 	@unzip -a -q -o ${DISTDIR}/${DISTFILES} -d ${INSTDIR}/3.1
 	@${INSTALL_DATA} ${FILESDIR}/catalog ${INSTDIR}/3.1/catalog
-	@echo "CATALOG \"${ISOCAT}\"" >> ${INSTDIR}/3.1/catalog
+	@${ECHO} "CATALOG \"${ISOCAT}\"" >> ${INSTDIR}/3.1/catalog
 	@${CHMOD} ${SHAREMODE} ${INSTDIR}/3.1/*
 	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
 

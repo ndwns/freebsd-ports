@@ -20,7 +20,7 @@ IS_INTERACTIVE=	yes
 MAN1=		trn.1 Pnews.1 Rnmail.1
 
 pre-configure:
-	@echo "===>  Running pre-configure target for ${DISTNAME}"
+	@${ECHO_MSG} "===>  Running pre-configure target for ${DISTNAME}"
 	@${SED} -e "s:__CC__:$(CC):" -e "s:__CFLAGS__:$(CFLAGS):" \
 		-e "s:/PREFIX:$(PREFIX):"  ${SCRIPTDIR}/preconf > \
 		${WRKDIR}/preconf.new

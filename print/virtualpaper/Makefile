@@ -28,7 +28,7 @@ do-build:
 	@cd ${WRKSRC}/editlectern; m3build
 
 do-install:
-	@echo "Installing files"
+	@${ECHO_MSG} "Installing files"
 	@cd ${WRKSRC}; \
 	    ${INSTALL_PROGRAM} \
 		lecternclient/FreeBSD2/LecternClient \
@@ -53,7 +53,7 @@ do-install:
 		${CHMOD} 755 ${PREFIX}/share/virtualpaper; \
 	    fi; \
 	    ${INSTALL_DATA} COPYRIGHT ${PREFIX}/share/virtualpaper
-	@echo "Stripping programs"
+	@${ECHO_MSG} "Stripping programs"
 	@cd ${PREFIX}/bin; \
 	    strip LecternClient Lectern BuildLectern EditLectern
 

@@ -21,8 +21,8 @@ do-fetch:
 do-install:
 	${GREP} -q -i koi8 ${PREFIX}/lib/elm.rc || \
 		( \
-		echo "charset=KOI8-R"; \
-		echo "displaycharset=KOI8-R"; \
+		${ECHO_MSG} "charset=KOI8-R"; \
+		${ECHO_MSG} "displaycharset=KOI8-R"; \
 		) >> \
 		${PREFIX}/lib/elm.rc
 

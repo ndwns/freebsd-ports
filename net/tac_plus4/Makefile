@@ -34,8 +34,8 @@ do-install:
 	${INSTALL_DATA} ${FILESDIR}/tac_plus.conf.example ${PREFIX}/etc/
 	@if [ ! -f ${PREFIX}/etc/rc.d/tac_plus.sh ]; then \
 		${ECHO} "Installing ${PREFIX}/etc/rc.d/tac_plus.sh startup file."; \
-		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/tac_plus.sh; \
-		echo "[ -x ${PREFIX}/sbin/tac_plus -a -f ${PREFIX}/etc/tac_plus.conf ] && ${PREFIX}/sbin/tac_plus -C ${PREFIX}/etc/tac_plus.conf && echo -n ' tac_plus'" >> ${PREFIX}/etc/rc.d/tac_plus.sh; \
+		${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/tac_plus.sh; \
+		${ECHO} "[ -x ${PREFIX}/sbin/tac_plus -a -f ${PREFIX}/etc/tac_plus.conf ] && ${PREFIX}/sbin/tac_plus -C ${PREFIX}/etc/tac_plus.conf && ${ECHO} -n ' tac_plus'" >> ${PREFIX}/etc/rc.d/tac_plus.sh; \
 		${CHMOD} 751 ${PREFIX}/etc/rc.d/tac_plus.sh; \
 	fi
 .if !defined(NOPORTDOCS)

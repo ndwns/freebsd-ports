@@ -19,7 +19,7 @@ NO_BUILD=	yes
 
 pre-install:
 	@${CAT} ${WRKSRC}/README.TXT
-	@echo ""
+	@${ECHO_MSG} ""
 
 do-install:
 	${MKDIR} ${PREFIX}/lib/mapedit

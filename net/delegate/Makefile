@@ -17,7 +17,7 @@ MAKE_ENV=	PATH=$${PATH}:.
 
 .if defined(BATCH)
 pre-build:
-	@echo "MANAGER=root@localhost" >> ${WRKSRC}/DELEGATE_CONF
+	@${ECHO} "MANAGER=root@localhost" >> ${WRKSRC}/DELEGATE_CONF
 .endif
 
 do-install:

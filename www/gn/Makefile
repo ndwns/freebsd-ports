@@ -35,18 +35,18 @@ post-install:
 	@cd ${PREFIX}; \
 	  [ -s etc/gn_mime.types ] && \
 	  if ! cmp -s etc/gn_mime.types ${WRKSRC}/etc/gn_mime.types; then \
-		echo mv etc/gn_mime.types etc/gn_mime.types.old; \
+		${ECHO} mv etc/gn_mime.types etc/gn_mime.types.old; \
 		mv etc/gn_mime.types etc/gn_mime.types.old; \
   	  fi; \
 	  [ -s gnroot/menu ] && \
 	  if ! cmp -s gnroot/menu ${WRKSRC}/gnroot/menu; then \
-		echo mv gnroot/menu gnroot/menu.old; \
+		${ECHO} mv gnroot/menu gnroot/menu.old; \
 		mv gnroot/menu gnroot/menu.old; \
 	  fi; \
 	  tar -cf - -C ${WRKSRC} gnroot libexec bin etc | tar xpf - && \
 		(cd gnroot; ${WRKSRC}/bin/mkcache -r); \
 	  ${AWK} '$$1 ~ /#*gopher/ && $$6 == "${PREFIX}/libexec/gn" { exit 1 }' \
-		${INETD_CONF} || { \ echo '#'gopher${CONF} >>${INETD_CONF}
+		${INETD_CONF} || { \ ${ECHO} '#'gopher${CONF} >>${INETD_CONF}
 	  }
 
 .include <bsd.port.mk>

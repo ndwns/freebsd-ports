@@ -26,26 +26,26 @@ post-patch:
 pre-install:
 .if defined(SQUID_UID) && defined(SQUID_GID)
 .if (${SQUID_UID} == "nobody") || (${SQUID_GID} == "nogroup")
-	@echo
-	@echo	'WARNING! You are going to install squirm files with either nobody owner or'
-	@echo	'nogroup group, which may be insecure.'
-	@echo
+	@${ECHO_MSG}
+	@${ECHO_MSG}	'WARNING! You are going to install squirm files with either nobody owner or'
+	@${ECHO_MSG}	'nogroup group, which may be insecure.'
+	@${ECHO_MSG}
 .endif
 .else
-	@echo
-	@echo 	'You should set SQUID_UID and SQUID_GID variables to your squid effective'
-	@echo	'user/group. For example: SQUID_UID=squid SQUID_GID=squid.'
-	@echo
+	@${ECHO_MSG}
+	@${ECHO_MSG} 	'You should set SQUID_UID and SQUID_GID variables to your squid effective'
+	@${ECHO_MSG}	'user/group. For example: SQUID_UID=squid SQUID_GID=squid.'
+	@${ECHO_MSG}
 	@${FALSE}
 .endif
 
 post-install:
-	@echo
-	@echo ' +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-	@echo '  You have to manually add "redirect_program ${PREFIX}/bin/squirm"'
-	@echo '  into your squid.conf file.'
-	@echo '  For help on configuring squirm try http://www.senet.com.au/squirm/'
-	@echo ' +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-	@echo
+	@${ECHO_MSG}
+	@${ECHO_MSG} ' +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+	@${ECHO_MSG} '  You have to manually add "redirect_program ${PREFIX}/bin/squirm"'
+	@${ECHO_MSG} '  into your squid.conf file.'
+	@${ECHO_MSG} '  For help on configuring squirm try http://www.senet.com.au/squirm/'
+	@${ECHO_MSG} ' +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+	@${ECHO_MSG}
 
 .include <bsd.port.mk>

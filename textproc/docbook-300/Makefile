@@ -31,7 +31,7 @@ pre-install:
 do-install:
 	@zcat ${DISTDIR}/docbk30.tar.Z |(cd ${INSTDIR}/3.0; pax -r)
 	@${INSTALL_DATA} ${FILESDIR}/catalog ${INSTDIR}/3.0/catalog
-	@echo "CATALOG \"${ISOCAT}\"" >> ${INSTDIR}/3.0/catalog
+	@${ECHO} "CATALOG \"${ISOCAT}\"" >> ${INSTDIR}/3.0/catalog
 	@${CHMOD} ${SHAREMODE} ${INSTDIR}/3.0/*
 	@${CHOWN} -R ${SHAREOWN}.${SHAREGRP} ${INSTDIR}
 

@@ -21,7 +21,7 @@ DOCFILES=	Overview.html tidy.gif release-notes.html grid.gif config.txt
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tidy ${PREFIX}/bin/tidy
 .if !defined(NOPORTDOCS)
-	@echo "===>   Installing documentation for ${PKGNAME}"
+	@${ECHO_MSG} "===>   Installing documentation for ${PKGNAME}"
 	@${MKDIR} ${PREFIX}/share/doc/tidy
 .for docfile in ${DOCFILES}
 	@${INSTALL_DATA} ${WRKSRC}/${docfile} ${PREFIX}/share/doc/tidy

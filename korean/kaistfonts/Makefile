@@ -24,7 +24,7 @@ do-extract:
 	${MKDIR} ${WRKDIR} && \
 	cd ${WRKDIR} && \
 	for file in ${DISTFILES}; do \
-		${GUNZIP_CMD} -c < ${_DISTDIR}/$$file > `echo $$file | ${SED} -e 's/\.Z//' -e 's/\.gz//'`; \
+		${GUNZIP_CMD} -c < ${_DISTDIR}/$$file > `${ECHO} $$file | ${SED} -e 's/\.Z//' -e 's/\.gz//'`; \
 	done
 
 post-install:

@@ -23,16 +23,6 @@ pre-build:
 
 post-install:
 	@${CP} ${FILESDIR}/roxen.sh ${PREFIX}/etc/rc.d/
-	@echo "Installation of Roxen Challenger finished!"
-	@echo ""
-	@echo "Now perform the following steps to initialize"
-	@echo "the webserver."
-	@echo ""
-	@echo "% cd ${PREFIX}/roxen/server/"
-	@echo "% ./install"
-	@echo ""
-	@echo "Then follow the instructions.  For further"
-	@echo "documentation read http://roxen.com/documentation/"
-	@echo ""
+	@${CAT} ${PKGMESSAGE}
 
 .include <bsd.port.mk>

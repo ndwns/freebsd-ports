@@ -31,7 +31,7 @@ MAN1=			calibrate.1
 
 pre-build:
 	@(cd ${WRKDIR}/calibrate-0.0.1; ${MAKE})
-	@echo "${PREFIX}"
+	@${ECHO_MSG} "${PREFIX}"
 
 pre-install:
 	@(cd ${WRKDIR}/calibrate-0.0.1; ${MAKE} PREFIX=${PREFIX} install)

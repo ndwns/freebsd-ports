@@ -35,7 +35,7 @@ do-build:
 # this weird contortion is because the YODL makefile is broken
 # trust me, it works.
 do-install:
-	@echo "*** NOTE: any errors from make can be safely ignored."
+	@${ECHO_MSG} "*** NOTE: any errors from make can be safely ignored."
 	(cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX} install)
 	-(cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX} manpages)
 	(cd ${WRKSRC}/manpages && ${GMAKE} PREFIX=${PREFIX} manpages)

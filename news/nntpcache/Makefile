@@ -42,7 +42,7 @@ post-install:
 
 hardlink-pgp-files:
 	for i in ${PREFIX}/etc/nntpcache/*asc-dist ${PREFIX}/etc/nntpcache/*pgp-dist ; do \
-		j=`echo $$i | sed -e 's/-dist//'`; \
+		j=`${ECHO} $$i | sed -e 's/-dist//'`; \
 		if [ \! -f $$j ]; then \
 			ln $$i $$j; \
 		fi; \
