@@ -23,7 +23,7 @@ MASTER_SITES=	\
 	ftp://ftp.funet.fi/pub/unix/security/login/ssh/ \
 	ftp://nic.funet.fi/pub/crypt/mirrors/ftp.dsi.unimi.it/applied-crypto/ \
 	ftp://rzsun2.informatik.uni-hamburg.de/pub/virus/crypt/ripem/ \
-	ftp://ftp.dsi.unimi.it/pub/security/crypt/math/ \
+	ftp://idea.sec.dsi.unimi.it/pub/security/crypt/math/ \
 	ftp://ftp.univie.ac.at/security/crypt/cryptography/asymmetric/rsa/ \
 	ftp://isdec.vc.cvut.cz/pub/security/unimi/crypt/applied-crypto/
 .endif
