@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	c-archie-1.4.1-FIXED
-MASTER_SITES=	ftp://nic.sura.net/pub/archie/clients/
+PKGNAME=	archie-1.4.1
 CATEGORIES+=	networking
-WRKSRC=		${WRKDIR}/archie-1.4.1-FIX
+MASTER_SITES=	ftp://nic.sura.net/pub/archie/clients/
 EXTRACT_SUFX=	.tar.Z
+
+WRKSRC=		${WRKDIR}/archie-1.4.1-FIX
 
 pre-install:
 	mkdir -p ${PREFIX}/bin

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=       pmf-1.13.1
-MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/clients/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/clients/
+
 WRKSRC=		${WRKDIR}/pmfdir/src
 
 pre-install:

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=	samba-1.9.11
-MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
+
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
 pre-install:

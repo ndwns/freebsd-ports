@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	wu-ftpd-2.4
-MASTER_SITES=	ftp://ftp.wustl.edu/packages/wuarchive-ftpd/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://ftp.wustl.edu/packages/wuarchive-ftpd/
 EXTRACT_SUFX=	.tar.Z
 
 pre-install:

@@ -7,6 +7,8 @@
 #
 
 DISTNAME=	tcpblast
+PKGNAME=	tcpblast-1.0
+
 NO_EXTRACT=	yes
 NO_WRKDIR=	yes
 

@@ -7,8 +7,9 @@
 #
 
 DISTNAME=       freeWAIS-0.3
-MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://ftp.cnidr.org/pub/NIDR.tools/freewais/
+
 GMAKE=		yes
 
 .include <bsd.port.mk>

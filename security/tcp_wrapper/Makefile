@@ -7,8 +7,10 @@
 #
 
 DISTNAME=       tcp_wrappers_7.2
-MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
+PKGNAME=        tcp_wrappers-7.2
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
+
 ALL_TARGET=	freebsd
 
 .include <bsd.port.mk>

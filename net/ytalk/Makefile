@@ -7,11 +7,13 @@
 #
 
 DISTNAME=	ytalk-v3pl2
-MASTER_SITES=	ftp://knot.queensu.ca/pub/unix/software/
-CATEGORIES+=	networking
-MAINTAINER=	asami@FreeBSD.ORG
-WRKSRC=		${WRKDIR}/ytalk-3.2
 PKGNAME=	ytalk-3.0.2
+CATEGORIES+=	networking
+MASTER_SITES=	ftp://knot.queensu.ca/pub/unix/software/
+
+MAINTAINER=	asami@FreeBSD.ORG
+
+WRKSRC=		${WRKDIR}/ytalk-3.2
 USE_IMAKE=	yes
 # otherwise pkg_create will think it went to /usr/X11R6
 PREFIX=		/usr/local

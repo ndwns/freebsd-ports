@@ -1,5 +1,5 @@
 # Makefile for:		slirp
-# Version required:	alpha
+# Version required:	0.9alpha
 # Date created:		05 April 1995
 # Whom:			jkh
 #
@@ -13,8 +13,11 @@
 # know that the "manpage" is cheesy - it's better than nothing! :-)
 
 DISTNAME=	slirp
-MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/ ftp://freedom.wit.com/misc4/danjo/SLiRP/
+PKGNAME=	slirp-0.9a
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://blitzen.canberra.edu.au/pub/slirp/ \
+		ftp://freedom.wit.com/misc4/danjo/SLiRP/
+
 WRKSRC=		${WRKDIR}/slurp/src
 MAKE_FLAGS=	freebsd -f
 

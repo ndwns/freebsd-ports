@@ -7,12 +7,14 @@
 #
 
 DISTNAME=       gn-2.17
-MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 CATEGORIES+=	networking
-INETD_CONF=	/etc/inetd.conf
-CONF=	'	stream	tcp	nowait	nobody	/usr/local/etc/gn	gn'
+MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
+
 DEPENDS=	${PORTSDIR}/net/wais
 IS_INTERACTIVE=	yes
+
+INETD_CONF=	/etc/inetd.conf
+CONF=	'	stream	tcp	nowait	nobody	/usr/local/etc/gn	gn'
 
 pre-build:
 	@ln -s ../../../../wais/work/freeWAIS-0.3/ir work/${DISTNAME}/waisgn

@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       fspclient.0.0-h+
+PKGNAME=        fspclient.0.0.h
 CATEGORIES+=	networking
 MASTER_SITES=   ftp://ftp.robots.ox.ac.uk/pub/ox.src/fspclient/
 EXTRACT_SUFX=   .tar.z
