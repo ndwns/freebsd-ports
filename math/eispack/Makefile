@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/eispack/ \
 
 DIST_SUBDIR=	${DISTNAME}
 
-RUN_DEPENDS=	${PREFIX}/lib/libcor.so.1.0:${PORTSDIR}/math/blas
+RUN_DEPENDS=	${PREFIX}/lib/libblas.so.1:${PORTSDIR}/math/blas
 
 EXTRACT_CMD=	${SCRIPTDIR}/uncomp
 EXTRACT_SUFX=	.gz
