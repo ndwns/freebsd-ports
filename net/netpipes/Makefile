@@ -6,14 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	netpipes4.0
-PKGNAME=	netpipes-4.0
+DISTNAME=	netpipes-4.2-export
+PKGNAME=	netpipes-4.2
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.purplefrog.com/pub/netpipes/old/
+MASTER_SITES=	ftp://ftp.purplefrog.com/pub/netpipes/
 
 MAINTAINER=	doconnor@gsoft.com.au
 
+NO_WRKSUBDIR=	yes
 MAN1=		faucet.1 hose.1 sockdown.1 getpeername.1 encapsulate.1 \
-		timelimit.1
+		timelimit.1 netpipes.1
 
 .include <bsd.port.mk>
