@@ -1,4 +1,4 @@
-# Ports collection makefile for:	sentry
+# New ports collection makefile for:	sentry
 # Version required:	0.61
 # Date created:		3 January 1998
 # Whom:			chris@still.whet.org
@@ -14,5 +14,12 @@ MAINTAINER=	chris@still.whet.org
 
 WRKSRC=		${WRKDIR}/sentry_beta
 ALL_TARGET=	bsd
+
+post-install:
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/sentry
+	${INSTALL_DATA} ${WRKSRC}/README.install ${WRKSRC}/README.methods \
+	  ${PREFIX}/share/doc/sentry
+.endif
 
 .include <bsd.port.mk>
