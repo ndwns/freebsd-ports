@@ -1,5 +1,5 @@
 # New ports collection makefile for:    tth
-# Version required:     1.30
+# Version required:     1.32
 # Date created:         19 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       tth_C
-PKGNAME=	tth-1.30
+PKGNAME=	tth-1.32
 CATEGORIES=	textproc
 MASTER_SITES=	http://hutchinson.belmont.ma.us/tth/tth-noncom/
 EXTRACT_SUFX=	.tgz
@@ -18,9 +18,6 @@ RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
 		ppmtogif:${PORTSDIR}/graphics/netpbm \
 		latex:${PORTSDIR}/print/teTeX
 
-BROKEN=		checksum
-
-NO_WRKSUBDIR=	yes
 MAN1=		tth.1
 
 do-build:
