@@ -685,12 +685,12 @@ do-patch:
 
 .if !target(do-configure)
 do-configure:
-	@if [ -f ${SCRIPTDIR}/configure ]; then \
+	@if [ -f ${SCRIPTDIR}/${CONFIGURE_SCRIPT} ]; then \
 		cd ${.CURDIR} && ${SETENV} CURDIR=${.CURDIR} DISTDIR=${DISTDIR}\
 		  WRKDIR=${WRKDIR} WRKSRC=${WRKSRC} PATCHDIR=${PATCHDIR} \
 		  SCRIPTDIR=${SCRIPTDIR} FILESDIR=${FILESDIR} \
 		  PORTSDIR=${PORTSDIR} PREFIX=${PREFIX} DEPENDS="${DEPENDS}" \
-		  X11BASE=${X11BASE} /bin/sh ${SCRIPTDIR}/configure; \
+		  X11BASE=${X11BASE} /bin/sh ${SCRIPTDIR}/${CONFIGURE_SCRIPT}; \
 	fi
 .if defined(HAS_CONFIGURE)
 	@(cd ${WRKSRC} && CC="${CC}" ac_cv_path_CC="${CC}" CFLAGS="${CFLAGS}" \
