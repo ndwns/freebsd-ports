@@ -1,15 +1,17 @@
 # New ports collection Makefile for:	bsvc
 # Version required:	2.0
-# Date released:	03-Mar-1997
-# Whom			tenser
+# Date created:		03-Mar-1997
+# Whom:			tenser
 #
 # $Id$
 #
 
-DISTNAME=	bsvc-2.0
+DISTNAME=	bsvc-2.0-src
+PKGNAME=	bsvc-2.0
 CATEGORIES=	emulators tk41
-MASTER_SITES=	ftp://ftp.ncsu.edu/pub/eos/pub/bsvc/distribution/
-EXTRACT_SUFX=	-src.tar.z
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	system/emulators
+EXTRACT_SUFX=	.tar.z
 
 MAINTAINER=	tenser@spitfire.ecsel.psu.edu
 
