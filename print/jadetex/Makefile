@@ -37,6 +37,7 @@ do-install:
 	@(cd ${WRKSRC} && ${INSTALL_DATA} jadetex.fmt pdfjadetex.fmt `kpsewhich -expand-var '$$TEXMFMAIN'`/web2c && ${MKDIR} -m 555 `kpsewhich -expand-var '$$TEXMFMAIN'`/tex/jadetex && ${INSTALL_DATA} dsssl.def isoents.tex jadetex.ltx `kpsewhich -expand-var '$$TEXMFMAIN'`/tex/jadetex)
 
 post-install:
+	${PREFIX}/bin/mktexlsr
 	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
