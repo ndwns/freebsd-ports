@@ -32,8 +32,9 @@ DOCFILES+=	doc/test.txt
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.so.1.0 ${PREFIX}/lib
+	@/sbin/ldconfig -m ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/uulib/libuu.a ${PREFIX}/lib
-	/usr/bin/ranlib ${PREFIX}/lib/libuu.a
+	@/usr/bin/ranlib ${PREFIX}/lib/libuu.a
 	${INSTALL_DATA} ${WRKSRC}/uulib/uudeview.h ${PREFIX}/include/uu.h
 	${INSTALL_MAN} ${FILESDIR}/uulib.3 ${PREFIX}/man/man3
 	perl -pi -e '$$a = '\''${PREFIX}/'\''; $$a =~ s/([^\w\/])/\\$$1/g; s/FUNKYTOKENHERE/$$a/' ${PREFIX}/man/man3/uulib.3
