@@ -15,8 +15,9 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-GNU_CONFIGURE=	yes
+LIB_DEPENDS=	glib11\\.0\\.:${PORTSDIR}/devel/glib
 
+GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c'
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11
 
