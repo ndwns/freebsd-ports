@@ -8,9 +8,11 @@
 
 DISTNAME=	WWW
 PKGNAME=	cern_httpd-3.0
-DISTFILES=	WWWDaemon_3.0.tar.Z WWWLibrary_2.17.tar.Z
-MASTER_SITES=	ftp://www0.cern.ch/pub/www/src/
 CATEGORIES+=	networking
+MASTER_SITES=	ftp://www0.cern.ch/pub/www/src/
+DISTFILES=	WWWDaemon_3.0.tar.Z WWWLibrary_2.17.tar.Z
+
+MAINTAINER=	sa2c@and.or.jp
 
 WWW_ROOT=	${PREFIX}/www
 
