@@ -12,6 +12,7 @@ MASTER_SITES=	ftp://ftp.uu.net/networking/news/readers/trn/
 
 RUN_DEPENDS=  munpack:${PORTSDIR}/mail/mpack
 
+NO_PACKAGE=	yes	# too many questions
 IS_INTERACTIVE=	yes
 MAN1=		trn.1 Pnews.1 Rnmail.1 newsetup.1 newsgroups.1
 
