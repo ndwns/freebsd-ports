@@ -8,9 +8,9 @@
 
 DISTNAME=	gimp-1.1.2
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.gimp.org/pub/gimp/unstable/v1.1.2/ \
-		ftp://ftp.cs.umn.edu/pub/gimp/gimp/unstable/v1.1.2/ \
-		http://www.ameth.org/gimp/pub/gimp/unstable/v1.1.2/
+MASTER_SITES=	ftp://ftp.gimp.org/pub/gimp/unstable/old/v1.1.2/ \
+		ftp://ftp.cs.umn.edu/pub/gimp/gimp/unstable/old/v1.1.2/ \
+		http://www.ameth.org/gimp/pub/gimp/unstable/old/v1.1.2/
 
 MAINTAINER=	erich@FreeBSD.org
 
