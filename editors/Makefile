@@ -31,6 +31,8 @@
     SUBDIR += xcoral
     SUBDIR += xed
     SUBDIR += xemacs
+    SUBDIR += xemacs-mule
+    SUBDIR += xemacs-mule-common
     SUBDIR += xemacs20
     SUBDIR += xvile
 
