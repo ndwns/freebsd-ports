@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       screen-3.6.2
-CATEGORIES+=	utilities
+CATEGORIES+=	misc
 MASTER_SITES=   ftp://ftp.uni-erlangen.de/pub/utilities/screen/
 
 MAINTAINER=	ache@FreeBSD.ORG

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	mc-3.0
-CATEGORIES=	utilities
+CATEGORIES=	misc
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 GNU_CONFIGURE=	YES

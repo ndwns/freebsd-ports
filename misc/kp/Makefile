@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       kp-0.95
-CATEGORIES+=	utilities
+CATEGORIES+=	misc
 MASTER_SITES=   ftp://forgery.cs.berkeley.edu/pub/
 
 MAINTAINER=	asami@FreeBSD.org

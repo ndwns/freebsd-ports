@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	recode-3.4
-CATEGORIES=	utilities
+CATEGORIES=	misc
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

@@ -9,7 +9,6 @@
 DISTNAME=	beav-140-3
 PKGNAME=	beav-1.40.3
 CATEGORIES+=	editors
-KEYWORDS+=	editors
 MASTER_SITES=	ftp://ftp.debian.org/debian/source/editors \\
 		ftp://ftp.uni-heidelberg.de/pub/linux/mirror.tsx11/distributions/debian/source/editors/ \\
 		ftp://extro.ucc.su.oz.au/linux/debian/source/editors/ \\

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	git-4.3.6
-CATEGORIES=	utilities
+CATEGORIES=	misc
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 GNU_CONFIGURE=	YES

@@ -8,7 +8,7 @@
 
 DISTNAME=	colorls
 PKGNAME=	colorls-2.1
-CATEGORIES+=	utilities
+CATEGORIES+=	misc
 MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/FreeBSD-current/src/bin/
 DISTFILES=	ls.tar.gz
 

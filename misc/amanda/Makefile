@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	amanda-2.2.6
-CATEGORIES+=	utilities
+CATEGORIES+=	misc
 MASTER_SITES=	ftp://ftp.cs.umd.edu/pub/amanda/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG

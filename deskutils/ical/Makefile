@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ical-1.9
-CATEGORIES+=	utilities
+CATEGORIES+=	misc
 MASTER_SITES=	ftp://ftp.sterling.com/programming/languages/tcl/code/ical/
 
 MAINTAINER=	erich@FreeBSD.org
