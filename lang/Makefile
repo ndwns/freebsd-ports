@@ -25,7 +25,6 @@
     SUBDIR += f2c
     SUBDIR += f77
     SUBDIR += forth
-    SUBDIR += g77
     SUBDIR += gawk
     SUBDIR += gcc28
     SUBDIR += gcl
