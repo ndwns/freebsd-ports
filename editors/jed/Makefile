@@ -42,7 +42,7 @@ post-install:
 .endif
 	${INSTALL_DATA} ${WRKSRC}/lib/* ${PREFIX}/lib/jed/lib 
 	${INSTALL_DATA} ${WRKSRC}/info/jed.* ${PREFIX}/info
-	rmdir ${PREFIX}/lib/jed/info
+	-${RMDIR} ${PREFIX}/lib/jed/info
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/jed
 	${INSTALL_DATA} ${WRKSRC}/doc/README ${WRKSRC}/doc/*.txt \
