@@ -19,7 +19,7 @@ NO_INSTALL_MANPAGES=	yes
 MAN6=		xawele.6
 
 post-patch:
-	@/usr/bin/perl -pi -e "s|@@LOCALBASE@@|${LOCALBASE}|g;" ${WRKSRC}/Imakefile
+	@/usr/bin/perl -pi -e "s|\@\@LOCALBASE\@\@|${LOCALBASE}|g;" ${WRKSRC}/Imakefile
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/xawele.man ${PREFIX}/man/man6/xawele.6
