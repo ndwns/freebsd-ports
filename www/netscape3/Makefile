@@ -13,6 +13,8 @@ DISTFILES=      netscape-v304-export.x86-unknown-bsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+
 NOT_FOR_ARCHS=	alpha
 
 NO_LATEST_LINK=	yes

@@ -17,6 +17,8 @@ MASTER_SITES=	http://www.oac.uci.edu/indiv/ehood/tar/ \
 
 MAINTAINER=	jkoshy@freebsd.org
 
+Y2K=		http://www.oac.uci.edu/indiv/ehood/MHonArc/doc/faq/general.html#y2k
+
 USE_PERL5=	Yes
 NO_BUILD=	Yes
 

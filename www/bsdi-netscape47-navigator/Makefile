@@ -13,6 +13,8 @@ DISTFILES=      navigator-v45-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ports@FreeBSD.ORG
 
+Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+
 ONLY_FOR_ARCHS=	i386
 
 NO_LATEST_LINK=	yes

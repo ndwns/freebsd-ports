@@ -9,4 +9,6 @@
 GOLD=	yes
 MASTERDIR=	${.CURDIR}/../netscape3
 
+Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+
 .include "${MASTERDIR}/Makefile"

@@ -13,6 +13,8 @@ DISTFILES=	navigator-v408-export.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     sada@FreeBSD.ORG
 
+Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+
 ONLY_FOR_ARCHS=	i386
 
 WRKSRC=		${WRKDIR}/navigator-v408.x86-unknown-freebsd

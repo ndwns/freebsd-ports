@@ -15,6 +15,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	thepish@FreeBSD.ORG
 
+Y2K=		http://home.netscape.com/products/year2000/faq/client.html
+
 ONLY_FOR_ARCHS=	i386
 
 NO_LATEST_LINK=	yes

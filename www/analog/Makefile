@@ -19,6 +19,8 @@ MASTER_SITES=   http://www.statslab.cam.ac.uk/~sret1/analog/ \
 
 MAINTAINER=     ache@freebsd.org
 
+Y2K=		http://www.statslab.cam.ac.uk/~sret1/analog/
+
 MAKE_FLAGS=     -DPREFIX=${PREFIX} -f
 
 do-install:
