@@ -8,8 +8,8 @@
 # REMINDER: to use ftpaccess(5) you need to specify -a in command line,
 # it is changed from previous versions
 
-DISTNAME=       wu-ftpd-2.4.2-vr16
-PKGNAME=        wu-ftpd-2.4.2v16
+DISTNAME=       wu-ftpd-2.4.2-vr17
+PKGNAME=        wu-ftpd-2.4.2v17
 CATEGORIES=	net
 MASTER_SITES=   ftp://ftp.vr.net/pub/wu-ftpd/
 
