@@ -9,7 +9,7 @@
 DISTNAME=	gtkicq-0.56
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.bse.bg/pub/Unix/icq/ \
-		ftp://ftp.infodrom.north.de/pub/unix/gtk-etc/apps/gtkicq/ \	
+		ftp://ftp.infodrom.north.de/pub/unix/gtk-etc/apps/gtkicq/ \
 		ftp://ftp.rnd.runnet.ru/pub/unix/GUI_Toolkits/gtk/
 
 MAINTAINER=	Nakai@technologist.com
