@@ -7,6 +7,7 @@
     SUBDIR += cap
     SUBDIR += cvsup
     SUBDIR += cvsup-mirror
+    SUBDIR += delegate
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dgd-net
