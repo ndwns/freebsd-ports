@@ -32,6 +32,7 @@
     SUBDIR += ddd
     SUBDIR += dmake
     SUBDIR += doc++
+    SUBDIR += elftoaout
     SUBDIR += f77flow
     SUBDIR += flick
     SUBDIR += fpp
