@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += SSLeay
     SUBDIR += libident
     SUBDIR += pgp
     SUBDIR += pidentd
