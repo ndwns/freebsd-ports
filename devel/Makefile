@@ -70,6 +70,7 @@
     SUBDIR += prcs
     SUBDIR += sawt
     SUBDIR += scogdb
+    SUBDIR += tclcheck
     SUBDIR += tkcvs
     SUBDIR += tvision
     SUBDIR += vtcl
