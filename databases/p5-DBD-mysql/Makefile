@@ -14,9 +14,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS=	${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql
+
+USE_PERL5=	YES
 
 MAN3=		Mysql.3
 MANPREFIX=	${PREFIX}/lib/perl5

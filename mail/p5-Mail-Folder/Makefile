@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=	Mail
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+USE_PERL5=	YES
 
 MAN3=		Mail::Folder.3 Mail::Folder::Emaul.3 Mail::Folder::Mbox.3 Mail::Folder::NNTP.3 Mail::Folder::Maildir.3
 MANPREFIX=	${PREFIX}/lib/perl5

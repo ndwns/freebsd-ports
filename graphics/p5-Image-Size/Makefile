@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=	Image
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+USE_PERL5=	YES
 
 MAN1=		imgsize.1
 MAN3=		Image::Size.3

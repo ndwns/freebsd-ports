@@ -15,9 +15,9 @@ MASTER_SITE_SUBDIR=	PGP
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
-		pgp:${PORTSDIR}/security/pgp
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS= 	pgp:${PORTSDIR}/security/pgp
+
+USE_PERL5=	YES
 
 NO_WRKSUBDIR=	YES
 MAN3=		PGP.3

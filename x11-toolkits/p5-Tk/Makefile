@@ -14,10 +14,10 @@ MASTER_SITE_SUBDIR=	Tk
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/perl5/site_perl/HTML/Parse.pm:${PORTSDIR}/www/p5-libwww
+BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/HTML/Parse.pm:${PORTSDIR}/www/p5-libwww
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+
+USE_PERL5=	YES
 
 MAN1=		tkweb.1
 MAN3=		Tk::Adjuster.3 Tk::After.3 Tk::Axis.3 Tk::Balloon.3 \

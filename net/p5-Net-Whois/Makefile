@@ -14,8 +14,7 @@ MASTER_SITE_SUBDIR=	Net
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+USE_PERL5=	YES
 
 MANPREFIX=	/usr/local/lib/perl5
 MAN3=		Net::Whois.3

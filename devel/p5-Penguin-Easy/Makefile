@@ -14,9 +14,9 @@ MASTER_SITE_SUBDIR=	Penguin
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/perl5/site_perl/Penguin.pm:${PORTSDIR}/devel/p5-Penguin
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5
+BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/Penguin.pm:${PORTSDIR}/devel/p5-Penguin
+
+USE_PERL5=	YES
 
 MANPREFIX=	${PREFIX}/lib/perl5
 MAN3=		Penguin::Easy.3

@@ -15,9 +15,9 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
-BUILD_DEPENDS= 	perl5.004:${PORTSDIR}/lang/perl5
-RUN_DEPENDS=	perl5.004:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/lib/perl5/site_perl/Curses.pm:${PORTSDIR}/devel/p5-Curses
+RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/Curses.pm:${PORTSDIR}/devel/p5-Curses
+
+USE_PERL5=	YES
 
 NO_WRKSUBDIR=	YES
 NO_BUILD=	YES
