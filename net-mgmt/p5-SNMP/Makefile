@@ -16,6 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	${PREFIX}/lib/libsnmp.a:${PORTSDIR}/net/ucd-snmp
 
+BROKEN=		build
+
 USE_PERL5=	YES
 
 do-configure:
