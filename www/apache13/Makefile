@@ -15,6 +15,10 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
 MAINTAINER=     ache@freebsd.org
 
+#
+# Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
+#
+
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= \
 		 --logfiledir=/var/log \
@@ -22,16 +26,22 @@ CONFIGURE_ARGS= \
 		 --datadir=${PREFIX}/www \
 		 --proxycachedir=${PREFIX}/www/proxy \
 		 --libexecdir=${PREFIX}/libexec/apache \
-		 --disable-rule=STATUS \
 		 --enable-shared=remain \
 		 --enable-module=most \
 		 --enable-module=auth_db \
 		 --disable-module=auth_dbm
 
-CONFIGURE_ENV= \
-OPTIM='-DBUFFERED_LOGS -DHARD_SERVER_LIMIT=512 \
--DDOCUMENT_LOCATION=\\"'${PREFIX}'/www/data/\\" \
--DDEFAULT_PATH=\\"/bin:/usr/bin:'${PREFIX}'/bin\\"'
+OPTIM=-DHARD_SERVER_LIMIT=512 \
+-DDOCUMENT_LOCATION=\\"${PREFIX}/www/data/\\" \
+-DDEFAULT_PATH=\\"/bin:/usr/bin:${PREFIX}/bin\\"
+
+.if defined(APACHE_PERF_TUNING) && ${APACHE_PERF_TUNING} == YES
+CONFIGURE_ARGS+= --disable-rule=STATUS
+OPTIM+= -DBUFFERED_LOGS
+CFLAGS+= -O6 -fomit-frame-pointer -fexpensive-optimizations
+.endif
+
+CONFIGURE_ENV= OPTIM='${OPTIM}'
 
 MAN1=   ab.1 apachectl.1 dbmmanage.1 htdigest.1 htpasswd.1
 MAN8=   apxs.8 httpd.8 logresolve.8 rotatelogs.8
