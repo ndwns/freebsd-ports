@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=       Digest-MD5-2.06
-PKGNAME=        p5-Digest-MD5-2.06
+DISTNAME=       Digest-MD5-2.08
+PKGNAME=        p5-Digest-MD5-2.08
 CATEGORIES=	security perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	MD5
