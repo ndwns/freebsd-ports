@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	xwpe-1.5.9a
+DISTNAME=	xwpe-1.5.12a
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SUNSITE} \
 		http://www.rpi.edu/~payned/xwpe/ \
