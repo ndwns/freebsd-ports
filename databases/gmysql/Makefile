@@ -13,8 +13,12 @@ MASTER_SITES=	http://www.loth.demon.co.uk/gmysql/ \
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
-BUILD_DEPENDS=	${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
+.if !exists(${PREFIX}/lib/mysql/libmysqlclient.a) || exists(${PREFIX}/lib/mysql/libmysqlclient.so)
+LIB_DEPENDS+=	mysqlclient.5:${PORTSDIR}/databases/mysql322
+.else
+BUILD_DEPENDS=	${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql321
+.endif
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-mysql=${PREFIX}

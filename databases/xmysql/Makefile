@@ -14,9 +14,13 @@ MASTER_SITES=	http://www.tcx.se/Contrib/ \
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	mysql:${PORTSDIR}/databases/mysql321
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms
+.if !exists(${PREFIX}/lib/mysql/libmysqlclient.a) || exists(${PREFIX}/lib/mysql/libmysqlclient.so)
+LIB_DEPENDS+=	mysqlclient.5:${PORTSDIR}/databases/mysql322
+.else
+BUILD_DEPENDS=	${PREFIX}/lib/mysql/libmysqlclient.a:${PORTSDIR}/databases/mysql321
+.endif
 
 # depends on xforms
 ONLY_FOR_ARCHS=	i386
