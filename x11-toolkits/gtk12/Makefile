@@ -17,6 +17,12 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	glib11d.1:${PORTSDIR}/devel/glib11-devel
 
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} <= 300000
+BROKEN=		requires perl5
+.endif
+
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	INSTALL='$${INSTALL} -c' \
@@ -26,4 +32,4 @@ CONFIGURE_ARGS=	--includedir=${PREFIX}/include/gtk11d
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
