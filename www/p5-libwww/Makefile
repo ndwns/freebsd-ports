@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       libwww-perl-5.43
-PKGNAME=        p5-libwww-5.43
+DISTNAME=       libwww-perl-5.44
+PKGNAME=        p5-libwww-5.44
 CATEGORIES=     www perl5 devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     LWP
