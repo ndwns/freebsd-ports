@@ -11,6 +11,10 @@ PKGNAME=	nntp-1.5.11.4
 CATEGORIES+=	news
 MASTER_SITES=	ftp://nic.sura.net/pub/news/software/nntp/
 
+.if !exists(${PREFIX}/include/dbz.h) || !exists(${PREFIX}/lib/libcnews.a)
+DEPENDS+=	${PORTSDIR}/news/cnews
+.endif
+
 pre-patch:
 	@cp ${WRKSRC}/conf.h.dist ${WRKSRC}/conf.h
 
