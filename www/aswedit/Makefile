@@ -18,6 +18,7 @@ MAINTAINER=	brett@peloton.physics.montana.edu
 
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
 RESTRICTED=     "Commercial software"
 NO_BUILD=	yes
 NO_PACKAGE=	${RESTRICTED}

@@ -17,6 +17,7 @@ MAINTAINER=	jhicks@glenatl.glenayre.com
 # XXX - how to fix the following?
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5.4.23:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
 NO_CDROM=	licensing
 NO_PACKAGE=	no version number on distfile
 WRKSRC=		${WRKDIR}/${UNTAR_DIR}

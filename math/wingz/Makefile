@@ -16,6 +16,8 @@ MANINAINER=	erich@FreeBSD.org
 
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+
 NO_WRKSUBDIR=	yes
 
 USE_X_PREFIX=	yes

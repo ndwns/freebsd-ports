@@ -17,6 +17,8 @@ MAINTAINER=	erich@FreeBSD.org
 BUILD_DEPENDS=	/compat/linux/lib/ld.so:${PORTSDIR}/emulators/linux_lib
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+
 USE_XLIB=	yes
 NO_WRKSUBDIR=	yes
 PKGINSTALL=	${WRKDIR}/INSTALL

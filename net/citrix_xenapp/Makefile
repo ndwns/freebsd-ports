@@ -16,11 +16,13 @@ MAINTAINER=     msmith@FreeBSD.ORG
 
 RUN_DEPENDS=    /compat/linux/lib/libc.so.6:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+RESTRICTED=	"License prohibits redistribution"
+IS_INTERACTIVE=	"Noisy license agreement ignores stdin"
+
 DIST_SUBDIR=	citrix_ica
 NO_WRKSUBDIR=	Yes
 NO_BUILD=       Yes
-RESTRICTED=	"License prohibits redistribution"
-IS_INTERACTIVE=	"Noisy license agreement ignores stdin"
 
 CDIR=           ${PREFIX}/lib/ICAClient
 BINDIR=		${PREFIX}/bin

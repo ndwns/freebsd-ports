@@ -17,6 +17,7 @@ MAINTAINER=	msmith@freebsd.org
 
 RUN_DEPENDS=    /compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
 NO_CDROM=	"LIC: redistribution not allowed"
 
 IS_INTERACTIVE=	"requires user interaction for installation"

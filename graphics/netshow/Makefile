@@ -16,6 +16,7 @@ MAINTAINER=	dburr@FreeBSD.ORG
 
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
 RESTRICTED=	"Commercial software"
 NO_CDROM=	${RESTRICTED}
 NO_PACKAGE=	${RESTRICTED}

@@ -17,6 +17,8 @@ MAINTAINER=	tg@FreeBSD.ORG
 
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
+ONLY_FOR_ARCHS=	i386
+
 NO_FILTER_SHLIBS=	yes
 
 WRKSRC=		${WRKDIR}/ILINXR.install
