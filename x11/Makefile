@@ -38,7 +38,6 @@
     SUBDIR += qvwm
     SUBDIR += rclock
     SUBDIR += rxvt
-    SUBDIR += specJava
     SUBDIR += swisswatch
     SUBDIR += sxpc
     SUBDIR += tix
