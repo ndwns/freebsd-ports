@@ -1,8 +1,10 @@
+# New ports collection makefile for:	German phone codes
 # Version required:     1.0
 # Date created:         1997-12-30
 # Whom:                 wosch
 #
 # $Id$
+#
 
 DISTNAME=       de-phone-1.0
 CATEGORIES=	german
@@ -10,10 +12,10 @@ MASTER_SITES=   ${MASTER_SITE_LOCAL} http://www.freebsd.org/~wosch/src/
 DISTFILES=	${phone}.gz
 
 MAINTAINER=     wosch@FreeBSD.org
+
 NO_BUILD=	YES
 NO_WRKSUBDIR=	YES
 EXTRACT_ONLY=
-
 
 phone=	avon-1996
 phoneout= de.phone
