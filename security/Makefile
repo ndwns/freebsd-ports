@@ -37,6 +37,7 @@
     SUBDIR += raproxy
     SUBDIR += rsaref
     SUBDIR += skip
+    SUBDIR += slush
     SUBDIR += smurflog
     SUBDIR += sniff
     SUBDIR += ssh
