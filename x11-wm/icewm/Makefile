@@ -1,21 +1,19 @@
 # New ports collection makefile for:   icewm
-# Version required:    0.9.8
+# Version required:    0.9.10
 # Date created:        10 August 1997
 # Whom:                Yukihiro Nakai <Nakai@Mlab.t.u-tokyo.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	icewm-0.9.8
+DISTNAME=	icewm-0.9.10
 CATEGORIES=	x11
-MASTER_SITES=	http://ixtas.fri.uni-lj.si/%7Emarkom/icewm/
+MASTER_SITES=	http://berta.fri.uni-lj.si/~markom/icewm/devel/
 EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	Nakai@technologist.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-
-BROKEN=		master site not responding
 
 USE_X11=	yes
 
@@ -25,6 +23,7 @@ pre-patch:
 .else
 	${CP} ${FILESDIR}/patch-titletop ${PATCHDIR}/patch-ac
 .endif
+	${CP} ${FILESDIR}/MakeConfig.FreeBSD ${WRKSRC}/src
 
 post-install:
 	${CP} ${FILESDIR}/bsd-daemon.xpm ${PREFIX}/lib/X11/icewm/taskbar
