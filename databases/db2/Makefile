@@ -6,9 +6,9 @@
 # $Id$
 #
 
-DISTNAME=       db-2.7.3
+DISTNAME=       db-2.7.5
 CATEGORIES=	databases
-MASTER_SITES=   ftp://ftp.terra.net/pub/sleepycat/
+MASTER_SITES=   ftp://ftp.sleepycat.com/pub/
 
 MAINTAINER=	josh@ican.net
 
@@ -23,7 +23,7 @@ CONFIGURE_ARGS=		--enable-compat185 \
 			--enable-dump185 --enable-cxx
 
 post-install:
-	$(MKDIR) ${PREFIX}/share/examples/db2
+	${MKDIR} ${PREFIX}/share/examples/db2
 	cd ${WRKSRC}/..; \
 	    tar -cf - --exclude tags examples/ examples_cxx/ examples_java/ | \
 	    ( cd ${PREFIX}/share/examples/db2; tar xf - )
