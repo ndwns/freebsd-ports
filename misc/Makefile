@@ -1,6 +1,6 @@
 # $Id$
 #
-# restricted: pgp
+# restricted: pgp.usa_only pgp.non-usa_only
 #
 SUBDIR= Wnn calc hfs iozone ispell less mshell mtools netpbm \
 	top unzip xsysstats zoo screen
