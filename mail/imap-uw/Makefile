@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	pst@freebsd.org
 
+BROKEN=		patch
 IGNOREFILES=	${DISTFILES}
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
