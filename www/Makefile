@@ -26,7 +26,7 @@
     SUBDIR += chimera2
     SUBDIR += comline
     SUBDIR += demoroniser
-    SUBDIR += erwin
+    SUBDIR += erwn
     SUBDIR += evg
     SUBDIR += fcgi
     SUBDIR += fxhtml
