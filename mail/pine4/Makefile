@@ -12,4 +12,8 @@ CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 EXTRACT_SUFX=	.tar.Z
 
+post-install:
+	gzip -9nf ${PREFIX}/man/man1/pine.1
+	gzip -9nf ${PREFIX}/man/man1/pico.1
+
 .include <bsd.port.mk>
