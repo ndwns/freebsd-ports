@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/linpack/ \
 
 DIST_SUBDIR=	${DISTNAME}
 
-RUN_DEPENDS=    ${PREFIX}/lib/libblas.so.1:${PORTSDIR}/math/blas
+LIB_DEPENDS=    blas.1:${PORTSDIR}/math/blas
 
 EXTRACT_CMD=	${SCRIPTDIR}/uncomp
 EXTRACT_SUFX=	.gz
@@ -57,5 +57,8 @@ pre-extract:
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf liblinpack.so.1.0 ${PREFIX}/lib/liblinpack.so; \
+	fi
 
 .include <bsd.port.mk>
