@@ -226,7 +226,7 @@ EXTRACT_BEFORE_ARGS?=   -xzf
 
 PKG_CMD?=		pkg_create
 .if !defined(PKG_ARGS)
-PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX} -P "`${MAKE} package-depends`"
+PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX} -P "`${MAKE} package-depends|sort|uniq`"
 .if exists(${PKGDIR}/INSTALL)
 PKG_ARGS+=		-i ${PKGDIR}/INSTALL
 .endif
@@ -430,7 +430,7 @@ package-name:
 # Show (recursively) all the packages this package depends on.
 .if !target(package-depends)
 package-depends:
-	@for i in ${EXEC_DEPENDS} ${LIB_DEPENDS}; do \
+	@for i in ${EXEC_DEPENDS} ${LIB_DEPENDS} ${DEPENDS}; do \
 		dir=`echo $$i | sed -e 's/.*://'`; \
 		(cd $$dir ; ${MAKE} package-name package-depends); \
 	done
