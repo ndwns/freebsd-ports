@@ -69,4 +69,3 @@ post-install:
 .include <bsd.port.post.mk>
 
 CFLAGS=		-g
-
