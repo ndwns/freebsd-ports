@@ -6,6 +6,7 @@
     SUBDIR += doom
     SUBDIR += flying
     SUBDIR += gnuchess
+    SUBDIR += gnugo
     SUBDIR += gnushogi
     SUBDIR += golddig
     SUBDIR += imaze
