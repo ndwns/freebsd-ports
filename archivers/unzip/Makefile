@@ -16,7 +16,7 @@ MAINTAINER=     ache@FreeBSD.ORG
 NO_WRKSUBDIR=   YES
 MAKEFILE=       unix/Makefile
 ALL_TARGET=     bsd
-MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS}" -f
+MAKE_FLAGS=     LOCAL_UNZIP="${CFLAGS} -DUSE_UNSHRINK" -f
 MAN1=           funzip.1 unzip.1 unzipsfx.1 zipgrep.1 zipinfo.1
 
 do-install:
