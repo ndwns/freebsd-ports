@@ -9,7 +9,8 @@
 DISTNAME=	xgammon-0.98
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.redhat.com/pub/redhat/current/SRPMS/SRPMS/ \
-		ftp://ftp.mpi-sb.mpg.de:/pub/linux/mirror/ftp.redhat.com/redhat/redhat-5.2/SRPMS/SRPMS/
+		ftp://ftp.mpi-sb.mpg.de:/pub/linux/mirror/ftp.redhat.com/redhat/redhat-5.2/SRPMS/SRPMS/ \
+		ftp://sunsite.Informatik.RWTH-Aachen.DE/pub/comp/Linux/redhat/current/SRPMS/SRPMS/
 EXTRACT_SUFX=	-12.src.rpm
 
 PATCH_DIST_STRIP=	-p1
