@@ -6,12 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	htdig-3.1.1
+DISTNAME=	htdig-3.1.2
 CATEGORIES=	textproc www
 MASTER_SITES=	http://www.htdig.org/files/ \
 		ftp://ftp.ntua.gr/pub/www/htdig/ \
 		ftp://ftp.htdig.org/pub/htdig/ \
-		http://www.FreeBSD.org/~billf/
 
 MAINTAINER=	billf@FreeBSD.org
 
@@ -23,6 +22,10 @@ CONFIGURE_ARGS= --with-cgi-bin-dir=${PREFIX}/www/cgi-bin \
 		--with-search-dir=${PREFIX}/www/data
 BUILD_TARGET=	depends all
 
+# XXX - Please see patches/patch-aa, as it modifies this
+# file too. This is wrong, and one day I'll make sed do
+# everything.
+
 post-patch:
 
 	${MV} ${WRKSRC}/CONFIG.in ${WRKSRC}/CONFIG.in.old
@@ -30,6 +33,6 @@ post-patch:
 		-e 's#/conf#/etc#' \
 		-e 's#/common#/share/htdig#' \
 		-e 's#/db#/share/htdig#' \
-	${WRKSRC}/CONFIG.in.old >> ${WRKSRC}/CONFIG.in
+	${WRKSRC}/CONFIG.in.old > ${WRKSRC}/CONFIG.in
 
 .include <bsd.port.mk>
