@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.obs-besancon.fr/pub/outgoing/
 
 MAINTAINER=	jmz@FreeBSD.org
 
-EXEC_DEPENDS=	hfs:${PORTSDIR}/utils/hfs
+EXEC_DEPENDS=	hfs:${PORTSDIR}/emulators/hfs
 LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
 
 .include <bsd.port.mk>
