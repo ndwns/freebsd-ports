@@ -28,7 +28,9 @@
 #		Creating README.html for package.
 #
 #	afterinstall, all, beforeinstall, build, checksum, clean,
-#	clean-for-cdrom, clean-restricted, configure, deinstall,
+#	clean-for-cdrom, clean-restricted,
+#	clean-for-cdrom-list, clean-restricted-list,
+#	configure, deinstall,
 #	depend, depends, describe, extract, fetch, fetch-list, ignorelist,
 #	install, package, package-loop, readmes, realinstall, reinstall, tags
 #
@@ -81,6 +83,7 @@ ${SUBDIR}::
 
 .for __target in all fetch fetch-list package package-loop extract configure \
 		 build clean clean-for-cdrom clean-restricted \
+		 clean-for-cdrom-list clean-restricted-list \
 		 deinstall depend depends describe distclean \
 		 reinstall tags checksum \
 		 ignorelist
