@@ -14,12 +14,12 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	andreas@klemm.gtn.com
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
-BUILD_DEPENDS=	${PREFIX}/lib/librplay.a:${PORTSDIR}/audio/rplay
+BUILD_DEPENDS=	/usr/local/lib/librplay.a:${PORTSDIR}/audio/rplay
 
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS+=	--prefix=/usr/X11R6 \
-			--includedir=${PREFIX}/include \
-			--libdir=${PREFIX}/lib
+USE_X11=	yes
+GNU_CONFIGURE=	yes
+CONFIGURE_ARGS+=--includedir=/usr/local/include \
+		--libdir=/usr/local/lib
 
 post-configure:
 	@${ECHO} "See the sample.fvwm95rc file in the files directory"
