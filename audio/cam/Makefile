@@ -3,7 +3,7 @@
 # Date created:		Tue Nov 12 15:54:21 CST 1996
 # Whom:			erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cam-1.02

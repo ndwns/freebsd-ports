@@ -3,7 +3,7 @@
 # Date created:		Mon Aug  5 10:54:25 CDT 1996
 # Whom:			erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmmix-1.2

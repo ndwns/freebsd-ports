@@ -3,7 +3,7 @@
 # Date created:         19 Apr 1998
 # Whom:                 brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		splaytk-2.0

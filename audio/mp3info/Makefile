@@ -3,7 +3,7 @@
 # Date created:				19 June 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		mp3info-0.2.16

@@ -3,7 +3,7 @@
 # Date created:		5 July 1995
 # Whom:			janek@gaja.ipan.lublin.pl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	radio2.0.4

@@ -3,7 +3,7 @@
 # Date created:        12 December 1998
 # Whom:                gljohns@bellsouth.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	WSoundPrefs-1.0.2

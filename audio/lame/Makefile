@@ -3,7 +3,7 @@
 # Date created:        11 January 1998
 # Whom:                yoshiaki Uchikawa
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dist10

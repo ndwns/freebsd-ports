@@ -3,7 +3,7 @@
 # Date created:		01 June 1999
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	libcdaudio_0.7.0

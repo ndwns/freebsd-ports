@@ -3,7 +3,7 @@
 # Date created:		2 Feb 1999
 # Whom:			runge@rostock.zgdv.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmradio-0.6

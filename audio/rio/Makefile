@@ -3,7 +3,7 @@
 # Date created:        29 April 1999
 # Whom:                Nick Sayer <nsayer@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rio006

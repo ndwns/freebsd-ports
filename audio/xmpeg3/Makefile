@@ -3,7 +3,7 @@
 # Date created:		7 July 1997
 # Whom:			doconnor@ist.flinders.edu.au
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmp3_1.0.0

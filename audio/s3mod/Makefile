@@ -3,7 +3,7 @@
 # Date created:         9 March 1995
 # Whom:                 ugen
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	s3mod-v1.09

@@ -3,7 +3,7 @@
 # Date created:		28 Jan 1999
 # Whom:			Chip Marshall <chip@eboai.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	icecast-1.1.4

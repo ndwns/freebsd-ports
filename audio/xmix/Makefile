@@ -3,7 +3,7 @@
 # Date created:		30 June 1995
 # Whom:			janek@gaja.ipan.lublin.pl
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmix-2.1

@@ -3,7 +3,7 @@
 # Date created:				20 January 1999
 # Whom:					Jeremy Lea <reg@shale.csir.co.za>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnome-media-1.0.9.1

@@ -3,7 +3,7 @@
 # Date created:			29 November 1998
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ascd-0.13.1-src

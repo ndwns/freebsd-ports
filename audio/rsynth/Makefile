@@ -3,7 +3,7 @@
 # Date created:		03 Jan 1995
 # Whom:			faulkner@mpd.tandem.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rsynth-2.0

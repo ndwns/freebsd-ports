@@ -3,7 +3,7 @@
 # Date created:         7 April 1999
 # Whom:                 futatuki
 #
-# $Id$
+# $FreeBSD$
 #
 # If You don't want to use Joerg Schilling's SCSI library,
 # set DONT_USE_SCGLIB = yes

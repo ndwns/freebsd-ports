@@ -3,7 +3,7 @@
 # Date created:		04 Aug 1996
 # Whom:			shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rosegarden-2.1

@@ -3,7 +3,7 @@
 # Date created:		9 December 1998
 # Whom:			gljohns@bellsouth.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmsound-0.9.5

@@ -3,7 +3,7 @@
 # Date created:		5 January 1995
 # Whom:			pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gsm-1.0.10

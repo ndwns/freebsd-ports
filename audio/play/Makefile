@@ -3,7 +3,7 @@
 # Date created:		20 May 1998
 # Whom:			Masanori Kiriake <seiken@nbs.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	play-1.0

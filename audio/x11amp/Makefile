@@ -3,7 +3,7 @@
 # Date created:         13 Jul 1998
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	x11amp-freebsd-0.8

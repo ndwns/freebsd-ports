@@ -2,7 +2,7 @@
 # Date created:		1 July 1996
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpegaudio

@@ -3,7 +3,7 @@
 # Date created:		17 March 1997
 # Whom:			davidn@blaze.net.au
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mxv-v1.10-source

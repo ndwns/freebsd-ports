@@ -3,7 +3,7 @@
 # Date created:			29 July 1998
 # Whom:				Joe Jih-Shian Lu <jslu@dns.ntu.edu.tw>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xamp-0.8-7

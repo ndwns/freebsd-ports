@@ -3,7 +3,7 @@
 # Date created:			25 June 1997
 # Whom:				Carey Jones <mcj@acquiesce.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpg123-0.59r

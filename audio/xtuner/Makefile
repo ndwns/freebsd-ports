@@ -3,7 +3,7 @@
 # Date created:		19 December 96
 # Whom:			Lars Koeller <Lars.Koeller@Uni-Bielefeld.DE>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Xtuner-2.1

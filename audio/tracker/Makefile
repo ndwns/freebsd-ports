@@ -3,7 +3,7 @@
 # Date created:         2 Oct 1994
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       tracker-5.3

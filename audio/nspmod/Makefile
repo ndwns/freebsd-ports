@@ -3,7 +3,7 @@
 # Date created:				1 Jun 1997
 # Whom:					jmg
 #
-#	$Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nspmod-0.1

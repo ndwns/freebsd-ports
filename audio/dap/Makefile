@@ -3,7 +3,7 @@
 # Date created:				23 August 1998
 # Whom:					yoshiaki Uchikawa
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	DAPSource

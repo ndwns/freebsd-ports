@@ -3,7 +3,7 @@
 # Date created:        31 January 1999
 # Whom:                Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rv50_linux20

@@ -3,7 +3,7 @@
 # Date created:		01 Jan 1999
 # Whom:			Oliver Fromme <oliver.fromme@heim3.tu-clausthal.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tosha-0.6

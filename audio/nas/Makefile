@@ -3,7 +3,7 @@
 # Date created:		03 Nov 1994
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nas-1.2p5

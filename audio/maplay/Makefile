@@ -3,7 +3,7 @@
 # Date created:         Feb 13 1995
 # Whom:                 jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       maplay1_2

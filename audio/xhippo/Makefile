@@ -3,7 +3,7 @@
 # Date created:				16 March 1999
 # Whom:					Rod Taylor <tr49986@rcc.on.ca>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xhippo-1.1

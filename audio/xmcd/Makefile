@@ -3,7 +3,7 @@
 # Date created:		16 Februar 1995
 # Whom:			Gennady Sorokopud <gena@NetVision.net.il>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmcd-2.5

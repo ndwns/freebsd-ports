@@ -3,7 +3,7 @@
 # Date created:		7 December 1998
 # Whom:			Chia-liang Kao <clkao@CirX.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmcdplay-1.0-beta1

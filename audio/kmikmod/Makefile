@@ -3,7 +3,7 @@
 # Date created:        1 March 1999
 # Whom:                Tom Hukins <tom@eborcom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kmikmod-2.04

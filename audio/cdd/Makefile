@@ -3,7 +3,7 @@
 # Date created:         Wed Dec 23 11:15:30 CET 1998
 # Whom:                 luigi@iet.unipi.it
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cdd-1.0

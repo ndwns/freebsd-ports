@@ -3,7 +3,7 @@
 # Date created:		16 March 1995
 # Whom:			rmallory@csusb.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       rplay-3.2.0b6

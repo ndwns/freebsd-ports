@@ -3,7 +3,7 @@
 # Date created:		2nd, Jan 1999
 # Whom:			Chia-liang Kao <clkao@CirX.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dagrab-0.3.1

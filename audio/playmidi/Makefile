@@ -3,7 +3,7 @@
 # Date created:         27 Feb 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       playmidi-2.3

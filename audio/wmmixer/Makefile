@@ -3,7 +3,7 @@
 # Date created:        11 July 1998
 # Whom:                Rich Neswold <rneswold@mcs.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmmixer-1.0-beta1

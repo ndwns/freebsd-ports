@@ -3,7 +3,7 @@
 # Date created:        8 July 1997
 # Whom:                Antti Kaipila <anttik@iki.fi>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cdplay-0.92

@@ -3,7 +3,7 @@
 # Date created:         25 Now 1995
 # Whom:                 Donald Burr <d_burr@ix.netcom.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       WorkMan-1.3a

@@ -4,7 +4,7 @@
 # Date created:         28 February 1999
 # Whom:                 Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ripenc0.7

@@ -3,7 +3,7 @@
 # Date created:        16 November 1998
 # Whom:                yoshiaki Uchikawa
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mikmod-3.1.6

@@ -3,7 +3,7 @@
 # Date created:         30 Sep 1994
 # Whom:                 swallace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xcdplayer-2.2

@@ -3,7 +3,7 @@
 # Date created:		Jun 23 1997
 # Whom:			Vanilla I. Shu <vanilla@MinJe.com.TW>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	amp-0.7.6
