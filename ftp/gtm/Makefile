@@ -15,8 +15,8 @@ MAINTAINER=		nectar@FreeBSD.ORG
 
 # wget is in BUILD_DEPENDS because the configure script checks for it
 LIB_DEPENDS=		gnome.2:${PORTSDIR}/x11/gnomelibs
-BUILD_DEPENDS=		wget:${PORTSDIR}/net/wget
-RUN_DEPENDS=		wget:${PORTSDIR}/net/wget
+BUILD_DEPENDS=		wget:${PORTSDIR}/ftp/wget
+RUN_DEPENDS=		wget:${PORTSDIR}/ftp/wget
 
 GTK_CONFIG?=		${X11BASE}/bin/gtk12-config
 
