@@ -1,5 +1,7 @@
 # $Id$
 #
-SUBDIR=	axe emacs jove mule uemacs vile xemacs xvile
+# broken: uemacs, mastersite never reachable in three weeks
+#
+SUBDIR=	axe emacs jove mule vile xemacs xvile
 
 .include <bsd.port.subdir.mk>
