@@ -14,11 +14,8 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	torstenb@FreeBSD.org
 
-pre-install:
-	@${MKDIR} ${PREFIX}/bin
-	@${MKDIR} ${PREFIX}/etc
-	@${MKDIR} ${PREFIX}/man/man1
-	@${MKDIR} ${PREFIX}/man/man5
-	@${MKDIR} ${PREFIX}/man/man8
+MAN1=		ftpcount.1 ftpwho.1
+MAN5=		ftpaccess.5 ftphosts.5 ftpconversions.5 xferlog.5
+MAN8=		ftpd.8 ftpshut.8
 
 .include <bsd.port.mk>
