@@ -25,7 +25,7 @@ INSTALL_ALSO_AS_SSSL=	yes
 #ENABLE_UID_SWITCHING=	yes
 
 .if defined(INSTALL_ALSO_AS_SSSL)
-RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache
+RUN_DEPENDS=	${PREFIX}/etc/apache/srm.conf:${PORTSDIR}/www/apache-stable
 .endif
 
 USE_PERL5=	yes
