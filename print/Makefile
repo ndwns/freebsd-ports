@@ -56,6 +56,7 @@
     SUBDIR += offix-printer
     SUBDIR += pbm2ppa
     SUBDIR += pdflib
+    SUBDIR += pdq
     SUBDIR += perlftlib
     SUBDIR += pkfonts118
     SUBDIR += pkfonts240
