@@ -13,13 +13,21 @@ MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
 
 GNU_CONFIGURE=  yes
-CONFIGURE_ARGS= --with-tcl-config=/usr/libdata/tcl --with-tk-config=/usr/local/lib
+CONFIGURE_ARGS= --with-tcl-config=/usr/libdata/tcl \
+		--with-tk-config=/usr/local/lib
 
 WRKSRC=${WRKDIR}/${DISTNAME}/unix
 
 pre-install:
 	@cd ${WRKSRC};make sinstall
 	@cp ${WRKSRC}/../tnm/ntping/ntping.8 ${WRKSRC}/../doc
+	@sed "s,@FREEBSD_VERSION@,$$(uname -m)-$$(uname)-$$(uname -r)," pkg/PLIST.in >/tmp/PLIST
+.if defined(NOMANCOMPRESS)
+	@sed "s,@GZIP@,," /tmp/PLIST >pkg/PLIST
+.else
+	@sed "s,@GZIP@,.gz," /tmp/PLIST >pkg/PLIST
+.endif
+	@rm /tmp/PLIST
 
 post-install:
 .if !defined(NOMANCOMPRESS)
@@ -45,5 +53,8 @@ post-install:
 	gzip -9nf ${PREFIX}/man/mann/syslog.n
 	gzip -9nf ${PREFIX}/man/mann/udp.n
 .endif
+
+pre-clean:
+	@rm -f pkg/PLIST
 
 .include <bsd.port.mk>
