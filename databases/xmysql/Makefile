@@ -6,11 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	xmysql-1.5
+DISTNAME=	xmysql-1.7
 CATEGORIES=	databases
-MASTER_SITES=	ftp://mysql.staufen.de/pub/mysql/Contrib/ \
-		http://www.tcx.se/Contrib/ \
-		http://www.buoy.com/mysql/Contrib/
+MASTER_SITES=	http://www.tcx.se/Contrib/ \
+		http://www.buoy.com/mysql/Contrib/ \
+                http://web.tryc.on.ca/mysql/Contrib/ \
+                http://mysql.acer.net/Contrib/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
