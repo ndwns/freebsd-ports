@@ -40,6 +40,7 @@
     SUBDIR += lupe
     SUBDIR += offix-clipboard
     SUBDIR += offix-execute
+    SUBDIR += p5-mkttfdir
     SUBDIR += props
     SUBDIR += rxvt
     SUBDIR += sxpc
