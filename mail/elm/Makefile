@@ -37,7 +37,7 @@ post-install:
 .if defined(NOMANCOMPRESS)
 	${LN} -f ${PREFIX}/man/man1/frm.1 ${PREFIX}/man/man1/nfrm.1
 .else
-	${LN} -f ${PREFIX}/man/man1/frm.1.gz ${PREFIX}/man/man1/nfrm.1.gz
+	${LN} -sf ${PREFIX}/man/man1/frm.1.gz ${PREFIX}/man/man1/nfrm.1.gz
 .endif
 
 .include <bsd.port.mk>
