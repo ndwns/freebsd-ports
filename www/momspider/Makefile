@@ -14,10 +14,9 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} libwww-perl-0.40.tar.gz
 
 MAINTAINER=	wosch@FreeBSD.org
 
+NO_BUILD=	yes
 momdir=		${PREFIX}/momspider
 wwwdir=		libwww-perl-0.40
-
-do-build:
 
 do-install:
 	${MKDIR} ${momdir}/${wwwdir}
