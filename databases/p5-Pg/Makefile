@@ -15,7 +15,7 @@ MASTER_SITE_SUBDIR=	Pg
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	perl5.003:${PORTSDIR}/lang/perl5 \
-		${PREFIX}/postgres95/lib/libpq.a:${PORTSDIR}/databases/postgres95
+		${PREFIX}/pgsql/lib/libpq.a:${PORTSDIR}/databases/postgresql
 RUN_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 do-configure:
