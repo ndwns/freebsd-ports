@@ -34,12 +34,7 @@ CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
 		  --wnn-includes=/usr/X11R6/include/wnn --terminal-face
 STRIP=
 
-PREBUILD_COOKIE=	${.CURDIR}/work/.prebuild_done
-
-pre-build:	${PREBUILD_COOKIE}
-
-${PREBUILD_COOKIE}:
+pre-build:
 	find ${WRKSRC} -name \*.orig -exec /bin/rm -f \{} \;
-	@${TOUCH} ${TOUCH_FLAGS} ${PREBUILD_COOKIE}
 
 .include <bsd.port.mk>
