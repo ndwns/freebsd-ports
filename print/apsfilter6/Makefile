@@ -18,7 +18,7 @@ RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript4 \
 		anytopnm:${PORTSDIR}/graphics/netpbm
 
 NO_CONFIGURE=	yes
-NO_PACKAGE=	"Too many questions."
+NO_PACKAGE=	"Too many questions"
 IS_INTERACTIVE=	yes
 WRKSRC=		${WRKDIR}/apsfilter
 

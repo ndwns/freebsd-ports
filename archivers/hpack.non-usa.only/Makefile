@@ -14,7 +14,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-RESTRICTED=	"Using this code inside USA will violate RSA copyright."
+RESTRICTED=	"Using this code inside USA will violate RSA copyright"
 NO_WRKSUBDIR=	yes
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd

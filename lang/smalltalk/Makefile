@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	jraynard@FreeBSD.ORG
 
 IS_INTERACTIVE=	yes
-NO_PACKAGE=	"Installation requires interaction."
+NO_PACKAGE=	"Installation requires interaction"
 
 pre-configure:
 	@${CP} ${FILESDIR}/m-fbsd-2.h ${WRKSRC}/config/m-fbsd-2.h

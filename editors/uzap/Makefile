@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.germany.eu.net/pub/utils/uzap/
 MAINTAINER=	joerg@FreeBSD.org
 
 # restrictive Copyright; the author is no longer reachable, however :-(
-RESTRICTED=	"Restrictive copyright."
+RESTRICTED=	"Restrictive copyright"
 WRKSRC=		${WRKDIR}
 MAN1=		uzap.1
 

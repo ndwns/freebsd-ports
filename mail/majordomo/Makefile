@@ -17,7 +17,7 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 # Needs to create a user and group
 IS_INTERACTIVE= yes
-NO_PACKAGE=	"User and group need to be created."
+NO_PACKAGE=	"User and group need to be created"
 ALL_TARGET=	wrapper
 INSTALL_TARGET=	install install-wrapper
 MAN1=		approve.1 bounce-remind.1 digest.1

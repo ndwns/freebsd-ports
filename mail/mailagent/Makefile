@@ -18,7 +18,7 @@ BUILD_DEPENDS=	perl5.003:${PORTSDIR}/lang/perl5
 
 WRKSRC=		${WRKDIR}/mailagent-3.0
 
-NO_PACKAGE=	"Correct FQDN needs to be hardcoded."
+NO_PACKAGE=	"Correct FQDN needs to be hardcoded"
 IS_INTERACTIVE=		yes
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure

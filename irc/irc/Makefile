@@ -17,7 +17,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 # ENABLE_NOTE=yes
 
 # Restrictive copyright in irc2.8.21/ircd/res.c
-RESTRICTED=	"No redistribution allowed."
+RESTRICTED=	"No redistribution allowed"
 MAN8=		ircd.8
 
 pre-install:

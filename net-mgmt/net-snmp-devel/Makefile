@@ -12,7 +12,7 @@ MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
-NO_PACKAGE=	"Asks too many questions."
+NO_PACKAGE=	"Asks too many questions"
 GNU_CONFIGURE=	yes
 IS_INTERACTIVE= yes
 MAN1=		snmpget.1 snmpset.1 snmpwalk.1 snmpbulkwalk.1 \

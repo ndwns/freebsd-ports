@@ -17,7 +17,7 @@ PATCHFILES=	select-loop-bug.patch innxmit-long-lines.patch
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
-NO_PACKAGE=	"Too many compile-time options."
+NO_PACKAGE=	"Too many compile-time options"
 NO_WRKSUBDIR=	yes
 
 pre-configure:

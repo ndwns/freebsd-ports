@@ -15,7 +15,7 @@ MAINTAINER=	adam@veda.is
 BUILD_DEPENDS=	${WAISDIR}/bin/waisindex:${PORTSDIR}/net/wais
 
 IS_INTERACTIVE=	yes
-NO_PACKAGE=	"Compiled in hostnames."
+NO_PACKAGE=	"Compiled in hostnames"
 WAISDIR=	${PORTSDIR}/net/wais/work/freeWAIS-0.5
 
 INETD_CONF=	/etc/inetd.conf

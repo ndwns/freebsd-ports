@@ -15,7 +15,7 @@ EXTRACT_SUFX=	.taz
 MAINTAINER=     obrien@cs.ucdavis.edu
 
 NO_WRKSUBDIR=	yes
-RESTRICTED=	"Commercial software."
+RESTRICTED=	"Commercial software"
 
 LIBDIR=	${PREFIX}/lib/mcafee
 MAN1=	uvscan.1
