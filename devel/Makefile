@@ -3,6 +3,7 @@
 
     SUBDIR += bcc
     SUBDIR += bison
+    SUBDIR += cflow
     SUBDIR += dmake
     SUBDIR += gmake
     SUBDIR += libdlmalloc
