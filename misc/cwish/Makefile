@@ -4,7 +4,7 @@
 # Date created:			  Thur Sept 25, 1998
 # Whom:				  David O'Brien (obrien@NUXI.com)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cwish

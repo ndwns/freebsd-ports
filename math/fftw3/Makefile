@@ -3,7 +3,7 @@
 # Date created:		Dec 28 1998
 # Whom:			Lars Koeller <lkoeller@cc.fh-lippe.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fftw-2.1.2

@@ -3,7 +3,7 @@
 # Date created:		3 September 1994
 # Whom:			mr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	oleo-1.6

@@ -3,7 +3,7 @@
 # Date created:		03 Aug 1996
 # Whom:			shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	unclutter-8

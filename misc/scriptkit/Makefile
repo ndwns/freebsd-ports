@@ -3,7 +3,7 @@
 # Date created:        22 April 1998
 # Whom:                Yukihiro Nakai <Nakai@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ScriptKit-0.1.6

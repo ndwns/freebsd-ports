@@ -3,7 +3,7 @@
 # Date created:		24 December 1997
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	magicpoint-1.05a

@@ -3,7 +3,7 @@
 # Date created:        5 June 1997
 # Whom:                Ruslan Shevchenko <rssh@cki.ipri.kiev.ua>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	simpack-3.0

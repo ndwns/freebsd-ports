@@ -3,7 +3,7 @@
 # Date created:         25 Nov 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       screen-3.7.6

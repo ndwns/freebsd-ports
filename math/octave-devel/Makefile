@@ -3,7 +3,7 @@
 # Date created:		8 September 1998
 # Whom:			chuckr@freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	octave-2.0.13

@@ -3,7 +3,7 @@
 # Date created:		24 November 1994
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xgraph-11.3.2

@@ -3,7 +3,7 @@
 # Date created:        20 January 1999
 # Whom:                gmarco
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	abs-src-0.6a

@@ -3,7 +3,7 @@
 # Date created:        24 March 1998
 # Whom:                Matthew Hunt <mph@pobox.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xgfe-2.0

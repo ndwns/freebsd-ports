@@ -3,7 +3,7 @@
 # Date created:		16 April 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	wmMand-1.0
 PKGNAME=	wmmand-1.0

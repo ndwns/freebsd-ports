@@ -3,7 +3,7 @@
 # Date created:		10 September 1998
 # Whom:			KIRIYAMA Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	i18n-man-1.1

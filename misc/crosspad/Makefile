@@ -3,7 +3,7 @@
 # Date created:		23 September 1998
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	crosspad-981112

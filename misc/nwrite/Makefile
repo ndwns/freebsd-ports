@@ -3,7 +3,7 @@
 # Date created:                	29 July 1997
 # Whom:                        	daveh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nwrite-1.9.2

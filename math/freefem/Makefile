@@ -3,7 +3,7 @@
 # Date created:        20 December 1996
 # Whom:                Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	freefem-3.4

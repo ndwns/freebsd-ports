@@ -3,7 +3,7 @@
 # Date created:		06 April 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ranlib.c

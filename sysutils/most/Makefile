@@ -3,7 +3,7 @@
 # Date created:		31 May 1997
 # Whom:			rhwang@bigpanda.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	most-4.9.0

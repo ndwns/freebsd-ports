@@ -3,7 +3,7 @@
 # Date created:         8 Nov 1994
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       less-337

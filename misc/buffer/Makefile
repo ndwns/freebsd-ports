@@ -3,7 +3,7 @@
 # Date created:         23 February 1998
 # Whom:                 Joao Carlos Mendes Luis <jonny@jonny.eng.br>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	buffer-1.17

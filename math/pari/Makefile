@@ -3,7 +3,7 @@
 # Date created:		19 January 1999
 # Whom:	Yoshiaki UCHIKAWA <yoshiaki@kt.rim.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pari-2.0.16.beta

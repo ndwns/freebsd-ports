@@ -3,7 +3,7 @@
 # Date created:		2 August 1998
 # Whom:			J Han <hjh@best.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		diction-0.8

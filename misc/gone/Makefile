@@ -3,7 +3,7 @@
 # Date created:        19 April 1998
 # Whom:                marcus
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gone-1.3.1

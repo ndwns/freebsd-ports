@@ -3,7 +3,7 @@
 # Date created:         13 Dec 1997
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       acron

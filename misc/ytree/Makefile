@@ -3,7 +3,7 @@
 # Date created:				5 Jan 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		ytree-1.65

@@ -3,7 +3,7 @@
 # Date created:		24 April 1995
 # Whom:			Satoshi Asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	chord

@@ -3,7 +3,7 @@
 # Date created:         19 April 1998
 # Whom:                 chuckr
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnuplot-3.7

@@ -3,7 +3,7 @@
 # Date created:         2 July 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	LAPACK

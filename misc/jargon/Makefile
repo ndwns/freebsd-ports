@@ -3,7 +3,7 @@
 # Date created: 	11 July 1998
 # Whom:			moeding
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jargon-4.1.1

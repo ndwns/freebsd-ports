@@ -3,7 +3,7 @@
 # Date created:		03-Jan-1998
 # Whom:			Ralf S. Engelschall <rse@engelschall.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	iselect-1.2.0

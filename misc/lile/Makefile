@@ -3,7 +3,7 @@
 # Date created:		25 Jun 1997
 # Whom:			jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lile-2.0

@@ -3,7 +3,7 @@
 # Date created:				5 September 1996
 # Whom:	      Bill Fenner <fenner@FreeBSD.ORG>
 #
-#   $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nte-1.5a29

@@ -3,7 +3,7 @@
 # Date created:         Fri Nov  6 09:06:33 PST 1998
 # Whom:                 sumikawa@kame.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	lv4491

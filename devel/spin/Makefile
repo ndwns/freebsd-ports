@@ -3,7 +3,7 @@
 # Date created:		Oct 23, 1997
 # Whom:			jhanna@home.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	spin-3.33

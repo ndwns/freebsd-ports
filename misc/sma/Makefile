@@ -3,7 +3,7 @@
 # Date created:         8 May 1998
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	SMA

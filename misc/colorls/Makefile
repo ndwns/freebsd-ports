@@ -3,7 +3,7 @@
 # Date created:		8 March 1995
 # Whom:			Satoshi Asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	colorls-2.2.7

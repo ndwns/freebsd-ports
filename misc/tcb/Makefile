@@ -3,7 +3,7 @@
 # Date created:				1 December 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		tcb-1.4a

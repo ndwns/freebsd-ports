@@ -4,7 +4,7 @@
 # Date created:			  Fri Oct 02, 1998
 # Whom:				  David O'Brien (obrien@FreeBSD.org)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Howto-1.0

@@ -3,7 +3,7 @@
 # Date created:        23 May 1998
 # Whom:                Hans Petter Bieker <zerium@webindex.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kwatch-0.3

@@ -3,7 +3,7 @@
 # Date created:         9 February 1999
 # Whom:                 Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	quotes-1.4-0

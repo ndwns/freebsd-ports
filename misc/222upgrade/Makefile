@@ -3,7 +3,7 @@
 # Date created:		18 Apr 1997
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	222upgrade-1998.03.08

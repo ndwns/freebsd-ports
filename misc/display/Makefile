@@ -3,7 +3,7 @@
 # Date created:		25 August 1997
 # Whom:			Stephen J. Roznowski <sjr@home.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		display

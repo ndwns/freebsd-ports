@@ -3,7 +3,7 @@
 # Date created:		1 July 1995
 # Whom:			joerg
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	team-3.1

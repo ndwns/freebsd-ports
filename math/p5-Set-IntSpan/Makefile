@@ -3,7 +3,7 @@
 # Date created:		February 7, 1998
 # Whom:			Don Croyle <croyle@gelemna.ft-wayne.in.us>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Set-IntSpan-1.07

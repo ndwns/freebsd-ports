@@ -3,7 +3,7 @@
 # Date created:		20 May 1999
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	32upgrade-1999.05.20

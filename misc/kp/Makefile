@@ -3,7 +3,7 @@
 # Date created:         8 May 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       kp-1.00

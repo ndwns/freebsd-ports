@@ -3,7 +3,7 @@
 # Date created:		17 October 1997
 # Whom:			KIRIYAMA Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xd-8087

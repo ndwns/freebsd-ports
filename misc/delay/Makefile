@@ -3,7 +3,7 @@
 # Date created:        03 Mar 1999
 # Whom:                gmarco@scotty.masternet.it
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	delay-1.3

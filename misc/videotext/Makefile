@@ -3,7 +3,7 @@
 # Date created:		Tue June 8 15:11:00 BST 1999
 # Whom:			Roger Hardiman <roger@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	videotext-0.6.971023

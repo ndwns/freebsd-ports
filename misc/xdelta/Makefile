@@ -3,7 +3,7 @@
 # Date created:					Sun May  4 21:40:06 CDT 1997
 # Whom:						jmacd
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdelta-1.0.2

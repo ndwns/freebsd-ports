@@ -3,7 +3,7 @@
 # Date created:				06 January 1996
 # Whom:					bmc@WillsCreek.COM
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fileutils-4.0

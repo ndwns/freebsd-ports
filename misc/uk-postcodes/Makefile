@@ -3,7 +3,7 @@
 # Date created:         1998-01-01
 # Whom:                 wosch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	uk.postcodes

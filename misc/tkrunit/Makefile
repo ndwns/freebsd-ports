@@ -3,7 +3,7 @@
 # Date created:			6 February, 1999
 # Whom:				Stephen Farrell <steve@farrell.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkRunIt-0941

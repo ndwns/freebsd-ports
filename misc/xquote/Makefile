@@ -3,7 +3,7 @@
 # Date created:		4 Jan 1998
 # Whom:			Ian Struble <ian@broken.net>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	xquote-1.1
 CATEGORIES=	misc

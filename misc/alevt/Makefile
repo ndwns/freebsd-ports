@@ -3,7 +3,7 @@
 # Date created:		Wed Aug 18 13:23:00 BST 1999
 # Whom:			Roger Hardiman <roger@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	alevt-1.4.9

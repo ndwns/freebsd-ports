@@ -3,7 +3,7 @@
 # Date created:         31 Oct 97
 # Whom:                 Pedro Giffuni <giffunip@asme.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	superlu_1.1

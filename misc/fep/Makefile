@@ -3,7 +3,7 @@
 # Date created:         20 Feb 1996
 # Whom:                 Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fep

@@ -3,7 +3,7 @@
 # Date created:		14 December 1994
 # Whom:			wollman
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	vic-2.8

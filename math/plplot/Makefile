@@ -3,7 +3,7 @@
 # Date created:         03 Oct 1997
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       plplot4p99j

@@ -3,7 +3,7 @@
 # Date created:				21 Sep 1996
 # Whom:					Julian Stacey <jhs@freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		estic-1.40-sources

@@ -3,7 +3,7 @@
 # Date created:		3 February 1999
 # Whom:			Dima Sivachenko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bbjd-1.01

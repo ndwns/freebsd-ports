@@ -3,7 +3,7 @@
 # Date created:         3 October 1994
 # Whom:                 jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	calc-2.9.3t6

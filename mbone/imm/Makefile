@@ -3,7 +3,7 @@
 # Date created:		13 October 1994
 # Whom:			wollman
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	imm-3.5a1

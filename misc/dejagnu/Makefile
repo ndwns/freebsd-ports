@@ -3,7 +3,7 @@
 # Date created:		12 October 1996
 # Whom:			markm
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dejagnu-1.3

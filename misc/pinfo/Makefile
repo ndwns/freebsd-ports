@@ -3,7 +3,7 @@
 # Date created:         19 May 1999
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pinfo-0.5.5

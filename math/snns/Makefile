@@ -3,7 +3,7 @@
 # Date created:		2 Febuary 1997
 # Whom:			reg@shale.csir.co.za
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	SNNSv4.1

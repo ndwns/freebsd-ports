@@ -7,7 +7,7 @@
 # Date created:         31 July 1995
 # Whom:                 faulkner@cactus.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ast54unx

@@ -3,7 +3,7 @@
 # Date created:		28 Jul 1996
 # Whom:			shanee@augusta.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	logsurfer-1.41

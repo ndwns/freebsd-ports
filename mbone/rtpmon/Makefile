@@ -3,7 +3,7 @@
 # Date created:				1 November 1996
 # Whom:	      Bill Fenner <fenner@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rtpmon-1.0a7

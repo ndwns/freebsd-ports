@@ -3,7 +3,7 @@
 # Date created:		12 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	git-4.3.17

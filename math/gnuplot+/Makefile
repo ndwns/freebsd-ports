@@ -3,7 +3,7 @@
 # Date created:         May 18, 1999
 # Whom:                 NAKAJI Hiroyuki
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gnuplot37+-1.1.8

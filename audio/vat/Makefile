@@ -3,7 +3,7 @@
 # Date created:		2 November 1996
 # Whom:			fenner
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	vat-4.0b2

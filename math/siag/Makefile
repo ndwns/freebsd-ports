@@ -3,7 +3,7 @@
 # Date created:		27 Jan 1998
 # Whom:			mi@aldan.algebra.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	siag-3.1.18

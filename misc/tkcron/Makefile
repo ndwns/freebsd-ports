@@ -3,7 +3,7 @@
 # Date created:		30 July 1996
 # Whom:			Sander Vesik <sander@haldjas.folklore.ee>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkcron-2.12

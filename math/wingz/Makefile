@@ -3,7 +3,7 @@
 # Date created:         Wed Nov 27 09:15:10 CST 1996
 # Whom:                 erich@rrnet.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Wingz-142

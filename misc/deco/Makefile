@@ -3,7 +3,7 @@
 # Date created:				16 Dec 1997
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		deco382

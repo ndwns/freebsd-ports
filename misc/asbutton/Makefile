@@ -3,7 +3,7 @@
 # Date created:			10 May 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	asbutton-0.3

@@ -3,7 +3,7 @@
 # Date created:         31 October 1996
 # Whom:			Pedro Giffuni S.
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bihar

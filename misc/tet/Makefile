@@ -3,7 +3,7 @@
 # Date created:		02 Oct 1998
 # Whom:			jkoshy
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		tet3.2e-unsup

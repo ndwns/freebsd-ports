@@ -3,7 +3,7 @@
 # Date created:		17 October 1997
 # Whom:			itojun@itojun.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ewipe-1.1.0

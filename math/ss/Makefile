@@ -3,7 +3,7 @@
 # Date created:				5 January 1997
 # Whom:					Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ss_1.3.3

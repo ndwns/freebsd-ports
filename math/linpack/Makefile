@@ -3,7 +3,7 @@
 # Date created:         31 October 1994
 # Whom:                 ljo
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	linpack

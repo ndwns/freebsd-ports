@@ -3,7 +3,7 @@
 # Date created:					8 Aug 1998
 # Whom:						rom
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	geg-0.99.0

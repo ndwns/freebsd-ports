@@ -3,7 +3,7 @@
 # Date created:		May 1 1997
 # Whom:			Eric A. Griff <eagriff@global2000.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	apc-1.0

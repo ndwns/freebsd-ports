@@ -4,7 +4,7 @@
 # Date created:         18 Apr 1996
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       speak_freely-6.1c

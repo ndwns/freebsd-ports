@@ -3,7 +3,7 @@
 # Date created:				28th Feb 1995
 # Whom:					gpalmer
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	amanda-2.3.0

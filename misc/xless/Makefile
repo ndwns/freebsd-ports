@@ -3,7 +3,7 @@
 # Date created:		23 December 1996
 # Whom:			Conrad Sabatier <conrads@home.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xless-1.7

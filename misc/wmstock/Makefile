@@ -3,7 +3,7 @@
 # Date created:		19 Jun 1999
 # Whom:			Will Andrews <andrews@technologist.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmstock-0.06

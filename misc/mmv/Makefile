@@ -3,7 +3,7 @@
 # Date created:		2 Feb 1995
 # Whom:			Michael Elbel (me)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mmv

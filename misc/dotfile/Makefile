@@ -3,7 +3,7 @@
 # Date created:      11/12/96
 # Whom:              oly@world.std.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dotfile-2.2

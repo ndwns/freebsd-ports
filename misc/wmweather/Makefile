@@ -3,7 +3,7 @@
 # Date created:		26 January 1998
 # Whom:			Kris Kennaway <kkennawa@physics.adelaide.edu.au>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	wmWeather-1.31
 CATEGORIES=	misc windowmaker

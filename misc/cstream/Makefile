@@ -3,7 +3,7 @@
 # Date created:         19990304
 # Whom:                 cracauer@cons.org "Martin Cracauer"
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cstream-1.4

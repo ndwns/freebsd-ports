@@ -3,7 +3,7 @@
 # Date created:         24 Sep 1997
 # Whom:                 eserte
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Eval113

@@ -3,7 +3,7 @@
 # Date created:         16 Jan 1995
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkinfo-2.4

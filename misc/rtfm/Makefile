@@ -3,7 +3,7 @@
 # Date created:		20 July 1999
 # Whom:			Chris Costello <chris@calldei.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rtfm-0.1

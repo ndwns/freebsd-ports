@@ -3,7 +3,7 @@
 # Date created:			10 February 1999
 # Whom:				Jim Mock <jim@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmcp-1.2.8

@@ -3,7 +3,7 @@
 # Date created:		2 Novermber 1996
 # Whom:			fenner
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       wb-1.59

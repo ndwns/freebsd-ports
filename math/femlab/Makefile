@@ -3,7 +3,7 @@
 # Date created:		19 June 1997
 # Whom:			Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	femlab-2d-v1.1

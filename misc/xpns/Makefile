@@ -3,7 +3,7 @@
 # Date created:         6 Apr 97
 # Whom:                 Pedro Giffuni
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pns_source

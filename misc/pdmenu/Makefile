@@ -3,7 +3,7 @@
 # Date created:		14 December 1998
 # Whom:			Neil Blakey-Milner <nbm@rucus.ru.ac.za>
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=       pdmenu
 PKGNAME=	pdmenu-1.2.40

@@ -3,7 +3,7 @@
 # Date created:				28 Sept 1998
 # Whom:					Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtkfind-0.10

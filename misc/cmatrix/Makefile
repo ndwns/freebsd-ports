@@ -3,7 +3,7 @@
 # Date created:				1 May 1999
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cmatrix-0.98c

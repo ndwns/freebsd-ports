@@ -3,7 +3,7 @@
 # Date created:				19 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xenmenu-0.8b
