@@ -1,12 +1,12 @@
 # New ports collection makefile for:	gracula
-# Version required:			2.30
+# Version required:			3.0
 # Date created:				30 May 1999
 # Whom:					G. Adam Stanislav <adam@whizkidtech.net>
 #
 # $Id$
 #
 
-DISTNAME=	gracula-2.30
+DISTNAME=	gracula-3.0
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.whizkidtech.net/cgi/gcl/ \
 		http://www.whizkidtech.net/gcl/
