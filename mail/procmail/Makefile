@@ -6,12 +6,14 @@
 # $Id$
 #
 
-DISTNAME=       procmail-3.10
+DISTNAME=	procmail-3.10
 MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 IS_INTERACTIVE=	yes
 
 install:
+.if !defined(BATCH)
 	@echo "===>  Installing for ${DISTNAME}"
 	@cd ${WRKSRC}; ${MAKE} install-suid install.man
+.endif
 
 .include <bsd.port.mk>
