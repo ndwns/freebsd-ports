@@ -35,8 +35,8 @@ HAS_CONFIGURE=	YES
 CONFIGURE_ARGS= --prefix=${PREFIX}/pgsql \
 		--enable-locale \
 		--with-template=`uname -s | ${TR} '[A-Z]' '[a-z]'` \
-		--with-includes="/usr/local/include ${TCL_INCDIR} ${TK_INCDIR}" ${WITH_TCL} \
-		--with-libraries=/usr/local/lib
+		--with-includes="${PREFIX}/include ${TCL_INCDIR} ${TK_INCDIR}" ${WITH_TCL} \
+		--with-libraries=${PREFIX}/lib
 
 INSTALL_TARGET= install install-man
 

@@ -50,7 +50,7 @@ pre-build:
 post-install:
 .if !defined(BATCH)
 	@(\
-	  if [ -e /usr/local/share/tex/BOTH ] ;  \
+	  if [ -e ${PREFIX}/share/tex/BOTH ] ;  \
 	    then ${SH} ${FILESDIR}/linkselect.sh ; \
 	  fi \
 	)

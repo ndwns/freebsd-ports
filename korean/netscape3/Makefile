@@ -23,7 +23,7 @@ NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 
 # This directory is hard-coded into the netscape binary
-LIBDIR=         /usr/local/lib/netscape
+LIBDIR=         ${PREFIX}/lib/netscape
 BINDIR=         ${PREFIX}/bin
 NLSDIR=         ${LIBDIR}/nls
 RESSUB=         ko_KR.EUC
