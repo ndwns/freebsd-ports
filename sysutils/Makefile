@@ -15,6 +15,7 @@
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mei
+    SUBDIR += mkhybrid
     SUBDIR += mkisofs
     SUBDIR += pib
     SUBDIR += rdate
