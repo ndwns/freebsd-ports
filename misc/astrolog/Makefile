@@ -15,7 +15,7 @@ PKGNAME=        astrolog-5.30
 CATEGORIES=     misc
 MASTER_SITES=   http://www.astrolog.org/ftp/ephem/ \
 		http://www.astrolog.org/ftp/ \
-		ftp://ftp.relcom.ru/pub/unix/magick/astrology/astrolog/
+		ftp://ftp.kiarchive.ru/pub/unix/magick/astrology/astrolog/
 EXTRACT_ONLY=   ${DISTNAME}.shr
 EPHEM=          LRZ5_24 CHI_24 CPJV_24
 DISTFILES=      ${EXTRACT_ONLY} ${EPHEM}

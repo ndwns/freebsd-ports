@@ -9,7 +9,7 @@
 DISTNAME=       zoo-2.10pl1
 PKGNAME=	zoo-2.10.1
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://ftp.kiae.su/pub/unix/arcers/
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/arcers/
 
 MAINTAINER=	jmz@FreeBSD.org
 

@@ -11,7 +11,7 @@ DISTNAME=       rarbsd
 PKGNAME=        rar-2.01
 CATEGORIES=	archivers
 MASTER_SITES=   ftp://ftp.inetpros.net/pub/rar/ \
-		ftp://ftp.relcom.ru/pub/unix/arcers/
+		ftp://ftp.kiarchive.ru/pub/unix/arcers/
 EXTRACT_SUFX=   .exe
 
 MAINTAINER=     ache@FreeBSD.ORG

@@ -9,7 +9,7 @@
 DISTNAME=       d1489-1.2
 PKGNAME=        ru-d1489-1.2
 CATEGORIES=     russian
-MASTER_SITES=   ftp://ftp.kiae.su/pub/unix/convert/char/
+MASTER_SITES=   ftp://ftp.kiarchive.ru/pub/unix/convert/char/
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=	ache@FreeBSD.ORG
