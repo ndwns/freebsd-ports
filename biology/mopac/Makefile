@@ -20,6 +20,11 @@ MAINTAINER=	rmiya@cc.hirosaki-u.ac.jp
 
 USE_GMAKE=	yes
 
+.include <bsd.port.pre.mk>
+.if ${OSVERSION} >= 400005
+MAKE_ENV+=	HAVE_G2C=yes
+.endif
+
 post-patch:
 	${CP}  ${WRKDIR}/${DISTNAME}/esp.rof  ${WRKDIR}/${DISTNAME}/esp.f
 
@@ -39,4 +44,4 @@ post-install:
 	${INSTALL_DATA} ${WRKDIR}/mopac7-man/mopac.tex ${PREFIX}/share/doc/mopac
 	${INSTALL_DATA} ${WRKDIR}/mopac7-man/mopac.dvi ${PREFIX}/share/doc/mopac
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
