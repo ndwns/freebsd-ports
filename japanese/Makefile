@@ -76,7 +76,6 @@
     SUBDIR += magicpoint
     SUBDIR += man
     SUBDIR += man-doc
-    SUBDIR += man.el
     SUBDIR += mendexk-euc
     SUBDIR += mendexk-sjis
     SUBDIR += mew-mule
