@@ -1,13 +1,13 @@
 # New ports collection Makefile for:    exmh2
-# Version required:		2.0beta
+# Version required:		2.0gamma
 # Date released:		1 Jan 97
 # Whom:				Peter Wemm <peter@freebsd.org>
 #
 # $Id$
 #
 
-DISTNAME=	exmh-2.0beta
-PKGNAME=	exmh-2.0b
+DISTNAME=	exmh-2.0gamma
+PKGNAME=	exmh-2.0g
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/exmh/
 EXTRACT_SUFX=	.tar.Z
