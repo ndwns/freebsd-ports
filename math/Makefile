@@ -39,6 +39,7 @@
     SUBDIR += sc
     SUBDIR += siag
     SUBDIR += simpack
+    SUBDIR += snns
     SUBDIR += spin
     SUBDIR += ss
     SUBDIR += superlu
