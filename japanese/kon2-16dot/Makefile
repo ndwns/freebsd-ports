@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	kon
+PKGNAME=	kon-0994e
 CATEGORIES+=	japanese
 MASTER_SITES=	ftp://ftp.iij.ad.jp/pub/linux-j/JE-sources/JE/
 DISTFILES=	kon-0.99.4e.tgz
