@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=		tet3.2d-unsup
-PKGNAME=		tet-3.2d
+DISTNAME=		tet3.2e-unsup
+PKGNAME=		tet-3.2e
 CATEGORIES=		misc
 MASTER_SITES=		ftp://ftp.rdg.opengroup.org/pub/TET/TET3/ \
 			http://freefall.freebsd.org/~jkoshy/PORTS/
