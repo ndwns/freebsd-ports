@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ryeham.ee.ryerson.ca/pub/PalmOS/
 
 MAINTAINER=	dima@freebsd.org
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 USE_PERL5=	yes
 PREFIX=		${LOCALBASE}/pilot

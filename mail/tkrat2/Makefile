@@ -15,7 +15,7 @@ MAINTAINER=	appleseed@his.com
 
 BUILD_DEPENDS=	tclsh8.0:${PORTSDIR}/lang/tcl80
 LIB_DEPENDS=	tcl80\\.1\\.2:${PORTSDIR}/lang/tcl80 \
-		tk80\\.1\\.2:${PORTSDIR}/x11-toolkits/tk80 \
+		tk80.1:${PORTSDIR}/x11-toolkits/tk80 \
 		c-client\\.2\\.1:${PORTSDIR}/mail/imap-uw
 
 GNU_CONFIGURE=	yes

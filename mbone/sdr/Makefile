@@ -13,7 +13,7 @@ MASTER_SITES=	http://north.east.isi.edu/sdr/
 
 MAINTAINER=	fenner@FreeBSD.org
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 NO_WRKSUBDIR=	yes
 HAS_CONFIGURE=	yes

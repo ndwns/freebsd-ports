@@ -13,7 +13,7 @@ DISTFILES=	vicsrc-2.8.tar.gz
 
 MAINTAINER=	fenner@FreeBSD.ORG
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 USE_AUTOCONF=	yes
 USE_X_PREFIX=	yes

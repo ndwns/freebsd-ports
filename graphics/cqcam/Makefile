@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 MAN1=		cqcam.1
 

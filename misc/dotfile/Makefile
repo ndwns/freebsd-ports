@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.imada.ou.dk/pub/dotfile/
 
 MAINTAINER=	oly@world.std.com
 
-LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
+LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 RUN_DEPENDS=	wish8.0:${PORTSDIR}/x11-toolkits/tk80
 
 GNU_CONFIGURE=	yes
