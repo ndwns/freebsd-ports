@@ -15,6 +15,8 @@ MASTER_SITES=	http://mysql.polaris.ca/Downloads/MySQL-3.22/ \
 
 MAINTAINER=	ibex@physik.TU-Berlin.DE
 
+BROKEN_ELF=	build
+
 NO_LATEST_LINK=	yes
 MAN1=		mysql.1
 
