@@ -15,7 +15,6 @@
     SUBDIR += gifmerge
     SUBDIR += giftool
     SUBDIR += giftrans
-    SUBDIR += gimp
     SUBDIR += gimp-devel
     SUBDIR += hdf
     SUBDIR += hobbes-icons-xpm
