@@ -51,6 +51,7 @@
     SUBDIR += linux_devel
     SUBDIR += linux_kdump
     SUBDIR += m4
+    SUBDIR += m68kbinutils
     SUBDIR += m68kgdb
     SUBDIR += makedepend
     SUBDIR += mico
