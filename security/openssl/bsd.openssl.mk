@@ -81,10 +81,10 @@ MAKE_ARGS+=		OPENSSL_CFLAGS="${OPENSSL_CFLAGS}"
 
 .else
 
-.if exists(/usr/lib/libcrypto.so.3)
-SHLIBVER=	4
-.else
+.if exists(/usr/lib/libcrypto.so.2) && !exists(/usr/lib/libcrypto.so.3)
 SHLIBVER=	3
+.else
+SHLIBVER=	4
 .endif
 
 OPENSSLBASE=		${LOCALBASE}
