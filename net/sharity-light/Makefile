@@ -6,17 +6,15 @@
 # $Id$
 #
 
-DISTNAME=	rumba.0.6.s
-PKGNAME=	rumba-0.6
+DISTNAME=	rumba.0.6a.s
+PKGNAME=	rumba-0.6a
 CATEGORIES=	net
 MASTER_SITES=	ftp://hal.kph.tuwien.ac.at/pub/NeXT/tools/rumba/ \
 		ftp://ftp.obdev.at/pub/Products/rumba/
 EXTRACT_SUFX=	.gnutar.gz
 
-MAINTAINER=	dima@tejblum.dnttm.rssi.ru
+MAINTAINER=	dt@FreeBSD.ORG
 
-USE_GMAKE=	yes
-MAKE_ENV=	PWD=${WRKSRC}
 MAN8=		smbmount.8
 
 post-extract:
@@ -31,7 +29,9 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/rumba ${PREFIX}/sbin
 	${INSTALL_PROGRAM} ${WRKDIR}/unrumba/unrumba ${PREFIX}/sbin
 .if !defined(NOPORTDOCS)
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/README.rumba
+	${MKDIR} ${PREFIX}/share/doc/rumba
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/rumba/README
+	${INSTALL_DATA} ${WRKSRC}/FAQ.txt ${PREFIX}/share/doc/rumba/FAQ
 .endif
 	${INSTALL_MAN} ${WRKSRC}/smbmount.8 ${PREFIX}/man/man8
 
