@@ -29,6 +29,11 @@ USE_X_PREFIX=	yes
 MAN1=		fluid.1
 VERSION=	1.0.2
 
+.include <bsd.port.pre.mk>
+.if (${OBJFORMAT} == "aout")
+BROKEN=	requires ELF library format
+.endif
+
 post-install:
 	@ ${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	@ ${INSTALL_MAN} ${WRKSRC}/documentation/fluid.1 \
@@ -43,4 +48,4 @@ post-install:
 		${PREFIX}/share/doc/fltk
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
