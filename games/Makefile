@@ -17,6 +17,9 @@
     SUBDIR += connect4
     SUBDIR += cosmo
     SUBDIR += crafty
+    SUBDIR += crafty-open-small
+    SUBDIR += crafty-open-medium
+    SUBDIR += crafty-open-large
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
