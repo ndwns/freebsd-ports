@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += abacus
     SUBDIR += cal
     SUBDIR += cbb
     SUBDIR += gnucash
