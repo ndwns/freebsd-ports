@@ -20,7 +20,8 @@ EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=    -qq -o
 
 GNU_CONFIGURE=  YES
-CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc"
+CONFIGURE_ARGS= --with-screen=ncurses --with-zlib --libdir="${PREFIX}/etc" \
+		--enable-nsl-fork
 MAKEFILE=       makefile
 INSTALL_TARGET= install install-help
 MAN1=		lynx.1
