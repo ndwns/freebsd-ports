@@ -9,7 +9,7 @@
 DISTNAME=	mc-4.5.1
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR=	utils/file/managers/mc
+MASTER_SITE_SUBDIR=	utils/file/managers/mc/devel
 
 MAINTAINER=	ports@FreeBSD.ORG
 
