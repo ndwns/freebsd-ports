@@ -9,7 +9,7 @@
 
 DISTNAME=	pine3.95
 PKGNAME=	pine-3.95
-CATEGORIES=	mail
+CATEGORIES=     mail news
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 
 MAINTAINER=	ports@FreeBSD.org
