@@ -15,7 +15,8 @@
     SUBDIR += lsof
     SUBDIR += manck
     SUBDIR += mei
-    SUBDIR += mkhybrid
+    SUBDIR += mkhybrid11
+    SUBDIR += mkhybrid12
     SUBDIR += mkisofs
     SUBDIR += no-login
     SUBDIR += pib
