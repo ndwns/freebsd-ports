@@ -10,7 +10,7 @@ PORTVERSION=	0.6
 CATEGORIES=	chinese
 MASTER_SITES=	ftp://freebsd.sinica.edu.tw/pub/clive/
 
-MAINTAINER=	clive@CirX.ORG
+MAINTAINER=	clive@FreeBSD.org
 
 RUN_DEPENDS=	${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin \
 		${X11BASE}/lib/X11/fonts/TrueType/moe_sung.ttf:${PORTSDIR}/chinese/moettf
