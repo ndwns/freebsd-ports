@@ -25,6 +25,9 @@ X11FIXES = /usr/ports/distfiles/xc
 #define this if you are short of space - save ~28 Mbytes
 #REMOVE_NOT_ESSENTIAL	=	yes
 
+# Define FORCE_PACKAGE from the command line if you want to override
+# this and build a package
+NO_PACKAGE	=	yes
 #######################################################################
 DISTNAME	=	xc
 PKGNAME		= 	XFree86-3.1.1
