@@ -24,5 +24,9 @@ INSTALL_TARGET=	install install.man
 post-install:
 	${MKDIR} ${PREFIX}/share/examples/fkiss
 	${INSTALL_DATA} ${WRKSRC}/frkismi4.lzh ${PREFIX}/share/examples/fkiss
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/ja/fkiss
+	${INSTALL_MAN} ${WRKSRC}/fkiss.doc ${PREFIX}/share/doc/ja/fkiss
+.endif
 
 .include <bsd.port.mk>
