@@ -18,6 +18,8 @@ MASTER_SITES=   ftp://ryeham.ee.ryerson.ca/pub/PalmOS/ \
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		binutils-2.7.tar.gz gdb-4.16.tar.gz gcc-2.7.2.2.tar.gz
 
+BROKEN_ELF=	stubgen
+
 MAINTAINER=     ports@freebsd.org
 
 # install things in ${LOCALBASE}/pilot to avoid conflicts
