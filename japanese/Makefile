@@ -58,6 +58,7 @@
     SUBDIR += platex
     SUBDIR += ptex2
     SUBDIR += qkc
+    SUBDIR += recjis
     SUBDIR += sed
     SUBDIR += sj3
     SUBDIR += sjxa
