@@ -9,7 +9,10 @@
 DISTNAME=	replay-source-dgtk_0.61
 PKGNAME=	replay-0.61
 CATEGORIES=	audio
-MASTER_SITES=	http://replay.linuxpower.org/files/
+MASTER_SITES=	http://replay.linuxpower.org/files/ \
+		ftp://ftp.replicant.nu/pub/replay/ \
+		ftp://ftp.icemark.ch/pub/replay/ \
+		ftp://k2.lund.se/pub/replay/
 
 MAINTAINER=	nacai@iname.com
 
