@@ -17,18 +17,14 @@ MAINTAINER=	obrien@FreeBSD.org
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
-GNUHOST=	${ARCH}-unknown-freebsd${OSREL}
+CONFIGURE_TARGET=	${ARCH}-portbld-freebsd${OSREL}
 .else
-GNUHOST=	${ARCH}-unknown-freebsdaout${OSREL}
+CONFIGURE_TARGET=	${ARCH}-portbld-freebsdaout${OSREL}
 .endif
 
-PLIST_SUB=	GNUHOST=${GNUHOST}
-CONFIGURE_ARGS=	--with-gxx-include-dir=${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/include/g++ 
-.if ${PORTOBJFORMAT} == "elf"
-CONFIGURE_ARGS+=	--host=${GNUHOST}
-.endif
+PLIST_SUB=	GNUHOST=${CONFIGURE_TARGET}
+CONFIGURE_ARGS=	--with-gxx-include-dir=${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/2.8.1/include/g++ 
 GNU_CONFIGURE=	yes
-CONFIGURE_TARGET=	# empty
 USE_GMAKE=	yes
 ALL_TARGET=	bootstrap
 MAN1=		cccp28.1 g++28.1 gcc28.1
@@ -58,11 +54,11 @@ post-install:
 	@${RM} -f ${PREFIX}/bin/c++
 	(for prog in ${PREFIX}/bin/gcc ${PREFIX}/bin/g++ ${PREFIX}/bin/gcov \
 	${PREFIX}/bin/protoize ${PREFIX}/bin/unprotoize \
-	${PREFIX}/bin/${GNUHOST}-gcc \
-	${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/cc1 \
-	${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/cc1obj \
-	${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/cc1plus \
-	${PREFIX}/lib/gcc-lib/${GNUHOST}/2.8.1/cpp ; \
+	${PREFIX}/bin/${CONFIGURE_TARGET}-gcc \
+	${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/2.8.1/cc1 \
+	${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/2.8.1/cc1obj \
+	${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/2.8.1/cc1plus \
+	${PREFIX}/lib/gcc-lib/${CONFIGURE_TARGET}/2.8.1/cpp ; \
 		do strip $$prog ; \
 		done)
 	ln -f ${PREFIX}/bin/gcc ${PREFIX}/bin/gcc28
