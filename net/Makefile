@@ -52,11 +52,12 @@
     SUBDIR += freewais-sf
     SUBDIR += fspclient
     SUBDIR += ftpfind
+    SUBDIR += ftpmirror
     SUBDIR += ftpsearch
     SUBDIR += ftptool
     SUBDIR += gated
     SUBDIR += ggsd
-    SUBDIR += gnomeicu
+    SUBDIR += gnome-icu
     SUBDIR += gnomenetwork
     SUBDIR += gnu-finger
     SUBDIR += gopher
