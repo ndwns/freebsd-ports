@@ -22,6 +22,6 @@ GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
