@@ -73,6 +73,7 @@
     SUBDIR += icb
     SUBDIR += icmpinfo
     SUBDIR += icmpquery
+    SUBDIR += icqlib
     SUBDIR += ipw
     SUBDIR += irc
     SUBDIR += ircII
