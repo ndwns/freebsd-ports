@@ -9,7 +9,7 @@
 DISTNAME=	aero_1.5.2_src
 PKGNAME=	aero-1.5.2
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.povray.org/pub/povray/modellers/aero/
+MASTER_SITES=	ftp://ftp.povray.org/pub/povray/utilities/modellers/aero/
 
 MAINTAINER=	erich@FreeBSD.org
 
