@@ -1,4 +1,4 @@
-# New ports collection makefile for:	p5-SNMP_Simple
+# New ports collection makefile for:	p5-SNMP_Session
 # Version required:			0.70
 # Date created:				13 June 1999
 # Whom:					Stephen J. Roznowski <sjr@home.net>
