@@ -38,8 +38,8 @@ post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/conserver.sh ]; then \
 		echo "Installing ${PREFIX}/etc/rc.d/conserver.sh startup file."; \
 		echo "#!/bin/sh" > ${PREFIX}/etc/rc.d/conserver.sh; \
-		echo "if [ -x /usr/local/sbin/conserver -a -f /usr/local/etc/conserver.cf ]; then" >> ${PREFIX}/etc/rc.d/conserver.sh; \
-		echo "	/usr/local/sbin/conserver -d -n ; echo -n ' conserver'" >> ${PREFIX}/etc/rc.d/conserver.sh; \
+		echo "if [ -x ${PREFIX}/sbin/conserver -a -f ${PREFiX}/etc/conserver.cf ]; then" >> ${PREFIX}/etc/rc.d/conserver.sh; \
+		echo "	${PREFIX}/sbin/conserver -d -n ; echo -n ' conserver'" >> ${PREFIX}/etc/rc.d/conserver.sh; \
 		echo "fi" >> ${PREFIX}/etc/rc.d/conserver.sh; \
 		chmod 751 ${PREFIX}/etc/rc.d/conserver.sh; \
 	fi
