@@ -4,6 +4,7 @@
     SUBDIR += ImageMagick
     SUBDIR += Mesa
     SUBDIR += aero
+    SUBDIR += camediaplay
     SUBDIR += dore
     SUBDIR += geomview
     SUBDIR += gd
@@ -33,6 +34,7 @@
     SUBDIR += plotmtv
     SUBDIR += png
     SUBDIR += povray
+    SUBDIR += qvplay
     SUBDIR += sced
     SUBDIR += spigot
     SUBDIR += splitmpg
