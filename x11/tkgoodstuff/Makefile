@@ -13,7 +13,7 @@ MASTER_SITES=	http://www-personal.umich.edu/~markcrim/tkgoodstuff/dists/
 
 MAINTAINER=	pst@FreeBSD.org
 
-RUN_DEPENDS=	fvwm2:${PORTSDIR}/x11/fvwm2
+RUN_DEPENDS=	fvwm2:${PORTSDIR}/x11-wm/fvwm2
 LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11-toolkits/tk80
 
 GNU_CONFIGURE=	yes
