@@ -16,6 +16,7 @@
     SUBDIR += gqmpeg
     SUBDIR += gsm
     SUBDIR += kdemultimedia
+    SUBDIR += kdemultimedia11
     SUBDIR += kmpg
     SUBDIR += lamer
     SUBDIR += libaudiofile

@@ -47,8 +47,11 @@
     SUBDIR += gnomelibs
     SUBDIR += kb2mb2
     SUBDIR += kde
+    SUBDIR += kde11
     SUBDIR += kdebase
+    SUBDIR += kdebase11
     SUBDIR += kdelibs
+    SUBDIR += kdelibs11
     SUBDIR += kworldwatch
     SUBDIR += libdnd
     SUBDIR += libhelp

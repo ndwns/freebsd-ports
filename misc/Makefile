@@ -37,6 +37,7 @@
     SUBDIR += jargon
     SUBDIR += jive
     SUBDIR += kdeutils
+    SUBDIR += kdeutils11
     SUBDIR += kp
     SUBDIR += kwatch
     SUBDIR += less

@@ -68,6 +68,7 @@
     SUBDIR += isc-dhcp2
     SUBDIR += ivs
     SUBDIR += kdenetwork
+    SUBDIR += kdenetwork11
     SUBDIR += kirc
     SUBDIR += ksamba
     SUBDIR += ldap

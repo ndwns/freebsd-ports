@@ -49,6 +49,7 @@
     SUBDIR += jbigkit
     SUBDIR += jpeg
     SUBDIR += kdegraphics
+    SUBDIR += kdegraphics11
     SUBDIR += killustrator
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
