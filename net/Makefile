@@ -159,6 +159,7 @@
     SUBDIR += ratoolset
     SUBDIR += rdist6
     SUBDIR += relay
+    SUBDIR += rinetd
     SUBDIR += ripetools
     SUBDIR += rmsg
     SUBDIR += roxirc
