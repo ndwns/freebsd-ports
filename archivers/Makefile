@@ -12,6 +12,7 @@
     SUBDIR += unrar
     SUBDIR += unzip
     SUBDIR += unzip.with_encryption
+    SUBDIR += uudeview
     SUBDIR += uudx
     SUBDIR += zip
     SUBDIR += zip.with_encryption
