@@ -7,16 +7,16 @@
 #
 
 DISTNAME=	scotty-2.1.6
-CATEGORIES=	net tk41
+CATEGORIES=	net tk80
 MASTER_SITES=	ftp://ftp.ibr.cs.tu-bs.de/pub/local/tkined/
 
 MAINTAINER=	phk@freebsd.org
 
-LIB_DEPENDS=	tk41\\.1\\.:${PORTSDIR}/x11/tk41
+LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
 
 GNU_CONFIGURE=  yes
-CONFIGURE_ARGS= --with-tcl-config=/usr/libdata/tcl \
-		--with-tk-config=/usr/local/lib
+CONFIGURE_ARGS= --with-tcl-config=/usr/local/lib/tcl8.0 \
+		--with-tk-config=/usr/local/lib/tk8.0
 
 WRKSRC=${WRKDIR}/${DISTNAME}/unix
 MAN1=		tkined.1 scotty.1
