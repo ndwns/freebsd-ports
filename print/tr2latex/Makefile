@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	support
 
 MAINTAINER=	ports@FreeBSD.org
 
+IGNOREFILES=	${DISTNAME}${EXTRACT_SUFX}
+
 MAN1=		tr2latex.1
 
 post-extract:
