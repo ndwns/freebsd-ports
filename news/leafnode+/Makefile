@@ -1,15 +1,14 @@
 # New ports collection makefile for:	leafnode+
-# Version required:	2.3
+# Version required:	2.6
 # Date created:		19 November 1998
 # Whom:			Tom Hukins <tom@eborcom.com>
 #
 # $Id$
 #
 
-DISTNAME=	leafnode+-2.3
+DISTNAME=	leafnode+-2.6
 CATEGORIES=	news
-MASTER_SITES=	ftp://ftp.big.or.jp/pub/usr2/jam/leafnode/ \
-		ftp://ftp.win.or.jp/pub/network/news/misc/
+MASTER_SITES=	ftp://ftp.big.or.jp/pub/usr2/jam/leafnode/
 
 MAINTAINER=	tom@eborcom.com
 
@@ -29,7 +28,7 @@ do-install:
 .for file in leafnode fetchnews texpire checkgroups leaftool
 	@${INSTALL_PROGRAM} ${WRKSRC}/${file} ${PREFIX}/sbin
 .endfor
-.for file in checkgroups.8 fetchnews.8 leafnode.8 texpire.8
+.for file in ${MAN8}
 	@${INSTALL_MAN} ${WRKSRC}/${file} ${PREFIX}/man/man8
 .endfor
 .if !defined{NOPORTDOCS}
