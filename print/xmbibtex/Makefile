@@ -6,12 +6,10 @@
 # $Id$
 #
 
-BROKEN=		distfile unavailable
-
 DISTNAME=	xmbibtex-1.3
 CATEGORIES=	print databases
-MASTER_SITES=	${MASTER_SITE_XCONTRIB}
-MASTER_SITE_SUBDIR=	applications
+MASTER_SITES=	${MASTER_SITE_SUNSITE}
+MASTER_SITE_SUBDIR=	apps/tex
 
 MAINTAINER=	ports@FreeBSD.ORG
 
