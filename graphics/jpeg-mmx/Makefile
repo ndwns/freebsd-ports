@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	jpegsrc.v5a
+PKGNAME=	jpeg-5a
 GNU_CONFIGURE=	yes
 MASTER_SITES=	ftp://ftp.uu.net/graphics/jpeg/ ftp://ftp.netcom.com/pub/tgl/uunet/
 WRKSRC=		${WRKDIR}/jpeg-5a
