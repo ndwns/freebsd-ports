@@ -24,6 +24,7 @@
     SUBDIR += eb
     SUBDIR += ebw3
     SUBDIR += edict
+    SUBDIR += ee
     SUBDIR += elisa10x8
     SUBDIR += elisa8x8
     SUBDIR += elvis
