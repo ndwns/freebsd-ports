@@ -21,8 +21,6 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
 LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.[67]\\.:${PORTSDIR}/graphics/jpeg \
-		mimelib\\.1\\.:${PORTSDIR}/converters/kdesupport \
-		uulib\\.0\\.:${PORTSDIR}/converters/kdesupport \
 		kdecore\\.0\\.1[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.1[0-9]:${PORTSDIR}/x11/kdelibs \
 		jscript\\.0\\.[1-9]:${PORTSDIR}/x11/kdelibs \
