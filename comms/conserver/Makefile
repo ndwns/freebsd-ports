@@ -15,8 +15,6 @@ EXTRACT_SUFX=	.shar.gz
 
 MAINTAINER=	peter@FreeBSD.org
 
-BROKEN=		patch
-
 EXTRACT_CMD=	zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
@@ -30,8 +28,12 @@ MAN8=		console.8 conserver.8
 DEFAULTHOST?=	localhost
 MAKE_ENV+=	DEFAULTHOST="${DEFAULTHOST}"
 
+# XXX we also have to work around ``new'' uudecode behavior, thanks guys!
 post-extract:
 	cp ${FILESDIR}/Makefile ${WRKSRC}
+	if [ -f ${WRKSRC}/group.c ]; then \
+		mv ${WRKSRC}/group.c ${WRKSRC}/conserver/group.c ; \
+	fi
 
 post-install:
 	@if [ ! -f ${PREFIX}/etc/rc.d/conserver.sh ]; then \
