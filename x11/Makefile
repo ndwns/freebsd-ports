@@ -44,6 +44,7 @@
     SUBDIR += tk
     SUBDIR += tk4
     SUBDIR += tk41
+    SUBDIR += tk42
     SUBDIR += tkdesk
     SUBDIR += tkgoodstuff
     SUBDIR += tvtwm
