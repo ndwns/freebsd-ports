@@ -61,6 +61,7 @@
     SUBDIR += xbuffy
     SUBDIR += xcb
     SUBDIR += xco
+    SUBDIR += xcoloredit
     SUBDIR += xcolors
     SUBDIR += xdaliclock
     SUBDIR += xdtm
