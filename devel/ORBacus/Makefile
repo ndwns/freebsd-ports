@@ -15,7 +15,7 @@ MAINTAINER=	ejc@bazzle.com
 
 .include <bsd.port.pre.mk>
 
-.if ${OSREL} >= 4
+.if ${OSVERSION} >= 400000
 LIBSTDC=	/usr/lib/libstdc++.a
 CONFIGURE_ENV=	CXX=c++ CXXFLAGS="-O -pipe"
 .else
