@@ -277,7 +277,7 @@ diff -rc ./src/appl/omniNames/log.cc ../omniORB_2.2.0.freebsd/src/appl/omniNames
       try {
   #ifdef __NT__
         int fd = _open(active, O_WRONLY | O_CREAT | O_TRUNC, _S_IWRITE);
-+ #elif defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__)
++ #elif (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__))
 +       int fd = open(active, O_WRONLY | O_CREAT | O_TRUNC, 0666);
   #else
         int fd = open(active, O_WRONLY | O_CREAT | O_TRUNC | O_SYNC, 0666);
@@ -288,7 +288,7 @@ diff -rc ./src/appl/omniNames/log.cc ../omniORB_2.2.0.freebsd/src/appl/omniNames
   
   #ifdef __NT__
     int fd = _open(active, O_WRONLY | O_APPEND);
-+ #elif defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__)
++ #elif (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__))
 +   int fd = open(active, O_WRONLY | O_APPEND);
   #else
     int fd = open(active, O_WRONLY | O_APPEND | O_SYNC);
@@ -299,7 +299,7 @@ diff -rc ./src/appl/omniNames/log.cc ../omniORB_2.2.0.freebsd/src/appl/omniNames
   
   #ifdef __NT__
     int fd = _open(checkpt, O_WRONLY | O_CREAT | O_TRUNC, _S_IWRITE);
-+ #elif defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__)
++ #elif (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__))
 +   int fd = open(checkpt, O_WRONLY | O_CREAT | O_TRUNC, 0666);
   #else
     int fd = open(checkpt, O_WRONLY | O_CREAT | O_TRUNC | O_SYNC, 0666);
@@ -310,7 +310,7 @@ diff -rc ./src/appl/omniNames/log.cc ../omniORB_2.2.0.freebsd/src/appl/omniNames
   
   #ifdef __NT__
     fd = _open(active, O_WRONLY | O_APPEND);
-+ #elif defined(__FreeBSD__) defined(__OpenBSD__) || defined(__NetBSD__)
++ #elif (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__))
 +   fd = open(active, O_WRONLY | O_APPEND);
   #else
     fd = open(active, O_WRONLY | O_APPEND | O_SYNC);
