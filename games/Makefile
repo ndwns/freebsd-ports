@@ -61,6 +61,7 @@
     SUBDIR += xspringies
     SUBDIR += xsokoban
     SUBDIR += xsol
+    SUBDIR += xsoldier
     SUBDIR += xtetris
     SUBDIR += xtic
     SUBDIR += xtriangles
