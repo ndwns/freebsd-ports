@@ -12,7 +12,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.cs.utah.edu/pub/
 DISTFILES=	urt-3.1b.tar.Z urt-doc.tar urt-img.tar
 
-MAINTAINER=	Pedro Giffuni <pgiffuni@fps.biblos.unal.edu.co>
+MAINTAINER=	pgiffuni@fps.biblos.unal.edu.co
 
 LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff
 BUILD_DEPENDS=	${X11BASE}/lib/libpbm.a:${PORTSDIR}/graphics/netpbm
