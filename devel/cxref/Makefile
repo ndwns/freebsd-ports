@@ -8,7 +8,7 @@
 
 DISTNAME=	cxref-1.4
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/unix/tools/
+MASTER_SITES=	ftp://ftp.demon.co.uk/pub/unix/tools/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	tg@freebsd.org
