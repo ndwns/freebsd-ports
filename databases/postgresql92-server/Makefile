@@ -79,7 +79,9 @@ post-install:
 			>> ${PREFIX}/pgsql/.profile; \
 		${ECHO} "PGDATA=${PREFIX}/pgsql/data" \
 			>> ${PREFIX}/pgsql/.profile; \
-		${ECHO} "export PATH MANPATH PGLIB PGDATA" \
+		${ECHO} "DISPLAY=:0" \
+			>> ${PREFIX}/pgsql/.profile; \
+		${ECHO} "export PATH MANPATH PGLIB PGDATA DISPLAY" \
 			>> ${PREFIX}/pgsql/.profile; \
 		${ECHO} "# if you want to make regression tests use this TZ" \
 			>> ${PREFIX}/pgsql/.profile; \
