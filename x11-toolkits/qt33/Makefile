@@ -116,10 +116,10 @@ post-configure:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} freebsd-g++-shared
 
 do-install:
-	${INSTALL_PROGRAM} $(WRKDIR)/qt-${MAJ}.${MIN}/bin/moc $(X11BASE)/bin
+	${INSTALL_PROGRAM} $(WRKDIR)/qt-${MAJ}.${MIN}/bin/moc $(PREFIX)/bin
 	${INSTALL_DATA} $(WRKDIR)/qt-${MAJ}.${MIN}/lib/libqt.so.${MAJ}.${MIN} \
-		$(X11BASE)/lib
-	${LN} -sf $(X11BASE)/lib/libqt.so.${MAJ}.${MIN} $(X11BASE)/lib/libqt.so
+		$(PREFIX)/lib
+	${LN} -sf $(PREFIX)/lib/libqt.so.${MAJ}.${MIN} $(PREFIX)/lib/libqt.so
 	${LDCONFIG} -m $(PREFIX)/lib
 	${MKDIR} $(PREFIX)/include/X11/qt
 	${INSTALL_DATA} $(WRKDIR)/qt-${MAJ}.${MIN}/include/* \
