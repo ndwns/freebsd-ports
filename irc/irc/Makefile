@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	irc2.9.1p16
-PKGNAME=	irc-2.9.1.16
+DISTNAME=	irc2.9.2p3
+PKGNAME=	irc-2.9.2.3
 CATEGORIES=	net
-MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/servers/
+MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/services/irc/server/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
