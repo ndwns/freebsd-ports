@@ -28,6 +28,7 @@ cku190.tar.gz		ports/comms/kermit	Restrictive copyright
 contool-*		ports/sysutils/contool	Don't incorporate the source
 						code into a product which is
 						subsequently sold.
+cosmo/*			ports/games/cosmo	Possible copyright infringement
 crack-5.0		ports/security/crack	Crypto; export-controlled
 cs-0.3			ports/devel/cs		License required for
 						redistribution on CDROM.
