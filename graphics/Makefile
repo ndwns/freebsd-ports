@@ -7,6 +7,7 @@
     SUBDIR += camediaplay
     SUBDIR += dc3play
     SUBDIR += dore
+    SUBDIR += fxtv
     SUBDIR += gd
     SUBDIR += geomview
     SUBDIR += gfont
