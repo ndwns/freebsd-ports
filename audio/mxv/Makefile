@@ -22,9 +22,10 @@ BUILD_DEPENDS=	${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf:${PORTSDIR}/x11/iv
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
+MAKE_ENV=	CPU=FREEBSD
 #ivmkmf -a (with makedepend) not recommended by documentation
-XMKMF=		env CPU=FREEBSD ${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf; \
-		make Makefiles
+XMKMF=		env ${MAKE_ENV} ${LOCALBASE}/interviews/bin/FREEBSD/ivmkmf; \
+		env ${MAKE_ENV} make Makefiles
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/FREEBSD/mxv ${PREFIX}/bin
