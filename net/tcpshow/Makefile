@@ -7,9 +7,10 @@
 # $Id$
 #
 
-DISTNAME=	tcpshow-1.0
+DISTNAME=	tcpshow-1.74
 CATEGORIES=	net security
-MASTER_SITES=	http://www.cs.berkeley.edu/~daw/mike/
+MASTER_SITES=	http://www.freebsd.org/~obrien/
+#		http://www.cs.berkeley.edu/~daw/mike/
 DISTFILES=	tcpshow.c tcpshow.1
 
 MAINTAINER=     obrien@FreeBSD.org
