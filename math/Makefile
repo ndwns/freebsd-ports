@@ -18,6 +18,7 @@
     SUBDIR += octave
     SUBDIR += oleo
     SUBDIR += ss
+    SUBDIR += umatrix
     SUBDIR += wingz
     SUBDIR += xgraph
     SUBDIR += xlispstat
