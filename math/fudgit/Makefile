@@ -8,6 +8,7 @@
 
 DISTNAME=	Fudgit_2.41
 PKGNAME=	Fudgit-2.41
+CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.physics.mcgill.ca/pub/Fudgit/
 DISTFILES=	fudgit_2.41.tar.gz
 

@@ -8,6 +8,7 @@
 
 DISTNAME=	xgraph-11
 PKGNAME=	xgraph-11.3.2
+CATEGORIES=	math printing
 MASTER_SITES=	ftp://ftp.cs.orst.edu/pub/src/Xclients.local/
 EXTRACT_SUFX=	.tar.Z
 

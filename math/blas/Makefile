@@ -8,6 +8,7 @@
 
 DISTNAME=	blas
 PKGNAME=	blas-1.0
+CATEGORIES=	math
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 

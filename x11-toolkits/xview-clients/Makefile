@@ -8,6 +8,7 @@
 
 DISTNAME=	xview-clients
 PKGNAME=	xview-clients-3.2.1
+CATEGORIES=	x11
 
 DEPENDS=        ${PORTSDIR}/x11/xview-lib
 WRKSRC=      	${PORTSDIR}/x11/xview-config/work/xview3.2p1-X11R6/clients
