@@ -127,6 +127,11 @@ checksubdir:
 	    fi; \
 	  fi; \
 	done
+.for s in ${SUBDIR}
+.if !exists(${.CURDIR}/$s/)
+	@${ECHO} "Warning: directory $s in SUBDIR does not exist"
+.endif
+.endfor
 .endif
 
 .if !target(readmes)
