@@ -8,7 +8,7 @@
 
 DISTNAME=	linuxdoc-sgml-1.6bh2
 PKGNAME=	kr-linuxdoc-sgml-1.6bh2
-CATEGORIES=	korean
+CATEGORIES=	korean textproc
 MASTER_SITES=	ftp://jazz.snu.ac.kr/pub/unix/util/tools/
 
 MAINTAINER=	junker@jazz.snu.ac.kr
