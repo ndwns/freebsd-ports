@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	rsync-1.6.2
+DISTNAME=	rsync-1.6.3
 CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/rsync/  \
 		ftp://sunsite.auc.dk/pub/unix/rsync/
@@ -17,9 +17,9 @@ GNU_CONFIGURE=	yes
 MAN1=		rsync.1
 
 post-patch:
-	cp ${FILESDIR}/clientserver.c ${WRKSRC}
-	cp ${FILESDIR}/README.daemon ${WRKSRC}
-	cp ${FILESDIR}/rsyncd_trees.eg ${WRKSRC}
+	@${CP} ${FILESDIR}/clientserver.c ${WRKSRC}
+	@${CP} ${FILESDIR}/README.daemon ${WRKSRC}
+	@${CP} ${FILESDIR}/rsyncd_trees.eg ${WRKSRC}
 
 post-install:
 	@strip ${PREFIX}/bin/rsync
