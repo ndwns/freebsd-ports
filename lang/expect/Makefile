@@ -14,8 +14,7 @@ MASTER_SITES=	http://expect.nist.gov/ \
 
 MAINTAINER=	ports@freebsd.org
 
-LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80 \
-		tk80\\.1:${PORTSDIR}/x11/tk80
+LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 WRKSRC=		${WRKDIR}/expect-5.25
 
