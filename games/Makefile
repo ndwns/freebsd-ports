@@ -5,6 +5,7 @@
     SUBDIR += agm
     SUBDIR += an
     SUBDIR += angband
+    SUBDIR += blackjack
     SUBDIR += block
     SUBDIR += blue
     SUBDIR += bs
