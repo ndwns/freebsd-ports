@@ -20,6 +20,11 @@ USE_PERL5=      Yes
 NO_BUILD=       Yes
 RESTRICTED=     "Author treats it as ITAR subject"
 
+post-patch:
+	cd ${WRKSRC}; \
+	cp premail premail.old; \
+	sed 's=%PERL5%=${PERL5}=' < premail.old > premail
+
 do-install:
 	cd ${WRKSRC} && ${INSTALL_SCRIPT} premail ${PREFIX}/bin
 	install -d -m 555 ${PREFIX}/share/doc/premail
