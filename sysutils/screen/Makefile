@@ -13,6 +13,5 @@ MASTER_SITES=   ftp://ftp.uni-erlangen.de/pub/utilities/screen/
 MAINTAINER=	ache@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-NCFTPFLAGS=     -PN
 
 .include <bsd.port.mk>

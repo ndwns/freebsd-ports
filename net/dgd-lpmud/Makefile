@@ -15,7 +15,6 @@ DISTFILES=	sim-2.4.5.tar.gz 2.4.5.tar.gz
 
 DEPENDS=	${PORTSDIR}/net/dgd
 
-NCFTPFLAGS=	-P
 NO_WRKSUBDIR=
 PKG_ARGS=	-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST \
 		-r ${PKGDIR}/REQ

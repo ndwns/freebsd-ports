@@ -12,7 +12,6 @@ CATEGORIES+=	networking
 MASTER_SITES=	ftp://boombox.micro.umn.edu/pub/gopher/Unix/
 EXTRACT_SUFX=	.tar.Z
 
-NCFTPFLAGS?=	-P -N
 USE_GMAKE=	yes
 
 pre-install:
