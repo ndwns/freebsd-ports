@@ -13,12 +13,11 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 MAINTAINER=	scrappy@freebsd.org
 
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk \
-		qt.1:${PORTSDIR}/x11-toolkits/qt140 \
 		tcl80.1:${PORTSDIR}/lang/tcl80
-BUILD_DEPENDS=	eg++:${PORTSDIR}/devel/egcs
+#BUILD_DEPENDS=	eg++:${PORTSDIR}/devel/egcs
 
-CC=		egcc
-CXX=		eg++
+#CC=		egcc
+#CXX=		eg++
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes
@@ -27,7 +26,7 @@ USE_GMAKE=	yes
 WRKSRC=		${WRKDIR}/mico
 
 CONFIGURE_ARGS=	--with-qt --with-gtk --with-tcl \
-		--disable-optimize --disable-shared --disable-mini-stl
+		--disable-optimize --disable-shared 
 
 MAN1=		idl.1 imr.1 nsadmin.1
 MAN5=		micorc.5
