@@ -9,17 +9,11 @@
 # $Id$
 #
 
-DISTNAME=       netscape-4.04
+DISTNAME=       netscape-communicator-4.04
 CATEGORIES=	www
-.if !defined(NAVIGATOR)
 MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.04/development/english/unix/freebsd/professional_edition/
 DISTFILES=      communicator-v404-export.x86-unknown-freebsd.tar.gz
-.else
-MASTER_SITES=   ftp://ftp.netscape.com/pub/communicator/4.04/development/english/unix/freebsd/navigator_standalone/
-DISTFILES=      navigator-v404-export.x86-unknown-freebsd.tar.gz
-.endif
 
-# responsible for communicator only
 MAINTAINER=     ache@FreeBSD.ORG
 
 RESTRICTED=	"Commercial software"
@@ -33,8 +27,9 @@ BINDIR=		${PREFIX}/bin
 do-install:
 	cd ${WRKSRC} && yes "" | \
 	    LC_TIME=C MOZILLA_HOME="${NDIR}" ./ns-install
-	mv ${NDIR}/netscape ${NDIR}/netscape.bin
-	${INSTALL_SCRIPT} ${WRKSRC}/netscape ${BINDIR}
+	mv ${NDIR}/netscape ${NDIR}/communicator-4.04.bin
+	${INSTALL_SCRIPT} ${WRKSRC}/netscape ${BINDIR}/communicator-4.04
+	ln -sf communicator-4.04 ${BINDIR}/netscape
 	if [ ! -f ${NDIR}/mailcap ] ; then \
 	    ${INSTALL_DATA} ${FILESDIR}/mailcap ${NDIR}; \
 	fi

@@ -28,7 +28,8 @@
     SUBDIR += mmm
     SUBDIR += momspider
     SUBDIR += netscape3
-    SUBDIR += netscape4
+    SUBDIR += netscape4-communicator
+    SUBDIR += netscape4-navigator
     SUBDIR += p5-Apache
     SUBDIR += p5-CGI
     SUBDIR += p5-CGI_Lite
