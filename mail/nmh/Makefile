@@ -15,7 +15,8 @@ MAINTAINER=     Scott.Blachowicz@seaslug.org
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --libexecdir=${PREFIX}/libexec/nmh \
-		--sysconfdir=${PREFIX}/etc/nmh --enable-nmh-pop
+		--sysconfdir=${PREFIX}/etc/nmh --enable-nmh-pop \
+		--with-mts=sendmail
 
 MAN1= ali.1 anno.1 burst.1 comp.1 dist.1 flist.1 folder.1 forw.1 \
       inc.1 mark.1 mh-chart.1 mhbuild.1 mhl.1 mhlist.1 mhmail.1 \
