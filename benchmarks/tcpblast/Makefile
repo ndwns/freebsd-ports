@@ -8,7 +8,7 @@
 
 DISTNAME=	tcpblast
 PKGNAME=	tcpblast-1.0
-CATEGORIES=	net benchmarks
+CATEGORIES=	benchmarks net
 DISTFILES=	# empty
 
 MAINTAINER=	ports@FreeBSD.org
