@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.che.wisc.edu/pub/gnuplot/
 MAINTAINER=	chuckr@FreeBSD.org
 
 LIB_DEPENDS=    png\\.2\\.:${PORTSDIR}/graphics/png
-BUILD_DEPENDS	$(PREFIX)/lib/libgd.a:${PORTSDIR}/graphics/gd
+BUILD_DEPENDS=	$(PREFIX)/lib/libgd.a:${PORTSDIR}/graphics/gd
 
 WRKSRC=		${WRKDIR}/gnuplot
 GNU_CONFIGURE=	yes
