@@ -26,7 +26,7 @@ do-build:
 	@cd ${WRKDIR}/bin; make
 
 do-install:
-	@tar -C ${WRKDIR} -cf - `grep '^[a-z]' pkg/PLIST` \
+	@tar -C ${WRKDIR} -cf - `grep '^[a-z]' ${PKGDIR}/PLIST` \
 		| tar -C ${PREFIX}/dgd -xpf -
 
 .include <bsd.port.mk>
