@@ -26,7 +26,7 @@ ALL_TARGET=	clean all
 MAN1=		wmCalClock.1
 
 do-install:
-	${INSTALL_MAN} ${WRKSRC}/wmCalClock.1 ${PREFIX}/share/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/wmCalClock.1 ${PREFIX}/man/man1/
 	${INSTALL_PROGRAM} ${WRKSRC}/wmCalClock ${PREFIX}/bin/
 
 .include <bsd.port.mk>
