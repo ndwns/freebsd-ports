@@ -9,7 +9,7 @@
 DISTNAME=	flick-src-1.1
 PKGNAME=	flick-1.1
 CATEGORIES=	devel
-MASTER_SITES=	ftp://flux.cs.utah.edu/flux/flick/
+MASTER_SITES=	ftp://flux.cs.utah.edu/flux/flick/1.1/
 
 MAINTAINER=     ports@FreeBSD.ORG
 
