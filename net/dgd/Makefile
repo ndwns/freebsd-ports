@@ -9,10 +9,12 @@
 DISTNAME=	dgd-1.0.97
 DISTFILES=	dgd-1.0.91.tar.gz
 CATEGORIES=	net lang
-MASTER_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/
+MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/ \
+		ftp://ftp.dreamlabs.com/pub/mud/dgd/
 
-PATCH_SITES=	ftp.lysator.liu.se:/pub/lpmud/drivers/dgd/patches/ \
-		ftp.veda.is:/pub/mud/dgd/patches/
+PATCH_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/patches/ \
+		ftp://ftp.veda.is/pub/mud/dgd/patches/ \
+		ftp://ftp.dreamlabs.com/pub/mud/dgd/patches/
 PATCHFILES=	1.0.91-1.0.92.gz \
 		1.0.92-1.0.93.gz \
 		1.0.93-1.0.94.gz \
