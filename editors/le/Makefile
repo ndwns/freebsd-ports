@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.yars.free.net/pub/software/unix/util/texteditors/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 MAN1=		le.1
 
