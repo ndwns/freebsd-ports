@@ -17,7 +17,8 @@ WRKSRC=		${WRKDIR}/xc/lib/Xaw3d
 USE_IMAKE=	yes
 
 post-extract:
-	/bin/ln -sf export/include ${WRKSRC}/X11
+	${MKDIR} ${WRKSRC}/X11/Xaw3d
+	cd ${WRKSRC}/X11/Xaw3d; ln -sf ../../*.h .
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
