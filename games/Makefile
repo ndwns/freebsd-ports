@@ -31,8 +31,8 @@
     SUBDIR += xpilot
     SUBDIR += xpipeman
     SUBDIR += xrisk
-    SUBDIR += xrobots
     SUBDIR += xroach
+    SUBDIR += xrobots
     SUBDIR += xsol
     SUBDIR += xtetris
     SUBDIR += xtic
