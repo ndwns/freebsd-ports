@@ -17,9 +17,9 @@ pre-install:
 		${WRKSRC}/term/.gitrc.cons25
 	(cd ${WRKSRC}/term ; patch --quiet -p0 <${FILESDIR}/gitrc.cons25.patch )
 
-post_install:
+post-install:
 .if !defined(NOMANCOMPRESS)
-	@gzip -9nf ${PREFIX}/man/man1/git.1 ${PREFIX}/man/man1/gitmatch.1 \
+	@gzip -9nf ${PREFIX}/man/man1/git.1 \
 		${PREFIX}/man/man1/gitaction.1 ${PREFIX}/man/man1/gitmount.1 \
 		${PREFIX}/man/man1/gitcmp.1 ${PREFIX}/man/man1/gitkeys.1 \
 		${PREFIX}/man/man1/gitredir.1 ${PREFIX}/man/man1/gitrgrep.1 \
