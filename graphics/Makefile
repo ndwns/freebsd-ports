@@ -43,6 +43,7 @@
     SUBDIR += gqview
     SUBDIR += gracula
     SUBDIR += graphviz
+    SUBDIR += gridpix
     SUBDIR += gtkdps
     SUBDIR += gtkfig
     SUBDIR += gtksee
