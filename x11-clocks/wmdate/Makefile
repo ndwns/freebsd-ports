@@ -13,7 +13,7 @@ MASTER_SITES=	http://wit401310.student.utwente.nl/apps/apps/
 MAINTAINER=	jim@phrantic.phear.net
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
-BUILD_DEPENDS=	${PREFIX}/include/dockapp.h:${PORTSDIR}/devel/libdockapp
+BUILD_DEPENDS=	${PREFIX}/include/dockapp.h:${PORTSDIR}/x11-wm/libdockapp
 
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
