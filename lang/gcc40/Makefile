@@ -15,6 +15,8 @@ MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-03-15/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
+BROKEN=	"used to build on my system, now doesn't.  use 'cvs co -regcs_102 egcs' if you want a working version before the next upgrade"
+
 MANUAL_PACKAGE_BUILD=	installs libstdc++.a which conflicts with system version
 
 GNU_CONFIGURE=	yes
