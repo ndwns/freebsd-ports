@@ -11,7 +11,9 @@ PKGNAME=        mosaic-2.7b5
 CATEGORIES=     www
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 
-LIB_DEPENDS=    jpeg.9:${PORTSDIR}/graphics/jpeg \
+MAINTAINER=	ports@FreeBSD.org
+
+LIB_DEPENDS=	jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		Xpm.4:${PORTSDIR}/graphics/xpm \
 
