@@ -19,6 +19,7 @@
     SUBDIR += git
     SUBDIR += glimpse
     SUBDIR += ical
+    SUBDIR += isearch
     SUBDIR += ispell
     SUBDIR += kp
     SUBDIR += less
