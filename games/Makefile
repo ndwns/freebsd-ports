@@ -5,6 +5,7 @@
     SUBDIR += 3dpong
     SUBDIR += KnightCap
     SUBDIR += acm
+    SUBDIR += affenspiel
     SUBDIR += agm
     SUBDIR += an
     SUBDIR += angband
