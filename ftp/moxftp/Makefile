@@ -8,7 +8,9 @@
 
 DISTNAME=	moxftp-2.2
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.pacbell.com/X11/contrib/applications/
+MASTER_SITES=	ftp://metalab.unc.edu/pub/X11/contrib/applications/ \
+	  	ftp://ftp.inria.fr/X/contrib-R5/applications/ \
+		ftp://ftp.tk.mesh.ad.jp/pub/X/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
