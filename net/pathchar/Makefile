@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://ftp.ee.lbl.gov/pathchar/
 
 MAINTAINER=	josh@quick.net
 
+ONLY_FOR_ARCHS=	i386
+
 .include <bsd.port.pre.mk>
 .if ${PORTOBJFORMAT} == "aout"
 DISTNAME=	pathchar-a0-freebsd-2.2
