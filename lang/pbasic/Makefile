@@ -26,6 +26,5 @@ do-configure:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/basic ${PREFIX}/bin/pbasic
 	${INSTALL_MAN} ${WRKSRC}/docs/basic.1 ${PREFIX}/man/man1/pbasic.1
-.endif
 
 .include <bsd.port.mk>
