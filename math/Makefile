@@ -27,6 +27,7 @@
     SUBDIR += ss
     SUBDIR += umatrix
     SUBDIR += wingz
+    SUBDIR += xgfe
     SUBDIR += xgraph
     SUBDIR += xlispstat
     SUBDIR += xplot
