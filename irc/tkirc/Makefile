@@ -11,7 +11,7 @@ PKGNAME=	tkirc-1.202
 CATEGORIES=	irc tk80
 MASTER_SITES=	ftp://ftp.informatik.uni-oldenburg.de/pub/tkirc/
 
-MAINTAINER=	brianfeldman@hotmail.com
+MAINTAINER=	green@FreeBSD.org
 
 RUN_DEPENDS=	irc:${PORTSDIR}/irc/ircII \
 		wish8.0:${PORTSDIR}/x11-toolkits/tk80
