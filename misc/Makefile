@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= pkg_install libmytinfo libncurses
+SUBDIR= libmytinfo libncurses
 
 .include <bsd.port.subdir.mk>
