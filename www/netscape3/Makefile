@@ -15,8 +15,9 @@ MAINTAINER=	sada@FreeBSD.ORG
 
 Y2K=		http://home.netscape.com/products/year2000/faq/client.html
 
-NOT_FOR_ARCHS=	alpha
+ONLY_FOR_ARCHS=	i386
 
+USE_XLIB=	yes
 NO_LATEST_LINK=	yes
 NO_WRKSUBDIR=	yes
 PKGREQ=		${PORTSDIR}/www/netscape4-communicator/pkg/REQ
