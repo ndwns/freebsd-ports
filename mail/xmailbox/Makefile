@@ -7,7 +7,7 @@
 #
 
 DISTNAME=		xmailbox-2.5
-CATEGORIES=		mail x11
+CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_XCONTRIB}
 MASTER_SITE_SUBDIR=	applications
 
