@@ -58,6 +58,7 @@
     SUBDIR += xlogmaster
     SUBDIR += xosview
     SUBDIR += xperfmon
+    SUBDIR += xperfmon3
     SUBDIR += xsysinfo
     SUBDIR += xsysstats
     SUBDIR += xwatch
