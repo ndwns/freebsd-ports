@@ -76,6 +76,7 @@
     SUBDIR += xloadimage
     SUBDIR += xlockmore
     SUBDIR += xmascot
+    SUBDIR += xmbdfed
     SUBDIR += xmold
     SUBDIR += xpostit
     SUBDIR += xprompt
