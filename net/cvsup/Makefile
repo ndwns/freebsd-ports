@@ -16,4 +16,14 @@ LIB_DEPENDS=	m3\\.3\\.:${PORTSDIR}/lang/modula-3
 
 MAKE_ENV=	M3FLAGS=-DDYNAMIC
 
+pre-fetch warning:
+	@${ECHO} "WARNING  WARNING  WARNING  WARNING  WARNING  WARNING"
+	@${ECHO} "CVSup depend on Modula-3, which require > 30MB disk space."
+	@${ECHO} "You don't need install Modula unless you want it for some"
+	@${ECHO} "other reason. Get the static binary of cvsup on freefall in"
+	@${ECHO} ""
+	@${ECHO} "	ftp://freefall.freebsd.org/pub/CVSup/cvsup-bin-*"
+	@${ECHO} ""
+	@${ECHO} ""
+
 .include <bsd.port.mk>
