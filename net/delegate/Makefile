@@ -1,13 +1,13 @@
 # New ports collection makefile for:	DeleGate
-# Version required:		4.3.4
+# Version required:		4.3.6
 # Date created:			26 Jan 1997
 # Whom:				Masafumi NAKANE <max@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	delegate4.3.4
-PKGNAME=	delegate-4.3.4
+DISTNAME=	delegate4.3.6
+PKGNAME=	delegate-4.3.6
 CATEGORIES=	net www japanese
 MASTER_SITES=	ftp://etlport.etl.go.jp/pub/DeleGate/
 
@@ -24,7 +24,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/delegated ${PREFIX}/sbin
 	@${MKDIR} ${PREFIX}/share/examples/delegate
 	${INSTALL_DATA} ${FILESDIR}/delegated.sh \
-	   ${PREFIX}/share/examples/delegate 
+	   ${PREFIX}/share/examples/delegate
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/delegate
 	${INSTALL_DATA} ${WRKSRC}/doc/Manual.txt \
