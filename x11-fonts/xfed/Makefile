@@ -24,7 +24,7 @@ SOURCEFILES=	Epistle,README,Imakefile,xfed.man \
 SOURCESITE=	ftp://ftp.cs.orst.edu/pub/src/X11R4/contrib/clients/xfed/
 #EXTRACT_SUFX=	.tar.Z
 
-fetch:	pre-fetch
+do-fetch:
 	@if [ ! -d ${DISTDIR} ]; then mkdir -p ${DISTDIR}; fi
 	@noglob= ; \
 	if [ ! -f ${DISTDIR}/${TARFILE} ]; then \
