@@ -6,14 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	snarf-latest
-PKGNAME=	snarf-2.0.5
+DISTNAME=	snarf-2.0.5
 CATEGORIES=	www
 MASTER_SITES=	http://www.xach.com/snarf/
 
 MAINTAINER=	kris@FreeBSD.ORG
-
-WRKSRC=		${WRKDIR}/snarf-2.0.5/
 
 GNU_CONFIGURE=	yes
 
