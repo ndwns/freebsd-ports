@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://space.mit.edu/pub/davis/slrn/
 
 MAINTAINER=	xaa@xaa.iae.nl
 
-LIB_DEPENDS=	slang\\.1:${PORTSDIR}/devel/libslang
+LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 
 WRKSRC=		${WRKDIR}/slrn
 GNU_CONFIGURE=	yes

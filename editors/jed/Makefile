@@ -17,7 +17,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=     eric@cybernut.com
 
-LIB_DEPENDS=	slang\\.1:${PORTSDIR}/devel/libslang
+LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 
 # comment out the next line if you don't want the X version of JED.
 XJED=	xjed

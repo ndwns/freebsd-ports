@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://space.mit.edu/pub/davis/most/ \
 
 MAINTAINER=	rhwang@bigpanda.com
 
-LIB_DEPENDS=	slang\\.1:${PORTSDIR}/devel/libslang
+LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/most
