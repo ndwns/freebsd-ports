@@ -6,11 +6,10 @@
 # $Id$
 #
 
-DISTNAME=       fMSX-1.5
+DISTNAME=       fMSX
 PKGNAME=	fmsx-1.5
 CATEGORIES=	emulators
-MASTER_SITES=   ftp://cam031313.student.utwente.nl/pub/MSX/fMSX/ \
-		ftp://ftp.saitama-u.ac.jp/pub/msx/cam031313.student.utwente.nl/fMSX/ 
+MASTER_SITES=	http://www.komkon.org/fms/fMSX/
 EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=	dk@farm.org
