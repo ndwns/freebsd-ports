@@ -9,10 +9,11 @@
 DISTNAME=	dejasearch11
 PKGNAME=	dejasearch-1.1
 CATEGORIES=	news
-MASTER_SITES=	http://homemade.hypermart.net/dejasearch/ \
-		http://homemade.virtualave.net/dejasearch/
+MASTER_SITES=	http://homemade.hypermart.net/dejasearch/
 
 MAINTAINER=	kris@FreeBSD.ORG
+
+RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/LWP/UserAgent.pm:${PORTSDIR}/www/p5-libwww
 
 WRKSRC=		${WRKDIR}/dejasearch/
 
