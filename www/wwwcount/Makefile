@@ -17,6 +17,7 @@ MASTER_SITES=   ftp://warm.semcor.com/pub/muquit/wwwcount2.3/
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+NO_PACKAGE=	yes	# hostname compiled in
 GNU_CONFIGURE=  yes
 IS_INTERACTIVE= yes
 
