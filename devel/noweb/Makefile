@@ -14,7 +14,8 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
-RUN_DEPENDS=	icont:${PORTSDIR}/lang/icon
+BUILD_DEPENDS=	icont:${PORTSDIR}/lang/icon
+RUN_DEPENDS=	iconx:${PORTSDIR}/lang/icon
 
 WRKSRC=		${WRKDIR}/src
 
