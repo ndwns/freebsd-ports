@@ -16,6 +16,11 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=         perl
+.endif
+
 MAN1=		showtable.1
 MAN3=		Data::ShowTable.3
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
