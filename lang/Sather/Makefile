@@ -19,6 +19,8 @@ MASTER_SITES=   ftp://ftp.icsi.berkeley.edu/pub/sather/  \
 
 MAINTAINER=	obrien@FreeBSD.org
 
+BROKEN_ELF=	gcc: ../../System/GC/gc.a: No such file or directory
+
 WRKSRC=		${WRKDIR}/Sather
 ALL_TARGET=	testall
 MAN1=		cs.1
