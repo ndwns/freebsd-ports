@@ -17,6 +17,7 @@
     SUBDIR += gnome
     SUBDIR += gnomecore
     SUBDIR += gnomelibs
+    SUBDIR += gyroscope
     SUBDIR += kb2mb2
     SUBDIR += kde11
     SUBDIR += kde11-i18n

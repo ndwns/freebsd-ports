@@ -34,7 +34,6 @@
     SUBDIR += gn
     SUBDIR += grail
     SUBDIR += gwstat
-    SUBDIR += gyroscope
     SUBDIR += harvest
     SUBDIR += hotjava
     SUBDIR += htmlpp
