@@ -40,6 +40,7 @@
     SUBDIR += xrubik
     SUBDIR += xroach
     SUBDIR += xrobots
+    SUBDIR += xshisen
     SUBDIR += xskat
     SUBDIR += xsol
     SUBDIR += xtetris
