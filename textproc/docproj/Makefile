@@ -19,6 +19,20 @@ RUN_DEPENDS=	instant:${PORTSDIR}/textproc/sgmlformat \
 		tidy:${PORTSDIR}/www/tidy \
 		${PREFIX}/share/sgml/html/catalog:${PORTSDIR}/textproc/html
 
+IS_INTERACTIVE= "user must set JADETEX variable to 'yes' or 'no'"
+
+JADETEX?=
+
+.if empty(JADETEX)
+.BEGIN:
+	@${CAT} pkg/JADETEX
+	@${FALSE}
+.endif
+
+.if ${JADETEX} == yes
+RUN_DEPENDS+= ${PREFIX}/share/texmf/web2c/jadetex.fmt:${PORTSDIR}/print/jadetex
+.endif
+
 EXTRACT_ONLY=	# empty
 NO_BUILD=	yes
 
