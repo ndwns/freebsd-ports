@@ -44,8 +44,9 @@ do-configure:
 	done
 
 post-build:
-	${INSTALL_SCRIPT} ${FILESDIR}/exim.sh ${WRKSRC}/build-FreeBSD-i386
-	${TOUCH} ${WRKSRC}/build-FreeBSD-i386/eximon.bin
-	${TOUCH} ${WRKSRC}/build-FreeBSD-i386/eximon
+	${INSTALL_SCRIPT} ${FILESDIR}/exim.sh \
+		${WRKSRC}/build-${OPSYS}-${MACHINE_ARCH}
+	${TOUCH} ${WRKSRC}/build-${OPSYS}-${MACHINE_ARCH}/eximon.bin
+	${TOUCH} ${WRKSRC}/build-${OPSYS}-${MACHINE_ARCH}/eximon
 
 .include <bsd.port.mk>
