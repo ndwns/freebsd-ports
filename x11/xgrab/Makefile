@@ -20,10 +20,9 @@ MAKE_FLAGS=	BINDIR=${PREFIX}/bin MANDIR=${PREFIX}/man/man1 \
 		XAPPLOADDIR=${PREFIX}/lib/X11/app-defaults  -f
 # "make depend" blows up
 XMKMF=		xmkmf
-# Needs to actually *run* xrdb
-#IS_INTERACTIVE=	yes
-.if !defined(DISPLAY)
-BROKEN=		Requires an active X session to run xrdb.  Please compile this while running X.
+
+.if !defined(DISPLAY) || ${DISPLAY} == ""
+BROKEN=		"Requires an active X session (and DISPLAY variable) to run xrdb.  Please compile this while running X."
 .endif
 
 MAN1=		xgrab.1 xgrabsc.1
