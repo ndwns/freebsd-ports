@@ -21,4 +21,12 @@ PATCH_DIST_STRIP=	-p1
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 
+DNDP=		${WRKSRC}/devnippon/DESC.proto
+
+#for not writing "/usr/local" explicitly in the patch
+post-patch:
+	/bin/mv -f ${DNDP} ${DNDP}.tmp
+	/usr/bin/sed -e '$$d' ${DNDP}.tmp > ${DNDP}
+	/bin/echo "postpro ${PREFIX}/bin/grotty" >> ${DNDP}
+
 .include <bsd.port.mk>
