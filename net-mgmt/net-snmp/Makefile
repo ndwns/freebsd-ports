@@ -8,7 +8,7 @@
 
 DISTNAME=	ucd-snmp-3.5.3
 CATEGORIES=	net
-MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/ \
+MASTER_SITES= 	ftp://ucd-snmp.ucdavis.edu/ \
 		ftp://sunsite.cnlab-switch.ch/mirror/ucd-snmp/ \
 		ftp://ftp.win.or.jp/pub/network/snmp/ucd-snmp/
 
