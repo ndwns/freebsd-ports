@@ -32,7 +32,4 @@ CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 USE_GMAKE=	yes
 CFLAGS+=	"-I${PREFIX}/include"
 
-pre-configure:
-		${LN} -sf $(PREFIX)/include/uu.h $(WRKSRC)/krn/uudeview.h
-
 .include <bsd.port.mk>
