@@ -3,7 +3,7 @@
 # Date created:         2 Apr 1997
 # Whom:                 Choi Jun Ho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	nh2ps-2.3.1

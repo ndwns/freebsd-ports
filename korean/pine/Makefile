@@ -6,7 +6,7 @@
 #
 # k3 means pico hangul patch
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pine3.96

@@ -3,7 +3,7 @@
 # Date created:		12 Mar 1998
 # Whom:			CHOI Junho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	hanemacs-19.34b-1

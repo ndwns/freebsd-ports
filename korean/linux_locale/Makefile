@@ -3,7 +3,7 @@
 # Date created:         Apr 20 1999
 # Whom:                 cjh@kr.freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	linux_locale-ko-1.0

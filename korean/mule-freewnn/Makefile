@@ -3,7 +3,7 @@
 # Date created:		20 July 1997
 # Whom:			Satoshi Taoka <taoka@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 PKGNAME=	ko-mule-wnn4-2.3

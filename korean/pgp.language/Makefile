@@ -3,7 +3,7 @@
 # Date created:         22 Jul 1998
 # Whom:                 CHOI Junho <cjh@kr.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 # This is based on ja-pgp.
 #

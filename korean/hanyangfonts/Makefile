@@ -3,7 +3,7 @@
 # Date created:         22 Mar 1997
 # Whom:                 Choi Jun Ho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       hanyang-font-pcf

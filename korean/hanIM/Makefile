@@ -3,7 +3,7 @@
 # Date created:         17 Mar 1998
 # Whom:                 CHOI Junho <cjh@kr.freebsd.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       hanIM-${HANIM_VER}-${HANIM_VER_PL}.i386

@@ -31,7 +31,7 @@
 
 #ifndef lint
 static char rcsid[] =
-    "$Id$";
+  "$FreeBSD$";
 #endif /* not lint */
 
 #include <sys/types.h>

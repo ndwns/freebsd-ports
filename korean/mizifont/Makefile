@@ -3,7 +3,7 @@
 # Date created:		16 Mar 1998
 # Whom:			CHOI Junho <cjh@kr.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xfntmizi-1.1-2.noarch

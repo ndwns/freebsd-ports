@@ -3,7 +3,7 @@
 # Date created:         20 May 1997
 # Whom:                 CHOI Junho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 # Thanks to SungGon Yi <skon@stats.snu.ac.kr> for advising 2.06 ports
 #

@@ -3,7 +3,7 @@
 # Date created:		12 Apr 1997
 # Whom:			Choi Jun Ho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	han-1.0fb

@@ -1,6 +1,6 @@
 #
 # Example entry for inetd.conf for the Cyrus IMAP server.
-# $Id$
+# $FreeBSD$
 #
 # Replace /usr/local with the path where you've installed the package.
 #

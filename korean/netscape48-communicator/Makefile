@@ -3,7 +3,7 @@
 # Date created:		25 Oct 1998
 # Whom:			CHOI Junho <cjh@kr.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 # based on japanese/netscape4-*
 

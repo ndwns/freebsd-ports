@@ -3,7 +3,7 @@
 # Date created:         1 Apr 1997
 # Whom:                 Choi Jun Ho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	elm2.4h4.1

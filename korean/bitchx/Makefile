@@ -3,7 +3,7 @@
 # Date created:		3 Jun 1999
 # Whom:			hollywar
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bitchx-kr-75p1

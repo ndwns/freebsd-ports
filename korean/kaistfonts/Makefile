@@ -3,7 +3,7 @@
 # Date created:		Fri Mar 27 17:26:42 KST 1998
 # Whom:			CHOI Junho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ko-kaistfonts-ksc-1.0

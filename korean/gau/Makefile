@@ -3,7 +3,7 @@
 # Date created:         23 Jul 1998
 # Whom:                 CHOI Junho <cjh@kr.freebsd.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gau-0.3.1

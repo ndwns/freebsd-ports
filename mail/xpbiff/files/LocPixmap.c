@@ -2,7 +2,7 @@
 
 /* * Last edited: Sep 17 14:39 1991 (mallet) */
 /*
- * $Id$
+ * $FreeBSD$
  *
  * Copyright 1991 Lionel Mallet
  *

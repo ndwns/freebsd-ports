@@ -3,7 +3,7 @@
 # Date created:		6 Apr 1995
 # Whom:			CHOI Junho <junker@jazz.snu.ac.kr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	netscape-3.04

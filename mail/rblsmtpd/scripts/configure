@@ -2,7 +2,7 @@
 #
 # Set up daemontools for the *BSD environment...
 #
-# @(#) $Id$
+# @(#) $FreeBSD$
 #
 
 # Tune the options we're given.
