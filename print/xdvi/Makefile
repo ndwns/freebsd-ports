@@ -9,7 +9,8 @@
 DISTNAME=	xdvi-20
 PKGNAME=	xdvi-pl20
 CATEGORIES+=	printing
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
+MASTER_SITES=	ftp://ftp.x.org/contrib/applications/	\
+		ftp://crl.dec.com/pub/X11/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
