@@ -12,6 +12,7 @@ CATEGORIES=	math
 MASTER_SITES=	ftp://netlib.bell-labs.com/netlib/blas/ \
 		ftp://www.hensa.ac.uk/mirrors/netlib/blas/ \
 		ftp://elib.zib-berlin.de/pub/blas/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ports@FreeBSD.org
 
