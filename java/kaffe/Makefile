@@ -9,7 +9,6 @@
 DISTNAME=	kaffe-1.0.b1
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.transvirtual.com/pub/kaffe/
-EXTRACT_SUFX=	.tgz
 DISTFILES=	${DISTNAME}.tar.gz
 
 MAINTAINER=	xaa@xaa.iae.nl
