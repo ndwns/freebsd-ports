@@ -8,7 +8,7 @@
 
 DISTNAME=	tutorial
 PKGNAME=	jdk-tutorial-1.1.7
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	ftp://ftp.javasoft.com/docs/
 
 MAINTAINER=	martti.kuparinen@ericsson.com

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	blackened-1.6.2
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.blackened.com/pub/irc/blackened/ \
 		http://www.cana.net/~acme/blackened/ \
 		http://www.psn.net/~andrews/blackened/

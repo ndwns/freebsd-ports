@@ -8,7 +8,7 @@
 
 DISTNAME= 	ninja-src
 PKGNAME=	ninja-1.1
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://ninja.pimped.org/
 
 MAINTAINER=	cpiazza@FreeBSD.org

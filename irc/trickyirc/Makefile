@@ -8,7 +8,7 @@
 
 DISTNAME=	TrickyIRC-0.99
 PKGNAME=	trickyirc-0.99
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://www.leb.net/~troll/
 
 MAINTAINER=	troll@digitalspark.net

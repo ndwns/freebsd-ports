@@ -8,7 +8,7 @@
 
 DISTNAME=	ircii-pana-75p3
 PKGNAME=	bitchx-75p3
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.bitchx.org/pub/BitchX/source/ \
 		ftp://ftp.buk.net/pub/software/bitchx/source/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ircii-4.4
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

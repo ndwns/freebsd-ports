@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	zircon-1.18.213
-CATEGORIES=	net tk80
+CATEGORIES=	irc tk80
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/ \
 		ftp://ftp.dinoex.sub.org/pub/approved/
 

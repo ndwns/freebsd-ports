@@ -8,7 +8,7 @@
 
 DISTNAME=	swing11
 PKGNAME=	jfc-1.1
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	http://java.sun.com/products/jfc/
 EXTRACT_SUFX=	.tar.Z
 

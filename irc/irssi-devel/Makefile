@@ -8,7 +8,7 @@
 
 DISTNAME=	irssi-0.7.11-2
 PKGNAME=	irssi-0.7.11
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://www.sicom.fi/~ikioma/irssi/
 
 MAINTAINER=	jim@phrantic.phear.net

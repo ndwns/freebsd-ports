@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	sic-0.18a
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.funet.fi/pub/unix/irc/sic/
 EXTRACT_SUFX=	.tgz
 

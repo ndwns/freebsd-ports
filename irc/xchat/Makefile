@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xchat-0.9.9
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://xchat.linuxpower.org/files/ \
 		http://www.ozemail.com.au/~peterzelezny/xchat/ \
 		http://www.spyda.co.za/pub/linux/x11/irc/xchat/

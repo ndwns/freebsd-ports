@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	jdk-${JDK_VERSION}
-CATEGORIES=	lang devel
+CATEGORIES=	java devel
 #MASTER_SITES=	ftp://ftp.nuxi.com/pub/FreeBSD/JDK/ \
 MASTER_SITES=		http://www.freebsd.org/java/
 

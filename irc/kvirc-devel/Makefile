@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kvirc-0.9.0
-CATEGORIES=	net kde
+CATEGORIES=	irc kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
 MASTER_SITE_SUBDIR=	 stable/1.1/apps/network
 

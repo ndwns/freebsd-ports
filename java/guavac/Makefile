@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	guavac-1.2
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	ftp://ftp.yggdrasil.com/pub/dist/devel/compilers/guavac/
 
 MAINTAINER=	nacai@iname.com

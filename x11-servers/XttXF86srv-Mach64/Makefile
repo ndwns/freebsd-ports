@@ -8,7 +8,7 @@
 
 DISTNAME=	xc
 PKGNAME=	xtt-Mach64-1.2.1
-CATEGORIES=	x11
+CATEGORIES=	x11-servers
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 

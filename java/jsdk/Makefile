@@ -8,7 +8,7 @@
 
 DISTNAME=	jsdk20-solaris2-sparc
 PKGNAME=	jsdk-2.0
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	
 EXTRACT_SUFX=	.tar.Z
 

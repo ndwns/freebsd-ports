@@ -8,7 +8,7 @@
 
 DISTNAME=	tya13v2
 PKGNAME=	tya-1.3v2
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	ftp://gonzalez.cyberus.ca/pub/Linux/java/
 EXTRACT_SUFX=	.tgz
 

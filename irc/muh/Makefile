@@ -8,7 +8,7 @@
 
 DISTNAME=	muh2.04
 PKGNAME=	muh-2.04
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://mind.riot.org/download/
 
 MAINTAINER=	billf@FreeBSD.org

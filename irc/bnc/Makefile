@@ -8,7 +8,7 @@
 
 DISTNAME=	bnc2.6.2
 PKGNAME=	bnc-2.6.2
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://irc.themes.org/downloads/misc/
 
 MAINTAINER=	billf@FreeBSD.org

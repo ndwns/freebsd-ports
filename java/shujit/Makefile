@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	shujit-0.2.10
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	http://www.shudo.net/jit/dist/
 
 MAINTAINER=	jake@checker.org

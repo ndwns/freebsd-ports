@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	jikes-0.47
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/misc/
 
 MAINTAINER=	dillon@backplane.com

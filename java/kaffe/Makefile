@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	kaffe-1.0.b4
-CATEGORIES=	lang
+CATEGORIES=	java
 MASTER_SITES=	ftp://ftp.transvirtual.com/pub/kaffe/
 
 MAINTAINER=	xaa@xaa.iae.nl

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ezbounce-0.85.2
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=  	http://druglord.freelsd.org/ezbounce/ \
 		http://irc.themes.org/downloads/misc/
 

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ircd-hybrid-5.3p6
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.blackened.com/pub/irc/hybrid/
 
 MAINTAINER=	desmo@bandwidth.org

@@ -8,7 +8,7 @@
 
 DISTNAME=	xc
 PKGNAME=	xtt-3DLabs-${VERSION}.${PATCHLEVEL}
-CATEGORIES=	x11
+CATEGORIES=	x11-servers
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 

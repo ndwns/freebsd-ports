@@ -8,7 +8,7 @@
 
 DISTNAME=	xc
 PKGNAME=	xtt-98NKVNEC-${VERSION}.${PATCHLEVEL}
-CATEGORIES=	x11
+CATEGORIES=	x11-servers
 
 MAINTAINER=	nakaji@tutrp.tut.ac.jp
 

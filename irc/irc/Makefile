@@ -8,7 +8,7 @@
 
 DISTNAME=	irc2.10.1
 PKGNAME=	irc-2.10.1
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/services/irc/server/ \
 		ftp://ftp.irc.org/irc/server/ \
 		ftp://tau.ac.il/pub/unix/irc/server/ \

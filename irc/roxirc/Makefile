@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	roxirc-1.3
-CATEGORIES=	net tk80
+CATEGORIES=	irc tk80
 MASTER_SITES=	http://roxirc.lighter.net/download/
 
 MAINTAINER=	rox@fearme.com

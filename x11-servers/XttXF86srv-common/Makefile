@@ -8,7 +8,7 @@
 
 DISTNAME=	xc
 PKGNAME?=	xtt-common-${VERSION}.${PATCHLEVEL}
-CATEGORIES=	x11
+CATEGORIES=	x11-servers
 MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.3/source/ \
 		ftp://xfree86.cdrom.com/pub/XFree86/3.3.3/source/ \
 		http://hawk.ise.chuo-u.ac.jp/student/person/tshiozak/x-tt/dists/1.x/1.2/

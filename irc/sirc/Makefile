@@ -13,7 +13,7 @@
 # SOCKS_SERVER= your.socks.proxy
 
 DISTNAME=	sirc-2.211
-CATEGORIES=	net
+CATEGORIES=	irc
 MASTER_SITES=	http://www.eleves.ens.fr:8080/home/espel/sirc/ \
 		ftp://ftp1.dal.net/dalnet/clients/unix/sirc/ \
 		ftp://ftp2.dal.net/dalnet/clients/unix/sirc/

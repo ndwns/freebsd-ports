@@ -8,7 +8,7 @@
 
 DISTNAME=	java_cup_v10g
 PKGNAME=	java_cup-10.g
-CATEGORIES=	devel
+CATEGORIES=	java
 MASTER_SITES=	http://www.cs.princeton.edu/~appel/modern/java/CUP/
 
 MAINTAINER=	nordwick@xcf.berkeley.edu

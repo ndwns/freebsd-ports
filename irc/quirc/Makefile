@@ -8,7 +8,7 @@
 
 DISTNAME=	quirc
 PKGNAME=	quirc-0.9.77
-CATEGORIES=	net tk80
+CATEGORIES=	irc tk80
 MASTER_SITES=	http://www.quirc.org/ \
 		http://patearl.powersurfr.com/quirc/
 

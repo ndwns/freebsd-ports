@@ -8,7 +8,7 @@
 
 DISTNAME=	jdk118-doc
 PKGNAME=	jdk-doc-1.1.8
-CATEGORIES=	lang
+CATEGORIES=	java
 
 MAINTAINER=	martti.kuparinen@ericsson.com
 
