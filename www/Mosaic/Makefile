@@ -8,6 +8,9 @@
 
 DISTNAME=	Mosaic-src-2.6
 CATEGORIES=	networking
+
+MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
+
 LIB_DEPENDS=    jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
 WRKSRC=		${WRKDIR}/Mosaic-src
 ALL_TARGET=	default
