@@ -15,6 +15,8 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${EXTRA_FILES}
 
 MAINTAINER=	jsutton@webnet.com.au
 
+BROKEN='MD5 checksum mismatch.  Also xf25.zip has an "End-of-central-directory signature not found" when unzipping problem.'
+
 BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 .if defined(ATARI) && (${ATARI} == "freebsd-xview")
 LIB_DEPENDS=	xview:${PORTSDIR}/x11-toolkits/xview
