@@ -14,6 +14,7 @@
     SUBDIR += maxima
     SUBDIR += octave
     SUBDIR += oleo
+    SUBDIR += ss
     SUBDIR += wingz
     SUBDIR += xgraph
     SUBDIR += xlispstat
