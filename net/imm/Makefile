@@ -18,6 +18,11 @@ LIB_DEPENDS=	tk80\\.1:${PORTSDIR}/x11/tk80
 
 USE_X11=	yes
 
+post-extract:
+	@${MKDIR} ${WRKSRC}/freebsd
+	@${CP} ${FILESDIR}/Makefile.work ${WRKSRC}/Makefile
+	@${CP} ${FILESDIR}/Makefile.freebsd ${WRKSRC}/src
+
 # The included makefile doesn't have an "install" target.
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/freebsd/imm ${PREFIX}/bin
