@@ -137,6 +137,9 @@
     SUBDIR += portlint
     SUBDIR += prcs
     SUBDIR += py-kjbuckets
+    SUBDIR += py-mxDateTime
+    SUBDIR += py-mxStack
+    SUBDIR += py-mxTools
     SUBDIR += qtarch
     SUBDIR += qtez
     SUBDIR += re2c
