@@ -14,6 +14,8 @@ MAINTAINER=	jseger@FreeBSD.org
 
 USE_IMAKE=	yes
 
+MAN1=		cxpm.1 sxpm.1
+
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
