@@ -53,6 +53,7 @@
     SUBDIR += llnlxdir
     SUBDIR += llnlxftp
     SUBDIR += macipgw
+    SUBDIR += micq
     SUBDIR += mirror
     SUBDIR += moxftp
     SUBDIR += mpd
