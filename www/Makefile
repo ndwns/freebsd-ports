@@ -37,5 +37,6 @@
     SUBDIR += weblint
     SUBDIR += wn
     SUBDIR += wwwcount
+    SUBDIR += wwwstat
 
 .include <bsd.port.subdir.mk>
