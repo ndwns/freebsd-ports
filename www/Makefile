@@ -2,6 +2,7 @@
 #
 
     SUBDIR += Mosaic         # requires Motif
+    SUBDIR += analog
     SUBDIR += apache
     SUBDIR += arena
     SUBDIR += ashe           # requires Motif
