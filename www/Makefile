@@ -14,6 +14,7 @@
     SUBDIR += gn
     SUBDIR += gwstat
     SUBDIR += harvest
+    SUBDIR += http-analyze
     SUBDIR += libpics
     SUBDIR += libwww
     SUBDIR += linemode
