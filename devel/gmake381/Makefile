@@ -6,9 +6,12 @@
 # $Id$
 #
 
-DISTNAME=       make-3.73
-GNU_CONFIGURE=	yes
-MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ ftp://ftp.uu.net/systems/gnu/
+DISTNAME=	make-3.73
+PKGNAME=	gmake-3.73
 CATEGORIES+=	development programming
+MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ \
+		ftp://ftp.uu.net/systems/gnu/
+
+GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>

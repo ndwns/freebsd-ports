@@ -1,5 +1,5 @@
 # New ports collection makefile for:	Mark Moraes malloc library
-# Version required:	1.13??
+# Version required:	1.17alpha
 # Date created:		11 January 1995
 # Whom:			jkh
 #
@@ -7,7 +7,8 @@
 #
 
 DISTNAME=	malloc
-MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
+PKGNAME=	malloc-1.17a
 CATEGORIES+=	development programming libraries
+MASTER_SITES=	ftp.cs.toronto.edu:/pub/moraes/
 
 .include <bsd.port.mk>
