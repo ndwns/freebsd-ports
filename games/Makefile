@@ -83,6 +83,7 @@
     SUBDIR += xgolgo
     SUBDIR += xinfocom
     SUBDIR += xinvaders
+    SUBDIR += xisola
     SUBDIR += xjewel
     SUBDIR += xjig
     SUBDIR += xjumpjump
