@@ -6,6 +6,7 @@
     SUBDIR += Wnn6
     SUBDIR += Wnn6-lib
     SUBDIR += a2ps
+    SUBDIR += bookview
     SUBDIR += camltk41
     SUBDIR += cdrom2
     SUBDIR += chimera
@@ -68,6 +69,7 @@
     SUBDIR += mule-sj3+wnn6
     SUBDIR += mule-wnn4
     SUBDIR += mule-wnn6
+    SUBDIR += ndtpd
     SUBDIR += nethack
     SUBDIR += netscape4
     SUBDIR += newosaka
