@@ -9,7 +9,7 @@
 DISTNAME=	Imlib-1.0
 PKGNAME=	imlib-1.0
 CATEGORIES=	graphics
-MASTER_SITES=	ftp://ftp.enlightenment.org/pub/imlib/ \
+MASTER_SITES=	ftp://ftp.enlightenment.org/pub/imlib/TAR/ \
 		ftp://ftp.labs.redhat.com/pub/imlib/TAR/
 
 MAINTAINER=	vanilla@FreeBSD.ORG
