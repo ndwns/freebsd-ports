@@ -18,6 +18,11 @@ PATCHFILES=	jgroff-0.98.diff.gz
 DISTPATCHES=	950414.01.Z 950414.02.Z
 PATCH_DIST_STRIP=	-p1
 
+USE_GMAKE=	yes
+HAS_CONFIGURE=	yes
+CONFIGURE_ARGS= --prefix=/usr/local
+
+.if !defined(MASTER_SITE_OVERRIDE)
 pre-fetch: 
 	@(cd ${DISTDIR}; \
 	 if [ ! -f ${PATCHFILES} ]; then \
@@ -33,9 +38,6 @@ pre-fetch:
 		sed '/^END -----/,/^BEGIN ----/d' | uudecode; \
 	    rm -f ${DISTPATCHES};\
 	 fi)
-
-USE_GMAKE=	yes
-HAS_CONFIGURE=	yes
-CONFIGURE_ARGS= --prefix=/usr/local
+.endif
 
 .include <bsd.port.mk>
