@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://ftp.jclark.com/pub/sp/
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
+BROKEN_ELF=	libstdc++.so
+
 # The shared libsp only works on post 2.1.x systems.
 # shared C++ libraries appear to be broken on post 2.2.1 system too...
 #.if exists(/usr/lib/libstdc++.a)
