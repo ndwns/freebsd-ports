@@ -8,5 +8,6 @@
     SUBDIR += netscape3.language
     SUBDIR += pgp.language
     SUBDIR += pine.language
+    SUBDIR += rispell
 
 .include <bsd.port.subdir.mk>
