@@ -11,6 +11,7 @@ DISTFILES=	emacs-19.28.tar.gz
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
+STRIP=
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX} --with-x-toolkit \
 		  --wnn --wnn-libraries=/usr/X11R6/lib \
 		  --wnn-includes=/usr/X11R6/include/wnn --terminal-face
