@@ -25,7 +25,6 @@ do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/cdda2wav/OBJ/i386-freebsd-cc/cdda2wav \
 	 ${PREFIX}/bin
 	@${INSTALL_MAN} ${WRKSRC}/cdrecord/cdrecord.1 ${PREFIX}/man/man1
-	@${INSTALL_MAN} ${WRKSRC}/cdrecord/cdda2wav.1 ${PREFIX}/man/man1
-	@cd /dev && ln -sf /dev/rworm0.ctl scgx
+	@${INSTALL_MAN} ${WRKSRC}/cdda2wav/cdda2wav.1 ${PREFIX}/man/man1
 
 .include <bsd.port.mk>
