@@ -82,6 +82,7 @@
     SUBDIR += p5-Net-Telnet
     SUBDIR += p5-Net-Whois
     SUBDIR += p5-SNMP
+    SUBDIR += p5-pRPC
     SUBDIR += pcnfsd
     SUBDIR += pmf
     SUBDIR += pppload
