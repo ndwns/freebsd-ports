@@ -1,12 +1,12 @@
 # New ports collection makefile for:	cvsup
-# Version required:	15.3
+# Version required:	15.4
 # Date created:		7 August 1996
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	cvsup-15.3
+DISTNAME=	cvsup-15.4
 CATEGORIES=	devel net
 MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/CVSup/ \
 		ftp://ftp.cs.tu-berlin.de/pub/FreeBSD/CVSup/ \
@@ -14,8 +14,8 @@ MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/CVSup/ \
 
 MAINTAINER=	jdp@FreeBSD.org
 
-BUILD_DEPENDS=	m3build-5:${PORTSDIR}/lang/modula-3
-LIB_DEPENDS=	m3\\.5\\.:${PORTSDIR}/lang/modula-3-lib
+BUILD_DEPENDS=	m3build-6:${PORTSDIR}/lang/modula-3
+LIB_DEPENDS=	m3\\.6\\.:${PORTSDIR}/lang/modula-3-lib
 
 MAN1=		cvsup.1
 MAN8=		cvsupd.8
