@@ -12,6 +12,7 @@ MASTER_SITES=	http://www.cuug.ab.ca/~macdonal/tkgnats/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-LIB_DEPENDS=    tk81\\.1\\.:${PORTSDIR}/x11/tk81
+BUILD_DEPENDS=	nedit-pr:${PORTSDIR}/databases/gnats
+LIB_DEPENDS=	tk81\\.1\\.:${PORTSDIR}/x11/tk81
 
 .include <bsd.port.mk>
