@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tgif-4.0.18
-CATEGORIES=	graphics x11
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://bourbon.cs.umd.edu/pub/tgif/ \
 		ftp://ftp.cs.ucla.edu/pub/tgif/
 
