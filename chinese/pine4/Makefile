@@ -8,7 +8,7 @@
 
 DISTNAME=       pine3.96
 PKGNAME=        zh-pine-3.96
-CATEGORIES=     mail news
+CATEGORIES=     chinese mail news
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 
 MAINTAINER=	woju@FreeBSD.ee.Ntu.edu.TW
