@@ -11,6 +11,8 @@ PKGNAME=	xlispstat-3.44
 CATEGORIES+=	math languages
 MASTER_SITES=	ftp://ftp.stat.umn.edu/pub/xlispstat/
 
+MAINTAINER=	erich@FreeBSD.org
+
 HAS_CONFIGURE=	yes
 # needs to connect to X server while build
 IS_INTERACTIVE=	yes
