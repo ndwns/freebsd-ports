@@ -6,8 +6,8 @@
 # $Id$
 #
 
-PKGNAME=	socks5-0.15.3
-DISTNAME=	socks5-beta-0.15.3-exportable
+PKGNAME=	socks5-0.16.1
+DISTNAME=	socks5-beta-0.16.1-exportable
 CATEGORIES+=	net security
 MASTER_SITES=	ftp://ftp.nec.com/pub/socks/socks5/
 
@@ -26,6 +26,7 @@ NO_PACKAGE=	put an extra slug in to make sure he's dead
 #		--with-passwd
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ENV=  LIBS=-lcrypt
 CONFIGURE_ARGS=	--with-libconffile=${PREFIX}/etc/libsocks5.conf \
 		--with-srvconffile=${PREFIX}/etc/socks5.conf \
 		--with-srvpidfile=/var/run/socks5.pid \
