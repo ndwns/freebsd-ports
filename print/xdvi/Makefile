@@ -18,9 +18,12 @@ MAINTAINER=	jmz@FreeBSD.org
 DIST_SUBDIR=	xdvi	# to share distfiles with japanese/xdvi
 USE_IMAKE=	yes
 USE_GMAKE=	yes
-IS_INTERACTIVE=	yes
-
 XMKMF=		xmkmf
+.if defined(PACKAGE_BUILDING)
+SCRIPTS_ENV=	PACKAGE_BUILDING=${PACKAGE_BUILDING}
+.else
+IS_INTERACTIVE=	yes
+.endif
 
 do-install: 
 	@${MKDIR} ${PREFIX}/man/man1
