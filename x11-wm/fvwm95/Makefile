@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	fvwm95-2.0.43a-Autoconf
+PKGNAME=	fvwm95-2.0.43a
 CATEGORIES=	x11
 MASTER_SITES=	ftp://mitac11.uia.ac.be/pub/
 EXTRACT_SUFX=	.tgz
