@@ -6,12 +6,13 @@
 # $Id$
 #
 
-PKGNAME=	xvile-5.2
 DISTNAME=       vile-5.2
-MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
+PKGNAME=	xvile-5.2
 CATEGORIES+=	editors
+MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
+
 MAKEFILE=	makefile
-GNU_CONFIGURE=	YES
+GNU_CONFIGURE=	yes
 CONFIGURE_ARGS= --with-screen=x11
 
 .include <bsd.port.mk>
