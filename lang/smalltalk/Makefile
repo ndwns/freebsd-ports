@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
+IS_INTERACTIVE=	yes
+
 pre-configure:
 	@cp ${FILESDIR}/m-fbsd-2.h ${WRKSRC}/config/m-fbsd-2.h
 	@(cd ${WRKSRC} ; ./config.mst fbsd-2)
