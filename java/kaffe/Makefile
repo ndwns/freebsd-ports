@@ -1,16 +1,16 @@
 # New ports collection makefile for:    kaffe
-# Version required:     0.8.2
-# Date created:         10 March 1997
+# Version required:     0.8.3
+# Date created:         21 March 1997
 # Whom:                 Mark Huizer <xaa@stack.nl>
 #
 # $Id$
 #
 
-DISTNAME=	kaffe-0.8.2
+DISTNAME=	kaffe-0.8.3
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.sarc.city.ac.uk/pub/kaffe/
+MASTER_SITES=	ftp://ftp.kaffe.org/pub/kaffe/
 EXTRACT_SUFX=	.tgz
-DISTFILES=	${DISTNAME}.tgz kaffe-0.8.2-package-biss-net.com.tgz
+DISTFILES=	${DISTNAME}.tgz kaffe-0.8.3-package-biss-net.com.tgz
 
 MAINTAINER=	xaa@stack.nl
 
