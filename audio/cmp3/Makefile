@@ -1,7 +1,7 @@
 # New ports collection makefile for:   cmp3
 # Version required:    2.0pre3
 # Date created:        10 April 1999
-# Whom:                Chris Piazza <cpiazza@home.net>
+# Whom:                Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -9,9 +9,9 @@
 DISTNAME=	cmp3-2.0pre3
 PKGNAME=	cmp3-2.0p3
 CATEGORIES=	audio
-MASTER_SITES=	http://www.personal.psu.edu/users/n/k/nkk104/cmp3/	
+MASTER_SITES=	http://www.personal.psu.edu/users/n/k/nkk104/cmp3/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 RUN_DEPENDS= 	mpg123:${PORTSDIR}/audio/mpg123
 

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	gtkportscan
 # Version required:	1.1
 # Date created:		11 March 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	gtkportscan-1.1
 CATEGORIES=	security net
 MASTER_SITES=	http://www.calpoly.edu/~rbarrero/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 

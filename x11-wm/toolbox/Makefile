@@ -1,7 +1,7 @@
 # New ports collection makefile for:	toolbox
 # Version required:   	0.4.3
 # Date created:		05 June 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	toolbox-0.4.3
 CATEGORIES=	misc
 MASTER_SITES=	http://cs.bc.edu/~kelleyry/blackbox/utils/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 

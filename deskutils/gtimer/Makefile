@@ -1,7 +1,7 @@
 # New ports collection makefile for:	gtimer
 # Version required:    1.1.4
 # Date created:        25 February 1999
-# Whom:                Chris Piazza <cpiazza@home.net>
+# Whom:                Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	gtimer-1.1.4
 CATEGORIES=	deskutils
 MASTER_SITES=	http://www.radix.net/~cknudsen/gtimer/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 

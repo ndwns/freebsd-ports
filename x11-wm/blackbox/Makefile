@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://balance.wiw.org/pub/blackbox/ \
 	 	ftp://ftp.dti.ad.jp/pub/X/blackbox/ \
 		ftp://ftp.max.irk.ru/unix/x/wm/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	yafc
 # Version required:	0.4.3
 # Date created:		10 June 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.stacken.kth.se/~mhe/yafc/ \
 		ftp://mayer.physto.se/pub/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 USE_BZIP2=	yes

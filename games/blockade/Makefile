@@ -1,7 +1,7 @@
 # New ports collection makefile for:	blockade
 # Version required:	1.00
 # Date created:		29 May 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ PKGNAME=	blockade-1.00
 CATEGORIES=	games
 MASTER_SITES=	http://www.geocities.com/TimesSquare/Zone/5267/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_XLIB=	yes

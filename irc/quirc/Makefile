@@ -1,7 +1,7 @@
 # New ports collection makefile for:	QuIRC
 # Version required:	0.9.77
 # Date created:		21 May 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ CATEGORIES=	net tk80
 MASTER_SITES=	http://www.quirc.org/ \
 		http://patearl.powersurfr.com/quirc/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 LIB_DEPENDS=	tk80.1:${PORTSDIR}/x11-toolkits/tk80
 

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	aumix
 # Version required:    1.22
 # Date created:        21 May 1999
-# Whom:                Chris Piazza <cpiazza@home.net>
+# Whom:                Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ MASTER_SITES=	http://jpj.net/~trevor/aumix/ \
 		${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	apps/sound/mixers
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 LIB_DEPENDS=    intl.1:${PORTSDIR}/devel/gettext
 

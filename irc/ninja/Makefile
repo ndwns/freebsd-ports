@@ -1,7 +1,7 @@
 # New ports collection makefile for: 	Ninja-irc
 # Version required: 	1.1
 # Date created:	 	10 April 1999
-# Whom:			Chris Piazza <cpiazza@home.net>
+# Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
 # $Id$
 #
@@ -11,7 +11,7 @@ PKGNAME=	ninja-1.1
 CATEGORIES=	net
 MASTER_SITES=	http://ninja.pimped.org/
 
-MAINTAINER=	cpiazza@home.net
+MAINTAINER=	cpiazza@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${PKGNAME}
