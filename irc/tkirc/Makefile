@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	tkirc1.151
-PKGNAME=	tkirc-1.151
+DISTNAME=	tkirc1.202
+PKGNAME=	tkirc-1.202
 CATEGORIES=	net tk80
 MASTER_SITES=	ftp://ftp.informatik.uni-oldenburg.de/pub/tkirc/
 
