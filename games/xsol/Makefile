@@ -14,5 +14,6 @@ MASTER_SITES=	ftp://iraun1.ira.uka.de/pub/x11/games/
 MAINTAINER=	swallace@FreeBSD.org
 
 USE_IMAKE=      yes
+MAN6=		xsol.6
 
 .include <bsd.port.mk>

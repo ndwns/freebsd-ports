@@ -14,6 +14,7 @@ EXTRACT_SUFX=	.tar.z
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN6=		xjewel.6
 
 pre-install:
 	@${MKDIR} ${PREFIX}/bin

@@ -19,5 +19,6 @@ MAINTAINER=	se@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/XBlast-2.6.beta
 USE_IMAKE=      yes
+MAN1=		xblast.1
 
 .include <bsd.port.mk>

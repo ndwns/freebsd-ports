@@ -16,5 +16,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
 ALL_TARGET=	xkobo
+MAN1=		xkobo.1
 
 .include <bsd.port.mk>

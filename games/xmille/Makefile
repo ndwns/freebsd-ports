@@ -18,6 +18,6 @@ MAINTAINER=	swallace@FreeBSD.org
 
 USE_IMAKE=      yes
 NO_WRKSUBDIR=	yes
-MANCOMPRESSED=	no
+MAN1=		xmille.1
 
 .include <bsd.port.mk>

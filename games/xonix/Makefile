@@ -15,5 +15,6 @@ MAINTAINER=	joerg@FreeBSD.org
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=      yes
+MAN1=		xonix.1
 
 .include <bsd.port.mk>

@@ -14,5 +14,6 @@ MAINTAINER=	tg@FreeBSD.ORG
 
 WRKSRC=		${WRKDIR}/xskat
 USE_IMAKE=	yes
+MAN1=		xskat.1
 
 .include <bsd.port.mk>

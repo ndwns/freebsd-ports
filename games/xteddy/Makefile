@@ -17,6 +17,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 NO_CDROM=	"Can only be distributed for free"
 
 USE_IMAKE=	yes
+MAN1=		xteddy.1
 
 post-install:
 		strip ${PREFIX}/bin/xteddy

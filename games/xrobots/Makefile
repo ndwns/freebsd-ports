@@ -15,6 +15,8 @@ MAINTAINER=	jseger@FreeBSD.org
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xrobots-1.0
+MAN6=		xrobots.6
+
 post-install:
 	${INSTALL} -c -g games -m 664 ${FILESDIR}/xrobotscores ${PREFIX}/lib/X11
 

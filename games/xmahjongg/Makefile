@@ -17,6 +17,7 @@ MAINTAINER=	joerg@freebsd.org
 
 WRKSRC=		${WRKDIR}/xmahjongg
 USE_IMAKE=	yes
+MAN6=		xmahjongg.6
 
 NO_CDROM=	"Restrictive copyright"
 

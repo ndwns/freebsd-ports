@@ -16,5 +16,6 @@ MAINTAINER=	erich@FreeBSD.org
 
 REQUIRES_MOTIF=	yes
 USE_IMAKE=	yes
+MAN1=		xblackjack.1
 
 .include <bsd.port.mk>

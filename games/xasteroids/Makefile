@@ -18,5 +18,6 @@ USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_CMD=	( cd ${WRKDIR}; zcat | sh -s )
 EXTRACT_ARGS=	<
+MAN6=		xasteroids.6
 
 .include <bsd.port.mk>

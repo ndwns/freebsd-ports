@@ -17,6 +17,7 @@ MAINTAINER=	obrien@FreeBSD.ORG
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
+MAN1=		xbill.1
 
 post-install:
 	${CP} ${WRKSRC}/README ${PREFIX}/share/xbill

@@ -20,5 +20,6 @@ NO_WRKSUBDIR=	Does not unpack into subdir.
 EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS= -x
 USE_IMAKE=      yes
+MAN1=		pacman.1
 
 .include <bsd.port.mk>

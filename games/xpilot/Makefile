@@ -15,5 +15,6 @@ MASTER_SITE_SUBDIR=	games/multiplayer
 MAINTAINER=	jmacd@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN6=		xpilot.6 xpilots.6 xp-replay.6
 
 .include <bsd.port.mk>

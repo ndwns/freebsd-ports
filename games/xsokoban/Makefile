@@ -17,6 +17,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xsokoban
 ALL_TARGET=	xsokoban	
+MAN1=		xsokoban.1
 
 post-install:
 	@${MKDIR} ${PREFIX}/lib/X11/xsokoban/scores \

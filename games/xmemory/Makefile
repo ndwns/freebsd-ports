@@ -15,6 +15,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	dchapes@ddm.on.ca
 
 USE_IMAKE=	yes
+MAN1=		xmemory.1
 
 post-install:
 	@${MKDIR} ${X11BASE}/lib/X11/xmemory

@@ -14,5 +14,6 @@ DISTFILES=	xspringies.1.1.tar.Z
 MAINTAINER=	jkh@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xspringies.1
 
 .include <bsd.port.mk>

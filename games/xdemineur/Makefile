@@ -14,5 +14,6 @@ MASTER_SITE_SUBDIR=	games
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xdemineur.1
 
 .include <bsd.port.mk>

@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.tut.ac.jp/X11/Contrib/Games/
 MAINTAINER=	hidekazu@cs.titech.ac.jp
 
 USE_IMAKE=	yes
+MAN1=		yamsweeper.1
 
 pre-configure:
 	@mv ${WRKSRC}/Imakefile ${WRKSRC}/Imakefile.old

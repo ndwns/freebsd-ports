@@ -16,6 +16,7 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	jseger@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN6=		xpipeman.6
 
 post-install:
 	${INSTALL} -c -g games -m 664 ${FILESDIR}/xpipescores ${PREFIX}/lib/X11

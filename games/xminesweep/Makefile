@@ -15,5 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	janek@gaja.ipan.lublin.pl
 
 USE_IMAKE=	yes
+MAN1=		xminesweep.1
 
 .include <bsd.port.mk>

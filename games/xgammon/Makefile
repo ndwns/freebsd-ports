@@ -19,6 +19,7 @@ BUILD_DEPENDS=	rpm2cpio:${PORTSDIR}/misc/rpm
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
+MAN6=		xgammon.6
 
 PATCH_FILES=	${DISTNAME}-dirent.patch
 
