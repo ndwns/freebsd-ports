@@ -7,13 +7,13 @@
 # $Id$
 #
 
-SNAPDATE=	1999-07-12
+SNAPDATE=	1999-07-18
 SNAPVER=	${SNAPDATE:S/-//g}
 
 DISTNAME=	egcs-${SNAPVER}
 PKGNAME=	egcs-devel-${SNAPVER}
 CATEGORIES=	lang
-MASTER_SITES=	ftp://go.cygnus.com/pub/ftp.cygnus.com/egcs/snapshots/${SNAPDATE}/ \
+MASTER_SITES=	ftp://go.cygnus.com/pub/sourceware.cygnus.com/pub/egcs/snapshots/${SNAPDATE}/ \
 		ftp://egcs.cygnus.com/pub/egcs/snapshots/${SNAPDATE}/ \
 		ftp://ftp.nluug.nl/pub/languages/egcs/snapshots/${SNAPDATE}/ \
 		ftp://ftp.iij.ad.jp/pub/egcs/snapshots/${SNAPDATE}/ \
