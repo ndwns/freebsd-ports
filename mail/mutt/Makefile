@@ -52,6 +52,11 @@ MAN1=		mutt.1
 
 post-patch:
 	@touch ${WRKSRC}/doc/mutt.man ${WRKSRC}/doc/manual.txt
+.if !defined(NOPORTDOCS)
+	@${PATCH} ${PATCH_ARGS} < ${FILESDIR}/patch-doc-ref
+	@printf ",s|\$${PREFIX}|%s|g\nw\nq\n" ${PREFIX} | \
+		ed -s ${WRKSRC}/doc/mutt.man
+.endif
 
 pre-configure:
 	@${MKDIR} ${PREFIX}/share/misc
