@@ -10,9 +10,10 @@
 DISTNAME=	xacc-1.0.17
 PKGNAME=	gnucash-1.0.17
 CATEGORIES=	misc
-MASTER_SITES=	http://www.gnucash.org/xacc/download/
+MASTER_SITES=	http://www.gnucash.org/xacc/download/  \
+		ftp://ftp.gnucash.org/pub/xacc/
 
-MAINTAINER=     obrien@FreeBSD.org
+MAINTAINER=     alex@FreeBSD.org
 
 REQUIRES_MOTIF=	yes
 GNU_CONFIGURE=	yes
