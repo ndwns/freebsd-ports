@@ -17,6 +17,7 @@
     SUBDIR += lincity
     SUBDIR += nethack
     SUBDIR += nethack-qt
+    SUBDIR += netris
     SUBDIR += oneko
     SUBDIR += qcc
     SUBDIR += quakeserver
