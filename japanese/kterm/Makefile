@@ -7,9 +7,11 @@
 #
 
 DISTNAME=	kterm-6.1.0
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
 CATEGORIES+=	japanese x11
+MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
+
 MAINTAINER=	asami@FreeBSD.ORG
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

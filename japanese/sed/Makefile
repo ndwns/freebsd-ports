@@ -1,7 +1,7 @@
 # New ports collection makefile for:	sed+mb
 # Version required:	1.18+mb1.03
 # Date created:		2 April 1995
-# Whom:			Nobuhiro Yasutomi
+# Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
 # $Id$
 #

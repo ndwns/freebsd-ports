@@ -7,11 +7,14 @@
 #
 
 DISTNAME=	Wnn4.2
-MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
+PKGNAME=	Wnn-4.2
 CATEGORIES+=	japanese
+MASTER_SITES=	ftp://utsun.s.u-tokyo.ac.jp/fj/
+
 MAINTAINER=	asami@FreeBSD.ORG
-IS_INTERACTIVE=	yes
+
 WRKSRC=		${WRKDIR}/Xsi
+IS_INTERACTIVE=	yes
 
 # These are necesary because this package uses a different Makefile for
 #  building and installing etc.

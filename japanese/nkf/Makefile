@@ -7,8 +7,10 @@
 #
 
 DISTNAME=	nkf-1.5pl1
-MASTER_SITES=	ftp://www.hitachi-sk.co.jp/pub/Japanese/filter/
+PKGNAME=	nkf-1.5.1
 CATEGORIES+=	japanese
+MASTER_SITES=	ftp://www.hitachi-sk.co.jp/pub/Japanese/filter/
+
 MAINTAINER=	asami@FreeBSD.ORG
 
 pre-patch: ${PATCH_COOKIE}

@@ -1,7 +1,7 @@
 # New ports collection makefile for:	grep+mb
 # Version required:	2.0+mb1.04
 # Date created:		2 April 1995
-# Whom:			Nobuhiro Yasutomi
+# Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
 #
 # $Id$
 #
