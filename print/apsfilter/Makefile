@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 
 MAINTAINER=	andreas@klemm.gtn.com
 
-RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript4 \
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
 		transfig:${PORTSDIR}/print/transfig \
 		cjpeg:${PORTSDIR}/graphics/jpeg \
 		anytopnm:${PORTSDIR}/graphics/netpbm
