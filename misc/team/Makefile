@@ -7,8 +7,8 @@
 #
 
 DISTNAME=	team-3.1
+CATEGORIES+=	utilities
 MASTER_SITES=	ftp://freefall.cdrom.com/pub/FreeBSD/LOCAL_PORTS/
-CATEGORIES+=	utils
 
 MAINTAINER=	joerg@FreeBSD.org
 
