@@ -18,7 +18,7 @@ MAINTAINER=	nntpcache@nntpcache.org
 
 GNU_CONFIGURE=	TRUE
 CONFIGURE_ARGS=	--localstatedir=/var/spool
-MAN8=		nntpcached.8
+MAN8=		newshound.8 nntpcached.8
 
 USE_GMAKE=	TRUE
 
