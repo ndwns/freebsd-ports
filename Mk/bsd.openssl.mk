@@ -4,8 +4,7 @@
 #
 # $FreeBSD$
 #
-# this substitutes USE_OPENSSL=yes
-# just include this makefile after bsd.ports.pre.mk
+# Use of 'USE_OPENSSL=yes' includes this Makefile after bsd.ports.pre.mk
 #
 # the user/port can now set this options in the makefiles.
 #
