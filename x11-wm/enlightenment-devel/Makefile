@@ -17,6 +17,8 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	Imlib\\.1\\.:${PORTSDIR}/graphics/imlib
 
+BROKEN=		"The distfile can't be fetch now, waiting next version now."
+
 USE_GMAKE=	yes
 USE_IMAKE=	yes
 NO_INSTALL_MANPAGES=	yes
