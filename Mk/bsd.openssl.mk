@@ -27,6 +27,8 @@
 # MAKE_ENV		- extended with the variables above
 # LIB_DEPENDS		- are added if needed
 
+OpenSSL_Include_MAINTAINER=	dinoex@FreeBSD.org
+
 # honor obsolete options for a bit
 .if defined(USE_OPENSSL_BASE) && !defined(WITH_OPENSSL_BASE)
 WITH_OPENSSL_BASE=yes
