@@ -13,7 +13,10 @@ pre-configure:
 	@cp ${WRKSRC}/config.h-dist ${WRKSRC}/config.h
 	@cp ${WRKSRC}/conf/s-386bsd.h ${WRKSRC}/conf/s-freebsd.h
 
-install: all
-	@cd ${WRKSRC}; ./inst s
+pre-build:
+	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
+
+pre-install:
+	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
 
 .include <bsd.port.mk>
