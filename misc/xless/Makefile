@@ -1,7 +1,7 @@
 # New ports collection makefile for:	xless
 # Version required:	1.7
 # Date created:		23 December 1996
-# Whom:			Conrad Sabatier <conrads@neosoft.com>
+# Whom:			Conrad Sabatier <conrads@home.com>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_XCONTRIB} \
 		ftp://ftp.cs.berkeley.edu/ucb/people/dglo/xless/
 MASTER_SITE_SUBDIR=     applications
 
-MAINTAINER=	conrads@neosoft.com
+MAINTAINER=	conrads@home.com
 
 USE_IMAKE=	yes
 MAN1=		xless.1
