@@ -8,7 +8,7 @@
 
 DISTNAME=	xphoon
 PKGNAME=	xphoon-91.9.18
-CATEGORIES+=	x11
+CATEGORIES+=	astro x11
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/X11//R5-contrib/
 EXTRACT_SUFX=	.tar.Z
 

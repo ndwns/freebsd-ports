@@ -8,7 +8,7 @@
 
 DISTNAME=	xephem_2.7.1
 PKGNAME=	xephem-2.7.1
-CATEGORIES=	misc
+CATEGORIES=	astro
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 
 MAINTAINER=	erich@FreeBSD.org

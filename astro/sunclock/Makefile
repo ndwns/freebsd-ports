@@ -8,7 +8,7 @@
 
 DISTNAME=	sunclock1.3
 PKGNAME=	sunclock-1.3
-CATEGORIES+=	x11
+CATEGORIES+=	astro
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 
 MAINTAINER=	torstenb@FreeBSD.org

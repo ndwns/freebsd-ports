@@ -8,7 +8,7 @@
 
 DISTNAME=	stars-1.0-ss-9.03
 PKGNAME=	stars-1.0
-CATEGORIES+=	x11
+CATEGORIES+=	astro x11
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/stars-1.0/ \
 		ftp://askdonald.ask.uni-karlsruhe.de/hpux/X11/Demos/stars-1.0/
 

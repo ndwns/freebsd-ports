@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xearth-1.0
-CATEGORIES+=	x11
+CATEGORIES+=	astro x11
 MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
 
 USE_IMAKE=	yes
