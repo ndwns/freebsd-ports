@@ -14,19 +14,32 @@ MASTER_SITES=	ftp://ftp.guug.de/pub/gcrypt/ \
 
 MAINTAINER=	kuriyama@FreeBSD.ORG
 
-#BUILD_DEPENDS=	aclocal:${PORTSDIR}/devel/automake
-
 RESTRICTED=	"Crypto; export-controlled"
-#USE_AUTOCONF=	YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-included-gettext
 MAN1=		gpg.1
 MLINKS=		gpg.1 gpgm.1
 
-#post-install:
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} < 300000
+CONFIGURE_ARGS+=--disable-asm
+.endif
+
+post-install:
+.if !defined(NOPORTDOCS)
+	${MKDIR} ${PREFIX}/share/doc/gnupg
+.for i in DETAILS FAQ HACKING OpenPGP
+	${INSTALL_DATA} ${WRKSRC}/doc/${i} ${PREFIX}/share/doc/gnupg
+.endfor
+.for i in ABOUT-NLS AUTHORS BUGS COPYING INSTALL NEWS PROJECTS \
+	README THANKS TODO VERSION
+	${INSTALL_DATA} ${WRKSRC}/${i} ${PREFIX}/share/doc/gnupg
+.endfor
+.endif
 #	chmod u+s ${PREFIX}/bin/gpg
 
 check:
 	(cd ${WRKSRC}; ${MAKE} check)
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
