@@ -4,8 +4,10 @@
 # Whom:                 wosch
 #
 # $Id$
+#
 
 DISTNAME=       MOMspider-1.00
+PKGNAME=        momspider-1.00
 CATEGORIES=	www
 MASTER_SITES=   ftp://www.ics.uci.edu/pub/websoft/libwww-perl/ \
 		ftp://www.ics.uci.edu/pub/websoft/MOMspider/ \
