@@ -12,7 +12,7 @@ CATEGORIES=	graphics python
 MASTER_SITES=	http://www.pythonware.com/downloads/ \
 		ftp://www.python.org/pub/python/src/ \
 		ftp://ftp.cwi.nl/pub/python/src/
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} pyth151.tgz
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} py152.tgz
 
 MAINTAINER=	tg@FreeBSD.ORG
 
@@ -36,9 +36,9 @@ TKINTERORIG=	${PYTHONSCRIPTDIR}/lib-dynload/_tkinter.so
 
 post-extract:
 	@(cd ${WRKDIR}; ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
-	    ${_DISTDIR}/pyth151.tgz ${EXTRACT_AFTER_ARGS} \
-	    Python-1.5.1/Modules/_tkinter.c Python-1.5.1/Modules/tkappinit.c)
-	@${MV} ${WRKDIR}/Python-1.5.1/Modules/* ${WRKSRC}/..
+	    ${_DISTDIR}/py152.tgz ${EXTRACT_AFTER_ARGS} \
+	    Python-1.5.2/Modules/_tkinter.c Python-1.5.2/Modules/tkappinit.c)
+	@${MV} ${WRKDIR}/Python-1.5.2/Modules/* ${WRKSRC}/..
 	@${CP} ${FILESDIR}/Setup ${WRKSRC}/..
 
 post-configure:
