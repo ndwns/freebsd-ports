@@ -17,6 +17,9 @@ GNU_CONFIGURE=	yes
 CFLAGS+=        -DDLT_RAW=12 # for obsoleted <net/bpf.h>
 MAN1=		nmap.1
 
+post-extract:
+	@${RM} -rf ${WRKSRC}/libpcap*
+
 post-install:
 	@strip ${PREFIX}/bin/nmap
 	@${INSTALL_MAN} ${FILESDIR}/nmap.1 ${PREFIX}/man/man1
