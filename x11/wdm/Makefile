@@ -19,7 +19,7 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.2:${PORTSDIR}/graphics/png \
 		tiff34.1:${PORTSDIR}/graphics/tiff34 \
-		PropList\\.0\\.8:${PORTSDIR}/x11-wm/windowmaker
+		PropList.0:${PORTSDIR}/x11-wm/windowmaker
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 DIST_SUBDIR=	wdm
