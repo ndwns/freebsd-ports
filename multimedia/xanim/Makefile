@@ -27,15 +27,22 @@ post-extract:
 	done
 	${CP} ${WRKSRC}/docs/xanim.man ${WRKSRC}
 
+MAKE_ENV+=	XA_IV32_DEF=-DXA_INDEO \
+		XA_CVID_DEF=-DXA_CINEPAK \
+		XA_CYUV_DEF=-DXA_CYUV
+
 .include <bsd.port.mk>
 
 .if ${PORTOBJFORMAT} != elf
 EXTRA_FILES=    xa2.0_cvid_netbsd386.o.Z xa2.0_iv32_netbsd386.o.Z \
 		xa1.0_cyuv_netbsd386.o.Z
-MAKE_ENV+=	XA_IV32_DEF=-DXA_INDEO \
-		XA_CVID_DEF=-DXA_CINEPAK \
-		XA_CYUV_DEF=-DXA_CYUV \
-		XA_IV32_LIB=xa2.0_cvid_netbsd386.o \
+MAKE_ENV+=	XA_IV32_LIB=xa2.0_cvid_netbsd386.o \
 		XA_CVID_LIB=xa2.0_iv32_netbsd386.o \
 		XA_CYUV_LIB=xa1.0_cyuv_netbsd386.o
+.else
+EXTRA_FILES=    xa2.0_cvid_linuxELF.o.Z xa2.0_iv32_linuxELF.o.Z \
+		xa1.0_cyuv_linuxELF.o.Z
+MAKE_ENV+=	XA_IV32_LIB=xa2.0_cvid_linuxELF.o \
+		XA_CVID_LIB=xa2.0_iv32_linuxELF.o \
+		XA_CYUV_LIB=xa1.0_cyuv_linuxELF.o
 .endif
