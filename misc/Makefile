@@ -72,6 +72,7 @@
     SUBDIR += quotes
     SUBDIR += rc5des
     SUBDIR += rpm
+    SUBDIR += rtfm
     SUBDIR += screen
     SUBDIR += scriptkit
     SUBDIR += seizedesktop
