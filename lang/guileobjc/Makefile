@@ -15,7 +15,7 @@ MAINTAINER=	Nakai@technologist.com
 BUILD_DEPENDS=	${LOCALBASE}/lib/libobjects.a:${PORTSDIR}/lang/libobjects
 LIB_DEPENDS=	guile.4:${PORTSDIR}/lang/guile
 
-BROKEN=		Doesn't work with the latest guile.
+BROKEN=		Doesn\'t work with the latest guile.
 
 GNU_CONFIGURE=	yes
 
