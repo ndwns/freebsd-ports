@@ -72,6 +72,7 @@
     SUBDIR += xjewel
     SUBDIR += xjig
     SUBDIR += xkobo
+    SUBDIR += xkoules
     SUBDIR += xlaby
     SUBDIR += xlife
     SUBDIR += xlines
