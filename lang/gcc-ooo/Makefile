@@ -75,7 +75,6 @@ pre-configure:
 
 pre-install:
 	${MKDIR} ${PREFIX}/info
-	${TOUCH} ${PREFIX}/info/dir
 
 post-install:
 	@${RM} -f ${PREFIX}/bin/c++
