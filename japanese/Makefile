@@ -25,6 +25,7 @@
     SUBDIR += elisa8x8
     SUBDIR += elvis
     SUBDIR += escpf
+    SUBDIR += eterm
     SUBDIR += ewipe
     SUBDIR += expect
     SUBDIR += gawk
