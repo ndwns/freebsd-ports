@@ -23,6 +23,7 @@
     SUBDIR += gated
     SUBDIR += gnu-finger
     SUBDIR += gopher
+    SUBDIR += icmpinfo
     SUBDIR += irc
     SUBDIR += ircII
     SUBDIR += isc-dhcp
