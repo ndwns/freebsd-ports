@@ -12,8 +12,6 @@ MASTER_SITES=	http://diamant-atm.vsb.cs.uni-frankfurt.de/~mico/
 
 MAINTAINER=	scrappy@freebsd.org
 
-BROKEN_ELF=	yes
-
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
