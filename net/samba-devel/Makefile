@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	samba-1.9.14
+DISTNAME=	samba-1.9.15p6
 CATEGORIES+=	net
 MASTER_SITES=	ftp://nimbus.anu.edu.au/pub/tridge/samba/
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
