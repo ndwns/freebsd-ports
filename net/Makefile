@@ -38,7 +38,6 @@
     SUBDIR += telnetx
     SUBDIR += tintin++
     SUBDIR += tinyfugue
-    SUBDIR += tkined
     SUBDIR += trafshow
     SUBDIR += ucd-snmp
     SUBDIR += vic
