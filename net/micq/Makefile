@@ -1,5 +1,5 @@
 # New ports collection makefile for:	micq
-# Version required:			11 Oct 1998
+# Version required:			13 Dec 1998
 # Date created:				11 Oct 1998
 # Whom:					mph
 #
@@ -7,14 +7,14 @@
 #
 
 DISTNAME=	micq
-PKGNAME=	micq-981011
+PKGNAME=	micq-0.3.2
 CATEGORIES=	net
-MASTER_SITES=	ftp://micq.ml.org/pub/micq/Oct-11-98/
+MASTER_SITES=	ftp://micq.ml.org/pub/micq/V0.3.2/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	mph@freebsd.org
 
-WRKSRC=		${WRKDIR}/micq981011
+WRKSRC=		${WRKDIR}/micq981213
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/micq ${PREFIX}/bin
