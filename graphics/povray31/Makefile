@@ -19,6 +19,8 @@ MAINTAINER=	olli@fromme.com
 #BUILD_DEPENDS=  unzip:${PORTSDIR}/archivers/unzip
 LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 
+DIST_SUBDIR=	povray31
+
 #
 #   I think all of this needs some explanation.
 #   The port downloads the MS-DOS source files of POV-Ray 3.1d
