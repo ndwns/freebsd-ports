@@ -14,6 +14,8 @@ MAINTAINER=	kushn@mail.kar.net
 
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
+BROKEN=		fetch
+
 USE_IMAKE=      	yes
 NO_INSTALL_MANPAGES=	yes
 
