@@ -39,10 +39,9 @@ pre-extract:
 # remove the TET_ROOT directory if it exists
 pre-clean:
 .if defined(TET_ROOT)
-	if [ -d ${TET_ROOT} ]; then ${RM} -rf ${TET_ROOT}; fi
-.else
-	@true
+	${RM} -rf ${TET_ROOT}
 .endif
+	${RM} -rf ${WRKDIR}
 
 # move the work directory to $TET_ROOT after extraction
 post-extract:
@@ -53,8 +52,5 @@ post-extract:
 
 do-install:
 	cd ${WRKDIR}/src && ${MAKE} ${INSTALL_TARGET}
-
-post-clean:
-	${RM} -rf ${TET_ROOT}
 
 .include	<bsd.port.mk>
