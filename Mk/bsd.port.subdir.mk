@@ -35,12 +35,12 @@ ${SUBDIR}::
 all: _SUBDIRUSE
 .endif
 
-.if !target(package)
-package: _SUBDIRUSE
+.if !target(fetch)
+fetch: _SUBDIRUSE
 .endif
 
-.if !target(bundle)
-bundle: _SUBDIRUSE
+.if !target(package)
+package: _SUBDIRUSE
 .endif
 
 .if !target(extract)
