@@ -17,7 +17,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/MD5.pm:${PORTSDIR}/security/p5-MD5 \
 		${PREFIX}/lib/perl5/site_perl/Net/FTP.pm:${PORTSDIR}/net/p5-Net \
-		${PREFIX}/lib/perl5/site_perl/MIME/Base64.pm:${PORTSDIR}/converters/p5-MIME-Base64
+		${PREFIX}/lib/perl5/site_perl/MIME/Base64.pm:${PORTSDIR}/converters/p5-MIME-Base64 \
+		${PREFIX}/lib/perl5/site_perl/HTML/Parser.pm:${PORTSDIR}/www/p5-HTML-Parser
 
 USE_PERL5=	YES
 
