@@ -459,7 +459,7 @@ MASTER_SITE_TEX_CTAN?=  \
 MASTER_SITE_SUNSITE?=	\
 	ftp://sunsite.unc.edu/pub/Linux/${MASTER_SITE_SUBDIR}/ \
 	ftp://ftp.infomagic.com/pub/mirrors/linux/sunsite/${MASTER_SITE_SUBDIR}/ \
-	ftp://ftp://ftp.funet.fi/pub/mirrors/sunsite.unc.edu/pub/Linux/${MASTER_SITE_SUBDIR}/
+	ftp://ftp.funet.fi/pub/mirrors/sunsite.unc.edu/pub/Linux/${MASTER_SITE_SUBDIR}/
 
 # The primary backup site.
 MASTER_SITE_BACKUP?=	\
