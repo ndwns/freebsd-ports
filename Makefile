@@ -5,7 +5,12 @@ SUBDIR= archivers audio cad comms databases devel editors games graphics \
 
 .include <bsd.port.subdir.mk>
 
-index:
+index:	${.CURDIR}/INDEX
+
+${.CURDIR}/INDEX:
 	@echo -n "Generating INDEX - please wait.."
-	@make describe > ${.CURDIR}/INDEX
+	@make describe | sed -e '/===/D' > ${.CURDIR}/INDEX
 	@echo " Done."
+
+print-index:	${.CURDIR}/INDEX
+	awk -F@ '{ printf("Port:\t%s\nPath:\t%s\nInfo:\t%s\n\n", $$1, $$2, $$4); }' < ${.CURDIR}/INDEX
