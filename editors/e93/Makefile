@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	editors
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 
 MAKEFILE=	makefile
 USE_X_PREFIX=	yes

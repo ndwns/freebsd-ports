@@ -14,7 +14,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-LIB_DEPENDS=	tcl80:${PORTSDIR}/lang/tcl80 \
+LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
 ALL_TARGET=	dep tcl_interf/nxlc

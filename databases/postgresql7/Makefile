@@ -16,7 +16,7 @@ MAINTAINER=	andreas@FreeBSD.ORG
 # postgresql with tcl support by typing: make USE_TCL=yes
 .if defined(USE_TCL)
 MAKE_ENV=	USE_TCL=true TCL_INCDIR=${PREFIX}/include/tcl8.0
-LIB_DEPENDS=	tcl80\\.1\\.:${PORTSDIR}/lang/tcl80
+LIB_DEPENDS=	tcl80.1:${PORTSDIR}/lang/tcl80
 WITH_TCL=	--with-tcl
 .endif
 
