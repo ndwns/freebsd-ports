@@ -81,7 +81,7 @@ do-install:
 
 post-install:
 	# upgrade cache, convert cache, build additional files, configure html and wwwoffle.conf
-	$(PKGDIR)/INSTALL ${DISTNAME} POST-INSTALL
+	$(SH) $(PKGDIR)/INSTALL ${DISTNAME} POST-INSTALL
 
 # keep at end
 .include <bsd.port.mk>
