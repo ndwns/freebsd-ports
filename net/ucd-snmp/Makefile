@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ucd-snmp-3.1
-CATEGORIES+=	networking
+CATEGORIES+=	net
 MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
