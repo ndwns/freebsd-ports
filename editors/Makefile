@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += AbiWord
     SUBDIR += apel-emacs
     SUBDIR += apel-emacs20
     SUBDIR += apel-mule
