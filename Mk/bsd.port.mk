@@ -111,9 +111,9 @@ build: configure
 # This is done with a .configure because configures are often expensive,
 # and you don't want it done again gratuitously when you're trying to get
 # a make of the whole tree to work.
-configure: ${.CURDIR}/.configure_done
+configure: extract ${.CURDIR}/.configure_done
 
-${.CURDIR}/.configure_done: extract
+${.CURDIR}/.configure_done:
 	@echo "===>  Configuring for ${DISTNAME}"
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
