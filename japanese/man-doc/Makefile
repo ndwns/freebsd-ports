@@ -1,13 +1,13 @@
 # New ports collection makefile for:	Japanese man documents
-# Version required:	2.2.2e
+# Version required:	2.2.2f
 # Date created:		6 January 1997
 # Whom:			Kiriyama Kazuhiko <kiri@kiri.toba-cmt.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	jpman-${VERSION}e
-PKGNAME=	ja-man-doc-${VERSION}e
+DISTNAME=	jpman-${VERSION}f
+PKGNAME=	ja-man-doc-${VERSION}f
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://jaz.jp.freebsd.org/pub/FreeBSD-jp/man-jp/
 
