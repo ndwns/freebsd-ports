@@ -33,6 +33,10 @@ MTREE_FILE=	/etc/mtree/BSD.x11.dist
 SCRIPTS_ENV+=	MACHINE=pc98
 PLIST=		${PKGDIR}/PLIST.pc98
 .endif
+.if (${MACHINE} == "alpha")
+SCRIPTS_ENV+=	MACHINE=alpha
+PLIST=		${PKGDIR}/PLIST.alpha
+.endif
 
 .if defined(XDM_DES) && (${USA_RESIDENT} != YES && ${USA_RESIDENT} != NO)
 pre-fetch:
