@@ -35,7 +35,7 @@ MAN1=		lyx.1 reLyX.1
 
 pre-fetch:
 .if !defined(WITH_ISPELL)
-	@${ECHO_MSG} "if you want this port build with spell checker type"
+	@${ECHO_MSG} "If you want this port built with spell checker support, use"
 	@${ECHO_MSG} "make WITH_ISPELL=yes"
 .endif
 
