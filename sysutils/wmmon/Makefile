@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.mezaway.org/pub/DockApps/ \
 		ftp://ftp.paco.odessa.ua/.2/x11/wm/WindowMaker/apps/
 DISTFILES=	wmmon-1.0b2.tar.gz wmmon-1.0b2-freebsd.tar.gz
 
-MAINTAINER=	kkennawa@physics.adelaide.edu.au
+MAINTAINER=	kris@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 

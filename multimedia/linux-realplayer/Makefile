@@ -11,7 +11,7 @@ PKGNAME=	linux-realplayer-5.0
 CATEGORIES=	audio
 MASTER_SITES=	"Fetch must be performed manually"
 
-MAINTAINER=	kkennawa@physics.adelaide.edu.au
+MAINTAINER=	kris@FreeBSD.ORG
 
 RUN_DEPENDS=	/compat/linux/lib/libc.so.5:${PORTSDIR}/emulators/linux_lib
 
