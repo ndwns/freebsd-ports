@@ -7,7 +7,7 @@
     SUBDIR += bwbasic
     SUBDIR += eiffel
     SUBDIR += elk
-    BROKEN += expect      # no package files yet
+    SUBDIR += expect
     SUBDIR += forth
     SUBDIR += g77
     SUBDIR += gcl
