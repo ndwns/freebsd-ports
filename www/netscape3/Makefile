@@ -13,9 +13,8 @@ DISTFILES=      netscape-v30b4-export.i386-unknown-bsd.tar.gz
 
 MAINTAINER=	jkh@FreeBSD.ORG
 
+RESTRICTED=	"Commercial software."
 NO_WRKSUBDIR=	yes
-# commercial package
-NO_PACKAGE=	yes
 
 post-install:
 	@cat ${PKGDIR}/DESCR
