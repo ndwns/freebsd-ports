@@ -1,7 +1,7 @@
 # New ports collection makefile for:	w3c-httpd
 # Version required:	3.0A
 # Date created:		29 October 1994
-# Whom:			pst
+# Whom:			pst (orig)
 #
 # $Id$
 #
@@ -13,9 +13,11 @@ MASTER_SITES=	ftp://ftp.w3.org/pub/httpd/ \
 
 MAINTAINER=	ports@FreeBSD.org
 
-NO_WRKSUBDIR=	yes
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/net/wais:build
 
-WWW_ROOT=	${PREFIX}/www
+NO_WRKSUBDIR=	yes
+WWW_ROOT?=	${PREFIX}/www
+MAKE_ENV+=	PORTSDIR=${PORTSDIR}
 
 pre-configure:
 .if !defined(MD5_PW)
