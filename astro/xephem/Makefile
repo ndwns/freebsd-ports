@@ -23,6 +23,8 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/GUI/xephem
 
 LIBSRC=		${WRKDIR}/${DISTNAME}/libastro
 
+MAN1=		xephem.1
+
 pre-configure:
 	@(cd ${LIBSRC} && ${XMKMF})
 
