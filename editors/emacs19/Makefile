@@ -9,6 +9,7 @@
 DISTNAME=	emacs-19.28
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
+STRIP=
 CONFIGURE_ARGS=	i386--freebsd --prefix=${PREFIX}
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
