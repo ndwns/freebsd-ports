@@ -7,13 +7,13 @@
 #
 
 DISTNAME=	fxtv-0.45
-CATEGORIES=	x11
+CATEGORIES=	graphics x11
 MASTER_SITES=	http://multiverse.com/~rhh/fxtv/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rhh@ct.picker.com
 
-LIB_DEPENDS=	tiff\\.3\\.:${PORTSDIR}/graphics/tiff \
+LIB_DEPENDS=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34 \
 		Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d    \
 		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 RUN_DEPENDS=	sox:${PORTSDIR}/audio/sox \
