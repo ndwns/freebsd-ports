@@ -24,7 +24,7 @@
     SUBDIR += golddig
     SUBDIR += imaze
     SUBDIR += jetpack
-    SUBDIR += kdegames
+#   SUBDIR += kdegames
     SUBDIR += klondike
     SUBDIR += ktamaga
     SUBDIR += lincity
