@@ -7,7 +7,6 @@
     SUBDIR += arla
     SUBDIR += arpwatch
     SUBDIR += ascend-radius
-    SUBDIR += etherboot
     SUBDIR += bb
     SUBDIR += beroftpd
     SUBDIR += bind8
@@ -47,6 +46,7 @@
     SUBDIR += dnsutl
     SUBDIR += echoping
     SUBDIR += epic4
+#    SUBDIR += etherboot
     SUBDIR += ethereal
     SUBDIR += ezbounce
     SUBDIR += fping
