@@ -17,7 +17,7 @@ MAINTAINER=	andreas@FreeBSD.org
 
 BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg \
 		/nonexistent:${PORTSDIR}/graphics/png \
-		unzip:${PORTSDIR}/archiver/unzip
+		unzip:${PORTSDIR}/archivers/unzip
 DEPENDS_TARGET=	extract
 
 MAKE_ENV=	PORTSDIR=${PORTSDIR}
