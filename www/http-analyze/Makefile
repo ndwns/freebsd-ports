@@ -6,20 +6,16 @@
 # $Id$
 #
 
-DISTNAME=       http-analyze1.9e
-PKGNAME=        http-analyze-1.9
+DISTNAME=       http-analyze2.01
+PKGNAME=        http-analyze-2.01
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.rent-a-guru.de/pub/
+MASTER_SITES=	ftp://ftp.rent-a-guru.de/pub/http-analyze2.01/
+DISTFILES=	http-analyze2.01-src.tar.gz
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/libgd.a:${PORTSDIR}/graphics/gd
 
 MAN1=		http-analyze.1
-
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/http-analyze ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/http-analyze.man \
-		${PREFIX}/man/man1/http-analyze.1
 
 .include <bsd.port.mk>
