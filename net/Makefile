@@ -90,6 +90,7 @@
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += sendfile
+    SUBDIR += sic
     SUBDIR += sirc
     SUBDIR += slirp
     SUBDIR += sniffit
