@@ -50,7 +50,7 @@ post-build:
 
 do-install:
 	@-mv ${PREFIX}/dgd/bin/driver ${PREFIX}/dgd/bin/driver.old
-	@tar -C ${WRKDIR} -cf - `grep '^dgd/' pkg/PLIST` \
+	@tar -C ${WRKDIR} -cf - `grep '^dgd/' {PKGDIR}/PLIST` \
 		| tar -C ${PREFIX} -xpf -
 
 .if !defined(DO_PACKAGE)
