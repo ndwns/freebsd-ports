@@ -6,14 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	hanterm304beta7
-PKGNAME=	ko-hanterm-3.04b7
+DISTNAME=	hanterm-3.1.2
+PKGNAME=	ko-hanterm-3.1.2
 CATEGORIES=	korean x11
-MASTER_SITES=	ftp://ftp.kaist.ac.kr/pub/hangul/incoming/hantermbeta7/ \
-		ftp://ftp.kaist.ac.kr/pub/hangul/terminal/hanterm/hanterm304beta/ \
-		ftp://ftp.kreonet.re.kr/pub/hangul/cair-archive/terminal/hanterm/hanterm304beta/
+MASTER_SITES=	http://elf.kaist.ac.kr/hanterm/pub/
 
-MAINTAINER=	junker@jazz.snu.ac.kr
+MAINTAINER=	cjh@kr.freebsd.org
 
 RUN_DEPENDS=	${PREFIX}/lib/X11/fonts/local/johabm16.pcf.gz:${PORTSDIR}/korean/johabfonts
 
