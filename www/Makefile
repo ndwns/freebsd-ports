@@ -11,6 +11,7 @@ RESTRICTED += ashe           # requires Motif
     SUBDIR += comline
     SUBDIR += gn
     SUBDIR += harvest
+    SUBDIR += kaffe
     SUBDIR += lynx
     SUBDIR += netscape
     SUBDIR += netscape2
