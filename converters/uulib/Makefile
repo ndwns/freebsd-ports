@@ -32,7 +32,7 @@ DOCFILES+=	porting.notes
 
 post-patch:
 	@for l in ${EXTRAFILES}; \
-	do; \
+	do \
 		cp ${FILESDIR}/$${l} ${WRKSRC}/$${l}; \
 	done
 
@@ -40,7 +40,7 @@ do-install:
 .if !defined(NOPORTDOCS)
 	mkdir -p ${PREFIX}/share/doc/uulib
 	for l in ${DOCFILES}; \
-	do; \
+	do \
 		cp ${WRKSRC}/$$l ${PREFIX}/share/doc/uulib; \
 	done
 .endif
