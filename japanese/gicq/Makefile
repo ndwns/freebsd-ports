@@ -28,13 +28,4 @@ CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
 		CFLAGS="${CFLAGS} -I${LOCALBASE}/include -L${LOCALBASE}/lib" \
 		LIBS="-lxpg4"
 
-do-install:
-	@${INSTALL_PROGRAM} ${WRKSRC}/src/gicq ${PREFIX}/bin
-
-post-install:
-.if !defined(NOPORTDOCS)
-	${MKDIR} ${PREFIX}/share/doc/gicq
-	${INSTALL_DATA} ${WRKSRC}/doc/index.html ${PREFIX}/share/doc/gicq
-.endif
-
 .include <bsd.port.mk>
