@@ -31,11 +31,11 @@ LANGUAGE?=
 .if (${LANGUAGE} == "Japanese")
 LANGPREFIX=	ja-
 CATEGORY_LIST=	graphics windowmaker tkstep80 japanese
-RUN_DEP_LIST=	${LOCALBASE}/lib/Img1.2/libimg12.so.1:${PORTSDIR}/japanese/img \
+RUN_DEP_LIST=	${LOCALBASE}/lib/Img1.2/libimg12.so.1:${PORTSDIR}/japanese/libimg \
 		${LOCALBASE}/lib/tkstep8.0jp/tkstep.tcl:${PORTSDIR}/japanese/tkstep80
 .else
 CATEGORY_LIST=	graphics windowmaker tkstep80
-RUN_DEP_LIST=	${LOCALBASE}/lib/Img1.2/libimg12.so.1:${PORTSDIR}/graphics/img \
+RUN_DEP_LIST=	${LOCALBASE}/lib/Img1.2/libimg12.so.1:${PORTSDIR}/graphics/libimg \
 		${LOCALBASE}/share/tkstep8.0/tkstep.tcl:${PORTSDIR}/x11-toolkits/tkstep80
 .endif
 
