@@ -21,5 +21,8 @@ ALL_TARGET=
 
 do-install:
 	cd ${WRKSRC}; ${INSTALL_SCRIPT} webcopy ${PREFIX}/bin
+	${INSTALL} -d -o ${SHAREOWN} -g ${SHAREGRP} -m 755 \
+		${PREFIX}/share/doc/webcopy
+	cd ${WRKSRC}; ${INSTALL_DATA} webcopy.html ${PREFIX}/share/doc/webcopy
 
 .include <bsd.port.mk>
