@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.u.washington.edu/public/asun/
 
 MAINTAINER=	stb@freebsd.org
 
-BUILD_DEPENDS=	${PREFIX}/lib/libwrap.a:${PORTSDIR}/security/tcp_wrapper
+LIB_DEPENDS=	wrap.7:${PORTSDIR}/security/tcp_wrapper
 
 MAN1=		aecho.1 getzones.1 megatron.1 nbp.1 pap.1 psorder.1
 MAN3=		atalk_aton.3 nbp_name.3
