@@ -9,7 +9,7 @@
 
 DISTNAME=       timidity-0.2i
 CATEGORIES=     audio
-MASTER_SITES=   ftp://ftp.cdrom.com/pub/demos/music/samples/ \
+MASTER_SITES=   ftp://ftp.planix.com/pub/misc/ \
 		http://www.cgs.fi/~tt/timidity/
 TIINS=          dgguspat.zip
 DISTFILES=      ${TIINS} ${DISTNAME}.tar.gz
