@@ -18,7 +18,7 @@ DISTFILES=      netscape-v301-export.x86-unknown-bsd.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-RESTRICTED=	"Commercial software."
+RESTRICTED=	"Commercial software"
 NO_WRKSUBDIR=	yes
 
 pre-fetch:
@@ -29,6 +29,6 @@ pre-fetch:
 .endif
 
 post-install:
-	@cat ${PKGDIR}/DESCR
+	@${CAT} ${PKGDIR}/DESCR
 
 .include <bsd.port.mk>
