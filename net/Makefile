@@ -8,6 +8,7 @@
     SUBDIR += bing
     SUBDIR += cap
     SUBDIR += choparp
+    SUBDIR += clog
     SUBDIR += cvsup
     SUBDIR += cvsup-mirror
     SUBDIR += delegate
@@ -67,6 +68,7 @@
     SUBDIR += strobe
     SUBDIR += sup
     SUBDIR += tac_plus
+    SUBDIR += tcpshow
     SUBDIR += tcptrace
     SUBDIR += telnetx
     SUBDIR += tintin++
