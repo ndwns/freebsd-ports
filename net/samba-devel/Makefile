@@ -1,5 +1,5 @@
 # New ports collection makefile for:	samba
-# Version required:			2.0.3
+# Version required:			2.0.5a
 # Date created:				11th Feb 1995
 # Whom:					gpalmer
 #
