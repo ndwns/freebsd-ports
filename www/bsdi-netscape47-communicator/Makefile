@@ -14,6 +14,8 @@ AUTOADMIN=      autoadmin-v406.x86-unknown-freebsd.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+BROKEN=		awaiting upgrade to 4.5
+
 WRKSRC=         ${WRKDIR}/communicator-v406.x86-unknown-freebsd
 NO_BUILD=       Yes
 
