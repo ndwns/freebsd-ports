@@ -13,5 +13,6 @@ MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
 MAINTAINER=	andreas@FreeBSD.org
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS+=--enable-confdir=${PREFIX}/etc/zebra
 
 .include <bsd.port.mk>
