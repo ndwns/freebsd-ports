@@ -13,6 +13,8 @@ CATEGORIES=	www
 
 MAINTAINER=	obrien@FreeBSD.ORG
 
+RUN_DEPENDS=	/compat/linux/lib/ld-linux.so.1:${PORTSDIR}/emulators/linux_lib
+
 RESTRICTED=	"Commerial & USA ITAR export restrictions"
 
 NO_FETCH=	yes
