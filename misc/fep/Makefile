@@ -8,7 +8,7 @@
 
 DISTNAME=	fep
 PKGNAME=	fep-1.0
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/cmd/
 
 MAINTAINER=	nobu@psrc.isac.co.jp

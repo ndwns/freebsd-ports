@@ -11,17 +11,18 @@
 #
 
 DISTNAME=       astrolog-5.20
-DIST_SUBDIR=    astrolog
-EPHEM=          lrz5_24 chi_24 cpjv_24
-CATEGORIES+=    misc x11
+CATEGORIES=     misc x11
 MASTER_SITES=   http://www-rpk.mach.uni-karlsruhe.de/~ferber/astrolog/ \
 		ftp://ftp.relcom.ru/unix/magick/astrology/astrolog/
-EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 DISTFILES=      ${EXTRACT_ONLY} ${EPHEM:S/$/.gz/}
-
-WRKSRC=         ${WRKDIR}/${DISTNAME}/src
+EXTRACT_ONLY=   ${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=     ache@FreeBSD.ORG
+
+DIST_SUBDIR=    astrolog
+WRKSRC=         ${WRKDIR}/${DISTNAME}/src
+
+EPHEM=          lrz5_24 chi_24 cpjv_24
 
 post-extract:
 	cd ${WRKSRC}/..; \

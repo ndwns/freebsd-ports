@@ -8,7 +8,7 @@
 
 DISTNAME=	Array-PrintCols-1.2
 PKGNAME=	p5-Array-PrintCols-1.2
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Array/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Array/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Array/ \

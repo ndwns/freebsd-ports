@@ -8,7 +8,7 @@
 
 DISTNAME=          btoa-5.2
 PKGNAME=           btoa-5.2.1
-CATEGORIES+=       misc
+CATEGORIES=        misc
 MASTER_SITES=      ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 PATCH_SITES=       ${MASTER_SITES}

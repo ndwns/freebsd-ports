@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	splitvt-1.6.1
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.cc.gatech.edu/pub/linux/utils/console/  \
 		ftp://sunsite.unc.edu/pub/Linux/utils/console/  \
 		ftp://ftp.funet.fi/pub/Linux/sunsite/utils/console/  \

@@ -8,7 +8,7 @@
 
 DISTNAME=	Convert-UU-0.01
 PKGNAME=	p5-Convert-UU-0.1
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Convert/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Convert/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Convert/ \

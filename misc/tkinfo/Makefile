@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	tkinfo-0.6
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ptolemy.eecs.berkeley.edu/pub/misc/
 
 MAINTAINER=	tg@freebsd.org

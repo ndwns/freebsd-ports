@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ical-2.1b2
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	http://www.research.digital.com/SRC/personal/Sanjay_Ghemawat/ical/icalbins/
 
 MAINTAINER=	erich@FreeBSD.org
@@ -20,8 +20,8 @@ CONFIGURE_ARGS=	--with-tclsh=/usr/bin/tclsh \
 		--with-tkconfig=${PREFIX}/lib
 
 .if !defined(NOMANCOMPRESS)
-afterinstall:
-	gzip -9nf ${PREFIX}/man/man1/ical.1
+post-install:
+	@gzip -9nf ${PREFIX}/man/man1/ical.1
 .endif
 
 .include <bsd.port.mk>

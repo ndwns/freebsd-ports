@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       kp-0.96
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=   ftp://stampede.cs.berkeley.edu/pub/kp/
 
 MAINTAINER=	asami@FreeBSD.org

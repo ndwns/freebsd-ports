@@ -10,9 +10,10 @@ DISTNAME=	mc-3.2.1
 CATEGORIES=	misc
 MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
+MAINTAINER=	torstenb@FreeBSD.ORG
+
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-ncurses
-
 STRIP=
 
 post-install:

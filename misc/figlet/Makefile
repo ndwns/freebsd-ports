@@ -8,7 +8,7 @@
 
 DISTNAME=	figlet2.1.1
 PKGNAME=	figlet-2.1.1
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.nicoh.com/pub/figlet/program/unix/  \
 		ftp://ftp.wwa.com/pub/Scarecrow/Figlet/Unix/
 EXTRACT_SUFX=	.tar.Z

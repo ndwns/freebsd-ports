@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       buffer-1.17
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=   ftp://ftp.sun.ac.za/pub/unix/misc/
 
 MAINTAINER=	markm@FreeBSD.ORG

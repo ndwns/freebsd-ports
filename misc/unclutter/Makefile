@@ -7,13 +7,12 @@
 #
 
 DISTNAME=	unclutter-8
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.cs.umn.edu/packages/X11/contrib/utilities/ \
 		ftp://csg.uwaterloo.ca/pub/lhf/net/ \
 		ftp://ftp.univ-angers.fr/pub2/X11/contrib/utilities/ \
 		ftp://ftp.huji.ac.il/mirror/X11/contrib/utilities/ \
 		ftp://ftp.rz.uni-wuerzburg.de/pub/X11/contrib/utilities/
-
-CATEGORIES+=	misc
 
 MAINTAINER=	shanee@rabbit.augusta.de
 

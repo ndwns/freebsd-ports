@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 GNU_CONFIGURE=	YES
 
 pre-install:
-	cp ${WRKSRC}/term/.gitrc.ansi \
+	${CP} ${WRKSRC}/term/.gitrc.ansi \
 		${WRKSRC}/term/.gitrc.cons25
 	(cd ${WRKSRC}/term ; patch --quiet -p0 <${FILESDIR}/gitrc.cons25.patch )
 

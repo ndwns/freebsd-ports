@@ -8,7 +8,7 @@
 
 DISTNAME=	Business-CreditCard-0.1
 PKGNAME=	p5-Business-CreditCard-0.1
-CATEGORIES+=	misc
+CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Business/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Business/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Business/ \
