@@ -6,12 +6,12 @@
 # $Id$
 #
 
-DISTNAME=	xmbdfed-3.4
+DISTNAME=	xmbdfed-3.7
 CATEGORIES=	x11-fonts
 MASTER_SITES=	ftp://crl.nmsu.edu/CLR/multiling/General/
 
 PATCH_SITES=	${MASTER_SITES}
-PATCHFILES=	xmbdfed-3.4.patch1
+PATCHFILES=	xmbdfed-3.7.patch1
 
 MAINTAINER=	jfieber@FreeBSD.ORG
 
