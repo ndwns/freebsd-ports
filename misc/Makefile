@@ -10,6 +10,7 @@
     SUBDIR += chord
     SUBDIR += colorls
     SUBDIR += ctk
+    SUBDIR += deco
     SUBDIR += dejagnu
     SUBDIR += display
     SUBDIR += dotfile
