@@ -16,6 +16,8 @@ LIB_DEPENDS=	gtk12.2:${PORTSDIR}/x11-toolkits/gtk12
 
 GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
+FETCH_BEFORE_ARGS=	-b
+
 USE_X_PREFIX=	yes
 USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--disable-gnome
