@@ -20,6 +20,7 @@
     SUBDIR += libident
     SUBDIR += libparanoia
     SUBDIR += nbaudit
+    SUBDIR += nessus
     SUBDIR += nmap
     SUBDIR += openssl
     SUBDIR += p5-Authen-Radius
