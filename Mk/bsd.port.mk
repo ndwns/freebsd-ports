@@ -1221,7 +1221,7 @@ misc-depends:
 .if !target(depends-list)
 depends-list:
 	@for i in ${FETCH_DEPENDS} ${BUILD_DEPENDS} ${LIB_DEPENDS} ${DEPENDS}; do \
-		dir=`/bin/echo $$i | /usr/bin/sed -e 's/.*://'`; \
+		dir=`${ECHO} $$i | ${SED} -e 's/.*://'`; \
 		(cd $$dir ; ${MAKE} package-name depends-list); \
 	done
 .endif
