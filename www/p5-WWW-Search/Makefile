@@ -16,6 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/LWP.pm:${PORTSDIR}/www/p5-libwww
 
+BROKEN=		"installs files in /usr/bin"
+
 USE_PERL5=	YES
 
 MAN1=		AutoSearch.1 \
