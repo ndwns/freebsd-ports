@@ -30,6 +30,7 @@ install: build
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} xdvi.man)
 	@(cd ${WRKSRC}; ${GMAKE} -f Makefile install BINDIR=${PREFIX}/bin)
 	@(cd ${WRKSRC}; install -c -m 755 -o bin MakeTeXPK ${PREFIX}/bin)
+	@if -f ${SCRIPTDIR}/install.tmp; then sh ${SCRIPTDIR}/install.tmp; fi
 .endif
 
 .include <bsd.port.mk>
