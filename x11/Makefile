@@ -34,6 +34,7 @@
     SUBDIR += iv
     SUBDIR += kdebase
     SUBDIR += kdelibs
+    SUBDIR += kdeutils
     SUBDIR += lesstif
     SUBDIR += libdnd
     SUBDIR += libsx
