@@ -16,7 +16,7 @@ MAINTAINER=	andy@icc.surw.chel.su
 
 ALL_TARGET=
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=	--with-sys-config=${PREFIX}/etc/xenmenurc --with-secure-config=${PREFIX}/etc/xenmenurc.secure --with-support-dir=${PREFIX}/share/xenmenu/bin --with-menu-dir=${PREFIX}/share/xenmenu/menus --with-view-dir=${PREFIX}/share/xenmenu/text --with-path=/usr/local/bin:/usr/bin:/bin
+CONFIGURE_ARGS=	--with-sys-config=${PREFIX}/etc/xenmenurc --with-secure-config=${PREFIX}/etc/xenmenurc.secure --with-support-dir=${PREFIX}/share/xenmenu/bin --with-menu-dir=${PREFIX}/share/xenmenu/menus --with-view-dir=${PREFIX}/share/xenmenu/text --with-path=${PREFIX}/bin:/usr/bin:/bin
 
 do-install:
 	@ ${INSTALL_PROGRAM} ${WRKSRC}/xenmenu ${PREFIX}/bin
