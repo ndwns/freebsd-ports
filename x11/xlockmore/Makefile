@@ -26,6 +26,11 @@ CONFIGURE_ARGS+= --enable-kerberos4
 USE_X11=	yes
 MAN1=		xlock.1
 
+OSVERSION!=     sysctl -n kern.osreldate
+.if ${OSVERSION} > 300000
+CONFIGURE_ARGS+= --with-libraries=/usr/lib/aout
+.endif
+
 #
 # MesaGL has a security hole. Don't use it in setuid binaries.
 # Override this with WITH_MESAGL=yes in your environment.
