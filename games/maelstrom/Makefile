@@ -9,9 +9,7 @@
 DISTNAME=		Maelstrom-1.4.3-L2.0.6-src
 PKGNAME=		maelstrom-2.0.6
 CATEGORIES=		games x11
-MASTER_SITES=		${MASTER_SITE_SUNSITE} \
-			ftp://ftp.devolution.com/pub/maelstrom/
-MASTER_SITE_SUBDIR=	games/x11/networked
+MASTER_SITES=		ftp://ftp.devolution.com/pub/maelstrom/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
