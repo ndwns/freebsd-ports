@@ -11,6 +11,6 @@ MASTER_SITES=	ftp://ftp.informatik.rwth-aachen.de/pub/packages/procmail/
 
 install:
 	@echo "===>  Installing for ${DISTNAME}"
-	@cd ${WRKSRC}; ${MAKE} MANCOMPRESS=gzip COMPSUFFIX=.gz install-suid install.man
+	@cd ${WRKSRC}; ${MAKE} MANCOMPRESS=gzip MAN1SUFFIX=1.gz MAN5SUFFIX=5.gz install-suid install.man
 
 .include <bsd.port.mk>
