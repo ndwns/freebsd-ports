@@ -49,6 +49,8 @@ pre-install:
 	@${INSTALL_DATA} ${WRKLIB}/texmf.cnf ${PREFIX}/share/texmf/web2c
 	
 post-install:
+	@(cd ${PREFIX}/bin ; /bin/ln -sf virtex latex)
+	@(cd ${PREFIX}/bin ; /bin/ln -sf virtex tex)
 	@${SETENV} PREFIX=${PREFIX} /bin/sh files/install-note
 
 .include <bsd.port.mk>
