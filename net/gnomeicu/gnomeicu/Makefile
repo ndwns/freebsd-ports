@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.bse.bg/pub/Unix/icq/ \
 
 MAINTAINER=	nacai@iname.com
 
-LIB_DEPENDS=	gnome.0:${PORTSDIR}/x11/gnomelibs \
+LIB_DEPENDS=	gnome.1:${PORTSDIR}/x11/gnomelibs \
 		panel_applet.0:${PORTSDIR}/x11/gnomecore
 
 BROKEN=		"gtkicq 0.58 is out"
