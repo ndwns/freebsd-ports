@@ -8,7 +8,9 @@
 
 DISTNAME=	ucd-snmp-3.3.1
 CATEGORIES=	net
-MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/
+MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/ \
+		ftp://sunsite.cnlab-switch.ch/mirror/ucd-snmp/ \
+                ftp://ftp.win.or.jp/pub/network/snmp/ucd-snmp/
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
