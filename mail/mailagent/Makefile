@@ -8,7 +8,7 @@
 
 DISTNAME=	mailagent-3.0pl56
 PKGNAME=	mailagent-3.0.56
-CATEGORIES=	mail perl5
+CATEGORIES=	mail
 MASTER_SITES=	http://www.sfc.wide.ad.jp/~max/FreeBSD/ports/distfiles/ \
 		${MASTER_SITE_LOCAL}
 

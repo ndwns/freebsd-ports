@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	crossfire-0.93.0
-CATEGORIES=	games perl5
+CATEGORIES=	games
 MASTER_SITES=	ftp://ra.pyramid.com/pub/crossfire/ \
 		ftp://ftp.ifi.uio.no/pub/crossfire/ \
 		ftp://ftp.real-time.com/pub/games/crossfire/ \
