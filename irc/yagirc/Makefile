@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.sicom.fi/~ikioma/
 
 MAINTAINER=	mph@freebsd.org
 
-LIB_DEPENDS=	gtk\\.1\\.4:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.5:${PORTSDIR}/x11/gtk
 
 USE_GMAKE=	yes
 USE_PERL5=	yes
