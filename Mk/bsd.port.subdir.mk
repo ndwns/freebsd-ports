@@ -3,7 +3,9 @@
 
 .MAIN: all
 
+.if !defined(DEBUG_FLAGS)
 STRIP?=	-s
+.endif
 
 BINGRP?=	bin
 BINOWN?=	bin
