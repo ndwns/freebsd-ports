@@ -19,4 +19,9 @@ do-install:
 	cd ${WRKSRC}; $(INSTALL) $(COPY) $(STRIP) -o $(BINOWN) -g $(BINGRP) -m $(BINMODE) ncftp $(PREFIX)/bin/ncftp2
 	cd ${WRKSRC}; $(INSTALL) -c -o $(BINOWN) -g $(BINGRP) -m 644 ncftp.1 $(PREFIX)/man/man1/ncftp2.1
 
+# Copy the list of FreeBSD sites
+pre-patch:
+	cp ${FILESDIR}/Complete.h ${WRKSRC}
+	cp ${FILESDIR}/Complete.c ${WRKSRC}
+
 .include <bsd.port.mk>
