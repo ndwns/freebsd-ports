@@ -1,16 +1,15 @@
 # New ports collection makefile for:	nethack
-# Version required:	3.2.1
+# Version required:	3.2.2
 # Date created:		27 March 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	nethack-3.2.1
+DISTNAME=	nethack-3.2.2
 CATEGORIES=	games
-MASTER_SITES=	\
-	ftp://ftp.win.tue.nl/pub/games/nethack/General/Source/NH32/sources/ \
-	${MASTER_SITE_GNU}
+MASTER_SITES=	ftp://ftp.uu.net/pub/games/nethack/sources/ \
+		${MASTER_SITE_GNU}
 
 MAINTAINER=	asami@FreeBSD.ORG
 
