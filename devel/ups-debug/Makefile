@@ -18,6 +18,7 @@ MASTER_SITE_SUBDIR= utilities
 MAINTAINER=     obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
+USE_XLIB=	yes
 USE_GMAKE=	yes
 ALL_TARGET=	ups
 MAN1=		ups.1
