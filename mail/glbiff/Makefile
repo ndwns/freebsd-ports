@@ -17,6 +17,7 @@ LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa \
 		MesaGLU\\.13\\.:${PORTSDIR}/graphics/Mesa \
 		Mesatk\\.13\\.:${PORTSDIR}/graphics/Mesa \
 		glut\\.3\\.:${PORTSDIR}/graphics/Mesa
+RUN_DEPENDS=	elm:${PORTSDIR}/mail/elm
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/glbiff
