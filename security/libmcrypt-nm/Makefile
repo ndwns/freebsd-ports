@@ -12,9 +12,9 @@ MASTER_SITES=	http://mcrypt.hellug.gr/lib/
 
 MAINTAINER=	ports@FreeBSD.org
 
-INSTALLS_SHLIB=	yes
 USE_LIBTOOL=	yes
-CONFIGURE_ARGS+= --with-LDFLAGS="-pthread"
+CONFIGURE_ENV=	CPPFLAGS="-D_THREAD_SAFE" LDFLAGS="-pthread"
+INSTALLS_SHLIB=	yes
 
 MAN3=		mcrypt-nm.3
 
