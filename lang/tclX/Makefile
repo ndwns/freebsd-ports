@@ -9,7 +9,7 @@
 DISTNAME=	tclX7.5.0
 PKGNAME=	tclX-7.5
 CATEGORIES+=	lang
-MASTER_SITES=	ftp://ftp.neosoft.com/pub/tcl/tclx-distrib/
+MASTER_SITES=	ftp://mirror.neosoft.com/pub/tcl/tclx-distrib/
 
 TCL_DIR=	${PORTSDIR}/lang/tcl75
 TCL_SRC=	${TCL_DIR}/work/tcl7.5
