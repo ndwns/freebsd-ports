@@ -31,6 +31,7 @@
     SUBDIR += grail
     SUBDIR += gwstat
     SUBDIR += harvest
+    SUBDIR += hotjava
     SUBDIR += htmlpp
     SUBDIR += http-analyze
     SUBDIR += hypermail
