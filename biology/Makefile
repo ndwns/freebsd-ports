@@ -2,6 +2,7 @@
 #
 
     SUBDIR += babel
+    SUBDIR += kinemage
     SUBDIR += rasmol
     SUBDIR += seaview
 
