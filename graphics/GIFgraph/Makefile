@@ -6,10 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	GIFgraph-1.01
-PKGNAME=	p5-GIFgraph-1.01
+DISTNAME=	GIFgraph-1.10
+PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	graphics perl5
-MASTER_SITES=	http://www.tcp.chem.tue.nl/~tgtcmv/perl/
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	GIFgraph
 
 MAINTAINER=	laskavy@gambit.msk.su
 
