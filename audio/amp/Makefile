@@ -11,7 +11,6 @@ CATEGORIES=	audio
 #MASTER_SITES=	ftp://ftp.rasip.fer.hr/pub/mpeg/
 # the author's site seems dead.
 MASTER_SITES=	ftp://ftp.clara.net/pub/unix/Audio/
-EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
