@@ -11,6 +11,7 @@ CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://interviews.stanford.edu/pub/
 DISTFILES=	3.1.tar.Z
 
+USE_XLIB=	yes
 BROKEN_ELF=	yes
 
 DIST_SUBDIR=	iv
