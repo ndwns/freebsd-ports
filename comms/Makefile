@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	mgetty+sendfax
+SUBDIR=	mgetty+sendfax seyon
 
 .include <bsd.port.subdir.mk>
