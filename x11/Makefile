@@ -39,6 +39,7 @@
     SUBDIR += kdelibs
     SUBDIR += lesstif
     SUBDIR += libdnd
+    SUBDIR += libhelp
     SUBDIR += libsx
     SUBDIR += lupe
     SUBDIR += lwm
