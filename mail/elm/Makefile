@@ -34,5 +34,6 @@ post-install:
 		${INSTALL_DATA} \
 			${FILESDIR}/elm.mimetypes ${PREFIX}/lib; \
 	fi
+	${LN} -f ${PREFIX}/man/man1/frm.1 ${PREFIX}/man/man1/nfrm.1
 
 .include <bsd.port.mk>
