@@ -1,11 +1,9 @@
 #!/bin/sh
-
+#
 # distclean
-
 # Compare distfiles in /usr/ports/distfiles
 # with currently instaled ports collection
 # and removes outdated files
-
 #
 # ----------------------------------------------------------------------------
 # "THE BEER-WARE LICENSE" (Revision 42, (c) Poul-Henning Kamp):
@@ -16,7 +14,9 @@
 # Maxim Sobolev
 # ----------------------------------------------------------------------------
 #
-
+# $FreeBSD$
+#
+# MAINTAINER= sobomax@FreeBSD.org
 
 PATH=/sbin:/bin:/usr/bin
 
