@@ -18,7 +18,7 @@ MAINTAINER=	se@freebsd.org
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
 LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.[67]\\.:${PORTSDIR}/graphics/jpeg
+		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \

@@ -14,7 +14,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL} \
 
 MAINTAINER=	nate@FreeBSD.org
 
-LIB_DEPENDS+=  jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg
+LIB_DEPENDS+=  jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg
 
 NO_WRKSUBDIR=		yes
 USE_X11=		yes

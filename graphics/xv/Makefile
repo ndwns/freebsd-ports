@@ -19,7 +19,7 @@ PATCHFILES=     xv-3.10a.JPEG-patch xv-3.10a.TIFF-patch
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-LIB_DEPENDS=    jpeg\\.7\\.:${PORTSDIR}/graphics/jpeg \
+LIB_DEPENDS=    jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
 		tiff34\\.1:${PORTSDIR}/graphics/tiff34
 
 USE_IMAKE=	yes
