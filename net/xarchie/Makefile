@@ -10,6 +10,6 @@ DISTNAME=	xarchie-2.0.9
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.uu.net/networking/info-service/archie/clients/
 EXTRACT_SUFX=	.tar.Z
-DEPENDS_ON=	net/archie
+DEPENDS=	net/archie
 
 .include <bsd.port.mk>
