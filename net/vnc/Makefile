@@ -9,7 +9,7 @@
 DISTNAME=       	vnc-3.3.2r3_unixsrc
 PKGNAME=        	vnc-3.3.2r3
 CATEGORIES=		net
-MASTER_SITES=   	http://www.orl.co.uk/vnc/dist/
+MASTER_SITES=   	http://www.uk.research.att.com/vnc/dist/
 DISTFILES=		vnc-3.3.2r3_unixsrc.tgz \
 			vnc-3.3.2_doc.tgz
 
