@@ -8,7 +8,7 @@
 
 DISTNAME=	buffer-1.17
 CATEGORIES=	misc
-MASTER_SITES=	http://www.freebsd.org/~steve/
+MASTER_SITES=	http://www.freebsd.org/~steve/distfiles/
 
 MAINTAINER=	jonny@jonny.eng.br
 
