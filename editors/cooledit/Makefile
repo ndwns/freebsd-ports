@@ -14,7 +14,8 @@ MASTER_SITE_SUBDIR=	apps/editors/X
 
 MAINTAINER=	brett@peloton.physics.montana.edu
 
-LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
+BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--disable-mail-author --with-libs='-lcrypt -lreadline'
