@@ -1,12 +1,12 @@
 # New ports collection Makefile for:	cbb
-# Version required:     	0.77
+# Version required:     	0.78
 # Date created:			24 September, 1998
 # Whom:				kline
 #
 # $Id$
 #
 
-DISTNAME=	cbb-0.77
+DISTNAME=	cbb-0.78
 CATEGORIES=	deskutils
 MASTER_SITES=	ftp://ftp.me.umn.edu/pub/finance/ \
 		ftp://ftp.fifi.org/pub/cbb/
