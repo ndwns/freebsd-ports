@@ -9,7 +9,7 @@
 DISTNAME=	xv-3.10
 USE_IMAKE=	yes
 MASTER_SITES=	ftp://ftp.cis.upenn.edu/pub/xv/
-DEPENDS=	${PORTSDIR}/x11/jpeg ${PORTSDIR}/x11/tiff
+DEPENDS=	${PORTSDIR}/graphics/jpeg ${PORTSDIR}/graphics/tiff
 INSTALL_MANPAGES=	yes
 
 .include <bsd.port.mk>
