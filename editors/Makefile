@@ -7,6 +7,7 @@
     SUBDIR += bpatch
     SUBDIR += e93
     SUBDIR += emacs
+    SUBDIR += joe
     SUBDIR += jove
     SUBDIR += mule
     SUBDIR += nedit
