@@ -6,13 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	bookview-2.2
-PKGNAME=	ja-bookview-2.2
+DISTNAME=	bookview-2.2.1
+PKGNAME=	ja-bookview-2.2.1
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.sra.co.jp/pub/net/ndtp/bookview/ \
 		ftp://ftp.sra.co.jp/pub/net/ndtp/bookview/old/
 
-MAINTAINER=	m-kasahr@sra.co.jp
+MAINTAINER=	takamune@avrl.mei.co.jp
 
 RUN_DEPENDS=	${PREFIX}/bin/wish8.0jp:${PORTSDIR}/japanese/tk80
 
