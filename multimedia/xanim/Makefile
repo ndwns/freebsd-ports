@@ -3,7 +3,7 @@
 # Date created:         Sat Nov 5 11:43:03 PST 1994
 # Whom:                 piero
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xanim2801

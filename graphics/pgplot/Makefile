@@ -3,7 +3,7 @@
 # Date created:		21 December 1996
 # Whom:			jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       pgplot5.2

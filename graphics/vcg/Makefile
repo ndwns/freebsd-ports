@@ -3,7 +3,7 @@
 # Date created: 19 February 1995
 # Whom: hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	vcg.1.30

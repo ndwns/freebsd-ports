@@ -3,7 +3,7 @@
 # Date created:		11 November 1998
 # Whom:			Ben Hutchinson <benhutch@xfiles.org.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	epic-4.pre2.003

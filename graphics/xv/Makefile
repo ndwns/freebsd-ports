@@ -3,7 +3,7 @@
 # Date created:		30 October 1994
 # Whom:			smace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xv-3.10a

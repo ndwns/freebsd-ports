@@ -3,7 +3,7 @@
 # Date created:         3 May 1999
 # Whom:                 one@netlab.is.tsukuba.ac.jp
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tgif-4.1.16

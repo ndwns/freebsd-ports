@@ -3,7 +3,7 @@
 # Date created:		04 Apr 1998
 # Whom:			sec@42.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sic-0.18a

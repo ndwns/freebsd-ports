@@ -3,7 +3,7 @@
 # Date created:		21 January 1998
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	rayshade.4.0

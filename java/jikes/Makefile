@@ -3,7 +3,7 @@
 # Date created:         09 December 1998
 # Whom:                 Matthew Dillon <dillon@backplane.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jikes-0.47

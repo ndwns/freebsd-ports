@@ -3,7 +3,7 @@
 # Date created:         19990120
 # Whom:                 cracauer@cons.org "Martin Cracauer"
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	opengl-man-657

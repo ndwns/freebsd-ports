@@ -3,7 +3,7 @@
 # Date created:		10 May 1998
 # Whom:			nordwick@xcf.berkeley.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	java_cup_v10g

@@ -3,7 +3,7 @@
 # Date created:		Jan 5 1997
 # Whom:			cfs@ing.puc.cl (original)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	urt

@@ -3,7 +3,7 @@
 # Date created:		1999/05/29
 # Whom:			Kensaku Masuda <greg@greg.rim.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jsdk20-solaris2-sparc

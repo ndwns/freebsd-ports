@@ -3,7 +3,7 @@
 # Date created:                19 December 1998
 # Whom:                        Brad Hendrickse <bradh@iafrica.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gifsicle-1.11.1

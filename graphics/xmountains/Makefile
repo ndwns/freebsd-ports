@@ -3,7 +3,7 @@
 # Date created:         16 November 1996
 # Whom:                 proff
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmountains-2.4

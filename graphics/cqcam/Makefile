@@ -3,7 +3,7 @@
 # Date created:		29 Oct 1997
 # Whom:			Kensaku Masuda <greg@greg.rim.or.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	cqcam-0.45a

@@ -3,7 +3,7 @@
 # Date created:         7 Sept 1995
 # Whom:                 cacho@mexicano.gdl.iteso.mx
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       xfrac304

@@ -3,7 +3,7 @@
 # Date created:		14 August 1999
 # Whom:			Dominik Rothert <dr@domix.de>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tirc-1.2

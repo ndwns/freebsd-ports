@@ -3,7 +3,7 @@
 # Date created:		Mon Feb 15 02:53:29 CET 1999
 # Whom:			Anders Nordby <anders@fix.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kvirc-0.9.0

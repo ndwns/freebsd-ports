@@ -3,7 +3,7 @@
 # Date created:				24 June 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		xwpick-2.20

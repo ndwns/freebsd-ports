@@ -3,7 +3,7 @@
 # Date created:		12 January 1996
 # Whom:			nate
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scanner

@@ -3,7 +3,7 @@
 # Date created:				5 November 1996
 # Whom:					fenner
 #
-# $Id$
+# $FreeBSD$
 
 DISTNAME=	geomview-1.6.1
 CATEGORIES=	graphics tk80

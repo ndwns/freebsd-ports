@@ -3,7 +3,7 @@
 # Date created:         30 Jan 1999
 # Whom:                 bmc@WillsCreek.COM
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tgif-4.1.16

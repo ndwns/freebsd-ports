@@ -3,7 +3,7 @@
 # Date created:         Thu Jun 11 22:38:52 PDT 1998
 # Whom:                 dburr@FreeBSD.ORG
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	netshow_linux

@@ -3,7 +3,7 @@
 # Date created:				4 May 1998
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	EZWGL-1.40c

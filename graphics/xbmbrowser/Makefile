@@ -3,7 +3,7 @@
 # Date created:		06 September 1995
 # Whom:			Thomas Gellekum <tg@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xbmbrowser5.1

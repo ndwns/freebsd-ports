@@ -3,7 +3,7 @@
 # Date created:         17 July 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xdl-2.1

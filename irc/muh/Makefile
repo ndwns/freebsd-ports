@@ -3,7 +3,7 @@
 # Date created:        25 Sept 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	muh2.04

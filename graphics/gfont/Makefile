@@ -3,7 +3,7 @@
 # Date created:			09-Sep-1997
 # Whom:				Ralf S. Engelschall <rse@engelschall.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gfont-1.0.2

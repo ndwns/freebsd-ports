@@ -3,7 +3,7 @@
 # Date created:		4 January 1995
 # Whom:			roberto
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xfig.3.2.2

@@ -3,7 +3,7 @@
 # Date created:				6 July 1998
 # Whom:					mph
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	yagirc-0.66.1

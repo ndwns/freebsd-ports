@@ -3,7 +3,7 @@
 # Date created:         02 November 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Imaging-1.0

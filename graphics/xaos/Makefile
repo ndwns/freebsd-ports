@@ -3,7 +3,7 @@
 # Date created:				24 February 1996
 # Whom:					Joseph Koshy <koshy@india.hp.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	XaoS-3.0

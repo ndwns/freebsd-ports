@@ -3,7 +3,7 @@
 # Date created:         26 Japnuary 1999
 # Whom:                 KIRIYAMA Kazuhiko
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	wmicons-1.0

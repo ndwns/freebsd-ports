@@ -3,7 +3,7 @@
 # Date created:		26 Jan 1998
 # Whom:			griffin
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ircii-pana-75p3

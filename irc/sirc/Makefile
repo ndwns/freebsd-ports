@@ -3,7 +3,7 @@
 # Date created:                      4 May 1998
 # Whom:                              Studded <Studded@dal.net>
 #
-# $Id$
+# $FreeBSD$
 #
 # If you need SOCKS support, define SOCKS_SERVER with
 # the name of your SOCKS proxy and remove the '#'.

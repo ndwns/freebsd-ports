@@ -3,7 +3,7 @@
 # Date created:		Mon Mar  8 10:10:42 EET 1999
 # Whom:			Martti Kuparinen <martti.kuparinen@ericsson.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jdk118-doc

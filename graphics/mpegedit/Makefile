@@ -3,7 +3,7 @@
 # Date created:         Thu Aug  1 10:50:57 CDT 1996
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpegedit_v2.2

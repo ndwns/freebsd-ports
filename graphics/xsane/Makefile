@@ -3,7 +3,7 @@
 # Date created:			Fri Apr  8 00:18:29 MET DST 1999
 # Whom:				domi@saargate.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xsane-0.31

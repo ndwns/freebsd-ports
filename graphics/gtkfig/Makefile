@@ -3,7 +3,7 @@
 # Date created:		Tue Nov 17 13:51:11 CET 1998
 # Whom:			Dirk Froemberg <ibex@physik.TU-Berlin.DE>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gtkfig-0.6.0

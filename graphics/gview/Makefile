@@ -3,7 +3,7 @@
 # Date created:				30 April 1999
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gview-0.1.9

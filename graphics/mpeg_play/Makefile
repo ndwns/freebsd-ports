@@ -3,7 +3,7 @@
 # Date created:		17 December 1994
 # Whom:			asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpeg_play-2.4

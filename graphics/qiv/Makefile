@@ -3,7 +3,7 @@
 # Date created:        25 December 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qiv-1.1

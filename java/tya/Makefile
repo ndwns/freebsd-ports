@@ -3,7 +3,7 @@
 # Date created:		16 May 1999
 # Whom:			jake@checker.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tya13v2

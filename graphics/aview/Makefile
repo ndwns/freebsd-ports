@@ -3,7 +3,7 @@
 # Date created:         Dec 18 1997
 # Whom:                 frankch@waru.life.nthu.edu.tw
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       aview-1.2

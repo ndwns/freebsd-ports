@@ -3,7 +3,7 @@
 # Date created:		17 November 1996
 # Whom:			mi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	HDF4.1r2

@@ -3,7 +3,7 @@
 # Date created:		19 June 1998
 # Whom:			Chuck Robey (chuckr)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	plotutils-2.1.1

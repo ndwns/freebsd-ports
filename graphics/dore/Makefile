@@ -3,7 +3,7 @@
 # Date created:		10 February 1995
 # Whom:			jkh
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pdore-6.0

@@ -3,7 +3,7 @@
 # Date created:	16 July 1998
 # Whom:		Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	g2-0.40

@@ -3,7 +3,7 @@
 # Date created:         Tue Feb  7 12:02:49  1995
 # Whom:                 hsu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       MesaLib-3.0

@@ -3,7 +3,7 @@
 # Date created:		Sun Sep  7 17:55:07 EDT 1997
 # Whom:			Randall Hopper <aa8vb@ipass.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fxtv-0.48

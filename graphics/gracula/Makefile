@@ -3,7 +3,7 @@
 # Date created:				30 May 1999
 # Whom:					G. Adam Stanislav <adam@whizkidtech.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gracula-3.0

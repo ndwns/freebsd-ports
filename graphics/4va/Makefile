@@ -3,7 +3,7 @@
 # Date created:		26 July 1998
 # Whom:			Malte Lance <malte.lance@gmx.net>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=		4va-1.21

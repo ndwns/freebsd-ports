@@ -3,7 +3,7 @@
 # Date Created:		Fri Sep 15 10:04:46 CDT 1995
 # Whom:			james@cs.uwm.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME= 	spigot-1.7

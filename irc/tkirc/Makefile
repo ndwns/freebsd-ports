@@ -3,7 +3,7 @@
 # Date created:         Jan 15 1998
 # Whom:                 brianfeldman@hotmail.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tkirc1.202

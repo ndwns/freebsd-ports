@@ -3,7 +3,7 @@
 # Date created:         		18 October 1996
 # Whom:                 		andreas@marvin.robin.de
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xmandel

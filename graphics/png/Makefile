@@ -3,7 +3,7 @@
 # Date created:         5 Dec 1995
 # Whom:                 ache
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       libpng-1.0.3

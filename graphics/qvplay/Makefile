@@ -3,7 +3,7 @@
 # Date created:		2 May 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	qvplay-0.92

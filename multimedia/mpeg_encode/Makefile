@@ -3,7 +3,7 @@
 # Date created:         
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpeg_encode-1.5b-src

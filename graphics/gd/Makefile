@@ -3,7 +3,7 @@
 # Date created:         27 Mar 1998
 # Whom:                 jeff@cetlink.net
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       gd-1.6.2

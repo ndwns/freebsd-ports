@@ -3,7 +3,7 @@
 # Date created:			Sat Jul 19 16:23:10 MET DST 1997
 # Whom:				gary@hotlava.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	sane-1.0.1

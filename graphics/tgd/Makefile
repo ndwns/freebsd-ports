@@ -3,7 +3,7 @@
 # Date created:				22 February 1999
 # Whom:	      				mharo@area51.fremont.ca.us
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tgd1.2c

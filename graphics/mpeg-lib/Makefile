@@ -3,7 +3,7 @@
 # Date created:		16 November 1994
 # Whom:			torstenb
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpeg_lib-1.2.1

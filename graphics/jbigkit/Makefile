@@ -3,7 +3,7 @@
 # Date created:		19 November 1996
 # Whom:			mi
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	jbigkit-1.0

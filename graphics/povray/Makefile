@@ -3,7 +3,7 @@
 # Date created:         3 Dec 1996
 # Whom:                 paulo@isr.uc.pt
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	povray3

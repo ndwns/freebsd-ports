@@ -3,7 +3,7 @@
 # Date created:		6 November 1994
 # Whom:			smace
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       jpegsrc.v6b

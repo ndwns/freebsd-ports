@@ -3,7 +3,7 @@
 # Date created:		22 December 1996
 # Whom:			jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       PGPLOT-2.08

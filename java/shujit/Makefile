@@ -3,7 +3,7 @@
 # Date created:		30 April 1999
 # Whom:			jake@checker.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	shujit-0.3.1b

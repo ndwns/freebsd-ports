@@ -3,7 +3,7 @@
 # Date created:		21 May 1999
 # Whom:			Chris Piazza <cpiazza@FreeBSD.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	quirc-0.9.79

@@ -3,7 +3,7 @@
 # Date created:		23 June 1997
 # Whom:			brett@peloton.physics.montana.edu
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	fnlib-0.4

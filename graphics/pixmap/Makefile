@@ -3,7 +3,7 @@
 # Date created:		19 February 1995
 # Whom:			jmz
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	pixmap2.6

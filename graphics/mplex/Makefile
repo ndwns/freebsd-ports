@@ -3,7 +3,7 @@
 # Date created:         Wed Jul 31 20:54:54 CDT 1996
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mplex-1.1

@@ -3,7 +3,7 @@
 # Date created:		?
 # Whom:			jmz (original)
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	netpbm

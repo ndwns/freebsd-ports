@@ -3,7 +3,7 @@
 # Date created:				29 April 1999
 # Whom:					Andrey Zakhvatov
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Hermes-1.2.5

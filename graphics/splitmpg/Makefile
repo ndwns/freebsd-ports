@@ -3,7 +3,7 @@
 # Date created:         Wed Jul 31 21:59:42 CDT 1996
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	splitmpg

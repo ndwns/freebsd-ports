@@ -3,7 +3,7 @@
 # Date created:         27  Dec 1996
 # Whom:                 proff@iq.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       sced-1.02

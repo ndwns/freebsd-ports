@@ -3,7 +3,7 @@
 # Date created:				Nov 9, 1998
 # Whom:					laskavy@gambit.msk.su
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	GIFgraph-1.10

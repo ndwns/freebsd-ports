@@ -3,7 +3,7 @@
 # Date created:		26 May 1999
 # Whom:			Anders Nordby <anders@fix.no>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gphoto-0.3.2

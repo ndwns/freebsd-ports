@@ -3,7 +3,7 @@
 # Date created:		7 Jan 1998
 # Whom:			giffunip@asme.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       ppm2fli_b1.92

@@ -3,7 +3,7 @@
 # Date created:		19 Aug 1995
 # Whom:			jkh / pst
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	zircon-1.18.223

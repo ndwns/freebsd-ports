@@ -3,7 +3,7 @@
 # Date created:		Tue Mar 23 10:18:20 EET 1999
 # Whom:			Martti Kuparinen <martti.kuparinen@ericsson.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tutorial

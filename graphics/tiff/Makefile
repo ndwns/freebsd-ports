@@ -5,7 +5,7 @@
 #			Mikhail Teterin <mi@aldan.algebra.com>
 #			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	tiff-v3.4beta037

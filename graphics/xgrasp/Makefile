@@ -3,7 +3,7 @@
 # Date created:         23 July 1995
 # Whom:                 asami
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	xgrasp.1.7d

@@ -3,7 +3,7 @@
 # Date created:        06 July 1998
 # Whom:                Bill Fumerola <billf@chc-chimes.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	bnc2.6.2

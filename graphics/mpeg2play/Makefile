@@ -3,7 +3,7 @@
 # Date created:		June 21, 1996
 # Whom:			"Philippe Charnier" <charnier@lirmm.fr>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpeg2play-1.1b

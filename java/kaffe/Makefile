@@ -3,7 +3,7 @@
 # Date created:         20 February 1995
 # Whom:                 Tim Wilkinson <tim@sarc.city.ac.uk>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	kaffe-1.0.b4

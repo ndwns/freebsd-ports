@@ -3,7 +3,7 @@
 # Date created:         Thu Aug  1 21:52:06 CDT 1996
 # Whom:                 erich@FreeBSD.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	mpeg_stat-2.2b-src

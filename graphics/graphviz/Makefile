@@ -3,7 +3,7 @@
 # Date created:         03 Feb 1998
 # Whom:                 Thomas Gellekum <tg@FreeBSD.ORG>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=       graphviz_1_4.src.unix

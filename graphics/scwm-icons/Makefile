@@ -3,7 +3,7 @@
 # Date created:        07 April 1998
 # Whom:                Yukihiro Nakai <nacai@iname.com>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	scwm-icons-0.8

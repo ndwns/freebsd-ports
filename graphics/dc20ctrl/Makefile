@@ -3,7 +3,7 @@
 # Date created:		17 Feb 1998
 # Whom:			Ugo Paternostro <paterno@dsi.unifi.it>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dc20ctrl-0.4

@@ -3,7 +3,7 @@
 # Date created:		15 Jul 1997
 # Whom:			Jun-ichiro itojun Itoh <itojun@itojun.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	dc3play-980321

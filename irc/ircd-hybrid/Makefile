@@ -3,7 +3,7 @@
 # Date created:		9 January 1998
 # Whom:			desmo@bandwidth.org
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	ircd-hybrid-5.3p6

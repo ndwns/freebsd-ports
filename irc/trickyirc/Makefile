@@ -3,7 +3,7 @@
 # Date created:			 	Jun 20th 1999
 # Whom:					troll
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	TrickyIRC-1.1.0

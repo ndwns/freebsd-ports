@@ -3,7 +3,7 @@
 # Date created:		20 Oct 1996
 # Whom:			Yukihiro Nakai <nakai@mlab.t.u-tokyo.ac.jp>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	txtmerge101

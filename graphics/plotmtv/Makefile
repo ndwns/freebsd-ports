@@ -3,7 +3,7 @@
 # Date created:		19 October 1996
 # Whom:			pgs
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	Plotmtv1.4.1

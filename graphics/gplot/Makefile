@@ -3,7 +3,7 @@
 # Date created:         26 Dec 97
 # Whom:                 Pedro Giffuni <giffunip@asme.org>
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	gplot

@@ -3,7 +3,7 @@
 # Date created:         Mar 15 1999
 # Whom:                 rox@fearme.com
 #
-# $Id$
+# $FreeBSD$
 #
 
 DISTNAME=	roxirc-1.4
