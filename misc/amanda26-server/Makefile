@@ -6,11 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	amanda-2.4.0b6
+DISTNAME=	amanda-2.4.0-980222
 CATEGORIES=	misc
 MASTER_SITES=	ftp://ftp.amanda.org/pub/amanda/
 
 MAINTAINER=	cwt@FreeBSD.ORG
+
+WRKSRC=		${WRKDIR}/amanda-2.4.0
 
 NO_LATEST_LINK=	yes
 GNU_CONFIGURE=  yes
