@@ -73,6 +73,7 @@
     SUBDIR += pppload
     SUBDIR += proftpd
     SUBDIR += radius
+    SUBDIR += radiusd-cistron
     SUBDIR += ratoolset
     SUBDIR += rdist6
     SUBDIR += ripetools
