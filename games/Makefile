@@ -19,6 +19,7 @@
     SUBDIR += bogged
     SUBDIR += bs
     SUBDIR += bugsx
+    SUBDIR += CaribbeanStud
     SUBDIR += cgoban
     SUBDIR += connect4
     SUBDIR += cosmo
