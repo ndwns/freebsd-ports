@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += apc
     SUBDIR += blas
     SUBDIR += calc
     SUBDIR += calctool
