@@ -57,7 +57,7 @@ post-install:
 	@${CAT}	${PKGDIR}/MESSAGE
 
 test:
-	cd ${WRKSRC} && PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} test
+	cd ${WRKSRC} && ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} test
 
 install-man:
 	cd ${WRKSRC} && ${SETENV} PORTOBJFORMAT=${PORTOBJFORMAT} ${MAKE} install-man
