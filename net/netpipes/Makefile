@@ -9,7 +9,7 @@
 DISTNAME=	netpipes4.0
 PKGNAME=	netpipes-4.0
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.denic.net/pub1/dist/
+MASTER_SITES=	ftp://ftp.purplefrog.com/pub/netpipes/old/
 
 MAINTAINER=	doconnor@gsoft.com.au
 
