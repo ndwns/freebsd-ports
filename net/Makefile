@@ -4,6 +4,7 @@
     SUBDIR += archie
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
+    SUBDIR += dgd-net
     SUBDIR += dip
     SUBDIR += fspclient
     SUBDIR += ftptool
