@@ -9,7 +9,7 @@
 DISTNAME=	SMS
 PKGNAME=        mastergear-1.0
 CATEGORIES=     emulators
-MASTER_SITES=	http://www.freeflight.com/fms/MG/
+MASTER_SITES=	http://www.komkon.org/fms/MG/
 DISTFILES=	MG.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
