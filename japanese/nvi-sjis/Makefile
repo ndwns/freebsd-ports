@@ -14,7 +14,7 @@ COMMENT=	${.CURDIR}/pkg/COMMENT
 
 .include <${.CURDIR}/../../editors/nvi/Makefile>
 
-PKGNAME=	jp-nvi-sjis-1.79-970306
+PKGNAME=	jp-nvi-sjis-1.79-970403
 CATEGORIES=	japanese editors
 
 MAINTAINER=	itojun@itojun.org
