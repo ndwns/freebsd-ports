@@ -16,6 +16,8 @@ MAINTAINER=	jmz@FreeBSD.org
 MAN1=		xloadimage.1
 MANCOMPRESSED=	yes
 
+BROKEN_ELF=	yes
+
 USE_X_PREFIX=	yes
 
 ALL_TARGET=
