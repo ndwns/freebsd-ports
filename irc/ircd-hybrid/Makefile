@@ -22,6 +22,7 @@ pre-install:
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 ${MANPREFIX}/man/man8
-	#/bin/sh ${PKGDIR}/INSTALL
+	${INSTALL_SCRIPT} ${FILESDIR}/ircd.sh ${PREFIX}/etc/rc.d
+	${INSTALL_DATA} ${WRKSRC}/doc/example.conf.trillian ${PREFIX}/etc/ircd
 
 .include <bsd.port.mk>
