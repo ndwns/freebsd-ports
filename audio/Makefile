@@ -4,6 +4,7 @@
     SUBDIR += amp
     SUBDIR += cam
     SUBDIR += cddbd
+    SUBDIR += cdplay
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += maplay
