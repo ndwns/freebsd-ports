@@ -10,6 +10,7 @@
     SUBDIR += cdrecord
     SUBDIR += cfengine
     SUBDIR += contool
+    SUBDIR += copytape
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += gnomeadmin
