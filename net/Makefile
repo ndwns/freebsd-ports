@@ -169,6 +169,7 @@
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
     SUBDIR += xchat
+    SUBDIR += xferstats
     SUBDIR += xgirc
     SUBDIR += xicq
     SUBDIR += xipmsg
