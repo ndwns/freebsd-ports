@@ -36,7 +36,7 @@ MAINTAINER=	dirk@FreeBSD.ORG
 Y2K=		http://www.php.net/y2k.php3
 
 VERSION_APACHE=	1.3.6
-VERSION_PHP3=	3.0.8
+VERSION_PHP3=	3.0.9
 
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
@@ -90,8 +90,8 @@ PHP3_CONF_ARGS=	--prefix=${PREFIX} \
 		--disable-debug \
 		--enable-track-vars
 
-pre-fetch:
 .if !defined(BATCH)
+pre-fetch:
 	@${SETENV} ${SCRIPTS_ENV} ${SH} ${SCRIPTDIR}/configure.php
 .endif
 
