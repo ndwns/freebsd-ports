@@ -1,9 +1,9 @@
 #
 # $Id$
 #
-# BROKEN= procmail (suid's system dirs)
+# BROKEN= none
 #
 
-SUBDIR= elm metamail mh pine pgpsendmail popper smail
+SUBDIR= elm metamail mh pine pgpsendmail popper procmail smail
 
 .include <bsd.port.subdir.mk>
