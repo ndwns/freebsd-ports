@@ -17,7 +17,7 @@ IS_INTERACTIVE=	yes
 USE_PERL5=	yes
 
 pre-extract:
-	@if [ -x ${PREFIX}/sbin/httpd ]; then \
+	@if [ -x ${PREFIX}/sbin/httpd -o -x ${PREFIX}/sbin/apache ]; then \
 	${ECHO_MSG} Good ! You seem to have a webserver installed ...; \
 	else \
 	${ECHO_MSG} You need to install one of the avail. apache webservers; \
