@@ -104,6 +104,7 @@
     SUBDIR += xboard
     SUBDIR += xboing
     SUBDIR += xbomb
+    SUBDIR += xbomber
     SUBDIR += xchadance
     SUBDIR += xchain
     SUBDIR += xchomp
