@@ -20,17 +20,11 @@ LIB_DEPENDS=		GL.14:${PORTSDIR}/graphics/Mesa3 		\
 
 USE_X_PREFIX=		yes
 
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} < 400003
-BUILD_DEPENDS=		g++295:${PORTSDIR}/lang/egcs
-CXX=			g++295
-.endif
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		CPPFLAGS=-I${X11BASE}/include
 CONFIGURE_ARGS+=	--includedir=$(PREFIX)/include/plib
 USE_GMAKE=		yes
+USE_NEWGCC=		yes
 MANCOMPRESSED=		yes
 
 MAN1=			calibrate.1
@@ -42,4 +36,4 @@ pre-build:
 pre-install:
 	@(cd ${WRKDIR}/calibrate-0.0.1; ${MAKE} PREFIX=${PREFIX} install)
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>

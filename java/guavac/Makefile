@@ -12,14 +12,7 @@ MASTER_SITES=	ftp://ftp.yggdrasil.com/pub/dist/devel/compilers/guavac/
 
 MAINTAINER=	nacai@iname.com
 
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} < 400004
-CC=		gcc295
-CXX=		g++295
-BUILD_DEPENDS=	gcc295:${PORTSDIR}/lang/egcs
-.endif
-
+USE_NEWGCC=	yes
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 MAN1=		guavac.1
@@ -31,4 +24,4 @@ pre-install:
 post-install:
 	@strip ${PREFIX}/bin/guavac ${PREFIX}/bin/guavad
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>

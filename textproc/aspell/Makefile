@@ -15,13 +15,7 @@ MASTER_SITES=	http://metalab.unc.edu/kevina/aspell/ \
 
 MAINTAINER=	ade@lovett.com
 
-.include <bsd.port.pre.mk>
-.if ${OSVERSION} < 400004
-BUILD_DEPENDS=	g++295:${PORTSDIR}/lang/egcs
-CC=	gcc295
-CXX=	g++295
-.endif
-
+USE_NEWGCC=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	CXXFLAGS="${CXXFLAGS} -I${WRKSRC}"
 USE_GMAKE=	yes
@@ -47,4 +41,4 @@ pre-install:
 	          ${WRKSRC}/manual/man-text/D_Glossary.txt \
 	          ${WRKSRC}/manual/man-text/E_Copyright.txt
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
