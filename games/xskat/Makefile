@@ -8,7 +8,7 @@
 
 DISTNAME=	xskat-2.3.1
 CATEGORIES=	games
-MASTER_SITES=	http://www.draeger.com/~gerhardt/
+MASTER_SITES=	http://www.gulu.net/xskat/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
