@@ -69,6 +69,7 @@
     SUBDIR += p5-ParallelUA
     SUBDIR += p5-WWW-Search
     SUBDIR += p5-libwww
+    SUBDIR += py-HTMLgen
     SUBDIR += ruboard
     SUBDIR += sitecopy
     SUBDIR += snarf
