@@ -14,6 +14,8 @@ MASTER_SITE_SUBDIR=	gcc
 
 MAINTAINER=	obrien@FreeBSD.org
 
+NO_CDROM=	'old version, not worth the cost in real estate'
+
 .include <bsd.port.pre.mk>
 
 .if ${PORTOBJFORMAT} == "elf"
