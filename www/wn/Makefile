@@ -11,7 +11,7 @@ CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/wn/
 
 IS_INTERACTIVE=
-NO_PACKAGE=	# hostname compiled in
+NO_PACKAGE=	"Hostname compiled in."
 
 pre-patch:
 	@cp ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
