@@ -44,6 +44,7 @@
     SUBDIR += popper
     SUBDIR += premail
     SUBDIR += procmail
+    SUBDIR += qmail
     SUBDIR += rblcheck
     SUBDIR += rftp
     SUBDIR += sigrot
