@@ -21,6 +21,7 @@ bzip-*			ports/archivers/bzip	Some algorithms used may
 						Opinions differ. Commercial 
 						use could render you liable 
 						to unfriendly legal action.
+cap60/*			ports/net/cap		Don't sell for profit
 cku190.tar.gz		ports/comms/kermit	Restrictive copyright
 dgd/dgd-1.0.37.tar.gz	ports/net/dgd		License required for commercial
 						use as a server, and even for
