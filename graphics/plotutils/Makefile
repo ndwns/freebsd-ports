@@ -19,6 +19,6 @@ CONFIGURE_ARGS=	--with-motif
 .endif
 
 post-install:
-	$(LDCONFIG) -m $(PREFIX)/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
