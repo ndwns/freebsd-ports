@@ -29,3 +29,7 @@ do-install:
 	@${INSTALL_PROGRAM} ${WRKDIR}/MAGE_4_2.LINUX ${PREFIX}/bin/kinemage
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
