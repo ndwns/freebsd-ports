@@ -6,17 +6,17 @@
 # $Id$
 #
 
-DISTNAME=       gd1.3
-PKGNAME=        gd-1.3
+DISTNAME=       gd-1.6.2
 CATEGORIES=	graphics
 MASTER_SITES=   http://www.boutell.com/gd/http/ \
 		ftp://ftp.boutell.com/pub/boutell/gd/
 
 MAINTAINER=     jeff@cetlink.net
 
-RESTRICTED=	unavailable from master site due to legal problems
+LIB_DEPENDS=	png.3:${PORTSDIR}/graphics/png
 
 FETCH_BEFORE_ARGS=	-b
+GNU_CONFIGURE=	yes
 
 pre-install:
 	${MKDIR} ${PREFIX}/include/gd
