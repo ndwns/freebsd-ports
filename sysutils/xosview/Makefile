@@ -11,6 +11,9 @@ CATEGORIES=	sysutils x11
 MASTER_SITES=	http://lore.ece.utexas.edu/~bgrayson/xosview/ \
 		http://lambic.space.lockheed.com/xosview/
 
+# lore.ece.utexas.edu is broken
+FETCH_BEFORE_ARGS=	-b
+
 MAINTAINER=	handy@physics.montana.edu
 
 USE_X11=	yes
