@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.sunlabs.com/pub/tcl/plugin/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
+BUILD_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 
 WRKSRC=		${WRKDIR}/tclplugin2.0/plugin2.0/unix
