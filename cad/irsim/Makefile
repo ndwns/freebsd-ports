@@ -17,4 +17,8 @@ MAN1=		irsim.1
 MAN3=		irsim-analyzer.3
 MAN5=		netchange.5
 
+# othewise patch will complain
+post-extract:
+	@find ${WRKSRC} -name RCS | xargs ${RM} -rf
+
 .include <bsd.port.mk>
