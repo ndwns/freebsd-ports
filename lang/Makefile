@@ -44,6 +44,7 @@
     SUBDIR += lcc
     SUBDIR += libobjects
     SUBDIR += logo
+    SUBDIR += mawk
     SUBDIR += mit-scheme
     SUBDIR += mixal
     SUBDIR += mocka
