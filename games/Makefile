@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	golddig jetpack xmris
+SUBDIR=	golddig jetpack xjewel xmris
 
 .include <bsd.port.subdir.mk>
