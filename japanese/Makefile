@@ -30,6 +30,7 @@
     SUBDIR += elvis
     SUBDIR += emacs20-dl-canna
     SUBDIR += emacs20-dl-wnn6
+    SUBDIR += epwutil
     SUBDIR += escpf
     SUBDIR += eterm
     SUBDIR += ewipe
@@ -211,7 +212,6 @@
     SUBDIR += vfxdvi400
     SUBDIR += vfxdvi600
     SUBDIR += vfxdvik
-    SUBDIR += vje-trial
     SUBDIR += w3
     SUBDIR += weblint97
     SUBDIR += wine
