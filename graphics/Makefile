@@ -31,6 +31,7 @@
     SUBDIR += gqview
     SUBDIR += graphviz
     SUBDIR += gtkdps
+    SUBDIR += gtkfig
     SUBDIR += gyvefigs
     SUBDIR += gyvegui
     SUBDIR += gyvekernel
