@@ -19,7 +19,6 @@ RUN_DEPENDS=	${X11BASE}/bin/xcin:${PORTSDIR}/chinese/xcin
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--enable-big5=yes --enable-xcin=yes
-MAN1=		crxvt2.1
+MAN1=		crxvt.1
 
-.include <bsd.port.pre.mk>
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
