@@ -36,7 +36,6 @@ pre-build:
 
 post-install:
 	[ -e ${PREFIX}/bin/gvim ] || /bin/ln -s ${PREFIX}/bin/vim ${PREFIX}/bin/gvim
-	@${RM} -f ${PREFIX}/man/man1/etags.1
 	@/bin/ln -sf ${PREFIX}/man/man1/ctags.1.gz ${PREFIX}/man/man1/etags.1.gz
 
 .include <bsd.port.mk>
