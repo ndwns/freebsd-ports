@@ -7,7 +7,7 @@
 # $Id$
 #
 
-DISTNAME=	nmap-2.01
+DISTNAME=	nmap-2.02
 CATEGORIES=	security net
 MASTER_SITES=	http://www.insecure.org/nmap/  \
 		ftp://relay.nuxi.com/pub/misc/
