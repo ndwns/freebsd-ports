@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	tk
+SUBDIR=	emu fvwm tk
 
 .include <bsd.port.subdir.mk>
