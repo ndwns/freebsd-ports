@@ -20,8 +20,7 @@ MAKE_FLAGS=     CC=cc -f
 ALL_TARGET=     ha
 USE_GMAKE=      yes
 
-install: build
+do-install:
 	cd ${WRKSRC}; ${INSTALL} ${COPY} ${STRIP} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} ha ${PREFIX}/bin
-	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 
 .include <bsd.port.mk>

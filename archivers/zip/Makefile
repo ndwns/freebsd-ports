@@ -20,7 +20,7 @@ pre-install:
 	@mkdir -p ${PREFIX}/bin
 	@mkdir -p ${PREFIX}/man/man1
 
-install: build
+do-install:
 	cd ${WRKSRC}; install -c -o bin -g bin zip.1 zipgrep.1 ${PREFIX}/man/man1
 	cd ${WRKSRC}; install -c -o bin -g bin zip zipnote zipsplit zipcloak zipgrep ${PREFIX}/bin
 
