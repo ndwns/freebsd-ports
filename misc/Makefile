@@ -54,6 +54,7 @@
     SUBDIR += unclutter
     SUBDIR += us-zipcodes
     SUBDIR += viz
+    SUBDIR += x-files
     SUBDIR += xcalendar
     SUBDIR += xd
     SUBDIR += xdelta
