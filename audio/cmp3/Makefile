@@ -19,9 +19,6 @@ USE_GMAKE=	yes
 
 WRKSRC=		${WRKDIR}/cmp3
 PKGMESSAGE=	${WRKSRC}/MESSAGE
-.if defined(NOPORTDOCS)
-PLIST=		${PKGDIR}/PLIST.nodocs
-.endif
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cmp3 ${PREFIX}/bin
