@@ -39,6 +39,7 @@ MAINTAINER=	dillon@backplane.com
 
 WRKSRC=		${WRKDIR}/jikesos
 MAN1=		jikes.1
+SCRIPTS_ENV=	FILESDIR=${FILESDIR} PKGDIR=${PKGDIR}
 
 # 	(sufficiently handled by pkg/MESSAGE, but if IBM has an issue then
 #	uncomment this section)
