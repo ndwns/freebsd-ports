@@ -7,9 +7,9 @@
 #
 
 DISTNAME=       magic-6.5
-DISTFILES=	magic-6_5_tar.Z
 CATEGORIES=	cad
 MASTER_SITES=	ftp://gatekeeper.dec.com/pub/DEC/WRL/projects/magic/6.5/
+DISTFILES=	magic-6_5_tar.Z
 
 MAINTAINER=	swallace@FreeBSD.org
 
