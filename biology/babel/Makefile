@@ -14,6 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=     frankch@waru.life.nthu.edu.tw
 
 post-install:
-		@ ${CAT} ${PKGDIR}/INSTALL
+		@ ${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
