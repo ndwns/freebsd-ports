@@ -9,14 +9,12 @@
 DISTNAME=	dclock
 PKGNAME=	dclock-pl4
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.ucs.ubc.ca/pub/old/X11/contrib/ \
-		ftp://pdq.coe.montana.edu/pub/mirrors/X11-contrib/ \
-		ftp://ftp.pasteur.fr/pub/computing/unix/X11/R5contrib/
-EXTRACT_SUFX=	.shar.gz
+MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+EXTRACT_SUFX=	.shar.Z
 
 MAINTAINER=	ports@FreeBSD.ORG
 
-EXTRACT_CMD=		gzip 
+EXTRACT_CMD=		${GZIP_CMD}
 EXTRACT_BEFORE_ARGS=	-dc
 EXTRACT_AFTER_ARGS=	|sh -
 NO_WRKSUBDIR=		yes
