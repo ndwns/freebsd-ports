@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	gcombust-0.1.17
+DISTNAME=	gcombust-0.1.18
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.abo.fi/~jmunsin/gcombust/
 
