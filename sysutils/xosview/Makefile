@@ -18,6 +18,8 @@ USE_X_PREFIX=	yes
 HAS_CONFIGURE=	yes
 MAN1=		xosview.1
 
-BROKEN_ELF=	DK_NDRIVE undefined
+.if ${OSVERSION} >= 300006
+BROKEN=	"DK_NDRIVE undefined"
+.endif
 
 .include <bsd.port.mk>
