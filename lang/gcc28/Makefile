@@ -24,7 +24,7 @@ MAN1=		cccp28.1 g++28.1 gcc28.1
 pre-fetch:
 	@${ECHO} "GCC ${DISTNAME:S/^gcc-//} for ${OPSYS} ${OSREL}"
 
-post-patch:
+pre-configure:
 	@(cd ${WRKSRC}/config/i386/ ; \
 	MAJ=`sysctl -n kern.osreldate | ${SED} -e '/.....$$/s///'` ; \
 	${MV} freebsd.h freebsd.h.in ; \
