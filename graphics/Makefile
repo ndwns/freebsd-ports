@@ -30,6 +30,7 @@
     SUBDIR += jbigkit
     SUBDIR += jpeg
     SUBDIR += kdegraphics
+    SUBDIR += killustrator
     SUBDIR += mpeg-lib
     SUBDIR += mpeg2codec
     SUBDIR += mpeg2play
