@@ -2,6 +2,7 @@
 #
 
     SUBDIR += acm
+    SUBDIR += an
     SUBDIR += angband
     SUBDIR += cgoban
     SUBDIR += crossfire
