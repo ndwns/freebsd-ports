@@ -8,7 +8,7 @@
 
 MAJOR=	0
 MINOR=	99
-MICRO=	28
+MICRO=	31
 
 VERSION=	${MAJOR}.${MINOR}.${MICRO}
 MM_VERSION=	${MAJOR}.${MINOR}
@@ -26,11 +26,11 @@ MAINTAINER=	erich@FreeBSD.org
 LIB_DEPENDS+=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 LIB_DEPENDS+=	aa\\.1\\.:${PORTSDIR}/graphics/aalib
 LIB_DEPENDS+=	jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg
-LIB_DEPENDS+=	gtk\\.1:${PORTSDIR}/x11/gtk
+LIB_DEPENDS+=	gtk\\.1\\.2:${PORTSDIR}/x11/gtk
 LIB_DEPENDS+=	mpeg\\.1\\.2:${PORTSDIR}/graphics/mpeg-lib
 LIB_DEPENDS+=	png\\.2\\.:${PORTSDIR}/graphics/png
 LIB_DEPENDS+=	tiff34\\.1\\.:${PORTSDIR}/graphics/tiff34
-LIB_DEPENDS+=	xdelta\\.0:${PORTSDIR}/misc/xdelta
+LIB_DEPENDS+=	xdelta\\.0\\.18:${PORTSDIR}/misc/xdelta
 
 USE_X11=	yes
 GNU_CONFIGURE=	yes
