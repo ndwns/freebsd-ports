@@ -4,6 +4,7 @@
     SUBDIR += afio
     SUBDIR += lsof
     SUBDIR += manck
+    SUBDIR += mkisofs
     SUBDIR += rtty
     SUBDIR += socket
     SUBDIR += top
