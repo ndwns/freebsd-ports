@@ -12,6 +12,9 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/
 
 MAINTAINER=	pst@FreeBSD.ORG
 
+# need to byte-compile a .el file
+BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
+
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
