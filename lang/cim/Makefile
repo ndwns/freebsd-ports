@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cim-2.10
+DISTNAME=	cim-3.29
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/cim/  \
 		ftp://ftp.fenk.wau.nl/pub/lang/simula/compilers/cim/ \
@@ -14,9 +14,6 @@ MASTER_SITES=	ftp://ftp.ifi.uio.no/pub/cim/  \
 MASTER_SITE_SUBDIR=	devel/lang/simula
 
 MAINTAINER=	ports@FreeBSD.ORG
-
-
-BROKEN_ELF=	bad library version number
 
 GNU_CONFIGURE= 	yes
 MAN1=		cim.1
