@@ -31,7 +31,7 @@ SO_VERSION=	2.4
 .endif
 
 post-install:
-        ${LN} -sf libBLT24.so.${SO_VERSION} ${PREFIX}/lib/libBLT24.so
+	${LN} -sf libBLT24.so.${SO_VERSION} ${PREFIX}/lib/libBLT24.so
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.post.mk>
