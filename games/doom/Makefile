@@ -11,7 +11,6 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR=	games/doom
 DISTFILES=	linux-doom-1.8.tar.gz musserver.tgz smooth-joystick4doom.tgz
-EXTRACT_SUFX=	.tgz
 
 MANINAINER=	erich@FreeBSD.org
 
