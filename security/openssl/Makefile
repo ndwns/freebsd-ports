@@ -9,8 +9,9 @@
 DISTNAME=		openssl-0.9.1c
 CATEGORIES=		devel security
 MASTER_SITES=		http://www.openssl.org/source/ \
-			ftp://ftp.sunet.se/pub/security/tools/net/openssl/ \
-			ftp://ftp.cert.dfn.de/pub/tools/net/openssl/
+			ftp://ftp.openssl.org/source/ \
+			ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/ \
+			ftp://ftp.cert.dfn.de/pub/tools/net/openssl/source/
 
 MAINTAINER=		dirk@FreeBSD.ORG
 
