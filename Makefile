@@ -7,6 +7,6 @@ SUBDIR= archivers audio cad comms databases devel editors games graphics \
 
 index:
 	@echo -n "Generating INDEX - please wait.."
-	@make describe | sed -e '/===/D' -e 's;/usr/ports/;;' \
+	@make describe | sed -e '/===/D' -e 's;${.CURDIR}/;;' \
 		| expand -40 > ${.CURDIR}/INDEX
 	@echo " Done."
