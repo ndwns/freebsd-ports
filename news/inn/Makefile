@@ -6,14 +6,10 @@
 # $Id$
 #
 
-DISTNAME=	inn1.4sec
-PKGNAME=	inn-1.4
+DISTNAME=	inn1.4unoff4
+PKGNAME=	inn-1.4u4
 CATEGORIES+=	news
-MASTER_SITES=	ftp://ftp.uu.net/networking/news/nntp/inn/
-EXTRACT_SUFX=	.tar.Z
-
-PATCH_SITES=	ftp://ftp.math.psu.edu/pub/INN/patches/OLD/
-PATCHFILES=	select-loop-bug.patch innxmit-long-lines
+MASTER_SITES=	ftp://ftp.math.psu.edu/pub/INN
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
