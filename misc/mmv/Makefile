@@ -10,7 +10,7 @@
 DISTNAME=	mmv
 PKGNAME=	mmv-1.01b
 CATEGORIES+=	utilities
-MASTER_SITES=	ftp://gatekeeper.dec.com/archive/.b/usenet/comp.sources.unix/
+MASTER_SITES=	ftp://gatekeeper.dec.com/pub/usenet/comp.sources.unix/
 DISTFILES=	part01.Z part02.Z mmv.pch.Z
 
 MAINTAINER=	me@FreeBSD.org
