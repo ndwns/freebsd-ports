@@ -6,21 +6,43 @@
 # $Id$
 #
 
-DISTNAME=	apsfilter-5.0.1
+DISTNAME=	apsfilter-5.1.0
 CATEGORIES=	print
 MASTER_SITES=	http://www.FreeBSD.ORG/~andreas/download/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript55 \
 		html2ps:${PORTSDIR}/print/html2ps \
 		transfig:${PORTSDIR}/print/transfig \
 		cjpeg:${PORTSDIR}/graphics/jpeg \
 		anytopnm:${PORTSDIR}/graphics/netpbm \
-		bunzip2:${PORTSDIR}/archivers/bzip2
+		bunzip2:${PORTSDIR}/archivers/bzip2 \
+		recode:${PORTSDIR}/converters/recode \
+		a2ps:${PORTSDIR}/print/a2ps-letter
 
-NO_PACKAGE=	"Too many questions"
-IS_INTERACTIVE=	yes
+USE_BZIP2=	yes
 WRKSRC=		${WRKDIR}/apsfilter
+
+# make a2ps port happy in this early stage
+.if defined(BATCH)
+	@${SETENV} PAPERSIZE=a4
+.endif
+.if ${PAPERSIZE} != a4 && ${PAPERSIZE} != letter && ${PAPERSIZE} != letterdj
+.BEGIN:
+	@${ECHO}
+	@${ECHO} "PAPERSIZE incorrect value: ${PAPERSIZE}."
+	@${ECHO}
+	@${ECHO} "Must specify PAPERSIZE as one of a4, letter, or letterdj."
+	@${ECHO} "letterdj allows a slightly larger margins for DeskJets."
+	@${FALSE}
+.endif
+
+post-install:
+	@${MKDIR} ${PREFIX}/apsfilter/filter
+	@touch ${PREFIX}/apsfilter/filter/.keep_me
+	@${ECHO} ">>>>> Post installation task: <<<<<"
+	@${ECHO} "Printer installation:"
+	@${ECHO} "    cd ${PREFIX}/apsfilter; ./SETUP"
 
 .include <bsd.port.mk>
