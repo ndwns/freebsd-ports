@@ -18,6 +18,8 @@ NO_CDROM=	"source code cannot be sold, nor can you incorporate the source code i
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
 
+MAN1=		contool.1
+
 pre-install:
 	@${MKDIR} ${PREFIX}/lib/help
 

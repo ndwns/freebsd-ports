@@ -15,5 +15,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
+MAN1=		xdu.1
 
 .include <bsd.port.mk>

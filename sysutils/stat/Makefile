@@ -11,4 +11,7 @@ MASTER_SITES=   http://www.freebsd.org/~wosch/src/
 
 MAINTAINER=     wosch@FreeBSD.org
 
+MAN1=		stat.1
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

@@ -14,4 +14,7 @@ MAINTAINER=     winter@jurai.net
 
 WRKSRC=		${WRKDIR}/setquota/
 
+MAN8=		getquota.8 setquota.8
+MANCOMPRESSED=	yes
+
 .include <bsd.port.mk>

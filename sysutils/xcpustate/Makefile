@@ -22,4 +22,6 @@ EXTRACT_AFTER_ARGS=	|sh
 USE_IMAKE=	yes
 NO_WRKSUBDIR=	yes
 
+MAN1=		xcpustate.1
+
 .include <bsd.port.mk>

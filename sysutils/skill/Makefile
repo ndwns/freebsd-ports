@@ -19,14 +19,12 @@ CONFIGURE_SCRIPT=	Config
 WRKSRC=			${WRKDIR}/${PKGNAME}
 
 MAN1=		skill.1
+MLINKS=		skill.1 snice.1
 
 # Bugs: skill.1 and snice.1 are hard links.  When compressed they
 # are changed to independent files.  I'd like to change this...
 
 pre-configure:
 	@chmod a+x ${WRKSRC}/Config
-
-post-install:
-	@ln -sf ${PREFIX}/man/man1/skill.1.gz ${PREFIX}/man/man1/snice.1.gz
 
 .include <bsd.port.mk>

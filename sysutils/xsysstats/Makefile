@@ -15,5 +15,6 @@ MASTER_SITE_SUBDIR=	utilities
 MAINTAINER=	obrien@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xsysstats.1
 
 .include <bsd.port.mk>

@@ -18,6 +18,7 @@ DISTFILES=	xperfmon++v1.1.tar.Z
 MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 
 USE_IMAKE=	yes
+MAN1=		xperfmon++.1
 
 pre-configure:
 	if [ -e /usr/lib/libdevstat.a -o -e /usr/lib/aout/libdevstat.a ]; then \

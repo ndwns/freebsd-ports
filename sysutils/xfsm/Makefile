@@ -14,5 +14,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	vanilla@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xfsm.1
 
 .include <bsd.port.mk>
