@@ -97,6 +97,7 @@
     SUBDIR += urt
     SUBDIR += vcg
     SUBDIR += whirlgif
+    SUBDIR += wmicons
     SUBDIR += xanim
     SUBDIR += xaos
     SUBDIR += xbmbrowser
