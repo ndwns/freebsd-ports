@@ -6,8 +6,6 @@
 # $Id$
 #
 
-BROKEN=		build
-
 DISTNAME=	guile-1.2
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU}
