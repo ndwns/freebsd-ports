@@ -130,6 +130,7 @@
     SUBDIR += xview-clients
     SUBDIR += xview-config
     SUBDIR += xview-lib
+    SUBDIR += xwit
     SUBDIR += xzoom
 
 .include <bsd.port.subdir.mk>
