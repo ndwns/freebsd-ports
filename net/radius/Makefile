@@ -16,6 +16,7 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 
 NO_WRKSUBDIR=	yes
 INSTALL_TARGET=	install-all
+MAKE-FLAGS+=	-DPREFIX=${PREFIX}
 MAN5=		dictionary.5 users.5 radius.fsm.5 authfile.5 clients.5
 MAN8=		builddbm.8 radcheck.8 radiusd.8 radpwtst.8
 
