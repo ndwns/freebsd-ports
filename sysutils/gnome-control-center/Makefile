@@ -6,8 +6,8 @@
 # $Id$
 #
 
-DISTNAME=	control-center-1.0.1
-PKGNAME=	gnomecontrolcenter-1.0.1
+DISTNAME=	control-center-1.0.2
+PKGNAME=	gnomecontrolcenter-1.0.2
 CATEGORIES=	sysutils gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	gnome-1.0/sources
