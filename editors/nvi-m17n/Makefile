@@ -9,7 +9,7 @@
 DISTNAME=	nvi-1.79
 PKGNAME=	nvi-m17n-1.79-970820
 CATEGORIES=	japanese editors
-MASTER_SITES=	ftp://ftp.cs.berkeley.edu/ucb/4bsd/\
+MASTER_SITES=	ftp://ftp.bostic.com/pub/\
 		ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
 
 PATCH_SITES=	ftp://ftp.foretune.co.jp/pub/tools/nvi-m17n/
