@@ -33,10 +33,11 @@ pre-build:
 	${RM} -rf ${WRKSRC}/docs/gtk.info*
 
 post-install:
+	@${MKDIR} ${LOCALBASE}/share/aclocal
+	@${INSTALL_DATA} ${WRKSRC}/gtk.m4 ${LOCALBASE}/share/aclocal/gtk11d.m4
 	@if [ ! -f ${PREFIX}/share/info ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
 	 fi
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
-	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
