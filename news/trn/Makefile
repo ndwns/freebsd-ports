@@ -10,14 +10,26 @@ DISTNAME=	trn-3.6
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.uu.net/networking/news/readers/trn/
 
+MAINTAINER=	smace@FreeBSD.ORG
+
 RUN_DEPENDS=  munpack:${PORTSDIR}/converters/mpack
 
-NO_PACKAGE=	"Too many questions"
-IS_INTERACTIVE=	yes
+WRKSRC=		$(WRKDIR)/trn-3.6
 MAN1=		trn.1 Pnews.1 Rnmail.1 newsetup.1 newsgroups.1
 
-pre-configure:
-	@echo "===> Running pre-configure target for ${DISTNAME}"
-	@sh ${SCRIPTDIR}/preconf ${PORTSDIR} ${.CURDIR} ${WRKSRC}
+HAS_CONFIGURE=	Yes
+CONFIGURE_SCRIPT=	Configure
+CONFIGURE_ENV=	PREFIX="$(PREFIX)"
+CONFIGURE_ARGS= -S
+
+post-install:
+.if !defined(BATCH)
+	@${ECHO} ""
+	@${ECHO} "############################################################################"
+	@${ECHO} "# Please edit lines 48 through 69 in ${PREFIX}/bin/Pnews                   #"
+	@${ECHO} "# to customize news posting for your site.                                 #"
+	@${ECHO} "# Remember to set the NNTPSERVER environment variable to your news server. #"
+	@${ECHO} "############################################################################"
+.endif
 
 .include <bsd.port.mk>
