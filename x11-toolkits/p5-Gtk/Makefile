@@ -14,7 +14,7 @@ MASTER_SITE_SUBDIR=	Gtk
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	gtk\\.1\\.1:${PORTSDIR}/x11/gtk
+LIB_DEPENDS=	gtk\\.1\\.:${PORTSDIR}/x11/gtk
 
 USE_PERL5=	YES
 
