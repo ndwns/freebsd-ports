@@ -110,6 +110,9 @@ vice-*			ports/emulators/vice	ROMs are copyrighted by
 						Commodore Business Machines
 webcopy.tgz		ports/www/webcopy	Don't sell for profit
 xev*.tar.gz		ports/games/xbat	Possible copyright infringement
+xfntmizi-*.noarch	ports/korean/mizifont	Not a free software, but
+						redistributable on FreeBSD
+						mirrors
 xgs-*			ports/emulators/xgs	Contains ROM (C) by Apple
 xinvaders-*		ports/games/xinvaders	Don't sell for profit
 xmdiary-*		ports/misc/xmdiary	Don't sell for profit
