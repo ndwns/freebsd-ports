@@ -21,9 +21,9 @@ prefix=%%PREFIX%%
 #
 # DO NOT CHANGE THESE DEFAULT VALUES HERE 
 #
-saslauthd_enable="YES"				# Enable saslauthd
+[ -z "$saslauthd_enable" ] && saslauthd_enable="YES"	# Enable saslauthd
 #saslauthd_program="${prefix}/sbin/saslauthd"	# Location of saslauthd
-saslauthd_flags="-a pam"			# Flags to saslauthd program
+[ -z "$saslauthd_flags" ] && saslauthd_flags="-a pam"	# Flags to saslauthd program
 
 . %%RC_SUBR%%
 
