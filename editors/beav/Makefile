@@ -17,8 +17,5 @@ MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 WRKSRC=		${WRKDIR}/beav-140
 PATCH_STRIP=	-p1
 
-pre-install:
-	@${MKDIR} ${PREFIX}/share/doc
-
 .include <bsd.port.mk>
 
