@@ -86,6 +86,7 @@
     SUBDIR += kon2-14dot
     SUBDIR += kon2-16dot
     SUBDIR += kterm
+    SUBDIR += kterm16c
     SUBDIR += less
     SUBDIR += libicq
     SUBDIR += libslang
