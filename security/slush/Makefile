@@ -5,13 +5,12 @@
 #
 # $Id$
 #
-#DISTDIR=	/var/tmp/	# for debuging
 
-DISTNAME=	slush-0_1_0_tar
+DISTNAME=	slush-0_1_0
 PKGNAME=	slush-0.1.0
 CATEGORIES=	security net
 MASTER_SITES=	ftp://www.dis.org/pub/Security/
-EXTRACT_SUFX=	.gz
+EXTRACT_SUFX=	_tar.gz
 
 MAINTAINER=	shipley@dis.org
 
