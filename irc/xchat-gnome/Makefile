@@ -1,12 +1,12 @@
 # New ports collection makefile for:	xchat
-# Version required:		0.9.3
+# Version required:		0.9.4
 # Date created:			17 Nov 1998
 # Whom:				Jim Mock <jim@phrantic.phear.net>
 #
 # $Id$
 #
 
-DISTNAME=	xchat-0.9.3
+DISTNAME=	xchat-0.9.4
 CATEGORIES=	net
 MASTER_SITES=	http://xchat.linuxpower.org/files/ \
 		http://www.ozemail.com.au/~peterzelezny/xchat/ \
