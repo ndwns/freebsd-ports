@@ -25,6 +25,7 @@
     SUBDIR += samba
     SUBDIR += scotty
     SUBDIR += slirp
+    SUBDIR += speak_freely
     SUBDIR += sup
     SUBDIR += tclDP
     SUBDIR += tintin++
