@@ -10,6 +10,8 @@ DISTNAME=       m4-1.4
 CATEGORIES=	devel
 MASTER_SITES=   ${MASTER_SITE_GNU}
 
+MAINTAINER=	ports@FreeBSD.ORG
+
 GNU_CONFIGURE=yes
 CONFIGURE_ARGS= --program-prefix=g
 
