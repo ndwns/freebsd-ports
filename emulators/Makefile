@@ -4,6 +4,7 @@
     SUBDIR += cpmemu
     SUBDIR += cpmtools
     SUBDIR += hfs
+    SUBDIR += linux_lib
     SUBDIR += mtools
     SUBDIR += pcemu
     SUBDIR += sim6811
