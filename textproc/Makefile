@@ -3,6 +3,7 @@
 
     SUBDIR += agrep
     SUBDIR += aspell
+    SUBDIR += br-ispell
     SUBDIR += c2html
     SUBDIR += catdoc
     SUBDIR += dict
