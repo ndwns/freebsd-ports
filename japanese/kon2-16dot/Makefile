@@ -19,7 +19,7 @@ MAINTAINER=	asami@FreeBSD.ORG
 
 USE_GMAKE=	yes
 MAN1=		kon.1
-MANLANG=	ja_JP.ujis
+MANLANG=	ja_JP.EUC
 
 post-configure:
 	sed -e 's%%CURDIR%%${.CURDIR}' \
