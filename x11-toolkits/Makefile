@@ -33,6 +33,7 @@
     SUBDIR += v
     SUBDIR += xbae
     SUBDIR += xforms
+    SUBDIR += xg
     SUBDIR += xview-clients
     SUBDIR += xview-config
     SUBDIR += xview-lib
