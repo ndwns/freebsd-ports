@@ -19,7 +19,7 @@ MAN5=		hosts_access.5 hosts_options.5
 MAN8=		tcpd.8 tcpdchk.8 tcpdmatch.8
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 	@${INSTALL_DATA} ${FILESDIR}/inetd.conf.wrapped.sample ${PREFIX}/etc
 
 update:
