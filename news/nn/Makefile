@@ -22,4 +22,7 @@ pre-install:
 	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} all )
 	[ -r /usr/local/lib/news/inews ] || ( cd ${WRKSRC}/inews; ${MAKE} install )
 
+post-install:
+	@echo Put your NNTP host into ${PREFIX}/lib/news/nntp_server file
+
 .include <bsd.port.mk>
