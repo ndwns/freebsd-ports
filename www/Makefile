@@ -24,6 +24,7 @@
     SUBDIR += linemode
     SUBDIR += linux-netscape4
     SUBDIR += lynx
+    SUBDIR += lynx-current
     SUBDIR += mapedit
     SUBDIR += mhonarc
     SUBDIR += mmm
