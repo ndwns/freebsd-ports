@@ -16,22 +16,19 @@ MAINTAINER=	nacai@iname.com
 
 RUN_DEPENDS=	${X11BASE}/share/gnome/sounds/startup.wav:${PORTSDIR}/audio/gnomeaudio
 LIB_DEPENDS=	gtop.1:${PORTSDIR}/devel/libgtop \
+		gnomeprint.0:${PORTSDIR}/print/gnomeprint \
 		ghttp.1:${PORTSDIR}/www/libghttp
 
-# implicit dependencies
-# gettext, esound, gnomelibs
+GTK_CONFIG?=	${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=	yes
 USE_GMAKE=	yes
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--localstatedir=${PREFIX}/share/gnome \
 		--datadir=${PREFIX}/share/gnome \
-		--with-gnome=${X11BASE}
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
-		GTK_CONFIG="${X11BASE}/bin/gtk12-config" \
-		LIBS="-L${LOCALBASE}/lib -L${X11BASE}/lib -lxpg4"
-
-post-install:
-	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
+		--with-gnome=${PREFIX}
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
+		GTK_CONFIG="${GTK_CONFIG}" \
+		LIBS="-L${LOCALBASE}/lib"
 
 .include <bsd.port.mk>
