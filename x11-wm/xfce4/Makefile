@@ -12,10 +12,10 @@ MASTER_SITES=	http://www.xfce.org/archive/
 
 MAINTAINER=	Nakai@technologist.com
 
-BROKEN_ELF=	xforms is a.out only
-
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		xforms.0:${PORTSDIR}/x11-toolkits/xforms
+
+BROKEN_ELF=	xforms is a.out only
 
 USE_GMAKE=	yes
 USE_IMAKE=	yes
