@@ -6,13 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	stars-1.0-ss-9.03
+DISTNAME=	stars-1.0-ss-10.10
 PKGNAME=	stars-1.0
 CATEGORIES=	astro x11
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/stars-1.0/ \
 		ftp://askdonald.ask.uni-karlsruhe.de/hpux/X11/Demos/stars-1.0/
 
-MAINTAINER=	searle@longacre.demon.co.uk
+MAINTAINER=	jseger@FreeBSD.org
 
 USE_X11=	yes
 WRKSRC=		$(WRKDIR)/$(PKGNAME)
