@@ -13,7 +13,7 @@ MASTER_SITES=   ftp://ftp.csl.sony.co.jp/pub/kjc/
 MAINTAINER=     kjc@csl.sony.co.jp
 
 # the tcl/tk LIB_DEPENDS has to match that of ports/x11-toolkits/blt.
-LIB_DEPENDS=	BLT\\.2\\.4:${PORTSDIR}/x11-toolkits/blt \
+LIB_DEPENDS=	BLT.2:${PORTSDIR}/x11-toolkits/blt \
 		tcl80.1:${PORTSDIR}/lang/tcl80 \
 		tk80.1:${PORTSDIR}/x11-toolkits/tk80
 

@@ -17,7 +17,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	mega@minz.org
 
-LIB_DEPENDS=	slang\\.1\\.:${PORTSDIR}/japanese/libslang
+LIB_DEPENDS=	slang.1:${PORTSDIR}/japanese/libslang
 
 WRKSRC=         ${WRKDIR}/slrn
 JDOCSRC=	${WRKDIR}/slrn-doc-j0.9.5.2-0

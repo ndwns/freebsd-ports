@@ -33,7 +33,7 @@ DOCDIRNAME=	Doc
 DOCEXT=
 .elif (${LANGUAGE} == "Japanese")
 ALL_TARGET=	ja filters
-LIB_DEPENDS=	tcl76jp\\.1\\.:${PORTSDIR}/japanese/tcl76
+LIB_DEPENDS=	tcl76jp.1:${PORTSDIR}/japanese/tcl76
 RUN_DEPENDS+=	${PREFIX}/bin/wish4.2jp:${PORTSDIR}/japanese/tk42
 LANGEXT=	ja
 DOCDIRNAME=	Doc.ja
