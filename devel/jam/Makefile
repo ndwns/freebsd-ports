@@ -17,7 +17,7 @@ HTML_DOCS=	Jam.html Jambase.html Jamfile.html Jamlang.html
 
 do-install:
 	(cd ${WRKSRC}; \
-	 bin.freebsdx86/jam install; \
+	 ./jam0 install; \
 	 ${MKDIR} ${HTML_DOCS_DIR}; \
 	 ${INSTALL_MAN} ${HTML_DOCS} ${HTML_DOCS_DIR})
 
