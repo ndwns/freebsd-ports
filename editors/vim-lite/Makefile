@@ -14,7 +14,7 @@ LITE=		yes
 .if exists(${.CURDIR}/../vim5)
 MASTERDIR=	${.CURDIR}/../vim5
 .else
-MASTERDIR=	/usr/ports/editors/vim5
+MASTERDIR=	${PORTSDIR}/editors/vim5
 .endif
 
 .include "${MASTERDIR}/Makefile"
