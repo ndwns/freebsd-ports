@@ -1,17 +1,17 @@
 # New ports collection makefile for:	netscape
-# Version required:     3.0
+# Version required:     3.01
 # Date created:		21 August 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=       netscape-3.0
+DISTNAME=       netscape-3.01
 CATEGORIES+=	www
-MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/3.0/unix/
-DISTFILES=      netscape-v30-export.x86-unknown-bsd.tar.gz
+MASTER_SITES=   ftp://ftp.netscape.com/pub/navigator/3.01/unix/
+DISTFILES=      netscape-v301-export.x86-unknown-bsd.tar.gz
 
-MAINTAINER=	jkh@FreeBSD.ORG
+MAINTAINER=     ache@FreeBSD.ORG
 
 RESTRICTED=	"Commercial software."
 NO_WRKSUBDIR=	yes
