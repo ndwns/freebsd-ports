@@ -1,6 +1,7 @@
 # $Id$
 #
-SUBDIR=	emu fvwm ghostview iv ivs olvwm tk xarchie xcdplayer xdvi xpm xtexshell
+SUBDIR=	emu fvwm ghostview iv ivs olvwm pcb tk xarchie xcdplayer xdvi \
+	xpm xtexshell
 #
 # nv depends on tk, so might as well build tk first...
 #
