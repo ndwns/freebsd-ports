@@ -1,11 +1,9 @@
 @comment $Id$
-bin/g++filt
-bin/g++
-bin/eg++
-bin/g77
-bin/gcc
-bin/egcc
-bin/gcov
+bin/pg++filt
+bin/pg++
+bin/pg77
+bin/pgcc
+bin/pgcov
 bin/%%GNU_HOST%%-gcc
 bin/protoize
 bin/unprotoize
@@ -217,6 +215,10 @@ lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/cc1obj
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/cc1plus
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/cpp
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/collect2
+@comment ELF-only:lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/crtbegin.o
+@comment ELF-only:lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/crtbeginS.o
+@comment ELF-only:lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/crtend.o
+@comment ELF-only:lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/crtendS.o
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/f771
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/include/README
 lib/gcc-lib/%%GNU_HOST%%/%%EGCS_REV%%/include/assert.h
