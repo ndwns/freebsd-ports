@@ -9,7 +9,7 @@
 DISTNAME=	xscavenger-133
 PKGNAME=	xscavenger-1.3.3
 CATEGORIES=	games
-MASTER_SITES=	http://www.epyx.com/dash/
+MASTER_SITES=	http://www.xdr.com/dash/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	eivind@FreeBSD.org
