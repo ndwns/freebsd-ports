@@ -11,4 +11,10 @@ else
 	LAUNCHER_CLASS="net.sf.saxon.Transform"
 fi
 
-JAVAVM=%%JAVAVM%% %%LOCALBASE%%/bin/javavm -classpath "`%%LOCALBASE%%/bin/classpath`" ${LAUNCHER_CLASS} $@
+SAXON_CLASSPATH=""
+for jarfile in %%SAXON_JARS%%
+do
+	SAXON_CLASSPATH="${SAXON_CLASSPATH}:${jarfile}"
+done
+
+JAVAVM="%%JAVAVM%%" "%%LOCALBASE%%/bin/javavm" -classpath "${SAXON_CLASSPATH}" "${LAUNCHER_CLASS}" "$@"
