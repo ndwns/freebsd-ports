@@ -8,8 +8,8 @@
 
 DISTNAME=       unzip-5.2
 CATEGORIES=	archivers
-MASTER_SITES=   ftp://quest.jpl.nasa.gov/pub/
-DISTFILES=      unzip52.tar.Z
+MASTER_SITES=   ftp://ftp.cdrom.com/pub/infozip/src/
+DISTFILES=      unzip52.tar.gz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
