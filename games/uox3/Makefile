@@ -15,7 +15,9 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} tqpsworld${EXTRACT_SUFX}
 
 MAINTAINER=	dburr@FreeBSD.ORG
 
-DIST_SUBDIR=		uox3
+BROKEN=		"Floating exception (core dumped)"
+
+DIST_SUBDIR=	uox3
 USE_ZIP=	YES
 NO_WRKSUBDIR=	YES
 
