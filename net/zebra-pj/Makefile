@@ -1,20 +1,21 @@
 # New ports collection makefile for:	zebra
-# Version required:	SNAP 980604
+# Version required:	SNAP 981222
 # Date created:		So  31 Mai 1998 11:00:30 CEST
 # Whom:			Andreas Klemm <andreas@klemm.gtn.com>
 #
 # $Id$
 #
 
-DISTNAME=	zebra-980604
+DISTNAME=	zebra-981222
+PKGNAME=	zebra-19981222
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zebra.org/pub/zebra/
+# you might need debugging, it's a developer release !
+#CFLAGS+=	-g
 
 MAINTAINER=	andreas@FreeBSD.org
 
-# you might need debugging, it's a developer release !
-#CFLAGS+=	-g
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS=--sysconfdir=${PREFIX}/etc/zebra
+CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc/zebra
 
 .include <bsd.port.mk>
