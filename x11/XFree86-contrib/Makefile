@@ -6,13 +6,13 @@
 # $Id$
 #
 
-DISTNAME=	XFree86-contrib-3.3.1
+DISTNAME=	XFree86-contrib-3.3.2
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.1/source/ \
-		ftp://xfree86.cdrom.com/pub/XFree86/3.3.1/source/ \
-		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.3.1/source/ \
-		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.3.1/source/
-DISTFILES=	X331contrib.tgz
+MASTER_SITES=	ftp://ftp.xfree86.org/pub/XFree86/3.3.2/source/ \
+		ftp://xfree86.cdrom.com/pub/XFree86/3.3.2/source/ \
+		ftp://ftp.ibp.fr/pub/X11/XFree86/XFree86-3.3.2/source/ \
+		ftp://sunsite.doc.ic.ac.uk/packages/XFree86/3.3.2/source/
+DISTFILES=	X332contrib.tgz
 
 MAINTAINER=	jmz@FreeBSD.ORG
 
