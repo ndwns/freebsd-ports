@@ -97,6 +97,34 @@ afterinstall: realinstall
 realinstall: beforeinstall _SUBDIRUSE
 .endif
 
+IGNOREDIR=	CVS distfiles packages pkg templates
+
+.if !target(checksubdirs)
+.if defined(PORTSTOP)
+checksubdirs: checksubdir _SUBDIRUSE
+.else
+checksubdirs: checksubdir
+.endif
+.endif
+
+.if !target(checksubdir)
+checksubdir:
+	@for d in *; do \
+	  if [ -d "$$d" ]; then \
+	    found=0; \
+	    for s in ${SUBDIR} ${IGNOREDIR}; do \
+	      if [ "x$$s" = "x$$d" ]; then \
+	        found=1; \
+	        break; \
+	      fi; \
+	    done; \
+	    if [ $$found = 0 ]; then \
+	      ${ECHO} "Warning: directory $$d not in SUBDIR"; \
+	    fi; \
+	  fi; \
+	done
+.endif
+
 .if !target(readmes)
 readmes: readme _SUBDIRUSE
 .endif
