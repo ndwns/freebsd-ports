@@ -6,15 +6,15 @@
 # $Id$
 #
 
-DISTNAME=       hypermail.102
+DISTNAME=       hypermail_1.02
 PKGNAME=        hypermail-1.02
 CATEGORIES=     www
-MASTER_SITES=   http://www.eit.com/software/hypermail/src/
-EXTRACT_SUFX=	.tar.Z
+MASTER_SITES=   ftp://ftp.landfield.com/hypermail/ \
+		ftp://ftp.faqs.org/hypermail/
 
 MAINTAINER=     mjhsieh@life.nthu.edu.tw
 
-WRKSRC=		${WRKDIR}/hypermail
+WRKSRC=		${WRKDIR}/hypermail-1.02.orig
 
 MAN1=		hypermail.1
 
