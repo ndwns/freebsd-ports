@@ -55,6 +55,7 @@
     SUBDIR += oneko
     SUBDIR += oonsoo
     SUBDIR += pente
+    SUBDIR += pp
     SUBDIR += qcc
     SUBDIR += quakeserver
     SUBDIR += seabattle
