@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-CGI
-# Version required:			2.75
+# Version required:			2.76
 # Date created:				September 30th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 #   $Id$
 #
 
-DISTNAME=	CGI-modules-2.75
-PKGNAME=	p5-CGI-2.75
+DISTNAME=	CGI-modules-2.76
+PKGNAME=	p5-CGI-2.76
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	CGI

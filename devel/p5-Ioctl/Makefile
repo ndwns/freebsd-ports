@@ -9,12 +9,8 @@
 DISTNAME=	Ioctl-0_7
 PKGNAME=	p5-Ioctl-0.7
 CATEGORIES=	devel perl5
-MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Ioctl/ \
-		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Ioctl/ \
-		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Ioctl/ \
-		ftp://ftp.leo.org/pub/comp/programming/languages/perl/CPAN/modules/by-module/Ioctl/ \
-		ftp://ftp.demon.co.uk/pub/mirrors/perl/CPAN/modules/by-module/Ioctl/ \
-		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/modules/by-module/Ioctl/
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	Ioctl
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 

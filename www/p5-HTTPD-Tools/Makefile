@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-HTTPD-Tools
-# Version required:			0.52
+# Version required:			0.53
 # Date created:				October 20th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 #   $Id$
 #
 
-DISTNAME=	HTTPD-Tools-0.52
-PKGNAME=	p5-HTTPD-Tools-0.52
+DISTNAME=	HTTPD-Tools-0.53
+PKGNAME=	p5-HTTPD-Tools-0.53
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	HTTPD
