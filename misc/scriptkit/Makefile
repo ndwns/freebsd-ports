@@ -13,7 +13,7 @@ MASTER_SITES= 	ftp://ftp.aist-nara.ac.jp/pub/personal/masata-y/gyve/fullkit/gyve
 
 MAINTAINER=	Nakai@technologist.com
 
-BUILD_DEPENDS=	goconfig:${PORTSDIR}/devel/guileobjc
+BUILD_DEPENDS=	goconfig:${PORTSDIR}/lang/guileobjc
 
 GNU_CONFIGURE=	yes
 
