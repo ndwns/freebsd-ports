@@ -15,6 +15,6 @@ MAINTAINER=	jseger@FreeBSD.org
 USE_IMAKE=	yes
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
