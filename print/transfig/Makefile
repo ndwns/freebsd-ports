@@ -8,7 +8,7 @@
 
 DISTNAME=	transfig.3.1.2
 PKGNAME=	transfig-3.1.2
-CATEGORIES+=	print
+CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/drawing_tools/transfig/ \
 	ftp://crl.dec.com/pub/X11/contrib/applications/drawing_tools/transfig/
 

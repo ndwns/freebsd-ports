@@ -8,7 +8,7 @@
 
 DISTNAME=	html2latex-0.9c
 PKGNAME=	html2latex-0.9
-CATEGORIES+=	print
+CATEGORIES=	print
 # i can't seem to find the original dist site
 MASTER_SITES=	ftp://ftp.germany.eu.net/pub/infosystems/www/ncsa/Web/Mosaic/Contrib/
 DISTFILES=	html2latex-0.9c.tar.Z

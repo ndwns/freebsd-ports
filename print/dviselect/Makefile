@@ -8,13 +8,13 @@
 
 DISTNAME=	dviselect
 PKGNAME=	dviselect-1.3
-CATEGORIES+=	print
+CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.cs.umn.edu/pub/latex/software/
 
 MAINTAINER=	jmz@FreeBSD.org
 
 pre-install:
-	@mkdir -p ${PREFIX}/man/man1
-	@mkdir -p ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/man/man1
+	@${MKDIR} ${PREFIX}/bin
 
 .include <bsd.port.mk>

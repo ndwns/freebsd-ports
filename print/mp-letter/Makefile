@@ -8,7 +8,7 @@
 
 DISTNAME=	mp-3.0.1
 PKGNAME=	mp-${PAPERSIZE}-3.0.1
-CATEGORIES+=	print
+CATEGORIES=	print
 MASTER_SITES=	ftp://nuxi.cs.ucdavis.edu/pub/misc/ \
 		ftp://ftp.win.tue.nl/pub/mail/
 
@@ -24,7 +24,7 @@ INSTALL_TARGET= install-a4
 .endif
 
 pre-patch:
-	@cp ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
+	@${CP} ${WRKSRC}/Makefile.dist ${WRKSRC}/Makefile
 
 MP_UTILS=   digestp filep filofaxp franklinp mailp newsp timemanp timesysp
 post-install:

@@ -8,7 +8,7 @@
 
 DISTNAME=	xdvi-20
 PKGNAME=	xdvi-pl20
-CATEGORIES+=	print
+CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.x.org/contrib/applications/	\
 		ftp://crl.dec.com/pub/X11/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
@@ -23,13 +23,13 @@ IS_INTERACTIVE=	yes
 XMKMF=		xmkmf
 
 do-install: 
-	@mkdir -p ${PREFIX}/man/man1
-	@mkdir -p ${PREFIX}/bin
+	@${MKDIR} ${PREFIX}/man/man1
+	@${MKDIR} ${PREFIX}/bin
 	@(cd ${WRKSRC}; ${GMAKE} install.man \
 		MANDIR=${PREFIX}/man/man1 MANSUFFIX=1)
 	@(cd ${WRKSRC}; ${GMAKE} ${MAKE_FLAGS} ${MAKEFILE} xdvi.man)
 	@(cd ${WRKSRC}; ${GMAKE} -f Makefile install BINDIR=${PREFIX}/bin)
-	@(cd ${WRKSRC}; install -c -m 755 -o bin MakeTeXPK ${PREFIX}/bin)
+	@(cd ${WRKSRC}; ${INSTALL_PROGRAM} MakeTeXPK ${PREFIX}/bin)
 
 pre-clean:
 	@rm -f ${SCRIPTDIR}/post-install

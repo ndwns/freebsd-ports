@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	unroff-1.0
-CATEGORIES+=	print
+CATEGORIES=	print
 MASTER_SITES=	http://www-rn.informatik.uni-bremen.de/software/unroff/dist/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
