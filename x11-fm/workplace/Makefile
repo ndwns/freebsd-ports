@@ -17,7 +17,7 @@ LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
 GNU_CONFIGURE=	yes
 USE_X_PREFIX=	yes
-CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include/gtk10" \
+CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include/gtk10" \
 		LIBS="-L${LOCALBASE}/lib"
 
 pre-configure:
