@@ -7,6 +7,7 @@
     SUBDIR += bpatch
     SUBDIR += e93
     SUBDIR += emacs
+    SUBDIR += emacs20
     SUBDIR += gvim
     SUBDIR += jed
     SUBDIR += joe
