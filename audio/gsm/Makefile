@@ -18,6 +18,6 @@ MAN3=		gsm.3 gsm_explode.3 gsm_option.3 gsm_print.3
 MLINKS=		toast.1 untoast.1	toast.1 tcat.1
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
