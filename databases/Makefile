@@ -2,6 +2,7 @@
 #
     SUBDIR += cdb
     SUBDIR += db
+    SUBDIR += dbview
     SUBDIR += gadfly
     SUBDIR += gdbm
     SUBDIR += gmysql
