@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.net.lut.ac.uk/kde/unstable/apps/games/ \
 
 MAINTAINER=	se@freebsd.org
 
-LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kdelibs
+LIB_DEPENDS=	kdecore.2:${PORTSDIR}/x11/kdelibs11
 MAKE_ENV=	DEBUG_FL="$(CFLAGS)"
 
 USE_QT=		yes
