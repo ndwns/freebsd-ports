@@ -17,6 +17,7 @@
     SUBDIR += iv
     SUBDIR += olvwm
     SUBDIR += piewm
+    SUBDIR += qt
     SUBDIR += rxvt
     SUBDIR += specJava
     SUBDIR += sxpc
