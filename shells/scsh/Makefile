@@ -14,13 +14,17 @@ MASTER_SITES=	ftp://ftp-swiss.ai.mit.edu/pub/su/scsh/ \
 
 MAINTAINER= 	cracauer@cons.org
 
+.include <bsd.port.pre.mk>
+
 GNU_CONFIGURE=	yes
+
+.if $(PORTOBJFORMAT) == elf
+CONFIGURE_ENV+=	LDFLAGS="-Wl,-E"
+.endif
 
 ALL_TARGET=	enough
 MAN1=		scsh.1
 STRIP=
-
-BROKEN_ELF=	build
 
 post-install:
 	@strip ${PREFIX}/bin/scsh
@@ -29,4 +33,4 @@ post-install:
 	${RM} -f ${PREFIX}/share/doc/scsh
 	ln -fs ${PREFIX}/lib/scsh/doc ${PREFIX}/share/doc/scsh
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
