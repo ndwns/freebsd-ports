@@ -20,6 +20,5 @@ NO_WRKSUBDIR=	yes
 
 pre-install:
 	${MKDIR} ${PREFIX}/share/texmf/documentation
-	${MKDIR} ${PREFIX}/share/texmf/mf
 
 .include <bsd.port.mk>
