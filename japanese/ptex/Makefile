@@ -16,6 +16,7 @@ MAINTAINER=	max@FreeBSD.ORG
 
 RUN_DEPENDS=	ptex-common:${PORTSDIR}/japanese/ptex-common
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	euc
@@ -45,7 +46,5 @@ post-install:
 
 pre-clean:
 	@${RM} -rf ${WRKSRC}
-
-MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
 
 .include <bsd.port.mk>

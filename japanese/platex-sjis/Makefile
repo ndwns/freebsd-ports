@@ -20,6 +20,7 @@ BUILD_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-sjis \
 RUN_DEPENDS=	ptex:${PORTSDIR}/japanese/ptex-sjis \
 		platex-common:${PORTSDIR}/japanese/platex-common
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
 WRKSRC=		${WRKDIR}/970702
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 DIST_SUBDIR=	platex2e
@@ -39,7 +40,5 @@ do-install:
 	@${CP} ${WRKSRC}/* ${TEXMF}/tex/platex/base
 	${MV} -f ${TEXMF}/tex/platex/base/platex.fmt ${TEXMF}/web2c
 	/bin/ln -fs ptex ${PREFIX}/bin/platex
-
-MANUAL_PACKAGE_BUILD=	incompatible with other versions of ptex-*
 
 .include <bsd.port.mk>

@@ -16,6 +16,7 @@ DISTFILES=	jtex-1.52.tar.gz tfm-files.tar.Z jtex1.7.tar.gz pTeX-JIS-patch
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=	incompatible with other versions of jtex-*
 USE_GMAKE=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	jtex-1.52.tar.gz
@@ -63,7 +64,5 @@ pre-reinstall:
 	  cd ${WRKSRC} ; \
 	  ${MAKE} reinstall DISTDIR=${DISTDIR} FILESDIR=${FILESDIR} \
 	)
-
-MANUAL_PACKAGE_BUILD=	incompatible with other versions of jtex-*
 
 .include <bsd.port.mk>
