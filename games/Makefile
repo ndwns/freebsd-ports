@@ -2,6 +2,7 @@
 #
 
     SUBDIR += acm
+    SUBDIR += cgoban
     SUBDIR += crossfire
     SUBDIR += doom
     SUBDIR += flying
