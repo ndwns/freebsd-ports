@@ -24,6 +24,7 @@
     SUBDIR += getbdf
     SUBDIR += gwm
     SUBDIR += iv
+    SUBDIR += lesstif
     SUBDIR += olvwm
     SUBDIR += p5-Tk400
     SUBDIR += piewm
