@@ -35,6 +35,10 @@ ${SUBDIR}::
 all: _SUBDIRUSE
 .endif
 
+.if !target(package)
+package: _SUBDIRUSE
+.endif
+
 .if !target(bundle)
 bundle: _SUBDIRUSE
 .endif
