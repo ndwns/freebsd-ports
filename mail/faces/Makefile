@@ -17,13 +17,9 @@ MAINTAINER=	Lars.Koeller@Uni-Bielefeld.DE
 WRKSRC=		$(WRKDIR)/faces
 MAN1=		compface.1 faces.1 face_update.1
 MAN3=		compface.3 
+MLINKS=		compface.1 uncompface.1		compface.3 uncompface.3
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
-.if !defined(NOMANCOMPRESS)
-	@${RM} ${PREFIX}/man/man1/uncompface.1 ${PREFIX}/man/man3/uncompface.3
-	@ln -fs compface.1.gz ${PREFIX}/man/man1/uncompface.1.gz
-	@ln -fs compface.3.gz ${PREFIX}/man/man3/uncompface.3.gz
-.endif
 
 .include <bsd.port.mk>
