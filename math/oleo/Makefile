@@ -10,10 +10,12 @@ DISTNAME=	oleo-1.6
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GNU}
 
-HAS_CONFIGURE=yes
+MAINTAINER=	ports@FreeBSD.ORG
+
+HAS_CONFIGURE=	yes
 MAN1=		oleo.1
 
 post-install:
 	$(INSTALL_MAN) $(FILESDIR)/oleo.1 $(PREFIX)/man/man1
-	
+
 .include <bsd.port.mk>
