@@ -15,10 +15,12 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=     obrien@FreeBSD.org
 
-BROKEN_ELF=	yes
-
 CFLAGS+=	-I../../include
 MAN1=		vnelvis.1 vnvi.1
+
+post-extract:
+	@ cd ${WRKSRC} ; make clean
+	@ cd ${WRKSRC}/../lib ; make clean
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/vnelvis.1V ${PREFIX}/man/man1/vnelvis.1
