@@ -66,6 +66,7 @@
     SUBDIR += povray
     SUBDIR += ppm2fli
     SUBDIR += pstoedit
+    SUBDIR += py-imaging
     SUBDIR += qgl
     SUBDIR += qvplay
     SUBDIR += rayshade
