@@ -12,6 +12,7 @@
     SUBDIR += joe
     SUBDIR += jove
     SUBDIR += mule
+    SUBDIR += mule-common
     SUBDIR += nedit
     SUBDIR += nvi
     SUBDIR += staroffice

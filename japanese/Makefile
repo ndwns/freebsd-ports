@@ -51,8 +51,16 @@
     SUBDIR += mmm
     SUBDIR += mnews
     SUBDIR += mule-canna
+    SUBDIR += mule-canna+sj3
+    SUBDIR += mule-canna+sj3+wnn4
+    SUBDIR += mule-canna+sj3+wnn6
+    SUBDIR += mule-canna+wnn4
+    SUBDIR += mule-canna+wnn6
     SUBDIR += mule-sj3
-    SUBDIR += mule-wnn
+    SUBDIR += mule-sj3+wnn4
+    SUBDIR += mule-sj3+wnn6
+    SUBDIR += mule-wnn4
+    SUBDIR += mule-wnn6
     SUBDIR += nethack
     SUBDIR += newosaka
     SUBDIR += nkf

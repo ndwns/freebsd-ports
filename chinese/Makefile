@@ -11,6 +11,7 @@
     SUBDIR += gbscript
     SUBDIR += hc
     SUBDIR += lunar
+    SUBDIR += mule-wnn4
     SUBDIR += nvi-big5
     SUBDIR += nvi-euc-cn
     SUBDIR += nvi-euc-tw

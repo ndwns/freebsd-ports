@@ -20,6 +20,7 @@
     SUBDIR += hpscat
     SUBDIR += johabfonts
     SUBDIR += linuxdoc-sgml
+    SUBDIR += mule-wnn4
     SUBDIR += netscape3
     SUBDIR += nh2ps
     SUBDIR += nhpf
