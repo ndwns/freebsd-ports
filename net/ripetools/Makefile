@@ -1,5 +1,5 @@
 # New ports collection makefile for:   ripe-whois
-# Version required:	2.3
+# Version required:	2.4
 # Date created:		5th June 1997
 # Whom:			joe@uk.freebsd.org
 #
