@@ -29,7 +29,6 @@ fetch: pre-fetch
 			echo ">> `basename $$file` doesn't seem to exist on this system."; \
 			echo ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
-CATEGORIES+=	utilities
 				pwd;\
 				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
 					break; \
