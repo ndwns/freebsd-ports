@@ -35,6 +35,7 @@
     SUBDIR += golddig
     SUBDIR += icbm3d
     SUBDIR += imaze
+    SUBDIR += inform
     SUBDIR += ishido
     SUBDIR += jetpack
     SUBDIR += jzip
