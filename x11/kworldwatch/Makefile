@@ -19,6 +19,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		kdeui.1:${PORTSDIR}/x11/kdelibs \
 		kfm.1:${PORTSDIR}/x11/kdelibs
 
+BROKEN=		giflib
+
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 
