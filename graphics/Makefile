@@ -51,6 +51,7 @@
     SUBDIR += hpscan
     SUBDIR += imlib
     SUBDIR += jbigkit
+    SUBDIR += jgv
     SUBDIR += jpeg
     SUBDIR += kdegraphics
     SUBDIR += kdegraphics11

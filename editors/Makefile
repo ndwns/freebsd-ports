@@ -27,6 +27,7 @@
     SUBDIR += le
     SUBDIR += leim20
     SUBDIR += lpe
+    SUBDIR += muggy
     SUBDIR += mule
     SUBDIR += mule-common
     SUBDIR += nedit

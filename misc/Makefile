@@ -70,6 +70,7 @@
     SUBDIR += rpm
     SUBDIR += screen
     SUBDIR += scriptkit
+    SUBDIR += seizedesktop
     SUBDIR += sls
     SUBDIR += sma
     SUBDIR += splitvt

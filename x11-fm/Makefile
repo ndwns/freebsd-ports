@@ -2,6 +2,7 @@
 #
 
     SUBDIR += asfiles
+    SUBDIR += binder
     SUBDIR += dfm
     SUBDIR += explorer
     SUBDIR += ezfm
