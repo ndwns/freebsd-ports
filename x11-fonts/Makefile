@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += Xg
     SUBDIR += etlfonts
     SUBDIR += freefonts
     SUBDIR += getbdf

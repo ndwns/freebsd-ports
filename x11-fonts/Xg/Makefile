@@ -8,7 +8,7 @@
 
 DISTNAME=	libXg.utf.fonts
 PKGNAME=	libXgFonts-1.0
-CATEGORIES=	plan9 x11-fonts
+CATEGORIES=	x11-fonts plan9
 MASTER_SITES=	ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org

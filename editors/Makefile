@@ -26,6 +26,7 @@
     SUBDIR += nvi-m17n
     SUBDIR += nvi-perl
     SUBDIR += offix-editor
+    SUBDIR += sam
     SUBDIR += staroffice
     SUBDIR += sted
     SUBDIR += textedit
@@ -36,6 +37,7 @@
     SUBDIR += vilearn
     SUBDIR += vim4
     SUBDIR += vim5
+    SUBDIR += wily
     SUBDIR += wordperfect
     SUBDIR += xcoral
     SUBDIR += xed

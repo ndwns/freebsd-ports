@@ -27,7 +27,6 @@ SUBDIR += mbone
 SUBDIR += misc
 SUBDIR += net
 SUBDIR += news
-SUBDIR += plan9
 SUBDIR += print
 SUBDIR += russian
 SUBDIR += security

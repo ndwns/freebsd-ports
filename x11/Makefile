@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += 9term
     SUBDIR += XFree86
     SUBDIR += XFree86-contrib
     SUBDIR += Xfstt

@@ -1,6 +1,8 @@
 # $Id$
 #
 
+    SUBDIR += 9menu
+    SUBDIR += 9wm
     SUBDIR += afterstep
     SUBDIR += afterstep-devel
     SUBDIR += afterstep-i18n

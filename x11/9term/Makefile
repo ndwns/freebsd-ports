@@ -8,7 +8,7 @@
 
 DISTNAME=       9term.1.6.3
 PKGNAME=	9term-1.6.3
-CATEGORIES=	plan9 x11
+CATEGORIES=	x11 plan9
 MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 
 MAINTAINER=	erich@FreeBSD.org
@@ -19,7 +19,7 @@ BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/plan9/sam:extract
 USE_XLIB=	yes
 MAN1=		9term.1
 MANCOMPRESSED=	yes
-MAKE_ENV=	SAMDIR=${WRKDIRPREFIX}${PORTSDIR}/plan9/sam
+MAKE_ENV=	SAMDIR=${WRKDIRPREFIX}${.CURDIR}/../../editors/sam
 NO_WRKSUBDIR=	yes
 
 .include <bsd.port.mk>
