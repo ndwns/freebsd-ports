@@ -1,15 +1,15 @@
 # Ports collection Makefile for:	Grail
-# Version required:			0.4
-# Date created:				6/11/1998
-# Whom:					n@nectar.com
+# Version required:			0.5
+# Date created:				1/11/1999
+# Whom:					nectar@FreeBSD.ORG
 #
 # $Id$
 #
 
-DISTNAME=		grail-0.4
+DISTNAME=		grail-0.5
 CATEGORIES=		www
-MASTER_SITES=		http://monty.cnri.reston.va.us/grail-0.4/source/
-DISTFILES=		grail_04.tgz
+MASTER_SITES=		http://monty.cnri.reston.va.us/grail-0.5/source/
+DISTFILES=		grail_05.tgz
 
 MAINTAINER=		nectar@freebsd.org
 
