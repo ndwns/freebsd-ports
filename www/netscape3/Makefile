@@ -1,15 +1,15 @@
 # New ports collection makefile for:	netscape
-# Version required:     3.0b5
+# Version required:     3.0b5a
 # Date created:		21 August 1995
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=       netscape-3.0b5
+DISTNAME=       netscape-3.0b5a
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp13.netscape.com/pub/navigator/3.0/3.0b5/unix/
-DISTFILES=      netscape-v30b5-export.x86-unknown-bsd.tar.gz
+DISTFILES=      netscape-v30b5a-export.x86-unknown-bsd.tar.gz
 
 MAINTAINER=	jkh@FreeBSD.ORG
 
