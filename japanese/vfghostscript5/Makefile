@@ -9,7 +9,7 @@
 DISTNAME=	ghostscript-5.10
 PKGNAME=	ja-vfghostscript-5.10
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/gs510/ \
+MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/gnu/gs510/ \
 		ftp://ftp.cs.wisc.edu/ghost/aladdin/fonts/ \
 		ftp://ftp.uu.net/graphics/png/src/ \
 		ftp://ftp.uu.net/graphics/jpeg/ \
