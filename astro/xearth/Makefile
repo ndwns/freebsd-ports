@@ -14,6 +14,8 @@ USE_IMAKE=	yes
 
 # Copy the list of FreeBSD sites
 post-install:
-	cp ${FILESDIR}/freebsd.markers ${PREFIX}/lib/X11
+	mkdir -p ${PREFIX}/lib/X11/xearth
+	cp ${FILESDIR}/freebsd.core.markers ${PREFIX}/lib/X11/xearth
+	cp ${FILESDIR}/freebsd.ftp.markers ${PREFIX}/lib/X11/xearth
 
 .include <bsd.port.mk>
