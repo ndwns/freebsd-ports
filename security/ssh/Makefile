@@ -10,7 +10,7 @@
 #
 
 DISTNAME=       ssh-1.2.19
-CATEGORIES=	security net
+CATEGORIES=	security net perl5
 MASTER_SITES=   ftp://ftp.funet.fi/pub/unix/security/login/ssh/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

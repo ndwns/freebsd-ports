@@ -8,7 +8,7 @@
 
 DISTNAME=	perl5.003
 PKGNAME=	jp-perl-5.003
-CATEGORIES=	japanese
+CATEGORIES=	japanese perl5
 MASTER_SITES=	ftp://ftp.funet.fi/pub/languages/perl/CPAN/src/5.0/ \
 		ftp://ftp.is.co.za/pub/perl/CPAN/src/5.0/ \
 		ftp://dong.math.ncu.edu.tw/perl/CPAN/src/5.0/ \

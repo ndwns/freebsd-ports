@@ -9,7 +9,7 @@
 #
 
 DISTNAME=       premail-0.45
-CATEGORIES=     security mail
+CATEGORIES=     security mail perl5
 MASTER_SITES=   ftp://utopia.hacktic.nl/pub/replay/pub/remailer/
 
 BUILD_DEPENDS=  perl5.003:${PORTSDIR}/lang/perl5

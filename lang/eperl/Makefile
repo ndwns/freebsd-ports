@@ -8,7 +8,7 @@
 #
 
 DISTNAME=	eperl-2.0.3
-CATEGORIES=	www
+CATEGORIES=	www perl5
 MASTER_SITES=	http://www.engelschall.com/sw/eperl/dist/
 
 MAINTAINER=	rse@engelschall.com

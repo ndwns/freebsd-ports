@@ -8,7 +8,7 @@
 
 DISTNAME=	Ioctl-0_7
 PKGNAME=	p5-Ioctl-0.7
-CATEGORIES=	devel
+CATEGORIES=	devel perl5
 MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/Ioctl/ \
 		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/Ioctl/ \
 		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/Ioctl/ \

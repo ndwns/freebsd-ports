@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	wwwstat-2.01
-CATEGORIES=	www
+CATEGORIES=	www perl5
 MASTER_SITES=	ftp://www.ics.uci.edu/pub/websoft/wwwstat/
 DISTFILES=	wwwstat-2.0.tar.gz
 

@@ -8,7 +8,7 @@
 
 DISTNAME=       PGPLOT1.0b_src
 PKGNAME=	pgperl-1.0
-CATEGORIES=     graphics
+CATEGORIES=     graphics perl5
 MASTER_SITES=   ftp://ftp.ast.cam.ac.uk/pgperl/perl5/
 EXTRACT_SUFX=	.tar.Z
 

@@ -8,7 +8,7 @@
 
 DISTNAME=	Compress-Zlib-0.4
 PKGNAME=	p5-Compress-Zlib-0.4
-CATEGORIES=	archivers
+CATEGORIES=	archivers perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Compress
 
