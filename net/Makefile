@@ -7,6 +7,7 @@
     SUBDIR += bb
     SUBDIR += bing
     SUBDIR += cap
+    SUBDIR += choparp
     SUBDIR += cvsup
     SUBDIR += cvsup-mirror
     SUBDIR += delegate
