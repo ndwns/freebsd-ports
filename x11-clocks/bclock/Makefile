@@ -13,5 +13,6 @@ MASTER_SITES=	http://dutian.twi.tudelft.nl/~vgeel/bclock/
 MAINTAINER=	ports@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		bclock.1
 
 .include <bsd.port.mk>

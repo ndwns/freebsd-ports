@@ -14,5 +14,6 @@ MASTER_SITE_SUBDIR=	applications
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xdaliclock.1
 
 .include <bsd.port.mk>

@@ -13,6 +13,7 @@ MASTER_SITES=	ftp://ftp.plaza.hitachi-sk.co.jp/pub/EmiClock/X11/
 MAINTAINER=	nobu@psrc.isac.co.jp
 
 USE_IMAKE=	yes
+MAN1=		emiclock.1
 
 LANGRES=	resources/R6/EUC/EmiClock.ad
 LANGDIR=	$(X11BASE)/lib/X11/ja_JP.EUC/app-defaults

@@ -14,5 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	sanpei@yy.cs.keio.ac.jp
 
 USE_IMAKE=	yes
+MAN1=		swisswatch.1
 
 .include <bsd.port.mk>

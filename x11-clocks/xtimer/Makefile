@@ -15,6 +15,5 @@ MAINTAINER=	candy@fct.kgc.co.jp
 
 USE_IMAKE=	yes
 MAN1=		xtimer.1
-MANCOMPRESSED=	yes
 
 .include <bsd.port.mk>
