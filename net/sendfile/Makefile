@@ -9,11 +9,11 @@
 DISTNAME=	sendfile-19990215
 PKGNAME=	sendfile-2.1
 CATEGORIES=	net
-MASTER_SITES=   ftp://ftp.uni-stuttgart.de/pub/unix/comm/sendfile/current/
+MASTER_SITES=   ftp://ftp.uni-stuttgart.de/pub/unix/comm/sendfile/current/ \
+		ftp://infodrom.north.de/pub/unix/network/sendfile/ \
+		ftp://ftp.fu-berlin.de/unix/network/sendfile/current/
 
 MAINTAINER=	sec@42.org
-
-BROKEN= 'single mastersite unreachable'
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 HAS_CONFIGURE=	yes
