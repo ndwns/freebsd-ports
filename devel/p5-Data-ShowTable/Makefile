@@ -15,18 +15,13 @@ MASTER_SITE_SUBDIR=	Data
 MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
-
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} >= 300000
-BROKEN=         perl
-.endif
+CONFIGURE_ARGS=	PREFIX=${PREFIX}
 
 MAN1=		showtable.1
 MAN3=		Data::ShowTable.3
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
-		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PERL5} Makefile.PL
+		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PERL5} Makefile.PL ${CONFIGURE_ARGS}
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
