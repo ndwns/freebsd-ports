@@ -1,13 +1,13 @@
 # New ports collection makefile for:    skill
-# Version required:     3.7
+# Version required:     3.7.5
 # Date created:         04 Jun 1997
 # Whom:                 Joao Carlos Mendes Luis <jonny@mailhost.coppe.ufrj.br>
 #
 # $Id$
 #
 
-DISTNAME=       skill-3.7@P3
-PKGNAME=	skill-3.7.4
+DISTNAME=       skill-3.7@P4
+PKGNAME=	skill-3.7.5
 CATEGORIES=	sysutils
 MASTER_SITES=   ftp://jaguar.cs.utah.edu/pub/skill/
 EXTRACT_SUFX=	_tar.Z
