@@ -6,15 +6,16 @@
 # $Id$
 #
 
-DISTNAME=	mpeg_lib-1.1
+DISTNAME=	mpeg_lib-1.2.1
 CATEGORIES=	graphics
 MASTER_SITES=	ftp://ftp.mni.mcgill.ca/pub/mpeg/
 
 WRKSRC=		${WRKDIR}/mpeg_lib
 
+GNU_CONFIGURE= yup
+
 pre-install:
 	@mkdir -p ${PREFIX}/bin ${PREFIX}/lib ${PREFIX}/include
-	@mkdir -p ${PREFIX}/man/man1 ${PREFIX}/man/man3
 
 post-install:
 	${LDCONFIG} -m ${PREFIX}/lib
