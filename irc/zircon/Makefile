@@ -12,6 +12,8 @@ MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	jseger@FreeBSD.org
 
+BROKEN='zircon-1.18.208 is all that is available from the *SINGLE* mastersite'
+
 BUILD_DEPENDS=	wish8.1:${PORTSDIR}/x11-toolkits/tk81
 RUN_DEPENDS=	wish8.1:${PORTSDIR}/x11-toolkits/tk81
 
