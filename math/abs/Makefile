@@ -13,6 +13,8 @@ MASTER_SITES=	http://www.ping.be/bertin/
 
 MAINTAINER=	freebsd@scotty.masternet.it
 
+LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
+
 USE_XLIB=	yes
 
 do-install:
