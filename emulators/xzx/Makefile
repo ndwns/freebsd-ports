@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	xzx-2.8.1
+DISTNAME=	xzx-2.9.0
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SUNSITE}
 MASTER_SITE_SUBDIR= system/emulators/zx
