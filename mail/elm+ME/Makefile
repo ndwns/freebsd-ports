@@ -26,6 +26,7 @@ CONFIGURE_ENV=  PREFIX="${PREFIX}"
 CONFIGURE_ARGS= -S
 
 post-install:
+	perl -pi -e 's,/usr/local,${PREFIX},' ${WRKSRC}/nls/LANGS
 	cd ${WRKSRC}/nls; ${MAKE} install
 	if [ -f ${PREFIX}/lib/elm.mimetypes ] ; then \
 		${INSTALL_DATA} \
