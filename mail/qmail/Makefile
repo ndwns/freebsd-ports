@@ -89,7 +89,7 @@ NO_MTREE=	yes
 
 do-configure:
 	@# Create/Check the necessary groups/users
-	@PKG_PREFIX=${PREFIX} /usr/bin/perl ${PKGDIR}/INSTALL
+	@PKG_PREFIX=${PREFIX} ${PERL5} ${PKGDIR}/INSTALL
 	@${ECHO} ${CC} ${CFLAGS} > ${WRKSRC}/conf-cc
 	@${ECHO} ${PREFIX} > ${WRKSRC}/conf-qmail
 
@@ -97,7 +97,7 @@ post-patch: thereal-post-patch
 
 do-install:
 	@# Check again, just in case (ideally should error if not found)
-	@PKG_PREFIX=${PREFIX} /usr/bin/perl ${PKGDIR}/INSTALL
+	@PKG_PREFIX=${PREFIX} ${PERL5} ${PKGDIR}/INSTALL
 	@${MKDIR} ${PREFIX}/${DOCDIR} ${PREFIX}/configure
 	@cd ${WRKSRC} ; ./install
 	@${INSTALL_PROGRAM} ${CONFIGUREFILES} ${PREFIX}/configure
