@@ -24,11 +24,11 @@ NO_BUILD=	yes
 
 do-fetch:
 	@if [ ! -f ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ]; then \
-	  @{ECHO} "=========================================================="; \
-	  @{ECHO} "You must retriving a archive from"; \
-	  @{ECHO} "	http://java.sun.com/products/servlet/index.html"; \
-	  @{ECHO} "And copy into ${DISTDIR}"; \
-	  @{ECHO} "=========================================================="; \
+	  ${ECHO_MSG} "=========================================================="; \
+	  ${ECHO_MSG} "You must retriving a archive from"; \
+	  ${ECHO_MSG} "	http://java.sun.com/products/servlet/index.html"; \
+	  ${ECHO_MSG} "And copy into ${DISTDIR}"; \
+	  ${ECHO_MSG} "=========================================================="; \
 	 fi
 
 do-install:
