@@ -6,8 +6,9 @@
 # $Id$
 #
 
-DISTNAME=       Wine-950430
-PKGNAME=	Wine-95.04.30
+DATE=		950606
+DISTNAME=       Wine-${DATE}
+PKGNAME=	Wine-95.06.06
 CATEGORIES+=	utilities x11 emulation
 MASTER_SITES=   ftp://sunsite.unc.edu/pub/Linux/ALPHA/wine/ \
 		ftp://aris.com/pub/linux/ALPHA/Wine/development/ \
@@ -19,7 +20,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
-WRKSRC=		${WRKDIR}/wine950430
+WRKSRC=		${WRKDIR}/wine${DATE}
 USE_GMAKE=	yes
 HAS_CONFIGURE=	yes
 CONFIGURE_SCRIPT= Configure
