@@ -100,9 +100,9 @@ OpenBSD_MAINTAINER=	imp@OpenBSD.ORG
 # This variable is a boolean, so you don't need to set it to the reason.
 #
 # IS_INTERACTIVE - Set this if your port needs to interact with the user
-#				  during a build.  User can then decide to skip this port by
-#				  setting ${BATCH}, or compiling only the interactive ports
-#				  by setting ${INTERACTIVE}.
+#				  during any step in a package build.  User can then decide
+#				  to skip this port by setting ${BATCH}, or compiling only
+#				  the interactive ports by setting ${INTERACTIVE}.
 #
 # Set these if your port only makes sense to certain archetictures.
 # They are lists containing names for them (e.g., "alpha i386").
