@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       rman-2.4
+DISTNAME=       rman-2.5a6
 CATEGORIES+=	misc
 MASTER_SITES=   ftp://ftp.cs.berkeley.edu/ucb/people/phelps/tcltk/
 EXTRACT_SUFX=	.tar.Z
