@@ -104,6 +104,7 @@
     SUBDIR += xgalaga
     SUBDIR += xgammon
     SUBDIR += xgolgo
+    SUBDIR += xhime
     SUBDIR += xinfocom
     SUBDIR += xinvaders
     SUBDIR += xisola
@@ -126,6 +127,7 @@
     SUBDIR += xmj
     SUBDIR += xmlink
     SUBDIR += xmris
+    SUBDIR += xmulti
     SUBDIR += xneko
     SUBDIR += xnibbles
     SUBDIR += xoids
