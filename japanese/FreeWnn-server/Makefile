@@ -15,6 +15,8 @@ DISTFILES=	Wnn4.2.tar.gz Wnn4.2.patch.tar.gz
 
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
+BUILD_DEPENDS=	imake:${PORTSDIR}/x11/XFree86
+
 EXTRACT_ONLY=	Wnn4.2.tar.gz
 PATCHDIR=	${.CURDIR}/../../japanese/Wnn/patches
 FILESDIR=	${.CURDIR}/../../japanese/Wnn/files
@@ -32,7 +34,7 @@ DOC_FROM=	${WRKSRC}/cWnn
 post-extract:
 	${EXTRACT_CMD} -C ${WRKSRC} ${EXTRACT_BEFORE_ARGS} \
 		${_DISTDIR}/Wnn4.2.patch.tar.gz
-	/bin/ln -sf Project.tmpl ${WRKSRC}/config/X11.tmpl
+	${LN} -sf Project.tmpl ${WRKSRC}/config/X11.tmpl
 
 pre-patch:
 	cd ${WRKSRC}; ${PATCH} ${PATCH_DIST_ARGS} < ${WRKSRC}/Wnn4.2.patch
