@@ -70,6 +70,7 @@
     SUBDIR += libdlmalloc
     SUBDIR += libffi
     SUBDIR += libgetline
+    SUBDIR += libglade
     SUBDIR += libgnugetopt
     SUBDIR += libgtop
     SUBDIR += libmalloc
