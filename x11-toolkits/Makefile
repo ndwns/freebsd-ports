@@ -8,7 +8,7 @@
     SUBDIR += gtk
     SUBDIR += gtk--
     SUBDIR += gtk11
-    SUBDIR += gtkql
+    SUBDIR += gtkgl
     SUBDIR += iv
     SUBDIR += lesstif
     SUBDIR += neXtaw
