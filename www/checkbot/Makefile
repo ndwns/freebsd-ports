@@ -12,18 +12,17 @@ MASTER_SITES=	http://www.xs4all.nl/~graaff/checkbot/
 
 MAINTAINER=	wosch@FreeBSD.ORG
 
-BROKEN=		manpage gets installed in /usr/share/ in -current
-
-site_perl=${PREFIX}/lib/perl5/site_perl
+site_perl=${PREFIX}/lib/perl5/site_perl/${PERL_VER}
 BUILD_DEPENDS=  \
 		${site_perl}/Net/FTP.pm:${PORTSDIR}/net/p5-Net \
-		${site_perl}/LWP.pm:${PORTSDIR}/www/p5-libwww \
-		${site_perl}/Mail/Send.pm:${PORTSDIR}/mail/p5-Mail-Tools
+		${site_perl}/Mail/Send.pm:${PORTSDIR}/mail/p5-Mail-Tools \
+		${site_perl}/LWP.pm:${PORTSDIR}/www/p5-libwww
 
 MAN1=		checkbot.1
 USE_PERL5=	YES
 
 do-configure:
-	@cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
+	@cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL \
+		PREFIX=${PREFIX}
 
 .include <bsd.port.mk>
