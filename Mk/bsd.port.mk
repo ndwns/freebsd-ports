@@ -226,7 +226,7 @@ EXTRACT_BEFORE_ARGS?=   -xzf
 
 PKG_CMD?=		pkg_create
 .if !defined(PKG_ARGS)
-PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX}
+PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX} -P "`${MAKE} package-depends`"
 .if exists(${PKGDIR}/INSTALL)
 PKG_ARGS+=		-i ${PKGDIR}/INSTALL
 .endif
