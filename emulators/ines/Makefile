@@ -14,8 +14,6 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
-BROKEN_ELF=	yes
-
 WRKSRC=		${WRKDIR}/NES
 USE_X_PREFIX=	yes
 NO_BUILD=	yes
@@ -29,3 +27,7 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/CART.* ${PREFIX}/share/ines
 
 .include <bsd.port.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+STRIP=
+.endif
