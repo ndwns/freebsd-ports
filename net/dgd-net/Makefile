@@ -36,7 +36,7 @@ PATCH_DIST_ARGS=	-d ${WRKDIR} --forward --quiet -E ${PATCH_DIST_STRIP}
 .endif
 
 pre-patch:
-	@ln -s dgd ${WRKSRC}/dgd+net
+	@ln -s dgd ${WRKDIR}/dgd+net
 
 post-build:
 	@cd ${WRKSRC}; ${MAKE} install
