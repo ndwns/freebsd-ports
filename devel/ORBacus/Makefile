@@ -40,4 +40,4 @@ post-install:
 	${MKDIR} ${PREFIX}/share/doc/ORBacus
 	${INSTALL_DATA} ${WRKSRC}/ob/LICENSE ${PREFIX}/share/doc/ORBacus
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
