@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	blas
+PKGNAME=	blas-1.0
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 

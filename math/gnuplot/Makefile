@@ -1,4 +1,3 @@
-
 # New ports collection makefile for:    gnuplot
 # Version required:     3.5
 # Date created:         6 October 1994
@@ -10,8 +9,9 @@
 DISTNAME=	gnuplot
 PKGNAME=	gnuplot-3.5
 MASTER_SITES=	ftp://ftp.dartmouth.edu/pub/gnuplot/
-MAINTAINER=	jmz@FreeBSD.org
 DISTFILES=	gnuplot3.5.tar.Z
+
+MAINTAINER=	jmz@FreeBSD.org
 
 pre-install:
 	@mkdir -p ${PREFIX}/bin

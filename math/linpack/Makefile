@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	linpack
+PKGNAME=	linpack-1.0
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 MASTER_SITES=	ftp://netlib.att.com/netlib/linpack/

@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	eispack
+PKGNAME=	eispack-1.0
 
 DISTDIR=${PORTSDIR}/distfiles/${DISTNAME}
 
