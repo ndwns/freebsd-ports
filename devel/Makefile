@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += autoconf
     SUBDIR += bcc
     SUBDIR += bison
     SUBDIR += cflow
