@@ -29,6 +29,6 @@ CONFIGURE_ENV=	CPPFLAGS=-I${LOCALBASE}/include \
 WRKSRC=		${WRKDIR}/imlib
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
