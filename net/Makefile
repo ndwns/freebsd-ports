@@ -2,7 +2,6 @@
 #
 
     SUBDIR += archie
-    SUBDIR += dhcp
     SUBDIR += dgd
     SUBDIR += dgd-lpmud
     SUBDIR += dip
@@ -13,6 +12,7 @@
     SUBDIR += imm
     SUBDIR += irc
     SUBDIR += ircII
+    SUBDIR += isc-dhcp
     SUBDIR += ivs
     SUBDIR += mirror
     SUBDIR += moxftp
@@ -34,6 +34,7 @@
     SUBDIR += trafshow
     SUBDIR += vic
     SUBDIR += wais
+    SUBDIR += wide-dhcp
     SUBDIR += wu-ftpd
     SUBDIR += xarchie
     SUBDIR += xgopher
