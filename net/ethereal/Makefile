@@ -11,7 +11,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://ethereal.zing.org/distribution/ \
 		http://ethereal.boehm.org/distribution/
 
-MAINTAINER=	billf@chc-chimes.com
+MAINTAINER=	billf@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
