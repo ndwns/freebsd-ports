@@ -1,12 +1,12 @@
 # New ports collection makefile for:	mc
-# Version required:	4.5.9
+# Version required:	4.5.10
 # Date created:		15 Jul 1995
 # Whom:			torstenb@FreeBSD.ORG
 #
 # $Id$
 #
 
-DISTNAME=	mc-4.5.9
+DISTNAME=	mc-4.5.10
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	mc
