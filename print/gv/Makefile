@@ -14,6 +14,7 @@ MASTER_SITES=	ftp://iphthf.physik.uni-mainz.de/pub/vms/linux/
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
 LIB_DEPENDS=	Xaw3d\\.6\\.:${PORTSDIR}/x11/Xaw3d
+RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript
 
 PATCH_STRIP=	-p1
 WRKSRC=		${WRKDIR}/gv
