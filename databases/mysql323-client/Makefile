@@ -6,16 +6,14 @@
 # $Id$
 #
 
-DISTNAME=	mysql-3.22.6-alpha
-PKGNAME=	mysql-3.22.6a
+DISTNAME=	mysql-3.22.9-beta
+PKGNAME=	mysql-3.22.9b
 CATEGORIES=	databases
 MASTER_SITES=	http://mysql.polaris.ca/Downloads/MySQL-3.22/ \
 		http://www.fh-wolfenbuettel.de/ftp/pub/database/mysql/Downloads/MySQL-3.22/ \
 		http://www.tcx.se/Downloads/MySQL-3.22/
 
 MAINTAINER=	ibex@physik.TU-Berlin.DE
-
-BROKEN_ELF=	build
 
 MANUAL_PACKAGE_BUILD=	incompatible with mysql321
 NO_LATEST_LINK=	yes
@@ -75,6 +73,8 @@ post-install:
 	@ ${ECHO} "#!/bin/sh" > ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "#" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql.sh
+	@ ${ECHO} "/sbin/ldconfig -m ${PREFIX}/lib/mysql" >> ${PREFIX}/etc/rc.d/mysql.sh
+	@ ${ECHO} "" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "if [ -x ${PREFIX}/bin/safe_mysqld ]" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "then" >> ${PREFIX}/etc/rc.d/mysql.sh
 	@ ${ECHO} "	${PREFIX}/bin/safe_mysqld > /dev/null & && ${ECHO} -n ' mysql'" >> ${PREFIX}/etc/rc.d/mysql.sh
@@ -93,6 +93,6 @@ post-install:
 	@install-info ${PREFIX}/info/mysql.info ${PREFIX}/info/dir
 .endif
 
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib/mysql
 
 .include <bsd.port.mk>
