@@ -224,6 +224,7 @@
     SUBDIR += xemacs-wnn4
     SUBDIR += xemacs-wnn6
     SUBDIR += xfig
+    SUBDIR += xjman
     SUBDIR += xklock
     SUBDIR += xnetmaj
     SUBDIR += xshodo
