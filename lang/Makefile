@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR=	logo p2c tcl tclX
+SUBDIR=	expect logo p2c tcl tclX
 
 .include <bsd.port.subdir.mk>
