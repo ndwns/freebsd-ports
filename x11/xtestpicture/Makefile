@@ -1,12 +1,12 @@
 # New ports collection makefile for:    xtestpicture
-# Version required:     1.1
+# Version required:     1.2
 # Date created:         11 March 1997
 # Whom:                 joerg
 #
 # $Id$
 #
 
-DISTNAME=       xtestpicture-1.1
+DISTNAME=       xtestpicture-1.2
 CATEGORIES=	x11
 MASTER_SITES=   ${MASTER_SITE_LOCAL}
 
