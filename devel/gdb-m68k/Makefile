@@ -13,7 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 
 MAINTAINER=	jhicks@glenatl.glenayre.com
 
-NO_PACKAGE=	please compile locally
+NO_PACKAGE=	limited audience
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 CONFIGURE_ARGS= --target=m68k-coff
