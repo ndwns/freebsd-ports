@@ -19,7 +19,8 @@ BUILD_DEPENDS=		unzip:${PORTSDIR}/archivers/unzip
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
 EXTRACT_CMD=		unzip
-EXTRACT_BEFORE_ARGS=
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# empty
 GNU_CONFIGURE=		yes
 MAN8=			binkd.8
 

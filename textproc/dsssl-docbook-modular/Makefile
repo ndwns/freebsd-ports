@@ -24,6 +24,7 @@ RUN_DEPENDS=	${PREFIX}/share/sgml/docbook/3.0/catalog:${PORTSDIR}/textproc/docbo
 
 EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS=	-a -q -L
+EXTRACT_AFTER_ARGS=	# empty
 NO_MTREE=	yes
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/docbook

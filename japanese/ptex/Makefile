@@ -43,7 +43,7 @@ pre-patch:
 	  ${PATCH} ${PATCH_DIST_ARGS}
 
 pre-install:
-	@${EXTRACT_CMD} -C ${PREFIX}/share -zxf ${DISTDIR}/${DIST_SUBDIR}/plib-1.4-euc.tar.gz
+	@${TAR} -C ${PREFIX}/share -zxf ${DISTDIR}/${DIST_SUBDIR}/plib-1.4-euc.tar.gz
 
 post-install:
 .for bin in ${BINARIES}

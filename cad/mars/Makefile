@@ -37,7 +37,7 @@ do-install:
 	@${MKDIR} ${PREFIX}/share/doc/mars
 	@chmod a+rx ${PREFIX}/share/doc/mars
 	@(cd ${PREFIX}/share/doc ; \
-		${EXTRACT_CMD} xfpz /${DISTDIR}/MaRS-2-doc.tar.gz ; \
+		${TAR} xfpz /${DISTDIR}/MaRS-2-doc.tar.gz ; \
 		[ -d mars ] && ${RM} -rf mars; \
 		/bin/mv doc mars )
 .endif

@@ -14,7 +14,9 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-EXTRACT_ARGS=	-xf
+EXTRACT_CMD=		${TAR}
+EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 USE_X_PREFIX=	yes
 
 post-extract:

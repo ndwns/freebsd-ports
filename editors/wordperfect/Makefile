@@ -32,7 +32,7 @@ IGNORE='The source to this port may not be automatically fetched due to licensin
 .endif
 
 post-extract:
-	@(cd ${WRKDIR} ; for file in b* g* ; do ${EXTRACT_CMD} -xf $$file ; done)
+	@(cd ${WRKDIR} ; for file in b* g* ; do ${TAR} -xf $$file ; done)
 
 post-patch:
 	@${CP} ${WRKDIR}/shared/wpdata ${WRKDIR}/shared/wpdata.old

@@ -30,6 +30,7 @@ post-install:
 	${RM} -f ${PREFIX}/lib/X11/mlvwm/*.orig
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
 		${DISTDIR}/mini-icons.tar.gz \
+		${EXTRACT_AFTER_ARGS} \
 		-C ${PREFIX}/lib/X11/mlvwm/pixmap
 .if !defined(NOPORTDOCS)
 	${INSTALL_MAN} ${WRKSRC}/man/mlvwm.1 ${PREFIX}/man/man1

@@ -18,6 +18,8 @@ MAINTAINER=	sec@42.org
 RESTRICTED=	"possible copyright problems ?"
 
 NO_WRKSUBDIR=	true
-EXTRACT_BEFORE_ARGS=-xf
+EXTRACT_CMD=		${TAR}
+EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 
 .include <bsd.port.mk>

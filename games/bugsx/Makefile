@@ -18,7 +18,9 @@ MAINTAINER=	croyle@gelemna.ft-wayne.in.us
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/bugsx
 # isn't really gzipped
+EXTRACT_CMD=		${TAR}
 EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 MAN1=		bugsx.1
 
 post-install:

@@ -13,15 +13,11 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ada@bsd.org
 
-BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 BROKEN='no route to the *single* mastersite'
 
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS= -cd
-EXTRACT_AFTER_ARGS= | tar xf -
-
+USE_BZIP2=	yes
 GNU_CONFIGURE=	yes
 
 .include <bsd.port.mk>

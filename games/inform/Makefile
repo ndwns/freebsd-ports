@@ -27,6 +27,7 @@ NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=		inform615_source.zip
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-qq
+EXTRACT_AFTER_ARGS=	# empty
 
 # I can hardly believe it, but the ".c" and ".h" extensions are
 # not present on the source files.

@@ -16,7 +16,9 @@ MAINTAINER=	nacai@iname.com
 
 ALL_TARGET=	gifmerge
 NO_WRKSUBDIR=	yes
+EXTRACT_CMD=	${TAR}
 EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/gifmerge ${PREFIX}/bin/gifmerge

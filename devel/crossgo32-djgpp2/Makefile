@@ -23,6 +23,7 @@ BROKEN=		install
 
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-La
+EXTRACT_AFTER_ARGS=	# empty
 
 # Source directories
 #

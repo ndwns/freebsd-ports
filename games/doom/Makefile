@@ -21,7 +21,8 @@ BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 USE_XLIB=	yes
 EXTRACT_CMD=	unzip
-EXTRACT_ARGS=	-q
+EXTRACT_BEFORE_ARGS=	-q
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=	yes
 USE_GMAKE=	yes
 

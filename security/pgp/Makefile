@@ -56,12 +56,14 @@ BUILD_DEPENDS+= gmake:${PORTSDIR}/devel/gmake
 BUILD_DEPENDS+= unzip:${PORTSDIR}/archivers/unzip
 LIB_DEPENDS+=   rsaref.2:${PORTSDIR}/security/rsaref
 EXTRACT_CMD=    unzip
-EXTRACT_ARGS=   -q
+EXTRACT_BEFORE_ARGS=	-q
+EXTRACT_AFTER_ARGS=	# empty
 FILESDIR=       ${.CURDIR}/files.usa
 PATCHDIR=       ${.CURDIR}/patches.usa
 
 post-extract:
-	cd ${WRKDIR}; $(EXTRACT_CMD) $(EXTRACT_ARGS) -aa $(DISTNAME)i
+	cd ${WRKDIR}; $(EXTRACT_CMD) $(EXTRACT_BEFORE_ARGS) -aa $(DISTNAME)i \
+		$(EXTRACT_AFTER_ARGS)
 	cd ${WRKDIR}; rm -f *.zip
 
 .else

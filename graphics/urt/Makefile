@@ -61,13 +61,13 @@ post-install:
 .if !defined(NOPORTDOCS)
 	${MKDIR} ${PREFIX}/share/doc/urt ${PREFIX}/share/examples/urt
 	cd ${PREFIX}/share/doc/urt; \
-	${EXTRACT_CMD} xf $(DISTDIR)/urt-doc.tar; \
+	${TAR} xf $(DISTDIR)/urt-doc.tar; \
 	cd doc; \
 	find -d . | cpio -dump ..; \
 	cd ..; \
 	${RM} -rf doc; \
 	cd ${PREFIX}/share/examples/urt; \
-	${EXTRACT_CMD} xf $(DISTDIR)/urt-img.tar; \
+	${TAR} xf $(DISTDIR)/urt-img.tar; \
 	chown -R root:wheel . ; \
 	find . -type d -exec chmod 775 '{}' \; ; \
 	find . -type f -exec chmod 664 '{}' \;

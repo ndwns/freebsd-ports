@@ -37,14 +37,9 @@ pre-fetch:
 EXTRACT_SUFX=	-html.tar.bz2
 WRKSRC=		${WRKDIR}/GimpUserManaul_v1.0.0
 
-BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2
-
+USE_BZIP2=	yes
 USE_X_PREFIX=	yes
 NO_BUILD=	yes
-
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS= -cd
-EXTRACT_AFTER_ARGS= | tar -xf -
 
 do-install:
 	@${MKDIR} ${PREFIX}/share/doc/gimp

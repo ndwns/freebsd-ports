@@ -18,6 +18,7 @@ BUILD_DEPENDS=		unzip:${PORTSDIR}/archivers/unzip
 
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-qq
+EXTRACT_AFTER_ARGS=	# empty
 
 NO_WRKSUBDIR=		yes
 

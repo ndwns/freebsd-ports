@@ -15,8 +15,7 @@ EXTRACT_SUFX=	-1.1-alpha1.src.tar.bz2
 
 MAINTAINER=	se@freebsd.org
 
-BUILD_DEPENDS=	bzip2:${PORTSDIR}/archivers/bzip2 \
-		${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
+BUILD_DEPENDS=	${PREFIX}/lib/libgdbm.a:${PORTSDIR}/databases/gdbm
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		uu.1:${PORTSDIR}/converters/uulib \
@@ -25,10 +24,8 @@ LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		js.2:${PORTSDIR}/converters/kdesupport11 \
 		mimelib.1:${PORTSDIR}/converters/kdesupport11 \
 		rdb.55:${PORTSDIR}/converters/kdesupport11
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS= -cd
-EXTRACT_AFTER_ARGS= | tar xf -
 
+USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \

@@ -49,7 +49,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.jar ${NDIR}/java/classes
 	${INSTALL_PROGRAM} ${WRKSRC}/vreg ${NDIR}
 	for i in ${WRKSRC}/*.nif; do \
-		${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} $${i} -C ${NDIR}; \
+		${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} $${i} ${EXTRACT_AFTER_ARGS} -C ${NDIR}; \
 	done
 	${WRKSRC}/vreg ${NDIR}/registry ${WRKSRC}/infile
 	${MV} -f ${NDIR}/netscape ${NDIR}/navigator-4.08.bin

@@ -16,7 +16,9 @@ MAINTAINER=	giffunip@asme.org
 
 # ${DISTFILES} is automatically created from the directory contents
 IGNOREFILES=	${DISTFILES}
+EXTRACT_CMD=		${TAR}
 EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 
 .include <bsd.port.pre.mk>
 

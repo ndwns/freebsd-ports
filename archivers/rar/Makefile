@@ -18,8 +18,9 @@ MAINTAINER=     ache@FreeBSD.ORG
 NO_PACKAGE=     Only unmodified original package can be distributed
 
 NO_WRKSUBDIR=   yes
-EXTRACT_CMD=
-EXTRACT_BEFORE_ARGS=
+EXTRACT_CMD=		# empty
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# empty
 
 .include <bsd.port.pre.mk>
 

@@ -22,7 +22,8 @@ RUN_DEPENDS=	pgp:${PORTSDIR}/security/pgp
 RESTRICTED=	"Crypto"
 
 EXTRACT_CMD=	unzip
-EXTRACT_ARGS=	-q
+EXTRACT_BEFORE_ARGS=	-q
+EXTRACT_AFTER_ARGS=	# empty
 NO_BUILD=	YES
 
 # version and language specifications

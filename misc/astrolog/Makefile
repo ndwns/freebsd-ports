@@ -24,7 +24,8 @@ MAINTAINER=     ache@FreeBSD.ORG
 
 USE_XLIB=	yes
 EXTRACT_CMD=    ${SH}
-EXTRACT_ARGS=
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# empty
 DIST_SUBDIR=    astrolog
 ALL_TARGET=     astrolog
 NO_WRKSUBDIR=   Yes

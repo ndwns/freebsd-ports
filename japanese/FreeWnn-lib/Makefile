@@ -32,8 +32,9 @@ DOC_FROM=	${WRKSRC}/cWnn
 .endif  # kWnn has no manual.
 
 post-extract:
-	${EXTRACT_CMD} -C ${WRKSRC} ${EXTRACT_BEFORE_ARGS} \
-		${_DISTDIR}/Wnn4.2.patch.tar.gz
+	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
+		${_DISTDIR}/Wnn4.2.patch.tar.gz ${EXTRACT_AFTER_ARGS} \
+		-C ${WRKSRC}
 	${LN} -sf Project.tmpl ${WRKSRC}/config/X11.tmpl
 
 pre-patch:

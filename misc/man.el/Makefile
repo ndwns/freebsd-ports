@@ -23,6 +23,6 @@ ELISPDIR=	${PREFIX}/share/emacs/site-lisp
 do-install:
 	@${MKDIR} ${ELISPDIR}
 	@cd ${WRKSRC}; \
-	${INSTALL_DATA} `${EXTRACT_CMD} tzf ${DISTDIR}/${DISTFILES}` ${ELISPDIR}
+	${INSTALL_DATA} `${TAR} tzf ${DISTDIR}/${DISTFILES}` ${ELISPDIR}
 
 .include <bsd.port.mk>

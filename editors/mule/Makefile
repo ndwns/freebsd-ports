@@ -90,10 +90,10 @@ SITE_START=${PREFIX}/share/${EMACS_PREFIX}/19.34/site-lisp/site-start.el
 #   MEW_ORG_PATCH: apply mew's patches to original mule (http://www.mew.org)
 #   MEW_PATCH: apply mew's patch after apply Mr. Katayama's patches
 post-extract:
-	${EXTRACT_CMD} -C ${WRKDIR} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/mule-2.3-19.34.patch-981002.tar.gz
+	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${_DISTDIR}/mule-2.3-19.34.patch-981002.tar.gz ${EXTRACT_AFTER_ARGS} -C ${WRKDIR}
 	${CP} ${FILESDIR}/unexfreebsd.c ${WRKSRC}/src
 .if !defined(ORIGINAL) && !defined(MEW_ORG_PATCH)
-	${EXTRACT_CMD} -C ${WRKDIR} ${EXTRACT_BEFORE_ARGS} ${WRKDIR}/takana-19.34.tar.gz
+	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${WRKDIR}/takana-19.34.tar.gz ${EXTRACT_AFTER_ARGS} -C ${WRKDIR}
 	${MKDIR} ${WRKSRC}/lisp/its
 	${CP} ${WRKDIR}/lisp/its/* ${WRKSRC}/lisp/its/
 .endif

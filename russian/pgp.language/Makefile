@@ -20,7 +20,8 @@ BUILD_DEPENDS += unzip:${PORTSDIR}/archivers/unzip
 RUN_DEPENDS += ${PREFIX}/lib/pgp/config.txt:${PORTSDIR}/security/pgp
 
 EXTRACT_CMD=    unzip
-EXTRACT_ARGS=   -q
+EXTRACT_BEFORE_ARGS=	-q
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=   YES
 NO_BUILD=       YES
 

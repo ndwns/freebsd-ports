@@ -17,7 +17,9 @@ MAINTAINER=	eserte@cs.tu-berlin.de
 
 BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha
 
-EXTRACT_CMD=	lha
+EXTRACT_CMD=		${CAT}
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	| lha x -
 
 WRKSRC=		${WRKDIR}/Eval/source
 

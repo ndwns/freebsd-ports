@@ -19,6 +19,7 @@ BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 
 EXTRACT_CMD=	lha
 EXTRACT_BEFORE_ARGS=	xqw=${WRKDIR}
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=	yes
 MANLANG=	ja
 MAN1=		uudx.1

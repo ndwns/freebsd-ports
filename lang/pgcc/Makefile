@@ -25,14 +25,12 @@ PATCHFILES=	egcs-1.1.1-pgcc-1.1.1.diff.gz
 
 MAINTAINER=	obrien@FreeBSD.org
 
-BUILD_DEPENDS=  bzip2:${PORTSDIR}/archivers/bzip2  \
-		autoconf:${PORTSDIR}/devel/autoconf
+BUILD_DEPENDS=  autoconf:${PORTSDIR}/devel/autoconf
+
+USE_BZIP2=	yes
 
 .include <bsd.port.pre.mk>
 
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS=	-dc
-EXTRACT_AFTER_ARGS=	| /usr/bin/tar -xf -
 EGCS_REV=	pgcc-2.91.60
 LIBSTDCPP_REV=	2.9.0
 

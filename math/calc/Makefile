@@ -14,7 +14,9 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=	jmz@FreeBSD.org
 
+EXTRACT_CMD=		${TAR}
 EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 
 MAN1=		calc.1
 IGNOREFILES=	${DISTFILES}	# "on-the-fly" creation of tarball

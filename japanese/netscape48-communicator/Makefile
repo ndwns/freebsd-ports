@@ -68,7 +68,7 @@ do-install:
 	${INSTALL_DATA} ${WRKDIR}/$f ${NDIR}/${LANG}/
 .endfor
 	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${WRKSRC}/nethelp-v406.nif \
-		-C ${NDIR}/${LANG}
+		${EXTRACT_AFTER_ARGS} -C ${NDIR}/${LANG}
 	${INSTALL_SCRIPT} ${WRKDIR}/start.sh ${PREFIX}/bin/${BROWSER_CMD}
 	${LN} -sf ${BROWSER_CMD} ${PREFIX}/bin/netscape
 	${MKDIR} ${MANDIR}/man1

@@ -14,7 +14,9 @@ DISTFILES=	asr.pages.tar
 
 MAINTAINER=	axl@iafrica.com
 
-EXTRACT_ARGS=	-xf
+EXTRACT_CMD=	${TAR}
+EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
 

@@ -21,7 +21,8 @@ BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 
 RESTRICTED=	"Unclear copyright status"
 EXTRACT_CMD=	unzip
-EXTRACT_ARGS=	-q -a -L -o
+EXTRACT_BEFORE_ARGS=	-q -a -L -o
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=	yes
 ALL_TARGET=	freebsd
 MAKEFILE=	makefile

@@ -22,6 +22,7 @@ RUN_DEPENDS=	i386-go32-stubify:${PORTSDIR}/devel/crossgo32-djgpp2
 
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-La
+EXTRACT_AFTER_ARGS=	# empty
 
 # Since were only taking the library and include files we don't
 # actually need to build anything

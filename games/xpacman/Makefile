@@ -19,6 +19,7 @@ BUILD_DEPENDS=	unzip:${PORTSDIR}/archivers/unzip
 NO_WRKSUBDIR=	Does not unpack into subdir.
 EXTRACT_CMD=	unzip
 EXTRACT_BEFORE_ARGS= -x
+EXTRACT_AFTER_ARGS=  # empty
 USE_IMAKE=      yes
 MAN1=		pacman.1
 

@@ -108,7 +108,7 @@ pre-extract:
 post-extract:
 	@${ECHO} "===>  Extracting FrontPage install scripts"
 	@cd ${WRKSRC} && \
-	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${FRONTPAGE} ${FPINSTALL} ${CHANGESERVER}
+	${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${FRONTPAGE} ${EXTRACT_AFTER_ARGS} ${FPINSTALL} ${CHANGESERVER}
 
 post-install:
 	@${ECHO} "Installing ${PREFIX}/etc/rc.d/apache.sh file."

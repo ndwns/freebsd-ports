@@ -19,6 +19,6 @@ NO_WRKSUBDIR=	yes
 
 do-install:
 		${MKDIR} ${X11BASE}/icons
-		( cd ${X11BASE}/icons; ${EXTRACT_CMD} xzf ${DISTDIR}/fbsd-icons.tar.gz )
+		( cd ${X11BASE}/icons; ${TAR} -xzf ${DISTDIR}/fbsd-icons.tar.gz )
 
 .include <bsd.port.mk>

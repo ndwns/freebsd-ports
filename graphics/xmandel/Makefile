@@ -15,7 +15,8 @@ EXTRACT_SUFX=   .shar
 # but this has changed apparently.
 
 EXTRACT_CMD=    sh
-EXTRACT_BEFORE_ARGS=
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# empty
 USE_IMAKE=      yes
 NO_WRKSUBDIR=   yes
 MAN1=		xmandel.1

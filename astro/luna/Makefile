@@ -18,6 +18,7 @@ BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha
 
 EXTRACT_CMD=	lha
 EXTRACT_BEFORE_ARGS=	xfw=${WRKDIR}
+EXTRACT_AFTER_ARGS=	# empty
 PATCH_STRIP=	-p1
 
 post-extract:

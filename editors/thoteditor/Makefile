@@ -26,7 +26,7 @@ USE_GMAKE=	yes
 ALL_TARGET=	all schemas
 
 post-extract:
-	($(EXTRACT_CMD) $(EXTRACT_BEFORE_ARGS) $(DISTDIR)/thoteditor-src-2.1b.tar.gz -C $(WRKSRC))
+	($(EXTRACT_CMD) $(EXTRACT_BEFORE_ARGS) $(DISTDIR)/thoteditor-src-2.1b.tar.gz ${EXTRACT_AFTER_ARGS} -C $(WRKSRC))
 
 post-install:
 	${MKDIR} ${PREFIX}/share/thot/doc

@@ -30,7 +30,8 @@ CAT3=		Abbrev.3pm AnyDBMFile.3pm AutoLoader.3pm AutoSplit.3pm \
 		integer.3pm less.3pm sigtrap.3pm strict.3pm subs.3pm
 
 post-extract:
-	@cd ${WRKDIR} && ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} perl5man.tgz
+	@cd ${WRKDIR} && ${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} \
+		perl5man.tgz ${EXTRACT_AFTER_ARGS}
 do-configure:
 .for item in 1 3
 	@cd ${WRKDIR}/man/japanese/cat${item} && ${GZIP_CMD} ${CAT${item}}

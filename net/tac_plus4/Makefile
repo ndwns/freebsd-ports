@@ -14,7 +14,9 @@ EXTRACT_SUFX=	.tar
 
 MAINTAINER=	igor@zynaps.ru
 
-EXTRACT_BEFORE_ARGS=	-C ${WRKDIR} -xf
+EXTRACT_CMD=		${TAR}
+EXTRACT_BEFORE_ARGS=	-xf
+EXTRACT_AFTER_ARGS=	# empty
 ALL_TARGET=	tac_plus
 MAN8=		tac_plus.8
 EXTRA_PATCH=	patch-ba

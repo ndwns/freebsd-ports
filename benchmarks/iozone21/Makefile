@@ -17,7 +17,8 @@ FETCH_CMD=      FTP_PASSWORD=portsuser@FreeBSD.org /usr/bin/fetch
 MAINTAINER=	jmz@FreeBSD.org
 
 EXTRACT_CMD=    ( gzcat | awk '{if (/^\#!/) x++} {if(x) print $$0'}| /bin/sh )
-EXTRACT_ARGS=   <
+EXTRACT_BEFORE_ARGS=	<
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=   YES
 MAN1=		iozone.1
 

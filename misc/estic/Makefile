@@ -20,7 +20,8 @@ BUILD_DEPENDS=		unzip:${PORTSDIR}/archivers/unzip
 
 USE_XLIB=		yes
 EXTRACT_CMD=		unzip
-EXTRACT_BEFORE_ARGS=#	-q
+EXTRACT_BEFORE_ARGS=	# empty
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=		yes
 
 #			maybe one of them depends on the vga font from pcemu ?

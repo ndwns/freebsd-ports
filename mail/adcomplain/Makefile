@@ -18,6 +18,7 @@ USE_PERL5=      yes
 
 EXTRACT_CMD=    /usr/bin/uudecode
 EXTRACT_BEFORE_ARGS=    <
+EXTRACT_AFTER_ARGS=	# empty
 NO_WRKSUBDIR=	YES
 NO_BUILD=       YES
 

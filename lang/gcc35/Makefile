@@ -14,17 +14,13 @@ MASTER_SITES=	ftp://go.cygnus.com/pub/ftp.cygnus.com/egcs/releases/egcs-1.1.1/ \
 		ftp://egcs.cygnus.com/pub/egcs/releases/egcs-1.1.1/ \
 		ftp://ftp.fu-berlin.de/unix/languages/egcs/releases/egcs-1.1.1/ \
 		ftp://cambridge.cygnus.com/pub/egcs/releases/egcs-1.1.1/
-EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	obrien@FreeBSD.org
 
-BUILD_DEPENDS=  bzip2:${PORTSDIR}/archivers/bzip2
+USE_BZIP2=	yes
 
 .include <bsd.port.pre.mk>
 
-EXTRACT_CMD=	bzip2
-EXTRACT_BEFORE_ARGS=	-dc
-EXTRACT_AFTER_ARGS=	| /usr/bin/tar -xf -
 EGCS_REV=	egcs-2.91.60
 LIBSTDCPP_REV=	2.9.0
 

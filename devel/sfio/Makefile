@@ -14,6 +14,7 @@ CATEGORIES=	devel
 EXTRACT_SUFX=	.src.unix.cpio
 EXTRACT_CMD=	cpio
 EXTRACT_BEFORE_ARGS=	-idF
+EXTRACT_AFTER_ARGS=	# empty
 
 MAINTAINER=	jraynard@freebsd.org
 
