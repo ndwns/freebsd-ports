@@ -9,7 +9,9 @@
 DISTNAME=	imap-4.5
 PKGNAME=	imap-uw-4.5
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/
+MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/ \
+		ftp://ftp.funet.fi/pub/mirrors/ftp.cac.washington.edu/mail/ \
+		ftp://ftp.uni-halle.de/pub/mail/pine/
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
@@ -41,6 +43,8 @@ do-install:
 	${INSTALL} ${COPY} ${STRIP} -o ${LIBOWN} -g ${LIBGRP} -m ${LIBMODE} \
 		${WRKSRC}/c-client/${SHLIBNAME} ${PREFIX}/lib
 	${LN} -sf ${SHLIBNAME} ${PREFIX}/lib/lib${SHLIBBASE}.so
+	${INSTALL_DATA} ${WRKSRC}/c-client/c-client.a \
+		${PREFIX}/lib/lib${SHLIBBASE}.a
 	${INSTALL_PROGRAM} ${WRKSRC}/imapd/imapd ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop2d ${PREFIX}/libexec
 	${INSTALL_PROGRAM} ${WRKSRC}/ipopd/ipop3d ${PREFIX}/libexec
