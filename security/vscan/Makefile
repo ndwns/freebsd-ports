@@ -9,7 +9,7 @@
 DISTNAME=	vfrb101e
 PKGNAME=	vscan-1.0.2
 CATEGORIES+=	security
-MASTER_SITES=	ftp://ftp.mcafee.com/pub/antivirus/
+MASTER_SITES=   ftp://ftp.mcafee.com/pub/antivirus/english/unix/freebsd/
 EXTRACT_SUFX=	.taz
 
 MAINTAINER=     obrien@cs.ucdavis.edu
