@@ -39,6 +39,7 @@
     SUBDIR += gphoto
     SUBDIR += gplot
     SUBDIR += gqview
+    SUBDIR += gracula
     SUBDIR += graphviz
     SUBDIR += gtkdps
     SUBDIR += gtkfig
