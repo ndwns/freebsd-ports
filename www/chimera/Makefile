@@ -1,16 +1,16 @@
 # New ports collection makefile for:	chimera
-# Version required:	1.65
+# Version required:	1.70p0
 # Date created:		26 December 1994
 # Whom:			asami
 #
 # $Id$
 #
 
-DISTNAME=	chimera-1.65
+DISTNAME=	chimera-1.70p0
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.cs.unlv.edu/pub/chimera/
 
-MAINTAINER=	ports@FreeBSD.ORG
+MAINTAINER=	jseger@FreeBSD.ORG
 
 USE_IMAKE=	yes
 
