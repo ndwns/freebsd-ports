@@ -576,8 +576,8 @@ fetch: pre-fetch
 	 for file in ${DISTFILES}; do \
 		if [ ! -f $$file -a ! -f `basename $$file` ]; then \
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
-			${ECHO_MSG} ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
+			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
 				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
 					break; \
 				fi \
