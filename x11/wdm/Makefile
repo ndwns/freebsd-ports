@@ -28,6 +28,7 @@ GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	X11BASE=${X11BASE} CPPFLAGS=-I${PREFIX}/include
 CONFIGURE_ARGS=	--with-gfx-libs="-L${PREFIX}/lib -L${LOCALBASE}/lib -lgif" \
 	--with-gfx-incs="-I${LOCALBASE}/include/tiff34 -I${LOCALBASE}/include" \
+	--with-tiff-libs="-ljpeg" \
 	--with-logdir=/var/log --with-runlockdir=/var/run \
 	--with-wdmdir=${PREFIX}/lib/X11/wdm --with-Logo=Earth200x130.xpm \
 	--with-defuserpath=/bin:/usr/bin:/sbin:/usr/sbin:${X11BASE}/bin:${LOCALBASE}/bin \
