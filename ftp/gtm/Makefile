@@ -14,14 +14,16 @@ MASTER_SITES=		http://www.rnl.ist.utl.pt/~bapm/gtm/files/     \
 MAINTAINER=		nectar@FreeBSD.ORG
 
 # wget is in BUILD_DEPENDS because the configure script checks for it
-LIB_DEPENDS=		gnome.1:${PORTSDIR}/x11/gnomelibs
+LIB_DEPENDS=		gnome.2:${PORTSDIR}/x11/gnomelibs
 BUILD_DEPENDS=		wget:${PORTSDIR}/net/wget
 RUN_DEPENDS=		wget:${PORTSDIR}/net/wget
+
+GTK_CONFIG?=		${X11BASE}/bin/gtk12-config
 
 USE_X_PREFIX=		YES
 USE_GMAKE=		YES
 GNU_CONFIGURE=		YES
-CONFIGURE_ENV=		GTK_CONFIG="${X11BASE}/bin/gtk12-config"
+CONFIGURE_ENV=		GTK_CONFIG="${GTK_CONFIG}"
 CONFIGURE_ARGS=		--datadir=${PREFIX}/share/gnome
 
 .include <bsd.port.mk>
