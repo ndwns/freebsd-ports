@@ -14,6 +14,6 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
 
-RESTRICTED=     "if distributed without network, author must be informed, see DESCR"
+NO_CDROM=       yes # if distributed without network, author must be informed, see DESCR
 
 .include <bsd.port.mk>
