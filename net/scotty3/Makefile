@@ -19,8 +19,6 @@ CONFIGURE_ARGS= --with-tcl-config=/usr/local/lib/tcl8.0 \
 		--with-tk-config=/usr/local/lib/tk8.0
 
 
-BROKEN=		install
-
 WRKSRC=${WRKDIR}/${DISTNAME}/unix
 MAN1=		tkined.1 scotty.1
 MAN8=		ntping.8 straps.8
