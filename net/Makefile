@@ -7,6 +7,7 @@ RESTRICTED += dhcp	     # license issues for distribution
     SUBDIR += dgd-lpmud
     SUBDIR += dip
     SUBDIR += fspclient
+    SUBDIR += ftptool
     SUBDIR += gated
     SUBDIR += gopher
     SUBDIR += imm
