@@ -16,6 +16,7 @@ Such ports are listed below:
 Dist			Port			Why
 ------------------------------------------------------------------------------
 JDK-*			ports/www/jdk		Put copyright on packaging!
+acroread-*		ports/print/acroread	Commercial software
 bzip-*			ports/archivers/bzip	Some algorithms used may
 						infringe certain US patents.
 						Opinions differ. Commercial 
