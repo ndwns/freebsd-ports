@@ -17,8 +17,7 @@ MAINTAINER=	brian@Awfulhak.org
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--quiet --prefix=${PREFIX}
 MAKE_ARGS=	LOCKFILE=/var/spool/lock/news/fetch.lck \
-		LIBDIR=${PREFIX}/lib/leafnode \
-		PREFIX_VAR=${VAR}
+		LIBDIR=${PREFIX}/lib/leafnode
 MAN1=		newsq.1
 MAN8=		fetch.8 applyfilter.8 leafnode.8 texpire.8 checkgroups.8
 MLINKS+=	fetch.8 fetch-news.8
