@@ -3,6 +3,7 @@
 
     SUBDIR += acs
     SUBDIR += chipmunk
+    SUBDIR += felt
     SUBDIR += irsim
     SUBDIR += magic
     SUBDIR += mars
