@@ -18,8 +18,8 @@ MAN1=		icmpinfo.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/icmpinfo ${PREFIX}/bin
-	/usr/sbin/chown root ${PREFIX}/bin 
-	/bin/chmod 4555 ${PREFIX}/bin 
+	/usr/sbin/chown root ${PREFIX}/bin/icmpinfo
+	/bin/chmod 4555 ${PREFIX}/bin/icmpinfo
 	${INSTALL_MAN} ${WRKSRC}/icmpinfo.man ${PREFIX}/man/man1/${MAN1}
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/icmpinfo
