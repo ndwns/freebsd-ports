@@ -7,6 +7,7 @@
 #
 
 DISTNAME=	fetchmail-1.9
+PKGNAME=	fetchmail-1.9.9
 CATEGORIES=	mail
 MASTER_SITES=	ftp://locke.ccil.org/pub/esr/
 
