@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.funet.fi/pub/networking/tcpip/ \
 WRKSRC=		${WRKDIR}/rmsg
 
 post-install:
+.if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/rmsg.1 ${PREFIX}/man/man8/rmsgd.8
+.endif
 
 .include <bsd.port.mk>
