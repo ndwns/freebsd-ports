@@ -13,7 +13,7 @@ MASTER_SITES=	${UNROFF_SITE}/dist/ \
 		${UNROFF_SITE}/contrib/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${PATCH1} ${PATCH2}
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	wosch@freebsd.org
 
 RUN_DEPENDS=	elk:${PORTSDIR}/lang/elk
 BUILD_DEPENDS=	elk:${PORTSDIR}/lang/elk
