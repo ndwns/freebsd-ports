@@ -15,14 +15,8 @@ MASTER_SITES=	http://www.hcs.de/users/hm/packages/
 MAINTAINER=     obrien@FreeBSD.org
 
 NO_WRKSUBDIR=	yes
-ALL_TARGET=	#emtpy
+ALL_TARGET=	cwish
 MAN1=		cwish.1
-
-.include <bsd.port.pre.mk>
-
-.if ${OSVERSION} >= 300000
-BROKEN=		"headers problem"
-.endif
 
 pre-configure:
 	${CP} ${WRKSRC}/Makefile.freebsd ${WRKSRC}/Makefile
@@ -31,4 +25,4 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cwish ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/cwish.1 ${PREFIX}/man/man1
 
-.include <bsd.port.post.mk>
+.include <bsd.port.mk>
