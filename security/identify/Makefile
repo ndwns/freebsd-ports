@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	identify-0.7
-CATEGORIES=	net security
+CATEGORIES=	security net
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/tools/
 
 MAINTAINER=	nsayer@quack.kfu.com
