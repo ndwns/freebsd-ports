@@ -51,6 +51,7 @@
     SUBDIR += povray
     SUBDIR += ppm2fli
     SUBDIR += qvplay
+    SUBDIR += sane
     SUBDIR += sced
     SUBDIR += spigot
     SUBDIR += splitmpg
