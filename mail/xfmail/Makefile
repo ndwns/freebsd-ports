@@ -1,14 +1,14 @@
 # New ports collection makefile for:	xfmail
-# Version required:	0.4
+# http://Burka.NetVision.net.il/xfmail/xfmail.html
+# Version required:     1.0
 # Date created:		30 June 1996
 # Whom:			gena
 #
 # $Id$
 #
 
-DISTNAME=	xfmail
-PKGNAME=	xfmail-0.4
-CATEGORIES=	mail x11
+DISTNAME=       xfmail-1.0
+CATEGORIES=     mail
 MASTER_SITES=	ftp://burka.netvision.net.il/pub/xfmail/
 
 MAINTAINER=	gena@NetVision.net.il
