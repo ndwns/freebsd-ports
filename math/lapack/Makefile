@@ -14,6 +14,8 @@ DISTFILES=	lapack.tgz manpages.tgz
 
 MAINTAINER=	jmz@FreeBSD.org
 
+DIST_SUBDIR=	lapack
+
 MANL=	cgbmv.l cgemm.l cgemv.l cgerc.l cgeru.l chbmv.l chemm.l chemv.l \
 	cher.l cher2.l cher2k.l cherk.l chpmv.l chpr.l chpr2.l cscal.l \
 	csymm.l csyr2k.l csyrk.l ctbmv.l ctbsv.l ctpmv.l ctpsv.l ctrmm.l \
