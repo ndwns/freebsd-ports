@@ -17,6 +17,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
+MAN1=		piewm.1
 
 # piewm.tar.Z includes and old version of xpm, and also a bunch of .o
 #  files plus an executable

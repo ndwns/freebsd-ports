@@ -25,5 +25,6 @@ LIB_DEPENDS=	xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
+MAN1=		olvwm.1 olvwmrc.1
 
 .include <bsd.port.mk>

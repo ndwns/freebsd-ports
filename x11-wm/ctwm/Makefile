@@ -15,5 +15,6 @@ MAINTAINER=	torstenb@FreeBSD.ORG
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
+MAN1=		ctwm.1
 
 .include <bsd.port.mk>

@@ -19,6 +19,10 @@ NO_LATEST_LINK=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
 ALL_TARGET=	Makefiles all
+MAN1=		FvwmAudio.1 FvwmAuto.1 FvwmBacker.1 FvwmBanner.1 FvwmClean.1 \
+		FvwmDebug.1 FvwmIconBox.1 FvwmIdent.1 FvwmPager.1 FvwmSave.1 \
+		FvwmSaveDesk.1 FvwmScroll.1 FvwmWinList.1 GoodStuff.1 fvwm.1 \
+		xpmroot.1
 
 post-install:
 	@mkdir -p ${PREFIX}/include/X11/pixmaps
