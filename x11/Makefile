@@ -70,6 +70,7 @@
     SUBDIR += tkgoodstuff
     SUBDIR += tycoon
     SUBDIR += wdm
+    SUBDIR += wmbutton
     SUBDIR += wterm
     SUBDIR += x3270
     SUBDIR += xaniroc
