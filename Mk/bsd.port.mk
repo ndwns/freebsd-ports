@@ -113,7 +113,7 @@ PATCHDIR?=		${.CURDIR}/patches
 SCRIPTDIR?=		${.CURDIR}/scripts
 FILESDIR?=		${.CURDIR}/files
 PKGDIR?=		${.CURDIR}/pkg
-.if defined(USE_XMKMF)
+.if defined(USE_IMAKE)
 PREFIX?=		${X11BASE}
 .else
 PREFIX?=		/usr/local
