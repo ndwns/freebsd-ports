@@ -9,7 +9,7 @@
 DISTNAME=	bxform-075
 PKGNAME=	xforms-0.75
 CATEGORIES+=	graphics x11
-MASTER_SITES=	ftp://bloch.phys.uwm.edu/pub/xforms/freeBSD/
+MASTER_SITES=	ftp://laue.phys.uwm.edu/pub/xforms/freeBSD/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	gena@NetVision.net.il
