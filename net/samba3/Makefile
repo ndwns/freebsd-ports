@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	samba-1.9.17p4
-PKGNAME=	ja-samba-1.9.17.4
+PKGNAME=	samba-1.9.17.4
 CATEGORIES=	net
 MASTER_SITES=	ftp://samba.anu.edu.au/pub/samba/
 
