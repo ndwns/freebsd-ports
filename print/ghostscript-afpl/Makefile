@@ -9,7 +9,7 @@
 DISTNAME=	ghostscript-5.10
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/gs510/ \
-		ftp://bonk.ethz.ch/gs-driver-distrib/ \
+		http://freefall.freebsd.org/~andreas/download/ \
 		http://www.ozemail.com.au/~geoffk/pdfencrypt/
 DISTFILES=	${GS_SOURCES} ${GS_FONTS_STD} ${GS_FONTS_OTHER} \
 		${HP850_DRV} ${DECRYPT_PDF}
@@ -36,7 +36,7 @@ GS_FONTS_STD=	ghostscript-fonts-std-5.10.tar.gz
 GS_FONTS_OTHER=	ghostscript-fonts-other-5.10.tar.gz
 
 # Additional driver HP 850, see http://bonk.ethz.ch/hp850/hp850.html
-HP850_DRV=	hp850.zip
+HP850_DRV=	hp850-1.2.zip
 
 # replacement for pdf_sec.ps, that allows you to read encrypted PDF files
 DECRYPT_PDF=	pdf_sec.ps
