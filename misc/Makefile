@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += acron
     SUBDIR += amanda
     SUBDIR += astrolog
     SUBDIR += buffer
