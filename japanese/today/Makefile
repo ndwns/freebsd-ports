@@ -21,7 +21,6 @@ BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 EXTRACT_CMD=	lha
 EXTRACT_BEFORE_ARGS=	xfqw=${WRKDIR}
 NO_WRKSUBDIR=	yes
-PATCH_STRIP=	-p1
 
 post-extract:
 	@${ECHO_MSG} "===>  Extracting tbl file for ${DISTNAME}"
@@ -36,7 +35,6 @@ post-extract:
 		 gengo.tbl hist??.tbl history.tbl holiday.tbl magazin.tbl \
 		 monthly.tbl week.tbl; \
 	do \
-		echo $$i ; \
 		${SED} 's/.$$//' $$i | nkf -e > $$i.tmp ;\
 		${MV} -f $$i.tmp $$i ; \
 	done)
