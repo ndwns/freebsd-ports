@@ -38,8 +38,8 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/pico ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/pilot ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/pine ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/bin/libc-client.so.1.3 $(PREFIX)/lib
-	${INSTALL_PROGRAM} ${WRKSRC}/bin/libpico.so.1.3 $(PREFIX)/lib
+	${INSTALL_DATA} ${WRKSRC}/bin/libc-client.so.1.3 $(PREFIX)/lib
+	${INSTALL_DATA} ${WRKSRC}/bin/libpico.so.1.3 $(PREFIX)/lib
 	${INSTALL_MAN} ${WRKSRC}/doc/pico.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/pilot.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/pine.1 ${PREFIX}/man/man1
