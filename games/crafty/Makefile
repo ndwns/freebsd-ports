@@ -27,7 +27,7 @@ MAN6=		crafty.6
 NO_WRKSUBDIR=	yes
 
 post-extract:
-	(cd ${WRKDIR}; gunzip <${DISTDIR}/${DIST_SUBDIR}/start.zip >${WRKDIR}/start.pgn)
+	(cd ${WRKDIR}; ${GUNZIP_CMD} <${DISTDIR}/${DIST_SUBDIR}/start.zip >${WRKDIR}/start.pgn)
 
 post-build:
 	(cd ${WRKDIR}; ./crafty <${FILESDIR}/books-building)
