@@ -6,6 +6,7 @@
     SUBDIR += Sather
     SUBDIR += bwbasic
     SUBDIR += cim
+    SUBDIR += cmucl
     SUBDIR += eiffel
     SUBDIR += elk
     SUBDIR += eperl
