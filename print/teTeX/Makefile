@@ -14,8 +14,6 @@ DISTFILES=	teTeX-src-0.4pl2.tar.gz teTeX-lib-0.4pl1.tar.gz
 
 MAINTAINER=	br@schiele-ct.de
 
-RUN_DEPENDS=	wishx:${PORTSDIR}/lang/tclX75
-
 DIST_SUBDIR=	teTeX
 EXTRACT_ONLY=	teTeX-src-0.4pl2.tar.gz
 PATCH_DIST_STRIP=	-p1
