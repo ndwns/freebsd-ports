@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ebw3-0.2-b4
-PKGNAME=	jp-ebw3-0.2b4
+PKGNAME=	ja-ebw3-0.2b4
 CATEGORIES=	japanese
 MASTER_SITES=	ftp://ftp.imasy.or.jp/pub/unix/net/www/ebw3/
 
