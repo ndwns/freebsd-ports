@@ -28,7 +28,7 @@ PATCHFILES=	1.0.91-1.0.92.gz \
 		1.0.99-1.0.100.gz \
 		1.0.100-1.0.101.gz \
 		1.0.101-1.0.102.gz \
-		net-10.dgd-100.gz
+		net-10.dgd-102.gz
 
 MAINTAINER=	adam@veda.is
 
