@@ -16,7 +16,7 @@ LIB_DEPENDS=	MesaGL.14:${PORTSDIR}/graphics/Mesa3
 
 USE_GMAKE=	yes
 USE_X_PREFIX=	yes
-MAKE_ENV=	QTDIR=${WRKSRC}
+MAKE_ENV+=	QTDIR=${WRKSRC} CXX="${CXX}" CXXFLAGS="${CXXFLAGS}"
 
 .include <bsd.port.pre.mk>
 
