@@ -25,6 +25,8 @@ SCRIPTS_ENV=	PACKAGE_BUILDING=${PACKAGE_BUILDING}
 IS_INTERACTIVE=	yes
 .endif
 
+MAN1=		xdvi.1
+
 do-install: 
 	@${MKDIR} ${PREFIX}/man/man1
 	@${MKDIR} ${PREFIX}/bin

@@ -19,6 +19,7 @@ LIB_DEPENDS=    xview.3:${PORTSDIR}/x11-toolkits/xview-lib
 
 NO_WRKSUBDIR=	yes
 USE_IMAKE=	yes
+MAN1=		bibcard.1
 
 pre-configure:
 	@${ECHO} "OPENWINHOME=${PREFIX}"  \

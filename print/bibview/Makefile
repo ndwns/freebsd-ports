@@ -15,5 +15,6 @@ MAINTAINER=	dbader@eece.unm.edu
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/bibview-2.2
+MAN1=		bibview.1
 
 .include <bsd.port.mk>

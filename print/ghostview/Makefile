@@ -13,6 +13,7 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 MAINTAINER=	ports@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN1=		ghostview.1
 
 post-install:
 	@${SH} ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
