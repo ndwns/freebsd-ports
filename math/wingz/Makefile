@@ -21,6 +21,6 @@ NO_WRKSUBDIR=	yes
 USE_X11=	yes
 
 post-install:
-	@sh pkg/INSTALL
+	@/bin/sh ${PKGDIR}/INSTALL ${PKGNAME} POST-INSTALL
 
 .include <bsd.port.mk>
