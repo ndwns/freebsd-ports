@@ -1,5 +1,5 @@
 # New ports collection makefile for: pgp.language
-# Version required:     2.6
+# Version required:     2.6.3i
 # Date created:         4 May 1995
 # Whom:                 ache
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       pgp26ru
-PKGNAME=	ru-pgp-2.6
+PKGNAME=        ru-pgp-2.6.3i
 CATEGORIES+=    russian
 MASTER_SITES=   ftp://ftp.kiae.su/unix/crypto/pgp/
 EXTRACT_SUFX=   .zip
