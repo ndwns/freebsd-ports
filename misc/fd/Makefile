@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.ics.es.osaka-u.ac.jp/pub/FDclone/
 
 MAINTAINER=	nobu@psrc.isac.co.jp
 
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		fd.1
 MAKE_ENV=	LANG=${MANLANG}
 

@@ -20,6 +20,6 @@ MTREE_FILE?=	/etc/mtree/BSD.local.dist
 ALL_TARGET=	hex
 MAN1=		hex.1
 MANCOMPRESSED=	yes
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 
 .include <bsd.port.mk>

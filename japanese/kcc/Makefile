@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.eos.hokudai.ac.jp/pub/tools/
 MAINTAINER=	taoka@infonets.hiroshima-u.ac.jp
 
 INSTALL_TARGET=	install install.man
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		kcc.1
 
 .include <bsd.port.mk>

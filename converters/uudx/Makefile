@@ -20,7 +20,7 @@ BUILD_DEPENDS=	lha:${PORTSDIR}/archivers/lha \
 EXTRACT_CMD=	lha
 EXTRACT_BEFORE_ARGS=	xqw=${WRKDIR}
 NO_WRKSUBDIR=	yes
-MANLANG=	ja_JP.EUC
+MANLANG=	ja
 MAN1=		uudx.1
 
 pre-patch:

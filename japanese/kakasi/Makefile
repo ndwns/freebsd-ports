@@ -24,7 +24,7 @@ MAINTAINER=	max@FreeBSD.ORG
 EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX} kakasi-ext.tar.gz
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 PATCH_DIST_STRIP=	-p1
-MANLANG=		ja_JP.EUC
+MANLANG=		ja
 MAN1=			kakasi.1
 post-extract:
 	@${GZCAT} ${DISTDIR}/kakasidict.940620.gz > ${WRKSRC}/kakasidict

@@ -16,7 +16,7 @@ MAINTAINER=	mita@jp.FreeBSD.org
 BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 LIB_DEPENDS=	VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
 
-MAN1=		dvi2ps.1 ../ja_JP.EUC/man1/dvi2ps.1
+MAN1=		dvi2ps.1 ../ja/man1/dvi2ps.1
 
 post-patch:
 	@(cd ${WRKSRC}; make newlib)
@@ -32,7 +32,7 @@ post-install:
 	${CP} -R doc ${PREFIX}/lib/dvi2ps/ ;\
 	mv ${PREFIX}/lib/dvi2ps/doc/dvi2ps.man ${PREFIX}/man/man1/dvi2ps.1 ;\
 	nkf -e ${PREFIX}/lib/dvi2ps/doc/dvi2ps.jman > \
-			${PREFIX}/man/ja_JP.EUC/man1/dvi2ps.1 ;\
+			${PREFIX}/man/ja/man1/dvi2ps.1 ;\
 	${RM} -f ${PREFIX}/lib/dvi2ps/doc/dvi2ps.jman ;\
 	${INSTALL_SCRIPT} tools/fontlink ${PREFIX}/lib/dvi2ps ;\
 	${INSTALL_PROGRAM} tools/nup ${PREFIX}/bin ;\
