@@ -21,7 +21,7 @@ MAN8=		smbmount.8
 
 post-extract:
 	@${MKDIR} work/unrumba
-	@${CP} files/unrumba.c ${WRKDIR}/unrumba
+	@${CP} ${FILESDIR}/unrumba.c ${WRKDIR}/unrumba
 	@${CP} files/Makefile.unrumba ${WRKDIR}/unrumba/Makefile
 
 post-build:

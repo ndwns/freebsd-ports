@@ -22,6 +22,6 @@ EXTRACT_AFTER_ARGS= > tkcron.tcl
 NO_WRKSUBDIR=	yes
 
 post-extract:
-	@${CP} files/Makefile ${WRKSRC}
+	@${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 .include <bsd.port.mk>

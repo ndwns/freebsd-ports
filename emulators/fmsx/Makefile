@@ -20,7 +20,7 @@ RESTRICTED=	Legal status of distributed ROM images unclear
 WRKSRC=         ${WRKDIR}/MSX
 
 do-install:
-	${INSTALL_SCRIPT} files/fmsx ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${FILESDIR}/fmsx ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/fmsx ${PREFIX}/bin/fmsx.bin
 	${INSTALL_PROGRAM} ${WRKSRC}/dasm ${PREFIX}/bin/fmsx-dasm
 	${INSTALL_PROGRAM} ${WRKSRC}/rddsk ${PREFIX}/bin/fmsx-rddsk
