@@ -16,6 +16,8 @@ MASTER_SITES=	ftp://egcs.cygnus.com/pub/egcs/snapshots/1998-09-14/ \
 
 MAINTAINER=	obrien@FreeBSD.org
 
+BROKEN=		package
+
 EGCS_REV=	egcs-2.92.07
 LIBSTDCPP_REV=	2.9.0
 PLIST_SUB=	EGCS_REV=${EGCS_REV} GNU_HOST=${GNUHOST}
