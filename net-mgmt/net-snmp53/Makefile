@@ -14,7 +14,7 @@ MASTER_SITES= 	ftp://ftp.ece.ucdavis.edu/pub/snmp/ \
 
 MAINTAINER=	gpalmer@FreeBSD.ORG
 
-GNU_CONFIGURE=	yes
+USE_AUTOCONF=	yes
 .if defined(BATCH)
 CONFIGURE_ARGS=	--with-defaults --with-sys-contact=nobody@no.where
 .else
