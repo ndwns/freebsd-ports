@@ -24,13 +24,13 @@ CTAN?=		ftp.tex.ac.uk
 
 
 latex_base-${VERSION}.tar.gz:
-	@${FETCH_CMD} -h ${CTAN} -c /tex-archive/macros -f latex/base.tar.gz -o ${DISTDIR}/$@
+	@${FETCH_CMD} -o ${DISTDIR}/$@ ftp://${CTAN}/tex-archive/macros/latex/base.tar.gz 
 latex_mf-${VERSION}.tar.gz:
-	@${FETCH_CMD} -h ${CTAN} -c /tex-archive/fonts -f latex/mf.tar.gz -o ${DISTDIR}/$@
+	@${FETCH_CMD} -o ${DISTDIR}/$@ ftp://${CTAN}/tex-archive/fonts/latex/mf.tar.gz 
 latex_tfm-${VERSION}.tar.gz:
-	@${FETCH_CMD} -h ${CTAN} -c /tex-archive/fonts -f latex/tfm.tar.gz -o ${DISTDIR}/$@
+	@${FETCH_CMD} -o ${DISTDIR}/$@ ftp://${CTAN}/tex-archive/fonts/latex/tfm.tar.gz 
 latex_tools-${VERSION}.tar.gz:
-	@${FETCH_CMD} -h ${CTAN} -c /tex-archive/macros -f latex/packages/tools.tar.gz -o ${DISTDIR}/$@
+	@${FETCH_CMD} -o ${DISTDIR}/$@ ftp://${CTAN}/tex-archive/macros/latex/packages/tools.tar.gz 
 
 do-build:
 	(cd ${WRKSRC}/base; tex --ini unpack.ins)
