@@ -14,7 +14,6 @@ MAINTAINER=	phk@freebsd.org
 
 LIB_DEPENDS=	tk80\\.1\\.:${PORTSDIR}/x11/tk80
 
-BROKEN=		'files/md5 and pkg/PLIST (at least) need to be updated too'
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS= --with-tcl-config=/usr/local/lib/tcl8.0 \
 		--with-tk-config=/usr/local/lib/tk8.0
