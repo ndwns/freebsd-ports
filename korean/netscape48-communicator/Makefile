@@ -18,6 +18,8 @@ MAINTAINER=	junker@jazz.snu.ac.kr
 RUN_DEPENDS=	${PREFIX}/bin/netscape:${PORTSDIR}/www/netscape3 \
 		${X11BASE}/lib/X11/fonts/local/hgm12.pcf.gz:${PORTSDIR}/korean/hanyangfonts
 
+BROKEN=		upgrade
+
 DIST_SUBDIR=	netscape3
 NO_WRKSUBDIR=	yes
 NO_BUILD=	yes
