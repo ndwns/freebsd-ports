@@ -775,9 +775,7 @@ ${INSTALL_COOKIE}:
 		  DEPENDS="${DEPENDS}" X11BASE=${X11BASE} \
 			sh ${SCRIPTDIR}/post-install; \
 	fi
-.if !defined(NO_PACKAGE)
 	@${MAKE} ${.MAKEFLAGS} fake-pkg
-.endif
 	@${TOUCH} ${TOUCH_FLAGS} ${INSTALL_COOKIE}
 .endif
 
@@ -1110,7 +1108,6 @@ describe:
 # accordance to the @pkgdep directive in the packing lists
 
 .if !target(fake-pkg)
-.if !defined(NO_PACKAGE)
 fake-pkg:
 	@if [ ! -f ${PKGDIR}/PLIST -o ! -f ${PKGDIR}/COMMENT -o ! -f ${PKGDIR}/DESCR ]; then echo "** Missing package files for ${PKGNAME} - installation not recorded."; exit 1; fi
 	@if [ ! -d ${PKG_DBDIR} ]; then rm -f ${PKG_DBDIR}; mkdir -p ${PKG_DBDIR}; fi
@@ -1131,7 +1128,6 @@ fake-pkg:
 		${ECHO_MSG} "     If so, you may wish to \`\`pkg_delete ${PKGNAME}'' and install"; \
 		${ECHO_MSG} "     this port again to upgrade it properly."; \
 	fi
-.endif
 .endif
 
 # Depend is generally meaningless for arbitrary ports, but if someone wants
