@@ -7,6 +7,7 @@
 #
 
 #BROKEN=		"need JIS libraries in print.c that I do not have"
+BROKEN=		"doesn't build properly from version 1.7.1"
 
 MAKE_ENV+=	JAPANESE=yes
 
