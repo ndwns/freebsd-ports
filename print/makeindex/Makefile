@@ -9,7 +9,7 @@
 DISTNAME=	makeindex
 PKGNAME=	makeindex-3.0.8
 CATEGORIES+=	printing
-MASTER_SITES=	ftp://achilles.doc.ic.ac.uk/tex/contrib/Schrod/
+MASTER_SITES=	ftp://ftp.th-darmstadt.de/pub/tex/src/makeindex/BETA/
 DISTFILES=	makeindex-3.0.8.tar.Z
 
 MAINTAINER=	jmz@FreeBSD.org
