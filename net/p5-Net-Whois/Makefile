@@ -18,7 +18,7 @@ RUN_DEPENDS=	${PREFIX}/lib/perl5/site_perl/Locale/Country.pm:${PORTSDIR}/misc/p5
 
 USE_PERL5=	YES
 
-MANPREFIX=	/usr/local/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 MAN3=		Net::Whois.3
 
 do-configure:
