@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=       gn-2.17
+DISTNAME=       gn-2.22
 CATEGORIES+=	networking
 MASTER_SITES=	ftp://ftp.acns.nwu.edu/pub/gn/
 
@@ -17,8 +17,8 @@ INETD_CONF=	/etc/inetd.conf
 CONF=	'	stream	tcp	nowait	nobody	/usr/local/etc/gn	gn'
 
 pre-build:
-	@ln -s ../../../../wais/work/freeWAIS-0.3/ir work/${DISTNAME}/waisgn
-	@ln -s ../../../../wais/work/freeWAIS-0.3/bin work/${DISTNAME}/waisgn
+	@ln -fs ${PORTSDIR}/net/wais/work/freeWAIS-0.3/ir ${WRKSRC}/waisgn
+	@ln -fs ${PORTSDIR}/net/wais/work/freeWAIS-0.3/bin ${WRKSRC}/waisgn
 
 pre-install:
 	@grep -q '^gopher' ${INETD_CONF} || { \
