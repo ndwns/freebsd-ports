@@ -17,7 +17,7 @@ PATCH_DIST_STRIP= -p1
 
 MAINTAINER=	shige@kuis.kyoto-u.ac.jp
 
-RUN_DEPENDS=	emacs-20.3:${.CURDIR}/../../editors/emacs20
+RUN_DEPENDS=	emacs-20.3:${PORTSDIR}/editors/emacs20
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
