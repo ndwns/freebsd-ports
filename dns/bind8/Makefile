@@ -26,5 +26,7 @@ PATCH_ARGS?=	-d ${WRKDIR} -E ${PATCH_STRIP}
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/named/named-bootconf.pl ${PREFIX}/bin/
 	@(cd ${WRKDIR}/doc/man && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} clean all ${INSTALL_TARGET})
+	${MKDIR} ${PREFIX}/share/doc/bind8
+	${INSTALL_DATA} ${WRKDIR}/doc/html/* ${PREFIX}/share/doc/bind8
 
 .include <bsd.port.mk>
