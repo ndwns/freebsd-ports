@@ -24,8 +24,6 @@ PATCHFILES=	3.3.2-patch1 3.3.2-patch2 3.3.2-patch3 \
 
 MAINTAINER=	taguchi@tohoku.iij.ad.jp
 
-BROKEN_ELF=	yes
-
 LIB_DEPENDS=	ttf.2:${PORTSDIR}/print/freetype
 
 .if !defined(XDM_DES) && defined(USA_RESIDENT)
@@ -104,7 +102,7 @@ pre-fetch:
 pre-patch:
 	@( ${PATCH} ${PATCH_DIST_ARGS} < ${XTTDIR}/xtt-1.0.diff; \
 	${GZCAT} ${DISTDIR}/${DIST_SUBDIR}/xttdoc10-to-pl00.diff.gz | \
-	${PATCH} -d ${XTTDIR} )
+	${PATCH} -s -d ${XTTDIR} )
 
 pre-configure:
 	@( \
@@ -141,10 +139,14 @@ do-install:
 	@( \
 	cd ${WRKSRC}/lib/font; \
 	${SETENV} ${MAKE_ENV} ${MAKE} install; \
+	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
+		${LN} -sf libfont.so.1.0 ${PREFIX}/lib/libfont.so; \
+	fi; \
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib; \
 	${INSTALL_SCRIPT} ${FILESDIR}/mkfontdir.pl ${PREFIX}/bin; \
 	${MKDIR} ${DOCDIR}; \
-	${INSTALL_DATA} ${XTTDIR}/xtt10-* ${DOCDIR})
+	${INSTALL_DATA} ${XTTDIR}/xtt10-*.eng ${DOCDIR}; \
+	${INSTALL_DATA} ${XTTDIR}/xtt10-*.jis ${DOCDIR} )
 .elif defined(SERVER) && ${SERVER} == xfs
 do-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${INSTALL_PROGRAM} ${WRKSRC}/programs/xfs/xfs ${PREFIX}/bin/xfs.xtt
