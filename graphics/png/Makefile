@@ -20,6 +20,6 @@ do-configure:
 	cd ${WRKSRC} && cp scripts/makefile.std Makefile
 
 post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
+	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
