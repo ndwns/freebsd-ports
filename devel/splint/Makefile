@@ -8,7 +8,10 @@
 
 DISTNAME=	lclint-2.4b
 CATEGORIES=	devel
-MASTER_SITES=	ftp://ftp.sds.lcs.mit.edu/pub/lclint/
+MASTER_SITES= 	http://www.sds.lcs.mit.edu/lclint/ftp/lclint/ \
+		ftp://ftp.deva.net/pub/sources/programming/linting/ \
+		ftp://ftp.netsw.org/netsw/SoftEng/Lang/C/Tools/lclint/ \
+		ftp://ftp.uni-bielefeld.de/pub/programming/tools/lclint/
 EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	s.moeding@ndh.net
