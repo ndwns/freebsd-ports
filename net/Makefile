@@ -3,6 +3,8 @@
 
     SUBDIR += apache
     SUBDIR += archie
+    SUBDIR += cern_httpd
+    SUBDIR += cern_linemode
     SUBDIR += chimera
     SUBDIR += dgd
     BROKEN += dgd-lpmud
