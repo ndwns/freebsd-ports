@@ -13,6 +13,7 @@
     SUBDIR += leafnode
     SUBDIR += leafnode+
     SUBDIR += newsfetch
+    SUBDIR += newsfish
     SUBDIR += nn
     SUBDIR += nntp
     SUBDIR += nntpbtr
