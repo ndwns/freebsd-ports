@@ -31,7 +31,7 @@ do-fetch:
 			echo ">> Attempting to fetch it from a master site."; \
 			for site in ${MASTER_SITES}; do \
 				pwd;\
-				if ${NCFTP} ${NCFTPFLAGS} $${site}$${file}; then \
+				if ${FETCH_CMD} ${FETCH_BEFORE_ARGS} $${site}$${file} ${FETCH_AFTER_ARGS}; then \
 					break; \
 				fi \
 			done; \
