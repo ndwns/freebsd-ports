@@ -1,20 +1,20 @@
 # New ports collection makefile for:	tcptrace
-# Version required:	5.0.10
+# Version required:	5.1.0
 # Date created:		3 March 1997
 # Whom:			fenner
 #
 # $Id$
 #
 
-DISTNAME=	tcptrace.5.0.10
-PKGNAME=	tcptrace-5.0.10
+DISTNAME=	tcptrace.5.1.0
+PKGNAME=	tcptrace-5.1.0
 CATEGORIES=	net
-MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/5.0.10/
+MASTER_SITES=	http://jarok.cs.ohiou.edu/software/tcptrace/files/5.1.0/
 
 MAINTAINER=	fenner@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-WRKSRC=		${WRKDIR}/tcptrace_5.0.10
+WRKSRC=		${WRKDIR}/tcptrace_5.1.0
 ALL_TARGET=	tcptrace
 
 DOCFILES=	ARGS BUGS CHANGES COPYRIGHT FAQ README README.mailing_list \
