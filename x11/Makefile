@@ -91,6 +91,7 @@
     SUBDIR += windowmaker
     SUBDIR += workplace
     SUBDIR += wm2
+    SUBDIR += wmx
     SUBDIR += x3270
     SUBDIR += xalarm
     SUBDIR += xaniroc
