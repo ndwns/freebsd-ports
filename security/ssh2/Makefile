@@ -10,7 +10,7 @@
 
 DISTNAME=       ssh-2.0.9
 CATEGORIES=	security net
-MASTER_SITES=   ftp://tp.cs.hut.fi/pub/ssh/ \
+MASTER_SITES=   ftp://ftp.cs.hut.fi/pub/ssh/ \
 		ftp://sunsite.unc.edu/pub/packages/security/ssh/ \
 		ftp://ftp.kyoto.wide.ad.jp/pub/security/ssh/
 
