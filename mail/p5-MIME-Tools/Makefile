@@ -31,7 +31,7 @@ MAN3=	MIME::IO.3			MIME::Entity.3 \
 	MIME::Field::ConTraEnc.3	MIME::Tools.3 \
 	MIME::Decoder::NBit.3		MIME::Head.3 \
 	MIME::Decoder.3			MIME::Field::ContDisp.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 	@cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
