@@ -20,6 +20,7 @@ ALL_TARGET=	Makefiles all
 
 post-install:
 	@mkdir -p ${PREFIX}/include/X11/pixmaps
-	cp ${WRKSRC}/fvwm_icons/*.xpm ${PREFIX}/include/X11/pixmaps
+	${INSTALL} -c -o ${BINOWN} -g ${BINGRP} -m 444 \
+		${WRKSRC}/fvwm_icons/*.xpm ${PREFIX}/include/X11/pixmaps
 
 .include <bsd.port.mk>
