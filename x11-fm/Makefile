@@ -5,6 +5,7 @@
     SUBDIR += dfm
     SUBDIR += explorer
     SUBDIR += filerunner
+    SUBDIR += jafm
     SUBDIR += offix-files
     SUBDIR += q3dmenu
     SUBDIR += tkdesk
