@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://alpha.gnu.ai.mit.edu/gnu/ \
 
 MAINTAINER=	nacai@iname.com
 
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 
 PLIST_SUB=	X11BASE=${X11BASE}
 

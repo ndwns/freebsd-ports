@@ -18,7 +18,7 @@ LIB_DEPENDS=	ffi.2:${PORTSDIR}/devel/libffi \
 		BLT24.2:${PORTSDIR}/x11-toolkits/blt
 
 USE_GMAKE=	yes
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--with-defaultdir=${PREFIX} \
 		--with-tclincludedir=${PREFIX}/include/tcl8.0 \
 		--with-tkincludedir=${PREFIX}/include/tk8.0 \

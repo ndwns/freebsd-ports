@@ -19,7 +19,7 @@ BUILD_DEPENDS=	pswrap:${PORTSDIR}/x11/dgs
 CONFIGURE_ARGS=	--with-dps-includes=${X11BASE}/include \
 		--with-dps-libraries=${X11BASE}/lib
 CONFIGURE_ENV=	GTK_CONFIG="${X11BASE}/bin/gtk10-config"
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 USE_X_PREFIX=	yes
 
 post-install:

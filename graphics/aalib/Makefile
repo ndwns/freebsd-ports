@@ -12,12 +12,7 @@ MASTER_SITES=	ftp://ftp.ta.jcu.cz/pub/aa/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-GNU_CONFIGURE=	yes
-
-pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	fi
+USE_LIBTOOL=	yes
 
 post-install:
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib

@@ -16,7 +16,7 @@ MAINTAINER=	se@freebsd.org
 USE_BZIP2=	yes
 
 USE_QT=		yes
-HAS_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
 		"--without-libjpeg" \
 		"--without-libgif" \

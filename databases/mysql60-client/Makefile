@@ -21,7 +21,7 @@ Y2K=            http://www.tcx.se/Manual_chapter/manual_Introduction.html#Year_2
 MAN1=		mysql.1
 
 USE_PERL5=	yes
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--localstatedir=/var/db/mysql \
 		--without-perl \
 		--without-debug \

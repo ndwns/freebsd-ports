@@ -17,7 +17,7 @@ MASTER_SITE_SUBDIR=libs/compression
 
 MAINTAINER=     ports@FreeBSD.ORG
 
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS+= 	--enable-shared=yes \
   			--enable-asm=yes
 post-install:

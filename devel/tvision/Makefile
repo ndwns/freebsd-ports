@@ -12,12 +12,7 @@ MASTER_SITES=	ftp://ftp.vix.com/guests/ssigala/pub/tvision/
 
 MAINTAINER=	ssigala@globalnet.it
 
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)"
-
-pre-install:
-	@if [ ! -f ${PREFIX}/info/dir ]; then \
-	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
-	 fi
 
 .include <bsd.port.mk>

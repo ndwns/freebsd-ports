@@ -15,13 +15,9 @@ MAINTAINER=	brett@peloton.physics.montana.edu
 
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS=	--disable-mail-author --disable-static  --with-libs='-lcrypt -lreadline'
 USE_GMAKE= 	yes
-
-post-extract:
-	@${CP} ${FILESDIR}/ltconfig-1.2 ${WRKSRC}/ltconfig
-	@${CP} ${FILESDIR}/ltmain.sh-1.2 ${WRKSRC}/ltmain.sh
 
 pre-install:
 	@${ECHO_MSG} "Installing in ${PREFIX}/bin"

@@ -12,7 +12,7 @@ MASTER_SITES=	http://hermes.terminal.at/files/
 
 MAINTAINER=	andy@icc.surw.chel.su
 
-GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 USE_GMAKE=	yes
 
 post-install:

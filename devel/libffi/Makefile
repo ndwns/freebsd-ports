@@ -12,7 +12,7 @@ MASTER_SITES=   ftp://ftp.cygnus.com/pub/green/
 
 MAINTAINER=     horance@freedom.ie.cycu.edu.tw
 
-GNU_CONFIGURE=  yes
+USE_LIBTOOL=  yes
 CONFIGURE_TARGET=	# empty
 
 post-install:
