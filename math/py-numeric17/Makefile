@@ -1,13 +1,13 @@
 # New ports collection makefile for:	numpy
-# Version required:	1.4
+# Version required:	1.6
 # Date created:		20 April 1997
 # Whom:			Thomas Gellekum <tg@FreeBSD.ORG>
 #
 # $Id$
 #
 
-DISTNAME=	LLNLPython5
-PKGNAME=	py-numeric-1.4
+DISTNAME=	LLNLPython6
+PKGNAME=	py-numeric-1.6
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp-icf.llnl.gov/pub/python/
 EXTRACT_SUFX=	.tgz
@@ -17,13 +17,13 @@ MAINTAINER=	tg@FreeBSD.ORG
 BUILD_DEPENDS=	python:${PORTSDIR}/lang/python
 RUN_DEPENDS=	python:${PORTSDIR}/lang/python
 
-WRKSRC=		${WRKDIR}/LLNLPython5/Numerical
+WRKSRC=		${WRKDIR}/${DISTNAME}/Numerical
 CONFIGURE_ENV=	PREFIX=${PREFIX}
 ALL_TARGET=	sharedmods
 MAKE_FLAGS+=	'OPT=${CFLAGS}'
 
 PYTHONSCRIPTDIR=	${PREFIX}/lib/python1.5
-NUMPYDIR=	${PREFIX}/lib/python1.5/site-packages
+NUMPYDIR=	${PYTHONSCRIPTDIR}/site-packages
 DOCDIR=		${PREFIX}/share/doc/NumPy
 EXAMPLEDIR=	${PREFIX}/share/examples/NumPy
 
