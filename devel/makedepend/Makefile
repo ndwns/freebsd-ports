@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	cyrus-imapd-v1.5.2
+DISTNAME=	cyrus-imapd-v1.5.14
 PKGNAME=	makedepend-95.07.05
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/
