@@ -43,9 +43,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/pico.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/pilot.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/pine.1 ${PREFIX}/man/man1
-	@(if [ ! -d ${PREFIX}/lib/pine ]; then \
-	     /bin/mkdir -p ${PREFIX}/lib/pine ;\
-	 fi)
+	     ${MKDIR} -p ${PREFIX}/lib/pine
 	${INSTALL_DATA} ${WRKSRC}/pine/pine.hlp ${PREFIX}/lib/pine
 	${INSTALL_DATA} ${WRKSRC}/pine/pine.ndx ${PREFIX}/lib/pine
 	${INSTALL_DATA} ${WRKSRC}/pine/pine_ja.hlp ${PREFIX}/lib/pine

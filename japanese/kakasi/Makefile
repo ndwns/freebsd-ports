@@ -27,7 +27,7 @@ post-extract:
 
 post-install:
 	@[ -d ${PREFIX}/share/doc/kakasi ] || 				\
-	 /bin/mkdir -p ${PREFIX}/share/doc/kakasi
+	 ${MKDIR} -p ${PREFIX}/share/doc/kakasi
 .for f in README README.jpn src/kakasi.1
 	${INSTALL_DATA} ${WRKSRC}/../$f ${PREFIX}/share/doc/kakasi
 .endfor

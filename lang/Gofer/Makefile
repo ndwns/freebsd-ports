@@ -15,7 +15,7 @@ WRKSRC = ${WRKDIR}/src
 LIBDIR = ${PREFIX}/lib/Gofer
 
 do-install:
-	-/bin/mkdir -p ${LIBDIR}
+	${MKDIR} -p ${LIBDIR}
 	${INSTALL_DATA} ${WRKDIR}/*.prelude ${LIBDIR}
 	${INSTALL_DATA} ${WRKDIR}/src/prelude.h ${LIBDIR}
 	${INSTALL_DATA} ${WRKDIR}/src/gofc.h ${LIBDIR}
@@ -29,7 +29,7 @@ do-install:
 .if !defined(NOMANCOMPRESS)
 	gzip -9nf ${PREFIX}/man/man1/gofer.1
 .endif
-	-/bin/mkdir -p ${LIBDIR}/docs
+	${MKDIR} -p ${LIBDIR}/docs
 	${INSTALL_DATA} ${WRKDIR}/docs/* ${LIBDIR}/docs
 
 .include <bsd.port.mk>
