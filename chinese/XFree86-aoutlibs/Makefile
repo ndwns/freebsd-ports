@@ -1,6 +1,6 @@
 # New ports collection makefile for:	XFree86 3.3.6 aout libs
 # Date created:		31 Oct 2000
-# Whom:			Jing-Tang Keith Jang <keith@freebsd.sinica.edu.tw>
+# Whom:			Jing-Tang Keith Jang <keith@FreeBSD.org>
 #
 # $FreeBSD$
 #
@@ -16,7 +16,7 @@ MASTER_SITES=	ftp://freebsd.sinica.edu.tw/pub/keith/
 DISTNAME=	Xbin336aout
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	keith@freebsd.sinica.edu.tw
+MAINTAINER=	keith@FreeBSD.org
 
 ONLY_FOR_ARCHS=	i386
 
