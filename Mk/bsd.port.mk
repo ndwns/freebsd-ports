@@ -365,8 +365,7 @@ is_depended:	install
 # They still check to see if the target exists, and if so don't
 # do anything, since you might want to set this globally for a
 # group of ports in a Makefile.inc, but still be able to
-# override from an individual Makefile (since you can't _
-# undefine_ a variable in make!).
+# override from an individual Makefile.
 ################################################################
 
 .if defined(NO_EXTRACT) && !target(extract)
