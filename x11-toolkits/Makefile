@@ -15,6 +15,8 @@
     SUBDIR += gtk12
     SUBDIR += gtkgl
     SUBDIR += gtkstep
+    SUBDIR += itk
+    SUBDIR += iwidgets
     SUBDIR += iv
     SUBDIR += lesstif
     SUBDIR += neXtaw
