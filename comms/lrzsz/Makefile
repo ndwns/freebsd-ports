@@ -6,15 +6,16 @@
 #
 # $Id$
 
-DISTNAME=	lrzsz-0.12.18
+DISTNAME=	lrzsz-0.12.19
 CATEGORIES=	comms
-MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/
+MASTER_SITES=	ftp://ftp.ihg.uni-duisburg.de/uwe/ \
+		http://www.nrw.net/uwe/archive/
 
 MAINTAINER=	obrien@FreeBSD.org
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
-ALL_TARGET=	all vcheck
+ALL_TARGET=	all # vcheck
 MAN1=		lrz.1 lsz.1
 
 .include <bsd.port.mk>
