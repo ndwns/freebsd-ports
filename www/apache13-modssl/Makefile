@@ -31,7 +31,7 @@ MASTER_SITES=	http://www.apache.org/dist/ \
 		ftp://ftp.fu-berlin.de/unix/security/mod_ssl/ \
 		ftp://ftp.raver.net/pub/ftp.apache.org/ \
 		ftp://www3.service.digital.com/apache/dist/ \
-		ftp://ftp.ntrl.net/pub/mirror/ralfsw/mod_ssl/
+		ftp://ftp.ntrl.net/pub/mirror/ralfsw/mod_ssl/ \
 		ftp://galileo.galilei.com/pub/apache/ \
 		ftp://ftp.mtnranch.net/pub/apache/dist/ \
 		ftp://ftp.iodynamics.com/pub/mirror/apache/dist/ \

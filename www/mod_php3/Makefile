@@ -17,7 +17,7 @@ MASTER_SITES=	http://www.apache.org/dist/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://apache.compuex.com/pub/apache/dist/ \
 		http://php.he.net/distributions/ \
-		http://www.php3.de/distributions/
+		http://www.php3.de/distributions/ \
 		ftp://apache.arctic.org/pub/apache/dist/ \
 		ftp://ftp.epix.net/pub/apache/dist/ \
 		ftp://ftp.ameth.org/pub/mirrors/ftp.apache.org/apache/dist/ \

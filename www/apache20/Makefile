@@ -9,7 +9,7 @@
 DISTNAME=       apache_1.3.4
 PKGNAME=        apache-1.3.4
 CATEGORIES=	www
-MASTER_SITES=   http://www.apache.org/dist/
+MASTER_SITES=   http://www.apache.org/dist/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://ftp.rge.com/pub/infosystems/apache/dist/ \
 		ftp://apache.compuex.com/pub/apache/dist/ \

@@ -11,7 +11,7 @@ PKGNAME=        apache_fp-${AP_VERS}
 CATEGORIES=	www
 MASTER_SITES=	http://www.apache.org/dist/ \
 		ftp://ftp.microsoft.com/products/frontpage/ \
-		ftp://sunsite.doc.ic.ac.uk/Mirrors/ftp.microsoft.com/Products/frontpage/
+		ftp://sunsite.doc.ic.ac.uk/Mirrors/ftp.microsoft.com/Products/frontpage/ \
 		ftp://ftp.ccs.neu.edu/net/mirrors/ftp.apache.org/apache/dist/ \
 		ftp://ftp.rge.com/pub/infosystems/apache/dist/ \
 		ftp://apache.compuex.com/pub/apache/dist/ \
