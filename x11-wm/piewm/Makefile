@@ -1,5 +1,5 @@
 # New ports collection makefile for:	piewm
-# Version required:	?
+# Version required:	? (there is only one piewm version avyway)
 # Date created:		24 November 1994
 # Whom:			asami
 #
@@ -7,13 +7,16 @@
 #
 
 DISTNAME=	piewm
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+PKGNAME=	piewm-1.0
 CATEGORIES+=	x11
-MAINTAINER=	asami@FreeBSD.ORG
+MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 EXTRACT_SUFX=	.tar.Z
-PKG_CMD=	pkg_create -N
+
+MAINTAINER=	asami@FreeBSD.ORG
+
 LIB_DEPENDS=    Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
+USE_IMAKE=	yes
 
 # piewm.tar.Z includes and old version of xpm, and also a bunch of .o
 #  files plus an executable

@@ -7,14 +7,16 @@
 #
 
 DISTNAME=	sxpc-1.4
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://ftp.x.org/R5contrib/
 CATEGORIES+=	x11
+MASTER_SITES=	ftp://ftp.x.org/R5contrib/
+EXTRACT_SUFX=	.shar.Z
+
 MAINTAINER=	jkh@FreeBSD.ORG
+
 NO_WRKSUBDIR=	yes
-EXTRACT_SUFX=		.shar.Z
 EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	blt-1.7
-DISTFILES=	BLT-1.7.tar.gz
-MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
 CATEGORIES+=	x11
+MASTER_SITES=	ftp://ftp.aud.alcatel.com/tcl/extensions/
+DISTFILES=	BLT-1.7.tar.gz
+
 LIB_DEPENDS=	tk\\.3\\.:${PORTSDIR}/x11/tk
+
 GNU_CONFIGURE=	yes
 ALL_TARGET=	all sharedlib
 

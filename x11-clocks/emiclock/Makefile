@@ -5,12 +5,15 @@
 #
 # $Id$
 #
+
 DISTNAME=	EmiClock-1.0.2
-MASTER_SITES=	ftp://theta.iis.u-tokyo.ac.jp/pub1/X/contrib/applications/
-CATEGORIES+=	x11
-MAINTAINER=	asami@FreeBSD.ORG
-USE_IMAKE=	yes
 PKGNAME=	emiclock-1.0.2
+CATEGORIES+=	x11
+MASTER_SITES=	ftp://theta.iis.u-tokyo.ac.jp/pub1/X/contrib/applications/
+
+MAINTAINER=	asami@FreeBSD.ORG
+
+USE_IMAKE=	yes
 
 LANGRES=	resources/R6/EUC/EmiClock.ad
 LANGDIR=	$(X11BASE)/lib/X11/ja_JP.EUC/app-defaults

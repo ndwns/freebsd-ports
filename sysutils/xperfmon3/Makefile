@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xperfmon++
-PKGNAME=	xperfmon++-1.1
+PKGNAME=	xperfmon-1.1
 USE_IMAKE=	yes
 CATEGORIES+=	x11
 # In Germany try this

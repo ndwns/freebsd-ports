@@ -1,14 +1,16 @@
+# New ports collection makefile for:    xearth
+# Version required:     0.92
+# Date created:         29 October 1995
+# Whom:                 piero
 #
-# Makefile for x11/xearth (FreeBSD) - piero Sat Oct 29 12:37:15 PDT 1994
 # $Id$
 #
 
-# Distribution stuff
 DISTNAME=	xearth-0.92
-MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
 CATEGORIES+=	x11
+MASTER_SITES=	ftp://cag.lcs.mit.edu/pub/tuna/
 
-USE_IMAKE=	is_set
+USE_IMAKE=	yes
 
 # Copy the list of FreeBSD sites
 pre-patch:

@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	xdaliclock-2.05
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 CATEGORIES+=	x11
+MASTER_SITES=	ftp://ftp.x.org/contrib/applications/
 EXTRACT_SUFX=	.tar.Z
+
 MAINTAINER=	gpalmer@FreeBSD.ORG
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -1,5 +1,5 @@
 # New ports collection makefile for:	ctwm
-# Version required:	3.2 patchlevel 1
+# Version required:	3.3
 # Date created:		13 November 1994
 # Whom:			torstenb
 #
@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	ctwm-3.3
-MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
 CATEGORIES+=	x11
-USE_IMAKE=	YES
+MASTER_SITES=	ftp://ftp.x.org/contrib/window_managers/
 EXTRACT_SUFX=	.tar.Z
+
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -7,10 +7,12 @@
 #
 
 DISTNAME=	Xaw3d-1.1
-USE_IMAKE=	yes
-MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/widgets/Xaw3d/R6/
 CATEGORIES+=	x11
+MASTER_SITES=	ftp://crl.dec.com/pub/X11/contrib/widgets/Xaw3d/R6/
+
 MAINTAINER=	asami@FreeBSD.ORG
+
 WRKSRC=		${WRKDIR}/lib/Xaw3d
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

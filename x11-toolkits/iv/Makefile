@@ -6,10 +6,11 @@
 # $Id$
 #
 
-EXTRACT_SUFFIX=	.tar.Z
 VERSION=	3.1
 DISTNAME=	iv-${VERSION}
-DISTFILES=	${DISTNAME}${EXTRACT_SUFFIX}
+EXTRACT_SUFX=	.tar.Z
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
+
 WRKSRC=		${WRKDIR}/iv
 MAKEFILE=	makefile
 NCFTPFLAGS=	-NP
@@ -19,9 +20,8 @@ pre-fetch:
 	@if [ ! -f ${DISTDIR}/${DISTFILES} ]; then \
 	    mkdir -p ${DISTDIR}/${DISTNAME} ; \
 	    ${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
-CATEGORIES+=	x11
 		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch ; \
-	    mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFFIX} \
+	    mv ${DISTDIR}/${DISTNAME}/${VERSION}${EXTRACT_SUFX} \
 		${DISTDIR}/${DISTFILES} ; \
 	    rmdir ${DISTDIR}/${DISTNAME} ; \
 	fi
