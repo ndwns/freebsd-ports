@@ -28,6 +28,10 @@ PATCHFILES=
 
 MAINTAINER=     obrien@FreeBSD.org
 
+.if ${MACHINE_ARCH} == "alpha"
+BROKEN=		coredump in sgmls
+.endif
+
 .if defined(BATCH)
 LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
 BUILD_DEPENDS=	ispell:${PORTSDIR}/textproc/ispell \
