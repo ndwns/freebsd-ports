@@ -1,19 +1,21 @@
 # New ports collection makefile for:	aalib
-# Version required:			1.1.6
+# Version required:			1.2
 # Date created:				9 Dec 1997
 # Whom:					Andrey Zakhvatov
 #
 # $Id$
 #
 
-DISTNAME=		aalib-1.1.6
+DISTNAME=		aalib-1.2
 CATEGORIES=		graphics
-MASTER_SITES=		ftp://ftp.ta.jcu.cz/pub/aa/development/
+MASTER_SITES=		ftp://ftp.ta.jcu.cz/pub/aa/
 
 MAINTAINER=		andy@icc.surw.chel.su
 
-WRKSRC=			${WRKDIR}/aalib-1.1
 GNU_CONFIGURE=		yes
+
+pre-configure:
+	@${RM} ${WRKSRC}/config.cache
 
 pre-install:
 	@if [ ! -f ${PREFIX}/info/dir ]; then \
