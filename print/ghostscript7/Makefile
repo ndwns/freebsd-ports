@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.cs.wisc.edu/ghost/aladdin/gs503/ \
 DISTFILES=	${GS_SOURCES} ${GS_FONTS_STD} ${GS_FONTS_OTHER} \
 		${HP850_DRV}
 
-MAINTAINER=	andreas@FreeBSD.org
+MAINTAINER=	andreas@FreeBSD.ORG
 
 BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/graphics/jpeg \
 		/nonexistent:${PORTSDIR}/graphics/png \

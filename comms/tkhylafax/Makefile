@@ -11,7 +11,7 @@ PKGNAME=	tkhylafax-3.0
 CATEGORIES=	comms
 MASTER_SITES=	http://www.NeoSoft.com/tcl/ftparchive/sorted/comm/tkhylafax-3.0b2/
 
-MAINTAINER=	andreas@FreeBSD.org
+MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	wish4.2:${PORTSDIR}/x11/tk42 \
 		sendfax:${PORTSDIR}/comms/hylafax \

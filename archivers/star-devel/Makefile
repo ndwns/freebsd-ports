@@ -10,7 +10,7 @@ DISTNAME=	star-1.1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.fokus.gmd.de/pub/unix/star/
 
-MAINTAINER=	andreas@FreeBSD.org
+MAINTAINER=	andreas@FreeBSD.ORG
 
 USE_GMAKE=	yes
 MAKE_ENV=	MAKEPROG=gmake

@@ -14,7 +14,7 @@ MASTER_SITES=	ftp://ftp.cs.colorado.edu/pub/distribs/harvest/ \
 		ftp://ftp.sunet.se/pub/nir/harvest/
 EXTRACT_SUFX=	-src.tar.gz
 
-MAINTAINER=	andreas@klemm.gtn.com
+MAINTAINER=	andreas@FreeBSD.ORG
 
 pre-install:
 	${MKDIR} ${PREFIX}/harvest

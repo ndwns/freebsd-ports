@@ -10,7 +10,7 @@ DISTNAME=	apsfilter-4.9.3
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 
-MAINTAINER=	andreas@klemm.gtn.com
+MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	gs:${PORTSDIR}/print/ghostscript5 \
 		transfig:${PORTSDIR}/print/transfig \
