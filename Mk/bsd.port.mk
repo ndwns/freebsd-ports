@@ -206,7 +206,18 @@ EXTRACT_BEFORE_ARGS?=   -xzf
 .endif
 
 PKG_CMD?=		pkg_create
-PKG_ARGS?=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX}
+.if !defined(PKG_ARGS)
+PKG_ARGS=		-v -c ${PKGDIR}/COMMENT -d ${PKGDIR}/DESCR -f ${PKGDIR}/PLIST -p ${PREFIX}
+.if exists(${PKGDIR}/INSTALL)
+PKG_ARGS+=		-i ${PKGDIR}/INSTALL
+.endif
+.if exists(${PKGDIR}/DEINSTALL)
+PKG_ARGS+=		-k ${PKGDIR}/DEINSTALL
+.endif
+.if exists(${PKGDIR}/REQ)
+PKG_ARGS+=		-r ${PKGDIR}/REQ
+.endif
+.endif
 PKG_SUFX?=		.tgz
 
 ECHO_MSG?=		echo
