@@ -13,6 +13,7 @@
     SUBDIR += fwtk
     SUBDIR += gnupg
     SUBDIR += gtkportscan
+    SUBDIR += identify
     SUBDIR += john
     SUBDIR += krb5
     SUBDIR += l0pht-watch
