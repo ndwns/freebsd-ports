@@ -13,6 +13,7 @@
     SUBDIR += daemontools
     SUBDIR += doconfig
     SUBDIR += gnomeadmin
+    SUBDIR += glload
     SUBDIR += gtar
     SUBDIR += gtop
     SUBDIR += idled
