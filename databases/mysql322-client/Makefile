@@ -8,7 +8,7 @@
 
 PKGNAME=	${DISTNAME:S/-/-client-/g}
 
-MASTERDIR=	${.CURDIR}/../mysql322
+MASTERDIR=	${.CURDIR}/../mysql322-server
 COMMENT=	${PKGDIR}/COMMENT.client
 PLIST=		${PKGDIR}/PLIST.client
 
