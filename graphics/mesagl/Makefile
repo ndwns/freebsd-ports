@@ -20,6 +20,18 @@ WRKSRC=		${WRKDIR}/Mesa-3.0
 USE_X_PREFIX=	yes
 LIBS=		libMesaGL libMesaGLU
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+ALL_TARGET=	freebsd-elf
+SHLIB_VERSION=	14
+GLUT_VERSION=	3
+.else
+ALL_TARGET=	freebsd
+SHLIB_VERSION=	14.0
+GLUT_VERSION=	3.7
+.endif
+
 do-install:
 .for file in ${LIBS}
 	${INSTALL_DATA} ${WRKSRC}/lib/${file}.a ${PREFIX}/lib
@@ -38,14 +50,4 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/include/GL/* ${PREFIX}/include/GL
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-ALL_TARGET=	freebsd-elf
-SHLIB_VERSION=	14
-GLUT_VERSION=	3
-.else
-ALL_TARGET=	freebsd
-SHLIB_VERSION=	14.0
-GLUT_VERSION=	3.7
-.endif
+.include <bsd.port.post.mk>

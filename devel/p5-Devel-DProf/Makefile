@@ -16,7 +16,8 @@ MAINTAINER=	jfitz@FreeBSD.ORG
 
 USE_PERL5=	YES
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         perl
 .endif
@@ -29,4 +30,4 @@ MAN3=		Devel::DProf.3
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PERL5} Makefile.PL
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -17,7 +17,8 @@ MAINTAINER=		andy@icc.surw.chel.su
 BUILD_DEPENDS=		antlr:${PORTSDIR}/devel/pccts \
 			dlg:${PORTSDIR}/devel/pccts
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=		signal.h:163: syntax error
 .endif
@@ -36,4 +37,4 @@ do-install:
 	@ ${MKDIR} ${PREFIX}/share/doc/cccc
 	@ ${INSTALL_DATA} ${WRKSRC}/readme.txt ${PREFIX}/share/doc/cccc
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

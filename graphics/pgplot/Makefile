@@ -15,9 +15,16 @@ MAINTAINER=	jmz@FreeBSD.org
 
 WRKSRC=		${WRKDIR}/pgplot
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         makehtml not found
+.endif
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	5
+.else
+VERSION=	5.2
 .endif
 
 post-install:
@@ -26,10 +33,4 @@ post-install:
 .endfor
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-VERSION=	5
-.else
-VERSION=	5.2
-.endif
+.include <bsd.port.post.mk>

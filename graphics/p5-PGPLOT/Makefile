@@ -18,7 +18,8 @@ LIB_DEPENDS=    pgplot.5:${PORTSDIR}/graphics/pgplot
 USE_PERL5=	yes
 ALL_TARGET=	dynamic
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         depends on pgplot
 .endif
@@ -34,4 +35,4 @@ post-install:
 	@(cd ${WRKSRC}; ${INSTALL_DATA} LICENSE test* \
 		${PREFIX}/share/doc/pgperl)
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

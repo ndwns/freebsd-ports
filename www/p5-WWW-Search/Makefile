@@ -18,11 +18,6 @@ BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/LWP.pm:${PORTSDIR}/www/
 
 USE_PERL5=	YES
 
-OSVERSION!=     sysctl -n kern.osreldate
-.if ${OSVERSION} >= 300000
-BROKEN=         perl
-.endif
-
 MAN1=		AutoSearch.1 \
 		WebSearch.1
 MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
@@ -51,7 +46,13 @@ MAN3=		WWW::Search.3 \
 		WWW::Search::Gopher.3 \
 		WWW::Search::Simple.3
 
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} >= 300000
+BROKEN=         perl
+.endif
+
 do-configure:
 		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PERL5} Makefile.PL
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

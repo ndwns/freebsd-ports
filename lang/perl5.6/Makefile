@@ -18,8 +18,9 @@ HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	Configure
 CONFIGURE_ARGS=		-sde -Dprefix=${PREFIX}
 
-OSVER!= sysctl -n kern.osreldate
-.if ${OSVER} > 300003
+.include <bsd.port.pre.mk>
+
+.if ${OSVERSION} > 300003
 BROKEN= perl is in system
 .endif
 
@@ -87,4 +88,4 @@ post-install:
 	@ln -sf ${PREFIX}/bin/perl ${PREFIX}/bin/perl5
 	@(cd /usr/include && ${PREFIX}/bin/h2ph *.h machine/*.h sys/*.h)
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

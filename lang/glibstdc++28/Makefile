@@ -19,10 +19,11 @@ BUILD_DEPENDS=	gcc28:${PORTSDIR}/lang/gcc28 \
 RUN_DEPENDS=	gcc28:${PORTSDIR}/lang/gcc28 \
 		g++28:${PORTSDIR}/lang/gcc28
 
+.include <bsd.port.pre.mk>
+
 CC=		gcc28
 CXX=		g++28
-ARE_WE_ELF!=	text -x /usr/bin/objformat && /usr/bin/objformat || echo aout
-.if ${ARE_WE_ELF} == "elf"
+.if ${PORTOBJFORMAT} == "elf"
 GNUHOST=        i386-unknown-freebsdelf${OSREL}
 .else
 GNUHOST=        i386-unknown-freebsd${OSREL}
@@ -49,4 +50,4 @@ post-install:
 	${INSTALL_DATA} ${FILESDIR}/osfcn.h  \
 		${PREFIX}/${GCC28DIR}/include/g++
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

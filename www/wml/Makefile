@@ -15,7 +15,8 @@ MASTER_SITES=	http://www.engelschall.com/sw/wml/distrib/ \
 
 MAINTAINER=	rse@engelschall.com
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         perl
 .endif
@@ -66,4 +67,4 @@ post-install:
 .endfor
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -14,7 +14,8 @@ MASTER_SITES=	http://www.magnicomp.com/download/rdist/ \
 
 MAINTAINER=	peter@FreeBSD.org
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         MOUNT_NFS undeclared
 .endif
@@ -32,4 +33,4 @@ post-install:
 	@strip ${PREFIX}/bin/${RDIST_NAME}
 	@strip ${PREFIX}/bin/rdistd
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -12,6 +12,14 @@ MASTER_SITES=	http://www.ccil.org/~esr/giflib/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+GIFLIB=	libgif.so.3
+.else
+GIFLIB=	libgif.so.3.0
+.endif
+
 post-install:
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/giflib
@@ -19,10 +27,4 @@ post-install:
 .endif
 	@${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-GIFLIB=	libgif.so.3
-.else
-GIFLIB=	libgif.so.3.0
-.endif
+.include <bsd.port.post.mk>

@@ -24,7 +24,8 @@ PATCH_DIST_STRIP=	-p1 -N -E
 
 MAINTAINER=	obrien@FreeBSD.org
 
-OSVERSION!=	sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=		"can't find /usr/lib/aout/crt0.o"
 .endif
@@ -58,4 +59,4 @@ post-install:
 		do strip $$prog ; \
 		done )
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

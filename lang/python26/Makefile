@@ -82,7 +82,12 @@ post-configure:
 	${CAT} ${FILESDIR}/${file} >> ${WRKSRC}/Modules/Setup.local
 .endfor
 
-OSVERSION!=	sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == elf
+LDFLAGS+=	-rdynamic
+CONFIGURE_ENV?=	LDFLAGS="${LDFLAGS}"
+.endif
 
 pre-install:
 .if ${OSVERSION} < 300000
@@ -97,10 +102,4 @@ post-install:
 	${INSTALL_SCRIPT} ${PREFIX}/lib/python1.5/plat-freebsd2/regen ${PREFIX}/lib/python1.5/plat-freebsd3
 	strip ${PREFIX}/bin/python
 
-.include <bsd.port.mk>
-
-# need <bsd.port.mk> to get ${PORTOBJFORMAT}
-.if ${PORTOBJFORMAT} == elf
-LDFLAGS+=	-rdynamic
-CONFIGURE_ENV?=	LDFLAGS="${LDFLAGS}"
-.endif
+.include <bsd.port.post.mk>

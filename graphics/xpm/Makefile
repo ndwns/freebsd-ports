@@ -16,10 +16,12 @@ USE_IMAKE=	yes
 
 MAN1=		cxpm.1 sxpm.1
 
+.include <bsd.port.pre.mk>
+
 post-install:
-	if [ "${PORTOBJFORMAT}" = "aout" ]; then \
-		${LN} -sf libXpm.so.4.11 ${PREFIX}/lib/libXpm.so; \
-	fi
+.if ${PORTOBJFORMAT} == "aout"
+	${LN} -sf libXpm.so.4.11 ${PREFIX}/lib/libXpm.so
+.endif
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

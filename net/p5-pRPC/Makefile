@@ -18,7 +18,8 @@ BUILD_DEPENDS=	${PREFIX}/lib/perl5/site_perl/${PERL_VER}/i386-freebsd/Storable.p
 
 USE_PERL5=	yes
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=         perl
 .endif
@@ -31,4 +32,4 @@ MAN3PREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 do-configure:
 		@cd ${WRKSRC}; ${SETENV} ${CONFIGURE_ENV} ${PERL5} Makefile.PL
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -21,6 +21,14 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 
 .include "files/manpages"
 
+.include <bsd.port.pre.mk>
+
+.if ${PORTOBJFORMAT} == "elf"
+VERSION=	1
+.else
+VERSION=	1.3
+.endif
+
 pre-install:
 	-@ ${RM} ${WRKSRC}/examples/Makefile.orig
 	-@ ${RM} ${WRKSRC}/examples/ExampleMsg
@@ -49,10 +57,4 @@ do-install:
 post-install:
 	${SETENV} OBJFORMAT=${PORTOBJFORMAT} ${LDCONFIG} -m ${PREFIX}/lib
 
-.include <bsd.port.mk>
-
-.if ${PORTOBJFORMAT} == "elf"
-VERSION=	1
-.else
-VERSION=	1.3
-.endif
+.include <bsd.port.post.mk>

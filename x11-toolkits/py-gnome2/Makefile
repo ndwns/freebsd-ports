@@ -17,8 +17,8 @@ MASTER_SITES=	ftp://ftp.daa.com.au/pub/james/python/ \
 
 MAINTAINER=	ports@FreeBSD.ORG
 
+.include <bsd.port.pre.mk>
 
-OSVERSION!=     sysctl -n kern.osreldate
 .if ${OSVERSION} >= 300000
 BROKEN=         python
 .endif
@@ -41,4 +41,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/pygtk
 .endif
 
-.include <bsd.port.mk>
+BROKEN=		gtk
+
+.include <bsd.port.post.mk>

@@ -26,7 +26,8 @@ CONFIGURE_ARGS+= --enable-kerberos4
 USE_X_PREFIX=	yes
 MAN1=		xlock.1
 
-OSVERSION!=     sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} > 300000
 CONFIGURE_ARGS+= --with-libraries=/usr/lib/aout
 .endif
@@ -39,4 +40,4 @@ LIB_DEPENDS+=		GL.14:${PORTSDIR}/graphics/Mesa3
 CONFIGURE_ARGS+=	--without-mesagl
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>

@@ -14,7 +14,8 @@ MAINTAINER=	msmith@FreeBSD.org
 
 BUILD_DEPENDS=	/compat/linux/usr/bin/cpp:${PORTSDIR}/devel/linux_devel
 
-OSVERSION!=	sysctl -n kern.osreldate
+.include <bsd.port.pre.mk>
+
 .if ${OSVERSION} >= 300000
 BROKEN=	"During build fails makesyscalls"
 .endif
@@ -26,4 +27,4 @@ BROKEN=		"requires kernel source present in /sys"
 BROKEN=		"requires ktrace source present in /usr/src/usr.bin/ktrace"
 .endif
 
-.include <bsd.port.mk>
+.include <bsd.port.post.mk>
