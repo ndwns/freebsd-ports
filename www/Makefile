@@ -71,6 +71,7 @@
     SUBDIR += p5-libwww
     SUBDIR += ruboard
     SUBDIR += sitecopy
+    SUBDIR += snarf
     SUBDIR += squid11
     SUBDIR += squid11-novm
     SUBDIR += squid20
