@@ -35,6 +35,7 @@
     SUBDIR += p5-Religion
     SUBDIR += p5-Resources
     SUBDIR += p5-Time
+    SUBDIR += prcs
     SUBDIR += tkcvs
     SUBDIR += uulib
     SUBDIR += xxgdb
