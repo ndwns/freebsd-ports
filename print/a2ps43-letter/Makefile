@@ -53,10 +53,10 @@ pre-fetch:
 	@echo "Defaulting to ${PAPERSIZE} sized paper."
 	@echo ""
 	@echo "Set the environment variable PAPERSIZE if you want to use other sizes."
-	@echo "Possible values are:  A4 (default) or letter"
+	@echo "Possible values are:  A4 or letter (default)"
 .elif defined(PAPERSIZE_INVALID)
 	@echo "Error: invalid value for PAPERSIZE: \"${PAPERSIZE}\"" 
-	@echo "Possible values are:  A4 (default) or letter"
+	@echo "Possible values are:  A4 or letter (default)"
 	@/usr/bin/false
 .endif
 
