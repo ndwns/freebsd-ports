@@ -32,6 +32,5 @@
     SUBDIR += xlispstat
     SUBDIR += xplot
     SUBDIR += xspread
-    SUBDIR += xvgr
 
 .include <bsd.port.subdir.mk>
