@@ -10,8 +10,7 @@ DISTNAME=	Eval113
 PKGNAME=	eval-113
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.doc.ic.ac.uk/Mirrors/wuarchive.wustl.edu/pub/aminet/util/cli/ \
-		ftp://ftp.uni-paderborn.de/ftp/aminet/pub/util/cli/ \
-		ftp://ftp.demon.net/pub/mirrors/aminet/util/cli/
+		ftp://ftp.uni-paderborn.de/ftp/aminet/pub/util/cli/ 
 EXTRACT_SUFX=	.lha
 
 MAINTAINER=	eserte@cs.tu-berlin.de
