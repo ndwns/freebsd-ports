@@ -1,4 +1,3 @@
-PATCH_STRIP=	-p0 -b
 # New ports collection makefile for:	ImageMagick
 # Version required:	4.0
 # Date created:		15 November 1994
