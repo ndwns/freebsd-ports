@@ -46,6 +46,7 @@
     SUBDIR += gnu-finger
     SUBDIR += gopher
     SUBDIR += gtkicq
+    SUBDIR += gtksamba
     SUBDIR += hesiod
     SUBDIR += icb
     SUBDIR += icmpinfo
