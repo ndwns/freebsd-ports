@@ -14,7 +14,7 @@ MASTER_SITES=   ftp://ftp.ecf.toronto.edu/pub/plan9/matty/
 MAINTAINER=	erich@FreeBSD.org
 
 # needs library and private header, but not during runtime
-BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/editors/sam:extract
+BUILD_DEPENDS=	/nonexistent:${PORTSDIR}/editors/sam:build
 
 USE_XLIB=	yes
 MAN1=		9term.1
