@@ -7,8 +7,8 @@
 # $Id$
 #
 
-DISTNAME=       tinpre-1.4-971127
-PKGNAME=        tinpre-1.4-971127
+DISTNAME=       tinpre-1.4-971204
+PKGNAME=        tinpre-1.4-971204
 CATEGORIES=	news
 MASTER_SITES=   ftp://nuxi.ucdavis.edu/pub/tin/ \
 		ftp://ftp.akk.uni-karlsruhe.de/pub/tin/ \
