@@ -13,7 +13,7 @@ EXTRACT_SUFX=   .tar.Z
 
 USE_GMAKE=	yes
 
-install:
+install: build
 	@echo "===>  Installing for ${DISTNAME}"
 	@${MAKE} ${.MAKEFLAGS} pre-install
 	@(cd ${WRKSRC}; ${MAKE} PREFIX=${PREFIX} ${MAKE_FLAGS} ${MAKEFILE} ${INSTALL_TARGET})
