@@ -17,6 +17,13 @@ LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_X11=	yes
 
+pre-patch:
+.if defined(TITLE_BOTTOM)
+	${CP} ${FILESDIR}/patch-titlebottom ${PATCHDIR}/patch-ac
+.else
+	${CP} ${FILESDIR}/patch-titletop ${PATCHDIR}/patch-ac
+.endif
+
 post-install:
 	${CP} ${FILESDIR}/bsd-daemon.xpm ${PREFIX}/lib/X11/icewm/taskbar
 
