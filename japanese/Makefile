@@ -119,6 +119,7 @@
     SUBDIR += netscape4-communicator
     SUBDIR += netscape4-navigator
     SUBDIR += newosaka
+    SUBDIR += ng
     SUBDIR += nkf
     SUBDIR += nvi-euc-jp
     SUBDIR += nvi-iso-2022-jp
