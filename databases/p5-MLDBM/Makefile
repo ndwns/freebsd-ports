@@ -20,7 +20,7 @@ BUILD_DEPENDS= 	${PREFIX}/lib/perl5/site_perl/FreezeThaw.pm:${PORTSDIR}/devel/p5
 USE_PERL5=	YES
 
 MAN3=           MLDBM.3
-MANPREFIX=	${PREFIX}/lib/perl5
+MANPREFIX=	${PREFIX}/lib/perl5/${PERL_VERSION}
 
 do-configure:
 		@ cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/perl Makefile.PL
