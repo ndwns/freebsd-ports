@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	hugs-January1998-source
-PKGNAME=	hugs-1.4-01-1998
+PKGNAME=	hugs-1.4.01.1998
 CATEGORIES=	lang
 MASTER_SITES=	ftp://haskell.org/pub/haskell/hugs/January1998/
 EXTRACT_SUFX=	.tgz
