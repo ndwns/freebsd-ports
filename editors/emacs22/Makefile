@@ -21,9 +21,13 @@ PLIST_SUB=	EMACS_VERSION=${EMACS_VERSION} EMACS_ARCH=${CONFIGURE_TARGET}
 NO_LATEST_LINK=	yes
 WRKSRC=		${WRKDIR}/emacs-19.34
 GNU_CONFIGURE=	yes
-USE_XLIB=	yes
 USE_GMAKE=	yes
+.if !defined(NO_X11)
 CONFIGURE_ARGS=	--with-x-toolkit --sharedstatedir=/var/run
+USE_XLIB=	yes
+.else
+CONFIGURE_ARGS=	--with-x=no --sharedstatedir=/var/run
+.endif
 
 STRIP=
 MAN1=		emacs.1 etags.1 ctags.1
