@@ -14,8 +14,6 @@ MAINTAINER=	jdp@polstra.com
 
 DEPENDS=	${PORTSDIR}/lang/modula-3-lib
 
-BROKEN_ELF=	depends on modula-3-lib
-
 WRKSRC=		${WRKDIRPREFIX}${PORTSDIR}/lang/modula-3-lib/work
 NO_CHECKSUM=	yes
 NO_BUILD=	yes

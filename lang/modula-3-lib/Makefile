@@ -17,8 +17,6 @@ DISTFILES=	m3-fbsd-src-3.6.tar.gz \
 
 MAINTAINER=	jdp@polstra.com
 
-BROKEN_ELF=	lots of errors
-
 NO_WRKSUBDIR=	yes
 SCRIPTS_ENV+=	MAJOR=${major} PKGDIR=${PKGDIR} PLIST=${PLIST}
 
