@@ -23,7 +23,4 @@ USE_X_PREFIX=	yes
 
 MAN1=		gs.1 pdf2ps.1 ps2ascii.1 ps2epsi.1 ps2pdf.1
 
-post-install:
-	${LDCONFIG} -m ${PREFIX}/lib
-
 .include <bsd.port.mk>
