@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       qvwm-1.0b4c
-CATEGORIES+=    x11
+CATEGORIES=     x11
 MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     nakai@mlab.t.u-tokyo.ac.jp
