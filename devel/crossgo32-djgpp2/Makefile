@@ -19,7 +19,6 @@ MAINTAINER=	sutton@aardvark.apana.org.au
 FETCH_DEPENDS=	unzip:${PORTSDIR}/archivers/zip
 RUN_DEPENDS=	i386-go32-gcc:${PORTSDIR}/devel/crossgo32
 
-DIST_SUBDIR=		djgpp
 EXTRACT_CMD=		unzip
 EXTRACT_BEFORE_ARGS=	-La
 
