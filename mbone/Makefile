@@ -5,6 +5,7 @@
     SUBDIR += mbone_vcr
     SUBDIR += nte
     SUBDIR += rtpmon
+    SUBDIR += rtptools
     SUBDIR += sdr
     SUBDIR += speak_freely
     SUBDIR += vat
