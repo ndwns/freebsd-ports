@@ -26,8 +26,6 @@
     SUBDIR += jetpack
     SUBDIR += kdegames
     SUBDIR += klondike
-    SUBDIR += kmines
-    SUBDIR += ksnake
     SUBDIR += ktamaga
     SUBDIR += lincity
     SUBDIR += nethack
