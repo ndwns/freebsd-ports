@@ -36,7 +36,8 @@ do-fetch:
 
 # Remove a test that's too clever for its own good
 post-extract:
-	@${RM} ${WRKDIR}/src/lib/sfio/Sfio_t/tmmap2read.c
+	@${MV} ${WRKDIR}/src/lib/sfio/Sfio_t/tmmap2read.c \
+		${WRKDIR}/src/lib/sfio/Sfio_t/.tmmap2read.c
 
 do-build:
 	@cd ${WRKDIR}/src/lib/sfio && ${MAKE} all -f makefile
