@@ -21,6 +21,7 @@
     SUBDIR += qt
     SUBDIR += rxvt
     SUBDIR += specJava
+    SUBDIR += stars
     SUBDIR += sxpc
     SUBDIR += tk
     SUBDIR += tk4
