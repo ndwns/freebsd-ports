@@ -16,7 +16,16 @@ MAINTAINER=	usagi@clave.gr.jp
 USE_X_PREFIX=	yes
 WRKSRC=         ${WRKDIR}/knj10-1.00
 
+FONTSDIR=	lib/X11/fonts/local
+MAKE_ENV=	FONTSDIR=${FONTSDIR}
+PLIST_SUB=	FONTSDIR=${FONTSDIR}
+
+pre-install:
+	@${SETENV} PKG_PREFIX=${PREFIX} \
+		${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
+
 post-install:
+	@(cd ${PREFIX}/${FONTSDIR} ; mkfontdir)
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/naga10
 	@${CP} ${WRKSRC}/README ${PREFIX}/share/doc/naga10/

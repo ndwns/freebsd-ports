@@ -21,9 +21,16 @@ USE_X_PREFIX=	yes
 NO_WRKSUBDIR=	yes
 EXTRACT_ONLY=	elisau10.tgz
 
-MAKE_ENV+=	DISTDIR=${DISTDIR}
+FONTSDIR=	lib/X11/fonts/local
+MAKE_ENV=	DISTDIR=${DISTDIR} FONTSDIR=${FONTSDIR}
+PLIST_SUB=	FONTSDIR=${FONTSDIR}
+
+pre-install:
+	@${SETENV} PKG_PREFIX=${PREFIX} \
+		${SH} ${PKGDIR}/REQ ${PKGNAME} INSTALL
 
 post-install:
+	@(cd ${PREFIX}/${FONTSDIR} ; mkfontdir)
 .if !defined(NOPORTDOCS)
 	@${MKDIR} ${PREFIX}/share/doc/elisa8
 	@${CP} ${WRKSRC}/elisa100.doc ${PREFIX}/share/doc/elisa8/
