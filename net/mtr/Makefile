@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	mtr-0.37
+DISTNAME=	mtr-0.39
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.bitwizard.nl/mtr/ \
 		http://www.giovannelli.it/~gmarco/files/
