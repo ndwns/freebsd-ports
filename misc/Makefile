@@ -21,6 +21,7 @@
     SUBDIR += ical
     SUBDIR += isearch
     SUBDIR += ispell
+    SUBDIR += jive
     SUBDIR += kp
     SUBDIR += less
     SUBDIR += linuxls
