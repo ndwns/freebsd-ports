@@ -8,13 +8,9 @@
 
 DISTNAME=	DBI-0.73
 PKGNAME=	p5-DBI-0.73
-CATEGORIES+=	databases
-MASTER_SITES=	ftp://ftp.digital.com/pub/plan/perl/CPAN/modules/by-module/DBI/ \
-		ftp://ftp.cdrom.com/pub/perl/CPAN/modules/by-module/DBI/ \
-		ftp://ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-module/DBI/ \
-		ftp://ftp.leo.org/pub/comp/programming/languages/perl/CPAN/modules/by-module/DBI/ \
-		ftp://ftp.demon.co.uk/pub/mirrors/perl/CPAN/modules/by-module/DBI/ \
-		ftp://ftp.lab.kdd.co.jp/lang/perl/CPAN/modules/by-module/DBI/
+CATEGORIES=	databases
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
+MASTER_SITE_SUBDIR=	DBI
 
 MAINTAINER=	jfitz@FreeBSD.ORG
 
