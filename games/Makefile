@@ -14,6 +14,7 @@
    SUBDIR += xchomp
    SUBDIR += xemeraldia
    SUBDIR += xevil
+   SUBDIR += xgalaga
    SUBDIR += xinvaders
    SUBDIR += xjewel
    SUBDIR += xkobo
