@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	pdksh-5.2.6
+DISTNAME=	pdksh-5.2.7
 CATEGORIES+=	shells
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 
