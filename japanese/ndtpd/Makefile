@@ -33,6 +33,7 @@ APPENDIXFILES=	chujiten-2.3.tar.gz \
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
+DIST_SUBDIR=	ndtpd
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--localstatedir=/var --enable-ja-info
 CONFIGURE_ENV=	INSTALL_SCRIPT="${INSTALL_SCRIPT}" \
@@ -45,7 +46,7 @@ post-install:
 	    dir="`echo $$i | ${SED} 's/\.tar\.gz$$//'`"; \
 	    ${RM} -rf ${PREFIX}/${APPENDIXDIR}/$$dir; \
 	    (cd ${PREFIX}/${APPENDIXDIR} && ${EXTRACT_CMD} \
-		${EXTRACT_BEFORE_ARGS} ${DISTDIR}/$$i ${EXTRACT_AFTER_ARGS}); \
+		${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${DIST_SUBDIR}/$$i ${EXTRACT_AFTER_ARGS}); \
 	done
 	if [ ! -f ${PREFIX}/info/dir ]; then \
 	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
@@ -61,7 +62,7 @@ plist: extract
 	${CAT} ${PKGDIR}/PLIST.top > ${PKGDIR}/PLIST
 	for i in ${APPENDIXFILES}; do \
 	    (cd ${WRKDIR}; \
-		${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/$$i \
+		${EXTRACT_CMD} ${EXTRACT_BEFORE_ARGS} ${DISTDIR}/${DIST_SUBDIR}/$$i \
 		    ${EXTRACT_AFTER_ARGS}; \
 		find "`echo $$i | ${SED} 's/\.tar\.gz$$//'`" -type f -print \
 		    | ${SED} 's;^;${APPENDIXDIR}/;' >> ${PKGDIR}/PLIST); \
