@@ -113,8 +113,8 @@
 #				  for it and go into "dir" to do a "make all install"
 #				  if it's not found.
 # BUILD_DEPENDS - A list of "prog:dir" pairs of other ports this
-#				  package depends to build (somewhere between the
-#				  "extract" to "build" stage).  "prog" is the name
+#				  package depends to build (between the "extract"
+#				  and "build" stages, inclusive).  "prog" is the name
 #				  of an executable.  make will search your $PATH for
 #				  it and go into "dir" to do a "make all install" if
 #				  it's not found.
