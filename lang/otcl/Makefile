@@ -14,8 +14,7 @@ MAINTAINER=	obonilla@fisicc-ufm.edu
 
 LIB_DEPENDS=    tk80.1:${PORTSDIR}/x11-toolkits/tk80
 
-USE_XLIB=	yes
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--includedir=${PREFIX}/include/tcl8.0/generic
+
 .include <bsd.port.mk>
