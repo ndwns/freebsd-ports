@@ -33,13 +33,6 @@ pre-extract:
 		@${ECHO} "You can make Netscape use 128-bit encryption by defining USE_128BIT"
 .endif	# USE_128BIT
 
-.if !defined(MULTIVERSION)
-		@${ECHO} "you can define MULTIVERSION to install the script which runs communicator-v45"
-		@${ECHO} "as ${BINDIR}/communicator-4.5 rather than ${BINDIR}/netscape."
-		@${ECHO} "You may find this useful if you want to run the stable and pre release versions"
-		@${ECHO} "concurrently."
-.endif
-
 post-configure:
 	${SED}	-e "s;@X11BASE@;${X11BASE};g" \
 		-e "s;@PREFIX@;${PREFIX};g" \
