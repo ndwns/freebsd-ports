@@ -13,6 +13,7 @@ DISTFILES=
 MAINTAINER=	jdp@FreeBSD.org
 
 RUN_DEPENDS=	${PREFIX}/sbin/cvsupd:${PORTSDIR}/net/cvsup
+
 NO_WRKSUBDIR=	true
 NO_CHECKSUM=	true
 NO_PATCH=	true
