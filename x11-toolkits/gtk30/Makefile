@@ -15,7 +15,7 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.1/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-LIB_DEPENDS=	glib11\\.0\\.:${PORTSDIR}/devel/glib
+LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

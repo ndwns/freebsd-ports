@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.gnome.org/pub/ORBit/
 
 MAINTAINER=	clkao@CirX.ORG
 
-LIB_DEPENDS=	glib11\\.0\\.:${PORTSDIR}/devel/glib
+LIB_DEPENDS=	glib11.0:${PORTSDIR}/devel/glib
 
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
