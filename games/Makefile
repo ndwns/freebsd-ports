@@ -1,10 +1,10 @@
 # $Id$
 #
-# BROKEN = xchomp xmj xpipeman xrobots
+# BROKEN = xpipeman xrobots
 #
 SUBDIR= acm golddig jetpack nethack oneko xasteroids xboard xboing \
-	xemeraldia xevil xinvaders \
-	xjewel xlife xmille xmine xminesweep xmris xonix xrisk xsol \
+	xchomp xemeraldia xevil xinvaders \
+	xjewel xlife xmille xmine xminesweep xmj xmris xonix xrisk xsol \
 	xtetris
 
 .include <bsd.port.subdir.mk>
