@@ -63,7 +63,11 @@ pre-configure:
 	( cd ${WRKDIR}/apache_1.2.1/src \
 	&& echo "Module php_module mod_php.o" \
 	>> Configuration \
+.if ${PHP_DBTYPE} == msql
 	&& echo "EXTRA_LIBS=-lmd libphp.a -L/usr/local/lib -lmsql -lgd -lm" \
+.else
+	&& echo "EXTRA_LIBS=-lmd libphp.a -L/usr/local/lib/mysql -lmysql -L/usr/local/lib -lgd -lm" \
+.endif
 	>> Configuration )
 
 post-install:
