@@ -34,6 +34,7 @@
     SUBDIR += gv
     SUBDIR += html2latex
     SUBDIR += html2ps
+    SUBDIR += jadetex
     SUBDIR += klyx
     SUBDIR += latex
     SUBDIR += lout
