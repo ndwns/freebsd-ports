@@ -5,6 +5,10 @@
 oopath=%%PREFIX%%/OpenOffice.org1.0/program/
 program=`echo $0 | sed -e 's|.*-||'`
 
+if [ ! $LANG ]; then
+	export LANG=%%LANG%%
+fi
+
 case $program in
 $0)
 	exec $oopath/soffice "$@"
