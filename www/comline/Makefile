@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	WWW
-PKGNAME=        comline_4.0p7
+PKGNAME=        comline-4.0p7
 CATEGORIES+=	www
 MASTER_SITES=   ftp://ftp.w3.org/pub/comline/ \
 		ftp://ftp.w3.org/pub/libwww/
