@@ -8,7 +8,7 @@
 
 DISTNAME=	PortScanner-1.0
 PKGNAME=	portscanner-1.0
-CATEGORIES=	net
+CATEGORIES=	net security
 MASTER_SITES=	http://www.ameth.org/~veilleux/ \
 		http://www.FreeBSD.org/~billf/
 
