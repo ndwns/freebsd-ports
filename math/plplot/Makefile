@@ -13,6 +13,11 @@ MASTER_SITES=	ftp://dino.ph.utexas.edu/plplot/distrib/alpha/
 
 MAINTAINER=	tg@FreeBSD.ORG
 
+OSVERSION!=	sysctl -n kern.osreldate
+.if ${OSVERSION} >= 300000
+BROKEN=		"A variable definition is missing from tcl headers.  This may be broken under 2.2.X as well."
+.endif
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+= --with-gcc=yes --with-double=yes
 
