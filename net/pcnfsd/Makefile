@@ -19,4 +19,7 @@ MANCOMPRESSED=	maybe
 
 NO_WRKSUBDIR=
 
+post-extract:
+	${CP} ${FILESDIR}/Makefile.inc ${WRKSRC}
+
 .include <bsd.port.mk>
