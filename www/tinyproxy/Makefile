@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	tinyproxy-1.2.6
+DISTNAME=	tinyproxy-1.2.7
 CATEGORIES=	www
 MASTER_SITES=	http://tinyproxy.attacca.com/ \
 		http://www.flarenet.com/tinyproxy/
