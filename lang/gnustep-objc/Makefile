@@ -27,6 +27,8 @@ RUN_DEPENDS=	egcc:${PORTSDIR}/lang/egcs
 CC=		egcc
 .endif
 
+BROKEN=		"Hardcoded freebsd release numbers in PLIST"
+
 WRKSRC=		${WRKDIR}/gstep-0.5.5
 PREFIX=		${LOCALBASE}/GNUstep
 GNU_CONFIGURE=	yes
