@@ -196,7 +196,7 @@ while [ "$1" ]; do
 				rm -f ${WRKDIRPREFIX}${CURDIR}/Makefile.inc
 				exit 1
 			fi
-			echo "LIB_DEPENDS+=	ldap.1:\${PORTSDIR}/net/openldap"
+			echo "LIB_DEPENDS+=	ldap.1:\${PORTSDIR}/net/openldap12"
 			CPPFLAGS="${CPPFLAGS} -I\${LOCALBASE}/include"
 			LDFLAGS="${LDFLAGS} -L\${LOCALBASE}/lib"
 			WITH_LDAP="--with-authldap"
