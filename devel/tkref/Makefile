@@ -8,7 +8,8 @@
 
 DISTNAME=	tkref-1.01
 CATEGORIES=	devel x11
-MASTER_SITES=	${MASTER_SITE_LOCAL}
+MASTER_SITES=	http://gtcs.com/softdist/ \
+		${MASTER_SITE_LOCAL}
 
 MAINTAINER=	bgingery@gtcs.com
 
