@@ -29,7 +29,6 @@
     SUBDIR += crossfire
     SUBDIR += dontspace
     SUBDIR += doom
-    SUBDIR += doomsrc
     SUBDIR += empire
     SUBDIR += fkiss
     SUBDIR += flying
@@ -58,6 +57,7 @@
     SUBDIR += ladder
     SUBDIR += libshhcards
     SUBDIR += lincity
+    SUBDIR += linuxdoom
     SUBDIR += maelstrom
     SUBDIR += mangband
     SUBDIR += merlin
