@@ -1,13 +1,13 @@
 # New ports collection makefile for:    snes9x
-# Version required:     118e
+# Version required:     119a
 # Date created:         20 July 1997
 # Whom:                 Yukihiro Nakai<Nakai@Mlab.t.u-tokyo.ac.jp>
 #
 # $Id$
 #
 
-DISTNAME=	snes118e
-PKGNAME=	snes9x-118e
+DISTNAME=	s9x119asrc
+PKGNAME=	snes9x-119a
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.snes9x.com/zips/
 
