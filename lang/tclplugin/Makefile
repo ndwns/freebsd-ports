@@ -15,7 +15,6 @@ MAINTAINER=	andreas@FreeBSD.ORG
 
 RUN_DEPENDS=	netscape:${PORTSDIR}/www/netscape4-communicator
 
-NO_PACKAGE=	yes
 WRKSRC=		${WRKDIR}/tclplugin2.0/plugin2.0/unix
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tcl=${WRKDIR}/tclplugin2.0/tcl8.0/unix \
