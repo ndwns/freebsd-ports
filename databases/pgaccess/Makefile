@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pgaccess
-PKGNAME=	pgaccess-0.51
+PKGNAME=	pgaccess-0.52
 CATEGORIES=	databases
 MASTER_SITES=	http://www.flex.ro/pgaccess/
 
