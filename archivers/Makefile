@@ -3,6 +3,7 @@
 
     SUBDIR += arc
     SUBDIR += bzip
+    SUBDIR += bzip2
     SUBDIR += freeze
     SUBDIR += gshar+gunshar
     SUBDIR += ha
