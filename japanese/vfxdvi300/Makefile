@@ -9,8 +9,7 @@
 DISTNAME=	xdvi-17
 PKGNAME=	ja-vfxdvi${RESOLUTION}-17
 CATEGORIES=	japanese print
-MASTER_SITES=	ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi17/ \
-		ftp://bacchus.in.kobe-u.ac.jp/pub/tex/dviware/xdvi18/ \
+MASTER_SITES=	http://www.jp.FreeBSD.org/~mita/LOCAL_PORTS/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Sep/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Oct/ \
 		ftp://ftp.hipecs.hokudai.ac.jp/pub/news-archive/fj.comp.texhax/volume95/Nov/
@@ -20,7 +19,7 @@ DISTFILES=	xdvi-17.tar.gz xdvi-17miyu.patch-beta6.gz \
 
 MAINTAINER=	mita@jp.FreeBSD.org
 
-LIB_DEPENDS=	VFlib2.23:${PORTSDIR}/japanese/vflib
+LIB_DEPENDS=	VFlib2.24:${PORTSDIR}/japanese/vflib
 RUN_DEPENDS=	${LOCALBASE}/lib/fonts/pk${RESOLUTION}:${PORTSDIR}/print/pkfonts${RESOLUTION}
 
 WRKSRC=		${WRKDIR}
