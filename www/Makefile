@@ -23,6 +23,7 @@
     SUBDIR += netscape301
     SUBDIR += slang-lynx
     SUBDIR += squid
+    SUBDIR += squid11
     SUBDIR += tkHTML
     SUBDIR += tkWWW
     SUBDIR += w3-msql
