@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	blast-1.0-ss-10.10
+DISTNAME=	blast-1.0-ss-10.20
 PKGNAME=	blast-1.0
 CATEGORIES=	x11
 MASTER_SITES=	ftp://hpux.csc.liv.ac.uk/hpux/X11/Demos/blast-1.0/ \
