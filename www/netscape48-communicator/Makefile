@@ -44,7 +44,7 @@ do-install:
 	fi
 	rm -rf ${NDIR}/movemail-src
 .if defined(USE_128BIT) && defined(USA_RESIDENT) && ${USA_RESIDENT} == NO
-	cd ${WRKSRC}/Fortify-1.2.1-unix && \
+	cd ${WRKDIR}/Fortify-1.2.1-unix && \
 		(${ECHO} yes ; ${ECHO} no) | ./Fortify.sh ${NDIR}/communicator-4.05.bin
 .endif
 	chown -R bin.bin ${NDIR}
