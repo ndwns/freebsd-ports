@@ -11,18 +11,19 @@ PKGNAME=	cnet-1.4p3
 CATEGORIES=	net
 MASTER_SITES=	http://www.cs.uwa.edu.au/pls/cnet/
 
-DEPENDS=	${PORTSDIR}/x11/xview-lib
+LIB_DEPENDS=	xview\\.3\\.2:${PORTSDIR}/x11/xview-lib
 
 WRKSRC=		${WRKDIR}/cnet-1.4
 ALL_TARGET=
 MAN1=		cnet.1
+BROKEN=		package
 
 pre-build:
-	cp ${FILESDIR}/Makefile.freebsd ${WRKSRC}/src
-	mkdir -p ${WRKSRC}/src/freebsd
-	cp ${FILESDIR}/compile.c ${WRKSRC}/src/freebsd
+	${CP} ${FILESDIR}/Makefile.freebsd ${WRKSRC}/src
+	${MKDIR} ${WRKSRC}/src/freebsd
+	${CP} ${FILESDIR}/compile.c ${WRKSRC}/src/freebsd
 
 pre-install:
-	mkdir -p ${PREFIX}/share/examples/cnet
+	${MKDIR} ${PREFIX}/share/examples/cnet
 
 .include <bsd.port.mk>
