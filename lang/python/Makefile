@@ -48,6 +48,7 @@ SETUP_LOCAL=	Setup.tk
 WITH_THREADS?=	yes
 .if exists(/usr/lib/libc_r.a) && defined(WITH_THREADS) && ${WITH_THREADS} == yes
 CONFIGURE_ARGS+=	--with-thread
+CFLAGS+=		-D_THREAD_SAFE
 .endif
 
 #
