@@ -7,6 +7,7 @@
 #
 
 DISTNAME=       ilu-2.0alpha11
+PKGNAME=	ilu-2.0a11
 CATEGORIES=     devel
 MASTER_SITES=   ftp://parcftp.xerox.com/pub/ilu/2.0a11/
 
