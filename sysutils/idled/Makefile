@@ -10,10 +10,10 @@ DISTNAME=	idled-1.16
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.cs.hope.edu/pub/idled/
 
-MAINTAINER=     andrew@ugh.net.au, iain@ugh.net.au
+MAINTAINER=     andrew@ugh.net.au
 
 NO_CDROM=	non-profit use and distribution only
-NOMANCOMPRESS=	compressed already
+MANCOMPRESSED=	yes
 MAN5=		idled.cf.5
 MAN8=		idled.8
 
