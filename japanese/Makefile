@@ -47,10 +47,8 @@
     SUBDIR += sj3
     SUBDIR += sjxa
     SUBDIR += skk
-    SUBDIR += tcl
     SUBDIR += tcl75
     SUBDIR += tgif
-    SUBDIR += tk
     SUBDIR += tk41
     SUBDIR += today
     SUBDIR += vfghostscript
