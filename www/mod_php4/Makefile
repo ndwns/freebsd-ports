@@ -36,7 +36,7 @@ MAINTAINER=	dirk@FreeBSD.ORG
 Y2K=		http://www.php.net/y2k.php3
 
 VERSION_APACHE=	1.3.6
-VERSION_PHP3=	3.0.9
+VERSION_PHP3=	3.0.10
 
 USE_PERL5=	yes
 HAS_CONFIGURE=	yes
