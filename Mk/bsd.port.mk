@@ -473,7 +473,7 @@ do-fetch:
 		if [ ! -f $$file -a ! -f `/usr/bin/basename $$file` ]; then \
 			${ECHO_MSG} ">> $$file doesn't seem to exist on this system."; \
 			for site in ${MASTER_SITES}; do \
-			    ${ECHO_MSG} ">> Attempting to fetch from $${site}"; \
+			    ${ECHO_MSG} ">> Attempting to fetch from $${site}."; \
 				(${NCFTP} ${NCFTPFLAGS} $${site}$${file} || true); \
 				if [ -f $$file -o -f `/usr/bin/basename $$file` ]; then \
 					continue 2; \
