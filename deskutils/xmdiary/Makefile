@@ -23,7 +23,7 @@ MAN1=		xdaclunix.1 xdalarm.1 xdcustom.1 xddump.1 xdiary.1 xdinitdb.1 \
 		xdrestore.1
 
 pre-patch:
-	for node in `tar tzf ${DISTDIR}/xmdfix.gz` ; \
+	@for node in `tar tzf ${DISTDIR}/xmdfix.gz` ; \
 	do \
 		test -f $(WRKSRC)/$$node && ${RM} -f $(WRKSRC)/$$node ; \
 	done
