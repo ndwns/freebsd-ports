@@ -9,7 +9,7 @@
 DISTNAME=       DHCPD-BETA-0
 PKGNAME=	isc-dhcp-b0
 CATEGORIES+=	net
-MASTER_SITES=   ftp://www.isc.org/pub/dhcp/
+MASTER_SITES=   ftp://ftp.vix.com/pub/dhcp/
 
 MAINTAINER=	se@FreeBSD.ORG
 
