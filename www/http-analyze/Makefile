@@ -10,7 +10,7 @@ DISTNAME=       http-analyze2.01
 PKGNAME=        http-analyze-2.01
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.rent-a-guru.de/pub/http-analyze2.01/
-DISTFILES=	http-analyze2.01-src.tar.gz
+EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
