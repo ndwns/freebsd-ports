@@ -1,16 +1,17 @@
 # New ports collection makefile for:    vile
-# Version required:     6.1
-# Date created:         Fri Jun 21, 1996
+# Version required:     6.3
+# Date created:         Wed Nov 26, 1996
 # Whom:                 pgf
 #
 # $Id$
 #
 
-DISTNAME=       vile-6.1
+DISTNAME=	vile-6.3
 CATEGORIES=	editors
-MASTER_SITES=   ftp://id.wing.net/pub/pgf/vile/
+MASTER_SITES=   ftp://ftp.clark.net/pub/dickey/vile/
+EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	pgf@foxharp.boston.ma.us
 
 MAKEFILE=	makefile
 GNU_CONFIGURE=	yes
