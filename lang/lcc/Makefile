@@ -29,8 +29,9 @@ pre-configure:
 	     -e "s:%%LCCDESTDIR%%:${LCCDESTDIR}:g"  \
 	     -e "s:%%VERSION%%:${DISTNAME}:g"  \
 		${FILESDIR}/${OPSYS}.c.in > ${WRKSRC}/etc/${OPSYS}.c
-	@sed -e "s:%%LCCDESTDIR%%:${LCCDESTDIR}:g"  \
-		${PKGDIR}/PLIST.in > ${PKGDIR}/PLIST
+	@#	below can be used to patchup PLIST file for diff os/arch
+	@#sed -e "s:%%LCCDESTDIR%%:${LCCDESTDIR}:g"  \
+		#${PKGDIR}/PLIST.in > ${PKGDIR}/PLIST
 	@sed -e "s:%%OPSYS%%:${OPSYS}:g"  \
 		${WRKSRC}/makefile > ${WRKSRC}/makefile.configured
 	@/bin/mv -f ${WRKSRC}/makefile.configured ${WRKSRC}/makefile
