@@ -14,7 +14,7 @@ EXTRACT_SUFX=   .tar.Z
 MASTER_SITES=	ftp://ftp.ncsa.uiuc.edu/Web/Mosaic/Unix/source/
 
 LIB_DEPENDS+=   jpeg\\.6\\.:${PORTSDIR}/graphics/jpeg
-LIB_DEPENDS+=   png\\.0\\.81:${PORTSDIR}/graphics/png
+LIB_DEPENDS+=   png\\.0\\.:${PORTSDIR}/graphics/png
 WRKSRC=		${WRKDIR}/Mosaic-src
 ALL_TARGET=	default
 
