@@ -15,6 +15,7 @@
     SUBDIR += mtools
     SUBDIR += pcemu
     SUBDIR += prodosemu
+    SUBDIR += sim
     SUBDIR += sim6811
     SUBDIR += snes9x
     SUBDIR += spim
