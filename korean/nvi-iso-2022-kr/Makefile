@@ -20,4 +20,4 @@ CATEGORIES=	korean editors
 
 MAINTAINER=	itojun@itojun.org
 
-CONFIGURE_ARGS=	--enable-multibyte=iso-2022-kr --program-prefix=n
+CONFIGURE_ARGS+=	--enable-multibyte=iso-2022-kr --program-prefix=n

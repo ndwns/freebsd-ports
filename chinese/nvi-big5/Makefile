@@ -20,4 +20,4 @@ CATEGORIES=	chinese editors
 
 MAINTAINER=	itojun@itojun.org
 
-CONFIGURE_ARGS=	--enable-multibyte=big5 --program-prefix=n
+CONFIGURE_ARGS+=	--enable-multibyte=big5 --program-prefix=n

@@ -22,4 +22,4 @@ CATEGORIES=	japanese editors
 
 MAINTAINER=	itojun@itojun.org
 
-CONFIGURE_ARGS=	--enable-multibyte=iso-2022-jp --program-prefix=n --enable-canna
+CONFIGURE_ARGS+=	--enable-multibyte=iso-2022-jp --program-prefix=n --enable-canna
