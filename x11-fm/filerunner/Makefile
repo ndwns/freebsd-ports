@@ -22,11 +22,11 @@ MAKE_ENV+=	X11BASE=${X11BASE}
 
 pre-build:
 	@ ${RM} ${WRKSRC}/ext.so
-	@ cp ${WRKSRC}/Makefiles/Makefile.freebsd ${WRKSRC}
+	@ ${CP} ${WRKSRC}/Makefiles/Makefile.freebsd ${WRKSRC}
 
 do-install:
-	@ ${MKDIR} -p ${PREFIX}/lib/FileRunner
-	@ ${MKDIR} -p ${PREFIX}/lib/FileRunner/bitmaps
+	@ ${MKDIR} ${PREFIX}/lib/FileRunner
+	@ ${MKDIR} ${PREFIX}/lib/FileRunner/bitmaps
 	@ ${INSTALL_SCRIPT} ${WRKSRC}/fr ${PREFIX}/lib/FileRunner
 	@ ln -sf ${PREFIX}/lib/FileRunner/fr ${PREFIX}/bin
 	@ for file in FAQ QuickStart.txt Users_Guide.txt chmod.tcl cmd.tcl config.tcl dialog_about.tcl ext.so font.tcl frcolor frftp ftp.tcl palette.tcl tclIndex; do \
