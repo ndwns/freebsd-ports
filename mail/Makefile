@@ -9,6 +9,7 @@
     SUBDIR += mailagent
     SUBDIR += majordomo
     SUBDIR += metamail
+    SUBDIR += mew
     SUBDIR += mh
     SUBDIR += mpack
     SUBDIR += mutt
