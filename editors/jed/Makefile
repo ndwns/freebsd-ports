@@ -15,6 +15,8 @@ PATCH_SITES=   ftp://space.mit.edu/pub/davis/jed/
 PATCHFILES=    BUGS
 PATCH_DIST_STRIP=	-p1
 
+BROKEN_ELF=	libslang.so: undefined reference to tgetnum
+
 MAINTAINER=     eric@cybernut.com
 
 LIB_DEPENDS=	slang.1:${PORTSDIR}/devel/libslang
