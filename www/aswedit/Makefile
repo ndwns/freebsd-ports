@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	asWedit-4.0-i386.linux
-PKGNAME=	asWedit-4.0
+PKGNAME=	asWedit-4.0.1
 CATEGORIES=	editors www
 MASTER_SITES=	http://www.advasoft.com/asWedit/ \
 		ftp://sunsite.doc.ic.ac.uk/packages/www/asWedit/ \
@@ -22,7 +22,7 @@ ONLY_FOR_ARCHS=	i386
 RESTRICTED=     "Commercial software"
 NO_BUILD=	yes
 NO_PACKAGE=	${RESTRICTED}
-WRKSRC=         ${WRKDIR}/asWedit-4.0
+WRKSRC=         ${WRKDIR}/asWedit-4.0.1
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/asWedit ${PREFIX}/bin
