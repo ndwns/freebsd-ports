@@ -14,10 +14,4 @@ EXTRACT_SUFX=	.tar.Z
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
-pre-install:
-	   mkdir -p ${PREFIX}/bin
-	   mkdir -p ${PREFIX}/etc
-	   mkdir -p ${PREFIX}/man/man1
-	   mkdir -p ${PREFIX}/man/man4
-
 .include <bsd.port.mk>

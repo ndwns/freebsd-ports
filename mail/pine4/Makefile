@@ -10,6 +10,6 @@ DISTNAME=	pine3.91
 PKGNAME=	pine-3.91
 CATEGORIES+=	mail
 MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
-EXTRACT_SUFX=.tar.Z
+EXTRACT_SUFX=	.tar.Z
 
 .include <bsd.port.mk>

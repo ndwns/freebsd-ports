@@ -12,7 +12,6 @@ CATEGORIES+=	mail
 MASTER_SITES=	ftp://dsinc.myxa.com/pub/elm/
 EXTRACT_SUFX=	.tar.Z
 
-WRKDIR=		work
 NO_WRKSUBDIR=	yes
 IS_INTERACTIVE=	yes
 NO_PACKAGE=	yes
