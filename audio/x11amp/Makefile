@@ -1,6 +1,6 @@
 # New ports collection makefile for:    x11amp
-# Version required:     0.33b6.1
-# Date created:         8 Feb 1998
+# Version required:     0.7
+# Date created:         13 Jul 1998
 # Whom:                 Donald Burr <dburr@FreeBSD.ORG>
 #
 # $Id$
