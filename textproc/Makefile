@@ -16,7 +16,6 @@
     SUBDIR += par
     SUBDIR += pilot_makedoc
     SUBDIR += rman
-    SUBDIR += rot13
     SUBDIR += sgmlformat
     SUBDIR += sp
     SUBDIR += unroff
