@@ -26,7 +26,7 @@ WRKSRC=		${WRKDIR}/apsfilter
 
 # make a2ps port happy in this early stage
 .if defined(BATCH)
-	@${SETENV} PAPERSIZE=letter
+PAPERSIZE?=	letter
 .endif
 .if ${PAPERSIZE} != a4 && ${PAPERSIZE} != letter && ${PAPERSIZE} != letterdj
 .BEGIN:
