@@ -1,13 +1,13 @@
 # New ports collection makefile for:	p5-Compress-Zlib
-# Version required:			0.50
+# Version required:			1.01
 # Date created:				October 20th 1996
 # Whom:	      				James FitzGibbon <jfitz@FreeBSD.org>
 #
 # $Id$
 #
 
-DISTNAME=	Compress-Zlib-0.50
-PKGNAME=	p5-Compress-Zlib-0.50
+DISTNAME=	Compress-Zlib-1.01
+PKGNAME=	p5-Compress-Zlib-1.01
 CATEGORIES=	archivers perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=	Compress
