@@ -1,12 +1,12 @@
 # New ports collection makefile for:	sitecopy
-# Version required:     0.5.*
+# Version required:     0.6.*
 # Date created:		15 January 1999
 # Whom:			nik
 #
 # $Id$
 #
 
-DISTNAME=       sitecopy-0.5.1
+DISTNAME=       sitecopy-0.6.0
 CATEGORIES=	www
 MASTER_SITES=   http://www.lyra.org/sitecopy/
 
