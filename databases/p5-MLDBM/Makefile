@@ -1,13 +1,13 @@
 # New ports collection makefile for:    p5-MLDBM
-# Version required:                     1.24
+# Version required:                     1.25
 # Date created:                         December 3 1997
 # Whom:                                 ache@freebsd.org
 #
-#   $Id$
+# $Id$
 #
 
-DISTNAME=       MLDBM-1.24
-PKGNAME=        p5-MLDBM-1.24
+DISTNAME=       MLDBM-1.25
+PKGNAME=        p5-MLDBM-1.25
 CATEGORIES=	databases perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN}
 MASTER_SITE_SUBDIR=     MLDBM
