@@ -1,5 +1,4 @@
 # New ports collection makefile for:    hpack.with_encryption
-# Using this code inside USA you violate RSA copyright
 # Version required:     0.79a0
 # Date created:         7 Jan 1995
 # Whom:                 ache
@@ -15,6 +14,7 @@ EXTRACT_SUFX=   .tar.Z
 
 MAINTAINER=     ache@FreeBSD.ORG
 
+RESTRICTED=	"Using this code inside USA will violate RSA copyright."
 NO_WRKSUBDIR=	yes
 MAKEFILE=       makefile
 ALL_TARGET=     freebsd
