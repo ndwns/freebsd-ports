@@ -1,23 +1,20 @@
 # New ports collection makefile for:	IrcII Client
-# Version required:	2.8.2
+# Version required:	2.8.16beta
 # Date created:		18 Oct 1994
 # Whom:			torstenb
 #
 # $Id$
 #
 
-DISTNAME=	ircii-2.8.2
+DISTNAME=	ircii-2.8.16beta
 CATEGORIES+=	net
 MASTER_SITES=	ftp://cs-ftp.bu.edu/irc/clients/
-DISTFILES=	ircii-2.8.2.tar.gz ircii-2.8help.tar.gz
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
 
 post-install:
-	cp -R ${WRKDIR}/help ${PREFIX}/lib/irc/
-	install -c ${WRKDIR}/${DISTNAME}/doc/ircII.1 ${PREFIX}/man/man1/irc.1
-	gzip -9nf ${PREFIX}/man/man1/irc.1
+	gzip -9nf ${PREFIX}/man/man1/ircII.1 ${PREFIX}/man/man1/ircbug.1
 
 .include <bsd.port.mk>
