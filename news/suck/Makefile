@@ -8,7 +8,7 @@
 
 DISTNAME=	suck-3.9.1
 CATEGORIES=	news
-MASTER_SITES=	http://www.pixi.com/~boby/
+MASTER_SITES=	http://home.att.net/~bobyetman/
 
 MAINTAINER=	jseger@FreeBSD.org
 
