@@ -1,0 +1,10 @@
+--- gadfly/scripts/gfserver.py.orig	Sat May 11 15:28:35 2002
++++ gadfly/scripts/gfserver.py	Thu Apr 29 16:23:09 2004
+@@ -66,6 +66,7 @@
+ # $Id$
+ 
+ import sys
++from gadfly.server import Server
+ 
+ def main():
+     """start up the server."""
