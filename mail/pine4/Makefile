@@ -1,4 +1,5 @@
 # New ports collection makefile for:	pine
+# http://www.washington.edu/pine/
 # Version required:	3.95
 # Date created:		03 September 1994
 # Whom:			mr
