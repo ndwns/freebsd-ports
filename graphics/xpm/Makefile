@@ -13,6 +13,6 @@ MASTER_SITES=	ftp://avahi.inria.fr/pub/xpm/
 USE_IMAKE=	yes
 
 post-install:
-	ldconfig -m ${PREFIX}/lib
+	/sbin/ldconfig -m ${PREFIX}/lib
 
 .include <bsd.port.mk>
