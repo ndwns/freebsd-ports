@@ -9,7 +9,7 @@
 DISTNAME=	kdebase-1.0
 CATEGORIES=	x11 kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= stable/1.0/distribution/tgz/generic/source
+MASTER_SITE_SUBDIR= stable/1.0/distribution/tar/generic/source
 
 MAINTAINER=	se@freebsd.org
 
