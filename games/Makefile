@@ -19,6 +19,7 @@
     SUBDIR += spider
     SUBDIR += tksol
     SUBDIR += xasteroids
+    SUBDIR += xbat
     SUBDIR += xbill
     SUBDIR += xblackjack
     SUBDIR += xboard
