@@ -12,8 +12,8 @@ MASTER_SITES=   http://glade.pn.org/
 
 MAINTAINER=     dom@myrddin.demon.co.uk
 
-BUILD_DEPENS=	gettext:${PORTSDIR}/devel/gettext
-LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11
+LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
+		intl.1:${PORTSDIR}/devel/gettext
 
 USE_X_PREFIX=	yes
 GNU_CONFIGURE=	yes

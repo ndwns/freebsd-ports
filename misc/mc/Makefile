@@ -13,9 +13,8 @@ MASTER_SITE_SUBDIR=	gnome-1.0/sources
 
 MAINTAINER=	reg@shale.csir.co.za
 
-BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-RUN_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-LIB_DEPENDS=	glib12.1:${PORTSDIR}/devel/glib12
+LIB_DEPENDS=	glib12.1:${PORTSDIR}/devel/glib12 \
+		intl.1:${PORTSDIR}/devel/gettext
 
 .if defined(USE_NCURSES_PORT)
 LIB_DEPENDS+=	ncurses.4:${PORTSDIR}/devel/ncurses

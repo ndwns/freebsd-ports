@@ -23,9 +23,9 @@ LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		png.3:${PORTSDIR}/graphics/png \
 		tiff.4:${PORTSDIR}/graphics/tiff34 \
-		PropList.1:${PORTSDIR}/devel/libPropList
-BUILD_DEPENDS=	${LOCALBASE}/lib/libintl.a:${PORTSDIR}/devel/gettext \
-		nkf:${PORTSDIR}/japanese/nkf
+		PropList.1:${PORTSDIR}/devel/libPropList \
+		intl.1:${PORTSDIR}/devel/gettext
+BUILD_DEPENDS=	nkf:${PORTSDIR}/japanese/nkf
 
 USE_PERL5=	yes
 USE_X_PREFIX=	yes

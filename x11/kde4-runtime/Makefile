@@ -16,9 +16,8 @@ MAINTAINER=	se@freebsd.org
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
 		kdecore.2:${PORTSDIR}/x11/kdelibs11 \
-		Xpm.4:${PORTSDIR}/graphics/xpm
-BUILD_DEPENDS=	msgfmt:${PORTSDIR}/devel/gettext
-RUN_DEPENDS=	msgfmt:${PORTSDIR}/devel/gettext
+		Xpm.4:${PORTSDIR}/graphics/xpm \
+		intl.1:${PORTSDIR}/devel/gettext
 
 USE_BZIP2=	yes
 USE_QT=		yes

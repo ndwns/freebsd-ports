@@ -12,9 +12,8 @@ MASTER_SITES=	http://home.sprintmail.com/~granroth/kbiff/
 
 MAINTAINER=	andreas@FreeBSD.ORG
 
-BUILD_DEPENDS=	msgfmt:${PORTSDIR}/devel/gettext
 LIB_DEPENDS=	kdeui.1:${PORTSDIR}/x11/kdelibs \
-		kdecore.1:${PORTSDIR}/x11/kdelibs
+		intl.1:${PORTSDIR}/devel/gettext
 
 USE_QT=		yes
 GNU_CONFIGURE=	yes

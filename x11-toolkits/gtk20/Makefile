@@ -15,9 +15,8 @@ MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.2/ \
 
 MAINTAINER=	vanilla@FreeBSD.ORG
 
-BUILD_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-RUN_DEPENDS=	gettext:${PORTSDIR}/devel/gettext
-LIB_DEPENDS=	glib12.1:${PORTSDIR}/devel/glib12
+LIB_DEPENDS=	glib12.1:${PORTSDIR}/devel/glib12 \
+		intl.1:${PORTSDIR}/devel/gettext
 
 USE_X_PREFIX=	yes
 USE_PERL5=	yes
