@@ -16,5 +16,6 @@ MAINTAINER=	ports@FreeBSD.ORG
 WRKSRC=		${WRKDIR}/xcolors
 USE_IMAKE=	yes
 IGNOREFILES=	${DISTFILES}
+MAN1=		xcolors.1
 
 .include <bsd.port.mk>

@@ -15,5 +15,6 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN1=		xkeycaps.1
 
 .include <bsd.port.mk>

@@ -19,6 +19,7 @@ BROKEN=         Requires an X Display to build
 .endif
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/emu
+MAN1=		emu.1
 
 pre-configure:
 	cd ${WRKSRC}/client ; ln -s ../doc/emu.man .

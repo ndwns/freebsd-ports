@@ -13,5 +13,6 @@ MASTER_SITES=   http://www.freebsd.org/~tg/
 MAINTAINER=     tg@FreeBSD.ORG
 
 USE_IMAKE=	yes
+MAN1=		xwit.1
 
 .include <bsd.port.mk>

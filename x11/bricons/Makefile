@@ -18,6 +18,7 @@ MAINTAINER=     shanee@augusta.de
 LIB_DEPENDS=    Xpm.4:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	yes
+MAN1=		bricons.1
 
 post-install:
 	${INSTALL_DATA} $(WRKDIR)/bricons/Xbricons $(PREFIX)/lib/X11/app-defaults/

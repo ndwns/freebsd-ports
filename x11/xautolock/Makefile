@@ -17,5 +17,6 @@ MAINTAINER=	eblood@cs.unr.edu
 
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/xautolock-pl11
+MAN1=		xautolock.1
 
 .include <bsd.port.mk>

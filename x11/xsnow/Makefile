@@ -15,6 +15,7 @@ EXTRACT_SUFX=	.tar.Z
 MAINTAINER=	jmz@FreeBSD.org
 
 USE_IMAKE=	yes
+MAN6=		xsnow.6
 
 pre-install:
 	@mkdir -p ${PREFIX}/bin

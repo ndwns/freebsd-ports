@@ -16,5 +16,6 @@ EXTRACT_CMD=		zcat
 EXTRACT_BEFORE_ARGS=
 EXTRACT_AFTER_ARGS=	|sh
 USE_IMAKE=	yes
+MAN1=		sxpc.1
 
 .include <bsd.port.mk>

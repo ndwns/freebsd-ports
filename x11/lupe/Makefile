@@ -17,5 +17,6 @@ WRKSRC=		${WRKDIR}/lupe
 USE_GMAKE=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
+MAN1=		lupe.1
 
 .include <bsd.port.mk>

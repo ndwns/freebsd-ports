@@ -15,5 +15,6 @@ DISTFILES=	xantfarm23oct91.tar.gz
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 USE_IMAKE=	yes
+MAN1=		xantfarm.1
 
 .include <bsd.port.mk>

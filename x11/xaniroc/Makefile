@@ -16,6 +16,7 @@ EXTRACT_SUFX=	.src.tar.Z
 MAINTAINER=	sec@42.org
 
 USE_IMAKE=	yes
+MAN1=		xaniroc.1
 
 post-extract:
 	${MV} ${WRKSRC}/manpage.1 ${WRKSRC}/xaniroc.man

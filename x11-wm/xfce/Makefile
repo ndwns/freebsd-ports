@@ -22,5 +22,6 @@ WRKSRC=		${WRKDIR}/XFCE-1.2.4
 USE_GMAKE=	yes
 USE_IMAKE=	yes
 XMKMF=		xmkmf
+MAN1=		XFCE.1
 
 .include <bsd.port.mk>

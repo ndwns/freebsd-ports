@@ -15,5 +15,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	Nakai@Mlab.t.u-tokyo.ac.jp
 
 USE_IMAKE=	yes
+MAN1=		xzoom.1
 
 .include <bsd.port.mk>
