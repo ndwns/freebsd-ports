@@ -9,7 +9,6 @@
 DISTNAME=	kaffe-1.0.b2
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.transvirtual.com/pub/kaffe/
-DISTFILES=	${DISTNAME}.tar.gz
 
 MAINTAINER=	xaa@xaa.iae.nl
 
@@ -21,5 +20,6 @@ MAN1=		kaffe.1
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/ENVIRONMENT ${PREFIX}/share/kaffe
 	${INSTALL_DATA} ${WRKSRC}/license.terms ${PREFIX}/share/kaffe
+	@${CAT} ${PKGDIR}/MESSAGE
 
 .include <bsd.port.mk>
