@@ -3,6 +3,7 @@
 
     SUBDIR += cpmemu
     SUBDIR += cpmtools
+    SUBDIR += fmsx
     SUBDIR += hfs
     SUBDIR += ines
     SUBDIR += linux_lib
