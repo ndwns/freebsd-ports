@@ -13,6 +13,8 @@ MASTER_SITES=	ftp://prep.ai.mit.edu/pub/gnu/ \
 
 MAINTAINER=	asami@FreeBSD.ORG
 
+LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
+
 NO_WRKSUBDIR=	yes
 USE_GMAKE=	yes
 SHELL=		/bin/sh
