@@ -9,7 +9,7 @@
 DISTNAME=	okphone-1.2
 PKGNAME=	ja-okphone-1.2
 CATEGORIES=	japanese net
-MASTER_SITES=	ftp://ftp.kyushu-u.ac.jp/pub/utils/
+MASTER_SITES=	ftp://ftp.fit.ac.jp/pub/Net/okphone/
 
 PATCH_SITES=	ftp://ftp.fit.ac.jp/pub/Net/okphone/patch/
 PATCHFILES=	okphone-1.2.FreeBSD-patch.rev2.gz
