@@ -8,7 +8,7 @@
 
 DISTNAME=       tracker-5.3
 CATEGORIES=     audio
-MASTER_SITES=   ftp://ftp.planix.com/pub/misc/
+MASTER_SITES=   ftp://ftp.uni-trier.de/pub/unix/audio/tracker/
 EXTRACT_SUFX=   .tgz
 
 MAINTAINER=     ache@FreeBSD.ORG
