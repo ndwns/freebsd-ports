@@ -95,6 +95,7 @@
     SUBDIR += portlint
     SUBDIR += prc-tools
     SUBDIR += prcs
+    SUBDIR += re2c
     SUBDIR += sawt
     SUBDIR += scogdb
     SUBDIR += sfio
