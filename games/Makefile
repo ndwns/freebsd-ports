@@ -126,6 +126,7 @@
     SUBDIR += xripple
     SUBDIR += xrisk
     SUBDIR += xroach
+    SUBDIR += xroads
     SUBDIR += xrobots
     SUBDIR += xrubik
     SUBDIR += xscavenger
