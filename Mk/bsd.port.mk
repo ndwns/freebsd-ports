@@ -368,7 +368,11 @@ ${CONFIGURE_COOKIE}:
 	@(cd ${WRKSRC}; ./configure ${CONFIGURE_ARGS})
 .endif
 .if defined(USE_IMAKE)
+.if defined(USE_GMAKE)
+	@(cd ${WRKSRC}; ${XMKMF} && ${GMAKE} Makefiles)
+.else
 	@(cd ${WRKSRC}; ${XMKMF} && ${MAKE} Makefiles)
+.endif
 .endif
 	@if [ -f ${SCRIPTDIR}/post-configure ]; then \
 		env CURDIR=${.CURDIR} DISTDIR=${DISTDIR} WRKDIR=${WRKDIR} \
