@@ -11,6 +11,7 @@
     SUBDIR += jade
     SUBDIR += linuxdoc
     SUBDIR += mgdiff
+    SUBDIR += par
     SUBDIR += pilot_makedoc
     SUBDIR += rman
     SUBDIR += sgmlformat
