@@ -18,7 +18,6 @@
     SUBDIR += p5-Tk
     SUBDIR += pmw
     SUBDIR += pygtk
-    SUBDIR += pythonqt
     SUBDIR += qt
     SUBDIR += qt133
     SUBDIR += qt140
