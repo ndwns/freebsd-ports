@@ -1,6 +1,7 @@
 # $Id$
 #
 
+    SUBDIR += cam
     SUBDIR += gmod
     SUBDIR += gsm
     SUBDIR += maplay
