@@ -6,18 +6,19 @@
 # $Id$
 #
 
-DISTNAME=	korganizer-0.9.13
+DISTNAME=	korganizer-1.1
 CATEGORIES=	deskutils kde
 MASTER_SITES=	$(MASTER_SITE_KDE)
-MASTER_SITE_SUBDIR= unstable/apps/office
+MASTER_SITE_SUBDIR=stable/1.1/distribution/tar/generic/source/bz2
 
 MAINTAINER=	hanspb@persbraten.vgs.no
 
 LIB_DEPENDS=	gif.3:${PORTSDIR}/graphics/giflib \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
-		kdecore.1:${PORTSDIR}/x11/kdelibs \
-		kdeui.1:${PORTSDIR}/x11/kdelibs
+		kdecore.2:${PORTSDIR}/x11/kdelibs11 \
+		kdeui.2:${PORTSDIR}/x11/kdelibs11
 
+USE_BZIP2=	yes
 USE_QT=		yes
 HAS_CONFIGURE=	yes
 USE_GMAKE=	yes
