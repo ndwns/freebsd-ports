@@ -1,5 +1,5 @@
 # $Id$
 #
-SUBDIR= libmytinfo libncurses
+SUBDIR= libmytinfo libncurses dialog
 
 .include <bsd.port.subdir.mk>
