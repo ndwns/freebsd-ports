@@ -8,7 +8,7 @@
 
 DISTNAME=	icewm-0.9.16
 CATEGORIES=	x11-wm
-MASTER_SITES=	http://berta.fri.uni-lj.si/~markom/icewm/devel/
+MASTER_SITES=	http://www.kiss.uni-lj.si/~k4fr0235/icewm/devel/
 EXTRACT_SUFX=	.src.tar.gz
 
 MAINTAINER=	Nakai@technologist.com
