@@ -1,18 +1,18 @@
 # New ports collection makefile for:	beav-1.40.3
-# Version required:	1.40-3 (debian)
+# Version required:	1.40-4 (debian)
 # Date created:		01 July 1995
 # Whom:			thomas@ghpc8.ihf.rwth-aachen.de
 #
 # $Id$
 #
 
-DISTNAME=	beav-140-3
-PKGNAME=	beav-1.40.3
+DISTNAME=	beav-140-4
+PKGNAME=	beav-1.40.4
 CATEGORIES+=	editors
-MASTER_SITES=	ftp://ftp.debian.org/debian/source/editors \\
-		ftp://ftp.uni-heidelberg.de/pub/linux/mirror.tsx11/distributions/debian/source/editors/ \\
-		ftp://extro.ucc.su.oz.au/linux/debian/source/editors/ \\
-		ftp://theta.iis.u-tokyo.ac.jp/pub2/Linux/distributions/debian/source/editors/
+MASTER_SITES=	ftp://ftp.debian.org/debian/debian-0.93/source/editors/ \\
+		ftp://ftp.uni-heidelberg.de/pub/linux/mirror.tsx11/distributions/debian/debian-0.93/source/editors/ \\
+		ftp://extro.ucc.su.oz.au/linux/debian/debian-0.93/source/editors/ \\
+		ftp://theta.iis.u-tokyo.ac.jp/pub2/Linux/distributions/debian/debian-0.93/source/editors/
 
 MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
 
