@@ -6,10 +6,10 @@
 # $Id$
 #
 
-DISTNAME=      gtk+-0.99.10
-PKGNAME=       gtk-0.99.10
+DISTNAME=      gtk+-1.0.0
+PKGNAME=       gtk-1.0.0
 CATEGORIES=    x11
-MASTER_SITES=  ftp://ftp.gimp.org/pub/gtk/v0.99/
+MASTER_SITES=  ftp://ftp.gimp.org/pub/gtk/v1.0/
 
 MAINTAINER=    vanilla@FreeBSD.ORG
 
