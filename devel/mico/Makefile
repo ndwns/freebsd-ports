@@ -14,6 +14,8 @@ MAINTAINER=	scrappy@freebsd.org
 
 LIB_DEPENDS=	gtk.1:${PORTSDIR}/x11-toolkits/gtk
 
+BROKEN=		build
+
 USE_QT=		yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
