@@ -1,8 +1,8 @@
 # ex:ts=8
-# Ports collection makefile for:	egcs
-# Version required: 			1998-09-14
-# Date created:				9 Jan 1998
-# Whom:					John Polstra <jdp@polstra.com>
+# Ports collection makefile for:	pgcc
+# Version required: 			1.1.1
+# Date created:				10 Dec 1998
+# Whom:					David O'Brien <obrien@NUXI.com>
 #
 # $Id$
 #
@@ -25,7 +25,8 @@ PATCHFILES=	egcs-1.1.1-pgcc-1.1.1.diff.gz
 
 MAINTAINER=	obrien@FreeBSD.org
 
-BUILD_DEPENDS=  bzip2:${PORTSDIR}/archivers/bzip2
+BUILD_DEPENDS=  bzip2:${PORTSDIR}/archivers/bzip2  \
+		autoconf:${PORTSDIR}/devel/autoconf
 
 .include <bsd.port.pre.mk>
 
