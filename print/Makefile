@@ -9,12 +9,14 @@
     SUBDIR += acroread
     SUBDIR += acroread4
     SUBDIR += afm
+    SUBDIR += amspsfnt
     SUBDIR += apsfilter
     SUBDIR += asprint
     SUBDIR += bibcard
     SUBDIR += bibview
     SUBDIR += c2ps-a4
     SUBDIR += c2ps-letter
+    SUBDIR += cmpsfont
     SUBDIR += detex
     SUBDIR += dvi2tty
     SUBDIR += dvi2xx
