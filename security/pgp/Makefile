@@ -11,6 +11,7 @@ CATEGORIES+=	utilities
 MAINTAINER=	ache@FreeBSD.ORG
 WRKSRC=         ${WRKDIR}/src
 MAKEFILE=       makefile
+NO_PACKAGE=     YES
 ALL_TARGET=     freebsd
 PGPLIB=         ${PREFIX}/lib/pgp
 # Need to define USA_RESIDENT to YES or NO
