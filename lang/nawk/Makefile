@@ -1,5 +1,5 @@
 # New ports collection makefile for:  nawk
-# Version required:    98.02.11
+# Version required:    98.10.20
 # Date created:        29 April 1998
 # Whom:                Josh Gilliam <josh@quick.net>
 #
