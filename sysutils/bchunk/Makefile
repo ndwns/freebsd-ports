@@ -10,7 +10,7 @@ DISTNAME=	bchunk-1.0.0
 CATEGORIES=	sysutils
 MASTER_SITES=	http://hes.iki.fi/bchunk/ \
 		${MASTER_SITE_SUNSITE}
-MASTER_SITE_SUBDIR= utils/disk-management/
+MASTER_SITE_SUBDIR= utils/disk-management
 
 MAINTAINER=	ports@FreeBSD.ORG
 
