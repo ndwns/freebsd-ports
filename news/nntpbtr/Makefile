@@ -17,7 +17,7 @@ MAN1=		nntpbtr.1
 
 # "patch" complains otherwise
 post-extract:
-	rm -rf ${WRKSRC}/RCS
+	@${RM} -rf ${WRKSRC}/RCS
 
 pre-build:
 	cd ${FILESDIR} ; pax -rw -l -u dbz ${WRKDIR} || true
