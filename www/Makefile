@@ -5,7 +5,7 @@
     SUBDIR += WebMagick
     SUBDIR += analog
     SUBDIR += apache
-    SUBDIR += apache-current
+    SUBDIR += apache13
     SUBDIR += apache-fp
     SUBDIR += apache-php
     SUBDIR += apache-ssl
