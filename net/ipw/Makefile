@@ -1,5 +1,5 @@
 # New ports collection makefile for:   	ipw
-# Version required:			2.7
+# Version required:			3.3a
 # Date created:				29 January 1999
 # Whom:					mph
 #
@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	ipw
-PKGNAME=	ipw-2.7
+PKGNAME=	ipw-3.3a
 CATEGORIES=	net
 MASTER_SITES=	http://mjhb.marina-del-rey.ca.us/ipw/
 
