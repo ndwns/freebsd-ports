@@ -1,4 +1,4 @@
-# New ports collection makefile for:	cern_linemode
+# New ports collection makefile for:	linemode
 # Version required:     4.0D
 # Date created:		17 April 1995
 # Whom:			NIIMI Satoshi <sa2c@and.or.jp>
