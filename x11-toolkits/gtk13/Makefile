@@ -8,7 +8,7 @@
 
 DISTNAME=	gtk+-1.0.5
 PKGNAME=	gtk-1.0.5
-CATEGORIES=	x11
+CATEGORIES=	x11-toolkits
 MASTER_SITES=	ftp://ftp.gimp.org/pub/gtk/v1.0/ \
 		ftp://ftp.cs.umn.edu/pub/gimp/gtk/v1.0/ \
 		http://www.ameth.org/gimp/pub/gtk/v1.0/

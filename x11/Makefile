@@ -11,7 +11,6 @@
     SUBDIR += emu
     SUBDIR += eterm
     SUBDIR += fbsd-icons
-    SUBDIR += gtk
     SUBDIR += kb2mb2
     SUBDIR += kde
     SUBDIR += kdebase
@@ -23,9 +22,6 @@
     SUBDIR += lupe
     SUBDIR += offix-clipboard
     SUBDIR += offix-execute
-    SUBDIR += p5-Gtk
-    SUBDIR += p5-Tcl-Tk
-    SUBDIR += p5-Tk
     SUBDIR += props
     SUBDIR += pythonqt
     SUBDIR += rxvt

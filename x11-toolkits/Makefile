@@ -5,9 +5,13 @@
     SUBDIR += Xaw3d
     SUBDIR += auis
     SUBDIR += blt
+    SUBDIR += gtk
     SUBDIR += iv
     SUBDIR += lesstif
     SUBDIR += neXtaw
+    SUBDIR += p5-Gtk
+    SUBDIR += p5-Tcl-Tk
+    SUBDIR += p5-Tk
     SUBDIR += pmw
     SUBDIR += pygtk
     SUBDIR += qt
