@@ -21,6 +21,7 @@
     SUBDIR += uemacs
     SUBDIR += uzap
     SUBDIR += vile
+    SUBDIR += vilearn
     SUBDIR += vim
     SUBDIR += vim5beta
     SUBDIR += xcoral
