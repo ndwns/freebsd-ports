@@ -1,7 +1,7 @@
 # New ports collection makefile for:	wmtictactoe
 # Version required:		1.0
 # Date created:			28 Apr 1999
-# Whom:				Jim Mock <jim@phrantic.phear.net>
+# Whom:				Jim Mock <jim@FreeBSD.org>
 #
 # $Id$
 #
@@ -10,7 +10,7 @@ DISTNAME=	wmtictactoe-1.0
 CATEGORIES=	games windowmaker afterstep
 MASTER_SITES=	http://www.cs.mun.ca/~gstarkes/wmaker/dockapps/files/
 
-MAINTAINER=	jim@phrantic.phear.net
+MAINTAINER=	jim@FreeBSD.org
 
 LIB_DEPENDS=	Xpm.4:${PORTSDIR}/graphics/xpm
 
