@@ -1,7 +1,7 @@
 # New ports collection makefile for:   xdvik+jp-patch(use VFlib)
 # Version required:    20
 # Date created:        26 Feb 1998
-# Whom:                Kentaro Inagaki <JBD01226@niftyserve.ne.jp>
+# Whom:                Kentaro Inagaki <JBD01226@niftyserve.or.jp>
 #
 # $Id$
 #
@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://ftp.ipc.chiba-u.ac.jp/pub/pub.yamaga/xdvik-20/ \
 		${MASTER_SITE_LOCAL}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} xdvik20a-j1.1p15.patch.gz
 
-MAINTAINER=	JBD01226@niftyserve.ne.jp
+MAINTAINER=	JBD01226@niftyserve.or.jp
 
 RUN_DEPENDS=    mf:${PORTSDIR}/japanese/ptex-common
 LIB_DEPENDS=    VFlib\\.2\\.:${PORTSDIR}/japanese/vflib
