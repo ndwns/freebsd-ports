@@ -14,7 +14,7 @@ MAINTAINER=	ports@FreeBSD.ORG
 
 ALL_TARGET=	freebsd
 USE_X11=	yes
-LIBS=		libMesaGL libMesaGLU libMesaaux libMesatk 
+LIBS=		libMesaGL libMesaGLU libMesaaux libMesatk
 SHLIB_VERSION=	13.2
 
 do-install:
