@@ -87,7 +87,7 @@ post-install:
 
 # Following stuff must be after <bsd.port.mk> to expand exists() properly
 
-.if defined(USE_WISH)
+.if defined(USE_WISH) && ${USE_WISH} == YES
 .if exists(${PREFIX}/bin/wish4.0)
 BUILD_DEPENDS+= wish4.0:${PORTSDIR}/x11/tk4
 CONFIGURE_ENV+= WISH=${PREFIX}/bin/wish4.0
