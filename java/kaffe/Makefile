@@ -1,12 +1,12 @@
 # New ports collection makefile for:    kaffe
-# Version required:     1.0.b2
+# Version required:     1.0.b3
 # Date created:         20 February 1995
 # Whom:                 Tim Wilkinson <tim@sarc.city.ac.uk>
 #
 # $Id$
 #
 
-DISTNAME=	kaffe-1.0.b2
+DISTNAME=	kaffe-1.0.b3
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.transvirtual.com/pub/kaffe/
 
