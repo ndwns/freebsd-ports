@@ -8,7 +8,7 @@
 
 DISTNAME=	xperfmon++
 PKGNAME=	xperfmon++-1.33
-CATEGORIES+=    sysutils x11
+CATEGORIES=     sysutils x11
 # In Germany try this
 #MASTER_SITES=	ftp://odie.physik2.uni-rostock.de/pub/
 MASTER_SITES=	ftp://proteus.arc.nasa.gov/pub/
@@ -16,7 +16,7 @@ DISTFILES=	xperfmon++v1.1.tar.Z
 
 MAINTAINER=	Lars_Koeller@odie.physik2.uni-rostock.de
 
-USE_IMAKE=	yes
 EXTRACT_ONLY=	xperfmon++v1.1.tar.Z
+USE_IMAKE=	yes
 
 .include <bsd.port.mk>

@@ -9,7 +9,7 @@
 #
 
 DISTNAME=       rtty-3.2
-CATEGORIES+=	sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=   ftp://ftp.vix.com/pub/vixie/
 
 MAINTAINER=	jkh@FreeBSD.org

@@ -7,16 +7,12 @@
 #
 
 DISTNAME=       tua-4.0
-CATEGORIES+=	sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=   ftp://itnsg1.cineca.it/pub/local/tua/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
 
 GNU_CONFIGURE=	yes
-
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/tua.1
-.endif
+MAN1=		tua.1
 
 .include <bsd.port.mk>

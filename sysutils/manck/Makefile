@@ -7,7 +7,7 @@
 #
 
 DISTNAME=       manck-1.2
-CATEGORIES+=	sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=   ftp://freefall.freebsd.org/pub/FreeBSD/LOCAL_PORTS/
 
 MAINTAINER=     wosch@FreeBSD.org

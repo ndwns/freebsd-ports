@@ -8,7 +8,7 @@
 
 DISTNAME=       afio.2.4.1
 PKGNAME=        afio-2.4.1
-CATEGORIES+=    sysutils
+CATEGORIES=     sysutils
 MASTER_SITES=	ftp://sunsite.unc.edu/pub/Linux/system/Backup/ \
 	ftp://ftp.win.tue.nl/pub/linux/tbackup/ \
 	ftp://ftp.germany.eu.net/pub/os/Linux/Mirror.SunSITE/system/Backup/ \
@@ -18,9 +18,6 @@ EXTRACT_SUFX=   .tgz
 
 MAINTAINER=	nox@jelal.hb.north.de
 
-post-install:
-.if !defined(NOMANCOMPRESS)
-	gzip -9nf ${PREFIX}/man/man1/afio.1
-.endif
+MAN1=		afio.1
 
 .include <bsd.port.mk>

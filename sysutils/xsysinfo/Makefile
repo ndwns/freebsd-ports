@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	xsysinfo-1.3
-CATEGORIES+=	sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=	ftp://freebsd.csie.nctu.edu.tw/pub/jdli/source/
 
 MAINTAINER=	jdli@csie.nctu.edu.tw
