@@ -14,6 +14,8 @@ MAINTAINER=	vanilla@FreeBSD.ORG
 
 LIB_DEPENDS=	tk81\\.1\\.:${PORTSDIR}/x11/tk81
 
+BROKEN=		fetch
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-tcl --with-tcl-libs=${PREFIX}/lib --with-tk --with-tk-libs=${PREFIX}/lib
 
