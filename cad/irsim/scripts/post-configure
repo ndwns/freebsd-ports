@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# $Id$
+#
+
+cp ${CURDIR}/files/Makefile ${WRKSRC}
