@@ -14,6 +14,7 @@ MASTER_SITES=   ftp://prep.ai.mit.edu/pub/gnu/ \
 # we've got some .elc and info files to compile (yuck)
 BUILD_DEPENDS=	emacs:${PORTSDIR}/editors/emacs
 
+NO_PACKAGE=	yes	# requires user "gnats"
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS= --prefix=${PREFIX} --with-full-gnats
