@@ -13,6 +13,7 @@ MASTER_SITES=	http://www-inf.enst.fr/~demaille/ftp/a2ps/
 
 MAINTAINER=	chuckr@FreeBSD.org
 
+MANUAL_PACKAGE_BUILD=  PAPERSIZE has to be set to Letter A4
 GNU_CONFIGURE=	yes
 MAN1=		a2ps.1 ogonkify.1
 
