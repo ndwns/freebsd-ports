@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	pidentd-2.6.1
-CATEGORIES+=	security networking
+CATEGORIES+=	security net
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/servers/ \
 		ftp://ftp.fu-berlin.de/unix/security/ident/servers/
 ALL_TARGET=     freebsd

@@ -7,7 +7,7 @@
 #
 
 DISTNAME=	libident-0.18
-CATEGORIES=	development networking security
+CATEGORIES=	devel net security
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/ident/libs/
 
 MAINTAINER=	torstenb@FreeBSD.ORG

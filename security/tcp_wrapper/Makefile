@@ -8,7 +8,7 @@
 
 DISTNAME=       tcp_wrappers_7.2
 PKGNAME=        tcp_wrappers-7.2
-CATEGORIES+=	security networking
+CATEGORIES+=	security net
 MASTER_SITES=	ftp://ftp.win.tue.nl/pub/security/
 
 MAINTAINER=	torstenb@FreeBSD.ORG
