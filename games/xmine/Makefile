@@ -9,6 +9,7 @@
 DISTNAME=	xmine-1.0.3-Xaw
 CATEGORIES+=	games
 USE_IMAKE=      yes
+MAINTAINER=	joerg@FreeBSD.org
 
 LIB_DEPENDS=        Xaw3d\\.:${PORTSDIR}/x11/Xaw3d
 

@@ -7,5 +7,6 @@
 
 DISTNAME=	bcc
 CATEGORIES+=	development programming languages
+MAINTAINER=	joerg@FreeBSD.org
 
 .include <bsd.port.mk>
