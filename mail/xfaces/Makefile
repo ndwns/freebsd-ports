@@ -19,7 +19,8 @@ DISTFILES=	${DISTNAME}.tar.Z xfaces-sounds.tar.gz
 MAINTAINER=	Lars_Koeller@odie.physik2.uni-rostock.de
 
 BUILD_DEPENDS= 	${X11BASE}/lib/libaudio.a:${PORTSDIR}/audio/nas
-LIB_DEPENDS=	compface\\.1\\.:${PORTSDIR}/mail/faces
+LIB_DEPENDS=	compface\\.1\\.:${PORTSDIR}/mail/faces \
+		Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
 USE_IMAKE=	YES
 
