@@ -21,6 +21,7 @@
     SUBDIR += enscript
     SUBDIR += enscriptfonts
     SUBDIR += freetype
+    SUBDIR += ggv
     SUBDIR += ghostscript
     SUBDIR += ghostscript3
     SUBDIR += ghostscript4
