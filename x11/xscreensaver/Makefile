@@ -15,6 +15,8 @@ MAINTAINER=	jseger@FreeBSD.ORG
 
 LIB_DEPENDS=	Xpm\\.4\\.:${PORTSDIR}/graphics/xpm
 
+BROKEN=		build
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--without-shadow --without-motif
 USE_X11=	yes
