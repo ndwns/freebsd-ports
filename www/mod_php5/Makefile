@@ -20,6 +20,8 @@ DISTFILES=	apache_${VERSION_APACHE}.tar.gz php-${VERSION_PHP3}.tar.gz
 
 MAINTAINER=	dirk@FreeBSD.ORG
 
+Y2K=		http://www.php.net/y2k.php3
+
 VERSION_APACHE=	1.3.3
 VERSION_PHP3=	3.0.6
 

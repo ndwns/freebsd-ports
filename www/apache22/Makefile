@@ -15,6 +15,7 @@ MASTER_SITES=   ftp://www.apache.org/apache/dist/
 
 MAINTAINER=     ache@freebsd.org
 
+Y2K=		http://www.apache.org/docs/misc/FAQ.html#year2000
 #
 # Set APACHE_PERF_TUNING env. variable to YES to get maximum performance
 #

@@ -12,6 +12,8 @@ MASTER_SITES=	http://www.sleepycat.com/db/packages/
 
 MAINTAINER=	josh@ican.net
 
+Y2K=		http://www.sleepycat.com/faq.html#A8
+
 MANUAL_PACKAGE_BUILD=	incompatible with libc version
 WRKSRC=		${WRKDIR}/${DISTNAME}/build.unix
 

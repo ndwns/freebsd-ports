@@ -14,6 +14,8 @@ MASTER_SITES=	ftp://ftp.cac.washington.edu/pine/
 
 MAINTAINER=	pine@freebsd.ady.ro
 
+Y2K=		http://www.washington.edu/pine/QandA/sysadmins.html#Millenium
+
 NO_LATEST_LINK= yes
 
 MAN1= 		pine.1 pico.1 pilot.1

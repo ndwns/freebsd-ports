@@ -14,6 +14,8 @@ MASTER_SITES=	http://www.htdig.org/files/ \
 
 MAINTAINER=	billf@FreeBSD.org
 
+Y2K=		http://www.htdig.org/FAQ.html#q1.7
+
 GNU_CONFIGURE=	yes
 BUILD_TARGET=	depends all
 

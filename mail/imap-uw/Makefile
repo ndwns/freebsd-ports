@@ -14,6 +14,8 @@ EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	imap-uw@freebsd.ady.ro
 
+Y2K=		http://www.washington.edu/imap/IMAP-FAQs/FAQ-00002.html
+
 ALL_TARGET=	bsf
 MAN8=		ipopd.8 imapd.8
 
