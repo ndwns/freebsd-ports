@@ -18,6 +18,7 @@
    SUBDIR += mit-scheme
    SUBDIR += p2c
    SUBDIR += pTk
+   SUBDIR += pbasic
    SUBDIR += perl5
    SUBDIR += python
    SUBDIR += scheme48
