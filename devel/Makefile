@@ -44,6 +44,7 @@
     SUBDIR += jam
     SUBDIR += lclint
     SUBDIR += libdlmalloc
+    SUBDIR += libffi
     SUBDIR += libmalloc
     SUBDIR += libobjects
     SUBDIR += libproplist
