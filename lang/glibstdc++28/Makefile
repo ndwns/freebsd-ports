@@ -39,7 +39,7 @@ post-install:
 		${PREFIX}/${GCC28DIR}
 	${MV} ${PREFIX}/lib/libstdc++.a  \
 		${PREFIX}/${GCC28DIR}
-	${INSTALL_DATA} ${FILESDIR}/osfnc.h  \
+	${INSTALL_DATA} ${FILESDIR}/osfcn.h  \
 		${GCC28SUBDIR}/include/g++
 
 .include <bsd.port.mk>
