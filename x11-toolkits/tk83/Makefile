@@ -89,7 +89,6 @@ MLINKS=	3DBorder.3 Tk_Alloc3DBorderFromObj.3 \
 	Clipboard.3 Tk_ClipboardAppend.3 \
 	ClrSelect.3 Tk_ClearSelection.3 \
 	ConfigWidg.3 Tk_ConfigureWidget.3 \
-	ConfigWidg.3 Tk_Offset.3 \
 	ConfigWidg.3 Tk_ConfigureInfo.3 \
 	ConfigWidg.3 Tk_ConfigureValue.3 \
 	ConfigWidg.3 Tk_FreeOptions.3 \
@@ -287,7 +286,6 @@ MLINKS=	3DBorder.3 Tk_Alloc3DBorderFromObj.3 \
 	menubar.n tk_bindForTraversal.n \
 	messageBox.n tk_messageBox.n \
 	optionMenu.n tk_optionMenu.n \
-	pack-old.n pack.n \
 	palette.n tk_setPalette.n \
 	palette.n tk_bisque.n \
 	popup.n tk_popup.n
