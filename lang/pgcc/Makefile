@@ -15,7 +15,6 @@ MASTER_SITES=	${MASTER_SITE_GNU}
 PATCH_SITES=	http://www.nightflight.com/~pcg/data/ \
 		http://www.goof.com/pcg/data/ \
 		http://www.iti.cs.tu-bs.de/soft/www.goof.com/pcg/data/ \
-		http://www.pmi.saitama-med.ac.jp/pcg/data/ \
 		http://linux.cis.nctu.edu.tw/pcg/data/
 
 PATCHFILES=	gcc-2.7.2-970222.diff.gz \
