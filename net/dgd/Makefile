@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	dgd-1.1p2
+DISTNAME=	dgd-1.1p3
 DISTFILES=	dgd-1.1.tar.gz
 CATEGORIES=	net lang
 MASTER_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/ \
@@ -17,7 +17,8 @@ PATCH_SITES=	ftp://ftp.lysator.liu.se/pub/lpmud/drivers/dgd/patches/ \
 		ftp://ftp.veda.is/pub/mud/dgd/patches/ \
 		ftp://ftp.dreamlabs.com/pub/mud/dgd/patches/
 PATCHFILES=	1.1p1.gz \
-		1.1p1-1.1p2.gz
+		1.1p2.gz \
+		1.1p3.gz
 
 MAINTAINER=	adam@veda.is
 
