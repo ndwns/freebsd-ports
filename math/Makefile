@@ -15,5 +15,6 @@ RESTRICTED += maxima (license required)
     SUBDIR += xgraph
     SUBDIR += xlispstat
     SUBDIR += xspread
+    SUBDIR += xvgr
 
 .include <bsd.port.subdir.mk>
