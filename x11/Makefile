@@ -57,6 +57,7 @@
     SUBDIR += piewm
     SUBDIR += props
     SUBDIR += pythonqt
+    SUBDIR += q3dmenu
     SUBDIR += qt
     SUBDIR += qt133
     SUBDIR += qvwm
