@@ -11,7 +11,7 @@ PKGNAME=	tank-0.4a
 CATEGORIES=	games
 MASTER_SITES=	http://www.info.polymtl.ca/~coyote/tank/
 
-MAINTAINER=	dburr@POBoxes.com
+MAINTAINER=	dburr@FreeBSD.ORG
 
 LIB_DEPENDS=	MesaGL\\.13\\.:${PORTSDIR}/graphics/Mesa
 
@@ -19,8 +19,6 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 
 USE_GMAKE=	YES
 ALL_TARGET=	linux-mesa-elf
-
-# MAN6=		xmame.6
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tank ${PREFIX}/bin
