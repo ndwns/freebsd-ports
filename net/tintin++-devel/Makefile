@@ -8,7 +8,7 @@
 
 DISTNAME=       tintin++v1.5pl6
 PKGNAME=	tintin-1.5.6
-CATEGORIES+=	networking
+CATEGORIES+=    networking games
 MASTER_SITES=   ftp://princeton.edu/pub/tintin++/dist/
 EXTRACT_SUFX=   .tar.Z
 
