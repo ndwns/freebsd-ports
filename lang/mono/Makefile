@@ -7,13 +7,14 @@
 #
 
 PORTNAME=	mono
-PORTVERSION=	1.0.5
-PORTREVISION=	1
+PORTVERSION=	1.0.6
 CATEGORIES=	lang
 MASTER_SITES=	http://www.go-mono.com/archive/${PORTVERSION}/
 
 MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	An open source implementation of .NET Development Framework
+
+CONFLICTS=	mono-devel-*
 
 USE_REINPLACE=	yes
 USE_BISON=	yes
