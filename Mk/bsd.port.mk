@@ -308,7 +308,7 @@ ${CONFIGURE_COOKIE}:
 	@${MAKE} ${.MAKEFLAGS} pre-configure
 	@if [ -d ${PATCHDIR} ]; then \
 		echo "===>  Applying patches for ${DISTNAME}" ; \
-		for i in ${PATCHDIR}/patch-*; do \
+		for i in ${PATCHDIR}/*; do \
 			${PATCH} ${PATCH_ARGS} < $$i; \
 	done; \
 	fi
