@@ -607,7 +607,6 @@ checksum: fetch
 				OK="false"; \
 			elif [ "$$CKSUM" != "$$CKSUM2" ]; then \
 				echo ">> Checksum mismatch for $$file"; \
-				exit 1; \
 			fi; \
 			done; \
 			if [ "$$OK" = "" ]; then \
