@@ -14,9 +14,10 @@ MAINTAINER=	fujimoto@oscar.elec.waseda.ac.jp
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	PERL=/usr/bin/perl
-
-post-install:
-	@ ${RM} -f ${PREFIX}/info/automake.info-1
-	@ ${RM} -f ${PREFIX}/info/automake.info-2
+STRIP=		 # none
+pre-install:
+	@if [ ! -f ${PREFIX}/info/dir ]; then \
+	  ${SED} -ne '1,/Menu:/p' /usr/share/info/dir > ${PREFIX}/info/dir; \
+	 fi
 
 .include <bsd.port.mk>
