@@ -12,10 +12,11 @@ DISTNAME=	iv-${VERSION}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFFIX}
 WRKSRC=		${WRKDIR}/iv
 MAKEFILE=	makefile
+NCFTPFLAGS=	-NP
 
 .if ${DISTNAME} != ${VERSION}
 pre-fetch:
-	if [ -f ${DISTDIR}/${DISTNAME} ] ; then \
+	@if [ ! -f ${DISTDIR}/${DISTFILES} ]; then \
 	    mkdir -p ${DISTDIR}/${DISTNAME} ; \
 	    ${MAKE} MASTER_SITES=ftp://interviews.stanford.edu/pub/ \
 		DISTDIR=${DISTDIR}/${DISTNAME} DISTNAME=${VERSION} fetch ; \
