@@ -11,7 +11,7 @@ CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.kiarchive.ru/pub/unix/tcpip/netmaint/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=     igor@zynaps.ru
+MAINTAINER=     jseger@FreeBSD.org
 
 MAN1=		trafshow.1
 
