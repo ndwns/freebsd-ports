@@ -6,11 +6,11 @@
 # $Id$
 #
 
-DISTNAME=	pdksh-5.2.5
+DISTNAME=	pdksh-5.2.6
 CATEGORIES+=	shells
 MASTER_SITES=	ftp://ftp.cs.mun.ca/pub/pdksh/
 
-MAINTAINER=	thomas@ghpc8.ihf.rwth-aachen.de
+MAINTAINER=	tg@freebsd.org
 
 GNU_CONFIGURE=  yes
 
