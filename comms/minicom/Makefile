@@ -1,5 +1,5 @@
 # New ports collection makefile for:    minicom
-# Version required:     1.74
+# Version required:     1.75
 # Date created:         Fri Dec 01, 1995
 # Whom:                 obrien@cs.ucdavis.edu
 #
@@ -8,9 +8,7 @@
 
 DISTNAME=	minicom-1.75
 CATEGORIES=	comms
-MASTER_SITES=	${MASTER_SITE_SUNSITE} \
-		ftp://ftp.cistron.nl/pub/people/miquels/software/
-MASTER_SITE_SUBDIR= apps/serialcomm/dialout
+MASTER_SITES=	ftp://ftp.cistron.nl/pub/people/miquels/software/
 
 MAINTAINER=     obrien@FreeBSD.org
 
