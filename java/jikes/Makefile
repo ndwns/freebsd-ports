@@ -6,7 +6,7 @@
 # $Id$
 #
 
-DISTNAME=	jikes-0.46
+DISTNAME=	jikes-0.47
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.whistle.com/pub/archie/misc/
 
