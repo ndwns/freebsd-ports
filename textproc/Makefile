@@ -3,6 +3,7 @@
 
     SUBDIR += agrep
     SUBDIR += c2html
+    SUBDIR += catdoc
     SUBDIR += docbook
     SUBDIR += glimpse
     SUBDIR += html
