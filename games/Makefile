@@ -26,6 +26,7 @@
     SUBDIR += nethack-qt
     SUBDIR += netris
     SUBDIR += oneko
+    SUBDIR += oonsoo
     SUBDIR += qcc
     SUBDIR += quakeserver
     SUBDIR += spider
