@@ -11,14 +11,13 @@ CATEGORIES=	x11 kde
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	ports@freebsd.org
+MAINTAINER=	se@freebsd.org
 
-LIB_DEPENDS=	mimelib\\.1\\.0:${PORTSDIR}/converters/kdesupport \
-		kdecore\\.0\\.11:${PORTSDIR}/x11/kdelibs
-RUN_DEPENDS=	kmail:${PORTSDIR}/net/kdenetwork \
+LIB_DEPENDS=	kdecore\\.0\\.11:${PORTSDIR}/x11/kdelibs
+RUN_DEPENDS=	kwm:${PORTSDIR}/x11/kdebase \
 		kcalc:${PORTSDIR}/misc/kdeutils \
 		kmahjongg:${PORTSDIR}/games/kdegames \
-		kwm:${PORTSDIR}/x11/kdebase
+#		kmail:${PORTSDIR}/net/kdenetwork
 
 EXTRACT_ONLY=	# empty
 NO_PATCH=	yes
