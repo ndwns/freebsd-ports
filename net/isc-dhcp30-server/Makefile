@@ -18,4 +18,7 @@ HAS_CONFIGURE=	yes
 MAN5=		dhcpd.conf.5
 MAN8=		dhcpd.8
 
+post-install:
+	touch /var/db/dhcpd.leases
+
 .include <bsd.port.mk>
