@@ -9,8 +9,7 @@
 #
 
 PORTNAME=	lilypond
-PORTVERSION=	2.0.2
-PORTREVISION=	1
+PORTVERSION=	2.0.3
 CATEGORIES=	print audio
 MASTER_SITES=	http://lilypond.org/download/v2.0/ \
 		http://www.atabersk.de/lilypond/
