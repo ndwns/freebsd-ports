@@ -1,7 +1,7 @@
-# New ports collection makefile for:    gtksee
-# Version required:     0.1.4
-# Date created:         Sun Nov 22 12:08:18 CET 1998
-# Whom:                 Dirk Froemberg <ibex@physik.TU-Berlin.DE>
+# New ports collection makefile for:	gtksee
+# Version required:	0.1.4
+# Date created:		Sun Nov 22 12:08:18 CET 1998
+# Whom:			Dirk Froemberg <ibex@physik.TU-Berlin.DE>
 #
 # $Id$
 #
@@ -12,7 +12,7 @@ MASTER_SITES=	http://www.pressroom.com/~mrc/gtksee/ \
 		http://www.zg169.net/~hotaru/gtksee/ \
 		http://www.physik.TU-Berlin.DE/~ibex/ports/distfiles/
 
-MAINTAINER=	ibex@physik.TU-Berlin.DE
+MAINTAINER=	dirk@FreeBSD.ORG
 
 LIB_DEPENDS=	gtk11.1:${PORTSDIR}/x11-toolkits/gtk11 \
 		jpeg.9:${PORTSDIR}/graphics/jpeg \
