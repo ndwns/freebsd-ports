@@ -8,7 +8,7 @@
 
 DISTNAME=       ppm2fli_b1.92
 PKGNAME=	ppm2fli-b1
-CATEGORIES=	graphics misc
+CATEGORIES=	graphics
 MASTER_SITES=	ftp://crusty.er.usgs.gov/pub/animation/fli/
 EXTRACT_SUFX=	.tar.Z
 
