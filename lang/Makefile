@@ -22,6 +22,8 @@
     SUBDIR += eperl
     SUBDIR += erlang
     SUBDIR += expect
+    SUBDIR += f2c
+    SUBDIR += f77
     SUBDIR += forth
     SUBDIR += g77
     SUBDIR += gawk
