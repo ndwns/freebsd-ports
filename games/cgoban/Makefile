@@ -1,12 +1,12 @@
 # New ports collection makefile for:   cgoban
-# Version required:    1.7.1
+# Version required:    1.9.2
 # Date created:        28 October 1996
 # Whom:                simonm@dcs.gla.ac.uk
 #
 # $Id$
 #
 
-DISTNAME=	cgoban-1.8.2
+DISTNAME=	cgoban-1.9.2
 CATEGORIES=	games
 MASTER_SITES=	ftp://igs.nuri.net/Go/clients/
 
