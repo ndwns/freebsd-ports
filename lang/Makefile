@@ -19,6 +19,7 @@
     SUBDIR += elk
     SUBDIR += emacs-lisp-intro
     SUBDIR += eperl
+    SUBDIR += erlang
     SUBDIR += expect
     SUBDIR += forth
     SUBDIR += g77
