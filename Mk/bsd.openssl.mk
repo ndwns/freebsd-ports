@@ -54,7 +54,7 @@ WITH_OPENSSL_PORT=yes
 OPENSSLVER!=	${AWK} '/OPENSSL_VERSION_TEXT/ { sub(/-fips/, ""); print $$4; exit }' \
 		/usr/include/openssl/opensslv.h
 # check for safe versions in the base
-.if ${OPENSSLVER} != "0.9.7a-p1" && ${OPENSSLVER} != "0.9.7c-p1" && ${OPENSSLVER} != "0.9.7d" && ${OPENSSLVER} != "0.9.7e" && ${OPENSSLVER} != "0.9.7f"
+.if ${OPENSSLVER} != "0.9.7a-p1" && ${OPENSSLVER} != "0.9.7c-p1" && ${OPENSSLVER} != "0.9.7d" && ${OPENSSLVER} != "0.9.7e" && ${OPENSSLVER} != "0.9.7f" && ${OPENSSLVER} != "0.9.7g"
 check-depends::
 	@${ECHO_CMD} "Dependency warning: used OpenSSL version contains known vulnerabilities"
 	@${ECHO_CMD} "Please update or define either WITH_OPENSSL_BASE or WITH_OPENSSL_PORT"
