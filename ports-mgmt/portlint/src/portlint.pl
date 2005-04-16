@@ -329,7 +329,7 @@ if ($committer) {
 			&perror("Warning: $fullname: dotfiles are not preferred. ".
 					"If this file is a dotfile to be installed as an example, ".
 					"consider importing it as \"dot$_\".");
-		} elsif (/[^-.a-zA-Z0-9_]/) {
+		} elsif (/[^-.a-zA-Z0-9_\+]/) {
 			&perror("Warning: $fullname: only use characters ".
 					"[-_.a-zA-Z0-9] for patch or script names.");
 		} elsif (/\.(orig|rej|bak)$/ || /~$/ || /^\#/) {
