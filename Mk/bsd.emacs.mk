@@ -212,12 +212,18 @@ check-makevars::
 # Common Definitions
 #
 
+# find where emacsen is installed
+# look for it in PREEFIX first and fall back to LOCALBASE then
+.if exists(${PREFIX}/bin/${EMACS_NAME}-${EMACS_VER})
+EMACS_BASE?=			${PREFIX}
+.else
+EMACS_BASE?=			${LOCALBASE}
+.endif
 # emacsen command-line filename
-EMACS_CMD?=			${LOCALBASE}/bin/${EMACS_NAME}-${EMACS_VER}
+EMACS_CMD?=			${EMACS_BASE}/bin/${EMACS_NAME}-${EMACS_VER}
 # emacsen core elisp filename
 EMACS_CORE_DIR=			${EMACS_LIBDIR_WITH_VER}/lisp/${EMACS_CORE_SUBDIR}
-EMACS_COREEL=			${LOCALBASE}/${EMACS_CORE_DIR}/startup.el
-
+EMACS_COREEL=			${EMACS_BASE}/${EMACS_CORE_DIR}/startup.el
 # emacsen libdir without ${LOCALBASE}
 EMACS_SITE_LISPDIR?=		${EMACS_LIBDIR}/site-lisp
 EMACS_VERSION_SITE_LISPDIR?=	${EMACS_LIBDIR_WITH_VER}/site-lisp
