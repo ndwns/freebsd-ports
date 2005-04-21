@@ -8,6 +8,7 @@ ugid=104
 homedir=/nonexistent
 shell=/sbin/nologin
 comment="Slim Devices SlimServer pseudo-user"
+slimdir="%%PREFIX%%/%%SLIMDIR%%"
 statedir=/var/db/slimserver
 cachedir=${statedir}/cache
 playlistdir=${statedir}/playlists
@@ -61,5 +62,12 @@ POST-INSTALL)
 		echo "$logcomment" >> ${newsyslogfile}
 		echo "$logline" >> ${newsyslogfile}
 	fi
+	for file in %%CONFFILES%%; do
+		path="${slimdir}/${file}"
+		if [ ! -e ${path} ]; then
+			cp ${path}.sample ${path}
+			chmod 644 ${path}
+		fi
+	done
 	;;
 esac
