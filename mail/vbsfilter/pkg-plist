@@ -1,3 +1,0 @@
-@comment $FreeBSD$
-libexec/vbsfilter
-etc/rc.d/vbsfilter.sh.sample
