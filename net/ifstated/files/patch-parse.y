@@ -1,7 +1,7 @@
---- parse.y	18 Nov 2004 21:43:12 -0000	1.1.1.1
-+++ parse.y	18 Nov 2004 21:48:39 -0000	1.2
+--- ../ifstated-20050505.orig/parse.y	Thu May  5 11:51:24 2005
++++ parse.y	Thu May  5 12:06:07 2005
 @@ -1,4 +1,5 @@
- /*	$OpenBSD: parse.y,v 1.7 2004/04/28 01:00:50 deraadt Exp $	*/
+ /*	$OpenBSD: parse.y,v 1.9 2005/02/07 12:41:53 mcbride Exp $	*/
 +/*	$Id$	*/
 
  /*
