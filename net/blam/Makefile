@@ -7,11 +7,10 @@
 #
 
 PORTNAME=	blam
-PORTVERSION=	1.6.1
-PORTREVISION=	2
+PORTVERSION=	1.8.0
 CATEGORIES=	net gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	sources/${PORTNAME}/1.6
+MASTER_SITE_SUBDIR=	sources/${PORTNAME}/1.8
 
 MAINTAINER=	tmclaugh@sdf.lonestar.org
 COMMENT=	Mono based RSS feed reader
@@ -30,11 +29,11 @@ MOZILLA=	mozilla
 .endif
 .endif
 
-USE_GNOME=	gnomeprefix gnomehack intltool libgnomeui
+USE_GNOME=	gnomeprefix gnomehack intlhack intltool libgnomeui
 USE_BZIP2=	yes
+USE_GMAKE=	yes
 USE_X_PREFIX=   yes
 USE_LIBTOOL_VER=15
-USE_GMAKE=	yes
 CONFIGURE_ARGS=	--with-mozilla=${MOZILLA}
 CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
