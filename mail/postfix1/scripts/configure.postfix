@@ -109,8 +109,7 @@ for i; do
 			echo "MYSQL_SUFFIX=	+mysql"
 			;;
 		PgSQL)
-			echo "POSTGRESQL_PORT?=	databases/postgresql7"
-			echo "LIB_DEPENDS+=	pq.3:\${PORTSDIR}/\${POSTGRESQL_PORT}"
+			echo "USE_PGSQL=	yes"
 			echo "POSTFIX_CCARGS+=	-DHAS_PGSQL -I\${LOCALBASE}/include  -I\${LOCALBASE}/pgsql/include"
 			echo "POSTFIX_AUXLIBS+=	-L\${LOCALBASE}/lib -L\${LOCALBASE}/pgsql/lib -lpq -lcrypt"
 			echo "PGSQL_SUFFIX=	+pgsql"
