@@ -190,7 +190,7 @@ main(int argc, char *argv[], char *envp[])
 /* ifc8 */
 		    ARGCMP(i, "-lpthread") ||
 /* ifc8 */
-		    ARGCMP(i, "-PIC") ||
+		    ARGCMP(i, "-PIC") || ARGCMP(i, "-ldl") ||
 		    (ARGCMP(i, "-m") && i<argc-1 && ARGCMP(i+1, "elf_i386")) ||
 		    (ARGCMP(i, "elf_i386") && i != 0 && ARGCMP(i-1, "-m")))
 			continue;
