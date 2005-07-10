@@ -7,16 +7,15 @@
 #
 
 PORTNAME=	gtk-sharp
-PORTVERSION=	1.0.8
+PORTVERSION=	1.0.10
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE}
-MASTER_SITE_SUBDIR= ${PORTNAME}
+MASTER_SITES=	http://go-mono.com/sources/${PORTNAME}/
 
 MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	GTK+ and GNOME interfaces for the .NET runtime
 
 BUILD_DEPENDS=	mono:${PORTSDIR}/lang/mono
-RUN_DEPENDS=	${BUILD_DEPENDS}
+RUN_DEPENDS=	mono:${PORTSDIR}/lang/mono
 
 USE_X_PREFIX=	yes
 USE_LIBTOOL_VER=15
