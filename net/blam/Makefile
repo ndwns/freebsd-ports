@@ -7,17 +7,18 @@
 #
 
 PORTNAME=	blam
-PORTVERSION=	1.8.0
+PORTVERSION=	1.8.2
 CATEGORIES=	net gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
 MASTER_SITE_SUBDIR=	sources/${PORTNAME}/1.8
 
-MAINTAINER=	tmclaugh@sdf.lonestar.org
+MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	Mono based RSS feed reader
 
 BUILD_DEPENDS=	gapi-fixup:${PORTSDIR}/x11-toolkits/gtk-sharp \
 		${X11BASE}/libdata/pkgconfig/gecko-sharp.pc:${PORTSDIR}/www/gecko-sharp
-RUN_DEPENDS=	${BUILD_DEPENDS}
+RUN_DEPENDS=	gapi-fixup:${PORTSDIR}/x11-toolkits/gtk-sharp \
+		${X11BASE}/libdata/pkgconfig/gecko-sharp.pc:${PORTSDIR}/www/gecko-sharp
 
 .if !defined(WITH_MOZILLA)
 MOZILLA=	mozilla
