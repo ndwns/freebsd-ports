@@ -8,6 +8,7 @@
 
 PORTNAME=	mono
 PORTVERSION=	1.1.8.2
+PORTREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://www.go-mono.com/sources/mono-1.1/
 
@@ -59,6 +60,8 @@ USE_FAM=	yes
 post-patch:
 	@${REINPLACE_CMD} -e 's|%%X11BASE%%|${X11BASE}|g' \
 		${WRKSRC}/mono/metadata/assembly.c
+	@${REINPLACE_CMD} -e 's|.so.0|.so|g' \
+		${WRKSRC}/configure
 
 tests: build
 	@${ECHO_MSG} "===> Running mono regression tests"
