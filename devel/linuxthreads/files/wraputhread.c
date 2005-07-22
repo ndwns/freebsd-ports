@@ -1,4 +1,6 @@
 /*
+ * Copyright (c) 2005 Yahoo! Technologies Norway AS
+ * Copyright (c) 2003 Overture Services Norway AS
  * Copyright (c) 2001 Daniel Eischen <deischen@FreeBSD.org>.
  * All rights reserved.
  *
@@ -242,14 +244,14 @@ enum {
 };
 
 enum {
-	UTHREAD_PTHREAD_INHERIT_SCHED = 0,
-	UTHREAD_PTHREAD_EXPLICIT_SCHED = 1
+	UTHREAD_PTHREAD_INHERIT_SCHED = 4,
+	UTHREAD_PTHREAD_EXPLICIT_SCHED = 0
 };
 
 
 enum {
-	UTHREAD_PTHREAD_SCOPE_SYSTEM = 0,
-	UTHREAD_PTHREAD_SCOPE_PROCESS = 1
+	UTHREAD_PTHREAD_SCOPE_SYSTEM = 2,
+	UTHREAD_PTHREAD_SCOPE_PROCESS = 0
 };
 
 enum {
@@ -1050,8 +1052,6 @@ _pthread_getspecific(pthread_key_t key)
 int
 _pthread_join(pthread_t tid, void **treturn)
 {
-	if (treturn == NULL)
-		return EINVAL;
 	return __pthread_join(tid, treturn);
 }
 
