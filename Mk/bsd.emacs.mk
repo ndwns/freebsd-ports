@@ -166,7 +166,7 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 # XEmacs-21 development version
 .elif (${EMACS_PORT_NAME} == "xemacs-devel")
 EMACS_NAME=		xemacs
-EMACS_VER=		21.5-b20
+EMACS_VER=		21.5-b21
 EMACS_MAJOR_VER=	21
 EMACS_LIBDIR?=		lib/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
