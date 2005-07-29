@@ -14,7 +14,7 @@ while(<FILE>){
 @tmp2=split ('"',$tmp[3]);
 if ( $tmp[1] eq "\${LOCALIZED_LANG}") { $LANG=$tmp2[1]; 
 	print "make TWEAK_L10N=yes LOCALIZED_LANG=$LANG pre-everything\n";
-	print "/usr/bin/time make LOCALIZED_LANG=$LANG  WITH_CCACHE=yes package package-rename deinstall >& log.$LANG\n";
+	print "/usr/bin/time make LOCALIZED_LANG=$LANG  WITH_CCACHE=yes deinstall package package-rename deinstall >& log.$LANG\n";
 	}
 }
 close FILE;
