@@ -2,6 +2,11 @@
 # $FreeBSD$
 #
 
+GROUP=%%GROUP%%
+USER=%%USER%%
+UID=%%UID%%
+GID=%%GID%%
+
 if [ "$2" != "PRE-INSTALL" ]; then
 	exit 0
 fi
