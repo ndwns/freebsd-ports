@@ -3,49 +3,49 @@
 # Start or stop zope
 # $FreeBSD$
 
-# PROVIDE: zope
+# PROVIDE: zope28
 # REQUIRE: DAEMON
 # BEFORE: LOGIN
 # KEYWORD: FreeBSD shutdown
 #
 prefix=%%PREFIX%%
 
-# Define these zope_* variables in one of these files:
+# Define these zope28_* variables in one of these files:
 #       /etc/rc.conf
 #       /etc/rc.conf.local
-#       /etc/rc.conf.d/zope
+#       /etc/rc.conf.d/zope28
 #
 # DO NOT CHANGE THESE DEFAULT VALUES HERE
 #
-zope_enable=${zope_enable:-"NO"}        # Enable zope
-zope_instances=${zope_instances:-""}    # List of instancehome dirs
+zope28_enable=${zope28_enable:-"NO"} # Enable zope
+zope28_instances=${zope28_instances:-""} # List of instancehome dirs
 
 . %%RC_SUBR%%
 
-name="zope"
+name="zope28"
 rcvar=`set_rcvar`
 load_rc_config $name
 
-if checkyesno zope_enable; then
+if checkyesno zope28_enable; then
 
 	case "$1" in
 		start)
-			echo "Starting Zope"
+			echo "Starting Zope 2.8"
 		;;
 		stop)
-			echo "Stopping Zope"
+			echo "Stopping Zope 2.8"
 		;;
 		restart)
-			echo "Restarting Zope"
+			echo "Restarting Zope 2.8"
 		;;
 		*)
 			echo "Unknown action \"$1\""
 		;;
 	esac
 
-	for instance in $zope_instances
+	for instance in $zope28_instances
 	do
-		if [ -r ${instance}/etc/${name}.conf -a -x ${instance}/bin/zopectl ]; then
+		if [ -r ${instance}/etc/zope.conf -a -x ${instance}/bin/zopectl ]; then
 			echo -n "       Instance ${instance} -> "
 			${instance}/bin/zopectl $1
 		fi
