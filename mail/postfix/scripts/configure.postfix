@@ -116,7 +116,7 @@ while [ "$1" ]; do
 		TLS)
 			echo "USE_OPENSSL=	yes"
 			echo "POSTFIX_CCARGS+=	-DUSE_TLS -I\${OPENSSLINC}"
-			echo "POSTFIX_AUXLIBS+=	-L\${OPENSSLLIB} -lssl -lcrypto"
+			echo "POSTFIX_AUXLIBS+=	-L\${OPENSSLLIB} \${LDFLAGS} -lssl -lcrypto"
 			echo "TLS_SUFFIX=	+tls"
 			;;
 		DB3)
