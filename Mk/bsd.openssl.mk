@@ -97,11 +97,14 @@ OPENSSLRPATH=		/usr/lib:${LOCALBASE}/lib
 .else
 
 OPENSSLBASE=		${LOCALBASE}
-.if defined(WITH_OPENSSL_BETA)
+.if defined(WITH_OPENSSL_097)
+OPENSSL_SHLIBVER?=	3
+.else
 OPENSSL_SHLIBVER?=	4
+.endif
+.if defined(WITH_OPENSSL_BETA)
 OPENSSL_PORT?=		security/openssl-beta
 .else
-OPENSSL_SHLIBVER?=	3
 OPENSSL_PORT?=		security/openssl
 .endif
 OPENSSLDIR=		${OPENSSLBASE}/openssl
