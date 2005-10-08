@@ -14,7 +14,7 @@ POST-DEINSTALL)
 If you won't be using ${PKGNAME} any longer, you may want to remove the
 following directories and files:
 
-        ${PREFIX}/etc/pksd.conf
+        %%PREFIX%%/etc/pksd.conf
 	/var/pks
 ===========================================================================
 EOF
