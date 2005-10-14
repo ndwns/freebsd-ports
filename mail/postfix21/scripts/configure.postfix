@@ -184,6 +184,9 @@ while [ "$1" ]; do
 			echo "POSTFIX_CCARGS+=	-DHAS_LDAP -I\${LOCALBASE}/include"
  			echo "POSTFIX_AUXLIBS+=	-L\${LOCALBASE}/lib -lldap -llber"
 			echo "OPENLDAP_SUFFIX=	+openldap"
+			echo ".if defined(WITH_OPENLDAP_VER)"
+			echo "WANT_OPENLDAP_VER=\${WITH_OPENLDAP_VER}"
+			echo ".endif"
 			;;
 		Test)
 			echo "BINTEST=		smtp-sink smtp-source qmqp-source"
