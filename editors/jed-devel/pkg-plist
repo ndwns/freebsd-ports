@@ -1,8 +1,7 @@
 @comment $FreeBSD$
 bin/jed
 bin/jed-script
-bin/rgrep
-%%NOXJED%%bin/xjed
+%%XJED%%bin/xjed
 lib/jed/bin/getmail
 lib/jed/lib/README
 lib/jed/lib/abbrev.sl
