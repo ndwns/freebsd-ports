@@ -46,6 +46,12 @@ WITH_OPENSSL_PORT=yes
 WITH_OPENSSL_STABLE=yes
 .endif
 
+.if !defined(WITHOUT_OPENSSL_097) && !defined(WITH_OPENSSL_BETA)
+.if ( ${OSVERSION} >= 600000 ) && ( ${OSVERSION} < 600100 )
+WITH_OPENSSL_STABLE=yes
+.endif
+.endif
+
 #	if no preference was set, check for an installed base version
 #	but give an installed port preference over it.
 .if	!defined(WITH_OPENSSL_BASE) && \
