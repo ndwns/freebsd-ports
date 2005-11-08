@@ -50,6 +50,7 @@ WITH_OPENSSL_STABLE=yes
 .if !defined(WITHOUT_OPENSSL_097) && !defined(WITH_OPENSSL_BETA)
 .if ( ${OSVERSION} >= 600000 ) && ( ${OSVERSION} < 600100 )
 WITH_OPENSSL_STABLE=yes
+OPENSSL_PORT?=		security/openssl
 .endif
 .endif
 .endif
