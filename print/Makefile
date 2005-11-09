@@ -260,6 +260,8 @@
     SUBDIR += ruby-gnomeprint
     SUBDIR += ruby-panda
     SUBDIR += ruby-pdflib
+    SUBDIR += rubygem-colortools
+    SUBDIR += rubygem-pdfwriter
     SUBDIR += scribus
     SUBDIR += sgf2tex
     SUBDIR += sv-acroread
