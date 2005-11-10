@@ -8,7 +8,7 @@
 
 PORTNAME=	gecko-sharp
 PORTVERSION=	0.11
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	http://go-mono.com/sources/gecko-sharp-2.0/
 DISTNAME=	gecko-sharp-2.0-${PORTVERSION}
@@ -52,4 +52,5 @@ pre-everything::
 post-patch:
 	@${REINPLACE_CMD} -e 's|[(]prefix[)]/lib/pkgconfig|(prefix)/libdata/pkgconfig|g' ${WRKSRC}/Makefile.in
 
+.include "${.CURDIR}/../../lang/mono/bsd.mono.mk"
 .include <bsd.port.mk>
