@@ -2,13 +2,13 @@
 # Date created:         2003-01-01
 # Whom:                 Juli Mallett
 #
-# $Id$
 # $FreeBSD$
+#   $Id$
 #
 
 PORTNAME=	gtk-sharp
 PORTVERSION=	1.0.10
-PORTREVISION=	2
+PORTREVISION=	5
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://go-mono.com/sources/${PORTNAME}/
 
@@ -25,15 +25,18 @@ USE_REINPLACE=	yes
 INSTALLS_SHLIB=	yes
 USE_GMAKE=	yes
 USE_PERL5_RUN=	yes
-USE_GNOME=	gnomehack libgnomedb gtkhtml3 vte librsvg2
+USE_GNOME=	gnomehack gtkhtml3 vte librsvg2
 
 MAKE_ENV=MONO_SHARED_DIR=${WRKDIR}
 
 post-patch:
 	@${FIND} ${WRKSRC} -name '*.pl' | ${XARGS} ${REINPLACE_CMD} -e \
 		's|^#!/usr/bin/perl|#!${PERL}|'
+	@${REINPLACE_CMD} -e 's|enable_gda=yes|enable_gda=no|g ; \
+		s|enable_gnomedb=yes|enable_gnomedb=no|g' ${WRKSRC}/configure
 
 pre-su-install:
 	${MKDIR} ${LOCALBASE}/share/gapi
 
+.include "${.CURDIR}/../../lang/mono/bsd.mono.mk"
 .include <bsd.port.mk>
