@@ -6,7 +6,7 @@
 #   $Id$
 #
 
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	mail
 PKGNAMESUFFIX=	-sharp
 
@@ -27,7 +27,7 @@ USE_GNOME=	gnomehack gnometarget glib20
 USE_REINPLACE=	yes
 CONFIGURE_ARGS=	--enable-mono=yes
 
-LATEST_LINK=  gmime2-sharp
+LATEST_LINK=    gmime2-sharp
 
 # Else we conflict with mail/gmime2
 NOPORTDOCS=	yes
@@ -36,6 +36,7 @@ post-patch:
 	@${REINPLACE_CMD} -e 's|.@GMIME_VERSION@||g' \
 		${WRKSRC}/mono/gmime-sharp.dll.config.in
 	@${REINPLACE_CMD} -e 's|libglib-2.0.so.0|libglib-2.0.so|g' \
-		${WRKSRC}/mono/ObjectStream.cs ${WRKSRC}/mono/Object.custom
+		${WRKSRC}/mono/ObjectStream.cs ${WRKSRC}/mono/Stream.custom
 
+.include "${.CURDIR}/../../lang/mono/bsd.mono.mk"
 .include "${MASTERDIR}/Makefile"
