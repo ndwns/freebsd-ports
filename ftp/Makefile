@@ -70,8 +70,8 @@
     SUBDIR += paraget
     SUBDIR += pavuk
     SUBDIR += pear-Net_FTP
-    SUBDIR += pfptx
     SUBDIR += pftpd
+    SUBDIR += pftpx
     SUBDIR += php4-curl
     SUBDIR += php4-ftp
     SUBDIR += php5-curl
