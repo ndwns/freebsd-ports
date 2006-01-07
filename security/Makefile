@@ -530,6 +530,8 @@
     SUBDIR += saint
     SUBDIR += samba-vscan
     SUBDIR += samhain
+    SUBDIR += samhain-client
+    SUBDIR += samhain-server
     SUBDIR += sancp
     SUBDIR += sasp
     SUBDIR += scanlogd
