@@ -12,7 +12,7 @@
 #
 #ffserver_enable="YES"
 #
-ffserver_enable="NO"
+ffserver_enable="${ffserver_enable-NO}"
 
 . %%RC_SUBR%%
 

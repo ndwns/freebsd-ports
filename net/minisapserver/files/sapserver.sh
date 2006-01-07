@@ -12,7 +12,7 @@
 #
 #sapserver_enable="YES"
 #
-sapserver_enable="NO"
+sapserver_enable="${sapserver_enable-NO}"
 
 . %%RC_SUBR%%
 
