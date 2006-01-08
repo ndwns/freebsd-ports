@@ -2,9 +2,9 @@
 #
 # $FreeBSD$
 #
-# PROVIDE: netatalk
-# REQUIRE: DAEMON
-# KEYWORD: FreeBSD
+# PROVIDE: atalkd papd afpd timelord
+# REQUIRE: NETWORKING SERVERS named %%SRVLOC%%
+# KEYWORD: shutdown
 #
 # AppleTalk daemons. Make sure not to start atalkd in the background:
 # its data structures must have time to stablize before running the
