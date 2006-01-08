@@ -3,7 +3,7 @@
 # $FreeBSD$
 #
 # PROVIDE: atalkd papd afpd timelord
-# REQUIRE: NETWORKING SERVERS named %%SRVLOC%%
+# REQUIRE: DAEMON %%SRVLOC%%
 # KEYWORD: shutdown
 #
 # AppleTalk daemons. Make sure not to start atalkd in the background:
