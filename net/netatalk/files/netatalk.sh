@@ -2,7 +2,7 @@
 #
 # $FreeBSD$
 #
-# PROVIDE: atalkd papd afpd timelord
+# PROVIDE: atalkd papd cnid_metad afpd timelord
 # REQUIRE: DAEMON %%SRVLOC%%
 # KEYWORD: shutdown
 #
