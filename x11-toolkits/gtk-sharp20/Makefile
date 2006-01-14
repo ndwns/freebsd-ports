@@ -7,7 +7,8 @@
 #
 
 PORTNAME=	gtk-sharp
-PORTVERSION=	2.3.92
+PORTVERSION=	2.4.0
+PORTREVISION=	1
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://go-mono.com/sources/gtk-sharp-2.0/
 
