@@ -52,7 +52,7 @@ apache22_accf() {
 	retcode=0
 	if checkyesno apache22_http_accept_enable
 	then
-		/sbin/kldstat | grep accf_http 2>&1 > /dev/null
+		/sbin/kldstat -v | grep accf_http 2>&1 > /dev/null
 		retcode=${?}
 		if [ ${retcode} -ne 0 ]
 		then
