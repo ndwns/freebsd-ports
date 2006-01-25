@@ -6,7 +6,7 @@
 
 .if !defined(_POSTMKINCLUDED) && !defined(Linux_RPM_Pre_Include)
 
-Linux_RPM_Include_MAINTAINER=	jylefort@FreeBSD.org
+Linux_RPM_Include_MAINTAINER=	emulation@FreeBSD.org
 Linux_RPM_Pre_Include=			bsd.linux-rpm.mk
 
 RPM2CPIO?=			${LOCALBASE}/bin/rpm2cpio
