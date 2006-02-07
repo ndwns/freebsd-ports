@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Checks if the 'www' user and group exist. If they don't, then
+# Checks if the '%%USER%%' user and group exist. If they don't, then
 # an attempt is made to create both.
 #
 # $FreeBSD$
@@ -12,10 +12,10 @@ if [ "$2" != "PRE-INSTALL" ]; then
 fi
 
 # Set some constants
-USER=www
-GROUP=${USER}
 UID=80
 GID=${UID}
+USER=%%USER%%
+GROUP=%%GROUP%%
 
 # See if the group already exists
 if ! pw groupshow "${GROUP}" 2>/dev/null 1>&2; then
