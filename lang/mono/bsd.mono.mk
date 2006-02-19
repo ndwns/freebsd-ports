@@ -15,10 +15,12 @@ MONO_SHARED_DIR=${WRKDIR}
 CONFIGURE_ENV+=MONO_SHARED_DIR="${MONO_SHARED_DIR}"
 MAKE_ENV+=MONO_SHARED_DIR="${MONO_SHARED_DIR}"
 
+# Set the location that webaps served bp XSP should use.
+XSP_DOCROOT=${PREFIX}/www/xsp
 
 # Clean up the semaphore produced by the .wapi
 post-install: mono-semdel
 pre-clean: mono-semdel
 
 mono-semdel:
-	@${SETENV} MONO_SHARED_DIR="${MONO_SHARED_DIR}" ${LOCALBASE}/bin/mono-semdel 2> /dev/null || true
+	@${SETENV} G_DEBUG="" MONO_SHARED_DIR="${MONO_SHARED_DIR}" ${LOCALBASE}/bin/mono-semdel 2> /dev/null || true
