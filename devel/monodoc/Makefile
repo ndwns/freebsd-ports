@@ -8,7 +8,7 @@
 #
 
 PORTNAME=	monodoc
-PORTVERSION=	1.1.11
+PORTVERSION=	1.1.13
 CATEGORIES=	devel gnome
 MASTER_SITES=	http://www.go-mono.com/sources/${PORTNAME}/
 
