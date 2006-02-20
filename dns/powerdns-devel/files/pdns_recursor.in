@@ -5,7 +5,7 @@
 
 # PROVIDE: pdns_recursor
 # REQUIRE: DAEMON
-# KEYWORD: FreeBSD shutdown
+# KEYWORD: shutdown
 
 #
 # Add the following lines to /etc/rc.conf to enable pdns_recursor:
