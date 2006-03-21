@@ -17,7 +17,7 @@ dhcprelay_ifaces=${dhcprelay_ifaces:-}		# ethernet interface(s)
 
 dhcprelay_precmd ()
 {
-    rc_flags="${rc_flags} ${dhcprelay_ifaces} ${dhcprelay_servers}"
+    rc_flags="${rc_flags} ${dhcprelay_ifaces} ${dhcprelay_server}"
 }
 
 . %%RC_SUBR%%
