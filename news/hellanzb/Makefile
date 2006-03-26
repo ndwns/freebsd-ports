@@ -1,13 +1,13 @@
 # New ports collection makefile for:	hellanzb
 # Date created:		Sat Sep 25 18:46:46 PDT 2004
-# Whom:			Philip Jenveey <pjenvey@groovie.org>
+# Whom:			Philip Jenvey <pjenvey@groovie.org>
 #
 # $FreeBSD$
 # $Id$
 #
 
 PORTNAME=	hellanzb
-PORTVERSION=	0.8
+PORTVERSION=	0.9
 CATEGORIES=	news
 MASTER_SITES=	http://www.hellanzb.com/distfiles/
 DISTNAME=	${PORTNAME}-${PORTVERSION}
