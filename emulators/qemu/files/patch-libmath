@@ -1354,14 +1354,14 @@ diff -Nru qemu-0.7.0/bsd.orig/amd64/s_round.c qemu-0.7.0/bsd/amd64/s_round.c
 +		return (x);
 +
 +	if (x >= 0.0) {
-+		t = ceil(x);
-+		if (t - x > 0.5)
-+			t -= 1.0;
++		t = floor(x);
++		if (t - x <= -0.5)
++			t += 1.0;
 +		return (t);
 +	} else {
-+		t = ceil(-x);
-+		if (t + x > 0.5)
-+			t -= 1.0;
++		t = floor(-x);
++		if (t + x <= -0.5)
++			t += 1.0;
 +		return (-t);
 +	}
 +}
@@ -2414,14 +2414,14 @@ diff -Nru qemu-0.7.0/bsd.orig/i386/s_round.c qemu-0.7.0/bsd/i386/s_round.c
 +		return (x);
 +
 +	if (x >= 0.0) {
-+		t = ceil(x);
-+		if (t - x > 0.5)
-+			t -= 1.0;
++		t = floor(x);
++		if (t - x <= -0.5)
++			t += 1.0;
 +		return (t);
 +	} else {
-+		t = ceil(-x);
-+		if (t + x > 0.5)
-+			t -= 1.0;
++		t = floor(-x);
++		if (t + x <= -0.5)
++			t += 1.0;
 +		return (-t);
 +	}
 +}
