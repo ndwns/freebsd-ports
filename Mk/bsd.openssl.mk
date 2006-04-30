@@ -52,6 +52,7 @@ WITH_OPENSSL_STABLE=yes
 	!defined(WITH_OPENSSL_BETA) && \
 	!defined(WITH_OPENSSL_PORT) && \
 	!defined(WITH_OPENSSL_STABLE) && \
+	!defined(OPENSSL_OVERWRITE_BASE) && \
 	!exists(${LOCALBASE}/lib/libcrypto.so) && \
 	exists(/usr/include/openssl/opensslv.h)
 WITH_OPENSSL_BASE=yes
