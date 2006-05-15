@@ -4,7 +4,7 @@
 #
 # $FreeBSD$
 
-vmware_config_file=@@PREFIX@@/etc/vmware/config
+vmware_config_file=%%PREFIX%%/etc/vmware/config
 
 if [ ! -e $vmware_config_file ]; then
     echo "$vmware_config_file does not exist!" >&2
@@ -23,9 +23,9 @@ vmware_config() {
 
 vmware=`vmware_config vmware.fullpath`
 vmware_libdir=`vmware_config libdir`
-networking=@@NETWORKING@@
+networking=%%NETWORKING%%
 dev_vmnet1=/dev/vmnet1
-vmnet1_minor=@@VMNET1_MINOR@@
+vmnet1_minor=%%VMNET1_MINOR%%
 
 if [ ! -x $vmware ]; then
     echo "$vmware does not exist!" >&2

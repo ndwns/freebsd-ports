@@ -1,12 +1,12 @@
 #!/bin/sh
 #
-# Run vmware
+# Run vmware-wizard
 #
 # $FreeBSD$
 
-if [ ! -e @@LINUXBASE@@/proc/cpuinfo ]; then
+if [ ! -e %%LINUXBASE%%/proc/cpuinfo ]; then
     echo "************************************************************"
-    echo "It seems Linux procfs is not mounted on @@LINUXBASE@@/proc."
+    echo "It seems Linux procfs is not mounted on %%LINUXBASE%%/proc."
     echo "VMware does not work without Linux procfs mounted."
     echo
     echo "For details, see linprocfs(5) manpage."
@@ -23,4 +23,4 @@ if [ _$TMPDIR = _ ]; then
     export TMPDIR
 fi
 
-exec @@PREFIX@@/lib/vmware/bin/vmware "$@"
+exec %%PREFIX%%/lib/vmware/bin/vmware-wizard "$@"
