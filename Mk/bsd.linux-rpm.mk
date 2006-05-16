@@ -148,7 +148,7 @@ do-install:
 new-plist: build
 	@${RM} -f ${PLIST}.new
 	@cd ${WRKSRC} && \
-		${FIND} * ! type d | ${SORT} > ${PLIST}.new; \
+		${FIND} * ! -type d | ${SORT} > ${PLIST}.new; \
 		${FIND} -d * -type d | ${SED} -e 's|^|@dirrm |' >> ${PLIST}.new; \
 	done
 .  endif
