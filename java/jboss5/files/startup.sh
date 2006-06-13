@@ -40,15 +40,18 @@ procname="%%JAVA%%"
 			chown %%USER%%:%%GROUP%% ${pidfile}
 		fi
 
-		%%CONTROL_SCRIPT%% -q ${%%APP_SHORTNAME%%_flags} ${%%APP_SHORTNAME%%_configflag} ${%%APP_SHORTNAME%%_config} start &&
-		echo -n " %%APP_SHORTNAME%%"
+		echo "Starting %%APP_SHORTNAME%%."
+		%%CONTROL_SCRIPT%% -q ${%%APP_SHORTNAME%%_flags} ${%%APP_SHORTNAME%%_configflag} ${%%APP_SHORTNAME%%_config} start
 	}
 }
 
 %%APP_SHORTNAME%%_restart ()
 {
 	checkyesno %%APP_SHORTNAME%%_enable &&
+	{
+		echo "Restarting %%APP_SHORTNAME%%."
 		%%CONTROL_SCRIPT%% -q ${%%APP_SHORTNAME%%_flags} ${%%APP_SHORTNAME%%_configflag} ${%%APP_SHORTNAME%%_config} restart
+	}
 }
 
 load_rc_config $name
