@@ -6,7 +6,7 @@
 #   $Id$
 #
 
-PORTREVISION=	12
+PORTREVISION=	13
 CATEGORIES=	devel gnome
 PKGNAMESUFFIX=	-sharp
 
