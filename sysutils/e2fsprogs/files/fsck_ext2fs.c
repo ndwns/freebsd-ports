@@ -1,6 +1,6 @@
 /*
  * fsck_ext2fs - wrapper for e2fsck on FreeBSD
- * Copyright (C) 2004 Matthias Andree
+ * Copyright (C) 2004,2006 Matthias Andree <matthias.andree@gmx.de>
  * redistributable in accordance with the
  * GNU General Public License v2
  *
@@ -57,8 +57,12 @@ int main(int argc, char **argv)
 		case 'v':
 			verbose++;
 			break;
-		case 'B':
 		case 'F':
+			/* e2fsck does not support background checking,
+			 * hence exit with nonzero status to force
+			 * the foreground check. */
+			exit(1);
+		case 'B':
 		default:
 			fprintf(stderr, "%s: unknown option -%c\n",
 				argv[0], optopt);
