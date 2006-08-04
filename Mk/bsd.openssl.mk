@@ -59,10 +59,10 @@ WITH_OPENSSL_BASE=yes
 .endif
 
 .if defined(WITH_OPENSSL_BASE)
-OPENSSLBASE=		/usr
-OPENSSLDIR=		/etc/ssl
+OPENSSLBASE=		${DESTDIR}/usr
+OPENSSLDIR=		${DESTDIR}/etc/ssl
 
-.if !exists(/usr/lib/libcrypto.so)
+.if !exists(${DESTDIR}/usr/lib/libcrypto.so)
 check-depends::
 	@${ECHO_CMD} "Dependency error: this port requires the OpenSSL library, which is part of"
 	@${ECHO_CMD} "the FreeBSD crypto distribution but not installed on your"
@@ -98,7 +98,7 @@ OPENSSL_CFLAGS+=	-DNO_IDEA
 .endif
 MAKE_ARGS+=		OPENSSL_CFLAGS="${OPENSSL_CFLAGS}"
 .endif
-OPENSSLRPATH=		/usr/lib:${LOCALBASE}/lib
+OPENSSLRPATH=		${DESTDIR}/usr/lib:${LOCALBASE}/lib
 
 .else
 
