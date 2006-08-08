@@ -5,7 +5,6 @@
 
 # If there is a global system configuration file, suck it in.
 #
-monthly_statistics_mailto="scrappy@hub.org,root"
 if [ -r /etc/defaults/periodic.conf ]
 then
     . /etc/defaults/periodic.conf
