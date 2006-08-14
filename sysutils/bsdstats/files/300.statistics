@@ -42,9 +42,9 @@ get_id_token () {
     then
        IDTOKEN=$( /usr/bin/openssl rand -base64 16 )
        
-       idf=$( mktemp "$id_token_file.XXXXXX" )   && \
-       /usr/sbin/chown root:wheel $id_token_file && \
-       /bin/chmod 600 $id_token_file             && \    
+       idf=$( mktemp "$id_token_file.XXXXXX" )  && \
+       /usr/sbin/chown root:wheel $idf          && \
+       /bin/chmod 600 $idf                      && \    
 
        /usr/bin/fetch -qo - \
 	   "http://$checkin_server/scripts/getid.php?key=$IDTOKEN" | { 
