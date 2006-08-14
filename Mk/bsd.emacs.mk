@@ -237,7 +237,7 @@ check-makevars::
 # find where emacsen is installed
 # look for it in PREEFIX first and fall back to LOCALBASE then
 .if exists(${TARGETDIR}/bin/${EMACS_NAME}-${EMACS_VER})
-EMACS_BASE?=			${DESTDIR}${PREFIX}
+EMACS_BASE?=			${TARGETDIR}
 .else
 EMACS_BASE?=			${LOCALBASE}
 .endif
