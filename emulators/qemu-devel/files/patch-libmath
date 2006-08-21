@@ -24,7 +24,7 @@ diff -Nru qemu-0.7.0/bsd.orig/Makefile qemu-0.7.0/bsd/Makefile
 +
 +OBJS=	${SRCS:R:S/$/.o/}
 +
-+CFLAGS=	-O2 -Wall -I.
++CFLAGS+=	-I.
 +
 +all: libmath.a
 +
