@@ -44,7 +44,7 @@ get_id_token () {
        
        idf=$( mktemp "$id_token_file.XXXXXX" )  && \
        /usr/sbin/chown root:wheel $idf          && \
-       /bin/chmod 600 $idf                      && \    
+       /bin/chmod 600 $idf
 
        /usr/bin/fetch -qo - \
 	   "http://$checkin_server/scripts/getid.php?key=$IDTOKEN" | { 
