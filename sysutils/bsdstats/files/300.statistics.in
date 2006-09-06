@@ -22,6 +22,8 @@ id_token_file='/var/db/bsdstats'
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin
 export PATH
 
+unset HTTP_USER_AGENT
+
 IFS="
 "
 
@@ -118,6 +120,7 @@ uri_escape () {
 
 do_fetch () {
     url="http://$checkin_server/scripts/$1"
+    sleep `openssl rand -base64 1 | hexdump -n 1 -e '"%u"'`
     case $(uname) in
 	NetBSD)		/usr/bin/ftp -V -o - "$url" ;;
 	FreeBSD | *)	/usr/bin/fetch -q -o - "$url" ;;
