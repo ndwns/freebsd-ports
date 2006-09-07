@@ -28,7 +28,7 @@ IFS="
 "
 
 random () {
-  ( ps ax && netstat -a && date ) | sum | cut -c4-5
+  jot -r 1 0 300
 }
 
 send_devices () {
