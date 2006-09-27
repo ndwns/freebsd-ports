@@ -1,0 +1,12 @@
+Index: Makefile
+===================================================================
+--- Makefile	(revision 1137)
++++ Makefile	(working copy)
+@@ -1,6 +1,6 @@
+ # $FreeBSD$
+ 
+-.PATH: ${.CURDIR}/../../dev/ipmi
++.PATH: ${.CURDIR}/dev/ipmi
+ 
+ # XXX - ipmi_smbus and ipmi_ssif depend on smbus
+ # XXX - ipmi_acpi depends on acpi
