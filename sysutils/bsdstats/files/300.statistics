@@ -23,7 +23,7 @@ oldmask=$(umask)
 umask 066
 
 version="4.0"
-checkin_server=${monthly_statistics_checkin_server:-"bsdstats.org"}
+checkin_server=${monthly_statistics_checkin_server:-"rpt.bsdstats.org"}
 id_token_file='/var/db/bsdstats'
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin
