@@ -75,7 +75,6 @@ get_id_token () {
        chown root:wheel $idf          && \
        chmod 600 $idf
 
-       sleep `random`
        do_fetch getid.php?key=$IDTOKEN | {
           local IFS
           IFS='=
@@ -98,24 +97,10 @@ get_id_token () {
        } > $idf                                  && \
 
        mv $idf $id_token_file
-    if [ ! -s $id_token_file ] ;
-    then
-	echo "Nothing returned from $checkin_server"
-	exit 1
-    fi
-
-       echo "To protect against abuse, the initial challenge/response phase"
-       echo "contains a 15 minute pause.  Please be patient while this time"
-       echo "limit elapses"
-       sleep 900
-    else
-       FILETIME=$( stat -f %m $id_token_file )
-       NOW=$( date +%s )
-       if [ $(( $NOW - 900 )) -le $FILETIME ]; then
-          SLEEPTIME=$(( 900 - ($NOW - $FILETIME) ))
-          echo "Token key is younger than 15 minutes!"
-          echo "Sleeping $SLEEPTIME seconds, please wait."
-          sleep $SLEEPTIME
+       if [ ! -s $id_token_file ] ;
+       then
+    	  echo "Nothing returned from $checkin_server"
+	  exit 1
        fi
     fi
     . $id_token_file
