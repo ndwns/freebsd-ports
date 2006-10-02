@@ -109,15 +109,9 @@ BRANDELF_FILES?=
 
 .    if ${USE_LINUX} == "fc4" || ${USE_LINUX:L} == "yes"
 _LINUX_BASE_SUFFIX=		fc4
-.    elif ${USE_LINUX} == "debian"
-_LINUX_BASE_SUFFIX=		debian
-.    elif ${USE_LINUX} == "fc3"
-_LINUX_BASE_SUFFIX=		fc3
-.    elif ${USE_LINUX} == "8"
-_LINUX_BASE_SUFFIX=		8
 .    else
 # other linux_base ports do not provide a pkg-plist file
-IGNORE=					uses AUTOMATIC_PLIST with an unsupported USE_LINUX, \"${USE_LINUX}\". Supported values are \"yes\", \"8\", \"debian\", \"fc3\" and \"fc4\"
+IGNORE=					uses AUTOMATIC_PLIST with an unsupported USE_LINUX, \"${USE_LINUX}\". Supported values are \"yes\" and \"fc4\"
 .    endif
 
 PLIST?=					${WRKDIR}/.PLIST.linux-rpm
