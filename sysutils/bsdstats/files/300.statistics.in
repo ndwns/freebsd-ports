@@ -171,14 +171,14 @@ case "$monthly_statistics_enable" in
              ;;
           *) 
              echo "Posting monthly device/CPU statistics disabled"
-             echo '    set monthly_statistics_report_devices="YES" in $periodic_conf'
+             echo "    set monthly_statistics_report_devices=\"YES\" in $periodic_conf"
              ;;
       esac
       do_fetch disable_token.php?key=$TOKEN\&token=$KEY
       ;;
     *) 
       echo "Posting monthly OS statistics disabled"
-      echo '    set monthly_statistics_enable="YES" in $periodic_conf'
+      echo "    set monthly_statistics_enable=\"YES\" in $periodic_conf"
     ;;
 esac
 
