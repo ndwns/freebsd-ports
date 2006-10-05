@@ -5,28 +5,28 @@
 #
 
 # Variables:
-#  - LINUX_DIST:	Will be used to set some dist-specific presets.
-#			Valid values: fedora
-#  - LINUX_DIST_VER:	Use depends upon the dist-specific presets.
-#			Valid values for "fedora": all version numbers
-#				e.g. 3 for fedora core 3, 4 for fedora core 4
-#				This is used to set MASTER_SITE_{,SRC_}SUBDIR
-#				if it isn't already set.
-#  - MASTER_SITE_SRC_SUBDIR:	The subdir for the src RPM's.
-#  - DISTFILES:		For simple cases this will be set automatically
-#			based upon the DISTNAME.
-#  - SRC_DISTFILES:	Variable which contains the corresponding src RPM's.
-#			If there's no corresponding src RPM, it has to be
-#			set to the empty value (SRC_DISTFILES=	"").
-#  - AUTOMATIC_PLIST:	Generate a dynamic plist (please have a look at the
-#			porters handbook section which talks about plists.
-#			This feature is reserved for rare cases).
-#  - BRANDELF_DIRS:	A list of directories with executables to brand
-#			as a linux executable. The directories has to not
-#			contain libraries.
-#  - BRANDELF_FILES:	A list of files to brand as a linux executable in
-#			case BRANDELF_DIRS can't be used.
-
+# LINUX_DIST		- Will be used to set some dist-specific presets.
+#					  Valid values: fedora
+# LINUX_DIST_VER	- Use depends upon the dist-specific presets.
+#					  Valid values for "fedora": all version numbers
+#					  e.g. 3 for fedora core 3, 4 for fedora core 4
+#					  This is used to set MASTER_SITE_{,SRC_}SUBDIR
+#					  if it isn't already set.
+# MASTER_SITE_SRC_SUBDIR
+#					- The subdir for the src RPM's.
+# DISTFILES			- For simple cases this will be set automatically
+#					  based upon the DISTNAME.
+# SRC_DISTFILES		- Variable which contains the corresponding src RPM's.
+#					  If there's no corresponding src RPM, it has to be
+#					  set to the empty value (SRC_DISTFILES=	"").
+# AUTOMATIC_PLIST	- Generate a dynamic plist (please have a look at the
+#					  porters handbook section which talks about plists.
+#					  This feature is reserved for rare cases).
+# BRANDELF_DIRS		- A list of directories with executables to brand
+#					  as a linux executable. The directories has to not
+#					  contain libraries.
+# BRANDELF_FILES	- A list of files to brand as a linux executable in
+#					  case BRANDELF_DIRS can't be used.
 
 .if !defined(_POSTMKINCLUDED) && !defined(Linux_RPM_Pre_Include)
 
