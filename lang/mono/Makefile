@@ -7,8 +7,7 @@
 #
 
 PORTNAME=	mono
-PORTVERSION=	1.1.13.6
-PORTREVISION=	1
+PORTVERSION=	1.1.13.8.1
 CATEGORIES=	lang
 MASTER_SITES=	http://www.go-mono.com/sources/mono-1.1/ \
 		${MASTER_SITE_LOCAL}
