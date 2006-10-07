@@ -7,11 +7,10 @@
 #
 
 PORTNAME=	evolution-sharp
-PORTVERSION=	0.10.2
-PORTREVISION=	5
+PORTVERSION=	0.11.1
 CATEGORIES=	mail gnome
 MASTER_SITES=	${MASTER_SITE_GNOME}
-MASTER_SITE_SUBDIR=	sources/${PORTNAME}/0.10
+MASTER_SITE_SUBDIR=	sources/${PORTNAME}/0.11
 
 MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	Mono bindings for evolution
