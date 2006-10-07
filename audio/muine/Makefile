@@ -7,8 +7,7 @@
 #
 
 PORTNAME=	muine
-PORTVERSION=	0.8.4
-PORTREVISION=	3
+PORTVERSION=	0.8.5
 CATEGORIES=	audio gnome
 MASTER_SITES=	http://muine-player.org/releases/
 
@@ -51,6 +50,7 @@ CONFIGURE_ARGS+=	--enable-xine=yes
 LIB_DEPENDS+=	xine.15:${PORTSDIR}/multimedia/libxine
 .else
 USE_GSTREAMER80+=	gconf
+CONFIGURE_ARGS+=	--enable-gstreamer=0.8
 .endif
 
 post-patch:
