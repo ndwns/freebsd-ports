@@ -1,6 +1,3 @@
-
-$FreeBSD$
-
 --- lisp/sawfish/ui/widgets/workspace-geometry.jl	2002/04/29 19:16:50	1.1
 +++ lisp/sawfish/ui/widgets/workspace-geometry.jl	2002/04/29 19:17:07
 @@ -28,7 +28,6 @@
