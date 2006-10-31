@@ -393,6 +393,7 @@
     SUBDIR += happydoc
     SUBDIR += hapy
     SUBDIR += hc12mem
+    SUBDIR += highlighterkit
     SUBDIR += hp48cc
     SUBDIR += hp48xgcc
     SUBDIR += hptools
@@ -1974,6 +1975,7 @@
     SUBDIR += websvn
     SUBDIR += wfut
     SUBDIR += wininfo
+    SUBDIR += wizardkit
     SUBDIR += wxGlade
     SUBDIR += xdg-utils
     SUBDIR += xfc
