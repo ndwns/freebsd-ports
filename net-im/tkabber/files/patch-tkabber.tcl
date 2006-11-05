@@ -1,5 +1,5 @@
---- tkabber.tcl.orig	Tue Jul 27 17:37:59 2004
-+++ tkabber.tcl	Tue Aug  3 14:34:43 2004
+--- tkabber.tcl.orig    Tue Oct 31 13:04:08 2006
++++ tkabber.tcl Tue Oct 31 13:06:18 2006
 @@ -1,6 +1,6 @@
  #!/bin/sh
  # the next line restarts using the correct interpreter \
@@ -8,12 +8,12 @@
  
  # $Id$
  
-@@ -118,7 +118,7 @@
-             debugmsg tkabber "closed $chan '$res'"
-         }
-     }
+@@ -107,7 +107,7 @@
+     hook::run quit_hook
+     catch { bind $::ifacetk::mf <Destroy> {} }
+     destroy .
 -    exit $status
 +    quit $status
  }
  
- namespace eval ssj {}
+ namespace eval ifacetk {}
