@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 # $FreeBSD$
 
 copy_dir()
@@ -30,14 +30,30 @@ prepare_files()
 	find ${WRKSRC} -type d -name linux | xargs rm -r
 }
 
+unpack_jars()
+{
+	for src in ${JAR_UNPACK_LIST}
+	do
+		cd ${WRKSRC} &&
+		mkdir ${src} &&
+		${UNZIP_CMD} -q ${src}.jar -d ${src}
+	done
+}
+
 COPY_LIST="
-eclipse/plugins/org.eclipse.cdt.core.linux.x86_3.0.2
-eclipse/plugins/org.eclipse.cdt.core.linux.x86_3.0.2/os/linux
-eclipse/plugins/org.eclipse.cdt.core.linux.x86_3.0.2/os/linux/x86
-eclipse/plugins/org.eclipse.cdt.core.linux_3.0.2
-eclipse/plugins/org.eclipse.cdt.source.linux.gtk.x86_3.0.2
-eclipse/plugins/org.eclipse.cdt.source.linux.gtk.x86_3.0.2/src/org.eclipse.cdt.core.linux_3.0.2
+eclipse/plugins/org.eclipse.cdt.core.linux.x86_${PORTVERSION_TS}
+eclipse/plugins/org.eclipse.cdt.core.linux.x86_${PORTVERSION_TS}/os/linux
+eclipse/plugins/org.eclipse.cdt.core.linux.x86_${PORTVERSION_TS}/os/linux/x86
+eclipse/plugins/org.eclipse.cdt.core.linux_${PORTVERSION_TS}
+eclipse/plugins/org.eclipse.cdt.source.linux.gtk.x86_${PORTVERSION_TS}
+eclipse/plugins/org.eclipse.cdt.source.linux.gtk.x86_${PORTVERSION_TS}/src/org.eclipse.cdt.core.linux_${PORTVERSION_TS}
 "
 
+JAR_UNPACK_LIST="
+eclipse/plugins/org.eclipse.cdt.managedbuilder.gnu.ui_${PORTVERSION_TS}
+eclipse/plugins/org.eclipse.cdt.core_${PORTVERSION_TS}"
+
 prepare_files
+unpack_jars
+
 exit 0
