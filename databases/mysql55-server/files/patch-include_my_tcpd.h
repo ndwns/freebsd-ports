@@ -1,5 +1,5 @@
---- sql/mytcpd.h.orig	Sun Jan  9 13:33:51 2005
-+++ sql/mytcpd.h	Sun Jan  9 13:41:42 2005
+--- include/my_tcpd.h.orig	Sun Jan  9 13:33:51 2005
++++ include/my_tcpd.h	Sun Jan  9 13:41:42 2005
 @@ -6,6 +6,25 @@
    * $FreeBSD$
    */
