@@ -6,6 +6,8 @@
 %%PYTHON_SITELIBDIR%%/enchant/checker/CmdLineChecker.pyc
 %%PYTHON_SITELIBDIR%%/enchant/checker/__init__.py
 %%PYTHON_SITELIBDIR%%/enchant/checker/__init__.pyc
+%%PYTHON_SITELIBDIR%%/enchant/checker/GtkSpellCheckerDialog.py
+%%PYTHON_SITELIBDIR%%/enchant/checker/GtkSpellCheckerDialog.pyc
 %%PYTHON_SITELIBDIR%%/enchant/checker/wxSpellCheckerDialog.py
 %%PYTHON_SITELIBDIR%%/enchant/checker/wxSpellCheckerDialog.pyc
 %%PYTHON_SITELIBDIR%%/enchant/tokenize/__init__.py
