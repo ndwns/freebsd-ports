@@ -80,7 +80,7 @@ check_dns () {
 send_devices () {
     case $(uname) in
 	FreeBSD )
-	    for line in `/usr/sbin/pciconf -l | /usr/bin/grep -v none`
+	    for line in `/usr/sbin/pciconf -l`
 	    do
 	      DRIVER=`echo $line | awk -F\@ '{print $1}'`
 	      DEV=`echo $line | awk '{print $4}' | cut -c8-15`
