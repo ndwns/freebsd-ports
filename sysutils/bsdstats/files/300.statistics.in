@@ -181,7 +181,7 @@ ${proxy_auth}Content-Type: application/x-www-form-urlencoded
 Content-Length: ${string_length}
 
 token=${TOKEN}&key=${KEY}${query_string}" | \
-		/usr/bin/nc $nc_host $nc_port  | \
+		nc $nc_host $nc_port  | \
 		grep STATUS= | {
           local IFS
           IFS='= 
