@@ -149,7 +149,7 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 # XEmacs-21.x
 .elif (${EMACS_PORT_NAME} == "xemacs21")
 EMACS_NAME=		xemacs
-EMACS_VER=		21.4.19
+EMACS_VER=		21.4.20
 EMACS_MAJOR_VER=	21
 EMACS_LIBDIR?=		lib/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
@@ -166,7 +166,7 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 # XEmacs-21.x with Mule
 .elif (${EMACS_PORT_NAME} == "xemacs21-mule")
 EMACS_NAME=		xemacs
-EMACS_VER=		21.4.19
+EMACS_VER=		21.4.20
 EMACS_MAJOR_VER=	21
 EMACS_LIBDIR?=		lib/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	lib/${EMACS_NAME}-${EMACS_VER}
