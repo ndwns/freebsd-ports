@@ -8,7 +8,7 @@
 
 PORTNAME=	gtk-sharp
 PORTVERSION=	1.0.10
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://go-mono.com/sources/${PORTNAME}/
 
@@ -18,7 +18,6 @@ COMMENT=	GTK+ and GNOME interfaces for the .NET runtime
 BUILD_DEPENDS=	mono:${PORTSDIR}/lang/mono
 RUN_DEPENDS=	mono:${PORTSDIR}/lang/mono
 
-USE_X_PREFIX=	yes
 LATEST_LINK=	gtk-sharp10
 GNU_CONFIGURE=	yes
 INSTALLS_SHLIB=	yes
