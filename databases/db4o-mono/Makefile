@@ -19,7 +19,7 @@ COMMENT=	A database engine for storing object into files
 
 RUN_DEPENDS=	mono:${PORTSDIR}/lang/mono
 
-REALVERSION=	5.0
+REALVERSION=	5.5
 
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/${PORTNAME}-${REALVERSION}
