@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+
+if [ "$2" != "POST-DEINSTALL" ]; then
+        exit 0
+fi
+
+lmozprefs=%%LOCALBASE%%/lib/linux-firefox/defaults/pref/firefox.js
+blmozprefs=%%LOCALBASE%%/lib/linux-firefox/defaults/pref/firefox.js.bak
+
+mozprefs=%%LOCALBASE%%/lib/firefox/defaults/pref/firefox.js
+bmozprefs=%%LOCALBASE%%/lib/firefox/defaults/pref/firefox.js.bak
+
+if [ -f $lmozprefs -a -f $blmozprefs ]; then
+	mv $blmozprefs $lmozprefs
+fi
+
+if [ -f $mozprefs -a -f $bmozprefs ]; then
+	mv $bmozprefs $mozprefs
+fi
+
+exit 0
