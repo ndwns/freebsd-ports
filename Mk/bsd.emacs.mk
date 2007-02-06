@@ -115,7 +115,7 @@ PLIST?=                 ${PKGDIR}/pkg-plist.${EMACS_PORT_NAME}
 # Emacs-22.x
 .elif (${EMACS_PORT_NAME} == "emacs22")
 EMACS_NAME=		emacs
-EMACS_VER=		22.0.50
+EMACS_VER=		22.0.93
 EMACS_MAJOR_VER=	22
 EMACS_LIBDIR?=		share/${EMACS_NAME}
 EMACS_LIBDIR_WITH_VER?=	share/${EMACS_NAME}/${EMACS_VER}
