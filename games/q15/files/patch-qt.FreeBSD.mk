@@ -4,7 +4,7 @@
  # $Id$
  
 -QTDIR= /usr/X11R6
-+QTDIR= ${X11BASE}
++QTDIR= ${QT_PREFIX}
  MOC= ${QTDIR}/bin/moc
  LUPDATE= ${QTDIR}/bin/lupdate
  LRELEASE= ${QTDIR}/bin/lrelease
