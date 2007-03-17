@@ -7,7 +7,7 @@
 #
 
 PORTNAME=	libgdiplus
-PORTVERSION=	1.2.2
+PORTVERSION=	1.2.3
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://www.go-mono.com/sources/${PORTNAME}/
 
@@ -20,7 +20,7 @@ LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff \
 
 USE_GNOME=	gnomehack gnometarget glib20
 USE_GMAKE=	yes
-USE_LDCONFIG=	yes
+INSTALLS_SHLIB=	yes
 USE_XLIB=	yes
 LIBTOOLFILES=	configure cairo/configure
 USE_AUTOTOOLS=	libtool:15

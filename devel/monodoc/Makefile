@@ -8,7 +8,7 @@
 #
 
 PORTNAME=	monodoc
-PORTVERSION=	1.2.1
+PORTVERSION=	1.2.3
 CATEGORIES=	devel gnome
 MASTER_SITES=	http://www.go-mono.com/sources/${PORTNAME}/
 
@@ -23,7 +23,8 @@ USE_ZIP=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 
-MAN1=		mdnormalizer.1 mdvalidator.1 monodocer.1 monodocs2html.1
+MAN1=		mdnormalizer.1 mdvalidator.1 monodocer.1 monodocs2html.1 \
+		mdassembler.1 mdcs2ecma.1
 
 .include "${.CURDIR}/../../lang/mono/bsd.mono.mk"
 .include <bsd.port.mk>
