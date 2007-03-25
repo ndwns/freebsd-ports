@@ -7,6 +7,7 @@
 
 PORTNAME=	java-access-bridge
 PORTVERSION=	1.18.0
+PORTREVISION=	1
 CATEGORIES=	accessibility java gnome
 MASTER_SITES=	GNOME
 DIST_SUBDIR=	gnome2
@@ -15,6 +16,7 @@ MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Gnome Java Accessibility Bridge
 
 BUILD_DEPENDS=	xprop:${X_CLIENTS_PORT}
+RUN_DEPENDS=	xprop:${X_CLIENTS_PORT}
 
 USE_BZIP2=	yes
 GNU_CONFIGURE=	yes
@@ -23,11 +25,6 @@ USE_JAVA=	1.4+
 JAVA_OS=	native
 USE_GMAKE=	yes
 CONFIGURE_ARGS=	--without-gcj-compile --with-jardir=${JAVAJARDIR}
-
-PLIST_FILES=	share/jar/JNav.jar \
-		share/jar/accessibility.properties \
-		share/java/classes/gnome-java-bridge.jar
-
 
 post-patch:
 	@${REINPLACE_CMD} -e 's|$${prefix}/share/jar|${JAVAJARDIR}|' \
