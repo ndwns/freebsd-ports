@@ -3,15 +3,6 @@ $FreeBSD$
 
 --- logging.c
 +++ logging.c
-@@ -10,7 +10,7 @@
-  * This software was authored by Constantin Kaplinsky <const@ce.cctpu.edu.ru>
-  * and sponsored by HorizonLive.com, Inc.
-  *
-- * $Id$
-+ * $Id$
-  * Logging implementation
-  */
- 
 @@ -138,8 +138,6 @@
    char time_buf[32];
    char level_char = ' ';
