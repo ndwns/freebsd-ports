@@ -1,6 +1,9 @@
---- modules/nathelper/nathelper.h
+
+$FreeBSD$
+
+--- /dev/null
 +++ modules/nathelper/nathelper.h
-@@ -0,0 +1,74 @@
+@@ -0,0 +1,76 @@
 +/*
 + * $Id$
 + *
@@ -41,6 +44,8 @@
 +/* Parameters from nathelper.c */
 +extern struct socket_info* force_socket;
 +
++int natpinger_child_init(int);
++int natpinger_cleanup(void);
 +/* Functions from nathelper.c */
 +int isnulladdr(str *, int);
 +int get_to_tag(struct sip_msg* _m, str* _tag);
