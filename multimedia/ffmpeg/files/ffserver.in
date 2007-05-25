@@ -8,7 +8,7 @@
 # KEYWORD: shutdown
 
 #
-# Add the following lines to /etc/rc.conf to enable  ffserver:
+# Add the following lines to /etc/rc.conf to enable ffserver:
 #
 #ffserver_enable="YES"
 #
