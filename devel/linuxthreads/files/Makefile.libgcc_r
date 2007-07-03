@@ -2,8 +2,12 @@
 
 PREFIX?=	${DESTDIR}/usr/local
 LIBDIR=		${PREFIX:S,^${DESTDIR},,}/lib
+SHLIBDIR=	${PREFIX:S,^${DESTDIR},,}/lib
+.if defined(USING_GCC4)
+INSTALL_PIC_ARCHIVE=yes
+.endif
 
-CFLAGS+=-D_PTHREADS -I../
+CFLAGS+=-D_PTHREADS -I../ -D__USE_UNIX98
 CFLAGS+=-I../sysdeps/i386 -I../sysdeps/pthread -I../sysdeps/unix/sysv/linux
 CXXFLAGS=	${CXXINCLUDES} ${CFLAGS:C/-std=[a-z:0-9]+//}
 
