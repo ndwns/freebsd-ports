@@ -7,6 +7,8 @@
 Emacs_Include=			bsd.emacs.mk
 Emacs_Include_MAINTAINER=	ports@FreeBSD.org
 
+EMACS_PORT_NAME?=	emacs22
+
 #
 # This file for ports which depend on emacs family.
 # Define EMACS_PORT_NAME variable before bsd.port.[pre.]mk
