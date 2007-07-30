@@ -8,7 +8,7 @@
 
 _CC := $(CC)
 _CXX := $(CXX)
-_CFLAGS := -fPIC -pedantic -I$(X11BASE)/include -DUSE_XSHM -DHZ=100 $(CFLAGS)
+_CFLAGS := -fPIC -pedantic -I$(X11BASE)/include -DUSE_XSHM -DHZ=100 -D__GLX_MOTIF=1 $(CFLAGS)
 _CXXFLAGS := -fPIC -pedantic $(CXXFLAGS)
 
 include $(TOP)/configs/default
