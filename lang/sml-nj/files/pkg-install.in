@@ -98,7 +98,7 @@ fi
 EPOCH=1
 CONFIG_FORMAT=1
 MAJOR=1
-MINOR=0
+MINOR=1
 VERSION=$EPOCH.$CONFIG_FORMAT.$MAJOR.$MINOR
 
 usage() {
@@ -130,7 +130,7 @@ version() {
 which() {
 	local name executable
 	name="$1"
-	lookup_executable "$CALLED_NAME"
+	lookup_executable "$name"
 	executable="$lookup_executable_result"
 	[ -z "$executable" ] && return 1
 	echo "$executable"
