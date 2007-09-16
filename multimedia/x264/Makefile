@@ -6,7 +6,7 @@
 #      $Id$
 
 PORTNAME=	x264
-PORTVERSION=	0.0.20070708
+PORTVERSION=	0.0.20070913
 PORTREVISION?=	0
 CATEGORIES=	multimedia
 MASTER_SITES=	http://downloads.videolan.org/pub/videolan/x264/snapshots/
