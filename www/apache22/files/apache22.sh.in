@@ -116,6 +116,11 @@ apache22_requirepidfile()
 
 apache22_checkconfig()
 {
+	if test -f %%PREFIX%%/sbin/envvars
+	then
+		. %%PREFIX%%/sbin/envvars
+	fi
+
 	echo "Performing sanity check on apache22 configuration:"
 	eval ${command} ${apache22_flags} -t
 }
@@ -137,11 +142,6 @@ apache22_gracefulstop() {
 apache22_precmd() 
 {
 	apache22_checkconfig
-
-	if test -f %%PREFIX%%/sbin/envvars
-	then
-		. %%PREFIX%%/sbin/envvars
-	fi
 
 	if checkyesno apache22limits_enable
 	then
