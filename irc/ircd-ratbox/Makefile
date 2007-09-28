@@ -7,18 +7,19 @@
 # ex: ts=8
 
 PORTNAME=	ircd-ratbox
-PORTVERSION=	2.2.5
+PORTVERSION=	2.2.6
 CATEGORIES=	irc ipv6
-MASTER_SITES=	ftp://ftp.ircd-ratbox.org/pub/ircd-ratbox/old/		\
-		ftp://ftp.demon.co.uk/pub/mirrors/ircd-ratbox/old/	\
-		http://www.ircd-ratbox.org/download/old/		\
-		ftp://ftp.parodius.com/pub/ircd-ratbox/old/
+MASTER_SITES=	ftp://ftp.ircd-ratbox.org/pub/ircd-ratbox/		\
+		ftp://ftp.demon.co.uk/pub/mirrors/ircd-ratbox/		\
+		http://www.ircd-ratbox.org/download/			\
+		ftp://ftp.parodius.com/pub/ircd-ratbox/
+PKGNAMESUFFIX=	-devel
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	shaun@FreeBSD.org
 COMMENT=	An advanced, stable IRC daemon, used on many EFnet servers
 
-CONFLICTS=	ircd-ratbox-devel-[0-9]*
+CONFLICTS=	ircd-ratbox-[0-9]*
 
 MAN8=		ircd.8
 USE_RC_SUBR=	ircd-ratbox.sh
@@ -107,7 +108,7 @@ pre-configure:
 	@${ECHO_MSG} ""
 	@${ECHO_MSG} "This port has additional options:"
 	@${ECHO_MSG} "    NICKLEN     [default 9, max 50]    - Max nick length on server"
-	@${ECHO_MSG} "    TOPICLEN    [default 120, max 390] - Max topic length"
+	@${ECHO_MSG} "    TOPICLEN    [default 160, max 390] - Max topic length"
 	@${ECHO_MSG} ""
 	@${ECHO_MSG} "Press CTRL+C now if you wish to set them."
 	@${ECHO_MSG} ""
@@ -117,6 +118,9 @@ post-patch:
 	@${REINPLACE_CMD} -e "s#%%PREFIX%%#${PREFIX}#g"		  \
 			  ${WRKSRC}/doc/example.conf		  \
 			  ${WRKSRC}/doc/example.efnet.conf
+	@${REINPLACE_CMD} -e "s#%%LOGDIR%%#${LOGDIR}#g"		\
+				${WRKSRC}/doc/example.conf	\
+				${WRKSRC}/doc/example.efnet.conf
 	@${REINPLACE_CMD} -e "s#%%RUNDIR%%#${RUNDIR}#g" ${WRKSRC}/include/config.h
 
 pre-su-install:
