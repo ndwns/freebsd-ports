@@ -7,10 +7,10 @@
 #
 
 PORTNAME=	libgdiplus
-PORTVERSION=	1.2.3
+PORTVERSION=	1.2.5
 PORTREVISION=	1
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	http://www.go-mono.com/sources/${PORTNAME}/
+MASTER_SITES=	http://go-mono.com/sources/${PORTNAME}/
 
 MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	GDI+ API for System.Windows.Forms in Mono
@@ -19,14 +19,15 @@ LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff \
 		ungif.5:${PORTSDIR}/graphics/libungif \
 		png.5:${PORTSDIR}/graphics/png
 
+USE_BZIP2=	yes
 USE_GNOME=	gnomehack gnometarget glib20
 USE_GMAKE=	yes
 INSTALLS_SHLIB=	yes
 USE_XLIB=	yes
 LIBTOOLFILES=	configure cairo/configure
 USE_AUTOTOOLS=	libtool:15
-CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib"
+CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include" \
+		LDFLAGS="-L${LOCALBASE}/lib"
 # Included cairo does not work for us.  Enable below when Mono catches
 # up with our port.  For now, use included but patch out glitz manually.
 #CONFIGURE_ARGS+= --with-cairo=installed
@@ -42,4 +43,5 @@ CFLAGS+=        -fPIC
 IGNORE= does not build and is useless without working Mono
 .endif
 
+.include "${.CURDIR}/../../lang/mono/bsd.mono.mk"
 .include <bsd.port.post.mk>
