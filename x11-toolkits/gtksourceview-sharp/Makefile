@@ -7,8 +7,7 @@
 #
 
 PORTNAME=	gtksourceview-sharp
-PORTVERSION=	0.10
-PORTREVISION=	7
+PORTVERSION=	0.11
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	http://go-mono.com/sources/gtksourceview-sharp-2.0/
 DISTNAME=	${PORTNAME}-2.0-${PORTVERSION}
@@ -21,6 +20,7 @@ BUILD_DEPENDS=	mono:${PORTSDIR}/lang/mono \
 RUN_DEPENDS=	mono:${PORTSDIR}/lang/mono \
 		monodoc:${PORTSDIR}/devel/mono-tools
 
+USE_BZIP2=	yes
 USE_GNOME=	gtksourceview gnomehack gtksharp20
 USE_AUTOTOOLS=	libtool:15
 USE_GMAKE=	yes
