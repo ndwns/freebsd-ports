@@ -8,9 +8,9 @@
 #
 
 PORTNAME=	monodoc
-PORTVERSION=	1.2.3
+PORTVERSION=	1.2.5
 CATEGORIES=	devel gnome
-MASTER_SITES=	http://www.go-mono.com/sources/${PORTNAME}/
+MASTER_SITES=	http://go-mono.com/sources/${PORTNAME}/
 
 MAINTAINER=	bsd-sharp-list@forge.novell.com
 COMMENT=	Documentation for Mono and Mono libraries
@@ -22,6 +22,7 @@ USE_GNOME=	gnomehack gnometarget
 USE_ZIP=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
+CONFIGURE_ARGS=	--mandir=${PREFIX}/man
 
 MAN1=		mdnormalizer.1 mdvalidator.1 monodocer.1 monodocs2html.1 \
 		mdassembler.1 mdcs2ecma.1
