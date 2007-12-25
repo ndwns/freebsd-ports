@@ -2,7 +2,7 @@
 #
 # $FreeBSD$
 
-OCTAVE_EXEC=%%PREFIX%%/libexec/octave/%%OCTAVE_VERSION%%/octave-%%OCTAVE_VERSION%%
+OCTAVE_EXEC=%%PREFIX%%/libexec/octave/%%OCTAVE_VERSION%%/exec/%%GNU_HOST%%/octave-%%OCTAVE_VERSION%%
 LD_LIBRARY_PATH=%%PREFIX%%/lib/octave-%%OCTAVE_VERSION%%; export LD_LIBRARY_PATH
 
 exec $OCTAVE_EXEC "$@"
