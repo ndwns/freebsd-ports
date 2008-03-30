@@ -52,9 +52,8 @@ WITH_OPENSSL_STABLE=yes
 	!defined(WITH_OPENSSL_BETA) && \
 	!defined(WITH_OPENSSL_PORT) && \
 	!defined(WITH_OPENSSL_STABLE) && \
-	!defined(OPENSSL_OVERWRITE_BASE) && \
-	!exists(${LOCALBASE}/lib/libcrypto.so) && \
-	exists(/usr/include/openssl/opensslv.h)
+	!exists(${DESTDIR}/${LOCALBASE}/lib/libcrypto.so) && \
+	exists(${DESTDIR}/usr/include/openssl/opensslv.h)
 WITH_OPENSSL_BASE=yes
 .endif
 
@@ -119,10 +118,10 @@ OPENSSL_SHLIBVER?=	3
 .endif
 .else
 .if	!defined(OPENSSL_PORT) && \
-	exists(${LOCALBASE}/lib/libcrypto.so)
+	exists(${DESTDIR}/${LOCALBASE}/lib/libcrypto.so)
 # find installed port and use it for dependency
 PKG_DBDIR?=		${DESTDIR}/var/db/pkg
-OPENSSL_INSTALLED!=	grep -l -r "^lib/libssl.so." "${PKG_DBDIR}" | \
+OPENSSL_INSTALLED!=	-grep -l -r "^lib/libssl.so." "${PKG_DBDIR}" | \
 			while read contents; do \
 				sslprefix=`grep "^@cwd " "$${contents}" | ${HEAD} -n 1`; \
 				if test "$${sslprefix}" = "@cwd ${LOCALBASE}" ; then \
