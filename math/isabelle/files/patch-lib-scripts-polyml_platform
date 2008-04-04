@@ -1,5 +1,5 @@
---- ./lib/scripts/polyml-platform.orig	Sun Sep  2 15:13:40 2007
-+++ ./lib/scripts/polyml-platform	Sun Sep  2 15:54:17 2007
+--- lib/scripts/polyml-platform.orig	Sat Jan 12 17:09:07 2008
++++ lib/scripts/polyml-platform	Sat Jan 12 17:11:51 2008
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env bash
 +#!/bin/sh

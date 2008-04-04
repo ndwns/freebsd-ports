@@ -1,5 +1,5 @@
---- ./lib/Tools/display.orig	Sun Sep  2 15:11:55 2007
-+++ ./lib/Tools/display	Sun Sep  2 15:48:09 2007
+--- lib/Tools/display.orig	Sat Jan 12 16:57:02 2008
++++ lib/Tools/display	Sat Jan 12 17:00:11 2008
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env bash
 +#!/bin/sh
