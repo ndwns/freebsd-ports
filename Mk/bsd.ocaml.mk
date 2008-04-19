@@ -177,7 +177,7 @@ ocaml-wash:
 #
 .if !target(add-plist-post)
 add-plist-post:
-. if (${PREFIX} != ${LOCALBASE} && ${PREFIX} != ${X11BASE} && \
+. if (${PREFIX} != ${LOCALBASE} && \
 	${PREFIX} != ${LINUXBASE} && ${PREFIX} != "/usr")
 	@${ECHO_CMD} "@unexec rmdir %D 2> /dev/null || true" >> ${TMPPLIST}
 . else
