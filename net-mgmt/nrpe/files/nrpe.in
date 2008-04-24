@@ -3,6 +3,10 @@
 # $FreeBSD$
 #
 
+# PROVIDE: nrpe
+# REQUIRE: NETWORKING
+# KEYWORD: shutdown
+
 #
 # Add the following lines to /etc/rc.conf to enable apache2:
 # nrpe_enable (bool):	Set to "NO" by default.
