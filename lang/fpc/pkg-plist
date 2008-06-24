@@ -4,6 +4,7 @@
 etc/fpc.cfg.sample
 @exec if [ ! -f %D/etc/fpc.cfg ] ; then cp -p %D/%F %B/fpc.cfg; fi
 bin/fpc
+bin/fpcmake
 bin/fpcmkcfg
 bin/fpcsubst
 bin/ppudump
