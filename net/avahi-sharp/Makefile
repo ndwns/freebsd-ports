@@ -6,7 +6,7 @@
 #   $Id$
 #
 
-PORTREVISION=	1
+PORTREVISION=	0
 CATEGORIES=	net dns
 PKGNAMESUFFIX=	-sharp
 
