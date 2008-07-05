@@ -2,14 +2,17 @@
 #
 # $FreeBSD$
 
-oopath=%%PREFIX%%/%%INSTALLATION_BASEDIR%%/%%OOODIR%%/program/
+oopath=%%PREFIX%%/%%INSTALLATION_BASEDIR%%/%%OOODIR%%
 program=`echo $0 | sed -e 's|.*-%%OOOTAG%%-||'`
 
 case $program in
 $0)
-	$oopath/soffice "$@"
+	$oopath/program/soffice "$@"
 	;;
-	*)
-	$oopath/$program "$@"
+setofficelang)
+	$oopath/basis-link/program/$program "$@"
+	;;
+*)
+	$oopath/program/$program "$@"
 	;;
 esac
