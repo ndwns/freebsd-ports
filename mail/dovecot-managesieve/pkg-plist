@@ -1,4 +1,4 @@
-@comment $ID:$
+@comment $FreeBSD$
 libexec/dovecot/managesieve
 libexec/dovecot/managesieve-login
 @dirrmtry libexec/dovecot
