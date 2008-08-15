@@ -105,6 +105,20 @@ MD5_FILE?=				${MASTERDIR}/distinfo.${LINUX_RPM_ARCH}
 BRANDELF_DIRS?=
 BRANDELF_FILES?=
 
+# For ports that define PORTDOCS, be sure not to install
+# documentation if NOPORTDOCS is defined
+.  if defined(PORTDOCS) && defined(NOPORTDOCS)
+pre-patch: linux-rpm-clean-portdocs
+
+.    if !target(linux-rpm-clean-portdocs)
+linux-rpm-clean-portdocs:
+.      for x in ${PORTDOCS}
+	@${RM} -f ${WRKDIR}/${DOCSDIR_REL}/${x}
+.      endfor
+	@${RMDIR} ${WRKDIR}/${DOCSDIR_REL}
+.    endif
+.  endif
+
 .  if defined(AUTOMATIC_PLIST)
 
 .    if ${USE_LINUX} == "fc4" || ${USE_LINUX:L} == "yes"
