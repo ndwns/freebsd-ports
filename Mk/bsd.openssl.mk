@@ -122,7 +122,7 @@ OPENSSL_SHLIBVER?=	3
 # find installed port and use it for dependency
 PKG_DBDIR?=		${DESTDIR}/var/db/pkg
 .if !defined(OPENSSL_INSTALLED)
-OPENSSL_INSTALLED!=	find "${PKG_DBDIR}" -type f -name "+CONTENTS" -print0 | \
+OPENSSL_INSTALLED!=	find "${PKG_DBDIR}/" -type f -name "+CONTENTS" -print0 | \
 			xargs -0 grep -l "^lib/libssl.so." | \
 			while read contents; do \
 				sslprefix=`grep "^@cwd " "$${contents}" | ${HEAD} -n 1`; \
