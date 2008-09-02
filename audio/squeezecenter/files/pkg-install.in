@@ -10,7 +10,6 @@ shell=/sbin/nologin
 comment="Slim Devices SlimServer/SqueezeCenter pseudo-user"
 slimdir="%%PREFIX%%/%%SLIMDIR%%"
 statedir=%%SLIMDBDIR%%
-cachedir=${statedir}/cache
 conffile=${statedir}/${name}.conf
 playlistdir=${statedir}/playlists
 pidfile=/var/run/${name}/${name}.pid
