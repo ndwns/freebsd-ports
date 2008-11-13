@@ -4,22 +4,21 @@
 #
 # PROVIDE: ptpd
 # REQUIRE: NETWORKING DAEMON
+# KEYWORD: nojail
 #
 # Add the following lines to /etc/rc.conf to enable ptpd
 #
 # ptpd_enable (bool):	Set to "NO" by default
-#			Set it to "YES" to enable sshd
+#			Set it to "YES" to enable ptpd
 
 . %%RC_SUBR%%
 
 name="ptpd"
-rcvar=${name}_enable
+rcvar=`set_rcvar`
 
-if [ -n  "${ptpd_flags}" ]; then
-    command="%%PREFIX%%/bin/${name} ${ptpd_flags}"
-else
-    command="%%PREFIX%%/bin/${name}"
-fi
+command="%%PREFIX%%/sbin/${name}"
+
+ptpd_enable=${ptpd_enable:-"NO"}
 
 load_rc_config $name
 run_rc_command "$1"
