@@ -1,6 +1,6 @@
 # $FreeBSD$
 #
-# $GKHeader: squirrelmail/bsd.squirrelmail.mk,v 1.17 2008/09/02 18:18:29 tabthorpe Exp $
+# $Id$
 #
 # Common code for squirrelmail plugins.
 #
