@@ -1,7 +1,10 @@
 @comment $FreeBSD$
 %%PYTHON_SITELIBDIR%%/enchant/__init__.py
 %%PYTHON_SITELIBDIR%%/enchant/__init__.pyc
-%%PYTHON_SITELIBDIR%%/enchant/_enchant.so
+%%PYTHON_SITELIBDIR%%/enchant/_enchant.py
+%%PYTHON_SITELIBDIR%%/enchant/_enchant.pyc
+%%PYTHON_SITELIBDIR%%/enchant/pypwl.py
+%%PYTHON_SITELIBDIR%%/enchant/pypwl.pyc
 %%PYTHON_SITELIBDIR%%/enchant/checker/CmdLineChecker.py
 %%PYTHON_SITELIBDIR%%/enchant/checker/CmdLineChecker.pyc
 %%PYTHON_SITELIBDIR%%/enchant/checker/__init__.py
