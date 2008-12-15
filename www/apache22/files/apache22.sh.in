@@ -189,8 +189,8 @@ apache22_checkfib () {
 }
 
 apache22_prestart() {
-	apache22_precmd
 	apache22_checkfib
+	apache22_precmd
 }
 
 extra_commands="reload graceful gracefulstop configtest"
