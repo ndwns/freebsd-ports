@@ -162,7 +162,6 @@
     SUBDIR += mysql-navigator
     SUBDIR += mysql-proxy
     SUBDIR += mysql-q4m
-    SUBDIR += mysql-query-browser
     SUBDIR += mysql-udf
     SUBDIR += mysql2odbc
     SUBDIR += mysql2pgsql
@@ -258,7 +257,6 @@
     SUBDIR += p5-DBD-Pg
     SUBDIR += p5-DBD-PgLite
     SUBDIR += p5-DBD-PgPP
-    SUBDIR += p5-DBD-PgSPI
     SUBDIR += p5-DBD-SQLite
     SUBDIR += p5-DBD-SQLite2
     SUBDIR += p5-DBD-Sybase
