@@ -12,7 +12,7 @@ LIB_PATH=%%LIBDIR%%
 
 CLASS_PATH=:%%JAVAJARDIR%%/%%JARFILE%%:${ECLIPSE_SWT_JAR}
 
-BROWSERS="xulrunner firefox seamonkey mozilla"
+BROWSERS="firefox xulrunner seamonkey mozilla"
 
 if [ ! "${MOZILLA_FIVE_HOME}" ]; then
 	for browser in ${BROWSERS}; do
