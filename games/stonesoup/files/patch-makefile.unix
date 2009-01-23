@@ -1,5 +1,5 @@
---- makefile.unix.orig	2008-07-14 04:17:51.000000000 +0200
-+++ makefile.unix	2008-07-18 08:49:37.000000000 +0200
+--- makefile.unix.orig	2009-01-13 02:40:36.000000000 +0000
++++ makefile.unix	2009-01-19 20:08:18.000000000 +0000
 @@ -4,7 +4,7 @@
  # Modified for Crawl Reference by $Author$ on $Date$
  #
@@ -96,16 +96,16 @@
  	done
  
  -include $(DEPENDENCY_MKF)
-@@ -277,16 +269,16 @@
+@@ -277,17 +269,17 @@
  	$(DELETE) $(DEPENDENCY_MKF)
  
  $(GAME): $(GAME_DEPENDS)
 -	${CXX} ${LDFLAGS} $(CFLAGS) $(OBJECTS) -o $(GAME) $(LIB)
 +	${CXX} ${LDFLAGS} $(LOCAL_CXXFLAGS) $(OBJECTS) -o $(GAME) $(LIB)
  
- debug: $(GAME_DEPENDS)
--	${CXX} ${LDFLAGS} $(CFLAGS) $(OBJECTS) -o $(GAME) $(LIB)
-+	${CXX} ${LDFLAGS} $(LOCAL_CXXFLAGS) $(OBJECTS) -o $(GAME) $(LIB)
+ .PHONY : debug
+ 
+ debug: $(GAME)
  
  profile: $(GAME_DEPENDS)
 -	${CXX} -g -p ${LDFLAGS} $(CFLAGS) $(OBJECTS) -o $(GAME) $(LIB)
