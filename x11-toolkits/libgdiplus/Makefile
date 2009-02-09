@@ -7,25 +7,22 @@
 #
 
 PORTNAME=	libgdiplus
-PORTVERSION=	1.2.5
-PORTREVISION=	3
+PORTVERSION=	2.0
 CATEGORIES=	x11-toolkits
-MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/${PORTNAME}/
+MASTER_SITES=	ftp://ftp.novell.com/pub/mono/sources/${PORTNAME}/
 
-MAINTAINER=	bsd-sharp@googlegroups.com
+MAINTAINER=	mono@FreeBSD.org
 COMMENT=	GDI+ API for System.Windows.Forms in Mono
 
 LIB_DEPENDS=	tiff.4:${PORTSDIR}/graphics/tiff \
 		ungif.5:${PORTSDIR}/graphics/libungif \
-		png.5:${PORTSDIR}/graphics/png \
-		fontconfig.1:${PORTSDIR}/x11-fonts/fontconfig \
-		freetype.9:${PORTSDIR}/print/freetype2
+		png.5:${PORTSDIR}/graphics/png
 
 USE_BZIP2=	yes
 USE_GNOME=	gnomehack gnometarget glib20
 USE_GMAKE=	yes
-USE_XORG=	x11 xrender
-USE_LDCONFIG=	yes
+USE_XLIB=	yes
+USE_LDCONFIG=   yes
 LIBTOOLFILES=	configure cairo/configure
 USE_AUTOTOOLS=	libtool:15
 CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include" \
