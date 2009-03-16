@@ -29,7 +29,7 @@ POST-INSTALL)
 	echo "You already have a user \"${MYTHTVUSER}\", so I will use it."
     else
 	if ${PW} useradd ${MYTHTVUSER} -u ${MYTHTVUID} -g ${MYTHTVGROUP} -h - \
-	    -d ${MYTHTVDIR} -m -s /bin/sh -c "MythTV"
+	    -d ${MYTHTVDIR} -s /bin/sh -c "MythTV"
 	then
 	    echo "Added user \"${MYTHTVUSER}\"."
 	else
