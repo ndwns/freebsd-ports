@@ -28,9 +28,9 @@
 # BRANDELF_FILES	- A list of files to brand as a linux executable in
 #					  case BRANDELF_DIRS can't be used.
 # _F8_COMPATIBLE_LINUX_BASE_PORTS
-			- A list of linux base ports compatible (may be used) with -f8-
-					  linux infrastructure ports. This variable is ment
-					  to be used at *.mk files
+#			- A list of linux base ports compatible (may be used) with -f8-
+#					  linux infrastructure ports. This variable is ment
+#					  to be used at *.mk files
 
 .if !defined(_POSTMKINCLUDED) && !defined(Linux_RPM_Pre_Include)
 
