@@ -7,7 +7,7 @@
 #      $Id$
 
 PORTNAME=	liboil
-PORTVERSION=	0.3.15
+PORTVERSION=	0.3.16
 CATEGORIES=	devel
 MASTER_SITES=	http://liboil.freedesktop.org/download/
 
