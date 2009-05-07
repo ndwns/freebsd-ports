@@ -107,9 +107,15 @@ OPENSSL_INSTALLED!=	find "${PKG_DBDIR}/" -type f -name "+CONTENTS" -print0 | \
 				if test "$${sslprefix}" = "@cwd ${LOCALBASE}" ; then \
 					echo "$${contents}"; break; fi; done
 .endif
+.if defined(OPENSSL_INSTALLED) && ${OPENSSL_INSTALLED} != ""
 OPENSSL_PORT!=		grep "^@comment ORIGIN:" "${OPENSSL_INSTALLED}" | ${CUT} -d : -f 2
 OPENSSL_SHLIBFILE!=	grep "^lib/libssl.so." "${OPENSSL_INSTALLED}"
 OPENSSL_SHLIBVER?=	${OPENSSL_SHLIBFILE:E}
+.else
+# PKG_DBDIR was not found, default
+OPENSSL_PORT?=		security/openssl
+OPENSSL_SHLIBVER?=	5
+.endif
 .endif
 OPENSSL_PORT?=		security/openssl
 OPENSSL_SHLIBVER?=	5
