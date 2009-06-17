@@ -63,7 +63,7 @@ LINUX_RPM_ARCH?=	${ARCH}
 Linux_RPM_Post_Include=	bsd.linux-rpm.mk
 
 LINUX_DIST?=		fedora
-LINUX_DIST_VER?=	3
+LINUX_DIST_VER?=	4
 
 # linux Fedora 8 infrastructure ports should be used with compat.linux.osrelease=2.6.16,
 # linux_base-f8 (or greater) port
