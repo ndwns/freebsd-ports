@@ -63,7 +63,15 @@ LINUX_RPM_ARCH?=	${ARCH}
 Linux_RPM_Post_Include=	bsd.linux-rpm.mk
 
 LINUX_DIST?=		fedora
+. if ${OSVERSION} < 800076
 LINUX_DIST_VER?=	4
+. else
+LINUX_DIST_VER?=	10
+.   if  !defined(${OVERRIDE_LINUX_NONBASE_PORTS}) && \
+        ${LINUX_DIST_VER} != 10
+IGNORE=		bsd.linux-rpm.mk test failed: default package building at OSVERSION>=800076 was changed to linux-f10 ports, please define OVERRIDE_LINUX_NONBASE_PORTS to build other linux infrastructure ports
+.   endif
+. endif
 
 # linux Fedora 8 infrastructure ports should be used with compat.linux.osrelease=2.6.16,
 # linux_base-f8 (or greater) port
@@ -72,14 +80,19 @@ LINUX_DIST_VER?=	4
 .    if (${LINUX_OSRELEASE} != "2.6.16")
 IGNORE=		bsd.linux-rpm.mk test failed: the port should be used with compat.linux.osrelease=2.6.16, which is supported at 8-CURRENT and has a limitted support at 7-STABLE
 .    endif
+# the default for OSVERSION < 800076
+.    if ${OSVERSION} < 800076
 # let's check if an apropriate linux base port is used
-.    if ${USE_LINUX} != f8 && ${USE_LINUX} != f9 && ${USE_LINUX} != f10
+.      if ${USE_LINUX} != f8 && ${USE_LINUX} != f9 && ${USE_LINUX} != f10
 IGNORE=		bsd.linux-rpm.mk test failed: the port should be used with at least linux_base-f8, please read /usr/ports/UPDATING
-.    endif
+.      endif
 # let's check if OVERRIDE_LINUX_NONBASE_PORTS is defined
-.    ifndef(OVERRIDE_LINUX_NONBASE_PORTS)
+.      ifndef(OVERRIDE_LINUX_NONBASE_PORTS)
 IGNORE=		bsd.linux-rpm.mk test failed: the port should be used with defined OVERRIDE_LINUX_NONBASE_PORTS, please read /usr/ports/UPDATING
-.    endif
+.      endif
+# the default for OSVERSION >= 800076
+#.      else
+.    endif # ${OSVERSION} < 800076
 .  endif
 
 .  if defined(LINUX_DIST)
