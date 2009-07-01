@@ -67,7 +67,7 @@ LINUX_DIST?=		fedora
 LINUX_DIST_VER?=	4
 . else
 LINUX_DIST_VER?=	10
-.   if  !defined(${OVERRIDE_LINUX_NONBASE_PORTS}) && \
+.   if  !defined(OVERRIDE_LINUX_NONBASE_PORTS) && \
         ${LINUX_DIST_VER} != 10
 IGNORE=		bsd.linux-rpm.mk test failed: default package building at OSVERSION>=800076 was changed to linux-f10 ports, please define OVERRIDE_LINUX_NONBASE_PORTS to build other linux infrastructure ports
 .   endif
