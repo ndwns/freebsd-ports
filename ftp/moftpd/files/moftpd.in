@@ -31,7 +31,6 @@ required_files=%%PREFIX%%/etc/moftpd.conf
 load_rc_config $name
 
 [ -z "$moftpd_enable" ]       && moftpd_enable="NO"
-[ -z "$moftpd_flags" ]        && moftpd_flags=""
 [ -z "$moftpdlimits_enable" ] && moftpdlimits_enable="NO"
 [ -z "$moftpdlimits_args" ]   && moftpdlimits_args="-e -C daemon"
 
