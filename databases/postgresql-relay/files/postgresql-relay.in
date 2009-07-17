@@ -24,9 +24,8 @@ rcvar=`set_rcvar`
 command=%%PREFIX%%/bin/postgresql-relay
 required_files=%%PREFIX%%/etc/postgresql-relay.conf
 
-# set defaults
+load_rc_config $name
 
 postgresqlrelay_enable=${postgresqlrelay_enable:-"NO"}
 
-load_rc_config $name
 run_rc_command "$1"
