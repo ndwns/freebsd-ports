@@ -114,11 +114,19 @@ OPENSSL_SHLIBVER?=	${OPENSSL_SHLIBFILE:E}
 .else
 # PKG_DBDIR was not found, default
 OPENSSL_PORT?=		security/openssl
+.if ( ${OSVERSION} >= 800105 )
+OPENSSL_SHLIBVER?=	6
+.else
 OPENSSL_SHLIBVER?=	5
+.endif
 .endif
 .endif
 OPENSSL_PORT?=		security/openssl
+.if ( ${OSVERSION} >= 800105 )
+OPENSSL_SHLIBVER?=	6
+.else
 OPENSSL_SHLIBVER?=	5
+.endif
 
 OPENSSLDIR=		${OPENSSLBASE}/openssl
 BUILD_DEPENDS+=		${LOCALBASE}/lib/libcrypto.so.${OPENSSL_SHLIBVER}:${PORTSDIR}/${OPENSSL_PORT}
