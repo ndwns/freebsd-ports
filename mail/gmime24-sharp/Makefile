@@ -6,6 +6,7 @@
 #   $Id$
 #
 
+PORTREVISION=	1
 CATEGORIES=	mail
 PKGNAMESUFFIX=	-24-sharp
 
