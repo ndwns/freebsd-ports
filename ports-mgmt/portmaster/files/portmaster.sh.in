@@ -1692,7 +1692,7 @@ multiport () {
 		glob_dirs=`find $pdb -maxdepth 1 -type d -name ${port}\*`
 				case "$glob_dirs" in
 				*\*|'') fail "$pdb/$port does not exist" ;;
-				*)	for dir in $globlist; do
+				*)	for dir in $glob_dirs; do
 				worklist="$worklist ${dir#$pdb/}"
 				portlist="${portlist}\t${dir#$pdb/}\n"
 				PM_MULTI_PORTS="${PM_MULTI_PORTS}${dir#$pdb/}:"
