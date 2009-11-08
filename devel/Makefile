@@ -96,6 +96,8 @@
     SUBDIR += bcc
     SUBDIR += bcpp
     SUBDIR += beautifyphp
+    SUBDIR += bennugd-core
+    SUBDIR += bennugd-modules
     SUBDIR += bglibs
     SUBDIR += bicyclerepair
     SUBDIR += bin86
