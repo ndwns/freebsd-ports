@@ -78,7 +78,7 @@ IGNORE=		bsd.linux-rpm.mk test failed: default package building at OSVERSION>=80
 .  if ${LINUX_DIST_VER} == 8 || ${LINUX_DIST_VER} == 10
 # let's check for apropriate compat.linux.osrelease
 .    if (${LINUX_OSRELEASE} != "2.6.16")
-IGNORE=		bsd.linux-rpm.mk test failed: the port should be used with compat.linux.osrelease=2.6.16, which is supported at 8-CURRENT and has a limitted support at 7-STABLE
+IGNORE=		bsd.linux-rpm.mk test failed: the port should be used with compat.linux.osrelease=2.6.16, which is supported at 8-CURRENT and has a limited support at 7-STABLE
 .    endif
 # the default for OSVERSION < 800076
 .    if ${OSVERSION} < 800076
