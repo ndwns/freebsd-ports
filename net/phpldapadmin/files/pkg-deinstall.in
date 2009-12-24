@@ -8,7 +8,7 @@ case $2 in
     cat <<EOMSG
 The phpldapadmin-suphp port has been deleted.
 If you are not upgrading and don't intend to use
-phpLDAPadmin any more then you may wish to delete
+phpldapadmin any more then you may wish to delete
 the %%PLA_USR%% account, which can be done with
 the following command:
 
