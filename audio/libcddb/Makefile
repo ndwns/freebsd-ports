@@ -7,7 +7,7 @@
 #      $Id$
 
 PORTNAME=	libcddb
-PORTVERSION=	1.3.0
+PORTVERSION=	1.3.1
 CATEGORIES=	audio
 MASTER_SITES=	SF
 
