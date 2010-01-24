@@ -44,7 +44,7 @@ POST-INSTALL)
   fi
 
   echo "---> Creating crontab(5) file for user \"%%USER%%\""
-  crontab -u "%%USER%%" "%%PREFIX%%/ifgraph/crontab.in" || exit 1
+  crontab -u "%%USER%%" "%%PREFIX%%/ifgraph/crontab" || exit 1
 
   ;;
 
