@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+
+if [ -f ${PKG_PREFIX}/var/smokeping/smokeping.pid ]; then
+rm ${PKG_PREFIX}/var/smokeping/smokeping.pid
+fi
+
