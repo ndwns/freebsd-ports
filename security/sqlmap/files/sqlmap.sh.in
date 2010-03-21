@@ -2,5 +2,5 @@
 # $FreeBSD$
 
 cd %%PATH%%
-exec %%PYTHON_CMD%% sqlmap.py $@
+exec %%PYTHON_CMD%% sqlmap.py "$@"
 
