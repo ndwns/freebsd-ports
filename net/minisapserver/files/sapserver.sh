@@ -14,7 +14,7 @@
 #
 sapserver_enable="${sapserver_enable-NO}"
 
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name=sapserver
 rcvar=`set_rcvar`

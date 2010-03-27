@@ -14,7 +14,7 @@
 # pgcluster_flags="-w -s"
 #
 
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name="pgcluster"
 rcvar=`set_rcvar`

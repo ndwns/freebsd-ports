@@ -27,7 +27,7 @@
 #			--proxy-lua-script=<file> - filename of the lua script
 #			--no-proxy - don't start proxy-server
 
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name="mysql_proxy"
 rcvar=`set_rcvar`

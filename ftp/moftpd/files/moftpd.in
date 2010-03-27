@@ -19,7 +19,7 @@
 # moftpdlimits_args (str):   Default to "-e -C daemon"
 #                             Arguments of pre-start limits run.
 #
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name="moftpd"
 rcvar=`set_rcvar`

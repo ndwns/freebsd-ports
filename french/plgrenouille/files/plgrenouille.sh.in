@@ -13,7 +13,7 @@
 plgrenouille_enable=NO
 plgrenouille_flags=-b
 
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name=plgrenouille
 rcvar=$(set_rcvar)

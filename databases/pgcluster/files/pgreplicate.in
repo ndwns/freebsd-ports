@@ -11,7 +11,7 @@
 # pgreplicate_enable="YES"
 #
 
-. %%RC_SUBR%%
+. /etc/rc.subr
 
 name="pgreplicate"
 rcvar=`set_rcvar`
