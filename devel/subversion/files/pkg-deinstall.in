@@ -6,6 +6,10 @@
 # $FreeBSD$
 #
 
+if [ "%%MOD_DAV_SVN_INSTALL%%" != "YES" ] ; then
+	exit 0
+fi
+
 if [ "$2" != "POST-DEINSTALL" ]; then
 	exit 0
 fi
