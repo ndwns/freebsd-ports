@@ -629,6 +629,11 @@
     SUBDIR += php5-hash
     SUBDIR += php5-mcrypt
     SUBDIR += php5-openssl
+    SUBDIR += php52-filter
+    SUBDIR += php52-hash
+    SUBDIR += php52-mcrypt
+    SUBDIR += php52-mhash
+    SUBDIR += php52-openssl
     SUBDIR += phpdeadlock
     SUBDIR += phpmyid
     SUBDIR += phpsecinfo
