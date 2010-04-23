@@ -2474,6 +2474,13 @@
     SUBDIR += php52-ncurses
     SUBDIR += php52-pcntl
     SUBDIR += php52-pcre
+    SUBDIR += php52-readline
+    SUBDIR += php52-shmop
+    SUBDIR += php52-spl
+    SUBDIR += php52-sysvmsg
+    SUBDIR += php52-sysvsem
+    SUBDIR += php52-sysvshm
+    SUBDIR += php52-tokenizer
     SUBDIR += phpbt
     SUBDIR += phptags
     SUBDIR += physfs

@@ -1339,6 +1339,8 @@
     SUBDIR += php4-session
     SUBDIR += php5-session
     SUBDIR += php5-tidy
+    SUBDIR += php52-session
+    SUBDIR += php52-tidy
     SUBDIR += phpbb
     SUBDIR += phpbb-devel
     SUBDIR += phpbb3
