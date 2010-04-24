@@ -520,6 +520,7 @@
     SUBDIR += php5-sybase_ct
     SUBDIR += php52-dba
     SUBDIR += php52-dbase
+    SUBDIR += php52-interbase
     SUBDIR += php52-mssql
     SUBDIR += php52-mysql
     SUBDIR += php52-mysqli
@@ -527,6 +528,7 @@
     SUBDIR += php52-odbc
     SUBDIR += php52-pdo
     SUBDIR += php52-pdo_dblib
+    SUBDIR += php52-pdo_firebird
     SUBDIR += php52-pdo_mysql
     SUBDIR += php52-pdo_oci
     SUBDIR += php52-pdo_odbc
