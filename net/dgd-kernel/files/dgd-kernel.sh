@@ -12,7 +12,7 @@ case "$1" in
 		if [ -x "${DGD}" ]; then
 			su ${DGD_USER} -c "${DGD} ${DGD_CONF}" >> "${DGD_LOG}" 2>&1 &
 			echo $(($!+2)) > "${DGD_PID}"
-			echo -n ' dgd'
+			echo -n ' dgd-kernel'
 		fi
 		;;
 	stop)
