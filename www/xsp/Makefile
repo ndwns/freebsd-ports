@@ -3,11 +3,10 @@
 # Whom:				Tom McLaughlin <tmclaugh@sdf.lonestar.org>
 #
 # $FreeBSD$
-#   $Id$
 #
 
 PORTNAME=	xsp
-PORTVERSION=	2.6.4
+PORTVERSION=	2.6.5
 CATEGORIES=	www
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/${PORTNAME}/
 
