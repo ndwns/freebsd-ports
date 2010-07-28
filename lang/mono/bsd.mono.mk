@@ -6,7 +6,6 @@
 # the FreeBSD ports system.
 #
 # $FreeBSD$
-#   $Id$
 #
 
 # USE_NANT		- If set, the port uses nant.

@@ -3,12 +3,10 @@
 # Whom:                Yukihiro Nakai <nakai@FreeBSD.org>
 #
 # $FreeBSD$
-#   $Id$
 #
 
 PORTNAME=	mono
-PORTVERSION=	2.6.4
-PORTREVISION=	1
+PORTVERSION=	2.6.7
 CATEGORIES=	lang
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/${PORTNAME}/
 
