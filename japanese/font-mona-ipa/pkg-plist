@@ -95,10 +95,8 @@
 @dirrmtry %%LOCAL_FONTSDIR%%
 etc/fonts/conf.avail/20-unhint-mona-ipa.conf
 etc/fonts/conf.avail/62-fonts-mona-ipa.conf
-@exec ln -s -f ../conf.avail/20-unhint-mona-ipa.conf %D/etc/fonts/conf.d/20-unhint-mona-ipa.conf
-@exec ln -s -f ../conf.avail/62-fonts-mona-ipa.conf %D/etc/fonts/conf.d/62-fonts-mona-ipa.conf
-@unexec rm -f %D/etc/fonts/conf.d/20-unhint-mona-ipa.conf
-@unexec rm -f %D/etc/fonts/conf.d/62-fonts-mona-ipa.conf
+etc/fonts/conf.d/20-unhint-mona-ipa.conf
+etc/fonts/conf.d/62-fonts-mona-ipa.conf
 %%X_FONTSDIR%%/TTF/ipag-mona.ttf
 %%X_FONTSDIR%%/TTF/ipagp-mona.ttf
 %%X_FONTSDIR%%/TTF/ipagui-mona.ttf
