@@ -3,11 +3,10 @@
 # Whom:				Tom McLaughlin <tmclaugh@sdf.lonestar.org>
 #
 # $FreeBSD$
-#   $Id$
 #
 
 PORTNAME=	tomboy
-PORTVERSION=	1.4.0
+PORTVERSION=	1.4.2
 CATEGORIES=	deskutils gnome
 MASTER_SITES=	GNOME
 DIST_SUBDIR=	gnome2
