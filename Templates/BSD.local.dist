@@ -8,6 +8,8 @@
     bin
     ..
     etc
+        devd
+        ..
         man.d
         ..
         pam.d
