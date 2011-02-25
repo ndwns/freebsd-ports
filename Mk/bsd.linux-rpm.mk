@@ -63,7 +63,7 @@ LINUX_RPM_ARCH?=	${ARCH}
 Linux_RPM_Post_Include=	bsd.linux-rpm.mk
 
 LINUX_DIST?=		fedora
-. if ${OSVERSION} < 800076
+. if ${OSVERSION} < 800076 || ${LINUX_OSRELEASE} == "2.4.2"
 LINUX_DIST_VER?=	4
 . else
 LINUX_DIST_VER?=	10
