@@ -22,6 +22,7 @@ bin/pdf2ps
 bin/pdfopt
 bin/pf2afm
 bin/pfbtopfa
+bin/pphs
 bin/printafm
 bin/ps2ascii
 bin/ps2epsi
