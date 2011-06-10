@@ -43,6 +43,9 @@ include/ghostscript/ierrors.h
 lib/libgs.so
 lib/libgs.so.%%SHLIB_VER%%
 lib/libgs.so.%%GS_VERSION%%
+%%X11BITS%%lib/ghostscript/%%GS_VERSION%%/X11.so
+%%X11BITS%%@dirrm lib/ghostscript/%%GS_VERSION%%
+%%X11BITS%%@dirrmtry lib/ghostscript
 %%DATADIR%%/%%GS_VERSION%%/Resource/CMap/78-EUC-H
 %%DATADIR%%/%%GS_VERSION%%/Resource/CMap/78-EUC-V
 %%DATADIR%%/%%GS_VERSION%%/Resource/CMap/78-H
