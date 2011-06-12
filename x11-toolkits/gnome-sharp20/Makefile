@@ -3,12 +3,10 @@
 # Whom:                 		Tom McLaughlin <tmclaugh@FreeBSD.org>
 #
 # $FreeBSD$
-#   $Id$
 #
 
 PORTNAME=	gnome-sharp
-PORTVERSION=	2.24.1
-PORTREVISION=	5
+PORTVERSION=	2.24.2
 CATEGORIES=	x11-toolkits
 MASTER_SITES=	GNOME
 
