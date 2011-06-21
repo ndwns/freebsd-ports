@@ -13,6 +13,7 @@
 
 # override these variables in /etc/rc.conf
 dhcrelay_enable=${dhcrelay_enable:-"NO"}
+dhcrelay6_enable=${dhcrelay6_enable:-"NO"}
 # dhcrelay_flags=""			# command option(s)
 # dhcrelay_servers=""			# dhcrelay server(s)
 # dhcrelay_ifaces=""			# ethernet interface(s)
