@@ -39,6 +39,10 @@ __FBSDID("$FreeBSD$");
 #include <sys/mman.h>
 #include <sys/resourcevar.h>
 
+#if __FreeBSD_version > 900040
+#include <sys/capability.h>
+#endif
+
 #include <vm/vm.h>
 #include <vm/pmap.h>
 #include <vm/vm_extern.h>
@@ -295,7 +299,12 @@ linux_ioctl_dvb(struct thread *td, struct linux_ioctl_args *args)
 			goto out2;
 		copyout(vp, (void *)uvp, propsiz);
 
-		if ((error = fget(td, args->fd, &fp)) != 0) {
+#if __FreeBSD_version > 900040
+		if ((error = fget(td, args->fd, CAP_IOCTL, &fp)) != 0)
+#else
+		if ((error = fget(td, args->fd, &fp)) != 0)
+#endif
+		{
 			(void)copyout_unmap(td, uvp, propsiz);
 			goto out2;
 		}
@@ -329,6 +338,11 @@ linux_ioctl_dvb(struct thread *td, struct linux_ioctl_args *args)
 	default:			return (ENOIOCTL);
 	}
 
+/* actually r225618 but __FreeBSD_version wasn't bumped */
+#if __FreeBSD_version > 900043
+	error = sys_ioctl(td, (struct ioctl_args *)args);
+#else
 	error = ioctl(td, (struct ioctl_args *)args);
+#endif
 	return (error);
 }
