@@ -58,7 +58,7 @@ pgsql_backup() {
 	now=`date "+%Y-%m-%dT%H:%M:%S"`
 	file=${daily_pgsql_backupdir}/pgglobals_${now}
 	su -l ${daily_pgsql_user} -c \
-		"umask 077; pg_dumpall -g ${daily_pgsql_pgdumpall_globals__args} | gzip -9 > ${file}.gz"
+		"umask 077; pg_dumpall -g ${daily_pgsql_pgdumpall_globals_args} | gzip -9 > ${file}.gz"
 
 	db=$1
 	while shift; do
