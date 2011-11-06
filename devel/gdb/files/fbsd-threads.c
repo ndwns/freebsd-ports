@@ -358,8 +358,11 @@ enable_thread_event_reporting (void)
 
   /* Set the process wide mask saying which events we're interested in.  */
   td_event_emptyset (&events);
-  td_event_addset (&events, TD_CREATE);
-  td_event_addset (&events, TD_DEATH);
+
+/* XXX PR ports/162093
+ * td_event_addset (&events, TD_CREATE);
+ * td_event_addset (&events, TD_DEATH);
+*/
 
   err = td_ta_set_event_p (thread_agent, &events);
   if (err != TD_OK)
@@ -374,6 +377,7 @@ enable_thread_event_reporting (void)
   td_create_bp_addr = 0;
   td_death_bp_addr = 0;
 
+#if 0
   /* Set up the thread creation event.  */
   err = enable_thread_event (thread_agent, TD_CREATE, &td_create_bp_addr);
   if (err != TD_OK)
@@ -391,6 +395,7 @@ enable_thread_event_reporting (void)
 	       thread_db_err_str (err));
       return;
     }
+#endif
 }
 
 static void
