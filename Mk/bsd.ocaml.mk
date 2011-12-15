@@ -34,7 +34,7 @@
 
 .if !defined(OCAML_include)
 
-OCAML_MAINTAINER=	stas@FreeBSD.org
+OCAML_MAINTAINER=	ports@FreeBSD.org
 OCAML_include=		bsd.ocaml.mk
 
 #
