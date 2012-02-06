@@ -3,7 +3,7 @@
 # $FreeBSD$
 
 oopath=%%PREFIX%%/%%INSTALLATION_BASEDIR%%/%%OOODIR%%
-program=`echo $0 | sed -e 's|.*-%%OOOTAG%%-||'`
+program=`echo $0 | sed -e 's|.*-%%SVNREVISION%%-||'`
 
 case $program in
 $0)
