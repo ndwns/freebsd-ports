@@ -22,7 +22,7 @@ name=dbmail_pop3d
 rcvar=dbmail_pop3d_enable
 
 command=%%PREFIX%%/sbin/dbmail-pop3d
-pidfile=/var/run/dbmail-pop3d.pid
+pidfile=/var/run/dbmail/dbmail-pop3d.pid
 required_files=%%PREFIX%%/etc/dbmail.conf
 
 # read settings, set default values

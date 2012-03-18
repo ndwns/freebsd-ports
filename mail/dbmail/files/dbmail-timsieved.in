@@ -19,10 +19,10 @@
 . /etc/rc.subr
 
 name=dbmail_timsieved
-rcvar=dbmail_timsieved_enable
+rcvar=dbmail-timsieved_enable
 
 command=%%PREFIX%%/sbin/dbmail-timsieved
-pidfile=/var/run/dbmail-timsieved.pid
+pidfile=/var/run/dbmail/dbmail-timsieved.pid
 required_files=%%PREFIX%%/etc/dbmail.conf
 
 # read settings, set default values

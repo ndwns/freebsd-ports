@@ -22,7 +22,7 @@ name=dbmail_lmtpd
 rcvar=dbmail_lmtpd_enable
 
 command=%%PREFIX%%/sbin/dbmail-lmtpd
-pidfile=/var/run/dbmail-lmtpd.pid
+pidfile=/var/run/dbmail/dbmail-lmtpd.pid
 required_files=%%PREFIX%%/etc/dbmail.conf
 
 # read settings, set default values
