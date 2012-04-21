@@ -7,6 +7,7 @@ BUILD_DEPENDS+=  ${LOCALBASE}/include/linux/dvb/frontend.h:${PORTSDIR}/multimedi
 BUILD_DEPENDS+=	vdr:${PORTSDIR}/multimedia/vdr
 RUN_DEPENDS+=	vdr:${PORTSDIR}/multimedia/vdr
 
+APIVERSION=	1.7.27
 DIST_SUBDIR=	vdr
 PATCH_SUBDIR=	vdr
 USE_GMAKE=	yes
@@ -28,6 +29,7 @@ VDR_USER=	vdr
 VDR_GROUP=	vdr
 PLIST_SUB=	VDR_USER=${VDR_USER}
 PLIST_SUB+=	VDR_GROUP=${VDR_GROUP}
+PLIST_SUB+=	APIVERSION=${APIVERSION}
 
 .if !defined(WITHOUT_NLS)
 PLIST_SUB+=	NLS=""
