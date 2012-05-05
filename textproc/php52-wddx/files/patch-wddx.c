@@ -1,5 +1,5 @@
---- wddx.c.orig	Sun Jan  1 13:50:16 2006
-+++ wddx.c	Mon Jan 16 12:56:21 2006
+--- ext/wddx/wddx.c.orig	Sun Jan  1 13:50:16 2006
++++ ext/wddx/wddx.c	Mon Jan 16 12:56:21 2006
 @@ -18,6 +18,10 @@
  
  /* $Id$ */
