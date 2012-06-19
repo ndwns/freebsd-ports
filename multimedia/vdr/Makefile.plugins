@@ -7,7 +7,7 @@ BUILD_DEPENDS+=  ${LOCALBASE}/include/linux/dvb/frontend.h:${PORTSDIR}/multimedi
 BUILD_DEPENDS+=	vdr:${PORTSDIR}/multimedia/vdr
 RUN_DEPENDS+=	vdr:${PORTSDIR}/multimedia/vdr
 
-APIVERSION=	1.7.27
+APIVERSION=	1.7.28
 DIST_SUBDIR=	vdr
 PATCH_SUBDIR=	vdr
 USE_GMAKE=	yes
