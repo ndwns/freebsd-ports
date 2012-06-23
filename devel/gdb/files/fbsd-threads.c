@@ -439,6 +439,10 @@ check_for_thread_db (void)
   if (td_ta_new_p == NULL)
     return;
 
+  /* Don't try to attach to a dead target if there is no core file. */
+  if (!target_has_execution && core_bfd == NULL)
+    return;
+
   /* Nothing to do.  The thread library was already detected and the
      target vector was already activated.  */
   if (fbsd_thread_active)
