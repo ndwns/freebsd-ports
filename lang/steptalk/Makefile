@@ -13,10 +13,14 @@ MASTER_SITES=	${MASTER_SITE_GNUSTEP}
 MASTER_SITE_SUBDIR=	libs
 DISTNAME=	StepTalk-${PORTVERSION}
 
-MAINTAINER=	dinoex@FreeBSD.org
+MAINTAINER=	ports@FreeBSD.org
 COMMENT=	The official GNUstep scripting framework
 
 LICENSE=	GPLv2
+
+BROKEN=		does not build with gnustep-base 1.24.0
+DEPRECATED=	API no longer supported
+EXPIRATION_DATE=	2012-07-20
 
 USE_GNUSTEP=	yes
 USE_GNUSTEP_GUI=	yes
